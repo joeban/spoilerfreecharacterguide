@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import mistborn from '../../data/mistborn.json';
+import well from '../../data/well-of-ascension.json';
 
-const books = { mistborn };
+const books = { mistborn, "well-of-ascension": well };
 
 export default function BookPage({ bookData }) {
   const [chapter, setChapter] = useState(1);
@@ -102,7 +103,8 @@ export default function BookPage({ bookData }) {
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: { slug: 'mistborn' } }
+      { params: { slug: 'mistborn' } },
+      { params: { slug: 'well-of-ascension' } }
     ],
     fallback: false
   };
