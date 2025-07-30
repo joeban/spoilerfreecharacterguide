@@ -1,15 +1,16 @@
 import { useState } from 'react';
 import mistborn from '../../data/mistborn.json';
 
-const books = {
-  mistborn
-};
+const books = { mistborn };
 
 export default function BookPage({ bookData }) {
   const [chapter, setChapter] = useState(1);
   const { book, characters, recaps } = bookData;
 
-  const visibleCharacters = characters.filter(c => c.firstAppearance <= chapter);
+  const inChapter = characters.filter(c => c.featuredIn.includes(chapter));
+  const othersSeen = characters.filter(
+    c => c.firstAppearance <= chapter && !c.featuredIn.includes(chapter)
+  );
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -38,9 +39,20 @@ export default function BookPage({ bookData }) {
           <h2 className="text-xl font-medium mb-2">Recap through Chapter {chapter}</h2>
           <p className="text-gray-700 text-base">{recaps[chapter]}</p>
         </section>
+        <section className="mb-6">
+          <h2 className="text-xl font-semibold mb-3">Characters in Chapter {chapter}</h2>
+          {inChapter.length === 0 && <p className="text-gray-500">No major characters appear in this chapter.</p>}
+          {inChapter.map(char => (
+            <div key={char.name} className="bg-white p-4 rounded-lg shadow mb-4">
+              <div className="text-lg font-semibold">{char.name}</div>
+              <div className="text-gray-700">{char.description}</div>
+            </div>
+          ))}
+        </section>
         <section>
-          <h2 className="text-xl font-medium mb-3">Characters Seen So Far</h2>
-          {visibleCharacters.map(char => (
+          <h2 className="text-xl font-semibold mb-3">Other Characters Met So Far</h2>
+          {othersSeen.length === 0 && <p className="text-gray-500">No other characters have been introduced yet.</p>}
+          {othersSeen.map(char => (
             <div key={char.name} className="bg-white p-4 rounded-lg shadow mb-4">
               <div className="text-lg font-semibold">{char.name}</div>
               <div className="text-gray-700">{char.description}</div>
@@ -62,7 +74,5 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const slug = params.slug;
   const bookData = books[slug];
-  return {
-    props: { bookData }
-  };
+  return { props: { bookData } };
 }

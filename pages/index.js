@@ -2,17 +2,13 @@ import { useRouter } from 'next/router';
 
 export default function Home() {
   const router = useRouter();
-
   const books = [
     { title: 'Mistborn: The Final Empire', slug: 'mistborn' }
-    // Future books can be added here
   ];
-
   const handleSelect = (e) => {
     const slug = e.target.value;
     if (slug) router.push(`/book/${slug}`);
   };
-
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 text-gray-900">
       <header className="text-3xl font-semibold mb-6">
