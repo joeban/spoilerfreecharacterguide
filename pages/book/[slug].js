@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import mistborn from '../../data/mistborn.json';
+import stormlight from '../../data/stormlight.json';
 
-const books = { mistborn };
+const books = { mistborn, stormlight };
 
 export default function BookPage({ bookData }) {
   const [chapter, setChapter] = useState(1);
@@ -20,9 +21,9 @@ export default function BookPage({ bookData }) {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col justify-between">
       <div>
-        <header className={`border-b border-gray-200 p-4 text-center text-2xl font-semibold shadow-sm ${book.theme.backgroundEffect}`}>
-          <span className={`${book.theme.primaryColor}`}>Spoiler Free Character Guide</span>
-          <div className={`mt-2 w-32 mx-auto border-b-2 ${book.theme.underlineColor}`}></div>
+        <header className={\`border-b border-gray-200 p-4 text-center text-2xl font-semibold shadow-sm \${book.theme.backgroundEffect}\`}>
+          <span className={book.theme.primaryColor}>Spoiler Free Character Guide</span>
+          <div className={\`mt-2 w-32 mx-auto border-b-2 \${book.theme.underlineColor}\`}></div>
         </header>
         <main className="max-w-3xl mx-auto p-6">
           <h1 className="text-3xl font-light mb-2">{book.title}</h1>
@@ -103,7 +104,7 @@ export default function BookPage({ bookData }) {
 
 export async function getStaticPaths() {
   return {
-    paths: [{ params: { slug: 'mistborn' } }],
+    paths: [{ params: { slug: 'mistborn' } }, { params: { slug: 'stormlight' } }],
     fallback: false
   };
 }

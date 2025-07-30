@@ -1,3 +1,3 @@
-# Spoiler Free Character Guide - Themed Headers
+# Spoiler Free Character Guide - Multiple Themes Demo
 
-Now includes book-specific header theming with a subtle ash-fall effect for Mistborn.
+Mistborn now has ash-fall, Stormlight has soft glow.

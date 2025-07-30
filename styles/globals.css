@@ -6,12 +6,11 @@ body {
   @apply bg-gray-50 text-gray-900;
 }
 
-/* --- Ash Fall Effect for Mistborn --- */
+/* Ash Fall Effect for Mistborn */
 .ash-fall {
   position: relative;
   overflow: hidden;
 }
-
 .ash-fall::before {
   content: "";
   position: absolute;
@@ -24,12 +23,28 @@ body {
   animation: ashFall 10s linear infinite;
   pointer-events: none;
 }
-
 @keyframes ashFall {
-  from {
-    background-position: 0 -50px;
-  }
-  to {
-    background-position: 0 50px;
-  }
+  from { background-position: 0 -50px; }
+  to { background-position: 0 50px; }
+}
+
+/* Stormlight Glow Effect */
+.stormlight-glow {
+  position: relative;
+  overflow: hidden;
+}
+.stormlight-glow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 224, 0.15), transparent 70%);
+  animation: glowPulse 8s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+@keyframes glowPulse {
+  from { opacity: 0.3; }
+  to { opacity: 0.6; }
 }
