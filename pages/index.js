@@ -11,7 +11,9 @@ export default function Home() {
 
   const handleSelect = (e) => {
     const slug = e.target.value;
-    if (slug) router.push(`/book/${slug}`);
+    if (slug) {
+      router.push(`/book/${slug}`);
+    }
   };
 
   return (
@@ -27,11 +29,11 @@ export default function Home() {
           className="px-4 py-2 text-lg border border-gray-300 rounded-md shadow-sm mb-4"
         >
           <option value="" disabled>Select a book...</option>
-          {books.map(book => (
+          {books.map((book) => (
             <option key={book.slug} value={book.slug}>{book.title}</option>
           ))}
         </select>
-        {books.map(book => (
+        {books.map((book) => (
           <a
             key={book.slug}
             href={book.affiliateLink}

@@ -1,3 +1,3 @@
-# Spoiler Free Character Guide - Multiple Themes Demo
+# Spoiler Free Character Guide - Clean Multi-Theme Build
 
-Mistborn now has ash-fall, Stormlight has soft glow.
+Vercel-safe version with Mistborn ash-fall and Stormlight glow themes.
