@@ -1,3 +1,3 @@
-# Spoiler Free Character Guide - Subtle Affiliate Buttons
+# Spoiler Free Character Guide - Affiliate Placeholder Support
 
-Affiliate buttons are now styled in a softer, less distracting way.
+Every book JSON includes an affiliateLink field with a valid link or placeholder.
