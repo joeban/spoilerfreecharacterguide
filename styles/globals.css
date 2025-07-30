@@ -5,3 +5,31 @@
 body {
   @apply bg-gray-50 text-gray-900;
 }
+
+/* --- Ash Fall Effect for Mistborn --- */
+.ash-fall {
+  position: relative;
+  overflow: hidden;
+}
+
+.ash-fall::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(100,100,100,0.15) 1px, transparent 1px);
+  background-size: 3px 3px;
+  animation: ashFall 10s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes ashFall {
+  from {
+    background-position: 0 -50px;
+  }
+  to {
+    background-position: 0 50px;
+  }
+}

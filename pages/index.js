@@ -32,7 +32,7 @@ export default function Home() {
         {books.map(book => (
           <a
             key={book.slug}
-            href={book.affiliateLink || "https://www.amazon.com?tag=profitfirstre-20"}
+            href={book.affiliateLink}
             target="_blank"
             rel="noopener noreferrer"
             className="px-3 py-2 border border-gray-300 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200 transition"

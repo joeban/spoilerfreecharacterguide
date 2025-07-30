@@ -1,3 +1,3 @@
-# Spoiler Free Character Guide - Affiliate Placeholder Support
+# Spoiler Free Character Guide - Themed Headers
 
-Every book JSON includes an affiliateLink field with a valid link or placeholder.
+Now includes book-specific header theming with a subtle ash-fall effect for Mistborn.
