@@ -11,9 +11,7 @@ export default function Home() {
 
   const handleSelect = (e) => {
     const slug = e.target.value;
-    if (slug) {
-      router.push(`/book/${slug}`);
-    }
+    if (slug) router.push(`/book/${slug}`);
   };
 
   return (
