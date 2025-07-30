@@ -24,6 +24,14 @@ export default function BookPage({ bookData }) {
       </header>
       <main className="max-w-3xl mx-auto p-6">
         <h1 className="text-3xl font-light mb-2">{book.title}</h1>
+        <a
+          href={book.affiliateLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mb-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+        >
+          Buy on Amazon
+        </a>
         <p className="text-gray-600 mb-6">
           Choose your chapter to see only the characters you’ve met so far — no spoilers ahead.
         </p>

@@ -1,3 +1,3 @@
-# Spoiler Free Character Guide with Tiered Descriptions and Toggle Recaps
+# Spoiler Free Character Guide with Amazon Affiliate Links
 
-This project uses Next.js and TailwindCSS.
+This project now includes affiliate links for books.
