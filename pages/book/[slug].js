@@ -5,7 +5,12 @@ const books = { mistborn };
 
 export default function BookPage({ bookData }) {
   const [chapter, setChapter] = useState(1);
+  const [showRecap, setShowRecap] = useState(false);
   const { book, characters, recaps } = bookData;
+
+  function getDescriptionForChapter(descriptions, chapter) {
+    return descriptions.find(d => chapter >= d.startChapter && chapter <= d.endChapter)?.text;
+  }
 
   const inChapter = characters.filter(c => c.featuredIn.includes(chapter));
   const othersSeen = characters.filter(
@@ -25,7 +30,7 @@ export default function BookPage({ bookData }) {
         <div className="mb-6">
           <select
             value={chapter}
-            onChange={(e) => setChapter(parseInt(e.target.value, 10))}
+            onChange={(e) => {setChapter(parseInt(e.target.value, 10)); setShowRecap(false);}}
             className="px-4 py-2 text-lg border border-gray-300 rounded-md shadow-sm"
           >
             {[...Array(book.totalChapters)].map((_, idx) => (
@@ -37,7 +42,25 @@ export default function BookPage({ bookData }) {
         </div>
         <section className="bg-white p-5 rounded-lg shadow mb-6">
           <h2 className="text-xl font-medium mb-2">Recap through Chapter {chapter}</h2>
-          <p className="text-gray-700 text-base">{recaps[chapter]}</p>
+          {!showRecap && (
+            <button
+              onClick={() => setShowRecap(true)}
+              className="px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+            >
+              Show Recap
+            </button>
+          )}
+          {showRecap && (
+            <div>
+              <p className="text-gray-700 text-base mb-2">{recaps[chapter]}</p>
+              <button
+                onClick={() => setShowRecap(false)}
+                className="px-3 py-2 bg-gray-300 text-gray-900 rounded-md hover:bg-gray-400"
+              >
+                Hide Recap
+              </button>
+            </div>
+          )}
         </section>
         <section className="mb-6">
           <h2 className="text-xl font-semibold mb-3">Characters in Chapter {chapter}</h2>
@@ -45,7 +68,7 @@ export default function BookPage({ bookData }) {
           {inChapter.map(char => (
             <div key={char.name} className="bg-white p-4 rounded-lg shadow mb-4">
               <div className="text-lg font-semibold">{char.name}</div>
-              <div className="text-gray-700">{char.description}</div>
+              <div className="text-gray-700">{getDescriptionForChapter(char.descriptions, chapter)}</div>
             </div>
           ))}
         </section>
@@ -55,7 +78,7 @@ export default function BookPage({ bookData }) {
           {othersSeen.map(char => (
             <div key={char.name} className="bg-white p-4 rounded-lg shadow mb-4">
               <div className="text-lg font-semibold">{char.name}</div>
-              <div className="text-gray-700">{char.description}</div>
+              <div className="text-gray-700">{getDescriptionForChapter(char.descriptions, chapter)}</div>
             </div>
           ))}
         </section>
