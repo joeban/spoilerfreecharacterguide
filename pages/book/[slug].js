@@ -28,7 +28,7 @@ export default function BookPage({ bookData }) {
           href={book.affiliateLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mb-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+          className="inline-block mb-4 px-4 py-2 border border-gray-300 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200 transition"
         >
           Buy on Amazon
         </a>
@@ -53,7 +53,7 @@ export default function BookPage({ bookData }) {
           {!showRecap && (
             <button
               onClick={() => setShowRecap(true)}
-              className="px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+              className="px-3 py-2 border border-gray-300 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200 transition"
             >
               Show Recap
             </button>
@@ -63,7 +63,7 @@ export default function BookPage({ bookData }) {
               <p className="text-gray-700 text-base mb-2">{recaps[chapter]}</p>
               <button
                 onClick={() => setShowRecap(false)}
-                className="px-3 py-2 bg-gray-300 text-gray-900 rounded-md hover:bg-gray-400"
+                className="px-3 py-2 border border-gray-300 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200 transition"
               >
                 Hide Recap
               </button>

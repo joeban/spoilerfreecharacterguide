@@ -1,3 +1,3 @@
-# Spoiler Free Character Guide with Amazon Affiliate Links
+# Spoiler Free Character Guide - Subtle Affiliate Buttons
 
-This project now includes affiliate links for books.
+Affiliate buttons are now styled in a softer, less distracting way.

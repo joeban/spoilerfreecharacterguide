@@ -34,7 +34,7 @@ export default function Home() {
           href={book.affiliateLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 underline"
+          className="px-3 py-2 border border-gray-300 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200 transition"
         >
           Buy {book.title} on Amazon
         </a>
