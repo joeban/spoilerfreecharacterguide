@@ -1,12 +1,10 @@
 import { useRouter } from 'next/router';
 import mistborn from '../data/mistborn.json';
-import stormlight from '../data/stormlight.json';
 
 export default function Home() {
   const router = useRouter();
   const books = [
-    { title: mistborn.book.title, slug: 'mistborn' },
-    { title: stormlight.book.title, slug: 'stormlight' }
+    { title: mistborn.book.title, slug: 'mistborn' }
   ];
 
   const handleSelect = (e) => {

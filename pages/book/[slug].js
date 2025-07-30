@@ -1,13 +1,21 @@
 import { useState } from 'react';
 import mistborn from '../../data/mistborn.json';
-import stormlight from '../../data/stormlight.json';
 
-const books = { mistborn, stormlight };
+const books = { mistborn };
 
 export default function BookPage({ bookData }) {
   const [chapter, setChapter] = useState(1);
   const [showRecap, setShowRecap] = useState(false);
-  const { book, recaps } = bookData;
+  const { book, characters, recaps } = bookData;
+
+  function getDescriptionForChapter(descriptions, chapter) {
+    return descriptions.find(d => chapter >= d.startChapter && chapter <= d.endChapter)?.text;
+  }
+
+  const inChapter = characters.filter(c => c.featuredIn.includes(chapter));
+  const othersSeen = characters.filter(
+    c => c.firstAppearance <= chapter && !c.featuredIn.includes(chapter)
+  );
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col justify-between">
@@ -61,6 +69,26 @@ export default function BookPage({ bookData }) {
               </div>
             )}
           </section>
+          <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-3">Characters in Chapter {chapter}</h2>
+            {inChapter.length === 0 && <p className="text-gray-500">No major characters appear in this chapter.</p>}
+            {inChapter.map(char => (
+              <div key={char.name} className="bg-white p-4 rounded-lg shadow mb-4">
+                <div className="text-lg font-semibold">{char.name}</div>
+                <div className="text-gray-700">{getDescriptionForChapter(char.descriptions, chapter)}</div>
+              </div>
+            ))}
+          </section>
+          <section>
+            <h2 className="text-xl font-semibold mb-3">Other Characters Met So Far</h2>
+            {othersSeen.length === 0 && <p className="text-gray-500">No other characters have been introduced yet.</p>}
+            {othersSeen.map(char => (
+              <div key={char.name} className="bg-white p-4 rounded-lg shadow mb-4">
+                <div className="text-lg font-semibold">{char.name}</div>
+                <div className="text-gray-700">{getDescriptionForChapter(char.descriptions, chapter)}</div>
+              </div>
+            ))}
+          </section>
         </main>
       </div>
       <footer className="text-xs text-gray-500 mt-8 mb-4 text-center px-4">
@@ -74,8 +102,7 @@ export default function BookPage({ bookData }) {
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: { slug: 'mistborn' } },
-      { params: { slug: 'stormlight' } }
+      { params: { slug: 'mistborn' } }
     ],
     fallback: false
   };
