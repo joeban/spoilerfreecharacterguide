@@ -5,8 +5,8 @@ import stormlight from '../data/stormlight.json';
 export default function Home() {
   const router = useRouter();
   const books = [
-    { title: mistborn.book.title, slug: 'mistborn', affiliateLink: mistborn.book.affiliateLink },
-    { title: stormlight.book.title, slug: 'stormlight', affiliateLink: stormlight.book.affiliateLink }
+    { title: mistborn.book.title, slug: 'mistborn' },
+    { title: stormlight.book.title, slug: 'stormlight' }
   ];
 
   const handleSelect = (e) => {
@@ -33,17 +33,6 @@ export default function Home() {
             <option key={book.slug} value={book.slug}>{book.title}</option>
           ))}
         </select>
-        {books.map((book) => (
-          <a
-            key={book.slug}
-            href={book.affiliateLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-3 py-2 border border-gray-300 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-200 transition"
-          >
-            Buy {book.title} on Amazon
-          </a>
-        ))}
       </div>
       <footer className="text-xs text-gray-500 mt-8 mb-4 text-center px-4">
         Disclosure: As an Amazon Associate, I earn from qualifying purchases.

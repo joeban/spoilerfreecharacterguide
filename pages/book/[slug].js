@@ -96,7 +96,8 @@ export default function BookPage({ bookData }) {
         </main>
       </div>
       <footer className="text-xs text-gray-500 mt-8 mb-4 text-center px-4">
-        Disclosure: As an Amazon Associate, I earn from qualifying purchases.
+        Disclosure: As an Amazon Associate, I earn from qualifying purchases.<br/>
+        <a href="mailto:spoilerfreecharacterguide@gmail.com" className="underline text-blue-700">Submit a correction</a>
       </footer>
     </div>
   );
