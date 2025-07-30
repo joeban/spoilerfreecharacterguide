@@ -9,24 +9,11 @@ export default function BookPage({ bookData }) {
   const [showRecap, setShowRecap] = useState(false);
   const { book, recaps } = bookData;
 
-  // Determine if Mistborn theme for banner image
-  const headerStyle = book.theme.backgroundEffect === 'mistborn-banner'
-    ? {
-        backgroundImage: 'url(/mistborn-header.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }
-    : {};
-
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col justify-between">
       <div>
-        <header
-          className={"border-b border-gray-200 p-4 text-center text-2xl font-semibold shadow-sm " + book.theme.backgroundEffect}
-          style={headerStyle}
-        >
-          <span className={book.theme.primaryColor + " drop-shadow-md"}>Spoiler Free Character Guide</span>
-          <div className={"mt-2 w-32 mx-auto border-b-2 " + book.theme.underlineColor}></div>
+        <header className="w-full bg-white border-b border-gray-200 p-4 text-center text-3xl font-semibold shadow-sm">
+          Spoiler Free Character Guide
         </header>
         <main className="max-w-3xl mx-auto p-6">
           <h1 className="text-3xl font-light mb-2">{book.title}</h1>

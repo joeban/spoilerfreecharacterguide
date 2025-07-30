@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-between bg-gray-50 text-gray-900">
       <div className="flex flex-col items-center justify-center">
-        <header className="text-3xl font-semibold mb-6">
+        <header className="w-full bg-white border-b border-gray-200 p-4 text-center text-3xl font-semibold shadow-sm">
           Spoiler Free Character Guide
         </header>
-        <p className="text-lg text-gray-600 mb-4">Choose a book to get started</p>
+        <p className="text-lg text-gray-600 mt-6 mb-4">Choose a book to get started</p>
         <select
           onChange={handleSelect}
           defaultValue=""
