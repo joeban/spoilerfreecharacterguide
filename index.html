@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spoiler-Free Character Guide</title>
+    <meta name="description" content="Navigate your favorite fantasy worlds without fear of spoilers. Character guides organized by chapter to avoid spoilers.">
+    <meta name="keywords" content="book spoilers, character guide, fantasy books, mistborn, harry potter, reading guide">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #2c1810 0%, #1a0f08 100%);
+            color: #f4f1e8;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #d4af37;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #b8a082;
+            font-style: italic;
+        }
+
+        .breadcrumb {
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            color: #b8a082;
+        }
+
+        .breadcrumb a {
+            color: #d4af37;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .bookshelf {
+            background: linear-gradient(180deg, #8b4513 0%, #654321 50%, #4a2c17 100%);
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .bookshelf::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: #d4af37;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            justify-items: center;
+        }
+
+        .book {
+            width: 100px;
+            height: 140px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+        }
+
+        .book:hover {
+            transform: translateY(-10px) rotateY(10deg);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+        }
+
+        .book.mistborn { background: linear-gradient(45deg, #8B0000, #CD5C5C); }
+        .book.harry-potter { background: linear-gradient(45deg, #722F37, #B8860B); }
+        .book.dune { background: linear-gradient(45deg, #D2691E, #F4A460); }
+        .book.lotr { background: linear-gradient(45deg, #228B22, #32CD32); }
+        .book.wheel-of-time { background: linear-gradient(45deg, #4B0082, #8A2BE2); }
+        .book.stormlight { background: linear-gradient(45deg, #1E90FF, #87CEEB); }
+
+        .book-page {
+            background: #2a1810;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+        }
+
+        .chapter-controls {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .chapter-select {
+            padding: 10px 15px;
+            font-size: 1rem;
+            background: #3a2418;
+            color: #f4f1e8;
+            border: 2px solid #d4af37;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .chapter-summary {
+            background: #3a2418;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border: 1px solid #5a4128;
+        }
+
+        .summary-header {
+            padding: 15px 20px;
+            background: #4a2c17;
+            border-radius: 8px 8px 0 0;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #5a4128;
+        }
+
+        .summary-header:hover {
+            background: #5a3520;
+        }
+
+        .summary-content {
+            padding: 20px;
+            display: none;
+            font-style: italic;
+            color: #d0c4a8;
+        }
+
+        .summary-content.show {
+            display: block;
+        }
+
+        .characters-section h2 {
+            color: #d4af37;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .characters-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .character-card {
+            background: #3a2418;
+            border-radius: 8px;
+            padding: 20px;
+            border-left: 4px solid #d4af37;
+            transition: transform 0.2s ease;
+        }
+
+        .character-card:hover {
+            transform: translateX(5px);
+        }
+
+        .character-card.current-chapter {
+            border-left-color: #ff6b35;
+            background: #3d2a1c;
+        }
+
+        .character-name {
+            font-size: 1.3rem;
+            color: #d4af37;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .character-card.current-chapter .character-name {
+            color: #ff6b35;
+        }
+
+        .character-description {
+            color: #d0c4a8;
+            line-height: 1.6;
+        }
+
+        .current-chapter-label {
+            background: #ff6b35;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .hidden { display: none; }
+
+        @media (max-width: 768px) {
+            .books-grid {
+                grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            }
+            
+            .book {
+                width: 80px;
+                height: 120px;
+                font-size: 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Spoiler-Free Character Guide</h1>
+            <p class="subtitle">Navigate your favorite fantasy worlds without fear of spoilers</p>
+        </header>
+
+        <div class="breadcrumb" id="breadcrumb"></div>
+
+        <!-- Home Page -->
+        <div id="home-page">
+            <div class="bookshelf">
+                <div class="books-grid">
+                    <div class="book mistborn" onclick="showSeries('mistborn')">
+                        <span>Mistborn</span>
+                    </div>
+                    <div class="book harry-potter" onclick="showSeries('harry-potter')">
+                        <span>Harry Potter</span>
+                    </div>
+                    <div class="book dune" onclick="showSeries('dune')">
+                        <span>Dune</span>
+                    </div>
+                    <div class="book lotr" onclick="showSeries('lotr')">
+                        <span>Lord of the Rings</span>
+                    </div>
+                    <div class="book wheel-of-time" onclick="showSeries('wheel-of-time')">
+                        <span>Wheel of Time</span>
+                    </div>
+                    <div class="book stormlight" onclick="showSeries('stormlight')">
+                        <span>Stormlight Archive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Series Page -->
+        <div id="series-page" class="hidden">
+            <div class="bookshelf">
+                <div class="books-grid" id="series-books"></div>
+            </div>
+        </div>
+
+        <!-- Book Page -->
+        <div id="book-page" class="hidden">
+            <div class="book-page">
+                <div class="chapter-controls">
+                    <label for="chapter-select">Choose your chapter: </label>
+                    <select id="chapter-select" class="chapter-select" onchange="updateChapter()">
+                        <!-- Options populated by JavaScript -->
+                    </select>
+                </div>
+
+                <div class="chapter-summary">
+                    <div class="summary-header" onclick="toggleSummary()">
+                        <span>Chapter Summary (Click to reveal - Spoiler Warning!)</span>
+                        <span id="summary-arrow">▼</span>
+                    </div>
+                    <div class="summary-content" id="summary-content">
+                        <!-- Summary populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="characters-section">
+                    <h2>Characters</h2>
+                    <div class="characters-grid" id="characters-grid">
+                        <!-- Characters populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Sample data structure
+        const booksData = {
+            'mistborn': {
+                title: 'Mistborn',
+                books: {
+                    'final-empire': { 
+                        title: 'The Final Empire',
+                        chapters: 38,
+                        characters: {
+                            'vin': {
+                                name: 'Vin',
+                                appearsInChapters: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38],
+                                descriptions: {
+                                    1: "A young thief from the streets of Luthadel who has lived a harsh life under her brother's crew. She discovers she has magical abilities and is recruited by a mysterious nobleman named Kelsier.",
+                                    5: "A young thief who has joined Kelsier's thieving crew and is learning about her Allomantic powers. She struggles with trusting others and finding her place among the crew.",
+                                    10: "A street thief turned noblewoman who is learning to navigate high society while training her Allomantic abilities. She poses as Valette Renoux to infiltrate noble society.",
+                                    15: "An Allomancer posing as noblewoman Valette Renoux who has grown more confident in her powers and social skills. She finds herself torn between her growing feelings for Elend and her loyalty to the crew.",
+                                    25: "A powerful Mistborn who has fully embraced her abilities and her role in Kelsier's plan to overthrow the Final Empire. She struggles with the violence required and her deepening relationship with Elend.",
+                                    35: "A skilled Mistborn who has become central to the rebellion against the Lord Ruler. She faces the ultimate test of her powers and must make difficult choices about her future and the fate of the empire."
+                                }
+                            },
+                            'kelsier': {
+                                name: 'Kelsier',
+                                appearsInChapters: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
+                                descriptions: {
+                                    1: "A legendary thief and Mistborn known as the 'Survivor of Hathsin' who escaped the Lord Ruler's prison camps. He recruits Vin and plans an impossible heist to overthrow the immortal emperor.",
+                                    10: "The charismatic leader of a thieving crew who is training Vin in Allomancy while planning to steal the Lord Ruler's treasury. He carries deep hatred for the nobility and the Final Empire.",
+                                    20: "A powerful Mistborn leading a complex plan to destabilize the Final Empire through both theft and rebellion. He becomes increasingly radical in his methods and beliefs about overthrowing the social order.",
+                                    30: "The legendary Survivor whose plan to overthrow the Lord Ruler reaches its climax. His actions set in motion events that will forever change the Final Empire and leave a lasting impact on all who knew him."
+                                }
+                            },
+                            'elend': {
+                                name: 'Elend Venture',
+                                appearsInChapters: [6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38],
+                                descriptions: {
+                                    6: "A young nobleman and heir to House Venture who is idealistic and dreams of political reform. He's often found reading philosophy books at noble parties instead of socializing.",
+                                    15: "An idealistic nobleman who has grown close to Valette Renoux (Vin) and shares his dreams of creating a better government. He remains unaware of her true identity as a thief and Mistborn.",
+                                    25: "A nobleman torn between his growing love for Valette and his duty to his house during the growing chaos in Luthadel. He continues to advocate for political reform despite the dangerous times.",
+                                    35: "A young nobleman who discovers Valette's true identity as Vin and must reconcile his feelings with the reality of her role in the rebellion. He faces the collapse of his world and the challenge of his idealistic beliefs."
+                                }
+                            }
+                        },
+                        chapterSummaries: {
+                            1: "Vin, a street thief, witnesses her thieving crew's interaction with a mysterious nobleman who demonstrates magical powers.",
+                            5: "Vin begins training with Kelsier's crew and learns about her Allomantic abilities while struggling to trust her new companions.",
+                            10: "Vin, now posing as noblewoman Valette Renoux, attends her first ball and meets the idealistic Elend Venture.",
+                            15: "The crew's plans advance as Vin grows more comfortable in noble society and her relationship with Elend deepens.",
+                            25: "Tensions rise in Luthadel as the crew's activities draw attention and Vin must balance her growing powers with difficult moral choices.",
+                            35: "The final confrontation approaches as Vin faces the Lord Ruler and the truth about the prophecies and her destiny."
+                        }
+                    }
+                }
+            },
+            'harry-potter': {
+                title: 'Harry Potter',
+                books: {
+                    'philosophers-stone': {
+                        title: "Harry Potter and the Philosopher's Stone",
+                        chapters: 17,
+                        characters: {
+                            'harry': {
+                                name: 'Harry Potter',
+                                appearsInChapters: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],
+                                descriptions: {
+                                    1: "An eleven-year-old boy living with his cruel aunt and uncle who discovers he's a wizard. He learns he's famous in the wizarding world for surviving an attack by the dark wizard Voldemort as a baby.",
+                                    5: "A first-year Hogwarts student learning about magic and making his first real friends in Ron and Hermione. He struggles with his sudden fame and adapting to the magical world.",
+                                    10: "A young wizard who has settled into life at Hogwarts and excels at Quidditch, the wizarding sport. He begins to uncover mysteries about a hidden object in the school and his connection to Voldemort.",
+                                    17: "A brave first-year who has faced Voldemort again and prevented him from returning to power through the Philosopher's Stone. He has proven himself worthy of Gryffindor house and strengthened his friendships."
+                                }
+                            },
+                            'hermione': {
+                                name: 'Hermione Granger',
+                                appearsInChapters: [6,7,8,9,10,11,12,13,14,15,16,17],
+                                descriptions: {
+                                    6: "A brilliant first-year student from a non-magical family who has read extensively about magic before arriving at Hogwarts. She initially struggles to make friends due to her know-it-all attitude.",
+                                    10: "A dedicated student who has become close friends with Harry and Ron after they saved her from a mountain troll. She uses her extensive knowledge to help solve magical mysteries and challenges.",
+                                    17: "A loyal friend whose intelligence and magical knowledge proved crucial in protecting the Philosopher's Stone. She has overcome her initial social awkwardness and become an integral part of the trio."
+                                }
+                            },
+                            'ron': {
+                                name: 'Ron Weasley',
+                                appearsInChapters: [6,7,8,9,10,11,12,13,14,15,16,17],
+                                descriptions: {
+                                    6: "A first-year student from a large wizarding family who befriends Harry on the Hogwarts Express. He struggles with feeling overshadowed by his accomplished siblings and his family's financial struggles.",
+                                    10: "Harry's loyal best friend who provides emotional support and knowledge about wizarding culture. He proves his bravery despite often feeling inadequate compared to his friends' abilities.",
+                                    17: "A brave and loyal friend who played a crucial role in protecting the Philosopher's Stone through his chess skills. He has grown in confidence and proven his worth beyond his family's expectations."
+                                }
+                            }
+                        },
+                        chapterSummaries: {
+                            1: "Harry Potter, living with his cruel relatives, receives his Hogwarts letter and learns he's a wizard.",
+                            6: "Harry travels to Hogwarts and is sorted into Gryffindor house, meeting Ron Weasley and Hermione Granger.",
+                            10: "Harry excels at Quidditch while mysterious events unfold at the school involving a hidden object.",
+                            17: "Harry faces Professor Quirrell and Voldemort in the final confrontation over the Philosopher's Stone."
+                        }
+                    }
+                }
+            }
+        };
+
+        let currentSeries = null;
+        let currentBook = null;
+        let currentChapter = 1;
+
+        function updateBreadcrumb() {
+            const breadcrumb = document.getElementById('breadcrumb');
+            let html = '<a href="#" onclick="showHome()">Home</a>';
+            
+            if (currentSeries) {
+                html += ` > <a href="#" onclick="showSeries('${currentSeries}')">${booksData[currentSeries].title}</a>`;
+            }
+            
+            if (currentBook) {
+                html += ` > ${booksData[currentSeries].books[currentBook].title}`;
+                if (currentChapter > 1) {
+                    html += ` > Chapter ${currentChapter}`;
+                }
+            }
+            
+            breadcrumb.innerHTML = html;
+        }
+
+        function showHome() {
+            document.getElementById('home-page').classList.remove('hidden');
+            document.getElementById('series-page').classList.add('hidden');
+            document.getElementById('book-page').classList.add('hidden');
+            currentSeries = null;
+            currentBook = null;
+            currentChapter = 1;
+            updateBreadcrumb();
+        }
+
+        function showSeries(seriesId) {
+            currentSeries = seriesId;
+            currentBook = null;
+            currentChapter = 1;
+            
+            const seriesData = booksData[seriesId];
+            const seriesBooks = document.getElementById('series-books');
+            
+            seriesBooks.innerHTML = '';
+            Object.keys(seriesData.books).forEach(bookId => {
+                const book = seriesData.books[bookId];
+                const bookElement = document.createElement('div');
+                bookElement.className = `book ${seriesId}`;
+                bookElement.innerHTML = `<span>${book.title}</span>`;
+                bookElement.onclick = () => showBook(bookId);
+                seriesBooks.appendChild(bookElement);
+            });
+            
+            document.getElementById('home-page').classList.add('hidden');
+            document.getElementById('series-page').classList.remove('hidden');
+            document.getElementById('book-page').classList.add('hidden');
+            updateBreadcrumb();
+        }
+
+        function showBook(bookId) {
+            currentBook = bookId;
+            currentChapter = 1;
+            
+            const bookData = booksData[currentSeries].books[bookId];
+            const chapterSelect = document.getElementById('chapter-select');
+            
+            // Populate chapter dropdown
+            chapterSelect.innerHTML = '';
+            for (let i = 1; i <= bookData.chapters; i++) {
+                const option = document.createElement('option');
+                option.value = i;
+                option.textContent = `Chapter ${i}`;
+                chapterSelect.appendChild(option);
+            }
+            
+            document.getElementById('home-page').classList.add('hidden');
+            document.getElementById('series-page').classList.add('hidden');
+            document.getElementById('book-page').classList.remove('hidden');
+            
+            updateChapter();
+            updateBreadcrumb();
+        }
+
+        function updateChapter() {
+            const chapter = parseInt(document.getElementById('chapter-select').value);
+            currentChapter = chapter;
+            
+            const bookData = booksData[currentSeries].books[currentBook];
+            
+            // Update chapter summary
+            const summaryContent = document.getElementById('summary-content');
+            const summary = bookData.chapterSummaries[chapter] || `Chapter ${chapter} summary not available.`;
+            summaryContent.textContent = summary;
+            
+            // Update characters
+            const charactersGrid = document.getElementById('characters-grid');
+            charactersGrid.innerHTML = '';
+            
+            // Get all characters that have appeared up to this chapter
+            const availableCharacters = [];
+            Object.keys(bookData.characters).forEach(charId => {
+                const character = bookData.characters[charId];
+                const hasAppeared = character.appearsInChapters.some(ch => ch <= chapter);
+                if (hasAppeared) {
+                    availableCharacters.push({
+                        id: charId,
+                        data: character,
+                        inCurrentChapter: character.appearsInChapters.includes(chapter)
+                    });
+                }
+            });
+            
+            // Sort: current chapter characters first
+            availableCharacters.sort((a, b) => {
+                if (a.inCurrentChapter && !b.inCurrentChapter) return -1;
+                if (!a.inCurrentChapter && b.inCurrentChapter) return 1;
+                return 0;
+            });
+            
+            // Display characters
+            availableCharacters.forEach(char => {
+                const characterCard = document.createElement('div');
+                characterCard.className = 'character-card' + (char.inCurrentChapter ? ' current-chapter' : '');
+                
+                // Get the most recent description for this chapter
+                let description = '';
+                const descriptions = char.data.descriptions;
+                let bestChapter = 1;
+                Object.keys(descriptions).forEach(ch => {
+                    const chNum = parseInt(ch);
+                    if (chNum <= chapter && chNum >= bestChapter) {
+                        bestChapter = chNum;
+                        description = descriptions[ch];
+                    }
+                });
+                
+                characterCard.innerHTML = `
+                    <div class="character-name">
+                        ${char.data.name}
+                        ${char.inCurrentChapter ? '<span class="current-chapter-label">This Chapter</span>' : ''}
+                    </div>
+                    <div class="character-description">${description}</div>
+                `;
+                
+                charactersGrid.appendChild(characterCard);
+            });
+            
+            updateBreadcrumb();
+        }
+
+        function toggleSummary() {
+            const content = document.getElementById('summary-content');
+            const arrow = document.getElementById('summary-arrow');
+            
+            if (content.classList.contains('show')) {
+                content.classList.remove('show');
+                arrow.textContent = '▼';
+            } else {
+                content.classList.add('show');
+                arrow.textContent = '▲';
+            }
+        }
+
+        // Initialize
+        showHome();
+    </script>
+</body>
+</html>
