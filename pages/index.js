@@ -1,21 +1,9 @@
-import Link from 'next/link';
-import mistborn from '../data/mistborn.json';
-import well from '../data/well-of-ascension.json';
-import hero from '../data/hero-of-ages.json';
-import alloy from '../data/alloy-of-law.json';
-import shadows from '../data/shadows-of-self.json';
-import bands from '../data/bands-of-mourning.json';
-import lost from '../data/lost-metal.json';
+import BookButton from '../components/BookButton';
 
 export default function Home() {
-  const books = [
-    { title: mistborn.book.title, slug: 'mistborn' },
-    { title: well.book.title, slug: 'well-of-ascension' },
-    { title: hero.book.title, slug: 'hero-of-ages' },
-    { title: alloy.book.title, slug: 'alloy-of-law' },
-    { title: shadows.book.title, slug: 'shadows-of-self' },
-    { title: bands.book.title, slug: 'bands-of-mourning' },
-    { title: lost.book.title, slug: 'lost-metal' }
+  const series = [
+    { name: 'Mistborn', slug: 'mistborn', color: '#6b2c2c' },
+    { name: 'Harry Potter', slug: 'sorcerers-stone', color: '#1e3a8a' }
   ];
 
   return (
@@ -25,21 +13,12 @@ export default function Home() {
         <p className="text-lg text-gray-600">Your safe guide to epic stories</p>
       </header>
 
-      <main className="max-w-xl mx-auto page-card">
-        <div>
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Choose a book to get started!</h2>
-          <ul className="space-y-3">
-            {books.map((book) => (
-              <li key={book.slug}>
-                <Link
-                  href={`/book/${book.slug}`}
-                  className="block p-4 rounded-lg border border-gray-200 hover:bg-gray-100 transition text-lg text-center font-medium"
-                >
-                  {book.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
+      <main className="max-w-5xl mx-auto">
+        <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Choose a series to get started!</h2>
+        <div className="flex flex-wrap gap-6 justify-center">
+          {series.map((s) => (
+            <BookButton key={s.slug} seriesName={s.name} slug={s.slug} color={s.color} />
+          ))}
         </div>
       </main>
     </div>
