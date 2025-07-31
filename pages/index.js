@@ -4,6 +4,7 @@ import well from '../data/well-of-ascension.json';
 import hero from '../data/hero-of-ages.json';
 import alloy from '../data/alloy-of-law.json';
 import shadows from '../data/shadows-of-self.json';
+import bands from '../data/bands-of-mourning.json';
 
 export default function Home() {
   const router = useRouter();

@@ -4,8 +4,9 @@ import well from '../../data/well-of-ascension.json';
 import hero from '../../data/hero-of-ages.json';
 import alloy from '../../data/alloy-of-law.json';
 import shadows from '../../data/shadows-of-self.json';
+import bands from '../../data/bands-of-mourning.json';
 
-const books = { mistborn, "well-of-ascension": well, "hero-of-ages": hero, "alloy-of-law": alloy, "shadows-of-self": shadows };
+const books = { mistborn, "well-of-ascension": well, "hero-of-ages": hero, "alloy-of-law": alloy, "shadows-of-self": shadows, "bands-of-mourning": bands };
 
 export default function BookPage({ bookData }) {
   const [chapter, setChapter] = useState(1);
@@ -115,7 +116,8 @@ export async function getStaticPaths() {
       { params: { slug: 'well-of-ascension' } },
       { params: { slug: 'hero-of-ages' } },
       { params: { slug: 'alloy-of-law' } },
-      { params: { slug: 'shadows-of-self' } }
+      { params: { slug: 'shadows-of-self' } },
+      { params: { slug: 'bands-of-mourning' } }
     ],
     fallback: false
   };
