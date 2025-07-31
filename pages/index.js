@@ -1,9 +1,14 @@
 import BookButton from '../components/BookButton';
 
 export default function Home() {
+  // Color palette for series
   const series = [
-    { name: 'Mistborn', slug: 'mistborn', color: '#6b2c2c' },
-    { name: 'Harry Potter', slug: 'harry-potter', color: '#1e3a8a' }
+    { name: 'Mistborn', slug: 'series/mistborn', color: '#6B2C2C' }, // deep burgundy
+    { name: 'Harry Potter', slug: 'series/harry-potter', color: '#1E3A8A' }, // deep navy
+    { name: 'Stormlight Archive', slug: 'series/stormlight-archive', color: '#2E4057' }, // slate blue
+    { name: 'Wheel of Time', slug: 'series/wheel-of-time', color: '#264D3B' }, // dark green
+    { name: 'Lord of the Rings', slug: 'series/lord-of-the-rings', color: '#3E4E32' }, // deep forest
+    { name: 'Dune', slug: 'series/dune', color: '#7A4A21' } // ochre
   ];
 
   return (
@@ -17,7 +22,7 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Choose a series to get started!</h2>
         <div className="flex flex-wrap gap-6 justify-center">
           {series.map((s) => (
-            <BookButton key={s.slug} seriesName={s.name} slug={`series/${s.slug}`} color={s.color} />
+            <BookButton key={s.slug} seriesName={s.name} slug={s.slug} color={s.color} />
           ))}
         </div>
       </main>
