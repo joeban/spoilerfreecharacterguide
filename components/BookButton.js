@@ -8,7 +8,7 @@ export default function BookButton({ seriesName, slug, color }) {
   };
   const fontFamily = fontMap[seriesName] || 'Merriweather, serif';
 
-  const spineColor = shadeColor(color, -20);
+  const spineColor = shadeColor(color, -25);
 
   return (
     <motion.div whileHover={{ scale: 1.05, rotate: -1 }} whileTap={{ scale: 0.97 }}>
@@ -22,12 +22,21 @@ export default function BookButton({ seriesName, slug, color }) {
             fontFamily
           }}
         >
-          {/* spine */}
-          <div className="absolute top-0 left-0 h-full w-4"
+          {/* thicker spine */}
+          <div className="absolute top-0 left-0 h-full w-6"
             style={{
               backgroundColor: spineColor,
               backgroundImage: "url('/textures/leather.png')",
-              backgroundSize: 'cover'
+              backgroundSize: 'cover',
+              borderRight: '1px solid #d4af37'
+            }}
+          ></div>
+
+          {/* page edge */}
+          <div className="absolute top-0 right-0 h-full w-3"
+            style={{
+              backgroundColor: '#f8f4e6',
+              backgroundImage: "repeating-linear-gradient(to bottom, #f8f4e6, #f8f4e6 2px, #eae4d6 2px, #eae4d6 4px)"
             }}
           ></div>
 

@@ -16,7 +16,7 @@ export default function SeriesPage({ series, books }) {
                 href={`/book/${book.slug}`}
                 className="block p-4 rounded-lg border border-gray-200 hover:bg-gray-100 transition text-lg font-medium"
               >
-                {book.title}
+                {`Book ${book.number}: ${book.title}`}
               </Link>
             </li>
           ))}
