@@ -15,7 +15,7 @@ export default function SeriesPage({ seriesDisplayName, books }) {
               key={book.slug}
               bookTitle={book.title}
               slug={book.slug}
-              color={getSeriesColor(seriesDisplayName)}
+              color={book.color}
               number={book.number}
             />
           ))}
@@ -36,17 +36,4 @@ export async function getStaticProps({ params }) {
   const seriesInfo = seriesData[params.series];
   const books = seriesInfo.books || [];
   return { props: { seriesDisplayName: seriesInfo.displayName, books } };
-}
-
-// Helper to map series to colors (same palette as homepage)
-function getSeriesColor(seriesName) {
-  const palette = {
-    'Mistborn': '#6B2C2C',
-    'Harry Potter': '#1E3A8A',
-    'Stormlight Archive': '#2E4057',
-    'Wheel of Time': '#264D3B',
-    'Lord of the Rings': '#3E4E32',
-    'Dune': '#7A4A21'
-  };
-  return palette[seriesName] || '#6B2C2C';
 }

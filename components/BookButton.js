@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-export default function BookButton({ seriesName, slug, color }) {
+export default function BookButton({ seriesName, slug, color, pages }) {
   const fontMap = {
     'Mistborn': 'Cinzel, serif',
     'Harry Potter': 'EB Garamond, serif'
@@ -9,6 +9,10 @@ export default function BookButton({ seriesName, slug, color }) {
   const fontFamily = fontMap[seriesName] || 'Merriweather, serif';
 
   const spineColor = shadeColor(color, -30);
+
+  // Thickness scaling (baseline spine = 8px for 300 pages, grows with page count)
+  const spineWidth = Math.max(6, Math.min(16, pages / 50)); // clamp between 6px and 16px
+  const pageEdgeWidth = Math.max(2, Math.min(6, pages / 150)); // clamp between 2px and 6px
 
   return (
     <motion.div whileHover={{ scale: 1.05, rotate: -1 }} whileTap={{ scale: 0.97 }}>
@@ -24,9 +28,10 @@ export default function BookButton({ seriesName, slug, color }) {
             boxShadow: 'inset 0 1px 4px rgba(255,255,255,0.3), inset 0 -1px 4px rgba(0,0,0,0.3)'
           }}
         >
-          {/* thicker, curved spine */}
-          <div className="absolute top-0 left-0 h-full w-8 rounded-l-xl"
+          {/* curved spine */}
+          <div className="absolute top-0 left-0 h-full rounded-l-xl"
             style={{
+              width: spineWidth,
               backgroundColor: spineColor,
               backgroundImage: "url('/textures/leather.png')",
               backgroundSize: 'contain',
@@ -36,8 +41,9 @@ export default function BookButton({ seriesName, slug, color }) {
           ></div>
 
           {/* page edge right side */}
-          <div className="absolute top-0 right-0 h-full w-3 rounded-r-xl"
+          <div className="absolute top-0 right-0 h-full rounded-r-xl"
             style={{
+              width: pageEdgeWidth,
               backgroundColor: '#f8f4e6',
               backgroundImage: "repeating-linear-gradient(to bottom, #f8f4e6, #f8f4e6 2px, #eae4d6 2px, #eae4d6 4px)"
             }}
@@ -68,7 +74,7 @@ export default function BookButton({ seriesName, slug, color }) {
 function shadeColor(color, percent) {
   let R = parseInt(color.substring(1,3),16);
   let G = parseInt(color.substring(3,5),16);
-  let B = parseInt(color.substring(5,7),16);
+  let B = parseInt(color.substring(7,7),16);
 
   R = parseInt(R * (100 + percent) / 100);
   G = parseInt(G * (100 + percent) / 100);

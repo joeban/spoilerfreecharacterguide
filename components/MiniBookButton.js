@@ -1,8 +1,12 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-export default function MiniBookButton({ bookTitle, slug, color, number }) {
+export default function MiniBookButton({ bookTitle, slug, color, number, pages }) {
   const spineColor = shadeColor(color, -30);
+
+  // Thickness scaling (same logic as main BookButton)
+  const spineWidth = Math.max(5, Math.min(14, pages / 50));
+  const pageEdgeWidth = Math.max(2, Math.min(5, pages / 150));
 
   return (
     <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
@@ -18,8 +22,9 @@ export default function MiniBookButton({ bookTitle, slug, color, number }) {
           }}
         >
           {/* spine */}
-          <div className="absolute top-0 left-0 h-full w-6 rounded-l-lg"
+          <div className="absolute top-0 left-0 h-full rounded-l-lg"
             style={{
+              width: spineWidth,
               backgroundColor: spineColor,
               backgroundImage: "url('/textures/leather.png')",
               backgroundSize: 'contain',
@@ -29,8 +34,9 @@ export default function MiniBookButton({ bookTitle, slug, color, number }) {
           ></div>
 
           {/* page edge right */}
-          <div className="absolute top-0 right-0 h-full w-2 rounded-r-lg"
+          <div className="absolute top-0 right-0 h-full rounded-r-lg"
             style={{
+              width: pageEdgeWidth,
               backgroundColor: '#f8f4e6',
               backgroundImage: "repeating-linear-gradient(to bottom, #f8f4e6, #f8f4e6 2px, #eae4d6 2px, #eae4d6 4px)"
             }}
