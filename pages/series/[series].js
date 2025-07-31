@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import MiniBookButton from '../../components/MiniBookButton';
 import seriesData from '../../data/series.json';
 
 export default function SeriesPage({ series, books }) {
@@ -8,19 +8,18 @@ export default function SeriesPage({ series, books }) {
         <h1 className="text-3xl font-bold text-gray-800">{series} Series</h1>
         <p className="text-gray-600">Choose a book from this series</p>
       </header>
-      <main className="max-w-xl mx-auto bg-white rounded-lg shadow-md p-6">
-        <ul className="space-y-3">
+      <main className="max-w-5xl mx-auto">
+        <div className="flex flex-wrap gap-6 justify-center">
           {books.map((book) => (
-            <li key={book.slug}>
-              <Link
-                href={`/book/${book.slug}`}
-                className="block p-4 rounded-lg border border-gray-200 hover:bg-gray-100 transition text-lg font-medium"
-              >
-                {`Book ${book.number}: ${book.title}`}
-              </Link>
-            </li>
+            <MiniBookButton
+              key={book.slug}
+              bookTitle={book.title}
+              slug={book.slug}
+              color={getSeriesColor(series)}
+              number={book.number}
+            />
           ))}
-        </ul>
+        </div>
       </main>
     </div>
   );
@@ -36,4 +35,17 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const books = seriesData[params.series] || [];
   return { props: { series: params.series.replace('-', ' '), books } };
+}
+
+// Helper to map series to colors (same palette as homepage)
+function getSeriesColor(series) {
+  const palette = {
+    'mistborn': '#6B2C2C',
+    'harry-potter': '#1E3A8A',
+    'stormlight-archive': '#2E4057',
+    'wheel-of-time': '#264D3B',
+    'lord-of-the-rings': '#3E4E32',
+    'dune': '#7A4A21'
+  };
+  return palette[series] || '#6B2C2C';
 }

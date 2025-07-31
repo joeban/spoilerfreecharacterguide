@@ -1,42 +1,35 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-export default function BookButton({ seriesName, slug, color }) {
-  const fontMap = {
-    'Mistborn': 'Cinzel, serif',
-    'Harry Potter': 'EB Garamond, serif'
-  };
-  const fontFamily = fontMap[seriesName] || 'Merriweather, serif';
-
+export default function MiniBookButton({ bookTitle, slug, color, number }) {
   const spineColor = shadeColor(color, -30);
 
   return (
-    <motion.div whileHover={{ scale: 1.05, rotate: -1 }} whileTap={{ scale: 0.97 }}>
-      <Link href={`/${slug}`}>
+    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}>
+      <Link href={`/book/${slug}`}>
         <div
-          className="relative h-48 w-32 sm:h-56 sm:w-40 md:h-64 md:w-48 cursor-pointer overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300 rounded-xl"
+          className="relative h-40 w-28 sm:h-48 sm:w-32 md:h-52 md:w-36 cursor-pointer overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 rounded-lg"
           style={{
             backgroundColor: color,
             backgroundImage: "url('/textures/leather.png')",
             backgroundSize: 'contain',
             backgroundBlendMode: 'multiply',
-            fontFamily,
             boxShadow: 'inset 0 1px 4px rgba(255,255,255,0.3), inset 0 -1px 4px rgba(0,0,0,0.3)'
           }}
         >
-          {/* thicker, curved spine */}
-          <div className="absolute top-0 left-0 h-full w-8 rounded-l-xl"
+          {/* spine */}
+          <div className="absolute top-0 left-0 h-full w-6 rounded-l-lg"
             style={{
               backgroundColor: spineColor,
               backgroundImage: "url('/textures/leather.png')",
               backgroundSize: 'contain',
               backgroundBlendMode: 'multiply',
-              boxShadow: 'inset -6px 0px 8px rgba(0,0,0,0.4)'
+              boxShadow: 'inset -5px 0px 6px rgba(0,0,0,0.4)'
             }}
           ></div>
 
-          {/* page edge right side */}
-          <div className="absolute top-0 right-0 h-full w-3 rounded-r-xl"
+          {/* page edge right */}
+          <div className="absolute top-0 right-0 h-full w-2 rounded-r-lg"
             style={{
               backgroundColor: '#f8f4e6',
               backgroundImage: "repeating-linear-gradient(to bottom, #f8f4e6, #f8f4e6 2px, #eae4d6 2px, #eae4d6 4px)"
@@ -44,7 +37,7 @@ export default function BookButton({ seriesName, slug, color }) {
           ></div>
 
           {/* page edge top */}
-          <div className="absolute top-0 left-0 w-full h-3 rounded-t-xl"
+          <div className="absolute top-0 left-0 w-full h-2 rounded-t-lg"
             style={{
               backgroundColor: '#f8f4e6',
               backgroundImage: "repeating-linear-gradient(to right, #f8f4e6, #f8f4e6 2px, #eae4d6 2px, #eae4d6 4px)",
@@ -53,11 +46,16 @@ export default function BookButton({ seriesName, slug, color }) {
           ></div>
 
           {/* gold frame */}
-          <div className="absolute inset-0 border-2 rounded-xl pointer-events-none gold-frame"></div>
+          <div className="absolute inset-0 border-2 rounded-lg pointer-events-none gold-frame"></div>
 
-          {/* series title */}
-          <div className="absolute inset-0 flex items-center justify-center text-center px-4">
-            <span className="text-xl sm:text-2xl font-bold text-white drop-shadow-md">{seriesName}</span>
+          {/* book title */}
+          <div className="absolute inset-0 flex items-center justify-center text-center px-3">
+            <span className="text-sm sm:text-base font-bold text-white drop-shadow-md">{bookTitle}</span>
+          </div>
+
+          {/* book number badge */}
+          <div className="absolute top-1 left-1 bg-yellow-700 text-white text-xs px-2 py-1 rounded shadow">
+            Book {number}
           </div>
         </div>
       </Link>
