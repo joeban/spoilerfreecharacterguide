@@ -5,6 +5,7 @@ import hero from '../data/hero-of-ages.json';
 import alloy from '../data/alloy-of-law.json';
 import shadows from '../data/shadows-of-self.json';
 import bands from '../data/bands-of-mourning.json';
+import lost from '../data/lost-metal.json';
 
 export default function Home() {
   const books = [
@@ -13,7 +14,8 @@ export default function Home() {
     { title: hero.book.title, slug: 'hero-of-ages' },
     { title: alloy.book.title, slug: 'alloy-of-law' },
     { title: shadows.book.title, slug: 'shadows-of-self' },
-    { title: bands.book.title, slug: 'bands-of-mourning' }
+    { title: bands.book.title, slug: 'bands-of-mourning' },
+    { title: lost.book.title, slug: 'lost-metal' }
   ];
 
   return (
