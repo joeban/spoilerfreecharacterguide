@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { useRouter } from 'next/router';
 import mistborn from '../data/mistborn.json';
 import well from '../data/well-of-ascension.json';
 import hero from '../data/hero-of-ages.json';
@@ -7,39 +7,45 @@ import shadows from '../data/shadows-of-self.json';
 import bands from '../data/bands-of-mourning.json';
 
 export default function Home() {
+  const router = useRouter();
   const books = [
     { title: mistborn.book.title, slug: 'mistborn' },
     { title: well.book.title, slug: 'well-of-ascension' },
     { title: hero.book.title, slug: 'hero-of-ages' },
-    { title: alloy.book.title, slug: 'alloy-of-law' },
-    { title: shadows.book.title, slug: 'shadows-of-self' },
-    { title: bands.book.title, slug: 'bands-of-mourning' }
+    { title: alloy.book.title, slug: 'alloy-of-law' }
   ];
 
-  return (
-    <div className="min-h-screen bg-stone-50 p-6">
-      <header className="text-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-800">Spoiler Free Character Guide</h1>
-        <p className="text-lg text-gray-600">Your safe guide to epic stories</p>
-      </header>
+  const handleSelect = (e) => {
+    const slug = e.target.value;
+    if (slug) router.push(`/book/${slug}`);
+  };
 
-      <main className="max-w-xl mx-auto">
-        <div className="bg-white shadow-md rounded-lg p-6">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Choose a book to get started!</h2>
-          <ul className="space-y-3">
-            {books.map((book) => (
-              <li key={book.slug}>
-                <Link
-                  href={`/book/${book.slug}`}
-                  className="block p-3 rounded-lg border border-gray-200 hover:bg-gray-100 transition"
-                >
-                  {book.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </main>
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-between bg-[#faf9f7] text-gray-900">
+      
+<header className="w-full bg-white border-b border-gray-200 p-6 shadow-sm mt-2">
+  <div className="flex flex-col items-center">
+    <h1 className="text-5xl font-bold text-gray-900 font-serif">Spoiler Free Character Guide</h1>
+    <p className="text-lg text-gray-500 italic mt-1">Your safe guide to epic stories</p>
+  </div>
+</header>
+
+      <div className="main-content">
+        <p className="text-lg text-gray-600 mb-4 text-center">Choose a book to get started</p>
+        <select
+          onChange={handleSelect}
+          defaultValue=""
+          className="px-4 py-2 text-lg border border-gray-300 rounded-md shadow-sm mb-4 w-full"
+        >
+          <option value="" disabled>Select a book...</option>
+          {books.map((book) => (
+            <option key={book.slug} value={book.slug}>{book.title}</option>
+          ))}
+        </select>
+      </div>
+      <footer className="text-xs text-gray-500 mt-8 mb-4 text-center px-4">
+        Disclosure: As an Amazon Associate, I earn from qualifying purchases.
+      </footer>
     </div>
   );
 }

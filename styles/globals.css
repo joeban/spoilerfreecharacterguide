@@ -31,3 +31,26 @@ body::before {
   background: #e5e4e2;
   border-radius: 4px;
 }
+
+/* Book Theme Background */
+body {
+  background: url('/parchment.jpg') center center fixed;
+  background-size: cover;
+  background-color: #fdfcf9; /* subtle cream fallback */
+  font-family: 'Lora', serif;
+}
+
+main, .page-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+header h1 {
+  font-family: 'Merriweather', serif;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
