@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-between bg-[#faf9f7] text-gray-900">
       
-<header className="w-full bg-white border-b border-gray-200 p-6 shadow-sm">
+<header className="w-full bg-white border-b border-gray-200 p-6 shadow-sm mt-2">
   <div className="flex flex-col items-center">
     <h1 className="text-5xl font-bold text-gray-900 font-serif">Spoiler Free Character Guide</h1>
     <p className="text-lg text-gray-500 italic mt-1">Your safe guide to epic stories</p>

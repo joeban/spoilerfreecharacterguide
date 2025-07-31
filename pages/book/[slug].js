@@ -23,7 +23,7 @@ export default function BookPage({ bookData }) {
     <div className="min-h-screen bg-[#faf9f7] text-gray-900 flex flex-col justify-between">
       <div>
         
-<header className="w-full bg-white border-b border-gray-200 p-6 shadow-sm">
+<header className="w-full bg-white border-b border-gray-200 p-6 shadow-sm mt-2">
   <div className="flex flex-col items-center">
     <h1 className="text-5xl font-bold text-gray-900 font-serif">Spoiler Free Character Guide</h1>
     <p className="text-lg text-gray-500 italic mt-1">Your safe guide to epic stories</p>

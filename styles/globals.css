@@ -6,6 +6,17 @@ body {
   @apply bg-[#faf9f7] text-gray-900 font-sans;
 }
 
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: #e5e4e2;
+  z-index: 50;
+}
+
 .main-content {
   @apply bg-white rounded-lg shadow-md p-6 mt-6 max-w-3xl mx-auto relative;
 }
