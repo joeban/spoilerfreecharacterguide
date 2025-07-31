@@ -4,7 +4,6 @@ import OpenAI from 'openai';
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
 
-// ---- Basic in-memory rate limiter ----
 const requests = {};
 const LIMIT = 20;
 const WINDOW = 60 * 60 * 1000;
@@ -19,7 +18,6 @@ export default async function handler(req, res) {
   console.log('📥 Incoming request:', { series, book, chapter });
 
   try {
-    // ✅ Supabase query
     const { data, error } = await supabase
       .from('book_chunks')
       .select('*')
@@ -33,7 +31,6 @@ export default async function handler(req, res) {
       return res.status(500).json({ error: `Supabase query failed: ${error.message}` });
     }
     if (!data || data.length === 0) {
-      console.warn('⚠️ No chapter data found for query.');
       return res.status(404).json({ 
         error: 'No summaries found in Supabase for this chapter selection.',
         debug: { series, book, chapter, rows: data.length }
@@ -42,10 +39,8 @@ export default async function handler(req, res) {
 
     console.log(`✅ Retrieved ${data.length} chapters from Supabase for ${series} Book ${book} up to Chapter ${chapter}`);
 
-    // ✅ Combine summaries
     const combinedSummaries = data.map(c => `Chapter ${c.chapter}: ${c.text}`).join('\n');
 
-    // ✅ GPT-4o call with detailed error capture
     try {
       const completion = await client.chat.completions.create({
         model: "gpt-4o",
@@ -59,11 +54,15 @@ export default async function handler(req, res) {
 
       const guideText = completion.choices[0].message.content;
       return res.status(200).json({ guide: guideText });
+
     } catch (openAiError) {
-      console.error('❌ OpenAI API error details:', openAiError);
+      console.error('❌ OpenAI API error:', openAiError);
       return res.status(500).json({ 
         error: 'OpenAI API call failed',
-        details: openAiError.error || openAiError.message || 'No details'
+        message: openAiError.message || null,
+        status: openAiError.status || null,
+        code: openAiError.code || null,
+        response: openAiError.response ? openAiError.response.data : null
       });
     }
 
