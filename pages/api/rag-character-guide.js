@@ -18,12 +18,8 @@ export default async function handler(req, res) {
 
   console.log('📥 Incoming request:', { series, book, chapter });
 
-  if (!series || !book || !chapter) {
-    return res.status(400).json({ error: 'Missing series, book, or chapter in request.', received: { series, book, chapter } });
-  }
-
   try {
-    // ✅ Supabase query for all chapters up to selected one
+    // ✅ Supabase query
     const { data, error } = await supabase
       .from('book_chunks')
       .select('*')
@@ -49,20 +45,30 @@ export default async function handler(req, res) {
     // ✅ Combine summaries
     const combinedSummaries = data.map(c => `Chapter ${c.chapter}: ${c.text}`).join('\n');
 
-    const completion = await client.chat.completions.create({
-      model: "gpt-4o",
-      messages: [
-        { role: "system", content: "You write spoiler-safe character guides for fantasy and sci-fi books." },
-        { role: "user", content: `Write a spoiler-free character guide for Mistborn Book 1 up to Chapter ${chapter} using these summaries:\n${combinedSummaries}` }
-      ],
-      max_tokens: 700,
-      temperature: 0.7
-    });
+    // ✅ GPT-4o call with detailed error capture
+    try {
+      const completion = await client.chat.completions.create({
+        model: "gpt-4o",
+        messages: [
+          { role: "system", content: "You write spoiler-safe character guides for fantasy and sci-fi books." },
+          { role: "user", content: `Write a spoiler-free character guide for Mistborn Book 1 up to Chapter ${chapter} using these summaries:\n${combinedSummaries}` }
+        ],
+        max_tokens: 700,
+        temperature: 0.7
+      });
 
-    const guideText = completion.choices[0].message.content;
-    return res.status(200).json({ guide: guideText });
+      const guideText = completion.choices[0].message.content;
+      return res.status(200).json({ guide: guideText });
+    } catch (openAiError) {
+      console.error('❌ OpenAI API error details:', openAiError);
+      return res.status(500).json({ 
+        error: 'OpenAI API call failed',
+        details: openAiError.error || openAiError.message || 'No details'
+      });
+    }
+
   } catch (err) {
     console.error('❌ General handler error:', err);
-    return res.status(500).json({ error: 'Unexpected error in rag-character-guide handler.' });
+    return res.status(500).json({ error: 'Unexpected error in rag-character-guide handler.', details: err.message });
   }
 }
