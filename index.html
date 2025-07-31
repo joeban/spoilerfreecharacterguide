@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter Companion - Spoiler-Free Character Guides</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Site Header -->
+        <header class="site-header">
+            <h1 class="site-title">Chapter Companion</h1>
+            <p class="site-subtitle">Spoiler-free character guides for your reading journey</p>
+        </header>
+
+        <!-- Series Selection View (Homepage) -->
+        <section id="seriesView" class="view active">
+            <div class="bookshelf">
+                <div id="seriesShelf" class="shelf">
+                    <!-- Series books will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Selection View -->
+        <section id="bookView" class="view">
+            <button class="back-button" onclick="app.showSeriesView()">
+                ← Back to Series
+            </button>
+            <h2 id="selectedSeriesTitle" class="view-title"></h2>
+            <div class="bookshelf">
+                <div id="bookShelf" class="shelf">
+                    <!-- Books will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter/Character View -->
+        <section id="chapterView" class="view">
+            <button class="back-button" onclick="app.showBookView()">
+                ← Back to Books
+            </button>
+            
+            <div class="content-card">
+                <h2 id="selectedBookTitle" class="book-title"></h2>
+                
+                <!-- Chapter Selector -->
+                <div class="chapter-selector">
+                    <label for="chapterSelect">Currently reading:</label>
+                    <select id="chapterSelect" onchange="app.updateChapterDisplay()">
+                        <!-- Options will be dynamically inserted here -->
+                    </select>
+                </div>
+
+                <!-- Chapter Summary (Hidden by Default) -->
+                <div class="chapter-summary-container">
+                    <button class="spoiler-toggle" onclick="app.toggleSpoiler('chapterSummary')">
+                        Show Chapter Summary
+                    </button>
+                    <div id="chapterSummary" class="spoiler-content">
+                        <!-- Summary will be dynamically inserted here -->
+                    </div>
+                </div>
+
+                <!-- Characters in Current Chapter -->
+                <section class="characters-section">
+                    <h3>Characters in Current Chapter</h3>
+                    <div id="currentChapterCharacters" class="character-grid">
+                        <!-- Character cards will be dynamically inserted here -->
+                    </div>
+                </section>
+
+                <!-- All Characters (up to current chapter) -->
+                <section class="characters-section">
+                    <h3>All Characters (up to current chapter)</h3>
+                    <div id="allCharacters" class="character-grid">
+                        <!-- Character cards will be dynamically inserted here -->
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loadingState" class="loading-state hidden">
+            Loading...
+        </div>
+
+        <!-- Error State -->
+        <div id="errorState" class="error-state hidden">
+            <p class="error-message"></p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
