@@ -8,7 +8,7 @@ export default function BookButton({ seriesName, slug, color }) {
   };
   const fontFamily = fontMap[seriesName] || 'Merriweather, serif';
 
-  const spineColor = shadeColor(color, -25);
+  const spineColor = shadeColor(color, -30);
 
   return (
     <motion.div whileHover={{ scale: 1.05, rotate: -1 }} whileTap={{ scale: 0.97 }}>
@@ -18,21 +18,25 @@ export default function BookButton({ seriesName, slug, color }) {
           style={{
             backgroundColor: color,
             backgroundImage: "url('/textures/leather.png')",
-            backgroundSize: 'cover',
+            backgroundSize: 'contain',
+              backgroundBlendMode: 'multiply',
+            backgroundBlendMode: 'multiply',
             fontFamily
           }}
         >
-          {/* thicker spine */}
-          <div className="absolute top-0 left-0 h-full w-6"
+          {/* thicker, curved spine */}
+          <div className="absolute top-0 left-0 h-full w-8"
             style={{
               backgroundColor: spineColor,
               backgroundImage: "url('/textures/leather.png')",
-              backgroundSize: 'cover',
-              borderRight: '1px solid #d4af37'
+              backgroundSize: 'contain',
+              backgroundBlendMode: 'multiply',
+            backgroundBlendMode: 'multiply',
+              boxShadow: 'inset -6px 0px 8px rgba(0,0,0,0.4)'
             }}
           ></div>
 
-          {/* page edge */}
+          {/* page edge right side */}
           <div className="absolute top-0 right-0 h-full w-3"
             style={{
               backgroundColor: '#f8f4e6',
@@ -40,7 +44,16 @@ export default function BookButton({ seriesName, slug, color }) {
             }}
           ></div>
 
-          {/* animated gold frame */}
+          {/* page edge top */}
+          <div className="absolute top-0 left-0 w-full h-3"
+            style={{
+              backgroundColor: '#f8f4e6',
+              backgroundImage: "repeating-linear-gradient(to right, #f8f4e6, #f8f4e6 2px, #eae4d6 2px, #eae4d6 4px)",
+              borderBottom: '1px solid rgba(0,0,0,0.1)'
+            }}
+          ></div>
+
+          {/* gold frame (around book cover edges only) */}
           <div className="absolute inset-0 border-2 rounded-md pointer-events-none gold-frame"></div>
 
           {/* series title */}
