@@ -313,36 +313,7 @@
                 renderMainShelf();
             } catch (error) {
                 console.error('Error loading data:', error);
-                // Fallback data for demo
-                seriesData = {
-                    "series": [
-                        {
-                            "id": "mistborn",
-                            "title": "Mistborn",
-                            "author": "Brandon Sanderson",
-                            "books": ["The Final Empire", "The Well of Ascension", "The Hero of Ages"]
-                        },
-                        {
-                            "id": "harry-potter",
-                            "title": "Harry Potter",
-                            "author": "J.K. Rowling",
-                            "books": ["Philosopher's Stone", "Chamber of Secrets", "Prisoner of Azkaban"]
-                        },
-                        {
-                            "id": "dune",
-                            "title": "Dune",
-                            "author": "Frank Herbert",
-                            "books": ["Dune", "Dune Messiah", "Children of Dune"]
-                        },
-                        {
-                            "id": "lotr",
-                            "title": "Lord of the Rings",
-                            "author": "J.R.R. Tolkien",
-                            "books": ["Fellowship of the Ring", "The Two Towers", "Return of the King"]
-                        }
-                    ]
-                };
-                renderMainShelf();
+                document.getElementById('mainShelf').innerHTML = '<p style="text-align: center; color: #666;">Error loading series data. Please ensure the data/series.json file exists.</p>';
             }
         }
 
@@ -425,31 +396,8 @@
                 updateChapter();
             } catch (error) {
                 console.error('Error loading book data:', error);
-                // Demo fallback data
-                currentBook.data = {
-                    "title": bookTitle,
-                    "chapters": [
-                        {
-                            "number": 1,
-                            "title": "The Beginning",
-                            "summary": "Our protagonist begins their journey in a world full of mystery and magic.",
-                            "charactersIntroduced": ["Protagonist", "Mentor"],
-                            "characters": {
-                                "Protagonist": {
-                                    "background": "A young person from a humble background with hidden potential.",
-                                    "arc": "Discovers they have a special destiny and begins to understand their place in the world."
-                                },
-                                "Mentor": {
-                                    "background": "A wise and experienced guide who has seen many adventures.",
-                                    "arc": "Reveals crucial information about the protagonist's heritage and begins their training."
-                                }
-                            }
-                        }
-                    ]
-                };
-                const select = document.getElementById('chapterSelect');
-                select.innerHTML = '<option value="1">Chapter 1: The Beginning</option>';
-                updateChapter();
+                document.getElementById('bookPage').innerHTML = '<p style="text-align: center; color: #666;">Error loading book data. Please ensure the data file exists at: data/' + seriesId + '/book' + bookNumber + '.json</p>';
+                                    
             }
         }
 
