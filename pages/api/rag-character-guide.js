@@ -1,4 +1,5 @@
-import mistbornData from '../../../data/rag/mistborn1.json';
+import fs from 'fs';
+import path from 'path';
 import OpenAI from 'openai';
 
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -38,6 +39,11 @@ export default async function handler(req, res) {
   }
 
   try {
+    // ✅ Read mistborn1.json from disk using fs
+    const filePath = path.join(process.cwd(), 'data', 'rag', 'mistborn1.json');
+    const fileData = fs.readFileSync(filePath, 'utf8');
+    const mistbornData = JSON.parse(fileData);
+
     const chapters = mistbornData.filter(c => c.chapter <= chapter);
     const combinedSummaries = chapters.map(c => `Chapter ${c.chapter}: ${c.summary}`).join('\n');
 
