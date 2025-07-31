@@ -58,3 +58,52 @@ These rules guide how content is created and maintained for the Spoiler Free Cha
 - Always **update existing files** with new characters, recaps, or corrections.
 - Use `index.json` to register new series and maintain order.
 
+
+
+## 📦 JSON Structure (Dictionary Format)
+
+All book JSON files (e.g., `mistborn1.json`) now follow a **dictionary-based structure** for clarity and maintainability.
+
+### Example Structure
+```json
+{
+  "__comment": "Mistborn Book 1 – spoiler-free data.",
+  "book": {
+    "title": "Mistborn: The Final Empire",
+    "affiliateLink": "",
+    "totalChapters": 38
+  },
+  "characters": {
+    "Vin": {
+      "firstAppearance": 1,
+      "featuredIn": [1, 2, 3],
+      "tiers": {
+        "1-5": "Vin is a wary street urchin surviving in Luthadel.",
+        "6-10": "Vin begins to trust Kelsier and the crew."
+      }
+    },
+    "Kelsier": {
+      "firstAppearance": 2,
+      "featuredIn": [2, 3, 4],
+      "tiers": {
+        "2-8": "Kelsier is a charismatic thief with a mysterious past."
+      }
+    }
+  },
+  "recaps": {
+    "1": "Vin struggles to survive in the streets of Luthadel.",
+    "2": "Vin meets Kelsier, who begins to draw her into a daring plan."
+  }
+}
+```
+
+### ✅ Why Dictionaries?
+- **Characters keyed by name:** Easy to find and update any character.
+- **Tiered descriptions keyed by chapter range:** Simplifies spoiler-free updates.
+- **Recaps keyed by chapter:** Makes lookup straightforward.
+
+### 📌 Guidelines
+- Always include a `__comment` explaining what the file contains.
+- Use **1–2 sentences per description** for clarity and readability.
+- Add new characters under the `characters` dictionary, keyed by their **exact name**.
+- Add new recaps under the `recaps` dictionary, keyed by **chapter number as a string**.

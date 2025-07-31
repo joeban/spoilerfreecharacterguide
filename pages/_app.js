@@ -1,4 +1,11 @@
-// ⚠️ DATA SOURCE INFO
+// ⚠️ DATA SOURCE INFO (UPDATED)
+// JSON files now use a dictionary-based format.
+// - Characters are keyed by name (characters['Vin'])
+// - Each character has tiered descriptions in tiers['1-5'] etc.
+// - Chapter recaps are in recaps['1']
+// See DATA_README.md for examples of the structure.
+
+// ⚠️ DATA SOURCE INFO (UPDATED)
 // All character and recap data is stored in /data/*.json.
 // - Do NOT regenerate these JSON files unless absolutely necessary.
 // - Update existing JSONs to add or edit content.
