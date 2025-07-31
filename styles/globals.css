@@ -54,3 +54,24 @@ header h1 {
   margin-bottom: 0.5rem;
 }
 
+
+
+/* Gold Frame Animation */
+.gold-frame {
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #d4af37, #fff8dc, #d4af37);
+  border-image-slice: 1;
+  animation: goldShine 3s linear infinite;
+}
+
+@keyframes goldShine {
+  0% { border-image-source: linear-gradient(45deg, #d4af37, #fff8dc, #d4af37); }
+  50% { border-image-source: linear-gradient(45deg, #fff8dc, #d4af37, #fff8dc); }
+  100% { border-image-source: linear-gradient(45deg, #d4af37, #fff8dc, #d4af37); }
+}
+
+/* Bookshelf background for homepage */
+body {
+  background: url('/textures/bookshelf_wood.png') top center repeat-x, #fdfcf9;
+  background-size: cover;
+}

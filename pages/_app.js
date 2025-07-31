@@ -1,13 +1,15 @@
 import '../styles/globals.css'
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from '@vercel/analytics/react';
+import Head from 'next/head'
 
-export default function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=EB+Garamond:wght@700&display=swap" rel="stylesheet" />
+      </Head>
       <Component {...pageProps} />
-      <SpeedInsights />
-      <Analytics />
     </>
-  );
+  )
 }
+
+export default MyApp
