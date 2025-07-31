@@ -20,23 +20,18 @@ export default function BookPage({ bookData }) {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col justify-between">
+    <div className="min-h-screen bg-[#faf9f7] text-gray-900 flex flex-col justify-between">
       <div>
         
 <header className="w-full bg-white border-b border-gray-200 p-6 shadow-sm">
   <div className="flex flex-col items-center">
-    <div className="flex items-center mb-2">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8 mr-2 text-gray-700">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v12m-7-9h14M5 6h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z" />
-</svg>
-      <h1 className="text-5xl font-bold text-gray-900">Spoiler Free Character Guide</h1>
-    </div>
-    <p className="text-lg text-gray-500 italic">Your safe guide to epic stories</p>
+    <h1 className="text-5xl font-bold text-gray-900 font-serif">Spoiler Free Character Guide</h1>
+    <p className="text-lg text-gray-500 italic mt-1">Your safe guide to epic stories</p>
   </div>
 </header>
 
-        <main className="max-w-3xl mx-auto p-6">
-          <h1 className="text-3xl font-light mb-2">{book.title}</h1>
+        <main className="main-content">
+          <h1 className="text-3xl font-serif mb-2">{book.title}</h1>
           <a
             href={book.affiliateLink}
             target="_blank"
@@ -52,7 +47,7 @@ export default function BookPage({ bookData }) {
             <select
               value={chapter}
               onChange={(e) => { setChapter(parseInt(e.target.value, 10)); setShowRecap(false); }}
-              className="px-4 py-2 text-lg border border-gray-300 rounded-md shadow-sm"
+              className="px-4 py-2 text-lg border border-gray-300 rounded-md shadow-sm w-full"
             >
               {[...Array(book.totalChapters)].map((_, idx) => (
                 <option key={idx + 1} value={idx + 1}>Chapter {idx + 1}</option>
@@ -85,8 +80,8 @@ export default function BookPage({ bookData }) {
             <h2 className="text-xl font-semibold mb-3">Characters in Chapter {chapter}</h2>
             {inChapter.length === 0 && <p className="text-gray-500">No major characters appear in this chapter.</p>}
             {inChapter.map(char => (
-              <div key={char.name} className="bg-white p-4 rounded-lg shadow mb-4">
-                <div className="text-lg font-semibold">{char.name}</div>
+              <div key={char.name} className="bg-gray-50 p-4 rounded-lg shadow mb-4">
+                <div className="text-lg font-semibold font-serif">{char.name}</div>
                 <div className="text-gray-700">{getDescriptionForChapter(char.descriptions, chapter)}</div>
               </div>
             ))}
@@ -95,8 +90,8 @@ export default function BookPage({ bookData }) {
             <h2 className="text-xl font-semibold mb-3">Other Characters Met So Far</h2>
             {othersSeen.length === 0 && <p className="text-gray-500">No other characters have been introduced yet.</p>}
             {othersSeen.map(char => (
-              <div key={char.name} className="bg-white p-4 rounded-lg shadow mb-4">
-                <div className="text-lg font-semibold">{char.name}</div>
+              <div key={char.name} className="bg-gray-50 p-4 rounded-lg shadow mb-4">
+                <div className="text-lg font-semibold font-serif">{char.name}</div>
                 <div className="text-gray-700">{getDescriptionForChapter(char.descriptions, chapter)}</div>
               </div>
             ))}

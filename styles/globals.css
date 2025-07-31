@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-50 text-gray-900;
+  @apply bg-[#faf9f7] text-gray-900 font-sans;
+}
+
+.main-content {
+  @apply bg-white rounded-lg shadow-md p-6 mt-6 max-w-3xl mx-auto relative;
+}
+
+.main-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -16px;
+  width: 8px;
+  height: 100%;
+  background: #e5e4e2;
+  border-radius: 4px;
 }
