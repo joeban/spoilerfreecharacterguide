@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import BookButton from '../components/BookButton';
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
             <BookButton key={s.slug} seriesName={s.name} slug={s.slug} color={s.color} />
           ))}
         </div>
+      <Footer />
       </main>
     </div>
   );
