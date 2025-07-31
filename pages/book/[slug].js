@@ -1,3 +1,10 @@
+// ⚠️ DATA SOURCE INFO
+// All character and recap data is stored in /data/*.json.
+// - Do NOT regenerate these JSON files unless absolutely necessary.
+// - Update existing JSONs to add or edit content.
+// - The /data/index.json file lists all series and books.
+// - See DATA_README.md in /data for documentation.
+
 import { useState } from 'react';
 import mistborn from '../../data/mistborn.json';
 import well from '../../data/well-of-ascension.json';
