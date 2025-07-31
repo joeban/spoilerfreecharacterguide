@@ -1,13 +1,14 @@
-import fs from 'fs';
-import path from 'path';
+import { createClient } from '@supabase/supabase-js';
 import OpenAI from 'openai';
 
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
+const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
+
 // ---- Basic in-memory rate limiter ----
 const requests = {};
-const LIMIT = 20; // max requests per hour per IP
-const WINDOW = 60 * 60 * 1000; // 1 hour in ms
+const LIMIT = 20;
+const WINDOW = 60 * 60 * 1000;
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -17,19 +18,15 @@ export default async function handler(req, res) {
   const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || 'unknown';
   const now = Date.now();
 
-  // Clean old records
   if (requests[ip]) {
     requests[ip] = requests[ip].filter(ts => now - ts < WINDOW);
   } else {
     requests[ip] = [];
   }
 
-  // Check limit
   if (requests[ip].length >= LIMIT) {
     return res.status(429).json({ error: 'Rate limit exceeded. Please wait before trying again.' });
   }
-
-  // Record this request timestamp
   requests[ip].push(now);
 
   const { series, book, chapter } = req.body;
@@ -39,17 +36,25 @@ export default async function handler(req, res) {
   }
 
   try {
-    // ✅ Read mistborn1.json from disk using fs
-    const filePath = path.join(process.cwd(), 'data', 'rag', 'mistborn1.json');
-    const fileData = fs.readFileSync(filePath, 'utf8');
-    const mistbornData = JSON.parse(fileData);
+    // ✅ Query Supabase for all summaries up to the requested chapter
+    const { data, error } = await supabase
+      .from('book_chunks')
+      .select('*')
+      .eq('series', series)
+      .eq('book', book)
+      .lte('chapter', chapter)
+      .order('chapter', { ascending: true });
 
-    const chapters = mistbornData.filter(c => c.chapter <= chapter);
-    const combinedSummaries = chapters.map(c => `Chapter ${c.chapter}: ${c.summary}`).join('\n');
+    if (error) {
+      console.error('Supabase error:', error);
+      return res.status(500).json({ error: 'Database query failed' });
+    }
+
+    const combinedSummaries = data.map(c => `Chapter ${c.chapter}: ${c.text}`).join('\n');
 
     const prompt = `You are a spoiler-safe character guide writer.
 Using only the provided summaries up to Chapter ${chapter} of Mistborn Book 1,
-write a concise, spoiler-free character guide for the reader. 
+write a concise, spoiler-free character guide for the reader.
 Never mention or hint at future plot events.
 Always include basic context for each character mentioned so far, as if reminding a returning reader who they are.`;
 
