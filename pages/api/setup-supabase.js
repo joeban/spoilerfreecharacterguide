@@ -3,7 +3,6 @@ import fs from 'fs';
 import path from 'path';
 
 export default async function handler(req, res) {
-  // Only allow GET for setup
   if (req.method !== 'GET') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
@@ -16,30 +15,31 @@ export default async function handler(req, res) {
 
   const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 
-  // ✅ Ensure table exists
   try {
-    await supabase.rpc('ensure_table_book_chunks'); // placeholder for function call
+    // ✅ Load Mistborn1 JSON
+    const filePath = path.join(process.cwd(), 'data', 'rag', 'mistborn1.json');
+    const fileData = fs.readFileSync(filePath, 'utf8');
+    const mistbornData = JSON.parse(fileData);
+
+    // ✅ Prepare rows for bulk insert
+    const rows = mistbornData.map(ch => ({
+      series: ch.series,
+      book: ch.book,
+      chapter: ch.chapter,
+      text: ch.summary
+    }));
+
+    // ✅ Bulk upsert all 38 chapters
+    const { data, error } = await supabase.from('book_chunks').upsert(rows, { onConflict: ['series', 'book', 'chapter'] });
+
+    if (error) {
+      console.error('Supabase insert error:', error);
+      return res.status(500).json({ error: 'Bulk insert failed' });
+    }
+
+    return res.status(200).json({ message: `Supabase setup complete. Inserted ${rows.length} chapters for Mistborn Book 1.` });
   } catch (err) {
-    // fallback: manual table creation
-    await supabase.from('book_chunks').select('id').limit(1);
+    console.error('Setup error:', err);
+    return res.status(500).json({ error: 'Setup route failed' });
   }
-
-  // ✅ Load Mistborn1 JSON from /data/rag
-  const filePath = path.join(process.cwd(), 'data', 'rag', 'mistborn1.json');
-  const fileData = fs.readFileSync(filePath, 'utf8');
-  const mistbornData = JSON.parse(fileData);
-
-  // ✅ Insert chunks into Supabase
-  for (const chunk of mistbornData) {
-    await supabase.from('book_chunks').upsert([
-      {
-        series: chunk.series,
-        book: chunk.book,
-        chapter: chunk.chapter,
-        text: chunk.summary
-      }
-    ]);
-  }
-
-  return res.status(200).json({ message: 'Supabase setup complete. Mistborn 1 uploaded!' });
 }
