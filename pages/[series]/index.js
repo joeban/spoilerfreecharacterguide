@@ -21,7 +21,7 @@ export default function SeriesPage({ seriesName, books }) {
 export async function getStaticPaths() {
   const filePath = path.join(process.cwd(), 'data', 'index.json');
   const series = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-  const paths = Object.keys(series).map(name => ({ params: { series: name.toLowerCase() } }));
+  const paths = Object.keys(series).filter(key => !key.startsWith('_')).map(name => ({ params: { series: name.toLowerCase() } }));
   return { paths, fallback: false };
 }
 
