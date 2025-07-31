@@ -1,231 +1,493 @@
-{
-  "title": "The Final Empire",
-  "author": "Brandon Sanderson",
-  "totalChapters": 38,
-  "chapters": [
-    {
-      "number": 1,
-      "title": "The Survivor of Hathsin",
-      "summary": "A thieving crew watches the nobility and plans a heist in the ash-covered city of Luthadel.",
-      "charactersIntroduced": ["Kelsier", "Dockson"],
-      "characters": {
-        "Kelsier": {
-          "background": "A legendary thief known as the Survivor of Hathsin, the only person to escape the Lord Ruler's most brutal prison.",
-          "arc": "Returns to Luthadel with a grand plan to overthrow the immortal emperor who has ruled for a thousand years."
-        },
-        "Dockson": {
-          "background": "Kelsier's longtime friend and the crew's organizer, skilled at managing the practical details of their operations.",
-          "arc": "Reunites with Kelsier and begins planning what seems to be their most ambitious job yet."
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter Companion - Spoiler-Free Character Guides</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-      }
-    },
-    {
-      "number": 2,
-      "title": "A Proposal",
-      "summary": "Vin survives on the streets using her Luck while her thieving crew plans their next scheme.",
-      "charactersIntroduced": ["Vin", "Camon", "Theron"],
-      "characters": {
-        "Vin": {
-          "background": "A 16-year-old street thief with an unusual ability she calls 'Luck' that helps her influence people.",
-          "arc": "Struggles to survive in her abusive thieving crew while hiding the full extent of her mysterious abilities."
-        },
-        "Camon": {
-          "background": "The cruel leader of Vin's thieving crew who regularly beats his members and takes unnecessary risks.",
-          "arc": "Plans a dangerous scam against an obligator, showing his greed and disregard for his crew's safety."
-        },
-        "Theron": {
-          "background": "Camon's second-in-command who treats the crew members slightly better than Camon does.",
-          "arc": "Helps plan the crew's scam while showing subtle signs of dissatisfaction with Camon's leadership."
-        },
-        "Kelsier": {
-          "background": "A legendary thief known as the Survivor of Hathsin, the only person to escape the Lord Ruler's most brutal prison.",
-          "arc": "Continues recruiting for his master plan, showing interest in crews with unusual members."
-        },
-        "Dockson": {
-          "background": "Kelsier's longtime friend and the crew's organizer, skilled at managing the practical details of their operations.",
-          "arc": "Assists Kelsier in evaluating potential recruits for their unprecedented heist."
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f7f4;
+            color: #2c2c2c;
+            line-height: 1.6;
+            min-height: 100vh;
         }
-      }
-    },
-    {
-      "number": 3,
-      "title": "The Eleventh Metal",
-      "summary": "Kelsier saves Vin from her crew and reveals the truth about her abilities as Allomancy.",
-      "charactersIntroduced": [],
-      "characters": {
-        "Kelsier": {
-          "background": "A legendary thief known as the Survivor of Hathsin, the only person to escape the Lord Ruler's most brutal prison.",
-          "arc": "Reveals himself as a Mistborn and saves Vin from the obligators, recognizing her as one of his kind."
-        },
-        "Vin": {
-          "background": "A 16-year-old street thief who just discovered her 'Luck' is actually a rare magical ability called Allomancy.",
-          "arc": "Learns she is a Mistborn with the ability to ingest and burn metals for magical powers, opening up an entirely new world."
-        },
-        "Dockson": {
-          "background": "Kelsier's longtime friend and the crew's organizer, skilled at managing the practical details of their operations.",
-          "arc": "Helps explain the basics of their operation to Vin and shows his role as the practical planner of the group."
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
         }
-      }
-    },
-    {
-      "number": 4,
-      "title": "Training",
-      "summary": "Vin begins her Allomantic training and meets the rest of Kelsier's thieving crew.",
-      "charactersIntroduced": ["Breeze", "Ham", "Clubs", "Spook", "Sazed"],
-      "characters": {
-        "Vin": {
-          "background": "A 16-year-old Mistborn discovering her abilities to ingest and burn metals for magical powers.",
-          "arc": "Begins intensive Allomantic training while struggling to trust her new crew after years of abuse and betrayal."
-        },
-        "Kelsier": {
-          "background": "A legendary thief and Mistborn who escaped the Lord Ruler's most brutal prison.",
-          "arc": "Takes on the role of Vin's mentor, teaching her Allomancy while revealing glimpses of his larger plan."
-        },
-        "Breeze": {
-          "background": "A Soother who can manipulate emotions using Allomancy, with a taste for fine wine and comfortable living.",
-          "arc": "Joins Kelsier's crew as their emotional manipulator, showing both his skills and his pompous personality."
-        },
-        "Ham": {
-          "background": "A Thug who can burn pewter for enhanced strength and endurance, known for his philosophical debates.",
-          "arc": "Serves as the crew's muscle while constantly engaging others in theoretical discussions about morality and society."
-        },
-        "Clubs": {
-          "background": "A Smoker who can hide Allomantic activity, running a carpentry shop as a front for the crew's operations.",
-          "arc": "Provides a safe house for the crew while maintaining his gruff, pessimistic demeanor."
-        },
-        "Spook": {
-          "background": "Clubs's nephew, a Tineye who can enhance his senses by burning tin, speaking in Eastern street slang.",
-          "arc": "Acts as the crew's scout and spy while trying to prove himself to the more experienced members."
-        },
-        "Sazed": {
-          "background": "A Terris Keeper who stores knowledge in metalminds and serves as a steward despite his people's oppression.",
-          "arc": "Agrees to help train Vin in court etiquette while sharing his vast knowledge of religions and history."
-        },
-        "Dockson": {
-          "background": "Kelsier's longtime friend and the crew's organizer, the only non-Allomancer in the core group.",
-          "arc": "Manages the crew's finances and logistics while showing fatherly concern for Vin's well-being."
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
         }
-      }
-    },
-    {
-      "number": 5,
-      "title": "The Job",
-      "summary": "Kelsier reveals the crew's true goal: to steal the Lord Ruler's atium and overthrow the Final Empire.",
-      "charactersIntroduced": ["Marsh"],
-      "characters": {
-        "Kelsier": {
-          "background": "A legendary thief and Mistborn who escaped the Lord Ruler's most brutal prison.",
-          "arc": "Reveals his audacious plan to overthrow the immortal Lord Ruler and end the Final Empire's thousand-year reign."
-        },
-        "Marsh": {
-          "background": "Kelsier's older brother and a former seeker for the rebellion, known for his stern demeanor and dedication.",
-          "arc": "Arrives to confront Kelsier about his reckless plans, revealing the complex relationship between the brothers."
-        },
-        "Vin": {
-          "background": "A 16-year-old Mistborn discovering her abilities to ingest and burn metals for magical powers.",
-          "arc": "Learns about the crew's true revolutionary goals while continuing to develop her Allomantic abilities."
-        },
-        "Breeze": {
-          "background": "A Soother who can manipulate emotions using Allomancy, with a taste for fine wine and comfortable living.",
-          "arc": "Expresses skepticism about the plan but agrees to participate, using his abilities to help recruit noble house allies."
-        },
-        "Ham": {
-          "background": "A Thug who can burn pewter for enhanced strength and endurance, known for his philosophical debates.",
-          "arc": "Philosophizes about the morality of their plan while preparing to train a rebel army."
-        },
-        "Dockson": {
-          "background": "Kelsier's longtime friend and the crew's organizer, the only non-Allomancer in the core group.",
-          "arc": "Works on the massive logistics required for their plan, showing his crucial role in making the impossible possible."
-        },
-        "Clubs": {
-          "background": "A Smoker who can hide Allomantic activity, running a carpentry shop as a front for the crew's operations.",
-          "arc": "Maintains his skepticism about their chances while agreeing to provide safe houses for the operation."
-        },
-        "Spook": {
-          "background": "Clubs's nephew, a Tineye who can enhance his senses by burning tin, speaking in Eastern street slang.",
-          "arc": "Eagerly embraces his role in the grand plan, excited to be part of something historically significant."
-        },
-        "Sazed": {
-          "background": "A Terris Keeper who stores knowledge in metalminds and serves as a steward despite his people's oppression.",
-          "arc": "Continues teaching Vin while subtly revealing his own interests in seeing the Lord Ruler's reign end."
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            font-weight: 300;
+            margin-bottom: 0.5rem;
         }
-      }
-    },
-    {
-      "number": 6,
-      "title": "Nobility",
-      "summary": "Vin attends her first noble ball as Valette Renoux, beginning her infiltration of high society.",
-      "charactersIntroduced": ["Elend Venture"],
-      "characters": {
-        "Vin": {
-          "background": "A young Mistborn posing as Valette Renoux, a minor noblewoman from the countryside.",
-          "arc": "Transforms from street thief to noble lady, attending her first ball while struggling with this new identity."
-        },
-        "Elend Venture": {
-          "background": "The heir to House Venture who spends balls reading books instead of dancing, considered odd by noble standards.",
-          "arc": "Meets 'Valette' at the ball and engages her in conversation about books and philosophy, intriguing Vin."
-        },
-        "Sazed": {
-          "background": "A Terris Keeper serving as Vin's steward and teaching her noble etiquette.",
-          "arc": "Accompanies Vin to the ball as her servant, providing guidance and support during her debut."
-        },
-        "Kelsier": {
-          "background": "The mastermind of the plot to overthrow the Lord Ruler, posing as Lord Renoux's relative.",
-          "arc": "Monitors Vin's progress at infiltrating nobility while working on other aspects of their grand plan."
+
+        .subtitle {
+            color: #666;
+            font-style: italic;
+            font-size: 1.1rem;
         }
-      }
-    },
-    {
-      "number": 7,
-      "title": "Betrayal",
-      "summary": "The crew faces unexpected challenges as their plan begins to unfold across multiple fronts.",
-      "charactersIntroduced": [],
-      "characters": {
-        "Vin": {
-          "background": "A young Mistborn successfully infiltrating noble society as Valette Renoux.",
-          "arc": "Continues attending balls and gathering intelligence while finding herself drawn to Elend Venture's unusual perspectives."
-        },
-        "Kelsier": {
-          "background": "The legendary thief leading a revolution against the immortal Lord Ruler.",
-          "arc": "Pushes forward with recruiting skaa rebels while dealing with unexpected complications in their plans."
-        },
-        "Marsh": {
-          "background": "Kelsier's stern older brother who has reluctantly joined their cause.",
-          "arc": "Undertakes a dangerous mission to infiltrate the Steel Inquisitors despite the extreme risks involved."
-        },
-        "Breeze": {
-          "background": "A Soother working to manipulate the emotions of key nobles and faction leaders.",
-          "arc": "Makes progress in turning noble houses against each other while complaining about the accommodations."
-        },
-        "Ham": {
-          "background": "The crew's Thug who burns pewter for enhanced strength and endurance.",
-          "arc": "Continues training the rebel army while debating the philosophical implications of their revolution."
+
+        /* Bookshelf Styles */
+        .bookshelf {
+            background: linear-gradient(to bottom, #8b6f47 0%, #6d5638 100%);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 2rem;
         }
-      }
-    },
-    {
-      "number": 8,
-      "title": "The Eleventh Metal",
-      "summary": "Kelsier shares more about his time in the Pits of Hathsin and the mysterious eleventh metal.",
-      "charactersIntroduced": [],
-      "characters": {
-        "Kelsier": {
-          "background": "The only person to survive the Pits of Hathsin, where atium is mined under brutal conditions.",
-          "arc": "Reveals more about his past suffering and his discovery of the eleventh metal that might defeat the Lord Ruler."
-        },
-        "Vin": {
-          "background": "A young Mistborn learning to balance her street thief instincts with her noble disguise.",
-          "arc": "Deepens her Allomantic training while questioning Kelsier about the true nature of their mission."
-        },
-        "Sazed": {
-          "background": "A Keeper who stores vast knowledge in his metalminds, including hundreds of religions.",
-          "arc": "Shares his knowledge about the Lord Ruler's past while helping Vin understand the deeper history of their world."
-        },
-        "Dockson": {
-          "background": "The crew's organizer who manages their resources without any Allomantic abilities.",
-          "arc": "Coordinates the growing rebellion's logistics while worrying about Kelsier's increasing recklessness."
+
+        .shelf {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1.5rem;
+            background: linear-gradient(to bottom, transparent 95%, #5a4a3a 95%);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
         }
-      }
-    }
-  ]
-}
+
+        .book {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        .book:hover {
+            transform: translateY(-10px);
+        }
+
+        .book-spine {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #c9302c 0%, #9a221f 100%);
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            box-shadow: 
+                inset -3px 0 10px rgba(0,0,0,0.2),
+                0 2px 5px rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .book-spine::before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .book-spine::after {
+            content: '';
+            position: absolute;
+            bottom: 10%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .book-title {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            color: #fff;
+            font-size: 0.9rem;
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        /* Different book colors */
+        .book-spine.color-1 { background: linear-gradient(135deg, #2c5aa0 0%, #1e3c72 100%); }
+        .book-spine.color-2 { background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%); }
+        .book-spine.color-3 { background: linear-gradient(135deg, #6a1b9a 0%, #4a148c 100%); }
+        .book-spine.color-4 { background: linear-gradient(135deg, #d84315 0%, #bf360c 100%); }
+        .book-spine.color-5 { background: linear-gradient(135deg, #5d4037 0%, #3e2723 100%); }
+
+        /* Book page styles */
+        .book-content {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .chapter-selector {
+            margin-bottom: 2rem;
+        }
+
+        .chapter-selector label {
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+
+        .chapter-selector select {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: #fff;
+            cursor: pointer;
+        }
+
+        .chapter-summary {
+            background: #f5f5f5;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+        }
+
+        .spoiler-toggle {
+            background: #e0e0e0;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .spoiler-toggle:hover {
+            background: #d0d0d0;
+        }
+
+        .spoiler-content {
+            display: none;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        .spoiler-content.visible {
+            display: block;
+        }
+
+        .characters-section h3 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .character-card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 4px solid #c9302c;
+        }
+
+        .character-card.current-chapter {
+            background: #fff3e0;
+            border-left-color: #ff9800;
+        }
+
+        .character-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+
+        .character-description {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 2rem;
+            padding: 0.5rem 1rem;
+            background: #e0e0e0;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .back-button:hover {
+            background: #d0d0d0;
+        }
+
+        /* Hidden by default */
+        .series-shelf, .book-page {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chapter Companion</h1>
+            <p class="subtitle">Spoiler-free character guides for your reading journey</p>
+        </header>
+
+        <!-- Main Bookshelf -->
+        <div id="mainShelf" class="bookshelf">
+            <div class="shelf" id="seriesShelf"></div>
+        </div>
+
+        <!-- Series Bookshelf -->
+        <div id="seriesView" class="series-shelf">
+            <button class="back-button" onclick="showMainShelf()">← Back to Series</button>
+            <h2 id="seriesTitle" style="text-align: center; margin-bottom: 2rem;"></h2>
+            <div class="bookshelf">
+                <div class="shelf" id="booksShelf"></div>
+            </div>
+        </div>
+
+        <!-- Book Page -->
+        <div id="bookPage" class="book-page">
+            <button class="back-button" onclick="showSeriesShelf()">← Back to Books</button>
+            <div class="book-content">
+                <h2 id="bookTitle" style="margin-bottom: 2rem;"></h2>
+                
+                <div class="chapter-selector">
+                    <label for="chapterSelect">Currently reading:</label>
+                    <select id="chapterSelect" onchange="updateChapter()">
+                        <!-- Chapters will be populated here -->
+                    </select>
+                </div>
+
+                <div class="chapter-summary">
+                    <button class="spoiler-toggle" onclick="toggleSpoiler('chapterSummary')">
+                        Show Chapter Summary
+                    </button>
+                    <div id="chapterSummary" class="spoiler-content">
+                        <!-- Chapter summary will be populated here -->
+                    </div>
+                </div>
+
+                <div class="characters-section">
+                    <h3>Characters in Current Chapter</h3>
+                    <div id="currentChapterCharacters" class="character-grid">
+                        <!-- Current chapter characters will be populated here -->
+                    </div>
+
+                    <h3>All Characters (up to current chapter)</h3>
+                    <div id="allCharacters" class="character-grid">
+                        <!-- All characters will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data storage
+        let seriesData = {};
+        let currentSeries = null;
+        let currentBook = null;
+        let currentChapter = 1;
+
+        // Initialize the app
+        async function init() {
+            try {
+                // Load series data
+                const response = await fetch('data/series.json');
+                seriesData = await response.json();
+                renderMainShelf();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('mainShelf').innerHTML = '<p style="text-align: center; color: #666;">Error loading series data. Please ensure the data/series.json file exists.</p>';
+            }
+        }
+
+        // Render main bookshelf with all series
+        function renderMainShelf() {
+            const shelf = document.getElementById('seriesShelf');
+            shelf.innerHTML = '';
+            
+            seriesData.series.forEach((series, index) => {
+                const book = document.createElement('div');
+                book.className = 'book';
+                book.onclick = () => showSeries(series);
+                
+                const spine = document.createElement('div');
+                spine.className = `book-spine color-${(index % 5) + 1}`;
+                
+                const title = document.createElement('div');
+                title.className = 'book-title';
+                title.textContent = series.title;
+                
+                spine.appendChild(title);
+                book.appendChild(spine);
+                shelf.appendChild(book);
+            });
+        }
+
+        // Show series bookshelf
+        function showSeries(series) {
+            currentSeries = series;
+            document.getElementById('mainShelf').style.display = 'none';
+            document.getElementById('seriesView').style.display = 'block';
+            document.getElementById('seriesTitle').textContent = series.title;
+            
+            const shelf = document.getElementById('booksShelf');
+            shelf.innerHTML = '';
+            
+            series.books.forEach((bookTitle, index) => {
+                const book = document.createElement('div');
+                book.className = 'book';
+                book.onclick = () => showBook(series.id, index + 1, bookTitle);
+                
+                const spine = document.createElement('div');
+                spine.className = `book-spine color-${(index % 5) + 1}`;
+                
+                const title = document.createElement('div');
+                title.className = 'book-title';
+                title.textContent = bookTitle;
+                
+                spine.appendChild(title);
+                book.appendChild(spine);
+                shelf.appendChild(book);
+            });
+        }
+
+        // Show book page
+        async function showBook(seriesId, bookNumber, bookTitle) {
+            currentBook = { seriesId, bookNumber, title: bookTitle };
+            document.getElementById('seriesView').style.display = 'none';
+            document.getElementById('bookPage').style.display = 'block';
+            document.getElementById('bookTitle').textContent = bookTitle;
+            
+            try {
+                // Load book data
+                const response = await fetch(`data/${seriesId}/book${bookNumber}.json`);
+                const bookData = await response.json();
+                currentBook.data = bookData;
+                
+                // Populate chapter selector
+                const select = document.getElementById('chapterSelect');
+                select.innerHTML = '';
+                bookData.chapters.forEach((chapter, index) => {
+                    const option = document.createElement('option');
+                    option.value = index + 1;
+                    option.textContent = `Chapter ${index + 1}: ${chapter.title}`;
+                    select.appendChild(option);
+                });
+                
+                // Show first chapter
+                currentChapter = 1;
+                updateChapter();
+            } catch (error) {
+                console.error('Error loading book data:', error);
+                document.getElementById('bookPage').innerHTML = '<p style="text-align: center; color: #666;">Error loading book data. Please ensure the data file exists at: data/' + seriesId + '/book' + bookNumber + '.json</p>';
+                                    
+            }
+        }
+
+        // Update chapter display
+        function updateChapter() {
+            const chapterIndex = parseInt(document.getElementById('chapterSelect').value) - 1;
+            currentChapter = chapterIndex + 1;
+            const chapter = currentBook.data.chapters[chapterIndex];
+            
+            // Update chapter summary
+            document.getElementById('chapterSummary').textContent = chapter.summary;
+            document.getElementById('chapterSummary').classList.remove('visible');
+            
+            // Get all characters up to current chapter
+            const allChars = new Set();
+            const currentChars = new Set(chapter.charactersIntroduced || []);
+            
+            for (let i = 0; i <= chapterIndex; i++) {
+                const ch = currentBook.data.chapters[i];
+                if (ch.charactersIntroduced) {
+                    ch.charactersIntroduced.forEach(char => allChars.add(char));
+                }
+            }
+            
+            // Render current chapter characters
+            const currentGrid = document.getElementById('currentChapterCharacters');
+            currentGrid.innerHTML = '';
+            currentChars.forEach(charName => {
+                if (chapter.characters && chapter.characters[charName]) {
+                    currentGrid.appendChild(createCharacterCard(charName, chapter.characters[charName], true));
+                }
+            });
+            
+            // Render all other characters
+            const allGrid = document.getElementById('allCharacters');
+            allGrid.innerHTML = '';
+            allChars.forEach(charName => {
+                if (!currentChars.has(charName)) {
+                    // Find the most recent chapter info for this character
+                    for (let i = chapterIndex; i >= 0; i--) {
+                        const ch = currentBook.data.chapters[i];
+                        if (ch.characters && ch.characters[charName]) {
+                            allGrid.appendChild(createCharacterCard(charName, ch.characters[charName], false));
+                            break;
+                        }
+                    }
+                }
+            });
+        }
+
+        // Create character card
+        function createCharacterCard(name, info, isCurrent) {
+            const card = document.createElement('div');
+            card.className = `character-card ${isCurrent ? 'current-chapter' : ''}`;
+            
+            const nameEl = document.createElement('div');
+            nameEl.className = 'character-name';
+            nameEl.textContent = name;
+            
+            const descEl = document.createElement('div');
+            descEl.className = 'character-description';
+            descEl.textContent = `${info.background} ${info.arc}`;
+            
+            card.appendChild(nameEl);
+            card.appendChild(descEl);
+            return card;
+        }
+
+        // Navigation functions
+        function showMainShelf() {
+            document.getElementById('seriesView').style.display = 'none';
+            document.getElementById('mainShelf').style.display = 'block';
+        }
+
+        function showSeriesShelf() {
+            document.getElementById('bookPage').style.display = 'none';
+            document.getElementById('seriesView').style.display = 'block';
+        }
+
+        // Toggle spoiler content
+        function toggleSpoiler(id) {
+            const content = document.getElementById(id);
+            content.classList.toggle('visible');
+            const button = content.previousElementSibling;
+            button.textContent = content.classList.contains('visible') ? 
+                'Hide Chapter Summary' : 'Show Chapter Summary';
+        }
+
+        // Start the app
+        init();
+    </script>
+</body>
+</html>
