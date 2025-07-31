@@ -1,4 +1,4 @@
-import mistbornData from '../../../rag_data/mistborn1.json';
+import mistbornData from '../../../data/rag/mistborn1.json';
 import OpenAI from 'openai';
 
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
