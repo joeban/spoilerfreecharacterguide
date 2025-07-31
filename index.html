@@ -335,31 +335,67 @@
                 title: 'Mistborn',
                 file: 'data/mistborn.json',
                 cssClass: 'mistborn'
-            },
-            'harry-potter': {
-                title: 'Harry Potter',
-                file: 'data/harry-potter.json',
-                cssClass: 'harry-potter'
-            },
-            'dune': {
-                title: 'Dune',
-                file: 'data/dune.json',
-                cssClass: 'dune'
-            },
-            'lotr': {
-                title: 'Lord of the Rings',
-                file: 'data/lotr.json',
-                cssClass: 'lotr'
-            },
-            'wheel-of-time': {
-                title: 'Wheel of Time',
-                file: 'data/wheel-of-time.json',
-                cssClass: 'wheel-of-time'
-            },
-            'stormlight': {
-                title: 'Stormlight Archive',
-                file: 'data/stormlight.json',
-                cssClass: 'stormlight'
+            }
+        };
+
+        // Embedded data (fallback until JSON files are set up)
+        const embeddedData = {
+            'mistborn': {
+                title: "Mistborn",
+                books: {
+                    "final-empire": {
+                        title: "The Final Empire",
+                        chapters: 38,
+                        characters: {
+                            "vin": {
+                                name: "Vin",
+                                appearsInChapters: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38],
+                                descriptions: {
+                                    1: "A young thief from the streets of Luthadel who has lived a harsh life under her brother's crew. She discovers she has magical abilities and is recruited by a mysterious nobleman named Kelsier.",
+                                    5: "A young thief who has joined Kelsier's thieving crew and is learning about her Allomantic powers. She struggles with trusting others and finding her place among the crew.",
+                                    10: "A street thief turned noblewoman who is learning to navigate high society while training her Allomantic abilities. She poses as Valette Renoux to infiltrate noble society.",
+                                    15: "An Allomancer posing as noblewoman Valette Renoux who has grown more confident in her powers and social skills. She finds herself torn between her growing feelings for Elend and her loyalty to the crew.",
+                                    25: "A powerful Mistborn who has fully embraced her abilities and her role in Kelsier's plan to overthrow the Final Empire. She struggles with the violence required and her deepening relationship with Elend.",
+                                    35: "A skilled Mistborn who has become central to the rebellion against the Lord Ruler. She faces the ultimate test of her powers and must make difficult choices about her future and the fate of the empire."
+                                }
+                            },
+                            "kelsier": {
+                                name: "Kelsier",
+                                appearsInChapters: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
+                                descriptions: {
+                                    1: "A legendary thief and Mistborn known as the 'Survivor of Hathsin' who escaped the Lord Ruler's prison camps. He recruits Vin and plans an impossible heist to overthrow the immortal emperor.",
+                                    10: "The charismatic leader of a thieving crew who is training Vin in Allomancy while planning to steal the Lord Ruler's treasury. He carries deep hatred for the nobility and the Final Empire.",
+                                    20: "A powerful Mistborn leading a complex plan to destabilize the Final Empire through both theft and rebellion. He becomes increasingly radical in his methods and beliefs about overthrowing the social order.",
+                                    30: "The legendary Survivor whose plan to overthrow the Lord Ruler reaches its climax. His actions set in motion events that will forever change the Final Empire and leave a lasting impact on all who knew him."
+                                }
+                            },
+                            "elend": {
+                                name: "Elend Venture",
+                                appearsInChapters: [6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38],
+                                descriptions: {
+                                    6: "A young nobleman and heir to House Venture who is idealistic and dreams of political reform. He's often found reading philosophy books at noble parties instead of socializing.",
+                                    15: "An idealistic nobleman who has grown close to Valette Renoux (Vin) and shares his dreams of creating a better government. He remains unaware of her true identity as a thief and Mistborn.",
+                                    25: "A nobleman torn between his growing love for Valette and his duty to his house during the growing chaos in Luthadel. He continues to advocate for political reform despite the dangerous times.",
+                                    35: "A young nobleman who discovers Valette's true identity as Vin and must reconcile his feelings with the reality of her role in the rebellion. He faces the collapse of his world and the challenge of his idealistic beliefs."
+                                }
+                            }
+                        },
+                        chapterSummaries: {
+                            1: "Vin, a street thief, witnesses her thieving crew's interaction with a mysterious nobleman who demonstrates magical powers.",
+                            2: "Kelsier recruits Vin and reveals the existence of Allomancy while beginning to train her in the magical arts.",
+                            3: "Vin meets Kelsier's crew and begins learning about their plan to overthrow the immortal Lord Ruler.",
+                            4: "The crew explains their roles and Vin starts understanding the scope of their impossible heist.",
+                            5: "Vin begins training with Kelsier's crew and learns about her Allomantic abilities while struggling to trust her new companions.",
+                            10: "Vin, now posing as noblewoman Valette Renoux, attends her first ball and meets the idealistic Elend Venture.",
+                            15: "The crew's plans advance as Vin grows more comfortable in noble society and her relationship with Elend deepens.",
+                            20: "The rebellion gains momentum as various plots converge, with Vin becoming more skilled and the crew facing increasing dangers.",
+                            25: "Tensions rise in Luthadel as the crew's activities draw attention and Vin must balance her growing powers with difficult moral choices.",
+                            30: "Kelsier's final gambit unfolds as he confronts the Lord Ruler, setting in motion events that will change the empire forever.",
+                            35: "The final confrontation approaches as Vin faces the Lord Ruler and the truth about the prophecies and her destiny.",
+                            38: "The climactic battle concludes with the fall of the Lord Ruler and the beginning of a new era for the Final Empire."
+                        }
+                    }
+                }
             }
         };
 
@@ -382,10 +418,16 @@
             document.getElementById('error').classList.add('hidden');
         }
 
-        // Load JSON data
+        // Load JSON data with fallback to embedded data
         async function loadSeriesData(seriesId) {
             if (booksData[seriesId]) {
                 return booksData[seriesId];
+            }
+
+            // First try embedded data (for artifact preview and fallback)
+            if (embeddedData[seriesId]) {
+                booksData[seriesId] = embeddedData[seriesId];
+                return embeddedData[seriesId];
             }
 
             const config = seriesConfig[seriesId];
@@ -403,7 +445,12 @@
                 booksData[seriesId] = data;
                 return data;
             } catch (error) {
-                console.error('Error loading series data:', error);
+                console.error('Error loading series data, using embedded fallback:', error);
+                // Fallback to embedded data if JSON file fails
+                if (embeddedData[seriesId]) {
+                    booksData[seriesId] = embeddedData[seriesId];
+                    return embeddedData[seriesId];
+                }
                 throw error;
             } finally {
                 hideLoading();
