@@ -22,9 +22,19 @@ export default function BookPage({ bookData }) {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col justify-between">
       <div>
-        <header className="w-full bg-white border-b border-gray-200 p-4 text-center text-3xl font-semibold shadow-sm">
-          Spoiler Free Character Guide
-        </header>
+        
+<header className="w-full bg-white border-b border-gray-200 p-6 shadow-sm">
+  <div className="flex flex-col items-center">
+    <div className="flex items-center mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-8 h-8 mr-2 text-gray-700">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v12m-7-9h14M5 6h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z" />
+</svg>
+      <h1 className="text-5xl font-bold text-gray-900">Spoiler Free Character Guide</h1>
+    </div>
+    <p className="text-lg text-gray-500 italic">Your safe guide to epic stories</p>
+  </div>
+</header>
+
         <main className="max-w-3xl mx-auto p-6">
           <h1 className="text-3xl font-light mb-2">{book.title}</h1>
           <a
