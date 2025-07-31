@@ -1,12 +1,14 @@
 import { useRouter } from 'next/router';
 import mistborn from '../data/mistborn.json';
 import well from '../data/well-of-ascension.json';
+import hero from '../data/hero-of-ages.json';
 
 export default function Home() {
   const router = useRouter();
   const books = [
     { title: mistborn.book.title, slug: 'mistborn' },
-    { title: well.book.title, slug: 'well-of-ascension' }
+    { title: well.book.title, slug: 'well-of-ascension' },
+    { title: hero.book.title, slug: 'hero-of-ages' }
   ];
 
   const handleSelect = (e) => {
