@@ -16,6 +16,15 @@ export default async function handler(req, res) {
   const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 
   try {
+    // ✅ Add unique constraint (series, book, chapter) if not already there
+    const { error: constraintError } = await supabase.rpc('exec_sql', {
+      sql: `ALTER TABLE book_chunks ADD CONSTRAINT IF NOT EXISTS unique_book_chunk UNIQUE (series, book, chapter);`
+    });
+
+    if (constraintError) {
+      console.warn('Constraint creation may have failed (or already exists):', constraintError.message);
+    }
+
     // ✅ Load Mistborn1 JSON
     const filePath = path.join(process.cwd(), 'data', 'rag', 'mistborn1.json');
     const fileData = fs.readFileSync(filePath, 'utf8');
@@ -30,7 +39,9 @@ export default async function handler(req, res) {
     }));
 
     // ✅ Bulk upsert all 38 chapters
-    const { data, error } = await supabase.from('book_chunks').upsert(rows, { onConflict: ['series', 'book', 'chapter'] });
+    const { data, error } = await supabase
+      .from('book_chunks')
+      .upsert(rows, { onConflict: ['series', 'book', 'chapter'] });
 
     if (error) {
       console.error('Supabase insert error:', error);
