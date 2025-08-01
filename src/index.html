@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spoiler-free character guides for fiction novels">
+    <title>Chapter Companion</title>
+    
+    <!-- Modular CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/bookshelf.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+    <!-- Application Container -->
+    <div id="app" class="app-container">
+        
+        <!-- Header -->
+        <header class="app-header">
+            <h1 class="app-title">Chapter Companion</h1>
+            <p class="app-subtitle">Spoiler-free character guides for your reading journey</p>
+        </header>
+        
+        <!-- Main Content Area -->
+        <main id="main-content" class="main-content">
+            <!-- Views will be dynamically inserted here -->
+        </main>
+        
+        <!-- Loading State -->
+        <div id="loading" class="loading-state hidden">
+            <div class="loading-spinner"></div>
+            <p>Loading...</p>
+        </div>
+        
+        <!-- Error State -->
+        <div id="error" class="error-state hidden">
+            <p class="error-message"></p>
+            <button onclick="window.location.reload()">Reload Page</button>
+        </div>
+        
+    </div>
+    
+    <!-- Modular JavaScript -->
+    <script type="module">
+        // This makes the app start when everything is loaded
+        import { App } from './js/app.js';
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            window.app = new App();
+            window.app.initialize();
+        });
+    </script>
+</body>
+</html>
