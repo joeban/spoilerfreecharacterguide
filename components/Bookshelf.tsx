@@ -8,12 +8,12 @@ interface BookshelfProps {
 
 export default function Bookshelf({ series }: BookshelfProps) {
   return (
-    <div className="bookshelf-container max-w-6xl mx-auto">
+    <div className="bookshelf-container max-w-7xl mx-auto">
       {/* Bookshelf Back Panel */}
-      <div className="relative bg-amber-900 p-8 rounded-lg shadow-2xl" 
+      <div className="relative bg-amber-900 p-12 rounded-lg shadow-2xl" 
            style={{
              background: 'linear-gradient(180deg, #654321 0%, #8b4513 100%)',
-             boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.5), 0 8px 16px rgba(0,0,0,0.3)'
+             boxShadow: 'inset 0 4px 8px rgba(0,0,0,0.5), 0 16px 32px rgba(0,0,0,0.3)'
            }}>
         
         {/* Wood grain effect */}
@@ -23,8 +23,14 @@ export default function Bookshelf({ series }: BookshelfProps) {
                                 repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.05) 2px, rgba(0,0,0,0.05) 4px)`
              }} />
         
+        {/* Back panel decorative nails/studs */}
+        <div className="absolute top-4 left-4 w-3 h-3 rounded-full bg-gold shadow-inner" />
+        <div className="absolute top-4 right-4 w-3 h-3 rounded-full bg-gold shadow-inner" />
+        <div className="absolute bottom-4 left-4 w-3 h-3 rounded-full bg-gold shadow-inner" />
+        <div className="absolute bottom-4 right-4 w-3 h-3 rounded-full bg-gold shadow-inner" />
+        
         {/* Books Container */}
-        <div className="relative flex gap-2 md:gap-4 items-end justify-center perspective-1000">
+        <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 justify-items-center">
           {series.map(({ slug, series: seriesData }) => (
             <Link key={slug} href={`/${slug}`} className="block">
               <BookSpine
@@ -37,15 +43,15 @@ export default function Bookshelf({ series }: BookshelfProps) {
         </div>
         
         {/* Bookshelf bottom ledge */}
-        <div className="absolute bottom-0 left-0 right-0 h-4 bg-amber-950 rounded-b-lg"
+        <div className="absolute bottom-0 left-0 right-0 h-6 bg-amber-950 rounded-b-lg"
              style={{
                background: 'linear-gradient(to bottom, #654321, #3e2723)',
-               boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.5)'
+               boxShadow: 'inset 0 3px 6px rgba(0,0,0,0.5), 0 -2px 4px rgba(0,0,0,0.3)'
              }} />
       </div>
       
-      {/* Bookshelf shadow */}
-      <div className="h-4 bg-black bg-opacity-20 rounded-full blur-xl -mt-2" />
+      {/* Bookshelf shadow on floor */}
+      <div className="h-6 bg-black bg-opacity-15 rounded-full blur-2xl -mt-3 mx-8" />
     </div>
   );
 }
