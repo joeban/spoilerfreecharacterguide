@@ -94,6 +94,9 @@ export function getChaptersWithContent(bookData: BookData): number[] {
   });
   
   // Combine and sort
-  const allChapters = [...new Set([...chaptersWithCharacters, ...chaptersWithRecaps])];
+  const allChapters = Array.from(new Set([
+    ...Array.from(chaptersWithCharacters),
+    ...Array.from(chaptersWithRecaps)
+  ]));
   return allChapters.sort((a, b) => a - b);
 }
