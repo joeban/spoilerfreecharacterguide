@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "title": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "chapters": 75,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "1.0"
+  },
+  "characters": {
+    "kaladin": {
+      "name": "Kaladin",
+      "aliases": ["Kal", "Stormblessed"],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "A young soldier with dark hair serving as squadleader in Brightlord Amaram's army. Known for his protective nature toward his men.",
+          "role": "Squadleader",
+          "relationships": {
+            "Cenn": "Protects"
+          }
+        },
+        "3": {
+          "appearsIn": 3,
+          "description": "A former soldier now enslaved as a bridgeman. Bears shash brand on forehead marking him as dangerous. Struggles with depression and loss.",
+          "role": "Bridgeman (Bridge Four)",
+          "relationships": {
+            "Cenn": "Failed to protect",
+            "Gaz": "Supervised by"
+          }
+        },
+        "11": {
+          "appearsIn": 11,
+          "description": "Bridgeman who has started to care for Bridge Four despite himself. Shows medical knowledge from his father's training. Natural leader emerging from despair.",
+          "role": "Bridge Four Leader",
+          "relationships": {
+            "Bridge Four": "Leads",
+            "Gaz": "Tense relationship with",
+            "Syl": "Followed by strange windspren"
+          }
+        }
+      }
+    },
+    "shallan": {
+      "name": "Shallan Davar",
+      "aliases": [],
+      "tiers": {
+        "3": {
+          "appearsIn": 3,
+          "description": "Young lighteyed woman from rural Jah Keved, traveling to become ward of scholar Jasnah Kholin. Artistic and witty but hides dark secrets.",
+          "role": "Prospective Ward"
+        },
+        "7": {
+          "appearsIn": 7,
+          "description": "Jasnah's new ward studying in Kharbranth. Talented artist with exceptional memory. Pursuing scholarship while harboring hidden agenda.",
+          "role": "Jasnah's Ward",
+          "relationships": {
+            "Jasnah Kholin": "Ward of",
+            "Kabsal": "Befriended by"
+          }
+        }
+      }
+    },
+    "dalinar": {
+      "name": "Dalinar Kholin",
+      "aliases": ["The Blackthorn"],
+      "tiers": {
+        "12": {
+          "appearsIn": 12,
+          "description": "Highprince of Alethkar and brother to the late King Gavilar. Once feared as the Blackthorn, now follows the Codes and seeks unity. Experiences strange visions during highstorms.",
+          "role": "Highprince",
+          "relationships": {
+            "Gavilar": "Brother (deceased)",
+            "Adolin": "Father of",
+            "Renarin": "Father of",
+            "Navani": "Sister-in-law"
+          }
+        },
+        "18": {
+          "appearsIn": 18,
+          "description": "Highprince who questions old ways of war. His adherence to the Codes makes other highprinces view him as weak. Visions grow more intense and detailed.",
+          "role": "Highprince of War",
+          "relationships": {
+            "Gavilar": "Brother (deceased)",
+            "Adolin": "Father of",
+            "Renarin": "Father of", 
+            "Navani": "Sister-in-law, growing closer to",
+            "Sadeas": "Former friend, now rival"
+          }
+        }
+      }
+    },
+    "adolin": {
+      "name": "Adolin Kholin",
+      "aliases": [],
+      "tiers": {
+        "12": {
+          "appearsIn": 12,
+          "description": "Dalinar's elder son and accomplished duelist. Fashionable and popular among lighteyes but loyal to his father despite doubts about the visions.",
+          "role": "Highprince's Son",
+          "relationships": {
+            "Dalinar": "Son of",
+            "Renarin": "Brother of"
+          }
+        }
+      }
+    },
+    "szeth": {
+      "name": "Szeth-son-son-Vallano",
+      "aliases": ["Assassin in White"],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Shin man dressed in white who possesses strange powers over gravity. Bound by mysterious oaths to obey whoever holds his oathstone.",
+          "role": "Truthless of Shinovar",
+          "relationships": {
+            "Gavilar": "Assassinated"
+          }
+        }
+      }
+    },
+    "cenn": {
+      "name": "Cenn",
+      "aliases": [],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Young, inexperienced spearman in Kaladin's squad. First time in real combat and terrified.",
+          "role": "Spearman",
+          "relationships": {
+            "Kaladin": "Protected by"
+          }
+        }
+      }
+    },
+    "gaz": {
+      "name": "Gaz",
+      "aliases": [],
+      "tiers": {
+        "3": {
+          "appearsIn": 3,
+          "description": "Bridge crew overseer with one eye. Takes bribes and treats bridgemen as expendable. Seems to have his own pressures and fears.",
+          "role": "Bridge Sergeant",
+          "relationships": {
+            "Kaladin": "Supervises"
+          }
+        }
+      }
+    },
+    "syl": {
+      "name": "Sylphrena",
+      "aliases": ["Syl"],
+      "tiers": {
+        "2": {
+          "appearsIn": 2,
+          "description": "An unusual windspren that follows Kaladin. More aware and coherent than typical spren, speaking and showing curiosity about humans.",
+          "role": "Windspren",
+          "relationships": {
+            "Kaladin": "Follows"
+          }
+        },
+        "11": {
+          "appearsIn": 11,
+          "description": "Increasingly self-aware windspren who acts unlike any normal spren. Can change size and appearance. Shows deep concern for Kaladin's wellbeing.",
+          "role": "Unique Windspren",
+          "relationships": {
+            "Kaladin": "Bonded to"
+          }
+        }
+      }
+    },
+    "jasnah": {
+      "name": "Jasnah Kholin",
+      "aliases": [],
+      "tiers": {
+        "3": {
+          "appearsIn": 3,
+          "description": "Renowned scholar and daughter of the late King Gavilar. Known for her intelligence, atheism, and exacting standards. Researching in Kharbranth.",
+          "role": "Scholar & Princess",
+          "relationships": {
+            "Gavilar": "Daughter of (deceased)",
+            "Dalinar": "Niece of",
+            "Shallan": "Potential patron of"
+          }
+        },
+        "7": {
+          "appearsIn": 7,
+          "description": "Brilliant scholar researching ancient history with unusual intensity. Has taken Shallan as ward. Demonstrates mysterious abilities during emergency.",
+          "role": "Scholar & Princess", 
+          "relationships": {
+            "Shallan": "Patron of",
+            "Dalinar": "Niece of",
+            "Navani": "Daughter of"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Kaladin leads his squad in battle, trying to protect young Cenn. Meanwhile, Szeth assassinates King Gavilar at a treaty celebration.",
+    "2": "Eight months later, Kaladin is now a slave being transported to the Shattered Plains. A strange windspren named Syl begins following him.",
+    "3": "Kaladin arrives at the warcamp and is assigned to Bridge Four. Shallan arrives in Kharbranth seeking to become Jasnah's ward.",
+    "7": "Shallan becomes Jasnah's ward and begins her studies. She meets the ardent Kabsal who shows interest in her.",
+    "11": "Kaladin begins caring for wounded bridgemen and starts earning Bridge Four's respect. Syl becomes more self-aware.",
+    "12": "We meet Dalinar and Adolin Kholin on the Shattered Plains. Dalinar experiences a vision during a highstorm.",
+    "18": "Dalinar's visions intensify. His relationship with Sadeas deteriorates as political tensions rise in the warcamps."
+  }
+}
