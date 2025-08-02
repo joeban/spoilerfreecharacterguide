@@ -10,6 +10,22 @@
   
   body {
     @apply font-serif;
+    background-color: #f4e8d0;
+    background-image: 
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 2px,
+        rgba(139, 69, 19, 0.03) 2px,
+        rgba(139, 69, 19, 0.03) 4px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(139, 69, 19, 0.03) 2px,
+        rgba(139, 69, 19, 0.03) 4px
+      );
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -22,6 +38,10 @@
     @apply relative transition-all duration-300 cursor-pointer;
     transform-style: preserve-3d;
     transform: rotateY(-20deg);
+    box-shadow: 
+      -2px 0 4px rgba(0,0,0,0.4),
+      -4px 0 8px rgba(0,0,0,0.2),
+      inset 1px 0 1px rgba(255,255,255,0.2);
   }
   
   .book-spine:hover {
@@ -32,6 +52,12 @@
   .parchment-card {
     @apply bg-parchment border-2 border-ink-light rounded-sm shadow-md;
     position: relative;
+    background: 
+      linear-gradient(135deg, #f4e8d0 0%, #f9f3e9 50%, #f4e8d0 100%);
+    box-shadow: 
+      0 4px 6px rgba(139, 69, 19, 0.1),
+      0 1px 3px rgba(139, 69, 19, 0.08),
+      inset 0 1px 0 rgba(255,255,255,0.5);
   }
   
   .parchment-card::before {
@@ -40,33 +66,56 @@
     inset: -2px;
     background: linear-gradient(45deg, transparent 30%, rgba(212, 175, 55, 0.1) 50%, transparent 70%);
     pointer-events: none;
+    border-radius: 2px;
   }
   
   .chapter-button {
     @apply px-3 py-1 border border-ink-light rounded-sm transition-all duration-200;
     @apply hover:bg-ink hover:text-parchment hover:border-ink;
+    box-shadow: 0 1px 2px rgba(44, 24, 16, 0.1);
+  }
+  
+  .chapter-button:hover {
+    box-shadow: 0 2px 4px rgba(44, 24, 16, 0.2);
   }
   
   .chapter-button.active {
     @apply bg-ink text-parchment border-ink;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
   }
   
   .leather-texture {
-    background-image: 
-      linear-gradient(rgba(139, 69, 19, 0.9), rgba(139, 69, 19, 0.9)),
+    background: 
+      linear-gradient(180deg, rgba(101, 67, 33, 0.95) 0%, rgba(139, 69, 19, 0.95) 100%),
       repeating-linear-gradient(
         90deg,
         transparent,
         transparent 2px,
         rgba(0, 0, 0, 0.1) 2px,
         rgba(0, 0, 0, 0.1) 4px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 0, 0, 0.05) 2px,
+        rgba(0, 0, 0, 0.05) 4px
       );
+    box-shadow: 
+      inset 0 2px 4px rgba(0, 0, 0, 0.2),
+      inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bookshelf-container {
+    perspective: 1000px;
   }
 }
 
 @layer utilities {
   .text-shadow-ink {
-    text-shadow: 1px 1px 2px rgba(44, 24, 16, 0.3);
+    text-shadow: 
+      1px 1px 2px rgba(44, 24, 16, 0.3),
+      2px 2px 4px rgba(44, 24, 16, 0.1);
   }
   
   .gold-foil {
@@ -81,5 +130,33 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-shadow: 0 2px 4px rgba(212, 175, 55, 0.3);
+    filter: brightness(1.2);
+  }
+  
+  /* Page texture overlay - using CSS pattern instead of external image */
+  .page-texture {
+    position: relative;
+  }
+  
+  .page-texture::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.03;
+    background-image: 
+      repeating-radial-gradient(
+        circle at 0 0,
+        transparent 0,
+        #8b4513 10px
+      ),
+      repeating-linear-gradient(
+        45deg,
+        #8b4513 0px,
+        transparent 2px,
+        transparent 4px,
+        #8b4513 6px
+      );
+    pointer-events: none;
   }
 }
