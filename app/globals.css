@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-parchment text-ink;
+  }
+  
+  body {
+    @apply font-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .book-spine {
+    @apply relative transition-all duration-300 cursor-pointer;
+    transform-style: preserve-3d;
+    transform: rotateY(-20deg);
+  }
+  
+  .book-spine:hover {
+    transform: rotateY(-10deg) translateZ(10px);
+    @apply shadow-2xl;
+  }
+  
+  .parchment-card {
+    @apply bg-parchment border-2 border-ink-light rounded-sm shadow-md;
+    position: relative;
+  }
+  
+  .parchment-card::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(45deg, transparent 30%, rgba(212, 175, 55, 0.1) 50%, transparent 70%);
+    pointer-events: none;
+  }
+  
+  .chapter-button {
+    @apply px-3 py-1 border border-ink-light rounded-sm transition-all duration-200;
+    @apply hover:bg-ink hover:text-parchment hover:border-ink;
+  }
+  
+  .chapter-button.active {
+    @apply bg-ink text-parchment border-ink;
+  }
+  
+  .leather-texture {
+    background-image: 
+      linear-gradient(rgba(139, 69, 19, 0.9), rgba(139, 69, 19, 0.9)),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 0, 0, 0.1) 2px,
+        rgba(0, 0, 0, 0.1) 4px
+      );
+  }
+}
+
+@layer utilities {
+  .text-shadow-ink {
+    text-shadow: 1px 1px 2px rgba(44, 24, 16, 0.3);
+  }
+  
+  .gold-foil {
+    background: linear-gradient(
+      135deg,
+      #d4af37 0%,
+      #f4e4bc 45%,
+      #d4af37 50%,
+      #b8941f 55%,
+      #d4af37 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
