@@ -30,7 +30,7 @@ export default function Bookshelf({ series }: BookshelfProps) {
         <div className="absolute bottom-4 right-4 w-3 h-3 rounded-full bg-gold shadow-inner" />
         
         {/* Books Container */}
-        <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 justify-items-center">
+        <div className="relative grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 justify-items-center">
           {series.map(({ slug, series: seriesData }) => (
             <Link key={slug} href={`/${slug}`} className="block">
               <BookSpine
