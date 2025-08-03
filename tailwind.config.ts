@@ -10,35 +10,32 @@ const config: Config = {
     extend: {
       colors: {
         'parchment': '#f4e8d0',
-        'parchment-dark': '#e8dbb7',
+        'parchment-dark': '#e8dcc4',
         'ink': '#2c1810',
         'ink-light': '#4a3426',
         'leather': '#8b4513',
         'leather-dark': '#654321',
         'gold': '#d4af37',
         'gold-light': '#f4e4bc',
+        'wood-light': '#8b6f47',
+        'wood': '#654321',
+        'wood-dark': '#4a3420',
+        'candle': '#ffbf00',
+        'hearth': '#ff8c00',
       },
       fontFamily: {
-        'serif': ['Crimson Text', 'Georgia', 'serif'],
-        'display': ['Cinzel', 'Georgia', 'serif'],
-      },
-      backgroundImage: {
-        'parchment-texture': "url('/textures/parchment.jpg')",
-        'leather-texture': "url('/textures/leather.jpg')",
+        'serif': ['Georgia', 'serif'],
+        'display': ['MedievalSharp', 'Pirata One', 'serif'],
+        'fantasy': ['Uncial Antiqua', 'MedievalSharp', 'serif'],
       },
       animation: {
-        'page-turn': 'pageTurn 0.6s ease-in-out',
-        'fade-in': 'fadeIn 0.3s ease-in-out',
+        'gentle-swing': 'gentle-swing 4s ease-in-out infinite',
+        'flicker': 'flicker 3s ease-in-out infinite',
+        'magical-glow': 'magical-glow 2s ease-in-out infinite',
       },
-      keyframes: {
-        pageTurn: {
-          '0%': { transform: 'rotateY(0deg)' },
-          '100%': { transform: 'rotateY(-180deg)' },
-        },
-        fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
-        },
+      backgroundImage: {
+        'wood-texture': "url('/textures/wood.jpg')",
+        'parchment-texture': "url('/textures/parchment.jpg')",
       },
     },
   },
