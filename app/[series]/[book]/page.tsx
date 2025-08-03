@@ -58,13 +58,9 @@ export default async function BookPage({
       </div>
       
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl font-display mb-6 text-center">
+        <h2 className="text-2xl font-display mb-8 text-center">
           Select Your Current Chapter
         </h2>
-        <p className="text-center text-ink-light mb-8 max-w-2xl mx-auto">
-          Choose the chapter you&apos;ve just finished reading. 
-          We&apos;ll show you only the character information available up to that point.
-        </p>
         
         <div className="parchment-card p-8">
           <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-2">
