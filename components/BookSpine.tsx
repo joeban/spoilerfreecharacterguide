@@ -28,7 +28,7 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
       <div className="book relative w-48 md:w-56 h-72 md:h-80"
            style={{ 
              transformStyle: 'preserve-3d',
-             transform: 'rotateY(-25deg)'
+             transform: 'rotateY(25deg)'
            }}>
         
         {/* Book spine - visible from angle */}
@@ -96,21 +96,15 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
                }} />
         </div>
         
-        {/* Pages - fore-edge (right side) */}
+        {/* Pages - fore-edge (right side) - NOT visible from this angle */}
+        
+        {/* Book back cover - visible at an angle */}
         <div className="absolute top-0 bottom-0 right-0 w-12 md:w-16 origin-right"
              style={{
-               backgroundColor: '#f4e8d0',
-               transform: 'rotateY(-90deg) translateZ(0px)',
-               background: `
-                 repeating-linear-gradient(90deg,
-                   #f4e8d0 0px,
-                   #f4e8d0 0.5px,
-                   #e8dcc4 0.5px,
-                   #e8dcc4 1px
-                 ),
-                 linear-gradient(to right, #f4e8d0 0%, #ede0c8 100%)
-               `,
-               boxShadow: 'inset -2px 0 6px rgba(139,69,19,0.2)'
+               backgroundColor: colors.primary,
+               transform: 'rotateY(90deg) translateZ(0px)',
+               filter: 'brightness(0.9)',
+               boxShadow: 'inset 0 0 10px rgba(0,0,0,0.4)'
              }} />
         
         {/* Book cover (front) */}
@@ -118,11 +112,11 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
              style={{
                backgroundColor: colors.primary,
                transform: 'translateZ(0px)',
-               borderRadius: '0 4px 4px 0',
+               borderRadius: '4px 0 0 4px',
                boxShadow: `
-                 4px 8px 24px rgba(0,0,0,0.3),
-                 inset -2px -2px 6px rgba(0,0,0,0.3),
-                 inset 2px 2px 4px rgba(255,255,255,0.05)
+                 -4px 8px 24px rgba(0,0,0,0.3),
+                 inset 2px -2px 6px rgba(0,0,0,0.3),
+                 inset -2px 2px 4px rgba(255,255,255,0.05)
                `
              }}>
           
@@ -208,19 +202,19 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
           </div>
           
           {/* Wear and aging on corners */}
-          <div className="absolute top-0 right-0 w-20 h-20 opacity-20"
+          <div className="absolute top-0 left-0 w-20 h-20 opacity-20"
                style={{
-                 background: 'radial-gradient(ellipse at top right, rgba(0,0,0,0.3) 0%, transparent 60%)',
-                 borderRadius: '0 4px 0 0'
+                 background: 'radial-gradient(ellipse at top left, rgba(0,0,0,0.3) 0%, transparent 60%)',
+                 borderRadius: '4px 0 0 0'
                }} />
-          <div className="absolute bottom-0 right-0 w-20 h-20 opacity-20"
+          <div className="absolute bottom-0 left-0 w-20 h-20 opacity-20"
                style={{
-                 background: 'radial-gradient(ellipse at bottom right, rgba(0,0,0,0.3) 0%, transparent 60%)',
-                 borderRadius: '0 0 4px 0'
+                 background: 'radial-gradient(ellipse at bottom left, rgba(0,0,0,0.3) 0%, transparent 60%)',
+                 borderRadius: '0 0 0 4px'
                }} />
           
           {/* Hover shine */}
-          <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none rounded-r" />
+          <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none rounded-l" />
         </div>
         
         {/* Book back cover - barely visible for depth */}
@@ -233,10 +227,10 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
              }} />
         
         {/* Shadow */}
-        <div className="absolute -bottom-6 left-4 right-0 h-6 bg-black/25 rounded-[40%] blur-2xl"
+        <div className="absolute -bottom-6 left-0 right-4 h-6 bg-black/25 rounded-[40%] blur-2xl"
              style={{
-               transform: 'rotateY(25deg) translateZ(-20px)',
-               transformOrigin: 'left center'
+               transform: 'rotateY(-25deg) translateZ(-20px)',
+               transformOrigin: 'right center'
              }} />
       </div>
     </div>
