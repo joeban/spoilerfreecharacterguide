@@ -32,53 +32,10 @@ export default async function SeriesPage({
         <p className="text-xl text-ink-light">
           by {series.author}
         </p>
-        
-        {/* Amazon affiliate link with cover image */}
-        <div className="mt-8 flex flex-col items-center">
-          <a
-            href={amazonSearchUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group"
-          >
-            <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
-              {coverImageUrl ? (
-                <img 
-                  src={coverImageUrl}
-                  alt={`${series.title} series cover`}
-                  className="w-48 h-auto"
-                  loading="lazy"
-                />
-              ) : (
-                <div className="w-48 h-72 bg-gradient-to-br from-leather to-leather-dark flex items-center justify-center">
-                  <span className="text-parchment-dark text-sm text-center px-4">
-                    {series.title}<br />Collection
-                  </span>
-                </div>
-              )}
-              {/* Overlay on hover */}
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-4 py-2 rounded">
-                  View on Amazon
-                </span>
-              </div>
-            </div>
-          </a>
-          <a
-            href={amazonSearchUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 mt-4 px-6 py-3 bg-leather text-parchment rounded-md shadow-md hover:bg-leather-dark transition-all duration-200 hover:shadow-lg"
-          >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-            </svg>
-            Buy Complete Series on Amazon
-          </a>
-        </div>
       </div>
       
-      <div className="max-w-6xl mx-auto">
+      {/* Books display - MAIN CONTENT FIRST */}
+      <div className="max-w-6xl mx-auto mb-16">
         <div className="flex flex-wrap justify-center gap-8">
           {books.map(({ slug, book }, index) => {
             // Generate unique colors for each book
@@ -243,8 +200,54 @@ export default async function SeriesPage({
         </div>
       </div>
       
+      {/* Amazon affiliate section - AFTER books */}
+      <div className="pt-12 border-t border-ink-light/20">
+        <div className="flex flex-col items-center">
+          <h3 className="text-xl font-display mb-6 text-ink-light">Purchase This Series</h3>
+          <a
+            href={amazonSearchUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group"
+          >
+            <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+              {coverImageUrl ? (
+                <img 
+                  src={coverImageUrl}
+                  alt={`${series.title} series cover`}
+                  className="w-40 h-auto"
+                  loading="lazy"
+                />
+              ) : (
+                <div className="w-40 h-60 bg-gradient-to-br from-leather to-leather-dark flex items-center justify-center">
+                  <span className="text-parchment-dark text-sm text-center px-4">
+                    {series.title}<br />Collection
+                  </span>
+                </div>
+              )}
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-sm">
+                  View on Amazon
+                </span>
+              </div>
+            </div>
+          </a>
+          <a
+            href={amazonSearchUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-leather text-parchment rounded-md shadow-md hover:bg-leather-dark transition-all duration-200 hover:shadow-lg text-sm"
+          >
+            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            Buy Complete Series on Amazon
+          </a>
+        </div>
+      </div>
+      
       {/* Amazon affiliate disclosure */}
-      <div className="mt-16 text-center">
+      <div className="mt-8 text-center">
         <p className="text-xs text-ink-light italic">
           As an Amazon Associate, we earn from qualifying purchases
         </p>
