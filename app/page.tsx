@@ -6,18 +6,22 @@ export default async function HomePage() {
   const allSeries = await getAllSeries();
 
   return (
-    <div className="container mx-auto px-4 py-12">
-      <div className="max-w-2xl mx-auto mb-12">
-        <SearchBar />
+    <div className="container mx-auto px-4 py-8">
+      {/* Search Section */}
+      <div className="max-w-3xl mx-auto mb-12">
+        <div className="parchment-panel p-6">
+          <SearchBar />
+        </div>
       </div>
 
+      {/* Bookshelf */}
       {allSeries.length > 0 ? (
         <Bookshelf series={allSeries} />
       ) : (
         <div className="text-center py-16">
-          <div className="parchment-card max-w-md mx-auto p-8">
-            <h3 className="text-2xl font-display mb-4">Library Coming Soon</h3>
-            <p className="text-ink-light">
+          <div className="parchment-panel max-w-md mx-auto p-8">
+            <h3 className="text-2xl font-display mb-4 text-amber-900">Library Coming Soon</h3>
+            <p className="text-amber-800">
               We&apos;re preparing our collection of spoiler-free guides. 
               Check back soon for your favorite series!
             </p>
