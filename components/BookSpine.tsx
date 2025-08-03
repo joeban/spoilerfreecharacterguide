@@ -32,10 +32,11 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
            }}>
         
         {/* Book spine - visible from angle */}
-        <div className="absolute left-0 top-0 bottom-0 w-12 md:w-16 origin-left"
+        <div className="absolute left-0 top-0 bottom-0 w-12 md:w-16"
              style={{
                backgroundColor: colors.secondary,
-               transform: 'rotateY(90deg) translateZ(0px)',
+               transformOrigin: 'left center',
+               transform: 'translateX(-12px) rotateY(90deg)',
                background: `linear-gradient(90deg, 
                  rgba(0,0,0,0.4) 0%, 
                  ${colors.secondary} 10%, 
@@ -74,10 +75,11 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
         </div>
         
         {/* Pages - top edge (thick block of pages) */}
-        <div className="absolute top-0 left-0 right-0 h-12 md:h-16 origin-top"
+        <div className="absolute top-0 left-0 right-0 h-12 md:h-16"
              style={{
                backgroundColor: '#f4e8d0',
-               transform: 'rotateX(-90deg) translateZ(0px)',
+               transformOrigin: 'top center',
+               transform: 'translateY(-12px) rotateX(-90deg)',
                background: `
                  repeating-linear-gradient(0deg,
                    #fdfcf8 0px,
@@ -96,15 +98,29 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
                }} />
         </div>
         
-        {/* Pages - fore-edge (right side) - NOT visible from this angle */}
-        
-        {/* Book back cover - visible at an angle */}
-        <div className="absolute top-0 bottom-0 right-0 w-12 md:w-16 origin-right"
+        {/* Book back/right side - properly connected */}
+        <div className="absolute top-0 bottom-0 right-0 w-12 md:w-16"
              style={{
                backgroundColor: colors.primary,
-               transform: 'rotateY(90deg) translateZ(0px)',
-               filter: 'brightness(0.9)',
-               boxShadow: 'inset 0 0 10px rgba(0,0,0,0.4)'
+               transformOrigin: 'right center',
+               transform: 'translateX(12px) rotateY(-90deg)',
+               filter: 'brightness(0.85)',
+               background: `linear-gradient(90deg,
+                 rgba(0,0,0,0.1) 0%,
+                 ${colors.primary} 10%,
+                 ${colors.primary} 100%
+               )`,
+               boxShadow: 'inset -2px 0 8px rgba(0,0,0,0.3)'
+             }} />
+        
+        {/* Bottom edge to complete the box */}
+        <div className="absolute bottom-0 left-0 right-0 h-12 md:h-16"
+             style={{
+               backgroundColor: colors.primary,
+               transformOrigin: 'bottom center',
+               transform: 'translateY(12px) rotateX(90deg)',
+               filter: 'brightness(0.8)',
+               boxShadow: 'inset 0 -2px 8px rgba(0,0,0,0.4)'
              }} />
         
         {/* Book cover (front) */}
@@ -137,7 +153,7 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
                      rgba(0,0,0,0.05) 60px
                    )
                  `,
-                 borderRadius: '0 4px 4px 0'
+                 borderRadius: '4px 0 0 4px'
                }} />
           
           {/* Embossed border */}
@@ -217,14 +233,7 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
           <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none rounded-l" />
         </div>
         
-        {/* Book back cover - barely visible for depth */}
-        <div className="absolute inset-0"
-             style={{
-               backgroundColor: colors.primary,
-               transform: 'translateZ(-16px)',
-               filter: 'brightness(0.8)',
-               boxShadow: '0 0 20px rgba(0,0,0,0.5)'
-             }} />
+        {/* Remove old back cover since we have proper sides now */}
         
         {/* Shadow */}
         <div className="absolute -bottom-6 left-0 right-4 h-6 bg-black/25 rounded-[40%] blur-2xl"
