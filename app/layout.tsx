@@ -28,11 +28,14 @@ export default function RootLayout({
           <header className="relative z-10 bg-leather-dark text-parchment shadow-lg">
             <div className="container mx-auto px-4 py-6">
               <Link href="/" className="block group">
-                <h1 className="text-3xl md:text-4xl font-display text-center gold-foil transition-all duration-300 group-hover:scale-105">
+                <h1 className="text-3xl md:text-4xl font-display text-center text-parchment transition-all duration-300 group-hover:scale-105"
+                    style={{
+                      textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
+                    }}>
                   Spoiler-Free Character Guide
                 </h1>
                 <p className="text-center mt-2 text-parchment-dark text-sm group-hover:text-parchment transition-colors duration-300">
-                  Your trusted companion for fantasy & science fiction journeys
+                  Your trusted guide for tracking characters without spoilers
                 </p>
               </Link>
             </div>
