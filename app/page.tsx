@@ -7,12 +7,8 @@ export default async function HomePage() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-display mb-4 text-shadow-ink">
-          Choose Your Adventure
-        </h2>
         <p className="text-lg text-ink-light max-w-2xl mx-auto">
-          Select a series below to begin exploring characters chapter by chapter. 
-          Our guides reveal only what you&apos;ve read, keeping future surprises intact.
+          Select a series to explore characters chapter by chapter — your trusted reading companion that reveals only what you've read.
         </p>
       </div>
 
