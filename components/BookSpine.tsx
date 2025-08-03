@@ -30,7 +30,7 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
              width: '200px',
              height: '280px',
              transformStyle: 'preserve-3d',
-             transform: 'perspective(1200px) rotateY(-30deg) rotateX(8deg)'
+             transform: 'perspective(1200px) rotateY(30deg) rotateX(8deg)'
            }}>
         
         {/* Front cover */}
@@ -201,12 +201,12 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
         <div className="absolute"
              style={{
                bottom: '-15px',
-               left: '20px',
-               right: '-20px',
+               left: '-20px',
+               right: '20px',
                height: '30px',
                background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, transparent 60%)',
                filter: 'blur(12px)',
-               transform: 'rotateY(30deg) scaleY(0.5)'
+               transform: 'rotateY(-30deg) scaleY(0.5)'
              }} />
       </div>
     </div>
