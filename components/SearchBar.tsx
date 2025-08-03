@@ -17,13 +17,6 @@ export default function SearchBar() {
   return (
     <form onSubmit={handleSearch} className="relative">
       <div className="flex gap-2">
-        {/* Decorative scroll left */}
-        <div className="hidden md:flex items-center">
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-700 to-amber-800 flex items-center justify-center shadow-inner">
-            <span className="text-amber-200 text-lg">📜</span>
-          </div>
-        </div>
-        
         {/* Search input with ornate frame */}
         <div className="flex-1 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700 rounded-lg blur-sm opacity-50" />
@@ -56,13 +49,6 @@ export default function SearchBar() {
         >
           Search
         </button>
-        
-        {/* Decorative scroll right */}
-        <div className="hidden md:flex items-center">
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-700 to-amber-800 flex items-center justify-center shadow-inner">
-            <span className="text-amber-200 text-lg">🔍</span>
-          </div>
-        </div>
       </div>
       
       {/* Decorative subtitle */}
