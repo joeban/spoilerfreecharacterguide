@@ -10,6 +10,7 @@ export interface BookMeta {
   title: string;
   chapters: number;
   published: string;
+  asin?: string;
 }
 
 export interface Registry {
