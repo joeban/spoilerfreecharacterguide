@@ -60,7 +60,7 @@ export default function RootLayout({
                   </div>
                   
                   {/* Subtitle plaque */}
-                  <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-b from-amber-700 to-amber-800 px-4 py-1 rounded-md shadow-lg border border-amber-900">
+                  <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-gradient-to-b from-amber-700 to-amber-800 px-4 py-1 rounded-md shadow-lg border border-amber-900 z-10">
                     <p className="text-xs text-amber-100 whitespace-nowrap">
                       Your trusted guide for tracking characters without spoilers
                     </p>
