@@ -1,31 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Pirata+One&family=Uncial+Antiqua&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   html {
-    @apply bg-parchment text-ink;
+    @apply bg-stone-900;
   }
   
   body {
-    @apply font-serif;
-    background-color: #f4e8d0;
-    background-image: 
-      repeating-linear-gradient(
-        90deg,
-        transparent,
-        transparent 2px,
-        rgba(139, 69, 19, 0.03) 2px,
-        rgba(139, 69, 19, 0.03) 4px
-      ),
-      repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 2px,
-        rgba(139, 69, 19, 0.03) 2px,
-        rgba(139, 69, 19, 0.03) 4px
-      );
+    @apply font-serif text-amber-100;
+    background: 
+      radial-gradient(ellipse at top, rgba(139, 69, 19, 0.3) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom, rgba(0, 0, 0, 0.8) 0%, transparent 50%),
+      #1a1108;
+    min-height: 100vh;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -34,129 +23,195 @@
 }
 
 @layer components {
-  .book-spine {
-    @apply relative transition-all duration-300 cursor-pointer;
-    transform-style: preserve-3d;
-    transform: rotateY(-20deg);
-    box-shadow: 
-      -2px 0 4px rgba(0,0,0,0.4),
-      -4px 0 8px rgba(0,0,0,0.2),
-      inset 1px 0 1px rgba(255,255,255,0.2);
-  }
-  
-  .book-spine:hover {
-    transform: rotateY(-10deg) translateZ(10px);
-    @apply shadow-2xl;
-  }
-  
-  .parchment-card {
-    @apply bg-parchment border-2 border-ink-light rounded-sm shadow-md;
-    position: relative;
-    background: 
-      linear-gradient(135deg, #f4e8d0 0%, #f9f3e9 50%, #f4e8d0 100%);
-    box-shadow: 
-      0 4px 6px rgba(139, 69, 19, 0.1),
-      0 1px 3px rgba(139, 69, 19, 0.08),
-      inset 0 1px 0 rgba(255,255,255,0.5);
-  }
-  
-  .parchment-card::before {
-    content: '';
-    position: absolute;
-    inset: -2px;
-    background: linear-gradient(45deg, transparent 30%, rgba(212, 175, 55, 0.1) 50%, transparent 70%);
-    pointer-events: none;
-    border-radius: 2px;
-  }
-  
-  .chapter-button {
-    @apply px-3 py-1 border border-ink-light rounded-sm transition-all duration-200;
-    @apply hover:bg-ink hover:text-parchment hover:border-ink;
-    box-shadow: 0 1px 2px rgba(44, 24, 16, 0.1);
-  }
-  
-  .chapter-button:hover {
-    box-shadow: 0 2px 4px rgba(44, 24, 16, 0.2);
-  }
-  
-  .chapter-button.active {
-    @apply bg-ink text-parchment border-ink;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
-  }
-  
-  .leather-texture {
-    background: 
-      linear-gradient(180deg, rgba(101, 67, 33, 0.95) 0%, rgba(139, 69, 19, 0.95) 100%),
-      repeating-linear-gradient(
-        90deg,
-        transparent,
-        transparent 2px,
-        rgba(0, 0, 0, 0.1) 2px,
-        rgba(0, 0, 0, 0.1) 4px
-      ),
-      repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 2px,
-        rgba(0, 0, 0, 0.05) 2px,
-        rgba(0, 0, 0, 0.05) 4px
-      );
-    box-shadow: 
-      inset 0 2px 4px rgba(0, 0, 0, 0.2),
-      inset 0 -2px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .bookshelf-container {
-    perspective: 1000px;
-  }
-}
-
-@layer utilities {
-  .text-shadow-ink {
+  /* Tavern Sign Text Effect */
+  .tavern-sign-text {
+    @apply text-amber-400;
     text-shadow: 
-      1px 1px 2px rgba(44, 24, 16, 0.3),
-      2px 2px 4px rgba(44, 24, 16, 0.1);
+      3px 3px 0 #8b4513,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      0 0 30px rgba(255, 191, 0, 0.5),
+      0 0 60px rgba(255, 140, 0, 0.3);
+    letter-spacing: 0.05em;
   }
   
-  .gold-foil {
-    background: linear-gradient(
-      135deg,
-      #d4af37 0%,
-      #f4e4bc 45%,
-      #d4af37 50%,
-      #b8941f 55%,
-      #d4af37 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: 0 2px 4px rgba(212, 175, 55, 0.3);
-    filter: brightness(1.2);
+  /* Hanging Sign Animation */
+  .hanging-sign {
+    animation: gentle-swing 4s ease-in-out infinite;
+    transform-origin: top center;
   }
   
-  /* Page texture overlay - using CSS pattern instead of external image */
-  .page-texture {
+  @keyframes gentle-swing {
+    0%, 100% { transform: rotate(-1deg); }
+    50% { transform: rotate(1deg); }
+  }
+  
+  /* Book Spine - Vertical */
+  .hearthstone-book {
     position: relative;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 0.5rem;
+    overflow: hidden;
   }
   
-  .page-texture::before {
+  .hearthstone-book::before {
     content: '';
     position: absolute;
     inset: 0;
-    opacity: 0.03;
-    background-image: 
-      repeating-radial-gradient(
-        circle at 0 0,
-        transparent 0,
-        #8b4513 10px
-      ),
-      repeating-linear-gradient(
-        45deg,
-        #8b4513 0px,
-        transparent 2px,
-        transparent 4px,
-        #8b4513 6px
-      );
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 40%, rgba(0,0,0,0.2) 100%);
     pointer-events: none;
+  }
+  
+  .hearthstone-book:hover {
+    transform: translateY(-4px) scale(1.02);
+    filter: brightness(1.1);
+  }
+  
+  .hearthstone-book:hover::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: radial-gradient(circle at center, transparent 30%, rgba(255, 191, 0, 0.4) 100%);
+    filter: blur(10px);
+    animation: magical-glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes magical-glow {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 0.8; }
+  }
+  
+  /* Book Spine - Horizontal */
+  .hearthstone-book-horizontal {
+    @apply hearthstone-book;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+  
+  /* Wooden Shelf */
+  .wooden-shelf {
+    position: relative;
+    background: linear-gradient(180deg, #8b6f47 0%, #654321 30%, #4a3420 100%);
+    border-radius: 0.25rem;
+    box-shadow: 
+      inset 0 2px 4px rgba(255,255,255,0.1),
+      inset 0 -4px 8px rgba(0,0,0,0.4),
+      0 4px 12px rgba(0,0,0,0.8);
+  }
+  
+  .wooden-shelf::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      repeating-linear-gradient(90deg,
+        transparent 0px,
+        rgba(0,0,0,0.1) 2px,
+        transparent 4px,
+        rgba(0,0,0,0.05) 6px,
+        transparent 8px
+      );
+    opacity: 0.5;
+    border-radius: 0.25rem;
+  }
+  
+  /* Parchment Panel */
+  .parchment-panel {
+    background: linear-gradient(135deg, #f4e8d0 0%, #e8dcc4 100%);
+    border: 3px solid #8b6f47;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 
+      inset 0 0 20px rgba(139,69,19,0.2),
+      0 4px 12px rgba(0,0,0,0.6);
+  }
+  
+  .parchment-panel::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    background: linear-gradient(135deg, #d4af37 0%, #8b6f47 50%, #654321 100%);
+    border-radius: 0.5rem;
+    z-index: -1;
+  }
+  
+  /* Search Bar Styling */
+  .search-parchment {
+    background: linear-gradient(135deg, #f9f3e9 0%, #e8dcc4 100%);
+    border: 2px solid #8b6f47;
+    border-radius: 0.75rem;
+    box-shadow: 
+      inset 0 2px 4px rgba(0,0,0,0.2),
+      0 2px 8px rgba(0,0,0,0.4);
+    color: #3a1c0f;
+  }
+  
+  .search-button {
+    background: linear-gradient(135deg, #8b6f47 0%, #654321 100%);
+    border: 2px solid #d4af37;
+    border-radius: 0.5rem;
+    color: #f4e8d0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    box-shadow: 
+      inset 0 1px 2px rgba(255,255,255,0.2),
+      0 2px 4px rgba(0,0,0,0.6);
+    transition: all 0.2s;
+  }
+  
+  .search-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 
+      inset 0 1px 2px rgba(255,255,255,0.3),
+      0 4px 8px rgba(0,0,0,0.6),
+      0 0 20px rgba(255,191,0,0.3);
+  }
+  
+  /* Candle Glow Effect */
+  .candle-glow {
+    position: relative;
+  }
+  
+  .candle-glow::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 60px;
+    background: radial-gradient(ellipse at bottom, rgba(255,191,0,0.6) 0%, transparent 70%);
+    animation: flicker 3s ease-in-out infinite;
+  }
+  
+  @keyframes flicker {
+    0%, 100% { opacity: 0.8; transform: translateX(-50%) scale(1); }
+    50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
+  }
+  
+  /* Book Colors */
+  .book-burgundy { background: linear-gradient(135deg, #722f37 0%, #4a1a1a 100%); }
+  .book-navy { background: linear-gradient(135deg, #2c5282 0%, #1a3344 100%); }
+  .book-forest { background: linear-gradient(135deg, #2d5a2d 0%, #1a3a2a 100%); }
+  .book-purple { background: linear-gradient(135deg, #553c9a 0%, #3a1a4a 100%); }
+  .book-brown { background: linear-gradient(135deg, #92400e 0%, #4a3a1a 100%); }
+  .book-charcoal { background: linear-gradient(135deg, #4a4a5a 0%, #2a2a3a 100%); }
+  .book-crimson { background: linear-gradient(135deg, #991b1b 0%, #4a1a1a 100%); }
+  .book-teal { background: linear-gradient(135deg, #0e7490 0%, #164e63 100%); }
+}
+
+@layer utilities {
+  .text-shadow-fire {
+    text-shadow: 
+      0 0 10px rgba(255,140,0,0.8),
+      0 0 20px rgba(255,69,0,0.6),
+      0 0 30px rgba(255,0,0,0.4);
+  }
+  
+  .wooden-border {
+    border-image: linear-gradient(135deg, #8b6f47 0%, #654321 50%, #4a3420 100%) 1;
+    border-width: 4px;
+    border-style: solid;
   }
 }
