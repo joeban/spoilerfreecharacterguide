@@ -4,211 +4,103 @@ interface BookSpineProps {
   title: string;
   author: string;
   bookCount: number;
+  orientation?: 'vertical' | 'horizontal';
 }
 
-export default function BookSpine({ title, author, bookCount }: BookSpineProps) {
+export default function BookSpine({ title, author, bookCount, orientation = 'vertical' }: BookSpineProps) {
   // Generate consistent colors based on the series
-  const colorIndex = title.length % 6;
-  const bookColors = [
-    { primary: '#4a1a1a', secondary: '#5c2424', accent: '#d4af37' }, // burgundy
-    { primary: '#1a3344', secondary: '#244454', accent: '#d4af37' }, // navy
-    { primary: '#1a3a2a', secondary: '#2a5a3a', accent: '#d4af37' }, // forest
-    { primary: '#3a1a4a', secondary: '#4a2a5a', accent: '#d4af37' }, // purple
-    { primary: '#4a3a1a', secondary: '#5a4a2a', accent: '#d4af37' }, // brown
-    { primary: '#2a2a3a', secondary: '#3a3a4a', accent: '#d4af37' }, // charcoal
+  const colorIndex = title.length % 8;
+  const bookColorClasses = [
+    'book-burgundy',
+    'book-navy', 
+    'book-forest',
+    'book-purple',
+    'book-brown',
+    'book-charcoal',
+    'book-crimson',
+    'book-teal'
   ];
   
-  const colors = bookColors[colorIndex];
-  const thickness = 40; // Book thickness in pixels
+  const colorClass = bookColorClasses[colorIndex];
   
-  return (
-    <div className="book-container relative group transition-all duration-500 hover:scale-105 hover:-translate-y-2">
-      
-      {/* Book wrapper with 3D perspective */}
-      <div className="book relative" 
-           style={{ 
-             width: '200px',
-             height: '280px',
-             transformStyle: 'preserve-3d',
-             transform: 'perspective(1200px) rotateY(30deg) rotateX(8deg)'
-           }}>
+  if (orientation === 'horizontal') {
+    return (
+      <div className={`hearthstone-book ${colorClass} relative h-16 md:h-20 flex items-center px-6 cursor-pointer group`}>
+        {/* Book spine decoration */}
+        <div className="absolute left-2 top-2 bottom-2 w-1 bg-gradient-to-b from-amber-400/20 to-amber-600/20 rounded-full" />
+        <div className="absolute right-2 top-2 bottom-2 w-1 bg-gradient-to-b from-amber-400/20 to-amber-600/20 rounded-full" />
         
-        {/* Front cover */}
-        <div className="absolute inset-0"
-             style={{
-               width: '200px',
-               height: '280px',
-               backgroundColor: colors.primary,
-               borderRadius: '0 3px 3px 0',
-               transformOrigin: 'left center',
-               boxShadow: `
-                 2px 4px 12px rgba(0,0,0,0.3),
-                 inset -2px -2px 4px rgba(0,0,0,0.2),
-                 inset 1px 1px 2px rgba(255,255,255,0.05)
-               `
-             }}>
-          
-          {/* Leather texture */}
-          <div className="absolute inset-0 opacity-10"
-               style={{
-                 background: `repeating-linear-gradient(
-                   45deg,
-                   transparent,
-                   transparent 40px,
-                   rgba(0,0,0,0.05) 40px,
-                   rgba(0,0,0,0.05) 80px
-                 )`,
-                 borderRadius: '0 3px 3px 0'
-               }} />
-          
-          {/* Gold border */}
-          <div className="absolute inset-6 border border-gold/40 rounded-sm"
-               style={{
-                 boxShadow: `
-                   inset 1px 1px 2px rgba(212,175,55,0.3),
-                   inset -1px -1px 3px rgba(0,0,0,0.6)
-                 `
-               }} />
-          
-          {/* Title and author */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
-            <h3 className="text-xl md:text-2xl font-display font-bold mb-3"
+        {/* Horizontal bands */}
+        <div className="absolute inset-x-4 top-1/3 h-0.5 bg-gradient-to-r from-transparent via-amber-500/20 to-transparent" />
+        <div className="absolute inset-x-4 bottom-1/3 h-0.5 bg-gradient-to-r from-transparent via-amber-500/20 to-transparent" />
+        
+        {/* Content */}
+        <div className="flex items-center justify-between w-full">
+          <div className="flex items-center gap-4">
+            <h3 className="text-lg md:text-xl font-bold text-amber-100"
                 style={{ 
-                  color: colors.accent,
-                  textShadow: `
-                    0 1px 3px rgba(0,0,0,0.8),
-                    0 0 20px rgba(212,175,55,0.15)
-                  `,
-                  letterSpacing: '0.08em'
+                  fontFamily: 'MedievalSharp, serif',
+                  textShadow: '2px 2px 4px rgba(0,0,0,0.8)'
                 }}>
               {title}
             </h3>
-            
-            <div className="w-16 h-px bg-gold/40 mb-3" />
-            
-            <p className="text-sm md:text-base"
-               style={{ 
-                 color: colors.accent,
-                 textShadow: '0 1px 2px rgba(0,0,0,0.8)',
-                 letterSpacing: '0.1em',
-                 opacity: 0.85
-               }}>
-              {author}
-            </p>
-            
-            {bookCount > 1 && (
-              <div className="absolute bottom-8 right-8">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm"
-                     style={{
-                       backgroundColor: colors.primary,
-                       color: colors.accent,
-                       boxShadow: `
-                         inset 2px 2px 4px rgba(0,0,0,0.6),
-                         inset -1px -1px 2px rgba(255,255,255,0.05)
-                       `,
-                       border: '1px solid rgba(212,175,55,0.2)'
-                     }}>
-                  {bookCount}
-                </div>
-              </div>
-            )}
+            <span className="text-amber-200/70 text-sm hidden md:inline">by {author}</span>
           </div>
+          
+          {bookCount > 1 && (
+            <div className="bg-amber-700/50 border border-amber-500/50 rounded-full w-8 h-8 flex items-center justify-center">
+              <span className="text-amber-100 font-bold text-sm">{bookCount}</span>
+            </div>
+          )}
         </div>
-        
-        {/* Spine */}
-        <div className="absolute top-0 bottom-0"
-             style={{
-               left: 0,
-               width: `${thickness}px`,
-               backgroundColor: colors.secondary,
-               transform: `translateX(-${thickness}px) rotateY(-90deg)`,
-               transformOrigin: 'right center',
-               background: `linear-gradient(to right,
-                 rgba(0,0,0,0.3) 0%,
-                 ${colors.secondary} 10%,
-                 ${colors.secondary} 90%,
-                 rgba(0,0,0,0.1) 100%
-               )`
-             }}>
-          {/* Raised bands */}
-          <div className="absolute inset-x-2 top-1/4 h-0.5 bg-black/30 rounded-full" />
-          <div className="absolute inset-x-2 top-2/4 h-0.5 bg-black/30 rounded-full" />
-          <div className="absolute inset-x-2 top-3/4 h-0.5 bg-black/30 rounded-full" />
-        </div>
-        
-        {/* Top edge (pages) */}
-        <div className="absolute left-0 right-0"
-             style={{
-               top: 0,
-               height: `${thickness}px`,
-               backgroundColor: '#f5e6d3',
-               transform: `translateY(-${thickness}px) rotateX(90deg)`,
-               transformOrigin: 'bottom center',
-               background: `linear-gradient(to bottom,
-                 #fdfcf8 0%,
-                 #f5e6d3 60%,
-                 #e8dcc4 100%
-               )`,
-               boxShadow: 'inset 0 -2px 4px rgba(139,69,19,0.1)'
-             }}>
-          {/* Page texture */}
-          <div className="absolute inset-0"
-               style={{
-                 background: `repeating-linear-gradient(
-                   90deg,
-                   transparent 0px,
-                   rgba(139,69,19,0.06) 0.5px,
-                   transparent 1px
-                 )`
-               }} />
-        </div>
-        
-        {/* Back cover */}
-        <div className="absolute top-0 bottom-0"
-             style={{
-               left: 0,
-               width: '200px',
-               height: '280px',
-               backgroundColor: colors.primary,
-               transform: `translateZ(-${thickness}px)`,
-               filter: 'brightness(0.85)',
-               borderRadius: '0 3px 3px 0'
-             }} />
-        
-        {/* Right edge */}
-        <div className="absolute top-0 bottom-0"
-             style={{
-               right: 0,
-               width: `${thickness}px`,
-               backgroundColor: colors.primary,
-               transform: `translateX(${thickness/2}px) translateZ(-${thickness/2}px) rotateY(90deg)`,
-               transformOrigin: 'center center',
-               filter: 'brightness(0.8)'
-             }} />
-        
-        {/* Bottom edge */}
-        <div className="absolute left-0 right-0"
-             style={{
-               bottom: 0,
-               height: `${thickness}px`,
-               backgroundColor: colors.primary,
-               transform: `translateY(${thickness/2}px) translateZ(-${thickness/2}px) rotateX(-90deg)`,
-               transformOrigin: 'center center',
-               filter: 'brightness(0.7)'
-             }} />
-        
-        {/* Cast shadow */}
-        <div className="absolute"
-             style={{
-               bottom: '-15px',
-               left: '-20px',
-               right: '20px',
-               height: '30px',
-               background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, transparent 60%)',
-               filter: 'blur(12px)',
-               transform: 'rotateY(-30deg) scaleY(0.5)'
-             }} />
       </div>
+    );
+  }
+  
+  // Vertical orientation (default)
+  return (
+    <div className={`hearthstone-book ${colorClass} relative w-44 md:w-52 h-64 md:h-72 p-4 flex flex-col items-center justify-center cursor-pointer group`}>
+      {/* Book spine decorations */}
+      <div className="absolute top-4 left-4 right-4 h-0.5 bg-gradient-to-r from-transparent via-amber-500/30 to-transparent" />
+      <div className="absolute bottom-4 left-4 right-4 h-0.5 bg-gradient-to-r from-transparent via-amber-500/30 to-transparent" />
+      
+      {/* Corner ornaments */}
+      <div className="absolute top-3 left-3 w-4 h-4 border-l-2 border-t-2 border-amber-500/30 rounded-tl" />
+      <div className="absolute top-3 right-3 w-4 h-4 border-r-2 border-t-2 border-amber-500/30 rounded-tr" />
+      <div className="absolute bottom-3 left-3 w-4 h-4 border-l-2 border-b-2 border-amber-500/30 rounded-bl" />
+      <div className="absolute bottom-3 right-3 w-4 h-4 border-r-2 border-b-2 border-amber-500/30 rounded-br" />
+      
+      {/* Central gem/seal */}
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-gradient-to-br from-amber-600/10 to-amber-800/10 blur-xl" />
+      
+      {/* Title */}
+      <h3 className="text-xl md:text-2xl font-bold text-amber-100 text-center mb-3 relative z-10"
+          style={{ 
+            fontFamily: 'MedievalSharp, serif',
+            textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0 0 20px rgba(255,191,0,0.3)'
+          }}>
+        {title}
+      </h3>
+      
+      {/* Decorative divider */}
+      <div className="w-16 h-0.5 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent mb-3" />
+      
+      {/* Author */}
+      <p className="text-amber-200/80 text-sm text-center relative z-10"
+         style={{ 
+           textShadow: '1px 1px 2px rgba(0,0,0,0.8)'
+         }}>
+        {author}
+      </p>
+      
+      {/* Book count badge */}
+      {bookCount > 1 && (
+        <div className="absolute bottom-4 right-4 bg-amber-700/50 border border-amber-500/50 rounded-full w-10 h-10 flex items-center justify-center">
+          <span className="text-amber-100 font-bold">{bookCount}</span>
+        </div>
+      )}
+      
+      {/* Magical hover glow is handled by CSS */}
     </div>
   );
 }
