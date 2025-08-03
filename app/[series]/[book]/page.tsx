@@ -54,9 +54,6 @@ export default async function BookPage({
             </svg>
             Buy This Book on Amazon
           </a>
-          <p className="text-xs text-ink-light mt-2 italic">
-            As an Amazon Associate, we earn from qualifying purchases
-          </p>
         </div>
       </div>
       
@@ -96,6 +93,13 @@ export default async function BookPage({
             </p>
           )}
         </div>
+      </div>
+      
+      {/* Amazon affiliate disclosure */}
+      <div className="mt-16 text-center">
+        <p className="text-xs text-ink-light italic">
+          As an Amazon Associate, we earn from qualifying purchases
+        </p>
       </div>
     </div>
   );
