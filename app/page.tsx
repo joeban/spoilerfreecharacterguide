@@ -1,15 +1,14 @@
 import { getAllSeries } from '@/lib/dataLoader';
 import Bookshelf from '@/components/Bookshelf';
+import SearchBar from '@/components/SearchBar';
 
 export default async function HomePage() {
   const allSeries = await getAllSeries();
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <div className="text-center mb-12">
-        <p className="text-lg text-ink-light max-w-2xl mx-auto">
-          Select a series to explore characters chapter by chapter — your trusted reading companion that reveals only what you've read.
-        </p>
+      <div className="max-w-2xl mx-auto mb-12">
+        <SearchBar />
       </div>
 
       {allSeries.length > 0 ? (
