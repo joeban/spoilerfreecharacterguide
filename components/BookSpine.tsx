@@ -46,21 +46,35 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
         </div>
         
         {/* Pages block - top edge (visible from above angle) */}
-        <div className="absolute top-0 left-8 md:left-10 right-0 h-3 z-0"
+        <div className="absolute top-1 left-9 md:left-11 right-1 h-2.5"
              style={{
                background: 'linear-gradient(to bottom, #fdfcf8 0%, #f4e8d0 100%)',
-               borderRadius: '0 4px 0 0',
-               boxShadow: 'inset 0 -1px 3px rgba(139,69,19,0.15)',
-               transform: 'translateY(-3px)'
+               boxShadow: '0 1px 2px rgba(0,0,0,0.1), inset 0 -1px 2px rgba(139,69,19,0.1)',
+               transform: 'translateY(-2px)',
+               borderRadius: '0 2px 0 0'
              }} />
         
         {/* Pages block - right edge */}
-        <div className="absolute top-0 bottom-0 right-0 w-3 z-0"
+        <div className="absolute top-1 bottom-1 right-0 w-2.5"
              style={{
                background: 'linear-gradient(to right, #f4e8d0 0%, #ede0c8 100%)',
-               borderRadius: '0 4px 4px 0',
-               boxShadow: 'inset -2px 0 4px rgba(139,69,19,0.2)',
-               transform: 'translateX(3px)'
+               boxShadow: '1px 0 2px rgba(0,0,0,0.1), inset -1px 0 2px rgba(139,69,19,0.15)',
+               transform: 'translateX(2px)',
+               borderRadius: '0 2px 2px 0'
+             }} />
+        
+        {/* Page-to-cover transition shadow (top) */}
+        <div className="absolute top-0 left-8 md:left-10 right-0 h-1 z-20"
+             style={{
+               background: 'linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, transparent 100%)',
+               filter: 'blur(1px)'
+             }} />
+        
+        {/* Page-to-cover transition shadow (right) */}
+        <div className="absolute top-0 bottom-0 right-0 w-1 z-20"
+             style={{
+               background: 'linear-gradient(to right, rgba(0,0,0,0.15) 0%, transparent 100%)',
+               filter: 'blur(1px)'
              }} />
         
         {/* Book cover (front) - overlaps spine seamlessly */}
