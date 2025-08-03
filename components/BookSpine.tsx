@@ -19,168 +19,195 @@ export default function BookSpine({ title, author, bookCount }: BookSpineProps) 
   ];
   
   const colors = bookColors[colorIndex];
+  const thickness = 40; // Book thickness in pixels
   
   return (
     <div className="book-container relative group transition-all duration-500 hover:scale-105 hover:-translate-y-2">
       
-      {/* Book wrapper */}
-      <div className="book relative" style={{ perspective: '600px' }}>
+      {/* Book wrapper with 3D perspective */}
+      <div className="book relative" 
+           style={{ 
+             width: '200px',
+             height: '280px',
+             transformStyle: 'preserve-3d',
+             transform: 'perspective(1000px) rotateY(-20deg)'
+           }}>
         
-        {/* Main book block */}
-        <div className="relative w-48 md:w-56 h-72 md:h-80"
+        {/* Front cover */}
+        <div className="absolute inset-0"
              style={{
-               transform: 'rotateY(-15deg)',
-               transformStyle: 'preserve-3d'
+               width: '200px',
+               height: '280px',
+               backgroundColor: colors.primary,
+               borderRadius: '0 3px 3px 0',
+               transformOrigin: 'left center',
+               boxShadow: `
+                 2px 4px 12px rgba(0,0,0,0.3),
+                 inset -2px -2px 4px rgba(0,0,0,0.2),
+                 inset 1px 1px 2px rgba(255,255,255,0.05)
+               `
              }}>
           
-          {/* Book cover (front face) */}
-          <div className="absolute inset-0"
+          {/* Leather texture */}
+          <div className="absolute inset-0 opacity-10"
                style={{
-                 backgroundColor: colors.primary,
-                 borderRadius: '0 3px 3px 0',
-                 boxShadow: `
-                   4px 6px 20px rgba(0,0,0,0.3),
-                   inset -2px -2px 6px rgba(0,0,0,0.3),
-                   inset 1px 1px 3px rgba(255,255,255,0.05)
-                 `
-               }}>
-            
-            {/* Subtle leather texture */}
-            <div className="absolute inset-0 opacity-20"
-                 style={{
-                   background: `
-                     repeating-linear-gradient(45deg, 
-                       transparent, 
-                       transparent 40px, 
-                       rgba(0,0,0,0.03) 40px, 
-                       rgba(0,0,0,0.03) 80px
-                     )
-                   `
-                 }} />
-            
-            {/* Gold border frame */}
-            <div className="absolute inset-6 border border-gold/30 rounded-sm"
-                 style={{
-                   boxShadow: `
-                     inset 1px 1px 2px rgba(212,175,55,0.3),
-                     inset -1px -1px 3px rgba(0,0,0,0.6)
-                   `
-                 }} />
-            
-            {/* Title and content */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
-              <h3 className="text-xl md:text-2xl font-display font-bold mb-3"
-                  style={{ 
-                    color: colors.accent,
-                    textShadow: `
-                      0 1px 3px rgba(0,0,0,0.8),
-                      0 0 20px rgba(212,175,55,0.15)
-                    `,
-                    letterSpacing: '0.08em'
-                  }}>
-                {title}
-              </h3>
-              
-              <div className="w-16 h-px bg-gold/40 mb-3" />
-              
-              <p className="text-sm md:text-base"
-                 style={{ 
-                   color: colors.accent,
-                   textShadow: '0 1px 2px rgba(0,0,0,0.8)',
-                   letterSpacing: '0.1em',
-                   opacity: 0.85
-                 }}>
-                {author}
-              </p>
-              
-              {bookCount > 1 && (
-                <div className="absolute bottom-8 right-8">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm"
-                       style={{
-                         backgroundColor: colors.primary,
-                         color: colors.accent,
-                         boxShadow: `
-                           inset 2px 2px 4px rgba(0,0,0,0.6),
-                           inset -1px -1px 2px rgba(255,255,255,0.05)
-                         `,
-                         border: '1px solid rgba(212,175,55,0.2)'
-                       }}>
-                    {bookCount}
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-          
-          {/* Spine (left side) - visible due to rotation */}
-          <div className="absolute left-0 top-0 bottom-0 w-8"
-               style={{
-                 backgroundColor: colors.secondary,
-                 transform: 'translateX(-8px) rotateY(90deg)',
-                 transformOrigin: 'right center',
-                 background: `linear-gradient(to right,
-                   rgba(0,0,0,0.3) 0%,
-                   ${colors.secondary} 20%,
-                   ${colors.secondary} 80%,
-                   rgba(0,0,0,0.1) 100%
+                 background: `repeating-linear-gradient(
+                   45deg,
+                   transparent,
+                   transparent 40px,
+                   rgba(0,0,0,0.05) 40px,
+                   rgba(0,0,0,0.05) 80px
                  )`,
-                 boxShadow: 'inset 0 0 10px rgba(0,0,0,0.3)'
-               }}>
-            {/* Spine bands */}
-            <div className="absolute inset-x-1 top-1/4 h-px bg-black/30" />
-            <div className="absolute inset-x-1 top-2/4 h-px bg-black/30" />
-            <div className="absolute inset-x-1 top-3/4 h-px bg-black/30" />
-          </div>
-          
-          {/* Top pages edge */}
-          <div className="absolute top-0 left-0 right-0 h-6"
-               style={{
-                 backgroundColor: '#f5e6d3',
-                 transform: 'translateY(-6px) rotateX(90deg)',
-                 transformOrigin: 'bottom center',
-                 background: `
-                   linear-gradient(to bottom,
-                     #fdfcf8 0%,
-                     #f5e6d3 50%,
-                     #ede0c8 100%
-                   )
-                 `,
-                 boxShadow: 'inset 0 -1px 3px rgba(139,69,19,0.15)'
-               }}>
-            {/* Page texture lines */}
-            <div className="absolute inset-0"
-                 style={{
-                   background: `repeating-linear-gradient(90deg,
-                     transparent 0px,
-                     rgba(139,69,19,0.05) 1px,
-                     transparent 2px
-                   )`
-                 }} />
-          </div>
-          
-          {/* Right side (back edge) */}
-          <div className="absolute right-0 top-0 bottom-0 w-3"
-               style={{
-                 backgroundColor: colors.primary,
-                 transform: 'translateX(3px) rotateY(90deg)',
-                 transformOrigin: 'left center',
-                 filter: 'brightness(0.85)',
-                 boxShadow: 'inset -2px 0 4px rgba(0,0,0,0.3)'
+                 borderRadius: '0 3px 3px 0'
                }} />
           
-          {/* Bottom edge */}
-          <div className="absolute bottom-0 left-0 right-0 h-3"
+          {/* Gold border */}
+          <div className="absolute inset-6 border border-gold/40 rounded-sm"
                style={{
-                 backgroundColor: colors.primary,
-                 transform: 'translateY(3px) rotateX(90deg)',
-                 transformOrigin: 'top center',
-                 filter: 'brightness(0.7)',
-                 boxShadow: 'inset 0 -2px 4px rgba(0,0,0,0.4)'
+                 boxShadow: `
+                   inset 1px 1px 2px rgba(212,175,55,0.3),
+                   inset -1px -1px 3px rgba(0,0,0,0.6)
+                 `
+               }} />
+          
+          {/* Title and author */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
+            <h3 className="text-xl md:text-2xl font-display font-bold mb-3"
+                style={{ 
+                  color: colors.accent,
+                  textShadow: `
+                    0 1px 3px rgba(0,0,0,0.8),
+                    0 0 20px rgba(212,175,55,0.15)
+                  `,
+                  letterSpacing: '0.08em'
+                }}>
+              {title}
+            </h3>
+            
+            <div className="w-16 h-px bg-gold/40 mb-3" />
+            
+            <p className="text-sm md:text-base"
+               style={{ 
+                 color: colors.accent,
+                 textShadow: '0 1px 2px rgba(0,0,0,0.8)',
+                 letterSpacing: '0.1em',
+                 opacity: 0.85
+               }}>
+              {author}
+            </p>
+            
+            {bookCount > 1 && (
+              <div className="absolute bottom-8 right-8">
+                <div className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm"
+                     style={{
+                       backgroundColor: colors.primary,
+                       color: colors.accent,
+                       boxShadow: `
+                         inset 2px 2px 4px rgba(0,0,0,0.6),
+                         inset -1px -1px 2px rgba(255,255,255,0.05)
+                       `,
+                       border: '1px solid rgba(212,175,55,0.2)'
+                     }}>
+                  {bookCount}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+        
+        {/* Spine */}
+        <div className="absolute top-0 bottom-0"
+             style={{
+               left: 0,
+               width: `${thickness}px`,
+               backgroundColor: colors.secondary,
+               transform: `translateX(-${thickness}px) rotateY(-90deg)`,
+               transformOrigin: 'right center',
+               background: `linear-gradient(to right,
+                 rgba(0,0,0,0.3) 0%,
+                 ${colors.secondary} 10%,
+                 ${colors.secondary} 90%,
+                 rgba(0,0,0,0.1) 100%
+               )`
+             }}>
+          {/* Raised bands */}
+          <div className="absolute inset-x-2 top-1/4 h-0.5 bg-black/30 rounded-full" />
+          <div className="absolute inset-x-2 top-2/4 h-0.5 bg-black/30 rounded-full" />
+          <div className="absolute inset-x-2 top-3/4 h-0.5 bg-black/30 rounded-full" />
+        </div>
+        
+        {/* Top edge (pages) */}
+        <div className="absolute left-0 right-0"
+             style={{
+               top: 0,
+               height: `${thickness}px`,
+               backgroundColor: '#f5e6d3',
+               transform: `translateY(-${thickness}px) rotateX(90deg)`,
+               transformOrigin: 'bottom center',
+               background: `linear-gradient(to bottom,
+                 #fdfcf8 0%,
+                 #f5e6d3 60%,
+                 #e8dcc4 100%
+               )`,
+               boxShadow: 'inset 0 -2px 4px rgba(139,69,19,0.1)'
+             }}>
+          {/* Page texture */}
+          <div className="absolute inset-0"
+               style={{
+                 background: `repeating-linear-gradient(
+                   90deg,
+                   transparent 0px,
+                   rgba(139,69,19,0.06) 0.5px,
+                   transparent 1px
+                 )`
                }} />
         </div>
         
-        {/* Shadow */}
-        <div className="absolute -bottom-4 left-4 right-0 h-6 bg-black/20 rounded-[50%] blur-xl" />
+        {/* Back cover */}
+        <div className="absolute top-0 bottom-0"
+             style={{
+               left: 0,
+               width: '200px',
+               height: '280px',
+               backgroundColor: colors.primary,
+               transform: `translateZ(-${thickness}px)`,
+               filter: 'brightness(0.85)',
+               borderRadius: '0 3px 3px 0'
+             }} />
+        
+        {/* Right edge */}
+        <div className="absolute top-0 bottom-0"
+             style={{
+               right: 0,
+               width: `${thickness}px`,
+               backgroundColor: colors.primary,
+               transform: `translateX(${thickness/2}px) translateZ(-${thickness/2}px) rotateY(90deg)`,
+               transformOrigin: 'center center',
+               filter: 'brightness(0.8)'
+             }} />
+        
+        {/* Bottom edge */}
+        <div className="absolute left-0 right-0"
+             style={{
+               bottom: 0,
+               height: `${thickness}px`,
+               backgroundColor: colors.primary,
+               transform: `translateY(${thickness/2}px) translateZ(-${thickness/2}px) rotateX(-90deg)`,
+               transformOrigin: 'center center',
+               filter: 'brightness(0.7)'
+             }} />
+        
+        {/* Cast shadow */}
+        <div className="absolute"
+             style={{
+               bottom: '-20px',
+               left: '10px',
+               right: '-10px',
+               height: '20px',
+               background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.3) 0%, transparent 70%)',
+               filter: 'blur(15px)',
+               transform: 'rotateY(20deg)'
+             }} />
       </div>
     </div>
   );
