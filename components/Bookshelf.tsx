@@ -7,8 +7,8 @@ interface BookshelfProps {
 }
 
 export default function Bookshelf({ series }: BookshelfProps) {
-  // Organize books into shelves (4 books per shelf)
-  const booksPerShelf = 4;
+  // Organize books into shelves (5 books per shelf for 20 total = 4 shelves)
+  const booksPerShelf = 5;
   const shelves = [];
   
   for (let i = 0; i < series.length; i += booksPerShelf) {
