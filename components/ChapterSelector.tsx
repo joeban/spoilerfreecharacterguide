@@ -27,7 +27,7 @@ export default function ChapterSelector({
   return (
     <div className="mb-8">
       <h3 className="text-lg font-display mb-4 text-center">Select Chapter</h3>
-      <div className="flex flex-wrap gap-2 justify-center">
+      <div className="flex flex-wrap gap-3 justify-center max-w-4xl mx-auto">
         {chapters.map((chapter) => {
           const hasContent = !chaptersWithContent || chaptersWithContent.includes(chapter);
           const isActive = chapter === currentChapter;
