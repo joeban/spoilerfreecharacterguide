@@ -1,6 +1,7 @@
 import { getSeries, getBooksInSeries } from '@/lib/dataLoader';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import BookSpine from '@/components/BookSpine';
 
 export default async function SeriesPage({
   params
@@ -34,169 +35,23 @@ export default async function SeriesPage({
         </p>
       </div>
       
-      {/* Books display - MAIN CONTENT FIRST */}
+      {/* Books display - Using BookSpine component for consistency */}
       <div className="max-w-6xl mx-auto mb-16">
         <div className="flex flex-wrap justify-center gap-8">
-          {books.map(({ slug, book }, index) => {
-            // Generate unique colors for each book
-            const bookColors = [
-              { primary: '#4a1a1a', secondary: '#5c2424' }, // burgundy
-              { primary: '#1a3344', secondary: '#244454' }, // navy
-              { primary: '#1a3a2a', secondary: '#2a5a3a' }, // forest
-              { primary: '#3a1a4a', secondary: '#4a2a5a' }, // purple
-              { primary: '#4a3a1a', secondary: '#5a4a2a' }, // brown
-              { primary: '#2a2a3a', secondary: '#3a3a4a' }, // charcoal
-              { primary: '#3a4a4a', secondary: '#4a5a5a' }, // slate
-              { primary: '#4a2a2a', secondary: '#5a3a3a' }, // crimson
-            ];
-            const colors = bookColors[index % bookColors.length];
-            
-            return (
-              <Link
-                key={slug}
-                href={`/${params.series}/${slug}`}
-                className="block group"
-              >
-                <div className="book-container relative transition-all duration-500 hover:scale-105 hover:-translate-y-2">
-                  <div className="book relative" 
-                       style={{ 
-                         width: '180px',
-                         height: '240px',
-                         transformStyle: 'preserve-3d',
-                         transform: 'perspective(1200px) rotateY(30deg) rotateX(8deg)'
-                       }}>
-                    
-                    {/* Front cover */}
-                    <div className="absolute inset-0"
-                         style={{
-                           backgroundColor: colors.primary,
-                           borderRadius: '0 3px 3px 0',
-                           boxShadow: `
-                             2px 4px 12px rgba(0,0,0,0.3),
-                             inset -2px -2px 4px rgba(0,0,0,0.2),
-                             inset 1px 1px 2px rgba(255,255,255,0.05)
-                           `
-                         }}>
-                      
-                      {/* Leather texture */}
-                      <div className="absolute inset-0 opacity-10"
-                           style={{
-                             background: `repeating-linear-gradient(
-                               45deg,
-                               transparent,
-                               transparent 40px,
-                               rgba(0,0,0,0.05) 40px,
-                               rgba(0,0,0,0.05) 80px
-                             )`,
-                             borderRadius: '0 3px 3px 0'
-                           }} />
-                      
-                      {/* Gold border */}
-                      <div className="absolute inset-5 border border-gold/30 rounded-sm"
-                           style={{
-                             boxShadow: `
-                               inset 1px 1px 2px rgba(212,175,55,0.3),
-                               inset -1px -1px 3px rgba(0,0,0,0.6)
-                             `
-                           }} />
-                      
-                      {/* Title */}
-                      <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
-                        <h3 className="text-base font-display font-bold"
-                            style={{ 
-                              color: '#d4af37',
-                              textShadow: `
-                                0 1px 3px rgba(0,0,0,0.8),
-                                0 0 20px rgba(212,175,55,0.15)
-                              `,
-                              letterSpacing: '0.05em'
-                            }}>
-                          {book.title}
-                        </h3>
-                        
-                        <div className="w-12 h-px bg-gold/40 my-2" />
-                        
-                        <p className="text-xs"
-                           style={{ 
-                             color: '#d4af37',
-                             textShadow: '0 1px 2px rgba(0,0,0,0.8)',
-                             opacity: 0.8
-                           }}>
-                          {book.published}
-                        </p>
-                        
-                        <p className="text-xs mt-1"
-                           style={{ 
-                             color: '#d4af37',
-                             textShadow: '0 1px 2px rgba(0,0,0,0.8)',
-                             opacity: 0.7
-                           }}>
-                          {book.chapters} chapters
-                        </p>
-                      </div>
-                    </div>
-                    
-                    {/* Spine */}
-                    <div className="absolute top-0 bottom-0"
-                         style={{
-                           left: 0,
-                           width: '30px',
-                           backgroundColor: colors.secondary,
-                           transform: 'translateX(-30px) rotateY(-90deg)',
-                           transformOrigin: 'right center',
-                           background: `linear-gradient(to right,
-                             rgba(0,0,0,0.3) 0%,
-                             ${colors.secondary} 10%,
-                             ${colors.secondary} 90%,
-                             rgba(0,0,0,0.1) 100%
-                           )`
-                         }}>
-                      <div className="absolute inset-x-1 top-1/3 h-0.5 bg-black/30 rounded-full" />
-                      <div className="absolute inset-x-1 top-2/3 h-0.5 bg-black/30 rounded-full" />
-                    </div>
-                    
-                    {/* Top pages */}
-                    <div className="absolute left-0 right-0"
-                         style={{
-                           top: 0,
-                           height: '30px',
-                           backgroundColor: '#f5e6d3',
-                           transform: 'translateY(-30px) rotateX(90deg)',
-                           transformOrigin: 'bottom center',
-                           background: `linear-gradient(to bottom,
-                             #fdfcf8 0%,
-                             #f5e6d3 60%,
-                             #e8dcc4 100%
-                           )`,
-                           boxShadow: 'inset 0 -2px 4px rgba(139,69,19,0.1)'
-                         }}>
-                      <div className="absolute inset-0"
-                           style={{
-                             background: `repeating-linear-gradient(
-                               90deg,
-                               transparent 0px,
-                               rgba(139,69,19,0.06) 0.5px,
-                               transparent 1px
-                             )`
-                           }} />
-                    </div>
-                    
-                    {/* Shadow */}
-                    <div className="absolute"
-                         style={{
-                           bottom: '-15px',
-                           left: '-20px',
-                           right: '20px',
-                           height: '20px',
-                           background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, transparent 60%)',
-                           filter: 'blur(12px)',
-                           transform: 'rotateY(-30deg) scaleY(0.5)'
-                         }} />
-                  </div>
-                </div>
-              </Link>
-            );
-          })}
+          {books.map(({ slug, book }) => (
+            <Link
+              key={slug}
+              href={`/${params.series}/${slug}`}
+              className="block"
+            >
+              <BookSpine
+                title={book.title}
+                author={`${book.published} • ${book.chapters} chapters`}
+                bookCount={book.chapters}
+                orientation="vertical"
+              />
+            </Link>
+          ))}
         </div>
       </div>
       
