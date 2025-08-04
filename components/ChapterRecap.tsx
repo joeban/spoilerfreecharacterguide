@@ -46,21 +46,29 @@ export default function ChapterRecap({ recap, chapter }: ChapterRecapProps) {
             <div className="absolute bottom-2 left-2 w-8 h-8 border-l-3 border-b-3 border-amber-700/40 rounded-bl-lg" />
             <div className="absolute bottom-2 right-2 w-8 h-8 border-r-3 border-b-3 border-amber-700/40 rounded-br-lg" />
 
-            {/* Header with title and hide button */}
-            <div className="flex items-center justify-between mb-4 relative z-10">
-              <h3 className="text-2xl font-display text-amber-900 flex items-center gap-2">
+            {/* Hide button at top center */}
+            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20">
+              <button
+                onClick={() => setIsExpanded(false)}
+                className="inline-flex items-center gap-2 px-6 py-3 
+                         bg-gradient-to-b from-amber-800/90 to-amber-900/90 
+                         border-2 border-amber-700/50 rounded-lg
+                         text-amber-100 font-display text-lg
+                         hover:from-amber-700/90 hover:to-amber-800/90
+                         transform hover:-translate-y-0.5 transition-all duration-200
+                         shadow-lg hover:shadow-xl"
+              >
+                <span>Hide Recap</span>
+                <span className="text-xl">▲</span>
+              </button>
+            </div>
+
+            {/* Header with title */}
+            <div className="mb-4 relative z-10 text-center pt-8">
+              <h3 className="text-2xl font-display text-amber-900 flex items-center justify-center gap-2">
                 <span className="text-3xl">📜</span>
                 Chapter {chapter} Recap
               </h3>
-              <button
-                onClick={() => setIsExpanded(false)}
-                className="text-amber-700 hover:text-amber-900 transition-colors
-                         text-sm font-display flex items-center gap-1
-                         px-3 py-1 rounded hover:bg-amber-200/50"
-              >
-                <span>Hide Recap</span>
-                <span className="text-lg">▲</span>
-              </button>
             </div>
 
             {/* Recap content */}
