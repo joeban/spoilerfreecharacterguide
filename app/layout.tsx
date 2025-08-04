@@ -77,7 +77,65 @@ export default function RootLayout({
           
           {/* Footer */}
           <footer className="relative z-10 mt-auto">
-            <div className="wooden-shelf h-20 px-8 flex items-center justify-center">
+            <div className="wooden-shelf h-20 px-8 flex items-center justify-center relative">
+              {/* Candle on the left side of the footer */}
+              <div className="absolute left-8 bottom-full mb-1">
+                <div className="candle-glow relative">
+                  {/* Flame */}
+                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-3 h-5">
+                    <div className="absolute inset-0 bg-gradient-to-t from-orange-400 via-yellow-300 to-white 
+                                  rounded-full animate-flicker"
+                         style={{
+                           filter: 'blur(1px)',
+                           boxShadow: '0 0 15px rgba(255,191,0,0.8), 0 0 30px rgba(255,140,0,0.6)'
+                         }} />
+                  </div>
+                  
+                  {/* Candle body with integrated drips */}
+                  <div className="relative">
+                    <div className="w-8 h-12 bg-gradient-to-b from-amber-100 to-amber-200 rounded-t-sm relative overflow-visible"
+                         style={{
+                           boxShadow: 'inset -2px 0 4px rgba(0,0,0,0.2)'
+                         }}>
+                      {/* Wax drips as part of the candle */}
+                      <svg className="absolute inset-0 w-full h-full overflow-visible" style={{ filter: 'drop-shadow(1px 1px 2px rgba(0,0,0,0.3))' }}>
+                        {/* Right drip */}
+                        <path d="M 32 8 Q 35 8 36 15 T 34 25" 
+                              fill="url(#wax-gradient)" 
+                              stroke="none" />
+                        {/* Left drip */}
+                        <path d="M 0 12 Q -3 12 -2 20 T 0 28" 
+                              fill="url(#wax-gradient)" 
+                              stroke="none" />
+                        {/* Small center drip */}
+                        <path d="M 20 20 Q 20 20 21 26 T 20 30" 
+                              fill="url(#wax-gradient)" 
+                              stroke="none" />
+                        <defs>
+                          <linearGradient id="wax-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stopColor="#fef3c7" />
+                            <stop offset="100%" stopColor="#fde68a" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </div>
+                    
+                    {/* Candle holder */}
+                    <div className="w-10 h-2 bg-gradient-to-b from-amber-800 to-amber-900 
+                                  rounded-b-lg -mt-0.5 mx-auto"
+                         style={{
+                           boxShadow: '0 2px 4px rgba(0,0,0,0.4)'
+                         }} />
+                  </div>
+                  
+                  {/* Glow on the shelf */}
+                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 
+                                w-20 h-4 bg-gradient-radial from-amber-400/30 to-transparent 
+                                rounded-full blur-lg" />
+                </div>
+              </div>
+              
+              {/* Footer text */}
               <div className="text-center">
                 <p className="text-amber-200/80 text-sm">© 2024 Spoiler-Free Character Guide</p>
                 <p className="text-amber-200/60 text-xs mt-1">
