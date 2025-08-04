@@ -37,15 +37,20 @@
     letter-spacing: 0.05em;
   }
   
-  /* Hanging Sign Animation */
+  /* Hanging Sign - No constant animation, only on hover */
   .hanging-sign {
-    animation: gentle-swing 4s ease-in-out infinite;
     transform-origin: top center;
+    transition: transform 0.3s ease;
   }
   
+  /* Gentle swing animation - triggered on hover */
   @keyframes gentle-swing {
-    0%, 100% { transform: rotate(-1deg); }
-    50% { transform: rotate(1deg); }
+    0%, 100% { transform: rotate(-2deg); }
+    50% { transform: rotate(2deg); }
+  }
+  
+  .hanging-sign:hover {
+    animation: gentle-swing 2s ease-in-out;
   }
   
   /* Book Spine - Vertical */
