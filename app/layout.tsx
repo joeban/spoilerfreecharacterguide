@@ -59,11 +59,23 @@ export default function RootLayout({
                     </h1>
                   </div>
                   
-                  {/* Subtitle plaque */}
-                  <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-gradient-to-b from-amber-700 to-amber-800 px-4 py-1 rounded-md shadow-lg border border-amber-900 z-10">
-                    <p className="text-xs text-amber-100 whitespace-nowrap">
-                      Your trusted guide for tracking characters without spoilers
-                    </p>
+                  {/* 3-step explainer instead of subtitle */}
+                  <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 z-10 w-full max-w-lg px-4">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-amber-100 text-sm">
+                      <span className="bg-amber-800/80 px-3 py-1 rounded-md shadow-lg whitespace-nowrap border border-amber-700/50">
+                        📚 Pick your book
+                      </span>
+                      <span className="text-amber-400 hidden sm:inline">→</span>
+                      <span className="text-amber-400 sm:hidden">↓</span>
+                      <span className="bg-amber-800/80 px-3 py-1 rounded-md shadow-lg whitespace-nowrap border border-amber-700/50">
+                        📖 Pick your chapter
+                      </span>
+                      <span className="text-amber-400 hidden sm:inline">→</span>
+                      <span className="text-amber-400 sm:hidden">↓</span>
+                      <span className="bg-amber-800/80 px-3 py-1 rounded-md shadow-lg whitespace-nowrap border border-amber-700/50">
+                        ✨ See spoiler-free info
+                      </span>
+                    </div>
                   </div>
                 </div>
               </Link>
