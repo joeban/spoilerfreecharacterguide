@@ -75,10 +75,11 @@
   
   /* Book spine (left side) - visible face */
   .book-spine {
-    @apply absolute left-0 top-0 h-full;
+    @apply absolute top-0 h-full;
+    left: -35px;
     width: 35px;
     background: inherit;
-    transform: rotateY(-90deg) translateZ(17.5px);
+    transform: rotateY(-90deg);
     transform-origin: right center;
     box-shadow: 
       -2px 0 8px rgba(0,0,0,0.4),
@@ -108,16 +109,17 @@
       inset 1px 1px 1px rgba(255,255,255,0.1);
   }
   
-  /* Simple side shadow for depth - no complex edges */
+  /* Right edge shadow for depth */
   .book-3d::after {
     content: '';
-    @apply absolute right-0 top-0 h-full;
-    width: 35px;
+    @apply absolute top-0 h-full;
+    right: -25px;
+    width: 25px;
     background: linear-gradient(to right, 
-      rgba(0,0,0,0.2) 0%, 
+      rgba(0,0,0,0.3) 0%, 
       rgba(0,0,0,0.1) 50%,
       transparent 100%);
-    transform: rotateY(90deg) translateZ(105px);
+    transform: rotateY(90deg);
     transform-origin: left center;
   }
   
