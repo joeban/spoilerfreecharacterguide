@@ -50,11 +50,6 @@ export default function SearchBar() {
           Search
         </button>
       </div>
-      
-      {/* Decorative subtitle */}
-      <p className="text-center text-amber-800/70 text-sm mt-2 italic">
-        Discover characters from your favorite tales...
-      </p>
     </form>
   );
 }
