@@ -1,4 +1,8 @@
-import Link from 'next/link';
+// Organize books into rows - 2 for mobile, 4 for desktop
+  const booksPerRowMobile = 2;
+  const booksPerRowDesktop = 4;
+  
+  // We'll use desktop layout for the data structure animport Link from 'next/link';
 import { Series } from '@/lib/types';
 import BookSpine from './BookSpine';
 
