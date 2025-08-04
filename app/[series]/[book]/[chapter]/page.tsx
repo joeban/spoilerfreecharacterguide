@@ -58,22 +58,24 @@ export default async function ChapterPage({
       </div>
       
       <div className="max-w-6xl mx-auto">
-        {/* Chapter selector */}
-        <ChapterSelector
-          totalChapters={bookMeta.chapters}
-          currentChapter={chapterNum}
-          seriesSlug={params.series}
-          bookSlug={params.book}
-        />
-        
-        {/* Chapter recap (if available) */}
+        {/* Chapter recap (if available) - MOVED UP */}
         {recap && <ChapterRecap recap={recap} chapter={chapterNum} />}
         
-        {/* Character lists */}
+        {/* Character lists - MOVED UP */}
         <CharacterList
           inThisChapter={inThisChapter}
           previouslySeen={previouslySeen}
         />
+        
+        {/* Chapter selector - MOVED DOWN */}
+        <div className="mt-12">
+          <ChapterSelector
+            totalChapters={bookMeta.chapters}
+            currentChapter={chapterNum}
+            seriesSlug={params.series}
+            bookSlug={params.book}
+          />
+        </div>
       </div>
     </div>
   );
