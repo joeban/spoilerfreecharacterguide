@@ -58,14 +58,8 @@ export default async function ChapterPage({
       </div>
       
       <div className="max-w-6xl mx-auto">
-        {/* Chapter recap with parchment background */}
-        {recap && (
-          <div className="mb-8">
-            <div className="parchment-panel p-6 md:p-8">
-              <ChapterRecap recap={recap} chapter={chapterNum} />
-            </div>
-          </div>
-        )}
+        {/* Chapter recap (if available) */}
+        {recap && <ChapterRecap recap={recap} chapter={chapterNum} />}
         
         {/* Character lists */}
         <CharacterList
