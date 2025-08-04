@@ -53,6 +53,64 @@
     animation: gentle-swing 2s ease-in-out;
   }
   
+  /* 3D Book Styles */
+  .book-3d-container {
+    @apply relative;
+    width: 140px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .book-3d {
+    @apply relative w-full h-full;
+    transform-style: preserve-3d;
+    transform: rotateY(-20deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .book-3d:hover {
+    transform: rotateY(-15deg) translateZ(10px);
+  }
+  
+  /* Book spine (left side) */
+  .book-spine {
+    @apply absolute left-0 top-0 h-full rounded-l-md;
+    width: 30px;
+    transform: rotateY(-90deg) translateZ(15px);
+    transform-origin: right center;
+    box-shadow: inset 2px 0 4px rgba(0,0,0,0.4);
+  }
+  
+  .spine-decoration {
+    @apply h-full flex flex-col;
+  }
+  
+  /* Vertical text on spine */
+  .writing-mode-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+  }
+  
+  /* Book cover (front) */
+  .book-cover {
+    @apply absolute right-0 top-0 w-full h-full rounded-md;
+    transform: translateZ(15px);
+    box-shadow: 
+      0 5px 15px rgba(0,0,0,0.3),
+      inset -2px -2px 4px rgba(0,0,0,0.2),
+      inset 2px 2px 4px rgba(255,255,255,0.1);
+  }
+  
+  /* Book top (barely visible edge) */
+  .book-top {
+    @apply absolute top-0 left-0 h-4 rounded-t-md;
+    width: 30px;
+    transform: rotateX(90deg) translateZ(8px) translateX(110px);
+    transform-origin: bottom center;
+    opacity: 0.8;
+  }
+  
   /* Book Spine - Vertical */
   .hearthstone-book {
     position: relative;
