@@ -58,21 +58,9 @@ export default function Bookshelf({ series }: BookshelfProps) {
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-b from-amber-600/30 to-transparent" />
               </div>
               
-              {/* Decorative elements between rows */}
+              {/* Small spacing between rows */}
               {rowIndex < rows.length - 1 && (
-                <div className="flex justify-center items-center py-6 mt-4">
-                  <div className="flex items-center gap-4">
-                    <div className="w-20 h-0.5 bg-gradient-to-r from-transparent to-amber-700/30" />
-                    <div className="candle-glow relative">
-                      <div className="w-4 h-8 bg-gradient-to-b from-amber-100 to-amber-600 rounded-t-full"
-                           style={{
-                             boxShadow: '0 0 20px rgba(255,191,0,0.6)'
-                           }} />
-                      <div className="w-6 h-2 bg-amber-800 rounded-b-lg -mt-0.5" />
-                    </div>
-                    <div className="w-20 h-0.5 bg-gradient-to-l from-transparent to-amber-700/30" />
-                  </div>
-                </div>
+                <div className="h-6" />
               )}
             </div>
           ))}
