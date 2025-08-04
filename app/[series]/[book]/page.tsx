@@ -59,7 +59,7 @@ export default async function BookPage({
         </h2>
         
         <div className="parchment-card p-8">
-          <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-2">
+          <div className="flex flex-wrap gap-3 justify-center max-w-4xl mx-auto">
             {allChapters.map((chapter) => {
               const hasContent = chaptersWithContent.includes(chapter);
               
