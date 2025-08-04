@@ -1,8 +1,4 @@
-// Organize books into rows - 2 for mobile, 4 for desktop
-  const booksPerRowMobile = 2;
-  const booksPerRowDesktop = 4;
-  
-  // We'll use desktop layout for the data structure animport Link from 'next/link';
+import Link from 'next/link';
 import { Series } from '@/lib/types';
 import BookSpine from './BookSpine';
 
@@ -41,8 +37,8 @@ export default function Bookshelf({ series }: BookshelfProps) {
         <div className="p-6 space-y-8">
           {rows.map((row, rowIndex) => (
             <div key={rowIndex}>
-              {/* Books row */}
-              <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-2">
+              {/* Books row - responsive grid for mobile */}
+              <div className="grid grid-cols-2 md:flex md:flex-wrap md:justify-center gap-3 md:gap-4 mb-2">
                 {row.map(({ slug, series: seriesData }) => (
                   <Link key={slug} href={`/${slug}`} className="block">
                     <BookSpine
