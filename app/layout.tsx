@@ -57,26 +57,35 @@ export default function RootLayout({
                     <h1 className="text-3xl md:text-4xl font-display tavern-sign-text text-center whitespace-nowrap -mt-2">
                       Character Guide
                     </h1>
-                  </div>
-                  
-                  {/* 3-step explainer instead of subtitle */}
-                  <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 z-10 w-full max-w-lg px-4">
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-amber-100 text-sm">
-                      <span className="bg-amber-800/80 px-3 py-1 rounded-md shadow-lg whitespace-nowrap border border-amber-700/50">
-                        📚 Pick your book
+                    
+                    {/* Decorative divider */}
+                    <div className="flex items-center justify-center my-3">
+                      <div className="h-px w-12 bg-gradient-to-r from-transparent to-amber-600/50" />
+                      <div className="mx-2 w-2 h-2 rounded-full bg-amber-600/50" />
+                      <div className="h-px w-12 bg-gradient-to-l from-transparent to-amber-600/50" />
+                    </div>
+                    
+                    {/* 3-step process integrated into sign */}
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-amber-200 text-sm mt-2">
+                      <span className="flex items-center gap-1">
+                        <span className="text-amber-400">📚</span>
+                        <span className="text-xs">Pick your book</span>
                       </span>
-                      <span className="text-amber-400 hidden sm:inline">→</span>
-                      <span className="text-amber-400 sm:hidden">↓</span>
-                      <span className="bg-amber-800/80 px-3 py-1 rounded-md shadow-lg whitespace-nowrap border border-amber-700/50">
-                        📖 Pick your chapter
+                      <span className="text-amber-400/70 hidden sm:inline">•</span>
+                      <span className="text-amber-400/70 sm:hidden text-xs">↓</span>
+                      <span className="flex items-center gap-1">
+                        <span className="text-amber-400">📖</span>
+                        <span className="text-xs">Pick your chapter</span>
                       </span>
-                      <span className="text-amber-400 hidden sm:inline">→</span>
-                      <span className="text-amber-400 sm:hidden">↓</span>
-                      <span className="bg-amber-800/80 px-3 py-1 rounded-md shadow-lg whitespace-nowrap border border-amber-700/50">
-                        ✨ See spoiler-free info
+                      <span className="text-amber-400/70 hidden sm:inline">•</span>
+                      <span className="text-amber-400/70 sm:hidden text-xs">↓</span>
+                      <span className="flex items-center gap-1">
+                        <span className="text-amber-400">✨</span>
+                        <span className="text-xs">See spoiler-free info</span>
                       </span>
                     </div>
                   </div>
+                  
                 </div>
               </Link>
             </div>
