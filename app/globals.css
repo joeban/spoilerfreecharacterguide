@@ -76,7 +76,7 @@
   .book-spine {
     @apply absolute left-0 top-0 h-full;
     width: 40px;
-    transform: rotateY(-90deg) translateZ(20px);
+    transform: rotateY(-90deg) translateZ(20px) translateX(-20px);
     transform-origin: right center;
     box-shadow: 
       -2px 0 4px rgba(0,0,0,0.4),
@@ -107,11 +107,11 @@
       inset 1px 1px 2px rgba(255,255,255,0.1);
   }
   
-  /* Book top edge */
+  /* Book top edge (pages) */
   .book-top {
     @apply absolute top-0 left-0 w-full;
     height: 40px;
-    transform: rotateX(90deg) translateZ(20px);
+    transform: rotateX(90deg) translateZ(20px) translateY(-20px);
     transform-origin: bottom center;
     background: linear-gradient(to right, 
       rgba(0,0,0,0.3) 0%, 
@@ -125,7 +125,7 @@
     content: '';
     @apply absolute bottom-0 left-0 w-full;
     height: 40px;
-    transform: rotateX(-90deg) translateZ(20px);
+    transform: rotateX(-90deg) translateZ(20px) translateY(20px);
     transform-origin: top center;
     background: linear-gradient(to right, 
       rgba(0,0,0,0.4) 0%, 
@@ -139,7 +139,7 @@
     content: '';
     @apply absolute right-0 top-0 h-full bg-amber-50;
     width: 40px;
-    transform: rotateY(90deg) translateZ(120px);
+    transform: rotateY(90deg) translateZ(140px) translateX(20px);
     transform-origin: left center;
     box-shadow: inset -2px 0 4px rgba(0,0,0,0.2);
     background-image: repeating-linear-gradient(
