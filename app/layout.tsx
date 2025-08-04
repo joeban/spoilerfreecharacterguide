@@ -137,8 +137,7 @@ export default function RootLayout({
               
               {/* Footer text */}
               <div className="text-center">
-                <p className="text-amber-200/80 text-sm">Spoiler-Free Character Guide</p>
-                <p className="text-amber-200/60 text-xs mt-1">
+                <p className="text-amber-200/60 text-xs">
                   Navigate your favorite series without fear of spoilers
                 </p>
                 <p className="text-amber-200/60 text-xs mt-2">
