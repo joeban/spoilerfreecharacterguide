@@ -2,6 +2,7 @@ import { getSeries, getBookMeta, loadBookData } from '@/lib/dataLoader';
 import { getChaptersWithContent } from '@/lib/spoilerFilter';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import ChapterSelector from '@/components/ChapterSelector';
 
 export default async function BookPage({
   params
@@ -18,9 +19,6 @@ export default async function BookPage({
   
   // Get chapters that have content
   const chaptersWithContent = bookData ? getChaptersWithContent(bookData) : [];
-  
-  // Generate array of all chapters
-  const allChapters = Array.from({ length: bookMeta.chapters }, (_, i) => i + 1);
   
   // Amazon affiliate link for this specific book
   const amazonSearchUrl = `https://www.amazon.com/s?k=${encodeURIComponent(bookMeta.title + ' ' + series.author)}&tag=spoilerfree-20`;
@@ -52,39 +50,15 @@ export default async function BookPage({
         </p>
       </div>
       
-      {/* Chapter selection - MAIN CONTENT FIRST */}
+      {/* Chapter selection - Using ChapterSelector stepper */}
       <div className="max-w-6xl mx-auto mb-16">
-        <h2 className="text-2xl font-display mb-8 text-center">
-          Select Your Current Chapter
-        </h2>
-        
-        <div className="parchment-card p-8">
-          <div className="flex flex-wrap gap-3 justify-center max-w-4xl mx-auto">
-            {allChapters.map((chapter) => {
-              const hasContent = chaptersWithContent.includes(chapter);
-              
-              return (
-                <Link
-                  key={chapter}
-                  href={`/${params.series}/${params.book}/${chapter}`}
-                  className={`
-                    chapter-button text-center
-                    ${!hasContent ? 'opacity-50' : ''}
-                  `}
-                  title={!hasContent ? 'No content for this chapter yet' : `View characters up to Chapter ${chapter}`}
-                >
-                  {chapter}
-                </Link>
-              );
-            })}
-          </div>
-          
-          {chaptersWithContent.length === 0 && (
-            <p className="text-center text-ink-light mt-8">
-              Character data is being prepared for this book. Check back soon!
-            </p>
-          )}
-        </div>
+        <ChapterSelector
+          totalChapters={bookMeta.chapters}
+          currentChapter={1}
+          seriesSlug={params.series}
+          bookSlug={params.book}
+          chaptersWithContent={chaptersWithContent}
+        />
       </div>
       
       {/* Amazon affiliate section - AFTER chapter selection */}
