@@ -99,8 +99,8 @@ export default function RootLayout({
           {/* Footer */}
           <footer className="relative z-10 mt-auto">
             <div className="wooden-shelf h-20 px-8 flex items-center justify-center relative">
-              {/* Candle on the left side of the footer */}
-              <div className="absolute left-8 bottom-full mb-1">
+              {/* Candle on the left side of the footer - with pointer-events-none to not block clicks */}
+              <div className="absolute left-8 bottom-full mb-1 pointer-events-none">
                 <div className="candle-glow relative">
                   {/* Flame */}
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-3 h-5">
@@ -156,14 +156,16 @@ export default function RootLayout({
                 </div>
               </div>
               
-              {/* Footer text */}
-              <div className="text-center">
+              {/* Footer text - with relative positioning and higher z-index to ensure clickability */}
+              <div className="text-center relative z-20">
                 <p className="text-amber-200/60 text-xs">
                   Navigate your favorite series without fear of spoilers
                 </p>
                 <p className="text-amber-200/60 text-xs mt-2">
-                  Found a mistake? <a href="mailto:spoilerfreecharacterguide@gmail.com" 
-                                     className="text-amber-400 hover:text-amber-300 underline transition-colors">
+                  Found a mistake?{' '}
+                  <a href="mailto:spoilerfreecharacterguide@gmail.com" 
+                     className="text-amber-400 hover:text-amber-300 underline transition-colors relative z-30"
+                     style={{ position: 'relative', zIndex: 30 }}>
                     Let us know
                   </a>
                 </p>
