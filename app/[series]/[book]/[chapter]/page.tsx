@@ -1,82 +1,59 @@
-import { getSeries, getBookMeta, loadBookData } from '@/lib/dataLoader';
-import { getCharactersForChapter, getChapterRecap } from '@/lib/spoilerFilter';
-import ChapterSelector from '@/components/ChapterSelector';
-import ChapterRecap from '@/components/ChapterRecap';
-import CharacterList from '@/components/CharacterList';
-import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound } from "next/navigation";
+import { getChapterData, getBookMeta } from "@/lib/dataLoader";
+import ChapterRecap from "@/components/ChapterRecap";
+import CharacterCard from "@/components/CharacterCard";
+import ChapterSelector from "@/components/ChapterSelector";
 
-export default async function ChapterPage({
-  params
-}: {
-  params: { series: string; book: string; chapter: string }
-}) {
-  const chapterNum = parseInt(params.chapter);
-  
-  // Validate chapter number
-  if (isNaN(chapterNum) || chapterNum < 1) {
+interface PageProps {
+  params: {
+    series: string;
+    book: string;
+    chapter: string;
+  };
+}
+
+export default async function ChapterPage({ params }: PageProps) {
+  const { series, book, chapter } = params;
+  const chapterNum = parseInt(chapter);
+
+  const bookMeta = await getBookMeta(series, book);
+  const chapterData = await getChapterData(series, book, chapterNum);
+
+  if (!chapterData || !bookMeta) {
     notFound();
   }
-  
-  const series = await getSeries(params.series);
-  const bookMeta = await getBookMeta(params.series, params.book);
-  const bookData = await loadBookData(params.series, params.book);
-  
-  if (!series || !bookMeta || !bookData || chapterNum > bookMeta.chapters) {
-    notFound();
-  }
-  
-  // Get characters and recap for this chapter
-  const { inThisChapter, previouslySeen } = getCharactersForChapter(bookData, chapterNum);
-  const recap = getChapterRecap(bookData, chapterNum);
-  
+
   return (
-    <div className="container mx-auto px-4 py-12">
-      <div className="text-center mb-8">
-        <div className="space-y-2">
-          <Link 
-            href={`/${params.series}`}
-            className="text-ink-light hover:text-ink transition-colors text-sm"
-          >
-            ← {series.title}
-          </Link>
-          <span className="text-ink-light mx-2">•</span>
-          <Link 
-            href={`/${params.series}/${params.book}`}
-            className="text-ink-light hover:text-ink transition-colors text-sm"
-          >
-            {bookMeta.title}
-          </Link>
-        </div>
-        
-        <h1 className="text-4xl md:text-5xl font-display mt-4 mb-2 text-shadow-ink">
-          Chapter {chapterNum}
-        </h1>
-        <p className="text-lg text-ink-light">
-          Character Guide
-        </p>
-      </div>
-      
-      <div className="max-w-6xl mx-auto">
-        {/* Chapter recap (if available) */}
-        {recap && <ChapterRecap recap={recap} chapter={chapterNum} />}
-        
-        {/* Character lists */}
-        <CharacterList
-          inThisChapter={inThisChapter}
-          previouslySeen={previouslySeen}
+    <main className="min-h-screen bg-[#1a1108] text-amber-100 p-4">
+      <div className="max-w-4xl mx-auto space-y-6">
+        <h1 className="text-3xl tavern-sign-text">Chapter {chapterNum}</h1>
+
+        <ChapterRecap recap={chapterData.recap} />
+
+        <section>
+          <h2 className="text-2xl font-bold mb-2">In This Chapter</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {chapterData.characters.map((char: any) => (
+              <CharacterCard key={char.name} character={char} />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-bold mb-2">Previously Seen</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {chapterData.previousCharacters.map((char: any) => (
+              <CharacterCard key={char.name} character={char} />
+            ))}
+          </div>
+        </section>
+
+        <ChapterSelector
+          totalChapters={bookMeta.chapters}
+          series={series}
+          book={book}
         />
-        
-        {/* Chapter selector - moved to bottom */}
-        <div className="mt-12">
-          <ChapterSelector
-            totalChapters={bookMeta.chapters}
-            currentChapter={chapterNum}
-            seriesSlug={params.series}
-            bookSlug={params.book}
-          />
-        </div>
       </div>
-    </div>
+    </main>
   );
 }
