@@ -1,269 +1,93 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import clsx from 'clsx';
+import { useRouter } from "next/navigation";
+import { useState, useEffect } from "react";
 
 interface ChapterSelectorProps {
+  series: string;
+  book: string;
   totalChapters: number;
-  currentChapter: number;
-  seriesSlug: string;
-  bookSlug: string;
-  chaptersWithContent?: number[];
 }
 
-export default function ChapterSelector({
-  totalChapters,
-  currentChapter,
-  seriesSlug,
-  bookSlug,
-  chaptersWithContent
-}: ChapterSelectorProps) {
+export default function ChapterSelector({ series, book, totalChapters }: ChapterSelectorProps) {
   const router = useRouter();
-  const [selectedChapter, setSelectedChapter] = useState(currentChapter);
-  const [inputValue, setInputValue] = useState(currentChapter.toString());
-  const [isInvalid, setIsInvalid] = useState(false);
 
-  // Update selected chapter when currentChapter changes (e.g., navigation)
-  useEffect(() => {
-    setSelectedChapter(currentChapter);
-    setInputValue(currentChapter.toString());
-  }, [currentChapter]);
+  // No chapter has been selected yet — user is on the book page
+  const [currentChapter, setCurrentChapter] = useState<number | null>(null);
+  const [selectedChapter, setSelectedChapter] = useState<number>(1);
 
-  const navigateToChapter = (chapter: number) => {
-    if (chapter >= 1 && chapter <= totalChapters) {
-      router.push(`/${seriesSlug}/${bookSlug}/${chapter}`);
-    }
+  // Smart quick jump button values
+  const middleChapter = Math.floor(totalChapters / 2);
+
+  const handleGoClick = () => {
+    setCurrentChapter(selectedChapter);
+    router.push(`/${series}/${book}/${selectedChapter}`);
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    
-    // Allow empty input for typing
-    if (value === '') {
-      setInputValue('');
-      setIsInvalid(false);
-      return;
-    }
-
-    // Only allow numbers
-    if (!/^\d+$/.test(value)) return;
-
-    const num = parseInt(value);
-    setInputValue(value);
-
-    // Validate range and update selected chapter
-    if (num >= 1 && num <= totalChapters) {
-      setSelectedChapter(num);
-      setIsInvalid(false);
-    } else {
-      setIsInvalid(true);
+    const value = parseInt(e.target.value);
+    if (!isNaN(value) && value >= 1 && value <= totalChapters) {
+      setSelectedChapter(value);
     }
   };
 
-  const handleInputBlur = () => {
-    if (inputValue === '' || isInvalid) {
-      setInputValue(selectedChapter.toString());
-      setIsInvalid(false);
-    }
-  };
-
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter' && !isInvalid && selectedChapter !== currentChapter) {
-      navigateToChapter(selectedChapter);
-    }
-  };
-
-  const handleDecrement = () => {
-    if (selectedChapter > 1) {
-      const newChapter = selectedChapter - 1;
-      setSelectedChapter(newChapter);
-      setInputValue(newChapter.toString());
-      setIsInvalid(false);
-    }
-  };
-
-  const handleIncrement = () => {
-    if (selectedChapter < totalChapters) {
-      const newChapter = selectedChapter + 1;
-      setSelectedChapter(newChapter);
-      setInputValue(newChapter.toString());
-      setIsInvalid(false);
-    }
-  };
-
-  const handleGo = () => {
-    if (selectedChapter !== currentChapter && !isInvalid) {
-      navigateToChapter(selectedChapter);
-    }
-  };
-
-  const hasContent = (chapter: number) => {
-    return !chaptersWithContent || chaptersWithContent.includes(chapter);
-  };
-
-  const showGoButton = selectedChapter !== currentChapter && !isInvalid;
+  const disableGoButton = selectedChapter === currentChapter && currentChapter !== null;
 
   return (
-    <div className="flex flex-col items-center space-y-4">
-      <h3 className="text-lg font-display text-center">
-        {currentChapter === selectedChapter ? 'Current Chapter' : 'Select Chapter'}
-      </h3>
-      
-      <div className="parchment-panel px-6 py-4">
-        <div className="flex items-center gap-3">
-          {/* Decrement button */}
-          <button
-            onClick={handleDecrement}
-            disabled={selectedChapter <= 1}
-            className={clsx(
-              'w-10 h-10 rounded-full flex items-center justify-center transition-all',
-              'bg-gradient-to-b from-amber-700 to-amber-800 border border-amber-900',
-              'hover:from-amber-600 hover:to-amber-700 hover:shadow-lg',
-              'active:scale-95',
-              selectedChapter <= 1 && 'opacity-50 cursor-not-allowed hover:from-amber-700 hover:to-amber-800'
-            )}
-            title="Previous chapter"
-            aria-label="Previous chapter"
-          >
-            <span className="text-amber-100 text-xl font-bold">−</span>
-          </button>
+    <div className="parchment-panel p-4 text-center">
+      <h2 className="text-xl font-bold text-amber-900 mb-2">Choose Your Chapter</h2>
 
-          {/* Chapter input */}
-          <div className="relative">
-            <input
-              type="text"
-              value={inputValue}
-              onChange={handleInputChange}
-              onBlur={handleInputBlur}
-              onKeyDown={handleKeyDown}
-              className={clsx(
-                'w-20 h-12 text-center text-lg font-display',
-                'bg-amber-50 border-2 rounded-md',
-                'focus:outline-none focus:ring-2 focus:ring-amber-500',
-                'transition-all',
-                isInvalid 
-                  ? 'border-red-600 text-red-700' 
-                  : selectedChapter === currentChapter
-                  ? 'border-amber-700 text-amber-900'
-                  : 'border-amber-600 text-amber-800 bg-amber-100'
-              )}
-              style={{ appearance: 'textfield' }}
-            />
-            <div className="text-xs text-amber-700 text-center mt-1">
-              of {totalChapters}
-            </div>
-          </div>
+      <div className="flex justify-center items-center gap-4 mb-4">
+        <button
+          className="px-3 py-1 bg-amber-200 hover:bg-amber-300 rounded"
+          onClick={() => setSelectedChapter((prev) => Math.max(1, prev - 1))}
+        >
+          −
+        </button>
 
-          {/* Increment button */}
-          <button
-            onClick={handleIncrement}
-            disabled={selectedChapter >= totalChapters}
-            className={clsx(
-              'w-10 h-10 rounded-full flex items-center justify-center transition-all',
-              'bg-gradient-to-b from-amber-700 to-amber-800 border border-amber-900',
-              'hover:from-amber-600 hover:to-amber-700 hover:shadow-lg',
-              'active:scale-95',
-              selectedChapter >= totalChapters && 'opacity-50 cursor-not-allowed hover:from-amber-700 hover:to-amber-800'
-            )}
-            title="Next chapter"
-            aria-label="Next chapter"
-          >
-            <span className="text-amber-100 text-xl font-bold">+</span>
-          </button>
-        </div>
+        <input
+          type="number"
+          className="w-20 text-center px-2 py-1 border border-amber-400 rounded"
+          value={selectedChapter}
+          min={1}
+          max={totalChapters}
+          onChange={handleInputChange}
+        />
 
-        {/* Go button - always visible unless we're already on that chapter */}
-        <div className="mt-4 text-center">
-          <button
-            onClick={handleGo}
-            disabled={selectedChapter === currentChapter || isInvalid}
-            className={clsx(
-              'px-6 py-2 font-display rounded-md transition-all',
-              selectedChapter === currentChapter || isInvalid
-                ? 'bg-gradient-to-b from-gray-400 to-gray-500 text-gray-200 cursor-not-allowed opacity-50'
-                : 'bg-gradient-to-b from-amber-600 to-amber-700 text-amber-100 hover:from-amber-500 hover:to-amber-600 active:scale-95 shadow-md hover:shadow-lg'
-            )}
-          >
-            {selectedChapter === currentChapter 
-              ? `Currently on Chapter ${selectedChapter}` 
-              : `Go to Chapter ${selectedChapter}`}
-          </button>
-        </div>
-
-        {/* Content availability indicator */}
-        {!hasContent(selectedChapter) && (
-          <p className="text-xs text-amber-700 text-center mt-3 italic">
-            {selectedChapter === currentChapter 
-              ? 'No content available for this chapter yet'
-              : `Chapter ${selectedChapter} has no content yet`
-            }
-          </p>
-        )}
+        <button
+          className="px-3 py-1 bg-amber-200 hover:bg-amber-300 rounded"
+          onClick={() => setSelectedChapter((prev) => Math.min(totalChapters, prev + 1))}
+        >
+          +
+        </button>
       </div>
 
-      {/* Quick jump shortcuts */}
-      <div className="flex gap-2 text-xs">
-        <button
-          onClick={() => {
-            setSelectedChapter(1);
-            setInputValue('1');
-            setIsInvalid(false);
-            // If we're not on chapter 1, navigate immediately
-            if (currentChapter !== 1) {
-              navigateToChapter(1);
-            }
-          }}
-          className={clsx(
-            'px-3 py-1 rounded-full transition-all',
-            currentChapter === 1
-              ? 'bg-amber-700 text-amber-100'
-              : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
-          )}
-        >
-          First
-        </button>
-        {totalChapters > 20 && (
-          <button
-            onClick={() => {
-              const middle = Math.floor(totalChapters / 2);
-              setSelectedChapter(middle);
-              setInputValue(middle.toString());
-              setIsInvalid(false);
-              // Navigate immediately if different from current
-              if (currentChapter !== middle) {
-                navigateToChapter(middle);
-              }
-            }}
-            className={clsx(
-              'px-3 py-1 rounded-full transition-all',
-              currentChapter === Math.floor(totalChapters / 2)
-                ? 'bg-amber-700 text-amber-100'
-                : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
-            )}
-          >
-            Middle
-          </button>
+      <div className="flex justify-center gap-2 mb-2">
+        <button onClick={() => setSelectedChapter(1)} className="text-sm underline text-amber-700 hover:text-amber-900">First</button>
+        {totalChapters >= 20 && (
+          <button onClick={() => setSelectedChapter(middleChapter)} className="text-sm underline text-amber-700 hover:text-amber-900">Middle</button>
         )}
-        <button
-          onClick={() => {
-            setSelectedChapter(totalChapters);
-            setInputValue(totalChapters.toString());
-            setIsInvalid(false);
-            // Navigate immediately if different from current
-            if (currentChapter !== totalChapters) {
-              navigateToChapter(totalChapters);
-            }
-          }}
-          className={clsx(
-            'px-3 py-1 rounded-full transition-all',
-            currentChapter === totalChapters
-              ? 'bg-amber-700 text-amber-100'
-              : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
-          )}
-        >
-          Last
-        </button>
+        <button onClick={() => setSelectedChapter(totalChapters)} className="text-sm underline text-amber-700 hover:text-amber-900">Last</button>
+      </div>
+
+      <button
+        className={`px-4 py-2 mt-2 font-semibold rounded ${
+          disableGoButton
+            ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+            : "bg-amber-500 hover:bg-amber-600 text-white"
+        }`}
+        onClick={handleGoClick}
+        disabled={disableGoButton}
+      >
+        Go to Chapter {selectedChapter}
+      </button>
+
+      <div className="mt-2 text-sm text-amber-800">
+        {currentChapter === null
+          ? "No chapter selected yet"
+          : selectedChapter === currentChapter
+          ? `Currently on Chapter ${currentChapter}`
+          : `Ready to go to Chapter ${selectedChapter}`}
       </div>
     </div>
   );
