@@ -53,13 +53,16 @@
     animation: gentle-swing 2s ease-in-out;
   }
   
-  /* 3D Book Styles */
+  /* 3D Book Styles - with GPU acceleration and will-change */
   .book-3d-container {
     @apply relative;
     width: 140px;
     height: 200px;
     perspective: 800px;
     margin: 0 10px;
+    /* Force GPU acceleration */
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
   
   .book-3d {
@@ -67,6 +70,15 @@
     transform-style: preserve-3d;
     transform: rotateY(30deg);
     transition: transform 0.3s ease;
+    /* Add will-change for better performance */
+    will-change: transform;
+    /* Force repaint on load */
+    animation: book-init 0.01s;
+  }
+  
+  @keyframes book-init {
+    0% { opacity: 0.999; }
+    100% { opacity: 1; }
   }
   
   .book-3d:hover {
@@ -85,6 +97,9 @@
       -2px 0 8px rgba(0,0,0,0.4),
       inset 1px 0 2px rgba(0,0,0,0.3);
     border-radius: 2px 0 0 2px;
+    /* Force repaint */
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
   }
   
   .spine-decoration {
@@ -107,6 +122,10 @@
       1px 1px 5px rgba(0,0,0,0.3),
       inset -1px -1px 2px rgba(0,0,0,0.2),
       inset 1px 1px 1px rgba(255,255,255,0.1);
+    /* Force GPU acceleration */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
   }
   
   /* Right edge shadow for depth */
@@ -243,9 +262,19 @@
       0 0 20px rgba(255,191,0,0.3);
   }
   
-  /* Candle Glow Effect */
+  /* Candle Glow Effect - with forced repaint */
   .candle-glow {
     position: relative;
+    /* Force GPU acceleration */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    /* Trigger repaint on load */
+    animation: candle-init 0.01s;
+  }
+  
+  @keyframes candle-init {
+    0% { opacity: 0.999; }
+    100% { opacity: 1; }
   }
   
   .candle-glow::after {
@@ -265,15 +294,39 @@
     50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
   }
   
-  /* Book Colors */
-  .book-burgundy { background: linear-gradient(135deg, #722f37 0%, #4a1a1a 100%); }
-  .book-navy { background: linear-gradient(135deg, #2c5282 0%, #1a3344 100%); }
-  .book-forest { background: linear-gradient(135deg, #2d5a2d 0%, #1a3a2a 100%); }
-  .book-purple { background: linear-gradient(135deg, #553c9a 0%, #3a1a4a 100%); }
-  .book-brown { background: linear-gradient(135deg, #92400e 0%, #4a3a1a 100%); }
-  .book-charcoal { background: linear-gradient(135deg, #4a4a5a 0%, #2a2a3a 100%); }
-  .book-crimson { background: linear-gradient(135deg, #991b1b 0%, #4a1a1a 100%); }
-  .book-teal { background: linear-gradient(135deg, #0e7490 0%, #164e63 100%); }
+  /* Book Colors - using solid fallbacks for better rendering */
+  .book-burgundy { 
+    background: #722f37;
+    background: linear-gradient(135deg, #722f37 0%, #4a1a1a 100%); 
+  }
+  .book-navy { 
+    background: #2c5282;
+    background: linear-gradient(135deg, #2c5282 0%, #1a3344 100%); 
+  }
+  .book-forest { 
+    background: #2d5a2d;
+    background: linear-gradient(135deg, #2d5a2d 0%, #1a3a2a 100%); 
+  }
+  .book-purple { 
+    background: #553c9a;
+    background: linear-gradient(135deg, #553c9a 0%, #3a1a4a 100%); 
+  }
+  .book-brown { 
+    background: #92400e;
+    background: linear-gradient(135deg, #92400e 0%, #4a3a1a 100%); 
+  }
+  .book-charcoal { 
+    background: #4a4a5a;
+    background: linear-gradient(135deg, #4a4a5a 0%, #2a2a3a 100%); 
+  }
+  .book-crimson { 
+    background: #991b1b;
+    background: linear-gradient(135deg, #991b1b 0%, #4a1a1a 100%); 
+  }
+  .book-teal { 
+    background: #0e7490;
+    background: linear-gradient(135deg, #0e7490 0%, #164e63 100%); 
+  }
 }
 
 @layer utilities {
@@ -288,5 +341,13 @@
     border-image: linear-gradient(135deg, #8b6f47 0%, #654321 50%, #4a3420 100%) 1;
     border-width: 4px;
     border-style: solid;
+  }
+  
+  /* Force repaint utility class */
+  .force-repaint {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    will-change: transform;
   }
 }
