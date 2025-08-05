@@ -31,7 +31,7 @@ export default function ChapterSelector({
   }, [currentChapter]);
 
   const navigateToChapter = (chapter: number) => {
-    if (chapter >= 1 && chapter <= totalChapters && chapter !== currentChapter) {
+    if (chapter >= 1 && chapter <= totalChapters) {
       router.push(`/${seriesSlug}/${bookSlug}/${chapter}`);
     }
   };
@@ -206,10 +206,14 @@ export default function ChapterSelector({
             setSelectedChapter(1);
             setInputValue('1');
             setIsInvalid(false);
+            // If we're not on chapter 1, navigate immediately
+            if (currentChapter !== 1) {
+              navigateToChapter(1);
+            }
           }}
           className={clsx(
             'px-3 py-1 rounded-full transition-all',
-            selectedChapter === 1
+            currentChapter === 1
               ? 'bg-amber-700 text-amber-100'
               : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
           )}
@@ -223,10 +227,14 @@ export default function ChapterSelector({
               setSelectedChapter(middle);
               setInputValue(middle.toString());
               setIsInvalid(false);
+              // Navigate immediately if different from current
+              if (currentChapter !== middle) {
+                navigateToChapter(middle);
+              }
             }}
             className={clsx(
               'px-3 py-1 rounded-full transition-all',
-              selectedChapter === Math.floor(totalChapters / 2)
+              currentChapter === Math.floor(totalChapters / 2)
                 ? 'bg-amber-700 text-amber-100'
                 : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
             )}
@@ -239,10 +247,14 @@ export default function ChapterSelector({
             setSelectedChapter(totalChapters);
             setInputValue(totalChapters.toString());
             setIsInvalid(false);
+            // Navigate immediately if different from current
+            if (currentChapter !== totalChapters) {
+              navigateToChapter(totalChapters);
+            }
           }}
           className={clsx(
             'px-3 py-1 rounded-full transition-all',
-            selectedChapter === totalChapters
+            currentChapter === totalChapters
               ? 'bg-amber-700 text-amber-100'
               : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
           )}
