@@ -18,11 +18,10 @@ export default async function SeriesPage({
   // Amazon affiliate link for the series
   const amazonSearchUrl = `https://www.amazon.com/s?k=${encodeURIComponent(series.title + ' ' + series.author + ' box set')}&tag=spoilerfree-20`;
   
-  // Get first book's ASIN for cover image (as representative of series)
-  const firstBook = books[0]?.book;
-  const coverImageUrl = firstBook?.asin 
-    ? `https://images-na.ssl-images-amazon.com/images/P/${firstBook.asin}.01._SX300_.jpg`
-    : null;
+  // Get first 4 books' ASINs for cover collage
+  const coverImages = books.slice(0, 4).map(({ book }) => 
+    book.asin ? `https://images-na.ssl-images-amazon.com/images/P/${book.asin}.01._SX300_.jpg` : null
+  ).filter(Boolean);
   
   return (
     <div className="container mx-auto px-4 py-12">
@@ -66,13 +65,27 @@ export default async function SeriesPage({
             className="group"
           >
             <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
-              {coverImageUrl ? (
-                <img 
-                  src={coverImageUrl}
-                  alt={`${series.title} series cover`}
-                  className="w-40 h-auto"
-                  loading="lazy"
-                />
+              {coverImages.length > 0 ? (
+                <div className="w-40 h-60 grid grid-cols-2 gap-0.5 bg-black/20 p-0.5">
+                  {/* Show up to 4 covers in a 2x2 grid */}
+                  {coverImages.slice(0, 4).map((coverUrl, index) => (
+                    <div key={index} className="relative overflow-hidden">
+                      <img 
+                        src={coverUrl}
+                        alt={`${series.title} book ${index + 1} cover`}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+                  ))}
+                  {/* Fill empty spots if less than 4 books */}
+                  {[...Array(Math.max(0, 4 - coverImages.length))].map((_, index) => (
+                    <div 
+                      key={`empty-${index}`} 
+                      className="bg-gradient-to-br from-amber-800 to-amber-900"
+                    />
+                  ))}
+                </div>
               ) : (
                 <div className="w-40 h-60 bg-gradient-to-br from-leather to-leather-dark flex items-center justify-center">
                   <span className="text-parchment-dark text-sm text-center px-4">
