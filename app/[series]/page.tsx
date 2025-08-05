@@ -18,10 +18,13 @@ export default async function SeriesPage({
   // Amazon affiliate link for the series
   const amazonSearchUrl = `https://www.amazon.com/s?k=${encodeURIComponent(series.title + ' ' + series.author + ' box set')}&tag=spoilerfree-20`;
   
-  // Get first 4 books' ASINs for cover collage
-  const coverImages = books.slice(0, 4).map(({ book }) => 
-    book.asin ? `https://images-na.ssl-images-amazon.com/images/P/${book.asin}.01._SX300_.jpg` : null
-  ).filter(Boolean);
+  // Get first 4 books' ASINs for cover collage - filter out nulls to ensure string[]
+  const coverImages: string[] = books
+    .slice(0, 4)
+    .map(({ book }) => 
+      book.asin ? `https://images-na.ssl-images-amazon.com/images/P/${book.asin}.01._SX300_.jpg` : null
+    )
+    .filter((url): url is string => url !== null);
   
   return (
     <div className="container mx-auto px-4 py-12">
