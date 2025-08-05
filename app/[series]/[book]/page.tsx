@@ -1,4 +1,9 @@
-import { getSeries, getBookMeta, loadBookData } from '@/lib/dataLoader';
+{/* Amazon affiliate section - AFTER chapter selection */}
+      <div className="pt-12">
+        <div className="parchment-panel max-w-2xl mx-auto p-8">
+          <div className="flex flex-col items-center">
+            <h3 className="text-xl font-display mb-6 text-amber-900">Purchase This Book</h3>
+            import { getSeries, getBookMeta, loadBookData } from '@/lib/dataLoader';
 import { getChaptersWithContent } from '@/lib/spoilerFilter';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -36,16 +41,18 @@ export default async function BookPage({
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-12">
-        <Link 
-          href={`/${params.series}`}
-          className="text-ink-light hover:text-ink transition-colors text-sm"
-        >
-          ← Back to {series.title}
-        </Link>
-        <h1 className="text-4xl md:text-5xl font-display mt-4 mb-2 text-shadow-ink">
+        <div className="parchment-panel inline-block px-6 py-2 mb-4">
+          <Link 
+            href={`/${params.series}`}
+            className="text-amber-800 hover:text-amber-900 transition-colors text-sm font-medium"
+          >
+            ← Back to {series.title}
+          </Link>
+        </div>
+        <h1 className="text-4xl md:text-5xl font-display mb-2 text-amber-100 text-shadow-fire">
           {bookMeta.title}
         </h1>
-        <p className="text-lg text-ink-light">
+        <p className="text-lg text-amber-200">
           {bookMeta.chapters} Chapters
         </p>
       </div>
@@ -94,25 +101,26 @@ export default async function BookPage({
               </div>
             </div>
           </a>
-          <a
-            href={amazonDirectUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-leather text-parchment rounded-md shadow-md hover:bg-leather-dark transition-all duration-200 hover:shadow-lg text-sm"
-          >
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-            </svg>
-            Buy This Book on Amazon
-          </a>
+            <a
+              href={amazonDirectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-gradient-to-b from-amber-700 to-amber-800 text-amber-100 rounded-md shadow-md hover:from-amber-600 hover:to-amber-700 transition-all duration-200 hover:shadow-lg text-sm font-medium"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+              Buy This Book on Amazon
+            </a>
+          </div>
+          
+          {/* Amazon affiliate disclosure */}
+          <div className="mt-6 text-center">
+            <p className="text-xs text-amber-700 italic">
+              As an Amazon Associate, we earn from qualifying purchases
+            </p>
+          </div>
         </div>
-      </div>
-      
-      {/* Amazon affiliate disclosure */}
-      <div className="mt-8 text-center">
-        <p className="text-xs text-ink-light italic">
-          As an Amazon Associate, we earn from qualifying purchases
-        </p>
       </div>
     </div>
   );
