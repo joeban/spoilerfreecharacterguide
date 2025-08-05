@@ -28,7 +28,8 @@ export default async function ChapterPage({ params }: PageProps) {
       <div className="max-w-4xl mx-auto space-y-6">
         <h1 className="text-3xl tavern-sign-text">Chapter {chapterNum}</h1>
 
-        <ChapterRecap recap={chapterData.recap} />
+        {/* ✅ Now includes the required `chapter` prop */}
+        <ChapterRecap recap={chapterData.recap} chapter={chapterNum} />
 
         <section>
           <h2 className="text-2xl font-bold mb-2">In This Chapter</h2>
