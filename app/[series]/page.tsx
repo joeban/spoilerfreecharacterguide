@@ -1,9 +1,4 @@
-{/* Amazon affiliate section - AFTER books */}
-      <div className="pt-12">
-        <div className="parchment-panel max-w-2xl mx-auto p-8">
-          <div className="flex flex-col items-center">
-            <h3 className="text-xl font-display mb-6 text-amber-900">Purchase This Series</h3>
-            import { getSeries, getBooksInSeries } from '@/lib/dataLoader';
+import { getSeries, getBooksInSeries } from '@/lib/dataLoader';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import BookSpine from '@/components/BookSpine';
@@ -63,51 +58,52 @@ export default async function SeriesPage({
       </div>
       
       {/* Amazon affiliate section - AFTER books */}
-      <div className="pt-12 border-t border-ink-light/20">
-        <div className="flex flex-col items-center">
-          <h3 className="text-xl font-display mb-6 text-ink-light">Purchase This Series</h3>
-          <a
-            href={amazonSearchUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group"
-          >
-            <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
-              {coverImages.length > 0 ? (
-                <div className="w-40 h-60 grid grid-cols-2 gap-0.5 bg-black/20 p-0.5">
-                  {/* Show up to 4 covers in a 2x2 grid */}
-                  {coverImages.slice(0, 4).map((coverUrl, index) => (
-                    <div key={index} className="relative overflow-hidden">
-                      <img 
-                        src={coverUrl}
-                        alt={`${series.title} book ${index + 1} cover`}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
+      <div className="pt-12">
+        <div className="parchment-panel max-w-2xl mx-auto p-8">
+          <div className="flex flex-col items-center">
+            <h3 className="text-xl font-display mb-6 text-amber-900">Purchase This Series</h3>
+            <a
+              href={amazonSearchUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                {coverImages.length > 0 ? (
+                  <div className="w-40 h-60 grid grid-cols-2 gap-0.5 bg-black/20 p-0.5">
+                    {/* Show up to 4 covers in a 2x2 grid */}
+                    {coverImages.slice(0, 4).map((coverUrl, index) => (
+                      <div key={index} className="relative overflow-hidden">
+                        <img 
+                          src={coverUrl}
+                          alt={`${series.title} book ${index + 1} cover`}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                      </div>
+                    ))}
+                    {/* Fill empty spots if less than 4 books */}
+                    {[...Array(Math.max(0, 4 - coverImages.length))].map((_, index) => (
+                      <div 
+                        key={`empty-${index}`} 
+                        className="bg-gradient-to-br from-amber-800 to-amber-900"
                       />
-                    </div>
-                  ))}
-                  {/* Fill empty spots if less than 4 books */}
-                  {[...Array(Math.max(0, 4 - coverImages.length))].map((_, index) => (
-                    <div 
-                      key={`empty-${index}`} 
-                      className="bg-gradient-to-br from-amber-800 to-amber-900"
-                    />
-                  ))}
-                </div>
-              ) : (
-                <div className="w-40 h-60 bg-gradient-to-br from-leather to-leather-dark flex items-center justify-center">
-                  <span className="text-parchment-dark text-sm text-center px-4">
-                    {series.title}<br />Collection
+                    ))}
+                  </div>
+                ) : (
+                  <div className="w-40 h-60 bg-gradient-to-br from-leather to-leather-dark flex items-center justify-center">
+                    <span className="text-parchment-dark text-sm text-center px-4">
+                      {series.title}<br />Collection
+                    </span>
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-sm">
+                    View on Amazon
                   </span>
                 </div>
-              )}
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-sm">
-                  View on Amazon
-                </span>
               </div>
-            </div>
-          </a>
+            </a>
             <a
               href={amazonSearchUrl}
               target="_blank"
