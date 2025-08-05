@@ -1,4 +1,7 @@
+'use client';
+
 import clsx from 'clsx';
+import { useEffect, useState } from 'react';
 
 interface BookSpineProps {
   title: string;
@@ -9,18 +12,40 @@ interface BookSpineProps {
 
 // Book color patterns for variety
 const bookColors = [
-  { spine: 'from-amber-900 to-amber-950', cover: 'from-amber-800 to-amber-900', accent: 'border-amber-700' },
-  { spine: 'from-red-900 to-red-950', cover: 'from-red-800 to-red-900', accent: 'border-red-700' },
-  { spine: 'from-green-900 to-green-950', cover: 'from-green-800 to-green-900', accent: 'border-green-700' },
-  { spine: 'from-blue-900 to-blue-950', cover: 'from-blue-800 to-blue-900', accent: 'border-blue-700' },
-  { spine: 'from-purple-900 to-purple-950', cover: 'from-purple-800 to-purple-900', accent: 'border-purple-700' },
-  { spine: 'from-slate-800 to-slate-900', cover: 'from-slate-700 to-slate-800', accent: 'border-slate-600' },
+  { spine: 'from-amber-900 to-amber-950', cover: 'from-amber-800 to-amber-900', accent: 'border-amber-700', solid: '#8b4513' },
+  { spine: 'from-red-900 to-red-950', cover: 'from-red-800 to-red-900', accent: 'border-red-700', solid: '#991b1b' },
+  { spine: 'from-green-900 to-green-950', cover: 'from-green-800 to-green-900', accent: 'border-green-700', solid: '#2d5a2d' },
+  { spine: 'from-blue-900 to-blue-950', cover: 'from-blue-800 to-blue-900', accent: 'border-blue-700', solid: '#2c5282' },
+  { spine: 'from-purple-900 to-purple-950', cover: 'from-purple-800 to-purple-900', accent: 'border-purple-700', solid: '#553c9a' },
+  { spine: 'from-slate-800 to-slate-900', cover: 'from-slate-700 to-slate-800', accent: 'border-slate-600', solid: '#4a4a5a' },
 ];
 
 export default function BookSpine({ title, author, bookCount, orientation = 'vertical' }: BookSpineProps) {
   // Use title length to consistently assign colors
   const colorIndex = title.length % bookColors.length;
   const colors = bookColors[colorIndex];
+  
+  // Force re-render on mount to fix back navigation issues
+  const [mounted, setMounted] = useState(false);
+  
+  useEffect(() => {
+    setMounted(true);
+    // Force a repaint after a short delay
+    const timer = setTimeout(() => {
+      const books = document.querySelectorAll('.book-3d');
+      books.forEach(book => {
+        // Force repaint by temporarily changing transform
+        const element = book as HTMLElement;
+        const currentTransform = element.style.transform;
+        element.style.transform = 'rotateY(30.1deg)';
+        // eslint-disable-next-line no-unused-expressions
+        element.offsetHeight; // Force reflow
+        element.style.transform = currentTransform || '';
+      });
+    }, 10);
+    
+    return () => clearTimeout(timer);
+  }, []);
   
   if (orientation === 'horizontal') {
     // Keep horizontal layout for now if needed
@@ -35,7 +60,8 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
         'rounded-lg',
         'flex items-center justify-between',
         'shadow-lg hover:shadow-xl',
-        'transition-all duration-300'
+        'transition-all duration-300',
+        'force-repaint'
       )}>
         <div>
           <h3 className="text-lg font-display text-amber-100">{title}</h3>
@@ -51,13 +77,20 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
   // 3D vertical book
   return (
     <div className="book-3d-container">
-      <div className="book-3d">
+      <div className={clsx('book-3d', mounted && 'book-mounted')}>
         {/* Book spine (left side) */}
-        <div className={clsx(
-          'book-spine',
-          'bg-gradient-to-b',
-          colors.spine
-        )}>
+        <div 
+          className={clsx(
+            'book-spine',
+            'bg-gradient-to-b',
+            colors.spine
+          )}
+          style={{
+            // Add solid color fallback
+            backgroundColor: colors.solid,
+            backgroundImage: `linear-gradient(to bottom, ${colors.solid}, ${colors.solid}cc)`
+          }}
+        >
           {/* Decorative spine details */}
           <div className="spine-decoration">
             {/* Top gold line */}
@@ -81,13 +114,19 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
         </div>
         
         {/* Book cover (front) */}
-        <div className={clsx(
-          'book-cover',
-          'bg-gradient-to-br',
-          colors.cover,
-          'border-r-2 border-t-2 border-b-2',
-          colors.accent
-        )}>
+        <div 
+          className={clsx(
+            'book-cover',
+            'bg-gradient-to-br',
+            colors.cover,
+            'border-r-2 border-t-2 border-b-2',
+            colors.accent
+          )}
+          style={{
+            // Add solid color fallback
+            backgroundColor: colors.solid,
+          }}
+        >
           {/* Decorative corner flourishes */}
           <div className="absolute top-3 left-3 w-5 h-5 border-l-2 border-t-2 border-amber-400/20 rounded-tl" />
           <div className="absolute top-3 right-3 w-5 h-5 border-r-2 border-t-2 border-amber-400/20 rounded-tr" />
