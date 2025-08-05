@@ -173,20 +173,23 @@ export default function ChapterSelector({
           </button>
         </div>
 
-        {/* Go button - appears when chapter is different from current */}
-        {showGoButton && (
-          <div className="mt-4 text-center">
-            <button
-              onClick={handleGo}
-              className="px-6 py-2 bg-gradient-to-b from-amber-600 to-amber-700 
-                       text-amber-100 font-display rounded-md
-                       hover:from-amber-500 hover:to-amber-600 
-                       active:scale-95 transition-all shadow-md hover:shadow-lg"
-            >
-              Go to Chapter {selectedChapter}
-            </button>
-          </div>
-        )}
+        {/* Go button - always visible unless we're already on that chapter */}
+        <div className="mt-4 text-center">
+          <button
+            onClick={handleGo}
+            disabled={selectedChapter === currentChapter || isInvalid}
+            className={clsx(
+              'px-6 py-2 font-display rounded-md transition-all',
+              selectedChapter === currentChapter || isInvalid
+                ? 'bg-gradient-to-b from-gray-400 to-gray-500 text-gray-200 cursor-not-allowed opacity-50'
+                : 'bg-gradient-to-b from-amber-600 to-amber-700 text-amber-100 hover:from-amber-500 hover:to-amber-600 active:scale-95 shadow-md hover:shadow-lg'
+            )}
+          >
+            {selectedChapter === currentChapter 
+              ? `Currently on Chapter ${selectedChapter}` 
+              : `Go to Chapter ${selectedChapter}`}
+          </button>
+        </div>
 
         {/* Content availability indicator */}
         {!hasContent(selectedChapter) && (
