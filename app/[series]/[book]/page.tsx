@@ -1,9 +1,4 @@
-{/* Amazon affiliate section - AFTER chapter selection */}
-      <div className="pt-12">
-        <div className="parchment-panel max-w-2xl mx-auto p-8">
-          <div className="flex flex-col items-center">
-            <h3 className="text-xl font-display mb-6 text-amber-900">Purchase This Book</h3>
-            import { getSeries, getBookMeta, loadBookData } from '@/lib/dataLoader';
+import { getSeries, getBookMeta, loadBookData } from '@/lib/dataLoader';
 import { getChaptersWithContent } from '@/lib/spoilerFilter';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -69,38 +64,39 @@ export default async function BookPage({
       </div>
       
       {/* Amazon affiliate section - AFTER chapter selection */}
-      <div className="pt-12 border-t border-ink-light/20">
-        <div className="flex flex-col items-center">
-          <h3 className="text-xl font-display mb-6 text-ink-light">Purchase This Book</h3>
-          <a
-            href={amazonDirectUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group"
-          >
-            <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
-              {coverImageUrl ? (
-                <img 
-                  src={coverImageUrl}
-                  alt={`${bookMeta.title} cover`}
-                  className="w-36 h-auto"
-                  loading="lazy"
-                />
-              ) : (
-                <div className="w-36 h-54 bg-gradient-to-br from-leather to-leather-dark flex flex-col items-center justify-center p-3">
-                  <span className="text-parchment text-center">
-                    <div className="font-display text-base mb-2">{bookMeta.title}</div>
-                    <div className="text-xs opacity-80">{series.author}</div>
+      <div className="pt-12">
+        <div className="parchment-panel max-w-2xl mx-auto p-8">
+          <div className="flex flex-col items-center">
+            <h3 className="text-xl font-display mb-6 text-amber-900">Purchase This Book</h3>
+            <a
+              href={amazonDirectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
+            >
+              <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                {coverImageUrl ? (
+                  <img 
+                    src={coverImageUrl}
+                    alt={`${bookMeta.title} cover`}
+                    className="w-36 h-auto"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="w-36 h-54 bg-gradient-to-br from-leather to-leather-dark flex flex-col items-center justify-center p-3">
+                    <span className="text-parchment text-center">
+                      <div className="font-display text-base mb-2">{bookMeta.title}</div>
+                      <div className="text-xs opacity-80">{series.author}</div>
+                    </span>
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-sm">
+                    View on Amazon
                   </span>
                 </div>
-              )}
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-sm">
-                  View on Amazon
-                </span>
               </div>
-            </div>
-          </a>
+            </a>
             <a
               href={amazonDirectUrl}
               target="_blank"
