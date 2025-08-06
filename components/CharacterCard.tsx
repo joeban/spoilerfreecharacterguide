@@ -12,6 +12,36 @@ export default function CharacterCard({ character }: CharacterCardProps) {
     ).join(' ');
   };
 
+  // Format appearances for display (e.g., "1-3, 5, 7-10")
+  const formatAppearances = (appearances: number[] | undefined): string => {
+    if (!appearances || appearances.length === 0) return '';
+    
+    const sorted = [...appearances].sort((a, b) => a - b);
+    const ranges: string[] = [];
+    let start = sorted[0];
+    let end = sorted[0];
+    
+    for (let i = 1; i <= sorted.length; i++) {
+      if (i === sorted.length || sorted[i] !== end + 1) {
+        if (start === end) {
+          ranges.push(start.toString());
+        } else if (end === start + 1) {
+          ranges.push(`${start}, ${end}`);
+        } else {
+          ranges.push(`${start}-${end}`);
+        }
+        if (i < sorted.length) {
+          start = sorted[i];
+          end = sorted[i];
+        }
+      } else {
+        end = sorted[i];
+      }
+    }
+    
+    return ranges.join(', ');
+  };
+
   return (
     <div className="relative">
       {/* Individual parchment background for each character */}
@@ -21,6 +51,11 @@ export default function CharacterCard({ character }: CharacterCardProps) {
           <div className="flex-1">
             <h3 className="text-xl font-display font-bold text-amber-900">
               {character.name}
+              {character.appearsInThisChapter && (
+                <span className="ml-2 text-xs text-amber-600 font-normal italic">
+                  (appears in this chapter)
+                </span>
+              )}
             </h3>
             {character.aliases && character.aliases.length > 0 && (
               <p className="text-sm text-amber-700 italic mt-1">
@@ -57,11 +92,20 @@ export default function CharacterCard({ character }: CharacterCardProps) {
           </div>
         )}
         
-        {/* Footer with chapter info */}
-        <div className="mt-4 pt-3 border-t border-amber-700/20 text-xs text-amber-700/80 flex items-center justify-between">
-          <span>First seen: Chapter {character.firstAppearance}</span>
-          {character.lastUpdate > character.firstAppearance && (
-            <span>Updated: Chapter {character.lastUpdate}</span>
+        {/* Footer with chapter info - Enhanced with appearances */}
+        <div className="mt-4 pt-3 border-t border-amber-700/20 text-xs text-amber-700/80">
+          <div className="flex items-center justify-between mb-1">
+            <span>First seen: Chapter {character.firstAppearance}</span>
+            {character.lastUpdate > character.firstAppearance && (
+              <span>Updated: Chapter {character.lastUpdate}</span>
+            )}
+          </div>
+          {character.allAppearances && character.allAppearances.length > 0 && (
+            <div className="mt-2">
+              <span className="text-amber-700/60">
+                Appears in chapters: {formatAppearances(character.allAppearances)}
+              </span>
+            </div>
           )}
         </div>
       </div>
