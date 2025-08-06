@@ -6,7 +6,7 @@ import clsx from 'clsx';
 
 interface ChapterSelectorProps {
   totalChapters: number;
-  currentChapter: number;
+  currentChapter: number; // 0 means no chapter selected yet
   seriesSlug: string;
   bookSlug: string;
   chaptersWithContent?: number[];
@@ -20,14 +20,16 @@ export default function ChapterSelector({
   chaptersWithContent
 }: ChapterSelectorProps) {
   const router = useRouter();
-  const [selectedChapter, setSelectedChapter] = useState(currentChapter);
-  const [inputValue, setInputValue] = useState(currentChapter.toString());
+  const [selectedChapter, setSelectedChapter] = useState(currentChapter > 0 ? currentChapter : 1);
+  const [inputValue, setInputValue] = useState((currentChapter > 0 ? currentChapter : 1).toString());
   const [isInvalid, setIsInvalid] = useState(false);
 
   // Update selected chapter when currentChapter changes (e.g., navigation)
   useEffect(() => {
-    setSelectedChapter(currentChapter);
-    setInputValue(currentChapter.toString());
+    if (currentChapter > 0) {
+      setSelectedChapter(currentChapter);
+      setInputValue(currentChapter.toString());
+    }
   }, [currentChapter]);
 
   const navigateToChapter = (chapter: number) => {
@@ -69,7 +71,7 @@ export default function ChapterSelector({
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter' && !isInvalid && selectedChapter !== currentChapter) {
+    if (e.key === 'Enter' && !isInvalid) {
       navigateToChapter(selectedChapter);
     }
   };
@@ -93,7 +95,7 @@ export default function ChapterSelector({
   };
 
   const handleGo = () => {
-    if (selectedChapter !== currentChapter && !isInvalid) {
+    if (!isInvalid) {
       navigateToChapter(selectedChapter);
     }
   };
@@ -102,12 +104,17 @@ export default function ChapterSelector({
     return !chaptersWithContent || chaptersWithContent.includes(chapter);
   };
 
-  const showGoButton = selectedChapter !== currentChapter && !isInvalid;
+  // Show go button if no current chapter (book page) or if different from current
+  const showGoButton = (currentChapter === 0 || selectedChapter !== currentChapter) && !isInvalid;
+  
+  // Determine header text
+  const headerText = currentChapter === 0 ? 'Select Chapter' : 
+                    currentChapter === selectedChapter ? 'Current Chapter' : 'Select Chapter';
 
   return (
     <div className="flex flex-col items-center space-y-4">
       <h3 className="text-lg font-display text-center">
-        {currentChapter === selectedChapter ? 'Current Chapter' : 'Select Chapter'}
+        {headerText}
       </h3>
       
       <div className="parchment-panel px-6 py-4">
@@ -144,6 +151,8 @@ export default function ChapterSelector({
                 'transition-all',
                 isInvalid 
                   ? 'border-red-600 text-red-700' 
+                  : currentChapter === 0
+                  ? 'border-amber-600 text-amber-800 bg-amber-100' // No chapter selected
                   : selectedChapter === currentChapter
                   ? 'border-amber-700 text-amber-900'
                   : 'border-amber-600 text-amber-800 bg-amber-100'
@@ -173,28 +182,27 @@ export default function ChapterSelector({
           </button>
         </div>
 
-        {/* Go button - always visible unless we're already on that chapter */}
-        <div className="mt-4 text-center">
-          <button
-            onClick={handleGo}
-            disabled={selectedChapter === currentChapter || isInvalid}
-            className={clsx(
-              'px-6 py-2 font-display rounded-md transition-all',
-              selectedChapter === currentChapter || isInvalid
-                ? 'bg-gradient-to-b from-gray-400 to-gray-500 text-gray-200 cursor-not-allowed opacity-50'
-                : 'bg-gradient-to-b from-amber-600 to-amber-700 text-amber-100 hover:from-amber-500 hover:to-amber-600 active:scale-95 shadow-md hover:shadow-lg'
-            )}
-          >
-            {selectedChapter === currentChapter 
-              ? `Currently on Chapter ${selectedChapter}` 
-              : `Go to Chapter ${selectedChapter}`}
-          </button>
-        </div>
+        {/* Go button - appears when no chapter selected or chapter is different from current */}
+        {showGoButton && (
+          <div className="mt-4 text-center">
+            <button
+              onClick={handleGo}
+              className="px-6 py-2 bg-gradient-to-b from-amber-600 to-amber-700 
+                       text-amber-100 font-display rounded-md
+                       hover:from-amber-500 hover:to-amber-600 
+                       active:scale-95 transition-all shadow-md hover:shadow-lg"
+            >
+              Go to Chapter {selectedChapter}
+            </button>
+          </div>
+        )}
 
         {/* Content availability indicator */}
         {!hasContent(selectedChapter) && (
           <p className="text-xs text-amber-700 text-center mt-3 italic">
-            {selectedChapter === currentChapter 
+            {currentChapter === 0
+              ? `Chapter ${selectedChapter} has no content yet`
+              : selectedChapter === currentChapter 
               ? 'No content available for this chapter yet'
               : `Chapter ${selectedChapter} has no content yet`
             }
@@ -209,14 +217,10 @@ export default function ChapterSelector({
             setSelectedChapter(1);
             setInputValue('1');
             setIsInvalid(false);
-            // If we're not on chapter 1, navigate immediately
-            if (currentChapter !== 1) {
-              navigateToChapter(1);
-            }
           }}
           className={clsx(
             'px-3 py-1 rounded-full transition-all',
-            currentChapter === 1
+            selectedChapter === 1
               ? 'bg-amber-700 text-amber-100'
               : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
           )}
@@ -230,14 +234,10 @@ export default function ChapterSelector({
               setSelectedChapter(middle);
               setInputValue(middle.toString());
               setIsInvalid(false);
-              // Navigate immediately if different from current
-              if (currentChapter !== middle) {
-                navigateToChapter(middle);
-              }
             }}
             className={clsx(
               'px-3 py-1 rounded-full transition-all',
-              currentChapter === Math.floor(totalChapters / 2)
+              selectedChapter === Math.floor(totalChapters / 2)
                 ? 'bg-amber-700 text-amber-100'
                 : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
             )}
@@ -250,14 +250,10 @@ export default function ChapterSelector({
             setSelectedChapter(totalChapters);
             setInputValue(totalChapters.toString());
             setIsInvalid(false);
-            // Navigate immediately if different from current
-            if (currentChapter !== totalChapters) {
-              navigateToChapter(totalChapters);
-            }
           }}
           className={clsx(
             'px-3 py-1 rounded-full transition-all',
-            currentChapter === totalChapters
+            selectedChapter === totalChapters
               ? 'bg-amber-700 text-amber-100'
               : 'bg-amber-200 text-amber-800 hover:bg-amber-300'
           )}
