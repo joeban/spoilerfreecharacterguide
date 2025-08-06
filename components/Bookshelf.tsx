@@ -7,20 +7,22 @@ interface BookshelfProps {
 }
 
 export default function Bookshelf({ series }: BookshelfProps) {
-  // Group books for mobile (2 per row) and desktop (4 per row)
-  const mobileRows = [];
-  const desktopRows = [];
-  
-  // Create mobile rows (2 books per row)
-  for (let i = 0; i < series.length; i += 2) {
-    mobileRows.push(series.slice(i, i + 2));
-  }
-  
-  // Create desktop rows (4 books per row)
-  for (let i = 0; i < series.length; i += 4) {
-    desktopRows.push(series.slice(i, i + 4));
-  }
-  
+  // Group books dynamically based on responsive breakpoints
+  // We'll create separate groups for each breakpoint
+  const groupBooksForBreakpoint = (booksPerRow: number) => {
+    const rows = [];
+    for (let i = 0; i < series.length; i += booksPerRow) {
+      rows.push(series.slice(i, i + booksPerRow));
+    }
+    return rows;
+  };
+
+  // Create groups for each breakpoint
+  const mobileRows = groupBooksForBreakpoint(2);     // < 640px
+  const tabletRows = groupBooksForBreakpoint(3);     // 640px - 900px  
+  const desktopRows = groupBooksForBreakpoint(4);    // 900px - 1200px
+  const largeRows = groupBooksForBreakpoint(5);      // > 1200px
+
   return (
     <div className="bookshelf-container max-w-6xl mx-auto px-4">
       {/* Main bookcase frame */}
@@ -42,11 +44,10 @@ export default function Bookshelf({ series }: BookshelfProps) {
         <div className="h-4 bg-gradient-to-b from-amber-800/20 to-transparent rounded-t-lg" />
         
         <div className="p-6">
-          {/* Mobile Layout - visible only on small screens */}
-          <div className="md:hidden space-y-6">
+          {/* Mobile Layout (2 books per row) - visible < 640px */}
+          <div className="sm:hidden space-y-6">
             {mobileRows.map((row, rowIndex) => (
-              <div key={`mobile-row-${rowIndex}`}>
-                {/* Books row - 2 columns on mobile */}
+              <div key={`mobile-${rowIndex}`}>
                 <div className="grid grid-cols-2 gap-3 mb-2">
                   {row.map(({ slug, series: seriesData }) => (
                     <Link key={slug} href={`/${slug}`} className="block flex justify-center">
@@ -58,11 +59,8 @@ export default function Bookshelf({ series }: BookshelfProps) {
                       />
                     </Link>
                   ))}
-                  {/* Add empty space if odd number in last row */}
                   {row.length === 1 && <div />}
                 </div>
-                
-                {/* Wooden shelf under books */}
                 <div className="wooden-shelf h-4 rounded-md relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-b from-amber-900/20 to-transparent" />
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-b from-amber-600/30 to-transparent" />
@@ -71,14 +69,13 @@ export default function Bookshelf({ series }: BookshelfProps) {
             ))}
           </div>
           
-          {/* Desktop Layout - visible only on medium+ screens */}
-          <div className="hidden md:block space-y-8">
-            {desktopRows.map((row, rowIndex) => (
-              <div key={`desktop-row-${rowIndex}`}>
-                {/* Books row - 4 columns on desktop */}
-                <div className="flex flex-wrap justify-center gap-4 mb-2">
+          {/* Tablet Layout (3 books per row) - visible 640px to 900px */}
+          <div className="hidden sm:block tablet-max:block desktop:hidden space-y-6">
+            {tabletRows.map((row, rowIndex) => (
+              <div key={`tablet-${rowIndex}`}>
+                <div className="grid grid-cols-3 gap-3 mb-2">
                   {row.map(({ slug, series: seriesData }) => (
-                    <Link key={slug} href={`/${slug}`} className="block">
+                    <Link key={slug} href={`/${slug}`} className="block flex justify-center">
                       <BookSpine
                         title={seriesData.title}
                         author={seriesData.author}
@@ -87,9 +84,65 @@ export default function Bookshelf({ series }: BookshelfProps) {
                       />
                     </Link>
                   ))}
+                  {/* Fill empty spaces */}
+                  {Array.from({ length: 3 - row.length }).map((_, i) => (
+                    <div key={`empty-${i}`} />
+                  ))}
                 </div>
-                
-                {/* Wooden shelf under books */}
+                <div className="wooden-shelf h-4 rounded-md relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-b from-amber-900/20 to-transparent" />
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-b from-amber-600/30 to-transparent" />
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          {/* Desktop Layout (4 books per row) - visible 900px to 1200px */}
+          <div className="hidden desktop:block xl:hidden space-y-6">
+            {desktopRows.map((row, rowIndex) => (
+              <div key={`desktop-${rowIndex}`}>
+                <div className="grid grid-cols-4 gap-4 mb-2">
+                  {row.map(({ slug, series: seriesData }) => (
+                    <Link key={slug} href={`/${slug}`} className="block flex justify-center">
+                      <BookSpine
+                        title={seriesData.title}
+                        author={seriesData.author}
+                        bookCount={Object.keys(seriesData.books).length}
+                        orientation="vertical"
+                      />
+                    </Link>
+                  ))}
+                  {Array.from({ length: 4 - row.length }).map((_, i) => (
+                    <div key={`empty-${i}`} />
+                  ))}
+                </div>
+                <div className="wooden-shelf h-4 rounded-md relative overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-b from-amber-900/20 to-transparent" />
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-b from-amber-600/30 to-transparent" />
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          {/* Large Desktop Layout (5 books per row) - visible > 1200px */}
+          <div className="hidden xl:block space-y-6">
+            {largeRows.map((row, rowIndex) => (
+              <div key={`large-${rowIndex}`}>
+                <div className="grid grid-cols-5 gap-4 mb-2">
+                  {row.map(({ slug, series: seriesData }) => (
+                    <Link key={slug} href={`/${slug}`} className="block flex justify-center">
+                      <BookSpine
+                        title={seriesData.title}
+                        author={seriesData.author}
+                        bookCount={Object.keys(seriesData.books).length}
+                        orientation="vertical"
+                      />
+                    </Link>
+                  ))}
+                  {Array.from({ length: 5 - row.length }).map((_, i) => (
+                    <div key={`empty-${i}`} />
+                  ))}
+                </div>
                 <div className="wooden-shelf h-4 rounded-md relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-b from-amber-900/20 to-transparent" />
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-b from-amber-600/30 to-transparent" />
