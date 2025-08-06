@@ -56,7 +56,7 @@ export default async function BookPage({
       <div className="max-w-6xl mx-auto mb-16">
         <ChapterSelector
           totalChapters={bookMeta.chapters}
-          currentChapter={1}
+          currentChapter={0}  // Use 0 to indicate no chapter selected yet
           seriesSlug={params.series}
           bookSlug={params.book}
           chaptersWithContent={chaptersWithContent}
