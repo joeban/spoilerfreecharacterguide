@@ -50,110 +50,153 @@ The website has a **fantasy tavern/library aesthetic** with:
 - Chapter recap section (collapsible with "Show/Hide Recap" button at top center)
 - Character lists divided into "In This Chapter" and "Previously Seen"
 - Each character has individual parchment background
-- Relationships formatted as "Protected by - Kaladin" with bullet points
+- Character cards show:
+  - Whether character appears in current chapter
+  - Full appearance history (e.g., "Appears in chapters: 1-3, 5, 7-10")
+  - Relationships formatted as "Protected by - Kaladin" with bullet points
 - Chapter selector (stepper) moved to bottom for better UX
+
+## Data Structure (v2.0 - UPDATED)
+
+### Overview
+The data structure now separates **character appearances** (which chapters they're in) from **character knowledge** (what we learn about them). This provides accurate "In This Chapter" listings.
+
+### Character Structure
+```typescript
+interface Character {
+  name: string;
+  aliases?: string[];
+  appearances: number[];  // All chapters where character actually appears
+  knowledge: Record<string, CharacterKnowledge>;  // Information revealed by chapter
+}
+
+interface CharacterKnowledge {
+  revealedIn: number;  // Chapter where this info is revealed
+  description: string;
+  role: string;
+  relationships?: Record<string, string>;
+}
+```
+
+### Migration Status
+- **Schema Version 1.0**: Legacy format using `tiers` with `appearsIn`
+- **Schema Version 2.0**: New format with `appearances` array and `knowledge` object
+- The site supports both formats for backward compatibility
+- Migration helper available in `lib/migrationHelper.ts`
+
+### Example Book Data (v2.0)
+```json
+{
+  "meta": {
+    "title": "The Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "chapters": 17,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "harry-potter": {
+      "name": "Harry Potter",
+      "aliases": ["The Boy Who Lived"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A baby with a lightning bolt scar...",
+          "role": "Orphaned infant",
+          "relationships": {...}
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Lives under the stairs, has green eyes...",
+          "role": "The Dursleys' nephew",
+          "relationships": {...}
+        }
+      }
+    }
+  },
+  "recaps": {...}
+}
+```
 
 ## Component Structure
 
 ### Core Components
 1. **BookSpine** (`components/BookSpine.tsx`)
    - 3D book rendering with visible spine on left side
-   - Spine positioned at `left: -35px` with `rotateY(-90deg)`
-   - Shadow on right side for depth
    - Color assignment based on title length
    - Hover effects reduce rotation angle
 
 2. **CharacterCard** (`components/CharacterCard.tsx`)
+   - Shows if character appears in current chapter
+   - Displays full appearance history (formatted as ranges)
    - Individual parchment panels for each character
-   - Relationships formatted as "Protected by - Kaladin" with capitalization
-   - Shows name, aliases, role, description, relationships
-   - Amber color scheme on parchment for readability
-   - Hover effect scales card slightly
+   - Relationships formatted with proper capitalization
 
 3. **ChapterRecap** (`components/ChapterRecap.tsx`)
    - Collapsible parchment panel
-   - Hide button positioned at top center for easy toggle
-   - Rich amber tones for readability
-   - Darker parchment background when expanded
+   - Hide button positioned at top center
 
 4. **ChapterSelector** (`components/ChapterSelector.tsx`)
    - Smart stepper design for compact interface
    - Two-step process: select chapter, then navigate
-   - +/- buttons for browsing, "Go to Chapter X" button to confirm
-   - Direct input with validation
-   - Quick jump buttons: First, Middle (20+ chapters), Last
-   - Shows current vs selected state
 
 5. **SearchBar** (`components/SearchBar.tsx`)
    - Ornate frame with decorative corners
    - Medieval font styling
-   - No tagline text below search
 
 6. **Bookshelf** (`components/Bookshelf.tsx`)
    - Wooden frame with shelf textures
    - 2 books per row on mobile, 4 on desktop
-   - No candles between shelves (removed for cleaner look)
-   - Uses BookSpine component for consistent 3D books
 
-## Styling Details
+## Updated Type System
 
-### Key CSS Classes (in `globals.css`)
-- `.hanging-sign`: Hover-only animation (not constant swaying)
-- `.parchment-panel`: Light parchment background (#f4e8d0 to #e8dcc4) with wooden border
-- `.book-3d-container`, `.book-3d`, `.book-spine`, `.book-cover`: 3D book effects
-- `.tavern-sign-text`: Golden text with multiple shadows
-- `.wooden-shelf`: Gradient wooden texture
-- `.text-shadow-fire`: Glowing text effect for headers
+### Key Types (lib/types.ts)
+- `Character` - New structure with `appearances` array
+- `LegacyCharacter` - Old structure for backward compatibility
+- `CharacterKnowledge` - Renamed from `CharacterTier`
+- `ProcessedCharacter` - Enhanced with appearance tracking
+- Helper functions: `isNewCharacterFormat()`, `isLegacyCharacterFormat()`
 
-### Color Palette
-- Background: Dark brown (#1a1108)
-- Parchment: #f4e8d0 to #e8dcc4
-- Wood: #8b6f47, #654321, #4a3420
-- Amber/Gold: #d4af37, various amber shades
-- Text on dark: amber-100, amber-200 (light ambers)
-- Text on parchment: amber-900, amber-800, amber-700 (dark ambers)
+### Spoiler Filter (lib/spoilerFilter.ts)
+- Handles both new and legacy formats seamlessly
+- `getCharactersForChapter()` now accurately shows who appears in each chapter
+- `characterAppearsInChapter()` checks the appearances array
+- `getCharacterKnowledge()` returns the latest knowledge available at current chapter
 
-### Readability Guidelines
-- Always use light amber tones on dark backgrounds
-- Always use dark amber tones on parchment backgrounds
-- Wrap navigation elements in parchment panels when on dark backgrounds
-- Use text-shadow-fire for main headers on dark backgrounds
+### Migration Helper (lib/migrationHelper.ts)
+- `migrateLegacyCharacter()` - Converts old format to new
+- `migrateBookData()` - Migrates entire book file
+- `generateMigrationReport()` - Shows what needs manual correction
 
-## Data Structure
-Books are stored in JSON files with:
-- Character information revealed progressively by chapter
-- Tiered character data (only showing what's known at each point)
-- Optional chapter recaps
-- Relationships between characters (stored as key-value pairs)
+## Data Entry Guidelines
+
+### Adding New Characters
+1. List ALL chapters where the character appears in `appearances`
+2. Add `knowledge` entries only when significant new information is revealed
+3. Each knowledge entry's `revealedIn` should also be in `appearances`
+
+### Character Appearances vs Knowledge
+- **Appearances**: Every chapter where the character is present
+- **Knowledge**: Only chapters where we learn something new
+- Example: Harry appears in chapters 1-17, but knowledge updates might only be in chapters 1, 2, 4, 7, etc.
+
+### Quality Checks
+- Verify `appearances` array is complete and accurate
+- Ensure `revealedIn` values are subset of `appearances`
+- Check that descriptions are spoiler-free for their chapter
+- Relationships should reflect what's known at that point
 
 ## Recent Updates (Latest First)
-1. Improved readability across all pages with proper contrast
-2. Added smart chapter stepper replacing overwhelming button grids
-3. Fixed 3D books to have properly connected spines
-4. Made book styling consistent across all pages
-5. Integrated 3-step process into hanging sign
-6. Reformed character relationships formatting
-7. Added individual parchment backgrounds for characters
-8. Created 2x2 book cover collage for series Amazon links
-9. Fixed hanging sign to only animate on hover
-10. Added decorative candle to footer (bottom-left)
-11. Improved mobile responsiveness (2 books per shelf)
-12. Moved chapter selector below content on chapter pages
-13. Made recap section collapsible with better styling
-
-## User Flow
-1. User arrives at homepage → sees bookshelf of series
-2. Clicks a series → sees all books in that series
-3. Clicks a book → uses chapter stepper to select chapter
-4. Views chapter page → sees only spoiler-free character info up to that point
-
-## Important Notes
-- Never regenerate existing character data (only add new)
-- Maintain spoiler-free integrity at all times
-- Amazon affiliate links use tag: `spoilerfree-20`
-- Contact email: spoilerfreecharacterguide@gmail.com
-- No copyright notice in footer
-- Footer shows: navigation tagline + contact link for reporting mistakes
+1. **MAJOR: Separated character appearances from knowledge updates** (v2.0)
+2. Added character appearance tracking on cards
+3. Improved "In This Chapter" accuracy
+4. Added backward compatibility for legacy data
+5. Created migration helpers for data conversion
+6. Enhanced CharacterCard to show appearance ranges
+7. Updated type system with proper type guards
+8. Improved readability across all pages with proper contrast
+9. Added smart chapter stepper replacing overwhelming button grids
+10. Fixed 3D books to have properly connected spines
 
 ## Common Commands
 ```bash
@@ -185,14 +228,37 @@ npm start       # Production server
   dataLoader.ts
   spoilerFilter.ts
   types.ts
+  migrationHelper.ts  # NEW: Helper for data migration
 /data
   index.json
   /[series-slug]
-    [book-slug].json
+    [book-slug].json  # Can be v1.0 or v2.0 format
 ```
 
+## Migration Process
+
+### For Existing Books (v1.0 → v2.0)
+1. Run migration helper to convert structure
+2. Review auto-generated `appearances` arrays
+3. Manually add missing chapter appearances
+4. Verify all `revealedIn` values are accurate
+5. Update `schemaVersion` to "2.0"
+
+### For New Books
+1. Start with v2.0 structure
+2. List all character appearances upfront
+3. Add knowledge entries as you document each chapter
+4. Set `schemaVersion` to "2.0"
+
 ## Known Issues & Solutions
-- Build errors with partial JSX updates: Always provide complete component files
-- Text contrast on dark backgrounds: Use amber-100/200 with text shadows
-- 3D book disconnection: Spine at `left: -35px`, shadow at `right: -25px`
-- Chapter selection overwhelming: Use stepper for 20+ chapter books
+- **Inaccurate "In This Chapter"**: Update to v2.0 format with complete `appearances` arrays
+- **Legacy data compatibility**: Site handles both formats, but v2.0 is more accurate
+- **Missing character appearances**: Review each chapter to ensure all present characters are listed
+
+## Important Notes
+- Never regenerate existing character data (only add new)
+- Maintain spoiler-free integrity at all times
+- `appearances` must be complete for accurate chapter displays
+- `knowledge` entries should be cumulative but spoiler-free
+- Amazon affiliate links use tag: `spoilerfree-20`
+- Contact email: spoilerfreecharacterguide@gmail.com
