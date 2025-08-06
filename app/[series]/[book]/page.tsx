@@ -52,14 +52,15 @@ export default async function BookPage({
         </p>
       </div>
       
-      {/* Chapter selection - Using ChapterSelector stepper */}
+      {/* Chapter selection - Using ChapterSelector stepper with chapter 1 as default */}
       <div className="max-w-6xl mx-auto mb-16">
         <ChapterSelector
           totalChapters={bookMeta.chapters}
-          currentChapter={0}  // Use 0 to indicate no chapter selected yet
+          currentChapter={0}  // 0 means no current chapter (book page, not chapter page)
           seriesSlug={params.series}
           bookSlug={params.book}
           chaptersWithContent={chaptersWithContent}
+          defaultChapter={1}  // New prop to set default selection to chapter 1
         />
       </div>
       
