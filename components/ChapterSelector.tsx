@@ -10,6 +10,7 @@ interface ChapterSelectorProps {
   seriesSlug: string;
   bookSlug: string;
   chaptersWithContent?: number[];
+  defaultChapter?: number;  // New optional prop for default selection
 }
 
 export default function ChapterSelector({
@@ -17,21 +18,28 @@ export default function ChapterSelector({
   currentChapter,
   seriesSlug,
   bookSlug,
-  chaptersWithContent
+  chaptersWithContent,
+  defaultChapter = 1  // Default to chapter 1 if not specified
 }: ChapterSelectorProps) {
   const router = useRouter();
-  const [selectedChapter, setSelectedChapter] = useState(currentChapter);
-  const [inputValue, setInputValue] = useState(currentChapter.toString());
+  
+  // Initialize with defaultChapter when currentChapter is 0 (book page)
+  const initialChapter = currentChapter === 0 ? defaultChapter : currentChapter;
+  
+  const [selectedChapter, setSelectedChapter] = useState(initialChapter);
+  const [inputValue, setInputValue] = useState(initialChapter.toString());
   const [isInvalid, setIsInvalid] = useState(false);
 
   // Update selected chapter when currentChapter changes (e.g., navigation)
   useEffect(() => {
-    setSelectedChapter(currentChapter);
-    setInputValue(currentChapter.toString());
+    if (currentChapter > 0) {
+      setSelectedChapter(currentChapter);
+      setInputValue(currentChapter.toString());
+    }
   }, [currentChapter]);
 
   const navigateToChapter = (chapter: number) => {
-    if (chapter >= 1 && chapter <= totalChapters && chapter !== currentChapter) {
+    if (chapter >= 1 && chapter <= totalChapters) {
       router.push(`/${seriesSlug}/${bookSlug}/${chapter}`);
     }
   };
@@ -69,7 +77,7 @@ export default function ChapterSelector({
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter' && !isInvalid && selectedChapter !== currentChapter) {
+    if (e.key === 'Enter' && !isInvalid) {
       navigateToChapter(selectedChapter);
     }
   };
@@ -93,7 +101,7 @@ export default function ChapterSelector({
   };
 
   const handleGo = () => {
-    if (selectedChapter !== currentChapter && !isInvalid) {
+    if (!isInvalid) {
       navigateToChapter(selectedChapter);
     }
   };
@@ -102,12 +110,18 @@ export default function ChapterSelector({
     return !chaptersWithContent || chaptersWithContent.includes(chapter);
   };
 
-  const showGoButton = selectedChapter !== currentChapter && !isInvalid;
+  // Show go button when on book page (currentChapter === 0) or when chapter differs from current
+  const showGoButton = currentChapter === 0 || (selectedChapter !== currentChapter && !isInvalid);
+  
+  // Determine header text
+  const headerText = currentChapter === 0 
+    ? 'Select Your Chapter' 
+    : (currentChapter === selectedChapter ? 'Current Chapter' : 'Select Chapter');
 
   return (
     <div className="flex flex-col items-center space-y-4">
       <h3 className="text-lg font-display text-center">
-        {currentChapter === selectedChapter ? 'Current Chapter' : 'Select Chapter'}
+        {headerText}
       </h3>
       
       <div className="parchment-panel px-6 py-4">
@@ -144,7 +158,7 @@ export default function ChapterSelector({
                 'transition-all',
                 isInvalid 
                   ? 'border-red-600 text-red-700' 
-                  : selectedChapter === currentChapter
+                  : currentChapter > 0 && selectedChapter === currentChapter
                   ? 'border-amber-700 text-amber-900'
                   : 'border-amber-600 text-amber-800 bg-amber-100'
               )}
@@ -173,7 +187,7 @@ export default function ChapterSelector({
           </button>
         </div>
 
-        {/* Go button - appears when chapter is different from current */}
+        {/* Go button - appears when on book page or when chapter is different from current */}
         {showGoButton && (
           <div className="mt-4 text-center">
             <button
@@ -191,7 +205,9 @@ export default function ChapterSelector({
         {/* Content availability indicator */}
         {!hasContent(selectedChapter) && (
           <p className="text-xs text-amber-700 text-center mt-3 italic">
-            {selectedChapter === currentChapter 
+            {currentChapter === 0
+              ? `Chapter ${selectedChapter} has no content yet`
+              : selectedChapter === currentChapter 
               ? 'No content available for this chapter yet'
               : `Chapter ${selectedChapter} has no content yet`
             }
@@ -199,7 +215,7 @@ export default function ChapterSelector({
         )}
       </div>
 
-      {/* Quick jump shortcuts - Now always visible */}
+      {/* Quick jump shortcuts - Always visible */}
       <div className="flex gap-2 text-xs">
         <button
           onClick={() => {
