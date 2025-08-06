@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'tablet-max': {'min': '640px', 'max': '899px'},
+        'desktop': '900px',
+      },
       colors: {
         'parchment': '#f4e8d0',
         'parchment-dark': '#e8dcc4',
