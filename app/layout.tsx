@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import './globals.css'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: 'Spoiler-Free Character Guide',
@@ -99,8 +100,8 @@ export default function RootLayout({
           {/* Footer */}
           <footer className="relative z-10 mt-auto">
             <div className="wooden-shelf h-20 px-8 flex items-center justify-center relative">
-              {/* Candle on the left side of the footer - with pointer-events-none to not block clicks */}
-              <div className="absolute left-8 bottom-full mb-1 pointer-events-none">
+              {/* Candle on the left side of the footer */}
+              <div className="absolute left-8 bottom-full mb-1">
                 <div className="candle-glow relative">
                   {/* Flame */}
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-3 h-5">
@@ -156,16 +157,14 @@ export default function RootLayout({
                 </div>
               </div>
               
-              {/* Footer text - with relative positioning and higher z-index to ensure clickability */}
-              <div className="text-center relative z-20">
+              {/* Footer text */}
+              <div className="text-center">
                 <p className="text-amber-200/60 text-xs">
                   Navigate your favorite series without fear of spoilers
                 </p>
                 <p className="text-amber-200/60 text-xs mt-2">
-                  Found a mistake?{' '}
-                  <a href="mailto:spoilerfreecharacterguide@gmail.com" 
-                     className="text-amber-400 hover:text-amber-300 underline transition-colors relative z-30"
-                     style={{ position: 'relative', zIndex: 30 }}>
+                  Found a mistake? <a href="mailto:spoilerfreecharacterguide@gmail.com" 
+                                     className="text-amber-400 hover:text-amber-300 underline transition-colors">
                     Let us know
                   </a>
                 </p>
@@ -173,6 +172,7 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   )
