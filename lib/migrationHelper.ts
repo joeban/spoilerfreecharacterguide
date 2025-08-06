@@ -100,4 +100,12 @@ export function createCharacter(
     aliases: options.aliases || [],
     appearances: options.appearances,
     knowledge: {
-      "1
+      "1": {
+        revealedIn: options.initialKnowledge.chapter,
+        description: options.initialKnowledge.description,
+        role: options.initialKnowledge.role,
+        relationships: options.initialKnowledge.relationships
+      }
+    }
+  };
+}
