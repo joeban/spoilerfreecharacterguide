@@ -6,7 +6,6 @@
     "createdAt": "2024-01-01T00:00:00Z",
     "schemaVersion": "1.0"
   },
-  "characters": {},
   "recaps": {
     "1": "We meet the Dursley family living a very ordinary life, while strange magical occurrences hint at something unusual brewing. That night, a baby named Harry Potter is left at their doorstep by Dumbledore and McGonagall.",
     "2": "Harry grows up living under the stairs and endures mistreatment from the Dursleys. He begins receiving mysterious letters which his uncle Vernon desperately tries to stop him reading.",
@@ -25,5 +24,991 @@
     "15": "Harry, Ron, and Hermione realize someone is trying to steal the Stone and decide to act. They prepare to visit the trapdoor guarded by the three-headed dog.",
     "16": "Harry faces Professor Quirrell in the chamber below the trapdoor and manages to protect the Stone. He awakens in the school infirmary afterward.",
     "17": "Dumbledore explains Harry's survival and the fate of the Stone. The year ends with a celebration and Harry prepares to return home to the Dursleys for the summer."
+  },
+  "characters": {
+    "harry-potter": {
+      "name": "Harry Potter",
+      "aliases": [
+        "The Boy Who Lived"
+      ],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "A young boy with untidy black hair, green eyes, and a lightning-bolt scar on his forehead. Lives with the Dursleys, who treat him poorly.",
+          "role": "Dursleys' nephew",
+          "relationships": {
+            "Vernon Dursley": "Nephew",
+            "Petunia Dursley": "Nephew",
+            "Dudley Dursley": "Cousin"
+          }
+        },
+        "4": {
+          "appearsIn": 4,
+          "description": "Learns on his eleventh birthday that he is a wizard and is invited to attend Hogwarts. Finds out more about his parents and his mysterious past.",
+          "role": "Hogwarts student (incoming)",
+          "relationships": {
+            "Rubeus Hagrid": "Rescued by",
+            "Vernon Dursley": "Nephew",
+            "Petunia Dursley": "Nephew",
+            "Dudley Dursley": "Cousin"
+          }
+        },
+        "7": {
+          "appearsIn": 7,
+          "description": "Sorted into Gryffindor. Befriends Ron and Hermione. Begins classes at Hogwarts and makes both friends and rivals.",
+          "role": "First-year Gryffindor",
+          "relationships": {
+            "Ron Weasley": "Friend",
+            "Hermione Granger": "Friend",
+            "Neville Longbottom": "Friend",
+            "Draco Malfoy": "Rival"
+          }
+        },
+        "17": {
+          "appearsIn": 17,
+          "description": "Known throughout Hogwarts as the Boy Who Lived. Courageous and loyal, he is valued by friends and respected by teachers.",
+          "role": "First-year Gryffindor",
+          "relationships": {
+            "Ron Weasley": "Best friend",
+            "Hermione Granger": "Close friend",
+            "Neville Longbottom": "Friend",
+            "Albus Dumbledore": "Headmaster",
+            "Draco Malfoy": "Rival"
+          }
+        }
+      }
+    },
+    "ron-weasley": {
+      "name": "Ron Weasley",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "A tall, thin boy with red hair and freckles. One of Harry's first friends and comes from a large wizarding family.",
+          "role": "Hogwarts student (incoming)",
+          "relationships": {
+            "Harry Potter": "Friend",
+            "Percy Weasley": "Brother",
+            "Fred Weasley": "Brother",
+            "George Weasley": "Brother"
+          }
+        },
+        "7": {
+          "appearsIn": 7,
+          "description": "Sorted into Gryffindor with Harry. Loyal, humorous, and sometimes insecure. Becomes a close friend to Hermione.",
+          "role": "First-year Gryffindor",
+          "relationships": {
+            "Harry Potter": "Best friend",
+            "Hermione Granger": "Friend",
+            "Neville Longbottom": "Friend",
+            "Percy Weasley": "Brother",
+            "Fred Weasley": "Brother",
+            "George Weasley": "Brother"
+          }
+        }
+      }
+    },
+    "hermione-granger": {
+      "name": "Hermione Granger",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "A clever, bookish girl with bushy brown hair and prominent front teeth. Very eager, enthusiastic, and knowledgeable about magic.",
+          "role": "Hogwarts student (incoming)",
+          "relationships": {}
+        },
+        "9": {
+          "appearsIn": 9,
+          "description": "Becomes friends with Harry and Ron. Always prepared, excels in classes, and is brave when needed.",
+          "role": "First-year Gryffindor",
+          "relationships": {
+            "Harry Potter": "Friend",
+            "Ron Weasley": "Friend"
+          }
+        }
+      }
+    },
+    "neville-longbottom": {
+      "name": "Neville Longbottom",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "Round-faced, shy Gryffindor boy. Often forgetful but loyal to friends.",
+          "role": "First-year Gryffindor",
+          "relationships": {
+            "Harry Potter": "Friend",
+            "Ron Weasley": "Friend",
+            "Hermione Granger": "Friend"
+          }
+        }
+      }
+    },
+    "draco-malfoy": {
+      "name": "Draco Malfoy",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "Pale, blond boy from a wealthy wizarding family. Quickly becomes Harry's rival.",
+          "role": "First-year Slytherin",
+          "relationships": {
+            "Harry Potter": "Rival",
+            "Vincent Crabbe": "Friend",
+            "Gregory Goyle": "Friend"
+          }
+        }
+      }
+    },
+    "albus-dumbledore": {
+      "name": "Albus Dumbledore",
+      "aliases": [
+        "Professor Dumbledore",
+        "Headmaster"
+      ],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Tall, thin, very old man with a long silver beard and half-moon spectacles. Known for his wisdom and kindness.",
+          "role": "Hogwarts Headmaster",
+          "relationships": {}
+        },
+        "7": {
+          "appearsIn": 7,
+          "description": "Highly respected by students and staff. Considered one of the greatest wizards of the age.",
+          "role": "Headmaster of Hogwarts",
+          "relationships": {
+            "Minerva McGonagall": "Deputy Headmistress",
+            "Severus Snape": "Staff member",
+            "Harry Potter": "Headmaster"
+          }
+        }
+      }
+    },
+    "minerva-mcgonagall": {
+      "name": "Minerva McGonagall",
+      "aliases": [
+        "Professor McGonagall"
+      ],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Strict-looking witch who can transform into a cat. Deputy Headmistress and Head of Gryffindor House. Teaches Transfiguration.",
+          "role": "Deputy Headmistress, Gryffindor Head, Transfiguration Professor",
+          "relationships": {
+            "Albus Dumbledore": "Deputy",
+            "Harry Potter": "Teacher"
+          }
+        }
+      }
+    },
+    "severus-snape": {
+      "name": "Severus Snape",
+      "aliases": [
+        "Professor Snape"
+      ],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "Potions Master with greasy black hair and a sallow face. Seems to strongly dislike Harry. Head of Slytherin House.",
+          "role": "Potions Master, Slytherin Head",
+          "relationships": {
+            "Harry Potter": "Dislikes",
+            "Draco Malfoy": "Head of House"
+          }
+        }
+      }
+    },
+    "rubeus-hagrid": {
+      "name": "Rubeus Hagrid",
+      "aliases": [
+        "Hagrid",
+        "Keeper of Keys"
+      ],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Half-giant with wild hair and a massive frame. Keeper of Keys and Grounds at Hogwarts. Has a kind heart and helps Harry enter the wizarding world.",
+          "role": "Keeper of Keys and Grounds",
+          "relationships": {
+            "Harry Potter": "Helper",
+            "Albus Dumbledore": "Employee"
+          }
+        },
+        "8": {
+          "appearsIn": 8,
+          "description": "Known for his love of magical creatures and his hut on the school grounds. Friendly to students, especially Harry and his friends.",
+          "role": "Keeper of Keys and Grounds",
+          "relationships": {
+            "Harry Potter": "Friend",
+            "Ron Weasley": "Friend",
+            "Hermione Granger": "Friend"
+          }
+        }
+      }
+    },
+    "pomona-sprout": {
+      "name": "Pomona Sprout",
+      "aliases": [
+        "Professor Sprout"
+      ],
+      "tiers": {
+        "8": {
+          "appearsIn": 8,
+          "description": "Head of Hufflepuff House and Herbology teacher at Hogwarts. Seen supervising Herbology lessons.",
+          "role": "Herbology Professor, Hufflepuff Head",
+          "relationships": {}
+        }
+      }
+    },
+    "filius-flitwick": {
+      "name": "Filius Flitwick",
+      "aliases": [
+        "Professor Flitwick"
+      ],
+      "tiers": {
+        "8": {
+          "appearsIn": 8,
+          "description": "Tiny and cheerful, Charms teacher and Head of Ravenclaw House.",
+          "role": "Charms Professor, Ravenclaw Head",
+          "relationships": {}
+        }
+      }
+    },
+    "poppy-pomfrey": {
+      "name": "Poppy Pomfrey",
+      "aliases": [
+        "Madam Pomfrey"
+      ],
+      "tiers": {
+        "13": {
+          "appearsIn": 13,
+          "description": "Matron in charge of the Hogwarts hospital wing. Takes care of injured and sick students.",
+          "role": "Matron",
+          "relationships": {}
+        }
+      }
+    },
+    "argus-filch": {
+      "name": "Argus Filch",
+      "aliases": [],
+      "tiers": {
+        "8": {
+          "appearsIn": 8,
+          "description": "Caretaker at Hogwarts. Strict and unfriendly towards students, always accompanied by his cat, Mrs. Norris.",
+          "role": "Caretaker",
+          "relationships": {
+            "Mrs. Norris": "Owns"
+          }
+        }
+      }
+    },
+    "rolanda-hooch": {
+      "name": "Rolanda Hooch",
+      "aliases": [
+        "Madam Hooch"
+      ],
+      "tiers": {
+        "9": {
+          "appearsIn": 9,
+          "description": "Hogwarts flying instructor and Quidditch referee. Has short, spiky gray hair and yellow eyes.",
+          "role": "Flying Instructor, Quidditch Referee",
+          "relationships": {}
+        }
+      }
+    },
+    "quirinus-quirrell": {
+      "name": "Quirinus Quirrell",
+      "aliases": [
+        "Professor Quirrell"
+      ],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "Nervous, stammering Defense Against the Dark Arts teacher. Wears a turban.",
+          "role": "Defence Against the Dark Arts Professor",
+          "relationships": {}
+        },
+        "5": {
+          "appearsIn": 5,
+          "description": "Nervous, stammering wizard wearing a large purple turban. Teaches Defense Against the Dark Arts at Hogwarts.",
+          "role": "Defense Against the Dark Arts Professor",
+          "relationships": {
+            "Harry Potter": "Teacher"
+          }
+        }
+      }
+    },
+    "percy-weasley": {
+      "name": "Percy Weasley",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "Ron's older brother, a Gryffindor prefect. Serious and responsible.",
+          "role": "Gryffindor Prefect",
+          "relationships": {
+            "Ron Weasley": "Brother",
+            "Fred Weasley": "Brother",
+            "George Weasley": "Brother"
+          }
+        }
+      }
+    },
+    "fred-weasley": {
+      "name": "Fred Weasley",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "One of Ron's mischievous older twin brothers. Known for jokes and pranks with George.",
+          "role": "Gryffindor Student",
+          "relationships": {
+            "George Weasley": "Twin brother",
+            "Ron Weasley": "Brother",
+            "Percy Weasley": "Brother"
+          }
+        }
+      }
+    },
+    "george-weasley": {
+      "name": "George Weasley",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "Fred's twin. Always getting into mischief. Loves pranks.",
+          "role": "Gryffindor Student",
+          "relationships": {
+            "Fred Weasley": "Twin brother",
+            "Ron Weasley": "Brother",
+            "Percy Weasley": "Brother"
+          }
+        }
+      }
+    },
+    "oliver-wood": {
+      "name": "Oliver Wood",
+      "aliases": [],
+      "tiers": {
+        "9": {
+          "appearsIn": 9,
+          "description": "Gryffindor Quidditch team captain. Serious about the game and determined to win.",
+          "role": "Quidditch Captain",
+          "relationships": {
+            "Harry Potter": "Quidditch teammate"
+          }
+        }
+      }
+    },
+    "angelina-johnson": {
+      "name": "Angelina Johnson",
+      "aliases": [],
+      "tiers": {
+        "11": {
+          "appearsIn": 11,
+          "description": "Chaser on the Gryffindor Quidditch team.",
+          "role": "Quidditch Chaser",
+          "relationships": {
+            "Oliver Wood": "Teammate"
+          }
+        }
+      }
+    },
+    "katie-bell": {
+      "name": "Katie Bell",
+      "aliases": [],
+      "tiers": {
+        "11": {
+          "appearsIn": 11,
+          "description": "Chaser on the Gryffindor Quidditch team.",
+          "role": "Quidditch Chaser",
+          "relationships": {
+            "Oliver Wood": "Teammate"
+          }
+        }
+      }
+    },
+    "alicia-spinnet": {
+      "name": "Alicia Spinnet",
+      "aliases": [],
+      "tiers": {
+        "11": {
+          "appearsIn": 11,
+          "description": "Chaser on the Gryffindor Quidditch team.",
+          "role": "Quidditch Chaser",
+          "relationships": {
+            "Oliver Wood": "Teammate"
+          }
+        }
+      }
+    },
+    "parvati-patil": {
+      "name": "Parvati Patil",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Gryffindor girl, sorted with Harry's group.",
+          "role": "First-year Gryffindor",
+          "relationships": {}
+        }
+      }
+    },
+    "vincent-crabbe": {
+      "name": "Vincent Crabbe",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "Large Slytherin boy, often seen with Malfoy and Goyle.",
+          "role": "First-year Slytherin",
+          "relationships": {
+            "Draco Malfoy": "Friend",
+            "Gregory Goyle": "Friend"
+          }
+        }
+      }
+    },
+    "gregory-goyle": {
+      "name": "Gregory Goyle",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "Big, tough Slytherin, usually by Malfoy's side.",
+          "role": "First-year Slytherin",
+          "relationships": {
+            "Draco Malfoy": "Friend",
+            "Vincent Crabbe": "Friend"
+          }
+        }
+      }
+    },
+    "marcus-flint": {
+      "name": "Marcus Flint",
+      "aliases": [],
+      "tiers": {
+        "11": {
+          "appearsIn": 11,
+          "description": "Captain of the Slytherin Quidditch team. Competitive and tough.",
+          "role": "Quidditch Captain",
+          "relationships": {}
+        }
+      }
+    },
+    "susan-bones": {
+      "name": "Susan Bones",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Hufflepuff, sorted with Harry.",
+          "role": "First-year Hufflepuff",
+          "relationships": {}
+        }
+      }
+    },
+    "hannah-abbott": {
+      "name": "Hannah Abbott",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Hufflepuff girl, sorted with Harry.",
+          "role": "First-year Hufflepuff",
+          "relationships": {}
+        }
+      }
+    },
+    "justin-finch-fletchley": {
+      "name": "Justin Finch-Fletchley",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Hufflepuff student.",
+          "role": "First-year Hufflepuff",
+          "relationships": {}
+        }
+      }
+    },
+    "padma-patil": {
+      "name": "Padma Patil",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Ravenclaw girl, twin of Parvati.",
+          "role": "First-year Ravenclaw",
+          "relationships": {
+            "Parvati Patil": "Twin sister"
+          }
+        }
+      }
+    },
+    "terry-boot": {
+      "name": "Terry Boot",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Ravenclaw student.",
+          "role": "First-year Ravenclaw",
+          "relationships": {}
+        }
+      }
+    },
+    "mandy-brocklehurst": {
+      "name": "Mandy Brocklehurst",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Ravenclaw, sorted in Harry's year.",
+          "role": "First-year Ravenclaw",
+          "relationships": {}
+        }
+      }
+    },
+    "anthony-goldstein": {
+      "name": "Anthony Goldstein",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Ravenclaw, sorted with Harry.",
+          "role": "First-year Ravenclaw",
+          "relationships": {}
+        }
+      }
+    },
+    "michael-corner": {
+      "name": "Michael Corner",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "First-year Ravenclaw, sorted in Harry's year.",
+          "role": "First-year Ravenclaw",
+          "relationships": {}
+        }
+      }
+    },
+    "vernon-dursley": {
+      "name": "Vernon Dursley",
+      "aliases": [],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Harry’s uncle. Large, mustached, and works at a drill company. Treats Harry harshly and is very suspicious of magic.",
+          "role": "Uncle",
+          "relationships": {
+            "Harry Potter": "Uncle",
+            "Petunia Dursley": "Husband",
+            "Dudley Dursley": "Father"
+          }
+        }
+      }
+    },
+    "petunia-dursley": {
+      "name": "Petunia Dursley",
+      "aliases": [],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Harry’s aunt. Thin, blonde, and very strict. Dislikes anything unusual or magical.",
+          "role": "Aunt",
+          "relationships": {
+            "Harry Potter": "Aunt",
+            "Vernon Dursley": "Wife",
+            "Dudley Dursley": "Mother"
+          }
+        }
+      }
+    },
+    "dudley-dursley": {
+      "name": "Dudley Dursley",
+      "aliases": [],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Harry’s spoiled cousin. Overweight and often bullies Harry.",
+          "role": "Cousin",
+          "relationships": {
+            "Harry Potter": "Cousin",
+            "Vernon Dursley": "Son",
+            "Petunia Dursley": "Son"
+          }
+        }
+      }
+    },
+    "molly-weasley": {
+      "name": "Molly Weasley",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "Ron’s caring mother. Looks after her large family and helps Harry get to Platform 9¾.",
+          "role": "Mother",
+          "relationships": {
+            "Ron Weasley": "Mother",
+            "Fred Weasley": "Mother",
+            "George Weasley": "Mother",
+            "Percy Weasley": "Mother",
+            "Ginny Weasley": "Mother",
+            "Arthur Weasley": "Wife"
+          }
+        }
+      }
+    },
+    "arthur-weasley": {
+      "name": "Arthur Weasley",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "Ron’s father. Works for the Ministry of Magic and is fascinated by Muggle inventions.",
+          "role": "Ministry of Magic employee",
+          "relationships": {
+            "Molly Weasley": "Husband",
+            "Ron Weasley": "Father",
+            "Fred Weasley": "Father",
+            "George Weasley": "Father",
+            "Percy Weasley": "Father",
+            "Ginny Weasley": "Father"
+          }
+        }
+      }
+    },
+    "ginny-weasley": {
+      "name": "Ginny Weasley",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "Ron’s younger sister. Eager to go to Hogwarts and says goodbye to her brothers at the train station.",
+          "role": "Youngest Weasley child",
+          "relationships": {
+            "Ron Weasley": "Sister",
+            "Fred Weasley": "Sister",
+            "George Weasley": "Sister",
+            "Percy Weasley": "Sister",
+            "Molly Weasley": "Daughter",
+            "Arthur Weasley": "Daughter"
+          }
+        }
+      }
+    },
+    "mrs-figg": {
+      "name": "Arabella Figg",
+      "aliases": [
+        "Mrs. Figg"
+      ],
+      "tiers": {
+        "2": {
+          "appearsIn": 2,
+          "description": "Elderly neighbor who sometimes looks after Harry. Owns a lot of cats.",
+          "role": "Babysitter, neighbor",
+          "relationships": {
+            "Harry Potter": "Babysitter"
+          }
+        }
+      }
+    },
+    "dedalus-diggle": {
+      "name": "Dedalus Diggle",
+      "aliases": [],
+      "tiers": {
+        "5": {
+          "appearsIn": 5,
+          "description": "Wizard who greets Harry enthusiastically in the Leaky Cauldron.",
+          "role": "Wizard",
+          "relationships": {
+            "Harry Potter": "Fan"
+          }
+        }
+      }
+    },
+    "madam-malkin": {
+      "name": "Madam Malkin",
+      "aliases": [],
+      "tiers": {
+        "5": {
+          "appearsIn": 5,
+          "description": "Owner of the robe shop in Diagon Alley where Hogwarts students get fitted for uniforms.",
+          "role": "Shopkeeper",
+          "relationships": {}
+        }
+      }
+    },
+    "ollivander": {
+      "name": "Mr. Ollivander",
+      "aliases": [
+        "Ollivander"
+      ],
+      "tiers": {
+        "5": {
+          "appearsIn": 5,
+          "description": "Mysterious wandmaker in Diagon Alley, known for his knowledge of wands and their history.",
+          "role": "Wandmaker",
+          "relationships": {
+            "Harry Potter": "Sells wand to"
+          }
+        }
+      }
+    },
+    "griphook": {
+      "name": "Griphook",
+      "aliases": [],
+      "tiers": {
+        "5": {
+          "appearsIn": 5,
+          "description": "Goblin who helps Harry and Hagrid access Harry's vault at Gringotts.",
+          "role": "Gringotts goblin",
+          "relationships": {
+            "Harry Potter": "Assists"
+          }
+        }
+      }
+    },
+    "madam-pince": {
+      "name": "Irma Pince",
+      "aliases": [
+        "Madam Pince"
+      ],
+      "tiers": {
+        "12": {
+          "appearsIn": 12,
+          "description": "Librarian at Hogwarts, very protective of the library books.",
+          "role": "Librarian",
+          "relationships": {}
+        }
+      }
+    },
+    "hedwig": {
+      "name": "Hedwig",
+      "aliases": [],
+      "tiers": {
+        "5": {
+          "appearsIn": 5,
+          "description": "A snowy owl given to Harry for his birthday. Smart, loyal, and delivers mail.",
+          "role": "Harry's pet owl",
+          "relationships": {
+            "Harry Potter": "Owned by"
+          }
+        }
+      }
+    },
+    "fang": {
+      "name": "Fang",
+      "aliases": [],
+      "tiers": {
+        "8": {
+          "appearsIn": 8,
+          "description": "Hagrid’s large boarhound dog. Looks fierce but is friendly and cowardly.",
+          "role": "Hagrid's pet dog",
+          "relationships": {
+            "Rubeus Hagrid": "Owner"
+          }
+        }
+      }
+    },
+    "norbert": {
+      "name": "Norbert",
+      "aliases": [
+        "Norbert the Norwegian Ridgeback"
+      ],
+      "tiers": {
+        "14": {
+          "appearsIn": 14,
+          "description": "A baby Norwegian Ridgeback dragon hatched by Hagrid in his hut.",
+          "role": "Baby dragon",
+          "relationships": {
+            "Rubeus Hagrid": "Cared for by"
+          }
+        }
+      }
+    },
+    "fluffy": {
+      "name": "Fluffy",
+      "aliases": [],
+      "tiers": {
+        "9": {
+          "appearsIn": 9,
+          "description": "A giant three-headed dog owned by Hagrid. Guards something at Hogwarts.",
+          "role": "Three-headed guard dog",
+          "relationships": {
+            "Rubeus Hagrid": "Owner"
+          }
+        }
+      }
+    },
+    "mrs-norris": {
+      "name": "Mrs. Norris",
+      "aliases": [],
+      "tiers": {
+        "8": {
+          "appearsIn": 8,
+          "description": "A scrawny, dust-colored cat owned by Filch. Patrols the corridors, alerting Filch to misbehaving students.",
+          "role": "Filch's cat",
+          "relationships": {
+            "Argus Filch": "Owner"
+          }
+        }
+      }
+    },
+    "errol": {
+      "name": "Errol",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "The elderly and clumsy owl of the Weasley family.",
+          "role": "Weasley family owl",
+          "relationships": {
+            "Weasley family": "Pet"
+          }
+        }
+      }
+    },
+    "scabbers": {
+      "name": "Scabbers",
+      "aliases": [],
+      "tiers": {
+        "6": {
+          "appearsIn": 6,
+          "description": "Ron's pet rat. Old and rather lazy.",
+          "role": "Ron's pet rat",
+          "relationships": {
+            "Ron Weasley": "Owned by"
+          }
+        }
+      }
+    },
+    "trevor": {
+      "name": "Trevor",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "Neville's pet toad, often gets lost.",
+          "role": "Neville's pet toad",
+          "relationships": {
+            "Neville Longbottom": "Owned by"
+          }
+        }
+      }
+    },
+    "voldemort": {
+      "name": "Lord Voldemort",
+      "aliases": [
+        "He Who Must Not Be Named",
+        "You-Know-Who"
+      ],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "A dark wizard whose name is feared. Responsible for the deaths of Harry’s parents. Tried to kill Harry as a baby but mysteriously vanished.",
+          "role": "Dark wizard",
+          "relationships": {
+            "Harry Potter": "Tried to kill",
+            "James Potter": "Enemy",
+            "Lily Potter": "Enemy"
+          }
+        }
+      }
+    },
+    "james-potter": {
+      "name": "James Potter",
+      "aliases": [],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Harry’s father. Killed by Voldemort.",
+          "role": "Deceased (Harry’s father)",
+          "relationships": {
+            "Harry Potter": "Father",
+            "Lily Potter": "Husband"
+          }
+        }
+      }
+    },
+    "lily-potter": {
+      "name": "Lily Potter",
+      "aliases": [],
+      "tiers": {
+        "1": {
+          "appearsIn": 1,
+          "description": "Harry’s mother. Killed by Voldemort.",
+          "role": "Deceased (Harry’s mother)",
+          "relationships": {
+            "Harry Potter": "Mother",
+            "James Potter": "Wife"
+          }
+        }
+      }
+    },
+    "nicolas-flamel": {
+      "name": "Nicolas Flamel",
+      "aliases": [],
+      "tiers": {
+        "13": {
+          "appearsIn": 13,
+          "description": "A legendary alchemist rumored to have created the Philosopher’s Stone, which can produce the Elixir of Life.",
+          "role": "Alchemist (historical figure)",
+          "relationships": {}
+        }
+      }
+    },
+    "salazar-slytherin": {
+      "name": "Salazar Slytherin",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "One of the four founders of Hogwarts. Slytherin House is named after him.",
+          "role": "Hogwarts founder (mentioned)",
+          "relationships": {}
+        }
+      }
+    },
+    "godric-gryffindor": {
+      "name": "Godric Gryffindor",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "One of the four founders of Hogwarts. Gryffindor House is named after him.",
+          "role": "Hogwarts founder (mentioned)",
+          "relationships": {}
+        }
+      }
+    },
+    "helga-hufflepuff": {
+      "name": "Helga Hufflepuff",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "One of the four founders of Hogwarts. Hufflepuff House is named after her.",
+          "role": "Hogwarts founder (mentioned)",
+          "relationships": {}
+        }
+      }
+    },
+    "rowena-ravenclaw": {
+      "name": "Rowena Ravenclaw",
+      "aliases": [],
+      "tiers": {
+        "7": {
+          "appearsIn": 7,
+          "description": "One of the four founders of Hogwarts. Ravenclaw House is named after her.",
+          "role": "Hogwarts founder (mentioned)",
+          "relationships": {}
+        }
+      }
+    }
   }
 }
