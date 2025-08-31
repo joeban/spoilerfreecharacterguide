@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "title": "A Feast for Crows",
+    "author": "George R.R. Martin",
+    "chapters": 46,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "cersei-lannister": {
+      "name": "Cersei Lannister",
+      "aliases": [
+        "Queen Regent",
+        "The Queen Mother"
+      ],
+      "appearances": [
+        3,
+        7,
+        12,
+        17,
+        24,
+        28,
+        32,
+        36,
+        39,
+        43
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Ruling as Queen Regent for her young son Tommen after Joffrey's death and Tyrion's escape. Paranoid and increasingly unstable.",
+          "role": "Queen Regent",
+          "relationships": {
+            "Tommen Baratheon": "Young son she controls",
+            "Jaime Lannister": "Twin brother grown distant",
+            "Margaery Tyrell": "New queen she sees as threat"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Grows increasingly paranoid about the Tyrells and their influence over Tommen. Makes poor political decisions.",
+          "role": "Paranoid ruler",
+          "relationships": {
+            "Margaery Tyrell": "Young queen she plots against",
+            "Olenna Tyrell": "Queen of Thorns she fears"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Arms the Faith Militant to use against her enemies, not realizing the danger this poses to herself.",
+          "role": "Enabler of religious extremism",
+          "relationships": {
+            "High Sparrow": "Religious leader she empowers",
+            "Faith Militant": "Armed religious order she creates"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Arrested by the Faith Militant for adultery, incest, and treason. Her own weapon turned against her.",
+          "role": "Prisoner of the Faith",
+          "relationships": {
+            "High Sparrow": "Religious leader who imprisons her",
+            "Septa Unella": "Tormentor in captivity"
+          }
+        }
+      }
+    },
+    "brienne-of-tarth": {
+      "name": "Brienne of Tarth",
+      "aliases": [
+        "Brienne the Beauty",
+        "The Maid of Tarth",
+        "Ser Duncan the Tall"
+      ],
+      "appearances": [
+        4,
+        9,
+        14,
+        20,
+        25,
+        31,
+        37,
+        42
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Searching for Sansa Stark as sworn to Catelyn, accompanied by Podrick Payne. Following leads through the Riverlands.",
+          "role": "Knight-errant seeking Sansa",
+          "relationships": {
+            "Podrick Payne": "Squire and companion",
+            "Catelyn Stark": "Dead lady she serves",
+            "Jaime Lannister": "Gave her sword and mission"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Encounters various characters in her search, including innkeepers and common folk affected by the war.",
+          "role": "Wandering knight",
+          "relationships": {
+            "Elder Brother": "Peaceful monk on Quiet Isle",
+            "Sandor Clegane": "Learning of the Hound's fate"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Her search leads her deeper into the war-torn Riverlands where she faces various dangers and meets colorful characters.",
+          "role": "Knight on a dangerous quest",
+          "relationships": {
+            "Septon Meribald": "Holy man who guides them",
+            "Hyle Hunt": "Knight who joins their party"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Captured by Lady Stoneheart (undead Catelyn) and the Brotherhood. Faces execution for serving Lannisters.",
+          "role": "Prisoner facing death",
+          "relationships": {
+            "Lady Stoneheart": "Undead Catelyn who judges her",
+            "Brotherhood Without Banners": "Former allies now enemies"
+          }
+        }
+      }
+    },
+    "arianne-martell": {
+      "name": "Arianne Martell",
+      "aliases": [
+        "Princess of Dorne"
+      ],
+      "appearances": [
+        2,
+        13,
+        21,
+        40
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Heir to Dorne, plotting to crown Myrcella as queen to spite the Iron Throne. Sensual and ambitious princess.",
+          "role": "Princess plotting rebellion",
+          "relationships": {
+            "Doran Martell": "Father whose plans she doesn't know",
+            "Arys Oakheart": "Kingsguard knight she seduces",
+            "Myrcella Baratheon": "Princess she wants to crown"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Executes her plan to crown Myrcella, but it goes wrong when they're intercepted. Arys Oakheart dies in the attempt.",
+          "role": "Failed conspirator",
+          "relationships": {
+            "Arys Oakheart": "Lover who dies for her",
+            "Areo Hotah": "Father's captain who captures her"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Imprisoned by her father, who reveals his deeper game and the dangers of her reckless actions.",
+          "role": "Chastened prisoner daughter",
+          "relationships": {
+            "Doran Martell": "Father who reveals his true plans"
+          }
+        }
+      }
+    },
+    "areo-hotah": {
+      "name": "Areo Hotah",
+      "aliases": [
+        "Captain of Guards"
+      ],
+      "appearances": [
+        13,
+        21,
+        40
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Captain of Prince Doran's guards, originally from Norvos. Loyal servant watching over the Water Gardens.",
+          "role": "Captain of Guards",
+          "relationships": {
+            "Doran Martell": "Prince he serves loyally",
+            "Arianne Martell": "Princess he must watch"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Intercepts Arianne's conspiracy to crown Myrcella, leading to Arys Oakheart's death in combat.",
+          "role": "Loyal enforcer",
+          "relationships": {
+            "Arys Oakheart": "Kingsguard he kills in duty",
+            "Arianne Martell": "Princess he captures"
+          }
+        }
+      }
+    },
+    "arys-oakheart": {
+      "name": "Arys Oakheart",
+      "aliases": [
+        "Ser Arys"
+      ],
+      "appearances": [
+        13,
+        16,
+        21
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Kingsguard sworn to protect Myrcella in Dorne. Struggling with his vows as Arianne seduces him.",
+          "role": "Conflicted Kingsguard",
+          "relationships": {
+            "Arianne Martell": "Princess who seduces him",
+            "Myrcella Baratheon": "Princess he's sworn to protect"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Dies fighting Areo Hotah when their plot to crown Myrcella is discovered. Dies for love and ambition.",
+          "role": "Dead knight",
+          "relationships": {
+            "Areo Hotah": "Captain who kills him",
+            "Arianne Martell": "Princess he dies for"
+          }
+        }
+      }
+    },
+    "aeron-greyjoy": {
+      "name": "Aeron Greyjoy",
+      "aliases": [
+        "Damphair",
+        "The Drowned Priest"
+      ],
+      "appearances": [
+        11,
+        18,
+        29,
+        45
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Priest of the Drowned God and brother to Balon Greyjoy. Calls for a kingsmoot after Balon's death.",
+          "role": "Drowned Priest",
+          "relationships": {
+            "Balon Greyjoy": "Dead brother",
+            "Euron Greyjoy": "Brother he fears and opposes"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Opposed to Euron's claim to the Seastone Chair, calling for the ancient kingsmoot to choose the new king.",
+          "role": "Religious leader and kingmaker",
+          "relationships": {
+            "Euron Greyjoy": "Godless brother he opposes",
+            "Victarion Greyjoy": "Brother he supports"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Witnesses Euron's victory at the kingsmoot despite his efforts to prevent it. The Drowned God seems to abandon him.",
+          "role": "Defeated priest",
+          "relationships": {
+            "Euron Greyjoy": "Brother who becomes king despite his opposition"
+          }
+        }
+      }
+    },
+    "victarion-greyjoy": {
+      "name": "Victarion Greyjoy",
+      "aliases": [
+        "Lord Captain"
+      ],
+      "appearances": [
+        18,
+        29,
+        45
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Lord Captain of the Iron Fleet and brother to Balon. Strong but not particularly intelligent warrior.",
+          "role": "Lord Captain of Iron Fleet",
+          "relationships": {
+            "Balon Greyjoy": "Dead brother he served",
+            "Euron Greyjoy": "Brother he distrusts"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Competes for the throne at the kingsmoot but loses to Euron's promises and magic horn.",
+          "role": "Failed claimant",
+          "relationships": {
+            "Euron Greyjoy": "Brother who defeats him for crown",
+            "Asha Greyjoy": "Niece who also claimed throne"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Forced to acknowledge Euron as king after losing the kingsmoot. Bitter about his defeat.",
+          "role": "Defeated brother serving new king",
+          "relationships": {
+            "Euron Greyjoy": "Brother and new king he must serve"
+          }
+        }
+      }
+    },
+    "sansa-stark": {
+      "name": "Sansa Stark",
+      "aliases": [
+        "Alayne Stone"
+      ],
+      "appearances": [
+        23,
+        41
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Hidden in the Vale as Petyr Baelish's bastard daughter Alayne. Learning to play the game of thrones under his tutelage.",
+          "role": "Disguised noblewoman learning politics",
+          "relationships": {
+            "Petyr Baelish": "Protector and teacher",
+            "Robert Arryn": "Sickly young lord she helps care for"
+          }
+        },
+        "41": {
+          "revealedIn": 41,
+          "description": "Witnesses Petyr push Lysa Arryn to her death and begins to understand his true nature and methods.",
+          "role": "Witness to murder, reluctant accomplice",
+          "relationships": {
+            "Petyr Baelish": "Murderous protector",
+            "Lysa Arryn": "Dead aunt",
+            "Robert Arryn": "Young lord now under their control"
+          }
+        }
+      }
+    },
+    "arya-stark": {
+      "name": "Arya Stark",
+      "aliases": [
+        "Cat of the Canals",
+        "No One"
+      ],
+      "appearances": [
+        6,
+        22,
+        34
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Arrives in Braavos and seeks out the House of Black and White using Jaqen H'ghar's iron coin.",
+          "role": "Novice at House of Black and White",
+          "relationships": {
+            "Kindly Man": "Faceless Man who trains her",
+            "Waif": "Fellow acolyte who dislikes her"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Begins training as an acolyte of the Faceless Men, learning to give up her identity.",
+          "role": "Acolyte learning to become 'no one'",
+          "relationships": {
+            "Kindly Man": "Teacher of the Many-Faced God",
+            "Jaqen H'ghar": "Many-faced mentor"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Struggles with abandoning her identity as Arya Stark while training in the arts of death.",
+          "role": "Conflicted assassin in training",
+          "relationships": {
+            "Many-Faced God": "Deity she struggles to serve fully"
+          }
+        }
+      }
+    },
+    "samwell-tarly": {
+      "name": "Samwell Tarly",
+      "aliases": [
+        "Sam the Slayer"
+      ],
+      "appearances": [
+        5,
+        15,
+        35,
+        45
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Travels to Oldtown with Gilly and Maester Aemon to become a maester and research the Others.",
+          "role": "Trainee maester",
+          "relationships": {
+            "Gilly": "Wildling woman and her baby he protects",
+            "Maester Aemon": "Ancient maester he escorts"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Arrives in Oldtown to begin his training at the Citadel while dealing with Gilly and the baby.",
+          "role": "New student at the Citadel",
+          "relationships": {
+            "Archmaester Marwyn": "Mysterious teacher interested in magic",
+            "Alleras": "Fellow novice who befriends him"
+          }
+        }
+      }
+    },
+    "jaime-lannister": {
+      "name": "Jaime Lannister",
+      "aliases": [
+        "Kingslayer",
+        "Ser Jaime"
+      ],
+      "appearances": [
+        8,
+        16,
+        27,
+        30,
+        44
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Trying to rebuild the Kingsguard and restore honor to the white cloak after losing his sword hand.",
+          "role": "Lord Commander of Kingsguard",
+          "relationships": {
+            "Cersei Lannister": "Twin sister grown cold toward him",
+            "Tommen Baratheon": "Young king he protects"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Sent to deal with problems in the Riverlands, trying to end conflicts without unnecessary bloodshed.",
+          "role": "Peacekeeper and negotiator",
+          "relationships": {
+            "Brynden Tully": "Blackfish he negotiates with",
+            "Edmure Tully": "Prisoner he uses as leverage"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Successfully ends the siege of Riverrun through negotiation rather than force, showing his growth as a leader.",
+          "role": "Successful diplomat",
+          "relationships": {
+            "Brynden Tully": "Respected opponent who escapes",
+            "Cersei Lannister": "Sister who no longer controls him"
+          }
+        }
+      }
+    },
+    "euron-greyjoy": {
+      "name": "Euron Greyjoy",
+      "aliases": [
+        "Crow's Eye",
+        "Euron Crow's Eye"
+      ],
+      "appearances": [
+        29,
+        45
+      ],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Returns to the Iron Islands claiming to have sailed the world. Possesses a mysterious horn that can bind dragons.",
+          "role": "Returned exile with grand ambitions",
+          "relationships": {
+            "Aeron Greyjoy": "Brother who fears him",
+            "Victarion Greyjoy": "Brother who competes with him"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Wins the kingsmoot by promising to conquer Westeros with dragons, showing his horn that supposedly controls them.",
+          "role": "King of the Iron Islands",
+          "relationships": {
+            "Victarion Greyjoy": "Brother he sends on mission",
+            "Asha Greyjoy": "Niece he defeats"
+          }
+        }
+      }
+    },
+    "margaery-tyrell": {
+      "name": "Margaery Tyrell",
+      "aliases": [
+        "Queen Margaery"
+      ],
+      "appearances": [
+        12,
+        28,
+        39
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Now Queen to Tommen, but facing increasing hostility from Cersei who sees her as a threat to her power.",
+          "role": "Young Queen",
+          "relationships": {
+            "Tommen Baratheon": "Young husband and king",
+            "Cersei Lannister": "Queen Mother who plots against her"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Arrested by the Faith Militant on charges of adultery and fornication, part of Cersei's schemes backfiring.",
+          "role": "Prisoner of the Faith",
+          "relationships": {
+            "High Sparrow": "Religious leader who imprisons her",
+            "Cersei Lannister": "Enemy who engineered her downfall"
+          }
+        }
+      }
+    },
+    "doran-martell": {
+      "name": "Doran Martell",
+      "aliases": [
+        "Prince of Dorne"
+      ],
+      "appearances": [
+        2,
+        40
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Prince of Dorne who appears weak and cautious, but harbors secret plans for vengeance against the Lannisters.",
+          "role": "Prince of Dorne",
+          "relationships": {
+            "Arianne Martell": "Daughter whose plots he must stop",
+            "Oberyn Martell": "Brother whose death he seeks to avenge"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Reveals his long-term plans to Arianne, showing that his caution masks deeper schemes for revenge.",
+          "role": "Patient schemer",
+          "relationships": {
+            "Arianne Martell": "Daughter he must educate about patience",
+            "Quentyn Martell": "Son on secret mission"
+          }
+        }
+      }
+    },
+    "lady-stoneheart": {
+      "name": "Lady Stoneheart",
+      "aliases": [
+        "Mother Merciless"
+      ],
+      "appearances": [
+        42
+      ],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Catelyn Stark resurrected by Beric Dondarrion, now leads the Brotherhood in ruthless vengeance against those who betrayed her family.",
+          "role": "Undead leader of the Brotherhood",
+          "relationships": {
+            "Brotherhood Without Banners": "Outlaws she now leads",
+            "Brienne of Tarth": "Knights she judges for serving Lannisters"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "The aftermath of the War of the Five Kings leaves the realm scarred and struggling.",
+    "2": "Arianne Martell plots in Dorne to crown Myrcella as queen against the Iron Throne.",
+    "3": "Cersei rules as Queen Regent, growing increasingly paranoid about threats to her power.",
+    "4": "Brienne searches for Sansa Stark through the war-torn Riverlands with Podrick.",
+    "5": "Sam travels to Oldtown with Gilly and Maester Aemon to begin his training.",
+    "6": "Arya arrives in Braavos and seeks the House of Black and White.",
+    "7": "Cersei continues to consolidate power while fearing various threats to her rule.",
+    "8": "Jaime tries to rebuild the Kingsguard and restore honor to the white cloak.",
+    "9": "Brienne continues her quest, encountering the aftermath of war in the Riverlands.",
+    "10": "Various characters deal with the consequences of the recent conflicts.",
+    "11": "Aeron Damphair learns of Balon Greyjoy's death and calls for a kingsmoot.",
+    "12": "Cersei grows increasingly hostile toward Margaery and the Tyrell influence.",
+    "13": "In Dorne, various plots unfold involving Arianne, Areo Hotah, and the Martells.",
+    "14": "Brienne's journey takes her to the Quiet Isle where she learns of the Hound's fate.",
+    "15": "Sam continues his journey to Oldtown, dealing with challenges along the way.",
+    "16": "Arys Oakheart struggles with his vows as Arianne continues to seduce him.",
+    "17": "Cersei makes increasingly poor decisions while paranoid about enemies.",
+    "18": "Victarion Greyjoy prepares for the kingsmoot to choose Balon's successor.",
+    "19": "Various political developments unfold across the realm.",
+    "20": "Brienne faces dangers in the Riverlands while searching for Sansa.",
+    "21": "Arianne's plot to crown Myrcella goes wrong, resulting in Arys Oakheart's death.",
+    "22": "Arya begins her training with the Faceless Men in the House of Black and White.",
+    "23": "Sansa, disguised as Alayne Stone, learns politics in the Vale under Petyr's tutelage.",
+    "24": "Cersei arms the Faith Militant, not realizing the danger this poses to herself.",
+    "25": "Brienne's quest continues as she faces various challenges and encounters.",
+    "26": "Political maneuvering continues across the realm in the war's aftermath.",
+    "27": "Jaime is sent to the Riverlands to deal with ongoing conflicts.",
+    "28": "Margaery faces increasing pressure from Cersei's machinations.",
+    "29": "The kingsmoot begins on the Iron Islands with Euron's dramatic return.",
+    "30": "Jaime attempts to resolve conflicts in the Riverlands through diplomacy.",
+    "31": "Brienne encounters Septon Meribald and other colorful characters in her travels.",
+    "32": "Cersei's paranoia and poor decisions continue to destabilize her rule.",
+    "33": "Various developments occur as the realm adjusts to post-war realities.",
+    "34": "Arya struggles with abandoning her identity while training as an assassin.",
+    "35": "Sam arrives in Oldtown and begins his studies at the Citadel.",
+    "36": "Cersei faces mounting challenges to her authority and decisions.",
+    "37": "Brienne's quest takes her deeper into danger as she searches for Sansa.",
+    "38": "Political tensions continue to rise across the realm.",
+    "39": "Both Cersei and Margaery are arrested by the Faith Militant they helped create.",
+    "40": "Doran reveals his true plans to Arianne after her failed conspiracy.",
+    "41": "Sansa witnesses Petyr murder Lysa Arryn and begins to understand his nature.",
+    "42": "Brienne is captured by Lady Stoneheart and the transformed Brotherhood.",
+    "43": "Cersei faces the consequences of her actions while imprisoned by the Faith.",
+    "44": "Jaime successfully negotiates an end to the siege of Riverrun.",
+    "45": "Euron wins the kingsmoot and becomes King of the Iron Islands.",
+    "46": "The realm continues to deal with the aftermath of war and political upheaval."
+  }
+}
