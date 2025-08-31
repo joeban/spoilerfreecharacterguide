@@ -486,6 +486,679 @@
           }
         }
       }
+    },
+    "mr-ollivander": {
+      "name": "Mr. Ollivander",
+      "aliases": ["Garrick Ollivander"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An old wizard with pale, silvery eyes who owns Ollivanders wand shop. Has an extraordinary memory for every wand he's ever sold. Tells Harry that his wand is the brother of Voldemort's wand - both have phoenix feathers from the same phoenix.",
+          "role": "Wandmaker",
+          "relationships": {
+            "Harry Potter": "Sells wand to",
+            "Voldemort": "Sold brother wand to"
+          }
+        }
+      }
+    },
+    "vincent-crabbe": {
+      "name": "Vincent Crabbe",
+      "aliases": ["Crabbe"],
+      "appearances": [6, 7, 9, 11, 13],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A large, stupid-looking boy who follows Draco Malfoy around. Sorted into Slytherin House. Acts as one of Malfoy's cronies and muscle.",
+          "role": "Malfoy's crony",
+          "relationships": {
+            "Draco Malfoy": "Follower of",
+            "Gregory Goyle": "Fellow crony"
+          }
+        }
+      }
+    },
+    "gregory-goyle": {
+      "name": "Gregory Goyle",
+      "aliases": ["Goyle"],
+      "appearances": [6, 7, 9, 11, 13],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A large, stupid-looking boy who follows Draco Malfoy around. Sorted into Slytherin House. Acts as one of Malfoy's cronies and muscle.",
+          "role": "Malfoy's crony",
+          "relationships": {
+            "Draco Malfoy": "Follower of",
+            "Vincent Crabbe": "Fellow crony"
+          }
+        }
+      }
+    },
+    "seamus-finnigan": {
+      "name": "Seamus Finnigan",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An Irish boy with sandy hair. Sorted into Gryffindor House. Shares a dormitory with Harry, Ron, Neville, and Dean.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Harry Potter": "Dormmate of",
+            "Dean Thomas": "Fellow Gryffindor",
+            "Neville Longbottom": "Dormmate of"
+          }
+        }
+      }
+    },
+    "dean-thomas": {
+      "name": "Dean Thomas",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A boy with dark skin who is sorted into Gryffindor House. Shares a dormitory with Harry, Ron, Neville, and Seamus.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Harry Potter": "Dormmate of",
+            "Seamus Finnigan": "Fellow Gryffindor",
+            "Ron Weasley": "Dormmate of"
+          }
+        }
+      }
+    },
+    "lavender-brown": {
+      "name": "Lavender Brown",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A girl sorted into Gryffindor House during the Sorting Ceremony.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Hermione Granger": "Fellow Gryffindor",
+            "Parvati Patil": "Fellow Gryffindor"
+          }
+        }
+      }
+    },
+    "parvati-patil": {
+      "name": "Parvati Patil",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A girl sorted into Gryffindor House during the Sorting Ceremony.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Hermione Granger": "Fellow Gryffindor",
+            "Lavender Brown": "Fellow Gryffindor"
+          }
+        }
+      }
+    },
+    "percy-weasley": {
+      "name": "Percy Weasley",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Ron's older brother, a Gryffindor prefect with horn-rimmed glasses. Very rule-abiding and pompous. Leads the first-year Gryffindors to their dormitory.",
+          "role": "Gryffindor prefect",
+          "relationships": {
+            "Ron Weasley": "Brother of",
+            "Fred Weasley": "Brother of",
+            "George Weasley": "Brother of"
+          }
+        }
+      }
+    },
+    "fred-weasley": {
+      "name": "Fred Weasley",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of Ron's twin brothers, in his third year at Hogwarts. Known for being a troublemaker and prankster. Beater on the Gryffindor Quidditch team.",
+          "role": "Ron's brother and Quidditch player",
+          "relationships": {
+            "Ron Weasley": "Brother of",
+            "George Weasley": "Twin of",
+            "Percy Weasley": "Brother of"
+          }
+        }
+      }
+    },
+    "george-weasley": {
+      "name": "George Weasley",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of Ron's twin brothers, in his third year at Hogwarts. Known for being a troublemaker and prankster. Beater on the Gryffindor Quidditch team.",
+          "role": "Ron's brother and Quidditch player",
+          "relationships": {
+            "Ron Weasley": "Brother of",
+            "Fred Weasley": "Twin of",
+            "Percy Weasley": "Brother of"
+          }
+        }
+      }
+    },
+    "the-sorting-hat": {
+      "name": "The Sorting Hat",
+      "aliases": ["Sorting Hat"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An ancient, patched, frayed pointed wizard's hat that sorts students into Hogwarts Houses. Can read minds and speaks aloud. Considers putting Harry in Slytherin but ultimately places him in Gryffindor.",
+          "role": "Hogwarts Sorting Hat",
+          "relationships": {
+            "Harry Potter": "Sorts into Gryffindor",
+            "Draco Malfoy": "Sorts into Slytherin"
+          }
+        }
+      }
+    },
+    "professor-flitwick": {
+      "name": "Professor Filius Flitwick",
+      "aliases": ["Professor Flitwick"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A tiny wizard who teaches Charms. So small he has to stand on a pile of books to see over his desk. Head of Ravenclaw House.",
+          "role": "Charms Professor",
+          "relationships": {
+            "Harry Potter": "Teaches",
+            "Hermione Granger": "Impressed by"
+          }
+        }
+      }
+    },
+    "professor-sprout": {
+      "name": "Professor Pomona Sprout",
+      "aliases": ["Professor Sprout"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A dumpy little witch who teaches Herbology. Head of Hufflepuff House. Often has dirt under her fingernails from working with magical plants.",
+          "role": "Herbology Professor",
+          "relationships": {
+            "Harry Potter": "Teaches",
+            "Neville Longbottom": "Student of"
+          }
+        }
+      }
+    },
+    "argus-filch": {
+      "name": "Argus Filch",
+      "aliases": ["Mr. Filch"],
+      "appearances": [8, 11, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The caretaker of Hogwarts. A thin, sour man with long greasy hair. Hates students and would like to see them all expelled. Has a cat named Mrs. Norris who helps him patrol the corridors.",
+          "role": "Hogwarts caretaker",
+          "relationships": {
+            "Mrs. Norris": "Owner of",
+            "Harry Potter": "Tries to catch",
+            "Albus Dumbledore": "Works for"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Patrols the castle looking for rule-breaking students. Nearly catches Harry when Draco tricks him into a fake duel, but Harry escapes.",
+          "role": "Castle patrol",
+          "relationships": {
+            "Draco Malfoy": "Tipped off by",
+            "Harry Potter": "Hunts for"
+          }
+        }
+      }
+    },
+    "mrs-norris": {
+      "name": "Mrs. Norris",
+      "aliases": [],
+      "appearances": [8, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Filch's cat. A scrawny, dust-colored creature with bulging, lamp-like eyes. Patrols the corridors and reports rule-breaking students to Filch.",
+          "role": "Filch's patrol cat",
+          "relationships": {
+            "Argus Filch": "Belongs to",
+            "Harry Potter": "Watches suspiciously"
+          }
+        }
+      }
+    },
+    "the-fat-lady": {
+      "name": "The Fat Lady",
+      "aliases": [],
+      "appearances": [7, 11],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A portrait of a fat woman in a pink silk dress who guards the entrance to Gryffindor Tower. Requires a password to allow entry.",
+          "role": "Gryffindor Tower guardian",
+          "relationships": {
+            "Harry Potter": "Guards entrance for",
+            "Percy Weasley": "Gives password to"
+          }
+        }
+      }
+    },
+    "madam-hooch": {
+      "name": "Madam Rolanda Hooch",
+      "aliases": ["Madam Hooch"],
+      "appearances": [9, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The flying instructor with short grey hair and yellow eyes like a hawk. Strict but fair teacher who referees Quidditch matches. Takes Neville to the hospital wing after his flying accident.",
+          "role": "Flying instructor and Quidditch referee",
+          "relationships": {
+            "Harry Potter": "Teaches flying to",
+            "Neville Longbottom": "Takes to hospital wing",
+            "Professor McGonagall": "Reports Harry's flying ability to"
+          }
+        }
+      }
+    },
+    "oliver-wood": {
+      "name": "Oliver Wood",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Captain of the Gryffindor Quidditch team. A burly fifth-year student who is passionate about Quidditch. Recruits Harry as the new Seeker after seeing his flying ability.",
+          "role": "Gryffindor Quidditch Captain",
+          "relationships": {
+            "Harry Potter": "Recruits as Seeker",
+            "Professor McGonagall": "Works with",
+            "Angelina Johnson": "Teammate"
+          }
+        }
+      }
+    },
+    "angelina-johnson": {
+      "name": "Angelina Johnson",
+      "aliases": [],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Chaser on the Gryffindor Quidditch team. Helps train Harry for his first match.",
+          "role": "Gryffindor Chaser",
+          "relationships": {
+            "Harry Potter": "Teammate of",
+            "Oliver Wood": "Captain of team",
+            "Katie Bell": "Fellow Chaser"
+          }
+        }
+      }
+    },
+    "katie-bell": {
+      "name": "Katie Bell",
+      "aliases": [],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Chaser on the Gryffindor Quidditch team. Helps train Harry for his first match.",
+          "role": "Gryffindor Chaser",
+          "relationships": {
+            "Harry Potter": "Teammate of",
+            "Oliver Wood": "Captain of team",
+            "Angelina Johnson": "Fellow Chaser"
+          }
+        }
+      }
+    },
+    "alicia-spinnet": {
+      "name": "Alicia Spinnet",
+      "aliases": [],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Chaser on the Gryffindor Quidditch team. Helps train Harry for his first match.",
+          "role": "Gryffindor Chaser",
+          "relationships": {
+            "Harry Potter": "Teammate of",
+            "Oliver Wood": "Captain of team"
+          }
+        }
+      }
+    },
+    "marcus-flint": {
+      "name": "Marcus Flint",
+      "aliases": [],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Captain of the Slytherin Quidditch team. A sixth-year student who plays dirty and tries to intimidate opponents during matches.",
+          "role": "Slytherin Quidditch Captain",
+          "relationships": {
+            "Harry Potter": "Opponent of",
+            "Oliver Wood": "Rival captain"
+          }
+        }
+      }
+    },
+    "madam-pomfrey": {
+      "name": "Madam Poppy Pomfrey",
+      "aliases": ["Madam Pomfrey"],
+      "appearances": [9, 17],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The school nurse who runs the hospital wing. A kindly witch who cares for injured students. Treats Neville after his flying accident.",
+          "role": "School nurse",
+          "relationships": {
+            "Neville Longbottom": "Treats",
+            "Harry Potter": "Cares for"
+          }
+        }
+      }
+    },
+    "nearly-headless-nick": {
+      "name": "Sir Nicholas de Mimsy-Porpington",
+      "aliases": ["Nearly Headless Nick"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The ghost of Gryffindor Tower. A transparent, pearly-white ghost wearing a doublet and tights. His head is nearly severed and hangs at an odd angle, hence his nickname.",
+          "role": "Gryffindor House ghost",
+          "relationships": {
+            "Harry Potter": "House ghost for",
+            "Ron Weasley": "Introduces himself to"
+          }
+        }
+      }
+    },
+    "the-bloody-baron": {
+      "name": "The Bloody Baron",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The ghost of Slytherin House. A gaunt ghost covered in silver bloodstains. The other ghosts seem to be afraid of him.",
+          "role": "Slytherin House ghost",
+          "relationships": {
+            "Draco Malfoy": "House ghost for",
+            "Nearly Headless Nick": "Fellow ghost"
+          }
+        }
+      }
+    },
+    "the-fat-friar": {
+      "name": "The Fat Friar",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The ghost of Hufflepuff House. A jolly, fat ghost who wears monk's robes.",
+          "role": "Hufflepuff House ghost",
+          "relationships": {
+            "Nearly Headless Nick": "Fellow ghost"
+          }
+        }
+      }
+    },
+    "the-grey-lady": {
+      "name": "The Grey Lady",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The ghost of Ravenclaw House. A tall, grave ghost who rarely speaks to students.",
+          "role": "Ravenclaw House ghost",
+          "relationships": {
+            "Nearly Headless Nick": "Fellow ghost"
+          }
+        }
+      }
+    },
+    "tom-the-barman": {
+      "name": "Tom",
+      "aliases": ["The Barman"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The toothless barman of the Leaky Cauldron pub. A bald, friendly wizard who recognizes Harry Potter immediately and seems excited to meet him.",
+          "role": "Leaky Cauldron barman",
+          "relationships": {
+            "Harry Potter": "Serves and recognizes",
+            "Hagrid": "Regular customer"
+          }
+        }
+      }
+    },
+    "griphook": {
+      "name": "Griphook",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A goblin who works at Gringotts Bank. Has a swarthy, clever face, pointed beard, and very long fingers and feet. Escorts Harry and Hagrid to Harry's vault on a wild cart ride through the underground tunnels.",
+          "role": "Gringotts goblin employee",
+          "relationships": {
+            "Harry Potter": "Escorts to vault",
+            "Hagrid": "Bank employee for"
+          }
+        }
+      }
+    },
+    "james-potter": {
+      "name": "James Potter",
+      "aliases": [],
+      "appearances": [12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's father who was murdered by Voldemort. Remembered as a good wizard who died trying to protect his family.",
+          "role": "Harry's deceased father",
+          "relationships": {
+            "Harry Potter": "Father of",
+            "Lily Potter": "Husband of",
+            "Voldemort": "Murdered by"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Appears in the Mirror of Erised alongside Lily. Had messy black hair like Harry's and wore glasses. Shows Harry's deepest desire to see his parents alive.",
+          "role": "Harry's beloved father",
+          "relationships": {
+            "Harry Potter": "Father of (appears in mirror to)",
+            "Lily Potter": "Husband of (appears with)"
+          }
+        }
+      }
+    },
+    "lily-potter": {
+      "name": "Lily Potter",
+      "aliases": [],
+      "appearances": [12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's mother who was murdered by Voldemort. Sister of Petunia Dursley. Remembered as a loving mother who died protecting her son.",
+          "role": "Harry's deceased mother",
+          "relationships": {
+            "Harry Potter": "Mother of",
+            "James Potter": "Wife of",
+            "Petunia Dursley": "Sister of",
+            "Voldemort": "Murdered by"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Appears in the Mirror of Erised alongside James. Had the same bright green eyes as Harry and long dark red hair. Shows Harry's deepest desire to see his parents alive.",
+          "role": "Harry's beloved mother",
+          "relationships": {
+            "Harry Potter": "Mother of (appears in mirror to)",
+            "James Potter": "Wife of (appears with)"
+          }
+        }
+      }
+    },
+    "nicolas-flamel": {
+      "name": "Nicolas Flamel",
+      "aliases": [],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The only known maker of the Philosopher's Stone. An ancient alchemist who is 665 years old and has been kept alive by the Stone's power. Friend and partner of Albus Dumbledore.",
+          "role": "Alchemist and Stone creator",
+          "relationships": {
+            "Albus Dumbledore": "Partner of",
+            "Perenelle Flamel": "Husband of",
+            "Professor Quirrell": "Stone coveted by"
+          }
+        }
+      }
+    },
+    "perenelle-flamel": {
+      "name": "Perenelle Flamel",
+      "aliases": [],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Nicolas Flamel's wife, who is 658 years old. Like her husband, she has been kept alive by the Philosopher's Stone.",
+          "role": "Nicolas Flamel's wife",
+          "relationships": {
+            "Nicolas Flamel": "Wife of"
+          }
+        }
+      }
+    },
+    "norbert": {
+      "name": "Norbert",
+      "aliases": [],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A baby Norwegian Ridgeback dragon that hatches from an egg Hagrid won in a card game. Grows rapidly and becomes increasingly dangerous, breathing fire and biting people.",
+          "role": "Hagrid's illegal dragon",
+          "relationships": {
+            "Rubeus Hagrid": "Raised by",
+            "Harry Potter": "Discovered by",
+            "Charlie Weasley": "Sent to"
+          }
+        }
+      }
+    },
+    "charlie-weasley": {
+      "name": "Charlie Weasley",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "One of Ron's older brothers who works with dragons in Romania. Helps arrange for Norbert to be taken away from Hagrid to a dragon sanctuary.",
+          "role": "Dragon researcher",
+          "relationships": {
+            "Ron Weasley": "Brother of",
+            "Norbert": "Takes custody of"
+          }
+        }
+      }
+    },
+    "firenze": {
+      "name": "Firenze",
+      "aliases": [],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A centaur with platinum blonde hair, palomino body, and astonishingly blue eyes. Lives in the Forbidden Forest. Saves Harry from the hooded figure drinking unicorn blood, carrying him to safety.",
+          "role": "Forest centaur and Harry's rescuer",
+          "relationships": {
+            "Harry Potter": "Rescues and protects",
+            "Bane": "Fellow centaur (disagreed with)",
+            "Ronan": "Fellow centaur"
+          }
+        }
+      }
+    },
+    "bane": {
+      "name": "Bane",
+      "aliases": [],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A black centaur who lives in the Forbidden Forest. Disapproves of Firenze helping Harry, believing centaurs should not interfere with what the stars have foretold.",
+          "role": "Forest centaur",
+          "relationships": {
+            "Firenze": "Fellow centaur (disagrees with)",
+            "Ronan": "Fellow centaur"
+          }
+        }
+      }
+    },
+    "ronan": {
+      "name": "Ronan",
+      "aliases": [],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A red-haired centaur who lives in the Forbidden Forest. Speaks mysteriously about Mars being bright and seems preoccupied with reading the stars.",
+          "role": "Forest centaur",
+          "relationships": {
+            "Firenze": "Fellow centaur",
+            "Bane": "Fellow centaur"
+          }
+        }
+      }
+    },
+    "fluffy": {
+      "name": "Fluffy",
+      "aliases": [],
+      "appearances": [9, 11, 14, 16],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A massive three-headed dog that guards the trapdoor on the third floor. The size of a mountain troll with three snarling heads and six gleaming eyes.",
+          "role": "Guardian of the Philosopher's Stone",
+          "relationships": {
+            "Rubeus Hagrid": "Belongs to",
+            "Harry Potter": "Encountered by",
+            "Professor Quirrell": "Guarding Stone from"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Falls asleep when music is played to it. This is the secret Hagrid accidentally reveals to the stranger who gave him the dragon egg.",
+          "role": "Sleeping guardian",
+          "relationships": {
+            "Professor Quirrell": "Secret revealed to (unknowingly)"
+          }
+        }
+      }
     }
   },
   "recaps": {

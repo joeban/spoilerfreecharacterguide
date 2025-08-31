@@ -763,6 +763,876 @@
           }
         }
       }
+    },
+    "stan-shunpike": {
+      "name": "Stan Shunpike",
+      "aliases": [
+        "Stan"
+      ],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Conductor of the Knight Bus, around eighteen years old with protruding ears. Chats with Harry about Sirius Black.",
+          "role": "Knight Bus conductor",
+          "relationships": {
+            "Harry Potter": "Knight Bus passenger",
+            "Ernest Prang": "Works with"
+          }
+        }
+      }
+    },
+    "ernie-prang": {
+      "name": "Ernest Prang",
+      "aliases": [
+        "Ernie"
+      ],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Elderly driver of the Knight Bus with thick glasses. Takes the bus on wild journeys through London streets.",
+          "role": "Knight Bus driver",
+          "relationships": {
+            "Stan Shunpike": "Works with",
+            "Harry Potter": "Transported"
+          }
+        }
+      }
+    },
+    "tom-innkeeper": {
+      "name": "Tom",
+      "aliases": [
+        "Tom the Innkeeper"
+      ],
+      "appearances": [
+        3,
+        4
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Toothless innkeeper of the Leaky Cauldron who welcomes Harry. Concerned about his safety from Sirius Black.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Harry Potter": "Hosting at inn",
+            "Cornelius Fudge": "Cooperates with Ministry"
+          }
+        }
+      }
+    },
+    "minerva-mcgonagall": {
+      "name": "Minerva McGonagall",
+      "aliases": [
+        "Professor McGonagall"
+      ],
+      "appearances": [
+        4,
+        5,
+        16,
+        21,
+        22
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Transfiguration professor and Head of Gryffindor House. Strict but caring teacher who worries about student safety.",
+          "role": "Professor, Head of House",
+          "relationships": {
+            "Harry Potter": "Head of House for",
+            "Albus Dumbledore": "Deputy Headmistress to"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Entrusted Hermione with the Time-Turner to take extra classes. Shows great trust in her responsibility.",
+          "role": "Professor, Time-Turner guardian",
+          "relationships": {
+            "Hermione Granger": "Gave Time-Turner to",
+            "Ministry of Magic": "Coordinated with for Time-Turner"
+          }
+        }
+      }
+    },
+    "oliver-wood": {
+      "name": "Oliver Wood",
+      "aliases": [
+        "Wood"
+      ],
+      "appearances": [
+        9,
+        13,
+        15
+      ],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Seventh-year Gryffindor Quidditch Captain and Keeper. Obsessed with winning the Quidditch Cup in his final year.",
+          "role": "Quidditch Captain, Keeper",
+          "relationships": {
+            "Harry Potter": "Team Seeker",
+            "Gryffindor team": "Captain of"
+          }
+        }
+      }
+    },
+    "fred-weasley": {
+      "name": "Fred Weasley",
+      "aliases": [
+        "Fred"
+      ],
+      "appearances": [
+        4,
+        11,
+        13,
+        15,
+        22
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Fifth-year Gryffindor twin who gives Harry the Marauder's Map. One of the Gryffindor Beaters on the Quidditch team.",
+          "role": "Student, Beater, Prankster",
+          "relationships": {
+            "George Weasley": "Twin brother",
+            "Harry Potter": "Gave Marauder's Map to",
+            "Ron Weasley": "Brother"
+          }
+        }
+      }
+    },
+    "george-weasley": {
+      "name": "George Weasley",
+      "aliases": [
+        "George"
+      ],
+      "appearances": [
+        4,
+        11,
+        13,
+        15,
+        22
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Fifth-year Gryffindor twin who helps give Harry the Marauder's Map. Other Gryffindor Beater alongside his twin.",
+          "role": "Student, Beater, Prankster",
+          "relationships": {
+            "Fred Weasley": "Twin brother",
+            "Harry Potter": "Gave Marauder's Map to",
+            "Ron Weasley": "Brother"
+          }
+        }
+      }
+    },
+    "percy-weasley": {
+      "name": "Percy Weasley",
+      "aliases": [
+        "Percy"
+      ],
+      "appearances": [
+        4,
+        5,
+        22
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Seventh-year Gryffindor and Head Boy. Very ambitious and rule-following, takes his prefect duties seriously.",
+          "role": "Head Boy, Seventh-year student",
+          "relationships": {
+            "Ron Weasley": "Brother",
+            "Fred Weasley": "Brother",
+            "George Weasley": "Brother"
+          }
+        }
+      }
+    },
+    "ginny-weasley": {
+      "name": "Ginny Weasley",
+      "aliases": [
+        "Ginny"
+      ],
+      "appearances": [
+        4,
+        22
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Second-year Gryffindor and Ron's younger sister. Shy around Harry but brave and determined.",
+          "role": "Student, Second-year",
+          "relationships": {
+            "Ron Weasley": "Sister",
+            "Harry Potter": "Shy around",
+            "Fred Weasley": "Sister",
+            "George Weasley": "Sister"
+          }
+        }
+      }
+    },
+    "seamus-finnigan": {
+      "name": "Seamus Finnigan",
+      "aliases": [
+        "Seamus"
+      ],
+      "appearances": [
+        5,
+        6,
+        8
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Third-year Gryffindor student and Harry's dormmate. Irish accent and tendency to cause small explosions in class.",
+          "role": "Student, Gryffindor",
+          "relationships": {
+            "Harry Potter": "Dormmate",
+            "Dean Thomas": "Best friend"
+          }
+        }
+      }
+    },
+    "dean-thomas": {
+      "name": "Dean Thomas",
+      "aliases": [
+        "Dean"
+      ],
+      "appearances": [
+        5,
+        6,
+        8
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Third-year Gryffindor student and Harry's dormmate. Interested in football and gets along well with everyone.",
+          "role": "Student, Gryffindor",
+          "relationships": {
+            "Harry Potter": "Dormmate",
+            "Seamus Finnigan": "Best friend"
+          }
+        }
+      }
+    },
+    "lavender-brown": {
+      "name": "Lavender Brown",
+      "aliases": [
+        "Lavender"
+      ],
+      "appearances": [
+        6,
+        8,
+        16
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Third-year Gryffindor student who takes Divination. Very interested in Professor Trelawney's predictions.",
+          "role": "Student, Gryffindor",
+          "relationships": {
+            "Parvati Patil": "Best friend",
+            "Sybill Trelawney": "Fascinated by"
+          }
+        }
+      }
+    },
+    "parvati-patil": {
+      "name": "Parvati Patil",
+      "aliases": [
+        "Parvati"
+      ],
+      "appearances": [
+        6,
+        8,
+        16
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Third-year Gryffindor student who takes Divination. Very supportive of Professor Trelawney's methods.",
+          "role": "Student, Gryffindor",
+          "relationships": {
+            "Lavender Brown": "Best friend",
+            "Sybill Trelawney": "Believes in",
+            "Padma Patil": "Twin sister"
+          }
+        }
+      }
+    },
+    "lee-jordan": {
+      "name": "Lee Jordan",
+      "aliases": [
+        "Lee"
+      ],
+      "appearances": [
+        13,
+        15
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Fifth-year Gryffindor and Quidditch commentator. Friend of the Weasley twins and enthusiastic announcer.",
+          "role": "Student, Quidditch commentator",
+          "relationships": {
+            "Fred Weasley": "Friend",
+            "George Weasley": "Friend",
+            "Minerva McGonagall": "Supervised by during commentary"
+          }
+        }
+      }
+    },
+    "katie-bell": {
+      "name": "Katie Bell",
+      "aliases": [
+        "Katie"
+      ],
+      "appearances": [
+        13,
+        15
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Fifth-year Gryffindor Chaser on the Quidditch team. Reliable player who works well with the other Chasers.",
+          "role": "Student, Chaser",
+          "relationships": {
+            "Oliver Wood": "Teammate under captain",
+            "Angelina Johnson": "Fellow Chaser",
+            "Alicia Spinnet": "Fellow Chaser"
+          }
+        }
+      }
+    },
+    "alicia-spinnet": {
+      "name": "Alicia Spinnet",
+      "aliases": [
+        "Alicia"
+      ],
+      "appearances": [
+        13,
+        15
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Fifth-year Gryffindor Chaser on the Quidditch team. Fast and agile player who scores consistently.",
+          "role": "Student, Chaser",
+          "relationships": {
+            "Oliver Wood": "Teammate under captain",
+            "Katie Bell": "Fellow Chaser",
+            "Angelina Johnson": "Fellow Chaser"
+          }
+        }
+      }
+    },
+    "angelina-johnson": {
+      "name": "Angelina Johnson",
+      "aliases": [
+        "Angelina"
+      ],
+      "appearances": [
+        13,
+        15
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Fifth-year Gryffindor Chaser on the Quidditch team. Tall and skilled player with natural leadership qualities.",
+          "role": "Student, Chaser",
+          "relationships": {
+            "Oliver Wood": "Teammate under captain",
+            "Katie Bell": "Fellow Chaser",
+            "Alicia Spinnet": "Fellow Chaser"
+          }
+        }
+      }
+    },
+    "marcus-flint": {
+      "name": "Marcus Flint",
+      "aliases": [
+        "Flint"
+      ],
+      "appearances": [
+        13
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Slytherin Quidditch Captain and Chaser. Aggressive player who leads the Slytherin team with intimidation tactics.",
+          "role": "Student, Quidditch Captain",
+          "relationships": {
+            "Slytherin team": "Captain of",
+            "Oliver Wood": "Rival captain"
+          }
+        }
+      }
+    },
+    "cedric-diggory": {
+      "name": "Cedric Diggory",
+      "aliases": [
+        "Diggory"
+      ],
+      "appearances": [
+        13,
+        15
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Hufflepuff Seeker and Captain. Handsome, popular sixth-year who plays fair and is well-liked by most students.",
+          "role": "Student, Seeker, Captain",
+          "relationships": {
+            "Harry Potter": "Rival Seeker",
+            "Hufflepuff team": "Captain of"
+          }
+        }
+      }
+    },
+    "cho-chang": {
+      "name": "Cho Chang",
+      "aliases": [
+        "Cho"
+      ],
+      "appearances": [
+        13
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Ravenclaw Seeker and fourth-year student. Pretty and skilled Quidditch player who catches Harry's attention.",
+          "role": "Student, Seeker",
+          "relationships": {
+            "Harry Potter": "Noticed by",
+            "Ravenclaw team": "Seeker for"
+          }
+        }
+      }
+    },
+    "madam-pomfrey": {
+      "name": "Poppy Pomfrey",
+      "aliases": [
+        "Madam Pomfrey"
+      ],
+      "appearances": [
+        7,
+        21,
+        22
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Hogwarts matron who runs the hospital wing. Fussy but caring, treats Draco after his encounter with Buckbeak.",
+          "role": "School nurse",
+          "relationships": {
+            "Draco Malfoy": "Treated for injury",
+            "Students": "Cares for when injured"
+          }
+        }
+      }
+    },
+    "argus-filch": {
+      "name": "Argus Filch",
+      "aliases": [
+        "Filch"
+      ],
+      "appearances": [
+        4,
+        11,
+        13
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Hogwarts caretaker who patrols the corridors with his cat Mrs. Norris. Grumpy and eager to punish students.",
+          "role": "Caretaker",
+          "relationships": {
+            "Mrs. Norris": "Cat companion",
+            "Students": "Constantly trying to catch"
+          }
+        }
+      }
+    },
+    "mrs-norris": {
+      "name": "Mrs. Norris",
+      "aliases": [
+        "Norris"
+      ],
+      "appearances": [
+        4,
+        11,
+        13
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Filch's mangy grey cat who helps patrol Hogwarts corridors. Seems to understand human speech and reports to Filch.",
+          "role": "Caretaker's cat",
+          "relationships": {
+            "Argus Filch": "Loyal companion to",
+            "Students": "Spies on for Filch"
+          }
+        }
+      }
+    },
+    "crookshanks": {
+      "name": "Crookshanks",
+      "aliases": [
+        "Hermione's cat"
+      ],
+      "appearances": [
+        4,
+        11,
+        15,
+        17,
+        18
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Hermione's new pet - a large, ginger, half-kneazle cat with a squashed face. Very intelligent and suspicious of Scabbers.",
+          "role": "Pet cat",
+          "relationships": {
+            "Hermione Granger": "Pet of",
+            "Scabbers": "Suspicious of",
+            "Ron Weasley": "Disliked by"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Revealed to have been helping Sirius Black, recognizing him as innocent. Part-kneazle intelligence allowed him to detect Pettigrew.",
+          "role": "Pet cat, Sirius's ally",
+          "relationships": {
+            "Sirius Black": "Helped and recognized",
+            "Peter Pettigrew": "Could detect as Animagus"
+          }
+        }
+      }
+    },
+    "rosmerta": {
+      "name": "Madam Rosmerta",
+      "aliases": [
+        "Rosmerta"
+      ],
+      "appearances": [
+        10,
+        12
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Landlady of the Three Broomsticks in Hogsmeade. Pretty, curvy witch who serves butterbeer to students and locals.",
+          "role": "Pub landlady",
+          "relationships": {
+            "Students": "Serves at Three Broomsticks",
+            "Cornelius Fudge": "Knows from Ministry visits"
+          }
+        }
+      }
+    },
+    "lucius-malfoy": {
+      "name": "Lucius Malfoy",
+      "aliases": [
+        "Mr. Malfoy"
+      ],
+      "appearances": [
+        16,
+        20
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Draco's father and wealthy member of Hogwarts Board of Governors. Uses his influence to push for Buckbeak's execution.",
+          "role": "School governor, Pure-blood supremacist",
+          "relationships": {
+            "Draco Malfoy": "Father of",
+            "Buckbeak": "Pushing for execution of",
+            "Rubeus Hagrid": "Antagonistic toward"
+          }
+        }
+      }
+    },
+    "executioner": {
+      "name": "Executioner",
+      "aliases": [
+        "Ministry executioner"
+      ],
+      "appearances": [
+        20,
+        21
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Hooded Ministry official who arrives to execute Buckbeak. Carries a large axe and follows Ministry orders without question.",
+          "role": "Ministry executioner",
+          "relationships": {
+            "Buckbeak": "Sent to execute",
+            "Cornelius Fudge": "Works for Ministry"
+          }
+        }
+      }
+    },
+    "fat-lady": {
+      "name": "The Fat Lady",
+      "aliases": [
+        "Fat Lady"
+      ],
+      "appearances": [
+        4,
+        13
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Portrait who guards the entrance to Gryffindor Tower. Likes to sing opera and requires the password to enter.",
+          "role": "Portrait, Door guardian",
+          "relationships": {
+            "Gryffindor students": "Guards entrance for",
+            "Sir Cadogan": "Temporarily replaced by"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Found slashed and hiding after Sirius Black attacked her portrait trying to enter Gryffindor Tower.",
+          "role": "Portrait, Attack victim",
+          "relationships": {
+            "Sirius Black": "Attacked by",
+            "Peeves": "Found hiding with"
+          }
+        }
+      }
+    },
+    "sir-cadogan": {
+      "name": "Sir Cadogan",
+      "aliases": [
+        "Sir Cadogan"
+      ],
+      "appearances": [
+        6,
+        13
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Portrait of a knight with a fat pony who challenges people to duels. Brave but incompetent medieval knight.",
+          "role": "Portrait, Knight",
+          "relationships": {
+            "Students": "Challenges to duels",
+            "Fat pony": "Rides in portrait"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Temporarily replaces the Fat Lady as password keeper. Changes passwords frequently and lets Sirius in by accident.",
+          "role": "Portrait, Temporary guardian",
+          "relationships": {
+            "Fat Lady": "Temporarily replaces",
+            "Sirius Black": "Accidentally admitted"
+          }
+        }
+      }
+    },
+    "peeves": {
+      "name": "Peeves",
+      "aliases": [
+        "Peeves the Poltergeist"
+      ],
+      "appearances": [
+        4,
+        13
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Mischievous poltergeist who haunts Hogwarts. Causes chaos and mayhem, dropping things on students and making messes.",
+          "role": "Poltergeist",
+          "relationships": {
+            "Students": "Torments for fun",
+            "Argus Filch": "Constantly antagonizes",
+            "Bloody Baron": "Only fears"
+          }
+        }
+      }
+    },
+    "nearly-headless-nick": {
+      "name": "Sir Nicholas de Mimsy-Porpington",
+      "aliases": [
+        "Nearly Headless Nick",
+        "Nick"
+      ],
+      "appearances": [
+        4,
+        5
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Gryffindor House ghost whose head is nearly severed. Friendly ghost who welcomes students back to school.",
+          "role": "House ghost",
+          "relationships": {
+            "Gryffindor students": "House ghost for",
+            "Other house ghosts": "Fellow Hogwarts ghost"
+          }
+        }
+      }
+    },
+    "professor-sprout": {
+      "name": "Pomona Sprout",
+      "aliases": [
+        "Professor Sprout"
+      ],
+      "appearances": [
+        4,
+        6
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Herbology professor and Head of Hufflepuff House. Kindly witch who teaches students about magical plants.",
+          "role": "Professor, Head of House",
+          "relationships": {
+            "Students": "Herbology teacher",
+            "Hufflepuff students": "Head of House for"
+          }
+        }
+      }
+    },
+    "professor-flitwick": {
+      "name": "Filius Flitwick",
+      "aliases": [
+        "Professor Flitwick"
+      ],
+      "appearances": [
+        4,
+        6
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Tiny Charms professor and Head of Ravenclaw House. Excitable teacher who demonstrates spells with enthusiasm.",
+          "role": "Professor, Head of House",
+          "relationships": {
+            "Students": "Charms teacher",
+            "Ravenclaw students": "Head of House for"
+          }
+        }
+      }
+    },
+    "aunt-marge": {
+      "name": "Marjorie Dursley",
+      "aliases": [
+        "Aunt Marge",
+        "Marge"
+      ],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Vernon's sister who breeds bulldogs. Nasty woman who insults Harry's parents, causing Harry to accidentally inflate her.",
+          "role": "Vernon's sister, Dog breeder",
+          "relationships": {
+            "Vernon Dursley": "Sister of",
+            "Harry Potter": "Inflated by in anger",
+            "Ripper": "Owns bulldog"
+          }
+        }
+      }
+    },
+    "ripper": {
+      "name": "Ripper",
+      "aliases": [
+        "Marge's dog"
+      ],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Aunt Marge's favorite bulldog who once attacked Harry. Aggressive dog that reflects his owner's nasty temperament.",
+          "role": "Pet dog",
+          "relationships": {
+            "Marjorie Dursley": "Owned by Aunt Marge",
+            "Harry Potter": "Previously attacked"
+          }
+        }
+      }
+    },
+    "vernon-dursley": {
+      "name": "Vernon Dursley",
+      "aliases": [
+        "Uncle Vernon"
+      ],
+      "appearances": [
+        1,
+        2
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's uncle and guardian. Large, beefy man who works at a drill company and despises anything magical.",
+          "role": "Guardian, Muggle",
+          "relationships": {
+            "Harry Potter": "Reluctant guardian of",
+            "Petunia Dursley": "Husband of",
+            "Marjorie Dursley": "Sister"
+          }
+        }
+      }
+    },
+    "petunia-dursley": {
+      "name": "Petunia Dursley",
+      "aliases": [
+        "Aunt Petunia"
+      ],
+      "appearances": [
+        1,
+        2
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's aunt and Lily's sister. Thin, horse-faced woman who resents Harry and tries to suppress his magical nature.",
+          "role": "Guardian, Lily's sister",
+          "relationships": {
+            "Harry Potter": "Reluctant guardian of",
+            "Vernon Dursley": "Wife of",
+            "Lily Potter": "Sister of (deceased)",
+            "Dudley Dursley": "Mother of"
+          }
+        }
+      }
+    },
+    "dudley-dursley": {
+      "name": "Dudley Dursley",
+      "aliases": [
+        "Dudley",
+        "Big D"
+      ],
+      "appearances": [
+        1,
+        2
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's spoiled cousin who bullies him regularly. Large, stupid boy who is pampered by his parents.",
+          "role": "Cousin, Bully",
+          "relationships": {
+            "Harry Potter": "Cousin and bully of",
+            "Vernon Dursley": "Son of",
+            "Petunia Dursley": "Son of"
+          }
+        }
+      }
     }
   },
   "recaps": {
