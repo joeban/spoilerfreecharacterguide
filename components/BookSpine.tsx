@@ -97,9 +97,9 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
             <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-amber-400/50 to-transparent" />
             
             {/* Title on spine (rotated) */}
-            <div className="flex-1 flex items-center justify-center px-1 py-4">
-              <span className="text-amber-200/80 text-xs font-display writing-mode-vertical whitespace-nowrap overflow-hidden text-ellipsis max-h-full">
-                {title}
+            <div className="flex-1 flex items-center justify-center px-1 py-4 overflow-hidden">
+              <span className="text-amber-200/80 text-xs font-display writing-mode-vertical whitespace-nowrap max-w-full">
+                {title.length > 22 ? title.substring(0, 20) + '...' : title}
               </span>
             </div>
             
@@ -128,15 +128,17 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
           }}
         >
           {/* Decorative corner flourishes */}
-          <div className="absolute top-3 left-3 w-5 h-5 border-l-2 border-t-2 border-amber-400/20 rounded-tl" />
-          <div className="absolute top-3 right-3 w-5 h-5 border-r-2 border-t-2 border-amber-400/20 rounded-tr" />
-          <div className="absolute bottom-3 left-3 w-5 h-5 border-l-2 border-b-2 border-amber-400/20 rounded-bl" />
-          <div className="absolute bottom-3 right-3 w-5 h-5 border-r-2 border-b-2 border-amber-400/20 rounded-br" />
+          <div className="absolute top-2 left-2 w-5 h-5 border-l-2 border-t-2 border-amber-400/20 rounded-tl" />
+          <div className="absolute top-2 right-2 w-5 h-5 border-r-2 border-t-2 border-amber-400/20 rounded-tr" />
+          <div className="absolute bottom-2 left-2 w-5 h-5 border-l-2 border-b-2 border-amber-400/20 rounded-bl" />
+          <div className="absolute bottom-2 right-2 w-5 h-5 border-r-2 border-b-2 border-amber-400/20 rounded-br" />
           
           {/* Cover content */}
-          <div className="relative z-10 h-full flex flex-col justify-between p-4">
+          <div className="relative z-10 h-full flex flex-col justify-between p-3">
             <div className="space-y-1">
-              <h3 className="text-lg font-display text-amber-100 leading-tight">{title}</h3>
+              <h3 className="text-sm font-display font-semibold text-amber-100 leading-tight break-normal hyphens-none">
+                {title}
+              </h3>
               <p className="text-xs text-amber-200/70 italic">{author}</p>
             </div>
             
