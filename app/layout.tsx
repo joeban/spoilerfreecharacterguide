@@ -66,32 +66,24 @@ export default function RootLayout({
                       </div>
                     </div>
                     
-                    {/* Decorative banner scroll */}
-                    <div className="flex items-center justify-center my-4">
-                      <div className="relative bg-gradient-to-r from-amber-800 via-amber-700 to-amber-800 px-6 py-2 rounded-full shadow-inner">
-                        {/* Scroll edges */}
-                        <div className="absolute -left-2 top-1/2 -translate-y-1/2 w-4 h-6 bg-amber-800 rounded-l-full shadow-lg border-r border-amber-900/50" />
-                        <div className="absolute -right-2 top-1/2 -translate-y-1/2 w-4 h-6 bg-amber-800 rounded-r-full shadow-lg border-l border-amber-900/50" />
-                        
-                        <span className="text-amber-200 text-xs font-medium tracking-wide uppercase">
-                          Chronicle without Consequence
-                        </span>
-                      </div>
-                    </div>
-                    
-                    {/* Clean 3-step process */}
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-amber-200 text-xs">
-                      <span className="font-medium">Choose Series</span>
+                    {/* Clear 4-step process - larger and more readable */}
+                    <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4 text-amber-100 text-sm">
+                      <span className="font-semibold">Choose Series</span>
                       
-                      <div className="text-amber-400/50 hidden sm:block">→</div>
-                      <div className="text-amber-400/50 sm:hidden">↓</div>
+                      <div className="text-amber-300 hidden sm:block text-lg">→</div>
+                      <div className="text-amber-300 sm:hidden text-lg">↓</div>
                       
-                      <span className="font-medium">Select Chapter</span>
+                      <span className="font-semibold">Select Book</span>
                       
-                      <div className="text-amber-400/50 hidden sm:block">→</div>
-                      <div className="text-amber-400/50 sm:hidden">↓</div>
+                      <div className="text-amber-300 hidden sm:block text-lg">→</div>
+                      <div className="text-amber-300 sm:hidden text-lg">↓</div>
                       
-                      <span className="font-medium">Read Safely</span>
+                      <span className="font-semibold">Pick Chapter</span>
+                      
+                      <div className="text-amber-300 hidden sm:block text-lg">→</div>
+                      <div className="text-amber-300 sm:hidden text-lg">↓</div>
+                      
+                      <span className="font-semibold">See Only What You Need</span>
                     </div>
                   </div>
                   
