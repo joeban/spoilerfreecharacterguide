@@ -3,877 +3,566 @@
     "title": "The Fellowship of the Ring",
     "author": "J.R.R. Tolkien",
     "chapters": 24,
-    "createdAt": "2024-08-31T00:00:00Z",
+    "createdAt": "2024-01-01T00:00:00Z",
     "schemaVersion": "2.0"
   },
   "characters": {
     "frodo-baggins": {
       "name": "Frodo Baggins",
-      "aliases": ["Mr. Frodo", "The Ring-bearer"],
+      "aliases": ["Mr. Underhill"],
       "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Bilbo Baggins' cousin and adopted heir. Lives comfortably at Bag End and is well-regarded among hobbits. About to turn 50, which is considered the coming of age for hobbits. Shares Bilbo's love of maps, stories, and the wider world.",
-          "role": "Bilbo's heir",
+          "description": "A hobbit of fifty years, cousin to Bilbo Baggins. Lives alone at Bag End after Bilbo's mysterious departure seventeen years ago.",
+          "role": "Hobbit of the Shire",
           "relationships": {
-            "Bilbo Baggins": "Cousin and heir of",
-            "Gandalf": "Friend of the family"
+            "Cousin to": "Bilbo Baggins",
+            "Served by": "Samwise Gamgee"
           }
         },
         "2": {
           "revealedIn": 2,
-          "description": "Learns the truth about Bilbo's magic ring from Gandalf - it is the One Ring of power, created by the Dark Lord Sauron. Despite the terrible burden, he accepts the responsibility of destroying it to save Middle-earth.",
+          "description": "Bearer of the One Ring of Power, inherited from Bilbo. Must leave the Shire to prevent Sauron from reclaiming the Ring.",
           "role": "Ring-bearer",
           "relationships": {
-            "The One Ring": "Bearer of",
-            "Gandalf": "Entrusted with the truth by",
-            "Sauron": "Primary target of"
+            "Guided by": "Gandalf the Grey",
+            "Accompanied by": "Samwise Gamgee"
           }
         },
-        "6": {
-          "revealedIn": 6,
-          "description": "Sets out from Bag End with Sam and Pippin, beginning the quest to destroy the Ring. Shows courage in leaving his comfortable life behind, though he doesn't yet understand the full scope of what lies ahead.",
-          "role": "Quest leader",
+        "13": {
+          "revealedIn": 13,
+          "description": "Wounded by a Morgul-blade at Weathertop after putting on the Ring. The wound causes him to fade between the worlds of the seen and unseen.",
+          "role": "Wounded Ring-bearer",
           "relationships": {
-            "Samwise Gamgee": "Faithful companion",
-            "Peregrin Took": "Traveling with",
-            "Meriadoc Brandybuck": "Joined by"
+            "Protected by": "Strider",
+            "Hunted by": "The Nine Nazgûl"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Healed by Elrond's power in Rivendell. Recovers from the Morgul-wound that nearly claimed his life.",
+          "role": "Recovering Ring-bearer",
+          "relationships": {
+            "Healed by": "Elrond",
+            "Reunited with": "Gandalf the Grey"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Volunteers to destroy the Ring in Mount Doom after the Council of Elrond. Becomes the leader of the quest to save Middle-earth.",
+          "role": "Ring-destroyer",
+          "relationships": {
+            "Leads": "The Fellowship of the Ring",
+            "Guided by": "Gandalf the Grey"
           }
         }
       }
     },
     "samwise-gamgee": {
       "name": "Samwise Gamgee",
-      "aliases": ["Sam", "Master Sam"],
-      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "aliases": ["Sam"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Frodo's gardener at Bag End. A practical, loyal hobbit with a love of growing things. Lives with his father, the Gaffer, and has rarely been far from Hobbiton.",
-          "role": "Gardener",
-          "relationships": {
-            "Frodo Baggins": "Gardener and servant of",
-            "Hamfast Gamgee": "Son of (the Gaffer)"
-          }
-        },
         "2": {
           "revealedIn": 2,
-          "description": "Caught eavesdropping on Gandalf's conversation about the Ring. Despite the danger, he insists on accompanying Frodo on the quest, showing unwavering loyalty to his master.",
-          "role": "Loyal companion",
+          "description": "Frodo's loyal gardener who was caught eavesdropping on Gandalf's conversation. Despite the danger, he insists on accompanying his master.",
+          "role": "Faithful companion",
           "relationships": {
-            "Frodo Baggins": "Devoted companion of",
-            "Gandalf": "Entrusted with Frodo's safety by"
+            "Serves": "Frodo Baggins",
+            "Son of": "Hamfast Gamgee"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Chosen as a member of the Fellowship of the Ring. His loyalty to Frodo makes him an essential companion for the quest.",
+          "role": "Member of the Fellowship",
+          "relationships": {
+            "Member of": "The Fellowship of the Ring",
+            "Devoted to": "Frodo Baggins"
           }
         }
       }
     },
-    "gandalf-the-grey": {
-      "name": "Gandalf",
-      "aliases": ["Gandalf the Grey", "Mithrandir", "Stormcrow", "The Grey Pilgrim"],
-      "appearances": [1, 2, 3, 4, 5, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+    "meriadoc-brandybuck": {
+      "name": "Meriadoc Brandybuck",
+      "aliases": ["Merry"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "A wizard who has long been a friend to the hobbits. Known for his fireworks and stories from the outside world. Returns to the Shire after a long absence, seeking Bilbo on important business.",
-          "role": "Wizard and friend",
+        "6": {
+          "revealedIn": 6,
+          "description": "Frodo's younger cousin who reveals he has known about Frodo's secret plans all along. Insists on joining the journey.",
+          "role": "Loyal cousin",
           "relationships": {
-            "Bilbo Baggins": "Old friend of",
-            "Frodo Baggins": "Family friend"
+            "Cousin to": "Frodo Baggins",
+            "Friend of": "Peregrin Took"
           }
         },
-        "2": {
-          "revealedIn": 2,
-          "description": "Reveals himself as one of the wise who opposes the Dark Lord. He has spent years researching Bilbo's ring and discovered its true nature as the One Ring of power. Urges Frodo to leave the Shire immediately.",
-          "role": "Ring-lore keeper",
+        "20": {
+          "revealedIn": 20,
+          "description": "Becomes a member of the Fellowship of the Ring, representing the Shire alongside his companions.",
+          "role": "Member of the Fellowship",
           "relationships": {
-            "Frodo Baggins": "Entrusts with the Ring quest",
-            "Sauron": "Ancient enemy of",
-            "The White Council": "Member of"
+            "Member of": "The Fellowship of the Ring",
+            "Companion of": "Peregrin Took"
           }
         }
       }
     },
     "peregrin-took": {
       "name": "Peregrin Took",
-      "aliases": ["Pippin", "Pip"],
-      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "aliases": ["Pippin"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
-        "6": {
-          "revealedIn": 6,
-          "description": "A young hobbit of the Took family, known for being adventurous and somewhat reckless. Joins Frodo's journey more out of loyalty and curiosity than understanding of the danger involved.",
-          "role": "Young adventurer",
+        "5": {
+          "revealedIn": 5,
+          "description": "A young hobbit who joins Frodo and Sam on their journey. Curious and sometimes reckless, but brave when needed.",
+          "role": "Young companion",
           "relationships": {
-            "Frodo Baggins": "Cousin and companion of",
-            "Meriadoc Brandybuck": "Best friend of",
-            "Took family": "Member of prominent family"
+            "Friend of": "Meriadoc Brandybuck",
+            "Traveling with": "Frodo Baggins"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Despite his youth, becomes a member of the Fellowship of the Ring to help destroy the One Ring.",
+          "role": "Member of the Fellowship",
+          "relationships": {
+            "Member of": "The Fellowship of the Ring",
+            "Companion of": "Meriadoc Brandybuck"
           }
         }
       }
     },
-    "meriadoc-brandybuck": {
-      "name": "Meriadoc Brandybuck", 
-      "aliases": ["Merry"],
-      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+    "gandalf-the-grey": {
+      "name": "Gandalf",
+      "aliases": ["Gandalf the Grey", "Mithrandir", "The Grey Pilgrim"],
+      "appearances": [1, 2, 18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
-        "6": {
-          "revealedIn": 6,
-          "description": "A hobbit of the Brandybuck family and one of Frodo's cousins. More mature and thoughtful than Pippin, but equally loyal. Has been planning to help Frodo for some time.",
-          "role": "Thoughtful companion",
+        "1": {
+          "revealedIn": 1,
+          "description": "A wizard who returns to the Shire with urgent news about Bilbo's ring. Known for his wisdom and magical abilities.",
+          "role": "Wizard",
           "relationships": {
-            "Frodo Baggins": "Cousin and companion of", 
-            "Peregrin Took": "Best friend of",
-            "Brandybuck family": "Member of influential family"
+            "Friend of": "Bilbo Baggins",
+            "Advisor to": "Frodo Baggins"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Reveals the true nature of the One Ring and the growing threat of Sauron. Urges Frodo to leave the Shire immediately.",
+          "role": "Bearer of dire news",
+          "relationships": {
+            "Guides": "Frodo Baggins",
+            "Opposes": "Sauron"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Returns to Rivendell after a long absence, having been imprisoned by Saruman. Explains the growing threat and his escape.",
+          "role": "Escaped prisoner",
+          "relationships": {
+            "Betrayed by": "Saruman the White",
+            "Rescued by": "Gwaihir the Windlord"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Becomes the leader and guide of the Fellowship of the Ring, sworn to protect Frodo on his quest to Mount Doom.",
+          "role": "Leader of the Fellowship",
+          "relationships": {
+            "Leads": "The Fellowship of the Ring",
+            "Protects": "Frodo Baggins"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Sacrifices himself to save the Fellowship from the Balrog of Morgoth, falling into the abyss at the Bridge of Khazad-dûm.",
+          "role": "Fallen hero",
+          "relationships": {
+            "Dies for": "The Fellowship of the Ring",
+            "Battles": "Durin's Bane"
           }
         }
       }
     },
     "aragorn": {
       "name": "Aragorn",
-      "aliases": ["Strider", "Ranger"],
-      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "aliases": ["Strider", "Aragorn son of Arathorn"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
-        "10": {
-          "revealedIn": 10,
-          "description": "A mysterious Ranger who frequents the inn at Bree. Tall, dark, and weather-worn, with a stern face and grey eyes. Other travelers avoid him, calling him 'Strider.' He seems to know more about the hobbits than he should.",
-          "role": "Mysterious Ranger",
-          "relationships": {
-            "Barliman Butterbur": "Known to innkeeper",
-            "Rangers": "One of the mysterious wanderers"
-          }
-        },
         "11": {
           "revealedIn": 11,
-          "description": "Reveals he was sent by Gandalf to watch for Frodo. Offers to guide the hobbits to Rivendell, warning them of the great danger they face from the Black Riders. His knowledge of the wild and the enemy makes him invaluable.",
+          "description": "A mysterious Ranger who approaches the hobbits at the Prancing Pony, claiming Gandalf sent him to watch for them.",
+          "role": "Ranger of the North",
+          "relationships": {
+            "Sent by": "Gandalf the Grey",
+            "Protects": "Frodo Baggins"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "A skilled tracker and warrior who knows the wild lands. Leads the hobbits away from the roads to avoid the Black Riders.",
           "role": "Guide and protector",
           "relationships": {
-            "Frodo Baggins": "Protector and guide of",
-            "Gandalf": "Sent by to help hobbits",
-            "Black Riders": "Experienced opponent of"
+            "Guides": "The Hobbits",
+            "Hunts": "The Nazgûl"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Revealed to be Aragorn son of Arathorn, the rightful heir to the throne of Gondor and Arnor. A descendant of Isildur.",
+          "role": "Heir of Isildur",
+          "relationships": {
+            "Descendant of": "Isildur",
+            "Beloved of": "Arwen Undómiel"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Joins the Fellowship of the Ring as its warrior and tracker, sworn to protect Frodo on the quest to destroy the Ring.",
+          "role": "Member of the Fellowship",
+          "relationships": {
+            "Member of": "The Fellowship of the Ring",
+            "Serves": "Frodo Baggins"
           }
         }
       }
     },
     "boromir": {
       "name": "Boromir",
-      "aliases": ["Son of Denethor"],
+      "aliases": ["Boromir son of Denethor"],
       "appearances": [19, 20, 21, 22, 23, 24],
       "knowledge": {
         "19": {
           "revealedIn": 19,
-          "description": "A man of Gondor who has come to Rivendell seeking answers to a prophetic dream. Tall and proud, with a bearing that speaks of nobility and martial prowess. Son of Denethor, the Ruling Steward of Gondor.",
-          "role": "Gondorian warrior",
+          "description": "A warrior of Gondor who came to Rivendell seeking counsel about a dream. Son of Denethor, the Ruling Steward of Gondor.",
+          "role": "Warrior of Gondor",
           "relationships": {
-            "Denethor": "Son of the Steward",
-            "Gondor": "Defender of",
-            "Faramir": "Brother of"
+            "Son of": "Denethor",
+            "Brother of": "Faramir"
           }
         },
         "20": {
           "revealedIn": 20,
-          "description": "Chosen as a member of the Fellowship of the Ring. Though brave and skilled in battle, he is troubled by the growing power of Mordor threatening his homeland and believes the Ring could be used to defend Gondor.",
-          "role": "Fellowship member",
+          "description": "Becomes a member of the Fellowship of the Ring, representing Gondor. Believes the Ring should be used to defend his city.",
+          "role": "Member of the Fellowship",
           "relationships": {
-            "The Fellowship": "Member of",
-            "The One Ring": "Believes could be used as weapon",
-            "Frodo Baggins": "Fellow traveler with"
+            "Member of": "The Fellowship of the Ring",
+            "Serves": "Gondor"
           }
         }
       }
     },
     "legolas": {
       "name": "Legolas",
-      "aliases": ["Legolas Greenleaf"],
+      "aliases": ["Legolas of the Woodland Realm", "Legolas Greenleaf"],
       "appearances": [19, 20, 21, 22, 23, 24],
       "knowledge": {
         "19": {
           "revealedIn": 19,
-          "description": "An Elf of the Woodland Realm, son of King Thranduil. Tall and fair with keen grey eyes, skilled with bow and blade. Has come to Rivendell with news of Gollum's escape.",
-          "role": "Elven warrior",
+          "description": "An Elf of the Woodland Realm, sent by his father to bring news of Gollum's escape. Skilled archer and tracker.",
+          "role": "Elf messenger",
           "relationships": {
-            "Thranduil": "Son of the Elvenking",
-            "Woodland Realm": "Prince of",
-            "Gollum": "Helped guard"
+            "Son of": "Thranduil",
+            "Represents": "The Woodland Realm"
           }
         },
         "20": {
           "revealedIn": 20,
-          "description": "Chosen as a member of the Fellowship, representing the Elves. His keen senses and woodland skills make him invaluable for the journey ahead.",
-          "role": "Fellowship member", 
+          "description": "Joins the Fellowship of the Ring as its Elf representative, bringing his keen eyesight and archery skills to the quest.",
+          "role": "Member of the Fellowship",
           "relationships": {
-            "The Fellowship": "Member representing Elves",
-            "Gimli": "Initial distrust of Dwarf",
-            "Aragorn": "Respects the Ranger"
+            "Member of": "The Fellowship of the Ring",
+            "Friend of": "Gimli"
           }
         }
       }
     },
     "gimli": {
-      "name": "Gimli", 
-      "aliases": ["Son of Glóin"],
+      "name": "Gimli",
+      "aliases": ["Gimli son of Glóin"],
       "appearances": [19, 20, 21, 22, 23, 24],
       "knowledge": {
         "19": {
           "revealedIn": 19,
-          "description": "A Dwarf warrior, son of Glóin who was one of Thorin's companions. Stocky and strong with a magnificent beard, he bears an axe and wears mail. Has come to Rivendell with disturbing news from the Lonely Mountain.",
+          "description": "A Dwarf warrior, son of Glóin who was one of Bilbo's companions. Came to Rivendell with news from the Lonely Mountain.",
           "role": "Dwarf warrior",
           "relationships": {
-            "Glóin": "Son of Bilbo's old companion",
-            "Lonely Mountain": "Messenger from",
-            "Balin": "Concerned for missing kinsman"
+            "Son of": "Glóin",
+            "Represents": "The Lonely Mountain"
           }
         },
         "20": {
           "revealedIn": 20,
-          "description": "Chosen as a member of the Fellowship, representing the Dwarves. Despite ancient enmities between Elves and Dwarves, he agrees to travel with Legolas for the greater good.",
-          "role": "Fellowship member",
+          "description": "Becomes a member of the Fellowship of the Ring, representing the Dwarves. Forms an unlikely friendship with Legolas.",
+          "role": "Member of the Fellowship",
           "relationships": {
-            "The Fellowship": "Member representing Dwarves", 
-            "Legolas": "Uneasy alliance with Elf",
-            "Frodo Baggins": "Respects the Ring-bearer"
-          }
-        }
-      }
-    },
-    "elrond": {
-      "name": "Elrond",
-      "aliases": ["Master Elrond", "Lord of Rivendell"],
-      "appearances": [19, 20],
-      "knowledge": {
-        "19": {
-          "revealedIn": 19,
-          "description": "The Lord of Rivendell and master of the hidden valley. Ancient and wise, with the light of the Elder Days still in his eyes. Keeper of Vilya, one of the Three Rings of the Elves. Healer of Frodo's wound from the Morgul-blade.",
-          "role": "Lord of Rivendell",
-          "relationships": {
-            "Rivendell": "Lord and protector of",
-            "Vilya": "Bearer of Elven Ring",
-            "Frodo Baggins": "Healer of"
-          }
-        },
-        "20": {
-          "revealedIn": 20,
-          "description": "Presides over the Council that decides the fate of the Ring. Despite his power and wisdom, he recognizes that the Ring cannot be used by anyone and must be destroyed. Supports Frodo's decision to bear this burden.",
-          "role": "Council leader",
-          "relationships": {
-            "The Council": "Leader of",
-            "The One Ring": "Understands true nature of",
-            "The Fellowship": "Blesses the company"
+            "Member of": "The Fellowship of the Ring",
+            "Friend of": "Legolas"
           }
         }
       }
     },
     "bilbo-baggins": {
       "name": "Bilbo Baggins",
-      "aliases": ["The Burglar", "Uncle Bilbo"],
+      "aliases": [],
       "appearances": [1, 18, 19],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Frodo's beloved cousin and former guardian. Left Bag End seventeen years ago on his 111th birthday in mysterious circumstances, leaving everything to Frodo. Known throughout the Shire for his wealth and eccentricity.",
+          "description": "Frodo's older cousin who mysteriously disappeared from the Shire seventeen years ago after his birthday party, leaving Bag End to Frodo.",
           "role": "Former Ring-bearer",
           "relationships": {
-            "Frodo Baggins": "Adopted heir and cousin",
-            "The One Ring": "Former bearer of",
-            "Gandalf": "Old friend and adventuring companion"
+            "Cousin to": "Frodo Baggins",
+            "Friend of": "Gandalf the Grey"
           }
         },
         "18": {
           "revealedIn": 18,
-          "description": "Residing peacefully in Rivendell, writing his memoirs and composing songs. Has aged little since leaving the Ring behind and seems more content than he was in his final years at Bag End.",
+          "description": "Living in Rivendell, having aged rapidly since giving up the Ring. Still sharp-witted but shows the weariness of his long life.",
           "role": "Retired adventurer",
           "relationships": {
-            "Rivendell": "Guest and resident of",
-            "Elrond": "Protected by"
+            "Guest of": "Elrond",
+            "Reunited with": "Frodo Baggins"
           }
         }
       }
     },
-    "hamfast-gamgee": {
-      "name": "Hamfast Gamgee",
-      "aliases": ["The Gaffer", "Old Gamgee"],
-      "appearances": [1, 2],
+    "elrond": {
+      "name": "Elrond",
+      "aliases": ["Elrond Half-elven", "Master Elrond"],
+      "appearances": [17, 18, 19, 20],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Sam's father, an elderly hobbit known throughout Hobbiton as 'the Gaffer.' Works as a gardener and is full of opinions and local gossip. Suspicious of outsiders and change.",
-          "role": "Village elder",
-          "relationships": {
-            "Samwise Gamgee": "Father of",
-            "Bag End": "Head gardener of"
-          }
-        }
-      }
-    },
-    "barliman-butterbur": {
-      "name": "Barliman Butterbur",
-      "aliases": ["Mr. Butterbur"],
-      "appearances": [10, 11, 18],
-      "knowledge": {
-        "10": {
-          "revealedIn": 10,
-          "description": "The fat, bald, and good-natured innkeeper of the Prancing Pony in Bree. Somewhat absent-minded but well-meaning. Has been expecting the hobbits but forgot an important message.",
-          "role": "Innkeeper",
-          "relationships": {
-            "The Prancing Pony": "Owner and keeper of",
-            "Gandalf": "Entrusted with message by"
-          }
-        },
-        "11": {
-          "revealedIn": 11,
-          "description": "Reveals he was supposed to deliver Gandalf's letter to Frodo but forgot. Apologizes profusely and vouches for Strider's character, though he admits the Ranger makes him nervous.",
-          "role": "Forgetful messenger",
-          "relationships": {
-            "Aragorn": "Knows and somewhat trusts",
-            "Frodo Baggins": "Failed to deliver message to"
-          }
-        }
-      }
-    },
-    "nob": {
-      "name": "Nob",
-      "aliases": [],
-      "appearances": [10, 11],
-      "knowledge": {
-        "10": {
-          "revealedIn": 10,
-          "description": "A young hobbit who works as a servant at the Prancing Pony inn in Bree. Quick and helpful, he assists Butterbur with the guests and stable work.",
-          "role": "Inn servant",
-          "relationships": {
-            "Barliman Butterbur": "Works for",
-            "The Prancing Pony": "Servant at"
-          }
-        }
-      }
-    },
-    "bob": {
-      "name": "Bob",
-      "aliases": [],
-      "appearances": [10, 11],
-      "knowledge": {
-        "10": {
-          "revealedIn": 10,
-          "description": "A man of Bree who works at the Prancing Pony, handling the stables and ponies. Reliable and knows the local area well.",
-          "role": "Ostler",
-          "relationships": {
-            "Barliman Butterbur": "Works for",
-            "The Prancing Pony": "Stableman at"
-          }
-        }
-      }
-    },
-    "bill-ferny": {
-      "name": "Bill Ferny",
-      "aliases": [],
-      "appearances": [11, 12],
-      "knowledge": {
-        "11": {
-          "revealedIn": 11,
-          "description": "A sly, squint-eyed man from Bree who keeps a sickly pony. Sells the animal to the hobbits at an outrageous price, showing little concern for its welfare.",
-          "role": "Unscrupulous trader",
-          "relationships": {
-            "Bill the Pony": "Former cruel owner of"
-          }
-        },
-        "12": {
-          "revealedIn": 12,
-          "description": "Revealed to be in league with the enemy, providing information about the hobbits' movements. Watches their departure with suspicious interest.",
-          "role": "Enemy spy",
-          "relationships": {
-            "Black Riders": "Informant for"
-          }
-        }
-      }
-    },
-    "bill-the-pony": {
-      "name": "Bill",
-      "aliases": ["Bill the Pony"],
-      "appearances": [11, 12, 13, 14, 15, 16, 21, 22, 23],
-      "knowledge": {
-        "11": {
-          "revealedIn": 11,
-          "description": "A small, rough pony bought from Bill Ferny. Initially in poor condition from neglect and abuse, but proves hardy and reliable once properly cared for by Sam.",
-          "role": "Pack animal",
-          "relationships": {
-            "Samwise Gamgee": "Cared for and beloved by",
-            "Bill Ferny": "Former owner"
-          }
-        }
-      }
-    },
-    "tom-bombadil": {
-      "name": "Tom Bombadil",
-      "aliases": ["Old Tom", "Master"],
-      "appearances": [7, 8, 9],
-      "knowledge": {
-        "7": {
-          "revealedIn": 7,
-          "description": "A mysterious and jolly figure who lives in the Old Forest. Appears suddenly singing nonsense songs, with a blue coat and yellow boots. Shows mastery over the trees and saves the hobbits from Old Man Willow.",
-          "role": "Forest master",
-          "relationships": {
-            "Old Man Willow": "Commands and controls",
-            "Goldberry": "Husband of",
-            "Old Forest": "Master of"
-          }
-        },
-        "8": {
-          "revealedIn": 8,
-          "description": "Proves immune to the Ring's power, making it vanish and reappear at will without being affected. Claims to be older than the trees and remembers the first raindrop and acorn. His true nature remains mysterious.",
-          "role": "Ancient being",
-          "relationships": {
-            "The One Ring": "Completely unaffected by",
-            "Frodo Baggins": "Protector and host of"
-          }
-        }
-      }
-    },
-    "goldberry": {
-      "name": "Goldberry",
-      "aliases": ["River-daughter", "Fair Lady"],
-      "appearances": [7, 8, 9],
-      "knowledge": {
-        "7": {
-          "revealedIn": 7,
-          "description": "Tom Bombadil's wife, described as the River-woman's daughter. Beautiful and graceful, with a voice like water running over stone. Gathers water-lilies and commands the streams.",
-          "role": "Nature spirit",
-          "relationships": {
-            "Tom Bombadil": "Wife of",
-            "Rivers": "Daughter of water spirits"
-          }
-        },
-        "8": {
-          "revealedIn": 8,
-          "description": "Hosts the hobbits with grace and kindness, providing them with comfort and wisdom. Her presence brings peace and her laughter is like music. She and Tom exist in harmony with the natural world.",
-          "role": "Gracious hostess",
-          "relationships": {
-            "Hobbits": "Protector and host of"
-          }
-        }
-      }
-    },
-    "old-man-willow": {
-      "name": "Old Man Willow",
-      "aliases": ["Great Willow"],
-      "appearances": [6, 7],
-      "knowledge": {
-        "6": {
-          "revealedIn": 6,
-          "description": "An ancient and malevolent willow tree in the Old Forest. Has the power to cast drowsiness and trap travelers within its trunk. The most dangerous and cunning of all the hostile trees.",
-          "role": "Malevolent tree",
-          "relationships": {
-            "Old Forest": "Most feared inhabitant of",
-            "Tom Bombadil": "Controlled by"
-          }
-        }
-      }
-    },
-    "gildor-inglorion": {
-      "name": "Gildor Inglorion",
-      "aliases": ["Gildor"],
-      "appearances": [5],
-      "knowledge": {
-        "5": {
-          "revealedIn": 5,
-          "description": "An Elf-lord of the House of Finrod who leads a company of Elves traveling through the Shire. Wise and noble, he recognizes the danger the hobbits face and provides counsel and protection for the night.",
-          "role": "Elf-lord",
-          "relationships": {
-            "House of Finrod": "Member of noble Elven house",
-            "Frodo Baggins": "Provides counsel and aid to",
-            "Black Riders": "Warns against"
-          }
-        }
-      }
-    },
-    "glorfindel": {
-      "name": "Glorfindel",
-      "aliases": ["Elf-lord"],
-      "appearances": [16, 17, 19],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "A mighty Elf-lord of Rivendell who rides out to find Frodo and his companions. Tall and noble with bright golden hair, he commands great power and the Nazgûl fear him.",
-          "role": "Elf-lord of Rivendell",
-          "relationships": {
-            "Rivendell": "Lord and defender of",
-            "Asfaloth": "Rider of the white horse",
-            "Nazgûl": "Feared opponent of"
-          }
-        },
         "17": {
           "revealedIn": 17,
-          "description": "Places Frodo on his horse Asfaloth to speed toward the Ford of Bruinen. His presence alone is enough to slow the pursuing Nazgûl, and he helps coordinate Frodo's rescue.",
-          "role": "Rescuer",
+          "description": "The Elf-lord of Rivendell whose power over the Ford of Bruinen saves Frodo from the pursuing Nazgûl.",
+          "role": "Lord of Rivendell",
           "relationships": {
-            "Frodo Baggins": "Rescuer and protector of"
+            "Father of": "Arwen Undómiel",
+            "Master of": "Rivendell"
           }
-        }
-      }
-    },
-    "asfaloth": {
-      "name": "Asfaloth",
-      "aliases": [],
-      "appearances": [16, 17],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Glorfindel's white horse, swift and fearless. Understands the urgency of bearing Frodo to safety and runs faster than any earthly steed to outpace the Nine Riders.",
-          "role": "Elven steed",
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "A master healer who saves Frodo's life, removing the shard of the Morgul-blade and healing his wound.",
+          "role": "Master healer",
           "relationships": {
-            "Glorfindel": "Mount and companion of",
-            "Frodo Baggins": "Bearer to safety"
+            "Heals": "Frodo Baggins",
+            "Hosts": "Bilbo Baggins"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Calls and presides over the Council of Elrond, where the fate of the One Ring is debated by representatives of the Free Peoples.",
+          "role": "Council leader",
+          "relationships": {
+            "Hosts": "The Council of Elrond",
+            "Ally of": "Gandalf the Grey"
           }
         }
       }
     },
     "arwen": {
       "name": "Arwen",
-      "aliases": ["Undómiel", "Evenstar"],
-      "appearances": [19],
+      "aliases": ["Arwen Undómiel", "Evenstar"],
+      "appearances": [18, 19],
       "knowledge": {
-        "19": {
-          "revealedIn": 19,
-          "description": "Elrond's daughter, fairest of the children of Ilúvatar. Dark-haired and grey-eyed with the light of stars in her glance. Called Undómiel, the Evenstar of her people.",
-          "role": "Elven princess",
+        "18": {
+          "revealedIn": 18,
+          "description": "Elrond's daughter, the most beautiful of the Eldar in Middle-earth. Shows great interest in Frodo's recovery and the Ring.",
+          "role": "Elf princess",
           "relationships": {
-            "Elrond": "Daughter of",
-            "Aragorn": "Beloved of (though not openly revealed)"
+            "Daughter of": "Elrond",
+            "Beloved of": "Aragorn"
           }
         }
       }
-    },
-    "gloin": {
-      "name": "Glóin",
-      "aliases": [],
-      "appearances": [19],
-      "knowledge": {
-        "19": {
-          "revealedIn": 19,
-          "description": "One of Thorin's former companions, now an elder statesman among the Dwarves of Erebor. Father of Gimli and bearer of disturbing news about messengers from Mordor seeking information about hobbits.",
-          "role": "Dwarf elder",
-          "relationships": {
-            "Gimli": "Father of",
-            "Thorin Oakenshield": "Former companion of",
-            "Erebor": "Representative of"
-          }
-        }
-      }
-    },
-    "balin": {
-      "name": "Balin",
-      "aliases": ["Lord of Moria"],
-      "appearances": [19, 22],
-      "knowledge": {
-        "19": {
-          "revealedIn": 19,
-          "description": "One of Thorin's companions who left Erebor thirty years ago to reclaim Moria. No word has been heard from his expedition for twenty-five years, causing great concern among the Dwarves.",
-          "role": "Lord of Moria",
-          "relationships": {
-            "Thorin Oakenshield": "Former companion of",
-            "Moria": "Leader of expedition to",
-            "Gimli": "Kinsman of"
-          }
-        },
-        "22": {
-          "revealedIn": 22,
-          "description": "Found entombed in Moria, having died defending the Chamber of Mazarbul. His tomb bears the inscription 'Balin son of Fundin, Lord of Moria.' The Book of Records tells of his brave but doomed attempt to reclaim the ancient kingdom.",
-          "role": "Fallen lord",
-          "relationships": {
-            "Moria": "Died defending",
-            "Chamber of Mazarbul": "Entombed in"
-          }
-        }
-      }
-    },
-    "ori": {
-      "name": "Ori",
-      "aliases": [],
-      "appearances": [22],
-      "knowledge": {
-        "22": {
-          "revealedIn": 22,
-          "description": "One of Thorin's former companions who accompanied Balin to Moria. Scribe who wrote the final desperate entries in the Book of Mazarbul before the colony's destruction.",
-          "role": "Scribe and recorder",
-          "relationships": {
-            "Balin": "Companion of",
-            "Book of Mazarbul": "Final scribe of",
-            "Thorin Oakenshield": "Former companion of"
-          }
-        }
-      }
-    },
-    "galadriel": {
-      "name": "Galadriel",
-      "aliases": ["Lady of Lórien", "Lady of the Galadhrim"],
-      "appearances": [19, 20, 21, 22, 23, 24],
-      "knowledge": {
-        "19": {
-          "revealedIn": 19,
-          "description": "The Lady of Lothlórien, mightiest and fairest of all the Elves that remain in Middle-earth. Bearer of Nenya, one of the Three Rings. Her wisdom and power are legendary among all Free Peoples.",
-          "role": "Lady of Lórien",
-          "relationships": {
-            "Celeborn": "Wife of",
-            "Lothlórien": "Lady and protector of",
-            "Nenya": "Bearer of Elven Ring of Water"
-          }
-        }
-      }
-    },
-    "celeborn": {
-      "name": "Celeborn",
-      "aliases": ["Lord of Lórien"],
-      "appearances": [19, 20, 21, 22, 23, 24],
-      "knowledge": {
-        "19": {
-          "revealedIn": 19,
-          "description": "Lord of Lothlórien and husband of Galadriel. Wise and noble, with silver hair and great knowledge of the lands of Middle-earth. Rules alongside his wife in the golden wood.",
-          "role": "Lord of Lórien",
-          "relationships": {
-            "Galadriel": "Husband of",
-            "Lothlórien": "Lord and protector of"
-          }
-        }
-      }
-    },
-    "haldir": {
-      "name": "Haldir",
-      "aliases": [],
-      "appearances": [21, 22, 23],
-      "knowledge": {
-        "21": {
-          "revealedIn": 21,
-          "description": "A march-warden of Lothlórien who guards the borders of the Golden Wood. Tall and fair-haired, he initially challenges the Fellowship but becomes their guide and protector within the realm.",
-          "role": "March-warden",
-          "relationships": {
-            "Lothlórien": "Guardian of borders",
-            "Galadriel": "Serves the Lady",
-            "The Fellowship": "Guide and protector of"
-          }
-        }
-      }
-    },
-    "rumil": {
-      "name": "Rúmil",
-      "aliases": [],
-      "appearances": [21, 22],
-      "knowledge": {
-        "21": {
-          "revealedIn": 21,
-          "description": "One of Haldir's brothers, also a march-warden of Lothlórien. Guards the borders of the Golden Wood alongside his brothers, watching for intruders and threats.",
-          "role": "March-warden",
-          "relationships": {
-            "Haldir": "Brother of",
-            "Orophin": "Brother of",
-            "Lothlórien": "Guardian of"
-          }
-        }
-      }
-    },
-    "orophin": {
-      "name": "Orophin",
-      "aliases": [],
-      "appearances": [21, 22],
-      "knowledge": {
-        "21": {
-          "revealedIn": 21,
-          "description": "One of Haldir's brothers, also a march-warden of Lothlórien. Works with his brothers to guard the borders and guide worthy travelers through the Golden Wood.",
-          "role": "March-warden",
-          "relationships": {
-            "Haldir": "Brother of",
-            "Rúmil": "Brother of",
-            "Lothlórien": "Guardian of"
-          }
-        }
-      }
-    },
-    "the-balrog": {
-      "name": "The Balrog",
-      "aliases": ["Durin's Bane", "The Shadow"],
-      "appearances": [23, 24],
-      "knowledge": {
-        "23": {
-          "revealedIn": 23,
-          "description": "An ancient demon of shadow and flame sleeping in the depths of Moria. One of Morgoth's most terrible servants from the Elder Days, it destroyed Balin's colony and now awakens to the presence of the Fellowship.",
-          "role": "Ancient demon",
-          "relationships": {
-            "Morgoth": "Servant of the Dark Lord",
-            "Moria": "Destroyer of dwarf-kingdom",
-            "Gandalf": "Mortal enemy of"
-          }
-        },
-        "24": {
-          "revealedIn": 24,
-          "description": "Confronts Gandalf at the Bridge of Khazad-dûm in a battle of shadow and flame. When Gandalf breaks the bridge, both wizard and demon fall into the abyss, locked in deadly combat.",
-          "role": "Shadow and flame",
-          "relationships": {
-            "Bridge of Khazad-dûm": "Falls from in combat",
-            "The Fellowship": "Pursuer of"
-          }
-        }
-      }
-    }
     },
     "sauron": {
       "name": "Sauron",
-      "aliases": ["The Dark Lord", "The Necromancer", "The Enemy"],
-      "appearances": [2, 18, 19, 20],
+      "aliases": ["The Dark Lord", "The Enemy", "The Necromancer"],
+      "appearances": [2, 18, 19],
       "knowledge": {
         "2": {
           "revealedIn": 2,
-          "description": "The Dark Lord of Mordor who forged the One Ring to control all other Rings of Power. Thought destroyed long ago, but his spirit endured and he has now returned to his fortress of Barad-dûr, seeking to reclaim his Ring.",
+          "description": "The Dark Lord who created the One Ring of Power. Has returned to his stronghold of Barad-dûr and seeks to reclaim his Ring.",
           "role": "Dark Lord",
           "relationships": {
-            "The One Ring": "Creator and former bearer",
-            "Mordor": "Lord and master of",
-            "Nazgûl": "Master of the Nine"
+            "Creator of": "The One Ring",
+            "Master of": "The Nazgûl"
           }
         },
-        "18": {
-          "revealedIn": 18,
-          "description": "Has been steadily rebuilding his power in Mordor, gathering armies and seeking the Ring. His influence spreads as the Shadow grows, and his servants search all lands for news of the Ring.",
-          "role": "Growing threat",
+        "19": {
+          "revealedIn": 19,
+          "description": "The great enemy of the Free Peoples, growing in power and preparing for war. Cannot be defeated while the Ring exists.",
+          "role": "Enemy of all Free Peoples",
           "relationships": {
-            "Barad-dûr": "Rebuilder of the Dark Tower",
-            "Free Peoples": "Greatest enemy of"
+            "Served by": "Saruman the White",
+            "Opposed by": "The White Council"
           }
         }
       }
     },
     "saruman": {
       "name": "Saruman",
-      "aliases": ["Saruman the White", "Saruman of Many Colours"],
-      "appearances": [18, 19, 20],
+      "aliases": ["Saruman the White", "The White Wizard"],
+      "appearances": [18, 19],
       "knowledge": {
         "18": {
           "revealedIn": 18,
-          "description": "Chief of the order of Wizards and head of the White Council. Has been studying the arts of the Enemy and has betrayed the Free Peoples, seeking the Ring for himself.",
-          "role": "Corrupted wizard",
+          "description": "The head of the White Council who has betrayed his allies and imprisoned Gandalf. Now serves the Dark Lord.",
+          "role": "Fallen wizard",
           "relationships": {
-            "The White Council": "Traitor to",
-            "Isengard": "Master of",
-            "Gandalf": "Former ally, now enemy"
+            "Betrayer of": "Gandalf the Grey",
+            "Servant of": "Sauron"
           }
         },
         "19": {
           "revealedIn": 19,
-          "description": "Revealed to have imprisoned Gandalf and allied himself with Mordor. He commands armies of orcs from his stronghold of Isengard and seeks to claim the Ring when Frodo is captured.",
-          "role": "Betrayer",
+          "description": "Has fortified Isengard and bred an army of Uruk-hai. His treachery has removed the strongest member of the White Council.",
+          "role": "Traitor",
           "relationships": {
-            "Sauron": "Uneasy ally of",
-            "The One Ring": "Seeks for himself"
+            "Master of": "Isengard",
+            "Enemy of": "The White Council"
           }
         }
       }
     },
-    "witch-king": {
-      "name": "The Witch-king",
-      "aliases": ["Lord of the Nazgûl", "Chief of the Nine"],
-      "appearances": [12, 13, 14, 17],
+    "nazgul": {
+      "name": "The Nazgûl",
+      "aliases": ["The Nine", "Black Riders", "Ringwraiths"],
+      "appearances": [4, 5, 10, 12, 13, 14, 15, 16, 17],
       "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Mysterious Black Riders searching for 'Baggins' throughout the Shire. Their presence fills mortals with dread and fear.",
+          "role": "Dark hunters",
+          "relationships": {
+            "Hunt": "Frodo Baggins",
+            "Serve": "Sauron"
+          }
+        },
         "12": {
           "revealedIn": 12,
-          "description": "Chief and most terrible of the Nine Nazgûl. Once a great king of men who accepted a Ring of Power from Sauron and was enslaved to his will. Now leads the hunt for the Ring-bearer.",
-          "role": "Chief Nazgûl",
+          "description": "Nine former kings of Men who were given Rings of Power and enslaved by Sauron. Now exist as wraiths, neither living nor dead.",
+          "role": "Fallen kings",
           "relationships": {
-            "Nazgûl": "Leader of the Nine",
-            "Sauron": "Chief servant of",
-            "Frodo Baggins": "Hunter of"
+            "Enslaved by": "Sauron",
+            "Pursue": "The One Ring"
           }
         },
         "13": {
           "revealedIn": 13,
-          "description": "Leads the attack on Weathertop, wielding a Morgul-blade that wounds Frodo. His presence fills all nearby with terror, and his cry pierces the night with deadly cold.",
-          "role": "Ring-hunter",
+          "description": "Attack Frodo at Weathertop when he puts on the Ring, wounding him with a Morgul-blade that will make him like them.",
+          "role": "Wraith attackers",
           "relationships": {
-            "Morgul-blade": "Wielder of cursed weapon",
-            "Weathertop": "Attacks Fellowship at"
+            "Wound": "Frodo Baggins",
+            "Driven off by": "Strider"
+          }
+        }
+      }
+    },
+    "tom-bombadil": {
+      "name": "Tom Bombadil",
+      "aliases": ["Old Tom Bombadil", "Master"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A mysterious and powerful being who rescues the hobbits from Old Man Willow. Seems immune to the Ring's power.",
+          "role": "Ancient guardian",
+          "relationships": {
+            "Husband of": "Goldberry",
+            "Rescues": "The Hobbits"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Tests the Ring by putting it on without disappearing, then gives it back to Frodo without any desire to keep it.",
+          "role": "Ring-immune being",
+          "relationships": {
+            "Unaffected by": "The One Ring",
+            "Tells stories to": "The Hobbits"
+          }
+        }
+      }
+    },
+    "goldberry": {
+      "name": "Goldberry",
+      "aliases": ["River-woman's daughter", "The River-daughter"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Tom Bombadil's beautiful wife, described as the River-woman's daughter. Has an otherworldly grace and wisdom.",
+          "role": "Tom's wife",
+          "relationships": {
+            "Wife of": "Tom Bombadil",
+            "Daughter of": "The River-woman"
+          }
+        }
+      }
+    },
+    "gildor": {
+      "name": "Gildor",
+      "aliases": ["Gildor Inglorion"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An Elf of the house of Finrod who leads a company traveling through the Shire. Provides food and shelter to the hobbits.",
+          "role": "Wandering Elf-lord",
+          "relationships": {
+            "Of the house of": "Finrod",
+            "Warns": "Frodo Baggins"
+          }
+        }
+      }
+    },
+    "hamfast-gamgee": {
+      "name": "Hamfast Gamgee",
+      "aliases": ["The Gaffer", "Gaffer Gamgee"],
+      "appearances": [1, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Sam's father, an elderly hobbit who works as a gardener. Known for his opinions and local gossip.",
+          "role": "Village elder",
+          "relationships": {
+            "Father of": "Samwise Gamgee",
+            "Gardener for": "Frodo Baggins"
+          }
+        }
+      }
+    },
+    "ted-sandyman": {
+      "name": "Ted Sandyman",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A miller's son from Hobbiton who spreads rumors and gossip about Frodo and Bilbo.",
+          "role": "Local gossip",
+          "relationships": {
+            "Gossips about": "Frodo Baggins"
           }
         }
       }
     },
     "farmer-maggot": {
       "name": "Farmer Maggot",
-      "aliases": ["Maggot"],
-      "appearances": [4, 5],
+      "aliases": [],
+      "appearances": [4],
       "knowledge": {
         "4": {
           "revealedIn": 4,
-          "description": "A hobbit farmer in the Marish who owns fierce dogs and is known for chasing mushroom thieves. Frodo remembers being frightened of him as a young hobbit for stealing mushrooms.",
-          "role": "Shire farmer",
-          "relationships": {
-            "Grip, Fang, Wolf": "Owner of guard dogs",
-            "Frodo Baggins": "Former adversary of young"
-          }
-        },
-        "5": {
-          "revealedIn": 5,
-          "description": "Proves to be friendly and helpful, giving the hobbits food and safe passage to the ferry. Reveals that a Black Rider came asking about Baggins, showing the Enemy's reach extends even into the Shire.",
+          "description": "A farmer in the Marish who helps the hobbits and provides information about the Black Riders.",
           "role": "Helpful farmer",
           "relationships": {
-            "Black Riders": "Questioned by",
-            "Buckleberry Ferry": "Guides hobbits to"
-          }
-        }
-      }
-    },
-    "mrs-maggot": {
-      "name": "Mrs. Maggot",
-      "aliases": [],
-      "appearances": [4, 5],
-      "knowledge": {
-        "4": {
-          "revealedIn": 4,
-          "description": "Farmer Maggot's wife, a kindly hobbit woman who welcomes the travelers and provides them with a hearty meal before they continue their journey.",
-          "role": "Farmer's wife",
-          "relationships": {
-            "Farmer Maggot": "Wife of",
-            "Hobbits": "Hostess to traveling"
-          }
-        }
-      }
-    },
-    "grip": {
-      "name": "Grip",
-      "aliases": [],
-      "appearances": [4, 5],
-      "knowledge": {
-        "4": {
-          "revealedIn": 4,
-          "description": "One of Farmer Maggot's large and fierce guard dogs, bred to keep intruders and thieves away from the farm.",
-          "role": "Guard dog",
-          "relationships": {
-            "Farmer Maggot": "Belongs to",
-            "Fang, Wolf": "Pack member with"
-          }
-        }
-      }
-    },
-    "fang": {
-      "name": "Fang",
-      "aliases": [],
-      "appearances": [4, 5],
-      "knowledge": {
-        "4": {
-          "revealedIn": 4,
-          "description": "One of Farmer Maggot's large and fierce guard dogs, trained to protect the farm from unwanted visitors.",
-          "role": "Guard dog",
-          "relationships": {
-            "Farmer Maggot": "Belongs to",
-            "Grip, Wolf": "Pack member with"
-          }
-        }
-      }
-    },
-    "wolf": {
-      "name": "Wolf",
-      "aliases": [],
-      "appearances": [4, 5],
-      "knowledge": {
-        "4": {
-          "revealedIn": 4,
-          "description": "One of Farmer Maggot's large and fierce guard dogs, helping to keep the farm secure from thieves and intruders.",
-          "role": "Guard dog",
-          "relationships": {
-            "Farmer Maggot": "Belongs to",
-            "Grip, Fang": "Pack member with"
+            "Helps": "The Hobbits",
+            "Knows about": "The Black Riders"
           }
         }
       }
@@ -885,261 +574,303 @@
       "knowledge": {
         "5": {
           "revealedIn": 5,
-          "description": "A hobbit friend of Frodo's who is part of the conspiracy to help him leave the Shire. Plump and good-natured, he knows about Frodo's plans and helps with the deception.",
-          "role": "Loyal friend",
+          "description": "A friend of the hobbits who helps with Frodo's preparations but is too afraid to leave the Shire.",
+          "role": "Fearful friend",
           "relationships": {
-            "Frodo Baggins": "Friend and conspirator",
-            "Merry and Pippin": "Fellow conspirator"
+            "Friend of": "Frodo Baggins",
+            "Stays in": "The Shire"
+          }
+        }
+      }
+    },
+    "barliman-butterbur": {
+      "name": "Barliman Butterbur",
+      "aliases": ["Mr. Butterbur"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The innkeeper of the Prancing Pony in Bree. A fat, red-faced man who is forgetful but well-meaning.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Keeper of": "The Prancing Pony",
+            "Hosts": "The Hobbits"
           }
         },
-        "6": {
-          "revealedIn": 6,
-          "description": "Stays behind at Crickhollow to maintain the pretense that Frodo still lives there, showing considerable courage in facing potential danger alone.",
-          "role": "Brave decoy",
+        "11": {
+          "revealedIn": 11,
+          "description": "Reveals he forgot to send Gandalf's letter to Frodo, which would have warned him about Strider and the danger.",
+          "role": "Forgetful messenger",
           "relationships": {
-            "Crickhollow": "Caretaker of house",
-            "Black Riders": "Decoy target for"
+            "Failed to deliver message from": "Gandalf the Grey",
+            "Apologizes to": "Frodo Baggins"
           }
         }
       }
     },
-    "ted-sandyman": {
-      "name": "Ted Sandyman",
-      "aliases": [],
-      "appearances": [1, 2],
-      "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "A hobbit of Hobbiton who works at the mill. Known for being a gossip and somewhat unpleasant, always ready with a snide comment about his betters.",
-          "role": "Village gossip",
-          "relationships": {
-            "Hobbiton Mill": "Miller of",
-            "Sandyman family": "Member of"
-          }
-        }
-      }
-    },
-    "rosie-cotton": {
-      "name": "Rosie Cotton",
-      "aliases": [],
-      "appearances": [1, 3],
-      "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "A pretty young hobbit lass who works at the Green Dragon inn. Sam is quite taken with her, though he's too shy to say much about it.",
-          "role": "Innkeeper's daughter",
-          "relationships": {
-            "Samwise Gamgee": "Object of affection",
-            "Green Dragon": "Worker at inn"
-          }
-        }
-      }
-    },
-    "lobelia-sackville-baggins": {
-      "name": "Lobelia Sackville-Baggins",
-      "aliases": [],
-      "appearances": [1, 3],
-      "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Bilbo's disagreeable relative who has long coveted Bag End. Sharp-featured and sharp-tongued, she has been waiting years for a chance to claim the property.",
-          "role": "Ambitious relative",
-          "relationships": {
-            "Otho Sackville-Baggins": "Wife of",
-            "Bag End": "Covets ownership of",
-            "Bilbo Baggins": "Hostile relative of"
-          }
-        }
-      }
-    },
-    "otho-sackville-baggins": {
-      "name": "Otho Sackville-Baggins",
-      "aliases": [],
-      "appearances": [1, 3],
-      "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Bilbo's relative and Lobelia's husband. Less aggressive than his wife but equally interested in claiming Bag End and the Baggins inheritance.",
-          "role": "Grasping relative",
-          "relationships": {
-            "Lobelia Sackville-Baggins": "Husband of",
-            "Bag End": "Hopes to inherit",
-            "Bilbo Baggins": "Distant relative of"
-          }
-        }
-      }
-    },
-    "old-noakes": {
-      "name": "Old Noakes",
-      "aliases": [],
-      "appearances": [1],
-      "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "An elderly hobbit of Bywater who is known for his opinions on weather and farming. Often found at the Green Dragon sharing news and gossip.",
-          "role": "Village elder",
-          "relationships": {
-            "Bywater": "Resident of",
-            "Green Dragon": "Regular patron of"
-          }
-        }
-      }
-    },
-    "sandheaver": {
-      "name": "Sandheaver",
-      "aliases": [],
-      "appearances": [1],
-      "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "A hobbit who frequents the Green Dragon inn, known for his contributions to local gossip and conversation about recent strange happenings.",
-          "role": "Inn regular",
-          "relationships": {
-            "Green Dragon": "Patron of"
-          }
-        }
-      }
-    },
-    "harry-goatleaf": {
-      "name": "Harry Goatleaf",
+    "bill-ferny": {
+      "name": "Bill Ferny",
       "aliases": [],
       "appearances": [10, 11],
       "knowledge": {
         "10": {
           "revealedIn": 10,
-          "description": "A gate-keeper of Bree who is somewhat suspicious of strangers but eventually allows the hobbits to enter the town after dark.",
-          "role": "Town gate-keeper",
+          "description": "A suspicious character in Bree who seems to be watching the hobbits and asking questions about them.",
+          "role": "Suspicious watcher",
           "relationships": {
-            "Bree": "Guardian of gates"
+            "Watches": "The Hobbits",
+            "Suspected by": "Strider"
           }
         }
       }
     },
-    "mat-heathertoes": {
-      "name": "Mat Heathertoes",
+    "nob": {
+      "name": "Nob",
       "aliases": [],
       "appearances": [10],
       "knowledge": {
         "10": {
           "revealedIn": 10,
-          "description": "A hobbit patron at the Prancing Pony who joins in the conversation and shows interest in the newcomers from the Shire.",
-          "role": "Inn patron",
+          "description": "A servant at the Prancing Pony who helps attend to the guests.",
+          "role": "Inn servant",
           "relationships": {
-            "The Prancing Pony": "Customer at"
+            "Serves": "Barliman Butterbur",
+            "Works at": "The Prancing Pony"
           }
         }
       }
     },
-    "bill-huggins": {
-      "name": "Bill Huggins",
+    "bob": {
+      "name": "Bob",
       "aliases": [],
       "appearances": [10],
       "knowledge": {
         "10": {
           "revealedIn": 10,
-          "description": "A man of Bree who drinks at the Prancing Pony and participates in the evening's conversations and entertainment.",
-          "role": "Inn patron",
+          "description": "Another servant at the Prancing Pony who helps with the horses and stables.",
+          "role": "Stable hand",
           "relationships": {
-            "The Prancing Pony": "Regular at"
+            "Serves": "Barliman Butterbur",
+            "Works at": "The Prancing Pony"
           }
         }
       }
     },
-    "gil-galad": {
-      "name": "Gil-galad",
-      "aliases": ["High King of the Noldor"],
-      "appearances": [13, 19],
+    "glorfindel": {
+      "name": "Glorfindel",
+      "aliases": ["Glorfindel of Rivendell"],
+      "appearances": [16, 17, 18, 19],
       "knowledge": {
-        "13": {
-          "revealedIn": 13,
-          "description": "The last High King of the Elves in Middle-earth, remembered in ancient song. Fell in the final battle against Sauron at the end of the Second Age.",
-          "role": "Elven High King",
+        "16": {
+          "revealedIn": 16,
+          "description": "A mighty Elf-lord of Rivendell who finds the company near the Ford. His power and presence drive back the Nazgûl.",
+          "role": "Elf-lord of Rivendell",
           "relationships": {
-            "Sauron": "Died fighting",
-            "Last Alliance": "Leader of"
+            "Serves": "Elrond",
+            "Rescues": "Frodo Baggins"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Puts Frodo on his horse Asfaloth to race to the Ford ahead of the pursuing Nazgûl.",
+          "role": "Rescuer",
+          "relationships": {
+            "Master of": "Asfaloth",
+            "Saves": "Frodo Baggins"
+          }
+        }
+      }
+    },
+    "galadriel": {
+      "name": "Galadriel",
+      "aliases": ["Lady Galadriel"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "The Lady of Lothlórien, one of the mightiest Elves in Middle-earth and keeper of Nenya, one of the Three Elven Rings.",
+          "role": "Lady of Lothlórien",
+          "relationships": {
+            "Wife of": "Celeborn",
+            "Keeper of": "Nenya"
+          }
+        }
+      }
+    },
+    "celeborn": {
+      "name": "Celeborn",
+      "aliases": ["Lord Celeborn"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "The Lord of Lothlórien and husband of Galadriel. Rules the Golden Wood alongside his wife.",
+          "role": "Lord of Lothlórien",
+          "relationships": {
+            "Husband of": "Galadriel",
+            "Lord of": "Lothlórien"
+          }
+        }
+      }
+    },
+    "erestor": {
+      "name": "Erestor",
+      "aliases": [],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A counsellor of Elrond who participates in the Council and offers wisdom about the Ring.",
+          "role": "Elf counsellor",
+          "relationships": {
+            "Counsellor to": "Elrond",
+            "Participates in": "The Council of Elrond"
+          }
+        }
+      }
+    },
+    "gloin": {
+      "name": "Glóin",
+      "aliases": ["Glóin the Dwarf"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A Dwarf of Erebor and former companion of Bilbo. Father of Gimli and representative of the Lonely Mountain.",
+          "role": "Dwarf messenger",
+          "relationships": {
+            "Father of": "Gimli",
+            "Companion of": "Bilbo Baggins"
+          }
+        }
+      }
+    },
+    "balin": {
+      "name": "Balin",
+      "aliases": ["Balin son of Fundin", "Lord of Moria"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A Dwarf lord who attempted to reclaim Moria but was killed by orcs. His tomb is discovered by the Fellowship in the Chamber of Mazarbul.",
+          "role": "Fallen lord",
+          "relationships": {
+            "Lord of": "Moria",
+            "Killed by": "Orcs"
+          }
+        }
+      }
+    },
+    "durins-bane": {
+      "name": "Durin's Bane",
+      "aliases": ["The Balrog", "Balrog of Morgoth"],
+      "appearances": [23, 24],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "An ancient evil sleeping in the depths of Moria, awakened by the Fellowship's passage. A Balrog of Morgoth from the Elder Days.",
+          "role": "Ancient demon",
+          "relationships": {
+            "Servant of": "Morgoth",
+            "Destroyer of": "Khazad-dûm"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Confronts the Fellowship at the Bridge of Khazad-dûm, where Gandalf makes his final stand to save the others.",
+          "role": "Gandalf's doom",
+          "relationships": {
+            "Battles": "Gandalf the Grey",
+            "Falls with": "Gandalf the Grey"
           }
         }
       }
     },
     "isildur": {
       "name": "Isildur",
-      "aliases": ["Heir of Elendil"],
-      "appearances": [13, 19, 20],
+      "aliases": ["Isildur of Gondor"],
+      "appearances": [2, 19],
       "knowledge": {
-        "13": {
-          "revealedIn": 13,
-          "description": "Son of Elendil who cut the Ring from Sauron's hand but failed to destroy it when he had the chance. His weakness led to the Ring's survival and the current crisis.",
-          "role": "Tragic hero",
+        "2": {
+          "revealedIn": 2,
+          "description": "An ancient king who cut the Ring from Sauron's hand but failed to destroy it, leading to the current crisis.",
+          "role": "Failed hero",
           "relationships": {
-            "Elendil": "Son of",
-            "The One Ring": "Failed to destroy",
-            "Aragorn": "Ancestor of"
+            "Ancestor of": "Aragorn",
+            "Failed to destroy": "The One Ring"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "High King of Gondor and Arnor who defeated Sauron but was overcome by the Ring's power and kept it for himself.",
+          "role": "Fallen king",
+          "relationships": {
+            "Son of": "Elendil",
+            "Corrupted by": "The One Ring"
           }
         }
       }
     },
     "elendil": {
       "name": "Elendil",
-      "aliases": ["The Tall"],
-      "appearances": [13, 19],
+      "aliases": ["Elendil the Tall"],
+      "appearances": [19],
       "knowledge": {
-        "13": {
-          "revealedIn": 13,
-          "description": "Great king of the Dúnedain who founded Gondor and Arnor. Father of Isildur, he wielded the sword Narsil and died fighting Sauron in the Last Alliance.",
+        "19": {
+          "revealedIn": 19,
+          "description": "The founder of the Realms in Exile, father of Isildur. Died in the battle against Sauron at the end of the Second Age.",
           "role": "Founder king",
           "relationships": {
-            "Isildur": "Father of",
-            "Narsil": "Wielder of great sword",
-            "Gondor": "Founder of kingdom"
+            "Father of": "Isildur",
+            "Founded": "Gondor and Arnor"
           }
         }
       }
     },
-    "celebdil": {
-      "name": "Celebdil",
-      "aliases": ["The White", "Silvertine"],
-      "appearances": [21, 22],
+    "gil-galad": {
+      "name": "Gil-galad",
+      "aliases": ["Gil-galad the Elven-king"],
+      "appearances": [19],
       "knowledge": {
-        "21": {
-          "revealedIn": 21,
-          "description": "One of the three great peaks of the Misty Mountains that stand above Moria. Called Silvertine by men, it watches over the ancient dwarf-kingdom below.",
-          "role": "Mountain peak",
+        "19": {
+          "revealedIn": 19,
+          "description": "The last High King of the Elves in Middle-earth who died alongside Elendil in the final battle against Sauron.",
+          "role": "Last High King",
           "relationships": {
-            "Moria": "Stands guard over",
-            "Misty Mountains": "One of the three peaks"
+            "Allied with": "Elendil",
+            "Died fighting": "Sauron"
           }
         }
       }
     },
-    "caradhras": {
-      "name": "Caradhras",
-      "aliases": ["The Redhorn", "The Cruel"],
-      "appearances": [21],
+    "old-man-willow": {
+      "name": "Old Man Willow",
+      "aliases": [],
+      "appearances": [7],
       "knowledge": {
-        "21": {
-          "revealedIn": 21,
-          "description": "The cruel mountain that defeats the Fellowship's attempt to cross the Redhorn Pass. Seems to have a malevolent will, sending terrible storms and avalanches to bar their way.",
-          "role": "Hostile mountain",
+        "7": {
+          "revealedIn": 7,
+          "description": "A malevolent willow tree in the Old Forest that traps the hobbits with its enchanted sleep and crushing branches.",
+          "role": "Malevolent tree",
           "relationships": {
-            "The Fellowship": "Opponent and barrier to",
-            "Redhorn Pass": "Guardian of"
+            "Traps": "The Hobbits",
+            "Defeated by": "Tom Bombadil"
           }
         }
       }
     },
-    "fanuilos": {
-      "name": "Fanuilos",
-      "aliases": ["Elbereth"],
-      "appearances": [5, 13, 17],
+    "barrow-wight": {
+      "name": "Barrow-wight",
+      "aliases": [],
+      "appearances": [9],
       "knowledge": {
-        "5": {
-          "revealedIn": 5,
-          "description": "The Queen of the Stars, mightiest of the Valar who dwells in the heavens. Her name is a prayer and protection against the servants of darkness.",
-          "role": "Star Queen",
+        "9": {
+          "revealedIn": 9,
+          "description": "An evil spirit inhabiting the burial mounds of the Barrow-downs. Captures the hobbits and tries to sacrifice them.",
+          "role": "Undead spirit",
           "relationships": {
-            "Valar": "Mightiest of the Holy Ones",
-            "Stars": "Queen and kindler of",
-            "Shadow": "Great enemy of"
+            "Captures": "The Hobbits",
+            "Banished by": "Tom Bombadil"
           }
         }
       }
