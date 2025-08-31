@@ -529,6 +529,149 @@
         }
       }
     },
+    "tamalane": {
+      "name": "Tamalane",
+      "aliases": [
+        "Weapons Master"
+      ],
+      "appearances": [
+        1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A senior Reverend Mother serving as the Sisterhood's chief weapons master and military strategist. Responsible for preparing the Bene Gesserit for combat with the Honored Matres and the Unknown Enemy.",
+          "role": "Weapons Master",
+          "relationships": {
+            "Odrade": "Military advisor to",
+            "Sisterhood defenses": "Primary architect of",
+            "Combat training": "Oversees all",
+            "Military strategy": "Chief developer of"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Develops new combat techniques combining traditional Bene Gesserit training with lessons learned from captured Honored Matres. Her innovative approaches help level the playing field against their enemies.",
+          "role": "Combat innovator",
+          "relationships": {
+            "Honored Matre techniques": "Studies and adapts",
+            "Training programs": "Designs enhanced",
+            "Military readiness": "Ensures Sisterhood",
+            "Strategic planning": "Central to all"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Supports the merger concept from a military perspective, recognizing that combined Bene Gesserit-Honored Matre forces will be necessary to face the Unknown Enemy. Her expertise becomes crucial to integration planning.",
+          "role": "Military integration supporter",
+          "relationships": {
+            "Merger planning": "Provides military expertise for",
+            "Combined forces": "Architect of unified",
+            "Unknown Enemy": "Prepares defenses against",
+            "Strategic unity": "Promotes for survival"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Becomes a key military leader in the merged organization under Murbella's command. Her experience bridging the gap between Bene Gesserit and Honored Matre combat techniques makes her invaluable to the new structure.",
+          "role": "Merged organization military leader",
+          "relationships": {
+            "Murbella": "Military advisor to Mother Commander",
+            "Unified forces": "Commands elements of",
+            "Combat readiness": "Maintains against Unknown Enemy",
+            "Military doctrine": "Develops hybrid"
+          }
+        }
+      }
+    },
+    "dortujla": {
+      "name": "Dortujla",
+      "aliases": [
+        "Senior Reverend Mother"
+      ],
+      "appearances": [
+        2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A senior member of the Bene Gesserit council who generally supports Odrade but questions some of the more radical aspects of the merger plan. Represents the moderate faction within the Sisterhood.",
+          "role": "Moderate council member",
+          "relationships": {
+            "Odrade": "Generally supportive but questioning",
+            "Council deliberations": "Active participant in",
+            "Moderate faction": "Represents within Sisterhood",
+            "Traditional wisdom": "Balances against innovation"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Becomes increasingly concerned about the pace of change but recognizes the necessity of adaptation. Her moderate voice helps bridge the gap between conservatives and progressives.",
+          "role": "Bridge-building moderate",
+          "relationships": {
+            "Internal unity": "Works to maintain",
+            "Competing factions": "Mediates between",
+            "Gradual change": "Advocates for measured",
+            "Sisterhood cohesion": "Prioritizes maintaining"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Ultimately accepts the merger as necessary for survival but insists on safeguards to preserve essential Bene Gesserit knowledge. Her pragmatic approach helps ensure smoother transitions.",
+          "role": "Pragmatic supporter",
+          "relationships": {
+            "Merger acceptance": "Reluctantly supports",
+            "Knowledge preservation": "Insists on safeguards for",
+            "Smooth transition": "Works to ensure",
+            "Practical solutions": "Focuses on finding"
+          }
+        }
+      }
+    },
+    "lucilla": {
+      "name": "Lucilla",
+      "aliases": [
+        "Teacher of Duncan"
+      ],
+      "appearances": [
+        3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An experienced Reverend Mother who previously worked with Duncan Idaho gholas and understands his unique psychology. Serves as an advisor on matters relating to his integration with the Sisterhood.",
+          "role": "Duncan Idaho specialist",
+          "relationships": {
+            "Duncan Idaho": "Former teacher and current advisor",
+            "Ghola psychology": "Expert in",
+            "Integration planning": "Advises on Duncan's",
+            "Historical perspective": "Provides on ghola experiences"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Helps develop strategies for working with Duncan while respecting his independence. Her insights into his nature prove valuable as his role in the merger plans becomes more crucial.",
+          "role": "Strategic advisor",
+          "relationships": {
+            "Duncan's independence": "Respects and works with",
+            "Murbella training": "Advises on Duncan's role in",
+            "Ghola capabilities": "Understands full extent of",
+            "Integration success": "Contributes to ensuring"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Recognizes that Duncan's true loyalty lies with preserving authentic Bene Gesserit values rather than political expediency. Supports the understanding that some missions transcend organizational politics.",
+          "role": "Values supporter",
+          "relationships": {
+            "True mission": "Recognizes Duncan's commitment to",
+            "Authentic values": "Supports preservation of",
+            "Higher purpose": "Understands allegiance to",
+            "Mission continuity": "Helps ensure"
+          }
+        }
+      }
+    },
     "unknown-enemy": {
       "name": "Unknown Enemy",
       "aliases": [
@@ -581,6 +724,881 @@
           }
         }
       }
+    },
+    "lampadas-refugees": {
+      "name": "Lampadas Refugees",
+      "aliases": [
+        "Surviving Sisters",
+        "Lampadas Survivors"
+      ],
+      "appearances": [
+        4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Bene Gesserit survivors from the destroyed planet Lampadas who escaped the Honored Matre attack. They bring firsthand knowledge of enemy tactics and capabilities to Chapterhouse.",
+          "role": "Tactical intelligence sources",
+          "relationships": {
+            "Lampadas destruction": "Survivors of",
+            "Honored Matre tactics": "Witnesses to",
+            "Combat intelligence": "Providers of crucial",
+            "Sisterhood knowledge": "Preservers of lost"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Their experiences provide crucial intelligence about Honored Matre capabilities and weaknesses. Their integration into Chapterhouse operations helps strengthen overall defenses.",
+          "role": "Intelligence assets",
+          "relationships": {
+            "Enemy weaknesses": "Knowledge of discovered",
+            "Defense planning": "Contribute expertise to",
+            "Combat experience": "Provide hard-won",
+            "Survival strategies": "Teach proven"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Support the merger from practical experience, knowing that unity is essential for survival against the overwhelming Honored Matre threat. Their voices carry weight in internal debates.",
+          "role": "Unity advocates",
+          "relationships": {
+            "Merger support": "Provide experienced voice for",
+            "Survival necessity": "Understand unity as",
+            "Practical wisdom": "Contribute battle-tested",
+            "Internal debates": "Influence with experience"
+          }
+        }
+      }
+    },
+    "sisters-in-exile": {
+      "name": "Sisters in Exile",
+      "aliases": [
+        "Scattered Sisters",
+        "Hidden Operatives"
+      ],
+      "appearances": [
+        6, 12, 18, 24, 30, 36, 42
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Bene Gesserit operatives scattered throughout the galaxy who maintain communication with Chapterhouse. They provide intelligence and serve as potential seeds for future Sisterhood expansion.",
+          "role": "Intelligence network",
+          "relationships": {
+            "Chapterhouse": "Maintain contact with",
+            "Galaxy-wide intelligence": "Provide network for",
+            "Future expansion": "Serve as seeds for",
+            "Hidden operations": "Conduct covert"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Report increasing signs of the Unknown Enemy's influence throughout the galaxy. Their scattered positions make them valuable early warning systems for emerging threats.",
+          "role": "Early warning network",
+          "relationships": {
+            "Unknown Enemy": "Monitor signs of",
+            "Threat assessment": "Provide distributed",
+            "Communication network": "Maintain despite dangers",
+            "Strategic intelligence": "Supply crucial"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Some will be incorporated into the merged organization while others may join the exodus group. Their dispersed knowledge and loyalty make them valuable to both paths forward.",
+          "role": "Dispersed assets",
+          "relationships": {
+            "Multiple futures": "Will support different",
+            "Knowledge preservation": "Contribute to distributed",
+            "Loyalty division": "Face choices about",
+            "Continuity insurance": "Provide for Sisterhood"
+          }
+        }
+      }
+    },
+    "honored-matre-captives": {
+      "name": "Honored Matre Captives",
+      "aliases": [
+        "Captured Warriors",
+        "Training Subjects"
+      ],
+      "appearances": [
+        5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Various Honored Matres captured during conflicts and brought to Chapterhouse for conversion training. They represent both a source of intelligence about enemy capabilities and test subjects for merger techniques.",
+          "role": "Conversion test subjects",
+          "relationships": {
+            "Murbella": "Follow example set by",
+            "Conversion training": "Undergo intensive",
+            "Enemy intelligence": "Provide valuable",
+            "Merger experiments": "Serve as subjects for"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Some successfully integrate Bene Gesserit training with their Honored Matre abilities, proving the merger concept works beyond just Murbella. Their transformations provide hope and practical experience.",
+          "role": "Successful converts",
+          "relationships": {
+            "Integration success": "Demonstrate possibility of",
+            "Dual abilities": "Develop combined",
+            "Training programs": "Help refine",
+            "Merger validation": "Provide proof of concept for"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "The most successful converts become teachers and bridges between the two organizations. Their unique perspectives help design training programs that work for both Bene Gesserit and Honored Matre recruits.",
+          "role": "Bridge teachers",
+          "relationships": {
+            "Teaching roles": "Assume important",
+            "Bridge building": "Facilitate between organizations",
+            "Training design": "Contribute expertise to",
+            "Cultural translation": "Provide essential"
+          }
+        }
+      }
+    },
+    "proctors": {
+      "name": "Proctors",
+      "aliases": [
+        "Training Supervisors",
+        "Education Monitors"
+      ],
+      "appearances": [
+        3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Experienced Bene Gesserit responsible for overseeing the education and training of acolytes and converts. They adapt traditional teaching methods to accommodate the unique challenges of the merger period.",
+          "role": "Training overseers",
+          "relationships": {
+            "Acolyte training": "Supervise all aspects of",
+            "Traditional methods": "Adapt and preserve",
+            "Conversion programs": "Oversee Honored Matre",
+            "Educational standards": "Maintain despite changes"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Develop new training protocols that can effectively integrate both Bene Gesserit and Honored Matre techniques. Their expertise becomes crucial as the merger plans advance.",
+          "role": "Protocol developers",
+          "relationships": {
+            "Hybrid training": "Design programs for",
+            "Both traditions": "Learn to teach effectively",
+            "Innovation": "Balance with tradition",
+            "Training effectiveness": "Ensure maximum"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Face the challenge of maintaining educational quality while rapidly scaling up to handle increased numbers of trainees from both organizations. Their adaptability determines merger success.",
+          "role": "Scale management specialists",
+          "relationships": {
+            "Increased volume": "Manage training",
+            "Quality maintenance": "Ensure despite expansion",
+            "Resource allocation": "Optimize for efficiency",
+            "Merger success": "Critical to achieving"
+          }
+        }
+      }
+    },
+    "weapons-instructors": {
+      "name": "Weapons Instructors",
+      "aliases": [
+        "Combat Teachers",
+        "Military Trainers"
+      ],
+      "appearances": [
+        4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Bene Gesserit specialists in combat training who work under Tamalane to prepare Sisters for the escalating conflicts. They must learn and teach Honored Matre fighting techniques alongside traditional methods.",
+          "role": "Combat training specialists",
+          "relationships": {
+            "Tamalane": "Report to weapons master",
+            "Combat readiness": "Ensure Sisterhood",
+            "Honored Matre techniques": "Learn and adapt",
+            "Fighting methods": "Teach hybrid"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Develop integrated fighting styles that combine the best of both Bene Gesserit and Honored Matre combat techniques. Their innovations give the merged organization significant advantages.",
+          "role": "Combat innovators",
+          "relationships": {
+            "Integrated styles": "Develop revolutionary",
+            "Combat advantages": "Create significant",
+            "Both techniques": "Master and combine",
+            "Military superiority": "Help achieve"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Train the merged organization's fighters to face the Unknown Enemy, adapting techniques based on intelligence about this mysterious threat. Their expertise becomes crucial for survival.",
+          "role": "Unknown Enemy specialists",
+          "relationships": {
+            "Unknown Enemy": "Prepare defenses against",
+            "Survival training": "Develop specialized",
+            "Threat adaptation": "Create methods for",
+            "Ultimate challenge": "Prepare forces for"
+          }
+        }
+      }
+    },
+    "rabbi": {
+      "name": "Rabbi",
+      "aliases": [
+        "The Jewish Leader",
+        "Keeper of the Old Ways"
+      ],
+      "appearances": [
+        9, 13, 17, 21, 25, 29, 33, 37, 41, 43
+      ],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The secret leader of the Jewish community preserved within the Bene Gesserit structure. Maintains ancient traditions and religious practices that pre-date the Sisterhood, representing cultural continuity across millennia.",
+          "role": "Secret cultural leader",
+          "relationships": {
+            "Jewish community": "Spiritual leader of hidden",
+            "Ancient traditions": "Preserves pre-Sisterhood",
+            "Rebecca": "Works closely with",
+            "Cultural memory": "Maintains authentic"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Counsels the Bene Gesserit leadership on the importance of preserving human cultural diversity during the merger. His perspectives on survival through adaptation while maintaining core identity prove valuable.",
+          "role": "Cultural preservation advisor",
+          "relationships": {
+            "Cultural diversity": "Advocates for preserving",
+            "Merger planning": "Provides wisdom for",
+            "Identity maintenance": "Expert in cultural",
+            "Ancient wisdom": "Shares relevant"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Recognizes that the escape mission offers the best chance for preserving authentic cultural traditions separate from the political merger. Supports Sheeana's plan as a guardian of human heritage.",
+          "role": "Heritage guardian",
+          "relationships": {
+            "Escape mission": "Supports as cultural preserver",
+            "Authentic traditions": "Committed to preserving",
+            "Sheeana": "Allies with for preservation",
+            "Human heritage": "Guardian of diverse"
+          }
+        },
+        "43": {
+          "revealedIn": 43,
+          "description": "Joins the exodus to ensure Jewish traditions and other cultural memories survive among the stars. His presence guarantees that human diversity will continue in the escaped group's mission.",
+          "role": "Exodus cultural guardian",
+          "relationships": {
+            "Escaped group": "Cultural wisdom keeper for",
+            "Jewish survival": "Ensures continuation of",
+            "Human diversity": "Preserves among stars",
+            "Future generations": "Will teach and guide"
+          }
+        }
+      }
+    },
+    "jewish-memory-holders": {
+      "name": "Jewish Memory Holders",
+      "aliases": [
+        "Cultural Preservers",
+        "Tradition Keepers"
+      ],
+      "appearances": [
+        11, 15, 19, 23, 27, 31, 35, 39, 43
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Members of the secret Jewish community who maintain specific aspects of their cultural heritage within the Bene Gesserit structure. Each specializes in preserving different traditions, stories, and practices.",
+          "role": "Specialized tradition keepers",
+          "relationships": {
+            "Rabbi": "Follow spiritual leadership of",
+            "Specific traditions": "Each maintains different",
+            "Cultural memory": "Collectively preserve",
+            "Secret community": "Active members of"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Their diverse knowledge becomes valuable during merger planning as they demonstrate how cultural identity can be maintained while adapting to new circumstances. Their experience guides preservation efforts.",
+          "role": "Adaptation experts",
+          "relationships": {
+            "Cultural adaptation": "Demonstrate successful",
+            "Identity preservation": "Expert in maintaining",
+            "Merger guidance": "Provide wisdom for",
+            "Survival strategies": "Share proven"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Some join the escape mission while others remain to influence the merged organization. Their distributed presence ensures Jewish cultural memory survives along both paths forward.",
+          "role": "Distributed preservers",
+          "relationships": {
+            "Multiple paths": "Ensure survival along",
+            "Cultural continuity": "Guarantee through distribution",
+            "Both futures": "Contribute to",
+            "Memory preservation": "Maintain across divisions"
+          }
+        }
+      }
+    },
+    "other-cultural-groups": {
+      "name": "Other Cultural Groups",
+      "aliases": [
+        "Hidden Cultures",
+        "Preserved Traditions"
+      ],
+      "appearances": [
+        12, 16, 20, 24, 28, 32, 36, 40, 43
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Various other cultural and religious groups that have been secretly preserved within the Bene Gesserit structure alongside the Jewish community. Each maintains unique aspects of human heritage.",
+          "role": "Diverse heritage preservers",
+          "relationships": {
+            "Human diversity": "Preserve multiple aspects of",
+            "Secret preservation": "Practice cultural",
+            "Bene Gesserit structure": "Hidden within",
+            "Cultural memory": "Maintain specialized"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Their collective knowledge provides a broader understanding of human cultural evolution and adaptation strategies. This wisdom informs decisions about what must be preserved during the merger.",
+          "role": "Cultural wisdom council",
+          "relationships": {
+            "Cultural evolution": "Understand patterns of",
+            "Adaptation strategies": "Provide tested",
+            "Preservation decisions": "Inform critical",
+            "Human heritage": "Collectively safeguard"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Like the Jewish community, they face choices about which path to follow - joining the merged organization or the exodus mission. Their decisions help ensure cultural diversity survives in both futures.",
+          "role": "Path choosers",
+          "relationships": {
+            "Future paths": "Choose between available",
+            "Cultural survival": "Ensure through division",
+            "Diversity maintenance": "Commit to preserving",
+            "Both missions": "Support with unique contributions"
+          }
+        }
+      }
+    },
+    "face-dancers": {
+      "name": "Face Dancers",
+      "aliases": [
+        "Tleilaxu Shapeshifters",
+        "Perfect Mimics"
+      ],
+      "appearances": [
+        7, 11, 15, 19, 23, 27, 31, 35, 39, 41
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Artificial beings created by the Tleilaxu with the ability to perfectly mimic human appearance and behavior. Some may have evolved beyond their original programming and pose unknown threats throughout the galaxy.",
+          "role": "Evolved infiltrators",
+          "relationships": {
+            "Tleilaxu origins": "Created by but may have transcended",
+            "Perfect mimicry": "Capable of flawless",
+            "Unknown evolution": "May have undergone",
+            "Galaxy-wide threat": "Represent potential"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Evidence suggests they may be connected to or evolved into the Unknown Enemy that drove the Honored Matres to flee. Their ability to perfectly replace humans makes them nearly impossible to detect.",
+          "role": "Possible Unknown Enemy",
+          "relationships": {
+            "Unknown Enemy": "May be evolved form of",
+            "Perfect replacement": "Achieve of humans",
+            "Detection impossibility": "Nearly impossible to achieve",
+            "Ultimate threat": "Represent potential"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Their connection to the approaching threat becomes more apparent as signs of infiltration multiply. The merged organization's formation is partly a response to this shape-shifting menace.",
+          "role": "Infiltration threat",
+          "relationships": {
+            "Approaching danger": "Connected to signs of",
+            "Infiltration evidence": "Leave subtle signs of",
+            "Merger necessity": "Drive creation of unified response",
+            "Shape-shifting menace": "Represent ultimate"
+          }
+        }
+      }
+    },
+    "ghola-tanks": {
+      "name": "Ghola Tanks",
+      "aliases": [
+        "Axlotl Tanks",
+        "Resurrection Technology"
+      ],
+      "appearances": [
+        14, 18, 22, 26, 30, 34, 38, 42
+      ],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The Tleilaxu technology for creating gholas, now controlled by the Bene Gesserit through Scytale's knowledge. Represents the ability to resurrect important individuals and preserve genetic lines.",
+          "role": "Resurrection technology",
+          "relationships": {
+            "Scytale": "Knowledge preserved through",
+            "Genetic preservation": "Enables long-term",
+            "Resurrection capability": "Provides human",
+            "Tleilaxu legacy": "Represents continuation of"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "The tanks become crucial to long-term survival planning, offering the possibility of preserving important individuals and genetic diversity for future generations facing the Unknown Enemy.",
+          "role": "Survival insurance",
+          "relationships": {
+            "Future preservation": "Enable genetic",
+            "Unknown Enemy threat": "Hedge against",
+            "Genetic diversity": "Help maintain",
+            "Long-term planning": "Essential to"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Will accompany both the merged organization and the exodus group in different forms, ensuring resurrection technology survives along both paths forward for humanity.",
+          "role": "Distributed technology",
+          "relationships": {
+            "Both paths": "Will support through technology",
+            "Technology preservation": "Ensure survival of",
+            "Future capabilities": "Maintain for both groups",
+            "Resurrection continuity": "Guarantee across divisions"
+          }
+        }
+      }
+    },
+    "genetic-memories": {
+      "name": "Genetic Memories",
+      "aliases": [
+        "Ancestral Voices",
+        "Living Archives"
+      ],
+      "appearances": [
+        8, 12, 16, 20, 24, 28, 32, 36, 40, 43
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The accumulated genetic memories and personalities stored within Reverend Mothers, representing millennia of human experience and knowledge. These living archives are crucial to preserving human wisdom.",
+          "role": "Living knowledge archives",
+          "relationships": {
+            "Reverend Mothers": "Preserved within consciousness of",
+            "Millennia of experience": "Contain accumulated",
+            "Human wisdom": "Repositories of essential",
+            "Knowledge preservation": "Primary method of"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "These memories provide guidance for facing unprecedented threats like the Unknown Enemy. The accumulated wisdom of countless generations offers insights into survival and adaptation.",
+          "role": "Wisdom counselors",
+          "relationships": {
+            "Unprecedented threats": "Provide guidance for",
+            "Survival strategies": "Offer tested",
+            "Adaptation wisdom": "Share proven",
+            "Generational knowledge": "Access to accumulated"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "The memories must be preserved in both the merged organization and the escape mission to ensure human knowledge survives regardless of which path proves successful.",
+          "role": "Knowledge insurance",
+          "relationships": {
+            "Dual preservation": "Require along both paths",
+            "Knowledge survival": "Ensure regardless of outcomes",
+            "Human continuity": "Maintain across futures",
+            "Wisdom redundancy": "Provide essential"
+          }
+        }
+      }
+    },
+    "daniel-and-marty": {
+      "name": "Daniel and Marty",
+      "aliases": [
+        "The Observers",
+        "Mysterious Watchers"
+      ],
+      "appearances": [
+        17, 25, 33, 41, 43
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Mysterious observers who appear to be monitoring the events unfolding with the Bene Gesserit and the approaching Unknown Enemy threat. Their true nature and purposes remain enigmatic.",
+          "role": "Enigmatic observers",
+          "relationships": {
+            "Unknown purposes": "Observe events for",
+            "Mysterious nature": "Conceal true",
+            "Event monitoring": "Conduct systematic",
+            "Hidden agenda": "Operate according to"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Continue their surveillance as the merger between Bene Gesserit and Honored Matres proceeds. Their interest in these events suggests connections to larger cosmic forces or plans.",
+          "role": "Cosmic surveillants",
+          "relationships": {
+            "Merger observation": "Monitor organizational",
+            "Cosmic connections": "Suggest larger",
+            "Systematic interest": "Show in human affairs",
+            "Greater plans": "Operate within framework of"
+          }
+        },
+        "43": {
+          "revealedIn": 43,
+          "description": "Watch as both the merged organization and the escaped group begin their separate paths. Their continued observation suggests that humanity's choices and survival remain of interest to unknown powers.",
+          "role": "Fate observers",
+          "relationships": {
+            "Human survival": "Monitor with interest",
+            "Unknown powers": "Represent or serve",
+            "Dual paths": "Observe both with equal attention",
+            "Cosmic significance": "Suggest events have"
+          }
+        }
+      }
+    },
+    "futars": {
+      "name": "Futars",
+      "aliases": [
+        "Cat-Men",
+        "Hunter-Killers"
+      ],
+      "appearances": [
+        13, 18, 24, 29, 35, 40
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Cat-like humanoid beings bred or created to hunt and kill Honored Matres. They may be connected to the Unknown Enemy or represent another faction in the complex galactic conflicts.",
+          "role": "Honored Matre hunters",
+          "relationships": {
+            "Honored Matres": "Bred specifically to hunt",
+            "Unknown Enemy": "Possibly connected to",
+            "Galactic conflicts": "Represent faction in",
+            "Hunting specialization": "Designed for"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Their existence complicates the strategic situation as they represent another variable in the equation of survival. Their capabilities and loyalties remain largely unknown.",
+          "role": "Unknown variable",
+          "relationships": {
+            "Strategic complications": "Introduce into planning",
+            "Unknown capabilities": "Possess largely",
+            "Loyalty questions": "Raise about allegiances",
+            "Survival equation": "Complicate calculations of"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "May represent either a threat or a potential ally in the coming conflicts. Their role in the larger struggle between human factions and the Unknown Enemy remains unclear.",
+          "role": "Unclear faction",
+          "relationships": {
+            "Potential threat": "May represent",
+            "Possible ally": "Could serve as",
+            "Coming conflicts": "Role unclear in",
+            "Larger struggle": "Position ambiguous in"
+          }
+        }
+      }
+    },
+    "phibians": {
+      "name": "Phibians",
+      "aliases": [
+        "Amphibious Beings",
+        "Water Dwellers"
+      ],
+      "appearances": [
+        21, 27, 34, 39
+      ],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Amphibious beings that may be another creation of genetic manipulation, possibly related to Tleilaxu experiments or the Unknown Enemy's influence. Their true nature and purposes are mysterious.",
+          "role": "Amphibious mystery",
+          "relationships": {
+            "Genetic manipulation": "Possibly products of",
+            "Tleilaxu connection": "May have ties to",
+            "Unknown Enemy": "Potentially influenced by",
+            "Mysterious purposes": "Operate for"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Like the Futars, they represent another unknown factor in the complex galactic situation. Their existence suggests that genetic manipulation has produced various specialized beings throughout the galaxy.",
+          "role": "Galactic unknown",
+          "relationships": {
+            "Unknown factor": "Represent in galactic affairs",
+            "Genetic diversity": "Evidence of manipulated",
+            "Specialized beings": "Part of galaxy-wide creation of",
+            "Complex situation": "Add to already"
+          }
+        }
+      }
+    },
+    "unknown-enemy": {
+      "name": "Unknown Enemy",
+      "aliases": [
+        "Face Dancers",
+        "The Hunters"
+      ],
+      "appearances": [
+        5, 10, 15, 20, 25, 30, 35, 40, 42
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A mysterious force that drove the Honored Matres to flee back to the Old Empire. Little is known about them except that they represent an existential threat that terrified even the violent Honored Matres.",
+          "role": "Unseen threat",
+          "relationships": {
+            "Honored Matres": "Drove to flee",
+            "Old Empire": "Threatens from beyond",
+            "All humanity": "Existential danger to",
+            "Mystery": "Remains largely unknown"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Evidence suggests they may be evolved Face Dancers or some other form of advanced artificial intelligence. Their ability to perfectly mimic humans makes them nearly impossible to detect or resist.",
+          "role": "Perfect infiltrators",
+          "relationships": {
+            "Face Dancers": "May be evolved form of",
+            "Human identity": "Can perfectly mimic",
+            "Detection": "Nearly impossible to achieve",
+            "Infiltration": "Supreme masters of"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Their approach becomes more evident as signs of their influence appear throughout the galaxy. The merged organization's formation is partly a response to this ultimate threat to human survival.",
+          "role": "Approaching doom",
+          "relationships": {
+            "Merger necessity": "Drives creation of",
+            "Human survival": "Ultimate threat to",
+            "Galaxy-wide influence": "Extends throughout",
+            "Final confrontation": "Approaches inevitably"
+          }
+        }
+      }
+    },
+    "streggi": {
+      "name": "Streggi",
+      "aliases": [
+        "Young Acolyte"
+      ],
+      "appearances": [
+        6, 10, 14, 18, 22, 26, 30, 34, 38
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A young acolyte in training at Chapterhouse who represents the new generation of Bene Gesserit being prepared for an uncertain future. Her development reflects the changing nature of the Sisterhood.",
+          "role": "New generation trainee",
+          "relationships": {
+            "Acolyte training": "Undergoes rigorous",
+            "New generation": "Represents changing",
+            "Future preparation": "Being trained for uncertain",
+            "Sisterhood evolution": "Reflects ongoing"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Adapts to the changing training methods as the merger with Honored Matres influences educational programs. Her flexibility demonstrates the adaptability of the younger generation.",
+          "role": "Adaptable student",
+          "relationships": {
+            "Changing methods": "Adapts successfully to",
+            "Merger influence": "Experiences in training",
+            "Youth flexibility": "Demonstrates characteristic",
+            "Educational evolution": "Participates in"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Becomes skilled in both traditional Bene Gesserit techniques and newer hybrid methods. Her success validates the training programs developed for the merged organization.",
+          "role": "Hybrid training success",
+          "relationships": {
+            "Dual techniques": "Masters both traditional and new",
+            "Training validation": "Success proves program effectiveness",
+            "Merger preparation": "Represents future of",
+            "Skills integration": "Achieves seamless"
+          }
+        }
+      }
+    },
+    "suipol": {
+      "name": "Suipol",
+      "aliases": [
+        "Guard Captain"
+      ],
+      "appearances": [
+        4, 8, 12, 16, 20, 24, 28, 32, 36, 40
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A security officer responsible for maintaining order and safety at Chapterhouse during the turbulent merger period. Must adapt security protocols to handle both Bene Gesserit and Honored Matre personnel.",
+          "role": "Security coordinator",
+          "relationships": {
+            "Chapterhouse security": "Responsible for maintaining",
+            "Merger challenges": "Adapts protocols for",
+            "Order maintenance": "Ensures during turbulence",
+            "Personnel management": "Handles diverse"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Develops new security procedures that can effectively manage both cooperative and potentially hostile captured Honored Matres. His experience becomes valuable for the merged organization.",
+          "role": "Security innovator",
+          "relationships": {
+            "New procedures": "Develops for mixed populations",
+            "Honored Matre management": "Specializes in",
+            "Security innovation": "Contributes significant",
+            "Merged organization": "Prepares systems for"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "His security expertise becomes essential as the organization faces both internal tensions and external threats. Helps maintain stability during the critical transition period.",
+          "role": "Stability maintainer",
+          "relationships": {
+            "Internal tensions": "Manages during transition",
+            "External threats": "Prepares defenses against",
+            "Critical period": "Provides stability during",
+            "Essential expertise": "Contributes"
+          }
+        }
+      }
+    },
+    "acolytes": {
+      "name": "Acolytes",
+      "aliases": [
+        "Students in Training",
+        "Future Sisters"
+      ],
+      "appearances": [
+        2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 43
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Young women in various stages of Bene Gesserit training at Chapterhouse. They represent the future of the Sisterhood and must adapt to the changing circumstances of the merger period.",
+          "role": "Future Sisterhood",
+          "relationships": {
+            "Bene Gesserit training": "Undergo traditional",
+            "Future representation": "Embody Sisterhood's",
+            "Changing circumstances": "Must adapt to",
+            "Training evolution": "Experience during studies"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Experience the integration of Honored Matre techniques into their education. Their successful adaptation demonstrates that the merger concept can work at the foundational level.",
+          "role": "Integration test subjects",
+          "relationships": {
+            "Technique integration": "Experience in education",
+            "Successful adaptation": "Demonstrate capability for",
+            "Merger validation": "Provide evidence for",
+            "Foundational change": "Participate in"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Become the first generation truly trained in the hybrid methods that will define the merged organization. Their skills and perspectives will shape the future of human survival.",
+          "role": "First hybrid generation",
+          "relationships": {
+            "Hybrid training": "First to receive complete",
+            "Merged organization": "Will define future of",
+            "Human survival": "Skills crucial to",
+            "Future shaping": "Will participate in"
+          }
+        },
+        "41": {
+          "revealedIn": 41,
+          "description": "Some join the escape mission while others remain with the merged organization. Their distribution ensures that hybrid training methods survive along both paths forward.",
+          "role": "Distributed future",
+          "relationships": {
+            "Path division": "Split between available",
+            "Training preservation": "Ensure method survival",
+            "Both futures": "Contribute to",
+            "Hybrid continuity": "Maintain across divisions"
+          }
+        }
+      }
+    },
+    "servants-and-workers": {
+      "name": "Servants and Workers",
+      "aliases": [
+        "Support Staff",
+        "Chapterhouse Personnel"
+      ],
+      "appearances": [
+        1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The various support personnel who maintain the daily operations of Chapterhouse. They include technicians, cooks, gardeners, and other essential workers who keep the community functioning.",
+          "role": "Essential support",
+          "relationships": {
+            "Daily operations": "Maintain all aspects of",
+            "Community function": "Enable through service",
+            "Essential work": "Perform often overlooked but",
+            "Organizational foundation": "Provide practical"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Adapt their work to accommodate the changing needs of the merger period, including serving both Bene Gesserit and captured Honored Matres. Their flexibility helps maintain stability.",
+          "role": "Adaptive support",
+          "relationships": {
+            "Changing needs": "Adapt work to meet",
+            "Merger accommodation": "Provide services during",
+            "Stability maintenance": "Contribute to through service",
+            "Service flexibility": "Demonstrate essential"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Witness and support the transformation of their community while maintaining the practical necessities of daily life. Their dedication ensures continuity during radical change.",
+          "role": "Continuity providers",
+          "relationships": {
+            "Transformation witness": "Observe and support",
+            "Daily necessities": "Maintain despite changes",
+            "Continuity insurance": "Provide during upheaval",
+            "Practical foundation": "Maintain essential"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Like other groups, they face choices about which future to support. Some will serve the merged organization while others join the exodus, ensuring practical skills survive along both paths.",
+          "role": "Practical continuity",
+          "relationships": {
+            "Future choices": "Face decisions about supporting",
+            "Skills distribution": "Ensure survival along paths",
+            "Both organizations": "Will serve different",
+            "Practical necessities": "Maintain for all futures"
+          }
+        }
+      }
     }
   },
   "recaps": {
@@ -626,6 +1644,11 @@
     "36": "Duncan's loyalty increasingly shifts toward the mission of preserving true Bene Gesserit values rather than supporting the political merger. His ancient connection to the Atreides mission transcends immediate political considerations.",
     "38": "The final preparations for both the merger and the escape accelerate as time runs out. Multiple agendas compete as various factions prepare for their different visions of the future.",
     "40": "Odrade's final plans reach fruition as she prepares to complete the merger at the cost of her own life. Her sacrifice will ensure the new organization's success while allowing the authentic Sisterhood to continue elsewhere.",
-    "42": "The great exodus begins as the escaping group prepares to depart on their mission to preserve Bene Gesserit knowledge among the scattered worlds. Their journey represents hope for the continuation of human wisdom and diversity."
+    "44": "Integration training reaches full implementation as captured Honored Matres demonstrate successful conversion. The proctors and weapons instructors perfect their hybrid teaching methods, creating a truly unified fighting force that combines the best of both traditions while preparing for the Unknown Enemy threat.",
+    "42": "The great exodus begins as the escaping group prepares to depart on their mission to preserve Bene Gesserit knowledge among the scattered worlds. Their journey represents hope for the continuation of human wisdom and diversity.",
+    "45": "The training programs prove their worth as converted Honored Matres serve as bridge teachers, helping to create the merged organization's educational foundation. Their success validates the integration concept and provides hope for humanity's survival against the approaching Unknown Enemy.",
+    "46": "Cultural preservation efforts intensify as the Rabbi and Jewish memory holders work alongside other cultural groups to maintain human diversity. The proctors and weapons instructors perfect their hybrid teaching methods while Tamalane coordinates military preparations for the Unknown Enemy.",
+    "47": "Face Dancers and other mysterious beings complicate the galactic situation as Daniel and Marty continue their enigmatic observations. The various support staff and acolytes adapt to the changing circumstances while maintaining the practical foundation needed for survival.",
+    "48": "The full scope of genetic memories and technological capabilities, including ghola tanks, becomes crucial to both the merged organization and escape mission planning. All levels of society, from Reverend Mothers to servants, prepare for the ultimate test of human survival."
   }
 }
