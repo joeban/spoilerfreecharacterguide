@@ -26,10 +26,8 @@ export default function Bookshelf({ series }: BookshelfProps) {
   return (
     <div className="bookshelf-container max-w-6xl mx-auto px-4">
       {/* Main bookcase frame */}
-      <div className="relative"
+      <div className="wood-secondary rounded-xl relative"
            style={{
-             background: 'linear-gradient(180deg, #3a2a1a 0%, #2a1a0a 100%)',
-             borderRadius: '1rem',
              boxShadow: `
                inset 0 0 50px rgba(0,0,0,0.5),
                0 10px 40px rgba(0,0,0,0.8)
@@ -41,7 +39,7 @@ export default function Bookshelf({ series }: BookshelfProps) {
         <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-black/30 to-transparent rounded-r-lg" />
         
         {/* Decorative top trim */}
-        <div className="h-4 bg-gradient-to-b from-amber-800/20 to-transparent rounded-t-lg" />
+        <div className="h-4 rounded-t-xl" style={{background: `linear-gradient(to bottom, #8b6f47, transparent)`}} />
         
         <div className="p-6">
           {/* Mobile Layout (2 books per row) - visible < 640px */}

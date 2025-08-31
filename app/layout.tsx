@@ -29,28 +29,16 @@ export default function RootLayout({
               <Link href="/" className="block">
                 <div className="hanging-sign relative">
                   {/* Sign chains */}
-                  <div className="absolute -top-8 left-8 w-1 h-8 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full" />
-                  <div className="absolute -top-8 right-8 w-1 h-8 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full" />
+                  <div className="absolute -top-8 left-8 w-1 h-8 rounded-full" style={{background: `linear-gradient(to bottom, #8b6f47, #654321)`}} />
+                  <div className="absolute -top-8 right-8 w-1 h-8 rounded-full" style={{background: `linear-gradient(to bottom, #8b6f47, #654321)`}} />
                   
                   {/* Wooden sign board */}
-                  <div className="relative bg-gradient-to-b from-amber-800 to-amber-900 px-12 py-6 rounded-lg shadow-2xl"
-                       style={{
-                         backgroundImage: `
-                           linear-gradient(180deg, #8b6f47 0%, #654321 50%, #4a3420 100%),
-                           url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='wood'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.02 0.1' result='noise' /%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23wood)' opacity='0.4'/%3E%3C/svg%3E")
-                         `,
-                         border: '4px solid #3a1c0f',
-                         boxShadow: `
-                           inset 0 2px 4px rgba(255,255,255,0.1),
-                           inset 0 -2px 4px rgba(0,0,0,0.5),
-                           0 8px 16px rgba(0,0,0,0.8)
-                         `
-                       }}>
+                  <div className="wood-primary px-12 py-6 rounded-lg shadow-2xl">
                     {/* Decorative corners */}
-                    <div className="absolute top-2 left-2 w-6 h-6 border-l-2 border-t-2 border-amber-600/50 rounded-tl" />
-                    <div className="absolute top-2 right-2 w-6 h-6 border-r-2 border-t-2 border-amber-600/50 rounded-tr" />
-                    <div className="absolute bottom-2 left-2 w-6 h-6 border-l-2 border-b-2 border-amber-600/50 rounded-bl" />
-                    <div className="absolute bottom-2 right-2 w-6 h-6 border-r-2 border-b-2 border-amber-600/50 rounded-br" />
+                    <div className="absolute top-2 left-2 w-6 h-6 border-l-2 border-t-2 rounded-tl" style={{borderColor: '#d4af37', opacity: 0.6}} />
+                    <div className="absolute top-2 right-2 w-6 h-6 border-r-2 border-t-2 rounded-tr" style={{borderColor: '#d4af37', opacity: 0.6}} />
+                    <div className="absolute bottom-2 left-2 w-6 h-6 border-l-2 border-b-2 rounded-bl" style={{borderColor: '#d4af37', opacity: 0.6}} />
+                    <div className="absolute bottom-2 right-2 w-6 h-6 border-r-2 border-b-2 rounded-br" style={{borderColor: '#d4af37', opacity: 0.6}} />
                     
                     {/* Logo-style title with medieval flourishes */}
                     <div className="text-center relative">

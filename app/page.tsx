@@ -9,7 +9,7 @@ export default async function HomePage() {
     <div className="container mx-auto px-4 py-8">
       {/* Search Section */}
       <div className="max-w-3xl mx-auto mb-12">
-        <div className="bg-gradient-to-br from-amber-900/40 to-amber-800/30 border-2 border-amber-700/50 rounded-lg p-6 shadow-lg">
+        <div className="wood-fine rounded-lg p-6">
           <SearchBar />
         </div>
       </div>

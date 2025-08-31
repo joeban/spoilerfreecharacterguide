@@ -4,6 +4,30 @@
 @tailwind utilities;
 
 @layer base {
+  /* Unified Wood Color Palette */
+  :root {
+    /* Primary wood tones - warm oak */
+    --wood-primary: #8b6f47;
+    --wood-primary-dark: #6b5537;
+    --wood-primary-light: #a5825d;
+    
+    /* Secondary wood tones - darker walnut */
+    --wood-secondary: #654321;
+    --wood-secondary-dark: #4a3420;
+    --wood-secondary-light: #805634;
+    
+    /* Accent wood tones */
+    --wood-accent: #3a2518;
+    --wood-highlight: #d4af37;
+    
+    /* Enhanced wood texture patterns */
+    --wood-grain-fine: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='wood-fine'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.04 0.15' result='noise' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23wood-fine)' opacity='0.15'/%3E%3C/svg%3E");
+    
+    --wood-grain-medium: url("data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='wood-med'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.02 0.1' result='noise' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23wood-med)' opacity='0.3'/%3E%3C/svg%3E");
+    
+    --wood-grain-coarse: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='wood-coarse'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.01 0.08' result='noise' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23wood-coarse)' opacity='0.4'/%3E%3C/svg%3E");
+  }
+
   html {
     @apply bg-stone-900;
   }
@@ -11,9 +35,10 @@
   body {
     @apply font-serif text-amber-50;
     background: 
-      radial-gradient(ellipse at top, rgba(139, 69, 19, 0.3) 0%, transparent 50%),
-      radial-gradient(ellipse at bottom, rgba(0, 0, 0, 0.8) 0%, transparent 50%),
-      #1a1108;
+      radial-gradient(ellipse at top, rgba(139, 111, 71, 0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom, rgba(58, 37, 24, 0.8) 0%, transparent 50%),
+      var(--wood-accent);
+    background-attachment: fixed;
     min-height: 100vh;
     font-size: 16px;
     line-height: 1.7;
@@ -188,15 +213,46 @@
     text-orientation: mixed;
   }
   
-  /* Wooden Shelf */
-  .wooden-shelf {
-    position: relative;
-    background: linear-gradient(180deg, #8b6f47 0%, #654321 30%, #4a3420 100%);
-    border-radius: 0.25rem;
+  /* Unified Wood Surfaces */
+  
+  /* Primary wood surface - for main elements like the tavern sign */
+  .wood-primary {
+    background: 
+      linear-gradient(135deg, var(--wood-primary) 0%, var(--wood-secondary) 50%, var(--wood-secondary-dark) 100%),
+      var(--wood-grain-medium);
+    border: 2px solid var(--wood-accent);
     box-shadow: 
       inset 0 2px 4px rgba(255,255,255,0.1),
+      inset 0 -2px 4px rgba(0,0,0,0.5),
+      0 8px 16px rgba(0,0,0,0.8);
+  }
+  
+  /* Secondary wood surface - for shelves and structural elements */
+  .wood-secondary {
+    background: 
+      linear-gradient(180deg, var(--wood-secondary) 0%, var(--wood-secondary-dark) 50%, var(--wood-accent) 100%),
+      var(--wood-grain-coarse);
+    box-shadow: 
+      inset 0 2px 4px rgba(255,255,255,0.08),
       inset 0 -4px 8px rgba(0,0,0,0.4),
       0 4px 12px rgba(0,0,0,0.8);
+  }
+  
+  /* Fine wood surface - for smaller decorative elements */  
+  .wood-fine {
+    background: 
+      linear-gradient(45deg, var(--wood-primary-light) 0%, var(--wood-primary) 100%),
+      var(--wood-grain-fine);
+    box-shadow: 
+      inset 0 1px 2px rgba(255,255,255,0.2),
+      0 2px 4px rgba(0,0,0,0.6);
+  }
+  
+  /* Legacy wooden-shelf class - now uses unified system */
+  .wooden-shelf {
+    @apply wood-secondary;
+    position: relative;
+    border-radius: 0.25rem;
   }
   
   .wooden-shelf::before {
@@ -206,12 +262,11 @@
     background-image: 
       repeating-linear-gradient(90deg,
         transparent 0px,
-        rgba(0,0,0,0.1) 2px,
-        transparent 4px,
-        rgba(0,0,0,0.05) 6px,
-        transparent 8px
+        rgba(0,0,0,0.15) 1px,
+        transparent 3px,
+        rgba(0,0,0,0.08) 4px,
+        transparent 6px
       );
-    opacity: 0.5;
     border-radius: 0.25rem;
   }
   
@@ -237,26 +292,34 @@
       0 6px 20px rgba(0,0,0,0.35);
   }
   
-  /* Search Bar Styling */
+  /* Search Bar Styling - Using unified wood theme */
   .search-parchment {
-    background: linear-gradient(135deg, #f9f3e9 0%, #e8dcc4 100%);
-    border: 2px solid #8b6f47;
+    background: linear-gradient(135deg, #faf8f3 0%, #f5f1e8 100%);
+    border: 2px solid var(--wood-primary);
     border-radius: 0.75rem;
     box-shadow: 
-      inset 0 2px 4px rgba(0,0,0,0.2),
-      0 2px 8px rgba(0,0,0,0.4);
-    color: #3a1c0f;
+      inset 0 2px 4px rgba(0,0,0,0.1),
+      0 4px 12px rgba(0,0,0,0.3);
+    color: var(--wood-accent);
+    position: relative;
+  }
+  
+  .search-parchment::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--wood-grain-fine);
+    opacity: 0.1;
+    border-radius: 0.75rem;
+    pointer-events: none;
   }
   
   .search-button {
-    background: linear-gradient(135deg, #8b6f47 0%, #654321 100%);
-    border: 2px solid #d4af37;
+    @apply wood-fine;
+    border: 2px solid var(--wood-highlight);
     border-radius: 0.5rem;
     color: #f4e8d0;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-    box-shadow: 
-      inset 0 1px 2px rgba(255,255,255,0.2),
-      0 2px 4px rgba(0,0,0,0.6);
     transition: all 0.2s;
   }
   
@@ -265,7 +328,7 @@
     box-shadow: 
       inset 0 1px 2px rgba(255,255,255,0.3),
       0 4px 8px rgba(0,0,0,0.6),
-      0 0 20px rgba(255,191,0,0.3);
+      0 0 20px rgba(212,175,55,0.4);
   }
   
   /* Candle Glow Effect - with forced repaint */
