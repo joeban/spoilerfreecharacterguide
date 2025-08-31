@@ -72,8 +72,17 @@ export default async function ChapterPage({
           />
         </div>
         
-        {/* Book cover and Amazon link */}
-        <div className="mb-8">
+        {/* Chapter recap (if available) */}
+        {recap && <ChapterRecap recap={recap} chapter={chapterNum} />}
+        
+        {/* Character lists */}
+        <CharacterList
+          inThisChapter={inThisChapter}
+          previouslySeen={previouslySeen}
+        />
+        
+        {/* Book cover and Amazon link - moved below character cards */}
+        <div className="mt-12 mb-12">
           <div className="parchment-panel max-w-2xl mx-auto p-6">
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
               <a
@@ -121,16 +130,7 @@ export default async function ChapterPage({
           </div>
         </div>
         
-        {/* Chapter recap (if available) */}
-        {recap && <ChapterRecap recap={recap} chapter={chapterNum} />}
-        
-        {/* Character lists */}
-        <CharacterList
-          inThisChapter={inThisChapter}
-          previouslySeen={previouslySeen}
-        />
-        
-        {/* Chapter selector - moved to bottom */}
+        {/* Chapter selector at bottom */}
         <div className="mt-12">
           <ChapterSelector
             totalChapters={bookMeta.chapters}
