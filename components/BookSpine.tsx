@@ -136,7 +136,7 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
           {/* Cover content */}
           <div className="relative z-10 h-full flex flex-col justify-between p-3">
             <div className="space-y-1">
-              <h3 className="text-sm font-display font-semibold text-amber-100 leading-tight break-normal hyphens-none">
+              <h3 className="text-base font-display font-bold text-amber-100 leading-tight break-normal hyphens-none">
                 {title}
               </h3>
               <p className="text-xs text-amber-200/70 italic">{author}</p>
