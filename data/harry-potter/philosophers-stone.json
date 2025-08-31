@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "title": "The Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "chapters": 17,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "harry-potter": {
+      "name": "Harry Potter",
+      "aliases": ["The Boy Who Lived"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A baby with a lightning bolt-shaped scar on his forehead. Mysteriously survived an attack by Voldemort that killed his parents.",
+          "role": "Orphaned infant",
+          "relationships": {
+            "James Potter": "Son of (deceased)",
+            "Lily Potter": "Son of (deceased)",
+            "Petunia Dursley": "Nephew of",
+            "Vernon Dursley": "Nephew of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "A small, skinny boy with untidy black hair, bright green eyes, and round glasses. Lives in a cupboard under the stairs at the Dursleys. Strange things happen around him that he can't explain.",
+          "role": "The Dursleys' mistreated nephew",
+          "relationships": {
+            "Vernon Dursley": "Nephew of",
+            "Petunia Dursley": "Nephew of",
+            "Dudley Dursley": "Cousin of",
+            "Piers Polkiss": "Avoids"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Learns on his 11th birthday that he's a wizard. Has been receiving letters from Hogwarts. The Dursleys have been hiding his magical heritage from him.",
+          "role": "Wizard (newly discovered)",
+          "relationships": {
+            "Rubeus Hagrid": "Rescued by",
+            "Vernon Dursley": "Nephew of (antagonistic)",
+            "Petunia Dursley": "Nephew of (resentful)",
+            "Dudley Dursley": "Cousin of (bullied by)"
+          }
+        }
+      }
+    },
+    "vernon-dursley": {
+      "name": "Vernon Dursley",
+      "aliases": ["Uncle Vernon"],
+      "appearances": [1, 2, 3, 4, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A big, beefy man with hardly any neck and a large mustache. Director at Grunnings drill-making company. Hates anything unusual or mysterious.",
+          "role": "Harry's uncle",
+          "relationships": {
+            "Petunia Dursley": "Husband of",
+            "Dudley Dursley": "Father of",
+            "Harry Potter": "Uncle of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Treats Harry very poorly, making him live in a cupboard. Takes his family to the zoo for Dudley's birthday. Becomes furious when Harry accidentally makes magic happen.",
+          "role": "Harry's abusive uncle",
+          "relationships": {
+            "Harry Potter": "Uncle of (mistreats)",
+            "Dudley Dursley": "Father of (spoils)",
+            "Petunia Dursley": "Husband of"
+          }
+        }
+      }
+    },
+    "petunia-dursley": {
+      "name": "Petunia Dursley",
+      "aliases": ["Aunt Petunia"],
+      "appearances": [1, 2, 3, 4, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Thin and blonde with nearly twice the usual amount of neck. Spends her time spying on the neighbors. Sister of Harry's mother Lily.",
+          "role": "Harry's aunt",
+          "relationships": {
+            "Vernon Dursley": "Wife of",
+            "Dudley Dursley": "Mother of",
+            "Harry Potter": "Aunt of",
+            "Lily Potter": "Sister of (deceased)"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Knew about magic all along as her sister Lily was a witch. Has been hiding Harry's magical heritage out of jealousy and fear.",
+          "role": "Harry's resentful aunt",
+          "relationships": {
+            "Lily Potter": "Sister of (was jealous of)",
+            "Harry Potter": "Aunt of (resentful guardian)",
+            "Vernon Dursley": "Wife of",
+            "Dudley Dursley": "Mother of"
+          }
+        }
+      }
+    },
+    "dudley-dursley": {
+      "name": "Dudley Dursley",
+      "aliases": ["Dudders", "Ickle Dudleykins"],
+      "appearances": [1, 2, 3, 4, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A spoiled baby, son of Vernon and Petunia Dursley.",
+          "role": "Harry's cousin",
+          "relationships": {
+            "Vernon Dursley": "Son of",
+            "Petunia Dursley": "Son of",
+            "Harry Potter": "Cousin of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "An extremely spoiled and overweight boy who bullies Harry. Gets upset when he doesn't get enough birthday presents. Afraid of Harry after the zoo incident.",
+          "role": "Harry's bullying cousin",
+          "relationships": {
+            "Harry Potter": "Cousin of (bullies)",
+            "Piers Polkiss": "Best friend of",
+            "Vernon Dursley": "Son of",
+            "Petunia Dursley": "Son of"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Terrified when Hagrid gives him a pig's tail after eating Harry's birthday cake. Runs around squealing in pain and fear.",
+          "role": "Harry's frightened cousin",
+          "relationships": {
+            "Rubeus Hagrid": "Cursed by",
+            "Harry Potter": "Cousin of (now fears)"
+          }
+        }
+      }
+    },
+    "rubeus-hagrid": {
+      "name": "Rubeus Hagrid",
+      "aliases": ["Hagrid"],
+      "appearances": [1, 3, 4, 5, 6, 8, 11, 12, 14, 16],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An enormous man, almost twice as tall as normal and five times as wide. Keeper of Keys and Grounds at Hogwarts. Brings baby Harry to the Dursleys on a flying motorcycle.",
+          "role": "Keeper of Keys and Grounds at Hogwarts",
+          "relationships": {
+            "Albus Dumbledore": "Works for",
+            "Harry Potter": "Delivers to Dursleys"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Breaks down the door to rescue Harry on his 11th birthday. Cannot do magic officially as he was expelled from Hogwarts. Extremely loyal to Dumbledore who trusts him completely.",
+          "role": "Harry's rescuer and guide",
+          "relationships": {
+            "Harry Potter": "Rescues and protects",
+            "Albus Dumbledore": "Devoted to",
+            "Dudley Dursley": "Gives pig tail to"
+          }
+        }
+      }
+    },
+    "albus-dumbledore": {
+      "name": "Albus Dumbledore",
+      "aliases": ["Professor Dumbledore"],
+      "appearances": [1, 6, 7, 12, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Tall, thin, and very old with silver hair and beard long enough to tuck into his belt. Has blue eyes that twinkle behind half-moon spectacles. Headmaster of Hogwarts and considered the only wizard Voldemort fears.",
+          "role": "Headmaster of Hogwarts",
+          "relationships": {
+            "Minerva McGonagall": "Works with",
+            "Rubeus Hagrid": "Employs",
+            "Harry Potter": "Places with Dursleys",
+            "Voldemort": "Opposed to"
+          }
+        }
+      }
+    },
+    "minerva-mcgonagall": {
+      "name": "Minerva McGonagall",
+      "aliases": ["Professor McGonagall"],
+      "appearances": [1, 6, 7, 8, 9, 11, 13, 16],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A severe-looking woman who can transform into a tabby cat. Deputy Headmistress of Hogwarts. Worried about leaving Harry with the Dursleys.",
+          "role": "Deputy Headmistress of Hogwarts",
+          "relationships": {
+            "Albus Dumbledore": "Deputy to",
+            "Harry Potter": "Concerned for"
+          }
+        }
+      }
+    },
+    "piers-polkiss": {
+      "name": "Piers Polkiss",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 2,
+          "description": "Dudley's best friend. A scrawny boy with a face like a rat. Usually holds people's arms behind their backs while Dudley hits them.",
+          "role": "Dudley's friend",
+          "relationships": {
+            "Dudley Dursley": "Best friend of",
+            "Harry Potter": "Bullies"
+          }
+        }
+      }
+    },
+    "arabella-figg": {
+      "name": "Arabella Figg",
+      "aliases": ["Mrs. Figg"],
+      "appearances": [2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 2,
+          "description": "An old lady who lives two streets away. Occasionally babysits Harry when the Dursleys go out. Her house smells of cabbage and she has lots of cats.",
+          "role": "Neighbor and babysitter",
+          "relationships": {
+            "Harry Potter": "Babysits"
+          }
+        }
+      }
+    },
+    "voldemort": {
+      "name": "Lord Voldemort",
+      "aliases": ["You-Know-Who", "He-Who-Must-Not-Be-Named"],
+      "appearances": [],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The most feared dark wizard who killed Harry's parents but mysteriously failed to kill baby Harry, leaving only a lightning bolt scar. Lost his powers and disappeared that night.",
+          "role": "Dark wizard (vanished)",
+          "relationships": {
+            "James Potter": "Murdered",
+            "Lily Potter": "Murdered",
+            "Harry Potter": "Failed to kill",
+            "Albus Dumbledore": "Feared by"
+          }
+        }
+      }
+    },
+    "ron-weasley": {
+      "name": "Ron Weasley",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A tall, thin, freckled boy with long nose, big hands and feet, and flaming red hair. From a wizarding family. Youngest of six brothers. Friendly and loyal, loves wizard chess.",
+          "role": "Harry's first friend",
+          "relationships": {
+            "Harry Potter": "Befriends",
+            "Hermione Granger": "Fellow student",
+            "Fred Weasley": "Brother of",
+            "George Weasley": "Brother of",
+            "Percy Weasley": "Brother of"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Loyal friend who stands by Harry. Shows skill at wizard chess and knowledge of the wizarding world. Has a pet rat named Scabbers.",
+          "role": "Harry's loyal friend",
+          "relationships": {
+            "Harry Potter": "Best friend of",
+            "Hermione Granger": "Friend (sometimes argues with)",
+            "Scabbers": "Owner of",
+            "Neville Longbottom": "Dormmate of"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Demonstrates exceptional skill at wizard chess, helping Harry navigate the giant chess set protecting the Philosopher's Stone. Shows courage by sacrificing himself in the game.",
+          "role": "Chess champion and brave friend",
+          "relationships": {
+            "Harry Potter": "Sacrifices himself to help",
+            "Hermione Granger": "Works with as a team"
+          }
+        }
+      }
+    },
+    "hermione-granger": {
+      "name": "Hermione Granger",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A bossy-looking girl with lots of bushy brown hair and rather large front teeth. Very knowledgeable about magic despite being Muggle-born. Already read Hogwarts: A History before arriving.",
+          "role": "Eager new student",
+          "relationships": {
+            "Harry Potter": "Fellow student",
+            "Ron Weasley": "Fellow student",
+            "Neville Longbottom": "Helps"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Brilliant student who knows more spells than anyone in first year. Can be annoying with her know-it-all attitude, but proves herself brave when helping Harry and Ron with the mountain troll.",
+          "role": "Brilliant student and brave friend",
+          "relationships": {
+            "Harry Potter": "Friend and ally",
+            "Ron Weasley": "Friend (after troll incident)",
+            "Professor McGonagall": "Admires"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Uses her extensive knowledge of plants and potions to help Harry get through Snape's logic puzzle protecting the Philosopher's Stone. Shows both intelligence and courage.",
+          "role": "Problem solver and loyal friend",
+          "relationships": {
+            "Harry Potter": "Helps solve puzzles for",
+            "Ron Weasley": "Works with as a team",
+            "Professor Snape": "Solves puzzle created by"
+          }
+        }
+      }
+    },
+    "draco-malfoy": {
+      "name": "Draco Malfoy",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8, 9, 11, 13, 15, 17],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A pale, pointed-faced boy with sleek blond hair. Arrogant and rude. From a wealthy pure-blood wizarding family. Immediately shows prejudice against Muggle-borns and those he considers beneath him.",
+          "role": "Arrogant student",
+          "relationships": {
+            "Harry Potter": "Dislikes instantly",
+            "Hagrid": "Insulting toward"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Sorted into Slytherin House. Becomes Harry's school rival. Constantly bullies other students and tries to get them in trouble. Has two cronies, Crabbe and Goyle.",
+          "role": "Harry's rival",
+          "relationships": {
+            "Harry Potter": "School rival of",
+            "Vincent Crabbe": "Friends with",
+            "Gregory Goyle": "Friends with",
+            "Neville Longbottom": "Bullies"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Challenges Harry to a wizard's duel at midnight, but doesn't show up - it was a trap to get Harry in trouble. Shows his cowardly and scheming nature.",
+          "role": "Scheming antagonist",
+          "relationships": {
+            "Harry Potter": "Sets trap for",
+            "Argus Filch": "Tips off about Harry"
+          }
+        }
+      }
+    },
+    "severus-snape": {
+      "name": "Severus Snape",
+      "aliases": ["Professor Snape"],
+      "appearances": [7, 8, 11, 13, 16, 17],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A teacher with greasy black hair, sallow skin, and a hooked nose. Head of Slytherin House and Potions master. Shows immediate dislike for Harry Potter during the Sorting ceremony.",
+          "role": "Potions Professor",
+          "relationships": {
+            "Harry Potter": "Dislikes",
+            "Albus Dumbledore": "Works for"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Deliberately tries to intimidate and humiliate Harry in his first Potions class. Asks difficult questions and criticizes Harry unfairly. Shows clear bias against Gryffindor students.",
+          "role": "Intimidating teacher",
+          "relationships": {
+            "Harry Potter": "Targets and humiliates",
+            "Neville Longbottom": "Bullies",
+            "Hermione Granger": "Ignores despite her knowledge"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Suspected of cursing Harry's broomstick during the Quidditch match. Seen muttering an incantation while staring at Harry. However, was actually trying to counter-curse the real culprit.",
+          "role": "Suspected antagonist",
+          "relationships": {
+            "Harry Potter": "Suspected of cursing",
+            "Professor Quirrell": "Actually protecting Harry from"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Revealed to have been protecting Harry all along. Created the logic puzzle protecting the Philosopher's Stone. Despite his harsh treatment, he was trying to save Harry from the real threat.",
+          "role": "Reluctant protector",
+          "relationships": {
+            "Harry Potter": "Protects despite dislike",
+            "James Potter": "Had complicated history with",
+            "Lily Potter": "Cared for deeply"
+          }
+        }
+      }
+    },
+    "professor-quirrell": {
+      "name": "Professor Quirinus Quirrell",
+      "aliases": ["Professor Quirrell"],
+      "appearances": [5, 7, 8, 11, 16, 17],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Defense Against the Dark Arts teacher. Pale and nervous with a slight stutter. Wears a purple turban which he claims he got from an African prince as thanks for getting rid of a troublesome zombie.",
+          "role": "Defense Against the Dark Arts Professor",
+          "relationships": {
+            "Harry Potter": "Meets in Leaky Cauldron",
+            "Hagrid": "Fellow Hogwarts teacher"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Timid teacher who seems afraid of his own subject. Students find his classes boring and ineffective. Always nervous and stuttering, especially around other teachers.",
+          "role": "Ineffective teacher",
+          "relationships": {
+            "Professor Snape": "Intimidated by",
+            "Neville Longbottom": "Struggles to teach"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Present at the Quidditch match when Harry's broomstick was cursed. Appears to be knocked over by Hermione when she set Snape's robes on fire, but was actually the one cursing Harry's broom.",
+          "role": "Hidden antagonist",
+          "relationships": {
+            "Harry Potter": "Secretly trying to harm",
+            "Professor Snape": "Being countered by"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Revealed as the true villain trying to steal the Philosopher's Stone for his master, Voldemort, who has been sharing his body and hiding under the turban. No longer stutters when his true nature is revealed.",
+          "role": "Voldemort's servant and host",
+          "relationships": {
+            "Voldemort": "Possessed by",
+            "Harry Potter": "Main antagonist of",
+            "Professor Snape": "Was being thwarted by",
+            "Nicolas Flamel": "Trying to steal from"
+          }
+        }
+      }
+    },
+    "neville-longbottom": {
+      "name": "Neville Longbottom",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 13, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A round-faced, forgetful boy who often loses things. Raised by his grandmother after his parents were tortured into insanity by Death Eaters. Sorted into Gryffindor despite seeming more timid than brave.",
+          "role": "Fellow Gryffindor student",
+          "relationships": {
+            "Harry Potter": "Fellow student and dormmate",
+            "Ron Weasley": "Fellow dormmate", 
+            "Hermione Granger": "Helped by",
+            "Augusta Longbottom": "Grandson of (raised by)"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Struggles in most classes, especially Potions where Professor Snape constantly bullies and intimidates him. Often has accidents with spells and potions.",
+          "role": "Struggling student",
+          "relationships": {
+            "Professor Snape": "Bullied by",
+            "Seamus Finnigan": "Fellow Gryffindor"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Shows unexpected courage by trying to stop Harry, Ron, and Hermione from leaving the common room, believing they will lose Gryffindor more House points. Hermione puts a Full Body-Bind curse on him.",
+          "role": "Unexpected opponent",
+          "relationships": {
+            "Hermione Granger": "Cursed by (reluctantly)",
+            "Gryffindor House": "Trying to protect"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "We meet the Dursley family living a very ordinary life, while strange magical occurrences hint at something unusual brewing. That night, a baby named Harry Potter is left at their doorstep by Dumbledore and McGonagall.",
+    "2": "Harry grows up living under the stairs and endures mistreatment from the Dursleys. He begins receiving mysterious letters which his uncle Vernon desperately tries to stop him reading.",
+    "3": "The letters flood the house until the Dursleys flee to a remote hut. Hagrid arrives, reveals to Harry that he is a wizard, and gives him a letter inviting him to Hogwarts.",
+    "4": "Hagrid takes Harry to Diagon Alley to shop for school supplies. Harry learns about his fame in the wizarding world and gets his wand from Mr. Ollivander.",
+    "5": "Harry explores Diagon Alley and meets Professor Quirrell at the Leaky Cauldron. He also encounters Draco Malfoy at Madam Malkin's robe shop.",
+    "6": "Harry travels to Hogwarts on the Hogwarts Express, where he meets Ron Weasley and Hermione Granger. At the castle, students are sorted into Houses by the Sorting Hat.",
+    "7": "Harry begins his first week at Hogwarts, attending various classes and learning about the teachers. He discovers Professor Snape seems to dislike him immediately.",
+    "8": "Harry has his first Potions lesson with Professor Snape, who embarrasses him in front of the class. Classes continue and Harry starts to settle into school life.",
+    "9": "Harry saves Hermione from a mountain troll on Halloween, and the three become friends. They also learn that someone tried to break into Gringotts bank.",
+    "10": "Harry discovers he has a natural talent for Quidditch and joins the Gryffindor team as Seeker, the youngest in a century.",
+    "11": "During Harry's first Quidditch match, his broomstick is cursed and tries to throw him off. Hermione suspects Professor Snape but doesn't realize the real culprit is Professor Quirrell.",
+    "12": "Harry receives an Invisibility Cloak for Christmas and explores the castle at night, discovering the Mirror of Erised which shows his deepest desire - his parents.",
+    "13": "Dumbledore explains the Mirror of Erised to Harry and moves it. Harry, Ron, and Hermione research Nicolas Flamel and discover the Philosopher's Stone.",
+    "14": "Hagrid accidentally reveals that Fluffy will sleep if music is played to it. The trio realizes someone is planning to steal the Philosopher's Stone.",
+    "15": "Hagrid wins a dragon egg in a card game. The dragon, Norbert, grows quickly and becomes dangerous, leading to complications for the trio.",
+    "16": "Harry, Ron, Hermione, and Neville are caught out of bounds and sentenced to detention in the Forbidden Forest. Harry encounters Voldemort drinking unicorn blood and is saved by Firenze the centaur.",
+    "17": "Harry confronts Professor Quirrell, who reveals he has been trying to steal the Philosopher's Stone for his master, Voldemort. Harry prevents the theft and Voldemort's return to power."
+  }
+}

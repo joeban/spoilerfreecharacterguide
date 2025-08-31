@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Cinzel:wght@400;500;600&family=MedievalSharp&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-stone-900;
+  }
+  
+  body {
+    @apply font-serif text-amber-50;
+    background: 
+      radial-gradient(ellipse at top, rgba(139, 69, 19, 0.3) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom, rgba(0, 0, 0, 0.8) 0%, transparent 50%),
+      #1a1108;
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  /* Tavern Sign Text Effect */
+  .tavern-sign-text {
+    @apply text-amber-400;
+    text-shadow: 
+      3px 3px 0 #8b4513,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      0 0 30px rgba(255, 191, 0, 0.5),
+      0 0 60px rgba(255, 140, 0, 0.3);
+    letter-spacing: 0.05em;
+  }
+  
+  /* Hanging Sign - No constant animation, only on hover */
+  .hanging-sign {
+    transform-origin: top center;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Gentle swing animation - triggered on hover */
+  @keyframes gentle-swing {
+    0%, 100% { transform: rotate(-2deg); }
+    50% { transform: rotate(2deg); }
+  }
+  
+  .hanging-sign:hover {
+    animation: gentle-swing 2s ease-in-out;
+  }
+  
+  /* 3D Book Styles - with GPU acceleration and will-change */
+  .book-3d-container {
+    @apply relative;
+    width: 140px;
+    height: 200px;
+    perspective: 800px;
+    margin: 0 10px;
+    /* Force GPU acceleration */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+  
+  .book-3d {
+    @apply relative w-full h-full;
+    transform-style: preserve-3d;
+    transform: rotateY(30deg);
+    transition: transform 0.3s ease;
+    /* Add will-change for better performance */
+    will-change: transform;
+    /* Force repaint on load */
+    animation: book-init 0.01s;
+  }
+  
+  @keyframes book-init {
+    0% { opacity: 0.999; }
+    100% { opacity: 1; }
+  }
+  
+  .book-3d:hover {
+    transform: rotateY(25deg);
+  }
+  
+  /* Book spine (left side) - visible face */
+  .book-spine {
+    @apply absolute top-0 h-full;
+    left: -35px;
+    width: 35px;
+    background: inherit;
+    transform: rotateY(-90deg);
+    transform-origin: right center;
+    box-shadow: 
+      -2px 0 8px rgba(0,0,0,0.4),
+      inset 1px 0 2px rgba(0,0,0,0.3);
+    border-radius: 2px 0 0 2px;
+    /* Force repaint */
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  
+  .spine-decoration {
+    @apply h-full flex flex-col relative;
+  }
+  
+  /* Vertical text on spine */
+  .writing-mode-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+  }
+  
+  /* Book cover (front) - main face */
+  .book-cover {
+    @apply absolute left-0 top-0 w-full h-full;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 
+      3px 3px 15px rgba(0,0,0,0.5),
+      1px 1px 5px rgba(0,0,0,0.3),
+      inset -1px -1px 2px rgba(0,0,0,0.2),
+      inset 1px 1px 1px rgba(255,255,255,0.1);
+    /* Force GPU acceleration */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  
+  /* Right edge shadow for depth */
+  .book-3d::after {
+    content: '';
+    @apply absolute top-0 h-full;
+    right: -25px;
+    width: 25px;
+    background: linear-gradient(to right, 
+      rgba(0,0,0,0.3) 0%, 
+      rgba(0,0,0,0.1) 50%,
+      transparent 100%);
+    transform: rotateY(90deg);
+    transform-origin: left center;
+  }
+  
+  /* Book Spine - Vertical */
+  .hearthstone-book {
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .hearthstone-book::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 40%, rgba(0,0,0,0.2) 100%);
+    pointer-events: none;
+  }
+  
+  .hearthstone-book:hover {
+    transform: translateY(-4px) scale(1.02);
+    filter: brightness(1.1);
+  }
+  
+  .hearthstone-book:hover::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: radial-gradient(circle at center, transparent 30%, rgba(255, 191, 0, 0.4) 100%);
+    filter: blur(10px);
+    animation: magical-glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes magical-glow {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 0.8; }
+  }
+  
+  /* Book Spine - Horizontal */
+  .hearthstone-book-horizontal {
+    @apply hearthstone-book;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+  
+  /* Wooden Shelf */
+  .wooden-shelf {
+    position: relative;
+    background: linear-gradient(180deg, #8b6f47 0%, #654321 30%, #4a3420 100%);
+    border-radius: 0.25rem;
+    box-shadow: 
+      inset 0 2px 4px rgba(255,255,255,0.1),
+      inset 0 -4px 8px rgba(0,0,0,0.4),
+      0 4px 12px rgba(0,0,0,0.8);
+  }
+  
+  .wooden-shelf::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      repeating-linear-gradient(90deg,
+        transparent 0px,
+        rgba(0,0,0,0.1) 2px,
+        transparent 4px,
+        rgba(0,0,0,0.05) 6px,
+        transparent 8px
+      );
+    opacity: 0.5;
+    border-radius: 0.25rem;
+  }
+  
+  /* Parchment Panel - Enhanced for readability */
+  .parchment-panel {
+    background: linear-gradient(135deg, #faf8f3 0%, #f5f1e8 100%);
+    border: 2px solid #d4af37;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 
+      inset 0 0 10px rgba(212,175,55,0.1),
+      0 4px 12px rgba(0,0,0,0.3);
+    color: #2c1810;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover state for parchment panels */
+  .parchment-panel:hover {
+    background: linear-gradient(135deg, #fdfbf7 0%, #f8f5ed 100%);
+    border-color: #e5c566;
+    box-shadow: 
+      inset 0 0 15px rgba(212,175,55,0.15),
+      0 6px 20px rgba(0,0,0,0.35);
+  }
+  
+  /* Search Bar Styling */
+  .search-parchment {
+    background: linear-gradient(135deg, #f9f3e9 0%, #e8dcc4 100%);
+    border: 2px solid #8b6f47;
+    border-radius: 0.75rem;
+    box-shadow: 
+      inset 0 2px 4px rgba(0,0,0,0.2),
+      0 2px 8px rgba(0,0,0,0.4);
+    color: #3a1c0f;
+  }
+  
+  .search-button {
+    background: linear-gradient(135deg, #8b6f47 0%, #654321 100%);
+    border: 2px solid #d4af37;
+    border-radius: 0.5rem;
+    color: #f4e8d0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    box-shadow: 
+      inset 0 1px 2px rgba(255,255,255,0.2),
+      0 2px 4px rgba(0,0,0,0.6);
+    transition: all 0.2s;
+  }
+  
+  .search-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 
+      inset 0 1px 2px rgba(255,255,255,0.3),
+      0 4px 8px rgba(0,0,0,0.6),
+      0 0 20px rgba(255,191,0,0.3);
+  }
+  
+  /* Candle Glow Effect - with forced repaint */
+  .candle-glow {
+    position: relative;
+    /* Force GPU acceleration */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    /* Trigger repaint on load */
+    animation: candle-init 0.01s;
+  }
+  
+  @keyframes candle-init {
+    0% { opacity: 0.999; }
+    100% { opacity: 1; }
+  }
+  
+  .candle-glow::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 60px;
+    background: radial-gradient(ellipse at bottom, rgba(255,191,0,0.6) 0%, transparent 70%);
+    animation: flicker 3s ease-in-out infinite;
+  }
+  
+  @keyframes flicker {
+    0%, 100% { opacity: 0.8; transform: translateX(-50%) scale(1); }
+    50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
+  }
+  
+  /* Book Colors - using solid fallbacks for better rendering */
+  .book-burgundy { 
+    background: #722f37;
+    background: linear-gradient(135deg, #722f37 0%, #4a1a1a 100%); 
+  }
+  .book-navy { 
+    background: #2c5282;
+    background: linear-gradient(135deg, #2c5282 0%, #1a3344 100%); 
+  }
+  .book-forest { 
+    background: #2d5a2d;
+    background: linear-gradient(135deg, #2d5a2d 0%, #1a3a2a 100%); 
+  }
+  .book-purple { 
+    background: #553c9a;
+    background: linear-gradient(135deg, #553c9a 0%, #3a1a4a 100%); 
+  }
+  .book-brown { 
+    background: #92400e;
+    background: linear-gradient(135deg, #92400e 0%, #4a3a1a 100%); 
+  }
+  .book-charcoal { 
+    background: #4a4a5a;
+    background: linear-gradient(135deg, #4a4a5a 0%, #2a2a3a 100%); 
+  }
+  .book-crimson { 
+    background: #991b1b;
+    background: linear-gradient(135deg, #991b1b 0%, #4a1a1a 100%); 
+  }
+  .book-teal { 
+    background: #0e7490;
+    background: linear-gradient(135deg, #0e7490 0%, #164e63 100%); 
+  }
+}
+
+@layer utilities {
+  /* Typography utilities for better readability */
+  .text-readable {
+    @apply text-base md:text-lg leading-relaxed;
+    letter-spacing: 0.01em;
+  }
+  
+  .text-body-primary {
+    @apply text-amber-50;
+  }
+  
+  .text-body-secondary {
+    @apply text-amber-100/80;
+  }
+  
+  .text-parchment-primary {
+    @apply text-stone-800;
+  }
+  
+  .text-parchment-secondary {
+    @apply text-stone-700;
+  }
+  
+  .heading-display {
+    @apply font-display tracking-wide;
+    letter-spacing: 0.05em;
+  }
+  
+  .heading-serif {
+    @apply font-serif font-semibold;
+  }
+  
+  .text-shadow-fire {
+    text-shadow: 
+      0 0 10px rgba(255,140,0,0.8),
+      0 0 20px rgba(255,69,0,0.6),
+      0 0 30px rgba(255,0,0,0.4);
+  }
+  
+  .text-shadow-subtle {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  }
+  
+  .wooden-border {
+    border-image: linear-gradient(135deg, #8b6f47 0%, #654321 50%, #4a3420 100%) 1;
+    border-width: 4px;
+    border-style: solid;
+  }
+  
+  /* Force repaint utility class */
+  .force-repaint {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    will-change: transform;
+  }
+}
