@@ -3,6 +3,7 @@ import { getChaptersWithContent } from '@/lib/spoilerFilter';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import ChapterSelector from '@/components/ChapterSelector';
+import Breadcrumb from '@/components/Breadcrumb';
 
 export default async function BookPage({
   params
@@ -33,17 +34,17 @@ export default async function BookPage({
     ? `https://images-na.ssl-images-amazon.com/images/P/${bookMeta.asin}.01._SX300_.jpg`
     : null;
   
+  const breadcrumbItems = [
+    { label: 'Home', href: '/' },
+    { label: series.title, href: `/${params.series}` },
+    { label: bookMeta.title, current: true }
+  ];
+
   return (
     <div className="container mx-auto px-4 py-12">
+      <Breadcrumb items={breadcrumbItems} />
+      
       <div className="text-center mb-12">
-        <div className="parchment-panel inline-block px-6 py-2 mb-4">
-          <Link 
-            href={`/${params.series}`}
-            className="text-parchment-primary hover:text-stone-900 transition-colors text-sm font-semibold"
-          >
-            ← Back to {series.title}
-          </Link>
-        </div>
         <h1 className="text-4xl md:text-5xl font-display mb-2 text-amber-50 text-shadow-subtle">
           {bookMeta.title}
         </h1>

@@ -2,6 +2,7 @@ import { getSeries, getBooksInSeries } from '@/lib/dataLoader';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import BookSpine from '@/components/BookSpine';
+import Breadcrumb from '@/components/Breadcrumb';
 
 export default async function SeriesPage({
   params
@@ -26,8 +27,15 @@ export default async function SeriesPage({
     )
     .filter((url): url is string => url !== null);
   
+  const breadcrumbItems = [
+    { label: 'Home', href: '/' },
+    { label: series.title, current: true }
+  ];
+
   return (
     <div className="container mx-auto px-4 py-12">
+      <Breadcrumb items={breadcrumbItems} />
+      
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-display mb-4 text-amber-50 text-shadow-subtle">
           {series.title}

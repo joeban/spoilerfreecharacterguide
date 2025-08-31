@@ -3,6 +3,7 @@ import { getCharactersForChapter, getChapterRecap } from '@/lib/spoilerFilter';
 import ChapterSelector from '@/components/ChapterSelector';
 import ChapterRecap from '@/components/ChapterRecap';
 import CharacterList from '@/components/CharacterList';
+import Breadcrumb from '@/components/Breadcrumb';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
@@ -30,25 +31,18 @@ export default async function ChapterPage({
   const { inThisChapter, previouslySeen } = getCharactersForChapter(bookData, chapterNum);
   const recap = getChapterRecap(bookData, chapterNum);
   
+  const breadcrumbItems = [
+    { label: 'Home', href: '/' },
+    { label: series.title, href: `/${params.series}` },
+    { label: bookMeta.title, href: `/${params.series}/${params.book}` },
+    { label: `Chapter ${chapterNum}`, current: true }
+  ];
+
   return (
     <div className="container mx-auto px-4 py-6">
+      <Breadcrumb items={breadcrumbItems} />
+      
       <div className="text-center mb-8">
-        <div className="space-y-2">
-          <Link 
-            href={`/${params.series}`}
-            className="text-amber-400 hover:text-amber-300 transition-colors text-sm font-medium"
-          >
-            ← {series.title}
-          </Link>
-          <span className="text-amber-500/50 mx-2">•</span>
-          <Link 
-            href={`/${params.series}/${params.book}`}
-            className="text-amber-400 hover:text-amber-300 transition-colors text-sm font-medium"
-          >
-            {bookMeta.title}
-          </Link>
-        </div>
-        
         <h1 className="text-4xl md:text-5xl font-display mt-4 mb-2 text-amber-100 text-shadow-subtle">
           Chapter {chapterNum}
         </h1>
