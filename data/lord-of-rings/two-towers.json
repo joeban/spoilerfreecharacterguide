@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "title": "The Two Towers",
+    "author": "J.R.R. Tolkien", 
+    "chapters": 21,
+    "createdAt": "2024-08-31T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "aragorn": {
+      "name": "Aragorn",
+      "aliases": ["Strider", "Elessar", "Heir of Isildur"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Revealed to be Isildur's heir and the rightful king of Gondor and Arnor. Called Elessar by Galadriel, he carries the sword Andúril, reforged from the shards of Narsil. Leads the hunt for the captured hobbits with grim determination.",
+          "role": "Heir of Isildur and hunter",
+          "relationships": {
+            "Isildur": "Heir of",
+            "Gondor": "Rightful king of",
+            "Andúril": "Bearer of reforged sword",
+            "Meriadoc Brandybuck": "Tracking",
+            "Peregrin Took": "Tracking"
+          }
+        }
+      }
+    },
+    "legolas": {
+      "name": "Legolas",
+      "aliases": ["Legolas Greenleaf"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Continues to track the Uruk-hai with his keen elven senses, reading signs in the earth and air that others cannot detect. His friendship with Gimli deepens through their shared trials.",
+          "role": "Elven tracker",
+          "relationships": {
+            "Aragorn": "Loyal companion of",
+            "Gimli": "Growing friendship with",
+            "Uruk-hai": "Pursuing"
+          }
+        }
+      }
+    },
+    "gimli": {
+      "name": "Gimli",
+      "aliases": ["Son of Glóin"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Despite his shorter legs, keeps pace with his companions in the pursuit of the Uruk-hai. His friendship with Legolas continues to grow, overcoming ancient prejudices between Elves and Dwarves.",
+          "role": "Dwarf warrior and tracker",
+          "relationships": {
+            "Aragorn": "Loyal companion of",
+            "Legolas": "Unlikely but growing friend",
+            "Uruk-hai": "Determined pursuer of"
+          }
+        }
+      }
+    },
+    "frodo-baggins": {
+      "name": "Frodo Baggins", 
+      "aliases": ["Mr. Frodo", "The Ring-bearer"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Travels with Sam toward Mordor, bearing the increasing burden of the Ring. The Ring's weight grows heavier both physically and spiritually as they near the land of its creation.",
+          "role": "Ring-bearer on final quest",
+          "relationships": {
+            "Samwise Gamgee": "Faithful companion",
+            "The One Ring": "Increasingly burdened by",
+            "Mordor": "Traveling toward"
+          }
+        }
+      }
+    },
+    "samwise-gamgee": {
+      "name": "Samwise Gamgee",
+      "aliases": ["Sam", "Master Sam"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Remains utterly devoted to Frodo despite the growing dangers and his master's increasing burden. His practical nature and loyalty provide strength when Frodo begins to falter.",
+          "role": "Loyal companion and guardian",
+          "relationships": {
+            "Frodo Baggins": "Devoted protector of",
+            "The One Ring": "Understands corrupting influence of"
+          }
+        }
+      }
+    },
+    "gollum": {
+      "name": "Gollum",
+      "aliases": ["Sméagol", "Slinker", "Stinker"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Captured by Frodo and Sam while following them. Swears by the Ring to guide them to Mordor, though his true intentions remain suspect. Shows signs of his original Sméagol personality alongside his corrupted Gollum side.",
+          "role": "Treacherous guide",
+          "relationships": {
+            "Frodo Baggins": "Sworn guide to",
+            "Samwise Gamgee": "Distrusted by",
+            "The One Ring": "Obsessed with reclaiming"
+          }
+        }
+      }
+    },
+    "gandalf": {
+      "name": "Gandalf",
+      "aliases": ["Gandalf the White", "Mithrandir", "The White Rider"],
+      "appearances": [5, 6, 7, 8, 9, 10, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Returns transformed as Gandalf the White after his battle with the Balrog. More powerful than before, he has taken Saruman's place as head of the White Council. His mission is clearer and more urgent.",
+          "role": "Gandalf the White",
+          "relationships": {
+            "Balrog": "Defeated in battle",
+            "Saruman": "Has replaced as head of order",
+            "Aragorn": "Reunited with",
+            "The White Council": "Now leads"
+          }
+        }
+      }
+    },
+    "peregrin-took": {
+      "name": "Peregrin Took",
+      "aliases": ["Pippin", "Pip"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Captured along with Merry by Uruk-hai after Boromir's death. Shows resourcefulness by dropping his elven brooch as a sign for potential rescuers. Endures the harsh treatment of his captors.",
+          "role": "Captured hobbit",
+          "relationships": {
+            "Meriadoc Brandybuck": "Fellow captive",
+            "Uruk-hai": "Prisoner of",
+            "Boromir": "Witnessed death of"
+          }
+        }
+      }
+    },
+    "meriadoc-brandybuck": {
+      "name": "Meriadoc Brandybuck",
+      "aliases": ["Merry"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 16, 17, 18, 19, 20, 21], 
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Captured with Pippin by Uruk-hai. Shows quick thinking and courage despite their dire situation. Works with Pippin to leave signs for their friends and seeks opportunities for escape.",
+          "role": "Captured hobbit",
+          "relationships": {
+            "Peregrin Took": "Fellow captive and conspirator",
+            "Uruk-hai": "Prisoner of",
+            "Boromir": "Witnessed final stand of"
+          }
+        }
+      }
+    },
+    "saruman": {
+      "name": "Saruman",
+      "aliases": ["Saruman the White", "Saruman of Many Colours", "The White Wizard"],
+      "appearances": [3, 4, 8, 9, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Revealed as a traitor who has turned to darkness. Once the head of the White Council, he now seeks the Ring for himself. Commands vast armies of Uruk-hai from his stronghold of Isengard.",
+          "role": "Fallen wizard and traitor",
+          "relationships": {
+            "Sauron": "Secret ally turned rival",
+            "Isengard": "Master of",
+            "Uruk-hai": "Creator and commander of",
+            "The White Council": "Former head of"
+          }
+        }
+      }
+    },
+    "treebeard": {
+      "name": "Treebeard",
+      "aliases": ["Fangorn", "Eldest"],
+      "appearances": [4, 5, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Ent, one of the ancient Tree-shepherds of Middle-earth. Tall as a tree himself, with bark-like skin and leaves in his hair. Speaks slowly and deliberately, as Ents measure time differently than the 'hasty' younger races.",
+          "role": "Eldest of the Ents",
+          "relationships": {
+            "Fangorn Forest": "Guardian of",
+            "Saruman": "Enemy who destroys trees",
+            "Meriadoc Brandybuck": "Rescuer and host of",
+            "Peregrin Took": "Rescuer and host of"
+          }
+        }
+      }
+    },
+    "éomer": {
+      "name": "Éomer",
+      "aliases": ["Éomer Éadig", "Third Marshal of Riddermark"],
+      "appearances": [2, 6, 8, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Marshal of Rohan who leads a company of Riders pursuing the Uruk-hai. Nephew to King Théoden, he is tall and stern with a spear and shield. His éored destroyed the orc-band but found no hobbits among the slain.",
+          "role": "Marshal of Rohan",
+          "relationships": {
+            "Théoden": "Nephew and loyal marshal of",
+            "Rohirrim": "Leader of riders",
+            "Uruk-hai": "Destroyer of orc-band"
+          }
+        }
+      }
+    },
+    "théoden": {
+      "name": "Théoden",
+      "aliases": ["King Théoden", "Théoden King"],
+      "appearances": [6, 7, 8, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "King of Rohan, fallen under the influence of his counselor Wormtongue and seeming old and frail beyond his years. Gandalf breaks the spell upon him, restoring his strength and will to fight.",
+          "role": "King of Rohan (restored)",
+          "relationships": {
+            "Rohan": "King of the horse-lords",
+            "Wormtongue": "Freed from influence of",
+            "Gandalf": "Restored to strength by",
+            "Éomer": "Uncle and king of"
+          }
+        }
+      }
+    },
+    "wormtongue": {
+      "name": "Gríma",
+      "aliases": ["Wormtongue"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Théoden's counselor who has been poisoning the king's mind with lies and doubt. Pale and cringing, with a wheedling voice. Revealed to be Saruman's spy within Edoras, weakening Rohan from within.",
+          "role": "Traitor and spy",
+          "relationships": {
+            "Théoden": "False counselor to",
+            "Saruman": "Secret servant of",
+            "Rohan": "Betrayer of"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Boromir dies defending Merry and Pippin from Uruk-hai, but the hobbits are captured. Aragorn, Legolas, and Gimli swear to pursue their captors and rescue their friends.",
+    "2": "The Three Hunters pursue the Uruk-hai across Rohan. They encounter Éomer's company, who report destroying the orc-band but finding no hobbits among the dead.",
+    "3": "The hunters find evidence that the hobbits escaped into Fangorn Forest during the battle. They enter the forest and encounter a mysterious old man they first mistake for Saruman.",
+    "4": "The old man is revealed to be Gandalf, returned as Gandalf the White after his battle with the Balrog. Meanwhile, Merry and Pippin are rescued by Treebeard the Ent.",
+    "5": "Gandalf reunites with Aragorn, Legolas, and Gimli. He explains his death and resurrection, and his new role as head of the White Council. They ride to Edoras.",
+    "6": "At Edoras, Gandalf breaks Saruman's spell over King Théoden, restoring the king's strength and will. Wormtongue is revealed as Saruman's spy and flees.",
+    "7": "Théoden decides to lead his people to the ancient fortress of Helm's Deep for safety. The company rides to the stronghold as Saruman's army approaches.",
+    "8": "The Battle of the Hornburg begins as Saruman's vast army of Uruk-hai assaults Helm's Deep. The fortress is besieged through the night with desperate fighting.",
+    "9": "The battle reaches its climax as the fortress walls are breached. At dawn, Gandalf arrives with Erkenbrand and reinforcements, routing Saruman's army.",
+    "10": "The Ents attack Isengard in their wrath over Saruman's destruction of the forests. Orthanc tower is surrounded by flood waters as the Ents dam the river.",
+    "11": "Frodo and Sam capture Gollum, who has been following them. Despite Sam's misgivings, Frodo accepts Gollum's oath to guide them toward Mordor.",
+    "12": "Gollum leads the hobbits through the Dead Marshes, where phantom faces of ancient warriors appear in the stagnant waters. They approach the Black Gate of Mordor.",
+    "13": "Finding the Black Gate impregnable and heavily guarded, the hobbits allow Gollum to lead them by a secret way he knows. They head south toward Ithilien.",
+    "14": "In Ithilien, Frodo and Sam witness a battle between Southrons and Rangers of Gondor. They are captured by Faramir, who reveals himself as Boromir's brother.",
+    "15": "Faramir brings the hobbits to the hidden base of Henneth Annûn. Unlike his brother, he resists the temptation of the Ring and aids them on their mission.",
+    "16": "Gandalf and the others parley with Saruman at Orthanc. Gandalf breaks Saruman's staff and casts him from the White Council. Wormtongue throws a palantír from the tower.",
+    "17": "Pippin looks into the palantír and has a brief mental contact with Sauron himself. Gandalf takes the hobbit and rides swiftly toward Minas Tirith.",
+    "18": "Aragorn reveals himself to Sauron through the palantír, challenging the Dark Lord and wresting control of the seeing-stone. He sees a fleet of black ships approaching.",
+    "19": "Aragorn takes the Paths of the Dead with Legolas and Gimli, seeking to summon the oath-breaking dead to fulfill their ancient pledge.",
+    "20": "The Dead follow Aragorn to the port of Pelargir, where they defeat the Corsairs. Aragorn releases them from their curse, and reinforcements from southern Gondor join him.",
+    "21": "Faramir releases Frodo and Sam at the borders of Mordor. Gollum leads them to a secret entrance - the tunnel of Torech Ungol, lair of the giant spider Shelob."
+  }
+}

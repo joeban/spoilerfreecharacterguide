@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "chapters": 19,
+    "createdAt": "2024-08-31T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "bilbo-baggins": {
+      "name": "Bilbo Baggins",
+      "aliases": ["Mr. Baggins", "Burglar"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A respectable hobbit living in Bag End, Hobbiton. Comfortable with his quiet, predictable life. Has never been on any adventures and considers himself quite content with his daily routine of meals and pipe-smoking.",
+          "role": "Comfortable hobbit",
+          "relationships": {
+            "Gandalf": "Knows as 'the Grey Wizard'"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Reluctantly agrees to join thirteen dwarves on their quest to reclaim their homeland from the dragon Smaug. Despite his fears, he signs the contract as their 'burglar' and begins the adventure that will change his life.",
+          "role": "Reluctant burglar",
+          "relationships": {
+            "Gandalf": "Recruited by",
+            "Thorin Oakenshield": "Employed by as burglar",
+            "Company of Dwarves": "Traveling companion of"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Discovers a magic ring that makes him invisible after winning it from Gollum in a riddle contest. Uses this power to escape the goblin tunnels and begins to gain confidence in his abilities.",
+          "role": "Ring-bearer and riddler",
+          "relationships": {
+            "Gollum": "Defeated in riddles",
+            "The Ring": "Bearer of",
+            "Company of Dwarves": "Reunited with using invisibility"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Uses his ring and newfound courage to rescue the dwarves from giant spiders in Mirkwood. Names his sword 'Sting' after the battle and earns the respect of his companions for his bravery.",
+          "role": "Hero and spider-slayer",
+          "relationships": {
+            "Company of Dwarves": "Rescuer and respected member of",
+            "Sting": "Owner and namer of",
+            "Giant Spiders": "Defeater of"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Demonstrates remarkable cleverness by orchestrating the dwarves' escape from the Wood-elves' prison using empty barrels. His skills as a burglar are finally proving themselves useful.",
+          "role": "Clever escape artist",
+          "relationships": {
+            "Company of Dwarves": "Rescuer of",
+            "Wood-elves": "Outsmarts",
+            "Lake-town": "Leads company to"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Successfully infiltrates Smaug's lair and steals a golden cup, fulfilling his contract as a burglar. Shows he has grown from the timid hobbit who began this journey.",
+          "role": "Successful burglar",
+          "relationships": {
+            "Smaug": "Successfully steals from",
+            "Thorin Oakenshield": "Proves worth to",
+            "The Ring": "Uses for stealth"
+          }
+        }
+      }
+    },
+    "gandalf": {
+      "name": "Gandalf",
+      "aliases": ["Gandalf the Grey", "The Grey Wizard", "Mithrandir"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 17, 18, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A tall old man with a grey cloak and pointed blue hat. Known as a wizard who makes excellent fireworks and occasionally brings news from the outside world. Bilbo remembers him from long ago when he was just a lad.",
+          "role": "Wizard",
+          "relationships": {
+            "Bilbo Baggins": "Old acquaintance of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Orchestrates the meeting between Bilbo and the dwarves, convincing Thorin to take the hobbit as their burglar. Reveals he has been planning this quest and believes Bilbo has hidden depths that even the hobbit himself doesn't know about.",
+          "role": "Quest organizer",
+          "relationships": {
+            "Bilbo Baggins": "Recruits for adventure",
+            "Thorin Oakenshield": "Advisor to",
+            "Company of Dwarves": "Guide and protector of"
+          }
+        }
+      }
+    },
+    "thorin-oakenshield": {
+      "name": "Thorin Oakenshield",
+      "aliases": ["Thorin", "King under the Mountain"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Leader of the company of thirteen dwarves. Son of Thrain and rightful heir to the throne under the Lonely Mountain. Seeks to reclaim Erebor from the dragon Smaug and restore his people's kingdom. Proud and determined, though initially skeptical of Bilbo.",
+          "role": "Exiled dwarf king",
+          "relationships": {
+            "Smaug": "Seeks revenge against",
+            "Bilbo Baggins": "Employs as burglar",
+            "Company of Dwarves": "Leader of",
+            "Gandalf": "Advised by"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Finally reaches the Lonely Mountain and sees his ancestral home. When Smaug is awakened, Thorin becomes more desperate and determined to reclaim not just his kingdom, but all the treasure within.",
+          "role": "King under the Mountain",
+          "relationships": {
+            "Erebor": "Rightful king of",
+            "Smaug": "Direct threat to his claim",
+            "Bilbo Baggins": "Relies on for infiltration"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Consumed by dragon-sickness and greed for gold, Thorin refuses to honor his agreements with the Men of Lake-town and the Elves. His obsession with the treasure leads to the Battle of Five Armies.",
+          "role": "Gold-sick king",
+          "relationships": {
+            "Treasure": "Obsessed with",
+            "Bard": "Refuses to negotiate with",
+            "Thranduil": "In conflict with",
+            "Bilbo Baggins": "Increasingly at odds with"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Mortally wounded in the Battle of Five Armies, Thorin's madness lifts and he reconciles with Bilbo before dying. He acknowledges the hobbit's worth and asks for forgiveness for his greed and harsh words.",
+          "role": "Dying king who finds redemption",
+          "relationships": {
+            "Bilbo Baggins": "Reconciles with and honors",
+            "Company of Dwarves": "Dies defending",
+            "Erebor": "Dies as king of the mountain"
+          }
+        }
+      }
+    },
+    "balin": {
+      "name": "Balin",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the thirteen dwarves in Thorin's company. White-bearded and elderly, he is kind to Bilbo and often speaks gently to the hobbit. Seems to be one of Thorin's most trusted advisors.",
+          "role": "Wise dwarf advisor",
+          "relationships": {
+            "Thorin Oakenshield": "Advisor to",
+            "Bilbo Baggins": "Kind toward",
+            "Company of Dwarves": "Member of"
+          }
+        }
+      }
+    },
+    "dwalin": {
+      "name": "Dwalin",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the thirteen dwarves, brother to Balin. A tough, practical dwarf with a dark beard. Less gentle than his brother but equally dedicated to the quest.",
+          "role": "Warrior dwarf",
+          "relationships": {
+            "Balin": "Brother of",
+            "Thorin Oakenshield": "Loyal to",
+            "Company of Dwarves": "Member of"
+          }
+        }
+      }
+    },
+    "smaug": {
+      "name": "Smaug",
+      "aliases": ["Smaug the Mighty", "The Dragon"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A great fire-breathing dragon who destroyed the dwarf kingdom of Erebor and the nearby town of Dale. Now sleeps on the vast hoard of treasure inside the Lonely Mountain.",
+          "role": "Dragon occupying Erebor",
+          "relationships": {
+            "Thorin Oakenshield": "Enemy of dwarf king",
+            "Erebor": "Occupies the mountain"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Awakened by Bilbo's theft, Smaug reveals himself as cunning and intelligent, not just a mindless beast. He speaks in riddles and tries to learn about his intruders while boasting of his power and invulnerability.",
+          "role": "Ancient and cunning dragon",
+          "relationships": {
+            "Bilbo Baggins": "Converses with and tries to outwit",
+            "Lake-town": "Suspects of involvement",
+            "Treasure": "Obsessively guards every piece"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "In his rage at the theft and suspecting Lake-town's involvement, Smaug flies from the mountain to destroy the town. His wrath is terrible, but this also exposes him to those who would destroy him.",
+          "role": "Wrathful destroyer",
+          "relationships": {
+            "Lake-town": "Attacks in fury",
+            "Bard": "Faces his destined killer",
+            "Erebor": "Abandons to seek revenge"
+          }
+        }
+      }
+    },
+    "gollum": {
+      "name": "Gollum",
+      "aliases": ["Sméagol"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A wretched creature living alone on an island in an underground lake. Speaks in a hissing voice to himself and calls himself 'precious.' Loves riddles but becomes murderous when he loses. Has lost something very important to him.",
+          "role": "Riddle-master and cave dweller",
+          "relationships": {
+            "Bilbo Baggins": "Plays riddles with",
+            "The Ring": "Has lost (his precious)"
+          }
+        }
+      }
+    },
+    "bard": {
+      "name": "Bard",
+      "aliases": ["Bard the Bowman", "Bard the Dragon-slayer"],
+      "appearances": [14, 17, 18, 19],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A grim-faced man from Lake-town who is skilled with a bow. Descendant of the ancient lords of Dale. Skeptical of the dwarves' quest and warns of the dangers of awakening Smaug.",
+          "role": "Bowman of Lake-town",
+          "relationships": {
+            "Lake-town": "Defender of",
+            "Thorin Oakenshield": "Wary of"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Becomes the Dragon-slayer when he kills Smaug with a black arrow, using knowledge passed down from his ancestor about the dragon's weak spot. The people of Lake-town look to him as their new leader after their town is destroyed.",
+          "role": "Dragon-slayer and leader",
+          "relationships": {
+            "Smaug": "Slays the dragon",
+            "Lake-town": "Leader of survivors"
+          }
+        }
+      }
+    },
+    "beorn": {
+      "name": "Beorn",
+      "aliases": [],
+      "appearances": [9, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A large, strong man who can change into the form of a great black bear. Lives alone between the Misty Mountains and Mirkwood with only animals for company. Hates goblins and wargs above all else.",
+          "role": "Skin-changer",
+          "relationships": {
+            "Goblins": "Mortal enemy of",
+            "Animals": "Lives peacefully with",
+            "Company of Dwarves": "Helps with supplies"
+          }
+        }
+      }
+    },
+    "elrond": {
+      "name": "Elrond",
+      "aliases": ["Master Elrond"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The wise master of Rivendell, an elf-lord who has great knowledge of ancient lore and languages. Can read moon-letters and other secret writings. Offers the company rest and counsel on their dangerous journey.",
+          "role": "Lord of Rivendell",
+          "relationships": {
+            "Rivendell": "Master of",
+            "Thorin Oakenshield": "Reads map for",
+            "Company of Dwarves": "Provides aid to"
+          }
+        }
+      }
+    },
+    "thranduil": {
+      "name": "Thranduil",
+      "aliases": ["The Elvenking"],
+      "appearances": [12, 18],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The king of the Wood-elves in Mirkwood. Suspicious of the dwarves and their intentions, he imprisons them when they won't reveal their quest. Lives in elaborate halls carved into the forest hillside.",
+          "role": "King of the Wood-elves",
+          "relationships": {
+            "Wood-elves": "King of",
+            "Company of Dwarves": "Imprisons",
+            "Mirkwood": "Rules over"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Bilbo Baggins, a comfortable hobbit, encounters Gandalf the Grey who marks his door for an adventure. Despite Bilbo's protests, Gandalf hints at the hobbit's hidden Tookish nature.",
+    "2": "Thirteen dwarves led by Thorin Oakenshield arrive at Bilbo's home, recruiting him as their burglar for a quest to reclaim the Lonely Mountain from the dragon Smaug.",
+    "3": "The company sets out from Bag End on their journey. They travel through familiar lands toward the wild, with Bilbo already missing his comfortable home.",
+    "4": "The company encounters trolls who capture most of the dwarves. Bilbo attempts his first 'burgling' but is caught. Gandalf saves them by turning the trolls to stone with sunlight.",
+    "5": "The company discovers the trolls' treasure hoard and acquires important weapons. They rest at Rivendell, meeting Elrond who helps translate the moon-letters on Thorin's map.",
+    "6": "Crossing the Misty Mountains, the company is captured by goblins. During the chaos of their escape, Bilbo falls down a crack and becomes separated from the others.",
+    "7": "Lost in the goblin tunnels, Bilbo finds a golden ring and meets Gollum. They play a riddle game with deadly stakes, which Bilbo wins by asking 'What have I got in my pocket?'",
+    "8": "Using the ring's power of invisibility, Bilbo escapes the goblins and reunites with his companions. The company is rescued by the Great Eagles from the goblin pursuit.",
+    "9": "The company reaches the house of Beorn, a skin-changer who can transform into a bear. After initially being suspicious, Beorn helps them by providing food, supplies, and safe passage.",
+    "10": "The company enters the dark and dangerous Mirkwood forest. Following Gandalf's warnings, they stick to the path but gradually become lost and desperate as their supplies run low.",
+    "11": "Giant spiders attack the company in Mirkwood. Bilbo uses his ring and sword to help rescue the dwarves, earning their respect and proving his worth as a member of the company.",
+    "12": "The Wood-elves capture the dwarves, but Bilbo remains free using his ring. He discovers the elves' halls and begins planning a rescue for his imprisoned companions.",
+    "13": "Bilbo cleverly helps the dwarves escape from the Wood-elves' prison by hiding them in empty barrels that float down the river to Lake-town (Esgaroth).",
+    "14": "The company reaches Lake-town and reveals their quest to the Men who live there. The townspeople are initially excited about the possibility of the dragon's defeat and the return of prosperity.",
+    "15": "The company reaches the Lonely Mountain and discovers the hidden door using the key and map. Bilbo enters Smaug's lair alone for the first time and steals a golden cup.",
+    "16": "Smaug awakens and converses with Bilbo, who cleverly avoids revealing his true identity or origin. The dragon deduces the involvement of Lake-town and flies off to attack the town in rage.",
+    "17": "Smaug destroys Lake-town but is killed by Bard the Bowman. News of the dragon's death spreads quickly, and various groups begin converging on the Lonely Mountain to claim shares of the treasure.",
+    "18": "The Battle of Five Armies erupts as dwarves, elves, men, goblins, and wargs fight for control of the treasure and the strategic position of the Lonely Mountain.",
+    "19": "The battle concludes with victory for the free peoples. Thorin dies from his wounds but reconciles with Bilbo before his death. Bilbo returns home to Bag End, forever changed by his adventure."
+  }
+}

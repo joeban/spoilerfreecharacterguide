@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "title": "The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "chapters": 24,
+    "createdAt": "2024-08-31T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "frodo-baggins": {
+      "name": "Frodo Baggins",
+      "aliases": ["Mr. Frodo", "The Ring-bearer"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Bilbo Baggins' cousin and adopted heir. Lives comfortably at Bag End and is well-regarded among hobbits. About to turn 50, which is considered the coming of age for hobbits. Shares Bilbo's love of maps, stories, and the wider world.",
+          "role": "Bilbo's heir",
+          "relationships": {
+            "Bilbo Baggins": "Cousin and heir of",
+            "Gandalf": "Friend of the family"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Learns the truth about Bilbo's magic ring from Gandalf - it is the One Ring of power, created by the Dark Lord Sauron. Despite the terrible burden, he accepts the responsibility of destroying it to save Middle-earth.",
+          "role": "Ring-bearer",
+          "relationships": {
+            "The One Ring": "Bearer of",
+            "Gandalf": "Entrusted with the truth by",
+            "Sauron": "Primary target of"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Sets out from Bag End with Sam and Pippin, beginning the quest to destroy the Ring. Shows courage in leaving his comfortable life behind, though he doesn't yet understand the full scope of what lies ahead.",
+          "role": "Quest leader",
+          "relationships": {
+            "Samwise Gamgee": "Faithful companion",
+            "Peregrin Took": "Traveling with",
+            "Meriadoc Brandybuck": "Joined by"
+          }
+        }
+      }
+    },
+    "samwise-gamgee": {
+      "name": "Samwise Gamgee",
+      "aliases": ["Sam", "Master Sam"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Frodo's gardener at Bag End. A practical, loyal hobbit with a love of growing things. Lives with his father, the Gaffer, and has rarely been far from Hobbiton.",
+          "role": "Gardener",
+          "relationships": {
+            "Frodo Baggins": "Gardener and servant of",
+            "Hamfast Gamgee": "Son of (the Gaffer)"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Caught eavesdropping on Gandalf's conversation about the Ring. Despite the danger, he insists on accompanying Frodo on the quest, showing unwavering loyalty to his master.",
+          "role": "Loyal companion",
+          "relationships": {
+            "Frodo Baggins": "Devoted companion of",
+            "Gandalf": "Entrusted with Frodo's safety by"
+          }
+        }
+      }
+    },
+    "gandalf-the-grey": {
+      "name": "Gandalf",
+      "aliases": ["Gandalf the Grey", "Mithrandir", "Stormcrow", "The Grey Pilgrim"],
+      "appearances": [1, 2, 3, 4, 5, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A wizard who has long been a friend to the hobbits. Known for his fireworks and stories from the outside world. Returns to the Shire after a long absence, seeking Bilbo on important business.",
+          "role": "Wizard and friend",
+          "relationships": {
+            "Bilbo Baggins": "Old friend of",
+            "Frodo Baggins": "Family friend"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Reveals himself as one of the wise who opposes the Dark Lord. He has spent years researching Bilbo's ring and discovered its true nature as the One Ring of power. Urges Frodo to leave the Shire immediately.",
+          "role": "Ring-lore keeper",
+          "relationships": {
+            "Frodo Baggins": "Entrusts with the Ring quest",
+            "Sauron": "Ancient enemy of",
+            "The White Council": "Member of"
+          }
+        }
+      }
+    },
+    "peregrin-took": {
+      "name": "Peregrin Took",
+      "aliases": ["Pippin", "Pip"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A young hobbit of the Took family, known for being adventurous and somewhat reckless. Joins Frodo's journey more out of loyalty and curiosity than understanding of the danger involved.",
+          "role": "Young adventurer",
+          "relationships": {
+            "Frodo Baggins": "Cousin and companion of",
+            "Meriadoc Brandybuck": "Best friend of",
+            "Took family": "Member of prominent family"
+          }
+        }
+      }
+    },
+    "meriadoc-brandybuck": {
+      "name": "Meriadoc Brandybuck", 
+      "aliases": ["Merry"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A hobbit of the Brandybuck family and one of Frodo's cousins. More mature and thoughtful than Pippin, but equally loyal. Has been planning to help Frodo for some time.",
+          "role": "Thoughtful companion",
+          "relationships": {
+            "Frodo Baggins": "Cousin and companion of", 
+            "Peregrin Took": "Best friend of",
+            "Brandybuck family": "Member of influential family"
+          }
+        }
+      }
+    },
+    "aragorn": {
+      "name": "Aragorn",
+      "aliases": ["Strider", "Ranger"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A mysterious Ranger who frequents the inn at Bree. Tall, dark, and weather-worn, with a stern face and grey eyes. Other travelers avoid him, calling him 'Strider.' He seems to know more about the hobbits than he should.",
+          "role": "Mysterious Ranger",
+          "relationships": {
+            "Barliman Butterbur": "Known to innkeeper",
+            "Rangers": "One of the mysterious wanderers"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Reveals he was sent by Gandalf to watch for Frodo. Offers to guide the hobbits to Rivendell, warning them of the great danger they face from the Black Riders. His knowledge of the wild and the enemy makes him invaluable.",
+          "role": "Guide and protector",
+          "relationships": {
+            "Frodo Baggins": "Protector and guide of",
+            "Gandalf": "Sent by to help hobbits",
+            "Black Riders": "Experienced opponent of"
+          }
+        }
+      }
+    },
+    "boromir": {
+      "name": "Boromir",
+      "aliases": ["Son of Denethor"],
+      "appearances": [19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A man of Gondor who has come to Rivendell seeking answers to a prophetic dream. Tall and proud, with a bearing that speaks of nobility and martial prowess. Son of Denethor, the Ruling Steward of Gondor.",
+          "role": "Gondorian warrior",
+          "relationships": {
+            "Denethor": "Son of the Steward",
+            "Gondor": "Defender of",
+            "Faramir": "Brother of"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Chosen as a member of the Fellowship of the Ring. Though brave and skilled in battle, he is troubled by the growing power of Mordor threatening his homeland and believes the Ring could be used to defend Gondor.",
+          "role": "Fellowship member",
+          "relationships": {
+            "The Fellowship": "Member of",
+            "The One Ring": "Believes could be used as weapon",
+            "Frodo Baggins": "Fellow traveler with"
+          }
+        }
+      }
+    },
+    "legolas": {
+      "name": "Legolas",
+      "aliases": ["Legolas Greenleaf"],
+      "appearances": [19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "An Elf of the Woodland Realm, son of King Thranduil. Tall and fair with keen grey eyes, skilled with bow and blade. Has come to Rivendell with news of Gollum's escape.",
+          "role": "Elven warrior",
+          "relationships": {
+            "Thranduil": "Son of the Elvenking",
+            "Woodland Realm": "Prince of",
+            "Gollum": "Helped guard"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Chosen as a member of the Fellowship, representing the Elves. His keen senses and woodland skills make him invaluable for the journey ahead.",
+          "role": "Fellowship member", 
+          "relationships": {
+            "The Fellowship": "Member representing Elves",
+            "Gimli": "Initial distrust of Dwarf",
+            "Aragorn": "Respects the Ranger"
+          }
+        }
+      }
+    },
+    "gimli": {
+      "name": "Gimli", 
+      "aliases": ["Son of Glóin"],
+      "appearances": [19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A Dwarf warrior, son of Glóin who was one of Thorin's companions. Stocky and strong with a magnificent beard, he bears an axe and wears mail. Has come to Rivendell with disturbing news from the Lonely Mountain.",
+          "role": "Dwarf warrior",
+          "relationships": {
+            "Glóin": "Son of Bilbo's old companion",
+            "Lonely Mountain": "Messenger from",
+            "Balin": "Concerned for missing kinsman"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Chosen as a member of the Fellowship, representing the Dwarves. Despite ancient enmities between Elves and Dwarves, he agrees to travel with Legolas for the greater good.",
+          "role": "Fellowship member",
+          "relationships": {
+            "The Fellowship": "Member representing Dwarves", 
+            "Legolas": "Uneasy alliance with Elf",
+            "Frodo Baggins": "Respects the Ring-bearer"
+          }
+        }
+      }
+    },
+    "elrond": {
+      "name": "Elrond",
+      "aliases": ["Master Elrond", "Lord of Rivendell"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "The Lord of Rivendell and master of the hidden valley. Ancient and wise, with the light of the Elder Days still in his eyes. Keeper of Vilya, one of the Three Rings of the Elves. Healer of Frodo's wound from the Morgul-blade.",
+          "role": "Lord of Rivendell",
+          "relationships": {
+            "Rivendell": "Lord and protector of",
+            "Vilya": "Bearer of Elven Ring",
+            "Frodo Baggins": "Healer of"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Presides over the Council that decides the fate of the Ring. Despite his power and wisdom, he recognizes that the Ring cannot be used by anyone and must be destroyed. Supports Frodo's decision to bear this burden.",
+          "role": "Council leader",
+          "relationships": {
+            "The Council": "Leader of",
+            "The One Ring": "Understands true nature of",
+            "The Fellowship": "Blesses the company"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Frodo Baggins celebrates his fiftieth birthday in the Shire, seventeen years after Bilbo's disappearance. Gandalf the Grey returns with urgent news about Bilbo's magic ring.",
+    "2": "Gandalf reveals that Bilbo's ring is actually the One Ring of Power, created by the Dark Lord Sauron. Frodo must leave the Shire immediately to prevent Sauron from reclaiming it.",
+    "3": "Frodo prepares for his departure, selling Bag End and planning his route. Sam is discovered eavesdropping and insists on accompanying his master on the dangerous journey.",
+    "4": "The hobbits set out through the Shire, but encounter a mysterious Black Rider searching for 'Baggins.' They hide and continue their journey with growing unease.",
+    "5": "The travelers meet Gildor and a company of Elves in the woods. The Elves provide food and shelter, and Gildor warns Frodo about the Black Riders pursuing him.",
+    "6": "Frodo, Sam, and Pippin are joined by Merry, who reveals he has known about Frodo's plans. They travel through the Old Forest, where the trees seem hostile and watchful.",
+    "7": "The hobbits are trapped by Old Man Willow, a malevolent tree. They are rescued by Tom Bombadil, a mysterious and powerful being who seems immune to the Ring's influence.",
+    "8": "The hobbits stay with Tom Bombadil and his wife Goldberry. Tom tells them stories of the ancient days and tests the Ring, showing he is unaffected by its power.",
+    "9": "Tom Bombadil guides the hobbits to the edge of his lands. They enter the Barrow-downs, where they are captured by a Barrow-wight but rescued again by Tom.",
+    "10": "The hobbits reach the town of Bree and stay at the Prancing Pony inn. Frodo accidentally puts on the Ring and disappears, drawing unwanted attention to their party.",
+    "11": "A Ranger called Strider approaches the hobbits, claiming Gandalf sent him to watch for them. Despite their suspicions, they agree to let him guide them to Rivendell.",
+    "12": "Strider leads the hobbits through the wild, avoiding the roads where the Black Riders search. They learn these creatures are Nazgûl, former kings enslaved by Rings of Power.",
+    "13": "The company reaches Weathertop, ancient watchtower of the North Kingdom. Despite Strider's warnings, Frodo puts on the Ring and is attacked by the Nazgûl.",
+    "14": "Frodo is wounded by a Morgul-blade but Strider drives off the Nazgûl with fire. The wound is beyond normal healing, and Frodo begins to fade between the worlds.",
+    "15": "The journey continues with Frodo growing weaker from his wound. They are pursued relentlessly by the Nine Riders as they make their way toward the Ford of Bruinen.",
+    "16": "The company is found by the Elf-lord Glorfindel, who puts Frodo on his horse Asfaloth. They race toward Rivendell with the Nazgûl in close pursuit.",
+    "17": "Frodo reaches the Ford of Rivendell just ahead of the Nine Riders. The river rises to sweep away the Nazgûl, and Frodo collapses from his wound.",
+    "18": "Frodo awakens in Rivendell, healed by Elrond's power. He is reunited with Gandalf, who explains his long absence and the growing threat of Sauron.",
+    "19": "Frodo attends the Council of Elrond, where representatives of the Free Peoples debate what to do with the Ring. The history of the Ring and the growing Shadow is revealed.",
+    "20": "The Council concludes that the Ring cannot be used and must be destroyed in the fires of Mount Doom. Frodo volunteers to bear this burden, and the Fellowship is formed to protect him.",
+    "21": "The Fellowship attempts to cross the Redhorn Pass but is turned back by a blizzard. They decide to take the dangerous path through the abandoned dwarf-city of Moria.",
+    "22": "The Fellowship enters Moria and discovers the fate of Balin's colony - all the dwarves have been slain by orcs. They find Balin's tomb and the record of the colony's last days.",
+    "23": "The Fellowship is attacked by orcs in the Chamber of Mazarbul. They flee deeper into Moria but awaken an ancient evil - a Balrog of Morgoth sleeping in the depths.",
+    "24": "At the Bridge of Khazad-dûm, Gandalf confronts the Balrog to allow the others to escape. Both wizard and demon fall into the abyss, and the Fellowship flees Moria in grief."
+  }
+}

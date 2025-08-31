@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "title": "The Return of the King", 
+    "author": "J.R.R. Tolkien",
+    "chapters": 20,
+    "createdAt": "2024-08-31T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "gandalf-the-white": {
+      "name": "Gandalf",
+      "aliases": ["Gandalf the White", "Mithrandir", "The White Rider"],
+      "appearances": [1, 2, 3, 4, 5, 7, 8, 9, 10, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Leads the defense of Minas Tirith as the city faces the greatest siege in its history. His power and authority as the White Wizard are fully displayed as he coordinates the battle against Sauron's vast host.",
+          "role": "Leader of the defense",
+          "relationships": {
+            "Minas Tirith": "Defender of",
+            "Denethor": "At odds with the mad Steward",
+            "Pippin": "Guardian of",
+            "Sauron": "Direct opponent of"
+          }
+        }
+      }
+    },
+    "peregrin-took": {
+      "name": "Peregrin Took",
+      "aliases": ["Pippin", "Guard of the Citadel"],
+      "appearances": [1, 2, 3, 4, 5, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Serves as a Guard of the Citadel in Minas Tirith, sworn to the service of Denethor. Though still young and inexperienced, he shows growing courage and loyalty in the face of the city's greatest peril.",
+          "role": "Guard of the Citadel",
+          "relationships": {
+            "Denethor": "Sworn to serve",
+            "Gandalf": "Protected by",
+            "Minas Tirith": "Guard of the city",
+            "Beregond": "Befriends fellow guard"
+          }
+        }
+      }
+    },
+    "denethor": {
+      "name": "Denethor",
+      "aliases": ["Ruling Steward", "Lord of Gondor"],
+      "appearances": [1, 4, 5, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Ruling Steward of Gondor, driven to despair by grief for Boromir and the hopelessness he sees in his palantír. Once noble and wise, he has become bitter and paranoid, refusing aid and counsel.",
+          "role": "Despairing Steward",
+          "relationships": {
+            "Gondor": "Ruling Steward of",
+            "Boromir": "Grief-stricken father of",
+            "Faramir": "Favors less than Boromir",
+            "Palantír": "Driven mad by visions in"
+          }
+        }
+      }
+    },
+    "aragorn": {
+      "name": "Aragorn",
+      "aliases": ["Strider", "Elessar", "King Elessar", "Heir of Isildur"],
+      "appearances": [2, 6, 8, 9, 10, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Arrives at the Battle of Pelennor Fields with the reinforcements from southern Gondor, turning the tide of battle. Reveals himself as the rightful king returned, fulfilling ancient prophecies.",
+          "role": "Returned King",
+          "relationships": {
+            "Gondor": "Rightful king of",
+            "Arwen": "Betrothed to",
+            "Dead Men": "Released from curse",
+            "Pelennor Fields": "Victor at great battle"
+          }
+        }
+      }
+    },
+    "frodo-baggins": {
+      "name": "Frodo Baggins",
+      "aliases": ["Mr. Frodo", "The Ring-bearer"],
+      "appearances": [10, 11, 12, 13, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Continues toward Mount Doom carrying the Ring, which becomes an ever-greater burden. Gollum's treachery leads them into Shelob's tunnel, where Frodo is stung and appears dead to Sam.",
+          "role": "Ring-bearer in greatest peril",
+          "relationships": {
+            "The One Ring": "Nearly consumed by",
+            "Samwise Gamgee": "Saved by loyal Sam",
+            "Shelob": "Victim of giant spider",
+            "Mount Doom": "Final destination"
+          }
+        }
+      }
+    },
+    "samwise-gamgee": {
+      "name": "Samwise Gamgee", 
+      "aliases": ["Sam", "Master Sam", "Bearer of the Ring"],
+      "appearances": [10, 11, 12, 13, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Believes Frodo is dead after Shelob's attack and takes the Ring to continue the mission. Shows incredible courage by facing the giant spider alone and driving her off to protect his master.",
+          "role": "Temporary Ring-bearer and hero",
+          "relationships": {
+            "Frodo Baggins": "Devoted protector of",
+            "The One Ring": "Briefly bears the burden",
+            "Shelob": "Drives off the spider",
+            "Gollum": "Pursues the traitor"
+          }
+        }
+      }
+    },
+    "gollum": {
+      "name": "Gollum",
+      "aliases": ["Sméagol", "Slinker", "Stinker"],
+      "appearances": [10, 13, 16],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Reveals his treachery by leading Frodo and Sam into Shelob's tunnel, hoping the spider will kill them so he can reclaim the Ring from their remains. His long-laid plan finally comes to fruition.",
+          "role": "Traitor revealed",
+          "relationships": {
+            "Frodo Baggins": "Betrayer of",
+            "Shelob": "Ally and informant of",
+            "The One Ring": "Desperate to reclaim"
+          }
+        }
+      }
+    },
+    "shelob": {
+      "name": "Shelob",
+      "aliases": ["Her Ladyship", "She"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "An ancient giant spider, last child of Ungoliant, who lairs in the tunnels near Mordor. Huge and terrible, she has fed on orcs and unwary travelers for ages. Gollum has made a pact to bring her fresh meat.",
+          "role": "Ancient evil and trap",
+          "relationships": {
+            "Gollum": "Has agreement with",
+            "Frodo Baggins": "Stings and paralyzes", 
+            "Ungoliant": "Offspring of primordial darkness"
+          }
+        }
+      }
+    },
+    "meriadoc-brandybuck": {
+      "name": "Meriadoc Brandybuck",
+      "aliases": ["Merry", "Knight of Rohan"],
+      "appearances": [3, 5, 6, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Becomes a Knight of Rohan in service to King Théoden. Despite being small among the horse-lords, his courage and loyalty earn him great respect. Rides to war despite being told to stay behind.",
+          "role": "Knight of Rohan",
+          "relationships": {
+            "Théoden": "Sworn to serve",
+            "Rohan": "Knight of the realm",
+            "Dernhelm": "Rides with mysterious warrior"
+          }
+        }
+      }
+    },
+    "théoden": {
+      "name": "Théoden",
+      "aliases": ["Théoden King", "Lord of the Mark"],
+      "appearances": [3, 5, 6, 8, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Leads the Rohirrim to the aid of Gondor in their darkest hour. Shows the full nobility of his character as he rides to battle knowing it may mean his death, but doing his duty as an ally.",
+          "role": "King riding to war",
+          "relationships": {
+            "Rohirrim": "King and leader of",
+            "Gondor": "Rides to aid of",
+            "Meriadoc Brandybuck": "Takes as knight",
+            "Snowmane": "Beloved horse"
+          }
+        }
+      }
+    },
+    "éowyn": {
+      "name": "Éowyn",
+      "aliases": ["Lady of Rohan", "Dernhelm"],
+      "appearances": [2, 6, 8, 14, 15, 16, 19, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Niece of King Théoden and a shieldmaiden of Rohan. Beautiful and strong-willed, she despairs at being left behind while the men ride to war. Shows interest in Aragorn but is not returned.",
+          "role": "Shieldmaiden of Rohan",
+          "relationships": {
+            "Théoden": "Niece and ward of",
+            "Éomer": "Brother of",
+            "Aragorn": "Unrequited love for",
+            "Rohan": "Lady of the realm"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Disguises herself as the warrior Dernhelm and rides to battle despite being commanded to stay behind. Shows the fierce courage of her people by defying orders to fight for those she loves.",
+          "role": "Secret warrior",
+          "relationships": {
+            "Dernhelm": "Secret identity as",
+            "Meriadoc Brandybuck": "Takes as companion",
+            "Witch-king": "Faces in battle"
+          }
+        }
+      }
+    },
+    "faramir": {
+      "name": "Faramir",
+      "aliases": ["Captain of Gondor", "Prince of Ithilien"],
+      "appearances": [4, 5, 7, 14, 15, 16, 19, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Returns to Minas Tirith wounded from his mission and faces his father's wrath and despair. Unlike his brother Boromir, he was not tempted by the Ring and aided Frodo's mission.",
+          "role": "Wounded captain",
+          "relationships": {
+            "Denethor": "Son of (less favored)",
+            "Boromir": "Brother of (different in nature)",
+            "Frodo Baggins": "Aided on the quest",
+            "Gondor": "Faithful captain of"
+          }
+        }
+      }
+    },
+    "witch-king": {
+      "name": "Witch-king of Angmar",
+      "aliases": ["Lord of the Nazgûl", "Black Captain"],
+      "appearances": [4, 5, 6, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Chief of the Nine Nazgûl and Sauron's most terrible servant. Leads the siege of Minas Tirith and breaks the gates of the city. Ancient prophecy says no living man can kill him.",
+          "role": "Chief of the Nazgûl",
+          "relationships": {
+            "Sauron": "Chief servant of",
+            "Nazgûl": "Lord of the Nine",
+            "Minas Tirith": "Besieger of",
+            "Fell beast": "Rides winged creature"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Gandalf brings Pippin to Minas Tirith, where they meet Denethor, the despairing Ruling Steward. The city prepares for siege as Sauron's vast army approaches.",
+    "2": "Aragorn, revealed as Isildur's heir, takes the Paths of the Dead with Legolas and Gimli. Éowyn despairs at being left behind while the men ride to war.",
+    "3": "The beacons of Gondor are lit, calling Rohan to aid. Théoden musters the Rohirrim for the ride to Minas Tirith, taking Merry as his knight.",
+    "4": "The siege of Minas Tirith begins as Sauron's army surrounds the city. Faramir returns wounded, and Denethor's madness grows as he despairs of victory.",
+    "5": "The Battle of the Pelennor Fields begins as the Rohirrim arrive at dawn. The Witch-king mortally wounds Théoden, but Éowyn (disguised as Dernhelm) destroys him.",
+    "6": "Aragorn arrives with reinforcements from southern Gondor, turning the tide of battle. Prince Imrahil leads the final charge that breaks Sauron's army.",
+    "7": "Denethor's madness reaches its peak as he attempts to burn himself and Faramir alive. Pippin and Beregond save Faramir, but Denethor immolates himself.",
+    "8": "The leaders of the West hold a final council and decide to march on the Black Gate to draw Sauron's attention from Frodo's mission.",
+    "9": "The Army of the West marches to the Morannon, Sauron's Black Gate. They challenge the Dark Lord to battle, hoping to give Frodo time to reach Mount Doom.",
+    "10": "Sam discovers Frodo is alive after Shelob's attack and rescues him from the orc tower. They disguise themselves as orcs to cross Mordor toward Mount Doom.",
+    "11": "Frodo and Sam struggle across the desolate plains of Mordor. The Ring's weight becomes almost unbearable as they approach Mount Doom, and Frodo begins to fail.",
+    "12": "At the Battle of the Morannon, the Army of the West faces Sauron's overwhelming host. All seems lost as they are vastly outnumbered by orcs and evil men.",
+    "13": "At the Cracks of Doom, Frodo finally succumbs to the Ring's power and claims it for himself. Gollum attacks him, bites off his finger, and falls into the lava with the Ring.",
+    "14": "The Ring is destroyed and Sauron is defeated. Mount Doom erupts as his power fails, and Eagles rescue Frodo and Sam from the destruction.",
+    "15": "Aragorn is crowned King Elessar of Gondor and Arnor. The Age of Men begins as he restores the kingdoms and ushers in a time of peace and prosperity.",
+    "16": "The hobbits are honored above all others for their deeds. They prepare to return to the Shire, but learn that their homeland has also suffered under Saruman's rule.",
+    "17": "The hobbits return to find the Shire under the control of ruffians led by 'Sharkey.' They rally the hobbits and fight the Battle of Bywater to free their homeland.",
+    "18": "Sharkey is revealed to be Saruman, who is killed by Wormtongue in the aftermath of his defeat. The Shire is restored to its former beauty under the hobbits' care.",
+    "19": "Two years later, Frodo joins Gandalf, Elrond, and Galadriel at the Grey Havens. Still bearing spiritual wounds from the Morgul-blade and Ring, he sails into the West.",
+    "20": "Sam returns home to his wife Rose and their children. The other hobbits live long, honored lives. The Fourth Age begins as the time of the Elves ends and Men inherit Middle-earth."
+  }
+}
