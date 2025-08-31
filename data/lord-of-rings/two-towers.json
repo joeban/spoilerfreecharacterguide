@@ -249,6 +249,424 @@
           }
         }
       }
+    },
+    "boromir": {
+      "name": "Boromir",
+      "aliases": ["Son of Denethor"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Dies valiantly defending Merry and Pippin from the Uruk-hai, though he cannot prevent their capture. His final act redeems his earlier attempt to take the Ring from Frodo.",
+          "role": "Fallen hero of Gondor",
+          "relationships": {
+            "Gondor": "Captain-General of",
+            "Denethor": "Son of",
+            "Meriadoc Brandybuck": "Died defending",
+            "Peregrin Took": "Died defending",
+            "Uruk-hai": "Killed by while defending hobbits"
+          }
+        }
+      }
+    },
+    "galadriel": {
+      "name": "Galadriel",
+      "aliases": ["Lady of Lothlórien", "Lady of the Golden Wood"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The Lady of Lothlórien, one of the mightiest of the Eldar in Middle-earth. Keeper of Nenya, one of the Three Rings of the Elves. Her wisdom and power are renowned throughout the land.",
+          "role": "Lady of Lothlórien",
+          "relationships": {
+            "Celeborn": "Consort of",
+            "Lothlórien": "Lady and protector of",
+            "Nenya": "Keeper of the Ring",
+            "Aragorn": "Gave name Elessar to"
+          }
+        }
+      }
+    },
+    "celeborn": {
+      "name": "Celeborn",
+      "aliases": ["Lord of Lothlórien"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Lord of Lothlórien and consort to Galadriel. An Elf-lord of great wisdom and nobility, ruling the Golden Wood alongside his lady.",
+          "role": "Lord of Lothlórien",
+          "relationships": {
+            "Galadriel": "Consort and co-ruler with",
+            "Lothlórien": "Lord and protector of"
+          }
+        }
+      }
+    },
+    "faramir": {
+      "name": "Faramir",
+      "aliases": ["Captain of Gondor", "Son of Denethor"],
+      "appearances": [14, 15, 21],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Captain of the Rangers of Ithilien and younger son of Denethor. Unlike his brother Boromir, he is not tempted by the Ring's power. Wise and noble, with a deep love for his homeland.",
+          "role": "Captain of Rangers",
+          "relationships": {
+            "Boromir": "Younger brother of",
+            "Denethor": "Son of",
+            "Gondor": "Captain and defender of",
+            "Ithilien": "Ranger captain of"
+          }
+        }
+      }
+    },
+    "damrod": {
+      "name": "Damrod",
+      "aliases": ["Ranger of Ithilien"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "One of Faramir's Rangers of Ithilien. A skilled woodsman who helps capture Frodo and Sam, bringing them to the hidden base at Henneth Annûn.",
+          "role": "Ranger of Ithilien",
+          "relationships": {
+            "Faramir": "Serves under Captain",
+            "Ithilien": "Ranger and defender of",
+            "Frodo Baggins": "Captor of",
+            "Samwise Gamgee": "Captor of"
+          }
+        }
+      }
+    },
+    "mablung": {
+      "name": "Mablung",
+      "aliases": ["Ranger of Ithilien"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "One of Faramir's trusted Rangers of Ithilien. A loyal soldier of Gondor who serves in the dangerous border lands, watching for enemies from Mordor.",
+          "role": "Ranger of Ithilien",
+          "relationships": {
+            "Faramir": "Loyal ranger under",
+            "Ithilien": "Guardian of the borderlands",
+            "Gondor": "Faithful soldier of"
+          }
+        }
+      }
+    },
+    "anborn": {
+      "name": "Anborn",
+      "aliases": ["Ranger of Ithilien"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A Ranger of Ithilien stationed at Henneth Annûn. Guards the hidden waterfall entrance and maintains watch over the secret base.",
+          "role": "Ranger guard",
+          "relationships": {
+            "Faramir": "Ranger under command of",
+            "Henneth Annûn": "Guardian of hidden base"
+          }
+        }
+      }
+    },
+    "erkenbrand": {
+      "name": "Erkenbrand",
+      "aliases": ["Lord of Westfold"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Lord of Westfold who arrives with Gandalf and reinforcements at dawn to break the siege of Helm's Deep. His timely arrival helps route Saruman's army.",
+          "role": "Lord of Westfold",
+          "relationships": {
+            "Rohan": "Lord and defender of western lands",
+            "Gandalf": "Rides with at Helm's Deep",
+            "Théoden": "Loyal vassal of King"
+          }
+        }
+      }
+    },
+    "gamling": {
+      "name": "Gamling",
+      "aliases": ["Gamling the Old"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An old warrior of Rohan who serves as one of Théoden's trusted captains. Helps organize the defense of Helm's Deep with his experience in warfare.",
+          "role": "Captain of Rohan",
+          "relationships": {
+            "Théoden": "Loyal captain serving",
+            "Rohan": "Veteran warrior of",
+            "Helm's Deep": "Defender of the fortress"
+          }
+        }
+      }
+    },
+    "hama": {
+      "name": "Háma",
+      "aliases": ["Doorward of Théoden"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The doorward of Théoden's hall, responsible for the king's safety. Shows wisdom in allowing Gandalf to keep his staff, recognizing the wizard's true nature.",
+          "role": "Royal doorward",
+          "relationships": {
+            "Théoden": "Doorward and protector of",
+            "Gandalf": "Allowed to keep staff",
+            "Edoras": "Guardian of the king's hall"
+          }
+        }
+      }
+    },
+    "ugluk": {
+      "name": "Uglúk",
+      "aliases": ["Uruk captain"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A large Uruk-hai who leads the band that captured Merry and Pippin. Serves Saruman directly and fights with other orcs over the hobbits' fate. Killed by Éomer's riders.",
+          "role": "Uruk-hai captain",
+          "relationships": {
+            "Saruman": "Captain serving",
+            "Meriadoc Brandybuck": "Captor of",
+            "Peregrin Took": "Captor of",
+            "Éomer": "Slain by riders of"
+          }
+        }
+      }
+    },
+    "grishnakh": {
+      "name": "Grishnákh",
+      "aliases": ["Orc of Mordor"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An orc from Mordor who travels with Uglúk's band. Suspicious that the hobbits carry something valuable for his master Sauron. Conflicts with Uglúk over orders.",
+          "role": "Orc scout",
+          "relationships": {
+            "Sauron": "Servant of the Dark Lord",
+            "Uglúk": "Rival orc captain",
+            "Meriadoc Brandybuck": "Would capture for Sauron",
+            "Peregrin Took": "Would capture for Sauron"
+          }
+        }
+      }
+    },
+    "quickbeam": {
+      "name": "Quickbeam",
+      "aliases": ["Bregalad"],
+      "appearances": [4, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A younger Ent who is 'hasty' by Ent standards. More quick to anger than other Ents, especially about the destruction of trees. Joins the attack on Isengard.",
+          "role": "Young Ent warrior",
+          "relationships": {
+            "Treebeard": "Fellow Ent, quicker than",
+            "Saruman": "Enemy who destroys forests",
+            "Isengard": "Participates in attack on"
+          }
+        }
+      }
+    },
+    "shadowfax": {
+      "name": "Shadowfax",
+      "aliases": ["Lord of Horses", "Chief of the Mearas"],
+      "appearances": [5, 6, 7, 8, 9, 16, 17],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The chief of the Mearas, the great horses of Rohan. Silver-grey and incredibly swift, he bears Gandalf and understands speech. No rider save Gandalf can master him.",
+          "role": "Lord of Horses",
+          "relationships": {
+            "Gandalf": "Faithful mount of",
+            "Rohan": "Greatest horse of the horse-lords",
+            "Mearas": "Chief of the noble horse-breed"
+          }
+        }
+      }
+    },
+    "shelob": {
+      "name": "Shelob",
+      "aliases": ["She", "Her Ladyship"],
+      "appearances": [21],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "An enormous spider that dwells in the tunnel of Torech Ungol. Ancient and evil, she feeds on all living things that enter her domain. Gollum plans to feed the hobbits to her.",
+          "role": "Giant spider guardian",
+          "relationships": {
+            "Gollum": "Used by as trap for hobbits",
+            "Torech Ungol": "Dwells in the tunnel of",
+            "Mordor": "Guards secret passage to"
+          }
+        }
+      }
+    },
+    "denethor": {
+      "name": "Denethor",
+      "aliases": ["Ruling Steward of Gondor", "Lord of Minas Tirith"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The Ruling Steward of Gondor and father of Boromir and Faramir. A proud and stern ruler who bears the burden of defending Gondor against Mordor's growing power.",
+          "role": "Ruling Steward of Gondor",
+          "relationships": {
+            "Boromir": "Father of slain son",
+            "Faramir": "Father of ranger captain",
+            "Gondor": "Ruling Steward of",
+            "Minas Tirith": "Lord of the white city"
+          }
+        }
+      }
+    },
+    "eowyn": {
+      "name": "Éowyn",
+      "aliases": ["Lady of Rohan", "Shieldmaiden"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Niece of King Théoden and sister to Éomer. A lady of Rohan with the heart of a warrior, she tends to her uncle during his weakness and despairs at being left behind when the men ride to war.",
+          "role": "Lady of Rohan",
+          "relationships": {
+            "Théoden": "Niece and caretaker of",
+            "Éomer": "Sister of the Marshal",
+            "Rohan": "Noble lady of the horse-lords",
+            "Aragorn": "Shows growing interest in"
+          }
+        }
+      }
+    },
+    "haldir": {
+      "name": "Haldir",
+      "aliases": ["Elf of Lothlórien", "March-warden"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A march-warden of Lothlórien who arrives at Helm's Deep with a company of Elven archers to aid in the defense. His presence shows the alliance between Elves and Men.",
+          "role": "Elven march-warden",
+          "relationships": {
+            "Galadriel": "Serves the Lady of Lothlórien",
+            "Aragorn": "Comes to aid of",
+            "Helm's Deep": "Defender of the fortress"
+          }
+        }
+      }
+    },
+    "the-mouth-of-sauron": {
+      "name": "The Mouth of Sauron",
+      "aliases": ["Lieutenant of Barad-dûr"],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Black Númenórean who serves as Sauron's messenger and lieutenant. Guards the Black Gate of Mordor with fell power and speaks for his master to all who would enter.",
+          "role": "Lieutenant of the Dark Lord",
+          "relationships": {
+            "Sauron": "Messenger and lieutenant of",
+            "Black Gate": "Guardian and voice at",
+            "Barad-dûr": "Lieutenant of the dark tower"
+          }
+        }
+      }
+    },
+    "radagast": {
+      "name": "Radagast",
+      "aliases": ["Radagast the Brown", "The Bird-tamer"],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "One of the Istari wizards, focused on beasts and birds rather than the affairs of Men and Elves. Lives in Rhosgobel and aids Gandalf by sending messages through his animal friends.",
+          "role": "Wizard of nature",
+          "relationships": {
+            "Gandalf": "Fellow Istar and ally of",
+            "Saruman": "Former ally, now opposes",
+            "Rhosgobel": "Makes home in the forest"
+          }
+        }
+      }
+    },
+    "isildur": {
+      "name": "Isildur",
+      "aliases": ["King of Gondor and Arnor", "The Bane of Sauron"],
+      "appearances": [16, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Ancient king of Gondor and Arnor who cut the One Ring from Sauron's hand but failed to destroy it. His line continues through Aragorn, the rightful heir to both kingdoms.",
+          "role": "Ancient king and ancestor",
+          "relationships": {
+            "Aragorn": "Ancestor of the rightful heir",
+            "Sauron": "Defeated but failed to finish",
+            "The One Ring": "Should have destroyed but kept",
+            "Gondor": "Former king of",
+            "Arnor": "Former king of"
+          }
+        }
+      }
+    },
+    "elrond": {
+      "name": "Elrond",
+      "aliases": ["Lord of Rivendell", "Elrond Half-elven"],
+      "appearances": [16, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The Lord of Rivendell and keeper of Vilya, mightiest of the Three Rings of the Elves. Master of healing and lore, he has guided the defense against darkness for ages.",
+          "role": "Lord of Rivendell",
+          "relationships": {
+            "Rivendell": "Lord and master of",
+            "Vilya": "Bearer of the mightiest Elf-ring",
+            "Aragorn": "Foster-father and guide of",
+            "Arwen": "Father of"
+          }
+        }
+      }
+    },
+    "arwen": {
+      "name": "Arwen",
+      "aliases": ["Undómiel", "Evenstar"],
+      "appearances": [16, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Daughter of Elrond and beloved of Aragorn. Called Undómiel (Evenstar) for her beauty. Her love gives Aragorn hope and purpose in his quest to reclaim his throne.",
+          "role": "Elven princess",
+          "relationships": {
+            "Elrond": "Beloved daughter of",
+            "Aragorn": "Beloved of the heir",
+            "Rivendell": "Princess of the hidden valley"
+          }
+        }
+      }
+    },
+    "brego": {
+      "name": "Brego",
+      "aliases": ["Horse of Rohan"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A great horse of Rohan given to Aragorn by King Théoden. Swift and strong, he serves faithfully as Aragorn's mount during the journey to Helm's Deep and beyond.",
+          "role": "Noble steed",
+          "relationships": {
+            "Aragorn": "Faithful mount of",
+            "Théoden": "Gift from the king",
+            "Rohan": "Pride of the horse-lords"
+          }
+        }
+      }
     }
   },
   "recaps": {
