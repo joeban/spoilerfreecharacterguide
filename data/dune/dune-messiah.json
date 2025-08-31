@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "title": "Dune Messiah",
+    "author": "Frank Herbert",
+    "chapters": 35,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "paul-atreides": {
+      "name": "Paul Atreides",
+      "aliases": ["Paul-Muad'Dib", "Emperor Paul", "The Mahdi"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Emperor Paul Atreides, twelve years after taking the throne. Haunted by visions of a terrible jihad that has swept across the galaxy in his name, killing billions. Struggles with the burden of prescience and the weight of prophecy.",
+          "role": "Emperor of the Known Universe",
+          "relationships": {
+            "Princess Irulan": "Imperial wife (political marriage)",
+            "Chani": "Beloved concubine",
+            "Stilgar": "Loyal Fremen advisor",
+            "Korba": "Qizarate leader (increasingly distant)"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Faces a conspiracy involving the Spacing Guild, Bene Tleilax, and his own wife Irulan. His prescient visions show him trapped between terrible futures, unable to find a path that doesn't lead to catastrophe.",
+          "role": "Emperor under siege",
+          "relationships": {
+            "Duncan Idaho": "Ghola mentat (suspicious)",
+            "Scytale": "Face Dancer opponent",
+            "Edric": "Guild Navigator enemy",
+            "Princess Irulan": "Wife and conspirator"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Loses his eyes in a stone burner attack but continues to see through his prescient powers. His supernatural sight allows him to function normally despite his blindness, confounding his enemies and followers alike.",
+          "role": "Blind Emperor with prescient sight",
+          "relationships": {
+            "Chani": "Beloved (pregnant with twins)",
+            "Alia Atreides": "Sister and ally",
+            "Bijaz": "Tleilaxu dwarf manipulator"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Chooses to walk into the desert and disappear after Chani's death in childbirth, leaving his twin children to be raised by Alia. Fulfills the Fremen tradition by becoming lost in the desert when one can no longer see the path ahead.",
+          "role": "Exiled former Emperor",
+          "relationships": {
+            "Chani": "Beloved (deceased in childbirth)",
+            "Leto II": "Son and heir",
+            "Ghanima": "Daughter",
+            "Alia Atreides": "Sister (regent for his children)"
+          }
+        }
+      }
+    },
+    "chani": {
+      "name": "Chani",
+      "aliases": ["Sihaya"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Paul's beloved concubine and the mother of his children. Lives in the shadow of his political marriage to Princess Irulan, yet remains his true love and closest companion. Struggles with her position as concubine rather than wife.",
+          "role": "Imperial concubine",
+          "relationships": {
+            "Paul Atreides": "Beloved of (Emperor)",
+            "Princess Irulan": "Rival for Paul's affection",
+            "Stilgar": "Fremen uncle figure"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Desperately wants to bear Paul's children but has been kept sterile by Irulan's contraceptives. When she finally becomes pregnant, she knows it may cost her life but is willing to make that sacrifice.",
+          "role": "Pregnant concubine",
+          "relationships": {
+            "Paul Atreides": "Beloved (father of unborn children)",
+            "Princess Irulan": "Enemy (has been preventing pregnancy)",
+            "Alia Atreides": "Sister-in-law and friend"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Dies in childbirth giving birth to Paul's twin children, Leto II and Ghanima. Her death devastates Paul and becomes the final catalyst for his decision to walk into the desert and disappear.",
+          "role": "Beloved concubine (deceased)",
+          "relationships": {
+            "Paul Atreides": "Beloved (devastated by her death)",
+            "Leto II": "Mother of",
+            "Ghanima": "Mother of"
+          }
+        }
+      }
+    },
+    "princess-irulan": {
+      "name": "Princess Irulan",
+      "aliases": ["Irulan Corrino"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Paul's Imperial wife and daughter of the former Emperor Shaddam IV. A Bene Gesserit sister who married Paul for political reasons. Writes historical accounts of Paul's reign while harboring complex feelings about her loveless marriage.",
+          "role": "Imperial wife and historian",
+          "relationships": {
+            "Paul Atreides": "Imperial husband (political marriage)",
+            "Chani": "Rival (Paul's true love)",
+            "Reverend Mother Gaius Helen Mohiam": "Bene Gesserit superior"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Revealed to be part of the conspiracy against Paul, working with the Spacing Guild and others. Has been secretly administering contraceptives to Chani to prevent her from bearing Paul's children.",
+          "role": "Imperial wife and conspirator",
+          "relationships": {
+            "Edric": "Conspirator with (Guild Navigator)",
+            "Reverend Mother Mohiam": "Takes orders from",
+            "Chani": "Enemy (sabotaging her fertility)"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Her conspiracy exposed, she faces Paul's wrath but also his understanding of the impossible position she was placed in. Agrees to help Chani conceive as part of her penance.",
+          "role": "Repentant conspirator",
+          "relationships": {
+            "Paul Atreides": "Husband (relationship changed)",
+            "Chani": "Makes amends with",
+            "Bene Gesserit": "Loyalty questioned"
+          }
+        }
+      }
+    },
+    "alia-atreides": {
+      "name": "Alia Atreides",
+      "aliases": ["St. Alia of the Knife", "Alia of the Knife"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Paul's sister, now fifteen years old but possessing the memories and knowledge of countless generations. Serves as a religious figure in Paul's empire while struggling with her pre-born nature and the inner voices of her ancestors.",
+          "role": "Religious leader and Paul's sister",
+          "relationships": {
+            "Paul Atreides": "Brother and Emperor",
+            "Duncan Idaho": "Attracted to (ghola)",
+            "Stilgar": "Fremen friend",
+            "Fremen pilgrims": "Object of worship"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Begins a complex relationship with the Duncan Idaho ghola, seeing in him both the man she knew and something troublingly different. Her pre-born nature allows her to understand the Tleilaxu conditioning in ways others cannot.",
+          "role": "Religious leader and woman in love",
+          "relationships": {
+            "Duncan Idaho": "Lover (ghola)",
+            "Scytale": "Enemy (Face Dancer)",
+            "Paul Atreides": "Brother and confidant"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Becomes regent for Paul's twin children after he disappears into the desert. Must guide Leto II and Ghanima while dealing with her own dangerous pre-born condition and the growing influence of ancestral memories.",
+          "role": "Regent for Imperial twins",
+          "relationships": {
+            "Leto II": "Nephew and ward",
+            "Ghanima": "Niece and ward",
+            "Duncan Idaho": "Husband",
+            "Paul Atreides": "Brother (disappeared)"
+          }
+        }
+      }
+    },
+    "duncan-idaho": {
+      "name": "Duncan Idaho",
+      "aliases": ["Ghola Duncan", "Hayt"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A ghola created by the Tleilaxu from Duncan Idaho's original genetic material. Possesses Duncan's memories and skills but also has Tleilaxu conditioning designed to make him kill Paul when triggered by specific circumstances.",
+          "role": "Ghola mentat and potential assassin",
+          "relationships": {
+            "Paul Atreides": "Serves (with hidden programming)",
+            "Scytale": "Created by (Tleilaxu Master)",
+            "Alia Atreides": "Attracted to",
+            "Bijaz": "Programmed by (Tleilaxu dwarf)"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Struggles with his dual nature as both the loyal Duncan and a Tleilaxu weapon. His love for Alia begins to overcome his programming, creating internal conflict between his conditioning and his growing humanity.",
+          "role": "Conflicted ghola",
+          "relationships": {
+            "Alia Atreides": "In love with",
+            "Paul Atreides": "Loyal to (overcoming programming)",
+            "Duncan Idaho": "Original self (memories returning)"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Successfully breaks his Tleilaxu conditioning through the power of love and loyalty. Fully reclaims his identity as Duncan Idaho while retaining his mentat abilities. The attempt to use him as a weapon against Paul fails completely.",
+          "role": "Freed ghola and loyal mentat",
+          "relationships": {
+            "Alia Atreides": "Beloved and future wife",
+            "Paul Atreides": "Loyal friend and advisor",
+            "Tleilaxu": "Former controllers (rejected)"
+          }
+        }
+      }
+    },
+    "stilgar": {
+      "name": "Stilgar",
+      "aliases": ["Stilgar ben Fifrawi"],
+      "appearances": [1, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now an elder statesman in Paul's empire, serving as an advisor while maintaining his Fremen traditions. Struggles to reconcile the religious fervor surrounding Paul with the practical young man he once knew.",
+          "role": "Fremen advisor to Emperor",
+          "relationships": {
+            "Paul Atreides": "Advisor to Emperor",
+            "Chani": "Protector of",
+            "Alia Atreides": "Loyal to",
+            "Korba": "Disapproves of (Qizarate leader)"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Serves as Paul's most trusted advisor, providing counsel rooted in Fremen wisdom and practical experience. Remains one of the few people who can speak honestly to the Emperor about difficult truths.",
+          "role": "Trusted Imperial advisor",
+          "relationships": {
+            "Paul Atreides": "Trusted advisor and friend",
+            "Chani": "Uncle figure to",
+            "Duncan Idaho": "Accepts as ally"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Understands and accepts Paul's decision to walk into the desert according to Fremen tradition. Helps ensure the transition of power to Alia as regent for Paul's children.",
+          "role": "Elder advisor and guardian",
+          "relationships": {
+            "Paul Atreides": "Honors his memory",
+            "Alia Atreides": "Supports as regent",
+            "Leto II": "Protector of",
+            "Ghanima": "Protector of"
+          }
+        }
+      }
+    },
+    "scytale": {
+      "name": "Scytale",
+      "aliases": ["Face Dancer", "Tleilaxu Master"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Tleilaxu Face Dancer and one of the primary conspirators against Paul. Possesses the ability to change his appearance at will and serves as the Tleilaxu representative in the plot to destroy the Emperor.",
+          "role": "Tleilaxu conspirator",
+          "relationships": {
+            "Edric": "Conspirator with (Guild Navigator)",
+            "Princess Irulan": "Uses as pawn",
+            "Duncan Idaho": "Created ghola of",
+            "Paul Atreides": "Primary target"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Continues to manipulate events from behind the scenes, using his shape-changing abilities to sow confusion and discord. Offers to restore Chani to life as a ghola if Paul will abdicate, revealing the true extent of Tleilaxu powers.",
+          "role": "Shape-changing manipulator",
+          "relationships": {
+            "Paul Atreides": "Attempts to bargain with",
+            "Chani": "Offers to resurrect",
+            "Tleilaxu": "Represents their interests"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "His conspiracy ultimately fails when Paul chooses exile over the Tleilaxu bargain. Captured and defeated, representing the failure of external forces to control or destroy Paul through conventional means.",
+          "role": "Failed conspirator",
+          "relationships": {
+            "Paul Atreides": "Defeated by",
+            "Tleilaxu": "Disgraced representative of"
+          }
+        }
+      }
+    },
+    "edric": {
+      "name": "Edric",
+      "aliases": ["Guild Navigator"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Guild Navigator who exists in a tank of spice gas, mutated by his lifelong exposure to melange. Leads the Guild's part in the conspiracy against Paul, fearing that Paul's prescience threatens the Guild's monopoly on space travel.",
+          "role": "Guild Navigator conspirator",
+          "relationships": {
+            "Spacing Guild": "Represents their interests",
+            "Scytale": "Conspirator with",
+            "Princess Irulan": "Uses as ally",
+            "Paul Atreides": "Sees as existential threat"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Orchestrates attacks against Paul while hiding behind the Guild's supposed neutrality. His prescient abilities, while inferior to Paul's, allow him to coordinate complex plots across time and space.",
+          "role": "Primary antagonist",
+          "relationships": {
+            "Paul Atreides": "Primary enemy",
+            "Spacing Guild": "Serves their interests",
+            "Stone burner attack": "Orchestrates"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "His conspiracy collapses as Paul outmaneuvers the Guild and their allies. The Guild's fears about Paul prove partially founded, as his actions do threaten their traditional power structure.",
+          "role": "Defeated conspirator",
+          "relationships": {
+            "Paul Atreides": "Outmaneuvered by",
+            "Spacing Guild": "Failed representative of"
+          }
+        }
+      }
+    },
+    "korba": {
+      "name": "Korba",
+      "aliases": ["Qizarate leader"],
+      "appearances": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Former Fremen who now leads Paul's religious organization, the Qizarate. Has become a zealous administrator of Paul's cult, more concerned with religious orthodoxy than the practical needs of the empire.",
+          "role": "Religious leader and bureaucrat",
+          "relationships": {
+            "Paul Atreides": "Serves (but misunderstands)",
+            "Qizarate": "Leads religious organization",
+            "Stilgar": "Conflicts with over Fremen traditions"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Becomes increasingly distant from Paul's actual wishes, pursuing his own interpretation of what the empire's religion should be. His bureaucratic approach to faith often conflicts with Paul's more nuanced understanding.",
+          "role": "Zealous religious administrator",
+          "relationships": {
+            "Paul Atreides": "Serves but misinterprets",
+            "Religious pilgrims": "Administers to",
+            "Fremen traditions": "Has abandoned for orthodoxy"
+          }
+        }
+      }
+    },
+    "bijaz": {
+      "name": "Bijaz",
+      "aliases": ["Tleilaxu dwarf"],
+      "appearances": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A Tleilaxu dwarf sent to activate Duncan Idaho's hidden programming. Possesses hypnotic abilities and deep knowledge of Tleilaxu conditioning techniques. His presence signals the final phase of the conspiracy against Paul.",
+          "role": "Tleilaxu agent and hypnotist",
+          "relationships": {
+            "Duncan Idaho": "Attempts to control",
+            "Scytale": "Works for",
+            "Tleilaxu": "Represents their interests",
+            "Paul Atreides": "Indirect threat to"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Fails to activate Duncan's programming due to the ghola's growing humanity and love for Alia. His failure represents the Tleilaxu's underestimation of human emotions and connections.",
+          "role": "Failed Tleilaxu controller",
+          "relationships": {
+            "Duncan Idaho": "Failed to control",
+            "Alia Atreides": "Underestimated her influence"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Twelve years after Paul's victory, his empire spans the galaxy but at a terrible cost. Billions have died in the jihad fought in his name. Paul struggles with prescient visions showing him trapped between awful futures, while a conspiracy forms against him involving the Spacing Guild, Bene Gesserit, and Tleilaxu.",
+    "5": "The conspiracy takes shape as Guild Navigator Edric coordinates with Face Dancer Scytale and others. Paul's wife Irulan is revealed to be working against him, preventing Chani from bearing his children. A Duncan Idaho ghola arrives, programmed to kill Paul under specific conditions.",
+    "10": "Paul faces increasing pressure from all sides. The conspiracy moves into action while Paul's prescient visions show him darker and darker futures. He begins to understand that he may be trapped by the very powers that made him Emperor.",
+    "15": "A stone burner attack blinds Paul, but his prescient abilities allow him to continue seeing. Chani finally becomes pregnant after Irulan stops giving her contraceptives. The conspiracy begins to unravel as their plans fail to account for Paul's supernatural abilities.",
+    "20": "Duncan Idaho's programming begins to activate as Bijaz arrives to trigger his conditioning. However, Duncan's love for Alia and loyalty to Paul create unexpected resistance to his Tleilaxu programming. The conspiracy reaches its climax.",
+    "25": "Duncan breaks free of his Tleilaxu conditioning through love and loyalty. The conspiracy's primary weapon against Paul fails, but Paul faces an even more terrible choice about his future and the future of the galaxy.",
+    "30": "With the immediate conspiracy defeated, Paul must confront the larger implications of his reign. His prescient visions show him that his continued rule will only lead to greater catastrophe. The Tleilaxu offer to restore Chani as a ghola if he abdicates.",
+    "35": "Chani dies giving birth to twins, Leto II and Ghanima. Devastated by her death and seeing no future path that doesn't lead to greater suffering, Paul chooses to walk into the desert and disappear, following Fremen tradition. Alia becomes regent for his children, setting the stage for the next phase of the Atreides saga."
+  }
+}
