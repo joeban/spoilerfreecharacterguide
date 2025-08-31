@@ -866,6 +866,526 @@
           }
         }
       }
+    },
+    "dervorin": {
+      "name": "Dervorin",
+      "aliases": ["Lord of Ringló Vale"],
+      "appearances": [1, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Lord of Ringló Vale who brings three hundred men to aid Minas Tirith. A steady and reliable vassal of Gondor from the southern fiefs.",
+          "role": "Lord of Ringló Vale",
+          "relationships": {
+            "Ringló Vale": "Lord of",
+            "Gondor": "Vassal of",
+            "Minas Tirith": "Defender of"
+          }
+        }
+      }
+    },
+    "angbor": {
+      "name": "Angbor",
+      "aliases": ["Angbor the Fearless", "Lord of Lamedon"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Lord of Lamedon who leads the men from the southern fiefs after they are released by Aragorn from following the Dead. Fearless in battle and loyal to the rightful king.",
+          "role": "Lord of Lamedon",
+          "relationships": {
+            "Lamedon": "Lord of",
+            "Aragorn": "Follows the rightful king",
+            "Dead Men": "Freed from following",
+            "Pelennor Fields": "Fighter at"
+          }
+        }
+      }
+    },
+    "gothmog": {
+      "name": "Gothmog",
+      "aliases": ["Lieutenant of Morgul", "Orc-chieftain"],
+      "appearances": [4, 6, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Lieutenant of Minas Morgul and captain of Sauron's forces at the siege of Minas Tirith. Commands the orcs and trolls in the assault on the city.",
+          "role": "Orc-chieftain and lieutenant",
+          "relationships": {
+            "Sauron": "Lieutenant of",
+            "Witch-king": "Serves under",
+            "Minas Tirith": "Besieges",
+            "Orcs": "Commander of"
+          }
+        }
+      }
+    },
+    "angbor-fearless": {
+      "name": "Angbor",
+      "aliases": ["Angbor the Fearless", "Lord of Lamedon"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Lord of Lamedon who leads the men from the southern fiefs after they are released by Aragorn from following the Dead. Fearless in battle and loyal to the rightful king.",
+          "role": "Lord of Lamedon",
+          "relationships": {
+            "Lamedon": "Lord of",
+            "Aragorn": "Follows the rightful king",
+            "Dead Men": "Freed from following",
+            "Pelennor Fields": "Fighter at"
+          }
+        }
+      }
+    },
+    "grimbold-westfold": {
+      "name": "Grimbold of Westfold",
+      "aliases": ["Marshal of Westfold"],
+      "appearances": [5, 6, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Marshal of the Westfold who leads men of Rohan in the great cavalry charge at Pelennor Fields. Known for his valor and skill in battle.",
+          "role": "Marshal of the Westfold",
+          "relationships": {
+            "Rohan": "Marshal of",
+            "Westfold": "Lord of",
+            "Théoden": "Serves under",
+            "Pelennor Fields": "Cavalry commander at"
+          }
+        }
+      }
+    },
+    "dead-men-dunharrow": {
+      "name": "Dead Men of Dunharrow",
+      "aliases": ["Oath-breakers", "Sleepless Dead"],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The cursed host of oath-breakers who failed Isildur in his hour of need. Now bound to the Paths of the Dead until their oath can be fulfilled.",
+          "role": "Cursed army",
+          "relationships": {
+            "King of the Dead": "Led by",
+            "Isildur": "Broke oath to",
+            "Aragorn": "Can be released by heir",
+            "Stone of Erech": "Bound to"
+          }
+        }
+      }
+    },
+    "baldor": {
+      "name": "Baldor",
+      "aliases": ["Son of Brego"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Son of Brego who entered the Paths of the Dead and never returned. His bones are found by Aragorn's company, warning of the danger ahead.",
+          "role": "Lost prince",
+          "relationships": {
+            "Brego": "Son of",
+            "Rohan": "Prince of",
+            "Paths of the Dead": "Died in",
+            "Dead Men": "Victim of"
+          }
+        }
+      }
+    },
+    "brego": {
+      "name": "Brego",
+      "aliases": ["Second King of Rohan"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Second King of Rohan and father of Baldor who died in the Paths of the Dead. An ancestor of Théoden remembered for his building of Edoras.",
+          "role": "Ancient King of Rohan",
+          "relationships": {
+            "Rohan": "Second King of",
+            "Baldor": "Father of",
+            "Edoras": "Builder of",
+            "Théoden": "Ancestor of"
+          }
+        }
+      }
+    },
+    "stone-erech": {
+      "name": "Stone of Erech",
+      "aliases": ["Black Stone"],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Ancient black stone brought from Númenor where Isildur swore the oath-breakers to their allegiance. Now the gathering place where the Dead await their release.",
+          "role": "Oath stone",
+          "relationships": {
+            "Isildur": "Oath sworn upon",
+            "Númenor": "Brought from",
+            "Dead Men": "Binding place of",
+            "Aragorn": "Heir who can release oath"
+          }
+        }
+      }
+    },
+    "warden-healing": {
+      "name": "Warden of the Houses of Healing",
+      "aliases": ["Chief Healer"],
+      "appearances": [8, 14, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Chief healer in the Houses of Healing who witnesses Aragorn's healing powers. Recognizes the fulfillment of the old saying about the hands of the king.",
+          "role": "Master healer",
+          "relationships": {
+            "Houses of Healing": "Chief warden of",
+            "Aragorn": "Witnesses healing power of",
+            "Ioreth": "Works with",
+            "Faramir": "Cares for"
+          }
+        }
+      }
+    },
+    "shagrat": {
+      "name": "Shagrat",
+      "aliases": ["Captain of the Tower"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Orc captain of the Tower of Cirith Ungol who fought with Gorbag over Frodo's mithril shirt. Sole survivor of the orc battle in the tower.",
+          "role": "Orc captain",
+          "relationships": {
+            "Tower of Cirith Ungol": "Captain of",
+            "Gorbag": "Rival orc captain",
+            "Frodo": "Captor of",
+            "Mithril shirt": "Fought over"
+          }
+        }
+      }
+    },
+    "gorbag": {
+      "name": "Gorbag",
+      "aliases": ["Orc of Minas Morgul"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Orc from Minas Morgul who helps capture Frodo after Shelob's attack. Fights with Shagrat over the hobbit's valuable mithril shirt.",
+          "role": "Orc warrior",
+          "relationships": {
+            "Minas Morgul": "Orc of",
+            "Shagrat": "Rival of",
+            "Frodo": "Captures after Shelob",
+            "Shelob": "Ally in capturing prey"
+          }
+        }
+      }
+    },
+    "meneldor-eagle": {
+      "name": "Meneldor",
+      "aliases": ["Young Eagle", "Swift Wing"],
+      "appearances": [12, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Youngest of the Great Eagles who fights in the final battle. Swift and keen-sighted, he helps rescue Frodo and Sam from Mount Doom.",
+          "role": "Great Eagle",
+          "relationships": {
+            "Gwaihir": "Follows the Windlord",
+            "Landroval": "Brother eagle",
+            "Mount Doom": "Rescuer from",
+            "Eagles": "Youngest of the Great Eagles"
+          }
+        }
+      }
+    },
+    "lotho-sackville-baggins": {
+      "name": "Lotho Sackville-Baggins",
+      "aliases": ["Chief", "Lotho Pimple"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Hobbit who initially collaborated with Saruman's ruffians to take control of the Shire, but was later eliminated when he became inconvenient to the fallen wizard.",
+          "role": "Failed collaborator",
+          "relationships": {
+            "Saruman": "Initial ally, later victim of",
+            "The Shire": "Would-be ruler of",
+            "Ruffians": "Brought in but eliminated by",
+            "Sackville-Baggins": "Member of grasping family"
+          }
+        }
+      }
+    },
+    "gaffer-gamgee": {
+      "name": "Hamfast Gamgee",
+      "aliases": ["The Gaffer", "Old Gamgee"],
+      "appearances": [17, 18, 20],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Sam's father, known as the Gaffer. A simple gardener who suffered under the ruffians' rule but remained defiant. Proud of his son's heroic deeds.",
+          "role": "Sam's father",
+          "relationships": {
+            "Sam": "Father of the hero",
+            "Hobbiton": "Long-time resident",
+            "Ruffians": "Suffered under",
+            "Bag End": "Former gardener at"
+          }
+        }
+      }
+    },
+    "jolly-cotton": {
+      "name": "Jolly Cotton",
+      "aliases": ["Young Tom"],
+      "appearances": [17, 18],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Son of Farmer Cotton who fought bravely in the Battle of Bywater. Part of the resistance against the ruffians occupying the Shire.",
+          "role": "Young resistance fighter",
+          "relationships": {
+            "Farmer Cotton": "Son of",
+            "Rose Cotton": "Brother of",
+            "Battle of Bywater": "Fighter in",
+            "The Shire": "Defender of"
+          }
+        }
+      }
+    },
+    "nick-cotton": {
+      "name": "Nick Cotton",
+      "aliases": ["Nibs"],
+      "appearances": [17, 18],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Another son of Farmer Cotton who joined the fight against the ruffians. Shows the courage of the Cotton family in defending their homeland.",
+          "role": "Young defender",
+          "relationships": {
+            "Farmer Cotton": "Son of",
+            "Rose Cotton": "Brother of",
+            "Jolly Cotton": "Brother of",
+            "Ruffians": "Fighter against"
+          }
+        }
+      }
+    },
+    "tom-cotton": {
+      "name": "Tom Cotton",
+      "aliases": ["Young Tom Cotton"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Eldest son of Farmer Cotton who helps organize the resistance against the ruffians. A brave young hobbit who stands up for his people.",
+          "role": "Resistance organizer",
+          "relationships": {
+            "Farmer Cotton": "Son of",
+            "Rose Cotton": "Brother of",
+            "The Shire": "Defender of",
+            "Ruffians": "Organizes resistance against"
+          }
+        }
+      }
+    },
+    "shadowfax": {
+      "name": "Shadowfax",
+      "aliases": ["Lord of Horses", "Chief of the Mearas"],
+      "appearances": [1, 3, 8, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Gandalf's great horse, chief of the mearas and lord of all horses. Silver-grey and swift as the wind, he serves as Gandalf's mount in the final battles.",
+          "role": "Lord of horses",
+          "relationships": {
+            "Gandalf": "Mount and companion of",
+            "Mearas": "Chief of the royal horses",
+            "Rohan": "Greatest horse of",
+            "Grey Havens": "Departs at"
+          }
+        }
+      }
+    },
+    "celeborn": {
+      "name": "Celeborn",
+      "aliases": ["Lord of Lothlórien", "The Wise"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Lord of Lothlórien and husband of Galadriel. Unlike his wife, he chooses to remain in Middle-earth for a time after the departure of the Ring-bearers.",
+          "role": "Lord of Lothlórien",
+          "relationships": {
+            "Galadriel": "Husband of",
+            "Lothlórien": "Lord of",
+            "Eldar": "Wise among the high elves",
+            "Middle-earth": "Remains in for a time"
+          }
+        }
+      }
+    },
+    "bilbo-baggins": {
+      "name": "Bilbo Baggins",
+      "aliases": ["Old Bilbo", "The Author"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Frodo's cousin and the previous Ring-bearer who now departs Middle-earth with the Elves. Old beyond his years but finally at peace, ready for the final journey.",
+          "role": "Former Ring-bearer",
+          "relationships": {
+            "Frodo": "Cousin and predecessor Ring-bearer",
+            "The One Ring": "Former bearer of",
+            "Grey Havens": "Departs from",
+            "Bag End": "Former owner of"
+          }
+        }
+      }
+    },
+    "arwen-undomiel": {
+      "name": "Arwen Undómiel",
+      "aliases": ["Evenstar", "Queen of Gondor"],
+      "appearances": [14, 15, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Daughter of Elrond and beloved of Aragorn. Arrives in Minas Tirith with the standard she made for the king, revealing her betrothal to the returned monarch.",
+          "role": "Princess of the Eldar",
+          "relationships": {
+            "Aragorn": "Betrothed to",
+            "Elrond": "Daughter of",
+            "Gondor": "Future queen of",
+            "Standard": "Weaver of the king's banner"
+          }
+        }
+      }
+    },
+    "elladan": {
+      "name": "Elladan",
+      "aliases": ["Son of Elrond"],
+      "appearances": [2, 6, 8, 9, 14, 15],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Son of Elrond who rides with the Dúnedain Rangers to aid Aragorn. Tall and dark-haired like his father, skilled in both war and woodcraft.",
+          "role": "Son of Elrond",
+          "relationships": {
+            "Elrond": "Son of",
+            "Elrohir": "Twin brother of",
+            "Aragorn": "Kinsman and ally",
+            "Dúnedain": "Rides with Rangers"
+          }
+        }
+      }
+    },
+    "elrohir": {
+      "name": "Elrohir",
+      "aliases": ["Son of Elrond"],
+      "appearances": [2, 6, 8, 9, 14, 15],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Son of Elrond and twin of Elladan who comes to Aragorn's aid with the Rangers. Like his brother, he is mighty in battle and wise in counsel.",
+          "role": "Son of Elrond",
+          "relationships": {
+            "Elrond": "Son of",
+            "Elladan": "Twin brother of",
+            "Aragorn": "Kinsman and ally",
+            "Dúnedain": "Rides with Rangers"
+          }
+        }
+      }
+    },
+    "halbarad": {
+      "name": "Halbarad",
+      "aliases": ["Dúnedain Ranger", "Kinsman of Aragorn"],
+      "appearances": [2, 6, 8, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Chief of the Dúnedain Rangers who brings thirty of his kinsmen to aid Aragorn. Carries the standard made by Arwen, wrapped and hidden until the proper time.",
+          "role": "Ranger captain",
+          "relationships": {
+            "Aragorn": "Kinsman and loyal follower",
+            "Dúnedain": "Leader of Rangers",
+            "Arwen": "Bearer of her standard",
+            "North Kingdom": "Guardian of"
+          }
+        }
+      }
+    },
+    "dain-ironfoot": {
+      "name": "Dáin Ironfoot",
+      "aliases": ["King of Erebor", "Lord of the Iron Hills"],
+      "appearances": [9, 14],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "King of Erebor who leads the Dwarves of the Iron Hills to fight at the Battle of Dale. Cousin of Thorin Oakenshield and mighty warrior despite his age.",
+          "role": "King of Erebor",
+          "relationships": {
+            "Erebor": "King of the Lonely Mountain",
+            "Iron Hills": "Lord of",
+            "Thorin": "Cousin of",
+            "Dale": "Defender of"
+          }
+        }
+      }
+    },
+    "brand-king-dale": {
+      "name": "Brand",
+      "aliases": ["King of Dale"],
+      "appearances": [9, 14],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "King of Dale who fights alongside Dáin against the Easterlings while the main battle rages at the Black Gate. Shows the valor of the Men of Dale.",
+          "role": "King of Dale",
+          "relationships": {
+            "Dale": "King of",
+            "Dáin Ironfoot": "Ally in battle",
+            "Easterlings": "Fighter against",
+            "Bard": "Descendant of"
+          }
+        }
+      }
+    },
+    "captain-guard": {
+      "name": "Captain of the Guard",
+      "aliases": ["Gate Captain"],
+      "appearances": [1, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captain of the Guards of Minas Tirith who maintains order during the siege. A steady soldier who serves faithfully despite the city's desperate situation.",
+          "role": "Military officer",
+          "relationships": {
+            "Minas Tirith": "Captain of guards",
+            "Denethor": "Serves under",
+            "Gandalf": "Takes orders from",
+            "Citadel": "Defends the gates"
+          }
+        }
+      }
+    },
+    "hador": {
+      "name": "Hador",
+      "aliases": ["Door-ward of Théoden"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Door-ward and guard to King Théoden who serves faithfully during the muster of Rohan. An old and trusted servant of the royal house.",
+          "role": "Royal door-ward",
+          "relationships": {
+            "Théoden": "Door-ward to the king",
+            "Rohan": "Faithful servant of",
+            "Edoras": "Guardian of the hall"
+          }
+        }
+      }
     }
   },
   "recaps": {

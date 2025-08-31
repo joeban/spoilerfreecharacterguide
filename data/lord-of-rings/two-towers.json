@@ -667,7 +667,1276 @@
           }
         }
       }
+    },
+    "aldor": {
+      "name": "Aldor",
+      "aliases": ["Aldor the Old"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An ancient king of Rohan remembered in the songs and histories of the Rohirrim. His name is invoked during discussions of the royal lineage and the glory of the Mark.",
+          "role": "Ancient king of Rohan",
+          "relationships": {
+            "Rohan": "Former king of the Mark",
+            "Théoden": "Ancestor of the current king"
+          }
+        }
+      }
+    },
+    "eorl": {
+      "name": "Eorl",
+      "aliases": ["Eorl the Young", "First King of Rohan"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The first king of Rohan who led the Éothéod from the north and founded the kingdom. Ancestor of Théoden and all the kings of the Mark. His name is honored in the great hall of Edoras.",
+          "role": "First king and founder",
+          "relationships": {
+            "Rohan": "Founder and first king of",
+            "Théoden": "Ancestor of the current line",
+            "Éothéod": "Former leader of the horse-people"
+          }
+        }
+      }
+    },
+    "thengel": {
+      "name": "Thengel",
+      "aliases": ["King Thengel"],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Father of Théoden and former king of Rohan. Remembered as a wise ruler who maintained the strength of the Mark before passing the crown to his son.",
+          "role": "Former king of Rohan",
+          "relationships": {
+            "Théoden": "Father of the current king",
+            "Rohan": "Former wise ruler of",
+            "Éomer": "Grandfather of",
+            "Éowyn": "Grandfather of"
+          }
+        }
+      }
+    },
+    "elfhild": {
+      "name": "Elfhild",
+      "aliases": ["Queen Elfhild"],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Mother of Théoden and queen of Rohan. Remembered fondly in the halls of Edoras for her grace and wisdom during her reign beside King Thengel.",
+          "role": "Former queen of Rohan",
+          "relationships": {
+            "Thengel": "Queen and wife of King",
+            "Théoden": "Mother of the current king",
+            "Rohan": "Former beloved queen of"
+          }
+        }
+      }
+    },
+    "théodred": {
+      "name": "Théodred",
+      "aliases": ["Prince Théodred", "Second Marshal"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Son of King Théoden and heir to the throne of Rohan. The Second Marshal of the Mark who died defending the Fords of Isen against Saruman's forces. His death weighs heavily on the king.",
+          "role": "Fallen prince and heir",
+          "relationships": {
+            "Théoden": "Beloved son and heir of",
+            "Éomer": "Cousin and fellow marshal",
+            "Rohan": "Lost heir to the throne of",
+            "Saruman": "Slain fighting forces of"
+          }
+        }
+      }
+    },
+    "dernhelm": {
+      "name": "Dernhelm",
+      "aliases": ["Young Rider"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A young rider of Rohan who seems smaller and slighter than the other warriors. Rides with the Rohirrim but keeps their identity hidden beneath helm and armor.",
+          "role": "Mysterious young rider",
+          "relationships": {
+            "Rohan": "Rides with the horse-lords",
+            "Théoden": "Follows the king to war"
+          }
+        }
+      }
+    },
+    "guthlaf": {
+      "name": "Guthláf",
+      "aliases": ["Banner-bearer"],
+      "appearances": [16, 17, 18, 19, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The banner-bearer of King Théoden who carries the standard of Rohan into battle. A trusted warrior who rides close to the king during the muster of the Rohirrim.",
+          "role": "Royal banner-bearer",
+          "relationships": {
+            "Théoden": "Banner-bearer and guard of",
+            "Rohan": "Carries the standard of"
+          }
+        }
+      }
+    },
+    "grimbold": {
+      "name": "Grimbold",
+      "aliases": ["Grimbold of Grimslade"],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A marshal of Rohan who fought at the Fords of Isen and later defended Helm's Deep. A veteran warrior loyal to the crown and skilled in battle.",
+          "role": "Marshal of Rohan",
+          "relationships": {
+            "Théoden": "Loyal marshal serving",
+            "Erkenbrand": "Fellow defender of Westfold",
+            "Helm's Deep": "Defender of the fortress"
+          }
+        }
+      }
+    },
+    "elfhelm": {
+      "name": "Elfhelm",
+      "aliases": ["Marshal of Rohan"],
+      "appearances": [16, 17, 18, 19, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A marshal of the Mark who leads an éored of Rohirrim. Commands the loyalty of his riders and serves faithfully in the defense of Rohan and its allies.",
+          "role": "Marshal of the Mark",
+          "relationships": {
+            "Théoden": "Marshal serving under",
+            "Rohan": "Commander of horse-lords",
+            "Rohirrim": "Leader of an éored"
+          }
+        }
+      }
+    },
+    "dunhere": {
+      "name": "Dúnhere",
+      "aliases": ["Chieftain of Harrowdale"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A chieftain of Harrowdale who leads men of the mountain valleys. Tall and grim, he knows the ancient paths and the legends of the Paths of the Dead.",
+          "role": "Mountain chieftain",
+          "relationships": {
+            "Harrowdale": "Chieftain and leader of",
+            "Théoden": "Loyal vassal of",
+            "Paths of the Dead": "Knows the ancient ways"
+          }
+        }
+      }
+    },
+    "fastred": {
+      "name": "Fastred",
+      "aliases": ["Rider of Rohan"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young rider of Rohan who fights bravely at Helm's Deep. Quick and eager in battle, he represents the courage of Rohan's youth defending their homeland.",
+          "role": "Young warrior of Rohan",
+          "relationships": {
+            "Théoden": "Young rider serving",
+            "Rohan": "Brave defender of the Mark",
+            "Helm's Deep": "Fought valiantly at"
+          }
+        }
+      }
+    },
+    "herubrand": {
+      "name": "Herubrand",
+      "aliases": ["Rider of Rohan"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A veteran rider of Rohan who stands with his king at Helm's Deep. Experienced in warfare and loyal to the crown, he helps organize the defense of the fortress.",
+          "role": "Veteran rider",
+          "relationships": {
+            "Théoden": "Loyal veteran serving",
+            "Gamling": "Fellow defender alongside",
+            "Helm's Deep": "Steadfast defender of"
+          }
+        }
+      }
+    },
+    "horn": {
+      "name": "Horn",
+      "aliases": ["Rider of Rohan"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A rider of Rohan who fights at Helm's Deep alongside his brothers-in-arms. Shows the steadfast courage typical of the horse-lords in defense of their people.",
+          "role": "Defender of Rohan",
+          "relationships": {
+            "Théoden": "Faithful rider serving",
+            "Rohan": "Loyal son of the Mark",
+            "Helm's Deep": "Fought bravely at"
+          }
+        }
+      }
+    },
+    "ceorl": {
+      "name": "Ceorl",
+      "aliases": ["Rider of Rohan"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A rider who brings word to King Théoden of the enemy's approach. Swift and reliable as a messenger, he demonstrates the communication network of the Rohirrim.",
+          "role": "Messenger and scout",
+          "relationships": {
+            "Théoden": "Brings urgent word to",
+            "Rohan": "Swift messenger of",
+            "Saruman": "Reports movements of forces"
+          }
+        }
+      }
+    },
+    "widfara": {
+      "name": "Wídfara",
+      "aliases": ["Scout of Rohan"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A scout and rider of Rohan who serves as guide and messenger for the king's forces. Knows the lands well and can read the signs of the countryside.",
+          "role": "Scout and guide",
+          "relationships": {
+            "Théoden": "Scout serving the king",
+            "Rohan": "Guide familiar with the Mark"
+          }
+        }
+      }
+    },
+    "garulf": {
+      "name": "Garulf",
+      "aliases": ["Rider of Rohan"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A rider who fights at Helm's Deep, showing the determination and skill of Rohan's warriors. Stands firm against overwhelming odds in defense of his people.",
+          "role": "Warrior of Rohan",
+          "relationships": {
+            "Théoden": "Warrior serving faithfully",
+            "Helm's Deep": "Defender of the stronghold",
+            "Rohan": "Loyal son of the horse-lords"
+          }
+        }
+      }
+    },
+    "deorwine": {
+      "name": "Déorwine",
+      "aliases": ["Chief of the King's Knights"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Chief of King Théoden's knights and one of his most trusted warriors. Rides in the king's guard and commands great respect among the Rohirrim for his skill and loyalty.",
+          "role": "Chief knight",
+          "relationships": {
+            "Théoden": "Chief knight and guardian of",
+            "Rohan": "Elite warrior of the kingdom",
+            "Knights": "Chief of the king's guard"
+          }
+        }
+      }
+    },
+    "helm-hammerhand": {
+      "name": "Helm Hammerhand",
+      "aliases": ["Helm the Hammerhand", "King Helm"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An ancient king of Rohan for whom Helm's Deep is named. Famous for his great strength and for defending the fortress during the Long Winter. His horn still echoes in the Deep.",
+          "role": "Legendary king",
+          "relationships": {
+            "Helm's Deep": "Fortress named in his honor",
+            "Rohan": "Legendary king who defended",
+            "Théoden": "Ancestor and inspiration to"
+          }
+        }
+      }
+    },
+    "skinbark": {
+      "name": "Skinbark",
+      "aliases": ["Fladrif"],
+      "appearances": [4, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Ent who has grown weary and tree-like, dwelling near the mountains. His skin has become more bark-like than the other Ents, and he moves slowly even by Ent standards.",
+          "role": "Ancient Ent",
+          "relationships": {
+            "Treebeard": "Fellow Ent and old friend",
+            "Fangorn Forest": "Ancient guardian of",
+            "Saruman": "Enemy who destroys the trees"
+          }
+        }
+      }
+    },
+    "leaflock": {
+      "name": "Leaflock",
+      "aliases": ["Finglas"],
+      "appearances": [4, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Ent who has become very tree-like and sleepy, rarely moving from his chosen spot. One of the eldest Ents who remembers the early days of the forest.",
+          "role": "Sleepy Ent elder",
+          "relationships": {
+            "Treebeard": "Ancient companion of",
+            "Fangorn Forest": "Deep-rooted guardian of",
+            "Trees": "Has become increasingly like"
+          }
+        }
+      }
+    },
+    "beechbone": {
+      "name": "Beechbone",
+      "aliases": ["The Ent"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "An Ent who participates in the attack on Isengard. Shows the fierce anger of the Ents when roused to wrath against those who destroy the forests.",
+          "role": "Ent warrior",
+          "relationships": {
+            "Treebeard": "Fellow Ent in the attack",
+            "Isengard": "Participates in destruction of",
+            "Saruman": "Enemy of the tree-killers"
+          }
+        }
+      }
+    },
+    "finglas": {
+      "name": "Finglas",
+      "aliases": ["Leaflock"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "One of the oldest Ents mentioned by Treebeard, who has grown sleepy and tree-like. Represents the ancient nature of the Ents and their deep connection to the forest.",
+          "role": "Ancient sleepy Ent",
+          "relationships": {
+            "Treebeard": "Old friend remembered by",
+            "Fangorn Forest": "Ancient dweller in"
+          }
+        }
+      }
+    },
+    "fladrif": {
+      "name": "Fladrif",
+      "aliases": ["Skinbark"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Ent whose skin has grown bark-like over the long years. One of those mentioned by Treebeard as growing more tree-like and less mobile with age.",
+          "role": "Bark-skinned Ent",
+          "relationships": {
+            "Treebeard": "Fellow ancient Ent",
+            "Mountains": "Dwells near the peaks"
+          }
+        }
+      }
+    },
+    "snaga": {
+      "name": "Snaga",
+      "aliases": ["Orc scout"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A smaller orc in Uglúk's band who scouts ahead and carries messages. Shows the hierarchy and organization within orc forces.",
+          "role": "Orc scout",
+          "relationships": {
+            "Uglúk": "Subordinate in the orc band",
+            "Uruk-hai": "Smaller orc among the",
+            "Saruman": "Serves the White Wizard's forces"
+          }
+        }
+      }
+    },
+    "lagduf": {
+      "name": "Lagduf",
+      "aliases": ["Orc of Isengard"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An orc in the band that captured the hobbits. Shows the cruel nature and infighting common among Saruman's orc forces.",
+          "role": "Orc warrior",
+          "relationships": {
+            "Saruman": "Serves the forces of Isengard",
+            "Uglúk": "Fellow orc in the band",
+            "Isengard": "Warrior from the stronghold"
+          }
+        }
+      }
+    },
+    "muzgash": {
+      "name": "Muzgash",
+      "aliases": ["Uruk tracker"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An Uruk-hai tracker who helps pursue and capture the hobbits. Demonstrates the tracking skills and organization of Saruman's elite orc forces.",
+          "role": "Uruk tracker",
+          "relationships": {
+            "Uglúk": "Serves under the captain",
+            "Saruman": "Elite warrior of Isengard",
+            "Meriadoc Brandybuck": "Pursuer and captor of",
+            "Peregrin Took": "Pursuer and captor of"
+          }
+        }
+      }
+    },
+    "mauhur": {
+      "name": "Mauhúr",
+      "aliases": ["Orc leader"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An orc leader who brings reinforcements from Isengard. Shows the continued organization and support network of Saruman's forces even during the pursuit.",
+          "role": "Orc reinforcement leader",
+          "relationships": {
+            "Saruman": "Leader of reinforcements for",
+            "Isengard": "Brings warriors from the stronghold",
+            "Uglúk": "Arrives to support the band"
+          }
+        }
+      }
+    },
+    "uruk-captain": {
+      "name": "Uruk Captain",
+      "aliases": ["Captain of Isengard"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A captain leading Uruk-hai forces in the assault on Helm's Deep. Commands battalions of Saruman's army with tactical knowledge and fierce determination.",
+          "role": "Uruk military commander",
+          "relationships": {
+            "Saruman": "Commander serving the White Wizard",
+            "Helm's Deep": "Leader in assault against",
+            "Uruk-hai": "Commands battalions of"
+          }
+        }
+      }
+    },
+    "berserker-uruk": {
+      "name": "Berserker Uruk",
+      "aliases": ["The Torchbearer"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A massive Uruk-hai who carries the torch to ignite the explosive device at Helm's Deep. Shows the specialized roles and fanatical dedication of Saruman's forces.",
+          "role": "Demolition warrior",
+          "relationships": {
+            "Saruman": "Fanatical warrior serving",
+            "Helm's Deep": "Attempts to destroy wall of",
+            "Uruk-hai": "Elite berserker among"
+          }
+        }
+      }
+    },
+    "vrasku": {
+      "name": "Vrasku",
+      "aliases": ["Crossbow captain"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A captain commanding crossbow units in Saruman's army at Helm's Deep. Shows the tactical organization and siege warfare knowledge of the Uruk-hai forces.",
+          "role": "Artillery commander",
+          "relationships": {
+            "Saruman": "Siege captain serving",
+            "Uruk-hai": "Commands crossbow units of",
+            "Helm's Deep": "Leads ranged assault on"
+          }
+        }
+      }
+    },
+    "lurtz": {
+      "name": "Lurtz",
+      "aliases": ["First of the Uruk-hai"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The first and largest of Saruman's Uruk-hai, created in the pits of Isengard. A massive warrior who leads the attack that results in Boromir's death and the hobbits' capture.",
+          "role": "First Uruk-hai captain",
+          "relationships": {
+            "Saruman": "First creation of the White Wizard",
+            "Boromir": "Kills the defender of Gondor",
+            "Uruk-hai": "First and mightiest of the breed"
+          }
+        }
+      }
+    },
+    "gothmog-isengard": {
+      "name": "Gothmog of Isengard",
+      "aliases": ["Orc general"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A general commanding orc forces at Helm's Deep. Shows the military hierarchy and command structure within Saruman's army during major battles.",
+          "role": "Orc field general",
+          "relationships": {
+            "Saruman": "General commanding forces for",
+            "Helm's Deep": "Leads assault against fortress",
+            "Uruk-hai": "Commands in battle"
+          }
+        }
+      }
+    },
+    "sharku": {
+      "name": "Sharku",
+      "aliases": ["Warg rider"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An orc who rides a warg and leads scouts for Saruman's forces. Demonstrates the mobility and scouting capabilities of the enemy's cavalry units.",
+          "role": "Warg-riding scout",
+          "relationships": {
+            "Saruman": "Scout serving the White Wizard",
+            "Wargs": "Rider and commander of",
+            "Isengard": "Mobile scout from stronghold"
+          }
+        }
+      }
+    },
+    "warg-chieftain": {
+      "name": "Warg Chieftain",
+      "aliases": ["Alpha warg"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The largest and most fierce of the wargs serving Saruman. Leads the pack in attacks against the Rohirrim and shows the savage alliance between orcs and wolves.",
+          "role": "Pack leader",
+          "relationships": {
+            "Saruman": "Beast allied with forces of",
+            "Wargs": "Chieftain and leader of pack",
+            "Orcs": "Mount and ally of orc riders"
+          }
+        }
+      }
+    },
+    "ingold": {
+      "name": "Ingold",
+      "aliases": ["Guard of Gondor"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A guard of Gondor who serves at the borders of Ithilien. Shows the vigilance and dedication of Gondor's border defenders in watching for enemies from Mordor.",
+          "role": "Border guard",
+          "relationships": {
+            "Gondor": "Faithful guard serving",
+            "Ithilien": "Protector of the borderlands",
+            "Faramir": "Serves under the captain"
+          }
+        }
+      }
+    },
+    "dervorin": {
+      "name": "Dervorin",
+      "aliases": ["Man of Gondor"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A man of Gondor mentioned among those who serve in the defense of the realm. Represents the common folk of Gondor who stand ready to defend their homeland.",
+          "role": "Defender of Gondor",
+          "relationships": {
+            "Gondor": "Loyal citizen and defender of",
+            "Minas Tirith": "Serves the white city"
+          }
+        }
+      }
+    },
+    "duinhir": {
+      "name": "Duinhir",
+      "aliases": ["Chieftain of Blackroot Vale"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A chieftain who leads men from the Blackroot Vale. Commands warriors from the southern fiefs of Gondor in defense of the realm.",
+          "role": "Southern chieftain",
+          "relationships": {
+            "Blackroot Vale": "Chieftain and leader of",
+            "Gondor": "Loyal vassal bringing aid to",
+            "Aragorn": "Fights alongside the heir"
+          }
+        }
+      }
+    },
+    "forlong": {
+      "name": "Forlong",
+      "aliases": ["Forlong the Fat", "Lord of Lossarnach"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Lord of Lossarnach who brings reinforcements to aid Gondor. A stout and reliable lord who commands the loyalty of his people in the southern lands.",
+          "role": "Lord of Lossarnach",
+          "relationships": {
+            "Lossarnach": "Lord and master of",
+            "Gondor": "Brings aid to the realm",
+            "Denethor": "Loyal vassal of the steward"
+          }
+        }
+      }
+    },
+    "hirluin": {
+      "name": "Hirluin",
+      "aliases": ["Hirluin the Fair", "Lord of the Green Hills"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A lord who commands men from the Green Hills of Pinnath Gelin. Brings archers and spearmen to aid in the defense of Minas Tirith.",
+          "role": "Lord of Green Hills",
+          "relationships": {
+            "Pinnath Gelin": "Lord of the Green Hills",
+            "Gondor": "Provides military aid to",
+            "Archers": "Commands skilled bowmen"
+          }
+        }
+      }
+    },
+    "golasgil": {
+      "name": "Golasgil",
+      "aliases": ["Lord of Anfalas"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A lord from the coastal region of Anfalas who brings reinforcements. Commands seasoned warriors familiar with defending Gondor's western shores.",
+          "role": "Coastal lord",
+          "relationships": {
+            "Anfalas": "Lord of the coastal lands",
+            "Gondor": "Brings coastal defenders to aid",
+            "Western shores": "Protector of the coastlands"
+          }
+        }
+      }
+    },
+    "targon": {
+      "name": "Targon",
+      "aliases": ["Guard of Henneth Annûn"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A Ranger who guards the secret base of Henneth Annûn. Maintains watch over the hidden waterfall entrance and protects the refuge of Faramir's company.",
+          "role": "Ranger guardian",
+          "relationships": {
+            "Faramir": "Serves under the captain",
+            "Henneth Annûn": "Guardian of the hidden base",
+            "Rangers": "Fellow protector with"
+          }
+        }
+      }
+    },
+    "madril": {
+      "name": "Madril",
+      "aliases": ["Ranger of Ithilien"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A Ranger of Ithilien who serves under Faramir's command. Skilled in woodcraft and border patrol, he helps maintain Gondor's watch against Mordor's forces.",
+          "role": "Border ranger",
+          "relationships": {
+            "Faramir": "Loyal ranger serving under",
+            "Ithilien": "Guardian of the borderlands",
+            "Gondor": "Defender of the realm's borders"
+          }
+        }
+      }
+    },
+    "frodo": {
+      "name": "Frodo",
+      "aliases": ["Ranger of Ithilien"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A Ranger serving with Faramir's company in Ithilien. Not to be confused with the hobbit, he is a man of Gondor who helps patrol the dangerous borderlands.",
+          "role": "Ranger of Ithilien",
+          "relationships": {
+            "Faramir": "Ranger under command of",
+            "Ithilien": "Protector of the border region",
+            "Rangers": "Member of the company"
+          }
+        }
+      }
+    },
+    "beregond": {
+      "name": "Beregond",
+      "aliases": ["Guard of Minas Tirith"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A Guard of the Citadel in Minas Tirith mentioned in connection with the defenses of Gondor. Represents the stalwart defenders of the white city.",
+          "role": "Citadel guard",
+          "relationships": {
+            "Minas Tirith": "Guardian of the white city",
+            "Denethor": "Serves the ruling steward",
+            "Gondor": "Defender of the realm"
+          }
+        }
+      }
+    },
+    "bergil": {
+      "name": "Bergil",
+      "aliases": ["Son of Gondor"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A young boy of Minas Tirith, son of one of the guards. Represents the children and families that the defenders of Gondor fight to protect.",
+          "role": "Young citizen",
+          "relationships": {
+            "Beregond": "Son of the guard",
+            "Minas Tirith": "Child of the white city",
+            "Gondor": "Young citizen protected by"
+          }
+        }
+      }
+    },
+    "ioreth": {
+      "name": "Ioreth",
+      "aliases": ["Woman of Gondor"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "An elderly woman of Gondor who serves in the Houses of Healing. Knowledgeable in herb-lore and the care of the wounded, she represents the wisdom of common folk.",
+          "role": "Healer and herb-woman",
+          "relationships": {
+            "Gondor": "Wise woman serving the people",
+            "Houses of Healing": "Servant in the halls of",
+            "Minas Tirith": "Elder woman of the city"
+          }
+        }
+      }
+    },
+    "prince-imrahil": {
+      "name": "Prince Imrahil",
+      "aliases": ["Prince of Dol Amroth"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Prince of Dol Amroth and kinsman to Denethor. A noble lord who brings Swan Knights and reinforcements from the southern fiefs to aid in Gondor's defense.",
+          "role": "Prince of Dol Amroth",
+          "relationships": {
+            "Dol Amroth": "Prince and lord of",
+            "Denethor": "Kinsman of the steward",
+            "Swan Knights": "Commander of the elite cavalry",
+            "Gondor": "Brings aid to the realm"
+          }
+        }
+      }
+    },
+    "angbor": {
+      "name": "Angbor",
+      "aliases": ["Lord of Lamedon"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A lord from Lamedon who brings reinforcements to aid Gondor. Commands men from the hill country and shows the loyalty of Gondor's southern vassals.",
+          "role": "Hill lord",
+          "relationships": {
+            "Lamedon": "Lord of the hill country",
+            "Gondor": "Brings hillmen to aid",
+            "Aragorn": "Serves the rightful king"
+          }
+        }
+      }
+    },
+    "elfstan": {
+      "name": "Elfstan",
+      "aliases": ["Ranger of Ithilien"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A Ranger serving in Faramir's company in the dangerous borderlands of Ithilien. Skilled in woodcraft and the ways of stealth required for border patrol.",
+          "role": "Border ranger",
+          "relationships": {
+            "Faramir": "Ranger in service of",
+            "Ithilien": "Patrol ranger of borderlands",
+            "Gondor": "Border guard of the realm"
+          }
+        }
+      }
+    },
+    "shagrat": {
+      "name": "Shagrat",
+      "aliases": ["Captain of Cirith Ungol"],
+      "appearances": [21],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Captain of the orc-tower of Cirith Ungol who guards the secret passage into Mordor. A large orc who commands the garrison watching over Shelob's tunnel.",
+          "role": "Orc tower captain",
+          "relationships": {
+            "Cirith Ungol": "Captain of the tower of",
+            "Shelob": "Guards the tunnel of",
+            "Mordor": "Gatekeeper to the dark land",
+            "Sauron": "Tower captain serving"
+          }
+        }
+      }
+    },
+    "gorbag": {
+      "name": "Gorbag",
+      "aliases": ["Orc of Minas Morgul"],
+      "appearances": [21],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "An orc from Minas Morgul who patrols near Cirith Ungol. Shows the overlap of orc territories and the competition between different orc factions in Mordor.",
+          "role": "Morgul orc",
+          "relationships": {
+            "Minas Morgul": "Orc warrior from the dead city",
+            "Shagrat": "Rival orc captain",
+            "Mordor": "Serves the dark realm",
+            "Nazgûl": "Serves the lords of Morgul"
+          }
+        }
+      }
+    },
+    "southron-captain": {
+      "name": "Southron Captain",
+      "aliases": ["Haradrim leader"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A captain leading Southron forces through Ithilien toward the Black Gate. Commands warriors from the far south who fight alongside Mordor's armies.",
+          "role": "Haradrim military leader",
+          "relationships": {
+            "Harad": "Captain of the southern lands",
+            "Mordor": "Ally marching to aid",
+            "Sauron": "Serves the Dark Lord's cause",
+            "Oliphaunt": "Rides the great beast"
+          }
+        }
+      }
+    },
+    "mumak-rider": {
+      "name": "Mûmak Rider",
+      "aliases": ["Oliphaunt commander"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A warrior from the south who rides atop a great oliphaunt. Shows the exotic and formidable nature of the forces that Sauron has gathered from distant lands.",
+          "role": "Beast rider",
+          "relationships": {
+            "Mûmak": "Rider and commander of the beast",
+            "Southrons": "Elite warrior among",
+            "Mordor": "Allied forces marching to"
+          }
+        }
+      }
+    },
+    "variag-chieftain": {
+      "name": "Variag Chieftain",
+      "aliases": ["Lord of Khand"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A chieftain from the eastern lands of Khand who brings warriors to serve Sauron. Represents the far-reaching influence of the Dark Lord's power.",
+          "role": "Eastern chieftain",
+          "relationships": {
+            "Khand": "Chieftain of the eastern land",
+            "Sauron": "Serves the Dark Lord",
+            "Variags": "Leader of the eastern warriors"
+          }
+        }
+      }
+    },
+    "easterling-captain": {
+      "name": "Easterling Captain",
+      "aliases": ["Warrior of Rhun"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A captain from the eastern lands beyond the Sea of Rhûn who leads warriors in service to Mordor. Shows the extent of Sauron's alliances across Middle-earth.",
+          "role": "Eastern war leader",
+          "relationships": {
+            "Rhûn": "Captain from lands beyond the sea",
+            "Sauron": "Serves in the Dark Lord's armies",
+            "Easterlings": "Commands warriors from the east"
+          }
+        }
+      }
+    },
+    "corsair-captain": {
+      "name": "Corsair Captain",
+      "aliases": ["Captain of Umbar"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A captain of the Corsairs of Umbar who commands black ships sailing up the Anduin. Represents the naval power allied with Mordor from the southern havens.",
+          "role": "Naval commander",
+          "relationships": {
+            "Umbar": "Captain of the corsair port",
+            "Black Ships": "Commander of the fleet",
+            "Sauron": "Allied naval forces serving",
+            "Aragorn": "Defeated by the rightful king"
+          }
+        }
+      }
+    },
+    "dead-face": {
+      "name": "Dead Face",
+      "aliases": ["Phantom of the Marshes"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "One of the phantom faces seen in the Dead Marshes, appearing as a pale visage beneath the dark water. Represents the ancient dead from battles long ago.",
+          "role": "Ancient phantom",
+          "relationships": {
+            "Dead Marshes": "Trapped spirit of the swampland",
+            "Ancient battles": "Remnant of warriors from",
+            "Gollum": "Seen and feared by"
+          }
+        }
+      }
+    },
+    "witch-king": {
+      "name": "Witch-king of Angmar",
+      "aliases": ["Lord of the Nazgûl", "Chief of the Nine"],
+      "appearances": [13, 18, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Chief of the Nazgûl and most terrible of the Nine Ringbearers. Once the Witch-king of Angmar, he now serves as Sauron's most feared lieutenant and commander.",
+          "role": "Lord of the Nazgûl",
+          "relationships": {
+            "Sauron": "Chief lieutenant and servant of",
+            "Nazgûl": "Lord and commander of the Nine",
+            "Minas Morgul": "Lord of the dead city",
+            "Angmar": "Former witch-king of"
+          }
+        }
+      }
+    },
+    "nazgul-second": {
+      "name": "Second Nazgûl",
+      "aliases": ["The Dark Rider"],
+      "appearances": [13, 18],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "One of the Nine Ringbearers who serves as lieutenant to the Witch-king. A fell spirit bound by one of the Nine Rings of power, now enslaved to Sauron's will.",
+          "role": "Nazgûl lieutenant",
+          "relationships": {
+            "Witch-king": "Serves under the chief",
+            "Sauron": "Enslaved spirit serving",
+            "Nine Rings": "Bound by one of the rings"
+          }
+        }
+      }
+    },
+    "fell-beast": {
+      "name": "Fell Beast",
+      "aliases": ["Winged Steed"],
+      "appearances": [18, 19, 20],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A monstrous flying creature that serves as mount for the Nazgûl. Neither bird nor bat, but a creature of shadow and malice bred for war and terror.",
+          "role": "Flying mount of darkness",
+          "relationships": {
+            "Nazgûl": "Winged mount of the Nine",
+            "Witch-king": "Primary steed of the chief",
+            "Mordor": "Creature bred in the dark land"
+          }
+        }
+      }
+    },
+    "orc-drummer": {
+      "name": "Orc Drummer",
+      "aliases": ["War drummer"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An orc who beats the war drums during the assault on Helm's Deep. Provides rhythm and coordination for the attacking forces, showing the organized nature of Saruman's army.",
+          "role": "Military drummer",
+          "relationships": {
+            "Saruman": "Musician in the army of",
+            "Helm's Deep": "Beats drums during assault on",
+            "Uruk-hai": "Provides rhythm for the forces"
+          }
+        }
+      }
+    },
+    "great-spider": {
+      "name": "Great Spider",
+      "aliases": ["Spawn of Shelob"],
+      "appearances": [21],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "One of the lesser spiders that dwell in the tunnels of Cirith Ungol, offspring or kin to the great Shelob. Shows the infestation of evil creatures in the pass.",
+          "role": "Tunnel dweller",
+          "relationships": {
+            "Shelob": "Lesser spawn or kin of",
+            "Cirith Ungol": "Dwells in the tunnels of",
+            "Mordor": "Guards approaches to the dark land"
+          }
+        }
+      }
+    },
+    "barrow-wight": {
+      "name": "Barrow-wight",
+      "aliases": ["Ancient spirit"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An ancient evil spirit mentioned in connection with the dead and haunted places. Represents the lingering darkness in the lands between Gondor and Mordor.",
+          "role": "Ancient evil spirit",
+          "relationships": {
+            "Ancient dead": "Spirit of forgotten times",
+            "Dead Marshes": "Haunts the marshlands",
+            "Darkness": "Serves the powers of shadow"
+          }
+        }
+      }
+    },
+    "black-breath": {
+      "name": "Black Breath",
+      "aliases": ["Despair of the Nazgûl"],
+      "appearances": [13, 18, 19],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The terrible aura of despair and fear that emanates from the Nazgûl. More than just terror, it is a supernatural dread that can break the will of even brave warriors.",
+          "role": "Aura of despair",
+          "relationships": {
+            "Nazgûl": "Supernatural aura of the Nine",
+            "Fear": "Manifestation of ultimate dread",
+            "Witch-king": "Strongest emanation from the chief"
+          }
+        }
+      }
+    },
+    "gil-galad": {
+      "name": "Gil-galad",
+      "aliases": ["High King of the Elves"],
+      "appearances": [16, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The last High King of the Elves in Middle-earth who fell in the battle against Sauron. His name is remembered in songs and stories as a great leader who sacrificed himself for victory.",
+          "role": "Fallen High King",
+          "relationships": {
+            "Elendil": "Fought alongside in last battle",
+            "Sauron": "Died fighting the Dark Lord",
+            "Last Alliance": "Co-leader of the great alliance",
+            "Elves": "Last high king of the people"
+          }
+        }
+      }
+    },
+    "elendil": {
+      "name": "Elendil",
+      "aliases": ["Elendil the Tall", "Founder of Realms in Exile"],
+      "appearances": [16, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Founder of the realms of Arnor and Gondor, and father of Isildur. Died alongside Gil-galad in the final battle against Sauron, wielding the great sword Narsil.",
+          "role": "Founder of the realms",
+          "relationships": {
+            "Isildur": "Father of the heir",
+            "Gil-galad": "Died fighting beside",
+            "Narsil": "Wielder of the great sword",
+            "Gondor": "Founder of the southern kingdom",
+            "Arnor": "Founder of the northern kingdom"
+          }
+        }
+      }
+    },
+    "anarion": {
+      "name": "Anárion",
+      "aliases": ["Brother of Isildur"],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Brother of Isildur and son of Elendil who helped found Gondor. Died defending Osgiliath during the siege by Sauron's forces in the Second Age.",
+          "role": "Co-founder of Gondor",
+          "relationships": {
+            "Isildur": "Brother and co-ruler",
+            "Elendil": "Son of the founder",
+            "Gondor": "Co-founder of the realm",
+            "Osgiliath": "Died defending the city"
+          }
+        }
+      }
+    },
+    "earnur": {
+      "name": "Eärnur",
+      "aliases": ["Last King of Gondor"],
+      "appearances": [14, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The last king of Gondor who vanished when he accepted the Witch-king's challenge. His disappearance ended the line of kings and began the rule of the Stewards.",
+          "role": "Last king of Gondor",
+          "relationships": {
+            "Witch-king": "Vanished after accepting challenge from",
+            "Gondor": "Last king before the Stewards",
+            "Denethor": "Preceded by the line of Stewards",
+            "Minas Tirith": "Final king of the white city"
+          }
+        }
+      }
+    },
+    "mardil": {
+      "name": "Mardil",
+      "aliases": ["First Ruling Steward"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The first Ruling Steward of Gondor who took power after King Eärnur's disappearance. Founder of the line of Stewards that includes Denethor.",
+          "role": "First Ruling Steward",
+          "relationships": {
+            "Eärnur": "Succeeded the vanished king",
+            "Denethor": "Ancestor of the current Steward",
+            "Gondor": "First to rule in absence of kings"
+          }
+        }
+      }
+    },
+    "vorondil": {
+      "name": "Vorondil",
+      "aliases": ["The Hunter"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "An ancestor of the Stewards known for his great hunting skills. His horn, made from the horn of one of the kine of Araw, was passed down through the line of Stewards.",
+          "role": "Ancient hunter",
+          "relationships": {
+            "Denethor": "Ancestor of the Steward's line",
+            "Horn of Gondor": "Maker of the great horn",
+            "Boromir": "Horn passed down to"
+          }
+        }
+      }
+    },
+    "belegorn": {
+      "name": "Belegorn",
+      "aliases": ["Ranger of old"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "An ancient Ranger of Ithilien remembered in the lore of Gondor. Represents the long tradition of Rangers defending the borders of the realm.",
+          "role": "Ancient Ranger",
+          "relationships": {
+            "Ithilien": "Early defender of the borderlands",
+            "Faramir": "Predecessor in the Ranger tradition",
+            "Gondor": "Early guardian of the realm"
+          }
+        }
+      }
+    },
+    "tar-minastir": {
+      "name": "Tar-Minastir",
+      "aliases": ["King of Númenor"],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A king of Númenor remembered in the histories and songs of Gondor. Represents the ancient glory and power of the sea-kings from whom the Dúnedain are descended.",
+          "role": "Ancient sea-king",
+          "relationships": {
+            "Númenor": "King of the sunken island",
+            "Dúnedain": "Ancestor of the sea-kings' heirs",
+            "Gondor": "Forefather of the realm's founders"
+          }
+        }
+      }
+    },
+    "celebrimbor": {
+      "name": "Celebrimbor",
+      "aliases": ["Lord of Eregion", "Maker of the Rings"],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The Elven-smith who forged the Rings of Power with Sauron's aid, not knowing the Dark Lord's true purpose. His creation of the rings led to the current war.",
+          "role": "Ring-maker",
+          "relationships": {
+            "Sauron": "Deceived by the disguised Dark Lord",
+            "Rings of Power": "Master craftsman who forged",
+            "Eregion": "Lord of the Elven realm",
+            "Three Rings": "Secret maker of the greatest rings"
+          }
+        }
+      }
+    },
+    "durin": {
+      "name": "Durin",
+      "aliases": ["Durin the Deathless", "Father of the Dwarves"],
+      "appearances": [4, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The first of the Dwarf-fathers and founder of Khazad-dûm. His name is remembered in songs and his realm became the greatest of all Dwarf-kingdoms before its fall.",
+          "role": "Father of Dwarves",
+          "relationships": {
+            "Khazad-dûm": "Founder of Moria",
+            "Gimli": "Ancestor of all Dwarves",
+            "Dwarves": "First and greatest of the fathers",
+            "Balrog": "His realm fell to the demon"
+          }
+        }
+      }
     }
+  },
+  "recaps": {
   },
   "recaps": {
     "1": "Boromir dies defending Merry and Pippin from Uruk-hai, but the hobbits are captured. Aragorn, Legolas, and Gimli swear to pursue their captors and rescue their friends.",

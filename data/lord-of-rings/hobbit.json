@@ -793,8 +793,8 @@
         }
       }
     },
-    "throin": {
-      "name": "Throin",
+    "thrain": {
+      "name": "Thrain",
       "aliases": [],
       "appearances": [2],
       "knowledge": {
@@ -821,7 +821,7 @@
           "role": "King under the Mountain",
           "relationships": {
             "Thorin Oakenshield": "Grandfather of",
-            "Throin": "Father of",
+            "Thrain": "Father of",
             "Erebor": "King of when dragon came",
             "Smaug": "First victim of dragon's attack"
           }
@@ -890,6 +890,356 @@
           "relationships": {
             "Bilbo Baggins": "Distant relative and rival of",
             "Bag End": "Covets and tries to claim"
+          }
+        }
+      }
+    },
+    "durin": {
+      "name": "Durin",
+      "aliases": ["Durin the Deathless"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The legendary ancestor of Thorin's line, the first and greatest of the Seven Fathers of the Dwarves. Founded the kingdom of Khazad-dûm and is revered by all dwarves as their forefather.",
+          "role": "Legendary dwarf ancestor",
+          "relationships": {
+            "Thorin Oakenshield": "Ancestor of",
+            "All Dwarves": "Forefather of",
+            "Erebor": "Ancient founder of dwarf kingdoms"
+          }
+        }
+      }
+    },
+    "the-thrush": {
+      "name": "The Thrush",
+      "aliases": ["Old Thrush"],
+      "appearances": [15, 17],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "An ancient thrush that lives near the Lonely Mountain and understands the speech of men. Listens to Bilbo and the dwarves as they discover the secret door.",
+          "role": "Ancient messenger bird",
+          "relationships": {
+            "Erebor": "Ancient ally of",
+            "Company of Dwarves": "Observes and aids"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Carries the news of Smaug's death to the ravens, serving as a vital messenger in the communication between the birds and the dwarves of Erebor.",
+          "role": "Messenger between birds and dwarves",
+          "relationships": {
+            "Roac": "Carries news to",
+            "Ravens": "Messenger to",
+            "Thorin Oakenshield": "Brings crucial news to"
+          }
+        }
+      }
+    },
+    "stone-giants": {
+      "name": "Stone-Giants",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Enormous beings made of living rock who hurl boulders at each other across the mountain peaks during thunderstorms. Their game threatens travelers crossing the Misty Mountains.",
+          "role": "Mountain-dwelling giants",
+          "relationships": {
+            "Misty Mountains": "Inhabit and shape",
+            "Company of Dwarves": "Endanger during mountain crossing"
+          }
+        }
+      }
+    },
+    "keeper-of-keys": {
+      "name": "Keeper of Keys",
+      "aliases": [],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Wood-elf responsible for the prison keys in Thranduil's halls. Falls asleep during the autumn feast, allowing Bilbo to steal the keys and free the dwarves.",
+          "role": "Elven jailer",
+          "relationships": {
+            "Thranduil": "Serves as jailer for",
+            "Company of Dwarves": "Unwittingly helps escape through negligence",
+            "Bilbo Baggins": "Keys stolen by"
+          }
+        }
+      }
+    },
+    "wood-elf-guards": {
+      "name": "Wood-elf Guards",
+      "aliases": [],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Elven warriors who patrol Mirkwood forest and capture the dwarves after their battle with the spiders. Skilled in woodland warfare and loyal to Thranduil.",
+          "role": "Forest guardians",
+          "relationships": {
+            "Thranduil": "Serve and protect",
+            "Mirkwood": "Patrol and guard",
+            "Company of Dwarves": "Capture and imprison"
+          }
+        }
+      }
+    },
+    "raft-elves": {
+      "name": "Raft-elves",
+      "aliases": [],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Wood-elves who guide the empty barrels down the Forest River to Lake-town, unknowingly carrying the escaped dwarves to freedom.",
+          "role": "River guides",
+          "relationships": {
+            "Thranduil": "Serve in trade duties",
+            "Lake-town": "Trade partners with",
+            "Company of Dwarves": "Unknowingly transport to freedom"
+          }
+        }
+      }
+    },
+    "giant-spiders": {
+      "name": "Giant Spiders",
+      "aliases": ["Spiders of Mirkwood"],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Enormous spiders that inhabit the dark depths of Mirkwood forest. They capture and cocoon travelers to feed upon later, speaking in hissing voices among themselves.",
+          "role": "Forest predators",
+          "relationships": {
+            "Mirkwood": "Inhabit dark depths of",
+            "Company of Dwarves": "Capture and threaten to eat",
+            "Bilbo Baggins": "Defeated by in first real battle"
+          }
+        }
+      }
+    },
+    "goblin-guards": {
+      "name": "Goblin Guards",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Fierce goblin warriors who serve the Great Goblin in the tunnels under the Misty Mountains. They capture the company and bring them before their king for judgment.",
+          "role": "Underground warriors",
+          "relationships": {
+            "Great Goblin": "Serve and obey",
+            "Company of Dwarves": "Capture and torture",
+            "Misty Mountains": "Inhabit tunnels of"
+          }
+        }
+      }
+    },
+    "warg-chieftains": {
+      "name": "Warg Chieftains",
+      "aliases": [],
+      "appearances": [6, 8, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Leaders of the warg packs that ally with the goblins. These enormous evil wolves hunt in coordination with goblin forces and pose a deadly threat to travelers.",
+          "role": "Wolf pack leaders",
+          "relationships": {
+            "Goblins": "Allied with in warfare",
+            "Company of Dwarves": "Hunt and threaten",
+            "Great Eagles": "Ancient enemies of"
+          }
+        }
+      }
+    },
+    "lake-town-guards": {
+      "name": "Lake-town Guards",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Armed men who serve as the town watch for Lake-town, maintaining order and defending the settlement. Initially skeptical of the dwarves' grand claims.",
+          "role": "Town watchmen",
+          "relationships": {
+            "Master of Lake-town": "Serve and protect",
+            "Lake-town": "Guard and patrol",
+            "Company of Dwarves": "Initially suspicious of"
+          }
+        }
+      }
+    },
+    "people-of-lake-town": {
+      "name": "People of Lake-town",
+      "aliases": ["Men of the Lake"],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The common folk of Lake-town who make their living by fishing and trading. Initially excited by the dwarves' arrival and the promise of restored prosperity from the mountain's wealth.",
+          "role": "Lake-town citizens",
+          "relationships": {
+            "Master of Lake-town": "Ruled by",
+            "Bard": "Look to as leader after dragon attack",
+            "Company of Dwarves": "Initially welcome with hope"
+          }
+        }
+      }
+    },
+    "iron-hills-dwarves": {
+      "name": "Iron Hills Dwarves",
+      "aliases": [],
+      "appearances": [18],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Dwarven warriors from the Iron Hills who arrive with Dain Ironfoot to reinforce Thorin during the Battle of Five Armies. Well-armed and experienced fighters.",
+          "role": "Dwarven reinforcements",
+          "relationships": {
+            "Dain Ironfoot": "Led by",
+            "Thorin Oakenshield": "Come to aid",
+            "Iron Hills": "Warriors from"
+          }
+        }
+      }
+    },
+    "great-eagles": {
+      "name": "Great Eagles",
+      "aliases": ["Eagles of the Misty Mountains"],
+      "appearances": [8, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Magnificent giant eagles who are ancient enemies of the goblins and wargs. Noble creatures who rescue the company from certain death and carry them to safety.",
+          "role": "Noble rescuers",
+          "relationships": {
+            "Gwaihir": "Led by",
+            "Company of Dwarves": "Rescue from goblins",
+            "Goblins": "Ancient enemies of",
+            "Gandalf": "Allies of"
+          }
+        }
+      }
+    },
+    "ravens-of-erebor": {
+      "name": "Ravens of Erebor",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Ancient messenger birds allied with the dwarves of Erebor. They can speak the common tongue and serve as vital communication links for the mountain kingdom.",
+          "role": "Messenger birds",
+          "relationships": {
+            "Roac": "Led by",
+            "Thorin Oakenshield": "Ancient allies of",
+            "Erebor": "Bound to serve"
+          }
+        }
+      }
+    },
+    "goblin-army": {
+      "name": "Goblin Army",
+      "aliases": ["Goblins of the North"],
+      "appearances": [18],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A vast horde of goblins and orcs from the Misty Mountains and beyond, led by Bolg and other chieftains. They march to claim the Lonely Mountain and its treasure.",
+          "role": "Invading force",
+          "relationships": {
+            "Bolg": "Led by",
+            "Azog": "Served under",
+            "Warg Chieftains": "Allied with",
+            "Free Peoples": "Enemy of in great battle"
+          }
+        }
+      }
+    },
+    "wargs": {
+      "name": "Wargs",
+      "aliases": ["Evil Wolves"],
+      "appearances": [6, 8, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Large, evil wolves that serve the goblins as mounts and hunting beasts. Intelligent and cruel, they coordinate attacks with their goblin allies.",
+          "role": "Evil wolf pack",
+          "relationships": {
+            "Goblins": "Allied with and serve",
+            "Warg Chieftains": "Led by",
+            "Company of Dwarves": "Hunt and pursue"
+          }
+        }
+      }
+    },
+    "otho-sackville-baggins": {
+      "name": "Otho Sackville-Baggins",
+      "aliases": [],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Lobelia's husband and another relative trying to claim Bag End in Bilbo's absence. Works with his wife to take possession of the hobbit-hole and its contents.",
+          "role": "Grasping relative",
+          "relationships": {
+            "Lobelia Sackville-Baggins": "Husband of",
+            "Bilbo Baggins": "Distant relative and rival of",
+            "Bag End": "Attempts to claim"
+          }
+        }
+      }
+    },
+    "sting": {
+      "name": "Sting",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A small elven sword that Bilbo takes from the troll hoard and names after using it to fight the giant spiders in Mirkwood. It glows blue when orcs or goblins are near.",
+          "role": "Bilbo's sword",
+          "relationships": {
+            "Bilbo Baggins": "Wielded and named by",
+            "Trolls": "Taken from hoard of",
+            "Giant Spiders": "Used to defeat"
+          }
+        }
+      }
+    },
+    "orcrist": {
+      "name": "Orcrist",
+      "aliases": ["Goblin-cleaver"],
+      "appearances": [4, 5, 6, 12, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An ancient elvish sword found in the troll hoard, taken by Thorin as his weapon. Known to the goblins as 'Goblin-cleaver' and greatly feared by them.",
+          "role": "Thorin's sword",
+          "relationships": {
+            "Thorin Oakenshield": "Wielded by",
+            "Trolls": "Found in hoard of",
+            "Goblins": "Feared by as Goblin-cleaver"
+          }
+        }
+      }
+    },
+    "glamdring": {
+      "name": "Glamdring",
+      "aliases": ["Foe-hammer"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An ancient elvish sword found in the troll hoard and taken by Gandalf. Known as 'Foe-hammer' by the enemies of the free peoples.",
+          "role": "Gandalf's sword",
+          "relationships": {
+            "Gandalf": "Wielded by",
+            "Trolls": "Found in hoard of",
+            "Elrond": "Identified by as ancient blade"
           }
         }
       }
