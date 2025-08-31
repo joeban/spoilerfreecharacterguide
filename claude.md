@@ -174,10 +174,25 @@ interface CharacterKnowledge {
 
 ## Data Entry Guidelines
 
+### Chapter Recaps (MANDATORY)
+- **EVERY SINGLE CHAPTER must have a recap** - no exceptions
+- Each recap should be 2-4 sentences summarizing key plot points without spoilers
+- Recaps are stored in the `recaps` object with chapter numbers as keys
+- Example: `"1": "Harry Potter receives his Hogwarts letter..."`
+- Missing recaps will break the user experience
+
+### Character Coverage (MANDATORY) 
+- **EVERY NAMED CHARACTER must have an entry** - no exceptions
+- This includes major characters, minor characters, and even briefly mentioned characters
+- Characters with single mentions should still have entries documenting their role
+- Missing character entries reduce the guide's completeness and usefulness
+- When in doubt, include the character rather than omit them
+
 ### Adding New Characters
 1. List ALL chapters where the character appears in `appearances`
 2. Add `knowledge` entries only when significant new information is revealed
 3. Each knowledge entry's `revealedIn` should also be in `appearances`
+4. Include ALL named characters, regardless of importance or screen time
 
 ### Character Appearances vs Knowledge
 - **Appearances**: Every chapter where the character is present
@@ -185,10 +200,13 @@ interface CharacterKnowledge {
 - Example: Harry appears in chapters 1-17, but knowledge updates might only be in chapters 1, 2, 4, 7, etc.
 
 ### Quality Checks
+- **CRITICAL**: Verify ALL chapters (1 through meta.chapters) have recaps
+- **CRITICAL**: Verify ALL named characters are included, no matter how minor
 - Verify `appearances` array is complete and accurate
 - Ensure `revealedIn` values are subset of `appearances`
 - Check that descriptions are spoiler-free for their chapter
 - Relationships should reflect what's known at that point
+- Review text for any unnamed references that could become character entries
 
 ## Recent Updates (Latest First)
 1. **MAJOR: Separated character appearances from knowledge updates** (v2.0)
