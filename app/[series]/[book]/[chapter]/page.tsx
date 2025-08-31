@@ -81,51 +81,58 @@ export default async function ChapterPage({
           previouslySeen={previouslySeen}
         />
         
-        {/* Book cover and Amazon link - moved below character cards */}
-        <div className="mt-12 mb-12">
-          <div className="parchment-panel max-w-2xl mx-auto p-6">
-            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+        {/* Amazon affiliate section - matching book page format */}
+        <div className="pt-12">
+          <div className="parchment-panel max-w-2xl mx-auto p-8">
+            <div className="flex flex-col items-center">
+              <h3 className="text-xl font-heading font-bold mb-6 text-parchment-primary">Purchase This Book</h3>
               <a
                 href={amazonDirectUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex-shrink-0"
+                className="group"
               >
                 <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
                   {coverImageUrl ? (
                     <img 
                       src={coverImageUrl}
                       alt={`${bookMeta.title} cover`}
-                      className="w-32 h-auto"
+                      className="w-36 h-auto"
                       loading="lazy"
                     />
                   ) : (
-                    <div className="w-32 h-48 bg-gradient-to-br from-leather to-leather-dark flex flex-col items-center justify-center p-3">
+                    <div className="w-36 h-54 bg-gradient-to-br from-leather to-leather-dark flex flex-col items-center justify-center p-3">
                       <span className="text-parchment text-center">
-                        <div className="font-display text-sm mb-2">{bookMeta.title}</div>
+                        <div className="font-display text-base mb-2">{bookMeta.title}</div>
                         <div className="text-xs opacity-80">{series.author}</div>
                       </span>
                     </div>
                   )}
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                    <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-xs">
+                    <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-sm">
                       View on Amazon
                     </span>
                   </div>
                 </div>
               </a>
-              <div className="flex-1 text-center sm:text-left">
-                <h3 className="text-lg font-heading font-bold mb-2 text-parchment-primary">{bookMeta.title}</h3>
-                <p className="text-sm text-parchment-secondary mb-3">by {series.author}</p>
-                <a
-                  href={amazonDirectUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 bg-amber-700 hover:bg-amber-600 text-amber-50 rounded transition-colors duration-200 text-sm font-medium"
-                >
-                  Purchase on Amazon
-                </a>
-              </div>
+              <a
+                href={amazonDirectUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 mt-4 px-5 py-2.5 bg-gradient-to-b from-amber-700 to-amber-800 text-amber-100 rounded-md shadow-md hover:from-amber-600 hover:to-amber-700 transition-all duration-200 hover:shadow-lg text-sm font-medium"
+              >
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                Buy This Book on Amazon
+              </a>
+            </div>
+            
+            {/* Amazon affiliate disclosure */}
+            <div className="mt-6 text-center">
+              <p className="text-xs text-parchment-secondary italic">
+                As an Amazon Associate, we earn from qualifying purchases
+              </p>
             </div>
           </div>
         </div>
