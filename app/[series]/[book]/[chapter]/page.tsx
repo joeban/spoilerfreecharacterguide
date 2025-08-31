@@ -46,12 +46,19 @@ export default async function ChapterPage({
         <h1 className="text-4xl md:text-5xl font-display mt-4 mb-2 text-amber-100 text-shadow-subtle">
           Chapter {chapterNum}
         </h1>
-        <p className="text-lg text-amber-200 font-serif">
-          Character Guide
-        </p>
       </div>
       
       <div className="max-w-6xl mx-auto">
+        {/* Chapter selector at top */}
+        <div className="mb-8">
+          <ChapterSelector
+            totalChapters={bookMeta.chapters}
+            currentChapter={chapterNum}
+            seriesSlug={params.series}
+            bookSlug={params.book}
+          />
+        </div>
+        
         {/* Chapter recap (if available) */}
         {recap && <ChapterRecap recap={recap} chapter={chapterNum} />}
         
