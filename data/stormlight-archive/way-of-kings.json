@@ -4,144 +4,151 @@
     "author": "Brandon Sanderson",
     "chapters": 75,
     "createdAt": "2024-01-01T00:00:00Z",
-    "schemaVersion": "1.0"
+    "schemaVersion": "2.0"
   },
   "characters": {
     "kaladin": {
-      "name": "Kaladin",
-      "aliases": ["Kal", "Stormblessed"],
-      "tiers": {
+      "name": "Kaladin Stormblessed",
+      "aliases": ["Kal", "Stormblessed", "The Slave Who Saved a Kingdom"],
+      "appearances": [1, 2, 3, 4, 5, 8, 9, 11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 67, 69, 72, 73, 74, 75],
+      "knowledge": {
         "1": {
-          "appearsIn": 1,
-          "description": "A young soldier with dark hair serving as squadleader in Brightlord Amaram's army. Known for his protective nature toward his men.",
+          "revealedIn": 1,
+          "description": "A young soldier with dark hair serving as squadleader in Brightlord Amaram's army. Known for his protective nature toward his men and medical knowledge from his father.",
           "role": "Squadleader",
           "relationships": {
-            "Cenn": "Protects"
+            "Cenn": "Protects",
+            "Lirin": "Son of (surgeon father)"
           }
         },
         "3": {
-          "appearsIn": 3,
-          "description": "A former soldier now enslaved as a bridgeman. Bears shash brand on forehead marking him as dangerous. Struggles with depression and loss.",
+          "revealedIn": 3,
+          "description": "A former soldier now enslaved as a bridgeman after being betrayed by Amaram. Bears shash brand on forehead marking him as dangerous. Struggles with depression and suicidal thoughts.",
           "role": "Bridgeman (Bridge Four)",
           "relationships": {
             "Cenn": "Failed to protect",
-            "Gaz": "Supervised by"
+            "Gaz": "Supervised by",
+            "Amaram": "Betrayed by"
           }
         },
         "11": {
-          "appearsIn": 11,
-          "description": "Bridgeman who has started to care for Bridge Four despite himself. Shows medical knowledge from his father's training. Natural leader emerging from despair.",
+          "revealedIn": 11,
+          "description": "Bridgeman who has started to care for Bridge Four despite himself. Shows medical knowledge and begins training the crew. Natural leader emerging from despair, bonded to the honorspren Syl.",
           "role": "Bridge Four Leader",
           "relationships": {
-            "Bridge Four": "Leads",
-            "Gaz": "Tense relationship with",
-            "Syl": "Followed by strange windspren"
+            "Bridge Four": "Leads and protects",
+            "Syl": "Bonded to",
+            "Rock": "Befriended by",
+            "Teft": "Trusted by"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Knight Radiant of the Order of Windrunners, wielding Sylblade and the power of Adhesion and Gravitation. The first Radiant to return in centuries, capable of flight and incredible feats of strength.",
+          "role": "Knight Radiant (Windrunner)",
+          "relationships": {
+            "Syl": "Shardblade bond",
+            "Bridge Four": "Captain of",
+            "Honor": "Serves ideals of"
           }
         }
       }
     },
     "shallan": {
       "name": "Shallan Davar",
-      "aliases": [],
-      "tiers": {
+      "aliases": ["Brightness Shallan"],
+      "appearances": [3, 6, 7, 8, 10, 15, 20, 23, 27, 30, 33, 37, 40, 42, 44, 47, 50, 53, 57, 60, 63, 66, 68, 70, 75],
+      "knowledge": {
         "3": {
-          "appearsIn": 3,
-          "description": "Young lighteyed woman from rural Jah Keved, traveling to become ward of scholar Jasnah Kholin. Artistic and witty but hides dark secrets.",
-          "role": "Prospective Ward"
+          "revealedIn": 3,
+          "description": "Young lighteyed woman from rural Jah Keved, traveling to become ward of scholar Jasnah Kholin. Artistic and witty but hides dark family secrets and financial desperation.",
+          "role": "Prospective Ward",
+          "relationships": {
+            "Lin Davar": "Daughter of",
+            "Jasnah Kholin": "Seeks wardship from"
+          }
         },
         "7": {
-          "appearsIn": 7,
-          "description": "Jasnah's new ward studying in Kharbranth. Talented artist with exceptional memory. Pursuing scholarship while harboring hidden agenda.",
+          "revealedIn": 7,
+          "description": "Jasnah's new ward studying in Kharbranth. Talented artist with exceptional memory for drawing. Pursuing scholarship while harboring hidden agenda to steal Jasnah's soulcaster.",
           "role": "Jasnah's Ward",
           "relationships": {
             "Jasnah Kholin": "Ward of",
-            "Kabsal": "Befriended by"
+            "Kabsal": "Befriended by",
+            "Pattern": "Followed by cryptic"
+          }
+        },
+        "70": {
+          "revealedIn": 70,
+          "description": "Nascent Knight Radiant of the Order of Lightweavers, capable of Soulcasting and creating illusions. Her Shardblade is the spren Pattern, and she has begun the path of speaking Truths.",
+          "role": "Knight Radiant (Lightweaver)",
+          "relationships": {
+            "Pattern": "Shardblade bond",
+            "Jasnah Kholin": "Mentor and protector",
+            "Truth": "Sworn to speak"
           }
         }
       }
     },
     "dalinar": {
       "name": "Dalinar Kholin",
-      "aliases": ["The Blackthorn"],
-      "tiers": {
+      "aliases": ["The Blackthorn", "Uncle"],
+      "appearances": [12, 13, 17, 18, 21, 25, 28, 31, 35, 38, 42, 46, 49, 52, 55, 58, 61, 64, 67, 71, 72, 73, 74, 75],
+      "knowledge": {
         "12": {
-          "appearsIn": 12,
-          "description": "Highprince of Alethkar and brother to the late King Gavilar. Once feared as the Blackthorn, now follows the Codes and seeks unity. Experiences strange visions during highstorms.",
-          "role": "Highprince",
-          "relationships": {
-            "Gavilar": "Brother (deceased)",
-            "Adolin": "Father of",
-            "Renarin": "Father of",
-            "Navani": "Sister-in-law"
-          }
-        },
-        "18": {
-          "appearsIn": 18,
-          "description": "Highprince who questions old ways of war. His adherence to the Codes makes other highprinces view him as weak. Visions grow more intense and detailed.",
+          "revealedIn": 12,
+          "description": "Highprince of Alethkar and brother to the late King Gavilar. Once feared as the Blackthorn for his ruthless conquests, now follows the Codes and seeks unity. Experiences strange visions during highstorms.",
           "role": "Highprince of War",
           "relationships": {
             "Gavilar": "Brother (deceased)",
             "Adolin": "Father of",
-            "Renarin": "Father of", 
-            "Navani": "Sister-in-law, growing closer to",
-            "Sadeas": "Former friend, now rival"
+            "Renarin": "Father of",
+            "Navani": "Sister-in-law",
+            "Elhokar": "Uncle to"
+          }
+        },
+        "64": {
+          "revealedIn": 64,
+          "description": "Chosen by the Almighty through visions to unite the highprinces and prepare for the True Desolation. His visions show him ancient Knights Radiant and guide him toward honor and leadership.",
+          "role": "Highprince and Visionary",
+          "relationships": {
+            "Honor": "Chosen by",
+            "Stormfather": "Receives visions from",
+            "Knights Radiant": "Destined to restore"
           }
         }
       }
     },
     "adolin": {
       "name": "Adolin Kholin",
-      "aliases": [],
-      "tiers": {
+      "aliases": ["Prince Adolin"],
+      "appearances": [12, 17, 21, 28, 35, 42, 49, 55, 61, 67, 71, 72, 73, 74, 75],
+      "knowledge": {
         "12": {
-          "appearsIn": 12,
-          "description": "Dalinar's elder son and accomplished duelist. Fashionable and popular among lighteyes but loyal to his father despite doubts about the visions.",
-          "role": "Highprince's Son",
+          "revealedIn": 12,
+          "description": "Dalinar's elder son and accomplished duelist wielding the Shardblade Mayalaran. Fashionable, popular among lighteyes, and skilled in combat, but concerned about his father's visions and their political implications.",
+          "role": "Heir and Duelist",
           "relationships": {
-            "Dalinar": "Son of",
-            "Renarin": "Brother of"
+            "Dalinar": "Son of and worried about",
+            "Renarin": "Protective brother of",
+            "Mayalaran": "Wields (Shardblade)"
           }
         }
       }
     },
     "szeth": {
       "name": "Szeth-son-son-Vallano",
-      "aliases": ["Assassin in White"],
-      "tiers": {
+      "aliases": ["Assassin in White", "Truthless"],
+      "appearances": [1, "Interlude I-1", "Interlude I-4", "Interlude I-9"],
+      "knowledge": {
         "1": {
-          "appearsIn": 1,
-          "description": "Shin man dressed in white who possesses strange powers over gravity. Bound by mysterious oaths to obey whoever holds his oathstone.",
-          "role": "Truthless of Shinovar",
+          "revealedIn": 1,
+          "description": "Shin man dressed in white who possesses Surgebinding powers over Adhesion and Gravitation. Bound by mysterious oaths to obey whoever holds his oathstone, forced to kill against his beliefs.",
+          "role": "Truthless Assassin",
           "relationships": {
-            "Gavilar": "Assassinated"
-          }
-        }
-      }
-    },
-    "cenn": {
-      "name": "Cenn",
-      "aliases": [],
-      "tiers": {
-        "1": {
-          "appearsIn": 1,
-          "description": "Young, inexperienced spearman in Kaladin's squad. First time in real combat and terrified.",
-          "role": "Spearman",
-          "relationships": {
-            "Kaladin": "Protected by"
-          }
-        }
-      }
-    },
-    "gaz": {
-      "name": "Gaz",
-      "aliases": [],
-      "tiers": {
-        "3": {
-          "appearsIn": 3,
-          "description": "Bridge crew overseer with one eye. Takes bribes and treats bridgemen as expendable. Seems to have his own pressures and fears.",
-          "role": "Bridge Sergeant",
-          "relationships": {
-            "Kaladin": "Supervises"
+            "Gavilar": "Assassinated",
+            "Taravangian": "Serves (holder of oathstone)",
+            "Honor": "Believes he has betrayed"
           }
         }
       }
@@ -149,47 +156,1171 @@
     "syl": {
       "name": "Sylphrena",
       "aliases": ["Syl"],
-      "tiers": {
+      "appearances": [2, 3, 8, 9, 11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
         "2": {
-          "appearsIn": 2,
-          "description": "An unusual windspren that follows Kaladin. More aware and coherent than typical spren, speaking and showing curiosity about humans.",
+          "revealedIn": 2,
+          "description": "An unusual windspren that follows Kaladin. More aware and coherent than typical spren, speaking and showing curiosity about humans. Can change size and take different forms.",
           "role": "Windspren",
           "relationships": {
-            "Kaladin": "Follows"
+            "Kaladin": "Follows and talks to"
           }
         },
         "11": {
-          "appearsIn": 11,
-          "description": "Increasingly self-aware windspren who acts unlike any normal spren. Can change size and appearance. Shows deep concern for Kaladin's wellbeing.",
+          "revealedIn": 11,
+          "description": "Increasingly self-aware windspren who remembers things other spren forget. Shows deep concern for Kaladin's wellbeing and encourages him to care about others.",
           "role": "Unique Windspren",
           "relationships": {
-            "Kaladin": "Bonded to"
+            "Kaladin": "Bonding with"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Ancient honorspren and daughter of the Stormfather. Former spren of an ancient Knight Radiant, now bonded to Kaladin as his Shardblade and companion in the Order of Windrunners.",
+          "role": "Honorspren/Shardblade",
+          "relationships": {
+            "Kaladin": "Shardblade bond",
+            "Stormfather": "Daughter of",
+            "Honor": "Serves"
           }
         }
       }
     },
     "jasnah": {
       "name": "Jasnah Kholin",
-      "aliases": [],
-      "tiers": {
+      "aliases": ["Brightness Jasnah", "Princess Jasnah"],
+      "appearances": [3, 6, 7, 8, 10, 15, 20, 23, 27, 30, 33, 37, 40, 44, 47, 50, 53, 57, 60, 63, 66, 68, 70, 75],
+      "knowledge": {
         "3": {
-          "appearsIn": 3,
-          "description": "Renowned scholar and daughter of the late King Gavilar. Known for her intelligence, atheism, and exacting standards. Researching in Kharbranth.",
-          "role": "Scholar & Princess",
+          "revealedIn": 3,
+          "description": "Renowned scholar and daughter of the late King Gavilar. Known for her intelligence, atheism, and exacting standards. Researching ancient history and the Voidbringers in Kharbranth.",
+          "role": "Scholar Princess",
           "relationships": {
             "Gavilar": "Daughter of (deceased)",
             "Dalinar": "Niece of",
-            "Shallan": "Potential patron of"
+            "Navani": "Daughter of",
+            "Elhokar": "Sister of"
           }
         },
-        "7": {
-          "appearsIn": 7,
-          "description": "Brilliant scholar researching ancient history with unusual intensity. Has taken Shallan as ward. Demonstrates mysterious abilities during emergency.",
-          "role": "Scholar & Princess", 
+        "8": {
+          "revealedIn": 8,
+          "description": "Soulcaster capable of transforming materials, particularly skilled at turning objects to smoke. Brilliant scholar researching the return of ancient evils, with a soulcaster fabrial disguised as a bracelet.",
+          "role": "Soulcaster and Scholar",
           "relationships": {
-            "Shallan": "Patron of",
-            "Dalinar": "Niece of",
-            "Navani": "Daughter of"
+            "Shallan": "Mentor and ward",
+            "Ivory": "Bonded to (Inkspren)"
+          }
+        }
+      }
+    },
+    "rock": {
+      "name": "Numuhukumakiaki'aialunamor",
+      "aliases": ["Rock"],
+      "appearances": [4, 5, 11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Large, unflappable Horneater bridgeman with a practical outlook. Serves as Bridge Four's cook and voice of reason. Has unusual eye coloring and can see spren more clearly than most.",
+          "role": "Bridge Four Cook",
+          "relationships": {
+            "Kaladin": "Respects as leader",
+            "Bridge Four": "Cooks for",
+            "Spren": "Can see unusually well"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Horneater with family in the Peaks. Reveals he comes from a family of alchemists and has some ability to see spren. Loyal to Kaladin and protective of Bridge Four.",
+          "role": "Horneater Alchemist",
+          "relationships": {
+            "Kaladin": "Sworn to follow",
+            "Lunamor": "Real name revealed",
+            "The Peaks": "Homeland"
+          }
+        }
+      }
+    },
+    "teft": {
+      "name": "Teft",
+      "aliases": [],
+      "appearances": [11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Grizzled former soldier and the oldest member of Bridge Four. Shows military experience and becomes Kaladin's most trusted sergeant. Has knowledge of the Knights Radiant from family stories.",
+          "role": "Bridge Four Sergeant",
+          "relationships": {
+            "Kaladin": "Trusts and serves",
+            "Bridge Four": "Veteran leader of",
+            "Knights Radiant": "Family stories about"
+          }
+        },
+        "59": {
+          "revealedIn": 59,
+          "description": "Former soldier whose family were secret Envisagers - people who believed in the return of the Knights Radiant. His knowledge helps Kaladin understand his growing powers.",
+          "role": "Envisager Descendant",
+          "relationships": {
+            "Envisagers": "Family were members",
+            "Kaladin": "Guides understanding of powers"
+          }
+        }
+      }
+    },
+    "moash": {
+      "name": "Moash",
+      "aliases": [],
+      "appearances": [11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tall, strong bridgeman with a grudge against lighteyes. Skilled fighter who becomes one of Kaladin's most trusted men in Bridge Four. Has a dark past involving the death of his grandparents.",
+          "role": "Bridge Four Warrior",
+          "relationships": {
+            "Kaladin": "Serves loyally",
+            "Lighteyes": "Harbors hatred for",
+            "Grandparents": "Killed by lighteyes"
+          }
+        },
+        "56": {
+          "revealedIn": 56,
+          "description": "Bridgeman whose grandparents were killed in King Elhokar's training grounds by negligent lighteyes. His hatred of the nobility runs deep, especially toward the royal family.",
+          "role": "Vengeful Bridgeman",
+          "relationships": {
+            "Elhokar": "Wants revenge against",
+            "Royal Family": "Blames for grandparents' death"
+          }
+        }
+      }
+    },
+    "sigzil": {
+      "name": "Sigzil",
+      "aliases": [],
+      "appearances": [14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Quiet, thoughtful Azish bridgeman with an education. Former student of Hoid the Worldsinger, knowledgeable about different cultures and maintains detailed notes about their experiences.",
+          "role": "Scholar Bridgeman",
+          "relationships": {
+            "Hoid": "Former student of",
+            "Kaladin": "Serves faithfully",
+            "Azir": "Originally from"
+          }
+        }
+      }
+    },
+    "lopen": {
+      "name": "Lopen",
+      "aliases": ["The Lopen"],
+      "appearances": [14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "One-armed Herdazian bridgeman with an irrepressible spirit and constant jokes. Always refers to himself as 'The Lopen' and maintains optimism despite his circumstances.",
+          "role": "Bridge Four Scout",
+          "relationships": {
+            "Kaladin": "Loyal to",
+            "Bridge Four": "Entertains and scouts for",
+            "Herdaz": "Has family in"
+          }
+        }
+      }
+    },
+    "skar": {
+      "name": "Skar",
+      "aliases": [],
+      "appearances": [11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Young bridgeman who initially resents Kaladin's leadership but comes to respect him. Becomes one of the more dependable members of Bridge Four.",
+          "role": "Bridge Four Member",
+          "relationships": {
+            "Kaladin": "Initially resistant, later loyal to",
+            "Bridge Four": "Dedicated member"
+          }
+        }
+      }
+    },
+    "drehy": {
+      "name": "Drehy",
+      "aliases": [],
+      "appearances": [11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Bridgeman from Sebarial's warcamp who transferred to Bridge Four. Quiet but reliable member of the crew with dark skin and a steady demeanor.",
+          "role": "Bridge Four Member",
+          "relationships": {
+            "Kaladin": "Follows loyally",
+            "Sebarial": "Originally served under"
+          }
+        }
+      }
+    },
+    "leyten": {
+      "name": "Leyten",
+      "aliases": [],
+      "appearances": [11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Bridgeman who joins Kaladin's inner circle in Bridge Four. Shows courage in battle and loyalty to the crew's new sense of purpose.",
+          "role": "Bridge Four Member",
+          "relationships": {
+            "Kaladin": "Trusts and follows",
+            "Bridge Four": "Core member"
+          }
+        }
+      }
+    },
+    "hobber": {
+      "name": "Hobber",
+      "aliases": [],
+      "appearances": [11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Bridgeman who becomes injured in a bridge run, losing the use of his legs. Despite his disability, remains an integral part of Bridge Four's family.",
+          "role": "Injured Bridge Four Member",
+          "relationships": {
+            "Kaladin": "Cared for by",
+            "Bridge Four": "Beloved member despite injury"
+          }
+        }
+      }
+    },
+    "peet": {
+      "name": "Peet",
+      "aliases": [],
+      "appearances": [11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69, 72, 73, 75],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Bridgeman who initially doubts Kaladin but becomes a loyal member of Bridge Four. Shows growth from skeptic to believer in their cause.",
+          "role": "Bridge Four Member",
+          "relationships": {
+            "Kaladin": "Converted from skeptic to follower",
+            "Bridge Four": "Loyal member"
+          }
+        }
+      }
+    },
+    "elhokar": {
+      "name": "Elhokar Kholin",
+      "aliases": ["King Elhokar", "Your Majesty"],
+      "appearances": [17, 21, 28, 35, 42, 49, 55, 61, 67, 71, 72, 73, 74, 75],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "King of Alethkar and son of the late Gavilar. Young, insecure ruler who feels inadequate compared to his father. Paranoid about assassination attempts and struggling with the burden of kingship.",
+          "role": "King of Alethkar",
+          "relationships": {
+            "Gavilar": "Son of (deceased)",
+            "Dalinar": "Nephew of and depends on",
+            "Navani": "Son of",
+            "Jasnah": "Brother of"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Paranoid king who sees spren and patterns others cannot. His fears about assassination may be justified, and his inability to live up to his father's legacy weighs heavily on him.",
+          "role": "Troubled King",
+          "relationships": {
+            "Cryptics": "Unknowingly sees",
+            "Sadeas": "Mistrusts but relies on"
+          }
+        }
+      }
+    },
+    "navani": {
+      "name": "Navani Kholin",
+      "aliases": ["Brightness Navani", "Queen Mother"],
+      "appearances": [17, 21, 25, 28, 35, 42, 49, 55, 61, 67, 71, 72, 73, 74, 75],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Queen mother of Alethkar and widow of King Gavilar. Brilliant engineer and artifabrian fascinated with spren and fabrials. Shows growing attraction to her brother-in-law Dalinar.",
+          "role": "Queen Mother and Scholar",
+          "relationships": {
+            "Gavilar": "Widow of",
+            "Elhokar": "Mother of",
+            "Dalinar": "Sister-in-law, growing closer to",
+            "Jasnah": "Mother of"
+          }
+        },
+        "61": {
+          "revealedIn": 61,
+          "description": "Brilliant artifabrian whose research into spren and fabrials may unlock secrets of the ancient technology. Her growing relationship with Dalinar complicates court politics.",
+          "role": "Master Artifabrian",
+          "relationships": {
+            "Dalinar": "Romantic interest",
+            "Spren": "Studies intensively"
+          }
+        }
+      }
+    },
+    "sadeas": {
+      "name": "Torol Sadeas",
+      "aliases": ["Highprince Sadeas"],
+      "appearances": [17, 18, 21, 28, 31, 35, 42, 46, 49, 55, 58, 61, 67, 71, 72, 73, 74, 75],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Powerful Highprince and former close friend of Dalinar and Gavilar. Ruthless pragmatist who believes in winning at any cost and sees Dalinar's honor as weakness.",
+          "role": "Highprince",
+          "relationships": {
+            "Dalinar": "Former friend, now rival",
+            "Gavilar": "Former friend (deceased)",
+            "Ialai": "Married to"
+          }
+        },
+        "73": {
+          "revealedIn": 73,
+          "description": "Treacherous highprince who abandons Dalinar and his army to die at the Tower. His betrayal reveals the depths of his ambition and willingness to sacrifice allies for personal gain.",
+          "role": "Traitor",
+          "relationships": {
+            "Dalinar": "Betrays at the Tower",
+            "Adolin": "Abandons to die"
+          }
+        }
+      }
+    },
+    "renarin": {
+      "name": "Renarin Kholin",
+      "aliases": [],
+      "appearances": [17, 21, 28, 35, 42, 49, 55, 61, 67, 71, 72, 73, 74, 75],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Dalinar's younger son, scholarly and weak of body due to blood weakness (epilepsy). Intelligent but feels inadequate compared to his warrior brother Adolin and father.",
+          "role": "Scholar Prince",
+          "relationships": {
+            "Dalinar": "Son of",
+            "Adolin": "Younger brother of",
+            "Blood weakness": "Suffers from"
+          }
+        },
+        "72": {
+          "revealedIn": 72,
+          "description": "Proves his courage at the Battle of the Tower despite his physical limitations. Shows potential for leadership and tactical thinking when given the chance.",
+          "role": "Courageous Prince",
+          "relationships": {
+            "Shardplate": "Wears in battle",
+            "Dalinar": "Makes proud through bravery"
+          }
+        }
+      }
+    },
+    "gavilar": {
+      "name": "Gavilar Kholin",
+      "aliases": ["King Gavilar", "The Late King"],
+      "appearances": [1, 13, 25, 38, 52, 64],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Late King of Alethkar, assassinated by Szeth at the treaty celebration. Father of Elhokar and Jasnah, brother of Dalinar. His death triggers the war on the Shattered Plains.",
+          "role": "Deceased King",
+          "relationships": {
+            "Szeth": "Assassinated by",
+            "Dalinar": "Brother of",
+            "Navani": "Husband of (deceased)",
+            "Elhokar": "Father of"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Visionary king who united Alethkar and had knowledge of the coming Desolation. In Dalinar's visions, appears as a great leader who understood the importance of honor and unity.",
+          "role": "Uniter King (in visions)",
+          "relationships": {
+            "Honor": "Chosen by (in visions)",
+            "Desolation": "Warned about coming"
+          }
+        }
+      }
+    },
+    "wit": {
+      "name": "Hoid",
+      "aliases": ["Wit", "The King's Wit"],
+      "appearances": [17, 35, 55, 67, 72],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "The King's Wit, a mysterious figure with the official role of insulting the king and nobles. Ancient and well-traveled, with knowledge spanning many lands and cultures.",
+          "role": "King's Wit",
+          "relationships": {
+            "Elhokar": "Officially insults",
+            "Sigzil": "Former student",
+            "Dalinar": "Advises cryptically"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Immortal Worldhopper with agenda spanning multiple worlds. Possesses magical abilities and vast knowledge of cosmere events. His true name is Hoid.",
+          "role": "Worldhopper",
+          "relationships": {
+            "Cosmere": "Travels throughout",
+            "Magic": "Wields various forms"
+          }
+        }
+      }
+    },
+    "gaz": {
+      "name": "Gaz",
+      "aliases": [],
+      "appearances": [3, 4, 5, 8, 9, 11, 14, 16, 19, 22, 24, 26, 29, 32, 34, 36, 39, 41, 43, 45, 48, 51, 54, 56, 59, 62, 65, 69],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Bridge crew overseer with one eye, missing the other to a Parshendi arrow. Takes bribes and treats bridgemen as expendable, but has his own fears about the war and his superiors.",
+          "role": "Bridge Sergeant",
+          "relationships": {
+            "Kaladin": "Supervises reluctantly",
+            "Hashal": "Reports to"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Reformed bridge sergeant who comes to respect Kaladin's leadership. His treatment of bridgemen improves as he sees their transformation under Kaladin.",
+          "role": "Reformed Sergeant",
+          "relationships": {
+            "Kaladin": "Respects as leader",
+            "Bridge Four": "Treats better"
+          }
+        }
+      }
+    },
+    "lin-davar": {
+      "name": "Lin Davar",
+      "aliases": ["Father", "Brightness Davar"],
+      "appearances": [6, 15, 33, 40, 53, 60],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Shallan's father, a minor lighteyes from rural Jah Keved who has fallen into debt and desperation. His family faces financial ruin and potential loss of their estate.",
+          "role": "Desperate Father",
+          "relationships": {
+            "Shallan": "Father of",
+            "Debt": "Overwhelmed by",
+            "Estate": "Struggling to maintain"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Abusive father whose cruelty and involvement with the Ghostbloods led to violence in their household. Shallan killed him in self-defense to protect her family.",
+          "role": "Abusive Father (deceased)",
+          "relationships": {
+            "Shallan": "Killed by in self-defense",
+            "Ghostbloods": "Involved with",
+            "Family": "Terrorized through abuse"
+          }
+        }
+      }
+    },
+    "helaran": {
+      "name": "Helaran Davar",
+      "aliases": [],
+      "appearances": [15, 33, 40],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Shallan's eldest brother who left home to seek his fortune. The family hopes he will return with resources to save their estate from creditors.",
+          "role": "Eldest Son",
+          "relationships": {
+            "Shallan": "Protective older brother of",
+            "Lin Davar": "Son of"
+          }
+        }
+      }
+    },
+    "balat": {
+      "name": "Balat Davar",
+      "aliases": [],
+      "appearances": [15, 33, 40],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Shallan's brother who has disturbing habits of torturing small creatures. Shows signs of the family's darker tendencies under their father's influence.",
+          "role": "Troubled Brother",
+          "relationships": {
+            "Shallan": "Brother of",
+            "Creatures": "Tortures small ones"
+          }
+        }
+      }
+    },
+    "wikim": {
+      "name": "Wikim Davar",
+      "aliases": [],
+      "appearances": [15, 33, 40],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "One of Shallan's younger brothers, scholarly like her but worn down by their family's troubles and their father's increasing desperation.",
+          "role": "Scholarly Brother",
+          "relationships": {
+            "Shallan": "Brother of",
+            "Books": "Loves reading"
+          }
+        }
+      }
+    },
+    "jushu": {
+      "name": "Jushu Davar",
+      "aliases": [],
+      "appearances": [15, 33, 40],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Shallan's brother who has developed gambling problems as an escape from their family's deteriorating situation. His debts add to the family's financial woes.",
+          "role": "Gambling Brother",
+          "relationships": {
+            "Shallan": "Brother of",
+            "Gambling": "Addicted to"
+          }
+        }
+      }
+    },
+    "pattern": {
+      "name": "Pattern",
+      "aliases": [],
+      "appearances": [6, 8, 20, 23, 30, 37, 44, 50, 57, 63, 66, 68, 70, 75],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Strange pattern that appears in Shallan's drawings and peripheral vision. Seems to move and change in ways that don't make sense, following her around.",
+          "role": "Mysterious Pattern",
+          "relationships": {
+            "Shallan": "Follows and appears to"
+          }
+        },
+        "70": {
+          "revealedIn": 70,
+          "description": "Ancient cryptic spren who has been trying to bond with Shallan. Becomes her Shardblade and helps her access the Surges of Illumination and Transformation as a Lightweaver.",
+          "role": "Cryptic/Shardblade",
+          "relationships": {
+            "Shallan": "Shardblade bond",
+            "Truth": "Helps Shallan speak",
+            "Cryptics": "Member of spren order"
+          }
+        }
+      }
+    },
+    "kabsal": {
+      "name": "Kabsal",
+      "aliases": [],
+      "appearances": [7, 10, 15, 20, 23, 27, 30, 33, 37, 40],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Young ardent who frequents the Palanaeum and shows interest in Shallan. Brings her jam and engages in philosophical discussions about religion and knowledge.",
+          "role": "Ardent Scholar",
+          "relationships": {
+            "Shallan": "Courts romantically",
+            "Jasnah": "Debates with",
+            "Almighty": "Serves as ardent"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Ghostblood agent who was assigned to get close to Shallan and steal Jasnah's soulcaster. Dies from poison meant for Jasnah, showing genuine care for Shallan despite his mission.",
+          "role": "Ghostblood Agent (deceased)",
+          "relationships": {
+            "Ghostbloods": "Secret member",
+            "Shallan": "Genuinely cared for",
+            "Jasnah": "Targeted for assassination"
+          }
+        }
+      }
+    },
+    "lirin": {
+      "name": "Lirin",
+      "aliases": [],
+      "appearances": [34, 36, 51, 59],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Kaladin's father, a surgeon in the small town of Hearthstone. Pacifist who taught Kaladin medical knowledge and believes in preserving life rather than taking it.",
+          "role": "Town Surgeon",
+          "relationships": {
+            "Kaladin": "Father of",
+            "Hesina": "Married to",
+            "Tien": "Father of",
+            "Medicine": "Devoted to"
+          }
+        }
+      }
+    },
+    "hesina": {
+      "name": "Hesina",
+      "aliases": [],
+      "appearances": [34, 36, 51, 59],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Kaladin's mother, a kind woman who supported her family through difficult times. Taught Kaladin to read and encouraged his education beyond what was typical for darkeyes.",
+          "role": "Kaladin's Mother",
+          "relationships": {
+            "Kaladin": "Mother of",
+            "Lirin": "Married to",
+            "Tien": "Mother of"
+          }
+        }
+      }
+    },
+    "tien": {
+      "name": "Tien",
+      "aliases": [],
+      "appearances": [34, 36, 39, 51, 59],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Kaladin's younger brother, cheerful and optimistic boy who loved collecting rocks and seeing beauty in small things. Conscripted into Amaram's army along with Kaladin.",
+          "role": "Kaladin's Brother",
+          "relationships": {
+            "Kaladin": "Younger brother of",
+            "Lirin": "Son of",
+            "Hesina": "Son of",
+            "Rocks": "Loved collecting"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Kaladin's beloved brother who died in his first battle despite Kaladin's efforts to protect him. His death haunts Kaladin and drives his protective instincts.",
+          "role": "Fallen Brother (deceased)",
+          "relationships": {
+            "Kaladin": "Death traumatized",
+            "Amaram": "Killed serving under"
+          }
+        }
+      }
+    },
+    "amaram": {
+      "name": "Meridas Amaram",
+      "aliases": ["Brightlord Amaram"],
+      "appearances": [1, 36, 39, 51, 59, 67, 72],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Brightlord and general commanding Kaladin's military unit. Appears to be an honorable leader concerned about his men's welfare during the battle.",
+          "role": "Military Commander",
+          "relationships": {
+            "Kaladin": "Commands unit of",
+            "Cenn": "Responsible for soldiers like"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Treacherous brightlord who killed Kaladin's men to steal a Shardblade Kaladin won in combat. Branded Kaladin as a slave to cover up his crime, directly causing Tien's death.",
+          "role": "Betrayer",
+          "relationships": {
+            "Kaladin": "Betrayed and enslaved",
+            "Tien": "Indirectly caused death of",
+            "Shardblade": "Stole from Kaladin"
+          }
+        }
+      }
+    },
+    "eshonai": {
+      "name": "Eshonai",
+      "aliases": ["Parshendi General"],
+      "appearances": ["Interlude I-2", "Interlude I-6", "Interlude I-9", 72, 73, 74],
+      "knowledge": {
+        "I-2": {
+          "revealedIn": "Interlude I-2",
+          "description": "Parshendi leader and general who commands their armies against the Alethi. Intelligent and capable warrior who questions the endless war but feels bound by her people's decision to fight.",
+          "role": "Parshendi General",
+          "relationships": {
+            "Parshendi": "Leads in war",
+            "Gavilar": "Her people killed",
+            "Council of Five": "Member of"
+          }
+        },
+        "I-9": {
+          "revealedIn": "Interlude I-9",
+          "description": "Parshendi who seeks to find stormform to give her people an advantage in the war. Struggles with the decision to seek out dangerous forms that could change her people forever.",
+          "role": "Seeker of Stormform",
+          "relationships": {
+            "Stormform": "Seeks to unlock",
+            "Voidspren": "Considering bond with"
+          }
+        }
+      }
+    },
+    "cenn": {
+      "name": "Cenn",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Young, inexperienced spearman in Kaladin's squad facing his first real battle. Terrified but trying to follow orders and survive his first combat experience.",
+          "role": "New Recruit",
+          "relationships": {
+            "Kaladin": "Protected by squadleader",
+            "Squad": "Newest member of"
+          }
+        }
+      }
+    },
+    "hashal": {
+      "name": "Hashal",
+      "aliases": [],
+      "appearances": [8, 16, 29, 43, 56, 65],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Supervising officer in charge of the bridge crews at Sadeas's warcamp. Harsh disciplinarian who treats bridgemen as disposable resources for the war effort.",
+          "role": "Bridge Crew Supervisor",
+          "relationships": {
+            "Gaz": "Supervises",
+            "Bridge Crews": "Commands harshly",
+            "Sadeas": "Serves under"
+          }
+        }
+      }
+    },
+    "lamaril": {
+      "name": "Lamaril",
+      "aliases": [],
+      "appearances": [9, 19, 32, 43, 56, 65],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Assistant to Hashal in overseeing the bridge crews. Shows particular cruelty toward the bridgemen and enjoys their suffering.",
+          "role": "Assistant Bridge Supervisor",
+          "relationships": {
+            "Hashal": "Assists",
+            "Bridgemen": "Cruel toward"
+          }
+        }
+      }
+    },
+    "maps": {
+      "name": "Maps",
+      "aliases": [],
+      "appearances": [11, 14, 19, 24, 29, 34, 39, 43, 48, 54, 59, 65, 69, 72, 75],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Bridgeman in Bridge Four who earned his nickname for his ability to remember and navigate terrain. Becomes one of Kaladin's trusted crew members.",
+          "role": "Bridge Four Navigator",
+          "relationships": {
+            "Kaladin": "Serves loyally",
+            "Bridge Four": "Navigator for"
+          }
+        }
+      }
+    },
+    "dabbid": {
+      "name": "Dabbid",
+      "aliases": [],
+      "appearances": [11, 14, 19, 24, 29, 34, 39, 43, 48, 54, 59, 65, 69, 72, 75],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Simple-minded bridgeman who doesn't speak much but follows orders faithfully. Shows hidden depths and loyalty to Bridge Four despite his limitations.",
+          "role": "Simple Bridgeman",
+          "relationships": {
+            "Kaladin": "Follows devotedly",
+            "Bridge Four": "Quiet member of"
+          }
+        }
+      }
+    },
+    "bisig": {
+      "name": "Bisig",
+      "aliases": [],
+      "appearances": [11, 14, 19, 24, 29, 34, 39],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Bridgeman who dies in one of the early bridge runs under Kaladin's leadership. His death affects the crew and strengthens their resolve to survive.",
+          "role": "Bridge Four Member (deceased)",
+          "relationships": {
+            "Kaladin": "Mourned by",
+            "Bridge Four": "Remembered by"
+          }
+        }
+      }
+    },
+    "narm": {
+      "name": "Narm",
+      "aliases": [],
+      "appearances": [14, 19, 24, 29, 34, 39, 43, 48, 54, 59, 65, 69, 72, 75],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Bridgeman who becomes part of Kaladin's inner circle in Bridge Four. Shows courage and growing leadership qualities under Kaladin's guidance.",
+          "role": "Bridge Four Member",
+          "relationships": {
+            "Kaladin": "Loyal follower",
+            "Bridge Four": "Dedicated member"
+          }
+        }
+      }
+    },
+    "eth": {
+      "name": "Eth",
+      "aliases": [],
+      "appearances": [14, 19, 24, 29, 34, 39, 43, 48, 54, 59, 65, 69, 72, 75],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Young bridgeman who looks up to Kaladin as a leader and protector. Shows enthusiasm for Bridge Four's transformation and growing sense of purpose.",
+          "role": "Young Bridge Four Member",
+          "relationships": {
+            "Kaladin": "Admires greatly",
+            "Bridge Four": "Enthusiastic member"
+          }
+        }
+      }
+    },
+    "stormfather": {
+      "name": "The Stormfather",
+      "aliases": [],
+      "appearances": [13, 25, 38, 52, 64, 71, 75],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Massive spren of storms who appears in Dalinar's visions. Ancient and powerful entity connected to Honor and the Knights Radiant, speaking with authority about past and future.",
+          "role": "Storm Spren",
+          "relationships": {
+            "Honor": "Serves and represents",
+            "Dalinar": "Sends visions to",
+            "Knights Radiant": "Connected to ancient order"
+          }
+        },
+        "64": {
+          "revealedIn": 64,
+          "description": "Cognitive shadow of Honor, the Shard of Adonalsium. Reveals himself as the source of Dalinar's visions and guide toward rebuilding the Knights Radiant.",
+          "role": "Cognitive Shadow of Honor",
+          "relationships": {
+            "Honor": "Remnant of dead Shard",
+            "Syl": "Father of",
+            "Dalinar": "Chooses as champion"
+          }
+        }
+      }
+    },
+    "honor": {
+      "name": "Honor",
+      "aliases": ["Tanavast", "The Almighty"],
+      "appearances": [25, 38, 52, 64, 71, 75],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "The Almighty who appears in Dalinar's visions, revealing truths about the Knights Radiant and the coming Desolation. Shows scenes from the past to guide present actions.",
+          "role": "The Almighty",
+          "relationships": {
+            "Knights Radiant": "Founded and guided",
+            "Dalinar": "Sends visions to",
+            "Desolation": "Warns about"
+          }
+        },
+        "64": {
+          "revealedIn": 64,
+          "description": "Dead Shard of Adonalsium who once held the power of Honor. Killed by Odium, but his Cognitive Shadow persists as the Stormfather to guide the restoration of the Radiants.",
+          "role": "Dead Shard (Honor)",
+          "relationships": {
+            "Odium": "Killed by",
+            "Stormfather": "Lives on as",
+            "Radiants": "Power source for"
+          }
+        }
+      }
+    },
+    "ivory": {
+      "name": "Ivory",
+      "aliases": [],
+      "appearances": [8, 20, 30, 44, 50, 60, 66, 70, 75],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Inkspren bonded to Jasnah Kholin, appearing as moving ink in her drawings and writings. Enables her Soulcasting abilities and serves as her Shardblade.",
+          "role": "Inkspren/Shardblade",
+          "relationships": {
+            "Jasnah": "Shardblade bond",
+            "Soulcasting": "Enables through bond"
+          }
+        }
+      }
+    },
+    "taravangian": {
+      "name": "Taravangian",
+      "aliases": ["King of Kharbranth"],
+      "appearances": ["Interlude I-3", "Interlude I-5", "Interlude I-8", 47, 60],
+      "knowledge": {
+        "I-3": {
+          "revealedIn": "Interlude I-3",
+          "description": "King of Kharbranth who appears to be a doddering old man but possesses Szeth's oathstone. Seeks to save his kingdom and humanity through whatever means necessary.",
+          "role": "King of Kharbranth",
+          "relationships": {
+            "Szeth": "Controls through oathstone",
+            "Kharbranth": "Rules and protects",
+            "Diagram": "Follows predictions of"
+          }
+        },
+        "I-8": {
+          "revealedIn": "Interlude I-8",
+          "description": "Brilliant schemer whose intelligence varies dramatically from day to day due to a magical curse. On his smartest days, created the Diagram predicting the end of the world.",
+          "role": "Diagramist",
+          "relationships": {
+            "Intelligence": "Varies magically",
+            "End of World": "Trying to prevent",
+            "Diagram": "Created on brilliant day"
+          }
+        }
+      }
+    },
+    "mraize": {
+      "name": "Mraize",
+      "aliases": [],
+      "appearances": [53, 60],
+      "knowledge": {
+        "53": {
+          "revealedIn": 53,
+          "description": "Ghostblood agent who reveals himself to Shallan after Kabsal's death. Mysterious figure with connections to multiple worlds and interest in Shallan's growing abilities.",
+          "role": "Ghostblood Agent",
+          "relationships": {
+            "Ghostbloods": "High-ranking member",
+            "Shallan": "Recruits and observes",
+            "Kabsal": "Sent to spy on Jasnah"
+          }
+        }
+      }
+    },
+    "sebarial": {
+      "name": "Highprince Sebarial",
+      "aliases": [],
+      "appearances": [21, 35, 42, 55, 61, 67, 72, 75],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "One of the ten Alethi highprinces, known for his focus on commerce and profit over military glory. Often stays out of plateau runs to focus on other ventures.",
+          "role": "Merchant Highprince",
+          "relationships": {
+            "Commerce": "Focuses on over war",
+            "Highprinces": "Member of council",
+            "Plateau runs": "Avoids when possible"
+          }
+        }
+      }
+    },
+    "aladar": {
+      "name": "Highprince Aladar",
+      "aliases": [],
+      "appearances": [21, 35, 42, 55, 61, 67, 72, 73, 74, 75],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Alethi highprince who participates in the plateau runs and war against the Parshendi. Generally follows the lead of more powerful highprinces like Sadeas.",
+          "role": "Alethi Highprince",
+          "relationships": {
+            "Sadeas": "Often allies with",
+            "Plateau runs": "Participates in",
+            "Parshendi": "Fights against"
+          }
+        }
+      }
+    },
+    "roion": {
+      "name": "Highprince Roion",
+      "aliases": [],
+      "appearances": [21, 35, 42, 55, 61, 67, 72, 73, 74, 75],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Alethi highprince involved in the war on the Shattered Plains. Participates in the plateau runs and political maneuvering among the highprince factions.",
+          "role": "Alethi Highprince",
+          "relationships": {
+            "Highprinces": "Part of political structure",
+            "War": "Participates in plateau campaigns"
+          }
+        }
+      }
+    },
+    "thanadal": {
+      "name": "Highprince Thanadal",
+      "aliases": [],
+      "appearances": [35, 55, 67, 72],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "One of the Alethi highprinces participating in the war against the Parshendi. Part of the political structure that sometimes opposes Dalinar's methods.",
+          "role": "Alethi Highprince",
+          "relationships": {
+            "Dalinar": "Sometimes opposes",
+            "War effort": "Participates in"
+          }
+        }
+      }
+    },
+    "hatham": {
+      "name": "Highprince Hatham",
+      "aliases": [],
+      "appearances": [35, 55, 67, 72],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Alethi highprince who questions Dalinar's visions and adherence to the Codes. Part of the political opposition to Dalinar's methods of warfare.",
+          "role": "Opposing Highprince",
+          "relationships": {
+            "Dalinar": "Questions and opposes",
+            "Codes": "Sees as weakness"
+          }
+        }
+      }
+    },
+    "bethab": {
+      "name": "Highprince Bethab",
+      "aliases": [],
+      "appearances": [35, 55, 67, 72],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "One of the ten Alethi highprinces fighting in the war. Generally follows the majority opinion among the highprinces regarding military and political decisions.",
+          "role": "Alethi Highprince",
+          "relationships": {
+            "Highprince council": "Member of",
+            "Majority opinion": "Generally follows"
+          }
+        }
+      }
+    },
+    "ruthar": {
+      "name": "Highprince Ruthar",
+      "aliases": [],
+      "appearances": [35, 55, 67, 72],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Alethi highprince participating in the Shattered Plains campaign. Part of the complex political dynamics among the ten highprinces.",
+          "role": "Alethi Highprince",
+          "relationships": {
+            "Ten Highprinces": "Member of",
+            "Political structure": "Part of"
+          }
+        }
+      }
+    },
+    "ialai": {
+      "name": "Ialai Sadeas",
+      "aliases": ["Brightness Ialai"],
+      "appearances": [28, 42, 55, 67, 73],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Wife of Highprince Sadeas and skilled political manipulator. Works behind the scenes to advance her husband's interests and undermine his rivals.",
+          "role": "Political Schemer",
+          "relationships": {
+            "Sadeas": "Wife and political partner",
+            "Court politics": "Expert manipulator of",
+            "Dalinar": "Works against"
+          }
+        }
+      }
+    },
+    "kalak": {
+      "name": "Kalak",
+      "aliases": ["Kelek", "Herald"],
+      "appearances": ["Prelude", "Epilogue"],
+      "knowledge": {
+        "Prelude": {
+          "revealedIn": "Prelude",
+          "description": "One of the ten Heralds who fought in the Desolations. After thousands of years of torture and return, he and Jezrien abandon the Oathpact, leaving Taln to bear it alone.",
+          "role": "Herald of the Almighty",
+          "relationships": {
+            "Jezrien": "Fellow Herald",
+            "Taln": "Abandons to bear Oathpact alone",
+            "Honor": "Served in ancient war"
+          }
+        }
+      }
+    },
+    "jezrien": {
+      "name": "Jezrien",
+      "aliases": ["Jezerezeh", "Herald"],
+      "appearances": ["Prelude", "Epilogue"],
+      "knowledge": {
+        "Prelude": {
+          "revealedIn": "Prelude",
+          "description": "Leader of the Heralds and the most powerful among them. After millennia of fighting Desolations, makes the decision to abandon the Oathpact with Kalak.",
+          "role": "Herald King",
+          "relationships": {
+            "Heralds": "Leader of",
+            "Kalak": "Abandons Oathpact with",
+            "Taln": "Leaves to face torture alone"
+          }
+        }
+      }
+    },
+    "taln": {
+      "name": "Taln",
+      "aliases": ["Talenelat", "Herald of War"],
+      "appearances": ["Prelude", "Epilogue"],
+      "knowledge": {
+        "Prelude": {
+          "revealedIn": "Prelude",
+          "description": "Herald of War who refuses to break despite torture. The only Herald who maintains the Oathpact when the others abandon it, holding back the Desolation for 4,500 years.",
+          "role": "Herald of War",
+          "relationships": {
+            "Heralds": "Abandoned by other nine",
+            "Oathpact": "Sole maintainer of",
+            "Torture": "Endures alone"
+          }
+        },
+        "Epilogue": {
+          "revealedIn": "Epilogue",
+          "description": "The Herald who finally breaks after millennia, ending the current Desolation cycle and allowing the True Desolation to begin. Appears mad from his ordeal.",
+          "role": "Broken Herald",
+          "relationships": {
+            "Desolation": "His breaking allows True Desolation",
+            "Madness": "Driven insane by torture"
+          }
+        }
+      }
+    },
+    "odium": {
+      "name": "Odium",
+      "aliases": ["Rayse", "The Enemy"],
+      "appearances": [64, 71, 75, "Epilogue"],
+      "knowledge": {
+        "64": {
+          "revealedIn": 64,
+          "description": "Ancient enemy mentioned in Dalinar's visions as the force that destroyed the Knights Radiant and brings the Desolations. Opposed to Honor and seeking to destroy.",
+          "role": "Ancient Enemy",
+          "relationships": {
+            "Honor": "Killed",
+            "Knights Radiant": "Caused their fall",
+            "Desolations": "Brings about"
+          }
+        },
+        "Epilogue": {
+          "revealedIn": "Epilogue",
+          "description": "Shard of Adonalsium representing divine hatred and passion. Has killed other Shards and seeks to destroy all life that doesn't serve him, now free to act with Taln's breaking.",
+          "role": "Shard of Odium",
+          "relationships": {
+            "Adonalsium": "Shard of",
+            "Other Shards": "Has killed several",
+            "Taln": "Freed by breaking of"
+          }
+        }
+      }
+    },
+    "cultivation": {
+      "name": "Cultivation",
+      "aliases": [],
+      "appearances": [64, 75],
+      "knowledge": {
+        "64": {
+          "revealedIn": 64,
+          "description": "Shard of Adonalsium that represents growth and change. Mentioned as being present on Roshar alongside Honor before Honor's death.",
+          "role": "Shard of Cultivation",
+          "relationships": {
+            "Honor": "Former partner Shard",
+            "Roshar": "Invested in world",
+            "Growth": "Represents concept of"
           }
         }
       }
@@ -199,21 +1330,21 @@
     "1": "Kaladin leads his squad in battle, trying to protect young Cenn. Meanwhile, Szeth assassinates King Gavilar at a treaty celebration.",
     "2": "Eight months later, Kaladin is now a slave being transported to the Shattered Plains. A strange windspren named Syl begins following him.",
     "3": "Kaladin arrives at the warcamp and is assigned to Bridge Four. Shallan arrives in Kharbranth seeking to become Jasnah's ward.",
-    "7": "Shallan becomes Jasnah's ward and begins her studies. She meets the ardent Kabsal who shows interest in her.",
-    "11": "Kaladin begins caring for wounded bridgemen and starts earning Bridge Four's respect. Syl becomes more self-aware.",
-    "12": "We meet Dalinar and Adolin Kholin on the Shattered Plains. Dalinar experiences a vision during a highstorm.",
-    "18": "Dalinar's visions intensify. His relationship with Sadeas deteriorates as political tensions rise in the warcamps.",
     "4": "Rock explains bridge crew hierarchy to Kaladin. The crew faces their first bridge run under enemy fire, experiencing the brutal reality of their role.",
     "5": "Kaladin witnesses the true cost of bridge runs as men die around him. He begins to understand the strategic purpose of the bridges in plateau assaults.",
     "6": "Shallan continues her studies with Jasnah, learning about ancient history. She struggles to find the right moment to accomplish her secret mission.",
+    "7": "Shallan becomes Jasnah's ward and begins her studies. She meets the ardent Kabsal who shows interest in her.",
     "8": "Shallan attempts to steal Jasnah's soulcaster but the plan goes awry. She experiences strange phenomena during the theft attempt.",
     "9": "Kaladin survives another bridge run and begins to notice patterns in Parshendi behavior. He starts to care despite trying to remain detached.",
     "10": "Shallan's relationship with Jasnah becomes strained after the failed theft. She must find a way to explain her actions without revealing her true purpose.",
+    "11": "Kaladin begins caring for wounded bridgemen and starts earning Bridge Four's respect. Syl becomes more self-aware.",
+    "12": "We meet Dalinar and Adolin Kholin on the Shattered Plains. Dalinar experiences a vision during a highstorm.",
     "13": "Dalinar experiences another powerful vision during a highstorm, seeing ancient Knights Radiant. The vision's message troubles him deeply.",
     "14": "Kaladin begins to actively help wounded bridgemen, earning their gratitude. His medical knowledge from his father's training proves valuable.",
     "15": "Shallan receives word from home that increases the urgency of her mission. Her family's situation grows more desperate.",
     "16": "Kaladin's leadership begins to transform Bridge Four as he implements small changes to improve their survival chances.",
     "17": "Adolin participates in dueling competitions while Dalinar wrestles with the meaning of his visions and their implications for Alethkar.",
+    "18": "Dalinar's visions intensify. His relationship with Sadeas deteriorates as political tensions rise in the warcamps.",
     "19": "Bridge Four starts working as a team under Kaladin's guidance. Their survival rate improves as they begin to trust each other.",
     "20": "Shallan's studies with Jasnah reveal more about the ancient past and the mysterious creatures called Voidbringers.",
     "21": "Dalinar faces criticism from other highprinces for his adherence to the Codes of War, which they see as weakness in their endless conflict.",
