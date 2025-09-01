@@ -288,6 +288,727 @@
           }
         }
       }
+    },
+    "coën": {
+      "name": "Coën",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A witcher from the School of the Griffin who winters at Kaer Morhen. Younger than the Wolf School witchers and brings different perspectives.",
+          "role": "Griffin School witcher",
+          "relationships": {
+            "Geralt": "Fellow witcher",
+            "Vesemir": "Respected elder",
+            "Ciri": "Helps train"
+          }
+        }
+      }
+    },
+    "uncle-vesemir": {
+      "name": "Uncle Vesemir's Stories",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "References to other witchers and the old days of Kaer Morhen that Vesemir shares with Ciri during training.",
+          "role": "Historical witchers",
+          "relationships": {
+            "Vesemir": "Remembered by",
+            "Kaer Morhen": "Former residents of"
+          }
+        }
+      }
+    },
+    "nenneke-temple": {
+      "name": "Nenneke (Blood of Elves)",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The priestess continues to provide guidance to Geralt about Ciri's education and the growing dangers around her.",
+          "role": "Spiritual advisor",
+          "relationships": {
+            "Geralt": "Advisor to",
+            "Ciri": "Concerned for"
+          }
+        }
+      }
+    },
+    "iola-temple": {
+      "name": "Iola (Blood of Elves)",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The silent priestess continues her service at the Temple of Melitele, maintaining her vow of silence while serving the goddess.",
+          "role": "Silent priestess",
+          "relationships": {
+            "Nenneke": "Serves under",
+            "Temple of Melitele": "Dedicated to"
+          }
+        }
+      }
+    },
+    "encyclopedia-maximus": {
+      "name": "Encyclopedia Maximus",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A scholar at Oxenfurt University who researches magical phenomena and provides academic insight into Ciri's abilities.",
+          "role": "University scholar",
+          "relationships": {
+            "Oxenfurt University": "Researcher at",
+            "Magical community": "Studies"
+          }
+        }
+      }
+    },
+    "radovid": {
+      "name": "Prince Radovid",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The young prince of Redania, nephew of King Vizimir. Shows early signs of the cunning and ruthlessness he will be known for.",
+          "role": "Redanian prince",
+          "relationships": {
+            "King Vizimir": "Nephew of",
+            "Philippa Eilhart": "Suspicious of"
+          }
+        }
+      }
+    },
+    "sabrina-glevissig-boe": {
+      "name": "Sabrina Glevissig",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A sorceress with a volatile temper who becomes involved in the political situation surrounding Ciri.",
+          "role": "Volatile sorceress",
+          "relationships": {
+            "Tissaia": "Former student of",
+            "Other sorceresses": "Colleague of"
+          }
+        }
+      }
+    },
+    "keira-metz-boe": {
+      "name": "Keira Metz",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A sorceress who participates in the discussions about Ciri's magical education and the political implications of her powers.",
+          "role": "Council sorceress",
+          "relationships": {
+            "Triss Merigold": "Colleague of",
+            "Magical community": "Member of"
+          }
+        }
+      }
+    },
+    "fercart": {
+      "name": "Fercart",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A sorcerer who becomes involved in the intelligence networks tracking Ciri and the political situation.",
+          "role": "Intelligence sorcerer",
+          "relationships": {
+            "Dijkstra": "Works with",
+            "Ciri": "Tracks"
+          }
+        }
+      }
+    },
+    "marti-sodergren": {
+      "name": "Marti Södergren",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A professor at Oxenfurt University who studies magical theory and provides academic perspective on magical education.",
+          "role": "University professor",
+          "relationships": {
+            "Oxenfurt University": "Faculty of",
+            "Triss Merigold": "Consults with"
+          }
+        }
+      }
+    },
+    "codringher": {
+      "name": "Codringher",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A private investigator and information broker who works with various parties seeking information about Ciri.",
+          "role": "Information broker",
+          "relationships": {
+            "Fenn": "Business partner",
+            "Ciri": "Investigates"
+          }
+        }
+      }
+    },
+    "fenn": {
+      "name": "Fenn",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Codringher's halfling partner in the information brokerage business. Specializes in surveillance and intelligence gathering.",
+          "role": "Halfling investigator",
+          "relationships": {
+            "Codringher": "Business partner",
+            "Information networks": "Operates in"
+          }
+        }
+      }
+    },
+    "stennis": {
+      "name": "Stennis",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A prince of Kaedwen who becomes involved in the political maneuvering around Ciri's fate.",
+          "role": "Kaedweni prince",
+          "relationships": {
+            "King Henselt": "Son of",
+            "Ciri": "Political interest in"
+          }
+        }
+      }
+    },
+    "king-henselt": {
+      "name": "King Henselt",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The King of Kaedwen who becomes increasingly interested in Ciri as her importance becomes known.",
+          "role": "King of Kaedwen",
+          "relationships": {
+            "Stennis": "Father of",
+            "Ciri": "Seeks to control"
+          }
+        }
+      }
+    },
+    "detmold": {
+      "name": "Detmold",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A sorcerer advisor to King Henselt of Kaedwen. Represents Kaedwen's magical interests in the growing conflict.",
+          "role": "Royal advisor",
+          "relationships": {
+            "King Henselt": "Advisor to",
+            "Kaedwen": "Serves"
+          }
+        }
+      }
+    },
+    "dimeritium-miner": {
+      "name": "Dimeritium Miner",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A dwarf miner who provides information about dimeritium, the anti-magic metal that affects Ciri's abilities.",
+          "role": "Dwarf miner",
+          "relationships": {
+            "Triss Merigold": "Provides information to",
+            "Magic users": "Metal affects"
+          }
+        }
+      }
+    },
+    "temple-guard": {
+      "name": "Temple Guard Captain",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The captain of guards at the Temple of Melitele who provides security and maintains order at the sacred site.",
+          "role": "Temple guard",
+          "relationships": {
+            "Nenneke": "Serves under",
+            "Temple of Melitele": "Protects"
+          }
+        }
+      }
+    },
+    "oxenfurt-rector": {
+      "name": "Oxenfurt Rector",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The head of Oxenfurt University who oversees the academic research into magical phenomena and Ciri's abilities.",
+          "role": "University rector",
+          "relationships": {
+            "Marti Södergren": "Employs",
+            "Oxenfurt University": "Leads"
+          }
+        }
+      }
+    },
+    "aplegatt-merchant": {
+      "name": "Aplegatt",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A merchant who brings news and goods to Kaer Morhen during the winter months, connecting the witchers to the outside world.",
+          "role": "Trading merchant",
+          "relationships": {
+            "Kaer Morhen": "Supplies",
+            "Geralt": "Brings news to"
+          }
+        }
+      }
+    },
+    "kaer-morhen-cook": {
+      "name": "Kaer Morhen Cook",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The person responsible for preparing meals at Kaer Morhen. One of the few non-witcher residents of the keep.",
+          "role": "Keep cook",
+          "relationships": {
+            "Kaer Morhen residents": "Feeds",
+            "Ciri": "Cares for"
+          }
+        }
+      }
+    },
+    "stable-master": {
+      "name": "Kaer Morhen Stable Master",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The keeper of horses and other animals at Kaer Morhen. Helps teach Ciri riding and animal care.",
+          "role": "Stable keeper",
+          "relationships": {
+            "Ciri": "Teaches riding to",
+            "Kaer Morhen": "Maintains stables of"
+          }
+        }
+      }
+    },
+    "witcher-berengar": {
+      "name": "Berengar",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A witcher who occasionally winters at Kaer Morhen. Known for his antisocial behavior and cynical outlook on the witcher profession.",
+          "role": "Antisocial witcher",
+          "relationships": {
+            "Kaer Morhen": "Sometimes stays at",
+            "Other witchers": "Avoids"
+          }
+        }
+      }
+    },
+    "leo-kaer-morhen": {
+      "name": "Leo",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young man training at Kaer Morhen who hasn't undergone the witcher mutations yet. Serves as a contrast to Ciri's training.",
+          "role": "Witcher trainee",
+          "relationships": {
+            "Vesemir": "Trained by",
+            "Ciri": "Fellow student with"
+          }
+        }
+      }
+    },
+    "temple-scribe": {
+      "name": "Temple Scribe",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A learned scribe at the Temple of Melitele who keeps records and assists with correspondence.",
+          "role": "Temple scribe",
+          "relationships": {
+            "Nenneke": "Assists",
+            "Temple records": "Maintains"
+          }
+        }
+      }
+    },
+    "elven-refugee": {
+      "name": "Elven Refugee",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "One of many elves forced from their homes by human expansion. Represents the growing tensions between races.",
+          "role": "Displaced elf",
+          "relationships": {
+            "Human expansion": "Victim of",
+            "Other non-humans": "Fellow refugee with"
+          }
+        }
+      }
+    },
+    "dwarf-smith-mahakam": {
+      "name": "Mahakaman Smith",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A skilled dwarf blacksmith from Mahakam who provides weapons and armor. Known for exceptional craftsmanship.",
+          "role": "Master smith",
+          "relationships": {
+            "Geralt": "Provides weapons to",
+            "Mahakam": "Represents craftsmanship of"
+          }
+        }
+      }
+    },
+    "halfling-innkeeper": {
+      "name": "Halfling Innkeeper",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A halfling who runs an inn frequented by travelers and merchants. Source of news and gossip.",
+          "role": "Inn proprietor",
+          "relationships": {
+            "Travelers": "Provides lodging to",
+            "Geralt": "Occasionally hosts"
+          }
+        }
+      }
+    },
+    "aretuza-student-1": {
+      "name": "Aretuza Student Lydia",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young woman studying magic at Aretuza academy. Represents the new generation of sorceresses.",
+          "role": "Magic student",
+          "relationships": {
+            "Tissaia": "Student of",
+            "Aretuza": "Studies at"
+          }
+        }
+      }
+    },
+    "aretuza-student-2": {
+      "name": "Aretuza Student Marilla",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another student at the magical academy, struggling with her studies and the demands of magical education.",
+          "role": "Struggling student",
+          "relationships": {
+            "Tissaia": "Taught by",
+            "Fellow students": "Competes with"
+          }
+        }
+      }
+    },
+    "oxenfurt-librarian": {
+      "name": "University Librarian",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The keeper of Oxenfurt University's vast library. Knowledgeable about magical texts and historical records.",
+          "role": "Academic librarian",
+          "relationships": {
+            "Marti Södergren": "Assists research of",
+            "University scholars": "Provides resources to"
+          }
+        }
+      }
+    },
+    "redanian-spy": {
+      "name": "Redanian Agent",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A spy working for Redania's intelligence network. Gathers information about Ciri and other political developments.",
+          "role": "Intelligence agent",
+          "relationships": {
+            "Dijkstra": "Reports to",
+            "Ciri": "Monitors"
+          }
+        }
+      }
+    },
+    "kaedweni-knight": {
+      "name": "Sir Vandergrift",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A knight in service to King Henselt of Kaedwen. Represents the military interests in Ciri.",
+          "role": "Kaedweni knight",
+          "relationships": {
+            "King Henselt": "Serves",
+            "Stennis": "Loyal to"
+          }
+        }
+      }
+    },
+    "temerian-officer": {
+      "name": "Captain Loredo",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Temerian military officer who becomes aware of the political importance of Ciri's situation.",
+          "role": "Military captain",
+          "relationships": {
+            "King Foltest": "Serves",
+            "Temeria": "Officer of"
+          }
+        }
+      }
+    },
+    "merchant-guild-head": {
+      "name": "Guild Master Thorak",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Head of a powerful merchant guild who becomes involved in the economic aspects of the political crisis.",
+          "role": "Guild master",
+          "relationships": {
+            "Merchants": "Leads",
+            "Political situation": "Affected by"
+          }
+        }
+      }
+    },
+    "novigrad-priest": {
+      "name": "Father Willemer",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A priest of the Eternal Fire in Novigrad who preaches against magic users and non-humans.",
+          "role": "Religious leader",
+          "relationships": {
+            "Eternal Fire": "Serves",
+            "Magic users": "Opposes"
+          }
+        }
+      }
+    },
+    "bard-colleague": {
+      "name": "Bard Ritterschlag",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A fellow bard and colleague of Dandelion who spreads stories and songs throughout the northern kingdoms.",
+          "role": "Traveling bard",
+          "relationships": {
+            "Dandelion": "Colleague of",
+            "Stories": "Spreads"
+          }
+        }
+      }
+    },
+    "healer-woman": {
+      "name": "Wise Woman Tomira",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A local healer and herbalist who provides traditional remedies and wisdom. Knows about magical herbs.",
+          "role": "Folk healer",
+          "relationships": {
+            "Local villagers": "Heals",
+            "Triss Merigold": "Shares herbal knowledge with"
+          }
+        }
+      }
+    },
+    "witcher-cat-school": {
+      "name": "Cat School Witcher Gaetan",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A witcher from the School of the Cat who visits Kaer Morhen. Known for the Cat School's more emotional approach.",
+          "role": "Visiting witcher",
+          "relationships": {
+            "Geralt": "Fellow witcher",
+            "Cat School": "Represents"
+          }
+        }
+      }
+    },
+    "refugee-leader": {
+      "name": "Refugee Elder Filavandrel",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An elder among the non-human refugees who leads his people in seeking safety from human persecution.",
+          "role": "Refugee leader",
+          "relationships": {
+            "Non-human refugees": "Leads",
+            "Human authorities": "Negotiates with"
+          }
+        }
+      }
+    },
+    "dwarven-banker": {
+      "name": "Banker Molnar Giancardi",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A wealthy dwarf banker who finances various enterprises and becomes involved in the economic aspects of the political situation.",
+          "role": "Dwarven financier",
+          "relationships": {
+            "Merchants": "Finances",
+            "Political players": "Lends to"
+          }
+        }
+      }
+    },
+    "temple-pilgrim": {
+      "name": "Pilgrim Mikael",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A devoted pilgrim who comes to the Temple of Melitele seeking healing and spiritual guidance.",
+          "role": "Religious pilgrim",
+          "relationships": {
+            "Nenneke": "Seeks guidance from",
+            "Temple of Melitele": "Pilgrim to"
+          }
+        }
+      }
+    },
+    "mountain-guide": {
+      "name": "Mountain Guide Ivo",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A local guide who knows the mountain passes around Kaer Morhen. Helps travelers navigate the dangerous terrain.",
+          "role": "Mountain guide",
+          "relationships": {
+            "Kaer Morhen": "Knows paths to",
+            "Travelers": "Guides"
+          }
+        }
+      }
+    },
+    "village-elder": {
+      "name": "Elder Vserad",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The elder of a village near Kaer Morhen who remembers the old days when witchers were more common.",
+          "role": "Village elder",
+          "relationships": {
+            "Geralt": "Remembers stories about",
+            "Villagers": "Leads"
+          }
+        }
+      }
+    },
+    "young-sorceress": {
+      "name": "Apprentice Sorceress Coral",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young sorceress still learning her craft. Represents the new generation of magic users.",
+          "role": "Apprentice mage",
+          "relationships": {
+            "Experienced sorceresses": "Learns from",
+            "Magical community": "Newcomer to"
+          }
+        }
+      }
+    },
+    "book-collector": {
+      "name": "Scholar Carduin",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A collector of rare books and magical texts who provides research materials to scholars and mages.",
+          "role": "Book collector",
+          "relationships": {
+            "Oxenfurt scholars": "Supplies books to",
+            "Rare texts": "Collector of"
+          }
+        }
+      }
     }
   },
   "recaps": {

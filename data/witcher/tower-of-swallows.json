@@ -375,6 +375,461 @@
           }
         }
       }
+    },
+    "hotsporn": {
+      "name": "Hotsporn",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The leader of the Rats gang and Ciri's lover. He is charismatic but violent, representing the dark path Ciri has chosen.",
+          "role": "Gang leader and Ciri's lover",
+          "relationships": {
+            "Ciri": "Lover and partner in crime",
+            "The Rats": "Leader of"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Dies in the violent end of the Rats, showing the inevitable consequences of their criminal lifestyle.",
+          "role": "Doomed gang leader",
+          "relationships": {
+            "Bonhart": "Killed by"
+          }
+        }
+      }
+    },
+    "giselher": {
+      "name": "Giselher",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Rats gang, young and ruthless. He participates in their criminal activities with enthusiasm.",
+          "role": "Gang member",
+          "relationships": {
+            "The Rats": "Core member of",
+            "Hotsporn": "Follows"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Meets his end along with the rest of the gang when Bonhart destroys them.",
+          "role": "Doomed criminal",
+          "relationships": {
+            "Bonhart": "Killed by"
+          }
+        }
+      }
+    },
+    "asse": {
+      "name": "Asse",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another member of the Rats, known for his skill with weapons and his loyalty to the gang.",
+          "role": "Gang enforcer",
+          "relationships": {
+            "The Rats": "Enforcer for",
+            "Ciri": "Gang brother to"
+          }
+        }
+      }
+    },
+    "reef": {
+      "name": "Reef",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Rats gang member who serves as one of their scouts and planners. He helps organize their criminal operations.",
+          "role": "Gang scout",
+          "relationships": {
+            "The Rats": "Scout and planner for"
+          }
+        }
+      }
+    },
+    "kayleigh": {
+      "name": "Kayleigh",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The youngest member of the Rats before Ciri joined. He looks up to the older gang members and tries to prove himself.",
+          "role": "Young gang member",
+          "relationships": {
+            "The Rats": "Youngest member of",
+            "Ciri": "Younger brother figure to"
+          }
+        }
+      }
+    },
+    "mistle": {
+      "name": "Mistle",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The only female member of the Rats besides Ciri. She has a complex relationship with Ciri that goes beyond simple friendship.",
+          "role": "Female gang member",
+          "relationships": {
+            "Ciri": "Complex relationship with",
+            "The Rats": "Core member of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Her relationship with Ciri deepens, showing another aspect of Ciri's transformation and the bonds formed in extreme circumstances.",
+          "role": "Ciri's closest companion",
+          "relationships": {
+            "Ciri": "Intimate relationship with"
+          }
+        }
+      }
+    },
+    "crach-an-craite": {
+      "name": "Crach an Craite",
+      "aliases": ["Jarl of Ard Skellig"],
+      "appearances": [5, 6, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A powerful Skellige jarl who becomes involved in the search for Ciri. He represents the strength and honor of Skellige culture.",
+          "role": "Skellige jarl",
+          "relationships": {
+            "Yennefer": "Ally to in search",
+            "Skellige": "Leading jarl of"
+          }
+        }
+      }
+    },
+    "hjalmar-an-craite": {
+      "name": "Hjalmar an Craite",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Son of Crach an Craite, a young and ambitious Skellige warrior eager to prove himself in battle and adventure.",
+          "role": "Young Skellige warrior",
+          "relationships": {
+            "Crach an Craite": "Son of",
+            "Cerys an Craite": "Brother of"
+          }
+        }
+      }
+    },
+    "cerys-an-craite": {
+      "name": "Cerys an Craite",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Daughter of Crach an Craite, known for her intelligence and wisdom beyond her years. She represents the new generation of Skellige leaders.",
+          "role": "Skellige princess",
+          "relationships": {
+            "Crach an Craite": "Daughter of",
+            "Hjalmar an Craite": "Sister of"
+          }
+        }
+      }
+    },
+    "lugos-the-mad": {
+      "name": "Lugos the Mad",
+      "aliases": ["Madman Lugos"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An unpredictable Skellige jarl known for his violent temper and erratic behavior. He represents the more savage aspects of Skellige culture.",
+          "role": "Unstable jarl",
+          "relationships": {
+            "Skellige Jarls": "Feared by"
+          }
+        }
+      }
+    },
+    "eist-tuirseach": {
+      "name": "Eist Tuirseach",
+      "aliases": ["King Eist"],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Former King of Cintra through marriage to Calanthe, and a respected Skellige warrior. His memory influences current Skellige politics.",
+          "role": "Former king",
+          "relationships": {
+            "Queen Calanthe": "Former husband of",
+            "Ciri": "Step-grandfather to"
+          }
+        }
+      }
+    },
+    "arena-fighter-tawny-owl": {
+      "name": "Tawny Owl",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A skilled arena fighter who faces Ciri in the fighting pits. He represents the brutal entertainment that Bonhart forces Ciri into.",
+          "role": "Arena gladiator",
+          "relationships": {
+            "Ciri": "Fights against",
+            "Bonhart": "Hired by"
+          }
+        }
+      }
+    },
+    "arena-fighter-the-beast": {
+      "name": "The Beast",
+      "aliases": ["Goliath"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A massive arena fighter known for his size and strength. Ciri must use her speed and training to survive against him.",
+          "role": "Arena champion",
+          "relationships": {
+            "Ciri": "Opponent of",
+            "Arena": "Champion of"
+          }
+        }
+      }
+    },
+    "arena-master-cleaver": {
+      "name": "Cleaver",
+      "aliases": ["Arena Master"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The dwarf who runs the arena where Ciri is forced to fight. He profits from the blood sport while pretending neutrality.",
+          "role": "Arena owner",
+          "relationships": {
+            "Bonhart": "Business partner of",
+            "Ciri": "Exploits for profit"
+          }
+        }
+      }
+    },
+    "bounty-hunter-stefan-skellen": {
+      "name": "Stefan Skellen",
+      "aliases": ["Tawny Owl"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A Nilfgaardian agent and bounty hunter pursuing Ciri for the Emperor. He represents the political forces seeking to capture her.",
+          "role": "Imperial bounty hunter",
+          "relationships": {
+            "Emperor Emhyr": "Agent of",
+            "Ciri": "Hunts for empire"
+          }
+        }
+      }
+    },
+    "bounty-hunter-boreas-mun": {
+      "name": "Boreas Mun",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A professional bounty hunter working with Skellen to capture Ciri. He represents the mercenary forces drawn into the hunt.",
+          "role": "Professional bounty hunter",
+          "relationships": {
+            "Stefan Skellen": "Partner of",
+            "Ciri": "Target of"
+          }
+        }
+      }
+    },
+    "bounty-hunter-kenna": {
+      "name": "Kenna",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another bounty hunter in Skellen's group, known for tracking skills and ruthless efficiency in pursuing targets.",
+          "role": "Tracker",
+          "relationships": {
+            "Stefan Skellen": "Member of group",
+            "Ciri": "Pursues relentlessly"
+          }
+        }
+      }
+    },
+    "hermit-scholar-condwiramurs": {
+      "name": "Condwiramurs",
+      "aliases": ["The Young Scholar"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young scholar studying ancient texts and prophecies. She represents the academic pursuit of knowledge about Ciri's powers.",
+          "role": "Young scholar",
+          "relationships": {
+            "Nimue": "Student of",
+            "Ancient Prophecies": "Studies"
+          }
+        }
+      }
+    },
+    "scholar-nimue-verch-wledyr": {
+      "name": "Nimue verch Wledyr",
+      "aliases": ["The Scholar"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An older scholar researching the historical events surrounding Ciri and Geralt. She provides historical perspective on current events.",
+          "role": "Historical researcher",
+          "relationships": {
+            "Condwiramurs": "Teacher of",
+            "Geralt": "Studies history of"
+          }
+        }
+      }
+    },
+    "temple-guard-captain-henselt": {
+      "name": "Captain Henselt",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A temple guard captain who becomes involved in protecting scholars and maintaining order during chaotic times.",
+          "role": "Temple guard",
+          "relationships": {
+            "Temple": "Protects",
+            "Scholars": "Guards"
+          }
+        }
+      }
+    },
+    "wild-hunt-rider-caranthir": {
+      "name": "Caranthir Ar-Feiniel",
+      "aliases": ["The Navigator"],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "One of the Wild Hunt riders pursuing Ciri through different dimensions. He represents the supernatural threat beyond mortal concerns.",
+          "role": "Wild Hunt navigator",
+          "relationships": {
+            "Eredin": "Serves",
+            "Ciri": "Hunts across worlds"
+          }
+        }
+      }
+    },
+    "wild-hunt-rider-imlerith": {
+      "name": "Imlerith",
+      "aliases": ["General of the Red Riders"],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A powerful Wild Hunt general who leads their forces in pursuit of Ciri. His presence terrifies even experienced warriors.",
+          "role": "Wild Hunt general",
+          "relationships": {
+            "Eredin": "Lieutenant to",
+            "Wild Hunt": "General of"
+          }
+        }
+      }
+    },
+    "aen-elle-sage-avallach-elder": {
+      "name": "Avalon",
+      "aliases": ["The Elder Sage"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An ancient Aen Elle elf who provides context for Avallac'h's teachings to Ciri. He represents the deep history of elven knowledge.",
+          "role": "Ancient elven sage",
+          "relationships": {
+            "Avallac'h": "Predecessor of",
+            "Aen Elle": "Elder of"
+          }
+        }
+      }
+    },
+    "unicorn-ihuarraquax": {
+      "name": "Ihuarraquax",
+      "aliases": ["Little Horse"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A unicorn who appears to Ciri during her interdimensional travels, serving as a guide and protector against dark forces.",
+          "role": "Mystical guide",
+          "relationships": {
+            "Ciri": "Guides and protects",
+            "Wild Hunt": "Opposes"
+          }
+        }
+      }
+    },
+    "desert-nomad-leader": {
+      "name": "Auberon Muircetach",
+      "aliases": ["The Aen Elle King"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The king of the Aen Elle elves who has his own plans for Ciri's Elder Blood. He represents the political complexity of different worlds.",
+          "role": "Elven king",
+          "relationships": {
+            "Ciri": "Desires offspring from",
+            "Avallac'h": "Rules over"
+          }
+        }
+      }
+    },
+    "lodge-sorceress-sheala": {
+      "name": "Sheala de Tancarville",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A member of the Lodge of Sorceresses who has her own agenda regarding Ciri's fate and the future of magic.",
+          "role": "Lodge sorceress",
+          "relationships": {
+            "Lodge of Sorceresses": "Member of",
+            "Ciri": "Seeks to control"
+          }
+        }
+      }
+    }
+  },
+    "time-traveler-galahad": {
+      "name": "Galahad",
+      "aliases": ["The Knight of Time"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A mysterious figure Ciri encounters during her travels through time and space, representing the Arthurian connections in her journey.",
+          "role": "Time traveler",
+          "relationships": {
+            "Ciri": "Guides through time",
+            "Arthurian World": "Representative of"
+          }
+        }
+      }
     }
   },
   "recaps": {

@@ -331,6 +331,712 @@
           }
         }
       }
+    },
+    "segelin": {
+      "name": "Segelin",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "King Foltest's castellan and advisor. Provides information about the striga curse and the royal family's situation.",
+          "role": "Royal castellan",
+          "relationships": {
+            "King Foltest": "Advisor to",
+            "Geralt": "Provides information to"
+          }
+        }
+      }
+    },
+    "ostrit": {
+      "name": "Ostrit",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Temerian magnate who was in love with Princess Adda (King Foltest's sister). Placed the curse that turned baby Adda into a striga out of jealousy.",
+          "role": "Cursing sorcerer",
+          "relationships": {
+            "Princess Adda (sister)": "Was in love with",
+            "King Foltest": "Cursed family of",
+            "Princess Adda (daughter)": "Responsible for curse of"
+          }
+        }
+      }
+    },
+    "velerad": {
+      "name": "Velerad",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The elderly burgrave of Vizima who has witnessed the striga's terror for years. Initially skeptical of Geralt's ability to lift the curse.",
+          "role": "Burgrave of Vizima",
+          "relationships": {
+            "King Foltest": "Serves",
+            "Geralt": "Initially skeptical of"
+          }
+        }
+      }
+    },
+    "caldemeyn": {
+      "name": "Caldemeyn",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The mayor of Blaviken who becomes involved in the conflict between Stregobor and Renfri. Witnesses the massacre.",
+          "role": "Mayor of Blaviken",
+          "relationships": {
+            "Stregobor": "Provides sanctuary to",
+            "Renfri": "Threatened by"
+          }
+        }
+      }
+    },
+    "marilka": {
+      "name": "Marilka",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young girl in Blaviken who warns Geralt about Renfri and her band's plan to massacre the market.",
+          "role": "Village girl",
+          "relationships": {
+            "Geralt": "Warns about danger",
+            "Renfri": "Victim of threats"
+          }
+        }
+      }
+    },
+    "nohorn": {
+      "name": "Nohorn",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of Renfri's bandits, a large and brutal man who participates in her criminal activities.",
+          "role": "Bandit",
+          "relationships": {
+            "Renfri": "Serves",
+            "Geralt": "Fights against"
+          }
+        }
+      }
+    },
+    "tailles": {
+      "name": "Tailles",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A crossbow-wielding member of Renfri's band. Killed by Geralt during the Blaviken massacre.",
+          "role": "Bandit archer",
+          "relationships": {
+            "Renfri": "Member of band",
+            "Geralt": "Killed by"
+          }
+        }
+      }
+    },
+    "civril": {
+      "name": "Civril",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another member of Renfri's criminal band who dies in the Blaviken confrontation.",
+          "role": "Bandit",
+          "relationships": {
+            "Renfri": "Loyal follower",
+            "Geralt": "Killed by"
+          }
+        }
+      }
+    },
+    "drake": {
+      "name": "Drake",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young priest at the Temple of Melitele who assists Nenneke in caring for the injured and sick.",
+          "role": "Temple priest",
+          "relationships": {
+            "Nenneke": "Serves under",
+            "Temple of Melitele": "Priest at"
+          }
+        }
+      }
+    },
+    "jarre": {
+      "name": "Jarre",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young acolyte at the Temple of Melitele who dreams of becoming a knight. Infatuated with adventure stories.",
+          "role": "Temple acolyte",
+          "relationships": {
+            "Nenneke": "Student of",
+            "Geralt": "Admires"
+          }
+        }
+      }
+    },
+    "merca": {
+      "name": "Merca",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A priestess at the Temple of Melitele who tends to the sick and wounded alongside Nenneke.",
+          "role": "Temple priestess",
+          "relationships": {
+            "Nenneke": "Fellow priestess",
+            "Temple of Melitele": "Serves"
+          }
+        }
+      }
+    },
+    "neville": {
+      "name": "Neville",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A merchant who encounters Geralt and Dandelion at the Edge of the World. Provides transportation and information about the area.",
+          "role": "Traveling merchant",
+          "relationships": {
+            "Geralt": "Transports",
+            "Dandelion": "Fellow traveler"
+          }
+        }
+      }
+    },
+    "dhun": {
+      "name": "Dhun",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A dwarf miner who lives near the Edge of the World. Speaks of the elves and the changing times.",
+          "role": "Dwarf miner",
+          "relationships": {
+            "Filavandrel": "Aware of",
+            "Geralt": "Informs"
+          }
+        }
+      }
+    },
+    "paulie-dahlberg": {
+      "name": "Paulie Dahlberg",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A halfling farmer whose fields have been affected by Torque's activities. Seeks help from humans against the sylvan.",
+          "role": "Halfling farmer",
+          "relationships": {
+            "Torque": "Victim of",
+            "Geralt": "Seeks help from"
+          }
+        }
+      }
+    },
+    "yann": {
+      "name": "Yann",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elf archer in Filavandrel's group. Skilled with a bow and suspicious of humans.",
+          "role": "Elf archer",
+          "relationships": {
+            "Filavandrel": "Serves",
+            "Geralt": "Initially hostile to"
+          }
+        }
+      }
+    },
+    "toruviel": {
+      "name": "Toruviel",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young elf maiden in Filavandrel's group. Beautiful but hardened by the elves' struggles against human expansion.",
+          "role": "Elf maiden",
+          "relationships": {
+            "Filavandrel": "Follows",
+            "Dandelion": "Briefly attracts"
+          }
+        }
+      }
+    },
+    "eist-tuirseach": {
+      "name": "Eist Tuirseach",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Skellige jarl and warrior who marries Queen Calanthe. Known for his seafaring skills and combat prowess.",
+          "role": "Skellige jarl",
+          "relationships": {
+            "Queen Calanthe": "Husband of",
+            "Pavetta": "Step-father to"
+          }
+        }
+      }
+    },
+    "crach-an-craite": {
+      "name": "Crach an Craite",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Skellige jarl attending Pavetta's betrothal feast. A friend of Eist Tuirseach and ally of Cintra.",
+          "role": "Skellige jarl",
+          "relationships": {
+            "Eist Tuirseach": "Friend and ally",
+            "Queen Calanthe": "Ally of"
+          }
+        }
+      }
+    },
+    "hjalmar": {
+      "name": "Hjalmar",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young Skellige warrior attending the feast. Son of Crach an Craite.",
+          "role": "Young Skellige warrior",
+          "relationships": {
+            "Crach an Craite": "Son of",
+            "Cerys": "Brother of"
+          }
+        }
+      }
+    },
+    "cerys": {
+      "name": "Cerys",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Skellige maiden, daughter of Crach an Craite. Intelligent and observant of the political situation.",
+          "role": "Skellige maiden",
+          "relationships": {
+            "Crach an Craite": "Daughter of",
+            "Hjalmar": "Sister of"
+          }
+        }
+      }
+    },
+    "rainfarn": {
+      "name": "Rainfarn",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A prince from Redania who was one of Pavetta's suitors before Urcheon's arrival.",
+          "role": "Redanian prince",
+          "relationships": {
+            "Pavetta": "Former suitor of",
+            "Queen Calanthe": "Guest of"
+          }
+        }
+      }
+    },
+    "windhalm": {
+      "name": "Windhalm",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another prince who sought Pavetta's hand in marriage. From Hengfors League.",
+          "role": "Hengfors prince",
+          "relationships": {
+            "Pavetta": "Rejected suitor",
+            "Queen Calanthe": "Guest of"
+          }
+        }
+      }
+    },
+    "drogodar": {
+      "name": "Drogodar",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A knight in attendance at the feast. Witnesses the magical chaos when Pavetta's powers manifest.",
+          "role": "Knight",
+          "relationships": {
+            "Queen Calanthe": "Serves",
+            "Pavetta": "Witness to powers of"
+          }
+        }
+      }
+    },
+    "biberveldt": {
+      "name": "Biberveldt",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A halfling merchant in Rinde who provides information about the town and its inhabitants.",
+          "role": "Halfling merchant",
+          "relationships": {
+            "Geralt": "Provides information to",
+            "Yennefer": "Knows reputation of"
+          }
+        }
+      }
+    },
+    "krepp": {
+      "name": "Krepp",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A priest of Kreve in Rinde who attempts to exorcise what he believes is a demon possessing the djinn.",
+          "role": "Priest of Kreve",
+          "relationships": {
+            "Djinn": "Attempts to banish",
+            "Geralt": "Provides religious perspective to"
+          }
+        }
+      }
+    },
+    "errdil": {
+      "name": "Errdil",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The mayor of Rinde who becomes involved when the djinn threatens the town.",
+          "role": "Mayor of Rinde",
+          "relationships": {
+            "Geralt": "Seeks help from",
+            "Yennefer": "Fears magical power of"
+          }
+        }
+      }
+    },
+    "three-jackdaws": {
+      "name": "Three Jackdaws",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A fisherman in Rinde who first encountered the djinn's vessel while fishing. His boat was destroyed in the encounter.",
+          "role": "Fisherman",
+          "relationships": {
+            "Djinn": "First to encounter",
+            "Geralt": "Reports encounter to"
+          }
+        }
+      }
+    },
+    "aplegatt": {
+      "name": "Aplegatt",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A merchant who seeks healing at the Temple of Melitele for his ailments.",
+          "role": "Merchant patient",
+          "relationships": {
+            "Nenneke": "Patient of",
+            "Temple of Melitele": "Seeks healing at"
+          }
+        }
+      }
+    },
+    "shevlov": {
+      "name": "Shevlov",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Nilfgaardian merchant who brings news from the south to the Temple of Melitele.",
+          "role": "Nilfgaardian merchant",
+          "relationships": {
+            "Nenneke": "Brings news to",
+            "Geralt": "Provides information about southern lands"
+          }
+        }
+      }
+    },
+    "adda-the-elder": {
+      "name": "Adda the Elder",
+      "aliases": ["Princess Adda"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "King Foltest's sister who died in childbirth after their incestuous relationship. Her spirit may be connected to the striga curse.",
+          "role": "Deceased princess",
+          "relationships": {
+            "King Foltest": "Sister and lover",
+            "Princess Adda (daughter)": "Mother of",
+            "Ostrit": "Loved by"
+          }
+        }
+      }
+    },
+    "kistrin": {
+      "name": "Kistrin",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A guard captain at Vizima castle who has dealt with the striga threat for years.",
+          "role": "Guard captain",
+          "relationships": {
+            "King Foltest": "Serves",
+            "Princess Adda (striga)": "Fought against"
+          }
+        }
+      }
+    },
+    "eyk": {
+      "name": "Eyk",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A palace guard who assists in securing the area during Geralt's attempt to lift the striga curse.",
+          "role": "Palace guard",
+          "relationships": {
+            "Kistrin": "Serves under",
+            "Geralt": "Assists"
+          }
+        }
+      }
+    },
+    "stregogor-assistant": {
+      "name": "Stregobor's Assistant",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young apprentice who serves the wizard Stregobor in his tower. Helps with magical experiments.",
+          "role": "Wizard's apprentice",
+          "relationships": {
+            "Stregobor": "Apprentice to",
+            "Geralt": "Observed by"
+          }
+        }
+      }
+    },
+    "gassak": {
+      "name": "Gassak",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of Renfri's bandits, a vicious criminal who participates in her gang's activities.",
+          "role": "Bandit",
+          "relationships": {
+            "Renfri": "Follows",
+            "Geralt": "Threatens"
+          }
+        }
+      }
+    },
+    "ivo": {
+      "name": "Ivo",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A blacksmith in Blaviken whose shop is threatened by Renfri's gang during their plan to massacre the market.",
+          "role": "Village blacksmith",
+          "relationships": {
+            "Renfri": "Threatened by",
+            "Geralt": "Protected by"
+          }
+        }
+      }
+    },
+    "libushe-seheult": {
+      "name": "Libushe Seheult",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A sorceress mentioned by Stregobor as being born under the Curse of the Black Sun. Another victim of his paranoid hunts.",
+          "role": "Hunted sorceress",
+          "relationships": {
+            "Stregobor": "Hunted by",
+            "Renfri": "Fellow victim of Stregobor"
+          }
+        }
+      }
+    },
+    "elsa": {
+      "name": "Elsa",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A girl from Creyden who was also born under the Curse of the Black Sun and hunted by Stregobor.",
+          "role": "Cursed victim",
+          "relationships": {
+            "Stregobor": "Killed by",
+            "Renfri": "Fellow Black Sun victim"
+          }
+        }
+      }
+    },
+    "aridea": {
+      "name": "Aridea",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another girl mentioned as being born under the Black Sun eclipse and subsequently murdered by Stregobor.",
+          "role": "Murdered victim",
+          "relationships": {
+            "Stregobor": "Victim of",
+            "Renfri": "Shared fate with"
+          }
+        }
+      }
+    },
+    "inn-keeper-blaviken": {
+      "name": "Blaviken Innkeeper",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The proprietor of the inn where Geralt stays in Blaviken. Witnesses the conflict between Geralt and Renfri's gang.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Geralt": "Hosts",
+            "Renfri": "Fears"
+          }
+        }
+      }
+    },
+    "zangenis": {
+      "name": "Zangenis",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An old elf sage in Filavandrel's group who speaks of the ancient times and elven lore.",
+          "role": "Elf sage",
+          "relationships": {
+            "Filavandrel": "Advises",
+            "Geralt": "Shares elven history with"
+          }
+        }
+      }
+    },
+    "braenn-dryad": {
+      "name": "Braenn (mentioned)",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A dryad mentioned by the elves as having contact with Brokilon Forest. Future ally to Ciri.",
+          "role": "Dryad contact",
+          "relationships": {
+            "Filavandrel": "Known to",
+            "Brokilon Forest": "Dwells in"
+          }
+        }
+      }
+    },
+    "witcher-cohen": {
+      "name": "Cohen",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A witcher mentioned as having attempted to deal with the striga before Geralt. Failed and was killed.",
+          "role": "Dead witcher",
+          "relationships": {
+            "Princess Adda (striga)": "Killed by",
+            "Geralt": "Predecessor in striga contract"
+          }
+        }
+      }
+    },
+    "witcher-gramps": {
+      "name": "Gramps",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another witcher who tried to kill the striga years before Geralt's arrival. Also failed and died.",
+          "role": "Dead witcher",
+          "relationships": {
+            "Princess Adda (striga)": "Victim of",
+            "Geralt": "Earlier failed attempt"
+          }
+        }
+      }
+    },
+    "merchant-dun-tynne": {
+      "name": "Dun Tynne Merchant",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A traveling merchant who tells stories of the changing relations between humans and non-humans.",
+          "role": "Traveling merchant",
+          "relationships": {
+            "Geralt": "Shares stories with",
+            "Dandelion": "Source of tales for"
+          }
+        }
+      }
     }
   },
   "recaps": {

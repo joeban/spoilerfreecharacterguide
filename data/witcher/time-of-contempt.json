@@ -348,6 +348,726 @@
           }
         }
       }
+    },
+    "lydia-van-bredevoort": {
+      "name": "Lydia van Bredevoort",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorceress who works closely with Vilgefortz. Disfigured by magical experiments but remains loyal to him.",
+          "role": "Vilgefortz's assistant",
+          "relationships": {
+            "Vilgefortz": "Devoted assistant to",
+            "Magical research": "Victim of"
+          }
+        }
+      }
+    },
+    "hen-gedymdeith": {
+      "name": "Hen Gedymdeith",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An ancient and powerful sorcerer who participates in the Council of Mages. One of the oldest members of the Brotherhood.",
+          "role": "Ancient sorcerer",
+          "relationships": {
+            "Brotherhood of Sorcerers": "Elder member of",
+            "Tissaia": "Colleague of"
+          }
+        }
+      }
+    },
+    "carduin": {
+      "name": "Carduin",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorcerer involved in the political discussions at Thanedd Island during the Council of Mages.",
+          "role": "Council sorcerer",
+          "relationships": {
+            "Vilgefortz": "Council colleague",
+            "Other mages": "Debates with"
+          }
+        }
+      }
+    },
+    "radcliffe-thanedd": {
+      "name": "Radcliffe",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorcerer who attends the Thanedd council and becomes caught up in the political machinations and eventual coup.",
+          "role": "Conservative sorcerer",
+          "relationships": {
+            "Tissaia": "Supports",
+            "Vilgefortz": "Initially trusts"
+          }
+        }
+      }
+    },
+    "stregobor-thanedd": {
+      "name": "Stregobor",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The paranoid wizard from Blaviken who attends the council meetings, still obsessed with his theories about cursed girls.",
+          "role": "Paranoid wizard",
+          "relationships": {
+            "Geralt": "History with",
+            "Renfri": "Past obsession with"
+          }
+        }
+      }
+    },
+    "yennefer-student-1": {
+      "name": "Aretuza Student Cynthia",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the students at Aretuza who witnesses Ciri's training and the growing tensions within the academy.",
+          "role": "Magic student",
+          "relationships": {
+            "Ciri": "Fellow student with",
+            "Tissaia": "Student of"
+          }
+        }
+      }
+    },
+    "yennefer-student-2": {
+      "name": "Aretuza Student Annabelle",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another student at the magical academy who becomes involved in the events surrounding Ciri's presence there.",
+          "role": "Academy student",
+          "relationships": {
+            "Ciri": "Classmate of",
+            "Other students": "Studies with"
+          }
+        }
+      }
+    },
+    "thanedd-guard-captain": {
+      "name": "Captain Algernon",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The captain of guards at Thanedd Island who tries to maintain order during the Council of Mages and the subsequent coup.",
+          "role": "Island guard captain",
+          "relationships": {
+            "Thanedd Island": "Protects",
+            "Coup plotters": "Opposes"
+          }
+        }
+      }
+    },
+    "thanedd-servant": {
+      "name": "Servant Vimme",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A servant at Thanedd Island who witnesses the chaos and violence of the coup from the perspective of the common people.",
+          "role": "Island servant",
+          "relationships": {
+            "Mages": "Serves",
+            "Thanedd staff": "Works with"
+          }
+        }
+      }
+    },
+    "scoia-tael-leader": {
+      "name": "Yaevinn",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Scoia'tael commander who becomes involved in the coup at Thanedd Island, representing non-human interests in the conflict.",
+          "role": "Elven rebel commander",
+          "relationships": {
+            "Scoia'tael": "Commands",
+            "Vilgefortz": "Works with"
+          }
+        }
+      }
+    },
+    "scoia-tael-archer": {
+      "name": "Toruviel",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A skilled elven archer fighting with the Scoia'tael during the Thanedd coup. Deadly with her bow.",
+          "role": "Elven archer",
+          "relationships": {
+            "Yaevinn": "Serves under",
+            "Human forces": "Fights against"
+          }
+        }
+      }
+    },
+    "dwarven-fighter": {
+      "name": "Dwarf Fighter Paulie",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A dwarf warrior who fights alongside the Scoia'tael during the coup, representing dwarf involvement in the rebellion.",
+          "role": "Dwarf warrior",
+          "relationships": {
+            "Scoia'tael": "Fights with",
+            "Yaevinn": "Allied with"
+          }
+        }
+      }
+    },
+    "halfling-scout": {
+      "name": "Halfling Scout Perry",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A halfling working with the Scoia'tael as a scout and spy during the Thanedd events.",
+          "role": "Halfling scout",
+          "relationships": {
+            "Scoia'tael": "Provides intelligence to",
+            "Non-humans": "Represents"
+          }
+        }
+      }
+    },
+    "coral-lytta": {
+      "name": "Coral",
+      "aliases": ["Lytta Neyd"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A fiery sorceress with red hair who participates in the magical community's political discussions.",
+          "role": "Independent sorceress",
+          "relationships": {
+            "Other sorceresses": "Colleague of",
+            "Magical community": "Member of"
+          }
+        }
+      }
+    },
+    "assire-var-anahid": {
+      "name": "Assire var Anahid",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Nilfgaardian sorceress involved in the empire's magical operations and the coup at Thanedd.",
+          "role": "Nilfgaardian sorceress",
+          "relationships": {
+            "Fringilla Vigo": "Fellow Nilfgaardian",
+            "Emperor Emhyr": "Serves"
+          }
+        }
+      }
+    },
+    "vanielle-of-brugge": {
+      "name": "Vanielle of Brugge",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorceress who attends the Council of Mages and becomes involved in the political machinations.",
+          "role": "Council sorceress",
+          "relationships": {
+            "Other sorceresses": "Council member with",
+            "Tissaia": "Colleague of"
+          }
+        }
+      }
+    },
+    "ortolan": {
+      "name": "Ortolan",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorcerer who participates in the Brotherhood's meetings and political debates at Thanedd.",
+          "role": "Brotherhood sorcerer",
+          "relationships": {
+            "Brotherhood": "Member of",
+            "Political faction": "Supports"
+          }
+        }
+      }
+    },
+    "axel-esparza": {
+      "name": "Axel Esparza",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorcerer from Zerrikania who brings international perspective to the Council of Mages.",
+          "role": "Foreign sorcerer",
+          "relationships": {
+            "Zerrikania": "Represents",
+            "International magic users": "Speaks for"
+          }
+        }
+      }
+    },
+    "mikael": {
+      "name": "Mikael",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young sorcerer's apprentice who witnesses the violence at Thanedd and survives to tell the tale.",
+          "role": "Apprentice witness",
+          "relationships": {
+            "Master sorcerer": "Apprentice to",
+            "Thanedd survivors": "Witness among"
+          }
+        }
+      }
+    },
+    "island-cook": {
+      "name": "Thanedd Cook",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The head cook at Thanedd Island who prepares meals for the mages and witnesses the coup from the kitchens.",
+          "role": "Island cook",
+          "relationships": {
+            "Thanedd staff": "Works with",
+            "Mages": "Serves"
+          }
+        }
+      }
+    },
+    "library-keeper": {
+      "name": "Thanedd Librarian",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The keeper of Thanedd's magical library who tries to protect precious books during the violent coup.",
+          "role": "Magical librarian",
+          "relationships": {
+            "Magical texts": "Protects",
+            "Scholars": "Serves"
+          }
+        }
+      }
+    },
+    "boat-captain": {
+      "name": "Captain Whitmore",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The captain of a ship that transports people to and from Thanedd Island. Witnesses the chaos and helps evacuate survivors.",
+          "role": "Ship captain",
+          "relationships": {
+            "Thanedd visitors": "Transports",
+            "Survivors": "Evacuates"
+          }
+        }
+      }
+    },
+    "redanian-diplomat": {
+      "name": "Ambassador Shilard",
+      "aliases": [],
+      "appearances": [3, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Redanian diplomat who observes the Council of Mages and reports back to King Vizimir about the political developments.",
+          "role": "Royal diplomat",
+          "relationships": {
+            "King Vizimir": "Reports to",
+            "Philippa Eilhart": "Works with"
+          }
+        }
+      }
+    },
+    "temerian-observer": {
+      "name": "Count Tilly",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Temerian noble who observes the proceedings at Thanedd on behalf of King Foltest.",
+          "role": "Royal observer",
+          "relationships": {
+            "King Foltest": "Represents",
+            "Temerian interests": "Protects"
+          }
+        }
+      }
+    },
+    "kaedweni-spy": {
+      "name": "Agent Vattier",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Kaedweni intelligence agent who infiltrates the Thanedd gathering to spy for King Henselt.",
+          "role": "Royal spy",
+          "relationships": {
+            "King Henselt": "Spies for",
+            "Detmold": "Reports to"
+          }
+        }
+      }
+    },
+    "nilfgaardian-agent": {
+      "name": "Agent Joachim",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Nilfgaardian operative working to further the empire's interests during the coup and its aftermath.",
+          "role": "Imperial agent",
+          "relationships": {
+            "Emperor Emhyr": "Serves",
+            "Coup plotters": "Assists"
+          }
+        }
+      }
+    },
+    "merchant-witness": {
+      "name": "Merchant Biberveldt",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A halfling merchant who happens to witness the aftermath of the Thanedd coup and spreads news of the events.",
+          "role": "Merchant witness",
+          "relationships": {
+            "Trading networks": "Spreads news through",
+            "Survivors": "Helps"
+          }
+        }
+      }
+    },
+    "refugee-mage": {
+      "name": "Refugee Sorcerer Drithelm",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A sorcerer who escaped the Thanedd massacre and now lives in hiding, representing the shattered magical community.",
+          "role": "Surviving mage",
+          "relationships": {
+            "Other survivors": "Hides with",
+            "Magical persecution": "Victim of"
+          }
+        }
+      }
+    },
+    "tavern-keeper-oxenfurt": {
+      "name": "Innkeeper Olivier",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An innkeeper in Oxenfurt who provides shelter to refugees and survivors from the Thanedd coup.",
+          "role": "Helpful innkeeper",
+          "relationships": {
+            "Refugees": "Shelters",
+            "Survivors": "Aids"
+          }
+        }
+      }
+    },
+    "witcher-school-manticore": {
+      "name": "Manticore School Witcher",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A witcher from the School of the Manticore who becomes caught up in the aftermath of Thanedd.",
+          "role": "Foreign witcher",
+          "relationships": {
+            "Geralt": "Professional colleague",
+            "Manticore School": "Member of"
+          }
+        }
+      }
+    },
+    "elven-sage": {
+      "name": "Sage Avallac'h (mentioned)",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An Aen Elle sage mentioned in connection with Elder Blood research and Ciri's growing importance.",
+          "role": "Elven scholar",
+          "relationships": {
+            "Elder Blood": "Studies",
+            "Ciri": "Interest in"
+          }
+        }
+      }
+    },
+    "aretuza-groundskeeper": {
+      "name": "Groundskeeper Willem",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The groundskeeper at Aretuza who maintains the academy grounds and witnesses the magical training.",
+          "role": "Academy groundskeeper",
+          "relationships": {
+            "Aretuza": "Maintains grounds of",
+            "Students": "Observes"
+          }
+        }
+      }
+    },
+    "lodge-sorceress-1": {
+      "name": "Sorceress Ida Emean",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven sorceress who becomes involved in the formation of what will become the Lodge of Sorceresses.",
+          "role": "Elven sorceress",
+          "relationships": {
+            "Francesca Findabair": "Fellow elven sorceress",
+            "Lodge formation": "Part of"
+          }
+        }
+      }
+    },
+    "lodge-sorceress-2": {
+      "name": "Sorceress Sheala de Tancarville",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A sorceress who participates in the political reorganization after Thanedd and helps form the new magical order.",
+          "role": "Political sorceress",
+          "relationships": {
+            "Philippa Eilhart": "Ally of",
+            "New magical order": "Helps establish"
+          }
+        }
+      }
+    },
+    "royal-guard-redania": {
+      "name": "Royal Guard Captain Stennis",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A captain in King Vizimir's royal guard who helps maintain order after the Thanedd crisis.",
+          "role": "Royal guard",
+          "relationships": {
+            "King Vizimir": "Protects",
+            "Philippa Eilhart": "Works with"
+          }
+        }
+      }
+    },
+    "magical-researcher": {
+      "name": "Researcher Alzur",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A magical researcher who studies forbidden magic and becomes involved in dangerous experiments.",
+          "role": "Magical researcher",
+          "relationships": {
+            "Vilgefortz": "Research colleague",
+            "Forbidden magic": "Studies"
+          }
+        }
+      }
+    },
+    "temple-priest-novigrad": {
+      "name": "High Priest Cyrus",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A high priest of the Eternal Fire who uses the chaos after Thanedd to increase persecution of magic users.",
+          "role": "Religious persecutor",
+          "relationships": {
+            "Eternal Fire": "Serves",
+            "Magic users": "Persecutes"
+          }
+        }
+      }
+    },
+    "bard-chronicler": {
+      "name": "Chronicler Bard Priscilla",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A bard who chronicles the events of Thanedd and spreads stories of what really happened.",
+          "role": "Chronicling bard",
+          "relationships": {
+            "Dandelion": "Fellow bard",
+            "Historical events": "Chronicles"
+          }
+        }
+      }
+    },
+    "underground-leader": {
+      "name": "Underground Leader Vernon",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A leader in the underground resistance that forms to help magic users escape persecution after Thanedd.",
+          "role": "Resistance leader",
+          "relationships": {
+            "Magic users": "Helps escape",
+            "Underground network": "Leads"
+          }
+        }
+      }
+    },
+    "border-guard": {
+      "name": "Border Guard Sergeant Mills",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A border guard who becomes involved in tracking refugees and survivors fleeing after the Thanedd massacre.",
+          "role": "Border guard",
+          "relationships": {
+            "Refugees": "Tracks",
+            "Royal authorities": "Reports to"
+          }
+        }
+      }
+    },
+    "ship-smuggler": {
+      "name": "Smuggler Captain Bart",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A ship captain who smuggles survivors and refugees away from the persecution following Thanedd.",
+          "role": "Smuggler captain",
+          "relationships": {
+            "Survivors": "Smuggles to safety",
+            "Underground network": "Works with"
+          }
+        }
+      }
+    },
+    "arena-master": {
+      "name": "Arena Master Cleaver",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A criminal boss who runs fighting arenas and becomes involved in the underground networks after Thanedd.",
+          "role": "Criminal arena master",
+          "relationships": {
+            "Underground networks": "Controls",
+            "Criminals": "Leads"
+          }
+        }
+      }
+    },
+    "witch-hunter": {
+      "name": "Witch Hunter Grimmjow",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A professional witch hunter who becomes active after Thanedd, hunting down surviving magic users.",
+          "role": "Professional hunter",
+          "relationships": {
+            "Magic users": "Hunts",
+            "Religious authorities": "Works for"
+          }
+        }
+      }
+    },
+    "medic-field": {
+      "name": "Field Medic Shani",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young medic and student who helps treat the wounded after the violence at Thanedd Island.",
+          "role": "Medical student",
+          "relationships": {
+            "Wounded survivors": "Treats",
+            "Medical knowledge": "Studies"
+          }
+        }
+      }
+    },
+    "information-broker": {
+      "name": "Information Broker Dainty",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A halfling information broker who trades in secrets and news about the aftermath of Thanedd.",
+          "role": "Information trader",
+          "relationships": {
+            "Intelligence networks": "Operates in",
+            "Secrets": "Trades in"
+          }
+        }
+      }
     }
   },
   "recaps": {

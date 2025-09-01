@@ -321,6 +321,509 @@
           }
         }
       }
+    },
+    "field-marshal-coehoorn": {
+      "name": "Field Marshal Coehoorn",
+      "aliases": ["Menno Coehoorn"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A high-ranking Nilfgaardian military commander leading the invasion forces northward. Known for his tactical brilliance and ruthless efficiency.",
+          "role": "Nilfgaardian field marshal",
+          "relationships": {
+            "Emperor Emhyr": "Serves directly"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Coordinates massive military operations across multiple fronts, showing the scale and organization of the Nilfgaardian war machine.",
+          "role": "Supreme military commander",
+          "relationships": {
+            "Nilfgaardian Army": "Commands"
+          }
+        }
+      }
+    },
+    "colonel-joachim-de-wett": {
+      "name": "Colonel Joachim de Wett",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Nilfgaardian officer commanding troops in the field. Represents the professional military class driving the invasion.",
+          "role": "Nilfgaardian colonel",
+          "relationships": {
+            "Field Marshal Coehoorn": "Reports to"
+          }
+        }
+      }
+    },
+    "captain-winfried-of-gors-velen": {
+      "name": "Captain Winfried of Gors Velen",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Northern Kingdom officer trying to organize resistance against the Nilfgaardian advance. Shows the desperate situation of the northern forces.",
+          "role": "Northern resistance officer",
+          "relationships": {
+            "Northern Armies": "Commands remnants of"
+          }
+        }
+      }
+    },
+    "angouleme": {
+      "name": "Angoulême",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young woman the company encounters during their journey. Shows street smarts and survival instincts honed by harsh experience.",
+          "role": "Potential companion",
+          "relationships": {
+            "Geralt": "Encountered by"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Joins Geralt's company as the youngest member, bringing different skills and perspectives. Her presence changes the group dynamic.",
+          "role": "Youngest company member",
+          "relationships": {
+            "Company": "Newest member of",
+            "Milva": "Mentored by"
+          }
+        }
+      }
+    },
+    "iorveth": {
+      "name": "Iorveth",
+      "aliases": ["The One-Eyed"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Scoia'tael commander leading elven guerrilla forces against human armies. His hatred for humans is matched by his tactical skills.",
+          "role": "Scoia'tael commander",
+          "relationships": {
+            "Scoia'tael": "Commands unit",
+            "Humans": "Wages war against"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "His guerrilla warfare disrupts both Northern and Nilfgaardian forces, showing that non-humans have their own agenda in the conflict.",
+          "role": "Guerrilla warfare leader",
+          "relationships": {
+            "Isengrim Faoiltiarna": "Works with"
+          }
+        }
+      }
+    },
+    "isengrim-faoiltiarna": {
+      "name": "Isengrim Faoiltiarna",
+      "aliases": ["Iron Wolf"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another prominent Scoia'tael leader, known for his tactical brilliance and unwavering commitment to the elven cause.",
+          "role": "Scoia'tael leader",
+          "relationships": {
+            "Iorveth": "Allied with",
+            "Francesca Findabair": "Serves cause of"
+          }
+        }
+      }
+    },
+    "toruviel": {
+      "name": "Toruviel",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A female elven archer serving in the Scoia'tael. Represents the younger generation of elves fighting for their survival.",
+          "role": "Elven guerrilla",
+          "relationships": {
+            "Scoia'tael": "Member of",
+            "Iorveth": "Serves under"
+          }
+        }
+      }
+    },
+    "brokilon-dryads": {
+      "name": "Brokilon Dryads",
+      "aliases": ["Forest Guardians"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The tree spirits of Brokilon Forest who guard their ancient domain against all intruders, regardless of the ongoing war.",
+          "role": "Forest protectors",
+          "relationships": {
+            "Eithné": "Led by",
+            "Brokilon Forest": "Protects"
+          }
+        }
+      }
+    },
+    "eithne": {
+      "name": "Eithné",
+      "aliases": ["Queen of the Dryads"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The ancient queen of the Brokilon dryads, who has ruled the forest for centuries and opposes any who would defile her realm.",
+          "role": "Dryad queen",
+          "relationships": {
+            "Brokilon Dryads": "Queen of",
+            "Ciri": "Previously encountered"
+          }
+        }
+      }
+    },
+    "refugee-leader-maria": {
+      "name": "Maria",
+      "aliases": ["The Refugee Leader"],
+      "appearances": [2, 3, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A woman who has taken charge of a group of war refugees fleeing the Nilfgaardian advance. Shows the human cost of the invasion.",
+          "role": "Refugee leader",
+          "relationships": {
+            "War Refugees": "Leads and protects"
+          }
+        }
+      }
+    },
+    "war-refugees": {
+      "name": "War Refugees",
+      "aliases": ["Displaced People"],
+      "appearances": [2, 3, 5, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Masses of civilians fleeing the war, carrying their few possessions and desperate for safety. They represent the true cost of the conflict.",
+          "role": "War victims",
+          "relationships": {
+            "Maria": "Some led by",
+            "Northern Kingdoms": "Refugees from"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Continue their desperate journey, some joining together for protection while others fall by the wayside. Their plight touches Geralt's company.",
+          "role": "Desperate survivors",
+          "relationships": {
+            "Geralt's Company": "Encountered by"
+          }
+        }
+      }
+    },
+    "mousesack": {
+      "name": "Mousesack",
+      "aliases": ["Ermion"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The druid who served Cintra and knew Ciri. His knowledge of her whereabouts is crucial to Geralt's search, though he has limited information.",
+          "role": "Druid advisor",
+          "relationships": {
+            "Ciri": "Former protector of",
+            "Cintra": "Former advisor to"
+          }
+        }
+      }
+    },
+    "skellige-druids": {
+      "name": "Skellige Druids",
+      "aliases": ["An Craite Druids"],
+      "appearances": [1, 2, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Druids from the Skellige Isles who possess ancient knowledge and maintain the old traditions. Some aid in the search for Ciri.",
+          "role": "Traditional keepers",
+          "relationships": {
+            "Mousesack": "Associates of",
+            "Skellige": "Represents spiritually"
+          }
+        }
+      }
+    },
+    "queen-calanthe-spirit": {
+      "name": "Queen Calanthe",
+      "aliases": ["Calanthe of Cintra", "The Lioness"],
+      "appearances": [1, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Though dead, Queen Calanthe's memory and influence continue to haunt the story, particularly regarding Ciri's fate and Geralt's responsibility.",
+          "role": "Deceased queen's legacy",
+          "relationships": {
+            "Ciri": "Grandmother of",
+            "Geralt": "Bound him by Law of Surprise"
+          }
+        }
+      }
+    },
+    "northern-army-captain-horn": {
+      "name": "Captain Horn",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Northern Kingdom officer trying to maintain military discipline during the retreat. Represents the collapsing military structure.",
+          "role": "Northern military officer",
+          "relationships": {
+            "Northern Armies": "Officer in"
+          }
+        }
+      }
+    },
+    "sergeant-thorak": {
+      "name": "Sergeant Thorak",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A grizzled Northern sergeant who has survived multiple battles. Represents the experienced soldiers holding the line.",
+          "role": "Veteran sergeant",
+          "relationships": {
+            "Northern Armies": "Non-commissioned officer in"
+          }
+        }
+      }
+    },
+    "nilfgaardian-scout-captain": {
+      "name": "Scout Captain Voorhis",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Nilfgaardian reconnaissance officer gathering intelligence on enemy movements. Shows the professionalism of Nilfgaard's military.",
+          "role": "Nilfgaardian scout leader",
+          "relationships": {
+            "Field Marshal Coehoorn": "Reports intelligence to"
+          }
+        }
+      }
+    },
+    "wounded-soldier-pavel": {
+      "name": "Pavel",
+      "aliases": ["The Wounded Soldier"],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A badly wounded Northern soldier encountered by Geralt's company. His condition shows the brutal reality of the ongoing war.",
+          "role": "War casualty",
+          "relationships": {
+            "Regis": "Treated by",
+            "Northern Armies": "Wounded veteran of"
+          }
+        }
+      }
+    },
+    "field-medic-anna": {
+      "name": "Anna",
+      "aliases": ["The Field Medic"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A woman serving as a field medic, treating wounded soldiers and refugees. Shows the healers working amidst the chaos of war.",
+          "role": "Field medic",
+          "relationships": {
+            "War Wounded": "Tends to",
+            "Regis": "Shares medical knowledge with"
+          }
+        }
+      }
+    },
+    "dwarf-veteran-munro": {
+      "name": "Munro Bruys",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A dwarf veteran who provides information about the war's progress. Part of the non-human network supporting Geralt.",
+          "role": "Dwarf informant",
+          "relationships": {
+            "Zoltan Chivay": "Associates with",
+            "Geralt": "Provides information to"
+          }
+        }
+      }
+    },
+    "halfling-innkeeper-dainty": {
+      "name": "Dainty Biberveldt",
+      "aliases": [],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A halfling merchant and innkeeper who provides food and shelter to travelers. Represents the civilian merchants trying to continue business during wartime.",
+          "role": "Merchant and innkeeper",
+          "relationships": {
+            "Geralt's Company": "Provides services to"
+          }
+        }
+      }
+    },
+    "traveling-merchant-borch": {
+      "name": "Borch Three Jackdaws",
+      "aliases": ["Villentretenmerth"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A mysterious figure encountered during the journey, whose true nature as a dragon remains hidden. Provides cryptic advice about Ciri.",
+          "role": "Mysterious traveler",
+          "relationships": {
+            "Geralt": "Old acquaintance of",
+            "Ciri": "Shows interest in fate of"
+          }
+        }
+      }
+    },
+    "elven-sage-filavandrel": {
+      "name": "Filavandrel",
+      "aliases": ["Filavandrel aén Fidháil"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven leader who chooses a different path from the Scoia'tael, seeking wisdom over warfare. Represents the older elven perspective.",
+          "role": "Elven sage",
+          "relationships": {
+            "Scoia'tael": "Opposes methods of",
+            "Elves": "Alternative leader for"
+          }
+        }
+      }
+    }
+  },
+    "war-orphan-tim": {
+      "name": "Tim",
+      "aliases": ["The War Orphan"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young boy orphaned by the war, representing the innocent victims of the conflict. His plight affects the company's moral choices.",
+          "role": "War orphan",
+          "relationships": {
+            "War Refugees": "Travels with",
+            "Dandelion": "Shows kindness to"
+          }
+        }
+      }
+    },
+    "elder-refugee-woman": {
+      "name": "Elder Marta",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly woman among the refugees who has lost everything but maintains dignity and helps others despite her own suffering.",
+          "role": "Elder refugee",
+          "relationships": {
+            "War Refugees": "Wisdom figure among"
+          }
+        }
+      }
+    },
+    "scoia-tael-archer-cedric": {
+      "name": "Cedric",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A skilled Scoia'tael archer who represents the younger generation of elves fighting for survival and revenge.",
+          "role": "Scoia'tael archer",
+          "relationships": {
+            "Iorveth": "Serves under",
+            "Toruviel": "Fights alongside"
+          }
+        }
+      }
+    },
+    "nilfgaardian-mage-advisor": {
+      "name": "Ardal aep Dahy",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Nilfgaardian noble and military advisor who represents the empire's strategic planning and political sophistication.",
+          "role": "Nilfgaardian advisor",
+          "relationships": {
+            "Field Marshal Coehoorn": "Advises on strategy"
+          }
+        }
+      }
+    },
+    "temple-priestess": {
+      "name": "Priestess Iola",
+      "aliases": [],
+      "appearances": [1, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A priestess who tends to Geralt's injuries at the temple. Represents the religious institutions trying to maintain neutrality during the war.",
+          "role": "Temple healer",
+          "relationships": {
+            "Geralt": "Heals and aids",
+            "Temple": "Serves"
+          }
+        }
+      }
+    },
+    "boat-captain-cornelius": {
+      "name": "Captain Cornelius",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A river boat captain who helps transport people across dangerous waters during the war. Shows the civilians adapting to wartime dangers.",
+          "role": "River boat captain",
+          "relationships": {
+            "Geralt's Company": "Transports",
+            "War Refugees": "Sometimes helps"
+          }
+        }
+      }
+    },
+    "mercenary-leader-nightingale": {
+      "name": "Nightingale",
+      "aliases": ["The Black Nightingale"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A mercenary company leader who operates in the chaos of war. Represents the professional soldiers fighting for coin rather than cause.",
+          "role": "Mercenary leader",
+          "relationships": {
+            "Free Company": "Commands",
+            "Various Employers": "Sells services to"
+          }
+        }
+      }
     }
   },
   "recaps": {
@@ -331,6 +834,6 @@
     "5": "The company continues their journey, facing various dangers and obstacles. The bonds between the members strengthen as they work together, though tensions sometimes arise from their different perspectives and goals.",
     "6": "Meanwhile, Ciri struggles to survive on her own in harsh conditions. Her experiences are changing her, making her harder and more dangerous. The company gets closer to finding traces of her path.",
     "7": "The search intensifies as various parties converge on Ciri's trail. Yennefer pursues her own investigation while Vilgefortz's true agenda becomes clearer. Political machinations continue in the background.",
-    "8": "Ciri's path takes a dark turn as she encounters and joins a criminal gang known as the Rats. Her transformation continues as she adapts to survive in an increasingly harsh world, while Geralt's company closes in on her location."
+    "8": "Ciri's path takes a dark turn as she encounters and joins a criminal gang known as the Rats. Her transformation continues as she adapts to survive in an increasingly harsh world, while Geralt's company closes in on her location. The war continues to rage around them, with refugees, soldiers, and various factions all caught up in the greater conflict."
   }
 }

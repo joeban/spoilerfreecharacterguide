@@ -324,6 +324,534 @@
           }
         }
       }
+    },
+    "king-niedamir": {
+      "name": "King Niedamir",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The young King of Caingorn who hires dragon hunters to kill the dragon terrorizing his lands. Ambitious and somewhat naive.",
+          "role": "King of Caingorn",
+          "relationships": {
+            "Borch Three Jackdaws": "Hires",
+            "Geralt": "Contracts with"
+          }
+        }
+      }
+    },
+    "sheepbagger": {
+      "name": "Sheepbagger",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A crude dragon hunter who joins the expedition. Known for his vulgarity and greed rather than skill.",
+          "role": "Dragon hunter",
+          "relationships": {
+            "Boholt": "Works with",
+            "Geralt": "Competes with"
+          }
+        }
+      }
+    },
+    "boholt": {
+      "name": "Boholt",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An experienced and brutal dragon hunter who leads one of the hunting parties. Values dragon parts over dragon lives.",
+          "role": "Professional dragon hunter",
+          "relationships": {
+            "Sheepbagger": "Partner with",
+            "Geralt": "Rival hunter"
+          }
+        }
+      }
+    },
+    "kennet": {
+      "name": "Kennet",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of Boholt's dragon hunting party. Less experienced than his leader but equally mercenary.",
+          "role": "Dragon hunter",
+          "relationships": {
+            "Boholt": "Follower of",
+            "Sheepbagger": "Works with"
+          }
+        }
+      }
+    },
+    "cobbing": {
+      "name": "Cobbing",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A dwarf warrior in Yarpen Zigrin's company. Skilled with ax and crossbow.",
+          "role": "Dwarf warrior",
+          "relationships": {
+            "Yarpen Zigrin": "Serves under",
+            "Paulie Dahlberg": "Fellow dwarf fighter"
+          }
+        }
+      }
+    },
+    "rivel": {
+      "name": "Rivel",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another dwarf in Yarpen's company, known for his loyalty and combat skills.",
+          "role": "Dwarf warrior",
+          "relationships": {
+            "Yarpen Zigrin": "Loyal to",
+            "Cobbing": "Fellow warrior"
+          }
+        }
+      }
+    },
+    "paulie-dahlberg-sod": {
+      "name": "Paulie Dahlberg",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A dwarf in Yarpen Zigrin's company during the dragon hunt. Experienced fighter and loyal companion.",
+          "role": "Dwarf warrior",
+          "relationships": {
+            "Yarpen Zigrin": "Member of company",
+            "Geralt": "Allies with"
+          }
+        }
+      }
+    },
+    "nischuka": {
+      "name": "Nischuka",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A sea captain in Bremervoord who knows about the mysterious sea creature terrorizing the coast.",
+          "role": "Sea captain",
+          "relationships": {
+            "Geralt": "Provides information to",
+            "Dandelion": "Tells stories to"
+          }
+        }
+      }
+    },
+    "agloval": {
+      "name": "Agloval",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young fisherman in Bremervoord whose boat was attacked by the sea creature. Provides firsthand testimony.",
+          "role": "Fisherman",
+          "relationships": {
+            "Sea creature": "Attacked by",
+            "Geralt": "Witness testimony to"
+          }
+        }
+      }
+    },
+    "teleri": {
+      "name": "Teleri",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A local woman in Bremervoord who runs a tavern where bards and travelers gather. Knows local legends.",
+          "role": "Tavern keeper",
+          "relationships": {
+            "Little Eye": "Hosts",
+            "Dandelion": "Provides lodging to"
+          }
+        }
+      }
+    },
+    "alderman-bremervoord": {
+      "name": "Bremervoord Alderman",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The local leader of Bremervoord who hires Geralt to deal with the sea monster threatening their fishing industry.",
+          "role": "Town leader",
+          "relationships": {
+            "Geralt": "Hires for monster contract",
+            "Fishermen": "Represents"
+          }
+        }
+      }
+    },
+    "braenn-brokilon": {
+      "name": "Braenn",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young dryad archer in Brokilon Forest. Skilled with a bow and fiercely protective of the forest.",
+          "role": "Dryad archer",
+          "relationships": {
+            "Eithné": "Serves",
+            "Ciri": "Protects"
+          }
+        }
+      }
+    },
+    "morenn": {
+      "name": "Morenn",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another dryad in Brokilon, older and more experienced than Braenn. Serves as a guide and guardian.",
+          "role": "Dryad guide",
+          "relationships": {
+            "Eithné": "Senior dryad under",
+            "Braenn": "Senior to"
+          }
+        }
+      }
+    },
+    "sirssa": {
+      "name": "Sirssa",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A dryad healer in Brokilon who tends to wounded creatures and lost travelers who are deemed worthy.",
+          "role": "Dryad healer",
+          "relationships": {
+            "Eithné": "Serves",
+            "Ciri": "Heals"
+          }
+        }
+      }
+    },
+    "merchant-geso": {
+      "name": "Geso",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A merchant whose caravan was attacked near Brokilon Forest. One of the few survivors to tell the tale.",
+          "role": "Merchant survivor",
+          "relationships": {
+            "Dryads": "Attacked by",
+            "Geralt": "Warns"
+          }
+        }
+      }
+    },
+    "duke-gryphon": {
+      "name": "Duke of Gryphon",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A noble who has territorial disputes near Brokilon Forest. His men sometimes clash with the dryads.",
+          "role": "Duke",
+          "relationships": {
+            "Eithné": "Territorial conflict with",
+            "Brokilon": "Encroaches on"
+          }
+        }
+      }
+    },
+    "sabrina-glevissig": {
+      "name": "Sabrina Glevissig",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A sorceress who participates in the magical gatherings. Known for her volatile temper and powerful magic.",
+          "role": "Sorceress",
+          "relationships": {
+            "Yennefer": "Professional colleague",
+            "Tissaia": "Former student"
+          }
+        }
+      }
+    },
+    "radcliffe": {
+      "name": "Radcliffe",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A sorcerer who attends the magical council meetings. More conservative in his approach to magic and politics.",
+          "role": "Sorcerer",
+          "relationships": {
+            "Vilgefortz": "Colleague of",
+            "Tissaia": "Council member with"
+          }
+        }
+      }
+    },
+    "atlan-kerk": {
+      "name": "Atlan Kerk",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A sorcerer involved in the Brotherhood's political discussions. Represents interests from the northern kingdoms.",
+          "role": "Northern sorcerer",
+          "relationships": {
+            "Brotherhood": "Member of",
+            "Northern Kingdoms": "Represents"
+          }
+        }
+      }
+    },
+    "gorazd": {
+      "name": "Gorazd",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A wizard who participates in the magical community's political debates. Known for his scholarly approach.",
+          "role": "Scholar wizard",
+          "relationships": {
+            "Tissaia": "Academic colleague",
+            "Other mages": "Debates with"
+          }
+        }
+      }
+    },
+    "istredd": {
+      "name": "Istredd",
+      "aliases": [],
+      "appearances": [1, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A sorcerer and archaeologist who was Yennefer's former lover. Still harbors feelings for her despite her relationship with Geralt.",
+          "role": "Archaeologist sorcerer",
+          "relationships": {
+            "Yennefer": "Former lover of",
+            "Geralt": "Rival of"
+          }
+        }
+      }
+    },
+    "captain-pantoufle": {
+      "name": "Captain Pantoufle",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A ship captain in Bremervoord who has experience with sea monsters and provides maritime expertise.",
+          "role": "Ship captain",
+          "relationships": {
+            "Geralt": "Advises on sea monster",
+            "Local fishermen": "Works with"
+          }
+        }
+      }
+    },
+    "percival-schuttenbach": {
+      "name": "Percival Schuttenbach",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A halfling musician who performs at the taverns in Bremervoord. Friend to traveling bards.",
+          "role": "Halfling musician",
+          "relationships": {
+            "Dandelion": "Fellow musician",
+            "Little Eye": "Performs with"
+          }
+        }
+      }
+    },
+    "dainty-biberveldt": {
+      "name": "Dainty Biberveldt",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A successful halfling merchant who trades throughout the northern kingdoms. Known for his business acumen.",
+          "role": "Halfling merchant",
+          "relationships": {
+            "Geralt": "Business acquaintance",
+            "Dandelion": "Occasional patron"
+          }
+        }
+      }
+    },
+    "halfling-woman-perry": {
+      "name": "Perry",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A halfling woman in Bremervoord who runs a boarding house for travelers and merchants.",
+          "role": "Halfling innkeeper",
+          "relationships": {
+            "Dainty Biberveldt": "Business associate",
+            "Travelers": "Provides lodging to"
+          }
+        }
+      }
+    },
+    "priest-melitele-oxenfurt": {
+      "name": "Father Krepp",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A priest of Melitele in Oxenfurt who provides spiritual guidance and healing to those in need.",
+          "role": "Priest of Melitele",
+          "relationships": {
+            "Nenneke": "Fellow priest with",
+            "Temple refugees": "Ministers to"
+          }
+        }
+      }
+    },
+    "jacques-de-aldersberg": {
+      "name": "Jacques de Aldersberg",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A knight of the Order of the Flaming Rose who represents the militant branch of the Eternal Fire religion.",
+          "role": "Order knight",
+          "relationships": {
+            "Chappelle": "Serves under",
+            "Non-humans": "Persecutes"
+          }
+        }
+      }
+    },
+    "guard-captain-oxenfurt": {
+      "name": "Captain Stennis",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The captain of the Oxenfurt city guard who maintains order and deals with the various factions in the city.",
+          "role": "Guard captain",
+          "relationships": {
+            "Chappelle": "Coordinates with",
+            "Geralt": "Professional interaction with"
+          }
+        }
+      }
+    },
+    "king-vizimir": {
+      "name": "King Vizimir",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The King of Redania who employs sorceresses as advisors and is involved in the political machinations of the northern kingdoms.",
+          "role": "King of Redania",
+          "relationships": {
+            "Philippa Eilhart": "Employs as advisor",
+            "Northern Kingdoms": "Rules one of"
+          }
+        }
+      }
+    },
+    "school-cat-witcher": {
+      "name": "Cat School Witcher",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A witcher from the School of the Cat encountered during Geralt's search for Ciri. More aggressive than Wolf School witchers.",
+          "role": "Cat School witcher",
+          "relationships": {
+            "Geralt": "Professional rival",
+            "School of Cat": "Member of"
+          }
+        }
+      }
+    },
+    "nilfgaardian-merchant": {
+      "name": "Nilfgaardian Merchant",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A merchant from the south who brings news of Nilfgaard's military movements and Cintra's situation.",
+          "role": "Southern merchant",
+          "relationships": {
+            "Ciri": "Brings news about",
+            "Geralt": "Informs"
+          }
+        }
+      }
+    },
+    "cintra-refugee": {
+      "name": "Cintran Refugee",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A survivor of Cintra's fall who recognizes Ciri and helps Geralt understand what happened to the kingdom.",
+          "role": "War refugee",
+          "relationships": {
+            "Ciri": "Recognizes",
+            "Queen Calanthe": "Former subject of"
+          }
+        }
+      }
+    },
+    "wagon-driver": {
+      "name": "Wagon Driver",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The merchant who has been caring for Ciri during her flight from Cintra. Shows kindness to the orphaned princess.",
+          "role": "Merchant driver",
+          "relationships": {
+            "Ciri": "Protects and cares for",
+            "Geralt": "Entrusts Ciri to"
+          }
+        }
+      }
     }
   },
   "recaps": {

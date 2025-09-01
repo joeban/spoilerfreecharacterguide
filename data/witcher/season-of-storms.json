@@ -246,6 +246,439 @@
           }
         }
       }
+    },
+    "queen-hedvig": {
+      "name": "Queen Hedvig",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Queen of Kerack and wife to King Belohun. She is involved in the complex politics of succession and court intrigue.",
+          "role": "Queen of Kerack",
+          "relationships": {
+            "King Belohun": "Wife of",
+            "Royal Court": "Influential in"
+          }
+        }
+      }
+    },
+    "courtier-van-schagen": {
+      "name": "Courtier van Schagen",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A prominent courtier at the Kerack court who is involved in the political maneuvering around the royal succession.",
+          "role": "Royal courtier",
+          "relationships": {
+            "King Belohun": "Serves",
+            "Court Politics": "Participates in"
+          }
+        }
+      }
+    },
+    "captain-of-guards-ferrant": {
+      "name": "Captain Ferrant",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The captain of the royal guard in Kerack, responsible for the king's security and maintaining order in the palace.",
+          "role": "Guard captain",
+          "relationships": {
+            "King Belohun": "Protects",
+            "Royal Guards": "Commands"
+          }
+        }
+      }
+    },
+    "chancellor-var-enge": {
+      "name": "Chancellor var Enge",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The royal chancellor of Kerack who handles administrative duties and advises the king on matters of state.",
+          "role": "Royal chancellor",
+          "relationships": {
+            "King Belohun": "Chief advisor to",
+            "Kerack Administration": "Oversees"
+          }
+        }
+      }
+    },
+    "court-jester-cicada": {
+      "name": "Cicada",
+      "aliases": ["The Royal Fool"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The court jester of Kerack who provides entertainment but also serves as a source of unfiltered truth and wisdom.",
+          "role": "Court fool",
+          "relationships": {
+            "Royal Court": "Entertains",
+            "King Belohun": "Speaks truth to"
+          }
+        }
+      }
+    },
+    "lady-vanna": {
+      "name": "Lady Vanna",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A noble lady at the Kerack court who is involved in the social and political intrigues surrounding the royal family.",
+          "role": "Court lady",
+          "relationships": {
+            "Queen Hedvig": "Lady-in-waiting to",
+            "Court Society": "Influential in"
+          }
+        }
+      }
+    },
+    "rissberg-sorceror-ortolan": {
+      "name": "Ortolan",
+      "aliases": [],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A powerful sorcerer at Rissberg who conducts dangerous magical experiments and research into forbidden arts.",
+          "role": "Experimental sorcerer",
+          "relationships": {
+            "Rissberg Council": "Senior member of",
+            "Magical Experiments": "Leads"
+          }
+        }
+      }
+    },
+    "rissberg-sorcerer-axii": {
+      "name": "Axii",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Rissberg sorcerer specializing in mind control magic, representing the darker aspects of magical research.",
+          "role": "Mind control specialist",
+          "relationships": {
+            "Rissberg Council": "Member of",
+            "Ortolan": "Works with"
+          }
+        }
+      }
+    },
+    "rissberg-apprentice-nimue": {
+      "name": "Young Nimue",
+      "aliases": ["Apprentice Nimue"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A young apprentice at Rissberg who is learning the magical arts, representing the next generation of sorcerers.",
+          "role": "Magical apprentice",
+          "relationships": {
+            "Rissberg Academy": "Student at",
+            "Magical Studies": "Devoted to"
+          }
+        }
+      }
+    },
+    "criminal-leader-skomlik": {
+      "name": "Skomlik",
+      "aliases": ["The Boss"],
+      "appearances": [2, 3, 4, 17],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The leader of a criminal organization that operates in the area where Geralt's swords were stolen. He has connections to the theft.",
+          "role": "Crime boss",
+          "relationships": {
+            "Otto Dussart": "Employs",
+            "Criminal Network": "Heads"
+          }
+        }
+      }
+    },
+    "thief-guild-leader-halfling": {
+      "name": "Dainty Biberveldt",
+      "aliases": ["The Halfling Boss"],
+      "appearances": [2, 3, 17, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A halfling who runs various legitimate and illegitimate businesses, including connections to theft and smuggling operations.",
+          "role": "Halfling crime boss",
+          "relationships": {
+            "Thieves Guild": "Connected to",
+            "Geralt": "Eventually aids"
+          }
+        }
+      }
+    },
+    "fence-casimir": {
+      "name": "Casimir",
+      "aliases": ["The Fence"],
+      "appearances": [3, 4, 17],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A dealer in stolen goods who becomes involved in the trafficking of Geralt's stolen swords.",
+          "role": "Stolen goods dealer",
+          "relationships": {
+            "Criminal Network": "Part of",
+            "Witcher Swords": "Handles"
+          }
+        }
+      }
+    },
+    "ship-captain-wolverstone": {
+      "name": "Captain Wolverstone",
+      "aliases": [],
+      "appearances": [14, 15, 16, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The captain of a merchant vessel who becomes involved in transporting Geralt and his companions during their adventures.",
+          "role": "Ship captain",
+          "relationships": {
+            "Geralt": "Transports",
+            "Merchant Vessel": "Commands"
+          }
+        }
+      }
+    },
+    "first-mate-three-jackdaws": {
+      "name": "First Mate Jackdaws",
+      "aliases": [],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The first mate on Captain Wolverstone's ship, responsible for day-to-day operations and crew management.",
+          "role": "Ship's first mate",
+          "relationships": {
+            "Captain Wolverstone": "Second-in-command to",
+            "Ship's Crew": "Manages"
+          }
+        }
+      }
+    },
+    "sailor-van-houten": {
+      "name": "Sailor van Houten",
+      "aliases": [],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "An experienced sailor on Wolverstone's crew who knows the dangerous waters they navigate.",
+          "role": "Experienced sailor",
+          "relationships": {
+            "Ship's Crew": "Member of",
+            "Maritime Dangers": "Expert on"
+          }
+        }
+      }
+    },
+    "cook-fishgullet": {
+      "name": "Fishgullet",
+      "aliases": ["Ship's Cook"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The ship's cook who provides meals for the crew and passengers, often serving as a source of ship's gossip and information.",
+          "role": "Ship's cook",
+          "relationships": {
+            "Ship's Crew": "Feeds",
+            "Ship Gossip": "Source of"
+          }
+        }
+      }
+    },
+    "festival-organizer-borsodi": {
+      "name": "Borsodi",
+      "aliases": ["The Festival Master"],
+      "appearances": [18, 19, 20],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "The organizer of a local festival that Geralt attends, representing the civilian celebrations and community life.",
+          "role": "Festival organizer",
+          "relationships": {
+            "Local Community": "Serves",
+            "Festival Activities": "Coordinates"
+          }
+        }
+      }
+    },
+    "festival-performer-buttercup": {
+      "name": "Buttercup",
+      "aliases": ["The Performer"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A performer at the festival who entertains the crowds with music and stories, similar to Dandelion's profession.",
+          "role": "Festival entertainer",
+          "relationships": {
+            "Festival Goers": "Entertains",
+            "Dandelion": "Similar profession to"
+          }
+        }
+      }
+    },
+    "festival-merchant-vivaldi": {
+      "name": "Vivaldi",
+      "aliases": ["The Banker"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A wealthy merchant and banker who attends the festival, representing the commercial interests in the community.",
+          "role": "Merchant banker",
+          "relationships": {
+            "Local Economy": "Influences",
+            "Festival Commerce": "Participates in"
+          }
+        }
+      }
+    },
+    "tavern-keeper-vesemir": {
+      "name": "Vesemir the Innkeeper",
+      "aliases": ["Old Vesemir"],
+      "appearances": [1, 17, 18],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An elderly tavern keeper who serves Geralt and Dandelion at the beginning of their adventure, providing local information and gossip.",
+          "role": "Tavern keeper",
+          "relationships": {
+            "Geralt": "Serves",
+            "Local Information": "Source of"
+          }
+        }
+      }
+    },
+    "blacksmith-hattori": {
+      "name": "Master Hattori",
+      "aliases": [],
+      "appearances": [3, 4, 22],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A skilled blacksmith who has knowledge about witcher swords and their unique properties, potentially helpful in Geralt's quest.",
+          "role": "Master blacksmith",
+          "relationships": {
+            "Witcher Weapons": "Expert on",
+            "Geralt": "Provides expertise to"
+          }
+        }
+      }
+    },
+    "temple-priestess-melitele": {
+      "name": "Priestess of Melitele",
+      "aliases": [],
+      "appearances": [7, 8, 15],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A priestess serving the goddess Melitele who provides healing and sanctuary to those in need, including Geralt.",
+          "role": "Temple healer",
+          "relationships": {
+            "Melitele": "Serves goddess",
+            "Wounded": "Heals"
+          }
+        }
+      }
+    },
+    "royal-physician-carduin": {
+      "name": "Dr. Carduin",
+      "aliases": [],
+      "appearances": [7, 8, 15],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The royal physician of Kerack who tends to the health of the royal family and important court members.",
+          "role": "Royal physician",
+          "relationships": {
+            "King Belohun": "Personal physician to",
+            "Royal Family": "Medical care for"
+          }
+        }
+      }
+    },
+    "stable-master-roach-keeper": {
+      "name": "Stable Master Gerwin",
+      "aliases": [],
+      "appearances": [5, 6, 15],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The stable master at the royal castle who cares for horses including Roach, Geralt's faithful mount.",
+          "role": "Stable master",
+          "relationships": {
+            "Roach": "Cares for",
+            "Royal Stables": "Manages"
+          }
+        }
+      }
+    },
+    "guard-sergeant-lambert": {
+      "name": "Sergeant Lambert",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A veteran guard sergeant who serves in the royal guard, experienced in combat and loyal to the crown.",
+          "role": "Guard sergeant",
+          "relationships": {
+            "Captain Ferrant": "Serves under",
+            "Royal Guards": "Senior NCO of"
+          }
+        }
+      }
+    },
+    "court-spy-network-leader": {
+      "name": "Spymaster Roche",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The head of the royal intelligence network in Kerack, responsible for gathering information and protecting state secrets.",
+          "role": "Royal spymaster",
+          "relationships": {
+            "King Belohun": "Reports directly to",
+            "Intelligence Network": "Commands"
+          }
+        }
+      }
+    }
+  },
+    "mysterious-hooded-figure": {
+      "name": "The Hooded Stranger",
+      "aliases": ["Unknown Benefactor"],
+      "appearances": [20, 21, 22],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A mysterious figure who appears near the end of Geralt's adventure, possibly connected to larger forces at work in the world.",
+          "role": "Mysterious figure",
+          "relationships": {
+            "Geralt": "Observes from distance",
+            "Greater Forces": "May represent"
+          }
+        }
+      }
     }
   },
   "recaps": {
