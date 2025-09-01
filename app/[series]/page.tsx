@@ -1,7 +1,7 @@
 import { getSeries, getBooksInSeries } from '@/lib/dataLoader';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import BookSpine from '@/components/BookSpine';
+import SeriesBookshelf from '@/components/SeriesBookshelf';
 import Breadcrumb from '@/components/Breadcrumb';
 
 export default async function SeriesPage({
@@ -45,24 +45,9 @@ export default async function SeriesPage({
         </p>
       </div>
       
-      {/* Books display - Using BookSpine component for consistency */}
-      <div className="max-w-6xl mx-auto mb-16">
-        <div className="flex flex-wrap justify-center gap-8">
-          {books.map(({ slug, book }) => (
-            <Link
-              key={slug}
-              href={`/${params.series}/${slug}`}
-              className="block"
-            >
-              <BookSpine
-                title={book.title}
-                author={`${book.published} • ${book.chapters} chapters`}
-                bookCount={book.chapters}
-                orientation="vertical"
-              />
-            </Link>
-          ))}
-        </div>
+      {/* Books display - Using SeriesBookshelf component for consistency */}
+      <div className="mb-16">
+        <SeriesBookshelf books={books} seriesSlug={params.series} />
       </div>
       
       {/* Amazon affiliate section - AFTER books */}
