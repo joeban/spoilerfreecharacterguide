@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "Blood of Elves",
+    "author": "Andrzej Sapkowski",
+    "chapters": 7,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "geralt-of-rivia": {
+      "name": "Geralt of Rivia",
+      "aliases": ["The White Wolf", "Gwynbleidd"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The famous witcher has taken responsibility for a young girl with mysterious powers. He brings her to the witcher stronghold of Kaer Morhen for training and protection.",
+          "role": "Ciri's guardian and mentor",
+          "relationships": {
+            "Ciri": "Guardian of",
+            "Vesemir": "Fellow witcher",
+            "Triss Merigold": "Seeks help from"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Shows deep concern for Ciri's magical abilities, which seem beyond normal training. Seeks the help of sorceresses to understand her powers.",
+          "role": "Worried guardian",
+          "relationships": {
+            "Ciri": "Protective of",
+            "Yennefer": "Former lover, seeks help from"
+          }
+        }
+      }
+    },
+    "ciri": {
+      "name": "Ciri",
+      "aliases": ["Cirilla", "Princess of Cintra", "The Child Surprise"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young girl of royal blood who survived the fall of Cintra. She has mysterious magical powers that manifest unpredictably. Currently training as a witcher at Kaer Morhen.",
+          "role": "Student and ward",
+          "relationships": {
+            "Geralt": "Guardian and destiny",
+            "Vesemir": "Trained by",
+            "Lambert": "Fellow student",
+            "Eskel": "Fellow student"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Her magical abilities are growing stronger and more dangerous. She experiences terrifying visions and magical outbursts that concern everyone at Kaer Morhen.",
+          "role": "Untrained sorceress",
+          "relationships": {
+            "Triss Merigold": "Taught by"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Begins formal magical training with a sorceress. Her powers are revealed to be extraordinarily dangerous and potentially world-changing.",
+          "role": "Student of magic",
+          "relationships": {
+            "Yennefer": "Student of"
+          }
+        }
+      }
+    },
+    "yennefer": {
+      "name": "Yennefer of Vengerberg",
+      "aliases": ["Yen", "The Sorceress of Vengerberg"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A powerful sorceress who agrees to take on Ciri's magical education. She is stern but deeply invested in Ciri's development, seeing great potential and danger in the girl's abilities.",
+          "role": "Ciri's magical instructor",
+          "relationships": {
+            "Ciri": "Student and ward",
+            "Geralt": "Former lover, complicated relationship"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Becomes increasingly protective of Ciri as political tensions rise. Her relationship with Geralt remains complex as they both care for the girl.",
+          "role": "Protective mentor",
+          "relationships": {
+            "Ciri": "Fiercely protective of"
+          }
+        }
+      }
+    },
+    "vesemir": {
+      "name": "Vesemir",
+      "aliases": ["The Old Wolf"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The oldest and most experienced witcher at Kaer Morhen. He serves as a father figure to the younger witchers and takes on the role of training Ciri in combat and witcher ways.",
+          "role": "Elder witcher, trainer",
+          "relationships": {
+            "Geralt": "Trained and mentored",
+            "Ciri": "Trains in combat",
+            "Lambert": "Fellow witcher",
+            "Eskel": "Fellow witcher"
+          }
+        }
+      }
+    },
+    "triss-merigold": {
+      "name": "Triss Merigold",
+      "aliases": ["Triss", "The Fourteenth of the Hill"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young sorceress who comes to Kaer Morhen to help with Ciri's magical education. She is kind and patient, making her well-suited to work with the frightened girl.",
+          "role": "Magical instructor",
+          "relationships": {
+            "Ciri": "First magic teacher",
+            "Geralt": "Ally and friend"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Recognizes that Ciri's powers are beyond her ability to safely train. Recommends seeking help from more experienced sorceresses.",
+          "role": "Concerned teacher",
+          "relationships": {
+            "Yennefer": "Colleague, defers to"
+          }
+        }
+      }
+    },
+    "lambert": {
+      "name": "Lambert",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A younger witcher at Kaer Morhen, known for his cynical attitude and sharp tongue. He's initially skeptical about training a girl as a witcher.",
+          "role": "Witcher, reluctant instructor",
+          "relationships": {
+            "Vesemir": "Fellow witcher",
+            "Eskel": "Fellow witcher",
+            "Ciri": "Reluctant trainer"
+          }
+        }
+      }
+    },
+    "eskel": {
+      "name": "Eskel",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A witcher at Kaer Morhen who is more gentle and understanding than Lambert. His face is scarred from an encounter with a forktail. He becomes fond of Ciri and supports her training.",
+          "role": "Witcher, supportive mentor",
+          "relationships": {
+            "Vesemir": "Fellow witcher",
+            "Lambert": "Fellow witcher",
+            "Ciri": "Supportive trainer"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "aliases": ["Jaskier", "The Bard"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Geralt's loyal friend and traveling companion, a bard with a talent for getting into trouble. He becomes involved in the growing political tensions surrounding Ciri.",
+          "role": "Bard, loyal friend",
+          "relationships": {
+            "Geralt": "Best friend and companion"
+          }
+        }
+      }
+    },
+    "foltest": {
+      "name": "King Foltest",
+      "aliases": ["King of Temeria"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The King of Temeria who becomes increasingly interested in Ciri as political tensions rise. He represents the growing threat of kingdoms seeking to use Ciri for their own purposes.",
+          "role": "King of Temeria",
+          "relationships": {
+            "Ciri": "Seeks to control"
+          }
+        }
+      }
+    },
+    "dijkstra": {
+      "name": "Dijkstra",
+      "aliases": ["Sigismund Dijkstra", "The Spymaster"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The spymaster of Redania, a large and intelligent man who understands the political implications of Ciri's powers. He represents the intelligence networks seeking information about her.",
+          "role": "Spymaster, intelligence gatherer",
+          "relationships": {
+            "Ciri": "Seeks information about"
+          }
+        }
+      }
+    },
+    "rience": {
+      "name": "Rience",
+      "aliases": ["The Fire Mage"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A mage skilled in fire magic who becomes one of the first active threats seeking to capture Ciri. His scarred face and ruthless methods make him a dangerous enemy.",
+          "role": "Pursuing mage, enemy",
+          "relationships": {
+            "Ciri": "Hunts for"
+          }
+        }
+      }
+    },
+    "philippa-eilhart": {
+      "name": "Philippa Eilhart",
+      "aliases": ["The Owl"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A powerful sorceress and advisor to King Vizimir of Redania. She represents the political machinations of the magical community regarding Ciri's fate.",
+          "role": "Royal advisor, sorceress",
+          "relationships": {
+            "King Vizimir": "Advisor to"
+          }
+        }
+      }
+    },
+    "tissaia": {
+      "name": "Tissaia de Vries",
+      "aliases": ["Rector of Aretuza"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The Rector of Aretuza, the premier magical academy. She is one of the most powerful and respected sorceresses, concerned about Ciri's uncontrolled abilities.",
+          "role": "Academy rector, magical authority",
+          "relationships": {
+            "Yennefer": "Former student",
+            "Triss Merigold": "Former student"
+          }
+        }
+      }
+    },
+    "yarpen-zigrin": {
+      "name": "Yarpen Zigrin",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dwarf warrior and leader of a mercenary company. An old friend of Geralt who becomes involved in the growing conflicts surrounding Ciri.",
+          "role": "Dwarf warrior, mercenary leader",
+          "relationships": {
+            "Geralt": "Old friend and ally"
+          }
+        }
+      }
+    },
+    "crach-an-craite": {
+      "name": "Crach an Craite",
+      "aliases": ["Jarl of Skellige"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A jarl from the Skellige Isles who knew Ciri's grandmother, Queen Calanthe. He represents potential allies from Ciri's past who might help protect her.",
+          "role": "Skellige jarl, potential ally",
+          "relationships": {
+            "Queen Calanthe": "Former ally (deceased)",
+            "Ciri": "Connected through grandmother"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Geralt brings Ciri to Kaer Morhen, the witcher stronghold, to begin her training. The young princess struggles to adapt to the harsh life of a witcher while her mysterious magical powers begin to manifest in dangerous ways.",
+    "2": "Ciri's training continues under Vesemir's guidance, but her magical abilities grow increasingly unstable. Triss Merigold arrives to help with her magical education, but quickly realizes the girl's powers are beyond normal training.",
+    "3": "As Ciri's abilities continue to grow, Geralt and the other witchers realize they need expert help. Political tensions begin to rise as word of the surviving Princess of Cintra spreads throughout the Northern Kingdoms.",
+    "4": "Yennefer arrives to take over Ciri's magical education. The sorceress recognizes the extraordinary and dangerous nature of Ciri's powers, beginning intensive training while establishing a deep bond with the girl.",
+    "5": "The political situation deteriorates as various kingdoms and factions learn of Ciri's survival and powers. Geralt finds himself drawn into larger conflicts while trying to protect his ward from those who would use her.",
+    "6": "Active threats emerge as mages like Rience begin hunting for Ciri. The witchers realize that Kaer Morhen is no longer safe, and difficult decisions must be made about Ciri's future and training.",
+    "7": "The scope of the threat becomes clear as political and magical forces converge around Ciri. Geralt, Yennefer, and their allies must prepare for the coming storm as Ciri's destiny begins to unfold on a much larger stage."
+  }
+}

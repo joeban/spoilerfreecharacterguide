@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "title": "The Lady of the Lake",
+    "author": "Andrzej Sapkowski",
+    "chapters": 12,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "geralt-of-rivia": {
+      "name": "Geralt of Rivia",
+      "aliases": ["The White Wolf", "Gwynbleidd"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Leads his company in the final assault on Vilgefortz's stronghold to rescue Ciri. His determination has never been stronger as he faces the ultimate test of his abilities.",
+          "role": "Leader of rescue mission",
+          "relationships": {
+            "Company": "Leads into final battle",
+            "Ciri": "Desperate to rescue"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Confronts Vilgefortz in a climactic magical and physical battle. The outcome will determine Ciri's fate and the future of their family bond.",
+          "role": "Final combatant",
+          "relationships": {
+            "Vilgefortz": "Final enemy",
+            "Yennefer": "Fighting alongside"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "The consequences of the final battle become clear as Geralt faces the cost of his long quest to protect Ciri and his chosen family.",
+          "role": "Victorious but changed",
+          "relationships": {
+            "Ciri": "Successfully rescued",
+            "Yennefer": "United with"
+          }
+        }
+      }
+    },
+    "ciri": {
+      "name": "Ciri",
+      "aliases": ["Cirilla", "Princess of Cintra", "The Lady of the Lake", "Swallow"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Imprisoned by Vilgefortz, but her powers continue to grow and manifest in unexpected ways. She begins to understand the true scope of her abilities.",
+          "role": "Prisoner with growing power",
+          "relationships": {
+            "Vilgefortz": "Held captive by",
+            "Geralt": "Awaits rescue by"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Her Elder Blood powers reach their full potential during the climactic battle, allowing her to play a crucial role in the final confrontation.",
+          "role": "Fully realized sorceress",
+          "relationships": {
+            "Geralt": "Rescued by",
+            "Yennefer": "Reunited with"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Finally free and reunited with her family, she begins to understand her place in the world and her responsibilities as someone with such power.",
+          "role": "Free and empowered",
+          "relationships": {
+            "Geralt": "Adopted father",
+            "Yennefer": "Adopted mother"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Takes on the legendary role that gives the book its title, becoming a figure of myth and legend while still maintaining her connection to those she loves.",
+          "role": "The Lady of the Lake",
+          "relationships": {
+            "Arthur": "Connected to Arthurian legend"
+          }
+        }
+      }
+    },
+    "yennefer": {
+      "name": "Yennefer of Vengerberg",
+      "aliases": ["Yen"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Reunites with Geralt for the final assault on Vilgefortz's stronghold. Her magical power and determination to save Ciri drive her to unprecedented efforts.",
+          "role": "Magical combatant",
+          "relationships": {
+            "Geralt": "Fighting alongside",
+            "Ciri": "Desperate to save"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Engages in a climactic magical duel with Vilgefortz, using all her power and skill to help rescue Ciri and defeat their enemy.",
+          "role": "Primary magical opponent",
+          "relationships": {
+            "Vilgefortz": "Final magical duel with",
+            "Ciri": "Fights to rescue"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Finally achieves what she always wanted - a complete family with Geralt and Ciri. The bonds formed through their trials are stronger than blood.",
+          "role": "Mother and partner",
+          "relationships": {
+            "Geralt": "Life partner",
+            "Ciri": "Adopted daughter"
+          }
+        }
+      }
+    },
+    "vilgefortz": {
+      "name": "Vilgefortz of Roggeveen",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The final antagonist who has been manipulating events from behind the scenes. His obsession with Ciri's power has driven him to extremes of cruelty and ambition.",
+          "role": "Final boss antagonist",
+          "relationships": {
+            "Ciri": "Obsessively seeks power from",
+            "Geralt": "Ultimate enemy of"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Engages in the climactic battle with Geralt and Yennefer, using all his magical power and cunning in a desperate bid to achieve his goals.",
+          "role": "Final opponent",
+          "relationships": {
+            "Geralt": "Final duel with",
+            "Yennefer": "Magical opponent"
+          }
+        }
+      }
+    },
+    "milva": {
+      "name": "Milva",
+      "aliases": ["Maria Barring"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Leads the company's assault with her exceptional archery skills. Her loyalty to Geralt and determination to save Ciri drive her to heroic acts.",
+          "role": "Heroic archer",
+          "relationships": {
+            "Geralt": "Completely loyal to",
+            "Ciri": "Fights to save"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Makes the ultimate sacrifice in the battle to rescue Ciri, showing the depth of her commitment to the mission and her companions.",
+          "role": "Heroic sacrifice",
+          "relationships": {
+            "Company": "Dies protecting"
+          }
+        }
+      }
+    },
+    "regis": {
+      "name": "Regis",
+      "aliases": ["Emiel Regis", "The Vampire"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Reveals the full extent of his vampiric powers as the company faces their greatest challenge. His supernatural abilities are crucial to their assault.",
+          "role": "Supernatural ally",
+          "relationships": {
+            "Geralt": "Devoted friend",
+            "Company": "Protects with life"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Makes the ultimate sacrifice to ensure Ciri's rescue, facing Vilgefortz in a battle that costs him everything but saves his friends.",
+          "role": "Ultimate sacrifice",
+          "relationships": {
+            "Vilgefortz": "Sacrificial opponent",
+            "Geralt": "Dies for"
+          }
+        }
+      }
+    },
+    "cahir": {
+      "name": "Cahir",
+      "aliases": ["Cahir aep Ceallach"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Proves his complete redemption by fighting alongside Geralt in the final battle. His journey from enemy to loyal friend is complete.",
+          "role": "Redeemed knight",
+          "relationships": {
+            "Geralt": "Loyal ally",
+            "Ciri": "Seeks to save"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Completes his redemption arc through his actions in the final battle, proving that his transformation from Ciri's pursuer to her protector is genuine.",
+          "role": "Heroic ally",
+          "relationships": {
+            "Ciri": "Dies protecting"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "aliases": ["Jaskier", "The Bard"],
+      "appearances": [1, 2, 3, 4, 5, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Accompanies the company on their final mission despite his fear, showing that his loyalty to Geralt overrides his self-preservation instincts.",
+          "role": "Loyal chronicler",
+          "relationships": {
+            "Geralt": "Ultimate loyal friend"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Survives to tell the tale of their adventures, fulfilling his role as the chronicler of Geralt's legend and the events that shaped the world.",
+          "role": "Surviving chronicler",
+          "relationships": {
+            "Geralt": "Tells story of",
+            "Ciri": "Chronicles legend of"
+          }
+        }
+      }
+    },
+    "leo-bonhart": {
+      "name": "Leo Bonhart",
+      "aliases": ["Bonhart"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Continues to be a major threat in Vilgefortz's service, using his skills as a professional killer to oppose the rescue mission.",
+          "role": "Elite assassin",
+          "relationships": {
+            "Vilgefortz": "Serves",
+            "Ciri": "Primary target"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Faces his final confrontation with Ciri, who has grown far beyond the prisoner he once tormented. His reign of terror comes to an end.",
+          "role": "Final opponent to Ciri",
+          "relationships": {
+            "Ciri": "Final battle with"
+          }
+        }
+      }
+    },
+    "avallach": {
+      "name": "Avallac'h",
+      "aliases": ["The Aen Elle Sage"],
+      "appearances": [6, 7, 8, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Continues to guide Ciri in understanding her Elder Blood powers, though his true motivations remain complex and not entirely trustworthy.",
+          "role": "Mysterious guide",
+          "relationships": {
+            "Ciri": "Teaches and guides",
+            "Eredin": "Opposes"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "His role in Ciri's development becomes clearer as she masters her abilities and prepares to take on her legendary role.",
+          "role": "Final teacher",
+          "relationships": {
+            "Ciri": "Completes education of"
+          }
+        }
+      }
+    },
+    "eredin": {
+      "name": "Eredin",
+      "aliases": ["Eredin Bréacc Glas", "King of the Wild Hunt"],
+      "appearances": [6, 7, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Represents the supernatural forces that seek to control or destroy Ciri. His pursuit of her continues across dimensions and time.",
+          "role": "Supernatural antagonist",
+          "relationships": {
+            "Ciri": "Pursues across worlds",
+            "Avallac'h": "Opposes"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Faces the consequences of his pursuit of Ciri as her powers reach their full potential and she becomes beyond his ability to capture or control.",
+          "role": "Defeated pursuer",
+          "relationships": {
+            "Ciri": "Ultimately defeated by"
+          }
+        }
+      }
+    },
+    "nimue": {
+      "name": "Nimue",
+      "aliases": ["The Lady of the Lake"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A sorceress from a later time who learns about the events of Geralt and Ciri's story. She represents the historical perspective on their legend.",
+          "role": "Future sorceress",
+          "relationships": {
+            "Condwiramurs": "Student and companion"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Serves as a bridge between the historical events and their legendary status, showing how the story becomes myth over time.",
+          "role": "Historical chronicler",
+          "relationships": {
+            "Ciri": "Studies legend of",
+            "Geralt": "Researches stories of"
+          }
+        }
+      }
+    },
+    "condwiramurs": {
+      "name": "Condwiramurs",
+      "aliases": [],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A young woman from the future who learns about Geralt and Ciri's story from Nimue. She represents the continuing impact of their legend.",
+          "role": "Future student",
+          "relationships": {
+            "Nimue": "Student of",
+            "Geralt": "Learns stories about"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Helps preserve and understand the true story behind the legends, ensuring that the real events are not lost to myth and fabrication.",
+          "role": "Keeper of true history",
+          "relationships": {
+            "Ciri": "Preserves true story of"
+          }
+        }
+      }
+    },
+    "emhyr-var-emreis": {
+      "name": "Emhyr var Emreis",
+      "aliases": ["The White Flame Dancing on the Graves of His Foes", "Emperor of Nilfgaard"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Emperor of Nilfgaard whose true connection to Ciri is revealed, adding another layer of complexity to the political and personal conflicts.",
+          "role": "Emperor with personal stakes",
+          "relationships": {
+            "Ciri": "Complex family connection"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "His true motivations regarding Ciri are revealed, showing that the political is deeply personal in ways that change everything.",
+          "role": "Revealed father figure",
+          "relationships": {
+            "Ciri": "True father",
+            "Geralt": "Rival guardian"
+          }
+        }
+      }
+    },
+    "fringilla-vigo": {
+      "name": "Fringilla Vigo",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Nilfgaardian sorceress continues to represent imperial interests in the final conflicts, though the political situation has become incredibly complex.",
+          "role": "Imperial sorceress",
+          "relationships": {
+            "Emhyr": "Serves loyally"
+          }
+        }
+      }
+    },
+    "triss-merigold": {
+      "name": "Triss Merigold",
+      "aliases": ["Triss"],
+      "appearances": [8, 11, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Survives the final conflicts and helps in the aftermath, representing the continuation of the magical community after the great upheavals.",
+          "role": "Surviving sorceress",
+          "relationships": {
+            "Ciri": "Helped educate",
+            "Geralt": "Old ally"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Geralt leads his company in the final assault on Vilgefortz's stronghold to rescue Ciri. All their preparations and sacrifices lead to this climactic confrontation.",
+    "2": "The battle intensifies as the company faces Vilgefortz's defenses and allies, including the deadly Bonhart. Each member of the company proves their dedication to rescuing Ciri.",
+    "3": "The assault continues with mounting casualties as the company fights through increasingly dangerous opposition. The cost of their loyalty becomes clear.",
+    "4": "The climactic battle reaches its peak as Geralt and Yennefer confront Vilgefortz directly while Ciri's own power comes into play. The fates of all major characters are decided.",
+    "5": "The immediate aftermath of the battle shows the consequences of the long conflict. Some characters achieve their goals while others pay the ultimate price.",
+    "6": "Ciri's journey through different worlds continues as she learns to master her Elder Blood powers with guidance from Avallac'h, while supernatural forces still pursue her.",
+    "7": "Major revelations about Ciri's true parentage and destiny reshape understanding of everything that has happened. The political becomes deeply personal.",
+    "8": "Ciri finally achieves freedom and reunion with her chosen family. The bonds formed through trial and sacrifice prove stronger than blood or politics.",
+    "9": "The story expands to show how these events are remembered and studied by future generations, with Nimue and Condwiramurs learning about the true history.",
+    "10": "Ciri takes on her legendary role as the Lady of the Lake, connecting her story to broader mythological themes while maintaining her essential relationships.",
+    "11": "The historical perspective continues as the true story is preserved against the distortions of legend and myth. The real impact of the characters' choices becomes clear.",
+    "12": "The saga concludes by showing how the legend lives on while honoring the real people behind the myth. The story comes full circle with themes of family, sacrifice, and destiny."
+  }
+}

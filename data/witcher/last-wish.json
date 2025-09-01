@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "title": "The Last Wish",
+    "author": "Andrzej Sapkowski",
+    "chapters": 7,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "geralt-of-rivia": {
+      "name": "Geralt of Rivia",
+      "aliases": ["The White Wolf", "Gwynbleidd", "Butcher of Blaviken"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A witcher - a professional monster hunter who underwent mutations that gave him white hair, cat-like eyes, and superhuman abilities. Currently recovering from injuries in a temple.",
+          "role": "Witcher, monster hunter",
+          "relationships": {
+            "Nenneke": "Cared for by",
+            "Vesemir": "Trained by (mentioned)"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Arrives in Blaviken seeking work. His reputation precedes him, though not always favorably. Shows a strong moral code despite his profession.",
+          "role": "The Butcher of Blaviken",
+          "relationships": {
+            "Renfri": "Complex connection with",
+            "Stregobor": "Hired by"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Demonstrates his expertise in dealing with cursed beings when hired to handle a striga. Shows compassion and seeks to lift curses rather than simply kill.",
+          "role": "Curse breaker",
+          "relationships": {
+            "King Foltest": "Hired by",
+            "Princess Adda": "Saves"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Meets a powerful sorceress at a royal court. Their connection is immediate and complicated, mixing attraction with mutual wariness.",
+          "role": "Yennefer's complicated lover",
+          "relationships": {
+            "Yennefer": "Bound to",
+            "Dandelion": "Best friend"
+          }
+        }
+      }
+    },
+    "yennefer-of-vengerberg": {
+      "name": "Yennefer of Vengerberg",
+      "aliases": ["Yen", "Jenny"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A powerful sorceress with raven-black hair and violet eyes. Beautiful but born a hunchback, she was transformed through magic. Has a complicated relationship with Geralt.",
+          "role": "Sorceress",
+          "relationships": {
+            "Geralt": "Complicated relationship with",
+            "Istredd": "Former lover"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Reveals her deep desire to have a child, which her transformation to become a sorceress made impossible. This drives many of her actions.",
+          "role": "Sorceress seeking motherhood",
+          "relationships": {
+            "Geralt": "Bound by djinn's magic"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "aliases": ["Jaskier", "Julian Alfred Pankratz"],
+      "appearances": [2, 4, 5, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A talented bard and poet who becomes Geralt's closest friend. Prone to romantic entanglements and getting into trouble, but loyal and brave when it counts.",
+          "role": "Bard and Geralt's friend",
+          "relationships": {
+            "Geralt": "Best friend",
+            "Various women": "Perpetual admirer of"
+          }
+        }
+      }
+    },
+    "nenneke": {
+      "name": "Nenneke",
+      "aliases": ["Mother Nenneke"],
+      "appearances": [1, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The motherly priestess of Melitele who runs the Temple of Melitele. Has known Geralt for years and is one of the few people he trusts completely.",
+          "role": "Priestess and healer",
+          "relationships": {
+            "Geralt": "Maternal figure to",
+            "Temple of Melitele": "Head priestess of"
+          }
+        }
+      }
+    },
+    "renfri": {
+      "name": "Renfri",
+      "aliases": ["Shrike"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A princess turned bandit, born under the Curse of the Black Sun. Prophesied to bring calamity, she was hunted by the wizard Stregobor. Dies in Blaviken.",
+          "role": "Cursed princess and bandit leader",
+          "relationships": {
+            "Stregobor": "Hunted by",
+            "Geralt": "Killed by",
+            "Her band": "Leader of"
+          }
+        }
+      }
+    },
+    "stregobor": {
+      "name": "Stregobor",
+      "aliases": ["Master Stregobor"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A wizard who believes in the Curse of the Black Sun and has spent years hunting girls born under it. Hires Geralt to kill Renfri.",
+          "role": "Wizard",
+          "relationships": {
+            "Renfri": "Hunter of",
+            "Geralt": "Attempts to hire"
+          }
+        }
+      }
+    },
+    "king-foltest": {
+      "name": "King Foltest",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "King of Temeria who fathered a child with his own sister Adda. The child was born as a striga due to a curse. Hires Geralt to lift the curse.",
+          "role": "King of Temeria",
+          "relationships": {
+            "Princess Adda": "Father of",
+            "Adda (sister)": "Incestuous relationship with"
+          }
+        }
+      }
+    },
+    "princess-adda": {
+      "name": "Princess Adda",
+      "aliases": ["The Striga"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Daughter of King Foltest and his sister, born as a striga (a cursed monster) due to the circumstances of her conception. Geralt successfully lifts her curse.",
+          "role": "Cursed princess/Striga",
+          "relationships": {
+            "King Foltest": "Daughter of",
+            "Geralt": "Saved by"
+          }
+        }
+      }
+    },
+    "iola": {
+      "name": "Iola",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young priestess at the Temple of Melitele who tends to Geralt during his recovery. Has taken a vow of silence.",
+          "role": "Silent priestess",
+          "relationships": {
+            "Nenneke": "Serves under",
+            "Geralt": "Tends to"
+          }
+        }
+      }
+    },
+    "nivellen": {
+      "name": "Nivellen",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young man cursed to have the head of a beast after desecrating a temple. Lives alone in a mansion with magical powers over it. Geralt helps him break his curse.",
+          "role": "Cursed nobleman",
+          "relationships": {
+            "Vereena": "Lover of",
+            "Geralt": "Old acquaintance of"
+          }
+        }
+      }
+    },
+    "vereena": {
+      "name": "Vereena",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A bruxa (a type of vampire) who genuinely loves Nivellen despite his curse. Her death at Geralt's hands breaks Nivellen's curse.",
+          "role": "Bruxa (vampire)",
+          "relationships": {
+            "Nivellen": "Loves",
+            "Geralt": "Killed by"
+          }
+        }
+      }
+    },
+    "torque": {
+      "name": "Torque",
+      "aliases": ["The Sylvan"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A sylvan (devil-like creature) who was stealing food from villagers in the Edge of the World. Actually intelligent and trying to help elves survive.",
+          "role": "Sylvan",
+          "relationships": {
+            "Filavandrel": "Helps",
+            "Villagers": "Steals from"
+          }
+        }
+      }
+    },
+    "filavandrel": {
+      "name": "Filavandrel",
+      "aliases": ["King of the Elves"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven king leading a group of elves trying to survive in the mountains after losing their lands to humans. Spares Geralt and Dandelion.",
+          "role": "Elven king",
+          "relationships": {
+            "Torque": "Protected by",
+            "Geralt": "Spares"
+          }
+        }
+      }
+    },
+    "urcheon": {
+      "name": "Urcheon of Erlenwald",
+      "aliases": ["Duny", "The Hedgehog Knight"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A knight cursed to look like a hedgehog-man by day. Claims Princess Pavetta by the Law of Surprise. Later revealed to be Emhyr var Emreis.",
+          "role": "Cursed knight",
+          "relationships": {
+            "Pavetta": "Destined husband",
+            "Queen Calanthe": "Son-in-law to"
+          }
+        }
+      }
+    },
+    "princess-pavetta": {
+      "name": "Princess Pavetta",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Princess of Cintra, daughter of Queen Calanthe. Has magical powers that manifest when emotional. In love with Duny/Urcheon.",
+          "role": "Princess of Cintra",
+          "relationships": {
+            "Queen Calanthe": "Daughter of",
+            "Urcheon/Duny": "In love with",
+            "Ciri": "Future mother of"
+          }
+        }
+      }
+    },
+    "queen-calanthe": {
+      "name": "Queen Calanthe",
+      "aliases": ["The Lioness of Cintra"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The fierce warrior queen of Cintra, grandmother of Ciri. Initially opposes Pavetta's marriage to Duny but eventually accepts it.",
+          "role": "Queen of Cintra",
+          "relationships": {
+            "Pavetta": "Mother of",
+            "Eist Tuirseach": "Married to"
+          }
+        }
+      }
+    },
+    "mousesack": {
+      "name": "Mousesack",
+      "aliases": ["Ermion"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A druid advisor to Queen Calanthe of Cintra. Skilled in magic and serves as a voice of wisdom in the court.",
+          "role": "Druid advisor",
+          "relationships": {
+            "Queen Calanthe": "Advisor to",
+            "Geralt": "Acquaintance of"
+          }
+        }
+      }
+    },
+    "chireadan": {
+      "name": "Chireadan",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An elf living in the town of Rinde who helps both Geralt and Yennefer at different times. A healer and friend to magical beings.",
+          "role": "Elven healer",
+          "relationships": {
+            "Geralt": "Helps",
+            "Yennefer": "Friend of"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Geralt of Rivia, a witcher, recovers from injuries at the Temple of Melitele under the care of Nenneke. Through a trance with the silent priestess Iola, visions of his future are revealed.",
+    "2": "In the market town of Blaviken, Geralt encounters the wizard Stregobor and the bandit princess Renfri, both asking him to kill the other. The confrontation ends in bloodshed, earning Geralt the name 'Butcher of Blaviken.'",
+    "3": "King Foltest of Temeria hires Geralt to deal with a striga - his own daughter cursed to become a monster. Geralt successfully lifts the curse, returning Princess Adda to human form.",
+    "4": "Geralt and Dandelion travel to the Edge of the World where they encounter Torque, a sylvan, and discover elves led by Filavandrel struggling to survive. Earlier, Geralt visits his old friend Nivellen, cursed with a beast's form, and helps break his curse through tragic means.",
+    "5": "At Princess Pavetta's betrothal feast in Cintra, the cursed knight Urcheon claims her by the Law of Surprise. Chaos erupts, but love conquers, and Geralt claims the Law of Surprise as payment - unknowingly binding himself to the unborn Ciri.",
+    "6": "In Rinde, Geralt and Yennefer hunt a djinn. Their wish to the djinn binds their fates together forever, though the exact nature of the wish remains Geralt's secret.",
+    "7": "Back at the Temple of Melitele, Geralt reflects on his destiny and his connection to Ciri, the Child Surprise he is bound to but has not yet met. Nenneke provides wisdom about accepting one's destiny."
+  }
+}

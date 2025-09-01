@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "title": "Time of Contempt",
+    "author": "Andrzej Sapkowski",
+    "chapters": 6,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "geralt-of-rivia": {
+      "name": "Geralt of Rivia",
+      "aliases": ["The White Wolf", "Gwynbleidd"],
+      "appearances": [1, 2, 4, 5, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues to worry about Ciri's safety and training. He becomes increasingly involved in political matters as the situation around Ciri escalates.",
+          "role": "Protective guardian",
+          "relationships": {
+            "Ciri": "Guardian of",
+            "Yennefer": "Complicated relationship"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Becomes caught up in the coup at Thanedd Island, fighting to protect Ciri and Yennefer during the magical and political chaos.",
+          "role": "Protector during the coup",
+          "relationships": {
+            "Ciri": "Desperately seeks",
+            "Yennefer": "Fights alongside"
+          }
+        }
+      }
+    },
+    "ciri": {
+      "name": "Ciri",
+      "aliases": ["Cirilla", "Princess of Cintra", "The Child Surprise"],
+      "appearances": [1, 2, 3, 4, 5, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues her magical education with Yennefer, showing remarkable progress but also concerning instability. Her powers continue to grow beyond normal magical training.",
+          "role": "Advanced magical student",
+          "relationships": {
+            "Yennefer": "Student of",
+            "Geralt": "Ward of"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Attends the magical academy at Aretuza, where she begins to understand the political implications of her abilities and heritage.",
+          "role": "Student at Aretuza",
+          "relationships": {
+            "Tissaia": "Under instruction of"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Becomes separated from her protectors during the coup at Thanedd. Her powers manifest in desperate and dangerous ways.",
+          "role": "Fugitive with unstable powers",
+          "relationships": {
+            "Geralt": "Separated from",
+            "Yennefer": "Separated from"
+          }
+        }
+      }
+    },
+    "yennefer": {
+      "name": "Yennefer of Vengerberg",
+      "aliases": ["Yen", "The Sorceress of Vengerberg"],
+      "appearances": [1, 2, 3, 4, 5, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues Ciri's intensive magical training while becoming increasingly protective. She recognizes the growing political dangers surrounding her student.",
+          "role": "Ciri's primary magical instructor",
+          "relationships": {
+            "Ciri": "Student and surrogate daughter",
+            "Geralt": "Complicated romantic relationship"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Participates in the Council of Mages on Thanedd Island, representing Ciri's interests while navigating the complex political landscape.",
+          "role": "Political advocate for Ciri",
+          "relationships": {
+            "Tissaia": "Fellow sorceress",
+            "Philippa Eilhart": "Political rival"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Fights desperately during the coup to protect Ciri, but becomes separated from her student in the chaos. Her loyalty to Ciri puts her at odds with other sorceresses.",
+          "role": "Protector and fighter",
+          "relationships": {
+            "Ciri": "Lost student, desperately seeks"
+          }
+        }
+      }
+    },
+    "tissaia-de-vries": {
+      "name": "Tissaia de Vries",
+      "aliases": ["Rector of Aretuza"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Rector of Aretuza who oversees Ciri's education at the academy. She represents the old guard of sorceresses trying to maintain stability.",
+          "role": "Academy rector, mentor",
+          "relationships": {
+            "Ciri": "Student at her academy",
+            "Yennefer": "Former student"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Becomes a tragic figure during the coup, caught between her loyalty to the academy and the political machinations destroying everything she built.",
+          "role": "Tragic figure of the coup",
+          "relationships": {
+            "Vilgefortz": "Betrayed by"
+          }
+        }
+      }
+    },
+    "philippa-eilhart": {
+      "name": "Philippa Eilhart",
+      "aliases": ["The Owl"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A powerful sorceress and key political player in the Council of Mages. She has her own agenda regarding Ciri and the future of the Northern Kingdoms.",
+          "role": "Political manipulator",
+          "relationships": {
+            "King Vizimir": "Advisor to",
+            "Dijkstra": "Works with"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Plays a crucial role in the coup, revealing her true political ambitions and willingness to sacrifice others for her vision of the future.",
+          "role": "Coup conspirator",
+          "relationships": {
+            "Vilgefortz": "Ally and co-conspirator"
+          }
+        }
+      }
+    },
+    "vilgefortz": {
+      "name": "Vilgefortz of Roggeveen",
+      "aliases": ["The Sorcerer"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A charismatic and powerful sorcerer who appears to be an ally but harbors secret ambitions. He shows particular interest in Ciri's abilities.",
+          "role": "Seemingly helpful sorcerer",
+          "relationships": {
+            "Ciri": "Shows interest in",
+            "Tissaia": "Colleague of"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Reveals himself as the mastermind behind the coup at Thanedd. His true goals regarding Ciri become sinisterly clear as he orchestrates chaos.",
+          "role": "Coup mastermind, primary antagonist",
+          "relationships": {
+            "Ciri": "Primary target",
+            "Geralt": "Enemy of",
+            "Philippa Eilhart": "Co-conspirator"
+          }
+        }
+      }
+    },
+    "triss-merigold": {
+      "name": "Triss Merigold",
+      "aliases": ["Triss", "The Fourteenth of the Hill"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Continues to be concerned about Ciri's wellbeing and supports her education, though she defers to more experienced sorceresses.",
+          "role": "Supportive sorceress",
+          "relationships": {
+            "Ciri": "Cares for",
+            "Yennefer": "Ally of"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Becomes caught up in the violence of the coup, suffering severe injuries that nearly cost her life. Her experience shows the brutal cost of the political conflict.",
+          "role": "Victim of the coup",
+          "relationships": {
+            "Ciri": "Concerned for safety of"
+          }
+        }
+      }
+    },
+    "dijkstra": {
+      "name": "Dijkstra",
+      "aliases": ["Sigismund Dijkstra", "The Spymaster"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Redania's spymaster who plays multiple sides in the political game. He understands Ciri's strategic value and works to position Redania advantageously.",
+          "role": "Master spy and political player",
+          "relationships": {
+            "Philippa Eilhart": "Works with",
+            "King Vizimir": "Serves"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Becomes involved in the coup's aftermath, working to salvage Redania's position from the chaos while pursuing his own agenda regarding Ciri.",
+          "role": "Political opportunist",
+          "relationships": {
+            "Ciri": "Seeks to use for Redania's benefit"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "aliases": ["Jaskier", "The Bard"],
+      "appearances": [1, 2, 5, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Geralt's loyal friend who becomes increasingly worried about his friend's involvement in dangerous political matters surrounding Ciri.",
+          "role": "Loyal friend and chronicler",
+          "relationships": {
+            "Geralt": "Best friend, worried about"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Witnesses the aftermath of the coup and helps document the events, though he struggles to understand the full scope of the magical and political catastrophe.",
+          "role": "Chronicler of events",
+          "relationships": {
+            "Geralt": "Supports in crisis"
+          }
+        }
+      }
+    },
+    "rience": {
+      "name": "Rience",
+      "aliases": ["The Fire Mage"],
+      "appearances": [1, 2, 4, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues his pursuit of Ciri, becoming more dangerous and desperate. His scarred appearance makes him easily recognizable and feared.",
+          "role": "Persistent hunter",
+          "relationships": {
+            "Ciri": "Relentlessly pursues"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Takes advantage of the chaos at Thanedd to make his move against Ciri, revealing connections to larger conspiracies.",
+          "role": "Opportunistic predator",
+          "relationships": {
+            "Vilgefortz": "Works for"
+          }
+        }
+      }
+    },
+    "cahir": {
+      "name": "Cahir",
+      "aliases": ["The Black Knight", "Cahir aep Ceallach"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Nilfgaardian officer who was present at the fall of Cintra. He appears during the coup, with unclear motivations regarding Ciri.",
+          "role": "Nilfgaardian officer",
+          "relationships": {
+            "Ciri": "Connected to through Cintra's fall"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "His true motivations begin to become clearer as he seems to be pursuing his own agenda separate from Nilfgaard's official position.",
+          "role": "Independent agent",
+          "relationships": {
+            "Ciri": "Seeks for personal reasons"
+          }
+        }
+      }
+    },
+    "fringilla-vigo": {
+      "name": "Fringilla Vigo",
+      "aliases": ["Nilfgaardian Sorceress"],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Nilfgaardian sorceress who becomes involved in the political aftermath of the coup. She represents Nilfgaard's magical interests in the conflict.",
+          "role": "Nilfgaardian agent",
+          "relationships": {
+            "Cahir": "Fellow Nilfgaardian"
+          }
+        }
+      }
+    },
+    "artaud-terranova": {
+      "name": "Artaud Terranova",
+      "aliases": ["The Sorcerer"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorcerer involved in the Council of Mages who becomes caught up in the political machinations leading to the coup.",
+          "role": "Council participant",
+          "relationships": {
+            "Tissaia": "Fellow council member"
+          }
+        }
+      }
+    },
+    "keira-metz": {
+      "name": "Keira Metz",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorceress who participates in the Council of Mages and becomes involved in the political tensions surrounding Ciri's fate.",
+          "role": "Council sorceress",
+          "relationships": {
+            "Triss Merigold": "Fellow sorceress"
+          }
+        }
+      }
+    },
+    "margarita-laux-antille": {
+      "name": "Margarita Laux-Antille",
+      "aliases": ["Rita"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The rector of Aretuza's rival academy who becomes involved in Ciri's education and the political situation surrounding her.",
+          "role": "Academy rector",
+          "relationships": {
+            "Tissaia": "Professional rival"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Ciri continues her magical education with Yennefer while political tensions escalate. Various factions seek to capture or control her, with Rience continuing his relentless pursuit.",
+    "2": "Plans are made for Ciri to attend the magical academy at Aretuza for advanced training. The Council of Mages prepares to convene on Thanedd Island to discuss the growing political crisis.",
+    "3": "The Council of Mages meets on Thanedd Island with Ciri attending Aretuza. Political tensions reach a breaking point as various factions position themselves around Ciri's fate and the growing war with Nilfgaard.",
+    "4": "The coup at Thanedd erupts into violence as Vilgefortz reveals his true intentions. Ciri becomes separated from Geralt and Yennefer in the chaos, while the magical community tears itself apart.",
+    "5": "The aftermath of the coup leaves the magical community shattered. Ciri remains missing while Geralt and his allies struggle to understand what happened and search for her.",
+    "6": "The consequences of the coup ripple outward as various factions reposition themselves. New threats emerge while Ciri's location remains unknown, setting the stage for the larger conflict to come."
+  }
+}

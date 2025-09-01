@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "title": "Season of Storms",
+    "author": "Andrzej Sapkowski",
+    "chapters": 23,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "geralt-of-rivia": {
+      "name": "Geralt of Rivia",
+      "aliases": ["The White Wolf", "Gwynbleidd"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A witcher on his way to collect payment for a contract. His two swords are stolen early in the story, setting off a chain of events.",
+          "role": "Witcher without his swords",
+          "relationships": {
+            "Dandelion": "Friend"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Becomes embroiled in the politics of Kerack and the machinations of sorcerers while trying to recover his stolen swords.",
+          "role": "Reluctant political pawn",
+          "relationships": {
+            "Coral": "Complicated attraction to",
+            "King Belohun": "Employed by"
+          }
+        }
+      }
+    },
+    "coral": {
+      "name": "Lytta Neyd",
+      "aliases": ["Coral", "Astrid Lyttneyd"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A powerful sorceress with red hair who takes an interest in Geralt. Known for her fiery temper and significant magical abilities.",
+          "role": "Sorceress",
+          "relationships": {
+            "Geralt": "Attracted to",
+            "Sorel Degerlund": "Professional rival"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "aliases": ["Jaskier"],
+      "appearances": [1, 2, 17, 18, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Geralt's bardic friend who gets into trouble early in the story, contributing to the theft of Geralt's swords.",
+          "role": "Bard and troublemaker",
+          "relationships": {
+            "Geralt": "Best friend"
+          }
+        }
+      }
+    },
+    "king-belohun": {
+      "name": "King Belohun",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8, 15],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The King of Kerack who hires Geralt for a dangerous mission. Has multiple sons vying for succession.",
+          "role": "King of Kerack",
+          "relationships": {
+            "Prince Egmund": "Father of",
+            "Prince Xander": "Father of",
+            "Geralt": "Employer of"
+          }
+        }
+      }
+    },
+    "prince-egmund": {
+      "name": "Prince Egmund",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The elder prince of Kerack, involved in succession intrigue. Ambitious and ruthless.",
+          "role": "Crown Prince",
+          "relationships": {
+            "King Belohun": "Son of",
+            "Prince Xander": "Brother of"
+          }
+        }
+      }
+    },
+    "prince-xander": {
+      "name": "Prince Xander",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The younger prince of Kerack, also involved in succession politics.",
+          "role": "Prince",
+          "relationships": {
+            "King Belohun": "Son of",
+            "Prince Egmund": "Brother of"
+          }
+        }
+      }
+    },
+    "sorel-degerlund": {
+      "name": "Sorel Degerlund",
+      "aliases": [],
+      "appearances": [4, 5, 10, 11, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A wizard involved in the conspiracy surrounding Geralt's stolen swords. Has his own agenda.",
+          "role": "Scheming wizard",
+          "relationships": {
+            "Coral": "Rival of",
+            "Rissberg Council": "Associated with"
+          }
+        }
+      }
+    },
+    "pinety": {
+      "name": "Pinety",
+      "aliases": [],
+      "appearances": [9, 10, 11, 12, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A sorcerer at Rissberg who becomes involved in Geralt's investigation of magical experiments.",
+          "role": "Rissberg sorcerer",
+          "relationships": {
+            "Rissberg Council": "Member of"
+          }
+        }
+      }
+    },
+    "mozaik": {
+      "name": "Mozaïk",
+      "aliases": [],
+      "appearances": [14, 15, 16, 17, 18],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A young woman who claims to be Geralt's apprentice. Brave but inexperienced, she gets involved in Geralt's adventures.",
+          "role": "Self-proclaimed witcher apprentice",
+          "relationships": {
+            "Geralt": "Claims to be apprentice of"
+          }
+        }
+      }
+    },
+    "nimue": {
+      "name": "Nimue",
+      "aliases": ["Lady of the Lake"],
+      "appearances": [23],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A sorceress from the future who appears in the epilogue, studying the legend of Geralt of Rivia.",
+          "role": "Future chronicler",
+          "relationships": {
+            "Geralt": "Studies the legend of"
+          }
+        }
+      }
+    },
+    "aguara": {
+      "name": "Aguara",
+      "aliases": ["The Fox Spirit"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A shape-shifting fox spirit that Geralt encounters. Can take human form and has its own agenda.",
+          "role": "Shape-shifter",
+          "relationships": {
+            "Geralt": "Encountered by"
+          }
+        }
+      }
+    },
+    "professor-marti-sodergren": {
+      "name": "Marti Södergren",
+      "aliases": ["Professor"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A professor at Oxenfurt Academy who provides Geralt with information about magical phenomena.",
+          "role": "Academic",
+          "relationships": {
+            "Oxenfurt Academy": "Professor at"
+          }
+        }
+      }
+    },
+    "biruta-icarti": {
+      "name": "Biruta Icarti",
+      "aliases": [],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A sorceress involved in the Rissberg experiments. Has knowledge of dangerous magical research.",
+          "role": "Experimental sorceress",
+          "relationships": {
+            "Rissberg Council": "Researcher at"
+          }
+        }
+      }
+    },
+    "maal": {
+      "name": "Maal",
+      "aliases": [],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the bandits who steals Geralt's swords at the beginning of the story.",
+          "role": "Bandit",
+          "relationships": {
+            "Geralt": "Thief of"
+          }
+        }
+      }
+    },
+    "otto-dussart": {
+      "name": "Otto Dussart",
+      "aliases": [],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The leader of the bandits who steal Geralt's swords. More intelligent than typical bandits.",
+          "role": "Bandit leader",
+          "relationships": {
+            "Maal": "Leader of"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Geralt and Dandelion are traveling when they encounter trouble at an inn, leading to Geralt's swords being stolen.",
+    "2": "The thieves who stole Geralt's swords are revealed, and Geralt begins tracking them down.",
+    "3": "Geralt meets the sorceress Coral (Lytta Neyd) who offers to help him recover his swords.",
+    "4": "The conspiracy behind the sword theft deepens as more sorcerers become involved.",
+    "5": "Geralt is hired by King Belohun of Kerack for a dangerous mission while still searching for his swords.",
+    "6": "Political intrigue in Kerack intensifies as the king's sons vie for succession.",
+    "7": "Geralt navigates the dangerous politics of the royal court while pursuing his own goals.",
+    "8": "The mission for King Belohun leads to unexpected complications and revelations.",
+    "9": "Geralt investigates magical experiments at Rissberg, encountering dangerous sorcerers.",
+    "10": "The dark nature of the Rissberg experiments is revealed, involving forbidden magic.",
+    "11": "Geralt confronts those responsible for the magical experiments and their connection to his stolen swords.",
+    "12": "A battle with rogue sorcerers tests Geralt's skills without his proper weapons.",
+    "13": "The aftermath of the Rissberg incident leads to new complications.",
+    "14": "Mozaïk appears, claiming to be Geralt's apprentice, adding complexity to his journey.",
+    "15": "Geralt returns to Kerack to resolve unfinished business with the royal family.",
+    "16": "Coral and Geralt's relationship deepens as they face danger together.",
+    "17": "Dandelion returns to the story, bringing both help and trouble.",
+    "18": "The group faces a new threat that requires all their combined skills.",
+    "19": "Geralt encounters the Aguara, a shape-shifting fox spirit with its own agenda.",
+    "20": "The confrontation with the Aguara reveals deeper magical mysteries.",
+    "21": "The various plot threads begin to converge toward a resolution.",
+    "22": "Geralt finally recovers his swords and settles all accounts.",
+    "23": "An epilogue set in the future shows Nimue studying the legend of Geralt, placing his adventures in historical context."
+  }
+}

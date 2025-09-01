@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "title": "Sword of Destiny",
+    "author": "Andrzej Sapkowski",
+    "chapters": 6,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "geralt-of-rivia": {
+      "name": "Geralt of Rivia",
+      "aliases": ["The White Wolf", "Gwynbleidd", "Butcher of Blaviken"],
+      "appearances": [1, 2, 3, 4, 5, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The legendary witcher continues his journey, seeking contracts and dealing with the complexities of a world where humans and non-humans clash.",
+          "role": "Witcher, monster hunter",
+          "relationships": {
+            "Dandelion": "Best friend",
+            "Yennefer": "Complicated lover"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Reveals more of his emotional depth and capacity for love, particularly regarding children and his desire for normalcy he can never have.",
+          "role": "Protector and father figure",
+          "relationships": {
+            "Ciri": "Destiny-bound guardian"
+          }
+        }
+      }
+    },
+    "ciri": {
+      "name": "Ciri",
+      "aliases": ["Princess Cirilla", "Lion Cub of Cintra"],
+      "appearances": [3, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The young princess of Cintra, Geralt's Child Surprise. A spirited girl with ashen hair and green eyes, showing early signs of great power.",
+          "role": "Princess and Child of Destiny",
+          "relationships": {
+            "Geralt": "Destiny-bound to",
+            "Queen Calanthe": "Granddaughter of"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "After the fall of Cintra, she's a refugee seeking Geralt. Shows remarkable resilience and the beginning of her extraordinary abilities.",
+          "role": "Refugee and future witcher trainee",
+          "relationships": {
+            "Geralt": "Ward of"
+          }
+        }
+      }
+    },
+    "yennefer-of-vengerberg": {
+      "name": "Yennefer of Vengerberg",
+      "aliases": ["Yen", "Jenny"],
+      "appearances": [1, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The powerful sorceress continues her tumultuous relationship with Geralt. Their bond, created by the djinn's wish, remains strong but complicated.",
+          "role": "Sorceress",
+          "relationships": {
+            "Geralt": "Bound lover"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Shows vulnerability about her inability to have children and her complex feelings about family and belonging.",
+          "role": "Sorceress seeking purpose",
+          "relationships": {
+            "Geralt": "On-and-off lover"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "aliases": ["Jaskier", "Julian Alfred Pankratz"],
+      "appearances": [2, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The famous bard continues to accompany Geralt, getting into romantic troubles and providing both comic relief and surprising wisdom.",
+          "role": "Bard and chronicler",
+          "relationships": {
+            "Geralt": "Best friend",
+            "Little Eye": "In love with"
+          }
+        }
+      }
+    },
+    "little-eye": {
+      "name": "Little Eye",
+      "aliases": ["Essi Daven"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young poetess with blue eyes and a beautiful voice. Falls in love with Geralt but understands his heart belongs to Yennefer.",
+          "role": "Poetess",
+          "relationships": {
+            "Geralt": "Unrequited love for",
+            "Dandelion": "Friend and fellow artist"
+          }
+        }
+      }
+    },
+    "borch-three-jackdaws": {
+      "name": "Borch Three Jackdaws",
+      "aliases": ["Villentretenmerth", "The Golden Dragon"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A mysterious knight who hires Geralt for a dragon hunt. Later revealed to be the golden dragon Villentretenmerth in human form.",
+          "role": "Golden dragon in disguise",
+          "relationships": {
+            "Tea and Vea": "Protected by",
+            "Geralt": "Philosophical ally"
+          }
+        }
+      }
+    },
+    "tea-and-vea": {
+      "name": "Tea and Vea",
+      "aliases": ["The Zerrikanian Warriors"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Two fierce warrior women from Zerrikania who serve as bodyguards to Borch Three Jackdaws. Skilled fighters who can match any man.",
+          "role": "Zerrikanian bodyguards",
+          "relationships": {
+            "Borch": "Bodyguards of"
+          }
+        }
+      }
+    },
+    "yarpen-zigrin": {
+      "name": "Yarpen Zigrin",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A dwarven warrior and leader of a band of dwarven fighters. Practical, brave, and harbors the typical dwarven dislike of elves.",
+          "role": "Dwarven warrior",
+          "relationships": {
+            "Geralt": "Occasional ally"
+          }
+        }
+      }
+    },
+    "dorregaray": {
+      "name": "Dorregaray",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A wizard who joins the dragon hunt. Opposed to killing dragons and secretly plans to save the creature.",
+          "role": "Wizard and conservationist",
+          "relationships": {
+            "Yennefer": "Professional rival"
+          }
+        }
+      }
+    },
+    "eyck-of-denesle": {
+      "name": "Eyck of Denesle",
+      "aliases": ["The Knight of White Rose"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A pious knight errant who refuses to fight for money. Brave but rigid in his beliefs, seeing the world in black and white.",
+          "role": "Knight errant",
+          "relationships": {
+            "Geralt": "Ideological opposite"
+          }
+        }
+      }
+    },
+    "braenn": {
+      "name": "Braenn",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young dryad in Brokilon Forest who helps care for Ciri. Shows the fierce protectiveness dryads have for their forest.",
+          "role": "Dryad archer",
+          "relationships": {
+            "Ciri": "Guardian of",
+            "Eithné": "Serves"
+          }
+        }
+      }
+    },
+    "eithne": {
+      "name": "Eithné",
+      "aliases": ["The Lady of Brokilon"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The silver-eyed leader of the dryads in Brokilon Forest. Ancient and wise, she protects the forest from human encroachment.",
+          "role": "Dryad queen",
+          "relationships": {
+            "Ciri": "Protector of",
+            "Geralt": "Respects"
+          }
+        }
+      }
+    },
+    "freixenet": {
+      "name": "Freixenet",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young man transformed into a tree in Brokilon Forest as punishment for entering the dryad domain. Serves as a warning to others.",
+          "role": "Cursed trespasser",
+          "relationships": {
+            "Braenn": "Loved by"
+          }
+        }
+      }
+    },
+    "vereena": {
+      "name": "Vereena",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A bruxa (vampire) who preys on merchants near Oxenfurt. Beautiful and deadly, she uses her charms to lure victims.",
+          "role": "Bruxa",
+          "relationships": {
+            "Nivellen": "Past lover of"
+          }
+        }
+      }
+    },
+    "chappelle": {
+      "name": "Chappelle",
+      "aliases": ["His Holiness"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The head of the Temple Guard in Oxenfurt and leader of the Church of the Eternal Fire. Known for his persecution of non-humans and mages.",
+          "role": "Religious leader",
+          "relationships": {
+            "Geralt": "Suspicious of"
+          }
+        }
+      }
+    },
+    "philippa-eilhart": {
+      "name": "Philippa Eilhart",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A powerful sorceress and advisor to King Vizimir of Redania. Cunning and politically astute, she's one of the most influential mages.",
+          "role": "Royal advisor and sorceress",
+          "relationships": {
+            "Yennefer": "Professional colleague",
+            "King Vizimir": "Advisor to"
+          }
+        }
+      }
+    },
+    "vilgefortz": {
+      "name": "Vilgefortz",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young but incredibly powerful sorcerer. Handsome and charismatic, he's rising quickly in the Brotherhood of Sorcerers.",
+          "role": "Powerful sorcerer",
+          "relationships": {
+            "Tissaia": "Protégé of"
+          }
+        }
+      }
+    },
+    "tissaia-de-vries": {
+      "name": "Tissaia de Vries",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The rectoress of Aretuza, the magical academy for young sorceresses. Stern but fair, she trained many of the current generation of sorceresses.",
+          "role": "Archmistress of Aretuza",
+          "relationships": {
+            "Yennefer": "Former teacher of",
+            "Vilgefortz": "Mentor to"
+          }
+        }
+      }
+    },
+    "francesca-findabair": {
+      "name": "Francesca Findabair",
+      "aliases": ["Enid an Gleanna", "Daisy of the Valleys"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven sorceress of incredible beauty and power. One of the few elves in the Brotherhood of Sorcerers.",
+          "role": "Elven sorceress",
+          "relationships": {
+            "Yennefer": "Professional rival"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Geralt joins a dragon hunt with Yennefer, the knight Eyck, the dwarf Yarpen Zigrin, and the mysterious Borch Three Jackdaws. The hunt reveals deeper truths about the nature of good and evil.",
+    "2": "In the coastal town of Bremervoord, Geralt deals with a sea monster while Dandelion falls for the poetess Little Eye. A tale of love, loss, and the price of a witcher's life.",
+    "3": "Geralt enters Brokilon Forest and encounters the dryads, where he meets a young Ciri for the first time. Their destiny begins to unfold, though neither fully understands it yet.",
+    "4": "At a sorcerers' gathering on Thanedd Island, Geralt navigates the complex politics of mages while dealing with his relationship with Yennefer.",
+    "5": "Geralt investigates a series of murders in Oxenfurt, dealing with religious zealotry and prejudice while uncovering a vampire's hunting ground.",
+    "6": "After the fall of Cintra to Nilfgaard, Geralt finally accepts his destiny and searches for Ciri, finding her at last in a merchant's wagon."
+  }
+}

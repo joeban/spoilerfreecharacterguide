@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "title": "The Tower of Swallows",
+    "author": "Andrzej Sapkowski",
+    "chapters": 10,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "ciri": {
+      "name": "Ciri",
+      "aliases": ["Cirilla", "Princess of Cintra", "Falka", "The Lady of Vengerberg"],
+      "appearances": [1, 2, 3, 4, 7, 8, 9, 10],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Has fully embraced her life with the Rats, the criminal gang. She has become hardened by her experiences and goes by the name Falka, showing how much she has changed from the innocent girl at Kaer Morhen.",
+          "role": "Member of criminal gang",
+          "relationships": {
+            "The Rats": "Member and leader figure",
+            "Hotsporn": "Romantic interest within the gang"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Her time with the Rats comes to a violent end, but not before she has committed acts that weigh heavily on her conscience. She begins to face the consequences of her choices.",
+          "role": "Survivor seeking redemption",
+          "relationships": {
+            "Bonhart": "Captured by"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Begins to travel between worlds using her Elder Blood powers, experiencing visions of different times and places. Her abilities are growing beyond anyone's understanding.",
+          "role": "Interdimensional traveler",
+          "relationships": {
+            "Avallac'h": "Guided by"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Her journey through different worlds shows her possible futures and pasts, helping her understand the scope of her powers and destiny.",
+          "role": "Prophetic figure",
+          "relationships": {
+            "Eredin": "Pursued by"
+          }
+        }
+      }
+    },
+    "geralt-of-rivia": {
+      "name": "Geralt of Rivia",
+      "aliases": ["The White Wolf", "Gwynbleidd"],
+      "appearances": [4, 5, 6, 8, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Continues his relentless search for Ciri with his company, following increasingly dangerous leads. His determination has not wavered despite the growing obstacles.",
+          "role": "Determined searcher",
+          "relationships": {
+            "Company": "Leader of",
+            "Ciri": "Desperately seeks"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Faces increasingly dangerous opposition as he gets closer to finding Ciri. His company remains loyal despite the mounting risks.",
+          "role": "Persistent hunter",
+          "relationships": {
+            "Vilgefortz": "Primary enemy",
+            "Milva": "Relies on",
+            "Regis": "Trusts completely"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Finally gets concrete information about Ciri's location and the forces arrayed against her. Prepares for the final confrontation to rescue her.",
+          "role": "Rescuer preparing for final battle",
+          "relationships": {
+            "Yennefer": "Reunited with in purpose"
+          }
+        }
+      }
+    },
+    "leo-bonhart": {
+      "name": "Leo Bonhart",
+      "aliases": ["Bonhart", "The Professional"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A ruthless bounty hunter and professional killer who wears the medallions of three witchers he has killed. He is hired to capture Ciri and proves to be one of the most dangerous opponents she has faced.",
+          "role": "Bounty hunter and killer",
+          "relationships": {
+            "Ciri": "Captures and torments",
+            "The Rats": "Destroys the gang"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Keeps Ciri as his prisoner, forcing her to fight in arena matches for his entertainment and profit. He takes sadistic pleasure in breaking her spirit.",
+          "role": "Captor and torturer",
+          "relationships": {
+            "Ciri": "Prisoner and victim",
+            "Rience": "Sometimes works with"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Continues to hold Ciri captive while using her abilities for his own gain. His cruelty knows no bounds as he systematically breaks down her resistance.",
+          "role": "Sadistic captor",
+          "relationships": {
+            "Ciri": "Primary victim"
+          }
+        }
+      }
+    },
+    "the-rats": {
+      "name": "The Rats",
+      "aliases": ["Hotsporn", "Giselher", "Asse", "Reef", "Kayleigh"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A gang of young criminals who have taken Ciri in as one of their own. They engage in robbery and violence, with Ciri becoming fully integrated into their criminal lifestyle.",
+          "role": "Criminal gang",
+          "relationships": {
+            "Ciri": "Accepts as member and leader"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Meet their violent end when their criminal activities finally catch up with them. Their destruction serves as a turning point in Ciri's journey.",
+          "role": "Doomed criminals",
+          "relationships": {
+            "Bonhart": "Destroyed by"
+          }
+        }
+      }
+    },
+    "milva": {
+      "name": "Milva",
+      "aliases": ["Maria Barring", "The Archer"],
+      "appearances": [4, 5, 6, 8, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Continues as the company's primary archer and tracker, her skills proving invaluable in their dangerous quest. She remains fiercely loyal to Geralt and their mission.",
+          "role": "Loyal archer",
+          "relationships": {
+            "Geralt": "Completely loyal to",
+            "Company": "Protective of"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Faces personal struggles that affect her ability to contribute to the mission, but her dedication to finding Ciri never wavers.",
+          "role": "Conflicted warrior",
+          "relationships": {
+            "Cahir": "Growing respect for"
+          }
+        }
+      }
+    },
+    "regis": {
+      "name": "Regis",
+      "aliases": ["Emiel Regis", "The Vampire"],
+      "appearances": [4, 5, 6, 8, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "His true nature as a vampire becomes more apparent as the company faces increasingly dangerous situations. His supernatural abilities make him invaluable to their quest.",
+          "role": "Supernatural ally",
+          "relationships": {
+            "Geralt": "Completely devoted to",
+            "Company": "Philosophical guide for"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Reveals more of his vampiric abilities and past, showing the full extent of his commitment to helping rescue Ciri despite the personal cost.",
+          "role": "Sacrificial ally",
+          "relationships": {
+            "Vilgefortz": "Prepared to face"
+          }
+        }
+      }
+    },
+    "cahir": {
+      "name": "Cahir",
+      "aliases": ["Cahir aep Ceallach"],
+      "appearances": [4, 5, 6, 8, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Has fully earned the trust of the company through his actions and dedication. His knowledge of Nilfgaard continues to be valuable as they navigate political dangers.",
+          "role": "Trusted ally",
+          "relationships": {
+            "Geralt": "Fully trusted by",
+            "Milva": "Respected by"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Proves his complete commitment to rescuing Ciri, showing that his redemption from his past actions at Cintra is genuine and complete.",
+          "role": "Redeemed knight",
+          "relationships": {
+            "Ciri": "Seeks to save"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "aliases": ["Jaskier", "The Bard"],
+      "appearances": [4, 5, 6, 8, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Continues to serve as the company's chronicler and voice of reason, though he struggles with the increasing violence and danger of their quest.",
+          "role": "Chronicler and conscience",
+          "relationships": {
+            "Geralt": "Worried about friend's obsession"
+          }
+        }
+      }
+    },
+    "yennefer": {
+      "name": "Yennefer of Vengerberg",
+      "aliases": ["Yen"],
+      "appearances": [5, 6, 9, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Pursues her own investigation into Ciri's disappearance, using her magical abilities and political connections to gather information.",
+          "role": "Independent investigator",
+          "relationships": {
+            "Ciri": "Desperately searches for"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Her investigation leads her closer to the truth about Vilgefortz's plans and Ciri's location. She prepares to reunite with Geralt for the final rescue attempt.",
+          "role": "Magical investigator",
+          "relationships": {
+            "Geralt": "Reunited with in purpose",
+            "Vilgefortz": "Primary magical opponent"
+          }
+        }
+      }
+    },
+    "vilgefortz": {
+      "name": "Vilgefortz of Roggeveen",
+      "aliases": [],
+      "appearances": [6, 8, 9, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "His true plans regarding Ciri become clearer as he works from his stronghold. His obsession with her powers drives his increasingly desperate actions.",
+          "role": "Primary antagonist",
+          "relationships": {
+            "Ciri": "Obsessed with capturing",
+            "Rience": "Uses as tool"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Prepares for the final confrontation, knowing that Geralt and his allies are closing in. His magical power and cunning make him a formidable opponent.",
+          "role": "Final boss antagonist",
+          "relationships": {
+            "Geralt": "Primary enemy",
+            "Yennefer": "Major threat to"
+          }
+        }
+      }
+    },
+    "rience": {
+      "name": "Rience",
+      "aliases": ["The Fire Mage"],
+      "appearances": [2, 4, 6, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Continues working for Vilgefortz in hunting Ciri, his scarred face a testament to his previous encounters with her protectors.",
+          "role": "Hunter and tool",
+          "relationships": {
+            "Vilgefortz": "Serves",
+            "Bonhart": "Sometimes works with"
+          }
+        }
+      }
+    },
+    "avallach": {
+      "name": "Avallac'h",
+      "aliases": ["The Aen Elle Sage"],
+      "appearances": [7, 8, 9, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An Aen Elle elf who appears to Ciri during her interdimensional travels. He claims to want to help her understand and control her Elder Blood powers.",
+          "role": "Elven guide",
+          "relationships": {
+            "Ciri": "Guides and teaches",
+            "Eredin": "Complex relationship with"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Reveals more about the Elder Blood and Ciri's true importance in the larger cosmic conflict. His motivations remain somewhat mysterious.",
+          "role": "Mysterious mentor",
+          "relationships": {
+            "Ciri": "Primary teacher of Elder Blood powers"
+          }
+        }
+      }
+    },
+    "eredin": {
+      "name": "Eredin",
+      "aliases": ["Eredin Bréacc Glas", "King of the Wild Hunt"],
+      "appearances": [7, 9, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The leader of the Wild Hunt who pursues Ciri through different worlds. He represents a supernatural threat that transcends normal political conflicts.",
+          "role": "Supernatural pursuer",
+          "relationships": {
+            "Ciri": "Hunts across worlds",
+            "Avallac'h": "Rival and former ally"
+          }
+        }
+      }
+    },
+    "skellen": {
+      "name": "Stefan Skellen",
+      "aliases": ["Tawny Owl"],
+      "appearances": [5, 6, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Nilfgaardian agent working for Emperor Emhyr who becomes involved in the hunt for Ciri, representing the empire's continued interest in her.",
+          "role": "Imperial agent",
+          "relationships": {
+            "Emperor Emhyr": "Serves",
+            "Ciri": "Hunts for empire"
+          }
+        }
+      }
+    },
+    "fringilla-vigo": {
+      "name": "Fringilla Vigo",
+      "aliases": [],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Nilfgaardian sorceress continues to represent the empire's magical interests in capturing Ciri, working through political channels.",
+          "role": "Imperial sorceress",
+          "relationships": {
+            "Emperor Emhyr": "Serves",
+            "Vilgefortz": "Complicated relationship with"
+          }
+        }
+      }
+    },
+    "vysogota": {
+      "name": "Vysogota",
+      "aliases": ["The Hermit"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A hermit who finds and cares for Ciri after she is injured during her interdimensional travels. He provides a safe haven and helps her recover.",
+          "role": "Hermit caretaker",
+          "relationships": {
+            "Ciri": "Cares for and protects"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Ciri has fully embraced life with the Rats criminal gang, taking on the name Falka and participating in their violent activities. Her transformation from innocent princess to hardened criminal is complete.",
+    "2": "The bounty hunter Leo Bonhart tracks down the Rats, beginning a campaign of terror against them. His reputation as a killer of witchers makes him one of the most dangerous opponents Ciri has faced.",
+    "3": "Bonhart destroys the Rats in a violent confrontation, killing most of the gang and capturing Ciri. This marks the end of her criminal phase and the beginning of a new form of captivity.",
+    "4": "Geralt's company continues their relentless search for Ciri while she is held prisoner by Bonhart, who forces her to fight in arena matches for entertainment and profit.",
+    "5": "Various factions including Nilfgaard continue hunting for Ciri while Bonhart maintains his cruel hold over her. Yennefer pursues her own investigation into Ciri's disappearance.",
+    "6": "The political situation becomes increasingly complex as multiple parties converge on Ciri's location. Vilgefortz's true plans begin to become clearer as he prepares his final moves.",
+    "7": "Ciri begins experiencing interdimensional travel, visiting different worlds and times. She encounters the Aen Elle elves including Avallac'h, who claims to want to help her understand her Elder Blood powers.",
+    "8": "Ciri's journey through different dimensions continues as she learns more about her powers and destiny. Meanwhile, Geralt's company and other factions prepare for a final confrontation.",
+    "9": "The various storylines begin to converge as Ciri's interdimensional journey brings her closer to understanding her true role in the cosmic conflict. Geralt and Yennefer prepare to reunite their efforts.",
+    "10": "All parties move toward the final confrontation as Ciri's location becomes known. The stage is set for the climactic battle that will determine her fate and the future of the world."
+  }
+}

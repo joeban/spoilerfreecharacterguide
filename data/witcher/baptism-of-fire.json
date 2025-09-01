@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "title": "Baptism of Fire",
+    "author": "Andrzej Sapkowski",
+    "chapters": 8,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "geralt-of-rivia": {
+      "name": "Geralt of Rivia",
+      "aliases": ["The White Wolf", "Gwynbleidd"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Desperately searches for Ciri after losing her during the coup at Thanedd. Despite his injuries, he refuses to give up and begins gathering allies for his quest.",
+          "role": "Desperate searcher",
+          "relationships": {
+            "Ciri": "Desperately seeks",
+            "Dandelion": "Traveling companion"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Forms an unlikely company of companions in his quest to find Ciri. Shows leadership skills as he coordinates their efforts despite their different backgrounds and motivations.",
+          "role": "Leader of the hanse",
+          "relationships": {
+            "Milva": "Recruits as archer",
+            "Dandelion": "Loyal companion",
+            "Regis": "Accepts as ally"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Continues to lead his company through dangerous territories, showing how far he will go to rescue Ciri. His determination inspires loyalty from his diverse companions.",
+          "role": "Determined leader",
+          "relationships": {
+            "Cahir": "Reluctant ally"
+          }
+        }
+      }
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "aliases": ["Jaskier", "The Bard"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Refuses to abandon his friend Geralt in his darkest hour. Despite his fear and lack of combat skills, he commits to helping find Ciri.",
+          "role": "Loyal companion",
+          "relationships": {
+            "Geralt": "Devoted friend"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Serves as the company's chronicler and voice of reason, often trying to prevent conflicts between the diverse members of their group.",
+          "role": "Chronicler and mediator",
+          "relationships": {
+            "Milva": "Cautious around",
+            "Regis": "Fascinated by"
+          }
+        }
+      }
+    },
+    "milva": {
+      "name": "Milva",
+      "aliases": ["Maria Barring", "The Archer"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A skilled archer and tracker who initially threatens the company but eventually joins them. She is a fierce, independent woman with exceptional bow skills.",
+          "role": "Archer and tracker",
+          "relationships": {
+            "Geralt": "Joins reluctantly"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Proves her worth to the company through her tracking abilities and combat skills. She becomes fiercely loyal to the group's mission despite her initial reservations.",
+          "role": "Loyal archer",
+          "relationships": {
+            "Geralt": "Respects as leader",
+            "Dandelion": "Protective of"
+          }
+        }
+      }
+    },
+    "regis": {
+      "name": "Regis",
+      "aliases": ["Emiel Regis", "The Barber-Surgeon", "The Vampire"],
+      "appearances": [3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A mysterious barber-surgeon who joins the company. He is intellectual, well-spoken, and possesses unusual knowledge and abilities that he keeps largely hidden.",
+          "role": "Barber-surgeon, mysterious ally",
+          "relationships": {
+            "Geralt": "Joins willingly",
+            "Dandelion": "Engages in philosophical discussions"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Reveals more of his unusual nature and abilities, proving to be far more than he initially appeared. His loyalty to the company becomes absolute.",
+          "role": "Supernatural ally",
+          "relationships": {
+            "Company": "Completely devoted to"
+          }
+        }
+      }
+    },
+    "cahir": {
+      "name": "Cahir",
+      "aliases": ["Cahir aep Ceallach", "The Black Knight"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The former Nilfgaardian officer who was present at Cintra's fall. He joins Geralt's company as a reluctant ally, claiming he wants to help find Ciri.",
+          "role": "Reluctant ally",
+          "relationships": {
+            "Geralt": "Uneasy alliance with",
+            "Milva": "Distrusted by"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Gradually gains the trust of the company through his actions, though tension remains. His knowledge of Nilfgaard proves valuable to their mission.",
+          "role": "Trusted ally",
+          "relationships": {
+            "Ciri": "Seeks redemption regarding",
+            "Company": "Slowly accepted by"
+          }
+        }
+      }
+    },
+    "ciri": {
+      "name": "Ciri",
+      "aliases": ["Cirilla", "Princess of Cintra", "Falka"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Has been separated from Geralt and is surviving in a harsh world on her own. Her experiences are changing her, making her harder and more dangerous.",
+          "role": "Survivor",
+          "relationships": {
+            "Geralt": "Separated from, desperately missed"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Her experiences in the wasteland have hardened her significantly. She has learned to survive on her own but at a cost to her innocence and humanity.",
+          "role": "Hardened survivor",
+          "relationships": {
+            "The Rats": "Joins criminal gang"
+          }
+        }
+      }
+    },
+    "zoltan-chivay": {
+      "name": "Zoltan Chivay",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A dwarf warrior and old friend of Geralt who initially helps in the search for Ciri. He provides support and resources before the main company forms.",
+          "role": "Dwarf ally",
+          "relationships": {
+            "Geralt": "Old friend and ally"
+          }
+        }
+      }
+    },
+    "yarpen-zigrin": {
+      "name": "Yarpen Zigrin",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another dwarf ally who assists Geralt early in his search, representing the underground network of non-humans who support the witcher's cause.",
+          "role": "Dwarf supporter",
+          "relationships": {
+            "Geralt": "Ally and supporter"
+          }
+        }
+      }
+    },
+    "yennefer": {
+      "name": "Yennefer of Vengerberg",
+      "aliases": ["Yen"],
+      "appearances": [1, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Also searches desperately for Ciri but is forced to work through different channels. Her separation from Geralt adds to both their anguish.",
+          "role": "Desperate searcher",
+          "relationships": {
+            "Ciri": "Desperately seeks",
+            "Geralt": "Separated from"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Continues her own quest to find Ciri, using her magical abilities and political connections, but facing obstacles at every turn.",
+          "role": "Magical investigator",
+          "relationships": {
+            "Ciri": "Never stops searching for"
+          }
+        }
+      }
+    },
+    "triss-merigold": {
+      "name": "Triss Merigold",
+      "aliases": ["Triss"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Still recovering from her injuries at Thanedd, but provides what help she can to Geralt's search for Ciri.",
+          "role": "Recovering ally",
+          "relationships": {
+            "Geralt": "Supports search efforts",
+            "Ciri": "Concerned for"
+          }
+        }
+      }
+    },
+    "philippa-eilhart": {
+      "name": "Philippa Eilhart",
+      "aliases": ["The Owl"],
+      "appearances": [2, 7],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Continues her political machinations in the aftermath of Thanedd, with her own agenda regarding Ciri's fate.",
+          "role": "Political schemer",
+          "relationships": {
+            "Ciri": "Seeks for political purposes"
+          }
+        }
+      }
+    },
+    "dijkstra": {
+      "name": "Dijkstra",
+      "aliases": ["Sigismund Dijkstra"],
+      "appearances": [2, 7],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Works his intelligence networks to track Ciri's location, representing Redania's continued interest in capturing her.",
+          "role": "Spymaster",
+          "relationships": {
+            "Philippa Eilhart": "Ally of convenience"
+          }
+        }
+      }
+    },
+    "vilgefortz": {
+      "name": "Vilgefortz of Roggeveen",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Revealed to be actively pursuing his own agenda regarding Ciri, working from the shadows to capture her for his mysterious purposes.",
+          "role": "Hidden antagonist",
+          "relationships": {
+            "Ciri": "Primary target"
+          }
+        }
+      }
+    },
+    "rience": {
+      "name": "Rience",
+      "aliases": ["The Fire Mage"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Continues his relentless pursuit of Ciri, getting closer to finding her as the trail grows warmer.",
+          "role": "Persistent hunter",
+          "relationships": {
+            "Vilgefortz": "Works for",
+            "Ciri": "Hunts relentlessly"
+          }
+        }
+      }
+    },
+    "leo-bonhart": {
+      "name": "Leo Bonhart",
+      "aliases": ["Bonhart"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A bounty hunter who becomes involved in the hunt for Ciri. He is known for his cruelty and his collection of witcher medallions from those he has killed.",
+          "role": "Bounty hunter",
+          "relationships": {
+            "Ciri": "Seeks as bounty"
+          }
+        }
+      }
+    },
+    "the-rats": {
+      "name": "The Rats",
+      "aliases": ["Criminal Gang"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A gang of young criminals that Ciri encounters and eventually joins. They represent a darker path for her character development.",
+          "role": "Criminal gang",
+          "relationships": {
+            "Ciri": "Recruits as member"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Geralt, badly injured from Thanedd, begins his desperate search for Ciri. Despite his condition, he refuses to give up and starts gathering allies and information about her whereabouts.",
+    "2": "The search continues as Geralt meets potential allies. Political tensions remain high as various factions also seek Ciri for their own purposes. Geralt encounters Milva, a skilled archer who initially threatens him.",
+    "3": "Geralt's company begins to form as Milva joins him along with the mysterious barber-surgeon Regis. The unlikely group begins working together despite their different backgrounds and motivations.",
+    "4": "The company grows larger as they encounter Cahir, the former Nilfgaardian officer from Cintra's fall. Despite initial hostility, he joins their quest, claiming he wants to help find Ciri.",
+    "5": "The company continues their journey, facing various dangers and obstacles. The bonds between the members strengthen as they work together, though tensions sometimes arise from their different perspectives and goals.",
+    "6": "Meanwhile, Ciri struggles to survive on her own in harsh conditions. Her experiences are changing her, making her harder and more dangerous. The company gets closer to finding traces of her path.",
+    "7": "The search intensifies as various parties converge on Ciri's trail. Yennefer pursues her own investigation while Vilgefortz's true agenda becomes clearer. Political machinations continue in the background.",
+    "8": "Ciri's path takes a dark turn as she encounters and joins a criminal gang known as the Rats. Her transformation continues as she adapts to survive in an increasingly harsh world, while Geralt's company closes in on her location."
+  }
+}
