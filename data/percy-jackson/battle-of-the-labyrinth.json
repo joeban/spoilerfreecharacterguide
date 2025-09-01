@@ -546,6 +546,977 @@
           }
         }
       }
+    },
+    "kampe": {
+      "name": "Kampe",
+      "aliases": ["Kampê"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Ancient jailer of Tartarus with the upper body of a woman, dragon tail, and various animal heads around her waist. Guards the prison of monsters.",
+          "role": "Tartarus prison guard",
+          "relationships": {
+            "Employer": "Zeus",
+            "Prisoners": "Hundred-Handed Ones",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Defeated by Briares and the other Hundred-Handed Ones after they are freed from prison.",
+          "role": "Defeated ancient guard",
+          "relationships": {
+            "Defeated by": "Briares",
+            "Former prisoners": "Hundred-Handed Ones"
+          }
+        }
+      }
+    },
+    "briares": {
+      "name": "Briares",
+      "aliases": ["The Hundred-Handed One"],
+      "appearances": [8, 9, 10, 18, 19],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "One of the three Hundred-Handed Ones, ancient allies of the gods imprisoned in Tartarus. Has one hundred hands and fifty heads.",
+          "role": "Imprisoned ancient ally",
+          "relationships": {
+            "Brothers": "Cottus and Gyges",
+            "Jailer": "Kampe",
+            "Former ally": "Zeus"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Freed from prison and regains confidence through Percy's encouragement. Becomes willing to help fight again.",
+          "role": "Reawakened ancient warrior",
+          "relationships": {
+            "Liberator": "Percy Jackson",
+            "Enemy": "Kampe",
+            "Ally": "Olympian gods"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Arrives at Camp Half-Blood with his brothers to help defend against Luke's invasion through the Labyrinth.",
+          "role": "Powerful defender",
+          "relationships": {
+            "Brothers": "Cottus and Gyges",
+            "Allies": "Camp Half-Blood",
+            "Enemy": "Luke's army"
+          }
+        }
+      }
+    },
+    "cottus": {
+      "name": "Cottus",
+      "aliases": ["Hundred-Handed One"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Brother of Briares, another Hundred-Handed One who helps defend Camp Half-Blood in the final battle.",
+          "role": "Ancient defensive warrior",
+          "relationships": {
+            "Brother": "Briares",
+            "Brother": "Gyges",
+            "Allies": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "gyges": {
+      "name": "Gyges",
+      "aliases": ["Hundred-Handed One"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Third brother of the Hundred-Handed Ones, joins his brothers in defending Camp Half-Blood.",
+          "role": "Ancient defensive warrior",
+          "relationships": {
+            "Brother": "Briares",
+            "Brother": "Cottus",
+            "Allies": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "antaeus": {
+      "name": "Antaeus",
+      "aliases": ["Son of Gaia"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A giant son of Gaia and Poseidon who cannot be defeated as long as he touches the earth. Runs an underground arena.",
+          "role": "Earth-powered giant gladiator",
+          "relationships": {
+            "Mother": "Gaia",
+            "Father": "Poseidon",
+            "Enemy": "Percy Jackson",
+            "Arena": "Underground fighting ring"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Defeated by Percy in single combat when Percy lifts him off the ground, severing his connection to Earth.",
+          "role": "Defeated earth giant",
+          "relationships": {
+            "Defeated by": "Percy Jackson",
+            "Power source": "Earth contact"
+          }
+        }
+      }
+    },
+    "geryon": {
+      "name": "Geryon",
+      "aliases": ["Triple-bodied Giant"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A monster with three human bodies from the waist up, owning a ranch where he keeps various mythological cattle and prisoners.",
+          "role": "Triple-bodied ranch owner",
+          "relationships": {
+            "Ranch": "Triple G Ranch",
+            "Cattle": "Fire-breathing cows",
+            "Employee": "Eurytion"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Battles Percy and is eventually defeated despite his multiple bodies and regeneration abilities.",
+          "role": "Defeated ranch monster",
+          "relationships": {
+            "Defeated by": "Percy Jackson",
+            "Ranch": "Triple G Ranch"
+          }
+        }
+      }
+    },
+    "eurytion": {
+      "name": "Eurytion",
+      "aliases": [],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Geryon's cowherd, a son of Ares who works on the Triple G Ranch herding the fire-breathing cattle.",
+          "role": "Cowherd and ranch worker",
+          "relationships": {
+            "Father": "Ares",
+            "Boss": "Geryon",
+            "Job": "Cattle herding",
+            "Dog": "Orthus"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Initially fights Percy but eventually helps him against Geryon, choosing the right side.",
+          "role": "Reformed ally",
+          "relationships": {
+            "Father": "Ares",
+            "Ally": "Percy Jackson",
+            "Former boss": "Geryon"
+          }
+        }
+      }
+    },
+    "orthus": {
+      "name": "Orthus",
+      "aliases": ["Two-headed Dog"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A two-headed dog that helps herd Geryon's cattle on the Triple G Ranch. Brother to Cerberus.",
+          "role": "Two-headed cattle dog",
+          "relationships": {
+            "Owner": "Eurytion",
+            "Brother": "Cerberus",
+            "Job": "Cattle herding"
+          }
+        }
+      }
+    },
+    "fire-breathing-horses": {
+      "name": "Fire-breathing Horses",
+      "aliases": ["Hippalektryons"],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Winged horses that breathe fire, kept on Geryon's ranch along with other mythological creatures.",
+          "role": "Mythological ranch animals",
+          "relationships": {
+            "Owner": "Geryon",
+            "Ranch": "Triple G Ranch",
+            "Herder": "Eurytion"
+          }
+        }
+      }
+    },
+    "janus": {
+      "name": "Janus",
+      "aliases": ["Two-faced God"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Roman god of doorways and choices who appears to Annabeth in the Labyrinth with two faces - one young, one old.",
+          "role": "God of choices and doorways",
+          "relationships": {
+            "Consulter": "Annabeth Chase",
+            "Domain": "Doorways and decisions"
+          }
+        }
+      }
+    },
+    "hera": {
+      "name": "Hera",
+      "aliases": ["Queen of the Gods"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Queen of the gods who appears on Calypso's island and offers Percy guidance about his choices.",
+          "role": "Divine queen offering guidance",
+          "relationships": {
+            "Husband": "Zeus",
+            "Advised": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "telekhines": {
+      "name": "Telekhines",
+      "aliases": ["Sea Demons"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Ancient sea demons with flippers for hands and dog heads, working to reforge Kronos's scythe.",
+          "role": "Ancient weapon smiths",
+          "relationships": {
+            "Master": "Kronos",
+            "Project": "Reforging the scythe",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "empousai": {
+      "name": "Empousai",
+      "aliases": ["Vampire Monsters"],
+      "appearances": [1, 8, 18],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Vampire-like monsters disguised as cheerleaders at Goode High School who attack Percy.",
+          "role": "Disguised vampire monsters",
+          "relationships": {
+            "Target": "Percy Jackson",
+            "Helper": "Rachel Elizabeth Dare",
+            "Disguise": "Cheerleaders"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Part of Luke's invasion force attacking Camp Half-Blood through the Labyrinth.",
+          "role": "Invasion force members",
+          "relationships": {
+            "Leader": "Luke Castellan",
+            "Enemy": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "laistrygonians": {
+      "name": "Laistrygonians",
+      "aliases": ["Cannibal Giants"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Giant cannibals that are part of Luke's invasion army attacking Camp Half-Blood.",
+          "role": "Giant cannibal invaders",
+          "relationships": {
+            "Leader": "Luke Castellan",
+            "Enemy": "Camp Half-Blood",
+            "Allies": "Monster army"
+          }
+        }
+      }
+    },
+    "dracaenae": {
+      "name": "Dracaenae",
+      "aliases": ["Snake Women"],
+      "appearances": [8, 18, 19],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Snake-tailed women warriors serving Luke in the Labyrinth and later in the invasion.",
+          "role": "Snake warrior women",
+          "relationships": {
+            "Leader": "Luke Castellan",
+            "Enemy": "Percy Jackson",
+            "Enemy": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "cyclopes": {
+      "name": "Cyclopes",
+      "aliases": ["One-eyed Giants"],
+      "appearances": [16, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Various cyclopes encountered in the Labyrinth, some friendly like Tyson's relatives, others hostile.",
+          "role": "Mixed giant population",
+          "relationships": {
+            "Relative": "Tyson",
+            "Father": "Poseidon",
+            "Varied allegiance": "Mixed"
+          }
+        }
+      }
+    },
+    "goode-high-students": {
+      "name": "Goode High School Students",
+      "aliases": [],
+      "appearances": [1, 2, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various mortal students at Percy's new high school who are unaware of the supernatural events around them.",
+          "role": "Oblivious mortal students",
+          "relationships": {
+            "Classmate": "Percy Jackson",
+            "Friend": "Rachel Elizabeth Dare",
+            "School": "Goode High School"
+          }
+        }
+      }
+    },
+    "goode-high-teachers": {
+      "name": "Goode High School Teachers",
+      "aliases": [],
+      "appearances": [1, 2, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Faculty members at Goode High School who teach Percy and other students.",
+          "role": "Mortal educators",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Student": "Rachel Elizabeth Dare",
+            "Workplace": "Goode High School"
+          }
+        }
+      }
+    },
+    "paul-blofis": {
+      "name": "Paul Blofis",
+      "aliases": [],
+      "appearances": [1, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "English teacher at Goode High School who becomes Sally Jackson's boyfriend. Kind and supportive.",
+          "role": "English teacher and Sally's boyfriend",
+          "relationships": {
+            "Girlfriend": "Sally Jackson",
+            "Student": "Percy Jackson",
+            "Job": "Goode High School"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Becomes more involved with the Jackson family and shows understanding of Percy's unique circumstances.",
+          "role": "Supportive family figure",
+          "relationships": {
+            "Girlfriend": "Sally Jackson",
+            "Step-son figure": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "sphinx": {
+      "name": "Sphinx",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A riddle-asking monster with a woman's head, eagle's wings, and lion's body encountered in the Labyrinth.",
+          "role": "Riddle-asking guardian",
+          "relationships": {
+            "Questioner": "Annabeth Chase",
+            "Location": "Labyrinth",
+            "Specialty": "Riddles and puzzles"
+          }
+        }
+      }
+    },
+    "arachne": {
+      "name": "Arachne",
+      "aliases": ["Spider Woman"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Ancient weaver transformed into a spider by Athena, encountered in the Labyrinth surrounded by webs.",
+          "role": "Cursed spider weaver",
+          "relationships": {
+            "Enemy": "Athena",
+            "Enemy": "Annabeth Chase",
+            "Transformer": "Athena"
+          }
+        }
+      }
+    },
+    "minos": {
+      "name": "King Minos",
+      "aliases": ["Ghost of Minos"],
+      "appearances": [9, 10, 15, 16, 17],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Ghost of the ancient king of Crete who commissioned Daedalus to build the original Labyrinth.",
+          "role": "Ancient ghost king",
+          "relationships": {
+            "Employee": "Daedalus",
+            "Creation": "Original Labyrinth",
+            "Judge of": "Underworld souls"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Tries to convince Daedalus to serve Luke and the Titans, using guilt and promises of reunion with Icarus.",
+          "role": "Manipulative ghost advisor",
+          "relationships": {
+            "Target": "Daedalus",
+            "Ally": "Luke Castellan",
+            "Weapon": "Guilt about Icarus"
+          }
+        }
+      }
+    },
+    "icarus": {
+      "name": "Icarus",
+      "aliases": [],
+      "appearances": [15, 16, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Daedalus's son who died flying too close to the sun with wax wings. His death haunts his father.",
+          "role": "Dead son haunting father",
+          "relationships": {
+            "Father": "Daedalus",
+            "Death cause": "Flying too close to sun",
+            "Used by": "King Minos"
+          }
+        }
+      }
+    },
+    "scythian-dracaenae": {
+      "name": "Scythian Dracaenae",
+      "aliases": ["Elite Snake Women"],
+      "appearances": [18],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Elite snake-women warriors from the Black Sea region, part of Luke's invasion force.",
+          "role": "Elite serpent warriors",
+          "relationships": {
+            "Leader": "Luke Castellan",
+            "Enemy": "Camp Half-Blood",
+            "Origin": "Black Sea region"
+          }
+        }
+      }
+    },
+    "hyperborean-giants": {
+      "name": "Hyperborean Giants",
+      "aliases": ["Northern Giants"],
+      "appearances": [18],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Frost giants from the far north who join Luke's invasion army with their ice powers.",
+          "role": "Ice-powered giants",
+          "relationships": {
+            "Leader": "Luke Castellan",
+            "Enemy": "Camp Half-Blood",
+            "Powers": "Ice and frost"
+          }
+        }
+      }
+    },
+    "hellhounds": {
+      "name": "Hellhounds",
+      "aliases": ["Demon Dogs"],
+      "appearances": [4, 18, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Large demonic dogs from the Underworld, including Mrs. O'Leary who belongs to Daedalus/Quintus.",
+          "role": "Underworld demon dogs",
+          "relationships": {
+            "Owner": "Daedalus",
+            "Example": "Mrs. O'Leary",
+            "Origin": "Underworld"
+          }
+        }
+      }
+    },
+    "automatons-army": {
+      "name": "Automaton Army",
+      "aliases": ["Bronze Warriors"],
+      "appearances": [8, 18, 19],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Bronze mechanical warriors created by Luke's forces to serve in the invasion army.",
+          "role": "Mechanical invasion force",
+          "relationships": {
+            "Creator": "Rogue demigods",
+            "Leader": "Luke Castellan",
+            "Enemy": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "nature-spirits-army": {
+      "name": "Nature Spirits",
+      "aliases": ["Forest Defenders"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Tree nymphs, satyrs, and other nature spirits who receive Pan's final message through Grover.",
+          "role": "Nature's final army",
+          "relationships": {
+            "Messenger": "Grover Underwood",
+            "Final message from": "Pan",
+            "Mission": "Protect nature"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Join the battle to defend Camp Half-Blood, fighting alongside the demigods against Luke's forces.",
+          "role": "Nature's battle force",
+          "relationships": {
+            "Leader": "Grover Underwood",
+            "Allies": "Camp Half-Blood",
+            "Enemy": "Luke's invasion"
+          }
+        }
+      }
+    },
+    "athena-cabin": {
+      "name": "Athena Cabin Members",
+      "aliases": ["Children of Athena"],
+      "appearances": [4, 5, 18, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Various children of Athena at camp who help with strategic planning and architectural projects.",
+          "role": "Strategic planners and builders",
+          "relationships": {
+            "Mother": "Athena",
+            "Head counselor": "Annabeth Chase",
+            "Abilities": "Wisdom and strategy"
+          }
+        }
+      }
+    },
+    "apollo-cabin": {
+      "name": "Apollo Cabin Members",
+      "aliases": ["Children of Apollo"],
+      "appearances": [4, 18, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Children of Apollo who serve as the camp's primary healers and archers.",
+          "role": "Healers and archers",
+          "relationships": {
+            "Father": "Apollo",
+            "Head counselor": "Will Solace",
+            "Abilities": "Healing and archery"
+          }
+        }
+      }
+    },
+    "ares-cabin": {
+      "name": "Ares Cabin Members",
+      "aliases": ["Children of Ares"],
+      "appearances": [4, 18, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Aggressive children of Ares who excel in combat and warfare tactics.",
+          "role": "Warriors and fighters",
+          "relationships": {
+            "Father": "Ares",
+            "Head counselor": "Clarisse La Rue",
+            "Abilities": "Combat and warfare"
+          }
+        }
+      }
+    },
+    "demeter-cabin": {
+      "name": "Demeter Cabin Members",
+      "aliases": ["Children of Demeter"],
+      "appearances": [4, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Children of Demeter who manage the camp's agriculture and have power over plants.",
+          "role": "Agricultural specialists",
+          "relationships": {
+            "Mother": "Demeter",
+            "Head counselor": "Katie Gardner",
+            "Responsibilities": "Camp farming"
+          }
+        }
+      }
+    },
+    "dionysus-cabin": {
+      "name": "Dionysus Cabin Members",
+      "aliases": ["Children of Dionysus"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The twin sons of Mr. D who have powers over vines and madness.",
+          "role": "Mr. D's twin sons",
+          "relationships": {
+            "Father": "Dionysus",
+            "Names": "Castor and Pollux",
+            "Abilities": "Vine manipulation"
+          }
+        }
+      }
+    },
+    "minor-gods-children": {
+      "name": "Minor Gods' Children",
+      "aliases": ["Unclaimed Campers"],
+      "appearances": [4, 5, 18, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Children of minor gods and unclaimed demigods who don't have their own cabins yet.",
+          "role": "Unclaimed campers",
+          "relationships": {
+            "Temporary home": "Hermes Cabin",
+            "Various parents": "Minor gods",
+            "Advocate": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "iris": {
+      "name": "Iris",
+      "aliases": ["Rainbow Goddess"],
+      "appearances": [11, 17],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Goddess of the rainbow who provides Iris-message communication services.",
+          "role": "Divine messenger service",
+          "relationships": {
+            "Service": "Iris-messaging",
+            "Customers": "Demigods",
+            "Medium": "Rainbow mist"
+          }
+        }
+      }
+    },
+    "sally-jackson": {
+      "name": "Sally Jackson",
+      "aliases": [],
+      "appearances": [1, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Percy's mortal mother who is now dating Paul Blofis. Continues to be supportive and understanding.",
+          "role": "Supportive mother",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Boyfriend": "Paul Blofis",
+            "Former husband": "Gabe Ugliano"
+          }
+        }
+      }
+    },
+    "aristophanes": {
+      "name": "Aristophanes",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A playwright's spirit encountered on Calypso's island, representing the cultural figures who visit her.",
+          "role": "Ancient playwright spirit",
+          "relationships": {
+            "Island": "Ogygia",
+            "Hostess": "Calypso"
+          }
+        }
+      }
+    },
+    "atlas-daughters": {
+      "name": "Daughters of Atlas",
+      "aliases": ["Pleiades"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Seven daughters of Atlas who became stars, mentioned in connection to Calypso's family.",
+          "role": "Star sisters",
+          "relationships": {
+            "Father": "Atlas",
+            "Sister": "Calypso",
+            "Form": "Constellation"
+          }
+        }
+      }
+    },
+    "labyrinth-spirits": {
+      "name": "Labyrinth Spirits",
+      "aliases": ["Maze Ghosts"],
+      "appearances": [7, 8, 9, 15, 16],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Various spirits and ghosts trapped within the Labyrinth's ever-changing passages.",
+          "role": "Trapped maze spirits",
+          "relationships": {
+            "Prison": "The Labyrinth",
+            "Creator": "Daedalus",
+            "Status": "Trapped"
+          }
+        }
+      }
+    },
+    "mechanical-spiders": {
+      "name": "Mechanical Spiders",
+      "aliases": ["Bronze Spiders"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Mechanical spider-like creatures that patrol the Labyrinth and attack intruders.",
+          "role": "Mechanical guardians",
+          "relationships": {
+            "Creator": "Daedalus",
+            "Location": "Labyrinth passages",
+            "Enemy": "Quest group"
+          }
+        }
+      }
+    },
+    "skeletal-warriors": {
+      "name": "Skeletal Warriors",
+      "aliases": ["Bone Soldiers"],
+      "appearances": [9, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Undead warriors raised by Nico to fight for him, showing his growing power over the dead.",
+          "role": "Undead army",
+          "relationships": {
+            "Summoner": "Nico di Angelo",
+            "Commander": "Hades",
+            "Origin": "Ancient dead"
+          }
+        }
+      }
+    },
+    "camp-nymphs": {
+      "name": "Camp Nymphs",
+      "aliases": ["Dryads and Naiads"],
+      "appearances": [4, 5, 17, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Tree and water nymphs living at Camp Half-Blood who help maintain the camp's natural areas.",
+          "role": "Camp nature spirits",
+          "relationships": {
+            "Home": "Camp Half-Blood",
+            "Protector": "Camp borders",
+            "Ally": "Grover Underwood"
+          }
+        }
+      }
+    },
+    "party-ponies": {
+      "name": "Party Ponies",
+      "aliases": ["Centaur Reinforcements"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Wild centaurs led by Chiron who arrive to help defend Camp Half-Blood in the final battle.",
+          "role": "Centaur cavalry",
+          "relationships": {
+            "Leader": "Chiron",
+            "Allies": "Camp Half-Blood",
+            "Enemy": "Luke's army"
+          }
+        }
+      }
+    },
+    "pegasi": {
+      "name": "Pegasi",
+      "aliases": ["Winged Horses"],
+      "appearances": [12, 18, 19],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Winged horses used for transportation and aerial support during the quest and battle.",
+          "role": "Flying cavalry",
+          "relationships": {
+            "Riders": "Demigods",
+            "Communicator": "Percy Jackson",
+            "Father of horses": "Poseidon"
+          }
+        }
+      }
+    },
+    "triple-g-ranch-animals": {
+      "name": "Triple G Ranch Animals",
+      "aliases": ["Mythological Livestock"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Various mythological creatures kept as livestock on Geryon's ranch, including fire-breathing cattle.",
+          "role": "Mythological ranch animals",
+          "relationships": {
+            "Owner": "Geryon",
+            "Herder": "Eurytion",
+            "Guardian": "Orthus"
+          }
+        }
+      }
+    },
+    "mist-controlled-mortals": {
+      "name": "Mist-Controlled Mortals",
+      "aliases": ["Influenced Mortals"],
+      "appearances": [1, 2, 11, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various mortal humans whose perception is altered by the Mist to see normal explanations for supernatural events.",
+          "role": "Reality-altered humans",
+          "relationships": {
+            "Affected by": "The Mist",
+            "Protector": "Gods",
+            "Among them": "Most humans"
+          }
+        }
+      }
+    },
+    "underground-arena-fighters": {
+      "name": "Underground Arena Fighters",
+      "aliases": ["Gladiators"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Various monsters and warriors forced to fight in Antaeus's underground gladiatorial arena.",
+          "role": "Forced gladiators",
+          "relationships": {
+            "Arena master": "Antaeus",
+            "Among them": "Captured heroes",
+            "Fate": "Fight to death"
+          }
+        }
+      }
+    },
+    "labyrinth-victims": {
+      "name": "Labyrinth Victims",
+      "aliases": ["Lost Souls"],
+      "appearances": [7, 8, 16],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "People and creatures who became lost and died in the Labyrinth over the centuries.",
+          "role": "Maze casualties",
+          "relationships": {
+            "Death location": "The Labyrinth",
+            "Creator": "Daedalus",
+            "Status": "Lost souls"
+          }
+        }
+      }
+    },
+    "kronos-influence": {
+      "name": "Kronos's Influence",
+      "aliases": ["Titan Corruption"],
+      "appearances": [8, 15, 16, 19],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The growing corrupting influence of Kronos throughout the mythological world, affecting monsters and demigods.",
+          "role": "Spreading corruption",
+          "relationships": {
+            "Source": "Kronos",
+            "Primary agent": "Luke Castellan",
+            "Targets": "All opponents of Titans"
+          }
+        }
+      }
+    },
+    "dream-messages": {
+      "name": "Dream Messages",
+      "aliases": ["Divine Dreams"],
+      "appearances": [1, 8, 14, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Prophetic and communicative dreams sent by gods and other divine beings to demigods.",
+          "role": "Divine communication method",
+          "relationships": {
+            "Sender": "Various gods",
+            "Receiver": "Percy Jackson",
+            "Type": "Supernatural communication"
+          }
+        }
+      }
+    },
+    "camp-defenses": {
+      "name": "Camp Defenses",
+      "aliases": ["Magical Barriers"],
+      "appearances": [4, 18, 19, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The magical barriers and defensive systems protecting Camp Half-Blood from monster attacks.",
+          "role": "Protective magical barriers",
+          "relationships": {
+            "Power source": "Thalia's tree",
+            "Protected location": "Camp Half-Blood",
+            "Weakness": "Labyrinth entrance"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Compromised when Luke's army invades directly through the Labyrinth, bypassing the usual barriers.",
+          "role": "Breached defenses",
+          "relationships": {
+            "Breached by": "Luke's army",
+            "Entry point": "Labyrinth",
+            "Defenders": "Camp Half-Blood"
+          }
+        }
+      }
     }
   },
   "recaps": {

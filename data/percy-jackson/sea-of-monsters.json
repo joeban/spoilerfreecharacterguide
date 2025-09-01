@@ -529,6 +529,845 @@
           }
         }
       }
+    },
+    "laistrygonian-giants": {
+      "name": "Laistrygonian Giants",
+      "aliases": ["Cannibal Giants"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Giant cannibals disguised as students at Meriwether Prep who attack Percy during dodgeball. Fire-breathing monsters from the far north.",
+          "role": "Disguised cannibal monsters",
+          "relationships": {
+            "Target": "Percy Jackson",
+            "Ally": "Tyson",
+            "Enemy": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "matt-sloan": {
+      "name": "Matt Sloan",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A bully at Meriwether Prep who picks on Percy and Tyson. Represents the typical school antagonist.",
+          "role": "School bully",
+          "relationships": {
+            "Target": "Percy Jackson",
+            "Target": "Tyson"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Revealed to be a Laistrygonian giant in disguise during the dodgeball attack.",
+          "role": "Disguised monster",
+          "relationships": {
+            "True form": "Laistrygonian Giant",
+            "Target": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "joe-bob": {
+      "name": "Joe Bob",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another Laistrygonian giant disguised as a student who attacks Percy and Tyson during dodgeball.",
+          "role": "Disguised cannibal giant",
+          "relationships": {
+            "Ally": "Matt Sloan",
+            "Target": "Percy Jackson",
+            "Target": "Tyson"
+          }
+        }
+      }
+    },
+    "marrow-sucker": {
+      "name": "Marrow Sucker",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The third Laistrygonian giant attacking Percy at school. Breathes fire like his brothers.",
+          "role": "Fire-breathing giant",
+          "relationships": {
+            "Ally": "Matt Sloan",
+            "Target": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "agrius": {
+      "name": "Agrius",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A bear twin, son of Ares and an evil queen. Works for Luke aboard the Princess Andromeda.",
+          "role": "Demigod bear twin serving Luke",
+          "relationships": {
+            "Father": "Ares",
+            "Twin brother": "Oreius",
+            "Master": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "oreius": {
+      "name": "Oreius",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The other bear twin, brother to Agrius. Also serves Luke on the Princess Andromeda.",
+          "role": "Demigod bear twin serving Luke",
+          "relationships": {
+            "Father": "Ares",
+            "Twin brother": "Agrius",
+            "Master": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "scylla": {
+      "name": "Scylla",
+      "aliases": ["Six-headed Monster"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Ancient six-headed sea monster that guards the straits near Charybdis. Each head can swallow a man whole.",
+          "role": "Six-headed sea monster",
+          "relationships": {
+            "Counterpart": "Charybdis",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Attacks ships passing through her strait in the Sea of Monsters. Forces difficult choices on sailors.",
+          "role": "Ship-destroying monster",
+          "relationships": {
+            "Victim": "Clarisse La Rue",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "charybdis": {
+      "name": "Charybdis",
+      "aliases": ["Whirlpool Monster"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Ancient whirlpool monster opposite Scylla that sucks in entire ships. Creates massive underwater vortexes.",
+          "role": "Whirlpool sea monster",
+          "relationships": {
+            "Counterpart": "Scylla",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "hydra": {
+      "name": "Hydra",
+      "aliases": ["Many-headed Water Serpent"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Multi-headed water serpent that grows two heads for every one cut off. Attacks the CSS Birmingham.",
+          "role": "Regenerating sea serpent",
+          "relationships": {
+            "Enemy": "Percy Jackson",
+            "Enemy": "Clarisse La Rue"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Defeated when its heads are cauterized with fire to prevent regeneration.",
+          "role": "Defeated sea monster",
+          "relationships": {
+            "Defeated by": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "hippocampi": {
+      "name": "Hippocampi",
+      "aliases": ["Horse-Fish"],
+      "appearances": [13, 14, 18],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Sea creatures with horse heads and fish tails that serve Poseidon. Can communicate with Percy underwater.",
+          "role": "Sea horses serving Poseidon",
+          "relationships": {
+            "Master": "Poseidon",
+            "Communicator": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "hermes-cabin-campers": {
+      "name": "Hermes Cabin Campers",
+      "aliases": [],
+      "appearances": [1, 5, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various children of Hermes and unclaimed campers living in the overcrowded Cabin Eleven.",
+          "role": "Camp residents and siblings",
+          "relationships": {
+            "Father": "Hermes",
+            "Head counselor": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "artemis": {
+      "name": "Artemis",
+      "aliases": ["Goddess of the Hunt"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Goddess of the hunt and moon mentioned when discussing the gods' return to Olympus after the quest's success.",
+          "role": "Goddess of the hunt",
+          "relationships": {
+            "Father": "Zeus",
+            "Twin brother": "Apollo"
+          }
+        }
+      }
+    },
+    "apollo": {
+      "name": "Apollo",
+      "aliases": ["God of the Sun"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "God of the sun, music, and healing. Mentioned as one of the Olympians pleased with the quest's success.",
+          "role": "God of sun and arts",
+          "relationships": {
+            "Father": "Zeus",
+            "Twin sister": "Artemis"
+          }
+        }
+      }
+    },
+    "athena": {
+      "name": "Athena",
+      "aliases": ["Goddess of Wisdom"],
+      "appearances": [1, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Goddess of wisdom and warfare, mother to Annabeth and the Athena cabin children.",
+          "role": "Divine mother of wisdom",
+          "relationships": {
+            "Daughter": "Annabeth Chase",
+            "Rival": "Poseidon"
+          }
+        }
+      }
+    },
+    "hephaestus": {
+      "name": "Hephaestus",
+      "aliases": ["God of Fire"],
+      "appearances": [4, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "God of fire and metalworking, father to the camp's craftsmen including those who made weapons.",
+          "role": "Divine craftsman",
+          "relationships": {
+            "Children": "Camp Half-Blood smiths",
+            "Wife": "Aphrodite"
+          }
+        }
+      }
+    },
+    "aphrodite": {
+      "name": "Aphrodite",
+      "aliases": ["Goddess of Love"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Goddess of love and beauty, mentioned among the Olympians celebrating the heroes' success.",
+          "role": "Goddess of love",
+          "relationships": {
+            "Husband": "Hephaestus",
+            "Children": "Aphrodite cabin"
+          }
+        }
+      }
+    },
+    "demeter": {
+      "name": "Demeter",
+      "aliases": ["Goddess of Agriculture"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Goddess of agriculture and the harvest, pleased that the Golden Fleece will help restore natural balance.",
+          "role": "Goddess of nature",
+          "relationships": {
+            "Children": "Demeter cabin",
+            "Daughter": "Persephone"
+          }
+        }
+      }
+    },
+    "daktyls": {
+      "name": "Daktyls",
+      "aliases": ["Cyclops Smiths"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Elder cyclopes who work in Poseidon's forges alongside Tyson. Master craftsmen of divine weapons.",
+          "role": "Elder cyclops craftsmen",
+          "relationships": {
+            "Student": "Tyson",
+            "Master": "Poseidon"
+          }
+        }
+      }
+    },
+    "princess-andromeda": {
+      "name": "Princess Andromeda",
+      "aliases": ["Luke's Ship"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Luke's cruise ship that serves as his mobile headquarters. Filled with monsters and rogue demigods.",
+          "role": "Enemy headquarters ship",
+          "relationships": {
+            "Captain": "Luke Castellan",
+            "Crew": "Monsters and demigods"
+          }
+        }
+      }
+    },
+    "dracaena": {
+      "name": "Dracaena",
+      "aliases": ["Snake Women"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Snake-tailed women serving as crew members on the Princess Andromeda. Fierce warriors with bronze weapons.",
+          "role": "Snake-woman warriors",
+          "relationships": {
+            "Master": "Luke Castellan",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "leeches": {
+      "name": "Leeches",
+      "aliases": ["Blood-sucking Worms"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Magical leeches used by Circe in her spa treatments. Part of her enchantments to make visitors compliant.",
+          "role": "Enchanted spa creatures",
+          "relationships": {
+            "Master": "Circe",
+            "Victim": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "guinea-pigs": {
+      "name": "Guinea Pigs",
+      "aliases": ["Transformed Pirates"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Men transformed into guinea pigs by Circe's magic. Former pirates and sailors who visited her island.",
+          "role": "Cursed former humans",
+          "relationships": {
+            "Transformer": "Circe",
+            "Fellow victim": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "reyna": {
+      "name": "Reyna",
+      "aliases": [],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A girl working at Circe's spa who seems different from the other attendants. Has a mysterious background.",
+          "role": "Spa attendant with secrets",
+          "relationships": {
+            "Employer": "Circe",
+            "Helper": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "hylla": {
+      "name": "Hylla",
+      "aliases": [],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Another girl at Circe's spa, sister to Reyna. Also seems more aware than the other enchanted attendants.",
+          "role": "Aware spa attendant",
+          "relationships": {
+            "Sister": "Reyna",
+            "Employer": "Circe"
+          }
+        }
+      }
+    },
+    "fleece": {
+      "name": "Golden Fleece",
+      "aliases": ["Jason's Fleece"],
+      "appearances": [15, 16, 17, 18, 19],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The legendary Golden Fleece that once belonged to the flying ram. Has incredible healing and protective powers.",
+          "role": "Legendary healing artifact",
+          "relationships": {
+            "Guardian": "Polyphemus",
+            "Seeker": "Percy Jackson",
+            "Seeker": "Clarisse La Rue"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Successfully heals Thalia's tree and restores Camp Half-Blood's borders, even bringing Thalia back to life.",
+          "role": "Miraculous healing artifact",
+          "relationships": {
+            "Healed": "Thalia Grace",
+            "Protected": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "sea-serpents": {
+      "name": "Sea Serpents",
+      "aliases": ["Ocean Monsters"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Various sea monsters that attack ships in the Sea of Monsters. Ancient creatures of the deep.",
+          "role": "Sea monsters",
+          "relationships": {
+            "Enemy": "Percy Jackson",
+            "Habitat": "Sea of Monsters"
+          }
+        }
+      }
+    },
+    "sirens": {
+      "name": "Sirens",
+      "aliases": ["Song Enchantresses"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Bird-like women who sing enchanting songs to lure sailors to their deaths on rocky shores.",
+          "role": "Enchanting bird women",
+          "relationships": {
+            "Victim": "Annabeth Chase",
+            "Protector": "Percy Jackson"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Show Annabeth her greatest desire - redesigning the world with perfect architecture - to tempt her to stay.",
+          "role": "Vision-showing temptresses",
+          "relationships": {
+            "Target": "Annabeth Chase",
+            "Rescuer": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "css-birmingham": {
+      "name": "CSS Birmingham",
+      "aliases": ["Clarisse's Ship"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Clarisse's Confederate ironclad warship given to her by her father Ares for the quest.",
+          "role": "Quest ship",
+          "relationships": {
+            "Captain": "Clarisse La Rue",
+            "Giver": "Ares",
+            "Crew": "Chris Rodriguez"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Severely damaged in battle with sea monsters but manages to reach Polyphemus's island.",
+          "role": "Battle-damaged warship",
+          "relationships": {
+            "Captain": "Clarisse La Rue",
+            "Attackers": "Sea monsters"
+          }
+        }
+      }
+    },
+    "centaurs": {
+      "name": "Centaurs",
+      "aliases": ["Wild Centaurs"],
+      "appearances": [4, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Wild centaurs mentioned as some of the chaotic forces unleashed when the camp's borders fail.",
+          "role": "Wild magical creatures",
+          "relationships": {
+            "Relative": "Chiron",
+            "Threat to": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "dryads": {
+      "name": "Dryads",
+      "aliases": ["Tree Nymphs"],
+      "appearances": [4, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Tree spirits at Camp Half-Blood whose trees are dying as the magical borders fail.",
+          "role": "Dying tree spirits",
+          "relationships": {
+            "Home": "Camp Half-Blood trees",
+            "Protector": "Thalia's tree"
+          }
+        }
+      }
+    },
+    "naiads": {
+      "name": "Naiads",
+      "aliases": ["Water Nymphs"],
+      "appearances": [4, 5, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Water spirits in the camp's lake and streams, also affected by the failing borders.",
+          "role": "Water spirits",
+          "relationships": {
+            "Home": "Camp Half-Blood waters",
+            "Ally": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "stymphalian-birds": {
+      "name": "Stymphalian Birds",
+      "aliases": ["Bronze-beaked Birds"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Metallic birds with bronze beaks and sharp feathers that attack Camp Half-Blood when the borders weaken.",
+          "role": "Attacking metal birds",
+          "relationships": {
+            "Target": "Camp Half-Blood",
+            "Fighter": "Camp defenders"
+          }
+        }
+      }
+    },
+    "hermes": {
+      "name": "Hermes",
+      "aliases": ["Messenger God"],
+      "appearances": [12, 19],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "God of messengers and thieves who provides magical multivitamins that protect against Circe's magic.",
+          "role": "Helpful divine father",
+          "relationships": {
+            "Son": "Luke Castellan",
+            "Helper": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "riptide": {
+      "name": "Riptide",
+      "aliases": ["Anaklusmos"],
+      "appearances": [3, 8, 9, 10, 17, 18],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Percy's celestial bronze sword disguised as a ballpoint pen. Effective against monsters.",
+          "role": "Magical shapeshifting weapon",
+          "relationships": {
+            "Owner": "Percy Jackson",
+            "Original giver": "Chiron"
+          }
+        }
+      }
+    },
+    "backbiter": {
+      "name": "Backbiter",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Luke's sword made of both celestial bronze and steel, able to harm both mortals and immortals.",
+          "role": "Dual-metal weapon",
+          "relationships": {
+            "Owner": "Luke Castellan",
+            "Target": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "bronze-dragon": {
+      "name": "Bronze Dragon",
+      "aliases": ["Colchis Bull Dragon"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A bronze dragon that attacks Camp Half-Blood when the borders fail. Breathes fire and has impenetrable skin.",
+          "role": "Attacking bronze dragon",
+          "relationships": {
+            "Target": "Camp Half-Blood",
+            "Fighter": "Tyson"
+          }
+        }
+      }
+    },
+    "empousai": {
+      "name": "Empousai",
+      "aliases": ["Vampire Cheerleaders"],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Vampire-like monsters disguised as cheerleaders at Meriwether Prep. Have bronze legs and donkey legs.",
+          "role": "Disguised vampire monsters",
+          "relationships": {
+            "Target": "Percy Jackson",
+            "Disguise": "Cheerleaders"
+          }
+        }
+      }
+    },
+    "automatons": {
+      "name": "Automatons",
+      "aliases": ["Bronze Warriors"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Bronze mechanical warriors serving Luke on the Princess Andromeda. Tireless metal soldiers.",
+          "role": "Mechanical warriors",
+          "relationships": {
+            "Master": "Luke Castellan",
+            "Creator": "Hephaestus children",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "pegasi": {
+      "name": "Pegasi",
+      "aliases": ["Winged Horses"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Winged horses at Camp Half-Blood that help with transportation and aerial support.",
+          "role": "Flying camp horses",
+          "relationships": {
+            "Riders": "Camp Half-Blood",
+            "Communicator": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "party-ponies": {
+      "name": "Party Ponies",
+      "aliases": ["Centaur Party Ponies"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Friendly centaurs led by Chiron who arrive to help defend Camp Half-Blood in the final battle.",
+          "role": "Centaur reinforcements",
+          "relationships": {
+            "Leader": "Chiron",
+            "Allies": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "iris": {
+      "name": "Iris",
+      "aliases": ["Rainbow Goddess"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Goddess of the rainbow who runs the Iris-message service for communication across distances.",
+          "role": "Divine messenger service",
+          "relationships": {
+            "Customer": "Percy Jackson",
+            "Service": "Iris-messaging"
+          }
+        }
+      }
+    },
+    "camp-borders": {
+      "name": "Camp Borders",
+      "aliases": ["Magical Barriers"],
+      "appearances": [4, 5, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The magical protective barriers around Camp Half-Blood powered by Thalia's tree, now failing due to poison.",
+          "role": "Failing magical protection",
+          "relationships": {
+            "Power source": "Thalia's tree",
+            "Protected": "Camp Half-Blood"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Restored to full strength when the Golden Fleece heals Thalia's tree, making the camp safe again.",
+          "role": "Restored magical protection",
+          "relationships": {
+            "Healer": "Golden Fleece",
+            "Power source": "Thalia Grace"
+          }
+        }
+      }
+    },
+    "cyclops-army": {
+      "name": "Cyclops Army",
+      "aliases": ["Poseidon's Cyclopes"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Army of cyclopes working for Poseidon in his underwater forges, where Tyson goes to work.",
+          "role": "Divine workers and army",
+          "relationships": {
+            "Commander": "Poseidon",
+            "New member": "Tyson",
+            "Enemy": "Oceanus"
+          }
+        }
+      }
+    },
+    "neutral-spirits": {
+      "name": "Neutral Spirits",
+      "aliases": ["Uncommitted Spirits"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Nature spirits and minor deities who choose sides in the growing war between gods and Titans.",
+          "role": "Choosing sides in war",
+          "relationships": {
+            "Leader option": "Olympians",
+            "Leader option": "Kronos"
+          }
+        }
+      }
+    },
+    "ferry-captain": {
+      "name": "Ferry Captain",
+      "aliases": [],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The mortal ferry captain who transports passengers near the Sea of Monsters, unaware of the supernatural dangers.",
+          "role": "Unsuspecting mortal captain",
+          "relationships": {
+            "Passengers": "Percy Jackson",
+            "Threat": "Sea monsters"
+          }
+        }
+      }
+    },
+    "tourists": {
+      "name": "Tourists",
+      "aliases": ["Mortal Passengers"],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Mortal tourists on the ferry who cannot see through the Mist to perceive the true dangers around them.",
+          "role": "Oblivious mortals",
+          "relationships": {
+            "Protector": "Percy Jackson",
+            "Hidden threat": "Sea monsters"
+          }
+        }
+      }
+    },
+    "gray-sisters": {
+      "name": "Gray Sisters",
+      "aliases": ["Graeae"],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Three ancient sisters who share one eye and one tooth, mentioned as part of the mythological world.",
+          "role": "Ancient oracle sisters",
+          "relationships": {
+            "Shared possessions": "One eye and tooth",
+            "Consulted by": "Heroes"
+          }
+        }
+      }
+    },
+    "poseidon-children": {
+      "name": "Other Children of Poseidon",
+      "aliases": ["Poseidon's Offspring"],
+      "appearances": [4, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Other children of Poseidon mentioned in mythology, including both demigods and divine offspring.",
+          "role": "Divine siblings",
+          "relationships": {
+            "Father": "Poseidon",
+            "Brother": "Percy Jackson",
+            "Brother": "Tyson"
+          }
+        }
+      }
     }
   },
   "recaps": {

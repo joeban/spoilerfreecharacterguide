@@ -612,26 +612,883 @@
         }
       }
     },
-    "mrs-dodds": {
-      "name": "Mrs. Dodds",
+    "athena": {
+      "name": "Athena",
+      "aliases": ["Goddess of Wisdom", "Minerva"],
+      "appearances": [6, 11],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Goddess of wisdom and warfare, mother to Annabeth. Known for her strategic mind and hatred of Poseidon.",
+          "role": "Divine mother of Annabeth",
+          "relationships": {
+            "Daughter": "Annabeth Chase",
+            "Enemy": "Poseidon"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Had a rivalry with Poseidon that resulted in Medusa's curse. Her wisdom cabin children inherit her strategic abilities.",
+          "role": "Ancient rival of Poseidon",
+          "relationships": {
+            "Daughter": "Annabeth Chase",
+            "Ancient enemy": "Medusa",
+            "Rival": "Poseidon"
+          }
+        }
+      }
+    },
+    "hermes": {
+      "name": "Hermes",
+      "aliases": ["Messenger God", "God of Thieves"],
+      "appearances": [6, 9, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "God of messengers, thieves, and travelers. Father to Luke and many other campers in Cabin Eleven.",
+          "role": "Divine father and patron of travelers",
+          "relationships": {
+            "Son": "Luke Castellan"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Distant father who rarely visits his children. His neglect contributes to Luke's resentment of the gods.",
+          "role": "Neglectful divine father",
+          "relationships": {
+            "Son": "Luke Castellan",
+            "Other children": "Cabin Eleven campers"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Appears when Luke's betrayal is revealed. Shows regret for not being present in his son's life.",
+          "role": "Regretful divine father",
+          "relationships": {
+            "Son": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "apollo": {
+      "name": "Apollo",
+      "aliases": ["God of the Sun", "God of Music", "God of Prophecy"],
+      "appearances": [6, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "God of the sun, music, poetry, and prophecy. Has a cabin at Camp Half-Blood with skilled archers and healers.",
+          "role": "Divine patron of arts and healing",
+          "relationships": {
+            "Twin sister": "Artemis",
+            "Father": "Zeus"
+          }
+        }
+      }
+    },
+    "artemis": {
+      "name": "Artemis",
+      "aliases": ["Goddess of the Hunt", "Diana"],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Goddess of the hunt and moon. Twin sister to Apollo. Rarely has children but is mentioned as patron of hunters.",
+          "role": "Virgin goddess of the hunt",
+          "relationships": {
+            "Twin brother": "Apollo",
+            "Father": "Zeus"
+          }
+        }
+      }
+    },
+    "aphrodite": {
+      "name": "Aphrodite",
+      "aliases": ["Goddess of Love", "Venus"],
+      "appearances": [6, 15],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Goddess of love and beauty. Has children at Camp Half-Blood known for their charm and beauty.",
+          "role": "Divine patron of love",
+          "relationships": {
+            "Husband": "Hephaestus"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Connected to Ares through their affair, which causes tension. Her children often use makeup and beauty products.",
+          "role": "Goddess with romantic complications",
+          "relationships": {
+            "Husband": "Hephaestus",
+            "Lover": "Ares"
+          }
+        }
+      }
+    },
+    "hephaestus": {
+      "name": "Hephaestus",
+      "aliases": ["God of Fire", "Vulcan"],
+      "appearances": [6, 15],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "God of fire, metalworking, and crafts. His children are skilled builders and mechanics.",
+          "role": "Divine craftsman",
+          "relationships": {
+            "Wife": "Aphrodite"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Knows about his wife's affair with Ares but tolerates it. His children inherit his mechanical skills.",
+          "role": "Cuckolded divine craftsman",
+          "relationships": {
+            "Wife": "Aphrodite",
+            "Rival": "Ares"
+          }
+        }
+      }
+    },
+    "demeter": {
+      "name": "Demeter",
+      "aliases": ["Goddess of Agriculture", "Ceres"],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Goddess of agriculture and the harvest. Her children have abilities with plants and growing things.",
+          "role": "Divine patron of agriculture",
+          "relationships": {
+            "Brother": "Zeus",
+            "Daughter": "Persephone"
+          }
+        }
+      }
+    },
+    "nancy-bobofit": {
+      "name": "Nancy Bobofit",
       "aliases": [],
       "appearances": [1, 2],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Percy's pre-algebra teacher at Yancy Academy. Mean, old, and seems to have it out for Percy specifically.",
-          "role": "Pre-algebra teacher",
+          "description": "A red-headed kleptomaniac girl at Yancy Academy who bullies other students and picks on Percy.",
+          "role": "School bully",
           "relationships": {
-            "Student": "Percy Jackson"
+            "Target": "Percy Jackson",
+            "Target": "Grover Underwood"
           }
         },
         "2": {
           "revealedIn": 2,
-          "description": "Revealed to be a Fury - a monster from the Underworld sent to punish the wicked. Attacks Percy but he destroys her with a sword.",
-          "role": "Fury and monster",
+          "description": "Gets pushed into the fountain by Percy using his powers, though no one believes it was him.",
+          "role": "Victim of Percy's emerging powers",
           "relationships": {
-            "Enemy": "Percy Jackson",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "minotaur": {
+      "name": "Minotaur",
+      "aliases": ["Bull-Man"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A monster with the head of a bull and body of a man. Sent to capture Percy during the storm at Montauk.",
+          "role": "Monster hunter",
+          "relationships": {
+            "Target": "Percy Jackson",
+            "Victim": "Sally Jackson"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Defeated by Percy who rips off its horn and uses it to kill the creature. Percy's first monster kill.",
+          "role": "Defeated monster",
+          "relationships": {
+            "Killer": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "alecto": {
+      "name": "Alecto",
+      "aliases": ["Mrs. Dodds"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the three Furies disguised as a pre-algebra teacher. Hunts Percy at Yancy Academy.",
+          "role": "Fury in disguise",
+          "relationships": {
+            "Target": "Percy Jackson",
             "Master": "Hades"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Reveals her true form as a winged demon and attacks Percy with her whip and talons.",
+          "role": "Attacking Fury",
+          "relationships": {
+            "Target": "Percy Jackson",
+            "Helper": "Chiron"
+          }
+        }
+      }
+    },
+    "echidna": {
+      "name": "Echidna",
+      "aliases": ["Mother of Monsters"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The Mother of Monsters who appears as a woman with a Chihuahua. Attacks Percy at the Gateway Arch with her son the Chimera.",
+          "role": "Ancient monster mother",
+          "relationships": {
+            "Son": "Chimera",
+            "Target": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "chimera": {
+      "name": "Chimera",
+      "aliases": [],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A monster with the head of a lion, body of a goat, and tail of a serpent. Breathes fire and poisons Percy at the Gateway Arch.",
+          "role": "Fire-breathing monster",
+          "relationships": {
+            "Mother": "Echidna",
+            "Target": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "nereid": {
+      "name": "Nereid",
+      "aliases": ["Water Spirit"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A water spirit sent by Poseidon to heal Percy after his fall from the Gateway Arch.",
+          "role": "Healing water spirit",
+          "relationships": {
+            "Master": "Poseidon",
+            "Helped": "Percy Jackson"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Gives Percy three pearls from his father that will transport him and two others back to the sea in times of danger.",
+          "role": "Gift-bearing water spirit",
+          "relationships": {
+            "Master": "Poseidon",
+            "Gift recipient": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "persephone": {
+      "name": "Persephone",
+      "aliases": ["Queen of the Underworld", "Proserpina"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Queen of the Underworld and wife of Hades. Sits beside him on a throne made of bones.",
+          "role": "Queen of the dead",
+          "relationships": {
+            "Husband": "Hades",
+            "Mother": "Demeter"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Present during the confrontation between Percy, Hades, and the revelation of the stolen items.",
+          "role": "Silent queen observing",
+          "relationships": {
+            "Husband": "Hades"
+          }
+        }
+      }
+    },
+    "malcolm": {
+      "name": "Malcolm",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A son of Athena and cabin mate of Annabeth. Quiet but intelligent like other Athena children.",
+          "role": "Athena cabin member",
+          "relationships": {
+            "Mother": "Athena",
+            "Cabin mate": "Annabeth Chase"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Participates in camp activities and helps with strategic planning like other children of Athena.",
+          "role": "Strategic thinker",
+          "relationships": {
+            "Mother": "Athena",
+            "Head counselor": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "chris-rodriguez-1": {
+      "name": "Chris Rodriguez",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A son of Hermes in Cabin Eleven. One of the many unclaimed campers living in the overcrowded Hermes cabin.",
+          "role": "Hermes cabin member",
+          "relationships": {
+            "Father": "Hermes",
+            "Head counselor": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "travis-stoll": {
+      "name": "Travis Stoll",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of Luke's half-brothers in the Hermes cabin. Known for pranks and mischief like other Hermes children.",
+          "role": "Prankster and thief",
+          "relationships": {
+            "Father": "Hermes",
+            "Half-brother": "Luke Castellan",
+            "Brother": "Connor Stoll"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Helps initiate Percy into camp life and teaches him about the various camp traditions and rules.",
+          "role": "Camp guide and prankster",
+          "relationships": {
+            "Father": "Hermes",
+            "Brother": "Connor Stoll",
+            "New camper": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "connor-stoll": {
+      "name": "Connor Stoll",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Twin brother of Travis and son of Hermes. Equally mischievous and skilled at pranks.",
+          "role": "Twin prankster",
+          "relationships": {
+            "Father": "Hermes",
+            "Twin brother": "Travis Stoll",
+            "Half-brother": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "katie-gardner": {
+      "name": "Katie Gardner",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Head counselor of the Demeter cabin. Skilled with plants and growing things like her divine mother.",
+          "role": "Demeter cabin head counselor",
+          "relationships": {
+            "Mother": "Demeter",
+            "Rival": "Travis Stoll",
+            "Rival": "Connor Stoll"
+          }
+        }
+      }
+    },
+    "silena-beauregard-1": {
+      "name": "Silena Beauregard",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Head counselor of Aphrodite cabin. Beautiful and charming like her mother, with extensive knowledge of fashion and makeup.",
+          "role": "Aphrodite cabin head counselor",
+          "relationships": {
+            "Mother": "Aphrodite",
+            "Friend": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "charles-beckendorf-1": {
+      "name": "Charles Beckendorf",
+      "aliases": ["Beckendorf"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Head counselor of Hephaestus cabin. Skilled metalworker and craftsman, large and strong but gentle.",
+          "role": "Hephaestus cabin head counselor",
+          "relationships": {
+            "Father": "Hephaestus",
+            "Interest": "Silena Beauregard"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Shows Percy some of his mechanical inventions and helps repair weapons damaged in capture the flag.",
+          "role": "Camp mechanic and inventor",
+          "relationships": {
+            "Father": "Hephaestus",
+            "Friend": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "lee-fletcher": {
+      "name": "Lee Fletcher",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Head counselor of Apollo cabin. Skilled archer and healer like other children of Apollo.",
+          "role": "Apollo cabin head counselor",
+          "relationships": {
+            "Father": "Apollo",
+            "Siblings": "Apollo cabin members"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Leads the Apollo cabin archers during capture the flag, providing covering fire for the other campers.",
+          "role": "Archer and battle tactician",
+          "relationships": {
+            "Father": "Apollo",
+            "Team": "Blue team"
+          }
+        }
+      }
+    },
+    "castor": {
+      "name": "Castor",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of the head counselors of Dionysus cabin. Twin brother to Pollux, both sons of Mr. D.",
+          "role": "Dionysus cabin co-head counselor",
+          "relationships": {
+            "Father": "Dionysus",
+            "Twin brother": "Pollux"
+          }
+        }
+      }
+    },
+    "pollux": {
+      "name": "Pollux",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Twin brother of Castor and co-head counselor of Dionysus cabin. Son of Mr. D.",
+          "role": "Dionysus cabin co-head counselor",
+          "relationships": {
+            "Father": "Dionysus",
+            "Twin brother": "Castor"
+          }
+        }
+      }
+    },
+    "sherman-yang": {
+      "name": "Sherman Yang",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A son of Ares in Clarisse's cabin. Aggressive and enjoys fighting like other children of the war god.",
+          "role": "Ares cabin member",
+          "relationships": {
+            "Father": "Ares",
+            "Head counselor": "Clarisse La Rue"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Participates in capture the flag with the red team, showing typical Ares cabin aggression.",
+          "role": "Aggressive fighter",
+          "relationships": {
+            "Father": "Ares",
+            "Team": "Red team"
+          }
+        }
+      }
+    },
+    "mrs-kerr": {
+      "name": "Mrs. Kerr",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The replacement pre-algebra teacher who everyone believes was always at Yancy Academy instead of Mrs. Dodds.",
+          "role": "Memory-altered teacher",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Replaced": "Mrs. Dodds"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Part of the Mist's illusion that makes mortals forget the supernatural events that occurred.",
+          "role": "Mist illusion",
+          "relationships": {
+            "Student": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "gladiola": {
+      "name": "Gladiola",
+      "aliases": ["Gladys"],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A pink poodle that Percy, Annabeth, and Grover find and return for the reward money. Can talk to Percy.",
+          "role": "Lost talking poodle",
+          "relationships": {
+            "Finder": "Percy Jackson",
+            "Owner": "Rich family"
+          }
+        }
+      }
+    },
+    "oracle": {
+      "name": "Oracle",
+      "aliases": ["The Oracle of Delphi"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The mummified Oracle at Camp Half-Blood that gives prophecies. Speaks in riddles about Percy's quest.",
+          "role": "Ancient prophet",
+          "relationships": {
+            "Questioner": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "eddie": {
+      "name": "Eddie",
+      "aliases": [],
+      "appearances": [3, 22],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "One of Gabe's poker friends who comes over to play cards and drink beer.",
+          "role": "Gabe's poker buddy",
+          "relationships": {
+            "Friend": "Gabe Ugliano"
+          }
+        }
+      }
+    },
+    "lotus-hotel-attendant": {
+      "name": "Lotus Hotel Attendant",
+      "aliases": [],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The helpful hotel staff member who gives Percy, Annabeth, and Grover their room keys and cash cards at the Lotus Casino.",
+          "role": "Enchanted hotel worker",
+          "relationships": {
+            "Guests": "Percy Jackson",
+            "Guests": "Annabeth Chase",
+            "Guests": "Grover Underwood"
+          }
+        }
+      }
+    },
+    "taxi-driver": {
+      "name": "Taxi Driver",
+      "aliases": [],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "The taxi driver in Manhattan who takes Percy to the Empire State Building to reach Olympus.",
+          "role": "Mortal taxi driver",
+          "relationships": {
+            "Passenger": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "empire-state-building-guard": {
+      "name": "Empire State Building Guard",
+      "aliases": [],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "The security guard at the Empire State Building who initially blocks Percy's access to the 600th floor.",
+          "role": "Building security",
+          "relationships": {
+            "Visitor": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "hyperion": {
+      "name": "Hyperion",
+      "aliases": ["Titan of Light"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Ancient Titan mentioned as one of Kronos's allies in the rising war against the gods.",
+          "role": "Ancient Titan enemy",
+          "relationships": {
+            "Leader": "Kronos",
+            "Enemy": "Zeus"
+          }
+        }
+      }
+    },
+    "atlas": {
+      "name": "Atlas",
+      "aliases": ["The General"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Ancient Titan who holds up the sky, mentioned as part of Kronos's forces seeking revenge on the gods.",
+          "role": "Sky-bearing Titan",
+          "relationships": {
+            "Leader": "Kronos",
+            "Enemy": "Zeus"
+          }
+        }
+      }
+    },
+    "oceanus": {
+      "name": "Oceanus",
+      "aliases": ["Titan of the Sea"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Ancient Titan of the ocean, mentioned as one of the forces rising against the Olympian gods.",
+          "role": "Sea Titan enemy",
+          "relationships": {
+            "Leader": "Kronos",
+            "Enemy": "Poseidon"
+          }
+        }
+      }
+    },
+    "iris": {
+      "name": "Iris",
+      "aliases": ["Goddess of the Rainbow"],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Goddess of the rainbow who runs Iris-messaging service. Allows communication through rainbow mist.",
+          "role": "Divine messenger service operator",
+          "relationships": {
+            "Customer": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "riptide": {
+      "name": "Riptide",
+      "aliases": ["Anaklusmos"],
+      "appearances": [2, 20, 21, 22],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A ballpoint pen that transforms into a celestial bronze sword when uncapped. Given to Percy by Chiron.",
+          "role": "Magical sword disguised as pen",
+          "relationships": {
+            "Owner": "Percy Jackson",
+            "Giver": "Chiron"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Proves effective against monsters and can wound gods like Ares. Returns to Percy's pocket when lost.",
+          "role": "Loyal celestial bronze weapon",
+          "relationships": {
+            "Owner": "Percy Jackson",
+            "Wounded": "Ares"
+          }
+        }
+      }
+    },
+    "backbiter": {
+      "name": "Backbiter",
+      "aliases": [],
+      "appearances": [7, 20],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Luke's sword, a gift from his father Hermes. Made of both celestial bronze and steel.",
+          "role": "Dual-metal sword",
+          "relationships": {
+            "Owner": "Luke Castellan",
+            "Giver": "Hermes"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Revealed to be able to harm both mortals and immortals due to its unique composition.",
+          "role": "Deadly dual-purpose weapon",
+          "relationships": {
+            "Owner": "Luke Castellan",
+            "Target": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "mist": {
+      "name": "The Mist",
+      "aliases": [],
+      "appearances": [2, 3, 11, 22],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A magical force that obscures supernatural events from mortal sight, making them see normal explanations.",
+          "role": "Reality-altering magical force",
+          "relationships": {
+            "Affected": "Mortals",
+            "Unaffected": "Demigods"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Causes mortals to have false memories about events, like remembering Mrs. Kerr instead of Mrs. Dodds.",
+          "role": "Memory-altering magical force",
+          "relationships": {
+            "Affected": "Yancy Academy students",
+            "Protected": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "empathy-link": {
+      "name": "Empathy Link",
+      "aliases": [],
+      "appearances": [1, 3, 10],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The psychic connection between Percy and Grover that allows them to sense each other's emotions and wellbeing.",
+          "role": "Psychic bond",
+          "relationships": {
+            "Connected": "Percy Jackson",
+            "Connected": "Grover Underwood"
+          }
+        }
+      }
+    },
+    "golden-fleece": {
+      "name": "Golden Fleece",
+      "aliases": [],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A legendary magical item mentioned as having great healing powers. Part of Luke's failed quest.",
+          "role": "Legendary healing artifact",
+          "relationships": {
+            "Sought by": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "ambrosia": {
+      "name": "Ambrosia",
+      "aliases": ["Food of the Gods"],
+      "appearances": [5, 6, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The food of the gods that heals demigods when they're injured. Tastes like favorite foods to each person.",
+          "role": "Divine healing food",
+          "relationships": {
+            "Healed": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "nectar": {
+      "name": "Nectar",
+      "aliases": ["Drink of the Gods"],
+      "appearances": [5, 6, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The drink of the gods that heals demigods. Too much can burn up a half-blood from the inside.",
+          "role": "Divine healing drink",
+          "relationships": {
+            "Healed": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "camp-store": {
+      "name": "Camp Store",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The camp store run by nymphs where campers can buy supplies and snacks.",
+          "role": "Camp supply store",
+          "relationships": {
+            "Operators": "Wood nymphs",
+            "Customers": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "wood-nymphs": {
+      "name": "Wood Nymphs",
+      "aliases": ["Dryads"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Nature spirits that live in trees around Camp Half-Blood. Some work in the camp store.",
+          "role": "Nature spirits and store clerks",
+          "relationships": {
+            "Home": "Camp Half-Blood trees",
+            "Job": "Camp store"
           }
         }
       }

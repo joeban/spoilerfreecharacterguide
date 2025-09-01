@@ -694,6 +694,810 @@
           }
         }
       }
+    },
+    "morpheus": {
+      "name": "Morpheus",
+      "aliases": ["God of Dreams"],
+      "appearances": [7, 8, 9, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "God of dreams who puts most of Manhattan to sleep during the battle to keep mortals safe from the supernatural war.",
+          "role": "Sleep-inducing protector",
+          "relationships": {
+            "Affected": "Manhattan mortals",
+            "Ally": "Kronos forces",
+            "Power": "Induced sleep"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "His sleep spell affects most humans but some mortals like Rachel can resist it due to their clear sight.",
+          "role": "Selective sleep god",
+          "relationships": {
+            "Affected": "Most mortals",
+            "Resistant": "Rachel Elizabeth Dare",
+            "Power": "Dream magic"
+          }
+        }
+      }
+    },
+    "hyperion": {
+      "name": "Hyperion",
+      "aliases": ["Titan of Light"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Ancient Titan of light who leads part of Kronos's army in the assault on Manhattan. Burns with intense golden fire.",
+          "role": "Titan general of light",
+          "relationships": {
+            "Leader": "Kronos",
+            "Enemy": "Percy Jackson",
+            "Power": "Solar fire and light"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Battles the demigods with incredible power, nearly overwhelming them with his light-based attacks.",
+          "role": "Powerful enemy combatant",
+          "relationships": {
+            "Enemy": "Camp Half-Blood forces",
+            "Ally": "Titan army",
+            "Battles": "Multiple heroes"
+          }
+        }
+      }
+    },
+    "krios": {
+      "name": "Krios",
+      "aliases": ["Titan of Constellations"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Titan associated with constellations and the south, one of Kronos's brothers leading the assault.",
+          "role": "Titan general",
+          "relationships": {
+            "Leader": "Kronos",
+            "Enemy": "Olympian forces",
+            "Domain": "Stars and constellations"
+          }
+        }
+      }
+    },
+    "manhattan-police": {
+      "name": "Manhattan Police",
+      "aliases": ["NYPD"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "New York Police Department officers who fall asleep due to Morpheus's spell during the battle.",
+          "role": "Sleeping law enforcement",
+          "relationships": {
+            "Affected by": "Morpheus",
+            "City": "Manhattan",
+            "Status": "Magically asleep"
+          }
+        }
+      }
+    },
+    "manhattan-civilians": {
+      "name": "Manhattan Civilians",
+      "aliases": ["New York Citizens"],
+      "appearances": [7, 8, 9, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Millions of ordinary New Yorkers put to sleep by Morpheus to protect them from the supernatural battle.",
+          "role": "Protected sleeping civilians",
+          "relationships": {
+            "Protector": "Morpheus",
+            "City": "Manhattan",
+            "Status": "Magically asleep"
+          }
+        }
+      }
+    },
+    "prometheus": {
+      "name": "Prometheus",
+      "aliases": ["Fire-Bringer"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Ancient Titan who brought fire to humans, now serving as Kronos's messenger offering terms of surrender.",
+          "role": "Titan diplomat",
+          "relationships": {
+            "Leader": "Kronos",
+            "Negotiating with": "Percy Jackson",
+            "Gift to humans": "Fire"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Offers Percy Pandora's jar and tries to convince him that the gods will inevitably abandon their children.",
+          "role": "Persuasive messenger",
+          "relationships": {
+            "Gift offered": "Pandora's jar",
+            "Target": "Percy Jackson",
+            "Message": "Gods abandon children"
+          }
+        }
+      }
+    },
+    "pandoras-jar": {
+      "name": "Pandora's Jar",
+      "aliases": ["Pithos"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The container that once held all the world's evils, offered by Prometheus as a weapon against the gods.",
+          "role": "Ancient weapon of mass destruction",
+          "relationships": {
+            "Original owner": "Pandora",
+            "Offered by": "Prometheus",
+            "Declined by": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "dracaenae-army": {
+      "name": "Dracaenae Army",
+      "aliases": ["Snake Women Warriors"],
+      "appearances": [8, 9, 12, 13, 14, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Large force of snake-tailed women warriors serving in Kronos's invasion army of Manhattan.",
+          "role": "Elite serpent warriors",
+          "relationships": {
+            "Leader": "Kronos",
+            "Enemy": "Demigod defenders",
+            "Weapon": "Bronze spears and javelins"
+          }
+        }
+      }
+    },
+    "laistrygonian-army": {
+      "name": "Laistrygonian Army",
+      "aliases": ["Cannibal Giants"],
+      "appearances": [8, 12, 13, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Large numbers of fire-breathing cannibal giants in Kronos's assault force on Manhattan.",
+          "role": "Giant cannibal shock troops",
+          "relationships": {
+            "Leader": "Kronos",
+            "Enemy": "Manhattan defenders",
+            "Ability": "Fire-breathing"
+          }
+        }
+      }
+    },
+    "empousai-army": {
+      "name": "Empousai Army",
+      "aliases": ["Vampire Horde"],
+      "appearances": [8, 12, 14, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Hundreds of vampire-like monsters with bronze legs serving in Kronos's invasion force.",
+          "role": "Vampire shock troops",
+          "relationships": {
+            "Leader": "Kronos",
+            "Enemy": "Demigod forces",
+            "Ability": "Shape-shifting and vampirism"
+          }
+        }
+      }
+    },
+    "hellhound-pack": {
+      "name": "Hellhound Pack",
+      "aliases": ["Demon Dogs"],
+      "appearances": [8, 12, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Packs of large demon dogs from the Underworld serving in Kronos's army.",
+          "role": "Demonic war hounds",
+          "relationships": {
+            "Leader": "Kronos",
+            "Origin": "Underworld",
+            "Enemy": "Camp defenders"
+          }
+        }
+      }
+    },
+    "centaur-reinforcements": {
+      "name": "Centaur Reinforcements",
+      "aliases": ["Party Ponies"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Wild centaurs led by Chiron who arrive to help defend Manhattan and Olympus.",
+          "role": "Cavalry reinforcements",
+          "relationships": {
+            "Leader": "Chiron",
+            "Allies": "Camp Half-Blood",
+            "Enemy": "Kronos army"
+          }
+        }
+      }
+    },
+    "nature-spirit-army": {
+      "name": "Nature Spirit Army",
+      "aliases": ["Wild Allies"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Dryads, satyrs, and other nature spirits led by Grover who join the final battle.",
+          "role": "Nature's army",
+          "relationships": {
+            "Leader": "Grover Underwood",
+            "Inherited from": "Pan",
+            "Allies": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "hunters-of-artemis-army": {
+      "name": "Hunters of Artemis",
+      "aliases": ["Artemis's Warriors"],
+      "appearances": [6, 16, 17, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Immortal huntresses led by Thalia Grace who join the battle to defend Olympus.",
+          "role": "Elite immortal archers",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Thalia Grace",
+            "Allies": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "cabin-leaders": {
+      "name": "Cabin Leaders",
+      "aliases": ["Head Counselors"],
+      "appearances": [5, 6, 16, 17, 18, 22],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Head counselors from all the different cabins who help coordinate the defense of Manhattan.",
+          "role": "Battle coordinators",
+          "relationships": {
+            "Battle leader": "Percy Jackson",
+            "Activities director": "Chiron",
+            "Various parents": "Olympian gods"
+          }
+        }
+      }
+    },
+    "demigod-army": {
+      "name": "Camp Half-Blood Army",
+      "aliases": ["Demigod Forces"],
+      "appearances": [8, 12, 16, 17, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "All available campers from Camp Half-Blood mobilized to defend Manhattan and Olympus.",
+          "role": "Primary defending force",
+          "relationships": {
+            "Commander": "Percy Jackson",
+            "Trainer": "Chiron",
+            "Home base": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "oceanus": {
+      "name": "Oceanus",
+      "aliases": ["Titan of the Sea"],
+      "appearances": [2, 17],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Ancient Titan of the ocean fighting Poseidon in underwater battles while the main war rages on land.",
+          "role": "Sea Titan enemy",
+          "relationships": {
+            "Enemy": "Poseidon",
+            "Ally": "Kronos",
+            "Domain": "Ancient oceans"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Finally defeated by Poseidon, allowing the sea god to join the final battle on land.",
+          "role": "Defeated sea Titan",
+          "relationships": {
+            "Defeated by": "Poseidon",
+            "Former domain": "Oceans"
+          }
+        }
+      }
+    },
+    "cyclops-army": {
+      "name": "Cyclops Army",
+      "aliases": ["Poseidon's Cyclopes"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Army of cyclopes led by Tyson who arrive to help in the final battle with their strength and crafting skills.",
+          "role": "One-eyed reinforcements",
+          "relationships": {
+            "General": "Tyson",
+            "Father": "Poseidon",
+            "Allies": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "athena": {
+      "name": "Athena",
+      "aliases": ["Goddess of Wisdom"],
+      "appearances": [17, 22, 23],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Goddess of wisdom who joins the final battle against Kronos and the Titans.",
+          "role": "Battle goddess",
+          "relationships": {
+            "Daughter": "Annabeth Chase",
+            "Enemy": "Kronos",
+            "Ally": "Olympian gods"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Agrees to Percy's request to claim all godly children and build cabins for minor gods.",
+          "role": "Reformed goddess",
+          "relationships": {
+            "Daughter": "Annabeth Chase",
+            "Promise to": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "hermes": {
+      "name": "Hermes",
+      "aliases": ["Messenger God"],
+      "appearances": [17, 21, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "God of messengers who joins the final battle, conflicted about his son Luke's betrayal.",
+          "role": "Conflicted divine father",
+          "relationships": {
+            "Son": "Luke Castellan",
+            "Ally": "Olympian gods",
+            "Enemy": "Kronos"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Grieves for Luke after his son's heroic sacrifice to destroy Kronos.",
+          "role": "Grieving father",
+          "relationships": {
+            "Dead son": "Luke Castellan",
+            "Comforted by": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "apollo": {
+      "name": "Apollo",
+      "aliases": ["God of the Sun"],
+      "appearances": [17, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "God of the sun, music, and healing who joins the final battle with his golden arrows and divine power.",
+          "role": "Divine archer and healer",
+          "relationships": {
+            "Twin sister": "Artemis",
+            "Children": "Apollo cabin",
+            "Enemy": "Kronos"
+          }
+        }
+      }
+    },
+    "artemis": {
+      "name": "Artemis",
+      "aliases": ["Goddess of the Hunt"],
+      "appearances": [6, 17, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Goddess of the hunt who leads her Hunters in the final battle against the Titans.",
+          "role": "Hunt goddess and commander",
+          "relationships": {
+            "Lieutenant": "Thalia Grace",
+            "Hunters": "Hunters of Artemis",
+            "Twin brother": "Apollo"
+          }
+        }
+      }
+    },
+    "dionysus": {
+      "name": "Dionysus",
+      "aliases": ["Mr. D"],
+      "appearances": [17, 22, 23],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "God of wine who joins the final battle, fighting with vines and his divine madness powers.",
+          "role": "Battle god of wine",
+          "relationships": {
+            "Sons": "Castor and Pollux",
+            "Camp": "Camp Half-Blood",
+            "Enemy": "Kronos"
+          }
+        }
+      }
+    },
+    "aphrodite": {
+      "name": "Aphrodite",
+      "aliases": ["Goddess of Love"],
+      "appearances": [17, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Goddess of love and beauty who joins the final battle, using her charmspeak and divine powers.",
+          "role": "Love goddess in battle",
+          "relationships": {
+            "Husband": "Hephaestus",
+            "Children": "Aphrodite cabin",
+            "Enemy": "Kronos"
+          }
+        }
+      }
+    },
+    "demeter": {
+      "name": "Demeter",
+      "aliases": ["Goddess of Agriculture"],
+      "appearances": [17, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Goddess of the harvest who uses her power over plants and nature in the final battle.",
+          "role": "Agricultural war goddess",
+          "relationships": {
+            "Children": "Demeter cabin",
+            "Daughter": "Persephone",
+            "Enemy": "Kronos"
+          }
+        }
+      }
+    },
+    "hephaestus": {
+      "name": "Hephaestus",
+      "aliases": ["God of Fire"],
+      "appearances": [17, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "God of fire and metalworking who provides weapons and joins the final battle with his mechanical creations.",
+          "role": "Divine weaponsmith and fighter",
+          "relationships": {
+            "Wife": "Aphrodite",
+            "Children": "Hephaestus cabin",
+            "Creations": "Divine weapons"
+          }
+        }
+      }
+    },
+    "minor-gods": {
+      "name": "Minor Gods",
+      "aliases": ["Lesser Deities"],
+      "appearances": [22, 23],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Various minor gods and goddesses who finally receive recognition and cabins at Camp Half-Blood.",
+          "role": "Newly recognized deities",
+          "relationships": {
+            "Advocate": "Percy Jackson",
+            "Children": "Previously unclaimed campers",
+            "New status": "Officially recognized"
+          }
+        }
+      }
+    },
+    "nemesis": {
+      "name": "Nemesis",
+      "aliases": ["Goddess of Revenge"],
+      "appearances": [9, 22],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Goddess of revenge and balance, mother to Ethan Nakamura who fights for the Titans.",
+          "role": "Revenge goddess",
+          "relationships": {
+            "Son": "Ethan Nakamura",
+            "Domain": "Revenge and balance"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Receives a cabin at Camp Half-Blood as part of Percy's request for all gods to claim their children.",
+          "role": "Newly honored minor goddess",
+          "relationships": {
+            "Son": "Ethan Nakamura",
+            "New cabin": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "hecate": {
+      "name": "Hecate",
+      "aliases": ["Goddess of Magic"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Goddess of magic who receives a cabin at Camp Half-Blood for her demigod children.",
+          "role": "Magic goddess receiving recognition",
+          "relationships": {
+            "Children": "Magic-using demigods",
+            "New cabin": "Camp Half-Blood",
+            "Domain": "Magic and crossroads"
+          }
+        }
+      }
+    },
+    "iris": {
+      "name": "Iris",
+      "aliases": ["Rainbow Goddess"],
+      "appearances": [8, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Goddess of the rainbow who continues providing communication services during the battle.",
+          "role": "Divine messenger service",
+          "relationships": {
+            "Service": "Iris-messaging",
+            "Users": "Battle participants",
+            "Medium": "Rainbow mist"
+          }
+        }
+      }
+    },
+    "hypnos": {
+      "name": "Hypnos",
+      "aliases": ["God of Sleep"],
+      "appearances": [7, 22],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "God of sleep who works with Morpheus to keep Manhattan's mortals asleep during the battle.",
+          "role": "Sleep-inducing protector",
+          "relationships": {
+            "Ally": "Morpheus",
+            "Affected": "Manhattan citizens",
+            "Purpose": "Civilian protection"
+          }
+        }
+      }
+    },
+    "janus": {
+      "name": "Janus",
+      "aliases": ["God of Beginnings"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Roman god of doorways and beginnings who receives recognition as the gods honor all deities.",
+          "role": "Doorway god receiving honor",
+          "relationships": {
+            "Domain": "Doorways and choices",
+            "Status": "Newly recognized"
+          }
+        }
+      }
+    },
+    "terminus": {
+      "name": "Terminus",
+      "aliases": ["God of Boundaries"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Roman god of boundaries mentioned among the minor deities receiving new recognition.",
+          "role": "Boundary god",
+          "relationships": {
+            "Domain": "Boundaries and borders",
+            "Status": "Minor god receiving cabin"
+          }
+        }
+      }
+    },
+    "titan-army-demigods": {
+      "name": "Titan Army Demigods",
+      "aliases": ["Rogue Demigods"],
+      "appearances": [8, 12, 14, 16, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Demigods who joined Kronos's cause, believing the Titans offer a better future than the neglectful Olympians.",
+          "role": "Enemy demigod forces",
+          "relationships": {
+            "Leader": "Kronos",
+            "Commander": "Luke Castellan",
+            "Enemy": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "manhattan-emergency-services": {
+      "name": "Emergency Services",
+      "aliases": ["First Responders"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Firefighters, paramedics, and other emergency workers in Manhattan who fall asleep due to Morpheus's spell.",
+          "role": "Sleeping emergency workers",
+          "relationships": {
+            "Affected by": "Morpheus",
+            "City": "Manhattan",
+            "Status": "Magically asleep"
+          }
+        }
+      }
+    },
+    "manhattan-military": {
+      "name": "Manhattan Military",
+      "aliases": ["National Guard"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Military personnel stationed around Manhattan who are also affected by the sleep spell.",
+          "role": "Sleeping military forces",
+          "relationships": {
+            "Affected by": "Morpheus",
+            "Mission": "City protection",
+            "Status": "Magically asleep"
+          }
+        }
+      }
+    },
+    "statue-of-liberty": {
+      "name": "Statue of Liberty",
+      "aliases": ["Lady Liberty"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "The famous statue temporarily animated by divine power during the climactic battle.",
+          "role": "Animated landmark",
+          "relationships": {
+            "Location": "New York Harbor",
+            "Animator": "Divine power",
+            "Symbol": "Freedom and democracy"
+          }
+        }
+      }
+    },
+    "empire-state-building": {
+      "name": "Empire State Building",
+      "aliases": ["Mount Olympus Entrance"],
+      "appearances": [17, 18, 19, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "The skyscraper that serves as the entrance to Mount Olympus via its secret 600th floor.",
+          "role": "Divine gateway building",
+          "relationships": {
+            "Hidden floor": "Mount Olympus",
+            "Guardian": "Security guard",
+            "Key location": "Final battle"
+          }
+        }
+      }
+    },
+    "brooklyn-bridge": {
+      "name": "Brooklyn Bridge",
+      "aliases": [],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Major Manhattan bridge that becomes a battleground during the Titan invasion.",
+          "role": "Strategic battle location",
+          "relationships": {
+            "Defenders": "Demigod forces",
+            "Attackers": "Titan army",
+            "Importance": "Manhattan access"
+          }
+        }
+      }
+    },
+    "chrysler-building": {
+      "name": "Chrysler Building",
+      "aliases": [],
+      "appearances": [14, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Art Deco skyscraper that serves as a vantage point and battle site during the Manhattan conflict.",
+          "role": "Battle landmark",
+          "relationships": {
+            "Location": "Manhattan",
+            "Used by": "Battle participants",
+            "Strategic value": "High vantage point"
+          }
+        }
+      }
+    },
+    "williamsburg-bridge": {
+      "name": "Williamsburg Bridge",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Another major bridge connecting Manhattan that becomes part of the battle theater.",
+          "role": "Secondary battle bridge",
+          "relationships": {
+            "Connects": "Manhattan and Brooklyn",
+            "Battle importance": "Strategic crossing",
+            "Defenders": "Camp forces"
+          }
+        }
+      }
+    },
+    "central-park": {
+      "name": "Central Park",
+      "aliases": [],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Large Manhattan park that becomes a staging area and battle site, with nature spirits joining the fight.",
+          "role": "Nature spirit battleground",
+          "relationships": {
+            "Inhabitants": "Nature spirits",
+            "Commander": "Grover Underwood",
+            "Strategic value": "Large open space"
+          }
+        }
+      }
+    },
+    "river-styx-blessing": {
+      "name": "River Styx Blessing",
+      "aliases": ["Achilles Curse"],
+      "appearances": [4, 20, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The invulnerability curse Percy received from bathing in the River Styx, with Annabeth as his anchor.",
+          "role": "Divine protection curse",
+          "relationships": {
+            "Bearer": "Percy Jackson",
+            "Anchor": "Annabeth Chase",
+            "Weakness": "Small of back"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "The curse that protects Percy throughout the final battle but also makes him vulnerable at his anchor point.",
+          "role": "Double-edged protection",
+          "relationships": {
+            "Protection": "Percy Jackson",
+            "Vulnerability": "Annabeth-connected spot",
+            "Key to prophecy": "Hero's choice"
+          }
+        }
+      }
     }
   },
   "recaps": {

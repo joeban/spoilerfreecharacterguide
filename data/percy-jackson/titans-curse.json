@@ -653,6 +653,903 @@
           }
         }
       }
+    },
+    "hunters-of-artemis": {
+      "name": "Hunters of Artemis",
+      "aliases": ["Artemis's Hunters"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 20],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Immortal huntresses who serve Artemis. Skilled warriors who have sworn off romantic love for eternal youth.",
+          "role": "Immortal warrior huntresses",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "New member": "Bianca di Angelo"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Welcome Thalia Grace as their newest member after she chooses to join them rather than face the prophecy.",
+          "role": "Eternal sisterhood",
+          "relationships": {
+            "Leader": "Artemis",
+            "New lieutenant": "Thalia Grace",
+            "New member": "Thalia Grace"
+          }
+        }
+      }
+    },
+    "phoebe": {
+      "name": "Phoebe",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of the Hunters of Artemis chosen for the quest to rescue their mistress. Skilled archer and tracker.",
+          "role": "Hunter chosen for quest",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Quest companion": "Thalia Grace"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Becomes ill after being sabotaged, forcing the quest group to choose a replacement member.",
+          "role": "Sabotaged hunter",
+          "relationships": {
+            "Replaced by": "Bianca di Angelo",
+            "Saboteur": "Unknown"
+          }
+        }
+      }
+    },
+    "westover-hall-students": {
+      "name": "Westover Hall Students",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Military school students at the dance, unaware of the supernatural drama unfolding around them.",
+          "role": "Oblivious mortal students",
+          "relationships": {
+            "School": "Westover Hall",
+            "Hidden among them": "Bianca di Angelo",
+            "Hidden among them": "Nico di Angelo"
+          }
+        }
+      }
+    },
+    "westover-hall-guards": {
+      "name": "Westover Hall Security",
+      "aliases": ["School Security"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Security guards at Westover Hall who patrol the buildings and grounds during events.",
+          "role": "School security staff",
+          "relationships": {
+            "Employer": "Westover Hall",
+            "Threat": "Dr. Thorn"
+          }
+        }
+      }
+    },
+    "skeleton-warriors": {
+      "name": "Skeleton Warriors",
+      "aliases": ["Spartoi"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Undead warriors that spring from dragon's teeth. Ancient soldiers that serve Nico and other children of Hades.",
+          "role": "Undead warriors",
+          "relationships": {
+            "Summoner": "Nico di Angelo",
+            "Master": "Hades",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Fight alongside Nico in Hephaestus's junkyard, showing his growing power over the dead.",
+          "role": "Loyal undead army",
+          "relationships": {
+            "Commander": "Nico di Angelo",
+            "Battle location": "Hephaestus's junkyard"
+          }
+        }
+      }
+    },
+    "nemean-lion": {
+      "name": "Nemean Lion",
+      "aliases": ["Invulnerable Lion"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A massive lion with impenetrable golden fur that attacks the quest group. One of the monsters sent by the enemy.",
+          "role": "Invulnerable monster",
+          "relationships": {
+            "Enemy": "Percy Jackson",
+            "Enemy": "Quest group",
+            "Defeated by": "Zoë Nightshade"
+          }
+        }
+      }
+    },
+    "boar": {
+      "name": "Erymanthian Boar",
+      "aliases": ["Giant Boar"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A massive wild boar that the group encounters during their journey. Large enough to carry multiple riders.",
+          "role": "Giant wild boar",
+          "relationships": {
+            "Riders": "Percy Jackson",
+            "Riders": "Quest group"
+          }
+        }
+      }
+    },
+    "automatons": {
+      "name": "Automatons",
+      "aliases": ["Bronze Warriors"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Bronze mechanical warriors created by Hephaestus to guard his junkyard. Attack intruders relentlessly.",
+          "role": "Mechanical guardians",
+          "relationships": {
+            "Creator": "Hephaestus",
+            "Enemy": "Percy Jackson",
+            "Enemy": "Quest group",
+            "Location": "Hephaestus's junkyard"
+          }
+        }
+      }
+    },
+    "talos": {
+      "name": "Talos",
+      "aliases": ["Bronze Giant"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A massive bronze giant automaton guarding Hephaestus's junkyard. Ancient protector activated by intrusion.",
+          "role": "Giant bronze guardian",
+          "relationships": {
+            "Creator": "Hephaestus",
+            "Defeated by": "Bianca di Angelo",
+            "Enemy": "Quest group"
+          }
+        }
+      }
+    },
+    "hephaestus": {
+      "name": "Hephaestus",
+      "aliases": ["God of Fire"],
+      "appearances": [15, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "God of fire and metalworking who owns the junkyard. Creator of many automatons and mechanical devices.",
+          "role": "Divine craftsman",
+          "relationships": {
+            "Creation": "Automatons",
+            "Wife": "Aphrodite",
+            "Father": "Zeus"
+          }
+        }
+      }
+    },
+    "hermes": {
+      "name": "Hermes",
+      "aliases": ["Messenger God"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "God of messengers present at the Winter Solstice council meeting on Olympus.",
+          "role": "Divine messenger at council",
+          "relationships": {
+            "Son": "Luke Castellan",
+            "Father": "Zeus"
+          }
+        }
+      }
+    },
+    "demeter": {
+      "name": "Demeter",
+      "aliases": ["Goddess of Agriculture"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Goddess of agriculture present at the Winter Solstice council meeting on Olympus.",
+          "role": "Agricultural goddess at council",
+          "relationships": {
+            "Daughter": "Persephone",
+            "Father": "Zeus"
+          }
+        }
+      }
+    },
+    "poseidon": {
+      "name": "Poseidon",
+      "aliases": ["God of the Sea"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "God of the sea present at the Winter Solstice council, defending his son Percy's actions.",
+          "role": "Sea god and protective father",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Brother": "Zeus",
+            "Brother": "Hades"
+          }
+        }
+      }
+    },
+    "hades": {
+      "name": "Hades",
+      "aliases": ["Lord of the Dead"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "God of the Underworld present at the Winter Solstice council meeting on Olympus.",
+          "role": "Underworld god at council",
+          "relationships": {
+            "Son": "Nico di Angelo",
+            "Daughter": "Bianca di Angelo",
+            "Brother": "Zeus"
+          }
+        }
+      }
+    },
+    "ares": {
+      "name": "Ares",
+      "aliases": ["God of War"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "God of war present at the Winter Solstice council meeting on Olympus.",
+          "role": "War god at council",
+          "relationships": {
+            "Daughter": "Clarisse La Rue",
+            "Father": "Zeus"
+          }
+        }
+      }
+    },
+    "ophiotaurus": {
+      "name": "Ophiotaurus",
+      "aliases": ["Bessie"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A half-cow, half-serpent creature that Percy rescues and names Bessie. Ancient and prophetically important.",
+          "role": "Prophetic sea creature",
+          "relationships": {
+            "Rescuer": "Percy Jackson",
+            "Nickname giver": "Percy Jackson"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Revealed to have the power to destroy Olympus if its entrails are burned by an enemy of the gods.",
+          "role": "Potential destroyer of Olympus",
+          "relationships": {
+            "Protector": "Percy Jackson",
+            "Enemy seeker": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "hesperides": {
+      "name": "Hesperides",
+      "aliases": ["Nymphs of the Evening"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Nymphs who guard the Garden of the Hesperides where Atlas once held up the sky. Daughters of Atlas.",
+          "role": "Garden guardian nymphs",
+          "relationships": {
+            "Father": "Atlas",
+            "Sister": "Zoë Nightshade",
+            "Garden": "Garden of the Hesperides"
+          }
+        }
+      }
+    },
+    "ladon": {
+      "name": "Ladon",
+      "aliases": ["Hundred-Headed Dragon"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A dragon with one hundred heads that guards the golden apples in the Garden of the Hesperides.",
+          "role": "Guardian dragon of golden apples",
+          "relationships": {
+            "Guards": "Golden apples",
+            "Defeated by": "Zoë Nightshade",
+            "Location": "Garden of the Hesperides"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Poisoned Zoë with its venomous breath during the battle at the Garden of the Hesperides.",
+          "role": "Venomous dragon",
+          "relationships": {
+            "Victim": "Zoë Nightshade",
+            "Poison type": "Dragon venom"
+          }
+        }
+      }
+    },
+    "general-atlas": {
+      "name": "General Atlas",
+      "aliases": ["The General"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The mysterious 'General' leading the Titan forces, revealed to be Atlas himself after being freed from his sky-bearing punishment.",
+          "role": "Titan general leading war",
+          "relationships": {
+            "Daughter": "Zoë Nightshade",
+            "Lieutenant": "Luke Castellan",
+            "Prisoner": "Artemis"
+          }
+        }
+      }
+    },
+    "manticore": {
+      "name": "Manticore",
+      "aliases": ["Dr. Thorn"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A monster with a human head, lion body, and scorpion tail that shoots poisonous spikes.",
+          "role": "Monster in human disguise",
+          "relationships": {
+            "Disguise": "Dr. Thorn",
+            "Target": "Bianca di Angelo",
+            "Target": "Nico di Angelo"
+          }
+        }
+      }
+    },
+    "iris": {
+      "name": "Iris",
+      "aliases": ["Rainbow Goddess"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Goddess of the rainbow who provides Iris-messaging services for divine communication.",
+          "role": "Divine messenger service",
+          "relationships": {
+            "Customer": "Percy Jackson",
+            "Service": "Rainbow messages"
+          }
+        }
+      }
+    },
+    "annabeth-father": {
+      "name": "Frederick Chase",
+      "aliases": ["Dr. Chase"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Annabeth's mortal father who lives in San Francisco. Professor and expert in military history.",
+          "role": "Annabeth's mortal father",
+          "relationships": {
+            "Daughter": "Annabeth Chase",
+            "Former lover": "Athena",
+            "Wife": "Mrs. Chase"
+          }
+        }
+      }
+    },
+    "mrs-chase": {
+      "name": "Mrs. Chase",
+      "aliases": ["Annabeth's Stepmother"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Annabeth's stepmother who has a tense relationship with her stepdaughter.",
+          "role": "Annabeth's stepmother",
+          "relationships": {
+            "Husband": "Frederick Chase",
+            "Stepdaughter": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "bobby-chase": {
+      "name": "Bobby Chase",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "One of Annabeth's young half-brothers, son of Frederick and Mrs. Chase.",
+          "role": "Annabeth's half-brother",
+          "relationships": {
+            "Father": "Frederick Chase",
+            "Mother": "Mrs. Chase",
+            "Half-sister": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "matthew-chase": {
+      "name": "Matthew Chase",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "One of Annabeth's young half-brothers, son of Frederick and Mrs. Chase.",
+          "role": "Annabeth's half-brother",
+          "relationships": {
+            "Father": "Frederick Chase",
+            "Mother": "Mrs. Chase",
+            "Half-sister": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "pegasi": {
+      "name": "Pegasi",
+      "aliases": ["Winged Horses"],
+      "appearances": [12, 13, 14, 19],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Winged horses that serve as transportation for the quest group. Can fly great distances.",
+          "role": "Flying transportation",
+          "relationships": {
+            "Rider": "Percy Jackson",
+            "Communicator": "Percy Jackson",
+            "Father of horses": "Poseidon"
+          }
+        }
+      }
+    },
+    "wind-spirits": {
+      "name": "Wind Spirits",
+      "aliases": ["Anemoi Thuellai"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Storm spirits that attack the group during their journey. Servants of chaotic forces.",
+          "role": "Attacking storm spirits",
+          "relationships": {
+            "Enemy": "Percy Jackson",
+            "Enemy": "Quest group",
+            "Master": "Chaos forces"
+          }
+        }
+      }
+    },
+    "spartoi": {
+      "name": "Spartoi",
+      "aliases": ["Dragon Teeth Warriors"],
+      "appearances": [11, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Skeleton warriors that spring from planted dragon teeth, summoned by children of Hades.",
+          "role": "Summoned skeleton army",
+          "relationships": {
+            "Summoner": "Nico di Angelo",
+            "Origin": "Dragon teeth",
+            "Commander": "Hades"
+          }
+        }
+      }
+    },
+    "wild-boar": {
+      "name": "Wild Boar",
+      "aliases": ["Giant Boar"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A massive wild boar that becomes an unlikely ally, carrying the quest members on its back.",
+          "role": "Giant boar ally",
+          "relationships": {
+            "Riders": "Quest group",
+            "Helper": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "bear-twins": {
+      "name": "Bear Twins",
+      "aliases": ["Agrius and Oreius"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Twin sons of Ares with bear-like features who serve Luke and the Titan forces.",
+          "role": "Twin demigod monsters",
+          "relationships": {
+            "Father": "Ares",
+            "Master": "Luke Castellan",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "camp-half-blood-campers": {
+      "name": "Camp Half-Blood Campers",
+      "aliases": [],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Various demigods at Camp Half-Blood dealing with the crisis of having three Big Three children present.",
+          "role": "Concerned camp residents",
+          "relationships": {
+            "Activities director": "Chiron",
+            "Camp director": "Dionysus",
+            "New campers": "Nico and Bianca di Angelo"
+          }
+        }
+      }
+    },
+    "iris-message": {
+      "name": "Iris Messages",
+      "aliases": ["Rainbow Messages"],
+      "appearances": [11, 12, 17],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Magical communication system using rainbow mist, operated by the goddess Iris.",
+          "role": "Divine communication network",
+          "relationships": {
+            "Operator": "Iris",
+            "User": "Percy Jackson",
+            "Medium": "Rainbow mist"
+          }
+        }
+      }
+    },
+    "mist": {
+      "name": "The Mist",
+      "aliases": [],
+      "appearances": [1, 2, 3, 17, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Magical force that obscures supernatural events from mortal perception.",
+          "role": "Reality-concealing magic",
+          "relationships": {
+            "Affected": "Mortals",
+            "Unaffected": "Demigods",
+            "Manipulated by": "Gods"
+          }
+        }
+      }
+    },
+    "taxi-driver": {
+      "name": "Taxi Driver",
+      "aliases": [],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Mortal taxi driver who gives Percy and Nico a ride, affected by the Mist to see normal explanations for strange events.",
+          "role": "Mortal transportation",
+          "relationships": {
+            "Passengers": "Percy Jackson",
+            "Passengers": "Nico di Angelo",
+            "Affected by": "The Mist"
+          }
+        }
+      }
+    },
+    "hoover-dam-mortals": {
+      "name": "Hoover Dam Tourists",
+      "aliases": ["Dam Tourists"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Mortal tourists visiting Hoover Dam who are oblivious to the supernatural events happening around them.",
+          "role": "Oblivious mortal tourists",
+          "relationships": {
+            "Location": "Hoover Dam",
+            "Hidden from": "Supernatural events"
+          }
+        }
+      }
+    },
+    "hoover-dam-guide": {
+      "name": "Hoover Dam Tour Guide",
+      "aliases": [],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Tour guide at Hoover Dam who gives information about the dam's construction and history.",
+          "role": "Informational tour guide",
+          "relationships": {
+            "Workplace": "Hoover Dam",
+            "Audience": "Tourists"
+          }
+        }
+      }
+    },
+    "san-francisco-mortals": {
+      "name": "San Francisco Mortals",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Various mortal residents of San Francisco who witness the supernatural battle but see it through the Mist.",
+          "role": "Mortal witnesses",
+          "relationships": {
+            "City": "San Francisco",
+            "Affected by": "The Mist"
+          }
+        }
+      }
+    },
+    "helicopter-pilot": {
+      "name": "Helicopter Pilot",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Military helicopter pilot who helps Frederick Chase during the battle, controlled by Daedalus's inventions.",
+          "role": "Military pilot",
+          "relationships": {
+            "Commander": "Frederick Chase",
+            "Equipment": "Celestial bronze weapons"
+          }
+        }
+      }
+    },
+    "daedalus-inventions": {
+      "name": "Daedalus's Inventions",
+      "aliases": ["Ancient Weapons"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Ancient celestial bronze weapons and mechanical devices created by Daedalus, used by Frederick Chase.",
+          "role": "Ancient divine weapons",
+          "relationships": {
+            "Creator": "Daedalus",
+            "User": "Frederick Chase",
+            "Target": "Monsters"
+          }
+        }
+      }
+    },
+    "bronze-automatons": {
+      "name": "Bronze Automatons",
+      "aliases": ["Metal Warriors"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Mechanical bronze warriors guarding Hephaestus's junkyard, programmed to attack intruders.",
+          "role": "Mechanical guardians",
+          "relationships": {
+            "Creator": "Hephaestus",
+            "Location": "Junkyard",
+            "Enemy": "Quest group"
+          }
+        }
+      }
+    },
+    "lion-statues": {
+      "name": "Lion Statues",
+      "aliases": ["Guardian Lions"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Stone lion statues that come to life in Hephaestus's junkyard to attack intruders.",
+          "role": "Animated stone guardians",
+          "relationships": {
+            "Animator": "Hephaestus",
+            "Location": "Junkyard",
+            "Enemy": "Quest members"
+          }
+        }
+      }
+    },
+    "wild-animals": {
+      "name": "Wild Animals",
+      "aliases": ["Forest Creatures"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Various wild animals encountered during the quest's journey through forests and wilderness areas.",
+          "role": "Natural wildlife",
+          "relationships": {
+            "Habitat": "Wild forests",
+            "Communicator": "Grover Underwood"
+          }
+        }
+      }
+    },
+    "mountain-spirits": {
+      "name": "Mountain Spirits",
+      "aliases": ["Oreads"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Mountain nymphs and spirits dwelling in the areas around Mount Tamalpais and Mount Othrys.",
+          "role": "Mountain dwelling spirits",
+          "relationships": {
+            "Habitat": "Mountains",
+            "Ally": "Grover Underwood"
+          }
+        }
+      }
+    },
+    "nature-spirits": {
+      "name": "Nature Spirits",
+      "aliases": ["Forest Spirits"],
+      "appearances": [10, 11, 12, 17],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Various nature spirits that Grover can communicate with during their journey through the wilderness.",
+          "role": "Nature communicators",
+          "relationships": {
+            "Communicator": "Grover Underwood",
+            "Habitat": "Natural areas"
+          }
+        }
+      }
+    },
+    "constellation-zoe": {
+      "name": "The Huntress Constellation",
+      "aliases": ["Zoë's Stars"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A new constellation created by Artemis to honor Zoë Nightshade after her heroic death.",
+          "role": "Memorial constellation",
+          "relationships": {
+            "Honored": "Zoë Nightshade",
+            "Creator": "Artemis",
+            "Type": "Stars in night sky"
+          }
+        }
+      }
+    },
+    "camp-canoe-lake": {
+      "name": "Camp Canoe Lake",
+      "aliases": ["The Lake"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The lake at Camp Half-Blood where water activities take place, home to naiads and other water spirits.",
+          "role": "Camp water feature",
+          "relationships": {
+            "Inhabitants": "Naiads",
+            "User": "Percy Jackson",
+            "Location": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "strawberry-fields": {
+      "name": "Camp Strawberry Fields",
+      "aliases": ["Strawberry Fields"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The strawberry fields at Camp Half-Blood that help fund the camp through sales to mortals.",
+          "role": "Camp agricultural area",
+          "relationships": {
+            "Caretakers": "Demeter children",
+            "Workers": "Satyrs",
+            "Location": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "camp-forest": {
+      "name": "Camp Forest",
+      "aliases": ["The Woods"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The forest surrounding Camp Half-Blood where capture the flag is played and various creatures live.",
+          "role": "Camp wilderness area",
+          "relationships": {
+            "Inhabitants": "Dryads",
+            "Guardian": "Grover Underwood",
+            "Activities": "Capture the Flag"
+          }
+        }
+      }
+    },
+    "oracle-mummy": {
+      "name": "The Oracle",
+      "aliases": ["Oracle of Delphi"],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The mummified Oracle at Camp Half-Blood that gives prophecies. Speaks for the spirit of Delphi.",
+          "role": "Ancient prophetic mummy",
+          "relationships": {
+            "Consulter": "Zoë Nightshade",
+            "Location": "Camp Half-Blood",
+            "Power source": "Apollo"
+          }
+        }
+      }
+    },
+    "kronos-voice": {
+      "name": "Kronos's Voice",
+      "aliases": ["The Titan Lord's Whisper"],
+      "appearances": [8, 16, 19],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The disembodied voice of Kronos that speaks to Luke and influences his actions toward evil.",
+          "role": "Evil influence and voice",
+          "relationships": {
+            "Influenced": "Luke Castellan",
+            "Enemy": "Olympian gods",
+            "Goal": "Destroy Olympus"
+          }
+        }
+      }
+    },
+    "empathy-link": {
+      "name": "Empathy Link",
+      "aliases": ["Satyr Bond"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The psychic connection between Percy and Grover that allows them to sense each other's emotions and status.",
+          "role": "Psychic emotional bond",
+          "relationships": {
+            "Connected": "Percy Jackson",
+            "Connected": "Grover Underwood"
+          }
+        }
+      }
     }
   },
   "recaps": {
