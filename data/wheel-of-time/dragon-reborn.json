@@ -1,0 +1,998 @@
+{
+  "meta": {
+    "title": "The Dragon Reborn",
+    "author": "Robert Jordan",
+    "chapters": 56,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "rand-althor": {
+      "name": "Rand al'Thor",
+      "aliases": ["The Dragon Reborn", "He Who Comes With the Dawn"],
+      "appearances": [1, 2, 3, 4, 5, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Struggling with his identity as the Dragon Reborn. Attempts to distance himself from friends to protect them.",
+          "role": "Reluctant Dragon",
+          "relationships": {
+            "Internal conflict": "Accepting destiny",
+            "Protection": "Distancing from friends"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Leaves his friends behind to pursue his destiny alone. Travels toward Tear and the Stone.",
+          "role": "Lone wanderer",
+          "relationships": {
+            "Destination": "Stone of Tear",
+            "Status": "Traveling alone"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Claims Callandor from the Stone of Tear, fulfilling prophecy. Reveals himself publicly as the Dragon Reborn.",
+          "role": "Prophesied savior",
+          "relationships": {
+            "Sword": "Callandor",
+            "Prophecy": "Stone of Tear fulfilled"
+          }
+        }
+      }
+    },
+    "mat-cauthon": {
+      "name": "Mat Cauthon",
+      "aliases": ["Matrim Cauthon", "Prince of the Ravens"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Healed of the Shadar Logoth dagger's influence in Tar Valon. Has gaps in memory but newfound luck.",
+          "role": "Healed gambler",
+          "relationships": {
+            "Healer": "Aes Sedai of Tar Valon",
+            "Condition": "Freed from dagger"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Given ancient memories by the twisted doorway ter'angreal. Gains battle knowledge of legendary generals.",
+          "role": "Battle tactician",
+          "relationships": {
+            "Source": "Twisted doorway ter'angreal",
+            "Gift": "Ancient military memories"
+          }
+        }
+      }
+    },
+    "perrin-aybara": {
+      "name": "Perrin Aybara",
+      "aliases": ["Perrin Goldeneyes", "Young Bull"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "His wolf abilities continue to strengthen. Dreams with wolves and has enhanced senses.",
+          "role": "Developing wolfbrother",
+          "relationships": {
+            "Wolf dreams": "Tel'aran'rhiod connection",
+            "Pack sense": "Strengthening abilities"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Meets Faile Bashere, daughter of a Saldaean lord. Their relationship is tempestuous from the start.",
+          "role": "Reluctant leader",
+          "relationships": {
+            "Love interest": "Zarine (Faile) Bashere",
+            "Conflict": "Her strong personality"
+          }
+        }
+      }
+    },
+    "faile-bashere": {
+      "name": "Zarine Bashere",
+      "aliases": ["Faile", "Falcon"],
+      "appearances": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A young Saldaean noblewoman running away from home. Claims to be a Hunter for the Horn.",
+          "role": "Runaway noble",
+          "relationships": {
+            "Father": "Davram Bashere (unknown to group)",
+            "Goal": "Hunter for the Horn",
+            "Interest": "Perrin Aybara"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Reveals her real name is Zarine, but prefers to be called Faile. Strong-willed and determined.",
+          "role": "Determined hunter",
+          "relationships": {
+            "Real name": "Zarine Bashere",
+            "Preference": "Faile (Falcon)",
+            "Nature": "Stubborn and brave"
+          }
+        }
+      }
+    },
+    "egwene-alvere": {
+      "name": "Egwene al'Vere",
+      "aliases": ["Accepted Egwene"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Training in Tar Valon, advancing rapidly in her studies. Traumatized by her experience as damane.",
+          "role": "Advancing Accepted",
+          "relationships": {
+            "Training": "White Tower",
+            "Trauma": "Seanchan captivity"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Learns to enter Tel'aran'rhiod (the World of Dreams) using ter'angreal given by Verin.",
+          "role": "Dreamer in training",
+          "relationships": {
+            "Teacher": "Verin Mathwin",
+            "Ability": "Dream walking"
+          }
+        }
+      }
+    },
+    "nynaeve-almeara": {
+      "name": "Nynaeve al'Meara",
+      "aliases": ["Accepted Nynaeve"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Hunting the Black Ajah with Egwene and Elayne. Her anger allows her to channel incredible amounts of saidar.",
+          "role": "Black Ajah hunter",
+          "relationships": {
+            "Mission": "Hunt Black Ajah",
+            "Companions": "Egwene, Elayne"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Uses need in Tel'aran'rhiod to track the Black Ajah sisters who fled the Tower.",
+          "role": "Dream walker",
+          "relationships": {
+            "Ability": "Dream walking",
+            "Method": "Following need"
+          }
+        }
+      }
+    },
+    "elayne-trakand": {
+      "name": "Elayne Trakand",
+      "aliases": ["Daughter-Heir", "Accepted Elayne"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Accepted in the White Tower, joining the hunt for Black Ajah. Daughter-Heir of Andor seeking adventure.",
+          "role": "Royal Accepted",
+          "relationships": {
+            "Title": "Daughter-Heir of Andor",
+            "Mission": "Hunt Black Ajah",
+            "Training": "White Tower"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Shows talent for making ter'angreal. Her royal upbringing helps in dealing with nobles.",
+          "role": "Ter'angreal maker",
+          "relationships": {
+            "Talent": "Creating ter'angreal",
+            "Background": "Royal training"
+          }
+        }
+      }
+    },
+    "aviendha": {
+      "name": "Aviendha",
+      "aliases": [],
+      "appearances": [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "A Maiden of the Spear from the Nine Valleys sept of the Taardad Aiel. Can channel but denies it.",
+          "role": "Maiden of the Spear",
+          "relationships": {
+            "Clan": "Taardad Aiel",
+            "Sept": "Nine Valleys",
+            "Society": "Maidens of the Spear"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Assigned to watch Rand by the Wise Ones. Hostile toward him but bound by ji'e'toh.",
+          "role": "Reluctant guardian",
+          "relationships": {
+            "Assignment": "Watch Rand al'Thor",
+            "Assigners": "Wise Ones",
+            "Code": "Ji'e'toh (honor)"
+          }
+        }
+      }
+    },
+    "rhuarc": {
+      "name": "Rhuarc",
+      "aliases": [],
+      "appearances": [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Clan chief of the Taardad Aiel. A tall, graying man with calm authority and strategic mind.",
+          "role": "Clan chief",
+          "relationships": {
+            "Clan": "Taardad Aiel",
+            "Wives": "Amys (Wise One), Lian",
+            "Position": "Battle leader"
+          }
+        }
+      }
+    },
+    "gaul": {
+      "name": "Gaul",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Stone Dog warrior captured in the Stone of Tear. Freed by Perrin, creating obligation.",
+          "role": "Stone Dog warrior",
+          "relationships": {
+            "Society": "Shae'en M'taal (Stone Dogs)",
+            "Clan": "Imran",
+            "Debt": "Toh to Perrin"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Follows Perrin to fulfill his obligation. Becomes loyal companion and cultural guide.",
+          "role": "Loyal companion",
+          "relationships": {
+            "Loyalty": "Perrin Aybara",
+            "Role": "Cultural teacher"
+          }
+        }
+      }
+    },
+    "bain": {
+      "name": "Bain",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Maiden of the Spear from the Black Rock sept of the Shaarad Aiel. First-sister to Chiad.",
+          "role": "Maiden of the Spear",
+          "relationships": {
+            "Society": "Maidens of the Spear",
+            "Clan": "Shaarad",
+            "First-sister": "Chiad"
+          }
+        }
+      }
+    },
+    "chiad": {
+      "name": "Chiad",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Maiden of the Spear from the Stones River sept of the Goshien Aiel. First-sister to Bain.",
+          "role": "Maiden of the Spear",
+          "relationships": {
+            "Society": "Maidens of the Spear",
+            "Clan": "Goshien",
+            "First-sister": "Bain"
+          }
+        }
+      }
+    },
+    "moiraine-damodred": {
+      "name": "Moiraine Damodred",
+      "aliases": ["Moiraine Sedai"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Follows Rand's trail with Lan, trying to guide his development as the Dragon Reborn from a distance.",
+          "role": "Distant guide",
+          "relationships": {
+            "Mission": "Guide Dragon Reborn",
+            "Method": "Following at distance"
+          }
+        }
+      }
+    },
+    "lan-mandragoran": {
+      "name": "Lan Mandragoran",
+      "aliases": ["Lan", "al'Lan Mandragoran"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Continues as Moiraine's Warder, tracking Rand. His feelings for Nynaeve create internal conflict.",
+          "role": "Torn Warder",
+          "relationships": {
+            "Bond": "Moiraine (Warder bond)",
+            "Love": "Nynaeve al'Meara",
+            "Conflict": "Duty vs. heart"
+          }
+        }
+      }
+    },
+    "thom-merrilin": {
+      "name": "Thom Merrilin",
+      "aliases": ["Thom"],
+      "appearances": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Traveling with Mat and Perrin. His skills as a gleeman hide his past as a court bard and spy.",
+          "role": "Hidden spy master",
+          "relationships": {
+            "Cover": "Simple gleeman",
+            "Reality": "Court intrigue expert"
+          }
+        }
+      }
+    },
+    "high-lord-samon": {
+      "name": "High Lord Samon",
+      "aliases": ["Be'lal", "Netweaver"],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear who has been manipulating events. Actually Be'lal, one of the Forsaken.",
+          "role": "Forsaken infiltrator",
+          "relationships": {
+            "True identity": "Be'lal the Forsaken",
+            "Cover": "Tairen High Lord",
+            "Goal": "Control Callandor"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Killed by Moiraine's balefire before he can claim Callandor. His plans unravel completely.",
+          "role": "Defeated Forsaken",
+          "relationships": {
+            "Killer": "Moiraine Damodred",
+            "Method": "Balefire",
+            "Status": "Burned from pattern"
+          }
+        }
+      }
+    },
+    "high-lord-weiramon": {
+      "name": "High Lord Weiramon",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "A High Lord of Tear, vain and ambitious. Commands respect through his noble status.",
+          "role": "Tairen noble",
+          "relationships": {
+            "Position": "High Lord of Tear",
+            "Trait": "Vain and ambitious"
+          }
+        }
+      }
+    },
+    "high-lord-sunamon": {
+      "name": "High Lord Sunamon",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "Another High Lord of Tear, part of the ruling council of the nation.",
+          "role": "Tairen High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear"
+          }
+        }
+      }
+    },
+    "high-lord-darlin": {
+      "name": "High Lord Darlin",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear, more reasonable than some of his peers. Cautious about change.",
+          "role": "Moderate High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear",
+            "Trait": "More reasonable"
+          }
+        }
+      }
+    },
+    "high-lord-torean": {
+      "name": "High Lord Torean",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "A fat High Lord of Tear, typical of the corrupt nobility.",
+          "role": "Corrupt High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear",
+            "Trait": "Fat and corrupt"
+          }
+        }
+      }
+    },
+    "high-lord-estanda": {
+      "name": "High Lord Estanda",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear, part of the ruling class that has oppressed channelers.",
+          "role": "Traditional High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear"
+          }
+        }
+      }
+    },
+    "high-lord-hearne": {
+      "name": "High Lord Hearne",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear, member of the Stone's ruling council.",
+          "role": "High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear"
+          }
+        }
+      }
+    },
+    "high-lord-simaan": {
+      "name": "High Lord Simaan",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear, traditionalist who opposes change.",
+          "role": "Conservative High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear",
+            "Stance": "Against change"
+          }
+        }
+      }
+    },
+    "high-lord-gueyam": {
+      "name": "High Lord Gueyam",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear, part of the traditional power structure.",
+          "role": "High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear"
+          }
+        }
+      }
+    },
+    "high-lord-astoril": {
+      "name": "High Lord Astoril",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear, member of the Stone's council.",
+          "role": "High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear"
+          }
+        }
+      }
+    },
+    "high-lord-tedosian": {
+      "name": "High Lord Tedosian",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear, traditionalist noble.",
+          "role": "High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear"
+          }
+        }
+      }
+    },
+    "high-lord-meilan": {
+      "name": "High Lord Meilan",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "High Lord of Tear, part of the ruling oligarchy.",
+          "role": "High Lord",
+          "relationships": {
+            "Position": "High Lord of Tear"
+          }
+        }
+      }
+    },
+    "captain-caldevwin": {
+      "name": "Captain Caldevwin",
+      "aliases": [],
+      "appearances": [50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "Captain of the Stone's guard, loyal to the High Lords of Tear.",
+          "role": "Stone Guard captain",
+          "relationships": {
+            "Loyalty": "High Lords of Tear",
+            "Command": "Stone Guard"
+          }
+        }
+      }
+    },
+    "verin-mathwin": {
+      "name": "Verin Mathwin",
+      "aliases": ["Verin Sedai"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Gives Egwene ter'angreal that allow entry to Tel'aran'rhiod. Claims it's for studying dreams.",
+          "role": "Secret teacher",
+          "relationships": {
+            "Student": "Egwene al'Vere",
+            "Gift": "Dream ter'angreal",
+            "Motive": "Hidden agenda"
+          }
+        }
+      }
+    },
+    "alanna-mosvani": {
+      "name": "Alanna Mosvani",
+      "aliases": ["Alanna Sedai"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Green Ajah sister hunting the Black Ajah. Passionate and emotional for an Aes Sedai.",
+          "role": "Green Ajah hunter",
+          "relationships": {
+            "Ajah": "Green",
+            "Mission": "Hunt Black Ajah",
+            "Warders": "Ihvon and Owein"
+          }
+        }
+      }
+    },
+    "ihvon": {
+      "name": "Ihvon",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Warder to Alanna Mosvani. Cairhienin man with typical Warder traits.",
+          "role": "Warder",
+          "relationships": {
+            "Aes Sedai": "Alanna Mosvani",
+            "Origin": "Cairhien"
+          }
+        }
+      }
+    },
+    "owein": {
+      "name": "Owein",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Warder to Alanna Mosvani. Second Warder bonded to the Green sister.",
+          "role": "Warder",
+          "relationships": {
+            "Aes Sedai": "Alanna Mosvani",
+            "Status": "Second Warder"
+          }
+        }
+      }
+    },
+    "masuri-sokawa": {
+      "name": "Masuri Sokawa",
+      "aliases": ["Masuri Sedai"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Brown Ajah sister, part of the group hunting Black Ajah. Scholar and researcher.",
+          "role": "Brown Ajah hunter",
+          "relationships": {
+            "Ajah": "Brown",
+            "Mission": "Hunt Black Ajah"
+          }
+        }
+      }
+    },
+    "kiruna-nachiman": {
+      "name": "Kiruna Nachiman",
+      "aliases": ["Kiruna Sedai"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Green Ajah sister hunting Black Ajah. Sister to Lady Amalisa of Fal Dara.",
+          "role": "Green Ajah hunter",
+          "relationships": {
+            "Ajah": "Green",
+            "Sister": "Lady Amalisa Jagad",
+            "Mission": "Hunt Black Ajah"
+          }
+        }
+      }
+    },
+    "bera-harkin": {
+      "name": "Bera Harkin",
+      "aliases": ["Bera Sedai"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Green Ajah sister on the hunt for Black Ajah. Experienced warrior sister.",
+          "role": "Green Ajah hunter",
+          "relationships": {
+            "Ajah": "Green",
+            "Mission": "Hunt Black Ajah"
+          }
+        }
+      }
+    },
+    "adeleas-namelle": {
+      "name": "Adeleas Namelle",
+      "aliases": ["Adeleas Sedai"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Brown Ajah sister, twin to Vandene. Ancient scholar with vast knowledge.",
+          "role": "Scholar twin",
+          "relationships": {
+            "Ajah": "Brown",
+            "Twin": "Vandene Namelle",
+            "Specialty": "Ancient history"
+          }
+        }
+      }
+    },
+    "vandene-namelle": {
+      "name": "Vandene Namelle",
+      "aliases": ["Vandene Sedai"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Brown Ajah sister, twin to Adeleas. Scholar specializing in ancient texts.",
+          "role": "Scholar twin",
+          "relationships": {
+            "Ajah": "Brown",
+            "Twin": "Adeleas Namelle",
+            "Knowledge": "Ancient prophecies"
+          }
+        }
+      }
+    },
+    "siuan-sanche": {
+      "name": "Siuan Sanche",
+      "aliases": ["The Amyrlin Seat", "Mother"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Secretly supports the hunt for Black Ajah while maintaining her public position as Amyrlin.",
+          "role": "Secret ally",
+          "relationships": {
+            "Public role": "Amyrlin Seat",
+            "Secret mission": "Support Black Ajah hunt"
+          }
+        }
+      }
+    },
+    "leane-sharif": {
+      "name": "Leane Sharif",
+      "aliases": ["Keeper of Chronicles"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Keeper of the Chronicles, working with Siuan to coordinate the hunt for Black Ajah.",
+          "role": "Coordinating Keeper",
+          "relationships": {
+            "Superior": "Siuan Sanche",
+            "Secret role": "Coordinate hunters"
+          }
+        }
+      }
+    },
+    "sheriam-bayanar": {
+      "name": "Sheriam Bayanar",
+      "aliases": ["Mistress of Novices"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Mistress of Novices in the White Tower. Blue Ajah sister with red hair.",
+          "role": "Mistress of Novices",
+          "relationships": {
+            "Position": "Training supervisor",
+            "Ajah": "Blue"
+          }
+        }
+      }
+    },
+    "anaiya-carel": {
+      "name": "Anaiya Carel",
+      "aliases": ["Anaiya Sedai"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Blue Ajah sister in the White Tower. Part of the inner circle aware of the Black Ajah threat.",
+          "role": "Inner circle Blue",
+          "relationships": {
+            "Ajah": "Blue",
+            "Knowledge": "Black Ajah existence"
+          }
+        }
+      }
+    },
+    "liandrin-guirale": {
+      "name": "Liandrin Guirale",
+      "aliases": ["Liandrin of the Black Ajah"],
+      "appearances": [11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Revealed as Black Ajah leader who fled the Tower with other Darkfriend sisters.",
+          "role": "Black Ajah leader",
+          "relationships": {
+            "True allegiance": "Shadow",
+            "Status": "Fled White Tower",
+            "Followers": "Black Ajah sisters"
+          }
+        }
+      }
+    },
+    "chesmal-emry": {
+      "name": "Chesmal Emry",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former Yellow Ajah, now revealed as Black Ajah. Fled the Tower with Liandrin.",
+          "role": "Black Ajah",
+          "relationships": {
+            "Former Ajah": "Yellow",
+            "True allegiance": "Shadow",
+            "Leader": "Liandrin"
+          }
+        }
+      }
+    },
+    "rianna-andomeran": {
+      "name": "Rianna Andomeran",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former White Ajah, now revealed as Black Ajah. Part of Liandrin's group.",
+          "role": "Black Ajah",
+          "relationships": {
+            "Former Ajah": "White",
+            "True allegiance": "Shadow"
+          }
+        }
+      }
+    },
+    "jeaine-caide": {
+      "name": "Jeaine Caide",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former Green Ajah, now revealed as Black Ajah. Fled with Liandrin's circle.",
+          "role": "Black Ajah",
+          "relationships": {
+            "Former Ajah": "Green",
+            "True allegiance": "Shadow"
+          }
+        }
+      }
+    },
+    "joiya-byir": {
+      "name": "Joiya Byir",
+      "aliases": [],
+      "appearances": [43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "43": {
+          "revealedIn": 43,
+          "description": "Black Ajah sister captured in the Stone of Tear. Tries to manipulate her captors with lies.",
+          "role": "Captive Black Ajah",
+          "relationships": {
+            "Status": "Captured",
+            "Captors": "Moiraine and others",
+            "Method": "Lies and manipulation"
+          }
+        }
+      }
+    },
+    "amico-nagoyin": {
+      "name": "Amico Nagoyin",
+      "aliases": [],
+      "appearances": [43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "43": {
+          "revealedIn": 43,
+          "description": "Black Ajah sister captured in the Stone. Severed from the True Source as punishment.",
+          "role": "Severed Black Ajah",
+          "relationships": {
+            "Status": "Captured and severed",
+            "Condition": "Cannot channel"
+          }
+        }
+      }
+    },
+    "juilin-sandar": {
+      "name": "Juilin Sandar",
+      "aliases": [],
+      "appearances": [48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Tairen thief-catcher with distinctive conical cap. Skilled tracker and investigator.",
+          "role": "Thief-catcher",
+          "relationships": {
+            "Origin": "Tear",
+            "Profession": "Thief-catching",
+            "Weapon": "Shortsword and cudgel"
+          }
+        }
+      }
+    },
+    "loial": {
+      "name": "Loial",
+      "aliases": ["Loial son of Arent son of Halan"],
+      "appearances": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Traveling with Mat and Perrin, documenting their adventures. His Ogier nature makes him valuable.",
+          "role": "Chronicler companion",
+          "relationships": {
+            "Mission": "Document ta'veren",
+            "Nature": "Ogier longevity and knowledge"
+          }
+        }
+      }
+    },
+    "lanfear": {
+      "name": "Lanfear",
+      "aliases": ["Daughter of the Night", "Selene", "Mierin Eronaile"],
+      "appearances": [52, 53, 54, 55, 56],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "One of the Forsaken, most powerful female channeler. Was Selene in disguise, obsessed with Lews Therin.",
+          "role": "Forsaken",
+          "relationships": {
+            "True identity": "Lanfear the Forsaken",
+            "Obsession": "Lews Therin/Rand",
+            "Former identity": "Selene"
+          }
+        }
+      }
+    },
+    "ishamael": {
+      "name": "Ishamael",
+      "aliases": ["Ba'alzamon", "Moridin"],
+      "appearances": [55, 56],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "Appears in the Stone to face Rand. The eternal enemy of the Dragon throughout ages.",
+          "role": "Eternal adversary",
+          "relationships": {
+            "Enemy": "Dragon (all incarnations)",
+            "Nature": "Eternal opponent"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Rand struggles with his identity as the Dragon Reborn, having nightmares and trying to distance himself from his friends.",
+    "2": "The group remains at Fal Dara while Rand grapples with his destiny. Tensions rise as he becomes more isolated.",
+    "3": "Rand's behavior becomes increasingly erratic as he fights against accepting his role as the Dragon Reborn.",
+    "4": "Political maneuvering continues in Fal Dara as various factions position themselves around the Dragon Reborn.",
+    "5": "Rand leaves his friends behind, believing he can face his destiny alone and protect them by staying away.",
+    "6": "In Tar Valon, Egwene, Nynaeve, and Elayne learn of the Black Ajah - Aes Sedai who serve the Shadow.",
+    "7": "The three women are given a secret mission to hunt the Black Ajah sisters who have fled the White Tower.",
+    "8": "Mat is Healed of the Shadar Logoth dagger's influence, but the experience leaves him with gaps in memory.",
+    "9": "The Black Ajah hunters begin their pursuit, following clues left by the fleeing Darkfriend Aes Sedai.",
+    "10": "Perrin, Mat, and their companions follow Rand's trail, determined to find him despite his wishes.",
+    "11": "Nynaeve learns to enter Tel'aran'rhiod (World of Dreams) using ter'angreal provided by Verin Mathwin.",
+    "12": "The hunt for Black Ajah leads through various cities as the sisters try to track their quarry.",
+    "13": "Mat begins showing unusual luck in gambling and other ventures, a side effect of his healing.",
+    "14": "The group faces various dangers on the road as they pursue both Rand and the Black Ajah.",
+    "15": "Dreams and the World of Dreams become increasingly important as Egwene learns to navigate Tel'aran'rhiod.",
+    "16": "Political tensions rise across the continent as news of the Dragon Reborn spreads.",
+    "17": "Perrin meets Zarine Bashere (who calls herself Faile), a young woman claiming to be a Hunter of the Horn.",
+    "18": "Faile joins the group despite Perrin's reluctance. Her strong personality clashes with his cautious nature.",
+    "19": "Mat enters a twisted doorway ter'angreal and gains ancient memories of battle and military tactics.",
+    "20": "The ter'angreal gives Mat knowledge from legendary generals, fundamentally changing his abilities and perspective.",
+    "21": "Travel becomes more dangerous as various groups converge on their destinations with conflicting goals.",
+    "22": "The hunt intensifies as both groups get closer to their objectives - Rand for one, Black Ajah for the other.",
+    "23": "Faile reveals her real name is Zarine, but prefers Faile (meaning Falcon). Her past remains mysterious.",
+    "24": "Political intrigue affects the journey as various nations react to the Dragon Reborn's emergence.",
+    "25": "Egwene's training in Tel'aran'rhiod advances as she learns to navigate the World of Dreams safely.",
+    "26": "The pursuit leads through different regions, each with their own dangers and political complications.",
+    "27": "Mat's new memories begin manifesting as tactical knowledge and understanding of ancient battles.",
+    "28": "The groups face increasing dangers from both human enemies and creatures of the Shadow.",
+    "29": "Dreams and prophecies become more frequent and intense as major events approach.",
+    "30": "The hunt for both Rand and the Black Ajah sisters leads toward Tear and the Stone.",
+    "31": "Political tensions in Tear rise as the Stone - supposedly impregnable - faces an unprecedented threat.",
+    "32": "Various factions converge on Tear, including Aiel who have left the Waste for the first time in generations.",
+    "33": "The Stone of Tear becomes the focus of prophecy as events move toward their climax.",
+    "34": "Aiel warriors are captured in the Stone, including Gaul, Bain, and Chiad. Perrin helps free Gaul.",
+    "35": "The relationship between Perrin and the Aiel begins as cultural differences create both conflict and understanding.",
+    "36": "Preparations intensify as various groups prepare for the fulfillment of prophecy in the Stone.",
+    "37": "The Stone's defenses are tested as supernatural forces gather around this ancient fortress.",
+    "38": "Political maneuvering continues among the High Lords as they face unprecedented challenges to their power.",
+    "39": "Aviendha and other Aiel arrive, including clan chief Rhuarc. Their presence changes the dynamics completely.",
+    "40": "The Aiel's arrival shocks Tear, as these people were considered myths by most wetlanders.",
+    "41": "Cultural exchanges between Aiel and wetlanders reveal vast differences in customs and honor codes.",
+    "42": "Aviendha is assigned to watch Rand, though she resents the duty and shows hostility toward him.",
+    "43": "Black Ajah sisters Joiya and Amico are captured in the Stone. Interrogation reveals disturbing information.",
+    "44": "The captured Black Ajah provide conflicting stories about their plans and the Shadow's intentions.",
+    "45": "Tension mounts in the Stone as various factions prepare for the prophesied events to unfold.",
+    "46": "The High Lords of Tear face the reality that their world is changing beyond their control.",
+    "47": "Ancient prophecies about the Stone being taken begin to manifest as impossible events occur.",
+    "48": "Juilin Sandar, a thief-catcher, becomes involved in the complex events surrounding the Stone.",
+    "49": "The Stone's legendary impregnability is challenged as the Dragon Reborn approaches his destiny.",
+    "50": "High Lord Samon is revealed as Be'lal, one of the Forsaken, who has been manipulating events in Tear.",
+    "51": "The Forsaken's plans unfold as the Stone of Tear faces its greatest threat in three thousand years.",
+    "52": "Lanfear appears, revealing herself as the mysterious Selene who had been manipulating Rand.",
+    "53": "Multiple Forsaken converge on the Stone as the final confrontation approaches.",
+    "54": "The Stone's defenses crumble as supernatural forces clash within the ancient fortress.",
+    "55": "Rand claims Callandor, the Sword That Is Not a Sword, from the Stone's Heart. Be'lal is destroyed by balefire.",
+    "56": "The Stone of Tear falls as prophesied. Rand accepts his role as the Dragon Reborn publicly, changing the world forever."
+  }
+}

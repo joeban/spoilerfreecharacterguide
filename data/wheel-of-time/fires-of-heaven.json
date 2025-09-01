@@ -1,0 +1,940 @@
+{
+  "meta": {
+    "title": "The Fires of Heaven",
+    "author": "Robert Jordan",
+    "chapters": 56,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "rand-althor": {
+      "name": "Rand al'Thor",
+      "aliases": ["The Dragon Reborn", "Car'a'carn", "He Who Comes With the Dawn"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Leading the Aiel across the Dragonwall to fight the Shaido rebellion. Struggling with the weight of command.",
+          "role": "Aiel war leader",
+          "relationships": {
+            "Command": "Aiel clans following Car'a'carn",
+            "Enemy": "Couladin and the Shaido",
+            "Teacher": "Asmodean (Forsaken prisoner)"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Battles Rahvin in Tel'aran'rhiod and the real world simultaneously, using balefire to devastating effect.",
+          "role": "Forsaken killer",
+          "relationships": {
+            "Victory": "Defeated Rahvin",
+            "Weapon": "Balefire weaves",
+            "Cost": "Friends' deaths and resurrection"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Kills Rahvin with balefire, unmaking his recent actions and bringing Mat and Aviendha back from death.",
+          "role": "Pattern manipulator",
+          "relationships": {
+            "Power": "Balefire mastery",
+            "Saved": "Mat, Aviendha, Asmodean",
+            "Location": "Caemlyn Palace"
+          }
+        }
+      }
+    },
+    "mat-cauthon": {
+      "name": "Mat Cauthon",
+      "aliases": ["Matrim Cauthon", "Prince of the Ravens"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Reluctantly serves as one of Rand's generals, using his ancient memories to plan military campaigns.",
+          "role": "Reluctant general",
+          "relationships": {
+            "Commander": "Rand al'Thor",
+            "Asset": "Ancient battle memories",
+            "Attitude": "Reluctant service"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Leads cavalry charges in the Battle of Cairhien, proving his tactical genius despite his reluctance.",
+          "role": "Cavalry commander",
+          "relationships": {
+            "Battle": "Cairhien liberation",
+            "Command": "Cavalry forces",
+            "Success": "Tactical victories"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Killed by Rahvin's lightning but brought back when Rand's balefire unraveled the Forsaken's recent actions.",
+          "role": "Resurrected general",
+          "relationships": {
+            "Death": "Rahvin's lightning",
+            "Resurrection": "Rand's balefire",
+            "Status": "Returned to life"
+          }
+        }
+      }
+    },
+    "aviendha": {
+      "name": "Aviendha",
+      "aliases": ["Near-sister to Elayne"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Travels with Rand as assigned by the Wise Ones, though their relationship remains hostile and tense.",
+          "role": "Reluctant guardian",
+          "relationships": {
+            "Ward": "Rand al'Thor",
+            "Assigners": "Wise Ones",
+            "Attitude": "Hostile duty"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Her relationship with Rand becomes romantic despite her attempts to maintain distance and honor.",
+          "role": "Conflicted lover",
+          "relationships": {
+            "Love": "Rand al'Thor",
+            "Conflict": "Duty vs. heart",
+            "Honor": "Ji'e'toh complications"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Killed by Rahvin but brought back when balefire unraveled time, experiencing both death and resurrection.",
+          "role": "Death survivor",
+          "relationships": {
+            "Death": "Rahvin's attack",
+            "Savior": "Rand's balefire",
+            "Bond": "Strengthened by shared death"
+          }
+        }
+      }
+    },
+    "egwene-alvere": {
+      "name": "Egwene al'Vere",
+      "aliases": ["Accepted Egwene"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Training intensively with the Wise Ones, learning both channeling and dreamwalking in Tel'aran'rhiod.",
+          "role": "Wise One apprentice",
+          "relationships": {
+            "Teachers": "Amys, Bair, Melaine",
+            "Training": "Dreamwalking mastery",
+            "Progress": "Rapid advancement"
+          }
+        },
+        "37": {
+          "revealedIn": 37,
+          "description": "Fights Lanfear in Tel'aran'rhiod, proving her growing skill and courage in the World of Dreams.",
+          "role": "Dream warrior",
+          "relationships": {
+            "Enemy": "Lanfear",
+            "Battleground": "Tel'aran'rhiod",
+            "Outcome": "Survival and growth"
+          }
+        }
+      }
+    },
+    "nynaeve-almeara": {
+      "name": "Nynaeve al'Meara",
+      "aliases": ["Accepted Nynaeve"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Travels with Valan Luca's traveling show as cover while continuing to hunt Black Ajah members.",
+          "role": "Undercover hunter",
+          "relationships": {
+            "Cover": "Valan Luca's show",
+            "Mission": "Hunt Black Ajah",
+            "Companions": "Elayne, Thom, Juilin"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Battles Moghedien in Tel'aran'rhiod, matching the Forsaken's power through anger and determination.",
+          "role": "Forsaken challenger",
+          "relationships": {
+            "Enemy": "Moghedien",
+            "Advantage": "Anger-fueled strength",
+            "Victory": "Defeated the Spider"
+          }
+        }
+      }
+    },
+    "elayne-trakand": {
+      "name": "Elayne Trakand",
+      "aliases": ["Daughter-Heir", "Accepted Elayne"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Disguised as a performer in the traveling show, using her noble training to help navigate politics.",
+          "role": "Disguised noble",
+          "relationships": {
+            "Disguise": "Circus performer",
+            "Truth": "Daughter-Heir of Andor",
+            "Mission": "Black Ajah hunting"
+          }
+        },
+        "49": {
+          "revealedIn": 49,
+          "description": "Learns that Rahvin has taken control of Andor and her mother through Compulsion weaves.",
+          "role": "Dispossessed heir",
+          "relationships": {
+            "Mother": "Morgase (controlled)",
+            "Usurper": "Rahvin/Lord Gaebril",
+            "Kingdom": "Andor (lost)"
+          }
+        }
+      }
+    },
+    "moiraine-damodred": {
+      "name": "Moiraine Damodred",
+      "aliases": ["Moiraine Sedai"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues to advise Rand while dealing with the complexities of Aiel politics and warfare.",
+          "role": "Political advisor",
+          "relationships": {
+            "Advisee": "Rand al'Thor",
+            "Challenge": "Aiel cultural differences",
+            "Knowledge": "Prophecies and politics"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Sacrifices herself by tackling Lanfear through the twisted doorway, saving Rand but disappearing from the world.",
+          "role": "Self-sacrificing guide",
+          "relationships": {
+            "Sacrifice": "Tackled Lanfear",
+            "Doorway": "Twisted ter'angreal",
+            "Saved": "Rand al'Thor",
+            "Fate": "Disappeared"
+          }
+        }
+      }
+    },
+    "lan-mandragoran": {
+      "name": "Lan Mandragoran",
+      "aliases": ["Lan", "al'Lan Mandragoran"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "The Warder bond is severed when Moiraine dies/disappears. Myrelle holds his bond as arranged by Moiraine.",
+          "role": "Transferred Warder",
+          "relationships": {
+            "Former Aes Sedai": "Moiraine (dead/gone)",
+            "New Aes Sedai": "Myrelle Berengari",
+            "Arrangement": "Moiraine's pre-planning"
+          }
+        }
+      }
+    },
+    "asmodean": {
+      "name": "Asmodean",
+      "aliases": ["Natael", "Jasin Natael"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Serves as Rand's reluctant teacher in channeling, disguised as the gleeman Jasin Natael.",
+          "role": "Captive instructor",
+          "relationships": {
+            "Student": "Rand al'Thor",
+            "Disguise": "Jasin Natael the gleeman",
+            "Status": "Prisoner and teacher"
+          }
+        },
+        "56": {
+          "revealedIn": 56,
+          "description": "Found dead in Caemlyn, killed by an unknown assassin. His teaching of Rand is complete.",
+          "role": "Murdered Forsaken",
+          "relationships": {
+            "Status": "Dead",
+            "Killer": "Unknown",
+            "Legacy": "Taught Rand saidin use"
+          }
+        }
+      }
+    },
+    "couladin": {
+      "name": "Couladin",
+      "aliases": ["False Car'a'carn"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Leads the Shaido in rebellion against Rand, claiming to be the true Car'a'carn with fake dragon marks.",
+          "role": "Shaido leader",
+          "relationships": {
+            "Followers": "Shaido Aiel",
+            "Enemy": "Rand al'Thor",
+            "Deception": "False dragon tattoos"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Killed by Mat in the Battle of Cairhien, ending the Shaido rebellion and his false claim to leadership.",
+          "role": "Defeated pretender",
+          "relationships": {
+            "Killer": "Mat Cauthon",
+            "Death": "Battle of Cairhien",
+            "End": "Shaido rebellion crushed"
+          }
+        }
+      }
+    },
+    "sevanna": {
+      "name": "Sevanna",
+      "aliases": [],
+      "appearances": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Couladin's wife and ambitious woman who pushes the Shaido toward greater conflict and conquest.",
+          "role": "Ambitious wife",
+          "relationships": {
+            "Husband": "Couladin",
+            "Ambition": "Power and conquest",
+            "Influence": "Over Shaido decisions"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "After Couladin's death, takes control of the Shaido and continues their aggressive campaigns.",
+          "role": "Shaido leader",
+          "relationships": {
+            "Status": "Widow and leader",
+            "Control": "Shaido Aiel",
+            "Goal": "Continued conquest"
+          }
+        }
+      }
+    },
+    "rhuarc": {
+      "name": "Rhuarc",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Serves as one of Rand's most trusted advisors and military leaders among the Aiel clans.",
+          "role": "Trusted advisor",
+          "relationships": {
+            "Leader": "Rand al'Thor",
+            "Role": "Military counsel",
+            "Clan": "Taardad"
+          }
+        }
+      }
+    },
+    "han": {
+      "name": "Han",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Tomanelle clan chief who supports Rand as Car'a'carn in the campaign against the Shaido.",
+          "role": "Supporting clan chief",
+          "relationships": {
+            "Clan": "Tomanelle",
+            "Support": "Car'a'carn"
+          }
+        }
+      }
+    },
+    "valan-luca": {
+      "name": "Valan Luca",
+      "aliases": ["Master Luca"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Owner and manager of a traveling menagerie. Vain and dramatic, but skilled at entertainment business.",
+          "role": "Circus master",
+          "relationships": {
+            "Business": "Traveling show",
+            "Performers": "Various acts and animals",
+            "Trait": "Vain showmanship"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Becomes infatuated with Nynaeve, pursuing her romantically despite her clear disinterest.",
+          "role": "Unwanted suitor",
+          "relationships": {
+            "Infatuation": "Nynaeve al'Meara",
+            "Reception": "Rejected advances",
+            "Persistence": "Continued pursuit"
+          }
+        }
+      }
+    },
+    "petra-anhill": {
+      "name": "Petra Anhill",
+      "aliases": ["The Strongman"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The strongman of Luca's show. Gentle giant who performs feats of strength for amazed crowds.",
+          "role": "Circus strongman",
+          "relationships": {
+            "Show": "Valan Luca's menagerie",
+            "Act": "Feats of strength",
+            "Nature": "Gentle despite size"
+          }
+        }
+      }
+    },
+    "clarine": {
+      "name": "Clarine",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Tightrope walker in the show. Married to Petra despite their physical differences.",
+          "role": "Tightrope walker",
+          "relationships": {
+            "Husband": "Petra Anhill",
+            "Act": "High wire performances",
+            "Show": "Luca's menagerie"
+          }
+        }
+      }
+    },
+    "cerandin": {
+      "name": "Cerandin",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Former Seanchan sul'dam now working as animal trainer. Keeps her past secret from most.",
+          "role": "Animal trainer",
+          "relationships": {
+            "Past": "Seanchan sul'dam",
+            "Present": "Animal handler",
+            "Secret": "True identity"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Her Seanchan background is revealed when she recognizes cultural elements and tries to contact her people.",
+          "role": "Secret Seanchan",
+          "relationships": {
+            "Truth": "Former sul'dam",
+            "Loyalty": "Still to Seanchan Empire",
+            "Danger": "Knowledge of damane"
+          }
+        }
+      }
+    },
+    "latelle": {
+      "name": "Latelle",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Bear trainer in the show, married to Olver. Strong-willed woman who controls dangerous animals.",
+          "role": "Bear trainer",
+          "relationships": {
+            "Husband": "Olver",
+            "Animals": "Trained bears",
+            "Personality": "Strong-willed"
+          }
+        }
+      }
+    },
+    "olver-bear-trainer": {
+      "name": "Olver",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Bear trainer married to Latelle. Works with dangerous animals in the traveling show.",
+          "role": "Bear trainer",
+          "relationships": {
+            "Wife": "Latelle",
+            "Work": "Training bears",
+            "Show": "Luca's menagerie"
+          }
+        }
+      }
+    },
+    "thom-merrilin": {
+      "name": "Thom Merrilin",
+      "aliases": ["Thom"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Traveling with the show as cover, performing as a gleeman while helping hunt Black Ajah.",
+          "role": "Undercover gleeman",
+          "relationships": {
+            "Cover": "Circus performer",
+            "Mission": "Protect and guide",
+            "Romance": "Growing feelings for Moiraine"
+          }
+        }
+      }
+    },
+    "juilin-sandar": {
+      "name": "Juilin Sandar",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Thief-catcher disguised as a circus performer, using his investigative skills to help the mission.",
+          "role": "Undercover investigator",
+          "relationships": {
+            "Disguise": "Circus act",
+            "Skills": "Tracking and investigation",
+            "Mission": "Hunt Black Ajah"
+          }
+        }
+      }
+    },
+    "birgitte-silverbow": {
+      "name": "Birgitte Silverbow",
+      "aliases": ["Birgitte"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Hero of the Horn ripped from Tel'aran'rhiod and given physical form. Legendary archer now flesh and blood.",
+          "role": "Incarnate Hero",
+          "relationships": {
+            "Origin": "Hero of the Horn",
+            "Summoner": "Moghedien's torture",
+            "Rescuer": "Nynaeve al'Meara"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Bonded as Warder to Elayne to save her life, creating an unusual Warder bond with the Daughter-Heir.",
+          "role": "Aes Sedai Warder",
+          "relationships": {
+            "Aes Sedai": "Elayne Trakand",
+            "Bond": "Life-saving Warder bond",
+            "Status": "Incarnate Hero as Warder"
+          }
+        }
+      }
+    },
+    "galad-damodred": {
+      "name": "Galad Damodred",
+      "aliases": [],
+      "appearances": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Now a Child of the Light (Whitecloak), having joined them in his quest to do what is right.",
+          "role": "Whitecloak officer",
+          "relationships": {
+            "Organization": "Children of the Light",
+            "Motivation": "Absolute righteousness",
+            "Family": "Elayne and Gawyn (half-siblings)"
+          }
+        }
+      }
+    },
+    "pedron-niall": {
+      "name": "Pedron Niall",
+      "aliases": ["Lord Captain Commander"],
+      "appearances": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Lord Captain Commander of the Children of the Light, master strategist planning to use chaos to his advantage.",
+          "role": "Whitecloak supreme commander",
+          "relationships": {
+            "Position": "Lord Captain Commander",
+            "Strategy": "Manipulate continental chaos",
+            "Organization": "Children of the Light"
+          }
+        }
+      }
+    },
+    "omerna": {
+      "name": "Omerna",
+      "aliases": [],
+      "appearances": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "High-ranking Whitecloak officer serving under Pedron Niall. Ambitious and politically minded.",
+          "role": "Whitecloak officer",
+          "relationships": {
+            "Superior": "Pedron Niall",
+            "Trait": "Political ambition"
+          }
+        }
+      }
+    },
+    "siuan-sanche": {
+      "name": "Siuan Sanche",
+      "aliases": ["Former Amyrlin", "Siuan"],
+      "appearances": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Deposed as Amyrlin Seat and stilled by Elaida's coup. Now powerless but still determined to fight.",
+          "role": "Deposed Amyrlin",
+          "relationships": {
+            "Former position": "Amyrlin Seat",
+            "Deposer": "Elaida do Avriny",
+            "Condition": "Stilled from saidar"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Healed of being stilled by Nynaeve, though at reduced strength. Works with rebel Aes Sedai in Salidar.",
+          "role": "Healed former Amyrlin",
+          "relationships": {
+            "Healer": "Nynaeve al'Meara",
+            "Condition": "Restored but weakened",
+            "Alliance": "Salidar rebels"
+          }
+        }
+      }
+    },
+    "leane-sharif": {
+      "name": "Leane Sharif",
+      "aliases": ["Former Keeper"],
+      "appearances": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Former Keeper of the Chronicles, deposed and stilled along with Siuan. Maintains her dignity despite loss.",
+          "role": "Former Keeper",
+          "relationships": {
+            "Former superior": "Siuan Sanche",
+            "Condition": "Stilled",
+            "Status": "Deposed"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Healed of stilling by Nynaeve. Her personality changes dramatically, becoming more flirtatious and bold.",
+          "role": "Transformed former Keeper",
+          "relationships": {
+            "Healer": "Nynaeve al'Meara",
+            "Change": "Dramatic personality shift",
+            "New nature": "Bold and flirtatious"
+          }
+        }
+      }
+    },
+    "elaida-avriny": {
+      "name": "Elaida do Avriny a'Roihan",
+      "aliases": ["Elaida", "The Amyrlin Seat"],
+      "appearances": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Led coup against Siuan, becoming new Amyrlin Seat. Rules White Tower with iron fist and growing paranoia.",
+          "role": "Usurper Amyrlin",
+          "relationships": {
+            "Predecessor": "Siuan Sanche (deposed)",
+            "Method": "Coup d'état",
+            "Rule": "Authoritarian"
+          }
+        }
+      }
+    },
+    "alviarin-freidhen": {
+      "name": "Alviarin Freidhen",
+      "aliases": [],
+      "appearances": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "White Ajah sister who becomes Keeper of Chronicles under Elaida. Secretly Black Ajah and manipulates events.",
+          "role": "Black Ajah Keeper",
+          "relationships": {
+            "Public position": "Keeper of Chronicles",
+            "Secret allegiance": "Black Ajah",
+            "Superior": "Elaida (manipulated)"
+          }
+        }
+      }
+    },
+    "sheriam-bayanar": {
+      "name": "Sheriam Bayanar",
+      "aliases": [],
+      "appearances": [48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Blue Ajah sister who leads the rebel Aes Sedai in Salidar against Elaida's rule of the White Tower.",
+          "role": "Rebel leader",
+          "relationships": {
+            "Position": "Leader of Salidar rebels",
+            "Opposition": "Elaida's White Tower",
+            "Goal": "Restore proper leadership"
+          }
+        }
+      }
+    },
+    "anaiya-carel": {
+      "name": "Anaiya Carel",
+      "aliases": [],
+      "appearances": [48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Blue Ajah sister among the Salidar rebels, working to oppose Elaida's illegitimate rule.",
+          "role": "Salidar rebel",
+          "relationships": {
+            "Ajah": "Blue",
+            "Alliance": "Salidar rebels",
+            "Cause": "Anti-Elaida"
+          }
+        }
+      }
+    },
+    "carlinya": {
+      "name": "Carlinya",
+      "aliases": [],
+      "appearances": [48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "White Ajah sister with the Salidar rebels. Known for her logical approach and cool demeanor.",
+          "role": "Logical rebel",
+          "relationships": {
+            "Ajah": "White",
+            "Trait": "Logical and cool",
+            "Alliance": "Salidar"
+          }
+        }
+      }
+    },
+    "beonin-marinye": {
+      "name": "Beonin Marinye",
+      "aliases": [],
+      "appearances": [48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Gray Ajah sister among the Salidar rebels. Specializes in legal matters and negotiations.",
+          "role": "Legal expert",
+          "relationships": {
+            "Ajah": "Gray",
+            "Specialty": "Law and mediation",
+            "Group": "Salidar rebels"
+          }
+        }
+      }
+    },
+    "myrelle-berengari": {
+      "name": "Myrelle Berengari",
+      "aliases": [],
+      "appearances": [48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Green Ajah sister with multiple Warders among the Salidar rebels. Known for her beauty and passion.",
+          "role": "Multi-Warder Green",
+          "relationships": {
+            "Ajah": "Green",
+            "Warders": "Multiple bonds",
+            "Location": "Salidar rebels"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Receives Lan's Warder bond when Moiraine dies, as pre-arranged by Moiraine to save his life.",
+          "role": "Lan's new Aes Sedai",
+          "relationships": {
+            "New Warder": "Lan Mandragoran",
+            "Arrangement": "Moiraine's planning",
+            "Purpose": "Save Lan from bond death"
+          }
+        }
+      }
+    },
+    "morvrin": {
+      "name": "Morvrin",
+      "aliases": [],
+      "appearances": [48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Brown Ajah sister among the Salidar rebels. Scholar and researcher working against Elaida.",
+          "role": "Scholar rebel",
+          "relationships": {
+            "Ajah": "Brown",
+            "Role": "Research and knowledge",
+            "Alliance": "Salidar"
+          }
+        }
+      }
+    },
+    "lanfear": {
+      "name": "Lanfear",
+      "aliases": ["Daughter of the Night", "Mierin Eronaile"],
+      "appearances": [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Most powerful of the female Forsaken, obsessed with Lews Therin/Rand. Battles in Tel'aran'rhiod.",
+          "role": "Obsessed Forsaken",
+          "relationships": {
+            "Obsession": "Lews Therin/Rand",
+            "Power": "Strongest female channeler",
+            "Domain": "Tel'aran'rhiod mastery"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Killed when Moiraine tackles her through the twisted doorway ter'angreal, both disappearing from the world.",
+          "role": "Eliminated Forsaken",
+          "relationships": {
+            "Killer": "Moiraine's sacrifice",
+            "Method": "Twisted doorway",
+            "Fate": "Disappeared/dead"
+          }
+        }
+      }
+    },
+    "rahvin": {
+      "name": "Rahvin",
+      "aliases": ["Lord Gaebril"],
+      "appearances": [49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "49": {
+          "revealedIn": 49,
+          "description": "Forsaken who has taken control of Andor by putting Queen Morgase under Compulsion and ruling through her.",
+          "role": "Andor usurper",
+          "relationships": {
+            "Identity": "Lord Gaebril",
+            "Victim": "Queen Morgase",
+            "Control": "Andor kingdom"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Killed by Rand's balefire in their battle above Caemlyn. His death unravels his recent actions through time.",
+          "role": "Balefired Forsaken",
+          "relationships": {
+            "Killer": "Rand al'Thor",
+            "Weapon": "Balefire",
+            "Effect": "Recent actions unraveled"
+          }
+        }
+      }
+    },
+    "moghedien": {
+      "name": "Moghedien",
+      "aliases": ["The Spider", "Gyldin"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Battles Nynaeve in Tel'aran'rhiod and is defeated, then tortured by pulling Birgitte from the World of Dreams.",
+          "role": "Defeated Forsaken",
+          "relationships": {
+            "Defeater": "Nynaeve al'Meara",
+            "Revenge": "Torturing Birgitte",
+            "Domain": "Tel'aran'rhiod"
+          }
+        }
+      }
+    },
+    "sammael": {
+      "name": "Sammael",
+      "aliases": ["Lord Brend"],
+      "appearances": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "One of the Forsaken who has taken control of Illian. Former Age of Legends general and rival to Lews Therin.",
+          "role": "Illian ruler",
+          "relationships": {
+            "Identity": "Lord Brend of Illian",
+            "Past": "Age of Legends general",
+            "Rivalry": "Lews Therin/Rand"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Rand leads the Aiel in pursuing Couladin and the Shaido across the Dragonwall, beginning a campaign to stop their depredations.",
+    "2": "The Aiel war band crosses into the wetlands, shocking the people of Cairhien and Andor with their presence.",
+    "3": "Political tensions rise as various kingdoms react to the Aiel invasion and Rand's role as Car'a'carn.",
+    "4": "Asmodean continues teaching Rand about the One Power while disguised as the gleeman Jasin Natael.",
+    "5": "The pursuit of the Shaido intensifies as reports of their raids and conquests spread across the continent.",
+    "6": "Rand struggles with the responsibilities of leadership while learning to control his growing power.",
+    "7": "The Aiel clans following Rand maintain their discipline while the Shaido under Couladin grow increasingly violent.",
+    "8": "Nynaeve, Elayne, Thom, and Juilin join Valan Luca's traveling show as cover for their continued mission.",
+    "9": "The circus provides both concealment and complications as the group tries to hunt Black Ajah while performing.",
+    "10": "Valan Luca's romantic pursuit of Nynaeve creates additional problems for the disguised Aes Sedai hunters.",
+    "11": "The traveling show encounters various dangers and political complications as it moves through troubled lands.",
+    "12": "Egwene's training with the Aiel Wise Ones intensifies, particularly her development in Tel'aran'rhiod.",
+    "13": "The World of Dreams becomes increasingly important as various factions use it for communication and warfare.",
+    "14": "Political chaos spreads across multiple kingdoms as the effects of the Dragon Reborn's emergence grow.",
+    "15": "The hunt for Black Ajah continues with the circus as cover, leading to dangerous encounters and discoveries.",
+    "16": "Various plots and conspiracies begin converging as different groups pursue their conflicting goals.",
+    "17": "The Aiel war band faces increasing resistance as they pursue the Shaido toward Cairhien.",
+    "18": "Rand's relationship with Aviendha becomes more complex despite their attempts to maintain proper distance.",
+    "19": "The siege of Cairhien intensifies as the Shaido surround the ancient city and threaten its destruction.",
+    "20": "Sevanna's influence over the Shaido grows as she pushes them toward greater violence and conquest.",
+    "21": "Political maneuvering continues as various rulers try to position themselves advantageously.",
+    "22": "The crisis in Cairhien worsens as the city faces starvation and the Shaido tighten their siege.",
+    "23": "Rand's forces approach Cairhien while the defending nobles struggle to maintain their resistance.",
+    "24": "Preparations for the great battle intensify as multiple armies converge on the besieged city.",
+    "25": "Valan Luca's continued romantic pursuit of Nynaeve creates increasingly awkward situations for everyone.",
+    "26": "News of Siuan's deposition and Elaida's coup reaches various groups, shocking supporters of the old regime.",
+    "27": "The political upheaval in the White Tower sends ripples throughout the Aes Sedai network.",
+    "28": "Various factions react to the change in leadership at the White Tower, with some supporting and others opposing.",
+    "29": "The crisis deepens as the implications of the Tower schism become clear to channelers worldwide.",
+    "30": "Cerandin's Seanchan background becomes more apparent as she tries to contact her people.",
+    "31": "Rand and Aviendha's relationship crosses new boundaries despite their cultural and duty-based conflicts.",
+    "32": "Galad's membership in the Children of the Light creates new complications for his family relationships.",
+    "33": "Pedron Niall's political maneuverings show his skill at manipulating continental chaos for Whitecloak benefit.",
+    "34": "Nynaeve battles Moghedien in Tel'aran'rhiod, with Birgitte being ripped from the World of Dreams as consequence.",
+    "35": "Birgitte's forced incarnation creates an unprecedented situation as a Hero of the Horn gains physical form.",
+    "36": "The approach to Cairhien culminates as Rand's forces prepare for the decisive battle against the Shaido.",
+    "37": "Egwene faces Lanfear in Tel'aran'rhiod, showing her growing skill and courage in dream battles.",
+    "38": "Multiple dream confrontations occur as various factions use Tel'aran'rhiod for their conflicts.",
+    "39": "The eve of the great battle arrives as all forces position themselves around besieged Cairhien.",
+    "40": "Tensions reach their peak as the various armies prepare for what may be a decisive confrontation.",
+    "41": "The Battle of Cairhien begins with Rand's forces engaging the Shaido in desperate combat.",
+    "42": "The battle intensifies as ancient enemies clash while the fate of kingdoms hangs in the balance.",
+    "43": "Mat's tactical genius shows as he leads cavalry charges that help turn the tide of battle.",
+    "44": "Couladin is killed by Mat, ending the false Car'a'carn's claim and breaking the Shaido resistance.",
+    "45": "Victory at Cairhien comes at great cost, with many casualties among both Aiel and wetlander forces.",
+    "46": "The aftermath of battle reveals new political alignments and the growing influence of Rand's rule.",
+    "47": "Sevanna takes control of the surviving Shaido, vowing to continue their path of conquest and violence.",
+    "48": "The Salidar rebels form as Aes Sedai opposed to Elaida gather to resist her illegitimate rule.",
+    "49": "News of Rahvin's control over Andor reaches Rand, spurring him to action against the Forsaken.",
+    "50": "Siuan and Leane are healed of stilling by Nynaeve, though at reduced strength and with personality changes.",
+    "51": "Preparations begin for Rand's assault on Caemlyn to face Rahvin and liberate Andor from Forsaken control.",
+    "52": "The climactic battles occur: Moiraine sacrifices herself against Lanfear while Rand fights and kills Rahvin.",
+    "53": "Rahvin's death by balefire unravels his recent actions, bringing back those he had killed in the palace.",
+    "54": "The political ramifications of Rahvin's death and Andor's liberation spread throughout the continent.",
+    "55": "New alliances and enmities form as the balance of power shifts following the major battles and deaths.",
+    "56": "Asmodean is found dead, killed by an unknown assassin, ending his role as Rand's reluctant teacher."
+  }
+}

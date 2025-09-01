@@ -1,0 +1,870 @@
+{
+  "meta": {
+    "title": "The Great Hunt",
+    "author": "Robert Jordan",
+    "chapters": 50,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "rand-althor": {
+      "name": "Rand al'Thor",
+      "aliases": ["The Dragon Reborn", "Lord Rand"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Dragon Reborn, learning to channel saidin. Given a heron-marked sword by Lord Agelmar.",
+          "role": "Dragon Reborn",
+          "relationships": {
+            "Sword": "Heron-marked blade from Agelmar",
+            "Teacher": "Lan Mandragoran"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Proclaimed as the Dragon Reborn by the Amyrlin Seat. Struggles with his destiny and power.",
+          "role": "Proclaimed Dragon",
+          "relationships": {
+            "Acknowledger": "Siuan Sanche (Amyrlin)",
+            "Conflict": "Accepting his fate"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Retrieves the Horn of Valere and fights Ba'alzamon above Falme. His battle is seen by all.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Artifact": "Horn of Valere",
+            "Enemy": "Ba'alzamon in the sky"
+          }
+        }
+      }
+    },
+    "mat-cauthon": {
+      "name": "Mat Cauthon",
+      "aliases": ["Matrim Cauthon", "Hornsounder"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Still connected to the Shadar Logoth dagger despite Moiraine's healing. Shows exceptional skill with his quarterstaff.",
+          "role": "Ta'veren warrior",
+          "relationships": {
+            "Weapon": "Quarterstaff",
+            "Curse": "Remaining dagger connection"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Sounds the Horn of Valere, calling forth the Heroes of the Horn from the past.",
+          "role": "Hornsounder",
+          "relationships": {
+            "Artifact": "Horn of Valere",
+            "Bond": "Tied to the Horn until death"
+          }
+        }
+      }
+    },
+    "perrin-aybara": {
+      "name": "Perrin Aybara",
+      "aliases": ["Perrin Goldeneyes", "Young Bull"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "His wolf abilities continue to develop. Skilled with axe and hammer in combat.",
+          "role": "Wolfbrother warrior",
+          "relationships": {
+            "Weapon": "Bearded axe",
+            "Wolf name": "Young Bull",
+            "Pack": "Local wolf packs"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Meets Zarine Bashere (later called Faile). Their relationship begins with conflict and attraction.",
+          "role": "Reluctant leader",
+          "relationships": {
+            "Love interest": "Zarine Bashere",
+            "Conflict": "Accepting leadership"
+          }
+        }
+      }
+    },
+    "egwene-alvere": {
+      "name": "Egwene al'Vere",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Learning to channel under Moiraine's guidance. Shows natural ability and strong will.",
+          "role": "Novice channeler",
+          "relationships": {
+            "Teacher": "Moiraine Damodred",
+            "Goal": "Becoming Aes Sedai"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Taken by the Seanchan as damane. Suffers under the a'dam's control by sul'dam.",
+          "role": "Captive damane",
+          "relationships": {
+            "Captor": "Renna (sul'dam)",
+            "Status": "Collared channeler"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Freed from Seanchan captivity. Understands the horror of the adam and sul'dam system.",
+          "role": "Escaped damane",
+          "relationships": {
+            "Rescuer": "Min Farshaw",
+            "Knowledge": "Seanchan channeler system"
+          }
+        }
+      }
+    },
+    "nynaeve-almeara": {
+      "name": "Nynaeve al'Meara",
+      "aliases": ["Accepted Nynaeve"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Raised to Accepted in the White Tower. Undergoes the ter'angreal test showing her past and possible futures.",
+          "role": "Accepted",
+          "relationships": {
+            "Rank": "Accepted of the White Tower",
+            "Ring": "Great Serpent ring"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Helps rescue Egwene from the Seanchan. Demonstrates her growing power and healing abilities.",
+          "role": "Rescuer and healer",
+          "relationships": {
+            "Mission": "Rescue Egwene",
+            "Ability": "Powerful healing weaves"
+          }
+        }
+      }
+    },
+    "siuan-sanche": {
+      "name": "Siuan Sanche",
+      "aliases": ["The Amyrlin Seat", "Mother"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The Amyrlin Seat, leader of all Aes Sedai. Young for her position, formerly of the Blue Ajah.",
+          "role": "Amyrlin Seat",
+          "relationships": {
+            "Former Ajah": "Blue",
+            "Keeper": "Leane Sharif",
+            "Position": "Leader of Aes Sedai"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Secretly believes Rand is the Dragon Reborn. Works behind the scenes to manipulate events.",
+          "role": "Secret supporter",
+          "relationships": {
+            "Belief": "Rand is Dragon Reborn",
+            "Ally": "Moiraine Damodred"
+          }
+        }
+      }
+    },
+    "leane-sharif": {
+      "name": "Leane Sharif",
+      "aliases": ["Keeper of the Chronicles"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Keeper of the Chronicles to the Amyrlin Seat. Formerly of the Green Ajah, elegant and composed.",
+          "role": "Keeper of Chronicles",
+          "relationships": {
+            "Superior": "Siuan Sanche",
+            "Former Ajah": "Green",
+            "Position": "Second to Amyrlin"
+          }
+        }
+      }
+    },
+    "liandrin-guirale": {
+      "name": "Liandrin Guirale",
+      "aliases": ["Liandrin Sedai"],
+      "appearances": [4, 5, 6, 18, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Aes Sedai of the Red Ajah. Beautiful but cold, with a honey-colored braid and ageless face.",
+          "role": "Red Ajah Sister",
+          "relationships": {
+            "Ajah": "Red",
+            "Interest": "Gentling male channelers"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Leads Egwene and Nynaeve to Falme claiming they're needed. Actually serving her own agenda.",
+          "role": "Manipulator",
+          "relationships": {
+            "Targets": "Egwene and Nynaeve",
+            "Hidden agenda": "Unknown purpose"
+          }
+        },
+        "43": {
+          "revealedIn": 43,
+          "description": "Revealed as Black Ajah - a Darkfriend among the Aes Sedai. Part of a secret conspiracy.",
+          "role": "Black Ajah",
+          "relationships": {
+            "True allegiance": "Shadow",
+            "Conspiracy": "Black Ajah"
+          }
+        }
+      }
+    },
+    "verin-mathwin": {
+      "name": "Verin Mathwin",
+      "aliases": ["Verin Sedai"],
+      "appearances": [6, 7, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An Aes Sedai of the Brown Ajah, scholarly and absent-minded. Studies old prophecies and histories.",
+          "role": "Brown Ajah Scholar",
+          "relationships": {
+            "Ajah": "Brown",
+            "Interest": "Ancient knowledge and prophecies"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Accompanies the group hunting the Horn. Shows unexpected knowledge of Portal Stones.",
+          "role": "Portal Stone expert",
+          "relationships": {
+            "Knowledge": "Portal Stones and parallel worlds",
+            "Mission": "Recovering the Horn"
+          }
+        }
+      }
+    },
+    "ingtar-shinowa": {
+      "name": "Lord Ingtar Shinowa",
+      "aliases": ["Ingtar Darkslayer"],
+      "appearances": [1, 2, 3, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Leads the hunt for the Horn of Valere stolen by Padan Fain. Shienaran lord devoted to duty.",
+          "role": "Hunt leader",
+          "relationships": {
+            "Mission": "Recover Horn of Valere",
+            "Target": "Padan Fain and Darkfriends"
+          }
+        },
+        "47": {
+          "revealedIn": 47,
+          "description": "Revealed as a Darkfriend who has been serving the Shadow. Seeks redemption in his final moments.",
+          "role": "Repentant Darkfriend",
+          "relationships": {
+            "True allegiance": "Shadow (former)",
+            "Redemption": "Final sacrifice for Light"
+          }
+        }
+      }
+    },
+    "hurin": {
+      "name": "Hurin",
+      "aliases": ["Sniffer"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Shienaran thief-taker who can smell where violence has been done. Tracks the Horn thieves.",
+          "role": "Sniffer and tracker",
+          "relationships": {
+            "Ability": "Smell violence and evil",
+            "Lord": "Ingtar Shinowa"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Transported to a parallel world through Portal Stone. Helps navigate this strange reality.",
+          "role": "Guide in parallel world",
+          "relationships": {
+            "Knowledge": "Parallel world experience",
+            "Loyalty": "Rand al'Thor as Lord"
+          }
+        }
+      }
+    },
+    "uno-nomesta": {
+      "name": "Uno Nomesta",
+      "aliases": ["Uno"],
+      "appearances": [1, 2, 3, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Joins the hunt for the Horn. One-eyed Shienaran soldier known for his colorful language.",
+          "role": "Shienaran soldier",
+          "relationships": {
+            "Commander": "Lord Ingtar",
+            "Trait": "Profane speech, one eye"
+          }
+        }
+      }
+    },
+    "ragan": {
+      "name": "Ragan",
+      "aliases": [],
+      "appearances": [2, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Shienaran soldier in Ingtar's party hunting the Horn.",
+          "role": "Shienaran soldier",
+          "relationships": {
+            "Commander": "Lord Ingtar"
+          }
+        }
+      }
+    },
+    "masema-dagar": {
+      "name": "Masema Dagar",
+      "aliases": [],
+      "appearances": [2, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A fanatic Shienaran soldier who develops an obsession with Rand as the Dragon Reborn.",
+          "role": "Fanatical follower",
+          "relationships": {
+            "Obsession": "Rand al'Thor as savior",
+            "Trait": "Religious fanaticism"
+          }
+        }
+      }
+    },
+    "loial": {
+      "name": "Loial",
+      "aliases": ["Loial son of Arent son of Halan"],
+      "appearances": [1, 2, 3, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Accompanies the hunt for the Horn. His knowledge of Portal Stones proves invaluable.",
+          "role": "Ogier guide",
+          "relationships": {
+            "Knowledge": "Portal Stones and Ways",
+            "Mission": "Supporting the hunt"
+          }
+        }
+      }
+    },
+    "selene": {
+      "name": "Selene",
+      "aliases": ["Lanfear", "Daughter of the Night"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A beautiful mysterious woman encountered in the parallel world. Claims to be from Cairhien.",
+          "role": "Mysterious beauty",
+          "relationships": {
+            "Interest": "Rand al'Thor",
+            "Origin": "Claims Cairhien"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Encourages Rand to take risks and seize power. Shows unusual knowledge of the One Power.",
+          "role": "Manipulative advisor",
+          "relationships": {
+            "Goal": "Pushing Rand to greatness",
+            "Knowledge": "Suspiciously extensive"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Vanishes mysteriously after the Cairhien events. Her true identity remains hidden.",
+          "role": "Disappeared manipulator",
+          "relationships": {
+            "Status": "Vanished",
+            "True nature": "Concealed"
+          }
+        }
+      }
+    },
+    "padan-fain": {
+      "name": "Padan Fain",
+      "aliases": ["Fain", "Houndmaster"],
+      "appearances": [2, 3, 47, 48, 49, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Steals the Horn of Valere and Mat's dagger from Fal Dara. Enhanced by both Shadow and Shadar Logoth.",
+          "role": "Horn thief",
+          "relationships": {
+            "Stolen items": "Horn of Valere, Shadar Logoth dagger",
+            "Enhancement": "Shadow and Mashadar"
+          }
+        },
+        "47": {
+          "revealedIn": 47,
+          "description": "Commands Whitecloaks in Falme. His dual corruption makes him unpredictable and dangerous.",
+          "role": "Whitecloak commander",
+          "relationships": {
+            "Corruption": "Dark One and Shadar Logoth",
+            "Forces": "Children of Light"
+          }
+        }
+      }
+    },
+    "geofram-bornhald": {
+      "name": "Geofram Bornhald",
+      "aliases": ["Lord Captain Bornhald"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Dies in the battle at Falme, killed by Fain's treachery. Maintains his honor to the end.",
+          "role": "Fallen Lord Captain",
+          "relationships": {
+            "Killer": "Padan Fain's betrayal",
+            "Son": "Dain Bornhald"
+          }
+        }
+      }
+    },
+    "high-lady-suroth": {
+      "name": "High Lady Suroth",
+      "aliases": ["Suroth Sabelle Meldarath"],
+      "appearances": [29, 34, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "High-ranking Seanchan Blood who commands the forces at Falme. Ambitious and ruthless.",
+          "role": "Seanchan High Lady",
+          "relationships": {
+            "Position": "High Blood",
+            "Command": "Falme invasion force"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Witnesses the battle in the sky between Rand and Ba'alzamon. The fulfillment of Seanchan prophecy.",
+          "role": "Witness to prophecy",
+          "relationships": {
+            "Prophecy": "Return and the Dragon",
+            "Location": "Falme battle"
+          }
+        }
+      }
+    },
+    "turak": {
+      "name": "High Lord Turak",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan High Lord and collector of blades. Master swordsman who collects weapons and art.",
+          "role": "Seanchan collector",
+          "relationships": {
+            "Collection": "Swords and artifacts",
+            "Skill": "Blademaster"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Killed by Rand in single combat. His death shocks the Seanchan hierarchy.",
+          "role": "Defeated High Lord",
+          "relationships": {
+            "Killer": "Rand al'Thor",
+            "Status": "Dead in combat"
+          }
+        }
+      }
+    },
+    "renna": {
+      "name": "Renna",
+      "aliases": [],
+      "appearances": [12, 29, 34, 40, 41, 42, 43, 44, 45, 46],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Seanchan sul'dam who controls Egwene with an a'dam. Believes she cannot channel.",
+          "role": "Sul'dam",
+          "relationships": {
+            "Damane": "Egwene (as prisoner)",
+            "Belief": "Cannot channel"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Killed during Egwene's rescue. Her death represents freedom from the a'dam system.",
+          "role": "Dead captor",
+          "relationships": {
+            "Killer": "Egwene's rescuers",
+            "Represents": "Seanchan oppression"
+          }
+        }
+      }
+    },
+    "seta": {
+      "name": "Seta",
+      "aliases": [],
+      "appearances": [29, 34, 40, 41, 42, 43, 44, 45, 46],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Another sul'dam in Falme. Works with other sul'dam to control damane.",
+          "role": "Sul'dam",
+          "relationships": {
+            "Colleagues": "Other sul'dam",
+            "System": "Seanchan channeler control"
+          }
+        }
+      }
+    },
+    "min-farshaw": {
+      "name": "Min Farshaw",
+      "aliases": ["Min"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Captured by the Seanchan in Falme. Her viewing ability makes her valuable to them.",
+          "role": "Captive seer",
+          "relationships": {
+            "Captors": "Seanchan",
+            "Value": "Viewing ability"
+          }
+        },
+        "43": {
+          "revealedIn": 43,
+          "description": "Helps rescue Egwene from Seanchan captivity. Shows courage despite her fears.",
+          "role": "Rescuer",
+          "relationships": {
+            "Mission": "Free Egwene",
+            "Courage": "Despite personal fear"
+          }
+        }
+      }
+    },
+    "bayle-domon": {
+      "name": "Bayle Domon",
+      "aliases": ["Captain Domon"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Captured by Seanchan along with his ship. Forced to serve their invasion fleet.",
+          "role": "Captive captain",
+          "relationships": {
+            "Ship": "Spray (captured)",
+            "Status": "Seanchan prisoner"
+          }
+        },
+        "43": {
+          "revealedIn": 43,
+          "description": "Helps in the rescue mission at Falme. His local knowledge proves invaluable.",
+          "role": "Rescue accomplice",
+          "relationships": {
+            "Mission": "Rescuing Egwene and others",
+            "Asset": "Local knowledge"
+          }
+        }
+      }
+    },
+    "thom-merrilin": {
+      "name": "Thom Merrilin",
+      "aliases": ["Thom"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "In Cairhien playing the Game of Houses. His past as a court bard serves him well.",
+          "role": "Player in Daes Dae'mar",
+          "relationships": {
+            "Location": "Cairhien",
+            "Game": "Houses and politics"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Travels to Falme to help rescue Egwene. His skills prove essential to the mission.",
+          "role": "Rescue team member",
+          "relationships": {
+            "Mission": "Rescue at Falme",
+            "Skills": "Stealth and knives"
+          }
+        }
+      }
+    },
+    "barthanes-damodred": {
+      "name": "Lord Barthanes Damodred",
+      "aliases": ["Barthanes"],
+      "appearances": [22, 23, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin lord who plays Daes Dae'mar. Cousin to Galad, member of House Damodred.",
+          "role": "Cairhienin lord",
+          "relationships": {
+            "House": "Damodred",
+            "Game": "Daes Dae'mar",
+            "Cousin": "Galad Damodred"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Found dead in his manor, killed by Trollocs. His death shocks Cairhienin society.",
+          "role": "Murder victim",
+          "relationships": {
+            "Killers": "Trollocs",
+            "Impact": "Political implications"
+          }
+        }
+      }
+    },
+    "cairhienin-nobles": {
+      "name": "Lord Dobraine Taborwin",
+      "aliases": ["Dobraine"],
+      "appearances": [22, 23, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A Cairhienin lord, player in the Game of Houses. Cautious and intelligent.",
+          "role": "Cairhienin noble",
+          "relationships": {
+            "House": "Taborwin",
+            "Trait": "Cautious player"
+          }
+        }
+      }
+    },
+    "lady-alaine": {
+      "name": "Lady Alaine Chuliandred",
+      "aliases": ["Alaine"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin noblewoman involved in the Game of Houses.",
+          "role": "Noble lady",
+          "relationships": {
+            "House": "Chuliandred",
+            "Activity": "Daes Dae'mar"
+          }
+        }
+      }
+    },
+    "illuminators": {
+      "name": "Aludra",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "An Illuminator who creates fireworks. Refugee from the Guild chapter house attack.",
+          "role": "Illuminator",
+          "relationships": {
+            "Guild": "Guild of Illuminators",
+            "Status": "Refugee"
+          }
+        }
+      }
+    },
+    "galldrian-riatin": {
+      "name": "King Galldrian",
+      "aliases": ["Galldrian su Riatin Rie"],
+      "appearances": [22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "King of Cairhien, master player of Daes Dae'mar. Thin and calculating ruler.",
+          "role": "King of Cairhien",
+          "relationships": {
+            "Kingdom": "Cairhien",
+            "Game": "Supreme player of Houses"
+          }
+        }
+      }
+    },
+    "artur-hawkwing": {
+      "name": "Artur Hawkwing",
+      "aliases": ["Arthur Paendrag Tanreall", "Artur Paendrag"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, the legendary High King. Appears when Mat sounds the Horn of Valere.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Status": "Legendary High King",
+            "Summoner": "Mat Cauthon via Horn"
+          }
+        }
+      }
+    },
+    "birgitte-silverbow": {
+      "name": "Birgitte Silverbow",
+      "aliases": ["Birgitte"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary archer. Golden-haired woman with silver bow.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Weapon": "Silver bow",
+            "Companion": "Gaidal Cain"
+          }
+        }
+      }
+    },
+    "gaidal-cain": {
+      "name": "Gaidal Cain",
+      "aliases": ["Gaidal"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary warrior. Ugly man always paired with Birgitte.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Weapons": "Twin swords",
+            "Companion": "Birgitte Silverbow"
+          }
+        }
+      }
+    },
+    "rogosh-eagle-eye": {
+      "name": "Rogosh Eagle-eye",
+      "aliases": ["Rogosh"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, great archer and hunter from legend.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Trait": "Eagle-eyed archer"
+          }
+        }
+      }
+    },
+    "shivan-the-hunter": {
+      "name": "Shivan the Hunter",
+      "aliases": ["Shivan"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary hunter. His coming signals the end of Ages.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Prophecy": "Herald of Age's end"
+          }
+        }
+      }
+    },
+    "calian-the-chooser": {
+      "name": "Calian the Chooser",
+      "aliases": ["Calian"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary figure who appears with the other heroes.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Nature": "Legendary chooser"
+          }
+        }
+      }
+    },
+    "baalzamon": {
+      "name": "Ba'alzamon",
+      "aliases": ["Ishamael", "Heart of the Dark"],
+      "appearances": [10, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "43": {
+          "revealedIn": 43,
+          "description": "Appears in Falme to face Rand. The battle takes place both physically and in the sky above.",
+          "role": "Forsaken adversary",
+          "relationships": {
+            "Enemy": "Rand al'Thor",
+            "Battle": "Sky above Falme"
+          }
+        },
+        "47": {
+          "revealedIn": 47,
+          "description": "Defeated by Rand in the battle above Falme. His apparent death is witnessed by thousands.",
+          "role": "Defeated Forsaken",
+          "relationships": {
+            "Defeater": "Rand al'Thor",
+            "Witnesses": "Falme populace"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Rand trains with the sword under Lan's instruction at Fal Dara. The group recovers from their journey to the Eye of the World.",
+    "2": "The Horn of Valere and Mat's dagger are stolen from Fal Dara by Padan Fain and Darkfriends. Lord Ingtar leads a hunt to recover them.",
+    "3": "The hunt for the Horn begins as Ingtar's party, including Rand, Mat, Perrin, and Loial, pursues the thieves toward Cairhien.",
+    "4": "Moiraine, Egwene, and Nynaeve travel to Tar Valon. Nynaeve is tested and raised to Accepted in an emotional ceremony.",
+    "5": "The Amyrlin Seat, Siuan Sanche, arrives at Fal Dara. She privately acknowledges Rand as the Dragon Reborn.",
+    "6": "Verin Sedai joins the hunt. The party follows the trail of violence left by the Horn thieves.",
+    "7": "Siuan proclaims Rand as the Dragon Reborn in private. The hunt continues as political tensions rise.",
+    "8": "The hunters face various dangers on the road. Mat's condition remains linked to the stolen dagger.",
+    "9": "Hurin the Sniffer joins to track the thieves. Perrin meets a young woman who will become important to him.",
+    "10": "Strange dreams continue to plague the ta'veren. Ba'alzamon's influence grows stronger.",
+    "11": "The hunt leads toward Portal Stones. Ancient ter'angreal that can transport people between worlds.",
+    "12": "A Portal Stone accidentally transports part of the group to a parallel world where they meet Selene, a mysterious woman.",
+    "13": "In the parallel world, Selene encourages Rand to embrace his power and destiny, though her motives seem unclear.",
+    "14": "Verin demonstrates knowledge of Portal Stones, helping navigate between the parallel world and their own.",
+    "15": "The group experiences the strange nature of parallel worlds where history went differently.",
+    "16": "Hurin adapts to the parallel world, using his abilities to track in this strange new reality.",
+    "17": "Selene continues to influence Rand, pushing him toward greater use of his powers and acceptance of leadership.",
+    "18": "Liandrin leads Egwene and Nynaeve away from Tar Valon, claiming they're needed elsewhere urgently.",
+    "19": "Mat sounds the Horn of Valere, summoning the Heroes of the Horn from legend and binding himself to it.",
+    "20": "Selene's true nature begins to show as she demonstrates suspicious knowledge and pushes Rand toward dangerous choices.",
+    "21": "The hunt continues as the group navigates between worlds, seeking both the Horn thieves and a way home.",
+    "22": "Arriving in Cairhien, the group encounters the complex political game called Daes Dae'mar (Game of Houses).",
+    "23": "Lord Barthanes hosts a party where nobles play political games while the hunters seek information about Fain.",
+    "24": "The Great Game of Houses proves dangerous as various factions maneuver for advantage in Cairhien.",
+    "25": "Political intrigue intensifies as the hunt becomes entangled with Cairhienin nobility and their schemes.",
+    "26": "Lord Barthanes is found murdered by Trollocs, shocking the Cairhienin court and disrupting political balance.",
+    "27": "Selene disappears mysteriously. The group faces attacks from both Trollocs and political enemies in Cairhien.",
+    "28": "The Illuminators' chapter house is attacked. Aludra, a refugee from the Guild, provides information about the chaos.",
+    "29": "The Seanchan invasion begins at Falme. High Lady Suroth commands forces using collared channelers called damane.",
+    "30": "Reports of the Seanchan reach inland. Their use of the a'dam to control women who can channel horrifies those who learn of it.",
+    "31": "The hunt reaches Kinslayer's Dagger, getting closer to Falme where Fain has taken the Horn.",
+    "32": "Travel becomes more dangerous as various factions converge on Falme, including Whitecloaks and Seanchan forces.",
+    "33": "The political situation deteriorates as multiple armies and interests clash around the coastal city.",
+    "34": "At Falme, the Seanchan have established control using sul'dam and damane. Min and Bayle Domon are among the captives.",
+    "35": "Egwene is captured by the Seanchan and collared as damane. She experiences the horror of the a'dam's control.",
+    "36": "The Seanchan system of slavery for channelers is revealed. Sul'dam control damane through the a'dam ter'angreal.",
+    "37": "Egwene suffers under Seanchan control while plans are made to rescue her from the invaders.",
+    "38": "Thom arrives to help with the rescue mission. His skills and knowledge prove essential to planning.",
+    "39": "Liandrin's true nature as Black Ajah begins to show as her plans unfold differently than expected.",
+    "40": "High Lord Turak collects weapons and artifacts while the political situation in Falme grows more complex.",
+    "41": "Preparations for multiple rescue attempts create tension as different groups work toward their own goals.",
+    "42": "The rescue mission faces complications as Seanchan security tightens and political alliances shift.",
+    "43": "Liandrin is revealed as Black Ajah. The rescue of Egwene begins as various plots come together.",
+    "44": "Rand faces Ba'alzamon in battle above Falme while fighting High Lord Turak. The battle is visible to all below.",
+    "45": "The battle in the sky fulfills Seanchan prophecies about the Return. Both sides witness supernatural combat.",
+    "46": "Egwene is freed from the a'dam, but the horror of her experience leaves lasting trauma. The rescue succeeds partially.",
+    "47": "Mat sounds the Horn, calling forth Heroes of the Horn including Artur Hawkwing. Ingtar reveals himself as a repentant Darkfriend.",
+    "48": "The battle at Falme involves multiple factions: Seanchan, Whitecloaks, and the Horn's heroes fighting in the sky.",
+    "49": "Geofram Bornhald dies in the battle, betrayed by Padan Fain who has been manipulating the Whitecloaks.",
+    "50": "Ba'alzamon is apparently defeated by Rand in their sky battle. The Horn of Valere is recovered but questions remain about Mat's bond to it."
+  }
+}

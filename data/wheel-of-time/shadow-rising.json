@@ -1,0 +1,948 @@
+{
+  "meta": {
+    "title": "The Shadow Rising",
+    "author": "Robert Jordan",
+    "chapters": 58,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "rand-althor": {
+      "name": "Rand al'Thor",
+      "aliases": ["The Dragon Reborn", "He Who Comes With the Dawn", "Car'a'carn"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Rules from the Stone of Tear as the Dragon Reborn. Struggles with leadership and the weight of prophecy.",
+          "role": "Dragon Reborn ruler",
+          "relationships": {
+            "Seat of power": "Stone of Tear",
+            "Subjects": "High Lords of Tear",
+            "Burden": "Prophecies and destiny"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Enters the twisted doorway ter'angreal in Rhuidean, experiencing visions of Aiel history and his own lineage.",
+          "role": "Vision seeker",
+          "relationships": {
+            "Location": "Rhuidean",
+            "Visions": "Aiel history and ancestors"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Learns he is of Aiel blood, descendant of Aiel who served the Aes Sedai in the Age of Legends.",
+          "role": "Aiel heir",
+          "relationships": {
+            "Heritage": "Aiel bloodline",
+            "Ancestor": "Aiel Da'shain"
+          }
+        },
+        "57": {
+          "revealedIn": 57,
+          "description": "Recognized as Car'a'carn by the Aiel, the prophesied chief of chiefs who will unite all clans.",
+          "role": "Car'a'carn",
+          "relationships": {
+            "Title": "Chief of chiefs",
+            "People": "All Aiel clans"
+          }
+        }
+      }
+    },
+    "mat-cauthon": {
+      "name": "Mat Cauthon",
+      "aliases": ["Matrim Cauthon"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Reluctantly stays in the Stone of Tear. His ancient memories make him an exceptional battle commander.",
+          "role": "Reluctant general",
+          "relationships": {
+            "Memories": "Ancient battle tactics",
+            "Reluctance": "Avoiding responsibility"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Enters the twisted doorway in Rhuidean, gaining gifts and knowledge from the Aelfinn and Eelfinn.",
+          "role": "Gifted by the finns",
+          "relationships": {
+            "Gifts": "Enhanced luck and knowledge",
+            "Source": "Aelfinn and Eelfinn"
+          }
+        }
+      }
+    },
+    "perrin-aybara": {
+      "name": "Perrin Aybara",
+      "aliases": ["Perrin Goldeneyes", "Young Bull", "Lord Perrin"],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Returns to the Two Rivers to find it under attack by Trollocs and Whitecloaks. Becomes a reluctant leader.",
+          "role": "Two Rivers defender",
+          "relationships": {
+            "Homeland": "Two Rivers under siege",
+            "Role": "Reluctant military leader"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Accepts leadership role in defending the Two Rivers. His wolf abilities become more pronounced.",
+          "role": "Two Rivers leader",
+          "relationships": {
+            "Command": "Two Rivers militia",
+            "Enhancement": "Wolf abilities"
+          }
+        }
+      }
+    },
+    "faile-bashere": {
+      "name": "Zarine Bashere",
+      "aliases": ["Faile", "Falcon"],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Accompanies Perrin to the Two Rivers. Her noble upbringing helps in organizing the defense.",
+          "role": "Strategic advisor",
+          "relationships": {
+            "Partner": "Perrin Aybara",
+            "Contribution": "Noble tactical knowledge"
+          }
+        }
+      }
+    },
+    "egwene-alvere": {
+      "name": "Egwene al'Vere",
+      "aliases": ["Accepted Egwene"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Training with the Wise Ones in the Waste. Learning Aiel customs and developing her abilities.",
+          "role": "Wise One apprentice",
+          "relationships": {
+            "Teachers": "Aiel Wise Ones",
+            "Training": "Dreamwalking and channeling"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Develops strong friendships with Aviendha and learns about Aiel culture and ji'e'toh.",
+          "role": "Cultural bridge",
+          "relationships": {
+            "Friend": "Aviendha",
+            "Learning": "Aiel honor code"
+          }
+        }
+      }
+    },
+    "nynaeve-almeara": {
+      "name": "Nynaeve al'Meara",
+      "aliases": ["Accepted Nynaeve"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Travels to Tanchico with Elayne to hunt Black Ajah and search for ter'angreal.",
+          "role": "Black Ajah hunter",
+          "relationships": {
+            "Partner": "Elayne Trakand",
+            "Mission": "Hunt Black Ajah in Tanchico"
+          }
+        }
+      }
+    },
+    "elayne-trakand": {
+      "name": "Elayne Trakand",
+      "aliases": ["Daughter-Heir", "Accepted Elayne"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Partners with Nynaeve in hunting Black Ajah in Tanchico. Her royal training proves valuable.",
+          "role": "Royal investigator",
+          "relationships": {
+            "Partner": "Nynaeve al'Meara",
+            "Assets": "Royal connections and training"
+          }
+        }
+      }
+    },
+    "aviendha": {
+      "name": "Aviendha",
+      "aliases": ["Near-sister to Elayne"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Assigned by Wise Ones to guard and teach Rand about Aiel ways. Hostile but bound by duty.",
+          "role": "Reluctant teacher",
+          "relationships": {
+            "Student": "Rand al'Thor",
+            "Duty": "Teach Aiel customs",
+            "Attitude": "Hostile but honorable"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Develops friendship with Egwene. Reveals she can channel but was trained as a Maiden instead.",
+          "role": "Channeling Maiden",
+          "relationships": {
+            "Friend": "Egwene al'Vere",
+            "Conflict": "Channeler trained as warrior",
+            "Destiny": "Must become Wise One"
+          }
+        }
+      }
+    },
+    "rhuarc": {
+      "name": "Rhuarc",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Clan chief supporting Rand as He Who Comes With the Dawn. Wise and experienced leader.",
+          "role": "Supporting clan chief",
+          "relationships": {
+            "Support": "Rand as Car'a'carn",
+            "Clan": "Taardad Aiel",
+            "Wisdom": "Experienced leadership"
+          }
+        }
+      }
+    },
+    "amys": {
+      "name": "Amys",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Wise One of the Taardad Aiel, one of Rhuarc's wives. Powerful dreamwalker and teacher.",
+          "role": "Dreamwalking teacher",
+          "relationships": {
+            "Husband": "Rhuarc (second wife)",
+            "Student": "Egwene al'Vere",
+            "Ability": "Dreamwalking"
+          }
+        }
+      }
+    },
+    "bair": {
+      "name": "Bair",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Ancient Wise One who cannot channel but is a powerful dreamwalker. Very wise and respected.",
+          "role": "Elder Wise One",
+          "relationships": {
+            "Ability": "Dreamwalking without channeling",
+            "Status": "Highly respected elder",
+            "Student": "Egwene al'Vere"
+          }
+        }
+      }
+    },
+    "melaine": {
+      "name": "Melaine",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Young Wise One with fiery red hair and temper. Can channel and dreamwalk.",
+          "role": "Fierce Wise One",
+          "relationships": {
+            "Trait": "Quick temper and red hair",
+            "Abilities": "Channeling and dreamwalking",
+            "Student": "Egwene al'Vere"
+          }
+        }
+      }
+    },
+    "seana": {
+      "name": "Seana",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Wise One who helps train Egwene in Aiel customs and the use of the One Power.",
+          "role": "Training Wise One",
+          "relationships": {
+            "Student": "Egwene al'Vere",
+            "Role": "Cultural and Power instruction"
+          }
+        }
+      }
+    },
+    "han": {
+      "name": "Han",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Clan chief of the Tomanelle Aiel. One of the chiefs following He Who Comes With the Dawn.",
+          "role": "Clan chief supporter",
+          "relationships": {
+            "Clan": "Tomanelle",
+            "Allegiance": "He Who Comes With the Dawn"
+          }
+        }
+      }
+    },
+    "jheran": {
+      "name": "Jheran",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Clan chief of the Shaarad Aiel. Another supporter of the Dragon Reborn's claim.",
+          "role": "Allied clan chief",
+          "relationships": {
+            "Clan": "Shaarad",
+            "Position": "Supporting Car'a'carn"
+          }
+        }
+      }
+    },
+    "erim": {
+      "name": "Erim",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Clan chief of the Chareen Aiel. Follows the prophesied Car'a'carn.",
+          "role": "Chareen clan chief",
+          "relationships": {
+            "Clan": "Chareen",
+            "Loyalty": "Car'a'carn"
+          }
+        }
+      }
+    },
+    "bruan": {
+      "name": "Bruan",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Clan chief of the Nakai Aiel. Respected leader among the Aiel clans.",
+          "role": "Nakai clan chief",
+          "relationships": {
+            "Clan": "Nakai",
+            "Status": "Respected among chiefs"
+          }
+        }
+      }
+    },
+    "dhearic": {
+      "name": "Dhearic",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Clan chief of the Reyn Aiel. One of the chiefs accepting Rand's leadership.",
+          "role": "Reyn clan chief",
+          "relationships": {
+            "Clan": "Reyn",
+            "Acceptance": "Rand's leadership"
+          }
+        }
+      }
+    },
+    "couladin": {
+      "name": "Couladin",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Shaido clan warrior who opposes Rand's claim as He Who Comes With the Dawn. Arrogant and ambitious.",
+          "role": "Shaido opposition",
+          "relationships": {
+            "Clan": "Shaido sept of Imran",
+            "Opposition": "Rand's Car'a'carn claim",
+            "Trait": "Arrogant ambition"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Claims the title of Car'a'carn for himself using fake dragon marks. Leads the Shaido in rebellion.",
+          "role": "False Car'a'carn",
+          "relationships": {
+            "Deception": "Fake dragon marks",
+            "Leadership": "Shaido rebellion"
+          }
+        }
+      }
+    },
+    "muradin": {
+      "name": "Muradin",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Shaido warrior who enters Rhuidean alongside Rand. Couladin's brother and rival claimant.",
+          "role": "Rhuidean challenger",
+          "relationships": {
+            "Brother": "Couladin",
+            "Challenge": "Entering Rhuidean",
+            "Clan": "Shaido"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Dies in Rhuidean, unable to complete the test that reveals Aiel history and purpose.",
+          "role": "Failed candidate",
+          "relationships": {
+            "Fate": "Death in Rhuidean",
+            "Failure": "Could not accept Aiel truth"
+          }
+        }
+      }
+    },
+    "gaul": {
+      "name": "Gaul",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Accompanies Perrin to the Two Rivers. His Aiel warrior skills prove invaluable in the defense.",
+          "role": "Two Rivers defender",
+          "relationships": {
+            "Loyalty": "Perrin Aybara",
+            "Service": "Two Rivers defense"
+          }
+        }
+      }
+    },
+    "bain": {
+      "name": "Bain",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Maiden warrior helping defend the Two Rivers. Her spear skills are unmatched.",
+          "role": "Maiden defender",
+          "relationships": {
+            "First-sister": "Chiad",
+            "Mission": "Defend Two Rivers"
+          }
+        }
+      }
+    },
+    "chiad": {
+      "name": "Chiad",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Maiden warrior from a different clan than Bain, but bound as first-sisters. Expert fighter.",
+          "role": "First-sister defender",
+          "relationships": {
+            "First-sister": "Bain",
+            "Combat role": "Two Rivers defense"
+          }
+        }
+      }
+    },
+    "tam-althor": {
+      "name": "Tam al'Thor",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Helps organize the Two Rivers defense. His military experience proves crucial in training farmers.",
+          "role": "Military advisor",
+          "relationships": {
+            "Son": "Rand al'Thor",
+            "Role": "Training Two Rivers fighters"
+          }
+        }
+      }
+    },
+    "abell-cauthon": {
+      "name": "Abell Cauthon",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Mat's father, helps lead the Two Rivers defense. Skilled with a bow and experienced fighter.",
+          "role": "Two Rivers leader",
+          "relationships": {
+            "Son": "Mat Cauthon",
+            "Role": "Defense organizer"
+          }
+        }
+      }
+    },
+    "con-aybara": {
+      "name": "Con Aybara",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Perrin's father, a blacksmith who helps arm the Two Rivers defenders. Proud of his son's leadership.",
+          "role": "Weapons provider",
+          "relationships": {
+            "Son": "Perrin Aybara",
+            "Contribution": "Smithing weapons"
+          }
+        }
+      }
+    },
+    "haral-luhhan": {
+      "name": "Master Luhhan",
+      "aliases": ["Haral Luhhan"],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Village blacksmith who works tirelessly to arm the Two Rivers defenders. Former master to Perrin.",
+          "role": "Master smith",
+          "relationships": {
+            "Former apprentice": "Perrin Aybara",
+            "Work": "Forging weapons"
+          }
+        }
+      }
+    },
+    "alsbet-luhhan": {
+      "name": "Alsbet Luhhan",
+      "aliases": ["Mistress Luhhan"],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Master Luhhan's wife, helps organize the women's efforts in the Two Rivers defense.",
+          "role": "Women's organizer",
+          "relationships": {
+            "Husband": "Master Luhhan",
+            "Role": "Organizing support"
+          }
+        }
+      }
+    },
+    "bran-alvere": {
+      "name": "Bran al'Vere",
+      "aliases": ["Mayor al'Vere"],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Mayor of Emond's Field, works with Perrin to coordinate the village's defense efforts.",
+          "role": "Civil coordinator",
+          "relationships": {
+            "Daughter": "Egwene al'Vere",
+            "Partner": "Perrin in defense"
+          }
+        }
+      }
+    },
+    "marin-alvere": {
+      "name": "Marin al'Vere",
+      "aliases": ["Mistress al'Vere"],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Egwene's mother and innkeeper, provides shelter and support during the Two Rivers crisis.",
+          "role": "Support provider",
+          "relationships": {
+            "Daughter": "Egwene al'Vere",
+            "Service": "Inn and shelter"
+          }
+        }
+      }
+    },
+    "daise-congar": {
+      "name": "Daise Congar",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Leader of the Women's Circle, helps organize the civilian defense and support efforts.",
+          "role": "Women's Circle leader",
+          "relationships": {
+            "Position": "Women's Circle head",
+            "Role": "Civilian organization"
+          }
+        }
+      }
+    },
+    "leof-torfinn": {
+      "name": "Leof Torfinn",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Young man from the Two Rivers who joins the defense. Becomes one of Perrin's trusted fighters.",
+          "role": "Young defender",
+          "relationships": {
+            "Leader": "Perrin Aybara",
+            "Status": "Trusted fighter"
+          }
+        }
+      }
+    },
+    "ban-crawe": {
+      "name": "Ban Crawe",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Two Rivers man who helps in the defense. Father to Tell and Dannil.",
+          "role": "Two Rivers defender",
+          "relationships": {
+            "Sons": "Tell and Dannil Crawe"
+          }
+        }
+      }
+    },
+    "tell-crawe": {
+      "name": "Tell Crawe",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Young fighter in the Two Rivers defense. Son of Ban Crawe.",
+          "role": "Young warrior",
+          "relationships": {
+            "Father": "Ban Crawe",
+            "Brother": "Dannil Crawe"
+          }
+        }
+      }
+    },
+    "dannil-crawe": {
+      "name": "Dannil Crawe",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Two Rivers defender, brother to Tell. Becomes one of Perrin's reliable fighters.",
+          "role": "Reliable fighter",
+          "relationships": {
+            "Father": "Ban Crawe",
+            "Brother": "Tell Crawe"
+          }
+        }
+      }
+    },
+    "padan-fain": {
+      "name": "Padan Fain",
+      "aliases": ["Ordeith", "Houndmaster"],
+      "appearances": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Appears in the Two Rivers calling himself Ordeith. Manipulates the Whitecloaks into attacking.",
+          "role": "Manipulator",
+          "relationships": {
+            "False identity": "Ordeith",
+            "Targets": "Whitecloaks and Two Rivers",
+            "Goal": "Destroying Perrin"
+          }
+        }
+      }
+    },
+    "dain-bornhald": {
+      "name": "Dain Bornhald",
+      "aliases": [],
+      "appearances": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Lord Captain of the Whitecloaks attacking the Two Rivers. Seeks vengeance for his father's death.",
+          "role": "Whitecloak leader",
+          "relationships": {
+            "Father": "Geofram Bornhald (deceased)",
+            "Vendetta": "Against Perrin"
+          }
+        }
+      }
+    },
+    "jaret-byar": {
+      "name": "Jaret Byar",
+      "aliases": ["Child Byar"],
+      "appearances": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Fanatical Whitecloak who serves under Dain Bornhald. Convinced Perrin is a Darkfriend.",
+          "role": "Fanatical Child",
+          "relationships": {
+            "Superior": "Dain Bornhald",
+            "Obsession": "Perrin as Darkfriend"
+          }
+        }
+      }
+    },
+    "moiraine-damodred": {
+      "name": "Moiraine Damodred",
+      "aliases": ["Moiraine Sedai"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues to guide Rand while dealing with the complexities of ruling from the Stone of Tear.",
+          "role": "Political advisor",
+          "relationships": {
+            "Advisee": "Rand al'Thor",
+            "Challenge": "Tairen politics"
+          }
+        }
+      }
+    },
+    "lan-mandragoran": {
+      "name": "Lan Mandragoran",
+      "aliases": ["Lan", "al'Lan Mandragoran"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Serves as Rand's sword instructor and bodyguard while bound to Moiraine as her Warder.",
+          "role": "Instructor and guard",
+          "relationships": {
+            "Student": "Rand al'Thor",
+            "Aes Sedai": "Moiraine Damodred"
+          }
+        }
+      }
+    },
+    "thom-merrilin": {
+      "name": "Thom Merrilin",
+      "aliases": ["Thom"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Accompanies Nynaeve and Elayne to Tanchico. His knowledge of politics and the Game of Houses proves invaluable.",
+          "role": "Political guide",
+          "relationships": {
+            "Companions": "Nynaeve and Elayne",
+            "Expertise": "Court intrigue"
+          }
+        }
+      }
+    },
+    "high-lord-weiramon": {
+      "name": "High Lord Weiramon",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Tairen High Lord serving under Rand. Vain and ambitious, but competent in his own way.",
+          "role": "Tairen lord",
+          "relationships": {
+            "Ruler": "Rand al'Thor",
+            "Traits": "Vanity and ambition"
+          }
+        }
+      }
+    },
+    "high-lord-sunamon": {
+      "name": "High Lord Sunamon",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "High Lord of Tear who must adapt to serving under the Dragon Reborn's rule.",
+          "role": "Adaptive lord",
+          "relationships": {
+            "New ruler": "Rand al'Thor",
+            "Challenge": "Adapting to change"
+          }
+        }
+      }
+    },
+    "juilin-sandar": {
+      "name": "Juilin Sandar",
+      "aliases": [],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Thief-catcher who aids Nynaeve and Elayne in Tanchico. His skills prove essential in navigating the city.",
+          "role": "Urban guide",
+          "relationships": {
+            "Employers": "Nynaeve and Elayne",
+            "Expertise": "Tanchico streets and criminals"
+          }
+        }
+      }
+    },
+    "moghedien": {
+      "name": "Moghedien",
+      "aliases": ["The Spider", "Gyldin"],
+      "appearances": [25, 26, 27, 28, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "One of the Forsaken, master of Tel'aran'rhiod. Operates from shadows and prefers subtle manipulation.",
+          "role": "Spider Forsaken",
+          "relationships": {
+            "Domain": "Tel'aran'rhiod mastery",
+            "Method": "Subtle manipulation",
+            "Enemies": "Nynaeve and dreamwalkers"
+          }
+        }
+      }
+    },
+    "asmodean": {
+      "name": "Asmodean",
+      "aliases": ["Joar Addam Nalaam", "Natael"],
+      "appearances": [54, 55, 56, 57, 58],
+      "knowledge": {
+        "54": {
+          "revealedIn": 54,
+          "description": "One of the Forsaken, captured by Rand and forced to teach him to channel. Former Age of Legends musician.",
+          "role": "Captive teacher",
+          "relationships": {
+            "Captor": "Rand al'Thor",
+            "Role": "Saidin instructor",
+            "Past": "Musician of the Age of Legends"
+          }
+        }
+      }
+    },
+    "rahvin": {
+      "name": "Rahvin",
+      "aliases": ["Lord Gaebril"],
+      "appearances": [25, 26, 27, 28],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "One of the Forsaken who has taken control of Andor by manipulating Queen Morgase through Compulsion.",
+          "role": "Andor controller",
+          "relationships": {
+            "Identity": "Lord Gaebril",
+            "Victim": "Queen Morgase",
+            "Method": "Compulsion weaves"
+          }
+        }
+      }
+    },
+    "queen-morgase": {
+      "name": "Morgase Trakand",
+      "aliases": ["Queen Morgase"],
+      "appearances": [25, 26, 27, 28],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Queen of Andor, under the influence of Rahvin's Compulsion. Her will has been subverted by the Forsaken.",
+          "role": "Controlled monarch",
+          "relationships": {
+            "Controller": "Rahvin/Lord Gaebril",
+            "Condition": "Under Compulsion",
+            "Children": "Elayne, Gawyn, Galad"
+          }
+        }
+      }
+    },
+    "loial": {
+      "name": "Loial",
+      "aliases": ["Loial son of Arent son of Halan"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Travels with Perrin to the Two Rivers. His Ogier strength and loyalty make him invaluable in defense.",
+          "role": "Ogier defender",
+          "relationships": {
+            "Friend": "Perrin Aybara",
+            "Contribution": "Ogier strength and loyalty"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Rand rules uncomfortably from the Stone of Tear while Aiel gather in the city, causing tension with the Tairen nobility.",
+    "2": "Political tensions rise in Tear as the High Lords struggle to accept Aiel presence and Rand's authority.",
+    "3": "Bubbles of evil continue to manifest around Rand, showing the Dark One's growing influence on the Pattern.",
+    "4": "Rand struggles with dreams of the past and visions of possible futures as his power and responsibilities grow.",
+    "5": "The Aiel begin sharing their customs and beliefs with Rand, though many mysteries remain about their culture.",
+    "6": "Moiraine attempts to guide Rand politically while the Stone becomes a center of prophecy and power.",
+    "7": "Various factions position themselves around the Dragon Reborn as news of his identity spreads across nations.",
+    "8": "Rand's relationship with the Aiel deepens as he learns more about their honor code and warrior traditions.",
+    "9": "Political machinations intensify as various rulers and powers react to the Dragon Reborn's emergence.",
+    "10": "The Aiel reveal more of their prophecies about He Who Comes With the Dawn, matching their beliefs to Rand.",
+    "11": "Egwene travels to the Aiel Waste with the Wise Ones to learn about Aiel culture and her own growing abilities.",
+    "12": "Nynaeve and Elayne journey to Tanchico following leads about Black Ajah and dangerous ter'angreal.",
+    "13": "The hunt for Black Ajah intensifies as the sisters discover plots involving powerful artifacts and prophecies.",
+    "14": "In Tanchico, political chaos erupts as various factions fight for control of the declining Panarch's empire.",
+    "15": "Egwene's training with the Wise Ones reveals the depth of Aiel wisdom and their connection to dreams.",
+    "16": "The search in Tanchico becomes dangerous as Black Ajah members work to retrieve powerful ter'angreal.",
+    "17": "Rand prepares to travel to Rhuidean in the Aiel Waste to learn the truth about Aiel history and prophecy.",
+    "18": "Political tensions continue to build as the Dragon Reborn's actions affect kingdoms across the continent.",
+    "19": "The journey to the Aiel Waste begins, with various groups traveling toward their separate destinations.",
+    "20": "Egwene and Aviendha develop their friendship while learning about each other's cultures and abilities.",
+    "21": "In Tanchico, the investigation into Black Ajah activities reveals a web of conspiracy and dangerous plots.",
+    "22": "Rand and Mat arrive in Rhuidean, the forbidden city where only clan chiefs and Wise Ones may enter safely.",
+    "23": "The ancient city of Rhuidean holds mysteries and tests that will determine the fate of those who enter.",
+    "24": "Mat and Rand enter ter'angreal that show different aspects of history and possible futures.",
+    "25": "Moghedien, the Spider, begins weaving her web of plans involving the World of Dreams and ancient artifacts.",
+    "26": "Rand experiences visions of Aiel history through his ancestors' eyes, learning their true origins and purpose.",
+    "27": "The visions reveal the Aiel's past as the Da'shain Aiel, peaceful servants of Aes Sedai in the Age of Legends.",
+    "28": "Couladin emerges from Rhuidean claiming to be the Car'a'carn, though his marks are false.",
+    "29": "Perrin returns to the Two Rivers to find his homeland under attack by Trollocs and occupied by Whitecloaks.",
+    "30": "The Two Rivers faces a crisis as Shadowspawn attack while Children of the Light claim to protect the region.",
+    "31": "Perrin must overcome his reluctance to lead in order to organize an effective defense of his people.",
+    "32": "The defense of Emond's Field begins as farmers and craftsmen are trained to fight Shadowspawn.",
+    "33": "Padan Fain appears as 'Ordeith,' manipulating the Whitecloaks into attacking the very people they claim to protect.",
+    "34": "Battles rage across the Two Rivers as multiple threats converge on the peaceful farming communities.",
+    "35": "The Two Rivers folk show unexpected courage and determination in defending their homes against overwhelming odds.",
+    "36": "Perrin's leadership grows stronger as he accepts responsibility for protecting his people and homeland.",
+    "37": "The siege of Emond's Field intensifies as Trollocs mass for a final assault on the village defenses.",
+    "38": "Desperate measures are taken to hold the defenses as the enemy forces seem overwhelming.",
+    "39": "Hope arrives as unexpected allies appear to aid in the defense of the Two Rivers communities.",
+    "40": "The tide of battle begins to turn as the Two Rivers defenders find new strength and tactical advantages.",
+    "41": "Victory in the Two Rivers comes at a cost, but the homeland is saved from Shadow and Whitecloak occupation.",
+    "42": "The aftermath of the battles reveals changes in both the land and the people who defended it.",
+    "43": "Political ramifications of the Two Rivers conflicts spread as news reaches other kingdoms and rulers.",
+    "44": "The Two Rivers begins to recover and rebuild, forever changed by the trials of war and leadership.",
+    "45": "Perrin's reputation as a leader spreads beyond the Two Rivers, attracting both allies and enemies.",
+    "46": "The consequences of the battles affect relationships and power structures throughout the region.",
+    "47": "New alliances form as the success of the Two Rivers defense inspires others facing similar threats.",
+    "48": "The changing political landscape reflects the broader transformation occurring across the continent.",
+    "49": "Preparations begin for future challenges as the Two Rivers establishes its new place in the world.",
+    "50": "The defense's success becomes a symbol of resistance against both Shadow and oppression.",
+    "51": "Stories of the Two Rivers battles spread, inspiring hope and fear in equal measure among different factions.",
+    "52": "The transformed Two Rivers begins to play a larger role in continental politics and prophecy.",
+    "53": "New responsibilities and relationships emerge from the crucible of battle and leadership.",
+    "54": "Asmodean is captured by Rand and forced to become his teacher in the use of saidin and the One Power.",
+    "55": "The consequences of having a Forsaken as an unwilling teacher create new dangers and opportunities.",
+    "56": "Political and personal relationships shift as the various storylines begin to converge toward future conflicts.",
+    "57": "Rand is acknowledged as Car'a'carn by the Aiel clans, though the Shaido under Couladin remain in rebellion.",
+    "58": "The stage is set for greater conflicts as the Dragon Reborn's growing power attracts both followers and enemies."
+  }
+}

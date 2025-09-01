@@ -1,0 +1,1431 @@
+{
+  "meta": {
+    "title": "The Eye of the World",
+    "author": "Robert Jordan",
+    "chapters": 53,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "rand-althor": {
+      "name": "Rand al'Thor",
+      "aliases": ["The Dragon Reborn", "Lews Therin Telamon"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A tall young man from Emond's Field, Two Rivers. Has unusual grey eyes and reddish hair. Shepherd and farmer's son.",
+          "role": "Shepherd",
+          "relationships": {
+            "Father": "Tam al'Thor",
+            "Friends": "Mat Cauthon, Perrin Aybara",
+            "Love Interest": "Egwene al'Vere"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Can channel the One Power. Discovered he can sense when others can channel and has strange reactions to the Power.",
+          "role": "Male channeler",
+          "relationships": {
+            "Teacher": "Moiraine Damodred",
+            "Protector": "Lan Mandragoran"
+          }
+        },
+        "51": {
+          "revealedIn": 51,
+          "description": "The Dragon Reborn, prophesied savior and destroyer. Faced Ba'alzamon at the Eye of the World.",
+          "role": "The Dragon Reborn",
+          "relationships": {
+            "Enemy": "Ba'alzamon",
+            "Ally": "The Creator"
+          }
+        }
+      }
+    },
+    "mat-cauthon": {
+      "name": "Mat Cauthon",
+      "aliases": ["Matrim Cauthon"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young man from Emond's Field, known for his mischievous nature and pranks. Quick-witted and clever.",
+          "role": "Village troublemaker",
+          "relationships": {
+            "Friends": "Rand al'Thor, Perrin Aybara",
+            "Father": "Abell Cauthon"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Carries a Shadar Logoth dagger that is slowly corrupting him. Shows signs of evil influence and paranoia.",
+          "role": "Dagger bearer",
+          "relationships": {
+            "Curse": "Shadar Logoth dagger",
+            "Healer": "Moiraine Damodred"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Partially healed from the dagger's influence by Moiraine, but still connected to it. Shows unusual luck.",
+          "role": "Lucky gambler",
+          "relationships": {
+            "Savior": "Moiraine Damodred"
+          }
+        }
+      }
+    },
+    "perrin-aybara": {
+      "name": "Perrin Aybara",
+      "aliases": ["Perrin Goldeneyes"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A large, strong young man from Emond's Field. Works as a blacksmith's apprentice. Thoughtful and careful.",
+          "role": "Blacksmith's apprentice",
+          "relationships": {
+            "Friends": "Rand al'Thor, Mat Cauthon",
+            "Master": "Master Luhhan"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Can communicate with wolves and has enhanced senses. His eyes have turned golden yellow.",
+          "role": "Wolfbrother",
+          "relationships": {
+            "Wolf companion": "Dapple, Wind, Burn",
+            "Teacher": "Elyas Machera"
+          }
+        }
+      }
+    },
+    "egwene-alvere": {
+      "name": "Egwene al'Vere",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The innkeeper's daughter from Emond's Field. Strong-willed and determined. Has feelings for Rand.",
+          "role": "Innkeeper's daughter",
+          "relationships": {
+            "Father": "Bran al'Vere",
+            "Mother": "Marin al'Vere",
+            "Love Interest": "Rand al'Thor"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Can channel the One Power and learns to embrace saidar. Shows natural talent for channeling.",
+          "role": "Novice channeler",
+          "relationships": {
+            "Teacher": "Moiraine Damodred"
+          }
+        }
+      }
+    },
+    "nynaeve-almeara": {
+      "name": "Nynaeve al'Meara",
+      "aliases": ["Wisdom"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The Wisdom of Emond's Field, youngest ever. Skilled healer and herbalist. Very protective of her people.",
+          "role": "Village Wisdom",
+          "relationships": {
+            "Charges": "Rand al'Thor, Mat Cauthon, Perrin Aybara, Egwene al'Vere",
+            "Ally": "Lan Mandragoran"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Can channel the One Power but only when angry. Has incredible strength in the Power when she can touch it.",
+          "role": "Wilder",
+          "relationships": {
+            "Teacher": "Moiraine Damodred",
+            "Love Interest": "Lan Mandragoran"
+          }
+        }
+      }
+    },
+    "moiraine-damodred": {
+      "name": "Moiraine Damodred",
+      "aliases": ["Moiraine Sedai", "Lady Moiraine"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Aes Sedai of the Blue Ajah. Small woman with dark hair and eyes. Seeks the Dragon Reborn.",
+          "role": "Aes Sedai",
+          "relationships": {
+            "Warder": "Lan Mandragoran",
+            "Mission": "Finding the Dragon Reborn"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "From Cairhien nobility, House Damodred. Has been searching for the Dragon Reborn for twenty years.",
+          "role": "Blue Ajah Sister",
+          "relationships": {
+            "House": "House Damodred",
+            "Purpose": "Serving the Light"
+          }
+        }
+      }
+    },
+    "lan-mandragoran": {
+      "name": "Lan Mandragoran",
+      "aliases": ["Lan", "al'Lan Mandragoran", "The Uncrowned King"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Moiraine's Warder. A tall, hard man with cold blue eyes. Master swordsman and warrior.",
+          "role": "Warder",
+          "relationships": {
+            "Aes Sedai": "Moiraine Damodred",
+            "Nation": "Malkier"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Last king of Malkier, a Borderland nation destroyed by the Blight. Dedicated his life to fighting the Shadow.",
+          "role": "King of Malkier",
+          "relationships": {
+            "Kingdom": "Malkier (fallen)",
+            "Love Interest": "Nynaeve al'Meara"
+          }
+        }
+      }
+    },
+    "thom-merrilin": {
+      "name": "Thom Merrilin",
+      "aliases": ["Thom", "Tom"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A gleeman with a white mustache and patch-covered cloak. Entertainer and storyteller.",
+          "role": "Gleeman",
+          "relationships": {
+            "Companions": "Rand al'Thor, Mat Cauthon"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Former court bard and lover of Queen Morgase. Left the court under mysterious circumstances.",
+          "role": "Former court bard",
+          "relationships": {
+            "Former lover": "Queen Morgase",
+            "Nephew": "Owyn (gentled male channeler)"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Reveals he can throw knives with deadly accuracy. Has been protecting the boys throughout their journey.",
+          "role": "Protector and guide",
+          "relationships": {
+            "Protégés": "Rand al'Thor, Mat Cauthon"
+          }
+        }
+      }
+    },
+    "baalzamon": {
+      "name": "Ba'alzamon",
+      "aliases": ["The Dark One", "Ishamael", "Betrayer of Hope"],
+      "appearances": [9, 14, 43, 51, 52, 53],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A figure of shadow and flame who appears in dreams. Claims to be the Dark One himself.",
+          "role": "Forsaken",
+          "relationships": {
+            "Enemy": "Rand al'Thor",
+            "Master": "The Dark One"
+          }
+        },
+        "51": {
+          "revealedIn": 51,
+          "description": "One of the Forsaken, not the Dark One. Seeks to turn or destroy the Dragon Reborn.",
+          "role": "Forsaken Lord",
+          "relationships": {
+            "True identity": "Ishamael",
+            "Goal": "Corrupting the Dragon Reborn"
+          }
+        }
+      }
+    },
+    "tam-althor": {
+      "name": "Tam al'Thor",
+      "aliases": [],
+      "appearances": [1, 2, 3, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Rand's father, a sheep farmer and shepherd. Quiet, thoughtful man who rarely speaks of his past.",
+          "role": "Farmer and shepherd",
+          "relationships": {
+            "Son": "Rand al'Thor",
+            "Wife": "Kari al'Thor (deceased)"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Former soldier and blademaster, carries a heron-marked sword. Fought in many wars before settling in Two Rivers.",
+          "role": "Former soldier",
+          "relationships": {
+            "Military rank": "Second Captain",
+            "Wars fought": "Whitecloak War, Aiel War"
+          }
+        }
+      }
+    },
+    "padan-fain": {
+      "name": "Padan Fain",
+      "aliases": ["Fain", "Friend of the Dark"],
+      "appearances": [1, 4, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A traveling peddler who visits Emond's Field regularly. Brings news and goods from outside.",
+          "role": "Peddler",
+          "relationships": {
+            "Trade route": "Two Rivers to Baerlon"
+          }
+        },
+        "47": {
+          "revealedIn": 47,
+          "description": "A Darkfriend who was transformed by the Dark One to hunt the Dragon Reborn. Can track the three ta'veren.",
+          "role": "Darkfriend Hunter",
+          "relationships": {
+            "Master": "The Dark One",
+            "Quarry": "Rand al'Thor, Mat Cauthon, Perrin Aybara"
+          }
+        }
+      }
+    },
+    "master-luhhan": {
+      "name": "Master Luhhan",
+      "aliases": ["Haral Luhhan"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The village blacksmith of Emond's Field. Perrin's master. Large, strong man with graying hair.",
+          "role": "Blacksmith",
+          "relationships": {
+            "Apprentice": "Perrin Aybara",
+            "Wife": "Alsbet Luhhan"
+          }
+        }
+      }
+    },
+    "alsbet-luhhan": {
+      "name": "Alsbet Luhhan",
+      "aliases": ["Mistress Luhhan"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Master Luhhan's wife. Known for her strong opinions and no-nonsense attitude.",
+          "role": "Blacksmith's wife",
+          "relationships": {
+            "Husband": "Master Luhhan"
+          }
+        }
+      }
+    },
+    "bran-alvere": {
+      "name": "Bran al'Vere",
+      "aliases": ["Mayor al'Vere"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Mayor of Emond's Field and innkeeper of the Winespring Inn. Egwene's father.",
+          "role": "Mayor and innkeeper",
+          "relationships": {
+            "Daughter": "Egwene al'Vere",
+            "Wife": "Marin al'Vere"
+          }
+        }
+      }
+    },
+    "marin-alvere": {
+      "name": "Marin al'Vere",
+      "aliases": ["Mistress al'Vere"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Bran's wife and Egwene's mother. Helps run the Winespring Inn.",
+          "role": "Innkeeper's wife",
+          "relationships": {
+            "Husband": "Bran al'Vere",
+            "Daughter": "Egwene al'Vere"
+          }
+        }
+      }
+    },
+    "abell-cauthon": {
+      "name": "Abell Cauthon",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mat's father, a horse trader and farmer. Member of the Village Council.",
+          "role": "Horse trader",
+          "relationships": {
+            "Son": "Mat Cauthon",
+            "Position": "Village Council member"
+          }
+        }
+      }
+    },
+    "natti-cauthon": {
+      "name": "Natti Cauthon",
+      "aliases": ["Mistress Cauthon"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mat's mother, known for her cooking and strong will.",
+          "role": "Farmer's wife",
+          "relationships": {
+            "Son": "Mat Cauthon",
+            "Husband": "Abell Cauthon"
+          }
+        }
+      }
+    },
+    "con-aybara": {
+      "name": "Con Aybara",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Perrin's father, a blacksmith. Quiet man like his son.",
+          "role": "Blacksmith",
+          "relationships": {
+            "Son": "Perrin Aybara",
+            "Wife": "Joslyn Aybara"
+          }
+        }
+      }
+    },
+    "joslyn-aybara": {
+      "name": "Joslyn Aybara",
+      "aliases": ["Mistress Aybara"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Perrin's mother, a gentle woman.",
+          "role": "Blacksmith's wife",
+          "relationships": {
+            "Son": "Perrin Aybara",
+            "Husband": "Con Aybara"
+          }
+        }
+      }
+    },
+    "cenn-buie": {
+      "name": "Cenn Buie",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Village Council, known for being argumentative and pessimistic.",
+          "role": "Village Council member",
+          "relationships": {
+            "Position": "Village Council"
+          }
+        }
+      }
+    },
+    "jon-thane": {
+      "name": "Jon Thane",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A miller and member of the Village Council.",
+          "role": "Miller",
+          "relationships": {
+            "Position": "Village Council member"
+          }
+        }
+      }
+    },
+    "samel-crawe": {
+      "name": "Samel Crawe",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Village Council.",
+          "role": "Village Council member",
+          "relationships": {
+            "Position": "Village Council"
+          }
+        }
+      }
+    },
+    "bili-congar": {
+      "name": "Bili Congar",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Village drunk and troublemaker.",
+          "role": "Village drunk",
+          "relationships": {
+            "Reputation": "Troublemaker and drunk"
+          }
+        }
+      }
+    },
+    "daise-congar": {
+      "name": "Daise Congar",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Bili Congar's wife, member of the Women's Circle.",
+          "role": "Women's Circle member",
+          "relationships": {
+            "Husband": "Bili Congar",
+            "Position": "Women's Circle"
+          }
+        }
+      }
+    },
+    "wit-congar": {
+      "name": "Wit Congar",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of Bili Congar's sons.",
+          "role": "Villager",
+          "relationships": {
+            "Father": "Bili Congar"
+          }
+        }
+      }
+    },
+    "ewin-finngar": {
+      "name": "Ewin Finngar",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young boy from Emond's Field, eager and curious about strangers.",
+          "role": "Village boy",
+          "relationships": {
+            "Age group": "Younger than the main characters"
+          }
+        }
+      }
+    },
+    "hari-coplin": {
+      "name": "Hari Coplin",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the Coplin family, known troublemakers in the village.",
+          "role": "Village troublemaker",
+          "relationships": {
+            "Family": "Coplin family"
+          }
+        }
+      }
+    },
+    "darl-coplin": {
+      "name": "Darl Coplin",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another member of the Coplin family.",
+          "role": "Village troublemaker",
+          "relationships": {
+            "Family": "Coplin family"
+          }
+        }
+      }
+    },
+    "master-al-seen": {
+      "name": "Master al'Seen",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A farmer from Emond's Field.",
+          "role": "Farmer",
+          "relationships": {
+            "Occupation": "Farming"
+          }
+        }
+      }
+    },
+    "flann-lewin": {
+      "name": "Flann Lewin",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A farmer who reported strange events before Winternight.",
+          "role": "Farmer",
+          "relationships": {
+            "Notable for": "Reporting strange occurrences"
+          }
+        }
+      }
+    },
+    "kari-althor": {
+      "name": "Kari al'Thor",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Tam's deceased wife and Rand's mother. Died when Rand was young.",
+          "role": "Mother (deceased)",
+          "relationships": {
+            "Husband": "Tam al'Thor",
+            "Son": "Rand al'Thor"
+          }
+        }
+      }
+    },
+    "master-kinch": {
+      "name": "Master Kinch",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Innkeeper at The Stag and Lion in Baerlon.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Inn": "The Stag and Lion"
+          }
+        }
+      }
+    },
+    "sara-kinch": {
+      "name": "Sara Kinch",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Master Kinch's wife.",
+          "role": "Innkeeper's wife",
+          "relationships": {
+            "Husband": "Master Kinch"
+          }
+        }
+      }
+    },
+    "min-farshaw": {
+      "name": "Min Farshaw",
+      "aliases": ["Min"],
+      "appearances": [15, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A young woman who works at The Stag and Lion. Dresses like a boy and can see glimpses of the future around people.",
+          "role": "Seer",
+          "relationships": {
+            "Workplace": "The Stag and Lion",
+            "Ability": "Viewing the Pattern"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Her viewings show her images that predict the future. Sees a heron-marked sword and other omens around Rand.",
+          "role": "Oracle",
+          "relationships": {
+            "Interest": "Rand al'Thor",
+            "Mentor": "Moiraine Damodred"
+          }
+        }
+      }
+    },
+    "whitecloak-bornhald": {
+      "name": "Geofram Bornhald",
+      "aliases": ["Lord Captain Bornhald"],
+      "appearances": [30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Lord Captain of the Children of the Light. A stern man who genuinely believes in the Light.",
+          "role": "Whitecloak Lord Captain",
+          "relationships": {
+            "Son": "Dain Bornhald",
+            "Organization": "Children of the Light"
+          }
+        }
+      }
+    },
+    "dain-bornhald": {
+      "name": "Dain Bornhald",
+      "aliases": [],
+      "appearances": [30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Son of Lord Captain Bornhald. Young officer in the Children of the Light.",
+          "role": "Whitecloak officer",
+          "relationships": {
+            "Father": "Geofram Bornhald",
+            "Organization": "Children of the Light"
+          }
+        }
+      }
+    },
+    "jaret-byar": {
+      "name": "Jaret Byar",
+      "aliases": ["Child Byar"],
+      "appearances": [30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "A Child of the Light, fanatically devoted to the cause. Gaunt and harsh in appearance.",
+          "role": "Whitecloak soldier",
+          "relationships": {
+            "Superior": "Geofram Bornhald",
+            "Organization": "Children of the Light"
+          }
+        }
+      }
+    },
+    "elyas-machera": {
+      "name": "Elyas Machera",
+      "aliases": ["Elyas"],
+      "appearances": [23, 24, 25, 26, 27, 28, 29],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A man who can communicate with wolves. Former Warder who ran from his Aes Sedai when his ability manifested.",
+          "role": "Wolfbrother",
+          "relationships": {
+            "Wolf companions": "Dapple, Wind, Burn",
+            "Student": "Perrin Aybara",
+            "Former Aes Sedai": "Rina"
+          }
+        }
+      }
+    },
+    "dapple": {
+      "name": "Dapple",
+      "aliases": [],
+      "appearances": [23, 24, 25, 26, 27, 28, 29],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A female wolf, leader of her pack. Wise and cautious.",
+          "role": "Wolf pack leader",
+          "relationships": {
+            "Pack": "Wind, Burn, others",
+            "Human friends": "Elyas Machera, Perrin Aybara"
+          }
+        }
+      }
+    },
+    "wind": {
+      "name": "Wind",
+      "aliases": [],
+      "appearances": [23, 24, 25, 26, 27, 28, 29],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A male wolf in Dapple's pack. Fast and eager.",
+          "role": "Wolf pack member",
+          "relationships": {
+            "Pack leader": "Dapple",
+            "Human friends": "Elyas Machera, Perrin Aybara"
+          }
+        }
+      }
+    },
+    "burn": {
+      "name": "Burn",
+      "aliases": [],
+      "appearances": [23, 24, 25, 26, 27, 28, 29],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A male wolf in Dapple's pack. Young and impulsive.",
+          "role": "Wolf pack member",
+          "relationships": {
+            "Pack leader": "Dapple",
+            "Human friends": "Elyas Machera, Perrin Aybara"
+          }
+        }
+      }
+    },
+    "tinkers-raen": {
+      "name": "Raen",
+      "aliases": [],
+      "appearances": [25, 26, 27],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Seeker of a band of Tuatha'an (Tinkers). Peaceful people who search for the song that was lost.",
+          "role": "Tinker Seeker",
+          "relationships": {
+            "Wife": "Ila",
+            "People": "Tuatha'an"
+          }
+        }
+      }
+    },
+    "ila": {
+      "name": "Ila",
+      "aliases": [],
+      "appearances": [25, 26, 27],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Raen's wife, a Tinker woman. Kind and caring, follows the Way of the Leaf.",
+          "role": "Tinker woman",
+          "relationships": {
+            "Husband": "Raen",
+            "Philosophy": "Way of the Leaf"
+          }
+        }
+      }
+    },
+    "aram": {
+      "name": "Aram",
+      "aliases": [],
+      "appearances": [25, 26, 27],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A young Tinker man, Ila's grandson. Attracted to Egwene and shows interest in violence despite Tinker ways.",
+          "role": "Young Tinker",
+          "relationships": {
+            "Grandmother": "Ila",
+            "Interest": "Egwene al'Vere"
+          }
+        }
+      }
+    },
+    "morgase-trakand": {
+      "name": "Morgase Trakand",
+      "aliases": ["Queen Morgase", "Queen of Andor"],
+      "appearances": [40, 41, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Queen of Andor, a beautiful woman with red-gold hair. Mother to Elayne and Gawyn.",
+          "role": "Queen of Andor",
+          "relationships": {
+            "Daughter": "Elayne Trakand",
+            "Sons": "Gawyn Trakand",
+            "Stepson": "Galad Damodred",
+            "Advisor": "Elaida do Avriny a'Roihan"
+          }
+        }
+      }
+    },
+    "elayne-trakand": {
+      "name": "Elayne Trakand",
+      "aliases": ["Daughter-Heir"],
+      "appearances": [40, 41, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Daughter-Heir of Andor, a beautiful young woman with red-gold curls. Can channel the One Power.",
+          "role": "Daughter-Heir",
+          "relationships": {
+            "Mother": "Queen Morgase",
+            "Brother": "Gawyn Trakand",
+            "Half-brother": "Galad Damodred",
+            "Interest": "Rand al'Thor"
+          }
+        }
+      }
+    },
+    "gawyn-trakand": {
+      "name": "Gawyn Trakand",
+      "aliases": [],
+      "appearances": [40, 41, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Son of Queen Morgase, brother to Elayne. Training to be Elayne's First Prince of the Sword.",
+          "role": "Prince of Andor",
+          "relationships": {
+            "Mother": "Queen Morgase",
+            "Sister": "Elayne Trakand",
+            "Half-brother": "Galad Damodred"
+          }
+        }
+      }
+    },
+    "galad-damodred": {
+      "name": "Galad Damodred",
+      "aliases": [],
+      "appearances": [40, 41, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Stepson of Queen Morgase, half-brother to Elayne and Gawyn. Incredibly handsome and believes in absolute right and wrong.",
+          "role": "Andoran nobleman",
+          "relationships": {
+            "Stepmother": "Queen Morgase",
+            "Half-sister": "Elayne Trakand",
+            "Half-brother": "Gawyn Trakand",
+            "House": "House Damodred"
+          }
+        }
+      }
+    },
+    "gareth-bryne": {
+      "name": "Gareth Bryne",
+      "aliases": ["Lord Gareth"],
+      "appearances": [40, 41, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Captain-General of the Queen's Guards. A great military commander and loyal servant of Andor.",
+          "role": "Captain-General",
+          "relationships": {
+            "Queen": "Morgase Trakand",
+            "Position": "Queen's Guards"
+          }
+        }
+      }
+    },
+    "elaida-avriny": {
+      "name": "Elaida do Avriny a'Roihan",
+      "aliases": ["Elaida Sedai", "Elaida"],
+      "appearances": [40, 41, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "An Aes Sedai of the Red Ajah, advisor to Queen Morgase. Has the Foretelling ability.",
+          "role": "Aes Sedai advisor",
+          "relationships": {
+            "Queen": "Morgase Trakand",
+            "Ajah": "Red Ajah",
+            "Ability": "Foretelling"
+          }
+        }
+      }
+    },
+    "logain-ablar": {
+      "name": "Logain Ablar",
+      "aliases": ["The False Dragon"],
+      "appearances": [40, 42, 43],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "A false Dragon who was gentled by the Aes Sedai. Being brought to Tar Valon for display.",
+          "role": "False Dragon",
+          "relationships": {
+            "Status": "Gentled male channeler",
+            "Captors": "Aes Sedai"
+          }
+        }
+      }
+    },
+    "basel-gill": {
+      "name": "Basel Gill",
+      "aliases": ["Master Gill"],
+      "appearances": [35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Innkeeper of The Queen's Blessing in Caemlyn. Fat, balding man who is loyal to Queen Morgase.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Inn": "The Queen's Blessing",
+            "Loyalty": "Queen Morgase"
+          }
+        }
+      }
+    },
+    "lamgwin-dortham": {
+      "name": "Lamgwin Dortham",
+      "aliases": [],
+      "appearances": [35, 36, 37, 38, 39],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "One of Master Gill's workers at The Queen's Blessing.",
+          "role": "Inn worker",
+          "relationships": {
+            "Employer": "Basel Gill"
+          }
+        }
+      }
+    },
+    "the-grinwell-family": {
+      "name": "Master Grinwell",
+      "aliases": [],
+      "appearances": [17, 18],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A farmer who gives Rand and Mat a ride in his cart to Four Kings.",
+          "role": "Farmer",
+          "relationships": {
+            "Daughter": "Else Grinwell"
+          }
+        }
+      }
+    },
+    "else-grinwell": {
+      "name": "Else Grinwell",
+      "aliases": [],
+      "appearances": [17, 18],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Master Grinwell's daughter, a young woman who flirts with Rand and Mat.",
+          "role": "Farmer's daughter",
+          "relationships": {
+            "Father": "Master Grinwell",
+            "Interest": "Rand al'Thor"
+          }
+        }
+      }
+    },
+    "four-kings-bartender": {
+      "name": "Jak o' the Shadows",
+      "aliases": [],
+      "appearances": [32, 33],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Innkeeper at The Dancing Cartman in Four Kings. A Darkfriend who tries to capture Rand and Mat.",
+          "role": "Darkfriend innkeeper",
+          "relationships": {
+            "Inn": "The Dancing Cartman",
+            "Alliance": "Shadow"
+          }
+        }
+      }
+    },
+    "hake": {
+      "name": "Hake",
+      "aliases": [],
+      "appearances": [33, 34],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Innkeeper at The Goose and Crown. Another Darkfriend who recognizes Rand and Mat.",
+          "role": "Darkfriend innkeeper",
+          "relationships": {
+            "Inn": "The Goose and Crown",
+            "Alliance": "Shadow"
+          }
+        }
+      }
+    },
+    "captain-domon": {
+      "name": "Bayle Domon",
+      "aliases": ["Captain Domon"],
+      "appearances": [20, 21, 22, 24, 26, 42, 43, 47],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Captain of the riverboat Spray. A gruff Illianer sea captain who collects old things.",
+          "role": "Ship captain",
+          "relationships": {
+            "Ship": "Spray",
+            "Passengers": "Rand al'Thor, Mat Cauthon, Thom Merrilin"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Possesses several items of the One Power, including a cuendillar seal from the Dark One's prison.",
+          "role": "Antiquities collector",
+          "relationships": {
+            "Possessions": "Ancient ter'angreal and cuendillar"
+          }
+        }
+      }
+    },
+    "floran-gelb": {
+      "name": "Floran Gelb",
+      "aliases": ["Gelb"],
+      "appearances": [20, 21, 22],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A crew member on Domon's ship. Lazy and untrustworthy sailor.",
+          "role": "Sailor",
+          "relationships": {
+            "Captain": "Bayle Domon",
+            "Ship": "Spray"
+          }
+        }
+      }
+    },
+    "yarin-majere": {
+      "name": "Yarin Majere",
+      "aliases": [],
+      "appearances": [20, 21, 22],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A crew member on Domon's ship.",
+          "role": "Sailor",
+          "relationships": {
+            "Captain": "Bayle Domon"
+          }
+        }
+      }
+    },
+    "agelmar-jagad": {
+      "name": "Lord Agelmar Jagad",
+      "aliases": ["Lord Agelmar"],
+      "appearances": [46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "Lord of Fal Dara keep in Shienar. A great military commander who holds the Borderlands against the Blight.",
+          "role": "Borderland lord",
+          "relationships": {
+            "Keep": "Fal Dara",
+            "Sister": "Lady Amalisa",
+            "Nation": "Shienar"
+          }
+        }
+      }
+    },
+    "amalisa-jagad": {
+      "name": "Lady Amalisa Jagad Nachiman",
+      "aliases": ["Lady Amalisa"],
+      "appearances": [46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "Lord Agelmar's sister, chatellaine of Fal Dara. A strong woman who can channel weakly.",
+          "role": "Keep chatellaine",
+          "relationships": {
+            "Brother": "Lord Agelmar",
+            "Keep": "Fal Dara",
+            "Ability": "Weak channeling"
+          }
+        }
+      }
+    },
+    "ingtar-shinowa": {
+      "name": "Lord Ingtar Shinowa",
+      "aliases": ["Ingtar"],
+      "appearances": [46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "A Shienaran lord and warrior. Captain under Lord Agelmar.",
+          "role": "Shienaran lord",
+          "relationships": {
+            "Liege": "Lord Agelmar",
+            "Nation": "Shienar"
+          }
+        }
+      }
+    },
+    "uno-nomesta": {
+      "name": "Uno Nomesta",
+      "aliases": ["Uno"],
+      "appearances": [46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "A Shienaran soldier with one eye and a foul mouth. Loyal warrior who serves Lord Agelmar.",
+          "role": "Shienaran soldier",
+          "relationships": {
+            "Commander": "Lord Agelmar",
+            "Trait": "One-eyed, profane speech"
+          }
+        }
+      }
+    },
+    "masema-dagar": {
+      "name": "Masema Dagar",
+      "aliases": ["Masema"],
+      "appearances": [46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "A Shienaran soldier, fanatically devoted to duty and the Light.",
+          "role": "Shienaran soldier",
+          "relationships": {
+            "Commander": "Lord Agelmar",
+            "Trait": "Fanatical devotion"
+          }
+        }
+      }
+    },
+    "ragan": {
+      "name": "Ragan",
+      "aliases": [],
+      "appearances": [46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "A Shienaran soldier serving under Lord Agelmar.",
+          "role": "Shienaran soldier",
+          "relationships": {
+            "Commander": "Lord Agelmar"
+          }
+        }
+      }
+    },
+    "loial": {
+      "name": "Loial",
+      "aliases": ["Loial son of Arent son of Halan"],
+      "appearances": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "An Ogier from Stedding Shangtai. Ten feet tall with tufted ears and eyebrows. Loves books and trees.",
+          "role": "Ogier",
+          "relationships": {
+            "Home": "Stedding Shangtai",
+            "Mother": "Covril",
+            "Interest": "Books and growing things"
+          }
+        },
+        "43": {
+          "revealedIn": 43,
+          "description": "Agrees to guide the group to the Eye of the World through the Ways. Expert on the Ways and Waygates.",
+          "role": "Guide to the Eye",
+          "relationships": {
+            "Knowledge": "The Ways and Waygates",
+            "Mission": "Guide to Eye of the World"
+          }
+        }
+      }
+    },
+    "aginor": {
+      "name": "Aginor",
+      "aliases": ["Forsaken"],
+      "appearances": [52, 53],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "One of the Forsaken, freed from his prison near the Eye of the World. Creator of Trollocs and other Shadowspawn.",
+          "role": "Forsaken",
+          "relationships": {
+            "Creation": "Trollocs and Shadowspawn",
+            "Prison": "Shayol Ghul",
+            "Enemy": "Rand al'Thor"
+          }
+        }
+      }
+    },
+    "balthamel": {
+      "name": "Balthamel",
+      "aliases": ["Forsaken"],
+      "appearances": [52, 53],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "One of the Forsaken, freed with Aginor. Wears a black mask to hide his decayed face.",
+          "role": "Forsaken",
+          "relationships": {
+            "Ally": "Aginor",
+            "Enemy": "The Green Man",
+            "Trait": "Masked, decayed"
+          }
+        }
+      }
+    },
+    "the-green-man": {
+      "name": "The Green Man",
+      "aliases": ["Someshta"],
+      "appearances": [50, 51, 52, 53],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "The last of the Nym, creatures made in the Age of Legends. Guardian of the Eye of the World.",
+          "role": "Guardian of the Eye",
+          "relationships": {
+            "Race": "Nym",
+            "Duty": "Guarding the Eye of the World",
+            "Enemy": "Balthamel"
+          }
+        }
+      }
+    },
+    "mordeth": {
+      "name": "Mordeth",
+      "aliases": [],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "An ancient evil spirit trapped in Shadar Logoth. Counselor who corrupted Aridhol into hatred.",
+          "role": "Ancient evil",
+          "relationships": {
+            "City": "Shadar Logoth/Aridhol",
+            "Nature": "Trapped spirit",
+            "Corruption": "Mat's dagger"
+          }
+        }
+      }
+    },
+    "lews-therin-telamon": {
+      "name": "Lews Therin Telamon",
+      "aliases": ["Dragon", "Kinslayer", "Lord of the Morning"],
+      "appearances": [1, 51, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Dragon from the Age of Legends who broke the world. Went mad from the taint on saidin.",
+          "role": "The Dragon",
+          "relationships": {
+            "Reincarnation": "Rand al'Thor",
+            "Enemy": "Dark One",
+            "Fate": "Madness and death"
+          }
+        }
+      }
+    },
+    "ishamael": {
+      "name": "Ishamael",
+      "aliases": ["Ba'alzamon", "Betrayer of Hope"],
+      "appearances": [51, 53],
+      "knowledge": {
+        "51": {
+          "revealedIn": 51,
+          "description": "The true identity of Ba'alzamon. First and strongest of the Forsaken, never fully sealed.",
+          "role": "First Forsaken",
+          "relationships": {
+            "True name": "Ishamael",
+            "False identity": "Ba'alzamon",
+            "Status": "Never fully imprisoned"
+          }
+        }
+      }
+    },
+    "mandarb": {
+      "name": "Mandarb",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Lan's warhorse, a black stallion trained for battle. The name means 'Blade' in the Old Tongue.",
+          "role": "Warhorse",
+          "relationships": {
+            "Owner": "Lan Mandragoran",
+            "Meaning": "Blade in Old Tongue"
+          }
+        }
+      }
+    },
+    "aldieb": {
+      "name": "Aldieb",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Moiraine's white mare. The name means 'Westwind' in the Old Tongue.",
+          "role": "Riding horse",
+          "relationships": {
+            "Owner": "Moiraine Damodred",
+            "Meaning": "Westwind in Old Tongue"
+          }
+        }
+      }
+    },
+    "bela": {
+      "name": "Bela",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Egwene's shaggy brown mare. A sturdy, reliable horse.",
+          "role": "Riding horse",
+          "relationships": {
+            "Primary rider": "Egwene al'Vere",
+            "Trait": "Sturdy and dependable"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Ravens attack Emond's Field on Winternight. Rand sees a cloaked figure watching him. Trollocs attack the village, destroying homes and killing villagers. Tam is wounded and speaks of finding Rand as a baby.",
+    "2": "Moiraine, an Aes Sedai, and her Warder Lan arrive in Emond's Field. They help heal Tam and reveal that Rand, Mat, and Perrin are being hunted by the Dark One's forces.",
+    "3": "Tam reveals to Rand that he found him as a baby during the Aiel War. Rand learns he was adopted. The village prepares to defend against more Trolloc attacks.",
+    "4": "The group flees Emond's Field with Moiraine and Lan. Thom Merrilin, a gleeman, joins them. They travel toward Baerlon to escape the Trollocs hunting them.",
+    "5": "The group reaches Baerlon and stays at The Stag and Lion inn. They must hide their identities while Moiraine gathers information about the pursuit.",
+    "6": "In Baerlon, the group learns more about the dangers following them. Nynaeve arrives, having tracked them from Emond's Field.",
+    "7": "Nynaeve confronts Moiraine about taking the young people away. The group prepares to leave Baerlon as danger approaches.",
+    "8": "The group flees Baerlon by night. Mat begins showing signs of evil influence from touching something in Shadar Logoth. The party splits up when attacked.",
+    "9": "Separated from the others, Rand experiences strange dreams of Ba'alzamon. The Dark One's lieutenant tries to turn him to the Shadow.",
+    "10": "Still separated, the group members struggle to survive on their own while being hunted by Darkfriends and worse creatures.",
+    "11": "Nynaeve tracks down some of the group members. Her abilities as the Wisdom help her find them using her special talents.",
+    "12": "The group learns more about Lan's background as the uncrowned king of fallen Malkier. His dedication to fighting the Shadow is revealed.",
+    "13": "Moiraine explains more about the One Power and the dangers facing them. The corruption of the Source affects male channelers.",
+    "14": "Ba'alzamon appears again in dreams, showing his power and trying to corrupt the ta'veren. The pull of the Pattern affects their journey.",
+    "15": "In Caemlyn, Min Farshaw sees visions around the group members, particularly Rand, showing glimpses of their possible futures.",
+    "16": "The group continues their journey, facing various dangers and challenges. The influence of being ta'veren becomes more apparent.",
+    "17": "Rand and Mat travel together, taking rides with farmers. They encounter Darkfriends who recognize them despite their disguises.",
+    "18": "The boys continue toward Caemlyn, facing hunger and suspicion. Their luck seems to both help and hinder them.",
+    "19": "In the abandoned city of Shadar Logoth, Mat takes a dagger cursed with ancient evil. This begins his corruption by the city's malevolent power.",
+    "20": "Captain Domon gives passage on his riverboat. Mat's condition worsens from the dagger's influence, showing increased paranoia and aggression.",
+    "21": "Travel by river continues as Mat becomes more affected by the Shadar Logoth dagger. The corruption spreads through his system.",
+    "22": "The river journey faces various dangers including pursuit by enemies. Mat's paranoia increases as the dagger's evil takes hold.",
+    "23": "Perrin and Egwene meet Elyas, who can communicate with wolves. Perrin discovers he has the same ability, marking him as a wolfbrother.",
+    "24": "Perrin learns to communicate with wolves, gaining enhanced senses but worrying about losing his humanity to the wolf nature.",
+    "25": "The group encounters the Tuatha'an (Tinkers), peaceful travelers who follow the Way of the Leaf and search for a lost song.",
+    "26": "Among the Tinkers, they learn about the philosophy of absolute pacifism. Aram shows interest in Egwene and violence despite his upbringing.",
+    "27": "The stay with the Tinkers reveals different ways of life. The contrast between their peaceful ways and the violence pursuing the group is stark.",
+    "28": "Leaving the Tinkers, Perrin and Egwene continue their journey with Elyas, constantly aware of the wolves tracking alongside them.",
+    "29": "The wolf connection grows stronger for Perrin, bringing both enhanced abilities and fears about losing his human nature to the wolf.",
+    "30": "The Children of the Light (Whitecloaks) capture Perrin and Egwene. These fanatic soldiers suspect them of being Darkfriends.",
+    "31": "Under interrogation by the Whitecloaks, Perrin and Egwene face accusations of consorting with the Dark One through association with wolves.",
+    "32": "The Whitecloak trial continues as Lord Captain Bornhald questions them. Byar is particularly suspicious and harsh in his treatment.",
+    "33": "Escape attempts are planned as the situation with the Whitecloaks becomes more dangerous. Their prejudice against anything unusual shows clearly.",
+    "34": "The rescue of Perrin and Egwene involves wolves attacking the Whitecloak camp. This reinforces their suspicions about Darkfriend associations.",
+    "35": "Reunited with Moiraine and Lan, the group reaches Caemlyn. They stay at The Queen's Blessing inn while planning their next move.",
+    "36": "In Caemlyn, they meet Loial, an Ogier who becomes fascinated with their quest. His knowledge of the Ways becomes crucial to their mission.",
+    "37": "Loial explains the Ways, ancient roads between stedding that allow rapid travel. However, they have become dangerous over time.",
+    "38": "Plans are made to use the Ways to reach their destination quickly. Loial's expertise will be essential for navigating the corrupted pathways.",
+    "39": "Preparation for entering the Ways continues as the dangers and benefits are weighed. The group must decide if the risk is worth it.",
+    "40": "Queen Morgase holds court in Caemlyn. The royal family is introduced, including Elayne, Gawyn, and Galad, along with various court officials.",
+    "41": "Court intrigue in Caemlyn reveals the politics surrounding the Queen and her advisors. Elaida's role as Aes Sedai advisor is prominent.",
+    "42": "Rand accidentally falls into the Palace gardens, meeting Elayne and Gawyn. This incident draws unwanted attention to the group.",
+    "43": "The meeting with royalty creates complications for their mission. Rand's encounter with Elayne begins an important relationship.",
+    "44": "Political tensions in Caemlyn affect the group's plans. The arrival of Logain, a false Dragon, creates additional turmoil in the city.",
+    "45": "Logain's procession through the city demonstrates the power of Aes Sedai and the fate of men who can channel the corrupted Source.",
+    "46": "The group travels to Fal Dara in Shienar, a Borderland keep that guards against the Blight. Lord Agelmar commands this crucial fortress.",
+    "47": "At Fal Dara, they meet Shienaran warriors including Ingtar, Uno, and others. These soldiers are dedicated to fighting the Shadow.",
+    "48": "Preparation for entering the Blight begins at Fal Dara. The group readies for the dangerous journey to the Eye of the World.",
+    "49": "Final preparations are made as the group prepares to enter the Blight, the corrupt wasteland where the Dark One's influence is strongest.",
+    "50": "The journey through the Blight reveals a wasteland of corruption and evil. They encounter various dangers on the way to the Eye.",
+    "51": "At the Eye of the World, they meet the Green Man, last of the Nym. The pool of untainted saidin represents hope against the corruption.",
+    "52": "Aginor and Balthamel, two of the Forsaken, attack at the Eye. The Green Man sacrifices himself to destroy Balthamel in the battle.",
+    "53": "Rand channels saidin from the Eye and defeats Aginor and Ba'alzamon. The Horn of Valere and a seal from the Dark One's prison are found."
+  }
+}
