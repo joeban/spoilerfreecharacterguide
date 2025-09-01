@@ -44,7 +44,7 @@ export default async function BookPage({
     <div className="container mx-auto px-4 py-6">
       <Breadcrumb items={breadcrumbItems} />
       
-      <div className="text-center mb-6">
+      <div className="text-center mb-4">
         <h1 className="text-3xl md:text-4xl font-display mb-2 text-amber-50 text-shadow-subtle">
           {bookMeta.title}
         </h1>
@@ -53,73 +53,66 @@ export default async function BookPage({
         </p>
       </div>
       
-      {/* Main content area - horizontal layout on desktop */}
-      <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col lg:flex-row gap-8 items-start">
-          {/* Left column - Book cover and purchase */}
-          <div className="lg:w-1/3">
-            <div className="parchment-panel p-6">
-              <div className="flex flex-col items-center">
-                <a
-                  href={amazonDirectUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group mb-4"
-                >
-                  <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
-                    {coverImageUrl ? (
-                      <img 
-                        src={coverImageUrl}
-                        alt={`${bookMeta.title} cover`}
-                        className="w-40 h-auto"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <div className="w-40 h-60 bg-gradient-to-br from-leather to-leather-dark flex flex-col items-center justify-center p-3">
-                        <span className="text-parchment text-center">
-                          <div className="font-display text-base mb-2">{bookMeta.title}</div>
-                          <div className="text-xs opacity-80">{series.author}</div>
-                        </span>
-                      </div>
-                    )}
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                      <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-sm">
-                        View on Amazon
-                      </span>
-                    </div>
+      {/* Chapter selector - First */}
+      <div className="max-w-6xl mx-auto mb-6">
+        <ChapterSelector
+          totalChapters={bookMeta.chapters}
+          currentChapter={0}  // 0 means no current chapter (book page, not chapter page)
+          seriesSlug={params.series}
+          bookSlug={params.book}
+          chaptersWithContent={chaptersWithContent}
+          defaultChapter={1}  // New prop to set default selection to chapter 1
+        />
+      </div>
+      
+      {/* Amazon affiliate section - Below chapter selector */}
+      <div className="max-w-md mx-auto">
+        <div className="parchment-panel p-6">
+          <div className="flex flex-col items-center">
+            <h3 className="text-lg font-heading font-bold mb-4 text-parchment-primary">Purchase This Book</h3>
+            <a
+              href={amazonDirectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mb-3"
+            >
+              <div className="relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                {coverImageUrl ? (
+                  <img 
+                    src={coverImageUrl}
+                    alt={`${bookMeta.title} cover`}
+                    className="w-36 h-auto"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="w-36 h-54 bg-gradient-to-br from-leather to-leather-dark flex flex-col items-center justify-center p-3">
+                    <span className="text-parchment text-center">
+                      <div className="font-display text-base mb-2">{bookMeta.title}</div>
+                      <div className="text-xs opacity-80">{series.author}</div>
+                    </span>
                   </div>
-                </a>
-                <a
-                  href={amazonDirectUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-b from-amber-700 to-amber-800 text-amber-100 rounded-md shadow-md hover:from-amber-600 hover:to-amber-700 transition-all duration-200 hover:shadow-lg text-sm font-medium"
-                >
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
-                  </svg>
-                  Buy on Amazon
-                </a>
-                <p className="text-xs text-parchment-secondary italic mt-3 text-center">
-                  As an Amazon Associate, we earn from qualifying purchases
-                </p>
+                )}
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/70 px-3 py-2 rounded text-sm">
+                    View on Amazon
+                  </span>
+                </div>
               </div>
-            </div>
-          </div>
-          
-          {/* Right column - Chapter selector */}
-          <div className="lg:w-2/3">
-            <div className="parchment-panel p-6">
-              <h3 className="text-lg font-heading font-bold mb-4 text-parchment-primary text-center">Select Your Chapter</h3>
-              <ChapterSelector
-                totalChapters={bookMeta.chapters}
-                currentChapter={0}  // 0 means no current chapter (book page, not chapter page)
-                seriesSlug={params.series}
-                bookSlug={params.book}
-                chaptersWithContent={chaptersWithContent}
-                defaultChapter={1}  // New prop to set default selection to chapter 1
-              />
-            </div>
+            </a>
+            <a
+              href={amazonDirectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-b from-amber-700 to-amber-800 text-amber-100 rounded-md shadow-md hover:from-amber-600 hover:to-amber-700 transition-all duration-200 hover:shadow-lg text-sm font-medium"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/>
+              </svg>
+              Buy on Amazon
+            </a>
+            <p className="text-xs text-parchment-secondary italic mt-3 text-center">
+              As an Amazon Associate, we earn from qualifying purchases
+            </p>
           </div>
         </div>
       </div>
