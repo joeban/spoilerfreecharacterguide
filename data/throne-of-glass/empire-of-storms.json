@@ -1,0 +1,1162 @@
+{
+  "meta": {
+    "title": "Empire of Storms",
+    "author": "Sarah J. Maas",
+    "chapters": 83,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "aelin-galathynius": {
+      "name": "Aelin Galathynius",
+      "aliases": ["Queen of Terrasen", "Fire-Bringer", "Heir of Fire"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Rules as Queen of Terrasen while building alliances and preparing for war against Erawan.",
+          "role": "Queen of Terrasen",
+          "relationships": {
+            "Queen of": "Terrasen",
+            "Mate of": "Rowan Whitethorn"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Struggles with the burden of leadership and the sacrifices required for victory.",
+          "role": "Burdened queen",
+          "relationships": {
+            "Commands": "Court of Terrasen",
+            "Allied with": "Various kingdoms"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Faces betrayal by Maeve and is captured, separated from her court and mate.",
+          "role": "Captured queen",
+          "relationships": {
+            "Captured by": "Queen Maeve",
+            "Separated from": "Rowan and court"
+          }
+        }
+      }
+    },
+    "rowan-whitethorn": {
+      "name": "Rowan Whitethorn",
+      "aliases": ["Prince Rowan", "Aelin's Carranam"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Serves as Aelin's mate, protector, and strategic advisor in the war preparations.",
+          "role": "Queen's mate and advisor",
+          "relationships": {
+            "Mate of": "Aelin Galathynius",
+            "Prince of": "Doranelle"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Devastated by Aelin's capture and determined to rescue her at any cost.",
+          "role": "Desperate mate",
+          "relationships": {
+            "Searching for": "Aelin Galathynius",
+            "Allied with": "Court of Terrasen"
+          }
+        }
+      }
+    },
+    "dorian-havilliard": {
+      "name": "Dorian Havilliard",
+      "aliases": ["King of Adarlan", "Raw Magic"],
+      "appearances": [5, 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Rules Adarlan as king while struggling to control his raw magic and rebuild his kingdom.",
+          "role": "King of Adarlan",
+          "relationships": {
+            "King of": "Adarlan",
+            "Ally of": "Aelin Galathynius"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Travels with Manon seeking to understand his powers and find his place in the war.",
+          "role": "Searching king",
+          "relationships": {
+            "Traveling with": "Manon Blackbeak",
+            "Learning from": "Ancient magic"
+          }
+        }
+      }
+    },
+    "manon-blackbeak": {
+      "name": "Manon Blackbeak",
+      "aliases": ["Wing Leader", "Last Crochan Queen"],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Leads the Thirteen in questioning their allegiance and seeking their own path.",
+          "role": "Independent Wing Leader",
+          "relationships": {
+            "Commands": "The Thirteen",
+            "Questions": "Clan allegiance"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Travels with Dorian and begins to discover her true heritage as the last Crochan Queen.",
+          "role": "Discovering her heritage",
+          "relationships": {
+            "Traveling with": "Dorian Havilliard",
+            "Descendant of": "Crochan Queens"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Fully embraces her role as the rightful Crochan Queen and works to unite the witch clans.",
+          "role": "Crochan Queen",
+          "relationships": {
+            "Queen of": "Crochan witches",
+            "Uniting": "Witch clans"
+          }
+        }
+      }
+    },
+    "aedion-ashryver": {
+      "name": "Aedion Ashryver",
+      "aliases": ["Wolf of the North", "General of Terrasen"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Serves as Aelin's general and cousin, leading Terrasen forces in preparation for war.",
+          "role": "General of Terrasen",
+          "relationships": {
+            "Cousin of": "Aelin Galathynius",
+            "Commands": "Terrasen army"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Takes command of the forces after Aelin's capture, determined to rescue his queen.",
+          "role": "Acting military leader",
+          "relationships": {
+            "Leading": "Alliance forces",
+            "Searching for": "Aelin Galathynius"
+          }
+        }
+      }
+    },
+    "lysandra": {
+      "name": "Lysandra",
+      "aliases": ["Lady of Caraverre", "Shape-shifter"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Serves as a crucial member of Aelin's court, using her shape-shifting abilities for reconnaissance.",
+          "role": "Court spy and shape-shifter",
+          "relationships": {
+            "Member of": "Court of Terrasen",
+            "Guardian of": "Evangeline"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Takes on increasingly dangerous missions using her abilities to gather intelligence.",
+          "role": "Intelligence operative",
+          "relationships": {
+            "Serves": "Queen Aelin",
+            "Allied with": "Aedion Ashryver"
+          }
+        }
+      }
+    },
+    "elide-lochan": {
+      "name": "Elide Lochan",
+      "aliases": ["Lady of Perranth"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Travels with Lorcan after escaping Morath, carrying vital intelligence about Erawan's plans.",
+          "role": "Intelligence bearer",
+          "relationships": {
+            "Traveling with": "Lorcan",
+            "Escaped from": "Morath"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Develops feelings for Lorcan while navigating the dangerous political landscape.",
+          "role": "Strategic asset and developing romantic interest",
+          "relationships": {
+            "Romantic interest of": "Lorcan",
+            "Heir to": "Perranth"
+          }
+        }
+      }
+    },
+    "lorcan": {
+      "name": "Lorcan",
+      "aliases": ["Fae Warrior", "Maeve's Commander"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Protects Elide while questioning his loyalty to Queen Maeve.",
+          "role": "Conflicted protector",
+          "relationships": {
+            "Protects": "Elide Lochan",
+            "Questions loyalty to": "Queen Maeve"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Falls in love with Elide and begins to fully turn against Maeve.",
+          "role": "Defecting Fae warrior",
+          "relationships": {
+            "In love with": "Elide Lochan",
+            "Betraying": "Queen Maeve"
+          }
+        }
+      }
+    },
+    "gavriel": {
+      "name": "Gavriel",
+      "aliases": ["Lion of Doranelle"],
+      "appearances": [20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fae warrior sent by Maeve to find Aelin, but begins to question his orders.",
+          "role": "Questioning Fae warrior",
+          "relationships": {
+            "Sent by": "Queen Maeve",
+            "Father of": "Aedion Ashryver"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Reveals himself as Aedion's father and switches sides to help Aelin.",
+          "role": "Father and ally",
+          "relationships": {
+            "Father of": "Aedion Ashryver",
+            "Allied with": "Aelin's forces"
+          }
+        }
+      }
+    },
+    "fenrys": {
+      "name": "Fenrys",
+      "aliases": ["White Wolf of Doranelle"],
+      "appearances": [20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fae warrior bound by blood oath to Maeve, but sympathetic to Aelin's cause.",
+          "role": "Reluctant servant",
+          "relationships": {
+            "Blood sworn to": "Queen Maeve",
+            "Sympathetic to": "Aelin Galathynius"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Struggles with his blood oath while wanting to help Aelin and her court.",
+          "role": "Conflicted warrior",
+          "relationships": {
+            "Bound to": "Queen Maeve",
+            "Wants to help": "Aelin's court"
+          }
+        }
+      }
+    },
+    "connall": {
+      "name": "Connall",
+      "aliases": ["Dark Wolf of Doranelle"],
+      "appearances": [20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fenrys's twin brother, also blood sworn to Maeve and more loyal to her.",
+          "role": "Loyal Fae warrior",
+          "relationships": {
+            "Twin of": "Fenrys",
+            "Blood sworn to": "Queen Maeve"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Remains more loyal to Maeve than his twin, creating tension between the brothers.",
+          "role": "Devoted servant",
+          "relationships": {
+            "More loyal than": "Fenrys",
+            "Serves": "Queen Maeve"
+          }
+        }
+      }
+    },
+    "vaughan": {
+      "name": "Vaughan",
+      "aliases": ["Dark Fae Warrior"],
+      "appearances": [20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Ancient Fae warrior serving Maeve, cold and calculating.",
+          "role": "Cold Fae warrior",
+          "relationships": {
+            "Serves": "Queen Maeve",
+            "Companion of": "Other Fae warriors"
+          }
+        }
+      }
+    },
+    "maeve": {
+      "name": "Queen Maeve",
+      "aliases": ["Dark Queen", "Fae Queen of Doranelle"],
+      "appearances": [25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Reveals her true agenda and schemes to capture Aelin for her own purposes.",
+          "role": "Scheming Fae Queen",
+          "relationships": {
+            "Commands": "Fae warriors",
+            "Seeks": "Aelin's power"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Successfully captures Aelin through treachery and betrayal.",
+          "role": "Triumphant captor",
+          "relationships": {
+            "Captures": "Aelin Galathynius",
+            "Betrays": "Former agreements"
+          }
+        }
+      }
+    },
+    "abraxos": {
+      "name": "Abraxos",
+      "aliases": ["Manon's Wyvern"],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Remains loyal to Manon as they navigate independence from clan authority.",
+          "role": "Loyal wyvern mount",
+          "relationships": {
+            "Bonded to": "Manon Blackbeak",
+            "Loyal to": "The Thirteen"
+          }
+        }
+      }
+    },
+    "the-thirteen": {
+      "name": "The Thirteen",
+      "aliases": ["Manon's Coven"],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Follow Manon in breaking away from clan authority to forge their own path.",
+          "role": "Independent witch coven",
+          "relationships": {
+            "Led by": "Manon Blackbeak",
+            "Independent from": "Ironteeth Clans"
+          }
+        }
+      }
+    },
+    "asterin-blackbeak": {
+      "name": "Asterin Blackbeak",
+      "aliases": ["Second of the Thirteen"],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Serves as Manon's loyal Second as they break from traditional clan structure.",
+          "role": "Loyal Second in command",
+          "relationships": {
+            "Second to": "Manon Blackbeak",
+            "Devoted to": "The Thirteen"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Reveals more of her past and connection to the hunter from her youth.",
+          "role": "Witch with hidden history",
+          "relationships": {
+            "Has past with": "Human hunter",
+            "Protects": "Manon's secrets"
+          }
+        }
+      }
+    },
+    "erawan": {
+      "name": "Erawan",
+      "aliases": ["Valg King", "Dark Lord"],
+      "appearances": [30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Continues his plans for conquest from his new strongholds after losing his previous host.",
+          "role": "Disembodied Valg King",
+          "relationships": {
+            "Commands": "Dark armies",
+            "Enemy of": "All free peoples"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Marshals his forces for a massive assault on the allied kingdoms.",
+          "role": "War leader",
+          "relationships": {
+            "Leading": "Valg invasion",
+            "Target of": "Alliance resistance"
+          }
+        }
+      }
+    },
+    "rolfe": {
+      "name": "Rolfe",
+      "aliases": ["Pirate Lord", "Captain of the Dragon"],
+      "appearances": [35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Pirate captain whom Aelin seeks as an ally for the coming war.",
+          "role": "Pirate captain",
+          "relationships": {
+            "Captain of": "Pirate fleet",
+            "Potential ally of": "Aelin Galathynius"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Agrees to join the alliance after Aelin demonstrates her power and commitment.",
+          "role": "Allied pirate lord",
+          "relationships": {
+            "Allied with": "Aelin's coalition",
+            "Commands": "Sea forces"
+          }
+        }
+      }
+    },
+    "ansel-of-briarcliff": {
+      "name": "Ansel of Briarcliff",
+      "aliases": ["Queen of the Western Wastes"],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Former acquaintance of Celaena who now rules her own kingdom in the Western Wastes.",
+          "role": "Warrior queen",
+          "relationships": {
+            "Former acquaintance of": "Aelin Galathynius",
+            "Queen of": "Western Wastes"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Joins the alliance against Erawan, bringing her desert warriors to the cause.",
+          "role": "Allied queen",
+          "relationships": {
+            "Allied with": "Aelin's coalition",
+            "Commands": "Desert forces"
+          }
+        }
+      }
+    },
+    "ilias": {
+      "name": "Ilias",
+      "aliases": [],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Young warrior serving under Ansel, skilled and devoted to his queen.",
+          "role": "Young warrior",
+          "relationships": {
+            "Serves": "Ansel of Briarcliff",
+            "Warrior of": "Western Wastes"
+          }
+        }
+      }
+    },
+    "wendlyn-nobles": {
+      "name": "Wendlyn Court",
+      "aliases": ["Royal Court of Wendlyn"],
+      "appearances": [25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Noble court of Wendlyn who consider joining the alliance against Erawan.",
+          "role": "Potential allies",
+          "relationships": {
+            "Consider alliance with": "Aelin Galathynius",
+            "Rule": "Wendlyn"
+          }
+        }
+      }
+    },
+    "melisande": {
+      "name": "Melisande",
+      "aliases": ["Queen of Melisande"],
+      "appearances": [30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Queen of her own kingdom who must decide whether to join the alliance.",
+          "role": "Neutral queen",
+          "relationships": {
+            "Queen of": "Melisande",
+            "Considering": "Alliance membership"
+          }
+        }
+      }
+    },
+    "sea-dragons": {
+      "name": "Sea Dragons",
+      "aliases": ["Ocean Serpents"],
+      "appearances": [35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Massive sea creatures that pose a threat to naval forces.",
+          "role": "Marine predators",
+          "relationships": {
+            "Threaten": "Ships and sailors",
+            "Rule": "Deep ocean"
+          }
+        }
+      }
+    },
+    "pirate-crews": {
+      "name": "Pirate Crews",
+      "aliases": ["Sea Raiders"],
+      "appearances": [35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Various pirate crews under Rolfe's command who join the alliance.",
+          "role": "Naval allies",
+          "relationships": {
+            "Serve": "Rolfe",
+            "Allied with": "Aelin's forces"
+          }
+        }
+      }
+    },
+    "ship-captains": {
+      "name": "Allied Ship Captains",
+      "aliases": ["Naval Officers"],
+      "appearances": [35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Captains of various vessels who join the naval component of the alliance.",
+          "role": "Naval commanders",
+          "relationships": {
+            "Command": "Allied ships",
+            "Serve": "Alliance cause"
+          }
+        }
+      }
+    },
+    "evangeline": {
+      "name": "Evangeline",
+      "aliases": ["Eva"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues living under Lysandra's protection and care in Terrasen.",
+          "role": "Protected ward",
+          "relationships": {
+            "Ward of": "Lysandra",
+            "Protected by": "Court of Terrasen"
+          }
+        }
+      }
+    },
+    "fleetfoot": {
+      "name": "Fleetfoot",
+      "aliases": ["Aelin's Dog"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Aelin's beloved dog who provides comfort and companionship.",
+          "role": "Loyal companion",
+          "relationships": {
+            "Companion of": "Aelin Galathynius",
+            "Beloved by": "Court members"
+          }
+        }
+      }
+    },
+    "darrow": {
+      "name": "Lord Darrow",
+      "aliases": ["Lord of Terrasen"],
+      "appearances": [5, 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Terrasen lord who challenges Aelin's authority and methods of rule.",
+          "role": "Opposition lord",
+          "relationships": {
+            "Opposes": "Aelin's methods",
+            "Lord of": "Terrasen territory"
+          }
+        }
+      }
+    },
+    "murtaugh": {
+      "name": "Murtaugh",
+      "aliases": ["Elder Rebel"],
+      "appearances": [5, 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Elder member of the resistance who supports Aelin's claim to the throne.",
+          "role": "Loyal elder",
+          "relationships": {
+            "Supports": "Queen Aelin",
+            "Elder of": "Terrasen resistance"
+          }
+        }
+      }
+    },
+    "ren-allsbrook": {
+      "name": "Ren Allsbrook",
+      "aliases": ["Young Lord"],
+      "appearances": [5, 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Young lord who serves Queen Aelin and helps organize Terrasen's defenses.",
+          "role": "Loyal young lord",
+          "relationships": {
+            "Serves": "Queen Aelin",
+            "Member of": "Terrasen nobility"
+          }
+        }
+      }
+    },
+    "valg-armies": {
+      "name": "Valg Armies",
+      "aliases": ["Dark Legions"],
+      "appearances": [30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Massive armies of possessed humans and demons under Erawan's command.",
+          "role": "Invasion force",
+          "relationships": {
+            "Commanded by": "Erawan",
+            "Threaten": "All kingdoms"
+          }
+        }
+      }
+    },
+    "ironteeth-clans": {
+      "name": "Ironteeth Clans",
+      "aliases": ["Witch Clans"],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The three witch clans dealing with the rebellion of the Thirteen and changing loyalties.",
+          "role": "Fractured witch alliance",
+          "relationships": {
+            "Challenged by": "Manon's rebellion",
+            "Divided in": "Loyalties"
+          }
+        }
+      }
+    },
+    "crochan-witches": {
+      "name": "Crochan Witches",
+      "aliases": ["Peaceful Witches"],
+      "appearances": [55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "Peaceful witch clan that Manon seeks to unite with against the coming darkness.",
+          "role": "Peaceful witch clan",
+          "relationships": {
+            "Sought by": "Manon Blackbeak",
+            "Peaceful rivals of": "Ironteeth Clans"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Begin to rally around Manon as their rightful queen and leader.",
+          "role": "Rallying witch clan",
+          "relationships": {
+            "Rally around": "Queen Manon",
+            "Prepare for": "War"
+          }
+        }
+      }
+    },
+    "ghislaine-blackbeak": {
+      "name": "Ghislaine Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Member of the Thirteen who follows Manon in breaking from clan authority.",
+          "role": "Loyal coven member",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Follows": "Manon's leadership"
+          }
+        }
+      }
+    },
+    "sorrel-blackbeak": {
+      "name": "Sorrel Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Third in command of the Thirteen, strategic and practical in the new independence.",
+          "role": "Strategic Third",
+          "relationships": {
+            "Third to": "Manon Blackbeak",
+            "Advisor in": "Strategic decisions"
+          }
+        }
+      }
+    },
+    "vesta-blackbeak": {
+      "name": "Vesta Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Fourth member of the Thirteen, maintaining her aggressive nature while following new leadership.",
+          "role": "Aggressive warrior",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Aggressive fighter for": "New cause"
+          }
+        }
+      }
+    },
+    "lin-blackbeak": {
+      "name": "Lin Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Fifth member of the Thirteen, quiet but deadly, adapting to independence.",
+          "role": "Silent warrior",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Silent support for": "Manon's decisions"
+          }
+        }
+      }
+    },
+    "briar-blackbeak": {
+      "name": "Briar Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Sixth member of the Thirteen, steady and reliable in the transition to independence.",
+          "role": "Steady warrior",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Reliable supporter of": "New direction"
+          }
+        }
+      }
+    },
+    "edda-blackbeak": {
+      "name": "Edda Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Seventh member of the Thirteen, skilled in aerial combat and loyal to the new path.",
+          "role": "Aerial combatant",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Skilled in": "Aerial warfare"
+          }
+        }
+      }
+    },
+    "thea-blackbeak": {
+      "name": "Thea Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Eighth member of the Thirteen, fierce in battle and loyal to Manon's vision.",
+          "role": "Fierce warrior",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Fierce fighter for": "Manon's cause"
+          }
+        }
+      }
+    },
+    "kaya-blackbeak": {
+      "name": "Kaya Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Ninth member of the Thirteen, known for speed and adaptability to new leadership.",
+          "role": "Swift warrior",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Known for": "Speed in combat"
+          }
+        }
+      }
+    },
+    "letha-blackbeak": {
+      "name": "Letha Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Tenth member of the Thirteen, tactical and observant in the new order.",
+          "role": "Tactical observer",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Provides": "Tactical insight"
+          }
+        }
+      }
+    },
+    "faline-blackbeak": {
+      "name": "Faline Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Eleventh member of the Thirteen, strong and dependable in the transition.",
+          "role": "Strong support",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Dependable support for": "New leadership"
+          }
+        }
+      }
+    },
+    "falkan-blackbeak": {
+      "name": "Falkan Blackbeak",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Twelfth member of the Thirteen, youngest but growing in the new independence.",
+          "role": "Growing warrior",
+          "relationships": {
+            "Member of": "The Thirteen",
+            "Youngest of": "Elite group"
+          }
+        }
+      }
+    },
+    "yellowlegs-forces": {
+      "name": "Yellowlegs Clan Forces",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Yellowlegs witch forces dealing with the changing witch politics.",
+          "role": "Clan military",
+          "relationships": {
+            "Serve": "Yellowlegs Matron",
+            "Oppose": "Manon's rebellion"
+          }
+        }
+      }
+    },
+    "blueblood-forces": {
+      "name": "Blueblood Clan Forces",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Blueblood witch forces navigating the split in witch loyalties.",
+          "role": "Clan military",
+          "relationships": {
+            "Serve": "Blueblood Matron",
+            "Divided on": "Manon's rebellion"
+          }
+        }
+      }
+    },
+    "various-wyverns": {
+      "name": "Various Wyverns",
+      "aliases": ["Flying Mounts"],
+      "appearances": [10, 11, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Wyverns bonded to various witch riders, following their riders' new loyalties.",
+          "role": "Bonded mounts",
+          "relationships": {
+            "Bonded to": "Witch riders",
+            "Follow": "Riders' loyalties"
+          }
+        }
+      }
+    },
+    "ancient-beings": {
+      "name": "Ancient Magical Beings",
+      "aliases": ["Old Powers"],
+      "appearances": [35, 36, 37, 38, 39, 40, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Ancient powers and beings that are awakening as the conflict escalates.",
+          "role": "Ancient powers",
+          "relationships": {
+            "Awakening due to": "Escalating conflict",
+            "Connected to": "Old magic"
+          }
+        }
+      }
+    },
+    "terrasen-army": {
+      "name": "Terrasen Army",
+      "aliases": ["Royal Forces"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Military forces of Terrasen being organized and trained for the coming war.",
+          "role": "National army",
+          "relationships": {
+            "Serves": "Queen Aelin",
+            "Commanded by": "Aedion Ashryver"
+          }
+        }
+      }
+    },
+    "allied-armies": {
+      "name": "Allied Armies",
+      "aliases": ["Coalition Forces"],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Combined military forces from various kingdoms joining the alliance.",
+          "role": "Coalition military",
+          "relationships": {
+            "Allied with": "Terrasen",
+            "Fighting against": "Erawan's forces"
+          }
+        }
+      }
+    },
+    "refugees": {
+      "name": "War Refugees",
+      "aliases": ["Displaced People"],
+      "appearances": [30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "People displaced by Erawan's advancing forces, seeking safety.",
+          "role": "War victims",
+          "relationships": {
+            "Fleeing from": "Valg armies",
+            "Seeking protection from": "Allied forces"
+          }
+        }
+      }
+    },
+    "spies-scouts": {
+      "name": "Spies and Scouts",
+      "aliases": ["Intelligence Network"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Network of spies and scouts gathering intelligence for the alliance.",
+          "role": "Intelligence operatives",
+          "relationships": {
+            "Report to": "Alliance commanders",
+            "Gather intelligence on": "Enemy movements"
+          }
+        }
+      }
+    },
+    "healers": {
+      "name": "Healers and Medics",
+      "aliases": ["Medical Corps"],
+      "appearances": [25, 26, 27, 28, 29, 30, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Medical personnel treating the wounded from various skirmishes and battles.",
+          "role": "Medical support",
+          "relationships": {
+            "Treat": "Wounded warriors",
+            "Support": "Allied forces"
+          }
+        }
+      }
+    },
+    "merchants": {
+      "name": "Merchants and Suppliers",
+      "aliases": ["Supply Network"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Merchants and suppliers providing resources and equipment for the war effort.",
+          "role": "Supply chain",
+          "relationships": {
+            "Supply": "Allied forces",
+            "Trade with": "Various kingdoms"
+          }
+        }
+      }
+    },
+    "messengers": {
+      "name": "Messengers and Riders",
+      "aliases": ["Communication Network"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 75, 76, 77, 78, 79, 80, 81, 82, 83],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Fast riders and messengers maintaining communication between allied forces.",
+          "role": "Communication network",
+          "relationships": {
+            "Connect": "Allied commanders",
+            "Carry": "Military intelligence"
+          }
+        }
+      }
+    },
+    "naval-commanders": {
+      "name": "Naval Commanders",
+      "aliases": ["Sea Captains"],
+      "appearances": [35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Experienced naval officers commanding ships in the allied fleet.",
+          "role": "Naval leadership",
+          "relationships": {
+            "Command": "Allied ships",
+            "Coordinate with": "Rolfe"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Aelin rules Terrasen while preparing for war against Erawan, dealing with political challenges and building her kingdom's defenses.",
+    "2": "The queen works to strengthen alliances and gather resources for the coming conflict with the dark forces.",
+    "3": "Tensions rise as reports of Erawan's growing power reach Terrasen, forcing difficult strategic decisions.",
+    "4": "Aelin balances her duties as queen with the need to prepare for a war that threatens all kingdoms.",
+    "5": "Lord Darrow challenges Aelin's authority while Dorian struggles with his raw magic in Adarlan.",
+    "6": "Political maneuvering continues as various factions position themselves for the coming war.",
+    "7": "The burden of leadership weighs heavily on Aelin as she makes hard choices for her people.",
+    "8": "Lysandra proves invaluable in intelligence gathering using her shape-shifting abilities.",
+    "9": "Aedion works to organize Terrasen's military forces while supporting his cousin's rule.",
+    "10": "Manon leads the Thirteen in breaking away from the Ironteeth Clans, seeking their own path.",
+    "11": "The witch rebellion creates chaos among the aerial forces as loyalties shift.",
+    "12": "Abraxos remains loyal to Manon as the Thirteen forge their independence from clan authority.",
+    "13": "The Thirteen face the consequences of their rebellion while seeking allies in their cause.",
+    "14": "Manon struggles with leadership decisions as her coven adapts to their new independence.",
+    "15": "Elide travels with Lorcan, carrying vital intelligence from Morath while developing complex feelings for the Fae warrior.",
+    "16": "The journey proves dangerous as they evade pursuit while navigating their growing attraction.",
+    "17": "Lorcan's loyalty to Maeve conflicts with his growing protectiveness toward Elide.",
+    "18": "Their travels reveal more about Erawan's plans and the scope of the threat to all kingdoms.",
+    "19": "Trust develops between Elide and Lorcan despite their different backgrounds and allegiances.",
+    "20": "Gavriel and other Fae warriors are sent by Maeve to find Aelin, but begin questioning their orders.",
+    "21": "The Fae warriors struggle with divided loyalties as they pursue their mission.",
+    "22": "Fenrys shows sympathy for Aelin while remaining bound by his blood oath to Maeve.",
+    "23": "The warriors' internal conflicts intensify as they learn more about the situation.",
+    "24": "Connall remains more loyal to Maeve than his twin Fenrys, creating tension.",
+    "25": "Maeve reveals her true agenda regarding Aelin and the power she possesses, escalating the political intrigue.",
+    "26": "The Fae Queen's schemes become clearer as her warriors face moral dilemmas.",
+    "27": "Political maneuvering reaches new heights as multiple parties pursue their interests.",
+    "28": "Alliances shift and change as new information comes to light about various agendas.",
+    "29": "The complexity of the political situation grows as more players reveal their true intentions.",
+    "30": "Erawan's armies continue to grow and spread, threatening all the free kingdoms with invasion.",
+    "31": "Reports of atrocities and conquests spread fear throughout the remaining free territories.",
+    "32": "The dark forces demonstrate their power through devastating attacks on strategic locations.",
+    "33": "Resistance efforts struggle against the overwhelming might of the Valg armies.",
+    "34": "Hope dims as the enemy's advance seems unstoppable and their power grows.",
+    "35": "Aelin seeks alliance with the pirate lord Rolfe, demonstrating her power to secure naval support.",
+    "36": "Negotiations with the pirates prove challenging as trust must be built between unlikely allies.",
+    "37": "The naval component of the alliance takes shape as agreements are reached.",
+    "38": "Sea dragons and other dangers complicate the naval preparations for war.",
+    "39": "The pirate alliance brings new capabilities but also new complications to the coalition.",
+    "40": "Ansel of Briarcliff joins the alliance, bringing her desert forces to the growing coalition. Elide and Lorcan's relationship deepens.",
+    "41": "The alliance expands as more kingdoms and forces commit to fighting the darkness.",
+    "42": "Military preparations intensify as the coalition grows stronger and more organized.",
+    "43": "Strategic planning becomes more complex as diverse forces learn to work together.",
+    "44": "The unified command structure develops as leaders from different cultures coordinate efforts.",
+    "45": "Gavriel reveals himself as Aedion's father, creating personal drama within the larger conflict.",
+    "46": "Family revelations complicate relationships while the war preparations continue.",
+    "47": "Personal bonds strengthen even as the pressure of leadership and war intensifies.",
+    "48": "The emotional costs of the conflict become apparent as personal relationships evolve.",
+    "49": "Trust and loyalty are tested as new alliances form and old ones are questioned.",
+    "50": "The alliance prepares for major battles while dealing with internal tensions and external threats.",
+    "51": "Military preparations reach a crucial phase as forces position for decisive engagements.",
+    "52": "The coalition's strength is tested in preliminary skirmishes and tactical maneuvers.",
+    "53": "Coordination between diverse forces improves as experience in working together grows.",
+    "54": "Intelligence gathering reveals enemy movements and plans, informing strategic decisions.",
+    "55": "Manon begins her quest to unite the witch clans, seeking to rally the Crochan witches to her cause.",
+    "56": "The witch politics prove complex as old grudges and ancient feuds complicate unification efforts.",
+    "57": "Manon's heritage as the rightful Crochan Queen becomes central to her mission.",
+    "58": "Resistance to change among the witch clans creates obstacles to unity.",
+    "59": "Ancient traditions and modern necessities conflict as the witches face a changing world.",
+    "60": "Progress is made in uniting the witches as the threat from Erawan becomes undeniable.",
+    "61": "The witch alliance takes shape as common enemies override traditional rivalries.",
+    "62": "Aerial forces organize under new leadership structures as alliances solidify.",
+    "63": "The combined witch forces represent a significant addition to the coalition's power.",
+    "64": "Training and coordination improve as the witches adapt to working with other forces.",
+    "65": "Crochan witches begin rallying around Queen Manon as their rightful leader and savior.",
+    "66": "The peaceful witch clan's transformation into a military force proceeds rapidly.",
+    "67": "Ancient magics and modern warfare combine as the witches prepare for battle.",
+    "68": "Unity among the witch clans strengthens the overall alliance against darkness.",
+    "69": "The aerial component of the coalition becomes a formidable force under unified command.",
+    "70": "All forces begin converging toward the anticipated locations of major battles.",
+    "71": "Final preparations intensify as the time for decisive action approaches.",
+    "72": "The coalition's various components coordinate for what may be the final campaign.",
+    "73": "Morale and determination remain high despite the magnitude of the challenges ahead.",
+    "74": "Leadership at all levels prepares for the ultimate test of their alliance and resolve.",
+    "75": "Maeve betrays the alliance and captures Aelin through treachery, separating her from Rowan and her court in a devastating blow.",
+    "76": "The loss of their queen sends shockwaves through the alliance as leaders struggle to maintain unity.",
+    "77": "Rowan's devastation at Aelin's capture threatens to destabilize the coalition's leadership.",
+    "78": "Emergency plans are activated as the alliance must continue without its central figure.",
+    "79": "Aedion takes greater command responsibility as the coalition faces its darkest hour.",
+    "80": "The alliance regroups and commits to rescuing their captured queen while continuing the war effort.",
+    "81": "Determination to rescue Aelin unifies the coalition as they prepare for desperate measures.",
+    "82": "Plans for rescue and continued resistance are developed as hope struggles against despair.",
+    "83": "The book concludes with the alliance shattered by Aelin's capture but determined to continue the fight and rescue their queen."
+  }
+}

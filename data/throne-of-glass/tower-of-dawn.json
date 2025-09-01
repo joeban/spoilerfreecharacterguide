@@ -1,0 +1,905 @@
+{
+  "meta": {
+    "title": "Tower of Dawn",
+    "author": "Sarah J. Maas",
+    "chapters": 68,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "chaol-westfall": {
+      "name": "Chaol Westfall",
+      "aliases": ["Lord of Anielle", "Former Captain"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Arrives in the Southern Continent paralyzed from his injuries, seeking healing from the Torre Cesme.",
+          "role": "Injured lord seeking healing",
+          "relationships": {
+            "Traveling with": "Nesryn Faliq",
+            "Seeking help from": "Torre healers"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Begins his healing journey with Yrene Towers, facing both physical and emotional recovery.",
+          "role": "Healing patient",
+          "relationships": {
+            "Treated by": "Yrene Towers",
+            "Supported by": "Nesryn Faliq"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Makes significant progress in healing while developing feelings for Yrene.",
+          "role": "Recovering lord",
+          "relationships": {
+            "In love with": "Yrene Towers",
+            "Healed by": "Magic and determination"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Fully recovers his ability to walk and commits to Yrene and the fight against darkness.",
+          "role": "Healed lord and ally",
+          "relationships": {
+            "Committed to": "Yrene Towers",
+            "Allied with": "Southern Continent forces"
+          }
+        }
+      }
+    },
+    "nesryn-faliq": {
+      "name": "Nesryn Faliq",
+      "aliases": ["Captain Faliq"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Accompanies Chaol to the Southern Continent, exploring her family heritage while serving as his guard.",
+          "role": "Guard and cultural explorer",
+          "relationships": {
+            "Protects": "Chaol Westfall",
+            "Exploring heritage with": "Southern family"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Connects with Sartaq and the rukhin riders, finding her place among her extended family.",
+          "role": "Rukhin rider in training",
+          "relationships": {
+            "Training with": "Sartaq",
+            "Connected to": "Faliq family"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Develops romantic feelings for Sartaq while becoming skilled at rukhin riding.",
+          "role": "Skilled rider and romantic partner",
+          "relationships": {
+            "In love with": "Sartaq",
+            "Rider of": "Rukhin"
+          }
+        }
+      }
+    },
+    "yrene-towers": {
+      "name": "Yrene Towers",
+      "aliases": ["Healer", "Tower-trained"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Powerful healer from the Torre Cesme assigned to treat Chaol's paralysis.",
+          "role": "Master healer",
+          "relationships": {
+            "Treating": "Chaol Westfall",
+            "Student at": "Torre Cesme"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Reveals her tragic past and connection to Celaena Sardothien from years ago.",
+          "role": "Healer with hidden past",
+          "relationships": {
+            "Previously helped by": "Celaena Sardothien",
+            "Healing": "Chaol's injuries"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Falls in love with Chaol while helping him confront his emotional trauma.",
+          "role": "Healer and love interest",
+          "relationships": {
+            "In love with": "Chaol Westfall",
+            "Healing": "Body and soul"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Discovers her immense power and destiny in fighting the Valg threat.",
+          "role": "Powerful healer-warrior",
+          "relationships": {
+            "Destined to fight": "Valg forces",
+            "Bonded with": "Chaol Westfall"
+          }
+        }
+      }
+    },
+    "sartaq": {
+      "name": "Prince Sartaq",
+      "aliases": ["Rukhin Prince", "Prince of the Southern Continent"],
+      "appearances": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Prince of the Khagan and commander of the rukhin riders who trains Nesryn.",
+          "role": "Prince and rukhin commander",
+          "relationships": {
+            "Son of": "Khagan",
+            "Trains": "Nesryn Faliq"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Develops romantic feelings for Nesryn while teaching her rukhin riding skills.",
+          "role": "Prince and romantic interest",
+          "relationships": {
+            "In love with": "Nesryn Faliq",
+            "Commander of": "Rukhin forces"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Commits to the alliance against Erawan and to his relationship with Nesryn.",
+          "role": "Allied prince",
+          "relationships": {
+            "Allied with": "Northern forces",
+            "Partner of": "Nesryn Faliq"
+          }
+        }
+      }
+    },
+    "hasar": {
+      "name": "Princess Hasar",
+      "aliases": ["Princess of the Southern Continent"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Sharp-tongued princess of the Khagan who initially distrusts the northern visitors.",
+          "role": "Suspicious princess",
+          "relationships": {
+            "Daughter of": "Khagan",
+            "Sister of": "Sartaq"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Gradually warms to Chaol and Nesryn while remaining politically astute.",
+          "role": "Politically savvy princess",
+          "relationships": {
+            "Ally of": "Chaol and Nesryn",
+            "Member of": "Royal family"
+          }
+        }
+      }
+    },
+    "kashin": {
+      "name": "Prince Kashin",
+      "aliases": ["Prince of the Southern Continent"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Prince of the Khagan who shows interest in the northern visitors and their mission.",
+          "role": "Curious prince",
+          "relationships": {
+            "Son of": "Khagan",
+            "Brother of": "Sartaq and Hasar"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Becomes an advocate for joining the alliance against the northern threat.",
+          "role": "Alliance supporter",
+          "relationships": {
+            "Supports": "Northern alliance",
+            "Member of": "Royal family"
+          }
+        }
+      }
+    },
+    "the-khagan": {
+      "name": "The Khagan",
+      "aliases": ["Emperor of the Southern Continent"],
+      "appearances": [20, 21, 22, 23, 24, 25, 30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 50, 51, 52, 53, 54, 55, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Powerful ruler of the Southern Continent who must decide whether to aid the northern kingdoms.",
+          "role": "Southern Emperor",
+          "relationships": {
+            "Father of": "Royal princes and princesses",
+            "Rules": "Southern Continent"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Weighs the costs and benefits of joining the war against Erawan.",
+          "role": "Strategic ruler",
+          "relationships": {
+            "Considering alliance with": "Northern kingdoms",
+            "Commander of": "Vast armies"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Commits to sending aid to the northern kingdoms in their fight against darkness.",
+          "role": "Allied emperor",
+          "relationships": {
+            "Allied with": "Northern coalition",
+            "Sending": "Military aid"
+          }
+        }
+      }
+    },
+    "kadja": {
+      "name": "Kadja",
+      "aliases": ["Royal Guard"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Elite guard assigned to protect Princess Hasar and monitor the northern visitors.",
+          "role": "Royal bodyguard",
+          "relationships": {
+            "Protects": "Princess Hasar",
+            "Serves": "Royal family"
+          }
+        }
+      }
+    },
+    "hafiza": {
+      "name": "Hafiza",
+      "aliases": ["Healer Hafiza"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Senior healer at the Torre Cesme who oversees Yrene's training and Chaol's treatment.",
+          "role": "Senior healer",
+          "relationships": {
+            "Mentor of": "Yrene Towers",
+            "Oversees": "Healing treatments"
+          }
+        }
+      }
+    },
+    "eretia": {
+      "name": "Eretia",
+      "aliases": ["Healer Eretia"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Experienced healer at the Torre Cesme who assists with difficult cases.",
+          "role": "Experienced healer",
+          "relationships": {
+            "Works with": "Other healers",
+            "Member of": "Torre Cesme"
+          }
+        }
+      }
+    },
+    "nousha": {
+      "name": "Nousha",
+      "aliases": ["Healer Nousha"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Healer at the Torre Cesme who specializes in difficult magical injuries.",
+          "role": "Specialist healer",
+          "relationships": {
+            "Specializes in": "Magical injuries",
+            "Member of": "Torre Cesme"
+          }
+        }
+      }
+    },
+    "torre-cesme-healers": {
+      "name": "Torre Cesme Healers",
+      "aliases": ["Tower Healers"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Renowned healers from around the world who train and practice at the great tower.",
+          "role": "Master healers",
+          "relationships": {
+            "Train at": "Torre Cesme",
+            "Heal": "Patients from all lands"
+          }
+        }
+      }
+    },
+    "rukhin-riders": {
+      "name": "Rukhin Riders",
+      "aliases": ["Sky Riders"],
+      "appearances": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Elite aerial cavalry who ride giant raptors, commanded by Prince Sartaq.",
+          "role": "Aerial cavalry",
+          "relationships": {
+            "Commanded by": "Prince Sartaq",
+            "Ride": "Giant raptors"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Accept Nesryn as one of their own as she masters rukhin riding.",
+          "role": "Elite flying unit",
+          "relationships": {
+            "Accept": "Nesryn Faliq",
+            "Serve": "Southern Continent"
+          }
+        }
+      }
+    },
+    "rukhin": {
+      "name": "Rukhin (Giant Raptors)",
+      "aliases": ["Giant Birds", "Flying Mounts"],
+      "appearances": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Massive intelligent raptors that serve as flying mounts for the elite riders.",
+          "role": "Flying mounts",
+          "relationships": {
+            "Bonded to": "Rukhin riders",
+            "Intelligent": "Aerial companions"
+          }
+        }
+      }
+    },
+    "faliq-family": {
+      "name": "Faliq Family",
+      "aliases": ["Nesryn's Extended Family"],
+      "appearances": [5, 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Nesryn's relatives in the Southern Continent who welcome her return to her ancestral homeland.",
+          "role": "Extended family",
+          "relationships": {
+            "Family of": "Nesryn Faliq",
+            "Live in": "Southern Continent"
+          }
+        }
+      }
+    },
+    "royal-guards": {
+      "name": "Royal Guards",
+      "aliases": ["Palace Security"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Elite guards who protect the royal family and palace in the Southern Continent.",
+          "role": "Royal protection",
+          "relationships": {
+            "Protect": "Royal family",
+            "Guard": "Palace"
+          }
+        }
+      }
+    },
+    "southern-armies": {
+      "name": "Southern Continent Armies",
+      "aliases": ["Imperial Forces"],
+      "appearances": [25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Vast military forces of the Southern Continent under the Khagan's command.",
+          "role": "Imperial military",
+          "relationships": {
+            "Commanded by": "The Khagan",
+            "Defend": "Southern Continent"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Prepared to march north to aid in the war against Erawan.",
+          "role": "Allied reinforcements",
+          "relationships": {
+            "Marching to aid": "Northern kingdoms",
+            "Fighting against": "Erawan's forces"
+          }
+        }
+      }
+    },
+    "courtiers": {
+      "name": "Southern Court",
+      "aliases": ["Palace Nobles"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Nobles and courtiers of the Southern Continent palace who navigate complex politics.",
+          "role": "Court nobles",
+          "relationships": {
+            "Serve": "Royal family",
+            "Navigate": "Palace politics"
+          }
+        }
+      }
+    },
+    "spiders-valg": {
+      "name": "Valg-infected Spiders",
+      "aliases": ["Dark Creatures"],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Monstrous spiders infected by Valg influence that threaten the Southern Continent.",
+          "role": "Valg-corrupted creatures",
+          "relationships": {
+            "Infected by": "Valg influence",
+            "Threaten": "Southern lands"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Revealed as a significant threat that must be destroyed to protect the continent.",
+          "role": "Major threat",
+          "relationships": {
+            "Spreading": "Valg corruption",
+            "Target of": "Healing mission"
+          }
+        }
+      }
+    },
+    "librarians": {
+      "name": "Torre Cesme Librarians",
+      "aliases": ["Knowledge Keepers"],
+      "appearances": [25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Scholars who maintain the vast libraries of healing knowledge at the Torre.",
+          "role": "Knowledge keepers",
+          "relationships": {
+            "Maintain": "Healing libraries",
+            "Serve": "Torre Cesme"
+          }
+        }
+      }
+    },
+    "servants": {
+      "name": "Palace Servants",
+      "aliases": ["Palace Staff"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Staff members who maintain the palace and serve the royal family.",
+          "role": "Palace staff",
+          "relationships": {
+            "Serve": "Royal family",
+            "Maintain": "Palace operations"
+          }
+        }
+      }
+    },
+    "merchants": {
+      "name": "Southern Merchants",
+      "aliases": ["Traders"],
+      "appearances": [5, 6, 7, 8, 9, 10, 15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Traders and merchants who facilitate commerce in the Southern Continent.",
+          "role": "Commercial traders",
+          "relationships": {
+            "Trade in": "Southern markets",
+            "Connect": "Different regions"
+          }
+        }
+      }
+    },
+    "ship-captains": {
+      "name": "Ship Captains",
+      "aliases": ["Sea Captains"],
+      "appearances": [1, 2, 3, 4, 5, 65, 66, 67, 68],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captains of vessels that transport people and goods between continents.",
+          "role": "Maritime transport",
+          "relationships": {
+            "Transport": "Passengers and cargo",
+            "Navigate": "Between continents"
+          }
+        }
+      }
+    },
+    "sailors": {
+      "name": "Ship Crews",
+      "aliases": ["Sailors"],
+      "appearances": [1, 2, 3, 4, 5, 65, 66, 67, 68],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Sailors who crew the ships traveling between the northern and southern continents.",
+          "role": "Ship crew",
+          "relationships": {
+            "Crew": "Various ships",
+            "Work": "Maritime routes"
+          }
+        }
+      }
+    },
+    "healers-in-training": {
+      "name": "Healer Students",
+      "aliases": ["Apprentice Healers"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Students learning the healing arts at the Torre Cesme.",
+          "role": "Healer apprentices",
+          "relationships": {
+            "Study at": "Torre Cesme",
+            "Learn from": "Master healers"
+          }
+        }
+      }
+    },
+    "ancient-healers": {
+      "name": "Ancient Healers",
+      "aliases": ["Legendary Healers"],
+      "appearances": [30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45, 50, 51, 52, 53, 54, 55, 60, 61, 62, 63, 64, 65],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Legendary healers from the past whose knowledge and techniques are studied.",
+          "role": "Historical figures",
+          "relationships": {
+            "Founders of": "Healing traditions",
+            "Studied by": "Current healers"
+          }
+        }
+      }
+    },
+    "valg-creatures": {
+      "name": "Other Valg Creatures",
+      "aliases": ["Dark Spawn"],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Various creatures corrupted by Valg influence that threaten the Southern Continent.",
+          "role": "Corrupted creatures",
+          "relationships": {
+            "Corrupted by": "Valg power",
+            "Threaten": "All life"
+          }
+        }
+      }
+    },
+    "local-rulers": {
+      "name": "Local Governors",
+      "aliases": ["Provincial Leaders"],
+      "appearances": [25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Regional leaders who govern various provinces of the Southern Continent.",
+          "role": "Regional governors",
+          "relationships": {
+            "Govern": "Provinces",
+            "Report to": "The Khagan"
+          }
+        }
+      }
+    },
+    "military-commanders": {
+      "name": "Military Commanders",
+      "aliases": ["Army Leaders"],
+      "appearances": [25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Military leaders who command various divisions of the Southern armies.",
+          "role": "Military leadership",
+          "relationships": {
+            "Command": "Army divisions",
+            "Serve": "The Khagan"
+          }
+        }
+      }
+    },
+    "scouts": {
+      "name": "Scouts and Rangers",
+      "aliases": ["Intelligence Gatherers"],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Scouts who gather intelligence about the Valg threat and other dangers.",
+          "role": "Intelligence operatives",
+          "relationships": {
+            "Report to": "Military commanders",
+            "Scout": "Valg threats"
+          }
+        }
+      }
+    },
+    "fortress-guards": {
+      "name": "Fortress Guards",
+      "aliases": ["Border Defense"],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Guards stationed at fortresses and border posts throughout the continent.",
+          "role": "Border defenders",
+          "relationships": {
+            "Guard": "Fortresses and borders",
+            "Protect": "Southern territories"
+          }
+        }
+      }
+    },
+    "refugees": {
+      "name": "Refugees",
+      "aliases": ["Displaced People"],
+      "appearances": [45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "People fleeing from areas threatened by Valg corruption and creatures.",
+          "role": "War refugees",
+          "relationships": {
+            "Fleeing from": "Valg threats",
+            "Seeking safety in": "Protected areas"
+          }
+        }
+      }
+    },
+    "chroniclers": {
+      "name": "Chroniclers",
+      "aliases": ["Historians"],
+      "appearances": [25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Historians who record events and maintain historical records.",
+          "role": "Historical recorders",
+          "relationships": {
+            "Record": "Historical events",
+            "Maintain": "Archives"
+          }
+        }
+      }
+    },
+    "messengers": {
+      "name": "Messengers",
+      "aliases": ["Couriers"],
+      "appearances": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fast riders and messengers who carry communications across the vast continent.",
+          "role": "Communication network",
+          "relationships": {
+            "Carry": "Messages and orders",
+            "Connect": "Distant locations"
+          }
+        }
+      }
+    },
+    "diplomats": {
+      "name": "Diplomats",
+      "aliases": ["Ambassadors"],
+      "appearances": [35, 36, 37, 38, 39, 40, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Diplomatic officials who negotiate with other kingdoms and handle foreign relations.",
+          "role": "Diplomatic corps",
+          "relationships": {
+            "Negotiate with": "Foreign powers",
+            "Serve": "The Khagan"
+          }
+        }
+      }
+    },
+    "artisans": {
+      "name": "Artisans and Craftsmen",
+      "aliases": ["Skilled Workers"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Skilled craftsmen who create weapons, tools, and artwork for the empire.",
+          "role": "Skilled artisans",
+          "relationships": {
+            "Create": "Weapons and tools",
+            "Serve": "Empire needs"
+          }
+        }
+      }
+    },
+    "stable-masters": {
+      "name": "Stable Masters",
+      "aliases": ["Animal Handlers"],
+      "appearances": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Experts who care for the rukhin and other mounts used by the military.",
+          "role": "Animal care specialists",
+          "relationships": {
+            "Care for": "Rukhin and mounts",
+            "Support": "Cavalry forces"
+          }
+        }
+      }
+    },
+    "cooks-staff": {
+      "name": "Kitchen Staff",
+      "aliases": ["Cooks and Servants"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Kitchen staff who prepare meals for the palace and important guests.",
+          "role": "Food preparation",
+          "relationships": {
+            "Prepare food for": "Palace residents",
+            "Serve": "Royal household"
+          }
+        }
+      }
+    },
+    "children": {
+      "name": "Children",
+      "aliases": ["Young People"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Children living in the palace and surrounding areas who represent the future.",
+          "role": "Next generation",
+          "relationships": {
+            "Children of": "Various families",
+            "Future of": "The empire"
+          }
+        }
+      }
+    },
+    "elderly": {
+      "name": "Elder Citizens",
+      "aliases": ["Elders"],
+      "appearances": [15, 16, 17, 18, 19, 20, 25, 26, 27, 28, 29, 30, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Elder citizens who provide wisdom and historical perspective.",
+          "role": "Wisdom keepers",
+          "relationships": {
+            "Provide": "Historical wisdom",
+            "Respected by": "Younger generations"
+          }
+        }
+      }
+    },
+    "farmers": {
+      "name": "Farmers and Agricultural Workers",
+      "aliases": ["Food Producers"],
+      "appearances": [25, 26, 27, 28, 29, 30, 45, 46, 47, 48, 49, 50, 55, 56, 57, 58, 59, 60, 65, 66, 67, 68],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Farmers who grow food and maintain the agricultural base of the empire.",
+          "role": "Food production",
+          "relationships": {
+            "Grow food for": "Empire",
+            "Support": "Population"
+          }
+        }
+      }
+    },
+    "miners": {
+      "name": "Miners and Extraction Workers",
+      "aliases": ["Resource Extractors"],
+      "appearances": [25, 26, 27, 28, 29, 30, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Workers who extract minerals and resources needed for the empire's economy.",
+          "role": "Resource extraction",
+          "relationships": {
+            "Extract": "Minerals and resources",
+            "Supply": "Empire needs"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Chaol and Nesryn arrive in the Southern Continent, with Chaol seeking healing for his paralysis at the renowned Torre Cesme.",
+    "2": "They are welcomed but watched carefully as foreign visitors with a diplomatic mission.",
+    "3": "Chaol struggles with his condition while Nesryn begins exploring her family heritage in the new land.",
+    "4": "Initial meetings with the royal family reveal the complex politics of the Southern Continent.",
+    "5": "Nesryn connects with her extended family while Chaol awaits assignment of a healer.",
+    "6": "The cultural differences and language barriers create challenges for the northern visitors.",
+    "7": "Nesryn begins to feel more at home while Chaol remains frustrated by his physical limitations.",
+    "8": "Political tensions simmer as the visitors' true purpose becomes clearer to the court.",
+    "9": "Chaol's impatience grows while Nesryn finds her place among her ancestral people.",
+    "10": "Yrene Towers is assigned as Chaol's healer, beginning a complex therapeutic relationship.",
+    "11": "The initial sessions between Chaol and Yrene are tense and difficult.",
+    "12": "Yrene's methods prove unconventional as she addresses both physical and emotional trauma.",
+    "13": "Chaol resists the healing process while Yrene persists with her treatment.",
+    "14": "Progress is slow as both healer and patient struggle with their own issues.",
+    "15": "Princess Hasar and other royal family members become more involved with the visitors.",
+    "16": "Court politics complicate the visitors' mission as various factions weigh their options.",
+    "17": "Chaol begins to make small progress in his healing while building trust with Yrene.",
+    "18": "The therapeutic relationship deepens as both share their painful histories.",
+    "19": "Emotional breakthroughs accompany physical progress in Chaol's recovery.",
+    "20": "Prince Sartaq introduces Nesryn to the rukhin riders and their magnificent flying mounts.",
+    "21": "Nesryn begins training as a rukhin rider, finding new purpose and excitement.",
+    "22": "The bond between rider and rukhin proves to be profound and transformative.",
+    "23": "Nesryn's skills develop rapidly as she embraces her new identity as a sky rider.",
+    "24": "The rukhin riders accept her as one of their own despite her foreign origins.",
+    "25": "Yrene reveals her connection to Celaena Sardothien from years past, deepening her investment in Chaol's case.",
+    "26": "The revelation adds new dimensions to the healing relationship.",
+    "27": "Chaol learns more about Yrene's tragic history and her motivations for healing.",
+    "28": "Their professional relationship begins to shift toward something more personal.",
+    "29": "Trust and understanding grow between the unlikely pair.",
+    "30": "Ancient knowledge from the Torre's libraries provides new insights into healing and the larger conflict.",
+    "31": "Research reveals connections between the northern war and southern threats.",
+    "32": "The scope of the Valg menace becomes clearer through historical records.",
+    "33": "Plans begin forming for how the south might aid the northern kingdoms.",
+    "34": "Strategic discussions intensify as the true scope of the threat is understood.",
+    "35": "Romantic feelings develop between Nesryn and Sartaq as their partnership deepens.",
+    "36": "Their growing attraction complicates but also strengthens their bond.",
+    "37": "Cultural differences must be navigated as their relationship develops.",
+    "38": "Both find strength and purpose in their partnership.",
+    "39": "Their romance adds personal stakes to the larger political alliance.",
+    "40": "Valg-corrupted creatures are discovered threatening the Southern Continent, proving the danger is global.",
+    "41": "The threat proves more immediate and dangerous than initially believed.",
+    "42": "Military responses are organized to deal with the corrupted creatures.",
+    "43": "The battle against the Valg corruption intensifies throughout the continent.",
+    "44": "Heroes emerge in the fight against the spreading darkness.",
+    "45": "Chaol makes significant progress in his healing while falling in love with Yrene.",
+    "46": "Their romance deepens as healing progresses on multiple levels.",
+    "47": "Personal and professional bonds strengthen between healer and patient.",
+    "48": "Love proves to be a powerful healing force for both individuals.",
+    "49": "Their relationship becomes central to both their recoveries and growth.",
+    "50": "Nesryn and Sartaq's relationship solidifies as they commit to each other and the cause.",
+    "51": "Political alliances strengthen through personal bonds between the pairs.",
+    "52": "The romantic relationships support the larger diplomatic mission.",
+    "53": "Love and duty align as personal and political goals converge.",
+    "54": "The couples find strength in their partnerships for the challenges ahead.",
+    "55": "The Valg spider threat becomes critical, requiring immediate action from the healers.",
+    "56": "Yrene's power proves crucial in the fight against the corrupted creatures.",
+    "57": "The battle against Valg corruption intensifies across multiple fronts.",
+    "58": "Healing magic proves effective against the dark influences.",
+    "59": "Victory against the immediate threat builds confidence for larger battles.",
+    "60": "Yrene discovers the true extent of her power and her destiny in fighting the Valg.",
+    "61": "Her abilities prove to be uniquely suited to combating dark magic.",
+    "62": "The healing power represents hope against the spreading corruption.",
+    "63": "Ancient prophecies and powers align in the fight against darkness.",
+    "64": "The southern continent's role in the larger war becomes clear.",
+    "65": "The Khagan commits to sending aid north, while Chaol fully recovers his ability to walk.",
+    "66": "Military preparations begin for the southern forces to march north.",
+    "67": "Alliances are solidified as forces prepare for the final confrontation.",
+    "68": "The book concludes with new alliances formed, love found, healing achieved, and powerful forces ready to join the war against darkness."
+  }
+}
