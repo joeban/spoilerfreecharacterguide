@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import { Book } from '@/lib/types';
+import { BookMeta } from '@/lib/types';
 import BookSpine from './BookSpine';
 
 interface SeriesBookshelfProps {
-  books: Array<{ slug: string; book: Book }>;
+  books: Array<{ slug: string; book: BookMeta }>;
   seriesSlug: string;
 }
 

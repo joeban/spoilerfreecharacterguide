@@ -10,18 +10,19 @@ import { notFound } from 'next/navigation';
 export default async function ChapterPage({
   params
 }: {
-  params: { series: string; book: string; chapter: string }
+  params: Promise<{ series: string; book: string; chapter: string }>
 }) {
-  const chapterNum = parseInt(params.chapter);
+  const resolvedParams = await params;
+  const chapterNum = parseInt(resolvedParams.chapter);
   
   // Validate chapter number
   if (isNaN(chapterNum) || chapterNum < 1) {
     notFound();
   }
   
-  const series = await getSeries(params.series);
-  const bookMeta = await getBookMeta(params.series, params.book);
-  const bookData = await loadBookData(params.series, params.book);
+  const series = await getSeries(resolvedParams.series);
+  const bookMeta = await getBookMeta(resolvedParams.series, resolvedParams.book);
+  const bookData = await loadBookData(resolvedParams.series, resolvedParams.book);
   
   if (!series || !bookMeta || !bookData || chapterNum > bookMeta.chapters) {
     notFound();
@@ -46,8 +47,8 @@ export default async function ChapterPage({
   
   const breadcrumbItems = [
     { label: 'Home', href: '/' },
-    { label: series.title, href: `/${params.series}` },
-    { label: bookMeta.title, href: `/${params.series}/${params.book}` },
+    { label: series.title, href: `/${resolvedParams.series}` },
+    { label: bookMeta.title, href: `/${resolvedParams.series}/${resolvedParams.book}` },
     { label: `Chapter ${chapterNum}`, current: true }
   ];
 
@@ -67,8 +68,8 @@ export default async function ChapterPage({
           <ChapterSelector
             totalChapters={bookMeta.chapters}
             currentChapter={chapterNum}
-            seriesSlug={params.series}
-            bookSlug={params.book}
+            seriesSlug={resolvedParams.series}
+            bookSlug={resolvedParams.book}
           />
         </div>
         
@@ -142,8 +143,8 @@ export default async function ChapterPage({
           <ChapterSelector
             totalChapters={bookMeta.chapters}
             currentChapter={chapterNum}
-            seriesSlug={params.series}
-            bookSlug={params.book}
+            seriesSlug={resolvedParams.series}
+            bookSlug={resolvedParams.book}
           />
         </div>
       </div>

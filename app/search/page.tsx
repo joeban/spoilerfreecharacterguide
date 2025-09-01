@@ -93,9 +93,10 @@ async function searchContent(query: string): Promise<SearchResult[]> {
 export default async function SearchPage({
   searchParams
 }: {
-  searchParams: { q?: string }
+  searchParams: Promise<{ q?: string }>
 }) {
-  const query = searchParams.q || '';
+  const resolvedSearchParams = await searchParams;
+  const query = resolvedSearchParams.q || '';
   
   if (!query.trim()) {
     return (

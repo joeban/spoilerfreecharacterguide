@@ -7,10 +7,11 @@ import Breadcrumb from '@/components/Breadcrumb';
 export default async function SeriesPage({
   params
 }: {
-  params: { series: string }
+  params: Promise<{ series: string }>
 }) {
-  const series = await getSeries(params.series);
-  const books = await getBooksInSeries(params.series);
+  const resolvedParams = await params;
+  const series = await getSeries(resolvedParams.series);
+  const books = await getBooksInSeries(resolvedParams.series);
   
   if (!series || !books) {
     notFound();
@@ -47,7 +48,7 @@ export default async function SeriesPage({
       
       {/* Books display - Using SeriesBookshelf component for consistency */}
       <div className="mb-16">
-        <SeriesBookshelf books={books} seriesSlug={params.series} />
+        <SeriesBookshelf books={books} seriesSlug={resolvedParams.series} />
       </div>
       
       {/* Amazon affiliate section - AFTER books */}

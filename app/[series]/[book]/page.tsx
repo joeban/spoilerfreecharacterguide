@@ -8,11 +8,12 @@ import Breadcrumb from '@/components/Breadcrumb';
 export default async function BookPage({
   params
 }: {
-  params: { series: string; book: string }
+  params: Promise<{ series: string; book: string }>
 }) {
-  const series = await getSeries(params.series);
-  const bookMeta = await getBookMeta(params.series, params.book);
-  const bookData = await loadBookData(params.series, params.book);
+  const resolvedParams = await params;
+  const series = await getSeries(resolvedParams.series);
+  const bookMeta = await getBookMeta(resolvedParams.series, resolvedParams.book);
+  const bookData = await loadBookData(resolvedParams.series, resolvedParams.book);
   
   if (!series || !bookMeta) {
     notFound();
@@ -36,7 +37,7 @@ export default async function BookPage({
   
   const breadcrumbItems = [
     { label: 'Home', href: '/' },
-    { label: series.title, href: `/${params.series}` },
+    { label: series.title, href: `/${resolvedParams.series}` },
     { label: bookMeta.title, current: true }
   ];
 
@@ -58,8 +59,8 @@ export default async function BookPage({
         <ChapterSelector
           totalChapters={bookMeta.chapters}
           currentChapter={0}  // 0 means no current chapter (book page, not chapter page)
-          seriesSlug={params.series}
-          bookSlug={params.book}
+          seriesSlug={resolvedParams.series}
+          bookSlug={resolvedParams.book}
           chaptersWithContent={chaptersWithContent}
           defaultChapter={1}  // New prop to set default selection to chapter 1
         />
