@@ -47,6 +47,7 @@ The website has a **fantasy tavern/library aesthetic** with:
 - Headers use amber tones for better readability
 
 ### 4. Chapter Page (`app/[series]/[book]/[chapter]/page.tsx`)
+- Chapter selector at both top and bottom for easy navigation
 - Chapter recap section (collapsible with "Show/Hide Recap" button at top center)
 - Character lists divided into "In This Chapter" and "Previously Seen"
 - Each character has individual parchment background
@@ -54,7 +55,8 @@ The website has a **fantasy tavern/library aesthetic** with:
   - Whether character appears in current chapter
   - Full appearance history (e.g., "Appears in chapters: 1-3, 5, 7-10")
   - Relationships formatted as "Protected by - Kaladin" with bullet points
-- Chapter selector (stepper) moved to bottom for better UX
+- Amazon purchase section below character lists with book cover and affiliate link
+- "As an Amazon Associate, we earn from qualifying purchases" disclaimer
 
 ## Data Structure (v2.0 - UPDATED)
 
@@ -220,11 +222,78 @@ interface CharacterKnowledge {
 9. Added smart chapter stepper replacing overwhelming button grids
 10. Fixed 3D books to have properly connected spines
 
-## Common Commands
+## Development Workflow
+
+### Terminal-Based Development with Claude Code
+All development is done through the terminal using Claude Code:
+- **Development server**: `npm run dev` runs on http://localhost:3000
+- **Git workflow**: Make changes → test locally → `git add` → `git commit` → `git push`
+- **Testing**: Always verify changes at localhost:3000 before committing
+- **Deployment**: Automatic via Vercel on push to main branch
+
+### Common Commands
 ```bash
-npm run dev     # Development server
+# Development
+npm run dev     # Start dev server at http://localhost:3000
 npm run build   # Production build
 npm start       # Production server
+
+# Git workflow
+git status                          # Check what's changed
+git add .                          # Stage all changes
+git add data/series/book.json     # Stage specific file
+git commit -m "feat: description"  # Commit with descriptive message
+git push                           # Push to GitHub → triggers Vercel deploy
+
+# Verification commands
+python3 -c "import json; data = json.load(open('data/series/book.json')); print(f'Characters: {len(data[\"characters\"])}')"  # Count characters
+python3 -c "import json; json.load(open('data/series/book.json')); print('✅ Valid JSON')"  # Validate JSON
+```
+
+### Best Practices for Large Character Data Projects
+
+#### 1. Use Task Tool for Large Expansions
+For adding 50+ characters, use the Task tool with general-purpose agent:
+```
+Phase 1: Main characters (20-30 chars)
+Phase 2: Supporting characters by faction (30-40 chars)
+Phase 3: Minor characters by location (20-30 chars)
+Phase 4: Historical/referenced characters (10-20 chars)
+```
+
+#### 2. Systematic Expansion Process
+```bash
+# 1. Check current state
+python3 -c "import json; ..."
+
+# 2. Use Task tool for expansion
+# 3. Verify new count
+python3 -c "import json; ..."
+
+# 4. Commit with descriptive message
+git add data/series/book.json
+git commit -m "feat: expand Book Name characters (22→307)"
+git push
+```
+
+#### 3. Series-Wide Strategy
+- Complete one book fully before moving to next
+- Use TodoWrite tool to track progress across books
+- Verify JSON validity after each major addition
+- Commit after each book completion
+
+#### 4. Commit Message Format
+```
+feat: expand [Book] characters ([old count]→[new count])
+
+Expanded character coverage:
+- Phase 1: [description] ([count] characters)
+- Phase 2: [description] ([count] characters)
+...
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
 ```
 
 ## File Structure
@@ -287,3 +356,12 @@ npm start       # Production server
 - `knowledge` entries should be cumulative but spoiler-free
 - Amazon affiliate links use tag: `spoilerfree-20`
 - Contact email: spoilerfreecharacterguide@gmail.com
+
+## Project Statistics (as of latest update)
+- **Total Series**: 5 (Harry Potter, ASOIAF, LOTR, Dune, Stormlight Archive)
+- **Total Books**: 23+ books with complete data
+- **Total Characters**: 1,000+ unique characters across all series
+- **All books have**: Complete chapter recaps, comprehensive character coverage, v2.0 schema
+- **Development Environment**: Claude Code terminal-based workflow
+- **Testing**: http://localhost:3000
+- **Production**: https://spoilerfreecharacterguide.com (auto-deployed via Vercel)
