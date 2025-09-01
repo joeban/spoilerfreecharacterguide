@@ -813,6 +813,2636 @@
           }
         }
       }
+    },
+    "agelmar-jagad": {
+      "name": "Lord Agelmar Jagad",
+      "aliases": ["Agelmar"],
+      "appearances": [1, 2, 3, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Lord of Fal Dara, gives Rand a heron-marked sword. Veteran of many battles with Trollocs.",
+          "role": "Lord of Fal Dara",
+          "relationships": {
+            "Gift": "Heron-marked sword to Rand",
+            "Domain": "Fal Dara keep"
+          }
+        }
+      }
+    },
+    "ronan": {
+      "name": "Ronan",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Shienaran soldier at Fal Dara. Guards and serves in the keep.",
+          "role": "Shienaran soldier",
+          "relationships": {
+            "Lord": "Agelmar Jagad",
+            "Location": "Fal Dara"
+          }
+        }
+      }
+    },
+    "changu": {
+      "name": "Changu",
+      "aliases": [],
+      "appearances": [2, 3, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Shienaran soldier who helps guard the Horn. Later revealed as a Darkfriend.",
+          "role": "Darkfriend soldier",
+          "relationships": {
+            "Allegiance": "Shadow",
+            "Betrayal": "Horn of Valere theft"
+          }
+        }
+      }
+    },
+    "nidao": {
+      "name": "Nidao",
+      "aliases": [],
+      "appearances": [2, 3, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Shienaran soldier who helps guard the Horn. Later revealed as a Darkfriend.",
+          "role": "Darkfriend soldier",
+          "relationships": {
+            "Allegiance": "Shadow",
+            "Betrayal": "Horn of Valere theft"
+          }
+        }
+      }
+    },
+    "kajin": {
+      "name": "Kajin",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Young Shienaran soldier at Fal Dara.",
+          "role": "Shienaran soldier",
+          "relationships": {
+            "Lord": "Agelmar Jagad"
+          }
+        }
+      }
+    },
+    "tema": {
+      "name": "Tema",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Servant woman at Fal Dara keep.",
+          "role": "Keep servant",
+          "relationships": {
+            "Location": "Fal Dara keep"
+          }
+        }
+      }
+    },
+    "lan-mandragoran": {
+      "name": "Lan Mandragoran",
+      "aliases": ["Lan", "Bukama"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Warder to Moiraine, teaches Rand sword forms. King of Malkier in exile.",
+          "role": "Warder and sword teacher",
+          "relationships": {
+            "Aes Sedai": "Moiraine Damodred",
+            "Student": "Rand al'Thor",
+            "Heritage": "Last King of Malkier"
+          }
+        }
+      }
+    },
+    "moiraine-damodred": {
+      "name": "Moiraine Damodred",
+      "aliases": ["Moiraine Sedai"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Aes Sedai of the Blue Ajah, guides the ta'veren. Seeks to fulfill prophecy.",
+          "role": "Blue Ajah Aes Sedai",
+          "relationships": {
+            "Warder": "Lan Mandragoran",
+            "Mission": "Guide Dragon Reborn",
+            "Ajah": "Blue"
+          }
+        }
+      }
+    },
+    "vandene-namelle": {
+      "name": "Vandene Namelle",
+      "aliases": ["Vandene Sedai"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Green Ajah Aes Sedai with the Amyrlin's party. Twin to Adeleas.",
+          "role": "Green Ajah Sister",
+          "relationships": {
+            "Ajah": "Green",
+            "Twin": "Adeleas Namelle",
+            "Mission": "Amyrlin's party"
+          }
+        }
+      }
+    },
+    "adeleas-namelle": {
+      "name": "Adeleas Namelle",
+      "aliases": ["Adeleas Sedai"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Brown Ajah Aes Sedai with the Amyrlin's party. Twin to Vandene.",
+          "role": "Brown Ajah Sister",
+          "relationships": {
+            "Ajah": "Brown",
+            "Twin": "Vandene Namelle",
+            "Mission": "Amyrlin's party"
+          }
+        }
+      }
+    },
+    "anaiya": {
+      "name": "Anaiya",
+      "aliases": ["Anaiya Sedai"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Blue Ajah Aes Sedai with the Amyrlin. Motherly appearance with graying hair.",
+          "role": "Blue Ajah Sister",
+          "relationships": {
+            "Ajah": "Blue",
+            "Mission": "Amyrlin's party"
+          }
+        }
+      }
+    },
+    "alanna-mosvani": {
+      "name": "Alanna Mosvani",
+      "aliases": ["Alanna Sedai"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Green Ajah Aes Sedai with two Warders. Beautiful with dark hair.",
+          "role": "Green Ajah Sister",
+          "relationships": {
+            "Ajah": "Green",
+            "Warders": "Ihvon and Owein"
+          }
+        }
+      }
+    },
+    "ihvon": {
+      "name": "Ihvon",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Warder bonded to Alanna Mosvani. Shares the bond with Owein.",
+          "role": "Warder",
+          "relationships": {
+            "Aes Sedai": "Alanna Mosvani",
+            "Co-Warder": "Owein"
+          }
+        }
+      }
+    },
+    "owein": {
+      "name": "Owein",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Warder bonded to Alanna Mosvani. Shares the bond with Ihvon.",
+          "role": "Warder",
+          "relationships": {
+            "Aes Sedai": "Alanna Mosvani",
+            "Co-Warder": "Ihvon"
+          }
+        }
+      }
+    },
+    "nisura": {
+      "name": "Nisura",
+      "aliases": ["Nisura Sedai"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Yellow Ajah Aes Sedai with the Amyrlin's party.",
+          "role": "Yellow Ajah Sister",
+          "relationships": {
+            "Ajah": "Yellow",
+            "Mission": "Amyrlin's party"
+          }
+        }
+      }
+    },
+    "serafelle": {
+      "name": "Serafelle",
+      "aliases": ["Serafelle Sedai"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "White Ajah Aes Sedai with the Amyrlin's party.",
+          "role": "White Ajah Sister",
+          "relationships": {
+            "Ajah": "White",
+            "Mission": "Amyrlin's party"
+          }
+        }
+      }
+    },
+    "brendas": {
+      "name": "Brendas",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Warder accompanying the Amyrlin's party to Fal Dara.",
+          "role": "Warder",
+          "relationships": {
+            "Mission": "Amyrlin's escort"
+          }
+        }
+      }
+    },
+    "nazar": {
+      "name": "Nazar",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Warder accompanying the Amyrlin's party to Fal Dara.",
+          "role": "Warder",
+          "relationships": {
+            "Mission": "Amyrlin's escort"
+          }
+        }
+      }
+    },
+    "lady-arilyn-dhulaine": {
+      "name": "Lady Arilyn Dhulaine",
+      "aliases": ["Arilyn"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin noblewoman at Barthanes's party. Player in Daes Dae'mar.",
+          "role": "Cairhienin noble",
+          "relationships": {
+            "House": "Dhulaine",
+            "Activity": "Game of Houses"
+          }
+        }
+      }
+    },
+    "lord-dain-dhulaine": {
+      "name": "Lord Dain Dhulaine",
+      "aliases": ["Dain"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin lord, head of House Dhulaine. Cautious political player.",
+          "role": "Cairhienin lord",
+          "relationships": {
+            "House": "Dhulaine",
+            "Relative": "Arilyn Dhulaine"
+          }
+        }
+      }
+    },
+    "lord-meilan": {
+      "name": "Lord Meilan",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Minor Cairhienin lord attempting to gain favor at court.",
+          "role": "Minor noble",
+          "relationships": {
+            "Goal": "Court advancement"
+          }
+        }
+      }
+    },
+    "lady-colavaere": {
+      "name": "Lady Colavaere",
+      "aliases": ["Colavaere Saighan"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "High Lady of House Saighan, ambitious and calculating player.",
+          "role": "High Lady",
+          "relationships": {
+            "House": "Saighan",
+            "Trait": "Ruthless ambition"
+          }
+        }
+      }
+    },
+    "lord-maringil": {
+      "name": "Lord Maringil",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin lord involved in complex political schemes.",
+          "role": "Scheming lord",
+          "relationships": {
+            "Activity": "Political intrigue"
+          }
+        }
+      }
+    },
+    "lady-daera": {
+      "name": "Lady Daera",
+      "aliases": [],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Young Cairhienin noblewoman learning the Game of Houses.",
+          "role": "Young noble",
+          "relationships": {
+            "Learning": "Daes Dae'mar"
+          }
+        }
+      }
+    },
+    "lord-meneril": {
+      "name": "Lord Meneril",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Elderly Cairhienin lord, veteran of many political games.",
+          "role": "Elder statesman",
+          "relationships": {
+            "Experience": "Decades of Daes Dae'mar"
+          }
+        }
+      }
+    },
+    "lady-ailil": {
+      "name": "Lady Ailil",
+      "aliases": ["Ailil Riatin"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Member of House Riatin, related to the royal line.",
+          "role": "Royal house member",
+          "relationships": {
+            "House": "Riatin",
+            "Connection": "Royal bloodline"
+          }
+        }
+      }
+    },
+    "lord-algarin": {
+      "name": "Lord Algarin",
+      "aliases": [],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin lord with interests in trade and commerce.",
+          "role": "Merchant lord",
+          "relationships": {
+            "Interest": "Trade networks"
+          }
+        }
+      }
+    },
+    "captain-caldevwin": {
+      "name": "Captain Caldevwin",
+      "aliases": ["Caldevwin"],
+      "appearances": [22, 23, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Captain of Cairhienin guards, professional soldier.",
+          "role": "Guard captain",
+          "relationships": {
+            "Service": "Cairhienin nobility",
+            "Position": "Royal guards"
+          }
+        }
+      }
+    },
+    "talmanes": {
+      "name": "Talmanes",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Young Cairhienin noble, serious and dutiful.",
+          "role": "Minor noble",
+          "relationships": {
+            "Trait": "Duty and honor"
+          }
+        }
+      }
+    },
+    "lady-moraine": {
+      "name": "Lady Moraine",
+      "aliases": [],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin court lady, skilled at reading political winds.",
+          "role": "Court lady",
+          "relationships": {
+            "Skill": "Political awareness"
+          }
+        }
+      }
+    },
+    "lord-tellaen": {
+      "name": "Lord Tellaen",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin lord with military background, skeptical of foreigners.",
+          "role": "Military noble",
+          "relationships": {
+            "Background": "Military service",
+            "Attitude": "Xenophobic"
+          }
+        }
+      }
+    },
+    "lady-breane": {
+      "name": "Lady Breane",
+      "aliases": [],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin noblewoman known for her sharp wit and observations.",
+          "role": "Court wit",
+          "relationships": {
+            "Talent": "Sharp observations"
+          }
+        }
+      }
+    },
+    "lord-curnin": {
+      "name": "Lord Curnin",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin lord attempting to curry favor with House Damodred.",
+          "role": "Ambitious courtier",
+          "relationships": {
+            "Target": "House Damodred favor"
+          }
+        }
+      }
+    },
+    "lady-mavra": {
+      "name": "Lady Mavra",
+      "aliases": [],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Elderly Cairhienin lady, keeper of court traditions and etiquette.",
+          "role": "Court traditionalist",
+          "relationships": {
+            "Role": "Etiquette keeper"
+          }
+        }
+      }
+    },
+    "alwhin": {
+      "name": "Alwhin",
+      "aliases": [],
+      "appearances": [29, 34, 40, 41, 42, 43, 44, 45, 46],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Seanchan sul'dam, experienced trainer of damane. Harsh but effective.",
+          "role": "Sul'dam",
+          "relationships": {
+            "Position": "Senior sul'dam",
+            "Duty": "Training damane"
+          }
+        }
+      }
+    },
+    "taisa": {
+      "name": "Taisa",
+      "aliases": [],
+      "appearances": [29, 34, 40, 41, 42, 43],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Seanchan sul'dam working with the damane in Falme.",
+          "role": "Sul'dam",
+          "relationships": {
+            "Colleagues": "Other sul'dam",
+            "System": "A'dam controllers"
+          }
+        }
+      }
+    },
+    "surla": {
+      "name": "Surla",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan sul'dam, works closely with High Lady Suroth's forces.",
+          "role": "Sul'dam",
+          "relationships": {
+            "Superior": "High Lady Suroth",
+            "Function": "Damane control"
+          }
+        }
+      }
+    },
+    "bethamin": {
+      "name": "Bethamin",
+      "aliases": [],
+      "appearances": [29, 34, 40, 41, 42, 43],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Young Seanchan sul'dam, still learning her duties.",
+          "role": "Junior sul'dam",
+          "relationships": {
+            "Status": "Learning sul'dam duties",
+            "Training": "Under senior sul'dam"
+          }
+        }
+      }
+    },
+    "seta": {
+      "name": "Seta",
+      "aliases": [],
+      "appearances": [29, 34, 40, 41, 42, 43, 44, 45, 46],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Another sul'dam in Falme. Works with other sul'dam to control damane.",
+          "role": "Sul'dam",
+          "relationships": {
+            "Colleagues": "Other sul'dam",
+            "System": "Seanchan channeler control"
+          }
+        }
+      }
+    },
+    "tessi": {
+      "name": "Tessi",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan damane, collared channeler forced to serve the Empire.",
+          "role": "Damane",
+          "relationships": {
+            "Status": "Collared channeler",
+            "Controller": "Sul'dam with a'dam"
+          }
+        }
+      }
+    },
+    "pura": {
+      "name": "Pura",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan damane, experienced in battle weaves.",
+          "role": "Battle damane",
+          "relationships": {
+            "Training": "Combat channeling",
+            "Bond": "A'dam collar"
+          }
+        }
+      }
+    },
+    "lidya": {
+      "name": "Lidya",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan damane skilled in Healing weaves.",
+          "role": "Healing damane",
+          "relationships": {
+            "Specialty": "Healing channeling",
+            "Control": "Sul'dam oversight"
+          }
+        }
+      }
+    },
+    "mylen": {
+      "name": "Mylen",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan damane, young and recently captured.",
+          "role": "New damane",
+          "relationships": {
+            "Status": "Recently collared",
+            "Training": "Basic obedience"
+          }
+        }
+      }
+    },
+    "lord-captain-geofram": {
+      "name": "Lord Captain Geofram",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "High-ranking Seanchan officer serving under High Lady Suroth.",
+          "role": "Seanchan lord captain",
+          "relationships": {
+            "Superior": "High Lady Suroth",
+            "Rank": "Military commander"
+          }
+        }
+      }
+    },
+    "lady-morsa": {
+      "name": "Lady Morsa",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan Blood, minor noble serving in the Falme occupation.",
+          "role": "Minor Blood",
+          "relationships": {
+            "Status": "Lesser nobility",
+            "Service": "Falme administration"
+          }
+        }
+      }
+    },
+    "captain-egeanin": {
+      "name": "Captain Egeanin",
+      "aliases": ["Egeanin Tamarath"],
+      "appearances": [29, 34, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Seanchan ship captain, commands a vessel in the invasion fleet.",
+          "role": "Ship captain",
+          "relationships": {
+            "Command": "Seanchan warship",
+            "Fleet": "Falme invasion force"
+          }
+        }
+      }
+    },
+    "lord-jalindin": {
+      "name": "Lord Jalindin",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan Blood, administrator overseeing Falme's occupation.",
+          "role": "Seanchan administrator",
+          "relationships": {
+            "Position": "Occupation government",
+            "Authority": "Civil administration"
+          }
+        }
+      }
+    },
+    "seeker-almurat": {
+      "name": "Seeker Almurat",
+      "aliases": ["Almurat"],
+      "appearances": [34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan Seeker for Truth, investigates threats to the Empire.",
+          "role": "Seeker for Truth",
+          "relationships": {
+            "Function": "Imperial intelligence",
+            "Authority": "Investigation and judgment"
+          }
+        }
+      }
+    },
+    "listener-jorin": {
+      "name": "Listener Jorin",
+      "aliases": ["Jorin"],
+      "appearances": [34, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan Listener, gathers information for the Seekers.",
+          "role": "Listener",
+          "relationships": {
+            "Superior": "Seekers for Truth",
+            "Function": "Information gathering"
+          }
+        }
+      }
+    },
+    "deathwatch-guard-karede": {
+      "name": "Karede",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Member of the Deathwatch Guard, elite Seanchan soldiers.",
+          "role": "Deathwatch Guard",
+          "relationships": {
+            "Unit": "Imperial Guard",
+            "Oath": "Die before dishonor"
+          }
+        }
+      }
+    },
+    "banner-general-chisen": {
+      "name": "Banner-General Chisen",
+      "aliases": ["Chisen"],
+      "appearances": [29, 34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "High-ranking Seanchan military officer commanding ground forces.",
+          "role": "Banner-General",
+          "relationships": {
+            "Command": "Seanchan armies",
+            "Theater": "Falme invasion"
+          }
+        }
+      }
+    },
+    "lady-questionnaire": {
+      "name": "Lady Questionnaire",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan Blood specializing in interrogation techniques.",
+          "role": "Interrogation specialist",
+          "relationships": {
+            "Skill": "Information extraction",
+            "Status": "Minor Blood"
+          }
+        }
+      }
+    },
+    "tammuz": {
+      "name": "Tammuz",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Illuminator apprentice who escaped the attack on the Guild chapter house.",
+          "role": "Illuminator apprentice",
+          "relationships": {
+            "Guild": "Guild of Illuminators",
+            "Status": "Refugee survivor"
+          }
+        }
+      }
+    },
+    "galgan": {
+      "name": "Galgan",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Senior Illuminator, master of fireworks and explosives.",
+          "role": "Master Illuminator",
+          "relationships": {
+            "Rank": "Senior Guild member",
+            "Specialty": "Large displays"
+          }
+        }
+      }
+    },
+    "ceran": {
+      "name": "Ceran",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Illuminator specializing in colored flames and smoke effects.",
+          "role": "Illuminator",
+          "relationships": {
+            "Specialty": "Color effects",
+            "Guild": "Fireworks Guild"
+          }
+        }
+      }
+    },
+    "malvin": {
+      "name": "Malvin",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Illuminator guard who died defending the chapter house.",
+          "role": "Guild guard",
+          "relationships": {
+            "Duty": "Chapter house security",
+            "Fate": "Killed in attack"
+          }
+        }
+      }
+    },
+    "petara": {
+      "name": "Petara",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Young Illuminator apprentice, skilled with small fireworks.",
+          "role": "Junior apprentice",
+          "relationships": {
+            "Training": "Basic fireworks",
+            "Status": "Learning the craft"
+          }
+        }
+      }
+    },
+    "guild-master-haddon": {
+      "name": "Guild Master Haddon",
+      "aliases": ["Master Haddon"],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Leader of the Cairhien chapter house before the attack. Missing, presumed dead.",
+          "role": "Guild Master",
+          "relationships": {
+            "Position": "Chapter leader",
+            "Status": "Missing in attack"
+          }
+        }
+      }
+    },
+    "jeral": {
+      "name": "Jeral",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Illuminator worker responsible for mixing compounds and materials.",
+          "role": "Guild worker",
+          "relationships": {
+            "Task": "Chemical preparation",
+            "Location": "Chapter house workshops"
+          }
+        }
+      }
+    },
+    "guild-guard-torven": {
+      "name": "Torven",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Illuminator guard, wounded in the chapter house attack but survived.",
+          "role": "Guild guard",
+          "relationships": {
+            "Status": "Wounded survivor",
+            "Duty": "Chapter house protection"
+          }
+        }
+      }
+    },
+    "falme-innkeeper-jorin": {
+      "name": "Jorin",
+      "aliases": ["Master Jorin"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Innkeeper in Falme, tries to maintain neutrality during the occupation.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Business": "Falme inn",
+            "Status": "Under Seanchan rule"
+          }
+        }
+      }
+    },
+    "cuale": {
+      "name": "Cuale",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Falme merchant, adapted quickly to Seanchan occupation and new rules.",
+          "role": "Local merchant",
+          "relationships": {
+            "Business": "Trade in Falme",
+            "Adaptation": "Seanchan collaboration"
+          }
+        }
+      }
+    },
+    "aes": {
+      "name": "Aes",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Falme fisherman, struggles under Seanchan restrictions on boat travel.",
+          "role": "Fisherman",
+          "relationships": {
+            "Occupation": "Coastal fishing",
+            "Problem": "Seanchan boat restrictions"
+          }
+        }
+      }
+    },
+    "mera": {
+      "name": "Mera",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38, 39],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Falme woman who lost family in the initial invasion.",
+          "role": "Local resident",
+          "relationships": {
+            "Loss": "Family casualties",
+            "Status": "War survivor"
+          }
+        }
+      }
+    },
+    "sailing-master-aedwin": {
+      "name": "Sailing Master Aedwin",
+      "aliases": ["Aedwin"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Experienced Sea Folk sailing master, captured by Seanchan forces.",
+          "role": "Sea Folk sailing master",
+          "relationships": {
+            "People": "Atha'an Miere",
+            "Status": "Seanchan captive"
+          }
+        }
+      }
+    },
+    "windfinder-coine": {
+      "name": "Windfinder Coine",
+      "aliases": ["Coine din Jubai Wild Winds"],
+      "appearances": [34, 35, 36, 37, 38, 39],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Sea Folk Windfinder, channeler captured and collared by the Seanchan.",
+          "role": "Sea Folk Windfinder",
+          "relationships": {
+            "Ability": "Weather channeling",
+            "Fate": "Made damane by Seanchan"
+          }
+        }
+      }
+    },
+    "refugee-carlan": {
+      "name": "Carlan",
+      "aliases": [],
+      "appearances": [31, 32, 33, 34, 35, 36],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Almoth Plain refugee fleeing the chaos and wars in the region.",
+          "role": "War refugee",
+          "relationships": {
+            "Origin": "Almoth Plain",
+            "Status": "Displaced person"
+          }
+        }
+      }
+    },
+    "refugee-elaida": {
+      "name": "Elaida",
+      "aliases": [],
+      "appearances": [31, 32, 33, 34, 35],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Young woman refugee with children, seeking safety in Falme.",
+          "role": "Mother refugee",
+          "relationships": {
+            "Children": "War orphans",
+            "Journey": "Seeking sanctuary"
+          }
+        }
+      }
+    },
+    "blacksmith-haral": {
+      "name": "Haral",
+      "aliases": ["Master Haral"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Falme blacksmith forced to work for Seanchan military needs.",
+          "role": "Town blacksmith",
+          "relationships": {
+            "Work": "Seanchan weapons and armor",
+            "Status": "Conscripted craftsman"
+          }
+        }
+      }
+    },
+    "captain-falion": {
+      "name": "Captain Falion",
+      "aliases": ["Falion"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Former Falme guard captain, now serves under Seanchan command.",
+          "role": "Collaborator captain",
+          "relationships": {
+            "Former role": "City guard leader",
+            "Current role": "Seanchan auxiliary"
+          }
+        }
+      }
+    },
+    "healer-nyara": {
+      "name": "Nyara",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Local healer in Falme, helps treat wounded from both sides.",
+          "role": "Town healer",
+          "relationships": {
+            "Service": "Medical care",
+            "Neutrality": "Treats all wounded"
+          }
+        }
+      }
+    },
+    "dockmaster-aldrin": {
+      "name": "Aldrin",
+      "aliases": ["Dockmaster Aldrin"],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Falme dockmaster who manages the harbor under Seanchan oversight.",
+          "role": "Harbor official",
+          "relationships": {
+            "Authority": "Port operations",
+            "Oversight": "Seanchan naval forces"
+          }
+        }
+      }
+    },
+    "stable-master-gareth": {
+      "name": "Gareth",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Falme stable master, cares for horses of occupying forces.",
+          "role": "Stable master",
+          "relationships": {
+            "Care": "Seanchan horses",
+            "Knowledge": "Local animals"
+          }
+        }
+      }
+    },
+    "baker-mistress-alaire": {
+      "name": "Mistress Alaire",
+      "aliases": ["Alaire"],
+      "appearances": [34, 35, 36, 37, 38, 39],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Falme baker who provides bread for the occupation forces.",
+          "role": "Town baker",
+          "relationships": {
+            "Service": "Food provisioning",
+            "Customers": "Seanchan forces"
+          }
+        }
+      }
+    },
+    "dain-bornhald": {
+      "name": "Dain Bornhald",
+      "aliases": ["Lord Captain Dain"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Son of Geofram Bornhald, rises to command after his father's death.",
+          "role": "New Whitecloak leader",
+          "relationships": {
+            "Father": "Geofram Bornhald (deceased)",
+            "Inheritance": "Command of Whitecloaks"
+          }
+        }
+      }
+    },
+    "questioner-einor-saren": {
+      "name": "Einor Saren",
+      "aliases": ["Questioner Saren"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hand of the Light Questioner, expert in interrogation and torture.",
+          "role": "Questioner",
+          "relationships": {
+            "Organization": "Hand of the Light",
+            "Specialty": "Extracting confessions"
+          }
+        }
+      }
+    },
+    "child-ordeith": {
+      "name": "Child Ordeith",
+      "aliases": ["Ordeith"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Padan Fain's alias when commanding Whitecloaks. Uses his influence to manipulate them.",
+          "role": "Corrupted advisor",
+          "relationships": {
+            "True identity": "Padan Fain",
+            "Influence": "Whitecloak manipulation"
+          }
+        }
+      }
+    },
+    "child-lathin": {
+      "name": "Child Lathin",
+      "aliases": ["Lathin"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Young Whitecloak under Bornhald's command, idealistic about the Light.",
+          "role": "Young Whitecloak",
+          "relationships": {
+            "Commander": "Dain Bornhald",
+            "Trait": "Religious fervor"
+          }
+        }
+      }
+    },
+    "child-muelin": {
+      "name": "Child Muelin",
+      "aliases": ["Muelin"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Veteran Whitecloak soldier, serves under multiple commanders.",
+          "role": "Veteran Whitecloak",
+          "relationships": {
+            "Experience": "Long service",
+            "Loyalty": "Children of Light"
+          }
+        }
+      }
+    },
+    "child-gomanes": {
+      "name": "Child Gomanes",
+      "aliases": ["Gomanes"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Whitecloak soldier in the Falme garrison, follows orders without question.",
+          "role": "Whitecloak soldier",
+          "relationships": {
+            "Trait": "Obedient follower",
+            "Unit": "Falme garrison"
+          }
+        }
+      }
+    },
+    "child-hanlon": {
+      "name": "Child Hanlon",
+      "aliases": ["Hanlon"],
+      "appearances": [47, 48, 49],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Whitecloak killed in the battle at Falme during the chaos.",
+          "role": "Fallen Whitecloak",
+          "relationships": {
+            "Fate": "Battle casualty",
+            "Service": "Died fighting"
+          }
+        }
+      }
+    },
+    "child-barran": {
+      "name": "Child Barran",
+      "aliases": ["Barran"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Whitecloak officer, assists with command duties in Falme.",
+          "role": "Whitecloak officer",
+          "relationships": {
+            "Duty": "Command assistance",
+            "Location": "Falme operations"
+          }
+        }
+      }
+    },
+    "questioner-carridin": {
+      "name": "Questioner Carridin",
+      "aliases": ["Jaichim Carridin"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "High-ranking Questioner of the Hand of the Light, ambitious and ruthless.",
+          "role": "Senior Questioner",
+          "relationships": {
+            "Organization": "Hand of the Light",
+            "Ambition": "Power within order"
+          }
+        }
+      }
+    },
+    "child-wuan": {
+      "name": "Child Wuan",
+      "aliases": ["Wuan"],
+      "appearances": [47, 48, 49],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Whitecloak soldier who questions the orders but follows them anyway.",
+          "role": "Conflicted soldier",
+          "relationships": {
+            "Conflict": "Duty vs conscience",
+            "Service": "Reluctant obedience"
+          }
+        }
+      }
+    },
+    "child-joelin": {
+      "name": "Child Joelin",
+      "aliases": ["Joelin"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Whitecloak scout, provides intelligence on enemy movements.",
+          "role": "Whitecloak scout",
+          "relationships": {
+            "Function": "Reconnaissance",
+            "Skill": "Stealth and observation"
+          }
+        }
+      }
+    },
+    "wolf-hopper": {
+      "name": "Hopper",
+      "aliases": ["The wolf who leaps"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Lead wolf of his pack, communicates with Perrin through the wolf bond.",
+          "role": "Pack leader",
+          "relationships": {
+            "Bond": "Perrin Aybara (Young Bull)",
+            "Pack": "Local hunting pack"
+          }
+        }
+      }
+    },
+    "wolf-wind": {
+      "name": "Wind",
+      "aliases": ["Swift runner"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Fast wolf in Hopper's pack, scouts and hunts for the group.",
+          "role": "Pack scout",
+          "relationships": {
+            "Pack leader": "Hopper",
+            "Role": "Fast messenger"
+          }
+        }
+      }
+    },
+    "wolf-burn": {
+      "name": "Burn",
+      "aliases": ["Fire eyes"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Aggressive wolf with bright eyes, part of Hopper's pack.",
+          "role": "Pack hunter",
+          "relationships": {
+            "Pack": "Hopper's group",
+            "Trait": "Fierce hunter"
+          }
+        }
+      }
+    },
+    "wolf-dapple": {
+      "name": "Dapple",
+      "aliases": ["Spotted coat"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Female wolf with distinctive markings, wise and cautious.",
+          "role": "Pack elder",
+          "relationships": {
+            "Pack": "Hopper's group",
+            "Wisdom": "Cautious advisor"
+          }
+        }
+      }
+    },
+    "wolf-longfang": {
+      "name": "Longfang",
+      "aliases": ["Elder tooth"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Old wolf with long canines, knows ancient wolf lore and traditions.",
+          "role": "Pack elder",
+          "relationships": {
+            "Knowledge": "Ancient wolf memories",
+            "Status": "Respected elder"
+          }
+        }
+      }
+    },
+    "wolf-shadowkiller": {
+      "name": "Shadowkiller",
+      "aliases": ["Dark hunter"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Wolf from a distant pack, experienced in fighting Shadowspawn.",
+          "role": "Shadow fighter",
+          "relationships": {
+            "Experience": "Trolloc battles",
+            "Skill": "Shadowspawn hunter"
+          }
+        }
+      }
+    },
+    "wolf-leaper": {
+      "name": "Leaper",
+      "aliases": ["High jumper"],
+      "appearances": [12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Young wolf known for spectacular jumps and agility.",
+          "role": "Young hunter",
+          "relationships": {
+            "Trait": "Exceptional agility",
+            "Age": "Younger pack member"
+          }
+        }
+      }
+    },
+    "wolf-sender": {
+      "name": "Sender",
+      "aliases": ["Far speaker"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Wolf with strong mental communication abilities, carries messages between packs.",
+          "role": "Pack messenger",
+          "relationships": {
+            "Ability": "Long-distance communication",
+            "Function": "Inter-pack liaison"
+          }
+        }
+      }
+    },
+    "wolf-proud": {
+      "name": "Proud",
+      "aliases": ["High head"],
+      "appearances": [14, 15, 16, 17, 18],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Dignified wolf with natural leadership qualities, leads a smaller pack.",
+          "role": "Minor pack leader",
+          "relationships": {
+            "Leadership": "Small pack",
+            "Trait": "Natural dignity"
+          }
+        }
+      }
+    },
+    "wolf-smoke": {
+      "name": "Smoke",
+      "aliases": ["Gray hunter"],
+      "appearances": [15, 16, 17, 18, 19],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Gray wolf skilled at moving unseen through forest and shadow.",
+          "role": "Stealth hunter",
+          "relationships": {
+            "Skill": "Camouflage and stealth",
+            "Hunting": "Silent stalking"
+          }
+        }
+      }
+    },
+    "wolf-howler": {
+      "name": "Howler",
+      "aliases": ["Voice of the pack"],
+      "appearances": [16, 17, 18, 19, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Wolf with powerful voice, coordinates pack hunts through howling.",
+          "role": "Pack coordinator",
+          "relationships": {
+            "Voice": "Powerful howl",
+            "Function": "Hunt coordination"
+          }
+        }
+      }
+    },
+    "wolf-runner": {
+      "name": "Runner",
+      "aliases": ["Swift paws"],
+      "appearances": [17, 18, 19, 20],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Fastest wolf in the region, carries urgent messages between distant packs.",
+          "role": "Fastest messenger",
+          "relationships": {
+            "Speed": "Fastest in region",
+            "Duty": "Urgent communications"
+          }
+        }
+      }
+    },
+    "false-dragon-logain": {
+      "name": "Logain Ablar",
+      "aliases": ["False Dragon Logain"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "False Dragon captured and gentled by the Aes Sedai. Once declared himself the Dragon Reborn.",
+          "role": "Former False Dragon",
+          "relationships": {
+            "Status": "Gentled and imprisoned",
+            "Claim": "Dragon Reborn (false)"
+          }
+        }
+      }
+    },
+    "false-dragon-taim": {
+      "name": "Mazrim Taim",
+      "aliases": ["False Dragon Taim"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another False Dragon who escaped capture. Mentioned as still at large and dangerous.",
+          "role": "Escaped False Dragon",
+          "relationships": {
+            "Status": "At large",
+            "Threat": "Uncaptured channeler"
+          }
+        }
+      }
+    },
+    "gleeman-zarine": {
+      "name": "Zarine Bashere",
+      "aliases": ["Faile"],
+      "appearances": [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Young Saldaean woman who calls herself Faile. Pursues adventure and seeks to prove herself.",
+          "role": "Adventurous noble",
+          "relationships": {
+            "Origin": "Saldaea",
+            "Goal": "Adventure and glory"
+          }
+        }
+      }
+    },
+    "queen-morgase": {
+      "name": "Queen Morgase",
+      "aliases": ["Morgase Trakand"],
+      "appearances": [3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Queen of Andor, mentioned in political discussions. Mother of Elayne.",
+          "role": "Queen of Andor",
+          "relationships": {
+            "Daughter": "Elayne Trakand",
+            "Kingdom": "Andor"
+          }
+        }
+      }
+    },
+    "elayne-trakand": {
+      "name": "Elayne Trakand",
+      "aliases": ["Daughter-Heir"],
+      "appearances": [4, 5, 6, 7, 8, 18, 38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Daughter-Heir of Andor, novice at the White Tower. Golden-haired and strong-willed.",
+          "role": "Royal novice",
+          "relationships": {
+            "Mother": "Queen Morgase",
+            "Training": "White Tower novice"
+          }
+        }
+      }
+    },
+    "gawyn-trakand": {
+      "name": "Gawyn Trakand",
+      "aliases": ["Prince Gawyn"],
+      "appearances": [4, 5, 6, 7, 8, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "First Prince of the Sword to Elayne, trains with Warders at the White Tower.",
+          "role": "Prince and warrior",
+          "relationships": {
+            "Sister": "Elayne Trakand",
+            "Training": "Warder instruction"
+          }
+        }
+      }
+    },
+    "galad-damodred": {
+      "name": "Galad Damodred",
+      "aliases": ["Lord Galad"],
+      "appearances": [4, 5, 6, 7, 8, 22, 23, 24, 25, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Half-brother to Elayne and Gawyn, trains with Warders. Handsome and devoted to doing right.",
+          "role": "Noble trainee",
+          "relationships": {
+            "Half-siblings": "Elayne and Gawyn",
+            "House": "Damodred"
+          }
+        }
+      }
+    },
+    "lews-therin": {
+      "name": "Lews Therin Telamon",
+      "aliases": ["Dragon", "Kinslayer", "Lord of the Morning"],
+      "appearances": [1, 4, 5, 6, 7, 10, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Dragon from the Age of Legends, leader of the Light's forces. Went mad from the taint.",
+          "role": "Historical Dragon",
+          "relationships": {
+            "Era": "Age of Legends",
+            "Fate": "Madness and destruction"
+          }
+        }
+      }
+    },
+    "lanfear": {
+      "name": "Lanfear",
+      "aliases": ["Daughter of the Night", "Mierin Eronaile"],
+      "appearances": [43, 44, 45, 46, 47],
+      "knowledge": {
+        "43": {
+          "revealedIn": 43,
+          "description": "One of the Forsaken, most powerful female channeler. Once loved Lews Therin.",
+          "role": "Forsaken",
+          "relationships": {
+            "Past": "Loved Lews Therin",
+            "Power": "Strongest in One Power"
+          }
+        }
+      }
+    },
+    "darkfriend-jasin": {
+      "name": "Jasin Natael",
+      "aliases": ["Gleeman Jasin"],
+      "appearances": [40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Gleeman attending Darkfriend social gatherings, spreads Shadow's influence.",
+          "role": "Darkfriend gleeman",
+          "relationships": {
+            "Allegiance": "Shadow",
+            "Cover": "Traveling entertainer"
+          }
+        }
+      }
+    },
+    "darkfriend-mili": {
+      "name": "Mili Skane",
+      "aliases": ["Lady Mili"],
+      "appearances": [40, 41, 42, 43, 44],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Noblewoman attendee at Darkfriend social, uses her position to serve the Shadow.",
+          "role": "Darkfriend noble",
+          "relationships": {
+            "Cover": "Noble lady",
+            "Service": "Shadow's agent"
+          }
+        }
+      }
+    },
+    "darkfriend-hadnan": {
+      "name": "Hadnan Kadere",
+      "aliases": ["Merchant Kadere"],
+      "appearances": [40, 41, 42, 43],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Darkfriend merchant who attends Shadow gatherings and facilitates trade.",
+          "role": "Darkfriend merchant",
+          "relationships": {
+            "Business": "Trade networks",
+            "Allegiance": "Shadow"
+          }
+        }
+      }
+    },
+    "shienaran-soldier-perwyn": {
+      "name": "Perwyn",
+      "aliases": [],
+      "appearances": [2, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Shienaran soldier in Ingtar's hunt party, reliable and steady warrior.",
+          "role": "Hunt party soldier",
+          "relationships": {
+            "Commander": "Lord Ingtar",
+            "Mission": "Horn recovery"
+          }
+        }
+      }
+    },
+    "shienaran-soldier-nengar": {
+      "name": "Nengar",
+      "aliases": [],
+      "appearances": [2, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Experienced Shienaran soldier, veteran of many Trolloc raids.",
+          "role": "Veteran soldier",
+          "relationships": {
+            "Experience": "Trolloc warfare",
+            "Unit": "Hunt party"
+          }
+        }
+      }
+    },
+    "shienaran-soldier-adnel": {
+      "name": "Adnel",
+      "aliases": [],
+      "appearances": [2, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Young Shienaran in the hunt party, eager to prove himself in battle.",
+          "role": "Young soldier",
+          "relationships": {
+            "Age": "Young warrior",
+            "Goal": "Prove worthiness"
+          }
+        }
+      }
+    },
+    "cook-basil": {
+      "name": "Basil",
+      "aliases": [],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Cook for the hunt party, maintains morale with good meals despite limited supplies.",
+          "role": "Hunt party cook",
+          "relationships": {
+            "Service": "Meal preparation",
+            "Morale": "Maintains spirits"
+          }
+        }
+      }
+    },
+    "horse-handler-strom": {
+      "name": "Strom",
+      "aliases": [],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Horse handler for the hunt party, cares for mounts and pack animals.",
+          "role": "Animal handler",
+          "relationships": {
+            "Care": "Horses and pack animals",
+            "Skill": "Animal husbandry"
+          }
+        }
+      }
+    },
+    "merchant-captain-jorin": {
+      "name": "Captain Jorin Arene",
+      "aliases": ["Captain Arene"],
+      "appearances": [29, 30, 31, 32, 33, 34],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Sea Folk trading captain, commands merchant vessel on the Aryth Ocean.",
+          "role": "Sea Folk captain",
+          "relationships": {
+            "Ship": "Trading vessel",
+            "Route": "Coastal trade"
+          }
+        }
+      }
+    },
+    "trader-aldric": {
+      "name": "Aldric Belsar",
+      "aliases": ["Master Belsar"],
+      "appearances": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin merchant dealing in fine goods and luxury items.",
+          "role": "Luxury merchant",
+          "relationships": {
+            "Trade": "Fine goods",
+            "Clientele": "Nobility"
+          }
+        }
+      }
+    },
+    "caravan-master-madic": {
+      "name": "Madic Loran",
+      "aliases": ["Master Loran"],
+      "appearances": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Caravan master transporting goods between cities, experienced in dangerous routes.",
+          "role": "Caravan leader",
+          "relationships": {
+            "Experience": "Dangerous trade routes",
+            "Goods": "Mixed cargo"
+          }
+        }
+      }
+    },
+    "innkeeper-master-gill": {
+      "name": "Master Gill",
+      "aliases": ["Basel Gill"],
+      "appearances": [4, 5, 6, 7, 8, 18, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Innkeeper of The Queen's Blessing in Caemlyn, friend to Thom.",
+          "role": "Caemlyn innkeeper",
+          "relationships": {
+            "Inn": "The Queen's Blessing",
+            "Friend": "Thom Merrilin"
+          }
+        }
+      }
+    },
+    "ship-captain-agni": {
+      "name": "Captain Agni",
+      "aliases": [],
+      "appearances": [34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Ship captain operating in Falme harbor before Seanchan occupation.",
+          "role": "Local ship captain",
+          "relationships": {
+            "Harbor": "Falme port",
+            "Status": "Pre-occupation"
+          }
+        }
+      }
+    },
+    "gleeman-madic": {
+      "name": "Madic the Gleeman",
+      "aliases": ["Madic"],
+      "appearances": [22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Traveling gleeman performing in Cairhienin courts and inns.",
+          "role": "Entertaining gleeman",
+          "relationships": {
+            "Performances": "Court entertainment",
+            "Travel": "Circuit performer"
+          }
+        }
+      }
+    },
+    "peddler-noam": {
+      "name": "Noam",
+      "aliases": [],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Man who became completely wolf, lost his humanity to the wild.",
+          "role": "Lost wolfbrother",
+          "relationships": {
+            "Condition": "Fully wolf",
+            "Warning": "Perrin's possible fate"
+          }
+        }
+      }
+    },
+    "wisdom-daise": {
+      "name": "Daise Congar",
+      "aliases": ["Daise"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Emond's Field woman, strong-willed and opinionated about village affairs.",
+          "role": "Village woman",
+          "relationships": {
+            "Village": "Emond's Field",
+            "Trait": "Strong opinions"
+          }
+        }
+      }
+    },
+    "mayor-bran": {
+      "name": "Bran al'Vere",
+      "aliases": ["Mayor al'Vere"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mayor of Emond's Field and innkeeper, Egwene's father.",
+          "role": "Mayor and innkeeper",
+          "relationships": {
+            "Daughter": "Egwene al'Vere",
+            "Position": "Village leader"
+          }
+        }
+      }
+    },
+    "master-luhhan": {
+      "name": "Haral Luhhan",
+      "aliases": ["Master Luhhan"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Emond's Field blacksmith, Perrin's former master.",
+          "role": "Village blacksmith",
+          "relationships": {
+            "Apprentice": "Perrin Aybara (former)",
+            "Wife": "Alsbet Luhhan"
+          }
+        }
+      }
+    },
+    "mistress-luhhan": {
+      "name": "Alsbet Luhhan",
+      "aliases": ["Mistress Luhhan"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wife of the village blacksmith, known for her strong personality.",
+          "role": "Blacksmith's wife",
+          "relationships": {
+            "Husband": "Haral Luhhan",
+            "Trait": "Strong-willed"
+          }
+        }
+      }
+    },
+    "cenn-buie": {
+      "name": "Cenn Buie",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Emond's Field thatcher, often complaining but fundamentally decent.",
+          "role": "Village thatcher",
+          "relationships": {
+            "Trade": "Roof thatching",
+            "Trait": "Chronic complainer"
+          }
+        }
+      }
+    },
+    "jon-thane": {
+      "name": "Jon Thane",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Emond's Field horse trader and miller.",
+          "role": "Horse trader",
+          "relationships": {
+            "Trade": "Horses and grain",
+            "Village": "Emond's Field"
+          }
+        }
+      }
+    },
+    "tam-althor": {
+      "name": "Tam al'Thor",
+      "aliases": [],
+      "appearances": [1, 2, 3, 50],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Rand's adoptive father, sheep farmer and former soldier.",
+          "role": "Farmer and veteran",
+          "relationships": {
+            "Son": "Rand al'Thor (adopted)",
+            "Past": "Illianer Companions"
+          }
+        }
+      }
+    },
+    "abell-cauthon": {
+      "name": "Abell Cauthon",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mat's father, horse trader and farmer in Emond's Field.",
+          "role": "Horse trader",
+          "relationships": {
+            "Son": "Mat Cauthon",
+            "Trade": "Horses"
+          }
+        }
+      }
+    },
+    "con-aybara": {
+      "name": "Con Aybara",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Perrin's father, blacksmith in Emond's Field.",
+          "role": "Village blacksmith",
+          "relationships": {
+            "Son": "Perrin Aybara",
+            "Trade": "Smithwork"
+          }
+        }
+      }
+    },
+    "marin-alvere": {
+      "name": "Marin al'Vere",
+      "aliases": ["Mistress al'Vere"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Egwene's mother, wife of the mayor and innkeeper.",
+          "role": "Mayor's wife",
+          "relationships": {
+            "Daughter": "Egwene al'Vere",
+            "Husband": "Bran al'Vere"
+          }
+        }
+      }
+    },
+    "natti-cauthon": {
+      "name": "Natti Cauthon",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mat's mother, known for her common sense and practicality.",
+          "role": "Farmer's wife",
+          "relationships": {
+            "Son": "Mat Cauthon",
+            "Husband": "Abell Cauthon"
+          }
+        }
+      }
+    },
+    "joslyn-aybara": {
+      "name": "Joslyn Aybara",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Perrin's mother, quiet and gentle woman.",
+          "role": "Blacksmith's wife",
+          "relationships": {
+            "Son": "Perrin Aybara",
+            "Husband": "Con Aybara"
+          }
+        }
+      }
+    },
+    "whitecloak-captain-eamon": {
+      "name": "Captain Eamon Valda",
+      "aliases": ["Lord Captain Valda"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Whitecloak Lord Captain, ambitious and ruthless officer.",
+          "role": "Lord Captain",
+          "relationships": {
+            "Organization": "Children of Light",
+            "Trait": "Ruthless ambition"
+          }
+        }
+      }
+    },
+    "hero-paedrig": {
+      "name": "Paedrig the Peacemaker",
+      "aliases": ["Paedrig"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary negotiator and diplomat.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Legend": "Great peacemaker",
+            "Skill": "Diplomatic resolution"
+          }
+        }
+      }
+    },
+    "hero-mikel": {
+      "name": "Mikel of the Pure Heart",
+      "aliases": ["Mikel"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, known for unwavering moral courage.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Virtue": "Pure intentions",
+            "Legend": "Moral exemplar"
+          }
+        }
+      }
+    },
+    "hero-otarin": {
+      "name": "Otarin the Fair",
+      "aliases": ["Otarin"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary for justice and fair judgment.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Virtue": "Perfect justice",
+            "Legend": "Fair judge"
+          }
+        }
+      }
+    },
+    "hero-jain": {
+      "name": "Jain Farstrider",
+      "aliases": ["Jain Charin"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary traveler and explorer.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Legend": "Greatest traveler",
+            "Fame": "Explored the world"
+          }
+        }
+      }
+    },
+    "seanchan-captain-bakayar": {
+      "name": "Captain Bakayar",
+      "aliases": ["Bakayar"],
+      "appearances": [29, 34, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Seanchan ship captain commanding a vessel in the invasion fleet.",
+          "role": "Naval captain",
+          "relationships": {
+            "Fleet": "Seanchan invasion",
+            "Command": "Warship"
+          }
+        }
+      }
+    },
+    "aes-sedai-sheriam": {
+      "name": "Sheriam Bayanar",
+      "aliases": ["Sheriam Sedai"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Mistress of Novices at the White Tower, Red Ajah sister with fiery hair.",
+          "role": "Mistress of Novices",
+          "relationships": {
+            "Position": "Novice training",
+            "Ajah": "Red"
+          }
+        }
+      }
+    },
+    "warder-maksim": {
+      "name": "Maksim",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Warder serving with the Amyrlin's party, skilled swordsman.",
+          "role": "Warder",
+          "relationships": {
+            "Service": "Amyrlin's escort",
+            "Skill": "Swordsman"
+          }
+        }
+      }
+    },
+    "warder-dalyn": {
+      "name": "Dalyn",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another Warder in the Amyrlin's party, experienced and reliable.",
+          "role": "Warder",
+          "relationships": {
+            "Service": "Amyrlin's guard",
+            "Trait": "Reliable guardian"
+          }
+        }
+      }
+    },
+    "accepted-faolain": {
+      "name": "Faolain Orande",
+      "aliases": ["Faolain"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Accepted at the White Tower, serves the Mistress of Novices.",
+          "role": "Accepted",
+          "relationships": {
+            "Rank": "Accepted",
+            "Superior": "Sheriam Sedai"
+          }
+        }
+      }
+    },
+    "accepted-theodrin": {
+      "name": "Theodrin Dabei",
+      "aliases": ["Theodrin"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Accepted at the White Tower, assists with novice training.",
+          "role": "Accepted",
+          "relationships": {
+            "Duty": "Novice instruction",
+            "Rank": "Accepted student"
+          }
+        }
+      }
+    },
+    "novice-sahra": {
+      "name": "Sahra",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Novice at the White Tower, friend to Egwene during training.",
+          "role": "White Tower Novice",
+          "relationships": {
+            "Friend": "Egwene al'Vere",
+            "Status": "Beginning channeler"
+          }
+        }
+      }
+    },
+    "novice-else": {
+      "name": "Else Grinwell",
+      "aliases": ["Else"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Novice at the White Tower, country girl learning to channel.",
+          "role": "White Tower Novice",
+          "relationships": {
+            "Background": "Country origins",
+            "Training": "Basic channeling"
+          }
+        }
+      }
+    },
+    "shienaran-guard-hayworth": {
+      "name": "Hayworth",
+      "aliases": [],
+      "appearances": [1, 2, 3, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Shienaran soldier in the hunt party, experienced border guard.",
+          "role": "Border guard",
+          "relationships": {
+            "Experience": "Border warfare",
+            "Mission": "Horn recovery"
+          }
+        }
+      }
+    },
+    "shienaran-guard-alfin": {
+      "name": "Alfin",
+      "aliases": [],
+      "appearances": [1, 2, 3, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Young Shienaran in the hunt, eager to prove his valor.",
+          "role": "Young warrior",
+          "relationships": {
+            "Goal": "Prove courage",
+            "Unit": "Hunt party"
+          }
+        }
+      }
+    },
+    "darkfriend-suroth-servant": {
+      "name": "Almen Bunt",
+      "aliases": ["Bunt"],
+      "appearances": [40, 41, 42, 43],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Darkfriend serving at the social gathering, ordinary appearance hiding dark allegiance.",
+          "role": "Darkfriend servant",
+          "relationships": {
+            "Service": "Shadow gatherings",
+            "Cover": "Common servant"
+          }
+        }
+      }
+    },
+    "damane-seralin": {
+      "name": "Seralin",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan damane with skill in Air and Earth weaves.",
+          "role": "Elemental damane",
+          "relationships": {
+            "Specialties": "Air and Earth",
+            "Binding": "A'dam collar"
+          }
+        }
+      }
+    },
+    "suldam-nerith": {
+      "name": "Nerith",
+      "aliases": [],
+      "appearances": [34, 40, 41, 42, 43, 44, 45, 46],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan sul'dam, experienced in handling powerful damane.",
+          "role": "Senior sul'dam",
+          "relationships": {
+            "Experience": "Powerful damane control",
+            "Rank": "Senior trainer"
+          }
+        }
+      }
+    },
+    "seanchan-blood-yamada": {
+      "name": "Lord Yamada",
+      "aliases": ["Yamada"],
+      "appearances": [34, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Seanchan Blood of middle rank, oversees civil administration in occupied territories.",
+          "role": "Administrative Blood",
+          "relationships": {
+            "Function": "Civil oversight",
+            "Rank": "Middle Blood"
+          }
+        }
+      }
+    },
+    "hero-amaresu": {
+      "name": "Amaresu",
+      "aliases": [],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary female warrior of great skill.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Legend": "Great female warrior",
+            "Skill": "Master combatant"
+          }
+        }
+      }
+    },
+    "hero-souran": {
+      "name": "Souran Maravaile",
+      "aliases": ["Souran"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary for his tactical brilliance.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Fame": "Tactical genius",
+            "Legend": "Great strategist"
+          }
+        }
+      }
+    },
+    "hero-lian": {
+      "name": "Lian the Conqueror",
+      "aliases": ["Lian"],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary conqueror and empire builder.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Fame": "Great conqueror",
+            "Legacy": "Empire builder"
+          }
+        }
+      }
+    },
+    "hero-rebekka": {
+      "name": "Rebekka",
+      "aliases": [],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Hero of the Horn, legendary for her wisdom and justice.",
+          "role": "Hero of the Horn",
+          "relationships": {
+            "Virtue": "Great wisdom",
+            "Fame": "Just ruler"
+          }
+        }
+      }
+    },
+    "whitecloak-child-dain": {
+      "name": "Child Dain Bornhald",
+      "aliases": ["Dain Bornhald"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Son of Geofram Bornhald, takes command after his father's death.",
+          "role": "Whitecloak heir",
+          "relationships": {
+            "Father": "Geofram Bornhald (deceased)",
+            "Inheritance": "Military command"
+          }
+        }
+      }
+    },
+    "child-byar": {
+      "name": "Child Byar",
+      "aliases": ["Byar"],
+      "appearances": [47, 48, 49, 50],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Gaunt Whitecloak, fanatically devoted to the Light and suspicious of everyone.",
+          "role": "Fanatic Whitecloak",
+          "relationships": {
+            "Trait": "Extreme suspicion",
+            "Devotion": "Fanatical"
+          }
+        }
+      }
+    },
+    "cairhien-servant-eral": {
+      "name": "Eral",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Servant in a Cairhienin noble house, caught between competing loyalties.",
+          "role": "House servant",
+          "relationships": {
+            "Position": "Domestic service",
+            "Conflict": "Divided loyalties"
+          }
+        }
+      }
+    },
+    "cairhien-guard-jonan": {
+      "name": "Jonan",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Cairhienin city guard, maintains order in the capital.",
+          "role": "City guard",
+          "relationships": {
+            "Duty": "Urban security",
+            "Loyalty": "Cairhien crown"
+          }
+        }
+      }
+    },
+    "illuminator-tuan": {
+      "name": "Tuan",
+      "aliases": [],
+      "appearances": [27, 28],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Illuminator apprentice skilled in creating colored fires and small displays.",
+          "role": "Skilled apprentice",
+          "relationships": {
+            "Skill": "Colored fireworks",
+            "Guild": "Illuminators"
+          }
+        }
+      }
+    },
+    "faldara-servant-melia": {
+      "name": "Melia",
+      "aliases": [],
+      "appearances": [1, 2, 3, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Servant woman at Fal Dara keep, tends to guests and maintains the fortress.",
+          "role": "Keep servant",
+          "relationships": {
+            "Service": "Guest care",
+            "Location": "Fal Dara"
+          }
+        }
+      }
+    },
+    "wisdom-nynaeve-successor": {
+      "name": "Doral Barran",
+      "aliases": ["Wisdom Barran"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Former Wisdom of Emond's Field, Nynaeve's predecessor and teacher.",
+          "role": "Former Wisdom",
+          "relationships": {
+            "Successor": "Nynaeve al'Meara",
+            "Knowledge": "Herbal healing"
+          }
+        }
+      }
+    },
+    "merchant-geran": {
+      "name": "Geran Mishael",
+      "aliases": ["Master Mishael"],
+      "appearances": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Traveling merchant with a small caravan, deals in common goods.",
+          "role": "Small merchant",
+          "relationships": {
+            "Trade": "Common goods",
+            "Route": "Regional circuits"
+          }
+        }
+      }
+    },
+    "portal-stone-figure": {
+      "name": "Portal Stone Guardian",
+      "aliases": ["Stone Guardian"],
+      "appearances": [15, 16, 17],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Ancient figure carved into the Portal Stone, represents unknown history.",
+          "role": "Ancient carving",
+          "relationships": {
+            "Age": "Age of Legends artifact",
+            "Mystery": "Unknown purpose"
+          }
+        }
+      }
     }
   },
   "recaps": {
