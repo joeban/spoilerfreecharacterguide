@@ -399,10 +399,10 @@ Co-Authored-By: Claude <noreply@anthropic.com>
   - 🟡 Philosopher's Stone: 55 characters, all recaps, v2.0
   - 🟡 Chamber of Secrets: 76 characters, all recaps, v2.0
   - 🟡 Prisoner of Azkaban: 53 characters, all recaps, v2.0
-  - 🟡 Goblet of Fire: 71 characters, all recaps, v2.0
-  - 🟢 Order of Phoenix: 105 characters, all recaps, v2.0
+  - 🟢 Goblet of Fire: 249 characters, all recaps, v2.0
+  - 🟢 Order of Phoenix: 319 characters, all recaps, v2.0
   - 🟠 Half-Blood Prince: 48 characters, all recaps, v2.0
-  - 🟡 Deathly Hallows: 75 characters, all recaps, v2.0
+  - 🟢 Deathly Hallows: 130 characters, all recaps, v2.0
 
 - ✅ **Percy Jackson** (5 books)
   - 🟡 Lightning Thief: 63 characters, all recaps, v2.0
