@@ -54,24 +54,11 @@ export default function RootLayout({
                       </div>
                     </div>
                     
-                    {/* Clear 4-step process - larger and more readable */}
-                    <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4 text-amber-100 text-sm">
-                      <span className="font-semibold">Choose Series</span>
-                      
-                      <div className="text-amber-300 hidden sm:block text-lg">→</div>
-                      <div className="text-amber-300 sm:hidden text-lg">↓</div>
-                      
-                      <span className="font-semibold">Select Book</span>
-                      
-                      <div className="text-amber-300 hidden sm:block text-lg">→</div>
-                      <div className="text-amber-300 sm:hidden text-lg">↓</div>
-                      
-                      <span className="font-semibold">Pick Chapter</span>
-                      
-                      <div className="text-amber-300 hidden sm:block text-lg">→</div>
-                      <div className="text-amber-300 sm:hidden text-lg">↓</div>
-                      
-                      <span className="font-semibold">See Only What You Need</span>
+                    {/* Bold claim tagline */}
+                    <div className="mt-6 text-center text-amber-100">
+                      <p className="text-lg md:text-xl font-bold tracking-wide">
+                        Every Named Character. Every Book. Zero Spoilers.
+                      </p>
                     </div>
                   </div>
                   
