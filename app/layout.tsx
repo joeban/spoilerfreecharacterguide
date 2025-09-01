@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen">
+    <html lang="en" suppressHydrationWarning>
+      <body className="min-h-screen" suppressHydrationWarning>
         <div className="relative min-h-screen">
           {/* Ambient lighting effects */}
           <div className="fixed inset-0 pointer-events-none">
