@@ -1,0 +1,724 @@
+{
+  "meta": {
+    "title": "The Last Olympian",
+    "author": "Rick Riordan",
+    "chapters": 23,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "percy-jackson": {
+      "name": "Percy Jackson",
+      "aliases": ["Perseus Jackson", "Hero of Olympus"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now sixteen years old, the age mentioned in the Great Prophecy. Prepares for his birthday knowing it could trigger the prophecy about the fate of Olympus.",
+          "role": "Prophecy child approaching destiny",
+          "relationships": {
+            "Father": "Poseidon",
+            "Mother": "Sally Jackson",
+            "Close friend": "Annabeth Chase",
+            "Best friend": "Grover Underwood"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Bathes in the River Styx to gain the curse of Achilles, making his body invulnerable except for one weak spot. Takes this desperate measure to have a chance against Kronos.",
+          "role": "Invulnerable hero with Achilles' curse",
+          "relationships": {
+            "Father": "Poseidon",
+            "Mother": "Sally Jackson",
+            "Close friend": "Annabeth Chase",
+            "Anchor": "Annabeth Chase"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Leads the defense of Manhattan and Olympus against Kronos's army. Coordinates with other demigods, nature spirits, and allies to protect the mortal and divine worlds.",
+          "role": "Leader of Olympus's defense",
+          "relationships": {
+            "Father": "Poseidon",
+            "Close friend": "Annabeth Chase",
+            "Lieutenant": "Thalia Grace",
+            "Enemy": "Kronos"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Realizes the prophecy refers to Luke, not himself. Helps Luke find the strength to destroy Kronos by stabbing his own mortal point, saving Olympus.",
+          "role": "Hero who saves both enemy and Olympus",
+          "relationships": {
+            "Father": "Poseidon",
+            "Close friend": "Annabeth Chase",
+            "Redeemed friend": "Luke Castellan",
+            "Defeated enemy": "Kronos"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Offered godhood by Zeus as a reward for his heroism, but turns it down to stay mortal and be with his friends. Requests that the gods claim all their children.",
+          "role": "Hero who chose mortality over godhood",
+          "relationships": {
+            "Father": "Poseidon",
+            "Girlfriend": "Annabeth Chase",
+            "Best friend": "Grover Underwood"
+          }
+        }
+      }
+    },
+    "annabeth-chase": {
+      "name": "Annabeth Chase",
+      "aliases": ["Wise Girl"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now sixteen years old and still head counselor of Athena cabin. Worried about Percy's approaching birthday and the implications of the Great Prophecy.",
+          "role": "Strategic advisor and worried friend",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Grover Underwood"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Becomes Percy's anchor point when he bathes in the River Styx. Her connection to him prevents the curse from consuming him completely.",
+          "role": "Percy's mortal anchor",
+          "relationships": {
+            "Mother": "Athena",
+            "Anchored hero": "Percy Jackson",
+            "Connection": "Percy Jackson"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Helps lead the defense of Manhattan, using her architectural knowledge to plan defensive strategies. Works closely with Percy to coordinate the battle.",
+          "role": "Strategic battle coordinator",
+          "relationships": {
+            "Mother": "Athena",
+            "Battle partner": "Percy Jackson",
+            "Ally": "Thalia Grace"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Wounded by a poisoned blade while protecting Percy. Her injury motivates Percy to fight even harder against Kronos and his forces.",
+          "role": "Wounded hero fighting for Olympus",
+          "relationships": {
+            "Mother": "Athena",
+            "Protected hero": "Percy Jackson",
+            "Healer": "Will Solace"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Finally expresses her romantic feelings for Percy openly. Becomes his girlfriend and supports his decision to remain mortal rather than become a god.",
+          "role": "Percy's girlfriend and lifelong partner",
+          "relationships": {
+            "Mother": "Athena",
+            "Boyfriend": "Percy Jackson",
+            "Friend": "Grover Underwood"
+          }
+        }
+      }
+    },
+    "luke-castellan": {
+      "name": "Luke Castellan",
+      "aliases": [],
+      "appearances": [8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Fully possessed by Kronos, his body serves as the Titan lord's vessel. Leads the assault on Manhattan and Olympus with overwhelming force.",
+          "role": "Kronos's host body and army leader",
+          "relationships": {
+            "Possessor": "Kronos",
+            "Former friend": "Annabeth Chase",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Shows brief moments where his original personality breaks through Kronos's control, suggesting some part of him still exists within.",
+          "role": "Struggling consciousness within Kronos",
+          "relationships": {
+            "Possessor": "Kronos",
+            "Former friend": "Annabeth Chase",
+            "Former friend": "Thalia Grace"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "In his final moments, Luke's true self emerges and he realizes he was the hero mentioned in the prophecy. He stabs his own mortal point to destroy Kronos.",
+          "role": "Redeemed hero who saves Olympus",
+          "relationships": {
+            "Destroyed enemy": "Kronos",
+            "Friend": "Annabeth Chase",
+            "Friend": "Percy Jackson"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Dies peacefully after destroying Kronos, finally free from the Titan's influence. His last words are an apology and a request for forgiveness.",
+          "role": "Redeemed hero who sacrificed himself",
+          "relationships": {
+            "Friend": "Annabeth Chase",
+            "Friend": "Percy Jackson",
+            "Father": "Hermes"
+          }
+        }
+      }
+    },
+    "thalia-grace": {
+      "name": "Thalia Grace",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Lieutenant of the Hunters of Artemis, leading them in the battle against Kronos. Her immortality as a Hunter means she won't age to fulfill the prophecy.",
+          "role": "Lieutenant of Hunters in final battle",
+          "relationships": {
+            "Father": "Zeus",
+            "Leader": "Artemis",
+            "Friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Fights alongside Percy in the defense of Manhattan, using her powers over lightning and her skill with weapons to battle monsters and Titans.",
+          "role": "Lightning-wielding battle commander",
+          "relationships": {
+            "Father": "Zeus",
+            "Battle ally": "Percy Jackson",
+            "Battle ally": "Annabeth Chase"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Leads the Hunters of Artemis in coordinated attacks against Kronos's forces. Her tactical experience and immortal warriors provide crucial support.",
+          "role": "Immortal warrior leading elite fighters",
+          "relationships": {
+            "Father": "Zeus",
+            "Leader": "Artemis",
+            "Army": "Hunters of Artemis"
+          }
+        }
+      }
+    },
+    "grover-underwood": {
+      "name": "Grover Underwood",
+      "aliases": [],
+      "appearances": [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now the leader of the nature spirits after inheriting Pan's essence. Works to rally the wild beings to fight against the forces destroying the natural world.",
+          "role": "Leader of nature spirits",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Inherited spirit": "Pan",
+            "Followers": "Nature spirits"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Brings an army of nature spirits, dryads, and satyrs to help defend Manhattan and Olympus. His leadership unites the wild creatures in the fight.",
+          "role": "Nature army commander",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Army": "Nature spirits",
+            "Army": "Satyrs and dryads"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Uses his enhanced powers and connection to nature to help heal the wounded and coordinate with the natural elements during battle.",
+          "role": "Nature healer and coordinator",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase",
+            "Allies": "Nature spirits"
+          }
+        }
+      }
+    },
+    "nico-di-angelo": {
+      "name": "Nico di Angelo",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Now more confident in his powers over death and shadows. Helps Percy understand the curse of Achilles and guides him through the Underworld.",
+          "role": "Guide to the Underworld",
+          "relationships": {
+            "Father": "Hades",
+            "Friend": "Percy Jackson"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Accompanies Percy to the River Styx and helps him understand the risks of bathing in its waters. His knowledge of death magic proves invaluable.",
+          "role": "Underworld expert and advisor",
+          "relationships": {
+            "Father": "Hades",
+            "Friend": "Percy Jackson",
+            "Allied spirit": "Bianca di Angelo"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Brings an army of undead warriors from the Underworld to help defend Olympus. His powers have grown tremendously since his sister's death.",
+          "role": "Commander of undead army",
+          "relationships": {
+            "Father": "Hades",
+            "Friend": "Percy Jackson",
+            "Army": "Undead warriors"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Finally finds acceptance at Camp Half-Blood and among the other demigods. His contributions to the war effort earn him respect and friendship.",
+          "role": "Accepted member of camp community",
+          "relationships": {
+            "Father": "Hades",
+            "Friend": "Percy Jackson",
+            "Friend": "Will Solace"
+          }
+        }
+      }
+    },
+    "kronos": {
+      "name": "Kronos",
+      "aliases": ["The Titan Lord"],
+      "appearances": [8, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Now fully possessing Luke's body as his vessel. Leads a massive army of monsters, Titans, and rogue demigods against Olympus in the final war.",
+          "role": "Ancient enemy leading final assault",
+          "relationships": {
+            "Host body": "Luke Castellan",
+            "Son": "Zeus",
+            "Son": "Poseidon",
+            "Son": "Hades",
+            "Army": "Titan forces"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Demonstrates his full power as he battles gods and heroes. His presence begins to unravel the fabric of reality and time itself.",
+          "role": "Reality-threatening ancient power",
+          "relationships": {
+            "Host body": "Luke Castellan",
+            "Enemy": "Percy Jackson",
+            "Enemy": "All of Olympus"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Finally destroyed when Luke finds the strength to stab his own mortal point, the heel, destroying both himself and the Titan lord possessing him.",
+          "role": "Defeated ancient enemy",
+          "relationships": {
+            "Destroyed by": "Luke Castellan",
+            "Defeated by": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "poseidon": {
+      "name": "Poseidon",
+      "aliases": ["Earthshaker", "Father of Horses"],
+      "appearances": [2, 3, 17, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Fighting his own war against the sea Titan Oceanus while his son battles on land. Unable to help directly due to his own battles in the ocean depths.",
+          "role": "God fighting his own war",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Son": "Tyson",
+            "Enemy": "Oceanus"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Finally defeats Oceanus and arrives to help in the final battle against Kronos. His arrival turns the tide in favor of the gods.",
+          "role": "Victorious god joining final battle",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Son": "Tyson",
+            "Defeated enemy": "Oceanus"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Extremely proud of Percy's heroism and his choice to remain mortal. Supports his son's request for the gods to claim all their children.",
+          "role": "Proud divine father",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Son": "Tyson",
+            "Brother": "Zeus"
+          }
+        }
+      }
+    },
+    "zeus": {
+      "name": "Zeus",
+      "aliases": ["King of the Gods", "Lord of the Sky"],
+      "appearances": [17, 22, 23],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Finally returns to Olympus after fighting his own battles. Joins the final confrontation against Kronos with his full divine power.",
+          "role": "Returned king leading final battle",
+          "relationships": {
+            "Daughter": "Thalia Grace",
+            "Brother": "Poseidon",
+            "Brother": "Hades",
+            "Enemy": "Kronos"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Offers Percy godhood as a reward for saving Olympus. Impressed by Percy's heroism but initially skeptical of his request regarding unclaimed children.",
+          "role": "Grateful king offering divine reward",
+          "relationships": {
+            "Daughter": "Thalia Grace",
+            "Brother": "Poseidon",
+            "Hero": "Percy Jackson"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Agrees to Percy's request that all gods must claim their children and sends official invitations to Camp Half-Blood for new cabins.",
+          "role": "Reformed king honoring promises",
+          "relationships": {
+            "Daughter": "Thalia Grace",
+            "Brother": "Poseidon",
+            "Hero": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "hades": {
+      "name": "Hades",
+      "aliases": ["Lord of the Dead"],
+      "appearances": [17, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Finally joins the battle against Kronos after being convinced by his son Nico. Brings the power of the Underworld to bear against the Titan forces.",
+          "role": "Lord of the dead joining final battle",
+          "relationships": {
+            "Son": "Nico di Angelo",
+            "Brother": "Zeus",
+            "Brother": "Poseidon"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Agrees to Percy's request to claim all his children and build a cabin at Camp Half-Blood for his offspring.",
+          "role": "Reformed god accepting responsibilities",
+          "relationships": {
+            "Son": "Nico di Angelo",
+            "Brother": "Zeus",
+            "Brother": "Poseidon"
+          }
+        }
+      }
+    },
+    "rachel-elizabeth-dare": {
+      "name": "Rachel Elizabeth Dare",
+      "aliases": ["Oracle of Delphi"],
+      "appearances": [1, 5, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now the Oracle of Delphi, able to see the future and give prophecies. Still maintains her friendship with Percy despite her new role.",
+          "role": "Oracle and prophet",
+          "relationships": {
+            "Friend": "Percy Jackson",
+            "Friend": "Annabeth Chase"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Gives Percy crucial prophecy information and guidance about the coming battle. Her visions help prepare the demigods for what's ahead.",
+          "role": "Prophetic guide",
+          "relationships": {
+            "Friend": "Percy Jackson",
+            "Advisor": "Camp Half-Blood"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Delivers the prophecy about the new generation of heroes and the promise of peace, signaling the end of the Titan War era.",
+          "role": "Herald of new era",
+          "relationships": {
+            "Friend": "Percy Jackson",
+            "Friend": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "tyson": {
+      "name": "Tyson",
+      "aliases": [],
+      "appearances": [2, 6, 7, 16, 17, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Working as a general in Poseidon's army, leading other cyclopes in the war against Oceanus. Has grown into a powerful warrior and leader.",
+          "role": "Cyclops general in Poseidon's army",
+          "relationships": {
+            "Father": "Poseidon",
+            "Half-brother": "Percy Jackson",
+            "Army": "Cyclops warriors"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Arrives with reinforcements from the sea to help defend Manhattan. Brings weapons he's forged specifically for the final battle.",
+          "role": "Reinforcement leader and weapon smith",
+          "relationships": {
+            "Father": "Poseidon",
+            "Half-brother": "Percy Jackson",
+            "Army": "Sea reinforcements"
+          }
+        }
+      }
+    },
+    "clarisse-la-rue": {
+      "name": "Clarisse La Rue",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Leading the Ares cabin in the final battle. Initially reluctant to fight alongside the other campers due to ongoing tensions.",
+          "role": "Ares cabin leader",
+          "relationships": {
+            "Father": "Ares",
+            "Rival": "Percy Jackson",
+            "Cabin": "Ares campers"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Initially refuses to participate in the final battle due to conflicts with the other camps. Her cabin's absence is felt in the defense of Manhattan.",
+          "role": "Absent warrior holding grudge",
+          "relationships": {
+            "Father": "Ares",
+            "Cabin": "Ares campers",
+            "Conflict": "Camp Half-Blood"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Returns to join the final battle when her boyfriend Chris is wounded. Leads a crucial charge that helps turn the tide of battle.",
+          "role": "Returning warrior and battle hero",
+          "relationships": {
+            "Father": "Ares",
+            "Boyfriend": "Chris Rodriguez",
+            "Ally": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "chiron": {
+      "name": "Chiron",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Prepares Camp Half-Blood for the final battle while coordinating with other camps and allies. His experience training heroes proves invaluable.",
+          "role": "Battle coordinator and trainer",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Student": "Annabeth Chase",
+            "Ally": "Camp Half-Blood"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Leads the Camp Half-Blood forces in battle, using his archery skills and tactical knowledge to coordinate the defense.",
+          "role": "Battle commander and archer",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Student": "Annabeth Chase",
+            "Army": "Camp Half-Blood demigods"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Witnesses the gods' promise to claim all their children and begins preparations for new campers and cabins at Camp Half-Blood.",
+          "role": "Camp director planning expansion",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Student": "Annabeth Chase",
+            "Responsibility": "All demigod children"
+          }
+        }
+      }
+    },
+    "ethan-nakamura": {
+      "name": "Ethan Nakamura",
+      "aliases": [],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Son of Nemesis who joins Kronos's army, believing the minor gods deserve more respect and recognition from Olympus.",
+          "role": "Minor god's son fighting for recognition",
+          "relationships": {
+            "Mother": "Nemesis",
+            "Leader": "Kronos",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Fights alongside Kronos in the assault on Manhattan, using his powers and training to battle the defending demigods.",
+          "role": "Enemy demigod warrior",
+          "relationships": {
+            "Mother": "Nemesis",
+            "Leader": "Kronos",
+            "Enemy": "Camp Half-Blood"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Dies heroically while trying to stop Kronos, finally realizing that the Titan lord cares nothing for the minor gods or their children.",
+          "role": "Redeemed hero dying for the right cause",
+          "relationships": {
+            "Mother": "Nemesis",
+            "Former leader": "Kronos",
+            "Ally": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "silena-beauregard": {
+      "name": "Silena Beauregard",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Head counselor of Aphrodite cabin, known for her kindness and her relationship with Charles Beckendorf. Participates in the final battle preparations.",
+          "role": "Aphrodite cabin leader",
+          "relationships": {
+            "Mother": "Aphrodite",
+            "Boyfriend": "Charles Beckendorf",
+            "Friend": "Annabeth Chase"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Revealed to have been Luke's spy within the camp, passing information to Kronos's forces. Her betrayal devastates her friends and allies.",
+          "role": "Revealed spy and traitor",
+          "relationships": {
+            "Mother": "Aphrodite",
+            "Secret contact": "Luke Castellan",
+            "Betrayed friends": "Camp Half-Blood"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Dies heroically while impersonating Clarisse to rally the Ares cabin. Her sacrifice redeems her betrayal and helps turn the tide of battle.",
+          "role": "Redeemed hero who died for her friends",
+          "relationships": {
+            "Mother": "Aphrodite",
+            "Deceased boyfriend": "Charles Beckendorf",
+            "Redeemed to": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "charles-beckendorf": {
+      "name": "Charles Beckendorf",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Head counselor of Hephaestus cabin and skilled metalworker. Dating Silena Beauregard and preparing for a dangerous mission against Kronos's forces.",
+          "role": "Hephaestus cabin leader and boyfriend",
+          "relationships": {
+            "Father": "Hephaestus",
+            "Girlfriend": "Silena Beauregard",
+            "Mission partner": "Percy Jackson"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Dies heroically while destroying Kronos's cruise ship, the Princess Andromeda. His sacrifice significantly weakens the enemy forces but devastates Silena.",
+          "role": "Heroic sacrifice for the greater good",
+          "relationships": {
+            "Father": "Hephaestus",
+            "Girlfriend": "Silena Beauregard",
+            "Mission partner": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "will-solace": {
+      "name": "Will Solace",
+      "aliases": [],
+      "appearances": [16, 17, 18, 19, 22],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Head counselor of Apollo cabin and the camp's primary healer. Works tirelessly to heal the wounded during the final battle.",
+          "role": "Head healer and Apollo cabin leader",
+          "relationships": {
+            "Father": "Apollo",
+            "Patient": "Annabeth Chase",
+            "Friend": "Nico di Angelo"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Uses his healing powers and medical knowledge to save lives during the intense fighting. His skills prove crucial to keeping the defenders fighting.",
+          "role": "Battle medic and life saver",
+          "relationships": {
+            "Father": "Apollo",
+            "Patients": "Camp Half-Blood warriors",
+            "Friend": "Nico di Angelo"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Percy Jackson turns sixteen, the age mentioned in the Great Prophecy. He and Charles Beckendorf plan a dangerous mission to destroy Kronos's ship, the Princess Andromeda.",
+    "2": "Percy and Beckendorf successfully infiltrate and destroy Kronos's cruise ship, but Beckendorf sacrifices himself in the explosion. Percy barely escapes and returns to camp with devastating news.",
+    "3": "Nico di Angelo visits Percy and explains the curse of Achilles - bathing in the River Styx to become invulnerable except for one weak spot. Percy considers this desperate measure.",
+    "4": "Percy travels to the Underworld with Nico and bathes in the River Styx, gaining the curse of Achilles. Annabeth becomes his mortal anchor, the connection that keeps him human.",
+    "5": "Percy returns to Camp Half-Blood with his new invulnerability as Kronos's forces prepare for their final assault. Rachel, now the Oracle, gives warnings about the coming battle.",
+    "6": "The gods are revealed to be fighting their own battles against the ancient Titans in other realms, leaving Olympus largely undefended. The demigods must protect both Manhattan and Olympus.",
+    "7": "Kronos's army approaches Manhattan as the demigods set up defensive positions throughout the city. Percy leads the coordination of various allied forces.",
+    "8": "The battle for Manhattan begins in earnest as Kronos, possessing Luke's body, leads monsters and rogue demigods against the defenders. The fighting is fierce and desperate.",
+    "9": "The battle intensifies as both sides suffer heavy casualties. Percy's invulnerability helps him survive otherwise fatal attacks, but the enemy forces seem overwhelming.",
+    "10": "Various gods' children from minor cabins join the fight, including some who had been fighting for Kronos. The tide of battle shifts back and forth through the streets of Manhattan.",
+    "11": "The defenders make strategic retreats through the city while maintaining key defensive positions. Percy coordinates with Thalia, Annabeth, and other leaders to organize the resistance.",
+    "12": "Kronos advances toward the Empire State Building and the entrance to Olympus. The final phase of the battle approaches as the defenders make their last stand.",
+    "13": "Luke's original personality occasionally breaks through Kronos's control, giving hope that he might still be saved. The battle reaches the base of Olympus itself.",
+    "14": "Kronos demonstrates his full power, causing reality to warp around him. The defenders struggle against his overwhelming might as he approaches the throne room of the gods.",
+    "15": "The Ares cabin initially refuses to fight due to ongoing conflicts, weakening the defense. Personal rivalries threaten to doom the entire effort.",
+    "16": "Annabeth is seriously wounded by a poisoned blade, motivating Percy to fight even more desperately. Nico arrives with reinforcements from the Underworld.",
+    "17": "The gods finally return from their own battles to help in the final confrontation. Silena Beauregard is revealed as Luke's spy but dies heroically trying to redeem herself.",
+    "18": "Clarisse returns with the Ares cabin to join the final battle after her boyfriend is wounded. Their arrival helps turn the tide against Kronos's remaining forces.",
+    "19": "The final confrontation takes place in Olympus itself as Kronos faces the returned gods and the remaining heroes. Ethan Nakamura dies trying to stop the Titan lord.",
+    "20": "Percy realizes the prophecy refers to Luke, not himself. Luke finds the strength to take control from Kronos and stabs his own mortal point, destroying both himself and the Titan.",
+    "21": "Luke dies peacefully after destroying Kronos, finally free from the Titan's influence. The war ends with his redemptive sacrifice, saving both Olympus and the mortal world.",
+    "22": "The gods offer Percy immortality as a reward, but he chooses to remain mortal and be with his friends. He requests that all gods claim their children, and Zeus agrees to this demand.",
+    "23": "Camp Half-Blood begins expanding to accommodate children of all gods, including minor ones. Percy and Annabeth finally become a couple, and a new era of peace begins for the demigod world."
+  }
+}

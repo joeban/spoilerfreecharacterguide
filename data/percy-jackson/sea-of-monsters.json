@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "title": "The Sea of Monsters",
+    "author": "Rick Riordan",
+    "chapters": 19,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "percy-jackson": {
+      "name": "Percy Jackson",
+      "aliases": ["Perseus Jackson"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now thirteen years old and entering his second year at Camp Half-Blood. Still the only child of Poseidon at camp.",
+          "role": "Returning camper",
+          "relationships": {
+            "Father": "Poseidon",
+            "Mother": "Sally Jackson",
+            "Best friend": "Grover Underwood",
+            "Close friend": "Annabeth Chase"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Plagued by nightmares about Grover being in danger. His connection to Grover through empathy link allows him to sense his friend's distress.",
+          "role": "Worried friend with psychic connection",
+          "relationships": {
+            "Father": "Poseidon",
+            "Best friend": "Grover Underwood",
+            "Close friend": "Annabeth Chase",
+            "Half-brother": "Tyson"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Embarks on an unofficial quest to find the Golden Fleece and rescue Grover. Determined to save his best friend despite not being chosen for the quest.",
+          "role": "Unofficial quest member",
+          "relationships": {
+            "Father": "Poseidon",
+            "Best friend": "Grover Underwood",
+            "Close friend": "Annabeth Chase",
+            "Half-brother": "Tyson",
+            "Quest rival": "Clarisse La Rue"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "His powers over the sea help him navigate the Sea of Monsters and communicate with sea creatures like Rainbow the hippocampus.",
+          "role": "Sea-powered hero",
+          "relationships": {
+            "Father": "Poseidon",
+            "Best friend": "Grover Underwood",
+            "Close friend": "Annabeth Chase",
+            "Half-brother": "Tyson",
+            "Sea friend": "Rainbow"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Successfully retrieves the Golden Fleece and helps restore Thalia's tree, though this also brings Thalia back to life. Proves himself as a true hero.",
+          "role": "Successful hero and fleece retriever",
+          "relationships": {
+            "Father": "Poseidon",
+            "Best friend": "Grover Underwood",
+            "Close friend": "Annabeth Chase",
+            "Half-brother": "Tyson",
+            "Revived friend": "Thalia Grace"
+          }
+        }
+      }
+    },
+    "annabeth-chase": {
+      "name": "Annabeth Chase",
+      "aliases": ["Wise Girl"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now thirteen years old and still head counselor of Athena cabin. Becomes increasingly worried about the camp's defenses failing.",
+          "role": "Senior camper and strategist",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Grover Underwood"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Devastated when Thalia's tree is poisoned and the camp's magical borders begin to fail. Understands the strategic importance of the Golden Fleece.",
+          "role": "Strategic advisor on fleece quest",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Grover Underwood",
+            "Lost friend": "Thalia Grace"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Joins Percy's unofficial quest to find the Golden Fleece, despite Clarisse being the official quest leader. Her wisdom is crucial to their success.",
+          "role": "Unofficial quest member",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Grover Underwood",
+            "Quest companion": "Tyson"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Uses her intelligence to help solve the riddles and challenges they face, particularly in Polyphemus's cave. Her invisible cap proves invaluable.",
+          "role": "Problem solver and strategist",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Grover Underwood",
+            "Quest companion": "Tyson"
+          }
+        }
+      }
+    },
+    "grover-underwood": {
+      "name": "Grover Underwood",
+      "aliases": [],
+      "appearances": [1, 2, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now a licensed searcher looking for Pan, the lost god of the wild. Has been missing from camp for months on his search.",
+          "role": "Licensed searcher for Pan",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "God he seeks": "Pan"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Discovered through Percy's dreams to be trapped and in danger. Sends empathic distress signals to Percy through their psychic bond.",
+          "role": "Captive sending distress signals",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Captor": "Polyphemus"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Trapped in Polyphemus's cave on an island in the Sea of Monsters. The cyclops plans to marry him, thinking he's a female cyclops in a wedding dress.",
+          "role": "Captive bride-to-be",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Captor": "Polyphemus"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Rescued from Polyphemus and helps recover the Golden Fleece. His searcher skills prove valuable in navigating the Sea of Monsters.",
+          "role": "Rescued searcher",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase",
+            "Friend": "Tyson"
+          }
+        }
+      }
+    },
+    "tyson": {
+      "name": "Tyson",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A large, homeless boy who befriends Percy at Meriwether Prep. Other kids pick on him for being different, but he's gentle and loyal.",
+          "role": "Percy's friend at school",
+          "relationships": {
+            "Friend": "Percy Jackson"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Reveals incredible strength when defending Percy from Laistrygonian giants. His eye doesn't work quite right, and he has an unusual fear of fire.",
+          "role": "Strong protector",
+          "relationships": {
+            "Friend": "Percy Jackson"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Revealed to be a Cyclops and Percy's half-brother, also a son of Poseidon. Cyclopes are immune to fire and have incredible strength and building skills.",
+          "role": "Cyclops half-brother",
+          "relationships": {
+            "Father": "Poseidon",
+            "Half-brother": "Percy Jackson"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Joins Camp Half-Blood but faces discrimination from other campers who distrust monsters. Only Percy and some others accept him fully.",
+          "role": "Monster camper seeking acceptance",
+          "relationships": {
+            "Father": "Poseidon",
+            "Half-brother": "Percy Jackson",
+            "Supporter": "Chiron"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Joins Percy's quest to find the Golden Fleece. His cyclops abilities, especially his immunity to fire and strength, make him valuable.",
+          "role": "Quest member",
+          "relationships": {
+            "Father": "Poseidon",
+            "Half-brother": "Percy Jackson",
+            "Quest companion": "Annabeth Chase"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Proves his worth as a hero and gains acceptance at camp. Poseidon takes him to work in the cyclopes' forges, making weapons for the gods.",
+          "role": "Heroic son working for the gods",
+          "relationships": {
+            "Father": "Poseidon",
+            "Half-brother": "Percy Jackson",
+            "Friend": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "clarisse-la-rue": {
+      "name": "Clarisse La Rue",
+      "aliases": [],
+      "appearances": [1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Still head counselor of Ares cabin and maintains her rivalry with Percy. Continues to be aggressive and confrontational.",
+          "role": "Head counselor of Ares cabin",
+          "relationships": {
+            "Father": "Ares",
+            "Rival": "Percy Jackson"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Chosen by the Oracle to lead the quest to retrieve the Golden Fleece. Given this honor despite her past failures and hot temper.",
+          "role": "Official quest leader",
+          "relationships": {
+            "Father": "Ares",
+            "Rival": "Percy Jackson",
+            "Quest companion": "Chris Rodriguez"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Reluctantly accepts Percy's help on the quest, though she resents his interference. Her ship CSS Birmingham is a Confederate ironclad.",
+          "role": "Reluctant quest leader",
+          "relationships": {
+            "Father": "Ares",
+            "Reluctant ally": "Percy Jackson",
+            "Quest companion": "Chris Rodriguez"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Successfully completes her quest and gains respect at camp. Proves herself as a capable leader despite her abrasive personality.",
+          "role": "Successful quest hero",
+          "relationships": {
+            "Father": "Ares",
+            "Rival": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "thalia-grace": {
+      "name": "Thalia Grace",
+      "aliases": [],
+      "appearances": [4, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Her tree form has been poisoned, causing the magical borders of Camp Half-Blood to fail. The tree is dying, threatening the camp's safety.",
+          "role": "Dying tree guardian",
+          "relationships": {
+            "Father": "Zeus"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "The Golden Fleece not only heals her tree but brings her back to life as a fifteen-year-old daughter of Zeus. Her resurrection creates complications for the prophecy.",
+          "role": "Resurrected daughter of Zeus",
+          "relationships": {
+            "Father": "Zeus",
+            "Friend": "Annabeth Chase",
+            "Former friend": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "tantalus": {
+      "name": "Tantalus",
+      "aliases": [],
+      "appearances": [5, 6, 7, 19],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Temporary activities director replacing Chiron after Mr. D fires him. A spirit from the Fields of Punishment in the Underworld.",
+          "role": "Temporary activities director",
+          "relationships": {
+            "Replacement for": "Chiron"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Cursed to eternal hunger and thirst - food and drink always move away from his reach. Takes sadistic pleasure in disciplining campers.",
+          "role": "Cursed disciplinarian",
+          "relationships": {
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Sent back to the Underworld when Chiron is proven innocent and reinstated. His cruel reign over the camp finally ends.",
+          "role": "Banished former director",
+          "relationships": {
+            "Replaced by": "Chiron"
+          }
+        }
+      }
+    },
+    "chiron": {
+      "name": "Chiron",
+      "aliases": ["Mr. Brunner"],
+      "appearances": [4, 5, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Fired by Mr. D as activities director after being blamed for failing to keep Thalia's tree safe. Forced to leave Camp Half-Blood.",
+          "role": "Wrongfully dismissed activities director",
+          "relationships": {
+            "Former student": "Percy Jackson",
+            "Replacement": "Tantalus"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Living in exile, unable to help the camp in its time of crisis. His dismissal leaves the campers without his wise guidance and training.",
+          "role": "Exiled centaur",
+          "relationships": {
+            "Former student": "Percy Jackson",
+            "Former student": "Annabeth Chase"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Proven innocent of any wrongdoing and reinstated as activities director. Returns to help restore order and proper training to Camp Half-Blood.",
+          "role": "Reinstated activities director",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Student": "Annabeth Chase",
+            "Student": "Tyson"
+          }
+        }
+      }
+    },
+    "polyphemus": {
+      "name": "Polyphemus",
+      "aliases": [],
+      "appearances": [15, 16, 17, 18],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A giant cyclops living on an island in the Sea of Monsters. Has captured Grover, whom he believes is a female cyclops he wants to marry.",
+          "role": "Giant cyclops captor",
+          "relationships": {
+            "Captive": "Grover Underwood",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Guards the Golden Fleece in his cave. Incredibly strong and dangerous, but not very intelligent. Has only one eye in the center of his forehead.",
+          "role": "Guardian of the Golden Fleece",
+          "relationships": {
+            "Captive": "Grover Underwood",
+            "Enemy": "Percy Jackson",
+            "Enemy": "Annabeth Chase"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Blinded by Percy using a burning stick, just as Odysseus did in the ancient myths. This allows the heroes to escape with Grover and the fleece.",
+          "role": "Blinded cyclops",
+          "relationships": {
+            "Enemy": "Percy Jackson",
+            "Enemy": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "luke-castellan": {
+      "name": "Luke Castellan",
+      "aliases": [],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Appears briefly when Thalia is resurrected. Their reunion is tense as Thalia learns of his betrayal and service to Kronos.",
+          "role": "Traitor confronting old friend",
+          "relationships": {
+            "Former friend": "Thalia Grace",
+            "Enemy": "Percy Jackson",
+            "Master": "Kronos"
+          }
+        }
+      }
+    },
+    "poseidon": {
+      "name": "Poseidon",
+      "aliases": ["Earthshaker", "Father of Horses"],
+      "appearances": [4, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Claimed Tyson as his son, making Percy and Tyson half-brothers. Shows his acceptance of both his demigod and cyclops children.",
+          "role": "Father of Percy and Tyson",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Son": "Tyson"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Takes Tyson to work in the underwater cyclopes forges, where weapons for the gods are made. Proud of both his sons' heroic deeds.",
+          "role": "Divine father and employer",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Son": "Tyson",
+            "Employee": "Tyson"
+          }
+        }
+      }
+    },
+    "rainbow": {
+      "name": "Rainbow",
+      "aliases": [],
+      "appearances": [13, 14, 18],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A hippocampus (half-horse, half-fish sea creature) who befriends Percy in the Sea of Monsters. Intelligent and able to communicate with Percy.",
+          "role": "Sea creature friend and guide",
+          "relationships": {
+            "Friend": "Percy Jackson"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Helps Percy navigate the dangerous waters of the Sea of Monsters. Shows loyalty and bravery in helping the quest succeed.",
+          "role": "Loyal sea guide",
+          "relationships": {
+            "Friend": "Percy Jackson",
+            "Ally": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "circe": {
+      "name": "Circe",
+      "aliases": [],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "An immortal sorceress who runs a health spa on an island. Known for turning men into animals, particularly pigs. Initially appears helpful and beautiful.",
+          "role": "Enchantress and spa owner",
+          "relationships": {
+            "Victim": "Percy Jackson"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Turns Percy into a guinea pig and plans to keep him as a pet. Annabeth must rescue him using her wit and Hermes' multivitamins as an antidote.",
+          "role": "Hostile sorceress",
+          "relationships": {
+            "Victim": "Percy Jackson",
+            "Enemy": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "mr-d": {
+      "name": "Mr. D",
+      "aliases": ["Dionysus"],
+      "appearances": [4, 5, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Blames Chiron for the poisoning of Thalia's tree and fires him as activities director. Appoints Tantalus as his replacement.",
+          "role": "Camp director making poor decisions",
+          "relationships": {
+            "Fired employee": "Chiron",
+            "New employee": "Tantalus"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Admits his mistake in firing Chiron and reinstates him as activities director. Sends Tantalus back to his eternal punishment.",
+          "role": "Camp director correcting mistakes",
+          "relationships": {
+            "Reinstated employee": "Chiron",
+            "Former employee": "Tantalus"
+          }
+        }
+      }
+    },
+    "chris-rodriguez": {
+      "name": "Chris Rodriguez",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Son of Hermes who accompanies Clarisse on her quest to find the Golden Fleece. Serves as her main quest companion.",
+          "role": "Quest companion to Clarisse",
+          "relationships": {
+            "Father": "Hermes",
+            "Quest leader": "Clarisse La Rue"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Percy Jackson returns to Camp Half-Blood for his second summer, but strange things are happening. His dreams are filled with disturbing visions, and he senses something is wrong at camp.",
+    "2": "At his new school, Meriwether Prep, Percy befriends a large homeless boy named Tyson who is picked on by other students. Percy has nightmares about Grover being in danger and calling for help.",
+    "3": "During a dodgeball game that turns into a battle with Laistrygonian giants, Tyson reveals incredible strength defending Percy. Annabeth arrives to help, and they escape to Camp Half-Blood.",
+    "4": "At camp, they discover that Thalia's tree has been poisoned, causing the magical borders to fail. Tyson is revealed to be a Cyclops and Percy's half-brother, both sons of Poseidon. Chiron is fired and replaced by Tantalus.",
+    "5": "Tantalus, a spirit from the Underworld's Fields of Punishment, takes over as activities director. The camp becomes a more dangerous and unpleasant place under his cruel leadership.",
+    "6": "The Oracle gives a prophecy about retrieving the Golden Fleece to heal Thalia's tree. Clarisse La Rue is chosen to lead the quest, much to Percy's frustration.",
+    "7": "Percy continues having dreams about Grover being in danger. The empathy link between them reveals that Grover is trapped and needs rescue, but Percy isn't allowed on the official quest.",
+    "8": "Percy, Annabeth, and Tyson decide to go on their own unofficial quest to rescue Grover and find the Golden Fleece. They encounter Clarisse, who reluctantly allows them to help.",
+    "9": "The group travels toward the Sea of Monsters (also known as the Bermuda Triangle). They face various dangers and challenges as they journey toward Grover's location.",
+    "10": "Continuing through the Sea of Monsters, Percy's powers over water help them navigate the dangerous supernatural waters filled with ancient monsters and magic.",
+    "11": "The questers arrive at Circe's island, where the sorceress runs a health spa. She appears helpful at first but has sinister intentions for the male members of the group.",
+    "12": "Circe reveals her true nature by turning Percy into a guinea pig. Annabeth must use her wits and Hermes' multivitamins to restore Percy and escape the island.",
+    "13": "Percy befriends Rainbow, a hippocampus (sea-horse creature), who helps guide them through the treacherous waters of the Sea of Monsters toward their destination.",
+    "14": "The group continues navigating the Sea of Monsters with Rainbow's help, facing various sea monsters and magical challenges as they get closer to Polyphemus's island.",
+    "15": "They reach the island of Polyphemus, the cyclops who has captured Grover. The giant believes Grover is a female cyclops and plans to marry him. The Golden Fleece hangs in the cyclops's cave.",
+    "16": "Percy and his friends infiltrate Polyphemus's cave where they find Grover in a wedding dress. They also discover the Golden Fleece, which has incredible healing powers.",
+    "17": "Using the same strategy as Odysseus in the ancient myths, Percy blinds Polyphemus with a burning stick, allowing them to escape with Grover and the Golden Fleece.",
+    "18": "The group successfully escapes Polyphemus's island with the Golden Fleece and the rescued Grover. They begin their journey back to Camp Half-Blood to heal Thalia's tree.",
+    "19": "They return to Camp Half-Blood and use the Golden Fleece to heal Thalia's tree, restoring the camp's magical borders. However, the fleece's power is so strong that it brings Thalia back to life. Chiron is reinstated, Tantalus is banished, and Poseidon takes Tyson to work in the cyclopes' forges."
+  }
+}

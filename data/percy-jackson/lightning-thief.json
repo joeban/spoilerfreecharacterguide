@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "title": "The Lightning Thief",
+    "author": "Rick Riordan",
+    "chapters": 22,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "percy-jackson": {
+      "name": "Percy Jackson",
+      "aliases": ["Perseus Jackson"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A twelve-year-old boy with dyslexia and ADHD attending Yancy Academy. Has a bad temper and gets into fights.",
+          "role": "Student at Yancy Academy",
+          "relationships": {
+            "Mother": "Sally Jackson",
+            "Step-father": "Gabe Ugliano"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Shows unusual powers - vaporizes his pre-algebra teacher Mrs. Dodds who turns out to be a Fury. Can understand Latin instinctively.",
+          "role": "Confused student with strange abilities",
+          "relationships": {
+            "Mother": "Sally Jackson",
+            "Step-father": "Gabe Ugliano",
+            "Best friend": "Grover Underwood",
+            "Latin teacher": "Mr. Brunner"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Poseidon, god of the sea. A demigod with powers over water and earthquakes. One of the 'Big Three' forbidden children.",
+          "role": "Demigod son of Poseidon",
+          "relationships": {
+            "Mother": "Sally Jackson",
+            "Father": "Poseidon",
+            "Step-father": "Gabe Ugliano",
+            "Protector": "Grover Underwood",
+            "Mentor": "Chiron"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Placed in Cabin Three at Camp Half-Blood, alone because Poseidon rarely has children. Suspected of stealing Zeus's master bolt.",
+          "role": "Camper at Camp Half-Blood",
+          "relationships": {
+            "Mother": "Sally Jackson",
+            "Father": "Poseidon",
+            "Protector": "Grover Underwood",
+            "Mentor": "Chiron",
+            "Friend": "Luke Castellan"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Chosen for a quest to retrieve Zeus's master bolt. Must travel to the Underworld to find it.",
+          "role": "Quest leader",
+          "relationships": {
+            "Mother": "Sally Jackson",
+            "Father": "Poseidon",
+            "Quest companion": "Grover Underwood",
+            "Quest companion": "Annabeth Chase",
+            "Mentor": "Chiron"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Discovers Luke is the real thief who stole Zeus's bolt and Hades' helm. Returns the bolt to Zeus and saves his mother.",
+          "role": "Hero who prevented war between the gods",
+          "relationships": {
+            "Mother": "Sally Jackson",
+            "Father": "Poseidon",
+            "Best friend": "Grover Underwood",
+            "Close friend": "Annabeth Chase",
+            "Enemy": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "annabeth-chase": {
+      "name": "Annabeth Chase",
+      "aliases": ["Wise Girl"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A blonde twelve-year-old girl who has been nursing Percy back to health. Very intelligent and knowledgeable about mythology.",
+          "role": "Camper at Camp Half-Blood",
+          "relationships": {}
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Daughter of Athena, goddess of wisdom and warfare. Head counselor of Cabin Six. Expert in strategy and architecture.",
+          "role": "Head counselor of Athena cabin",
+          "relationships": {
+            "Mother": "Athena",
+            "Cabin mate": "Malcolm"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Has been at camp since age seven. Dreams of being an architect and redesigning Olympus. Has a Yankees cap that makes her invisible.",
+          "role": "Senior camper and strategist",
+          "relationships": {
+            "Mother": "Athena",
+            "Father": "Frederick Chase",
+            "Friend": "Luke Castellan"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Joins Percy's quest to find Zeus's master bolt. Her wisdom and strategy are essential to the quest's success.",
+          "role": "Quest companion",
+          "relationships": {
+            "Mother": "Athena",
+            "Father": "Frederick Chase",
+            "Quest leader": "Percy Jackson",
+            "Quest companion": "Grover Underwood"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Her father Frederick Chase is a professor she has a complicated relationship with. She ran away from home to come to camp.",
+          "role": "Runaway seeking belonging",
+          "relationships": {
+            "Mother": "Athena",
+            "Father": "Frederick Chase",
+            "Step-mother": "Mrs. Chase",
+            "Close friend": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "grover-underwood": {
+      "name": "Grover Underwood",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Percy's best friend at Yancy Academy. Walks with crutches and is frequently bullied. Seems nervous and worried.",
+          "role": "Percy's best friend",
+          "relationships": {
+            "Best friend": "Percy Jackson"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Reveals he is a satyr - half-goat, half-human. He is Percy's protector, assigned to guide him to Camp Half-Blood safely.",
+          "role": "Satyr and protector",
+          "relationships": {
+            "Protected charge": "Percy Jackson",
+            "Supervisor": "Chiron"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "A junior protector seeking his searcher's license. Failed to protect Thalia Grace, who died saving him and two other half-bloods.",
+          "role": "Junior protector at Camp Half-Blood",
+          "relationships": {
+            "Protected charge": "Percy Jackson",
+            "Supervisor": "Chiron",
+            "Lost charge": "Thalia Grace"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Joins Percy's quest to find Zeus's master bolt. His wilderness survival skills and ability to sense monsters are invaluable.",
+          "role": "Quest companion",
+          "relationships": {
+            "Quest leader": "Percy Jackson",
+            "Quest companion": "Annabeth Chase",
+            "Supervisor": "Chiron"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Dreams of finding Pan, the lost god of the wild. This is the greatest quest a satyr can undertake.",
+          "role": "Aspiring searcher for Pan",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase",
+            "God he seeks": "Pan"
+          }
+        }
+      }
+    },
+    "luke-castellan": {
+      "name": "Luke Castellan",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 10, 20, 21, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Head counselor of Cabin Eleven (Hermes cabin). Popular, athletic, and skilled with a sword. Shows Percy kindness and friendship.",
+          "role": "Head counselor of Hermes cabin",
+          "relationships": {
+            "Father": "Hermes",
+            "Friend": "Percy Jackson",
+            "Friend": "Annabeth Chase"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Nineteen years old and has been at camp since he was fourteen. Son of Hermes, god of messengers and thieves. Expert swordsman.",
+          "role": "Senior counselor and camp leader",
+          "relationships": {
+            "Father": "Hermes",
+            "Friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase",
+            "Lost friend": "Thalia Grace"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Went on a quest to retrieve a golden apple from the Garden of the Hesperides but failed. Bears a scar from a dragon as a reminder.",
+          "role": "Failed quest hero",
+          "relationships": {
+            "Father": "Hermes",
+            "Friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase",
+            "Lost friend": "Thalia Grace"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Revealed as the traitor who stole Zeus's master bolt and Hades' helm of darkness. Serves Kronos and believes the gods should be overthrown.",
+          "role": "Thief and traitor serving Kronos",
+          "relationships": {
+            "Father": "Hermes",
+            "Enemy": "Percy Jackson",
+            "Former friend": "Annabeth Chase",
+            "Master": "Kronos"
+          }
+        }
+      }
+    },
+    "chiron": {
+      "name": "Chiron",
+      "aliases": ["Mr. Brunner"],
+      "appearances": [1, 2, 4, 5, 6, 7, 8, 9, 10, 21, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Percy's Latin teacher at Yancy Academy. Uses a wheelchair and takes a special interest in Percy's education.",
+          "role": "Latin teacher",
+          "relationships": {
+            "Student": "Percy Jackson"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Revealed to be Chiron, a centaur and the activities director at Camp Half-Blood. The greatest trainer of heroes in Greek mythology.",
+          "role": "Activities director at Camp Half-Blood",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Protégé": "Grover Underwood"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Has trained heroes for over three thousand years including Hercules and Achilles. Immortal centaur devoted to helping half-bloods.",
+          "role": "Ancient trainer of heroes",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Former student": "Luke Castellan",
+            "Former student": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "sally-jackson": {
+      "name": "Sally Jackson",
+      "aliases": [],
+      "appearances": [3, 4, 22],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Percy's mother who can see through the Mist. Beautiful woman with kind eyes who smells like chocolate chip cookies.",
+          "role": "Percy's mortal mother",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Husband": "Gabe Ugliano"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Had a relationship with Poseidon before Percy was born. Married the horrible Gabe because his smell masks Percy's demigod scent.",
+          "role": "Former lover of Poseidon",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Former lover": "Poseidon",
+            "Husband": "Gabe Ugliano"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Rescued from Hades' realm and divorces Gabe. Uses Medusa's head to turn Gabe into a statue and sell him as art.",
+          "role": "Independent woman starting over",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Ex-husband": "Gabe Ugliano"
+          }
+        }
+      }
+    },
+    "poseidon": {
+      "name": "Poseidon",
+      "aliases": ["Earthshaker", "Father of Horses"],
+      "appearances": [4, 21, 22],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Percy's father, god of the sea, earthquakes, and horses. One of the 'Big Three' gods who swore not to have children.",
+          "role": "God of the sea and Percy's father",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Former lover": "Sally Jackson",
+            "Brother": "Zeus",
+            "Brother": "Hades"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Appears to Percy in his true form at the beach. Proud of his son but explains why he cannot interfere directly in his life.",
+          "role": "Divine father",
+          "relationships": {
+            "Son": "Percy Jackson",
+            "Former lover": "Sally Jackson"
+          }
+        }
+      }
+    },
+    "zeus": {
+      "name": "Zeus",
+      "aliases": ["King of the Gods", "Lord of the Sky"],
+      "appearances": [4, 22],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "King of the gods and god of the sky. His master bolt has been stolen, threatening war. Suspects Percy because he's Poseidon's son.",
+          "role": "King of the gods",
+          "relationships": {
+            "Brother": "Poseidon",
+            "Brother": "Hades",
+            "Daughter": "Thalia Grace"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Receives his master bolt back from Percy. Grudgingly allows Percy to live but warns him not to interfere in godly affairs again.",
+          "role": "Grateful but wary king of gods",
+          "relationships": {
+            "Brother": "Poseidon",
+            "Brother": "Hades"
+          }
+        }
+      }
+    },
+    "hades": {
+      "name": "Hades",
+      "aliases": ["Lord of the Dead", "Pluto"],
+      "appearances": [18, 19, 20],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "God of the Underworld and the dead. Rules over the realm where souls go after death. His helm of darkness was also stolen.",
+          "role": "God of the Underworld",
+          "relationships": {
+            "Brother": "Zeus",
+            "Brother": "Poseidon",
+            "Wife": "Persephone"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Furious about his stolen helm and holds Sally Jackson prisoner. Initially believes Percy stole both the bolt and helm.",
+          "role": "Angry god seeking his stolen helm",
+          "relationships": {
+            "Brother": "Zeus",
+            "Brother": "Poseidon",
+            "Prisoner": "Sally Jackson"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Realizes Percy is innocent and releases Sally Jackson. Gets his helm back and allows Percy to leave the Underworld alive.",
+          "role": "Appeased god of the dead",
+          "relationships": {
+            "Brother": "Zeus",
+            "Brother": "Poseidon"
+          }
+        }
+      }
+    },
+    "ares": {
+      "name": "Ares",
+      "aliases": ["God of War"],
+      "appearances": [15, 20, 21],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "God of war who appears as a large, muscular man in leather. Offers Percy, Annabeth, and Grover a ride and a quest.",
+          "role": "God of war",
+          "relationships": {
+            "Daughter": "Clarisse La Rue"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Was being manipulated by Luke/Kronos. Had the master bolt and helm briefly but was used as a pawn in the larger scheme.",
+          "role": "Manipulated war god",
+          "relationships": {
+            "Daughter": "Clarisse La Rue",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Fights Percy on the beach and is wounded by Riptide. Curses Percy before retreating, promising future revenge.",
+          "role": "Wounded enemy of Percy",
+          "relationships": {
+            "Daughter": "Clarisse La Rue",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "clarisse-la-rue": {
+      "name": "Clarisse La Rue",
+      "aliases": [],
+      "appearances": [6, 7, 8, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Head counselor of Cabin Five (Ares cabin). Large, mean, and enjoys bullying new campers. Tries to give Percy a swirly.",
+          "role": "Bully and head counselor",
+          "relationships": {
+            "Father": "Ares",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Daughter of Ares, god of war. Skilled in combat and warfare. Has a particular hatred for Percy after he breaks her spear.",
+          "role": "Warrior daughter of Ares",
+          "relationships": {
+            "Father": "Ares",
+            "Enemy": "Percy Jackson"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Leads the red team in Capture the Flag. Her electric spear is broken when Percy defeats her in combat at the creek.",
+          "role": "Capture the Flag leader",
+          "relationships": {
+            "Father": "Ares",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "mr-d": {
+      "name": "Mr. D",
+      "aliases": ["Dionysus", "God of Wine"],
+      "appearances": [6, 7, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Camp director of Camp Half-Blood. Grumpy man who wears a leopard-print shirt and seems to hate his job.",
+          "role": "Camp director",
+          "relationships": {}
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Revealed to be Dionysus, god of wine. Punished by Zeus to serve as camp director for 100 years. Constantly gets Percy's name wrong.",
+          "role": "Exiled god serving as camp director",
+          "relationships": {
+            "Father": "Zeus"
+          }
+        }
+      }
+    },
+    "medusa": {
+      "name": "Medusa",
+      "aliases": ["Auntie Em"],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A monster with snakes for hair who turns people to stone. Disguises herself as 'Auntie Em' running a roadside statue garden.",
+          "role": "Monster and former priestess",
+          "relationships": {
+            "Enemy": "Percy Jackson",
+            "Former patron": "Athena"
+          }
+        }
+      }
+    },
+    "procrustes": {
+      "name": "Procrustes",
+      "aliases": ["Crusty"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A monster who owns a waterbed store. Tries to stretch or cut people to fit his beds perfectly. Defeated by Percy and Annabeth.",
+          "role": "Monster and store owner",
+          "relationships": {
+            "Enemy": "Percy Jackson",
+            "Enemy": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "charon": {
+      "name": "Charon",
+      "aliases": [],
+      "appearances": [18],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Ferryman of the dead who transports souls across the River Styx. Wears Italian silk suits and is obsessed with pay raises.",
+          "role": "Ferryman of the Underworld",
+          "relationships": {
+            "Boss": "Hades"
+          }
+        }
+      }
+    },
+    "gabe-ugliano": {
+      "name": "Gabe Ugliano",
+      "aliases": ["Smelly Gabe"],
+      "appearances": [3, 4, 22],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Percy's stepfather who is lazy, rude, and smells terrible. Plays poker with his friends and treats Percy and Sally badly.",
+          "role": "Abusive stepfather",
+          "relationships": {
+            "Wife": "Sally Jackson",
+            "Stepson": "Percy Jackson"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "His terrible smell actually helps mask Percy's demigod scent from monsters, which is why Sally married him.",
+          "role": "Unwitting protector through smell",
+          "relationships": {
+            "Wife": "Sally Jackson",
+            "Stepson": "Percy Jackson"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Turned to stone by Sally using Medusa's head. Sally sells the statue as a piece of art called 'The Poker Player.'",
+          "role": "Stone statue artwork",
+          "relationships": {
+            "Ex-wife": "Sally Jackson"
+          }
+        }
+      }
+    },
+    "thalia-grace": {
+      "name": "Thalia Grace",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A daughter of Zeus who died protecting Luke, Annabeth, and Grover. Zeus turned her into the pine tree that guards Camp Half-Blood.",
+          "role": "Dead hero transformed into tree",
+          "relationships": {
+            "Father": "Zeus",
+            "Friend": "Luke Castellan",
+            "Friend": "Annabeth Chase",
+            "Protector": "Grover Underwood"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Her tree contains powerful magic that protects Camp Half-Blood from monsters. Her sacrifice saved her friends and established the camp's borders.",
+          "role": "Guardian spirit of camp",
+          "relationships": {
+            "Father": "Zeus",
+            "Friend": "Luke Castellan",
+            "Friend": "Annabeth Chase",
+            "Protected": "Grover Underwood"
+          }
+        }
+      }
+    },
+    "kronos": {
+      "name": "Kronos",
+      "aliases": ["The Titan Lord"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "The Titan lord and father of the gods who was overthrown by his children. Manipulating Luke to steal the bolt and helm to start a war.",
+          "role": "Ancient enemy seeking revenge",
+          "relationships": {
+            "Son": "Zeus",
+            "Son": "Poseidon",
+            "Son": "Hades",
+            "Servant": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "mrs-dodds": {
+      "name": "Mrs. Dodds",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Percy's pre-algebra teacher at Yancy Academy. Mean, old, and seems to have it out for Percy specifically.",
+          "role": "Pre-algebra teacher",
+          "relationships": {
+            "Student": "Percy Jackson"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Revealed to be a Fury - a monster from the Underworld sent to punish the wicked. Attacks Percy but he destroys her with a sword.",
+          "role": "Fury and monster",
+          "relationships": {
+            "Enemy": "Percy Jackson",
+            "Master": "Hades"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Percy Jackson, a troubled 12-year-old with dyslexia and ADHD, attends Yancy Academy. His pre-algebra teacher Mrs. Dodds seems to hate him, and his best friend Grover acts nervous around him. Percy has a bad temper and gets into fights with bullies like Nancy Bobofit.",
+    "2": "On a field trip to the Metropolitan Museum, Mrs. Dodds transforms into a monster and attacks Percy. Mr. Brunner tosses Percy a pen that becomes a sword, and Percy destroys Mrs. Dodds. When he returns, everyone acts like Mrs. Dodds never existed, replaced by Mrs. Kerr.",
+    "3": "Percy overhears Grover and Mr. Brunner discussing him and something about a 'summer solstice deadline.' Percy goes home to his mother Sally and awful stepfather Gabe. Sally suddenly decides to take Percy to Montauk beach, their special place.",
+    "4": "At Montauk, Sally tells Percy the truth: his father was a god, making Percy a half-blood. Monsters can smell him and will hunt him. She's been protecting him, but now he must go to a special camp. A storm brings the Minotaur, who attacks them.",
+    "5": "Percy, Sally, and Grover flee toward Camp Half-Blood. The Minotaur catches up and grabs Sally, who dissolves in a golden flash. Enraged, Percy defeats the Minotaur with his bare hands, ripping off its horn. He collapses at the camp border.",
+    "6": "Percy wakes up at Camp Half-Blood, healed by nectar and ambrosia. He meets Annabeth, a daughter of Athena, and learns about the camp. Mr. D (Dionysus) is the camp director, and Chiron (Mr. Brunner) runs activities. Percy is placed in the Hermes cabin since his godly parent is unknown.",
+    "7": "Percy learns about Camp Half-Blood's history and meets other campers. Luke Castellan, son of Hermes, befriends him and gives him a sword called Backbiter. Percy learns about the different cabins for each god's children and hears about Thalia Grace, a daughter of Zeus who died protecting the camp.",
+    "8": "During a game of Capture the Flag, Percy is claimed by Poseidon when he heals from a wound in the creek. This causes uproar since Poseidon is one of the 'Big Three' gods who swore not to have children. Percy moves to Cabin Three, alone.",
+    "9": "Chiron explains that Zeus's master bolt has been stolen, and Zeus believes Poseidon (through Percy) took it. Percy could start a war between the gods. Chiron is fired and replaced by Tantalus as camp activities director, though this is quickly reversed when Chiron is proven innocent.",
+    "10": "The Oracle gives Percy a prophecy about retrieving Zeus's master bolt from the Underworld. Percy chooses Grover and Annabeth as his quest companions. They have until the summer solstice (just days away) to prevent a war between Zeus and Poseidon.",
+    "11": "The trio travels west by bus until monsters attack. They encounter 'Auntie Em' (Medusa) at a roadside curio shop. She tries to turn them to stone, but Percy defeats her using a reflection. He cuts off her head and mails it to Mount Olympus.",
+    "12": "At the Gateway Arch in St. Louis, the quest continues. Percy is separated from his friends and encounters a chimera and Echidna. The chimera poisons Percy, who falls from the Arch into the Mississippi River, where he discovers he can breathe underwater.",
+    "13": "Percy meets water spirits who heal him and give him three pearls from his father Poseidon. The pearls will transport him and two others from any place back to the sea. He reunites with Annabeth and Grover, and they continue west.",
+    "14": "The trio encounters Ares, god of war, at a diner. Ares offers them transport west in exchange for retrieving his shield from a water park called Waterland. The park turns out to be a trap set by Hephaestus to catch Ares and Aphrodite together.",
+    "15": "At Waterland, Percy, Annabeth, and Grover navigate the Tunnel of Love to find Ares' shield. They're caught in Hephaestus's golden net trap but escape. Ares gives them a backpack with supplies and transport to Las Vegas, though the backpack is secretly trapped.",
+    "16": "In Las Vegas, the trio becomes trapped in the Lotus Hotel and Casino, where time moves differently and visitors lose track of the real world. They play games and enjoy luxury while precious days pass in the real world without them realizing it.",
+    "17": "Annabeth helps them realize they've lost several days in the Lotus Hotel. They escape and rush to Los Angeles. At a waterbed store, they encounter Procrustes (Crusty), who tries to fit them to his beds by stretching or cutting them. Percy and Annabeth defeat him.",
+    "18": "The trio enters the Underworld through DOA Recording Studios. They meet Charon, the ferryman, who transports them across the River Styx to Hades' palace. The realm of the dead is vast and filled with different areas for different types of souls.",
+    "19": "Percy confronts Hades, who reveals he didn't steal the master bolt but accuses Percy of stealing both the bolt and his helm of darkness. Hades shows them Sally Jackson, whom he's holding as leverage. The backpack from Ares contains the stolen items - it was a trap.",
+    "20": "Percy realizes Luke is the real thief working for Kronos. Using the pearls, Percy transports Sally and Grover to safety but stays to return the helm to Hades. He travels to the beach to confront the real thief and discovers Luke's betrayal and connection to Kronos.",
+    "21": "Luke reveals his resentment toward the gods and his service to Kronos, the Titan lord seeking revenge. Percy and Luke fight, but Luke escapes. Ares appears and battles Percy for interfering with his war plans. Percy wounds Ares and claims the master bolt.",
+    "22": "Percy travels to Mount Olympus (above the Empire State Building) and returns the master bolt to Zeus. Zeus grudgingly allows Percy to live. Percy returns to camp, where Grover gets his searcher's license to look for Pan, and Percy decides to stay year-round at camp to train."
+  }
+}

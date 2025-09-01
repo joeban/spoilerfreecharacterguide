@@ -1,0 +1,680 @@
+{
+  "meta": {
+    "title": "The Titan's Curse",
+    "author": "Rick Riordan",
+    "chapters": 20,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "percy-jackson": {
+      "name": "Percy Jackson",
+      "aliases": ["Perseus Jackson"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now fourteen years old, Percy goes on a mission with Annabeth, Thalia, and Grover to rescue two new half-bloods at Westover Hall boarding school.",
+          "role": "Experienced demigod on rescue mission",
+          "relationships": {
+            "Father": "Poseidon",
+            "Close friend": "Annabeth Chase",
+            "Friend": "Thalia Grace",
+            "Best friend": "Grover Underwood"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Witnesses Annabeth being taken by the manticore Dr. Thorn after she pushes him out of the way. Feels responsible for her capture.",
+          "role": "Guilt-ridden friend seeking rescue",
+          "relationships": {
+            "Father": "Poseidon",
+            "Missing friend": "Annabeth Chase",
+            "Friend": "Thalia Grace",
+            "Best friend": "Grover Underwood"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Desperately wants to join the quest to rescue Artemis and find Annabeth, but is excluded from the quest prophecy. Struggles with feeling helpless.",
+          "role": "Excluded hero seeking to help",
+          "relationships": {
+            "Father": "Poseidon",
+            "Missing friend": "Annabeth Chase",
+            "Friend": "Thalia Grace",
+            "Friend": "Zoë Nightshade"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Follows the quest anyway, accompanied by Nico di Angelo. Determined to save Annabeth despite not being chosen for the quest.",
+          "role": "Unofficial quest member",
+          "relationships": {
+            "Father": "Poseidon",
+            "Missing friend": "Annabeth Chase",
+            "Quest companion": "Nico di Angelo"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Helps defeat Atlas and rescue both Artemis and Annabeth. Takes on some of Atlas's burden temporarily to free Artemis for battle.",
+          "role": "Hero who helped defeat a Titan",
+          "relationships": {
+            "Father": "Poseidon",
+            "Close friend": "Annabeth Chase",
+            "Friend": "Thalia Grace",
+            "Enemy": "Atlas"
+          }
+        }
+      }
+    },
+    "annabeth-chase": {
+      "name": "Annabeth Chase",
+      "aliases": ["Wise Girl"],
+      "appearances": [1, 2, 3, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now fourteen years old and leading a mission to recruit two new half-bloods from Westover Hall. More experienced and confident in her abilities.",
+          "role": "Experienced recruiter",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Thalia Grace"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Captured by Dr. Thorn, the manticore, after pushing Percy out of harm's way. Her sacrifice saves Percy but puts her in great danger.",
+          "role": "Captured hero",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Thalia Grace",
+            "Captor": "Dr. Thorn"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Found to be holding up the sky in Atlas's place on Mount Tamalpais. Has been tortured but remains strong and defiant.",
+          "role": "Sky bearer and prisoner",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Thalia Grace",
+            "Captor": "Atlas"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Rescued when Percy takes her place holding the sky temporarily. Helps in the final battle against Atlas and Luke.",
+          "role": "Rescued hero and battle participant",
+          "relationships": {
+            "Mother": "Athena",
+            "Close friend": "Percy Jackson",
+            "Friend": "Thalia Grace",
+            "Enemy": "Luke Castellan"
+          }
+        }
+      }
+    },
+    "thalia-grace": {
+      "name": "Thalia Grace",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now alive and fifteen years old, daughter of Zeus with powers over lightning and the sky. Still getting used to being alive again after years as a tree.",
+          "role": "Resurrected daughter of Zeus",
+          "relationships": {
+            "Father": "Zeus",
+            "Friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Struggles with her powers and the knowledge that she could fulfill the Great Prophecy about a child of the Big Three reaching sixteen.",
+          "role": "Potential prophecy child",
+          "relationships": {
+            "Father": "Zeus",
+            "Friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase",
+            "Former friend": "Luke Castellan"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Chosen as one of the five questers to rescue Artemis and search for Annabeth. Her lightning powers and leadership experience are valuable.",
+          "role": "Quest member and lightning wielder",
+          "relationships": {
+            "Father": "Zeus",
+            "Friend": "Percy Jackson",
+            "Quest companion": "Zoë Nightshade",
+            "Quest companion": "Grover Underwood"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Joins the Hunters of Artemis to avoid the burden of the Great Prophecy and finds a new family with the immortal huntresses.",
+          "role": "Hunter of Artemis",
+          "relationships": {
+            "Father": "Zeus",
+            "Friend": "Percy Jackson",
+            "Close friend": "Annabeth Chase",
+            "Leader": "Artemis"
+          }
+        }
+      }
+    },
+    "grover-underwood": {
+      "name": "Grover Underwood",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Still searching for Pan while serving as a protector. Joins the mission to Westover Hall to help rescue two new half-bloods.",
+          "role": "Protector and Pan searcher",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Friend": "Annabeth Chase",
+            "Friend": "Thalia Grace"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Chosen as one of the questers to rescue Artemis. His wilderness skills and ability to track make him valuable to the quest.",
+          "role": "Quest tracker and guide",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Quest companion": "Thalia Grace",
+            "Quest companion": "Zoë Nightshade"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Continues the quest while worried about Percy, who has gone missing. His empathy link with Percy helps him sense his friend's condition.",
+          "role": "Worried quest member",
+          "relationships": {
+            "Best friend": "Percy Jackson",
+            "Quest companion": "Thalia Grace",
+            "Quest companion": "Zoë Nightshade"
+          }
+        }
+      }
+    },
+    "bianca-di-angelo": {
+      "name": "Bianca di Angelo",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A twelve-year-old girl at Westover Hall who seems to be one of the half-bloods Percy's group came to rescue. Very protective of her younger brother Nico.",
+          "role": "Protective sister and half-blood",
+          "relationships": {
+            "Brother": "Nico di Angelo"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Revealed to be a daughter of Hades, making her one of the forbidden children of the Big Three. Has been living with memory issues about her past.",
+          "role": "Daughter of Hades",
+          "relationships": {
+            "Father": "Hades",
+            "Brother": "Nico di Angelo"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Chooses to join the Hunters of Artemis, becoming immortal and abandoning her previous life. This decision upsets her brother Nico greatly.",
+          "role": "New Hunter of Artemis",
+          "relationships": {
+            "Father": "Hades",
+            "Brother": "Nico di Angelo",
+            "Leader": "Artemis",
+            "Sister hunter": "Zoë Nightshade"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Chosen as one of the five questers despite being the newest Hunter. Her powers over shadows and the dead prove valuable.",
+          "role": "Quest member and shadow manipulator",
+          "relationships": {
+            "Father": "Hades",
+            "Brother": "Nico di Angelo",
+            "Leader": "Artemis",
+            "Quest companion": "Zoë Nightshade"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Dies in Hephaestus's junkyard while trying to retrieve a figurine for Nico. Her death fulfills part of the quest prophecy and devastates her brother.",
+          "role": "Fallen hero and quest sacrifice",
+          "relationships": {
+            "Father": "Hades",
+            "Brother": "Nico di Angelo",
+            "Leader": "Artemis"
+          }
+        }
+      }
+    },
+    "nico-di-angelo": {
+      "name": "Nico di Angelo",
+      "aliases": [],
+      "appearances": [1, 2, 4, 5, 11, 12, 13, 14, 15, 16, 17, 18, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A ten-year-old boy at Westover Hall, very close to his older sister Bianca. Seems innocent and playful, obsessed with a card game called Mythomagic.",
+          "role": "Young half-blood brother",
+          "relationships": {
+            "Sister": "Bianca di Angelo"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Revealed to be a son of Hades, making him another forbidden child of the Big Three. Has been living with altered memories about his past.",
+          "role": "Son of Hades",
+          "relationships": {
+            "Father": "Hades",
+            "Sister": "Bianca di Angelo"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Devastated when Bianca chooses to join the Hunters of Artemis, effectively abandoning him. Feels betrayed and alone at Camp Half-Blood.",
+          "role": "Abandoned brother",
+          "relationships": {
+            "Father": "Hades",
+            "Sister": "Bianca di Angelo",
+            "Friend": "Percy Jackson"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Follows Percy on his unauthorized quest to help rescue Bianca and Artemis. Shows developing powers over the dead and shadows.",
+          "role": "Young quest companion",
+          "relationships": {
+            "Father": "Hades",
+            "Sister": "Bianca di Angelo",
+            "Quest companion": "Percy Jackson"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Witnesses his sister's death in Hephaestus's junkyard. His grief and anger begin to manifest his powers over death and the underworld more strongly.",
+          "role": "Grieving brother with growing powers",
+          "relationships": {
+            "Father": "Hades",
+            "Dead sister": "Bianca di Angelo",
+            "Blamed friend": "Percy Jackson"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Blames Percy for Bianca's death and runs away from Camp Half-Blood. His powers over death and shadows are growing stronger as his emotions intensify.",
+          "role": "Runaway son of Hades",
+          "relationships": {
+            "Father": "Hades",
+            "Dead sister": "Bianca di Angelo",
+            "Former friend": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "zoe-nightshade": {
+      "name": "Zoë Nightshade",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Lieutenant of the Hunters of Artemis who arrives to help fight Dr. Thorn. Ancient and skilled in combat, speaks in an archaic manner.",
+          "role": "Lieutenant of the Hunters",
+          "relationships": {
+            "Leader": "Artemis",
+            "Sister hunter": "Hunters of Artemis"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Extremely loyal to Artemis and suspicious of male heroes, especially Percy. Has served Artemis for over two thousand years.",
+          "role": "Ancient lieutenant and man-hater",
+          "relationships": {
+            "Leader": "Artemis",
+            "Distrusted hero": "Percy Jackson"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Chosen to lead the quest to rescue Artemis. Despite her distrust of males, she must work with Percy and others to save her mistress.",
+          "role": "Quest leader",
+          "relationships": {
+            "Leader": "Artemis",
+            "Quest companion": "Thalia Grace",
+            "Quest companion": "Bianca di Angelo",
+            "Quest companion": "Grover Underwood"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Revealed to be one of Atlas's daughters, the Hesperides, who betrayed her father long ago. This is why she has such ancient knowledge and guilt.",
+          "role": "Atlas's daughter and ancient betrayer",
+          "relationships": {
+            "Father": "Atlas",
+            "Leader": "Artemis",
+            "Former love": "Hercules"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Dies from wounds inflicted by her father Atlas during the final battle. Her sacrifice helps save Artemis and becomes a constellation in death.",
+          "role": "Fallen hero and new constellation",
+          "relationships": {
+            "Father": "Atlas",
+            "Leader": "Artemis",
+            "Quest companion": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "artemis": {
+      "name": "Artemis",
+      "aliases": ["Diana"],
+      "appearances": [3, 4, 5, 6, 19, 20],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Goddess of the hunt and moon who arrives with her Hunters to help fight Dr. Thorn. Appears as a twelve-year-old girl but with ancient, powerful presence.",
+          "role": "Goddess of the hunt",
+          "relationships": {
+            "Father": "Zeus",
+            "Twin brother": "Apollo",
+            "Lieutenant": "Zoë Nightshade",
+            "Followers": "Hunters of Artemis"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Accepts Bianca di Angelo into her Hunters, making her immortal. Explains the duties and sacrifices required of her followers.",
+          "role": "Divine recruiter",
+          "relationships": {
+            "Father": "Zeus",
+            "Lieutenant": "Zoë Nightshade",
+            "New hunter": "Bianca di Angelo",
+            "New hunter": "Thalia Grace"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Goes missing while hunting a powerful monster. The Oracle's prophecy reveals that a quest must be undertaken to rescue her.",
+          "role": "Missing goddess",
+          "relationships": {
+            "Father": "Zeus",
+            "Lieutenant": "Zoë Nightshade",
+            "Hunter": "Thalia Grace"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Found captured by Atlas, forced to hold up the sky in his place. Freed when Percy temporarily takes the burden, allowing her to fight Atlas.",
+          "role": "Captured sky-bearer",
+          "relationships": {
+            "Father": "Zeus",
+            "Captor": "Atlas",
+            "Rescuer": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "apollo": {
+      "name": "Apollo",
+      "aliases": [],
+      "appearances": [7, 8, 9, 20],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "God of music, poetry, and the sun who appears as a young man driving a sun chariot (disguised as a Maserati). Twin brother of Artemis.",
+          "role": "God of the sun and music",
+          "relationships": {
+            "Father": "Zeus",
+            "Twin sister": "Artemis"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Gives the questers a ride in his sun chariot and provides cryptic advice. His terrible poetry and haikus are a running joke among the characters.",
+          "role": "Divine taxi driver and poet",
+          "relationships": {
+            "Father": "Zeus",
+            "Twin sister": "Artemis",
+            "Passenger": "Thalia Grace"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Appears at the Winter Solstice meeting on Olympus. Supports his sister Artemis and helps decide the fates of the heroes.",
+          "role": "Divine council member",
+          "relationships": {
+            "Father": "Zeus",
+            "Twin sister": "Artemis"
+          }
+        }
+      }
+    },
+    "atlas": {
+      "name": "Atlas",
+      "aliases": ["The General"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Ancient Titan who was condemned to hold up the sky for eternity. Father of the Hesperides and Zoë Nightshade. Seeks revenge against the gods.",
+          "role": "Titan seeking revenge",
+          "relationships": {
+            "Daughter": "Zoë Nightshade",
+            "Enemy": "Zeus",
+            "Ally": "Luke Castellan"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Tricked Artemis into taking his burden of holding up the sky so he could be free to help destroy Olympus. Plans to use his freedom for revenge.",
+          "role": "Freed Titan plotting revenge",
+          "relationships": {
+            "Daughter": "Zoë Nightshade",
+            "Prisoner": "Artemis",
+            "Ally": "Luke Castellan"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Battles the heroes and kills his daughter Zoë before being tricked back into his eternal punishment of holding up the sky.",
+          "role": "Defeated Titan returned to punishment",
+          "relationships": {
+            "Dead daughter": "Zoë Nightshade",
+            "Enemy": "Percy Jackson",
+            "Enemy": "Artemis"
+          }
+        }
+      }
+    },
+    "dr-thorn": {
+      "name": "Dr. Thorn",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Vice principal of Westover Hall who seems suspicious. Takes a particular interest in Bianca and Nico di Angelo, the two half-bloods.",
+          "role": "Suspicious school administrator",
+          "relationships": {
+            "Target": "Bianca di Angelo",
+            "Target": "Nico di Angelo"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Revealed to be a manticore - a monster with a human face, lion's body, and scorpion tail that shoots poisonous spikes. Serves a mysterious 'General.'",
+          "role": "Manticore monster and servant",
+          "relationships": {
+            "Target": "Bianca di Angelo",
+            "Target": "Nico di Angelo",
+            "Master": "Atlas"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Captures Annabeth during the battle and escapes with her. His mission was to bring the di Angelo children to his master, but settles for Annabeth.",
+          "role": "Successful captor",
+          "relationships": {
+            "Captive": "Annabeth Chase",
+            "Master": "Atlas",
+            "Enemy": "Percy Jackson"
+          }
+        }
+      }
+    },
+    "luke-castellan": {
+      "name": "Luke Castellan",
+      "aliases": [],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Now serving as Atlas's lieutenant in the Titan army. Has a new scar on his face and seems more hardened and ruthless than before.",
+          "role": "Titan army lieutenant",
+          "relationships": {
+            "Master": "Atlas",
+            "Former friend": "Thalia Grace",
+            "Enemy": "Percy Jackson",
+            "Master": "Kronos"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Battles against his former friends during the confrontation with Atlas. Shows no mercy toward those he once cared about.",
+          "role": "Ruthless enemy",
+          "relationships": {
+            "Master": "Atlas",
+            "Former friend": "Thalia Grace",
+            "Enemy": "Percy Jackson",
+            "Enemy": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "chiron": {
+      "name": "Chiron",
+      "aliases": [],
+      "appearances": [4, 5, 6, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Activities director at Camp Half-Blood, concerned about the implications of having three children of the Big Three at camp simultaneously.",
+          "role": "Worried activities director",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Student": "Thalia Grace",
+            "Student": "Nico di Angelo"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Helps organize the quest to rescue Artemis and provides guidance to the questers. Understands the gravity of the situation with the Titans rising.",
+          "role": "Quest advisor",
+          "relationships": {
+            "Student": "Percy Jackson",
+            "Quest leader": "Zoë Nightshade"
+          }
+        }
+      }
+    },
+    "dionysus": {
+      "name": "Mr. D",
+      "aliases": ["Dionysus"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Camp director who continues to get Percy's name wrong. Seems more concerned than usual about the situation with multiple Big Three children.",
+          "role": "Concerned camp director",
+          "relationships": {
+            "Father": "Zeus"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Attends the Winter Solstice council meeting on Olympus. Participates in deciding the punishment for the Western gods' interference.",
+          "role": "Divine council member",
+          "relationships": {
+            "Father": "Zeus"
+          }
+        }
+      }
+    },
+    "aphrodite": {
+      "name": "Aphrodite",
+      "aliases": [],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Goddess of love and beauty who appears to Percy in the junkyard. Gives cryptic advice about love and warns him about future challenges.",
+          "role": "Goddess offering romantic advice",
+          "relationships": {
+            "Husband": "Hephaestus"
+          }
+        }
+      }
+    },
+    "blackjack": {
+      "name": "Blackjack",
+      "aliases": [],
+      "appearances": [12, 13, 14, 19],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A black pegasus that Percy befriends and who becomes his loyal flying mount. Intelligent and able to communicate telepathically with Percy.",
+          "role": "Percy's pegasus companion",
+          "relationships": {
+            "Rider": "Percy Jackson"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Helps Percy travel across the country by air, providing crucial transportation during his unauthorized quest to help rescue Artemis.",
+          "role": "Flying transportation",
+          "relationships": {
+            "Rider": "Percy Jackson",
+            "Passenger": "Nico di Angelo"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Percy Jackson, now fourteen, goes on a mission with Annabeth, Thalia, and Grover to Westover Hall, a military boarding school, to rescue two half-blood siblings: Bianca and Nico di Angelo.",
+    "2": "At the school dance, Dr. Thorn, the vice principal, reveals himself as a manticore and attacks the group. The situation becomes dangerous as he tries to capture the di Angelo children.",
+    "3": "The Hunters of Artemis, led by Zoë Nightshade, arrive to help fight Dr. Thorn. During the battle, Annabeth pushes Percy out of the way and is captured by the manticore, who escapes with her.",
+    "4": "The group returns to Camp Half-Blood where Bianca and Nico are revealed to be children of Hades. Artemis herself arrives at camp, and the situation becomes more complex with three Big Three children present.",
+    "5": "Artemis offers Bianca a place among her immortal Hunters. Despite Nico's protests, Bianca accepts, choosing immortality and eternal youth over her mortal life with her brother.",
+    "6": "Artemis goes missing while hunting a dangerous monster. The Oracle gives a prophecy about a quest to rescue the goddess, and five heroes are chosen: Zoë, Thalia, Bianca, Grover, and surprisingly, a fifth member to be revealed.",
+    "7": "The quest begins, but Percy is not chosen to participate, despite his desperate desire to save Annabeth. The questers encounter Apollo, who gives them a ride in his sun chariot.",
+    "8": "Apollo provides transportation and cryptic advice through his terrible poetry. The quest continues westward as the group seeks to find both Artemis and Annabeth.",
+    "9": "The questers face various challenges and monsters as they travel across the country. Percy, left behind at camp, grows increasingly frustrated and worried about Annabeth.",
+    "10": "Percy encounters Aphrodite in a vision, who gives him advice about love and warns him of upcoming challenges. Meanwhile, the quest party continues to face dangers.",
+    "11": "Unable to stay behind any longer, Percy leaves camp with Nico di Angelo and Blackjack the pegasus to follow the quest and help save Annabeth.",
+    "12": "Percy and Nico travel by air on Blackjack, tracking the quest. They encounter various obstacles and monsters as they try to catch up with the official quest party.",
+    "13": "Percy and Nico continue their journey, with Percy's powers and Nico's emerging abilities over the dead helping them overcome challenges. They get closer to finding the quest.",
+    "14": "The group faces more dangers as they approach their destination. Percy and Nico finally catch up with the quest party, though their arrival is not entirely welcome.",
+    "15": "In Hephaestus's junkyard, the group faces mechanical monsters. During the battle, Bianca sacrifices herself to save the others, devastating her brother Nico and fulfilling part of the prophecy.",
+    "16": "The group mourns Bianca's death and continues toward Mount Tamalpais. They discover that the mysterious 'General' they've been tracking is actually Atlas, the Titan.",
+    "17": "Luke appears as Atlas's lieutenant, revealing his deeper involvement with the Titan army. The final confrontation approaches as the heroes prepare to face their greatest challenge.",
+    "18": "The heroes reach Mount Tamalpais where they find Artemis holding up the sky in Atlas's place, and Annabeth imprisoned nearby. The trap set by Atlas becomes clear.",
+    "19": "The final battle takes place on Mount Tamalpais. Percy temporarily takes Artemis's burden of holding up the sky, freeing her to fight Atlas. Zoë Nightshade dies in battle against her father Atlas, but the heroes ultimately triumph.",
+    "20": "The heroes return to Olympus for the Winter Solstice. Thalia joins the Hunters of Artemis to avoid the Great Prophecy, Zoë becomes a constellation, and the gods debate the threat of the rising Titans. Nico blames Percy for Bianca's death and runs away, while his true parentage and powers are revealed."
+  }
+}
