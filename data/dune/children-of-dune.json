@@ -2776,6 +2776,414 @@
           }
         }
       }
+    },
+    "jacurutu-leader-namri": {
+      "name": "Namri",
+      "aliases": ["The Jacurutu Naib", "Desert Outcast"],
+      "appearances": [15, 18, 22, 28, 34, 40],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Leader of the outlawed Fremen of Jacurutu, those who have rejected the changes brought by Paul's empire. Represents the traditional Fremen ways that resist Imperial transformation.",
+          "role": "Outcast Fremen leader",
+          "relationships": {
+            "Jacurutu tribe": "Leads",
+            "Traditional Fremen": "Preserves ways of",
+            "Leto II": "Opposes initially"
+          }
+        }
+      }
+    },
+    "qizarate-inquisitor-javid": {
+      "name": "Javid",
+      "aliases": ["High Inquisitor"],
+      "appearances": [5, 12, 18, 25, 31, 38],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "High-ranking Qizarate official responsible for maintaining religious orthodoxy and hunting heretics. Works to preserve the religious structure built around Paul's legend.",
+          "role": "Religious enforcer",
+          "relationships": {
+            "Qizarate": "High official in",
+            "The Preacher": "Seeks to silence",
+            "Religious orthodoxy": "Enforces"
+          }
+        }
+      }
+    },
+    "corrino-agent-tyekanik": {
+      "name": "Tyekanik",
+      "aliases": ["Sardaukar Bashar"],
+      "appearances": [10, 16, 22, 28, 35, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Former Sardaukar commander now serving House Corrino in their plotting against the Atreides twins. Military advisor to Wensicia and trainer of conspirators.",
+          "role": "Military conspirator",
+          "relationships": {
+            "House Corrino": "Serves",
+            "Wensicia Corrino": "Advises",
+            "Anti-Atreides conspiracy": "Military leader of"
+          }
+        }
+      }
+    },
+    "fremen-rebel-mashhad": {
+      "name": "Mashhad",
+      "aliases": ["The Desert Voice"],
+      "appearances": [8, 14, 20, 27, 34],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Fremen traditionalist who opposes the changes brought to Arrakis by Paul's empire. Leads underground resistance to Imperial influence on Fremen culture.",
+          "role": "Cultural resistance leader",
+          "relationships": {
+            "Traditional Fremen": "Leads resistance of",
+            "Alia's regime": "Opposes",
+            "Old ways": "Fights to preserve"
+          }
+        }
+      }
+    },
+    "bene-gesserit-proctor-tamalane": {
+      "name": "Tamalane",
+      "aliases": ["Wensicia's Advisor"],
+      "appearances": [13, 19, 26, 33, 40],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Bene Gesserit sister working closely with Wensicia Corrino to restore House Corrino to power. Uses sisterhood training in service of political conspiracy.",
+          "role": "Political advisor",
+          "relationships": {
+            "Wensicia Corrino": "Advises",
+            "Bene Gesserit": "Serves sisterhood through",
+            "House Corrino": "Works to restore"
+          }
+        }
+      }
+    },
+    "palace-guard-captain-muriz": {
+      "name": "Muriz",
+      "aliases": ["Captain of Palace Guard"],
+      "appearances": [7, 11, 17, 24, 30, 37],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Captain of the palace guard who serves under Alia's increasingly unstable regime. Struggles with loyalty as his regent becomes more erratic and dangerous.",
+          "role": "Palace security chief",
+          "relationships": {
+            "Alia Atreides": "Serves as regent",
+            "Palace guards": "Commands",
+            "Twin heirs": "Responsible for protecting"
+          }
+        }
+      }
+    },
+    "spacing-guild-delegate-ruhin": {
+      "name": "Ruhin",
+      "aliases": [],
+      "appearances": [6, 15, 23, 29, 36],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Guild representative who monitors the political situation on Arrakis for potential impacts on spice production. Concerned about stability and trade continuity.",
+          "role": "Guild commercial observer",
+          "relationships": {
+            "Spacing Guild": "Represents",
+            "Spice trade": "Monitors",
+            "Political stability": "Assesses"
+          }
+        }
+      }
+    },
+    "smuggler-network-leader-tuono": {
+      "name": "Tuono",
+      "aliases": ["The Desert Merchant"],
+      "appearances": [9, 16, 24, 32, 39],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Leader of a smuggling network operating in the deep desert. Takes advantage of political chaos to expand illegal trade operations.",
+          "role": "Criminal organization leader",
+          "relationships": {
+            "Smuggling network": "Commands",
+            "Desert operations": "Conducts",
+            "Illegal trade": "Manages"
+          }
+        }
+      }
+    },
+    "imperial-messenger-corvat": {
+      "name": "Corvat",
+      "aliases": [],
+      "appearances": [4, 12, 21, 28, 35, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Imperial courier responsible for carrying messages between Arrakis and other worlds. Witnesses the growing instability of Alia's reign through his travels.",
+          "role": "Imperial communications",
+          "relationships": {
+            "Imperial administration": "Serves",
+            "Inter-world communication": "Maintains",
+            "Political intelligence": "Gathers through travel"
+          }
+        }
+      }
+    },
+    "fremen-water-seller-otheym": {
+      "name": "Otheym",
+      "aliases": ["Water Merchant"],
+      "appearances": [11, 18, 25, 33, 41],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Fremen who has adapted to the changing economy by selling water to pilgrims and visitors. Represents the commercialization of traditional Fremen resources.",
+          "role": "Commercial water trader",
+          "relationships": {
+            "Pilgrims": "Sells water to",
+            "Fremen tradition": "Adapts for profit",
+            "New economy": "Participates in"
+          }
+        }
+      }
+    },
+    "duncan-idaho-aide-guriff": {
+      "name": "Guriff",
+      "aliases": [],
+      "appearances": [3, 10, 17, 26, 34, 42],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Military aide to Duncan Idaho who assists in protecting and training the twins. Veteran soldier loyal to the Atreides tradition and the children's welfare.",
+          "role": "Military assistant",
+          "relationships": {
+            "Duncan Idaho": "Serves as aide to",
+            "Twin heirs": "Helps protect",
+            "Military training": "Assists in"
+          }
+        }
+      }
+    },
+    "tribal-elder-farouk": {
+      "name": "Farouk",
+      "aliases": ["Elder of Sietch Makab"],
+      "appearances": [14, 20, 27, 35, 44],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Fremen elder who remembers the old ways before Paul's empire. Serves as a keeper of traditional knowledge and customs that are being lost.",
+          "role": "Traditional knowledge keeper",
+          "relationships": {
+            "Fremen tradition": "Preserves",
+            "Old customs": "Remembers and teaches",
+            "Sietch Makab": "Elder of"
+          }
+        }
+      }
+    },
+    "bene-gesserit-spy-margera": {
+      "name": "Margera",
+      "aliases": [],
+      "appearances": [8, 16, 23, 31, 38, 46],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Bene Gesserit sister working as a spy within the palace. Gathers intelligence on the twins' development and Alia's increasing instability.",
+          "role": "Sisterhood intelligence agent",
+          "relationships": {
+            "Bene Gesserit": "Serves as spy for",
+            "Palace court": "Infiltrates",
+            "Twins' development": "Monitors"
+          }
+        }
+      }
+    },
+    "corrino-assassin-hidar": {
+      "name": "Hidar",
+      "aliases": ["The Shadow"],
+      "appearances": [19, 26, 32, 38, 45],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Professional assassin hired by House Corrino to eliminate the Atreides twins. Expert in stealth and killing techniques, represents the violent option in the conspiracy.",
+          "role": "Professional killer",
+          "relationships": {
+            "House Corrino": "Hired by",
+            "Wensicia Corrino": "Takes orders from",
+            "Atreides twins": "Targets for assassination"
+          }
+        }
+      }
+    },
+    "preacher-follower-kalim": {
+      "name": "Kalim",
+      "aliases": ["Voice of the Desert"],
+      "appearances": [7, 13, 21, 29, 36, 44],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Devoted follower of the Preacher who helps spread his message of religious reform. Former Qizarate member who became disillusioned with the corrupted state religion.",
+          "role": "Religious reformer",
+          "relationships": {
+            "The Preacher": "Follows and supports",
+            "Religious reform": "Advocates for",
+            "Former Qizarate": "Rejected corruption of"
+          }
+        }
+      }
+    },
+    "palace-physician-buer": {
+      "name": "Buer",
+      "aliases": [],
+      "appearances": [5, 14, 22, 30, 38, 47],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Palace physician who treats the royal family and observes the twins' unusual development. Notices the strange aspects of their pre-born nature.",
+          "role": "Royal medical advisor",
+          "relationships": {
+            "Royal family": "Provides medical care to",
+            "Twins' development": "Monitors health of",
+            "Palace staff": "Medical authority for"
+          }
+        }
+      }
+    },
+    "fremen-spice-worker-hakim": {
+      "name": "Hakim",
+      "aliases": [],
+      "appearances": [9, 17, 24, 31, 39, 48],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Fremen spice harvester who works the dangerous sands for Alia's regime. Represents the working class struggling under the changing political and economic conditions.",
+          "role": "Desert laborer",
+          "relationships": {
+            "Spice harvesting": "Works in",
+            "Alia's regime": "Labors under",
+            "Desert dangers": "Faces daily"
+          }
+        }
+      }
+    },
+    "guild-navigator-trainee-nexus": {
+      "name": "Nexus",
+      "aliases": [],
+      "appearances": [12, 19, 27, 34, 42],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Young Guild navigator in training who observes the political situation for its potential impact on space travel. Represents the Guild's long-term interests.",
+          "role": "Guild observer",
+          "relationships": {
+            "Spacing Guild": "Training with",
+            "Navigation duties": "Learning",
+            "Political monitoring": "Conducts"
+          }
+        }
+      }
+    },
+    "desert-survival-expert-kamal": {
+      "name": "Kamal",
+      "aliases": ["The Guide"],
+      "appearances": [6, 15, 23, 30, 37, 45],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Expert in desert survival who teaches both pilgrims and residents how to live safely in the harsh environment. Maintains traditional knowledge of desert ways.",
+          "role": "Survival instructor",
+          "relationships": {
+            "Desert survival": "Expert in",
+            "Pilgrims": "Teaches safety to",
+            "Traditional knowledge": "Preserves"
+          }
+        }
+      }
+    },
+    "imperial-tax-assessor-vellus": {
+      "name": "Vellus",
+      "aliases": [],
+      "appearances": [4, 13, 20, 28, 35, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Imperial official responsible for assessing and collecting taxes from Arrakis. Witnesses the economic changes and political instability affecting revenue collection.",
+          "role": "Revenue administrator",
+          "relationships": {
+            "Imperial treasury": "Collects for",
+            "Arrakis economy": "Assesses",
+            "Political stability": "Depends on for efficiency"
+          }
+        }
+      }
+    },
+    "sietch-water-keeper-habib": {
+      "name": "Habib",
+      "aliases": [],
+      "appearances": [11, 18, 25, 33, 40, 49],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Traditional water keeper at a remote sietch who maintains the ancient customs around water conservation and distribution. Resists changes to traditional practices.",
+          "role": "Water tradition guardian",
+          "relationships": {
+            "Water conservation": "Maintains traditions of",
+            "Sietch community": "Serves",
+            "Ancient customs": "Preserves"
+          }
+        }
+      }
+    },
+    "mentat-advisor-zenon": {
+      "name": "Zenon",
+      "aliases": [],
+      "appearances": [10, 17, 26, 33, 41, 50],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Mentat advisor serving in the imperial administration who provides computational analysis of the political situation. Observes the growing instability with concern.",
+          "role": "Administrative analyst",
+          "relationships": {
+            "Imperial administration": "Serves",
+            "Political analysis": "Provides",
+            "Mentat calculations": "Performs"
+          }
+        }
+      }
+    },
+    "arrakeen-trader-council-head-yusuf": {
+      "name": "Yusuf",
+      "aliases": ["Trade Council Leader"],
+      "appearances": [8, 16, 24, 32, 39, 47],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Head of the Arrakeen merchant council who manages trade relationships and commercial disputes. Adapts to changing economic conditions under various political pressures.",
+          "role": "Commercial mediator",
+          "relationships": {
+            "Merchant community": "Leads",
+            "Trade disputes": "Mediates",
+            "Economic adaptation": "Manages"
+          }
+        }
+      }
+    },
+    "palace-librarian-historian-dawood": {
+      "name": "Dawood",
+      "aliases": [],
+      "appearances": [2, 14, 21, 29, 36, 44, 52],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Palace librarian and historian who maintains records of the Atreides reign and the twins' education. Provides historical context and research support.",
+          "role": "Knowledge keeper",
+          "relationships": {
+            "Imperial records": "Maintains",
+            "Historical research": "Conducts",
+            "Educational support": "Provides"
+          }
+        }
+      }
     }
   },
   "recaps": {

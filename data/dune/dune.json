@@ -2199,6 +2199,329 @@
           }
         }
       }
+    },
+    "naib": {
+      "name": "Naib",
+      "aliases": ["Sietch Leader"],
+      "appearances": [20, 22, 25, 30, 35],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Leader of a Fremen sietch. The title means 'one who has authority' and represents the tribal leadership structure of the desert people.",
+          "role": "Fremen tribal leader",
+          "relationships": {
+            "Fremen": "Leads",
+            "Sietch": "Commands",
+            "Other Naibs": "Councils with"
+          }
+        }
+      }
+    },
+    "agarves": {
+      "name": "Agarves",
+      "aliases": [],
+      "appearances": [20, 22, 30],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fremen warrior of Sietch Tabr who witnesses Paul's combat with Jamis. Represents the strict honor code and combat traditions of the Fremen.",
+          "role": "Fremen witness",
+          "relationships": {
+            "Stilgar": "Serves under",
+            "Paul Atreides": "Witnesses proving of",
+            "Jamis": "Fellow warrior with"
+          }
+        }
+      }
+    },
+    "captain-kryubi": {
+      "name": "Captain Kryubi",
+      "aliases": [],
+      "appearances": [8, 10, 14],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Atreides spacecraft captain responsible for transporting the household to Arrakis. Skilled navigator who understands the dangers of interplanetary travel.",
+          "role": "Atreides ship captain",
+          "relationships": {
+            "Duke Leto": "Serves",
+            "Atreides household": "Transports",
+            "Spacing Guild": "Coordinates with"
+          }
+        }
+      }
+    },
+    "sergeant-cuffy": {
+      "name": "Sergeant Cuffy",
+      "aliases": [],
+      "appearances": [8, 10, 12, 14],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Atreides sergeant responsible for household security during the transition to Arrakis. Experienced non-commissioned officer who serves the Duke loyally.",
+          "role": "Atreides security sergeant",
+          "relationships": {
+            "Duke Leto": "Protects",
+            "Atreides guards": "Commands",
+            "Gurney Halleck": "Reports to"
+          }
+        }
+      }
+    },
+    "mapes-the-fremen": {
+      "name": "Mapes the Fremen",
+      "aliases": [],
+      "appearances": [20, 25],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fremen woman who recognizes Jessica as potentially the prophesied mother. Shows the deep religious beliefs that permeate Fremen culture.",
+          "role": "Fremen believer",
+          "relationships": {
+            "Lady Jessica": "Recognizes as prophesied",
+            "Fremen prophecy": "Believer in",
+            "Sietch community": "Part of"
+          }
+        }
+      }
+    },
+    "captain-lin": {
+      "name": "Captain Lin",
+      "aliases": [],
+      "appearances": [42, 43, 44],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Sardaukar captain serving under the Emperor's forces. Commands elite troops in the assault on Arrakis and the desert strongholds.",
+          "role": "Sardaukar field captain",
+          "relationships": {
+            "Emperor Shaddam IV": "Serves",
+            "Sardaukar troops": "Commands",
+            "Colonel Bashar Zum Garon": "Reports to"
+          }
+        }
+      }
+    },
+    "dr-lingar-bewt": {
+      "name": "Dr. Lingar Bewt",
+      "aliases": [],
+      "appearances": [12, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Atreides physician who serves the Duke's household on Arrakis. Works alongside Dr. Yueh in providing medical care to the Atreides forces.",
+          "role": "Atreides physician",
+          "relationships": {
+            "Duke Leto": "Serves",
+            "Dr. Wellington Yueh": "Works with",
+            "Atreides household": "Provides medical care to"
+          }
+        }
+      }
+    },
+    "hawat-mentat-trainee": {
+      "name": "Hawat Mentat Trainee",
+      "aliases": [],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Student of Thufir Hawat learning the Mentat disciplines. Represents the continuation of human computational training within House Atreides.",
+          "role": "Mentat student",
+          "relationships": {
+            "Thufir Hawat": "Studies under",
+            "Mentat school": "Training in",
+            "House Atreides": "Serves"
+          }
+        }
+      }
+    },
+    "lieutenant-kimmel": {
+      "name": "Lieutenant Kimmel",
+      "aliases": [],
+      "appearances": [10, 12, 14],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Atreides officer who assists in establishing the household's presence on Arrakis. Shows the loyalty and competence of the Duke's military officers.",
+          "role": "Atreides officer",
+          "relationships": {
+            "Duke Leto": "Serves",
+            "Atreides military": "Officer in",
+            "Duncan Idaho": "Works under"
+          }
+        }
+      }
+    },
+    "baliset-player": {
+      "name": "Baliset Player",
+      "aliases": [],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Musician who plays the nine-stringed baliset for entertainment at Castle Caladan. Represents the cultural aspects of noble house life.",
+          "role": "Court musician",
+          "relationships": {
+            "Duke Leto": "Entertains",
+            "Gurney Halleck": "Fellow musician with",
+            "Atreides court": "Performs for"
+          }
+        }
+      }
+    },
+    "sergeant-major-kelly": {
+      "name": "Sergeant Major Kelly",
+      "aliases": [],
+      "appearances": [8, 10, 14],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Senior non-commissioned officer in the Atreides military. Responsible for training and discipline of the Duke's soldiers.",
+          "role": "Senior Atreides NCO",
+          "relationships": {
+            "Atreides military": "Senior NCO in",
+            "Gurney Halleck": "Serves under",
+            "Duke Leto": "Loyal to"
+          }
+        }
+      }
+    },
+    "captain-nort": {
+      "name": "Captain Nort",
+      "aliases": [],
+      "appearances": [42, 43],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Sardaukar captain in the Emperor's elite forces. Commands troops during the final assault on the Fremen strongholds.",
+          "role": "Sardaukar captain",
+          "relationships": {
+            "Sardaukar forces": "Commands unit in",
+            "Emperor Shaddam IV": "Serves",
+            "Imperial military": "Elite officer in"
+          }
+        }
+      }
+    },
+    "fremen-sayyadina-assistant": {
+      "name": "Fremen Sayyadina Assistant",
+      "aliases": [],
+      "appearances": [25, 30],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Fremen woman who assists the Sayyadina in religious ceremonies and the preparation of the Water of Life. Deeply versed in Fremen religious traditions.",
+          "role": "Religious assistant",
+          "relationships": {
+            "The Sayyadina": "Assists",
+            "Fremen religion": "Practitioner of",
+            "Lady Jessica": "Helps in transformation of"
+          }
+        }
+      }
+    },
+    "planetologist-assistant": {
+      "name": "Planetologist Assistant",
+      "aliases": [],
+      "appearances": [12, 16],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Scientist who worked with Pardot Kynes and later Liet-Kynes in studying Arrakis. Understands the planet's ecosystem and the role of sandworms.",
+          "role": "Ecological researcher",
+          "relationships": {
+            "Liet-Kynes": "Works with",
+            "Pardot Kynes": "Studied under",
+            "Imperial Planetologist": "Assistant to"
+          }
+        }
+      }
+    },
+    "sietch-tabr-guard": {
+      "name": "Sietch Tabr Guard",
+      "aliases": [],
+      "appearances": [20, 22, 25],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fremen warrior responsible for defending Sietch Tabr from intruders and maintaining security. Skilled in desert combat and stealth.",
+          "role": "Sietch guardian",
+          "relationships": {
+            "Stilgar": "Reports to",
+            "Sietch Tabr": "Protects",
+            "Paul Atreides": "Initially suspicious of"
+          }
+        }
+      }
+    },
+    "water-master": {
+      "name": "Water Master",
+      "aliases": [],
+      "appearances": [20, 22, 30],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fremen responsible for managing the tribe's most precious resource - water. Maintains strict accounting of every drop and oversees water ceremonies.",
+          "role": "Water administrator",
+          "relationships": {
+            "Sietch Tabr": "Manages water for",
+            "Fremen customs": "Enforces water discipline",
+            "Stilgar": "Reports to"
+          }
+        }
+      }
+    },
+    "house-atreides-banker": {
+      "name": "House Atreides Banker",
+      "aliases": [],
+      "appearances": [3, 8, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Financial advisor to Duke Leto who manages the house's economic affairs and investments. Understands the complex economics of the spice trade.",
+          "role": "House financial advisor",
+          "relationships": {
+            "Duke Leto": "Advises",
+            "House Atreides": "Manages finances for",
+            "CHOAM": "Deals with"
+          }
+        }
+      }
+    },
+    "arrakeen-guard-captain": {
+      "name": "Arrakeen Guard Captain",
+      "aliases": [],
+      "appearances": [10, 12, 14],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Local security officer who works with the Atreides during their brief rule of Arrakeen. Knows the city's security challenges and criminal elements.",
+          "role": "City security chief",
+          "relationships": {
+            "Arrakeen": "Provides security for",
+            "Duke Leto": "Serves under",
+            "Atreides forces": "Coordinates with"
+          }
+        }
+      }
+    },
+    "spice-harvester-chief": {
+      "name": "Spice Harvester Chief",
+      "aliases": [],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Supervisor of spice harvesting operations who understands the dangerous work of collecting melange from the deep desert. Expert in avoiding sandworm attacks.",
+          "role": "Spice production supervisor",
+          "relationships": {
+            "Spice harvesters": "Commands",
+            "Atreides mining": "Manages",
+            "Shai-Hulud": "Avoids"
+          }
+        }
+      }
     }
   },
   "recaps": {

@@ -1876,6 +1876,397 @@
           }
         }
       }
+    },
+    "qizarate-priest-omman": {
+      "name": "Omman",
+      "aliases": ["High Priest of Qizara", "Keeper of the Creed"],
+      "appearances": [1, 3, 5, 12, 15, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "High-ranking priest in the Qizarate who oversees the religious administration of Paul's empire. Manages the complex bureaucracy of the state religion and interprets Paul's divinity for the masses.",
+          "role": "Religious administrator",
+          "relationships": {
+            "Qizarate": "High official in",
+            "Paul Atreides": "Serves as religious interpreter",
+            "Pilgrims": "Guides worship of"
+          }
+        }
+      }
+    },
+    "pilgrim-leader-hassik": {
+      "name": "Hassik",
+      "aliases": ["Pilgrim Guide", "Desert Walker"],
+      "appearances": [3, 6, 12, 18],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Leader of a large pilgrimage group from the distant worlds who has come to worship Paul-Muad'Dib. Represents the millions who make the journey to Arrakis seeking religious fulfillment.",
+          "role": "Pilgrimage organizer",
+          "relationships": {
+            "Paul Atreides": "Worships as Messiah",
+            "Pilgrims": "Leads group of",
+            "Arrakis": "Makes religious journey to"
+          }
+        }
+      }
+    },
+    "fremen-naib-mahmud": {
+      "name": "Mahmud",
+      "aliases": ["Naib of Sietch Ghanima"],
+      "appearances": [5, 10, 15, 20, 25],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Traditional Fremen leader who struggles with the changes Paul's empire has brought to Fremen society. Represents the tension between old ways and the new imperial order.",
+          "role": "Traditional Fremen leader",
+          "relationships": {
+            "Paul Atreides": "Conflicted loyalty to",
+            "Fremen tradition": "Preserves",
+            "Sietch Ghanima": "Leads"
+          }
+        }
+      }
+    },
+    "imperial-courier-jarno": {
+      "name": "Jarno",
+      "aliases": [],
+      "appearances": [2, 7, 11, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Imperial messenger responsible for carrying communications across Paul's vast empire. Witnesses firsthand the administrative challenges of ruling across galactic distances.",
+          "role": "Imperial communications",
+          "relationships": {
+            "Paul Atreides": "Serves as messenger",
+            "Imperial administration": "Part of",
+            "Galaxy": "Travels across"
+          }
+        }
+      }
+    },
+    "bene-gesserit-acolyte-mirane": {
+      "name": "Mirane",
+      "aliases": [],
+      "appearances": [8, 14, 22, 28],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Young Bene Gesserit sister working to undermine Paul's reign from within. Trained in the subtle arts of manipulation and information gathering.",
+          "role": "Bene Gesserit infiltrator",
+          "relationships": {
+            "Bene Gesserit": "Serves sisterhood",
+            "Paul Atreides": "Works against",
+            "Conspiracy": "Provides intelligence to"
+          }
+        }
+      }
+    },
+    "tleilaxu-master-jekken": {
+      "name": "Jekken",
+      "aliases": ["Face Dancer Master"],
+      "appearances": [15, 20, 26, 30],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Tleilaxu master who oversees the Face Dancer operations within Paul's empire. Expert in biological manipulation and genetic engineering.",
+          "role": "Tleilaxu operative",
+          "relationships": {
+            "Scytale": "Works with",
+            "Face Dancers": "Commands",
+            "Tleilaxu conspiracy": "Manages operations for"
+          }
+        }
+      }
+    },
+    "guild-banker-thowic": {
+      "name": "Thowic",
+      "aliases": [],
+      "appearances": [4, 9, 17, 24],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Spacing Guild financial representative who manages the economic aspects of spice trade disruption. Concerned about the Guild's financial losses due to Paul's policies.",
+          "role": "Guild financial officer",
+          "relationships": {
+            "Spacing Guild": "Represents financially",
+            "Edric": "Reports to",
+            "Spice trade": "Manages economics of"
+          }
+        }
+      }
+    },
+    "sardaukar-commander-jaken": {
+      "name": "Jaken",
+      "aliases": ["Former Elite Commander"],
+      "appearances": [6, 11, 18, 23],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Former Sardaukar commander who now serves in Paul's imperial forces. His experience in elite warfare makes him valuable, but his loyalty remains somewhat questionable.",
+          "role": "Converted military officer",
+          "relationships": {
+            "Paul Atreides": "Serves reluctantly",
+            "Former Sardaukar": "Elite veteran of",
+            "Imperial Guard": "Now commands in"
+          }
+        }
+      }
+    },
+    "fremen-water-master-kalef": {
+      "name": "Kalef",
+      "aliases": [],
+      "appearances": [7, 13, 19, 26],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Fremen water master responsible for managing the sacred resource in the new imperial order. Struggles with changes to traditional water ceremonies and customs.",
+          "role": "Water tradition keeper",
+          "relationships": {
+            "Fremen customs": "Maintains",
+            "Water ceremonies": "Oversees",
+            "Paul Atreides": "Serves with concern"
+          }
+        }
+      }
+    },
+    "choam-director-vanese": {
+      "name": "Vanese",
+      "aliases": [],
+      "appearances": [9, 16, 21, 27],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "CHOAM director who works to maintain commercial stability during Paul's disruptive reign. Balances company profits with the complex politics of the new empire.",
+          "role": "Commercial coordinator",
+          "relationships": {
+            "CHOAM": "Director of",
+            "Spice trade": "Manages commercial aspects",
+            "Paul Atreides": "Negotiates with"
+          }
+        }
+      }
+    },
+    "imperial-historian-aven": {
+      "name": "Aven",
+      "aliases": [],
+      "appearances": [1, 8, 15, 22, 29],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Official historian of Paul's empire who documents the jihad's progress and the transformation of the galaxy. Struggles with recording both the glory and horror of Paul's reign.",
+          "role": "Imperial chronicler",
+          "relationships": {
+            "Paul Atreides": "Records history of",
+            "Imperial archives": "Maintains",
+            "Jihad": "Documents"
+          }
+        }
+      }
+    },
+    "face-dancer-keff": {
+      "name": "Keff",
+      "aliases": [],
+      "appearances": [12, 18, 25, 31],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Face Dancer agent working within Paul's administration to gather intelligence and sow confusion. Master of mimicry and infiltration techniques.",
+          "role": "Tleilaxu spy",
+          "relationships": {
+            "Scytale": "Reports to",
+            "Imperial court": "Infiltrates",
+            "Tleilaxu": "Serves"
+          }
+        }
+      }
+    },
+    "qizarate-interpreter-hamal": {
+      "name": "Hamal",
+      "aliases": ["Voice of the Prophet"],
+      "appearances": [3, 10, 17, 24, 30],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Qizarate priest who interprets Paul's words and visions for the masses. Responsible for translating the Emperor's divine pronouncements into practical religious doctrine.",
+          "role": "Religious interpreter",
+          "relationships": {
+            "Paul Atreides": "Interprets divine words of",
+            "Qizarate": "Serves as voice for",
+            "Religious masses": "Teaches"
+          }
+        }
+      }
+    },
+    "spice-worker-union-leader-demko": {
+      "name": "Demko",
+      "aliases": [],
+      "appearances": [5, 14, 20, 28],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Leader of spice workers who organizes labor in the dangerous harvesting operations. Balances worker safety with the empire's demand for increased spice production.",
+          "role": "Labor organizer",
+          "relationships": {
+            "Spice workers": "Leads",
+            "Imperial demands": "Negotiates with",
+            "Paul Atreides": "Petitions"
+          }
+        }
+      }
+    },
+    "imperial-engineer-cyto": {
+      "name": "Cyto",
+      "aliases": [],
+      "appearances": [6, 13, 19, 26, 32],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Chief engineer responsible for maintaining the complex technology that supports Paul's empire. Manages everything from space travel to desert installations.",
+          "role": "Imperial technical chief",
+          "relationships": {
+            "Imperial infrastructure": "Maintains",
+            "Paul Atreides": "Serves technically",
+            "Technology systems": "Oversees"
+          }
+        }
+      }
+    },
+    "fremen-storyteller-nayla": {
+      "name": "Nayla",
+      "aliases": ["Keeper of Tales"],
+      "appearances": [4, 11, 18, 25, 31],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Fremen woman who preserves the old stories and traditions even as the desert culture transforms under Paul's empire. Maintains oral history and cultural memory.",
+          "role": "Cultural preservationist",
+          "relationships": {
+            "Fremen tradition": "Preserves",
+            "Old stories": "Keeps alive",
+            "Paul Atreides": "Records legends of"
+          }
+        }
+      }
+    },
+    "guild-security-chief-mando": {
+      "name": "Mando",
+      "aliases": [],
+      "appearances": [8, 16, 23, 29],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Spacing Guild security officer responsible for protecting Guild interests and operations. Works to counter Paul's disruptive influence on space travel monopoly.",
+          "role": "Guild security chief",
+          "relationships": {
+            "Spacing Guild": "Protects interests of",
+            "Edric": "Reports to",
+            "Guild operations": "Secures"
+          }
+        }
+      }
+    },
+    "bene-gesserit-truthsayer-kethra": {
+      "name": "Kethra",
+      "aliases": [],
+      "appearances": [7, 15, 22, 28, 33],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Bene Gesserit Truthsayer who uses her abilities to detect deception within Paul's court. Works covertly to advance sisterhood interests while serving imperial administration.",
+          "role": "Court truthsayer",
+          "relationships": {
+            "Bene Gesserit": "Serves sisterhood",
+            "Imperial court": "Operates within",
+            "Truth detection": "Practices"
+          }
+        }
+      }
+    },
+    "imperial-tax-collector-vorth": {
+      "name": "Vorth",
+      "aliases": [],
+      "appearances": [9, 17, 24, 30],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Imperial official responsible for collecting taxes and tributes from the conquered worlds. Manages the complex economics of maintaining Paul's vast empire.",
+          "role": "Imperial revenue officer",
+          "relationships": {
+            "Paul Atreides": "Serves financially",
+            "Conquered worlds": "Collects from",
+            "Imperial treasury": "Manages"
+          }
+        }
+      }
+    },
+    "mentat-student-hallin": {
+      "name": "Hallin",
+      "aliases": [],
+      "appearances": [10, 18, 26, 32],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Young Mentat in training who serves in Paul's administration. Represents the continued development of human computational abilities within the empire.",
+          "role": "Mentat apprentice",
+          "relationships": {
+            "Mentat discipline": "Studies",
+            "Imperial administration": "Serves",
+            "Paul Atreides": "Provides analysis to"
+          }
+        }
+      }
+    },
+    "arrakeen-merchant-fenlow": {
+      "name": "Fenlow",
+      "aliases": [],
+      "appearances": [2, 12, 21, 27, 34],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Arrakeen merchant who adapts to the changed economic conditions under Paul's rule. Balances traditional trade with the new imperial demands and religious pilgrimage economy.",
+          "role": "Local merchant",
+          "relationships": {
+            "Arrakeen commerce": "Participates in",
+            "Pilgrims": "Trades with",
+            "Imperial economy": "Adapts to"
+          }
+        }
+      }
+    },
+    "desert-guide-muktar": {
+      "name": "Muktar",
+      "aliases": [],
+      "appearances": [13, 20, 27, 33],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Experienced desert guide who leads pilgrims and officials through the dangerous sands of Arrakis. Maintains essential knowledge of desert survival and navigation.",
+          "role": "Desert navigation expert",
+          "relationships": {
+            "Desert travelers": "Guides",
+            "Pilgrims": "Leads safely",
+            "Arrakis": "Knows intimately"
+          }
+        }
+      }
+    },
+    "imperial-protocol-officer-danel": {
+      "name": "Danel",
+      "aliases": [],
+      "appearances": [1, 14, 21, 28, 34],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Court official responsible for managing imperial ceremonies and protocol. Ensures proper etiquette in dealing with the divine Emperor and visiting dignitaries.",
+          "role": "Court protocol master",
+          "relationships": {
+            "Paul Atreides": "Serves ceremonially",
+            "Imperial court": "Manages protocol for",
+            "Visitors": "Guides in proper conduct"
+          }
+        }
+      }
     }
   },
   "recaps": {

@@ -1559,6 +1559,380 @@
           }
         }
       }
+    },
+    "fish-speaker-captain-nayla": {
+      "name": "Nayla",
+      "aliases": ["Fish Speaker Captain"],
+      "appearances": [15, 20, 25, 30, 35, 40, 44],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Captain in Leto's all-female Fish Speaker army, responsible for maintaining order and enforcing the God Emperor's will. Represents the disciplined military structure that maintains the Peace of Leto.",
+          "role": "Military commander",
+          "relationships": {
+            "Leto II": "Serves as God Emperor",
+            "Fish Speakers": "Commands unit of",
+            "Imperial order": "Enforces"
+          }
+        }
+      }
+    },
+    "museum-fremen-turok": {
+      "name": "Turok",
+      "aliases": ["Last True Fremen"],
+      "appearances": [8, 12, 18, 24, 30, 36],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "One of the few remaining Museum Fremen who preserve the memory of the desert culture from before Leto's transformation of Arrakis. Keeper of traditions that no longer have practical purpose.",
+          "role": "Cultural preservationist",
+          "relationships": {
+            "Museum Fremen": "One of last",
+            "Desert traditions": "Preserves memory of",
+            "Leto II": "Remembers ancestors of"
+          }
+        }
+      }
+    },
+    "duncan-ghola-predecessor": {
+      "name": "Previous Duncan",
+      "aliases": ["Duncan-7", "Former Ghola"],
+      "appearances": [1, 5, 9, 14],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Reference to the Duncan Idaho ghola who preceded the current one. Each iteration serves Leto until awakening memories make continued service impossible.",
+          "role": "Predecessor ghola",
+          "relationships": {
+            "Leto II": "Served before current Duncan",
+            "Duncan Idaho": "Previous incarnation of",
+            "Ghola cycle": "Part of endless"
+          }
+        }
+      }
+    },
+    "ixian-engineer-malky-subordinate": {
+      "name": "Kailea",
+      "aliases": ["Ixian Designer"],
+      "appearances": [6, 11, 16, 22, 28],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Ixian engineer who worked under Malky and later assists in the creation of Hwi Noree. Represents the technological expertise that the Ixians use to challenge Leto's reign.",
+          "role": "Technology designer",
+          "relationships": {
+            "Malky": "Worked under",
+            "Hwi Noree": "Helped design",
+            "Ixian Confederacy": "Serves"
+          }
+        }
+      }
+    },
+    "fish-speaker-commander-luyseyal": {
+      "name": "Luyseyal",
+      "aliases": ["Supreme Commander"],
+      "appearances": [10, 17, 23, 29, 35, 41],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Supreme commander of the Fish Speaker forces, responsible for military strategy and maintaining discipline across Leto's empire. Enforces the God Emperor's will through organized female military power.",
+          "role": "Military supreme commander",
+          "relationships": {
+            "Fish Speakers": "Supreme commander of",
+            "Leto II": "Reports directly to",
+            "Imperial military": "Controls"
+          }
+        }
+      }
+    },
+    "guild-negotiator-tyek": {
+      "name": "Tyek",
+      "aliases": [],
+      "appearances": [7, 14, 21, 28, 34],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Spacing Guild representative who negotiates with Leto's administration about spice production and space travel rights. Balances Guild interests with imperial demands.",
+          "role": "Guild diplomat",
+          "relationships": {
+            "Spacing Guild": "Represents",
+            "Leto II": "Negotiates with",
+            "Spice trade": "Manages Guild interests in"
+          }
+        }
+      }
+    },
+    "bene-gesserit-observer-tamalane": {
+      "name": "Tamalane",
+      "aliases": ["Sisterhood Watcher"],
+      "appearances": [9, 15, 24, 31, 38],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Bene Gesserit sister assigned to observe and report on conditions within Leto's empire. Works covertly to gather intelligence about the God Emperor's plans and weaknesses.",
+          "role": "Intelligence gatherer",
+          "relationships": {
+            "Bene Gesserit": "Reports to sisterhood",
+            "Leto II": "Observes secretly",
+            "Imperial court": "Infiltrates"
+          }
+        }
+      }
+    },
+    "rebel-leader-kobat": {
+      "name": "Kobat",
+      "aliases": ["Underground Commander"],
+      "appearances": [13, 19, 26, 32, 39],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Leader of underground resistance movement against Leto's rule. Coordinates with various factions seeking to overthrow the God Emperor's tyrannical peace.",
+          "role": "Resistance leader",
+          "relationships": {
+            "Siona": "Works with",
+            "Rebellion": "Leads",
+            "Leto II": "Opposes rule of"
+          }
+        }
+      }
+    },
+    "tleilaxu-master-bijaz-successor": {
+      "name": "Waff",
+      "aliases": ["Master of Masters"],
+      "appearances": [18, 25, 33, 40],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Tleilaxu Master who succeeds earlier manipulators and continues their genetic experiments. Maintains the Tleilaxu tradition of biological warfare and ghola production.",
+          "role": "Genetic manipulator",
+          "relationships": {
+            "Tleilaxu": "Master of",
+            "Duncan Idaho": "Produces gholas of",
+            "Leto II": "Challenges indirectly"
+          }
+        }
+      }
+    },
+    "arrakis-administrator-gariff": {
+      "name": "Gariff",
+      "aliases": [],
+      "appearances": [4, 12, 20, 27, 35, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Administrative official responsible for managing the transformation of Arrakis under Leto's rule. Oversees the conversion from desert planet to garden world.",
+          "role": "Planetary administrator",
+          "relationships": {
+            "Moneo": "Reports to",
+            "Arrakis transformation": "Manages",
+            "Leto II": "Serves indirectly"
+          }
+        }
+      }
+    },
+    "fish-speaker-lieutenant-dura": {
+      "name": "Dura",
+      "aliases": [],
+      "appearances": [16, 22, 29, 36, 42],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Fish Speaker lieutenant who serves in the personal guard of important officials. Represents the individual dedication and loyalty that characterizes Leto's military force.",
+          "role": "Personal guard officer",
+          "relationships": {
+            "Fish Speakers": "Officer in",
+            "Imperial officials": "Protects",
+            "Military discipline": "Upholds"
+          }
+        }
+      }
+    },
+    "ixian-spy-rhombur": {
+      "name": "Rhombur",
+      "aliases": ["Technology Infiltrator"],
+      "appearances": [11, 17, 24, 31, 37],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Ixian agent working within Leto's administration to gather intelligence about forbidden technologies and weaknesses in the God Emperor's rule.",
+          "role": "Industrial spy",
+          "relationships": {
+            "Ixian Confederacy": "Serves",
+            "Technology development": "Gathers intelligence on",
+            "Imperial security": "Evades"
+          }
+        }
+      }
+    },
+    "museum-fremen-elder-jamis-descendant": {
+      "name": "Jamus",
+      "aliases": ["Keeper of the Blade"],
+      "appearances": [8, 15, 23, 30, 38],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Museum Fremen who claims descent from the warrior Jamis and maintains ceremonial crysknives. Preserves fighting traditions that have no practical application in Leto's peaceful empire.",
+          "role": "Tradition keeper",
+          "relationships": {
+            "Jamis": "Claims descent from",
+            "Crysknife ceremonies": "Maintains",
+            "Museum Fremen": "Elder among"
+          }
+        }
+      }
+    },
+    "fish-speaker-sergeant-anori": {
+      "name": "Anori",
+      "aliases": [],
+      "appearances": [19, 26, 33, 40, 47],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Fish Speaker sergeant responsible for training new recruits in military discipline and loyalty to the God Emperor. Represents the institutional knowledge of Leto's army.",
+          "role": "Military trainer",
+          "relationships": {
+            "Fish Speaker recruits": "Trains",
+            "Military tradition": "Maintains",
+            "Leto II": "Serves through discipline"
+          }
+        }
+      }
+    },
+    "imperial-scribe-historian-yueh-descendant": {
+      "name": "Suk-Yueh",
+      "aliases": ["Imperial Chronicler"],
+      "appearances": [5, 13, 21, 28, 36, 44],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Imperial historian who claims descent from Dr. Yueh and maintains records of Leto's reign. Documents the God Emperor's teachings and decisions for posterity.",
+          "role": "Imperial chronicler",
+          "relationships": {
+            "Dr. Wellington Yueh": "Claims descent from",
+            "Imperial records": "Maintains",
+            "Leto II": "Documents reign of"
+          }
+        }
+      }
+    },
+    "spice-operations-supervisor-hazir": {
+      "name": "Hazir",
+      "aliases": [],
+      "appearances": [6, 14, 22, 29, 37, 45],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Supervisor of the reduced spice operations on the transformed Arrakis. Manages the careful balance between Leto's body producing spice and the need for galactic distribution.",
+          "role": "Spice production manager",
+          "relationships": {
+            "Spice production": "Supervises",
+            "Leto II": "Coordinates with body chemistry of",
+            "Galactic trade": "Manages distribution for"
+          }
+        }
+      }
+    },
+    "face-dancer-infiltrator-scytale-successor": {
+      "name": "Khrone",
+      "aliases": ["The Shapeshifter"],
+      "appearances": [20, 27, 34, 41],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Face Dancer who has infiltrated Leto's court in various guises. Represents the continuing Tleilaxu efforts to understand and potentially undermine the God Emperor.",
+          "role": "Shape-shifting spy",
+          "relationships": {
+            "Tleilaxu": "Serves",
+            "Imperial court": "Infiltrates",
+            "Multiple identities": "Assumes"
+          }
+        }
+      }
+    },
+    "guild-navigator-edric-successor": {
+      "name": "Norma",
+      "aliases": ["Third Stage Navigator"],
+      "appearances": [7, 16, 25, 32, 39],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Advanced Guild Navigator who has reached the third stage of spice mutation. Manages space folding operations within Leto's restricted interstellar travel system.",
+          "role": "Space navigation specialist",
+          "relationships": {
+            "Spacing Guild": "Advanced navigator for",
+            "Spice mutation": "Highly evolved through",
+            "Space travel": "Controls access to"
+          }
+        }
+      }
+    },
+    "fish-speaker-communications-officer-zara": {
+      "name": "Zara",
+      "aliases": [],
+      "appearances": [12, 18, 26, 34, 42],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Fish Speaker officer responsible for maintaining communications across Leto's empire. Ensures that the God Emperor's commands reach all corners of human space.",
+          "role": "Communications coordinator",
+          "relationships": {
+            "Imperial communications": "Manages",
+            "Fish Speakers": "Specialized officer in",
+            "Empire coordination": "Facilitates"
+          }
+        }
+      }
+    },
+    "bene-gesserit-missionary-lucilla-predecessor": {
+      "name": "Alma",
+      "aliases": ["Sisterhood Missionary"],
+      "appearances": [14, 21, 30, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Bene Gesserit missionary working to maintain sisterhood influence on worlds within Leto's empire. Adapts traditional Bene Gesserit methods to function under the God Emperor's oversight.",
+          "role": "Religious-political missionary",
+          "relationships": {
+            "Bene Gesserit": "Spreads influence for",
+            "Imperial worlds": "Operates on",
+            "Local populations": "Influences"
+          }
+        }
+      }
+    },
+    "mentat-advisor-computation-specialist-zenon": {
+      "name": "Zenon",
+      "aliases": ["Logic Specialist"],
+      "appearances": [9, 17, 24, 33, 41],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Mentat specialist who provides computational analysis for Leto's administration. Handles complex logical problems that even the God Emperor's prescience benefits from analytical support.",
+          "role": "Computational analyst",
+          "relationships": {
+            "Mentat discipline": "Practices",
+            "Imperial administration": "Provides analysis for",
+            "Logical problems": "Solves"
+          }
+        }
+      }
+    },
+    "desert-researcher-kynes-descendant": {
+      "name": "Liet-Kynes-junior",
+      "aliases": ["Ecological Observer"],
+      "appearances": [10, 19, 28, 35, 43],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Researcher who studies the ecological transformation of Arrakis under Leto's influence. Documents the conversion from desert to garden world and its implications.",
+          "role": "Ecological scientist",
+          "relationships": {
+            "Liet-Kynes": "Claims descent from",
+            "Arrakis transformation": "Studies",
+            "Ecological change": "Documents"
+          }
+        }
+      }
     }
   },
   "recaps": {
