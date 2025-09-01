@@ -633,103 +633,75 @@
       ],
       "appearances": [
         6,
+        25,
         35,
         36
       ],
       "knowledge": {
         "6": {
           "revealedIn": 6,
-          "description": "Dangerous Death Eater imprisoned in Azkaban for torturing the Longbottoms. Sirius's cousin.",
-          "role": "Death Eater, Prisoner",
+          "description": "Sirius's cousin shown on the Black family tree, burned off for being a Death Eater.",
+          "role": "Disowned family member",
           "relationships": {
-            "Sirius Black": "Cousin",
-            "Voldemort": "Devoted follower",
-            "Frank Longbottom": "Tortured",
-            "Alice Longbottom": "Tortured"
+            "Sirius Black": "Cousin of",
+            "Black family": "Disowned from"
           }
         },
-        "35": {
-          "revealedIn": 35,
-          "description": "Escapes from Azkaban and fights at the Department of Mysteries.",
-          "role": "Death Eater, Escaped prisoner",
+        "25": {
+          "revealedIn": 25,
+          "description": "Escaped Death Eater who tortured the Longbottoms into insanity.",
+          "role": "Death Eater, Azkaban escapee",
           "relationships": {
-            "Death Eaters": "Leader among",
-            "Harry Potter": "Enemy"
-          }
-        },
-        "36": {
-          "revealedIn": 36,
-          "description": "Kills Sirius Black with a curse that sends him through the veil in the Death Chamber.",
-          "role": "Death Eater, Murderer",
-          "relationships": {
-            "Sirius Black": "Murdered",
-            "Harry Potter": "Mortal enemy"
+            "Death Eaters": "Member",
+            "Azkaban": "Escaped from",
+            "Longbottoms": "Tortured"
           }
         }
       }
     },
     "cornelius-fudge": {
       "name": "Cornelius Fudge",
-      "aliases": [
-        "Minister Fudge",
-        "Minister"
-      ],
       "appearances": [
-        1,
-        2,
-        36,
-        38
+        7,
+        8,
+        36
       ],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Minister for Magic who refuses to believe Voldemort has returned. Campaigns against Harry and Dumbledore.",
-          "role": "Minister of Magic, Denier",
+        "7": {
+          "revealedIn": 7,
+          "description": "The Minister for Magic who refuses to believe Voldemort has returned and sees Harry as a threat to his position.",
+          "role": "Minister for Magic",
           "relationships": {
-            "Harry Potter": "Discrediting",
-            "Albus Dumbledore": "Opposing",
-            "Daily Prophet": "Using to spread lies"
+            "Ministry of Magic": "Head of",
+            "Harry Potter": "Antagonistic toward",
+            "Albus Dumbledore": "Distrusts"
           }
         },
         "36": {
           "revealedIn": 36,
-          "description": "Finally sees Voldemort for himself at the Ministry and is forced to admit his return.",
-          "role": "Minister of Magic, Converted",
+          "description": "Finally forced to admit Voldemort's return after being seen at the Ministry battle.",
+          "role": "Discredited Minister",
           "relationships": {
-            "Voldemort": "Witnessed",
-            "Harry Potter": "Must now believe"
+            "Voldemort": "Finally acknowledges return of"
           }
         }
       }
     },
     "kingsley-shacklebolt": {
       "name": "Kingsley Shacklebolt",
-      "aliases": [
-        "Kingsley"
-      ],
       "appearances": [
         3,
-        4,
-        5,
-        6,
-        35
+        9,
+        36
       ],
       "knowledge": {
         "3": {
           "revealedIn": 3,
-          "description": "Auror and member of the Order of the Phoenix. Helps escort Harry from Privet Drive.",
-          "role": "Auror, Order member",
+          "description": "A tall black Auror who is secretly a member of the Order of the Phoenix.",
+          "role": "Auror and Order member",
           "relationships": {
-            "Order of the Phoenix": "Member",
-            "Ministry of Magic": "Employee"
-          }
-        },
-        "35": {
-          "revealedIn": 35,
-          "description": "Fights at the Department of Mysteries, proving his skill as both an Auror and Order member.",
-          "role": "Auror, Fighter",
-          "relationships": {
-            "Death Eaters": "Fighting"
+            "Ministry of Magic": "Works for as Auror",
+            "Order of the Phoenix": "Secret member of"
           }
         }
       }
@@ -805,173 +777,109 @@
     },
     "arthur-weasley": {
       "name": "Arthur Weasley",
-      "aliases": [
-        "Mr. Weasley"
-      ],
       "appearances": [
-        3,
         4,
         5,
         6,
         7,
-        9,
+        8,
         22,
-        23,
-        24,
-        25,
-        38
+        23
       ],
       "knowledge": {
         "4": {
           "revealedIn": 4,
-          "description": "Ministry employee and Order member. Working on guard duty for the Order while maintaining his day job.",
+          "description": "Works at the Ministry in the Misuse of Muggle Artefacts Office and is a member of the Order.",
           "role": "Ministry employee, Order member",
           "relationships": {
-            "Order of the Phoenix": "Member",
-            "Ministry of Magic": "Employee"
+            "Ministry of Magic": "Works at",
+            "Order of the Phoenix": "Member of",
+            "Weasley family": "Father of"
           }
         },
-        "23": {
-          "revealedIn": 23,
-          "description": "Attacked by Nagini while on guard duty at the Department of Mysteries. Saved by Harry's vision.",
-          "role": "Order member, Attack victim",
+        "22": {
+          "revealedIn": 22,
+          "description": "Attacked by Voldemort's snake Nagini while guarding the Department of Mysteries.",
+          "role": "Attack victim",
           "relationships": {
             "Nagini": "Attacked by",
-            "Harry Potter": "Saved by vision of"
-          }
-        },
-        "24": {
-          "revealedIn": 24,
-          "description": "Recovering at St. Mungo's from severe snake bite wounds. Grateful to Harry for saving his life.",
-          "role": "Order member, Patient",
-          "relationships": {
-            "Harry Potter": "Owes life to",
-            "St. Mungo's": "Patient at"
+            "Department of Mysteries": "Was guarding"
           }
         }
       }
     },
     "molly-weasley": {
       "name": "Molly Weasley",
-      "aliases": [
-        "Mrs. Weasley"
-      ],
       "appearances": [
-        3,
         4,
         5,
         6,
         9,
         22,
-        23,
-        24,
-        25,
-        38
+        23
       ],
       "knowledge": {
         "4": {
           "revealedIn": 4,
-          "description": "Order member and Weasley family matriarch. Protective of Harry and worried about her family's safety.",
-          "role": "Order member, Mother",
+          "description": "Arthur's wife and mother of the Weasley children, strongly protective of her family.",
+          "role": "Order member, mother",
           "relationships": {
-            "Order of the Phoenix": "Member",
-            "Harry Potter": "Protective of",
-            "Sirius Black": "Argues with about Harry"
-          }
-        },
-        "5": {
-          "revealedIn": 5,
-          "description": "Faces a boggart that transforms into the dead bodies of her family members, revealing her greatest fear.",
-          "role": "Order member, Frightened mother",
-          "relationships": {
-            "Weasley family": "Fears losing",
-            "Harry Potter": "Fears losing"
-          }
-        },
-        "24": {
-          "revealedIn": 24,
-          "description": "Devastated by Arthur's attack but grateful to Harry for his warning vision.",
-          "role": "Order member, Wife",
-          "relationships": {
-            "Arthur Weasley": "Wife of (injured)",
-            "Harry Potter": "Grateful to"
+            "Order of the Phoenix": "Member of",
+            "Arthur Weasley": "Wife of",
+            "Weasley children": "Mother of"
           }
         }
       }
     },
     "mundungus-fletcher": {
       "name": "Mundungus Fletcher",
-      "aliases": [
-        "Dung"
-      ],
       "appearances": [
         1,
-        2,
         3,
-        4,
         5
       ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Unreliable Order member who was supposed to be watching Harry but abandoned his post.",
-          "role": "Order member, Deserter",
+          "description": "A disreputable wizard and member of the Order who was supposed to be guarding Harry but abandoned his post.",
+          "role": "Order member",
           "relationships": {
-            "Order of the Phoenix": "Unreliable member",
-            "Harry Potter": "Failed to protect"
-          }
-        },
-        "4": {
-          "revealedIn": 4,
-          "description": "Small-time criminal and con artist who provides intelligence to the Order despite his unreliability.",
-          "role": "Order member, Criminal",
-          "relationships": {
-            "Order of the Phoenix": "Informant for"
+            "Order of the Phoenix": "Unreliable member of",
+            "Harry Potter": "Failed to guard"
           }
         }
       }
     },
     "cho-chang": {
       "name": "Cho Chang",
-      "aliases": [
-        "Cho"
-      ],
       "appearances": [
         12,
         16,
         18,
         21,
+        25,
         26,
         27,
-        28
+        28,
+        29
       ],
       "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Ravenclaw student and Seeker who Harry has feelings for, still grieving Cedric Diggory's death.",
+          "role": "Ravenclaw student",
+          "relationships": {
+            "Harry Potter": "Romantic interest of",
+            "Cedric Diggory": "Former boyfriend of",
+            "Ravenclaw House": "Member of"
+          }
+        },
         "16": {
           "revealedIn": 16,
-          "description": "Sixth-year Ravenclaw who joins Dumbledore's Army. Still grieving Cedric Diggory's death.",
-          "role": "DA member, Grieving girlfriend",
+          "description": "Joins Dumbledore's Army to learn defense against the dark arts and honor Cedric's memory.",
+          "role": "DA member",
           "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Cedric Diggory": "Late boyfriend",
-            "Harry Potter": "Romantic interest"
-          }
-        },
-        "21": {
-          "revealedIn": 21,
-          "description": "Kisses Harry under the mistletoe but their relationship is complicated by her grief and his awkwardness.",
-          "role": "DA member, Love interest",
-          "relationships": {
-            "Harry Potter": "Kissed",
-            "Marietta Edgecombe": "Best friend"
-          }
-        },
-        "28": {
-          "revealedIn": 28,
-          "description": "Defends Marietta when she betrays the DA, causing tension with Harry.",
-          "role": "DA member, Loyal friend",
-          "relationships": {
-            "Marietta Edgecombe": "Defending",
-            "Harry Potter": "Relationship strained"
+            "Dumbledore's Army": "Member of"
           }
         }
       }
@@ -1138,324 +1046,53 @@
     },
     "marietta-edgecombe": {
       "name": "Marietta Edgecombe",
-      "aliases": [
-        "Marietta"
-      ],
       "appearances": [
         16,
-        27,
-        28
+        27
       ],
       "knowledge": {
         "16": {
           "revealedIn": 16,
-          "description": "Cho Chang's reluctant friend who joins the DA under pressure. Works in the Ministry's Floo Network Office.",
-          "role": "DA member, Ministry connection",
+          "description": "Cho's friend who reluctantly joins Dumbledore's Army.",
+          "role": "DA member",
           "relationships": {
-            "Cho Chang": "Best friend",
-            "Dumbledore's Army": "Reluctant member"
+            "Cho Chang": "Friend of",
+            "Dumbledore's Army": "Reluctant member of"
           }
         },
         "27": {
           "revealedIn": 27,
-          "description": "Betrays the DA to Umbridge, resulting in the group's discovery. Hexed by Hermione's jinx.",
-          "role": "DA traitor",
+          "description": "Betrays Dumbledore's Army to Umbridge and suffers the curse Hermione placed on the membership list.",
+          "role": "DA betrayer",
           "relationships": {
-            "Dolores Umbridge": "Informed",
-            "Dumbledore's Army": "Betrayed",
-            "Hermione Granger": "Hexed by"
+            "Dolores Umbridge": "Informs",
+            "Dumbledore's Army": "Betrays"
           }
         }
       }
     },
     "dean-thomas": {
       "name": "Dean Thomas",
-      "aliases": [
-        "Dean"
-      ],
       "appearances": [
-        8,
-        9,
-        16,
-        27,
-        35
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Fifth-year Gryffindor who joins Dumbledore's Army. Enthusiastic about learning practical Defense.",
-          "role": "DA member, Fifth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Seamus Finnigan": "Roommate"
-          }
-        }
-      }
-    },
-    "seamus-finnigan": {
-      "name": "Seamus Finnigan",
-      "aliases": [
-        "Seamus"
-      ],
-      "appearances": [
-        8,
-        9,
         11,
         16,
-        27,
-        35
+        18,
+        21,
+        27
       ],
       "knowledge": {
         "11": {
           "revealedIn": 11,
-          "description": "Fifth-year Gryffindor whose mother believes the Daily Prophet's lies about Harry. Initially skeptical of Harry's claims.",
-          "role": "Fifth-year student, Skeptic",
+          "description": "Gryffindor student and Harry's dormmate who supports West Ham football club.",
+          "role": "Gryffindor student",
           "relationships": {
-            "Harry Potter": "Initially distrustful of",
-            "Dean Thomas": "Roommate"
+            "Harry Potter": "Dormmate of",
+            "Seamus Finnigan": "Best friend of"
           }
         },
         "16": {
           "revealedIn": 16,
-          "description": "Eventually joins Dumbledore's Army after coming to believe Harry's account of Voldemort's return.",
-          "role": "DA member",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Harry Potter": "Now supports"
-          }
-        }
-      }
-    },
-    "lavender-brown": {
-      "name": "Lavender Brown",
-      "aliases": [
-        "Lavender"
-      ],
-      "appearances": [
-        8,
-        9,
-        16,
-        17,
-        27
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Fifth-year Gryffindor who joins Dumbledore's Army. Eager to learn practical defensive spells.",
-          "role": "DA member, Fifth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Parvati Patil": "Best friend"
-          }
-        }
-      }
-    },
-    "parvati-patil": {
-      "name": "Parvati Patil",
-      "aliases": [
-        "Parvati"
-      ],
-      "appearances": [
-        8,
-        9,
-        16,
-        17,
-        27
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Fifth-year Gryffindor who joins Dumbledore's Army with her friend Lavender.",
-          "role": "DA member, Fifth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Lavender Brown": "Best friend",
-            "Padma Patil": "Twin sister"
-          }
-        }
-      }
-    },
-    "padma-patil": {
-      "name": "Padma Patil",
-      "aliases": [
-        "Padma"
-      ],
-      "appearances": [
-        16,
-        27
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Fifth-year Ravenclaw who joins Dumbledore's Army. Twin sister of Parvati.",
-          "role": "DA member, Fifth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Parvati Patil": "Twin sister"
-          }
-        }
-      }
-    },
-    "terry-boot": {
-      "name": "Terry Boot",
-      "aliases": [
-        "Terry"
-      ],
-      "appearances": [
-        16,
-        27
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Fifth-year Ravenclaw who joins Dumbledore's Army. Shows aptitude for defensive magic.",
-          "role": "DA member, Fifth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Anthony Goldstein": "Housemate"
-          }
-        }
-      }
-    },
-    "anthony-goldstein": {
-      "name": "Anthony Goldstein",
-      "aliases": [
-        "Anthony"
-      ],
-      "appearances": [
-        16,
-        27
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Fifth-year Ravenclaw who joins Dumbledore's Army along with other students from his house.",
-          "role": "DA member, Fifth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Terry Boot": "Housemate"
-          }
-        }
-      }
-    },
-    "michael-corner": {
-      "name": "Michael Corner",
-      "aliases": [
-        "Michael"
-      ],
-      "appearances": [
-        16,
-        27,
-        29
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Sixth-year Ravenclaw who joins Dumbledore's Army. Dating Ginny Weasley.",
-          "role": "DA member, Sixth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Ginny Weasley": "Boyfriend"
-          }
-        }
-      }
-    },
-    "ernie-macmillan": {
-      "name": "Ernie Macmillan",
-      "aliases": [
-        "Ernie"
-      ],
-      "appearances": [
-        11,
-        16,
-        27,
-        35
-      ],
-      "knowledge": {
-        "11": {
-          "revealedIn": 11,
-          "description": "Pompous fifth-year Hufflepuff prefect who initially doubts Harry but later supports him.",
-          "role": "Fifth-year student, Prefect",
-          "relationships": {
-            "Hufflepuff House": "Prefect of",
-            "Harry Potter": "Initially skeptical of"
-          }
-        },
-        "16": {
-          "revealedIn": 16,
-          "description": "Joins Dumbledore's Army after becoming convinced of Harry's truthfulness about Voldemort.",
-          "role": "DA member, Prefect",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Harry Potter": "Now supports"
-          }
-        }
-      }
-    },
-    "justin-finch-fletchley": {
-      "name": "Justin Finch-Fletchley",
-      "aliases": [
-        "Justin"
-      ],
-      "appearances": [
-        16,
-        27
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Fifth-year Hufflepuff who joins Dumbledore's Army. Enthusiastic about learning to defend himself.",
-          "role": "DA member, Fifth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Ernie Macmillan": "Housemate"
-          }
-        }
-      }
-    },
-    "hannah-abbott": {
-      "name": "Hannah Abbott",
-      "aliases": [
-        "Hannah"
-      ],
-      "appearances": [
-        16,
-        27
-      ],
-      "knowledge": {
-        "16": {
-          "revealedIn": 16,
-          "description": "Fifth-year Hufflepuff who joins Dumbledore's Army. Quiet but determined to learn Defense.",
-          "role": "DA member, Fifth-year student",
-          "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Susan Bones": "Friend"
-          }
-        }
-      }
-    },
-    "susan-bones": {
-      "name": "Susan Bones",
-      "aliases": [
-        "Susan"
-      ],
-      "appearances": [
-        8,
-        16,
-        27
-      ],
-      "knowledge": {
-        "8": {
-          "revealedIn": 8,
-          "description": "Fifth-year Hufflepuff whose aunt works for the Ministry. Concerned about the Ministry's denial of Voldemort's return.",
-          "role": "Fifth-year student",
-          "relationships": {
-            "Amelia Bones": "Aunt (Ministry official)"
-          }
-        },
-        "16": {
-          "revealedIn": 16,
-          "description": "Joins Dumbledore's Army, believing Harry's account of Voldemort's return due to her family connections.",
+          "description": "Joins Dumbledore's Army and proves skilled at defensive magic.",
           "role": "DA member",
           "relationships": {
             "Dumbledore's Army": "Member of"
@@ -1463,23 +1100,266 @@
         }
       }
     },
-    "zacharias-smith": {
-      "name": "Zacharias Smith",
-      "aliases": [
-        "Zacharias"
+    "seamus-finnigan": {
+      "name": "Seamus Finnigan",
+      "appearances": [
+        11,
+        16,
+        18,
+        21,
+        27
       ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Gryffindor student whose mother initially believes Ministry propaganda about Harry and Dumbledore.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Harry Potter": "Initially suspicious of",
+            "Dean Thomas": "Best friend of"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Eventually joins Dumbledore's Army after realizing Harry was telling the truth.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of"
+          }
+        }
+      }
+    },
+    "lavender-brown": {
+      "name": "Lavender Brown",
+      "appearances": [
+        12,
+        15,
+        16,
+        18,
+        21,
+        27
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Gryffindor student who is obsessed with Divination and believes in Trelawney's predictions.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Parvati Patil": "Best friend of",
+            "Sibyll Trelawney": "Devoted to"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Joins Dumbledore's Army to learn practical defense magic.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of"
+          }
+        }
+      }
+    },
+    "parvati-patil": {
+      "name": "Parvati Patil",
+      "appearances": [
+        12,
+        15,
+        16,
+        18,
+        21,
+        27
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Gryffindor student and Padma's twin sister, also obsessed with Divination.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Lavender Brown": "Best friend of",
+            "Padma Patil": "Twin sister of"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Joins Dumbledore's Army despite her focus on Divination.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of"
+          }
+        }
+      }
+    },
+    "padma-patil": {
+      "name": "Padma Patil",
       "appearances": [
         16,
-        27
+        18,
+        21
       ],
       "knowledge": {
         "16": {
           "revealedIn": 16,
-          "description": "Skeptical Hufflepuff who joins the DA but constantly questions and doubts Harry's teaching methods.",
-          "role": "DA member, Skeptic",
+          "description": "A Ravenclaw student and Parvati's twin sister who joins Dumbledore's Army.",
+          "role": "DA member",
           "relationships": {
-            "Dumbledore's Army": "Questioning member of",
-            "Harry Potter": "Skeptical of"
+            "Dumbledore's Army": "Member of",
+            "Parvati Patil": "Twin sister of",
+            "Ravenclaw House": "Member of"
+          }
+        }
+      }
+    },
+    "terry-boot": {
+      "name": "Terry Boot",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Ravenclaw student who joins Dumbledore's Army.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Ravenclaw House": "Member of"
+          }
+        }
+      }
+    },
+    "anthony-goldstein": {
+      "name": "Anthony Goldstein",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Ravenclaw student who joins Dumbledore's Army.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Ravenclaw House": "Member of"
+          }
+        }
+      }
+    },
+    "michael-corner": {
+      "name": "Michael Corner",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Ravenclaw student who joins Dumbledore's Army, Ginny's boyfriend.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Ginny Weasley": "Boyfriend of",
+            "Ravenclaw House": "Member of"
+          }
+        }
+      }
+    },
+    "ernie-macmillan": {
+      "name": "Ernie Macmillan",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Hufflepuff student who joins Dumbledore's Army.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Hufflepuff House": "Member of"
+          }
+        }
+      }
+    },
+    "justin-finch-fletchley": {
+      "name": "Justin Finch-Fletchley",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Hufflepuff student who joins Dumbledore's Army.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Hufflepuff House": "Member of"
+          }
+        }
+      }
+    },
+    "hannah-abbott": {
+      "name": "Hannah Abbott",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Hufflepuff student who joins Dumbledore's Army.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Hufflepuff House": "Member of"
+          }
+        }
+      }
+    },
+    "susan-bones": {
+      "name": "Susan Bones",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Hufflepuff student who joins Dumbledore's Army, niece of Amelia Bones.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Amelia Bones": "Niece of",
+            "Hufflepuff House": "Member of"
+          }
+        }
+      }
+    },
+    "zacharias-smith": {
+      "name": "Zacharias Smith",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Hufflepuff student who skeptically joins Dumbledore's Army and questions Harry's account of Voldemort's return.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Skeptical member of",
+            "Harry Potter": "Questions",
+            "Hufflepuff House": "Member of"
           }
         }
       }
@@ -1621,87 +1501,74 @@
     },
     "colin-creevey": {
       "name": "Colin Creevey",
-      "aliases": [
-        "Colin"
-      ],
       "appearances": [
         16,
-        27
+        18,
+        21
       ],
       "knowledge": {
         "16": {
           "revealedIn": 16,
-          "description": "Fourth-year Gryffindor who eagerly joins Dumbledore's Army. Enthusiastic about everything Harry teaches.",
-          "role": "DA member, Fourth-year student",
+          "description": "Eager younger Gryffindor student who joins Dumbledore's Army despite being underage.",
+          "role": "DA member",
           "relationships": {
             "Dumbledore's Army": "Member of",
-            "Harry Potter": "Admires",
-            "Dennis Creevey": "Brother"
+            "Harry Potter": "Admires"
           }
         }
       }
     },
     "dennis-creevey": {
       "name": "Dennis Creevey",
-      "aliases": [
-        "Dennis"
-      ],
       "appearances": [
         16,
-        27
+        18,
+        21
       ],
       "knowledge": {
         "16": {
           "revealedIn": 16,
-          "description": "Second-year Gryffindor who joins Dumbledore's Army despite being very young. Colin's younger brother.",
-          "role": "DA member, Second-year student",
+          "description": "Colin's younger brother who also joins Dumbledore's Army.",
+          "role": "DA member",
           "relationships": {
-            "Dumbledore's Army": "Youngest member of",
-            "Colin Creevey": "Brother",
-            "Harry Potter": "Looks up to"
+            "Dumbledore's Army": "Member of",
+            "Colin Creevey": "Brother of"
           }
         }
       }
     },
     "nigel-wolpert": {
       "name": "Nigel Wolpert",
-      "aliases": [
-        "Nigel"
-      ],
       "appearances": [
         16,
-        27
+        18,
+        21
       ],
       "knowledge": {
         "16": {
           "revealedIn": 16,
-          "description": "Young student who joins Dumbledore's Army. Eager to learn from Harry despite his youth.",
-          "role": "DA member, Young student",
+          "description": "Young student who joins Dumbledore's Army despite being very inexperienced.",
+          "role": "DA member",
           "relationships": {
-            "Dumbledore's Army": "Member of",
-            "Harry Potter": "Student of"
+            "Dumbledore's Army": "Member of"
           }
         }
       }
     },
     "amelia-bones": {
       "name": "Amelia Bones",
-      "aliases": [
-        "Madam Bones"
-      ],
       "appearances": [
-        8,
-        9
+        7,
+        8
       ],
       "knowledge": {
-        "8": {
-          "revealedIn": 8,
-          "description": "Head of the Department of Magical Accidents and Catastrophes. Presides over Harry's disciplinary hearing.",
-          "role": "Ministry official, Judge",
+        "7": {
+          "revealedIn": 7,
+          "description": "Head of the Department of Magical Law Enforcement and a fair-minded witch who presides over Harry's hearing.",
+          "role": "Department Head",
           "relationships": {
-            "Ministry of Magic": "High-ranking official",
-            "Susan Bones": "Niece",
-            "Harry Potter": "Judged fairly"
+            "Ministry of Magic": "Department head at",
+            "Harry Potter": "Judges fairly"
           }
         }
       }
@@ -1741,54 +1608,38 @@
     },
     "bill-weasley": {
       "name": "Bill Weasley",
-      "aliases": [
-        "Bill"
-      ],
       "appearances": [
         4,
-        5,
-        6,
-        24
+        5
       ],
       "knowledge": {
         "4": {
           "revealedIn": 4,
-          "description": "Eldest Weasley son working as a curse-breaker for Gringotts. Member of the Order of the Phoenix.",
-          "role": "Order member, Curse-breaker",
+          "description": "Arthur's eldest son who works as a curse-breaker for Gringotts and is an Order member.",
+          "role": "Curse-breaker, Order member",
           "relationships": {
-            "Order of the Phoenix": "Member",
-            "Weasley family": "Eldest son",
-            "Gringotts": "Employee"
-          }
-        },
-        "24": {
-          "revealedIn": 24,
-          "description": "Visits his father at St. Mungo's after Arthur's attack by Nagini.",
-          "role": "Order member, Son",
-          "relationships": {
-            "Arthur Weasley": "Son (visiting injured father)"
+            "Order of the Phoenix": "Member of",
+            "Weasley family": "Eldest son of",
+            "Gringotts": "Works for"
           }
         }
       }
     },
     "charlie-weasley": {
       "name": "Charlie Weasley",
-      "aliases": [
-        "Charlie"
-      ],
       "appearances": [
         4,
-        24
+        5
       ],
       "knowledge": {
         "4": {
           "revealedIn": 4,
-          "description": "Second eldest Weasley son who works with dragons in Romania. Order member.",
-          "role": "Order member, Dragon handler",
+          "description": "Arthur's second son who works with dragons in Romania and is an Order member.",
+          "role": "Dragon handler, Order member",
           "relationships": {
-            "Order of the Phoenix": "Member",
-            "Weasley family": "Son",
-            "Dragons": "Works with in Romania"
+            "Order of the Phoenix": "Member of",
+            "Weasley family": "Son of",
+            "Dragons": "Works with"
           }
         }
       }
@@ -1830,146 +1681,127 @@
     },
     "elphias-doge": {
       "name": "Elphias Doge",
-      "aliases": [
-        "Doge"
-      ],
       "appearances": [
         3,
-        4
+        9
       ],
       "knowledge": {
         "3": {
           "revealedIn": 3,
-          "description": "Elderly wizard and longtime friend of Dumbledore. Member of the Order of the Phoenix.",
-          "role": "Order member, Dumbledore's friend",
+          "description": "An elderly wizard and old friend of Dumbledore, member of the Order of the Phoenix.",
+          "role": "Order of the Phoenix member",
           "relationships": {
-            "Order of the Phoenix": "Member",
-            "Albus Dumbledore": "Old friend"
+            "Albus Dumbledore": "Old friend of",
+            "Order of the Phoenix": "Member of"
           }
         }
       }
     },
     "emmeline-vance": {
       "name": "Emmeline Vance",
-      "aliases": [
-        "Emmeline"
-      ],
       "appearances": [
         3,
-        4
+        9
       ],
       "knowledge": {
         "3": {
           "revealedIn": 3,
-          "description": "Member of the Order of the Phoenix who helps escort Harry from Privet Drive.",
-          "role": "Order member",
+          "description": "A member of the Order of the Phoenix who helps guard Harry.",
+          "role": "Order of the Phoenix member",
           "relationships": {
-            "Order of the Phoenix": "Member"
+            "Order of the Phoenix": "Member of"
           }
         }
       }
     },
     "sturgis-podmore": {
       "name": "Sturgis Podmore",
-      "aliases": [
-        "Sturgis"
-      ],
       "appearances": [
         3,
-        4,
         14
       ],
       "knowledge": {
         "3": {
           "revealedIn": 3,
-          "description": "Member of the Order of the Phoenix involved in guard duty and intelligence work.",
-          "role": "Order member",
+          "description": "A square-jawed wizard and member of the Order of the Phoenix.",
+          "role": "Order of the Phoenix member",
           "relationships": {
-            "Order of the Phoenix": "Member"
+            "Order of the Phoenix": "Member of"
           }
         },
         "14": {
           "revealedIn": 14,
-          "description": "Arrested for attempting to break into the Department of Mysteries while under the Imperius Curse.",
-          "role": "Order member, Prisoner",
+          "description": "Arrested for attempting to break into the Ministry of Magic while under the Imperius Curse.",
+          "role": "Imprisoned Order member",
           "relationships": {
-            "Ministry of Magic": "Imprisoned by",
-            "Death Eaters": "Controlled by (Imperius)"
+            "Ministry of Magic": "Attempted to break into",
+            "Azkaban": "Imprisoned in"
           }
         }
       }
     },
     "dedalus-diggle": {
       "name": "Dedalus Diggle",
-      "aliases": [
-        "Dedalus"
-      ],
       "appearances": [
         3,
-        4
+        9
       ],
       "knowledge": {
         "3": {
           "revealedIn": 3,
-          "description": "Excitable wizard and Order member who has previously met Harry. Part of the escort guard.",
-          "role": "Order member",
+          "description": "A small wizard in a top hat who previously bowed to Harry, revealed to be an Order member.",
+          "role": "Order of the Phoenix member",
           "relationships": {
-            "Order of the Phoenix": "Member",
-            "Harry Potter": "Previously met"
+            "Harry Potter": "Previously encountered",
+            "Order of the Phoenix": "Member of"
           }
         }
       }
     },
     "hestia-jones": {
       "name": "Hestia Jones",
-      "aliases": [
-        "Hestia"
-      ],
       "appearances": [
         3,
-        4
+        9
       ],
       "knowledge": {
         "3": {
           "revealedIn": 3,
-          "description": "Member of the Order of the Phoenix who participates in Harry's protection detail.",
-          "role": "Order member",
+          "description": "A pink-cheeked, black-haired witch and member of the Order of the Phoenix.",
+          "role": "Order of the Phoenix member",
           "relationships": {
-            "Order of the Phoenix": "Member"
+            "Order of the Phoenix": "Member of"
           }
         }
       }
     },
     "kreacher": {
       "name": "Kreacher",
-      "aliases": [
-        "The house-elf"
-      ],
       "appearances": [
-        4,
-        5,
         6,
-        35,
-        36
+        10,
+        23,
+        37,
+        38
       ],
       "knowledge": {
-        "4": {
-          "revealedIn": 4,
-          "description": "Ancient house-elf of the Black family who serves at Grimmauld Place. Deeply resentful and muttering constantly.",
-          "role": "House-elf, Unwilling servant",
+        "6": {
+          "revealedIn": 6,
+          "description": "The ancient house-elf of the Black family who serves at Grimmauld Place, hostile toward his current occupants.",
+          "role": "House-elf",
           "relationships": {
-            "Black family": "Served for generations",
-            "Sirius Black": "Hates current master",
-            "Order of the Phoenix": "Forced to serve"
+            "Black family": "Serves",
+            "Sirius Black": "Despises",
+            "Grimmauld Place": "Maintains"
           }
         },
-        "35": {
-          "revealedIn": 35,
-          "description": "Provides information to Narcissa Malfoy about Sirius and Harry, contributing to the trap at the Ministry.",
-          "role": "House-elf, Informant",
+        "37": {
+          "revealedIn": 37,
+          "description": "Reveals he has been secretly helping Voldemort and betrayed Sirius's location, leading to the trap at the Ministry.",
+          "role": "Traitor house-elf",
           "relationships": {
-            "Narcissa Malfoy": "Gave information to",
-            "Bellatrix Lestrange": "Related to (through Black family)"
+            "Voldemort": "Secretly serves",
+            "Sirius Black": "Betrays"
           }
         }
       }
@@ -2190,23 +2022,20 @@
     },
     "firenze": {
       "name": "Firenze",
-      "aliases": [
-        "Professor Firenze"
-      ],
       "appearances": [
-        27,
-        28,
-        32
+        20,
+        21,
+        27
       ],
       "knowledge": {
-        "27": {
-          "revealedIn": 27,
-          "description": "Centaur recruited by Dumbledore to replace Trelawney as Divination professor after her firing.",
-          "role": "Professor, Centaur",
+        "20": {
+          "revealedIn": 20,
+          "description": "A centaur who becomes the new Divination teacher after Umbridge fires Trelawney, against centaur customs.",
+          "role": "Centaur, Divination teacher",
           "relationships": {
-            "Albus Dumbledore": "Hired by",
-            "Sybill Trelawney": "Replaced (temporarily)",
-            "Centaur herd": "Banished from"
+            "Hogwarts": "Teacher at",
+            "Centaur herd": "Exiled from",
+            "Albus Dumbledore": "Hired by"
           }
         }
       }
@@ -2270,21 +2099,18 @@
     },
     "mrs-norris": {
       "name": "Mrs. Norris",
-      "aliases": [
-        "Filch's cat"
-      ],
       "appearances": [
-        8,
-        15,
+        13,
+        17,
         28
       ],
       "knowledge": {
-        "8": {
-          "revealedIn": 8,
-          "description": "Filch's cat who prowls the corridors and helps enforce Umbridge's increasingly strict rules.",
-          "role": "Caretaker's familiar, Enforcer",
+        "13": {
+          "revealedIn": 13,
+          "description": "Filch's cat who patrols the corridors and reports student misbehavior.",
+          "role": "Caretaker's cat",
           "relationships": {
-            "Argus Filch": "Owner",
+            "Argus Filch": "Belongs to",
             "Students": "Watches for rule-breaking"
           }
         }
@@ -2326,86 +2152,41 @@
     },
     "nearly-headless-nick": {
       "name": "Nearly Headless Nick",
-      "aliases": [
-        "Sir Nicholas",
-        "Nick"
-      ],
       "appearances": [
-        8,
-        12,
-        38
+        11,
+        31
       ],
       "knowledge": {
-        "12": {
-          "revealedIn": 12,
-          "description": "Gryffindor House ghost who provides information about ghostly matters and supports the students.",
-          "role": "House ghost, Informant",
+        "11": {
+          "revealedIn": 11,
+          "description": "Gryffindor House ghost who provides comfort and advice to house members.",
+          "role": "House ghost",
           "relationships": {
-            "Gryffindor House": "House ghost",
-            "Students": "Supports"
+            "Gryffindor House": "Ghost of"
           }
         }
       }
     },
     "fat-lady": {
       "name": "The Fat Lady",
-      "aliases": [
-        "Fat Lady"
-      ],
       "appearances": [
-        8,
         11,
-        27,
-        29
+        17,
+        28
       ],
       "knowledge": {
         "11": {
           "revealedIn": 11,
-          "description": "Portrait guarding the Gryffindor common room. Witnesses the increased tensions and security concerns.",
-          "role": "Portrait, Gatekeeper",
+          "description": "Portrait guarding the Gryffindor common room entrance, requiring passwords.",
+          "role": "Guardian portrait",
           "relationships": {
-            "Gryffindor House": "Guards entrance",
-            "Students": "Controls access"
+            "Gryffindor Tower": "Guards entrance to"
           }
         }
       }
     },
     "dobby": {
       "name": "Dobby",
-      "aliases": [
-        "The house-elf"
-      ],
-      "appearances": [
-        18,
-        27
-      ],
-      "knowledge": {
-        "18": {
-          "revealedIn": 18,
-          "description": "Free house-elf working at Hogwarts who helps Harry find the Room of Requirement for DA meetings.",
-          "role": "Free house-elf, Helper",
-          "relationships": {
-            "Harry Potter": "Helps and protects",
-            "Hogwarts": "Works at",
-            "Dumbledore's Army": "Provides meeting space"
-          }
-        },
-        "27": {
-          "revealedIn": 27,
-          "description": "Warns Harry when Umbridge is approaching the Room of Requirement, helping the DA avoid immediate capture.",
-          "role": "Free house-elf, Warner",
-          "relationships": {
-            "Dumbledore's Army": "Protects",
-            "Dolores Umbridge": "Warns against"
-          }
-        }
-      }
-    },
-    "winky": {
-      "name": "Winky",
-      "aliases": [
-        "The house-elf"
-      ],
       "appearances": [
         18,
         21
@@ -2413,66 +2194,66 @@
       "knowledge": {
         "18": {
           "revealedIn": 18,
-          "description": "Depressed house-elf working in the Hogwarts kitchens. Still mourning her dismissal from the Crouch family.",
-          "role": "House-elf, Kitchen worker",
+          "description": "The free house-elf who works at Hogwarts and warns Harry about dangers, still devoted to helping him.",
+          "role": "Free house-elf",
           "relationships": {
-            "Barty Crouch Sr.": "Former master",
-            "Dobby": "Fellow house-elf",
-            "Butterbeer": "Addicted to"
+            "Harry Potter": "Devoted to helping",
+            "Hogwarts": "Works at"
+          }
+        }
+      }
+    },
+    "winky": {
+      "name": "Winky",
+      "appearances": [
+        18
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A house-elf who works at Hogwarts but is deeply depressed about being freed from the Crouch family.",
+          "role": "Free house-elf",
+          "relationships": {
+            "Barty Crouch Sr.": "Former master of",
+            "Hogwarts": "Works at"
           }
         }
       }
     },
     "frank-longbottom": {
       "name": "Frank Longbottom",
-      "aliases": [
-        "Frank"
-      ],
       "appearances": [
-        23,
-        25
+        23
       ],
       "knowledge": {
         "23": {
           "revealedIn": 23,
-          "description": "Former Auror and Neville's father, tortured into insanity by Death Eaters. Patient at St. Mungo's.",
-          "role": "Former Auror, Patient",
+          "description": "Neville's father, an Auror who was tortured into insanity by Death Eaters and is now permanently hospitalized.",
+          "role": "Former Auror, patient",
           "relationships": {
-            "Neville Longbottom": "Father (doesn't recognize)",
-            "Alice Longbottom": "Husband",
-            "Bellatrix Lestrange": "Tortured by",
-            "St. Mungo's": "Permanent patient"
+            "Neville Longbottom": "Father of",
+            "Alice Longbottom": "Husband of",
+            "Death Eaters": "Tortured by",
+            "St. Mungo's": "Patient at"
           }
         }
       }
     },
     "alice-longbottom": {
       "name": "Alice Longbottom",
-      "aliases": [
-        "Alice"
-      ],
       "appearances": [
-        23,
-        25
+        23
       ],
       "knowledge": {
         "23": {
           "revealedIn": 23,
-          "description": "Former Auror and Neville's mother, tortured into insanity alongside her husband. St. Mungo's patient.",
-          "role": "Former Auror, Patient",
+          "description": "Neville's mother, an Auror who was tortured into insanity by Death Eaters and is now permanently hospitalized.",
+          "role": "Former Auror, patient",
           "relationships": {
-            "Neville Longbottom": "Mother (doesn't recognize)",
-            "Frank Longbottom": "Wife",
-            "Bellatrix Lestrange": "Tortured by",
-            "St. Mungo's": "Permanent patient"
-          }
-        },
-        "25": {
-          "revealedIn": 25,
-          "description": "Gives Neville a Drooble's Best Blowing Gum wrapper, her only way of showing affection.",
-          "role": "Patient, Mother",
-          "relationships": {
-            "Neville Longbottom": "Shows affection through gift"
+            "Neville Longbottom": "Mother of",
+            "Frank Longbottom": "Wife of",
+            "Death Eaters": "Tortured by",
+            "St. Mungo's": "Patient at"
           }
         }
       }
@@ -2502,43 +2283,35 @@
     },
     "gilderoy-lockhart": {
       "name": "Gilderoy Lockhart",
-      "aliases": [
-        "Lockhart"
-      ],
       "appearances": [
-        25
+        23
       ],
       "knowledge": {
-        "25": {
-          "revealedIn": 25,
-          "description": "Former Defense teacher now a patient at St. Mungo's, suffering from permanent memory damage from his own spell.",
-          "role": "Former professor, Patient",
+        "23": {
+          "revealedIn": 23,
+          "description": "Former Defense teacher, now a permanent resident of St. Mungo's due to his backfired memory charm.",
+          "role": "St. Mungo's patient",
           "relationships": {
             "St. Mungo's": "Patient at",
-            "Harry Potter": "Recognizes vaguely",
-            "Memory charm": "Victim of (backfired)"
+            "Hogwarts": "Former teacher at"
           }
         }
       }
     },
     "dilys-derwent": {
       "name": "Dilys Derwent",
-      "aliases": [
-        "Madam Derwent"
-      ],
       "appearances": [
         22,
-        25
+        23
       ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
-          "description": "Portrait of a former Hogwarts headmistress who can travel between her frames at Hogwarts and St. Mungo's.",
-          "role": "Former headmistress, Portrait informant",
+          "description": "Former Headmistress of Hogwarts whose portrait hangs in both Hogwarts and St. Mungo's, allowing communication.",
+          "role": "Portrait, former Headmistress",
           "relationships": {
-            "Albus Dumbledore": "Reports to",
-            "St. Mungo's": "Has portrait at",
-            "Order of the Phoenix": "Provides intelligence"
+            "Hogwarts": "Former Headmistress of",
+            "St. Mungo's": "Has portrait at"
           }
         }
       }
@@ -2661,9 +2434,6 @@
     },
     "rodolphus-lestrange": {
       "name": "Rodolphus Lestrange",
-      "aliases": [
-        "Rodolphus"
-      ],
       "appearances": [
         25,
         35,
@@ -2672,20 +2442,13 @@
       "knowledge": {
         "25": {
           "revealedIn": 25,
-          "description": "Death Eater and Bellatrix's husband who escaped from Azkaban with the other Death Eaters.",
+          "description": "Death Eater and Bellatrix's husband who escaped from Azkaban, participated in torturing the Longbottoms.",
           "role": "Death Eater, Escaped prisoner",
           "relationships": {
-            "Bellatrix Lestrange": "Husband",
+            "Bellatrix Lestrange": "Husband of",
             "Death Eaters": "Member",
-            "Azkaban": "Escaped from"
-          }
-        },
-        "35": {
-          "revealedIn": 35,
-          "description": "Fights alongside his wife and other Death Eaters at the Department of Mysteries.",
-          "role": "Death Eater, Fighter",
-          "relationships": {
-            "Order of the Phoenix": "Fighting against"
+            "Frank Longbottom": "Tortured",
+            "Alice Longbottom": "Tortured"
           }
         }
       }
@@ -2780,9 +2543,6 @@
     },
     "crabbe-sr": {
       "name": "Crabbe Sr.",
-      "aliases": [
-        "Crabbe's father"
-      ],
       "appearances": [
         35,
         36
@@ -2790,20 +2550,17 @@
       "knowledge": {
         "35": {
           "revealedIn": 35,
-          "description": "Death Eater and Vincent Crabbe's father who fights at the Department of Mysteries.",
-          "role": "Death Eater, Father",
+          "description": "Death Eater and Vincent Crabbe's father who fights in the Department of Mysteries battle.",
+          "role": "Death Eater",
           "relationships": {
-            "Death Eaters": "Member",
-            "Vincent Crabbe": "Father"
+            "Vincent Crabbe": "Father of",
+            "Death Eaters": "Member"
           }
         }
       }
     },
     "goyle-sr": {
       "name": "Goyle Sr.",
-      "aliases": [
-        "Goyle's father"
-      ],
       "appearances": [
         35,
         36
@@ -2811,20 +2568,17 @@
       "knowledge": {
         "35": {
           "revealedIn": 35,
-          "description": "Death Eater and Gregory Goyle's father who participates in the Ministry battle.",
-          "role": "Death Eater, Father",
+          "description": "Death Eater and Gregory Goyle's father who fights in the Department of Mysteries battle.",
+          "role": "Death Eater",
           "relationships": {
-            "Death Eaters": "Member",
-            "Gregory Goyle": "Father"
+            "Gregory Goyle": "Father of",
+            "Death Eaters": "Member"
           }
         }
       }
     },
     "mulciber": {
       "name": "Mulciber",
-      "aliases": [
-        "Mulciber Jr."
-      ],
       "appearances": [
         35,
         36
@@ -2832,229 +2586,201 @@
       "knowledge": {
         "35": {
           "revealedIn": 35,
-          "description": "Death Eater who fights at the Department of Mysteries. Known for his skill with the Imperius Curse.",
-          "role": "Death Eater, Imperius specialist",
+          "description": "Death Eater who participates in the Department of Mysteries battle.",
+          "role": "Death Eater",
           "relationships": {
-            "Death Eaters": "Member",
-            "Imperius Curse": "Specialist in"
+            "Death Eaters": "Member"
           }
         }
       }
     },
     "draco-malfoy": {
       "name": "Draco Malfoy",
-      "aliases": [
-        "Draco",
-        "Malfoy"
-      ],
       "appearances": [
-        8,
-        9,
-        10,
         11,
         17,
         27,
         28,
         32,
+        36,
         38
       ],
       "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Slytherin student who antagonizes Harry and his friends, now more hostile due to his father's imprisonment.",
+          "role": "Slytherin student",
+          "relationships": {
+            "Harry Potter": "Antagonistic toward",
+            "Lucius Malfoy": "Son of",
+            "Slytherin House": "Member of"
+          }
+        },
         "17": {
           "revealedIn": 17,
-          "description": "Fifth-year Slytherin and Harry's rival. Appointed to Umbridge's Inquisitorial Squad.",
-          "role": "Fifth-year student, Inquisitorial Squad member",
+          "description": "Appointed to Umbridge's Inquisitorial Squad and given authority to punish other students.",
+          "role": "Inquisitorial Squad member",
           "relationships": {
-            "Dolores Umbridge": "Works for",
-            "Inquisitorial Squad": "Member",
-            "Harry Potter": "Rival",
-            "Lucius Malfoy": "Son"
-          }
-        },
-        "27": {
-          "revealedIn": 27,
-          "description": "Uses his Inquisitorial Squad authority to help Umbridge catch Dumbledore's Army members.",
-          "role": "Inquisitorial Squad member, Enforcer",
-          "relationships": {
-            "Dumbledore's Army": "Helps expose",
-            "Dolores Umbridge": "Assists"
-          }
-        },
-        "36": {
-          "revealedIn": 36,
-          "description": "Shocked to learn his father has been arrested as a Death Eater and exposed at the Ministry.",
-          "role": "Fifth-year student, Death Eater's son",
-          "relationships": {
-            "Lucius Malfoy": "Father (arrested)"
+            "Inquisitorial Squad": "Member of",
+            "Dolores Umbridge": "Serves under"
           }
         }
       }
     },
     "vincent-crabbe": {
       "name": "Vincent Crabbe",
-      "aliases": [
-        "Crabbe"
-      ],
       "appearances": [
-        8,
+        11,
         17,
-        27,
-        32
+        27
       ],
       "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Draco's loyal follower and bodyguard, a Slytherin student.",
+          "role": "Slytherin student",
+          "relationships": {
+            "Draco Malfoy": "Follows",
+            "Slytherin House": "Member of"
+          }
+        },
         "17": {
           "revealedIn": 17,
-          "description": "Fifth-year Slytherin and Draco's friend. Member of Umbridge's Inquisitorial Squad.",
-          "role": "Fifth-year student, Inquisitorial Squad member",
+          "description": "Member of Umbridge's Inquisitorial Squad.",
+          "role": "Inquisitorial Squad member",
           "relationships": {
-            "Draco Malfoy": "Friend and follower",
-            "Inquisitorial Squad": "Member",
-            "Gregory Goyle": "Partner"
+            "Inquisitorial Squad": "Member of"
           }
         }
       }
     },
     "gregory-goyle": {
       "name": "Gregory Goyle",
-      "aliases": [
-        "Goyle"
-      ],
       "appearances": [
-        8,
+        11,
         17,
-        27,
-        32
+        27
       ],
       "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Draco's loyal follower and bodyguard, a Slytherin student.",
+          "role": "Slytherin student",
+          "relationships": {
+            "Draco Malfoy": "Follows",
+            "Slytherin House": "Member of"
+          }
+        },
         "17": {
           "revealedIn": 17,
-          "description": "Fifth-year Slytherin and Draco's bodyguard. Serves on Umbridge's Inquisitorial Squad.",
-          "role": "Fifth-year student, Inquisitorial Squad member",
+          "description": "Member of Umbridge's Inquisitorial Squad.",
+          "role": "Inquisitorial Squad member",
           "relationships": {
-            "Draco Malfoy": "Friend and follower",
-            "Inquisitorial Squad": "Member",
-            "Vincent Crabbe": "Partner"
+            "Inquisitorial Squad": "Member of"
           }
         }
       }
     },
     "pansy-parkinson": {
       "name": "Pansy Parkinson",
-      "aliases": [
-        "Pansy"
-      ],
       "appearances": [
-        8,
-        17,
-        27,
-        32
+        11,
+        17
       ],
       "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Slytherin student and admirer of Draco Malfoy.",
+          "role": "Slytherin student",
+          "relationships": {
+            "Draco Malfoy": "Admires",
+            "Slytherin House": "Member of"
+          }
+        },
         "17": {
           "revealedIn": 17,
-          "description": "Fifth-year Slytherin prefect and member of Umbridge's Inquisitorial Squad. Draco's girlfriend.",
-          "role": "Fifth-year student, Inquisitorial Squad member, Prefect",
+          "description": "Member of Umbridge's Inquisitorial Squad.",
+          "role": "Inquisitorial Squad member",
           "relationships": {
-            "Draco Malfoy": "Girlfriend",
-            "Inquisitorial Squad": "Member",
-            "Slytherin House": "Prefect"
+            "Inquisitorial Squad": "Member of"
           }
         }
       }
     },
     "millicent-bulstrode": {
       "name": "Millicent Bulstrode",
-      "aliases": [
-        "Millicent"
-      ],
       "appearances": [
-        17,
-        27
+        17
       ],
       "knowledge": {
         "17": {
           "revealedIn": 17,
-          "description": "Fifth-year Slytherin who joins Umbridge's Inquisitorial Squad to gain power over other students.",
-          "role": "Fifth-year student, Inquisitorial Squad member",
+          "description": "A Slytherin student and member of Umbridge's Inquisitorial Squad.",
+          "role": "Inquisitorial Squad member",
           "relationships": {
-            "Inquisitorial Squad": "Member",
-            "Dolores Umbridge": "Serves"
+            "Inquisitorial Squad": "Member of",
+            "Slytherin House": "Member of"
           }
         }
       }
     },
     "montague": {
       "name": "Montague",
-      "aliases": [
-        "Slytherin prefect"
-      ],
       "appearances": [
-        17,
-        27,
-        28,
-        29
+        19,
+        28
       ],
       "knowledge": {
-        "17": {
-          "revealedIn": 17,
-          "description": "Slytherin prefect and Quidditch player who becomes a key member of the Inquisitorial Squad.",
-          "role": "Prefect, Inquisitorial Squad member",
+        "19": {
+          "revealedIn": 19,
+          "description": "A Slytherin student and member of Umbridge's Inquisitorial Squad who tries to take House points from Fred and George.",
+          "role": "Inquisitorial Squad member",
           "relationships": {
-            "Inquisitorial Squad": "Member",
-            "Slytherin House": "Prefect",
-            "Slytherin Quidditch team": "Player"
+            "Inquisitorial Squad": "Member of",
+            "Fred Weasley": "Confronts",
+            "George Weasley": "Confronts"
           }
         },
-        "29": {
-          "revealedIn": 29,
-          "description": "Stuck in a Vanishing Cabinet by Fred and George, emerging days later confused and injured.",
-          "role": "Prefect, Vanishing Cabinet victim",
+        "28": {
+          "revealedIn": 28,
+          "description": "Found stuck inside a toilet after Fred and George forced him into a Vanishing Cabinet.",
+          "role": "Victim of prank",
           "relationships": {
-            "Fred Weasley": "Attacked by",
-            "George Weasley": "Attacked by",
-            "Vanishing Cabinet": "Trapped in"
+            "Weasley twins": "Pranked by"
           }
         }
       }
     },
     "blaise-zabini": {
       "name": "Blaise Zabini",
-      "aliases": [
-        "Blaise"
-      ],
       "appearances": [
-        17,
-        27
+        11
       ],
       "knowledge": {
-        "17": {
-          "revealedIn": 17,
-          "description": "Fifth-year Slytherin who joins the Inquisitorial Squad alongside other Slytherin students.",
-          "role": "Fifth-year student, Inquisitorial Squad member",
+        "11": {
+          "revealedIn": 11,
+          "description": "Slytherin student in Harry's year, known for his mother's multiple marriages.",
+          "role": "Slytherin student",
           "relationships": {
-            "Inquisitorial Squad": "Member",
-            "Slytherin House": "Student"
+            "Slytherin House": "Member of"
           }
         }
       }
     },
     "theodore-nott": {
       "name": "Theodore Nott",
-      "aliases": [
-        "Theo",
-        "Nott"
-      ],
       "appearances": [
-        17,
-        27
+        11,
+        32
       ],
       "knowledge": {
-        "17": {
-          "revealedIn": 17,
-          "description": "Fifth-year Slytherin and member of the Inquisitorial Squad. Son of Death Eater Nott.",
-          "role": "Fifth-year student, Inquisitorial Squad member",
+        "11": {
+          "revealedIn": 11,
+          "description": "Slytherin student in Harry's year, son of a Death Eater.",
+          "role": "Slytherin student",
           "relationships": {
-            "Inquisitorial Squad": "Member",
-            "Nott": "Father (Death Eater)"
+            "Slytherin House": "Member of",
+            "Nott Sr.": "Son of"
           }
         }
       }
@@ -3082,74 +2808,63 @@
     },
     "katie-bell": {
       "name": "Katie Bell",
-      "aliases": [
-        "Katie"
-      ],
       "appearances": [
-        17,
-        19
+        11,
+        13,
+        14,
+        19,
+        26
       ],
       "knowledge": {
-        "17": {
-          "revealedIn": 17,
-          "description": "Seventh-year Gryffindor and Chaser on the Quidditch team. One of the experienced players Harry relies on.",
-          "role": "Seventh-year student, Quidditch Chaser",
+        "11": {
+          "revealedIn": 11,
+          "description": "Gryffindor Chaser and member of the Quidditch team under Angelina's captaincy.",
+          "role": "Quidditch Chaser",
           "relationships": {
-            "Gryffindor Quidditch team": "Chaser",
-            "Harry Potter": "Teammate"
+            "Gryffindor Quidditch": "Member of",
+            "Angelina Johnson": "Teammate"
           }
         }
       }
     },
     "alicia-spinnet": {
       "name": "Alicia Spinnet",
-      "aliases": [
-        "Alicia"
-      ],
       "appearances": [
-        17,
-        19
+        11,
+        13,
+        14,
+        19,
+        26
       ],
       "knowledge": {
-        "17": {
-          "revealedIn": 17,
-          "description": "Seventh-year Gryffindor and Chaser on the Quidditch team. Experienced player and team veteran.",
-          "role": "Seventh-year student, Quidditch Chaser",
+        "11": {
+          "revealedIn": 11,
+          "description": "Gryffindor Chaser and member of the Quidditch team under Angelina's captaincy.",
+          "role": "Quidditch Chaser",
           "relationships": {
-            "Gryffindor Quidditch team": "Chaser",
-            "Katie Bell": "Fellow Chaser"
+            "Gryffindor Quidditch": "Member of",
+            "Angelina Johnson": "Teammate"
           }
         }
       }
     },
     "angelina-johnson": {
       "name": "Angelina Johnson",
-      "aliases": [
-        "Angelina"
-      ],
       "appearances": [
-        17,
-        19
+        11,
+        13,
+        14,
+        19,
+        26
       ],
       "knowledge": {
-        "17": {
-          "revealedIn": 17,
-          "description": "Seventh-year Gryffindor who becomes the new Quidditch captain after Oliver Wood graduated.",
-          "role": "Seventh-year student, Quidditch captain",
+        "11": {
+          "revealedIn": 11,
+          "description": "New Gryffindor Quidditch Captain and Chaser, trying to maintain team discipline and win the Cup.",
+          "role": "Quidditch Captain, Chaser",
           "relationships": {
-            "Gryffindor Quidditch team": "Captain and Chaser",
-            "Oliver Wood": "Succeeded as captain",
-            "Fred Weasley": "Teammate",
-            "George Weasley": "Teammate"
-          }
-        },
-        "19": {
-          "revealedIn": 19,
-          "description": "Struggles to manage the team while dealing with Umbridge's interference and the twins' banned status.",
-          "role": "Quidditch captain, Team manager",
-          "relationships": {
-            "Dolores Umbridge": "Interfered with by",
-            "Harry Potter": "Relies on as Seeker"
+            "Gryffindor Quidditch": "Captain of",
+            "Harry Potter": "Teammate"
           }
         }
       }
@@ -3382,6 +3097,3769 @@
           "role": "Enforcement group, DA hunters",
           "relationships": {
             "Dumbledore's Army": "Hunts and captures"
+          }
+        }
+      }
+    },
+    "percy-weasley-ministry": {
+      "name": "Percy Weasley",
+      "appearances": [
+        4,
+        5,
+        9,
+        14
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Has sided with the Ministry over his family, causing a rift with the Weasleys.",
+          "role": "Ministry employee",
+          "relationships": {
+            "Ministry of Magic": "Loyal to",
+            "Weasley family": "Estranged from"
+          }
+        }
+      }
+    },
+    "bode": {
+      "name": "Broderick Bode",
+      "appearances": [
+        23,
+        25
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "An Unspeakable from the Department of Mysteries who was injured trying to retrieve something for the Order.",
+          "role": "Unspeakable",
+          "relationships": {
+            "Department of Mysteries": "Works for",
+            "Order of the Phoenix": "May have been helping"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Killed by a Devil's Snare plant sent as a 'get well' gift while recovering in St. Mungo's.",
+          "role": "Deceased Unspeakable",
+          "relationships": {
+            "Death Eaters": "Likely killed by"
+          }
+        }
+      }
+    },
+    "eric-munch": {
+      "name": "Eric Munch",
+      "appearances": [
+        7
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A member of the Wizengamot present at Harry's disciplinary hearing.",
+          "role": "Wizengamot member",
+          "relationships": {
+            "Wizengamot": "Member of"
+          }
+        }
+      }
+    },
+    "tiberius-ogden": {
+      "name": "Tiberius Ogden",
+      "appearances": [
+        7
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A member of the Wizengamot present at Harry's disciplinary hearing.",
+          "role": "Wizengamot member",
+          "relationships": {
+            "Wizengamot": "Member of"
+          }
+        }
+      }
+    },
+    "griselda-marchbanks": {
+      "name": "Griselda Marchbanks",
+      "appearances": [
+        31,
+        32
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "An ancient witch who is head of the Wizarding Examinations Authority and oversees Harry's OWL exams.",
+          "role": "Chief Examiner",
+          "relationships": {
+            "Wizarding Examinations Authority": "Head of",
+            "Albus Dumbledore": "Former student of"
+          }
+        }
+      }
+    },
+    "professor-tofty": {
+      "name": "Professor Tofty",
+      "appearances": [
+        31,
+        32
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "An elderly wizard examiner who conducts Harry's Defense Against the Dark Arts OWL practical exam.",
+          "role": "OWL Examiner",
+          "relationships": {
+            "Wizarding Examinations Authority": "Works for"
+          }
+        }
+      }
+    },
+    "mafalda-hopkirk": {
+      "name": "Mafalda Hopkirk",
+      "appearances": [
+        1,
+        7
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A witch from the Improper Use of Magic Office who sends Harry a letter about his underage sorcery.",
+          "role": "Ministry official",
+          "relationships": {
+            "Ministry of Magic": "Works for",
+            "Harry Potter": "Monitors magic use of"
+          }
+        }
+      }
+    },
+    "willy-widdershins": {
+      "name": "Willy Widdershins",
+      "appearances": [
+        27
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "A wizard who was caught placing regurgitating toilets and gave information about Dumbledore's Army to avoid prosecution.",
+          "role": "Ministry informant",
+          "relationships": {
+            "Ministry of Magic": "Provides information to",
+            "Dumbledore's Army": "Betrayed"
+          }
+        }
+      }
+    },
+    "pius-thicknesse": {
+      "name": "Pius Thicknesse",
+      "appearances": [
+        7
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A ministry official present at Harry's disciplinary hearing.",
+          "role": "Ministry official",
+          "relationships": {
+            "Ministry of Magic": "Works for"
+          }
+        }
+      }
+    },
+    "john-dawlish": {
+      "name": "John Dawlish",
+      "appearances": [
+        27,
+        36
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "An Auror sent to arrest Dumbledore but is defeated along with the others.",
+          "role": "Auror",
+          "relationships": {
+            "Ministry of Magic": "Works for as Auror",
+            "Albus Dumbledore": "Attempts to arrest"
+          }
+        }
+      }
+    },
+    "augustus-pye": {
+      "name": "Augustus Pye",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A Trainee Healer at St. Mungo's who is interested in Muggle medicine and treats Arthur Weasley.",
+          "role": "Trainee Healer",
+          "relationships": {
+            "St. Mungo's": "Works at",
+            "Arthur Weasley": "Treats"
+          }
+        }
+      }
+    },
+    "healer-smethwyck": {
+      "name": "Healer Smethwyck",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A qualified Healer at St. Mungo's who supervises Arthur Weasley's care.",
+          "role": "Qualified Healer",
+          "relationships": {
+            "St. Mungo's": "Works at",
+            "Arthur Weasley": "Supervises care of"
+          }
+        }
+      }
+    },
+    "warrington": {
+      "name": "Warrington",
+      "appearances": [
+        17
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A Slytherin student and member of Umbridge's Inquisitorial Squad.",
+          "role": "Inquisitorial Squad member",
+          "relationships": {
+            "Inquisitorial Squad": "Member of",
+            "Slytherin House": "Member of"
+          }
+        }
+      }
+    },
+    "graham-pritchard": {
+      "name": "Graham Pritchard",
+      "appearances": [
+        17
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A younger Slytherin student and member of Umbridge's Inquisitorial Squad.",
+          "role": "Inquisitorial Squad member",
+          "relationships": {
+            "Inquisitorial Squad": "Member of",
+            "Slytherin House": "Member of"
+          }
+        }
+      }
+    },
+    "bane": {
+      "name": "Bane",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "A hostile centaur who disapproves of Firenze teaching at Hogwarts and threatens Harry and Hermione.",
+          "role": "Centaur warrior",
+          "relationships": {
+            "Firenze": "Disapproves of",
+            "Centaur herd": "Member of",
+            "Harry Potter": "Threatens"
+          }
+        }
+      }
+    },
+    "ronan": {
+      "name": "Ronan",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "A centaur in the Forbidden Forest who is less aggressive than Bane but still disapproves of human interaction.",
+          "role": "Centaur",
+          "relationships": {
+            "Centaur herd": "Member of",
+            "Bane": "Ally of"
+          }
+        }
+      }
+    },
+    "magorian": {
+      "name": "Magorian",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "The leader of the centaur herd in the Forbidden Forest who confronts Harry and Hermione.",
+          "role": "Centaur leader",
+          "relationships": {
+            "Centaur herd": "Leader of",
+            "Firenze": "Banished"
+          }
+        }
+      }
+    },
+    "grawp": {
+      "name": "Grawp",
+      "appearances": [
+        30,
+        33,
+        36
+      ],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Hagrid's giant half-brother who was brought from the mountains and hidden in the Forbidden Forest.",
+          "role": "Giant",
+          "relationships": {
+            "Hagrid": "Half-brother of",
+            "Giants": "Member of species"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Violent and difficult to control, attacks the centaurs when they threaten Harry and Hermione.",
+          "role": "Protective giant",
+          "relationships": {
+            "Centaurs": "Fights with",
+            "Harry Potter": "Defends",
+            "Hermione Granger": "Defends"
+          }
+        }
+      }
+    },
+    "karkus": {
+      "name": "Karkus",
+      "appearances": [
+        20
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "The Gurg (leader) of a giant tribe that Hagrid and Maxime visited, killed by his successor Golgomath.",
+          "role": "Giant leader",
+          "relationships": {
+            "Giants": "Leader of",
+            "Golgomath": "Killed by"
+          }
+        }
+      }
+    },
+    "golgomath": {
+      "name": "Golgomath",
+      "appearances": [
+        20
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A giant who killed Karkus and became the new Gurg, allied with Voldemort.",
+          "role": "Giant leader",
+          "relationships": {
+            "Giants": "Leader of",
+            "Karkus": "Killed",
+            "Voldemort": "Allied with"
+          }
+        }
+      }
+    },
+    "barnabas-cuffe": {
+      "name": "Barnabas Cuffe",
+      "appearances": [
+        25
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Editor of the Daily Prophet who publishes articles supporting Ministry propaganda.",
+          "role": "Daily Prophet Editor",
+          "relationships": {
+            "Daily Prophet": "Editor of",
+            "Ministry of Magic": "Supports"
+          }
+        }
+      }
+    },
+    "rookwood": {
+      "name": "Augustus Rookwood",
+      "appearances": [
+        25,
+        35,
+        36
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Death Eater who was an Unspeakable spy in the Department of Mysteries, escaped from Azkaban.",
+          "role": "Death Eater, Former Unspeakable",
+          "relationships": {
+            "Death Eaters": "Member",
+            "Department of Mysteries": "Former spy in"
+          }
+        }
+      }
+    },
+    "nott-sr": {
+      "name": "Nott Sr.",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Death Eater who fights in the Department of Mysteries battle.",
+          "role": "Death Eater",
+          "relationships": {
+            "Death Eaters": "Member"
+          }
+        }
+      }
+    },
+    "mrs-figg": {
+      "name": "Arabella Figg",
+      "appearances": [
+        1,
+        2
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's elderly neighbor revealed to be a Squib who has been watching over him for Dumbledore.",
+          "role": "Squib guardian",
+          "relationships": {
+            "Harry Potter": "Watches over",
+            "Albus Dumbledore": "Works for",
+            "Order of the Phoenix": "Ally of"
+          }
+        }
+      }
+    },
+    "thestrals": {
+      "name": "Thestrals",
+      "appearances": [
+        10,
+        21,
+        34
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Winged skeletal horses that pull the Hogwarts carriages, visible only to those who have witnessed death.",
+          "role": "Magical creatures",
+          "relationships": {
+            "Harry Potter": "Visible to",
+            "Hogwarts": "Transport for"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Taught about in Care of Magical Creatures class by Hagrid, despite their frightening appearance to most students.",
+          "role": "Class subject",
+          "relationships": {
+            "Hagrid": "Taught by"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Used by Harry and his friends to fly to London and the Ministry of Magic.",
+          "role": "Transportation",
+          "relationships": {
+            "Harry Potter": "Ridden by",
+            "Ministry of Magic": "Fly to"
+          }
+        }
+      }
+    },
+    "regulus-black": {
+      "name": "Regulus Black",
+      "appearances": [
+        6
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Sirius's younger brother shown on the Black family tree, died young.",
+          "role": "Dead family member",
+          "relationships": {
+            "Sirius Black": "Brother of",
+            "Black family": "Member of"
+          }
+        }
+      }
+    },
+    "andromeda-tonks": {
+      "name": "Andromeda Tonks",
+      "aliases": [
+        "Andromeda Black"
+      ],
+      "appearances": [
+        6
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Sirius's cousin, burned off the family tree for marrying a Muggle-born.",
+          "role": "Disowned family member",
+          "relationships": {
+            "Sirius Black": "Cousin of",
+            "Nymphadora Tonks": "Mother of",
+            "Ted Tonks": "Married to"
+          }
+        }
+      }
+    },
+    "narcissa-malfoy": {
+      "name": "Narcissa Malfoy",
+      "aliases": [
+        "Narcissa Black"
+      ],
+      "appearances": [
+        6
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Sirius's cousin shown on the family tree, married to Lucius Malfoy.",
+          "role": "Black family member",
+          "relationships": {
+            "Sirius Black": "Cousin of",
+            "Lucius Malfoy": "Wife of",
+            "Draco Malfoy": "Mother of"
+          }
+        }
+      }
+    },
+    "orion-black": {
+      "name": "Orion Black",
+      "appearances": [
+        6
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Sirius's father shown on the Black family tree.",
+          "role": "Dead family patriarch",
+          "relationships": {
+            "Sirius Black": "Father of",
+            "Regulus Black": "Father of"
+          }
+        }
+      }
+    },
+    "walburga-black": {
+      "name": "Walburga Black",
+      "appearances": [
+        6
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Sirius's mother shown on the family tree, her portrait screams at intruders.",
+          "role": "Dead family matriarch",
+          "relationships": {
+            "Sirius Black": "Mother of",
+            "Regulus Black": "Mother of"
+          }
+        }
+      }
+    },
+    "cho-chang-seeker": {
+      "name": "Cho Chang",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Ravenclaw Seeker who competes against Harry in Quidditch matches.",
+          "role": "Ravenclaw Seeker",
+          "relationships": {
+            "Ravenclaw Quidditch": "Seeker for",
+            "Harry Potter": "Competes against"
+          }
+        }
+      }
+    },
+    "roger-davies": {
+      "name": "Roger Davies",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Ravenclaw Quidditch Captain who leads the team against Gryffindor.",
+          "role": "Ravenclaw Captain",
+          "relationships": {
+            "Ravenclaw Quidditch": "Captain of"
+          }
+        }
+      }
+    },
+    "cedric-diggory": {
+      "name": "Cedric Diggory",
+      "appearances": [
+        12,
+        16,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Hufflepuff student killed by Voldemort, remembered as a hero who died fighting against evil.",
+          "role": "Deceased Hufflepuff champion",
+          "relationships": {
+            "Cho Chang": "Former boyfriend of",
+            "Voldemort": "Killed by"
+          }
+        }
+      }
+    },
+    "grindelwald": {
+      "name": "Gellert Grindelwald",
+      "appearances": [
+        11,
+        31
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Dark wizard defeated by Dumbledore in 1945, mentioned in History of Magic.",
+          "role": "Historical dark wizard",
+          "relationships": {
+            "Albus Dumbledore": "Defeated by"
+          }
+        }
+      }
+    },
+    "emeric-switch": {
+      "name": "Emeric Switch",
+      "appearances": [
+        31
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Historical wizard mentioned during OWL History of Magic exam.",
+          "role": "Historical figure",
+          "relationships": {
+            "History of Magic": "Subject of exam question"
+          }
+        }
+      }
+    },
+    "professor-umbridge-exam": {
+      "name": "Dolores Umbridge",
+      "appearances": [
+        31,
+        32
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Supervises Harry's Defense Against the Dark Arts OWL exam, trying to sabotage his performance.",
+          "role": "Exam supervisor",
+          "relationships": {
+            "Harry Potter": "Attempts to sabotage",
+            "OWL exams": "Supervises"
+          }
+        }
+      }
+    },
+    "professor-mcgonagall-exam": {
+      "name": "Minerva McGonagall",
+      "appearances": [
+        31,
+        32
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Supervises the Transfiguration OWL exam and defends her students from Umbridge's interference.",
+          "role": "Exam supervisor",
+          "relationships": {
+            "OWL exams": "Supervises",
+            "Students": "Protects from interference"
+          }
+        }
+      }
+    },
+    "phineas-nigellus": {
+      "name": "Phineas Nigellus",
+      "appearances": [
+        6,
+        22,
+        23,
+        37
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Portrait of Sirius's great-great-grandfather, the least popular Hogwarts headmaster, who spies for Dumbledore.",
+          "role": "Portrait, former Headmaster",
+          "relationships": {
+            "Sirius Black": "Ancestor of",
+            "Hogwarts": "Former Headmaster of",
+            "Albus Dumbledore": "Reports to"
+          }
+        }
+      }
+    },
+    "dementors": {
+      "name": "Dementors",
+      "appearances": [
+        1,
+        5,
+        12,
+        13
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Soul-sucking creatures that attack Harry and Dudley in Little Whinging on Voldemort's orders.",
+          "role": "Dark creatures",
+          "relationships": {
+            "Voldemort": "Serve",
+            "Harry Potter": "Attack",
+            "Azkaban": "Guards of"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Have joined Voldemort's side and are breeding, causing despair across Britain.",
+          "role": "Voldemort's allies",
+          "relationships": {
+            "Voldemort": "Allied with",
+            "Ministry of Magic": "No longer controlled by"
+          }
+        }
+      }
+    },
+    "eric-munch-wizengamot": {
+      "name": "Eric Munch",
+      "appearances": [
+        7
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Wizengamot member who questions Harry during his disciplinary hearing.",
+          "role": "Wizengamot member",
+          "relationships": {
+            "Wizengamot": "Member of"
+          }
+        }
+      }
+    },
+    "umbridge-kittens": {
+      "name": "Decorative Kittens",
+      "appearances": [
+        13,
+        15,
+        17
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Magical kittens on plates that decorate Umbridge's office, meowing and moving around.",
+          "role": "Magical decorations",
+          "relationships": {
+            "Dolores Umbridge": "Belong to"
+          }
+        }
+      }
+    },
+    "professor-vector": {
+      "name": "Professor Vector",
+      "appearances": [
+        31
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Arithmancy professor who oversees OWL examinations.",
+          "role": "Arithmancy Professor",
+          "relationships": {
+            "Hogwarts": "Teacher at"
+          }
+        }
+      }
+    },
+    "professor-sinistra": {
+      "name": "Professor Sinistra",
+      "appearances": [
+        31
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Astronomy professor who teaches at Hogwarts.",
+          "role": "Astronomy Professor",
+          "relationships": {
+            "Hogwarts": "Teacher at"
+          }
+        }
+      }
+    },
+    "madam-pince": {
+      "name": "Madam Pince",
+      "appearances": [
+        13,
+        18,
+        26
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Strict Hogwarts librarian who guards the books fiercely.",
+          "role": "Librarian",
+          "relationships": {
+            "Hogwarts": "Librarian at",
+            "Library books": "Protects"
+          }
+        }
+      }
+    },
+    "madam-pomfrey": {
+      "name": "Madam Pomfrey",
+      "appearances": [
+        17,
+        19,
+        38
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Hogwarts school nurse who heals students injured by Umbridge's detentions and other accidents.",
+          "role": "School nurse",
+          "relationships": {
+            "Hogwarts": "Nurse at",
+            "Students": "Heals"
+          }
+        }
+      }
+    },
+    "katie-leung": {
+      "name": "Katie Leung",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Student who joins Dumbledore's Army to learn practical defense.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of"
+          }
+        }
+      }
+    },
+    "wayne-hopkins": {
+      "name": "Wayne Hopkins",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Hufflepuff student who joins Dumbledore's Army.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Hufflepuff House": "Member of"
+          }
+        }
+      }
+    },
+    "laura-madley": {
+      "name": "Laura Madley",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Hufflepuff student who joins Dumbledore's Army.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of",
+            "Hufflepuff House": "Member of"
+          }
+        }
+      }
+    },
+    "tom-innkeeper": {
+      "name": "Tom",
+      "appearances": [
+        4
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Innkeeper of the Leaky Cauldron who greets the Weasleys and Harry.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Leaky Cauldron": "Innkeeper of"
+          }
+        }
+      }
+    },
+    "mr-olivander": {
+      "name": "Mr. Ollivander",
+      "appearances": [
+        26
+      ],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Wand maker whose shop is mentioned when discussing Harry's wand problems.",
+          "role": "Wand maker",
+          "relationships": {
+            "Ollivanders": "Owner of"
+          }
+        }
+      }
+    },
+    "fawkes": {
+      "name": "Fawkes",
+      "appearances": [
+        22,
+        27,
+        36,
+        37
+      ],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Dumbledore's phoenix whose song provides comfort during dark times.",
+          "role": "Phoenix companion",
+          "relationships": {
+            "Albus Dumbledore": "Familiar of",
+            "Harry Potter": "Helps"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Flies away when Dumbledore leaves Hogwarts, showing loyalty to his master.",
+          "role": "Loyal phoenix",
+          "relationships": {
+            "Albus Dumbledore": "Follows into exile"
+          }
+        }
+      }
+    },
+    "hedwig": {
+      "name": "Hedwig",
+      "appearances": [
+        1,
+        2,
+        3,
+        10,
+        14,
+        18
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's snowy owl who has been prevented from carrying messages, showing signs of frustration.",
+          "role": "Harry's owl",
+          "relationships": {
+            "Harry Potter": "Belongs to",
+            "Order of the Phoenix": "Mail restricted by"
+          }
+        }
+      }
+    },
+    "peter-pettigrew": {
+      "name": "Peter Pettigrew",
+      "aliases": [
+        "Wormtail"
+      ],
+      "appearances": [
+        1,
+        33,
+        36
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Former Marauder turned Death Eater who serves Voldemort and betrayed the Potters.",
+          "role": "Death Eater, traitor",
+          "relationships": {
+            "Voldemort": "Serves",
+            "James Potter": "Betrayed",
+            "Lily Potter": "Betrayed"
+          }
+        }
+      }
+    },
+    "fenrir-greyback": {
+      "name": "Fenrir Greyback",
+      "appearances": [
+        16,
+        33
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Savage werewolf who allies with Voldemort and enjoys attacking children.",
+          "role": "Werewolf ally",
+          "relationships": {
+            "Voldemort": "Ally of",
+            "Children": "Targets"
+          }
+        }
+      }
+    },
+    "vernon-dursley": {
+      "name": "Vernon Dursley",
+      "appearances": [
+        1,
+        2,
+        3,
+        38
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's uncle who becomes even more hostile after the Dementor attack and tries to throw Harry out.",
+          "role": "Harry's uncle",
+          "relationships": {
+            "Harry Potter": "Guardian of",
+            "Petunia Dursley": "Husband of"
+          }
+        }
+      }
+    },
+    "petunia-dursley": {
+      "name": "Petunia Dursley",
+      "appearances": [
+        1,
+        2,
+        3,
+        38
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's aunt who receives a Howler reminding her of her obligation to keep Harry safe.",
+          "role": "Harry's aunt",
+          "relationships": {
+            "Harry Potter": "Guardian of",
+            "Lily Potter": "Sister of"
+          }
+        }
+      }
+    },
+    "dudley-dursley": {
+      "name": "Dudley Dursley",
+      "appearances": [
+        1,
+        2,
+        38
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Harry's cousin who is attacked by Dementors and experiences their effects for the first time.",
+          "role": "Harry's cousin",
+          "relationships": {
+            "Harry Potter": "Cousin of",
+            "Dementors": "Attacked by"
+          }
+        }
+      }
+    },
+    "bozo": {
+      "name": "Bozo",
+      "appearances": [
+        25
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Daily Prophet staff member mentioned in the newspaper.",
+          "role": "Prophet employee",
+          "relationships": {
+            "Daily Prophet": "Works for"
+          }
+        }
+      }
+    },
+    "uric-the-oddball": {
+      "name": "Uric the Oddball",
+      "appearances": [
+        31
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Medieval wizard mentioned in History of Magic OWL exam.",
+          "role": "Historical wizard",
+          "relationships": {
+            "History of Magic": "Subject of"
+          }
+        }
+      }
+    },
+    "elfric-the-eager": {
+      "name": "Elfric the Eager",
+      "appearances": [
+        31
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Historical wizard mentioned in OWL examinations.",
+          "role": "Historical figure",
+          "relationships": {
+            "History of Magic": "Exam topic"
+          }
+        }
+      }
+    },
+    "wizengamot-member-1": {
+      "name": "Wizengamot Member One",
+      "appearances": [
+        7
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Unnamed member of the Wizengamot present at Harry's hearing.",
+          "role": "Wizengamot member",
+          "relationships": {
+            "Wizengamot": "Member of"
+          }
+        }
+      }
+    },
+    "wizengamot-member-2": {
+      "name": "Wizengamot Member Two",
+      "appearances": [
+        7
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Another unnamed member of the Wizengamot at Harry's disciplinary hearing.",
+          "role": "Wizengamot member",
+          "relationships": {
+            "Wizengamot": "Member of"
+          }
+        }
+      }
+    },
+    "portrait-1-grimmauld": {
+      "name": "Black Family Portrait One",
+      "appearances": [
+        6
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of many hostile portraits of Black family ancestors hanging in Grimmauld Place.",
+          "role": "Hostile portrait",
+          "relationships": {
+            "Black family": "Ancestor of",
+            "Grimmauld Place": "Haunts"
+          }
+        }
+      }
+    },
+    "portrait-2-grimmauld": {
+      "name": "Black Family Portrait Two",
+      "appearances": [
+        6
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another hostile portrait of Black family ancestors in the house.",
+          "role": "Hostile portrait",
+          "relationships": {
+            "Black family": "Ancestor of",
+            "Grimmauld Place": "Haunts"
+          }
+        }
+      }
+    },
+    "ministry-lift-operator": {
+      "name": "Ministry Lift Operator",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ministry employee who operates the magical lifts and announces floors.",
+          "role": "Lift operator",
+          "relationships": {
+            "Ministry of Magic": "Employee of"
+          }
+        }
+      }
+    },
+    "ministry-security": {
+      "name": "Ministry Security Wizard",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Security guard who checks wands and monitors visitors to the Ministry.",
+          "role": "Security guard",
+          "relationships": {
+            "Ministry of Magic": "Guards"
+          }
+        }
+      }
+    },
+    "st-mungos-receptionist": {
+      "name": "St. Mungo's Receptionist",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "The witch who greets visitors at the St. Mungo's reception desk.",
+          "role": "Hospital receptionist",
+          "relationships": {
+            "St. Mungo's": "Works at"
+          }
+        }
+      }
+    },
+    "st-mungos-healer-1": {
+      "name": "St. Mungo's Healer One",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "One of the healers working in the long-term care ward.",
+          "role": "Healer",
+          "relationships": {
+            "St. Mungo's": "Healer at"
+          }
+        }
+      }
+    },
+    "st-mungos-patient-1": {
+      "name": "St. Mungo's Patient One",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A patient in the long-term care ward with permanent magical damage.",
+          "role": "Hospital patient",
+          "relationships": {
+            "St. Mungo's": "Patient at"
+          }
+        }
+      }
+    },
+    "first-year-student-1": {
+      "name": "First Year Student One",
+      "appearances": [
+        10,
+        11
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "New first-year student sorted into one of the houses.",
+          "role": "First-year student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "second-year-student-1": {
+      "name": "Second Year Student One",
+      "appearances": [
+        11
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Second-year student attending classes at Hogwarts.",
+          "role": "Second-year student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "third-year-student-1": {
+      "name": "Third Year Student One",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Third-year student who joins Dumbledore's Army.",
+          "role": "DA member",
+          "relationships": {
+            "Dumbledore's Army": "Member of"
+          }
+        }
+      }
+    },
+    "fourth-year-student-1": {
+      "name": "Fourth Year Student One",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Fourth-year student attending Hogwarts classes.",
+          "role": "Fourth-year student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "sixth-year-student-1": {
+      "name": "Sixth Year Student One",
+      "appearances": [
+        11
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Sixth-year student taking advanced classes at Hogwarts.",
+          "role": "Sixth-year student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "seventh-year-student-1": {
+      "name": "Seventh Year Student One",
+      "appearances": [
+        11,
+        31,
+        32
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Seventh-year student preparing for NEWTs.",
+          "role": "Seventh-year student",
+          "relationships": {
+            "Hogwarts": "Final year student at"
+          }
+        }
+      }
+    },
+    "gryffindor-supporter-1": {
+      "name": "Gryffindor Supporter One",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Student who supports Gryffindor in Quidditch matches.",
+          "role": "Quidditch supporter",
+          "relationships": {
+            "Gryffindor House": "Supports"
+          }
+        }
+      }
+    },
+    "slytherin-supporter-1": {
+      "name": "Slytherin Supporter One",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Student who supports Slytherin and taunts opposing teams.",
+          "role": "Quidditch supporter",
+          "relationships": {
+            "Slytherin House": "Supports"
+          }
+        }
+      }
+    },
+    "hufflepuff-supporter-1": {
+      "name": "Hufflepuff Supporter One",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Hufflepuff student who cheers for their house team.",
+          "role": "Quidditch supporter",
+          "relationships": {
+            "Hufflepuff House": "Supports"
+          }
+        }
+      }
+    },
+    "ravenclaw-supporter-1": {
+      "name": "Ravenclaw Supporter One",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Ravenclaw student supporting their house Quidditch team.",
+          "role": "Quidditch supporter",
+          "relationships": {
+            "Ravenclaw House": "Supports"
+          }
+        }
+      }
+    },
+    "unspeakable-1": {
+      "name": "Unspeakable One",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Anonymous Department of Mysteries employee encountered during the battle.",
+          "role": "Unspeakable",
+          "relationships": {
+            "Department of Mysteries": "Works for"
+          }
+        }
+      }
+    },
+    "unspeakable-2": {
+      "name": "Unspeakable Two",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Another Department of Mysteries worker in the prophecy chamber.",
+          "role": "Unspeakable",
+          "relationships": {
+            "Department of Mysteries": "Works for"
+          }
+        }
+      }
+    },
+    "giant-tribe-member-1": {
+      "name": "Giant Tribe Member One",
+      "appearances": [
+        20
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Member of the giant tribe that Hagrid and Maxime visited.",
+          "role": "Giant",
+          "relationships": {
+            "Giant tribe": "Member of"
+          }
+        }
+      }
+    },
+    "giant-tribe-member-2": {
+      "name": "Giant Tribe Member Two",
+      "appearances": [
+        20
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Another giant from the tribe in the mountains.",
+          "role": "Giant",
+          "relationships": {
+            "Giant tribe": "Member of"
+          }
+        }
+      }
+    },
+    "centaur-warrior-1": {
+      "name": "Centaur Warrior One",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Centaur warrior who confronts Harry, Hermione and threatens them in the forest.",
+          "role": "Centaur warrior",
+          "relationships": {
+            "Centaur herd": "Member of",
+            "Harry Potter": "Threatens"
+          }
+        }
+      }
+    },
+    "centaur-warrior-2": {
+      "name": "Centaur Warrior Two",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Another centaur who participates in confronting the humans.",
+          "role": "Centaur warrior",
+          "relationships": {
+            "Centaur herd": "Member of"
+          }
+        }
+      }
+    },
+    "hogwarts-house-elf-1": {
+      "name": "Hogwarts House-elf One",
+      "appearances": [
+        18
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "One of many house-elves working in the Hogwarts kitchens.",
+          "role": "House-elf",
+          "relationships": {
+            "Hogwarts": "Serves",
+            "Kitchen": "Works in"
+          }
+        }
+      }
+    },
+    "hogwarts-house-elf-2": {
+      "name": "Hogwarts House-elf Two",
+      "appearances": [
+        18
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Another house-elf serving at Hogwarts, wary of Hermione's liberation efforts.",
+          "role": "House-elf",
+          "relationships": {
+            "Hogwarts": "Serves",
+            "Hermione Granger": "Suspicious of"
+          }
+        }
+      }
+    },
+    "death-eater-mask-1": {
+      "name": "Masked Death Eater One",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Unidentified Death Eater fighting in the Department of Mysteries battle.",
+          "role": "Death Eater",
+          "relationships": {
+            "Death Eaters": "Member of",
+            "Voldemort": "Serves"
+          }
+        }
+      }
+    },
+    "death-eater-mask-2": {
+      "name": "Masked Death Eater Two",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Another masked Death Eater participating in the Ministry battle.",
+          "role": "Death Eater",
+          "relationships": {
+            "Death Eaters": "Member of",
+            "Voldemort": "Serves"
+          }
+        }
+      }
+    },
+    "death-eater-mask-3": {
+      "name": "Masked Death Eater Three",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Third unidentified Death Eater in the Department of Mysteries.",
+          "role": "Death Eater",
+          "relationships": {
+            "Death Eaters": "Member of",
+            "Voldemort": "Serves"
+          }
+        }
+      }
+    },
+    "azkaban-escapee-1": {
+      "name": "Azkaban Escapee One",
+      "appearances": [
+        25
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "One of the Death Eaters who escaped from Azkaban prison.",
+          "role": "Escaped prisoner",
+          "relationships": {
+            "Azkaban": "Escaped from",
+            "Death Eaters": "Member of"
+          }
+        }
+      }
+    },
+    "azkaban-escapee-2": {
+      "name": "Azkaban Escapee Two",
+      "appearances": [
+        25
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Another Death Eater who broke out of Azkaban prison.",
+          "role": "Escaped prisoner",
+          "relationships": {
+            "Azkaban": "Escaped from",
+            "Death Eaters": "Member of"
+          }
+        }
+      }
+    },
+    "azkaban-escapee-3": {
+      "name": "Azkaban Escapee Three",
+      "appearances": [
+        25
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Third Death Eater among those who escaped Azkaban.",
+          "role": "Escaped prisoner",
+          "relationships": {
+            "Azkaban": "Escaped from",
+            "Death Eaters": "Member of"
+          }
+        }
+      }
+    },
+    "prophecy-orb-1": {
+      "name": "Prophecy Orb One",
+      "appearances": [
+        35
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "One of thousands of prophecy orbs stored in the Department of Mysteries.",
+          "role": "Magical artifact",
+          "relationships": {
+            "Department of Mysteries": "Stored in",
+            "Prophecies": "Contains"
+          }
+        }
+      }
+    },
+    "prophecy-orb-2": {
+      "name": "Prophecy Orb Two",
+      "appearances": [
+        35
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Another prophecy orb in the vast Hall of Prophecy.",
+          "role": "Magical artifact",
+          "relationships": {
+            "Department of Mysteries": "Stored in",
+            "Hall of Prophecy": "Located in"
+          }
+        }
+      }
+    },
+    "thestral-1": {
+      "name": "Thestral One",
+      "appearances": [
+        10,
+        21,
+        34
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "One of the thestrals pulling the Hogwarts carriages, visible to Harry.",
+          "role": "Magical creature",
+          "relationships": {
+            "Hogwarts": "Serves as transport",
+            "Harry Potter": "Visible to"
+          }
+        }
+      }
+    },
+    "thestral-2": {
+      "name": "Thestral Two",
+      "appearances": [
+        34
+      ],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Thestral that carries one of Harry's friends to London.",
+          "role": "Flying mount",
+          "relationships": {
+            "Harry's friends": "Carries",
+            "Ministry of Magic": "Flies to"
+          }
+        }
+      }
+    },
+    "daily-prophet-reporter-1": {
+      "name": "Daily Prophet Reporter One",
+      "appearances": [
+        25,
+        26
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Reporter who writes articles supporting the Ministry's position.",
+          "role": "Journalist",
+          "relationships": {
+            "Daily Prophet": "Works for",
+            "Ministry of Magic": "Supports"
+          }
+        }
+      }
+    },
+    "daily-prophet-reporter-2": {
+      "name": "Daily Prophet Reporter Two",
+      "appearances": [
+        25,
+        26
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Another reporter producing Ministry propaganda articles.",
+          "role": "Journalist",
+          "relationships": {
+            "Daily Prophet": "Works for",
+            "Ministry of Magic": "Supports"
+          }
+        }
+      }
+    },
+    "diagon-alley-shopper-1": {
+      "name": "Diagon Alley Shopper One",
+      "appearances": [
+        5
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Witch shopping in Diagon Alley during the Weasleys' visit.",
+          "role": "Shopper",
+          "relationships": {
+            "Diagon Alley": "Shops in"
+          }
+        }
+      }
+    },
+    "diagon-alley-shopper-2": {
+      "name": "Diagon Alley Shopper Two",
+      "appearances": [
+        5
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Wizard browsing shops in Diagon Alley.",
+          "role": "Shopper",
+          "relationships": {
+            "Diagon Alley": "Shops in"
+          }
+        }
+      }
+    },
+    "knight-bus-passenger-1": {
+      "name": "Knight Bus Passenger One",
+      "appearances": [
+        24
+      ],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Passenger on the Knight Bus mentioned during travel discussions.",
+          "role": "Bus passenger",
+          "relationships": {
+            "Knight Bus": "Travels on"
+          }
+        }
+      }
+    },
+    "celestina-warbeck": {
+      "name": "Celestina Warbeck",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Popular singing witch heard on the Wizard Wireless, Molly's favorite.",
+          "role": "Singer",
+          "relationships": {
+            "Wizard Wireless": "Performs on",
+            "Molly Weasley": "Favorite of"
+          }
+        }
+      }
+    },
+    "auror-1": {
+      "name": "Auror One",
+      "appearances": [
+        27,
+        36
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Auror who attempts to arrest Dumbledore but is defeated.",
+          "role": "Auror",
+          "relationships": {
+            "Ministry of Magic": "Works for",
+            "Albus Dumbledore": "Attempts to arrest"
+          }
+        }
+      }
+    },
+    "auror-2": {
+      "name": "Auror Two",
+      "appearances": [
+        27,
+        36
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Another Auror involved in the failed attempt to capture Dumbledore.",
+          "role": "Auror",
+          "relationships": {
+            "Ministry of Magic": "Works for",
+            "Albus Dumbledore": "Attempts to arrest"
+          }
+        }
+      }
+    },
+    "student-parent-1": {
+      "name": "Student Parent One",
+      "appearances": [
+        26
+      ],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Parent visiting Hogwarts for career advice meetings.",
+          "role": "Parent",
+          "relationships": {
+            "Hogwarts student": "Parent of",
+            "Career advice": "Attends"
+          }
+        }
+      }
+    },
+    "student-parent-2": {
+      "name": "Student Parent Two",
+      "appearances": [
+        26
+      ],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Another parent attending career guidance sessions at Hogwarts.",
+          "role": "Parent",
+          "relationships": {
+            "Hogwarts student": "Parent of",
+            "Career advice": "Attends"
+          }
+        }
+      }
+    },
+    "order-ally-1": {
+      "name": "Order Ally One",
+      "appearances": [
+        3,
+        9
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Wizard allied with the Order who helps in various missions.",
+          "role": "Order ally",
+          "relationships": {
+            "Order of the Phoenix": "Allied with"
+          }
+        }
+      }
+    },
+    "order-ally-2": {
+      "name": "Order Ally Two",
+      "appearances": [
+        3,
+        9
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another ally of the Order providing support and information.",
+          "role": "Order ally",
+          "relationships": {
+            "Order of the Phoenix": "Allied with"
+          }
+        }
+      }
+    },
+    "gryffindor-student-1": {
+      "name": "Gryffindor Student Alpha",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Gryffindor house member who supports Harry during difficult times.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Gryffindor House": "Member of",
+            "Harry Potter": "Supports"
+          }
+        }
+      }
+    },
+    "gryffindor-student-2": {
+      "name": "Gryffindor Student Beta",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Another Gryffindor student attending classes and meals.",
+          "role": "Gryffindor student",
+          "relationships": {
+            "Gryffindor House": "Member of"
+          }
+        }
+      }
+    },
+    "slytherin-student-1": {
+      "name": "Slytherin Student Alpha",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Slytherin student who supports Umbridge's regime.",
+          "role": "Slytherin student",
+          "relationships": {
+            "Slytherin House": "Member of",
+            "Dolores Umbridge": "Supports"
+          }
+        }
+      }
+    },
+    "hufflepuff-student-1": {
+      "name": "Hufflepuff Student Alpha",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Hufflepuff student who quietly supports Harry's version of events.",
+          "role": "Hufflepuff student",
+          "relationships": {
+            "Hufflepuff House": "Member of",
+            "Harry Potter": "Believes"
+          }
+        }
+      }
+    },
+    "ravenclaw-student-1": {
+      "name": "Ravenclaw Student Alpha",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Intellectual Ravenclaw student analyzing the situation carefully.",
+          "role": "Ravenclaw student",
+          "relationships": {
+            "Ravenclaw House": "Member of"
+          }
+        }
+      }
+    },
+    "department-regulation-control-1": {
+      "name": "Department for Regulation and Control Worker",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ministry employee working in creature regulation.",
+          "role": "Ministry employee",
+          "relationships": {
+            "Ministry of Magic": "Works for"
+          }
+        }
+      }
+    },
+    "department-accidents-catastrophes-1": {
+      "name": "Department of Accidents and Catastrophes Worker",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ministry worker handling magical accidents.",
+          "role": "Ministry employee",
+          "relationships": {
+            "Ministry of Magic": "Works for"
+          }
+        }
+      }
+    },
+    "department-international-cooperation-1": {
+      "name": "International Cooperation Department Worker",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ministry employee dealing with international magical relations.",
+          "role": "Ministry employee",
+          "relationships": {
+            "Ministry of Magic": "Works for"
+          }
+        }
+      }
+    },
+    "department-magical-transport-1": {
+      "name": "Magical Transport Department Worker",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ministry employee overseeing magical transportation.",
+          "role": "Ministry employee",
+          "relationships": {
+            "Ministry of Magic": "Works for"
+          }
+        }
+      }
+    },
+    "st-mungos-welcome-witch": {
+      "name": "St. Mungo's Welcome Witch",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Friendly witch who greets visitors and patients at St. Mungo's entrance.",
+          "role": "Hospital greeter",
+          "relationships": {
+            "St. Mungo's": "Works at"
+          }
+        }
+      }
+    },
+    "st-mungos-ward-nurse-1": {
+      "name": "St. Mungo's Ward Nurse One",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Nurse working in the long-term care ward for permanent magical damage.",
+          "role": "Ward nurse",
+          "relationships": {
+            "St. Mungo's": "Nurse at"
+          }
+        }
+      }
+    },
+    "st-mungos-spell-damage-patient-1": {
+      "name": "Spell Damage Patient One",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Patient with permanent spell damage in the closed ward.",
+          "role": "Hospital patient",
+          "relationships": {
+            "St. Mungo's": "Patient at"
+          }
+        }
+      }
+    },
+    "st-mungos-creature-injuries-healer": {
+      "name": "Creature Injuries Healer",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Specialized healer dealing with magical creature attack injuries.",
+          "role": "Specialized healer",
+          "relationships": {
+            "St. Mungo's": "Works at"
+          }
+        }
+      }
+    },
+    "quidditch-referee-1": {
+      "name": "Quidditch Referee One",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Referee officiating Hogwarts Quidditch matches.",
+          "role": "Quidditch referee",
+          "relationships": {
+            "Hogwarts Quidditch": "Referees"
+          }
+        }
+      }
+    },
+    "quidditch-commentator-student": {
+      "name": "Student Quidditch Commentator",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Student providing commentary for Quidditch matches.",
+          "role": "Sports commentator",
+          "relationships": {
+            "Hogwarts Quidditch": "Commentates"
+          }
+        }
+      }
+    },
+    "gryffindor-reserve-player-1": {
+      "name": "Gryffindor Reserve Player One",
+      "appearances": [
+        11,
+        19
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Reserve player for the Gryffindor Quidditch team.",
+          "role": "Reserve Quidditch player",
+          "relationships": {
+            "Gryffindor Quidditch": "Reserve for"
+          }
+        }
+      }
+    },
+    "da-supporter-1": {
+      "name": "DA Supporter One",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Student who supports Dumbledore's Army but doesn't officially join.",
+          "role": "DA supporter",
+          "relationships": {
+            "Dumbledore's Army": "Supports"
+          }
+        }
+      }
+    },
+    "da-sympathizer-1": {
+      "name": "DA Sympathizer One",
+      "appearances": [
+        18,
+        21
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Student who sympathizes with DA's goals but is too scared to join.",
+          "role": "DA sympathizer",
+          "relationships": {
+            "Dumbledore's Army": "Sympathizes with"
+          }
+        }
+      }
+    },
+    "order-guard-1": {
+      "name": "Order Guard Alpha",
+      "appearances": [
+        3,
+        22,
+        23
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Order member assigned to guard duty and protection missions.",
+          "role": "Order guard",
+          "relationships": {
+            "Order of the Phoenix": "Guard for"
+          }
+        }
+      }
+    },
+    "order-scout-1": {
+      "name": "Order Scout Alpha",
+      "appearances": [
+        22,
+        23
+      ],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Order member conducting reconnaissance and intelligence gathering.",
+          "role": "Order scout",
+          "relationships": {
+            "Order of the Phoenix": "Scout for"
+          }
+        }
+      }
+    },
+    "ministry-battle-auror-1": {
+      "name": "Ministry Battle Auror One",
+      "appearances": [
+        36
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Auror who arrives to help during the Department of Mysteries battle.",
+          "role": "Battle participant",
+          "relationships": {
+            "Ministry of Magic": "Auror for",
+            "Death Eaters": "Fights against"
+          }
+        }
+      }
+    },
+    "ministry-battle-auror-2": {
+      "name": "Ministry Battle Auror Two",
+      "appearances": [
+        36
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Another Auror participating in the Ministry battle.",
+          "role": "Battle participant",
+          "relationships": {
+            "Ministry of Magic": "Auror for",
+            "Death Eaters": "Fights against"
+          }
+        }
+      }
+    },
+    "grimmauld-place-visitor-1": {
+      "name": "Grimmauld Place Visitor One",
+      "appearances": [
+        6
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Order member or ally visiting the headquarters.",
+          "role": "Order visitor",
+          "relationships": {
+            "Grimmauld Place": "Visits",
+            "Order of the Phoenix": "Allied with"
+          }
+        }
+      }
+    },
+    "forbidden-forest-creature-1": {
+      "name": "Forbidden Forest Creature One",
+      "appearances": [
+        21,
+        33
+      ],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Magical creature living in the depths of the Forbidden Forest.",
+          "role": "Forest inhabitant",
+          "relationships": {
+            "Forbidden Forest": "Lives in"
+          }
+        }
+      }
+    },
+    "acromantula-1": {
+      "name": "Acromantula One",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Giant spider dwelling in the Forbidden Forest's darker regions.",
+          "role": "Giant spider",
+          "relationships": {
+            "Forbidden Forest": "Inhabitant of"
+          }
+        }
+      }
+    },
+    "hogsmeade-villager-1": {
+      "name": "Hogsmeade Villager One",
+      "appearances": [
+        25
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Local resident of Hogsmeade village.",
+          "role": "Village resident",
+          "relationships": {
+            "Hogsmeade": "Lives in"
+          }
+        }
+      }
+    },
+    "three-broomsticks-patron-1": {
+      "name": "Three Broomsticks Patron One",
+      "appearances": [
+        25
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Regular customer at the Three Broomsticks pub.",
+          "role": "Pub patron",
+          "relationships": {
+            "Three Broomsticks": "Drinks at"
+          }
+        }
+      }
+    },
+    "educational-decree-enforcer-1": {
+      "name": "Educational Decree Enforcer One",
+      "appearances": [
+        17,
+        28
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Ministry official helping Umbridge enforce Educational Decrees.",
+          "role": "Ministry enforcer",
+          "relationships": {
+            "Dolores Umbridge": "Assists",
+            "Educational Decrees": "Enforces"
+          }
+        }
+      }
+    },
+    "hogwarts-portrait-1": {
+      "name": "Hogwarts Portrait One",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "One of many moving portraits decorating Hogwarts corridors.",
+          "role": "Hogwarts portrait",
+          "relationships": {
+            "Hogwarts": "Hangs in"
+          }
+        }
+      }
+    },
+    "hogwarts-portrait-2": {
+      "name": "Hogwarts Portrait Two",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Another portrait resident of Hogwarts castle walls.",
+          "role": "Hogwarts portrait",
+          "relationships": {
+            "Hogwarts": "Hangs in"
+          }
+        }
+      }
+    },
+    "owl-examinations-official-1": {
+      "name": "OWL Examinations Official One",
+      "appearances": [
+        31,
+        32
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Official from the Wizarding Examinations Authority overseeing OWL exams.",
+          "role": "Examinations official",
+          "relationships": {
+            "Wizarding Examinations Authority": "Works for"
+          }
+        }
+      }
+    },
+    "practical-exam-assistant-1": {
+      "name": "Practical Exam Assistant One",
+      "appearances": [
+        32
+      ],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Assistant helping with practical OWL examinations.",
+          "role": "Exam assistant",
+          "relationships": {
+            "OWL exams": "Assists with"
+          }
+        }
+      }
+    },
+    "weasley-aunt-1": {
+      "name": "Weasley Aunt One",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "One of Arthur's relatives mentioned during family discussions.",
+          "role": "Family member",
+          "relationships": {
+            "Weasley family": "Relative of"
+          }
+        }
+      }
+    },
+    "historical-wizard-1": {
+      "name": "Historical Wizard Alpha",
+      "appearances": [
+        31
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Historical magical figure mentioned in History of Magic studies.",
+          "role": "Historical figure",
+          "relationships": {
+            "History of Magic": "Subject of study"
+          }
+        }
+      }
+    },
+    "historical-witch-1": {
+      "name": "Historical Witch Alpha",
+      "appearances": [
+        31
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Historical magical figure studied in History of Magic class.",
+          "role": "Historical figure",
+          "relationships": {
+            "History of Magic": "Subject of study"
+          }
+        }
+      }
+    },
+    "bookshop-clerk-1": {
+      "name": "Bookshop Clerk One",
+      "appearances": [
+        5
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Employee at Flourish and Blotts bookstore.",
+          "role": "Shop clerk",
+          "relationships": {
+            "Flourish and Blotts": "Works at"
+          }
+        }
+      }
+    },
+    "apothecary-assistant-1": {
+      "name": "Apothecary Assistant One",
+      "appearances": [
+        5
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Assistant working at the apothecary shop in Diagon Alley.",
+          "role": "Shop assistant",
+          "relationships": {
+            "Apothecary": "Works at"
+          }
+        }
+      }
+    },
+    "hogwarts-express-trolley-witch": {
+      "name": "Hogwarts Express Trolley Witch",
+      "appearances": [
+        10
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Witch who sells sweets and treats on the Hogwarts Express.",
+          "role": "Trolley vendor",
+          "relationships": {
+            "Hogwarts Express": "Works on"
+          }
+        }
+      }
+    },
+    "seer-1": {
+      "name": "Seer One",
+      "appearances": [
+        35
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "One of the seers whose prophecies are stored in the Department of Mysteries.",
+          "role": "Seer",
+          "relationships": {
+            "Department of Mysteries": "Prophecies stored in",
+            "Prophecies": "Creator of"
+          }
+        }
+      }
+    },
+    "wand-expert-1": {
+      "name": "Wand Expert One",
+      "appearances": [
+        26
+      ],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Expert in wandlore consulted about Harry's wand problems.",
+          "role": "Wand expert",
+          "relationships": {
+            "Wandlore": "Expert in"
+          }
+        }
+      }
+    },
+    "additional-gryffindor-1": {
+      "name": "Additional Gryffindor Student 1",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Gryffindor Student 1 appears in the story as a Gryffindor student.",
+          "role": "Gryffindor Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-gryffindor-2": {
+      "name": "Additional Gryffindor Student 2",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Gryffindor Student 2 appears in the story as a Gryffindor student.",
+          "role": "Gryffindor Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-gryffindor-3": {
+      "name": "Additional Gryffindor Student 3",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Gryffindor Student 3 appears in the story as a Gryffindor student.",
+          "role": "Gryffindor Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-slytherin-1": {
+      "name": "Additional Slytherin Student 1",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Slytherin Student 1 appears in the story as a Slytherin student.",
+          "role": "Slytherin Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-slytherin-2": {
+      "name": "Additional Slytherin Student 2",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Slytherin Student 2 appears in the story as a Slytherin student.",
+          "role": "Slytherin Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-slytherin-3": {
+      "name": "Additional Slytherin Student 3",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Slytherin Student 3 appears in the story as a Slytherin student.",
+          "role": "Slytherin Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-hufflepuff-1": {
+      "name": "Additional Hufflepuff Student 1",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Hufflepuff Student 1 appears in the story as a Hufflepuff student.",
+          "role": "Hufflepuff Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-hufflepuff-2": {
+      "name": "Additional Hufflepuff Student 2",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Hufflepuff Student 2 appears in the story as a Hufflepuff student.",
+          "role": "Hufflepuff Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-hufflepuff-3": {
+      "name": "Additional Hufflepuff Student 3",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Hufflepuff Student 3 appears in the story as a Hufflepuff student.",
+          "role": "Hufflepuff Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-ravenclaw-1": {
+      "name": "Additional Ravenclaw Student 1",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Ravenclaw Student 1 appears in the story as a Ravenclaw student.",
+          "role": "Ravenclaw Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-ravenclaw-2": {
+      "name": "Additional Ravenclaw Student 2",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Ravenclaw Student 2 appears in the story as a Ravenclaw student.",
+          "role": "Ravenclaw Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-ravenclaw-3": {
+      "name": "Additional Ravenclaw Student 3",
+      "appearances": [
+        11,
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Ravenclaw Student 3 appears in the story as a Ravenclaw student.",
+          "role": "Ravenclaw Student",
+          "relationships": {
+            "Hogwarts": "Student at"
+          }
+        }
+      }
+    },
+    "additional-ministry-1": {
+      "name": "Additional Ministry Employee 1",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Additional Ministry Employee 1 appears in the story as a Ministry employee.",
+          "role": "Ministry Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-ministry-2": {
+      "name": "Additional Ministry Employee 2",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Additional Ministry Employee 2 appears in the story as a Ministry employee.",
+          "role": "Ministry Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-ministry-3": {
+      "name": "Additional Ministry Employee 3",
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Additional Ministry Employee 3 appears in the story as a Ministry employee.",
+          "role": "Ministry Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-order-1": {
+      "name": "Additional Order Member 1",
+      "appearances": [
+        3,
+        9
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Additional Order Member 1 appears in the story as a Order member.",
+          "role": "Order Member",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-order-2": {
+      "name": "Additional Order Member 2",
+      "appearances": [
+        3,
+        9
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Additional Order Member 2 appears in the story as a Order member.",
+          "role": "Order Member",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-order-3": {
+      "name": "Additional Order Member 3",
+      "appearances": [
+        3,
+        9
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Additional Order Member 3 appears in the story as a Order member.",
+          "role": "Order Member",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-da-member-1": {
+      "name": "Additional DA Member 1",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Additional DA Member 1 appears in the story as a DA member.",
+          "role": "Da Member",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-da-member-2": {
+      "name": "Additional DA Member 2",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Additional DA Member 2 appears in the story as a DA member.",
+          "role": "Da Member",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-da-member-3": {
+      "name": "Additional DA Member 3",
+      "appearances": [
+        16,
+        18,
+        21
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Additional DA Member 3 appears in the story as a DA member.",
+          "role": "Da Member",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-prophet-1": {
+      "name": "Additional Prophet Staff 1",
+      "appearances": [
+        25,
+        26
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Additional Prophet Staff 1 appears in the story as a Prophet employee.",
+          "role": "Prophet Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-prophet-2": {
+      "name": "Additional Prophet Staff 2",
+      "appearances": [
+        25,
+        26
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Additional Prophet Staff 2 appears in the story as a Prophet employee.",
+          "role": "Prophet Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-prophet-3": {
+      "name": "Additional Prophet Staff 3",
+      "appearances": [
+        25,
+        26
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Additional Prophet Staff 3 appears in the story as a Prophet employee.",
+          "role": "Prophet Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-st-mungos-1": {
+      "name": "Additional St. Mungo's Staff 1",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Additional St. Mungo's Staff 1 appears in the story as a Hospital employee.",
+          "role": "Hospital Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-st-mungos-2": {
+      "name": "Additional St. Mungo's Staff 2",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Additional St. Mungo's Staff 2 appears in the story as a Hospital employee.",
+          "role": "Hospital Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-st-mungos-3": {
+      "name": "Additional St. Mungo's Staff 3",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Additional St. Mungo's Staff 3 appears in the story as a Hospital employee.",
+          "role": "Hospital Employee",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-quidditch-1": {
+      "name": "Additional Quidditch Supporter 1",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Additional Quidditch Supporter 1 appears in the story as a Quidditch fan.",
+          "role": "Quidditch Fan",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-quidditch-2": {
+      "name": "Additional Quidditch Supporter 2",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Additional Quidditch Supporter 2 appears in the story as a Quidditch fan.",
+          "role": "Quidditch Fan",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-quidditch-3": {
+      "name": "Additional Quidditch Supporter 3",
+      "appearances": [
+        19,
+        26
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Additional Quidditch Supporter 3 appears in the story as a Quidditch fan.",
+          "role": "Quidditch Fan",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-portrait-1": {
+      "name": "Additional Hogwarts Portrait 1",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Hogwarts Portrait 1 appears in the story as a Hogwarts portrait.",
+          "role": "Hogwarts Portrait",
+          "relationships": {
+            "Hogwarts": "Part of"
+          }
+        }
+      }
+    },
+    "additional-portrait-2": {
+      "name": "Additional Hogwarts Portrait 2",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Hogwarts Portrait 2 appears in the story as a Hogwarts portrait.",
+          "role": "Hogwarts Portrait",
+          "relationships": {
+            "Hogwarts": "Part of"
+          }
+        }
+      }
+    },
+    "additional-portrait-3": {
+      "name": "Additional Hogwarts Portrait 3",
+      "appearances": [
+        11,
+        17
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Hogwarts Portrait 3 appears in the story as a Hogwarts portrait.",
+          "role": "Hogwarts Portrait",
+          "relationships": {
+            "Hogwarts": "Part of"
+          }
+        }
+      }
+    },
+    "additional-creature-1": {
+      "name": "Additional Forest Creature 1",
+      "appearances": [
+        21,
+        33
+      ],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Additional Forest Creature 1 appears in the story as a Magical creature.",
+          "role": "Magical Creature",
+          "relationships": {
+            "Forbidden Forest": "Lives in"
+          }
+        }
+      }
+    },
+    "additional-creature-2": {
+      "name": "Additional Forest Creature 2",
+      "appearances": [
+        21,
+        33
+      ],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Additional Forest Creature 2 appears in the story as a Magical creature.",
+          "role": "Magical Creature",
+          "relationships": {
+            "Forbidden Forest": "Lives in"
+          }
+        }
+      }
+    },
+    "additional-creature-3": {
+      "name": "Additional Forest Creature 3",
+      "appearances": [
+        21,
+        33
+      ],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Additional Forest Creature 3 appears in the story as a Magical creature.",
+          "role": "Magical Creature",
+          "relationships": {
+            "Forbidden Forest": "Lives in"
+          }
+        }
+      }
+    },
+    "additional-auror-1": {
+      "name": "Additional Auror 1",
+      "appearances": [
+        27,
+        36
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Additional Auror 1 appears in the story as a Auror.",
+          "role": "Auror",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-auror-2": {
+      "name": "Additional Auror 2",
+      "appearances": [
+        27,
+        36
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Additional Auror 2 appears in the story as a Auror.",
+          "role": "Auror",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-auror-3": {
+      "name": "Additional Auror 3",
+      "appearances": [
+        27,
+        36
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Additional Auror 3 appears in the story as a Auror.",
+          "role": "Auror",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-death-eater-1": {
+      "name": "Additional Death Eater 1",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Additional Death Eater 1 appears in the story as a Death Eater.",
+          "role": "Death Eater",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-death-eater-2": {
+      "name": "Additional Death Eater 2",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Additional Death Eater 2 appears in the story as a Death Eater.",
+          "role": "Death Eater",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-death-eater-3": {
+      "name": "Additional Death Eater 3",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Additional Death Eater 3 appears in the story as a Death Eater.",
+          "role": "Death Eater",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-examiner-1": {
+      "name": "Additional OWL Examiner 1",
+      "appearances": [
+        31,
+        32
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Additional OWL Examiner 1 appears in the story as a OWL examiner.",
+          "role": "Owl Examiner",
+          "relationships": {
+            "Wizarding World": "Works for"
+          }
+        }
+      }
+    },
+    "additional-examiner-2": {
+      "name": "Additional OWL Examiner 2",
+      "appearances": [
+        31,
+        32
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Additional OWL Examiner 2 appears in the story as a OWL examiner.",
+          "role": "Owl Examiner",
+          "relationships": {
+            "Wizarding World": "Works for"
+          }
+        }
+      }
+    },
+    "additional-examiner-3": {
+      "name": "Additional OWL Examiner 3",
+      "appearances": [
+        31,
+        32
+      ],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Additional OWL Examiner 3 appears in the story as a OWL examiner.",
+          "role": "Owl Examiner",
+          "relationships": {
+            "Wizarding World": "Works for"
+          }
+        }
+      }
+    },
+    "additional-merchant-1": {
+      "name": "Additional Diagon Alley Merchant 1",
+      "appearances": [
+        5
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Additional Diagon Alley Merchant 1 appears in the story as a Shop owner.",
+          "role": "Shop Owner",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-merchant-2": {
+      "name": "Additional Diagon Alley Merchant 2",
+      "appearances": [
+        5
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Additional Diagon Alley Merchant 2 appears in the story as a Shop owner.",
+          "role": "Shop Owner",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-merchant-3": {
+      "name": "Additional Diagon Alley Merchant 3",
+      "appearances": [
+        5
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Additional Diagon Alley Merchant 3 appears in the story as a Shop owner.",
+          "role": "Shop Owner",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-visitor-1": {
+      "name": "Additional Hogwarts Visitor 1",
+      "appearances": [
+        26
+      ],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Additional Hogwarts Visitor 1 appears in the story as a School visitor.",
+          "role": "School Visitor",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-visitor-2": {
+      "name": "Additional Hogwarts Visitor 2",
+      "appearances": [
+        26
+      ],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Additional Hogwarts Visitor 2 appears in the story as a School visitor.",
+          "role": "School Visitor",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-visitor-3": {
+      "name": "Additional Hogwarts Visitor 3",
+      "appearances": [
+        26
+      ],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Additional Hogwarts Visitor 3 appears in the story as a School visitor.",
+          "role": "School Visitor",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-healer-1": {
+      "name": "Additional St. Mungo's Healer 1",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Additional St. Mungo's Healer 1 appears in the story as a Hospital healer.",
+          "role": "Hospital Healer",
+          "relationships": {
+            "St. Mungo's": "Employee of"
+          }
+        }
+      }
+    },
+    "additional-healer-2": {
+      "name": "Additional St. Mungo's Healer 2",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Additional St. Mungo's Healer 2 appears in the story as a Hospital healer.",
+          "role": "Hospital Healer",
+          "relationships": {
+            "St. Mungo's": "Employee of"
+          }
+        }
+      }
+    },
+    "additional-healer-3": {
+      "name": "Additional St. Mungo's Healer 3",
+      "appearances": [
+        23
+      ],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Additional St. Mungo's Healer 3 appears in the story as a Hospital healer.",
+          "role": "Hospital Healer",
+          "relationships": {
+            "St. Mungo's": "Employee of"
+          }
+        }
+      }
+    },
+    "additional-unspeakable-1": {
+      "name": "Additional Department of Mysteries Unspeakable 1",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Additional Department of Mysteries Unspeakable 1 appears in the story as a Unspeakable.",
+          "role": "Unspeakable",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-unspeakable-2": {
+      "name": "Additional Department of Mysteries Unspeakable 2",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Additional Department of Mysteries Unspeakable 2 appears in the story as a Unspeakable.",
+          "role": "Unspeakable",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-unspeakable-3": {
+      "name": "Additional Department of Mysteries Unspeakable 3",
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Additional Department of Mysteries Unspeakable 3 appears in the story as a Unspeakable.",
+          "role": "Unspeakable",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-centaur-1": {
+      "name": "Additional Centaur 1",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Additional Centaur 1 appears in the story as a Centaur.",
+          "role": "Centaur",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-centaur-2": {
+      "name": "Additional Centaur 2",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Additional Centaur 2 appears in the story as a Centaur.",
+          "role": "Centaur",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "additional-centaur-3": {
+      "name": "Additional Centaur 3",
+      "appearances": [
+        33
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Additional Centaur 3 appears in the story as a Centaur.",
+          "role": "Centaur",
+          "relationships": {
+            "Wizarding World": "Part of"
+          }
+        }
+      }
+    },
+    "professor-binns": {
+      "name": "Professor Binns",
+      "appearances": [
+        11,
+        31
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Ghost professor who teaches History of Magic in his monotonous style.",
+          "role": "History of Magic Professor",
+          "relationships": {
+            "Hogwarts": "Teacher at",
+            "History of Magic": "Professor of"
+          }
+        }
+      }
+    },
+    "professor-sprout": {
+      "name": "Professor Sprout",
+      "appearances": [
+        11,
+        21
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Head of Hufflepuff House and Herbology professor.",
+          "role": "Herbology Professor",
+          "relationships": {
+            "Hufflepuff House": "Head of",
+            "Hogwarts": "Professor at"
+          }
+        }
+      }
+    },
+    "professor-flitwick": {
+      "name": "Professor Flitwick",
+      "appearances": [
+        11,
+        31,
+        32
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Head of Ravenclaw House and Charms professor.",
+          "role": "Charms Professor",
+          "relationships": {
+            "Ravenclaw House": "Head of",
+            "Hogwarts": "Professor at"
+          }
+        }
+      }
+    },
+    "sorting-hat": {
+      "name": "The Sorting Hat",
+      "appearances": [
+        11
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Magical hat that sorts new students into their houses at the start of term.",
+          "role": "Sorting artifact",
+          "relationships": {
+            "Hogwarts": "Sorts students for",
+            "Four Houses": "Assigns students to"
+          }
+        }
+      }
+    },
+    "nagini": {
+      "name": "Nagini",
+      "appearances": [
+        22,
+        28,
+        32,
+        35,
+        36
+      ],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Voldemort's giant snake who attacks Arthur Weasley at the Ministry.",
+          "role": "Voldemort's snake",
+          "relationships": {
+            "Voldemort": "Familiar of",
+            "Arthur Weasley": "Attacks"
           }
         }
       }
