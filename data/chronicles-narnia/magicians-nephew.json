@@ -1,0 +1,813 @@
+{
+  "meta": {
+    "title": "The Magician's Nephew",
+    "author": "C.S. Lewis",
+    "chapters": 15,
+    "createdAt": "2025-09-02T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "digory-kirke": {
+      "name": "Digory Kirke",
+      "aliases": ["Digory"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young boy living temporarily with his aunt and uncle in London while his mother is ill. He befriends Polly Plummer, the girl next door.",
+          "role": "Protagonist",
+          "relationships": {
+            "Polly Plummer": "Friend of",
+            "Mabel Kirke": "Son of", 
+            "Uncle Andrew": "Nephew of",
+            "Aunt Letty": "Nephew of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Brave and determined to rescue Polly from Uncle Andrew's magic. He reluctantly agrees to wear the rings and venture into unknown worlds to save his friend.",
+          "role": "Reluctant hero",
+          "relationships": {
+            "Polly Plummer": "Rescuer of",
+            "Uncle Andrew": "Coerced by"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Makes the fateful decision to ring the bell in Charn despite Polly's warnings, awakening the evil Queen Jadis. His curiosity and pride lead to bringing evil into both London and later Narnia.",
+          "role": "Bearer of consequences",
+          "relationships": {
+            "Jadis": "Awakener of",
+            "Polly Plummer": "Argued with"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Given a mission by Aslan to obtain a magical apple to protect Narnia from the evil he inadvertently brought into it. Shows maturity and responsibility in accepting this quest.",
+          "role": "Chosen quest-bearer",
+          "relationships": {
+            "Aslan": "Chosen by",
+            "Polly Plummer": "Companion of"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Grows up to become Professor Kirke, the same professor who will later house the Pevensie children. Uses the wood from the apple tree to make the famous wardrobe.",
+          "role": "Future Professor Kirke",
+          "relationships": {
+            "Mabel Kirke": "Son of (healed)"
+          }
+        }
+      }
+    },
+    "polly-plummer": {
+      "name": "Polly Plummer",
+      "aliases": ["Polly"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A practical and sensible girl who lives next door to Digory. She becomes his friend and partner in their adventures through different worlds.",
+          "role": "Digory's friend and companion",
+          "relationships": {
+            "Digory Kirke": "Friend of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "The first victim of Uncle Andrew's magic rings, disappearing when she touches a yellow ring. Her disappearance forces Digory to follow her into the unknown.",
+          "role": "Unwitting test subject",
+          "relationships": {
+            "Uncle Andrew": "Victim of",
+            "Digory Kirke": "Rescued by"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Shows wisdom and caution in Charn, warning Digory not to ring the bell. Her sensible nature contrasts with Digory's impulsive curiosity.",
+          "role": "Voice of caution",
+          "relationships": {
+            "Digory Kirke": "Advisor to",
+            "Jadis": "Wary of"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Witnesses the creation of Narnia and is present when Aslan establishes the talking animals and chooses Frank to be the first King.",
+          "role": "Witness to creation",
+          "relationships": {
+            "Aslan": "Witness of",
+            "Frank": "Observer of coronation"
+          }
+        }
+      }
+    },
+    "uncle-andrew": {
+      "name": "Uncle Andrew",
+      "aliases": ["Andrew Ketterley", "The Magician"],
+      "appearances": [1, 2, 6, 7, 8, 14],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Digory's uncle who conducts mysterious experiments in his study. He is secretive and forbids anyone from entering his private room.",
+          "role": "Mysterious uncle",
+          "relationships": {
+            "Digory Kirke": "Uncle of",
+            "Aunt Letty": "Brother of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Revealed to be a magician who has created magic rings from dust that belonged to Jadis's world. He tricks Polly into touching a ring and forces Digory to rescue her.",
+          "role": "Amateur magician",
+          "relationships": {
+            "Polly Plummer": "Captor of",
+            "Digory Kirke": "Blackmailer of"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Attempts to control and use Jadis for his own purposes, but she sees through his weakness immediately. His cowardice and selfishness are fully revealed.",
+          "role": "Failed manipulator",
+          "relationships": {
+            "Jadis": "Would-be controller of"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Chastened by his experience in Narnia but quickly convinces himself it was all a dream. He abandons magic and becomes a reformed character.",
+          "role": "Reformed amateur magician",
+          "relationships": {
+            "Digory Kirke": "Uncle of"
+          }
+        }
+      }
+    },
+    "aunt-letty": {
+      "name": "Aunt Letty",
+      "aliases": ["Letitia Ketterley", "Miss Ketterley"],
+      "appearances": [1, 14],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Digory's aunt who takes care of him and his dying mother. She is kind but overwhelmed by the situation and often worried about practical matters.",
+          "role": "Caretaker aunt",
+          "relationships": {
+            "Digory Kirke": "Aunt of",
+            "Mabel Kirke": "Sister-in-law of",
+            "Uncle Andrew": "Sister of"
+          }
+        }
+      }
+    },
+    "mabel-kirke": {
+      "name": "Mabel Kirke",
+      "aliases": ["Mother", "Digory's Mother"],
+      "appearances": [1, 13, 14],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Digory's beloved mother who is dying of an illness. Her condition is the source of Digory's greatest worry and motivation throughout his adventures.",
+          "role": "Dying mother",
+          "relationships": {
+            "Digory Kirke": "Mother of",
+            "Aunt Letty": "Sister-in-law of"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Completely healed by the magical apple that Aslan gave to Digory. Her recovery brings joy and relief to Digory and the entire household.",
+          "role": "Healed mother",
+          "relationships": {
+            "Digory Kirke": "Mother of (healed by)"
+          }
+        }
+      }
+    },
+    "jadis": {
+      "name": "Jadis",
+      "aliases": ["The White Witch", "Queen of Charn", "The Last Queen"],
+      "appearances": [5, 6, 7, 8, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The last Queen of Charn, awakened by Digory ringing the bell. She destroyed all life in her world, including her own sister, rather than surrender her throne. She is beautiful but terrible, with immense strength and cruelty.",
+          "role": "Empress of Charn",
+          "relationships": {
+            "Jadis's Sister": "Destroyer of",
+            "Digory Kirke": "Awakened by",
+            "Polly Plummer": "Pursuer of"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Causes chaos in London, demonstrating her supernatural strength by breaking off pieces of a lamp-post and throwing a hansom cab. She treats the modern world with contempt.",
+          "role": "Destroyer in London",
+          "relationships": {
+            "Frank": "Enemy of",
+            "Police": "Fighter against"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Immediately sees through Uncle Andrew's weakness and attempts to manipulate him. She fights off the police and shows her complete lack of mercy or compassion.",
+          "role": "Contemptuous queen",
+          "relationships": {
+            "Uncle Andrew": "Scorner of",
+            "Police": "Attacker of"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Has eaten an apple from the Tree of Protection, gaining immortality but at the cost of misery. She tries to tempt Digory with lies about the apple's power, but he sees through her deception.",
+          "role": "Cursed immortal",
+          "relationships": {
+            "Digory Kirke": "Tempter of",
+            "Aslan": "Enemy of"
+          }
+        }
+      }
+    },
+    "aslan": {
+      "name": "Aslan",
+      "aliases": ["The Lion", "Son of the Emperor-Over-the-Sea"],
+      "appearances": [8, 9, 10, 11, 13],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The great Lion who sings Narnia into existence. His voice creates the stars, sun, land, and all living things. He is the true ruler and creator of Narnia.",
+          "role": "Creator of Narnia",
+          "relationships": {
+            "Emperor-Over-the-Sea": "Son of"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Gives the gift of speech to certain animals, making them the talking beasts of Narnia. He chooses Frank the cabby to be the first King of Narnia and brings Helen to be Queen.",
+          "role": "Giver of gifts and kingship",
+          "relationships": {
+            "Frank": "Chooser of as king",
+            "Helen": "Bringer of as queen",
+            "Talking Animals": "Creator of"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Shows both justice and mercy to Digory, acknowledging that while Digory brought evil into Narnia, he will also be given a chance to help protect it through a quest.",
+          "role": "Just judge and merciful giver of quests",
+          "relationships": {
+            "Digory Kirke": "Quest-giver to",
+            "Polly Plummer": "Companion-giver to"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Accepts Digory's successful completion of the quest and creates the Tree of Protection to guard Narnia. He gives Digory an apple to heal his dying mother.",
+          "role": "Rewarder and protector",
+          "relationships": {
+            "Digory Kirke": "Rewarder of",
+            "Mabel Kirke": "Healer of (through Digory)"
+          }
+        }
+      }
+    },
+    "emperor-over-the-sea": {
+      "name": "Emperor-Over-the-Sea",
+      "aliases": ["The Emperor"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Aslan's father, mentioned as the ultimate authority over all worlds. Though not seen directly, his power and authority are acknowledged by Aslan himself.",
+          "role": "Supreme ruler",
+          "relationships": {
+            "Aslan": "Father of"
+          }
+        }
+      }
+    },
+    "frank": {
+      "name": "Frank",
+      "aliases": ["King Frank I", "The Cabby"],
+      "appearances": [6, 7, 8, 9, 11],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A London cab-driver whose horse Strawberry is frightened by Jadis. He is an honest, working-class man caught up in the magical chaos in the streets of London.",
+          "role": "Cab-driver",
+          "relationships": {
+            "Strawberry": "Owner of",
+            "Jadis": "Victim of chaos from"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Caught up in the magical transport to other worlds when everyone grabs the rings. He maintains his practical, down-to-earth nature even in extraordinary circumstances.",
+          "role": "Unwilling traveler",
+          "relationships": {
+            "Helen": "Husband of"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Chosen by Aslan to be the first King of Narnia. His honest, kind nature and love for his wife Helen make him worthy of the crown. He accepts the responsibility with humility.",
+          "role": "First King of Narnia",
+          "relationships": {
+            "Aslan": "Chosen by",
+            "Helen": "King alongside",
+            "Strawberry": "Former owner of"
+          }
+        }
+      }
+    },
+    "helen": {
+      "name": "Helen",
+      "aliases": ["Queen Helen", "Nell"],
+      "appearances": [9, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Frank's wife, brought from London by Aslan to be the first Queen of Narnia. She is a good-hearted woman who complements Frank's honest nature.",
+          "role": "First Queen of Narnia",
+          "relationships": {
+            "Frank": "Wife and Queen alongside",
+            "Aslan": "Brought to Narnia by"
+          }
+        }
+      }
+    },
+    "strawberry-fledge": {
+      "name": "Strawberry",
+      "aliases": ["Fledge", "The Flying Horse"],
+      "appearances": [6, 7, 8, 9, 11, 12, 13],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Frank's cab-horse who is frightened by Jadis's violent behavior in London. He is a tired old working horse who has spent his life pulling cabs through the city streets.",
+          "role": "Cab-horse",
+          "relationships": {
+            "Frank": "Owned by",
+            "Jadis": "Frightened by"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Given the gift of speech by Aslan and becomes one of the first talking animals of Narnia. He can now express his thoughts and feelings about his hard life in London.",
+          "role": "Talking horse",
+          "relationships": {
+            "Aslan": "Given speech by",
+            "Frank": "Former master of"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Transformed by Aslan into a magnificent winged horse named Fledge. He carries Digory and Polly on their quest to the garden of the Tree of Protection.",
+          "role": "Flying horse",
+          "relationships": {
+            "Aslan": "Transformed by",
+            "Digory Kirke": "Carries on quest",
+            "Polly Plummer": "Carries on quest"
+          }
+        }
+      }
+    },
+    "jadiss-sister": {
+      "name": "Jadis's Sister",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The sister of Queen Jadis who fought her for the throne of Charn. Rather than let her sister rule, Jadis spoke the Deplorable Word and destroyed all life, including her sister.",
+          "role": "Rival queen (deceased)",
+          "relationships": {
+            "Jadis": "Sister and rival of (destroyed by)"
+          }
+        }
+      }
+    },
+    "police": {
+      "name": "Police",
+      "aliases": ["London Police", "Constables"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "London police officers who attempt to arrest Jadis for the chaos she's causing in the streets. They are no match for her supernatural strength and are easily fought off.",
+          "role": "Law enforcement",
+          "relationships": {
+            "Jadis": "Attempted arresters of"
+          }
+        }
+      }
+    },
+    "sarah": {
+      "name": "Sarah",
+      "aliases": ["The Housemaid"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The housemaid at the Ketterley residence who witnesses the miraculous recovery of Digory's mother after eating the magical apple.",
+          "role": "Household servant",
+          "relationships": {
+            "Mabel Kirke": "Servant of"
+          }
+        }
+      }
+    },
+    "london-crowd": {
+      "name": "London Crowd",
+      "aliases": ["Bystanders", "Onlookers"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A gathering crowd of curious Londoners who witness Jadis's demonstration of supernatural strength. They are amazed and frightened by her ability to break lamp-posts and throw cabs.",
+          "role": "Witnesses",
+          "relationships": {
+            "Jadis": "Witnesses of",
+            "Frank": "Include"
+          }
+        }
+      }
+    },
+    "mr-ketterley": {
+      "name": "Mr. Ketterley",
+      "aliases": ["Digory's Grandfather", "Father Ketterley"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Uncle Andrew's and Aunt Letty's father, mentioned as the source of Uncle Andrew's box containing magical dust from Atlantis. He had dealings with mysterious people and artifacts.",
+          "role": "Deceased patriarch (mentioned)",
+          "relationships": {
+            "Uncle Andrew": "Father of",
+            "Aunt Letty": "Father of"
+          }
+        }
+      }
+    },
+    "mrs-lefay": {
+      "name": "Mrs. Lefay",
+      "aliases": ["Fairy Godmother"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Uncle Andrew's fairy godmother who was imprisoned and gave him a box before she died. The box contained dust from Atlantis which Uncle Andrew used to make his magic rings.",
+          "role": "Fairy godmother (deceased)",
+          "relationships": {
+            "Uncle Andrew": "Fairy godmother of"
+          }
+        }
+      }
+    },
+    "charn-inhabitants": {
+      "name": "Charn Inhabitants",
+      "aliases": ["People of Charn", "The Statues"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The people of Charn who appear as lifelike statues in the great hall. They sit perfectly still, dressed in rich clothing, representing the former glory and nobility of the dead world.",
+          "role": "Enchanted statues",
+          "relationships": {
+            "Jadis": "Former subjects of"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Revealed to be truly dead, destroyed by Jadis speaking the Deplorable Word. They represent the countless innocent lives sacrificed for Jadis's pride and power.",
+          "role": "Victims of the Deplorable Word",
+          "relationships": {
+            "Jadis": "Destroyed by"
+          }
+        }
+      }
+    },
+    "royal-court-of-charn": {
+      "name": "Royal Court of Charn",
+      "aliases": ["Charn Nobility"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The nobles and courtiers of Charn seen as statues in the hall. Their rich clothing and proud bearing suggest they were once powerful members of society.",
+          "role": "Royal courtiers (statues)",
+          "relationships": {
+            "Jadis": "Former courtiers of"
+          }
+        }
+      }
+    },
+    "talking-animals": {
+      "name": "Talking Animals",
+      "aliases": ["First Council", "Speaking Beasts"],
+      "appearances": [9, 10, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The first animals to be given the gift of speech by Aslan. They include elephants, dogs, bears, and many other species who become the first council of Narnia.",
+          "role": "First council of Narnia",
+          "relationships": {
+            "Aslan": "Given speech by",
+            "Frank": "Subjects of"
+          }
+        }
+      }
+    },
+    "chief-elephant": {
+      "name": "Chief Elephant",
+      "aliases": ["The First Elephant"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "One of the first animals to receive speech from Aslan. He becomes a leader among the talking animals and speaks with wisdom about their new responsibilities.",
+          "role": "Animal leader",
+          "relationships": {
+            "Aslan": "Given speech by",
+            "Talking Animals": "Leader of"
+          }
+        }
+      }
+    },
+    "jackdaw": {
+      "name": "Jackdaw",
+      "aliases": ["The Talkative Bird"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "One of the talking birds created by Aslan. True to his nature, he is rather chatty and sometimes speaks out of turn during serious moments.",
+          "role": "Talking bird",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "bulldog": {
+      "name": "Bulldog",
+      "aliases": ["The Brave Dog"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A loyal dog given speech by Aslan. He represents the faithful and brave nature of dogs, ready to serve the new kings and protect Narnia.",
+          "role": "Faithful talking dog",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "tree-of-protection": {
+      "name": "Tree of Protection",
+      "aliases": ["The Apple Tree", "Guardian Tree"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A beautiful tree in the garden on the mountain that bears silver apples with protective powers. The tree's apples can grant immortality but are meant to protect Narnia from evil.",
+          "role": "Magical tree",
+          "relationships": {
+            "Digory Kirke": "Source of quest apple for",
+            "Jadis": "Eaten from by"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Planted in Narnia by Digory under Aslan's direction. The tree will protect Narnia from Jadis for many years, as its presence is painful to her due to how she obtained immortality.",
+          "role": "Protector of Narnia",
+          "relationships": {
+            "Aslan": "Planted by command of",
+            "Digory Kirke": "Planted by"
+          }
+        }
+      }
+    },
+    "raven": {
+      "name": "Raven",
+      "aliases": ["Wise Raven"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A wise talking raven given speech by Aslan. Ravens are traditionally associated with wisdom and prophecy, and this one serves as an advisor to the new kingdom.",
+          "role": "Wise advisor bird",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "bear": {
+      "name": "Bear",
+      "aliases": ["Talking Bear"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A large bear given the gift of speech by Aslan. He represents strength and protection among the new talking animals of Narnia.",
+          "role": "Strong protector",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "donkey": {
+      "name": "Donkey",
+      "aliases": ["Humble Donkey"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A hardworking donkey given speech by Aslan. He represents humility and honest labor among the talking animals.",
+          "role": "Humble worker",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "leopard": {
+      "name": "Leopard",
+      "aliases": ["Swift Leopard"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A graceful leopard granted speech by Aslan. He represents speed and agility among the diverse council of talking animals.",
+          "role": "Swift messenger",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "panther": {
+      "name": "Panther",
+      "aliases": ["Noble Panther"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A noble panther given the ability to speak by Aslan. Panthers are associated with nobility and stealth, making valuable additions to Narnia's council.",
+          "role": "Noble hunter",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "rabbit": {
+      "name": "Rabbit",
+      "aliases": ["Quick Rabbit"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A quick rabbit granted speech by Aslan. Despite being small, he has an important voice in the council of talking animals.",
+          "role": "Swift messenger",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "mole": {
+      "name": "Mole",
+      "aliases": ["Earth Mole"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A humble mole given speech by Aslan. He represents those who work beneath the surface and understand the earth itself.",
+          "role": "Underground worker",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "stag": {
+      "name": "Stag",
+      "aliases": ["Proud Stag"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A magnificent stag given speech by Aslan. He represents the wild, free spirit of the forest and serves as a messenger and scout.",
+          "role": "Forest messenger",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "mouse": {
+      "name": "Mouse",
+      "aliases": ["Brave Mouse"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A tiny but brave mouse granted speech by Aslan. Despite his small size, he has courage and determination that make him valuable to the talking animal council.",
+          "role": "Small but brave counselor",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "robin": {
+      "name": "Robin",
+      "aliases": ["Cheerful Robin"],
+      "appearances": [9, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A cheerful robin given the gift of speech by Aslan. Robins are traditionally harbingers of good news and hope, making him a welcome voice in the council.",
+          "role": "Messenger of hope",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "owl": {
+      "name": "Owl",
+      "aliases": ["Wise Owl"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A wise owl granted speech by Aslan. Owls are traditionally associated with wisdom and night vision, making valuable contributions to the animal council.",
+          "role": "Wise night watcher",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "dumb-animals": {
+      "name": "Dumb Animals",
+      "aliases": ["Ordinary Animals", "Non-talking Beasts"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Animals not chosen by Aslan to receive the gift of speech. They remain as ordinary animals and are to be cared for and protected by the talking animals.",
+          "role": "Protected creatures",
+          "relationships": {
+            "Talking Animals": "Protected by",
+            "Aslan": "Created by but not given speech"
+          }
+        }
+      }
+    },
+    "lamp-post": {
+      "name": "Lamp-post",
+      "aliases": ["The Growing Lamp-post"],
+      "appearances": [8, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A piece of the London lamp-post that Jadis broke off and threw. When it lands in the newly created Narnia, it takes root and grows into a proper lamp-post, becoming a landmark.",
+          "role": "Landmark",
+          "relationships": {
+            "Jadis": "Created from piece broken by"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "The same lamp-post that will later mark the entrance to Narnia for the Pevensie children. It stands as a reminder of how London and Narnia became connected through magic.",
+          "role": "Future landmark for Pevensies",
+          "relationships": {
+            "Digory Kirke": "Connected to through the wardrobe he will make"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Young Digory Kirke is staying with his Aunt Letty and Uncle Andrew in London while his mother is dying. He meets Polly Plummer, who lives next door, and they become friends. Uncle Andrew is revealed to be conducting mysterious experiments in his study.",
+    "2": "Polly and Digory discover they can travel between the attics of their row houses. When Polly accidentally enters Uncle Andrew's forbidden study, he tricks her into touching a yellow ring that makes her disappear. Uncle Andrew reveals he is a magician and forces Digory to rescue Polly using the rings.",
+    "3": "Digory puts on the yellow ring and finds himself in the Wood Between the Worlds, a peaceful forest with pools that lead to different worlds. He finds Polly and they discover that green rings bring them back to the wood, while yellow rings take them to other worlds.",
+    "4": "The children jump into a pool and arrive in the dying world of Charn, filled with ruined palaces and silent, empty cities. In the great hall, they find rows of richly dressed people sitting perfectly still, as if turned to stone.",
+    "5": "Despite Polly's warnings, Digory strikes a golden bell with a hammer, awakening Jadis, the last Queen of Charn. She tells them how she destroyed all life in her world, including her sister, rather than lose her throne. Jadis follows them back to London when they try to escape.",
+    "6": "Jadis wreaks havoc in London, demonstrating her terrible strength by breaking off pieces of a lamp-post and throwing a hansom cab. A crowd gathers, including Frank the cab-driver, as Jadis demands to be taken to their world's ruler.",
+    "7": "Uncle Andrew tries to control Jadis but she sees through his weakness immediately. The police attempt to arrest her, but she fights them off. In the chaos, everyone grabs the children's rings and are transported together to the Wood Between the Worlds.",
+    "8": "The group arrives in a world of complete darkness and nothing. Suddenly, Aslan appears and begins singing the world of Narnia into existence, creating stars, sun, landscape, and finally plants and animals with his voice.",
+    "9": "Aslan continues creating Narnia, calling forth talking animals and establishing them as the rulers of the new world. Frank the cab-driver is chosen to be the first King of Narnia, and his wife Helen is brought from London to be Queen.",
+    "10": "Aslan speaks privately with Digory about the evil he has brought into Narnia by awakening Jadis. He gives Digory a chance to help protect Narnia by undertaking a dangerous quest to obtain a magical apple.",
+    "11": "Aslan transforms Frank's horse Strawberry into the winged horse Fledge. Digory and Polly fly on Fledge to a beautiful garden on a high mountain, passing over the newly created wonders of Narnia.",
+    "12": "In the garden, Digory finds the Tree of Protection with its silver apples. He is tempted by Jadis, who has already eaten an apple and gained immortality, but he resists her lies and takes only one apple as Aslan commanded.",
+    "13": "Digory returns to Aslan and plants the apple, which immediately grows into a great tree that will protect Narnia from Jadis for many years. Aslan gives Digory an apple from this tree to heal his dying mother.",
+    "14": "The group returns to London, where Digory's apple completely heals his mother. Uncle Andrew is chastened by his experience but quickly convinces himself it was all a dream. Digory plants the apple core in his backyard.",
+    "15": "Years later, the apple core has grown into a tree. When a storm brings it down, Digory has its wood made into a wardrobe - the same wardrobe through which the Pevensie children will later enter Narnia. Digory grows up to become Professor Kirke."
+  }
+}

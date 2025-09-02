@@ -1,0 +1,1064 @@
+{
+  "meta": {
+    "title": "The Horse and His Boy",
+    "author": "C.S. Lewis",
+    "chapters": 15,
+    "createdAt": "2025-09-02T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "shasta": {
+      "name": "Shasta",
+      "aliases": ["Prince Cor", "Cor of Archenland"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A boy living with the fisherman Arsheesh in Calormen. He has fair skin and feels like an outsider. When a Tarkaan arrives, Shasta overhears that he is not Arsheesh's son and is about to be sold as a slave. Discovers he can understand the talking horse Bree and learns he was found as a baby. Agrees to escape to Narnia with Bree to avoid being sold into slavery.",
+          "role": "Runaway boy",
+          "relationships": {
+            "Bree": "Travel companion",
+            "Arsheesh": "Foster father (relationship revealed as false)"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Revealed to be Prince Cor of Archenland, twin brother to Prince Corin. He was kidnapped as a baby by Lord Bar but was lost when Bar died. Found by Arsheesh who raised him.",
+          "role": "Prince Cor of Archenland",
+          "relationships": {
+            "King Lune": "Father",
+            "Prince Corin": "Twin brother",
+            "Lord Bar": "Kidnapper (deceased)"
+          }
+        }
+      }
+    },
+    "aravis": {
+      "name": "Aravis",
+      "aliases": ["Aravis Tarkheena"],
+      "appearances": [2, 3, 5, 6, 7, 8, 12, 15],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young Tarkheena (noble lady) of Calormen fleeing an unwanted marriage to the elderly Ahoshta. She is proud, brave, and skilled in riding and archery. Travels with her talking mare Hwin.",
+          "role": "Calormene noblewoman",
+          "relationships": {
+            "Hwin": "Riding companion",
+            "Ahoshta": "Unwanted suitor"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Chooses to remain in Archenland and eventually marries Shasta/Prince Cor. Becomes a beloved queen of Archenland.",
+          "role": "Future Queen of Archenland",
+          "relationships": {
+            "Shasta": "Future husband",
+            "King Lune": "Future father-in-law"
+          }
+        }
+      }
+    },
+    "bree": {
+      "name": "Bree",
+      "aliases": ["Breehy-hinny-brinny-hoohy-hah", "Bree of the Western Woods"],
+      "appearances": [1, 2, 3, 6, 7, 8, 12, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A talking horse from Narnia who has been enslaved in Calormen for years. He is proud, somewhat vain, and knowledgeable about both countries. Convinces Shasta to escape with him to return to Narnia.",
+          "role": "Talking Narnian horse",
+          "relationships": {
+            "Shasta": "Travel companion and rider"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Returns to his beloved Narnia and lives happily in the Western Woods, occasionally visiting Archenland to see his friends.",
+          "role": "Free Narnian horse",
+          "relationships": {
+            "Shasta": "Loyal friend",
+            "Hwin": "Fellow talking horse"
+          }
+        }
+      }
+    },
+    "hwin": {
+      "name": "Hwin",
+      "aliases": ["Hwinny"],
+      "appearances": [2, 3, 5, 6, 7, 8, 12, 15],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A talking mare from Narnia who has been Aravis's horse in Calormen. She is gentle, wise, and more humble than Bree. Yearns to return to her homeland in Narnia.",
+          "role": "Talking Narnian mare",
+          "relationships": {
+            "Aravis": "Rider and friend",
+            "Bree": "Fellow talking horse"
+          }
+        }
+      }
+    },
+    "aslan": {
+      "name": "Aslan",
+      "aliases": ["The Great Lion", "The Lion"],
+      "appearances": [8, 10, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A great lion who appears to chase the companions, spurring them to greater speed in their flight north. His presence terrifies but also somehow protects them.",
+          "role": "Mysterious lion",
+          "relationships": {}
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Revealed to be Aslan, the great Lion of Narnia and son of the Emperor-Beyond-the-Sea. He has been guiding and protecting Shasta throughout his journey, appearing at crucial moments.",
+          "role": "Creator and ruler of Narnia",
+          "relationships": {
+            "Shasta": "Guide and protector"
+          }
+        }
+      }
+    },
+    "edmund-pevensie": {
+      "name": "Edmund Pevensie",
+      "aliases": ["King Edmund the Just", "King Edmund"],
+      "appearances": [4, 5, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Now an adult King of Narnia, ruling alongside his siblings. He is part of a diplomatic mission to Tashbaan and is wise and experienced in statecraft.",
+          "role": "King of Narnia",
+          "relationships": {
+            "Susan Pevensie": "Brother of",
+            "Peter Pevensie": "Brother of",
+            "Lucy Pevensie": "Brother of"
+          }
+        }
+      }
+    },
+    "susan-pevensie": {
+      "name": "Susan Pevensie",
+      "aliases": ["Queen Susan the Gentle", "Queen Susan"],
+      "appearances": [4, 5, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Now an adult Queen of Narnia, known for her beauty and gentleness. She is the target of Prince Rabadash's marriage proposal, which she politely but firmly declines.",
+          "role": "Queen of Narnia",
+          "relationships": {
+            "Edmund Pevensie": "Sister of",
+            "Prince Rabadash": "Unwilling suitor of"
+          }
+        }
+      }
+    },
+    "peter-pevensie": {
+      "name": "Peter Pevensie",
+      "aliases": ["High King Peter the Magnificent", "High King Peter"],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The High King of Narnia who arrives with reinforcements during the battle at Anvard. He commands with authority and helps secure victory over the Calormene forces.",
+          "role": "High King of Narnia",
+          "relationships": {
+            "Edmund Pevensie": "Brother of",
+            "Susan Pevensie": "Brother of",
+            "Lucy Pevensie": "Brother of"
+          }
+        }
+      }
+    },
+    "lucy-pevensie": {
+      "name": "Lucy Pevensie",
+      "aliases": ["Queen Lucy the Valiant", "Queen Lucy"],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The youngest Queen of Narnia who arrives with the reinforcements. She carries her magic cordial and helps tend to the wounded after the battle.",
+          "role": "Queen of Narnia",
+          "relationships": {
+            "Edmund Pevensie": "Sister of",
+            "Susan Pevensie": "Sister of",
+            "Peter Pevensie": "Sister of"
+          }
+        }
+      }
+    },
+    "king-lune": {
+      "name": "King Lune",
+      "aliases": ["Lune of Archenland", "King of Archenland"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The King of Archenland, a sturdy and just ruler who leads a hunting party when he meets Shasta. He takes Shasta's warning seriously and prepares his kingdom for war.",
+          "role": "King of Archenland",
+          "relationships": {}
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Revealed to be Shasta's father. He explains how his infant son Cor was kidnapped by the treacherous Lord Bar, and how he searched for him for years.",
+          "role": "Shasta's father",
+          "relationships": {
+            "Shasta": "Father of",
+            "Prince Corin": "Father of"
+          }
+        }
+      }
+    },
+    "prince-corin": {
+      "name": "Prince Corin",
+      "aliases": ["Corin Thunder-Fist", "Prince of Archenland"],
+      "appearances": [4, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The young Prince of Archenland visiting Tashbaan. He is brave, impulsive, and loves fighting and adventure. Shasta is mistaken for him due to their identical appearance.",
+          "role": "Prince of Archenland",
+          "relationships": {
+            "King Lune": "Son of"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Revealed to be Shasta's twin brother. Though younger by a few minutes, he will remain the heir as Shasta prefers a quieter life.",
+          "role": "Twin brother of Shasta",
+          "relationships": {
+            "Shasta": "Twin brother of",
+            "King Lune": "Son of"
+          }
+        }
+      }
+    },
+    "hermit-southern-march": {
+      "name": "The Hermit of the Southern March",
+      "aliases": ["The Hermit"],
+      "appearances": [12, 13, 15],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A wise old hermit who lives at the border between Archenland and Calormen. He provides shelter to Aravis, Bree, and Hwin, and has mystical abilities to see distant events.",
+          "role": "Wise hermit",
+          "relationships": {}
+        }
+      }
+    },
+    "lord-bar": {
+      "name": "Lord Bar",
+      "aliases": [],
+      "appearances": [],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A treacherous lord of Archenland who kidnapped the infant Prince Cor (Shasta) but died while fleeing south. His death led to Shasta being found by Arsheesh.",
+          "role": "Deceased traitor",
+          "relationships": {
+            "Shasta": "Kidnapper of (deceased)"
+          }
+        }
+      }
+    },
+    "tisroc": {
+      "name": "The Tisroc",
+      "aliases": ["Tisroc of Calormen", "The Tisroc (may he live forever)"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Emperor of Calormen, an aging despot who rules with absolute power. He meets with Prince Rabadash and the Grand Vizier to plan the invasion of Archenland and Narnia.",
+          "role": "Emperor of Calormen",
+          "relationships": {
+            "Prince Rabadash": "Father of",
+            "Grand Vizier Ahoshta": "Advisor of"
+          }
+        }
+      }
+    },
+    "prince-rabadash": {
+      "name": "Prince Rabadash",
+      "aliases": ["Rabadash of Calormen"],
+      "appearances": [5, 7, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The proud and arrogant Prince of Calormen who desires to marry Queen Susan. When rejected, he plans to invade Narnia and Archenland to take her by force.",
+          "role": "Prince of Calormen",
+          "relationships": {
+            "The Tisroc": "Son of",
+            "Susan Pevensie": "Rejected suitor of"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Leads the Calormene invasion force against Anvard but is defeated and captured. He becomes stuck in a window while trying to escape, leading to his humiliation.",
+          "role": "Defeated invader",
+          "relationships": {
+            "King Lune": "Enemy of"
+          }
+        }
+      }
+    },
+    "grand-vizier-ahoshta": {
+      "name": "Ahoshta Tarkaan",
+      "aliases": ["Grand Vizier Ahoshta", "The Grand Vizier"],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly and wealthy Calormene lord whom Aravis is being forced to marry. She finds him repulsive and cruel.",
+          "role": "Aravis's unwanted suitor",
+          "relationships": {
+            "Aravis": "Unwanted suitor of"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Revealed to be the Grand Vizier of Calormen, the Tisroc's chief advisor. He counsels the Tisroc on the invasion plans and political strategy.",
+          "role": "Grand Vizier of Calormen",
+          "relationships": {
+            "The Tisroc": "Advisor to",
+            "Aravis": "Intended bride of"
+          }
+        }
+      }
+    },
+    "arsheesh": {
+      "name": "Arsheesh",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A poor fisherman in Calormen who found Shasta as a baby and raised him. He is greedy and unkind, treating Shasta more like a servant than a son, and is eager to sell him to the visiting Tarkaan.",
+          "role": "Shasta's foster father",
+          "relationships": {
+            "Shasta": "Foster father of"
+          }
+        }
+      }
+    },
+    "anradin-tarkaan": {
+      "name": "Anradin Tarkaan",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Calormene lord who arrives at Arsheesh's hut wanting to buy Shasta as a slave. His horse is actually the talking horse Bree, who convinces Shasta to escape with him.",
+          "role": "Calormene noble",
+          "relationships": {
+            "Bree": "Former owner of",
+            "Arsheesh": "Deals with"
+          }
+        }
+      }
+    },
+    "lasaraleen-tarkheena": {
+      "name": "Lasaraleen Tarkheena",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Aravis's childhood friend, now a wealthy and fashionable Tarkheena in Tashbaan. She is vain and frivolous but ultimately loyal, helping Aravis despite not understanding her desire to escape.",
+          "role": "Aravis's friend",
+          "relationships": {
+            "Aravis": "Childhood friend of"
+          }
+        }
+      }
+    },
+    "mr-tumnus": {
+      "name": "Mr. Tumnus",
+      "aliases": ["Tumnus the Faun"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The faun who serves as part of the Narnian delegation in Tashbaan. He recognizes that Shasta is not Prince Corin but keeps quiet about it.",
+          "role": "Narnian faun",
+          "relationships": {
+            "Edmund Pevensie": "Serves",
+            "Susan Pevensie": "Serves"
+          }
+        }
+      }
+    },
+    "peridan": {
+      "name": "Lord Peridan",
+      "aliases": [],
+      "appearances": [4, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Narnian lord who is part of King Edmund and Queen Susan's diplomatic mission to Tashbaan. He is among those who mistake Shasta for Prince Corin.",
+          "role": "Narnian lord",
+          "relationships": {
+            "Edmund Pevensie": "Serves",
+            "Susan Pevensie": "Serves"
+          }
+        }
+      }
+    },
+    "darrin": {
+      "name": "Lord Darrin",
+      "aliases": [],
+      "appearances": [4, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another Narnian lord accompanying the royal delegation to Tashbaan. He is courteous and diplomatic in his duties.",
+          "role": "Narnian lord",
+          "relationships": {
+            "Edmund Pevensie": "Serves",
+            "Susan Pevensie": "Serves"
+          }
+        }
+      }
+    },
+    "talking-beasts": {
+      "name": "Talking Beasts of Archenland",
+      "aliases": [],
+      "appearances": [9, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Various talking animals that Shasta encounters in the mountains of Archenland. At first he mistakes them for ordinary beasts or jackals, but they prove to be friendly and helpful.",
+          "role": "Friendly talking animals",
+          "relationships": {
+            "Shasta": "Help and comfort"
+          }
+        }
+      }
+    },
+    "narnian-army": {
+      "name": "Narnian Army",
+      "aliases": ["Narnian Forces", "Narnian Reinforcements"],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The military force of Narnia that arrives as reinforcements during the battle at Anvard, led by High King Peter and Queen Lucy.",
+          "role": "Narnian military",
+          "relationships": {
+            "Peter Pevensie": "Led by",
+            "Lucy Pevensie": "Accompanied by"
+          }
+        }
+      }
+    },
+    "archenlander-knights": {
+      "name": "Archenlander Knights",
+      "aliases": ["Knights of Archenland"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The knights and soldiers of Archenland who serve King Lune. They prepare for the defense of their realm when warned of the Calormene invasion.",
+          "role": "Archenlander military",
+          "relationships": {
+            "King Lune": "Serve"
+          }
+        }
+      }
+    },
+    "calormene-soldiers": {
+      "name": "Calormene Soldiers",
+      "aliases": ["Rabadash's Army", "Calormene Forces"],
+      "appearances": [7, 12, 13],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The army pursuing the four companions north, part of Prince Rabadash's invasion force heading to attack Archenland.",
+          "role": "Enemy soldiers",
+          "relationships": {
+            "Prince Rabadash": "Serve"
+          }
+        }
+      }
+    },
+    "tarkaans": {
+      "name": "Various Tarkaans",
+      "aliases": ["Calormene Nobles", "Lords of Calormen"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Wealthy Calormene nobles seen in the streets of Tashbaan, displaying their wealth and status as the companions pass through the city.",
+          "role": "Calormene nobility",
+          "relationships": {}
+        }
+      }
+    },
+    "tashbaan-guards": {
+      "name": "Tashbaan Guards",
+      "aliases": ["City Guards", "Palace Guards"],
+      "appearances": [3, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The guards who patrol Tashbaan and maintain order in the great city. They are present when the companions enter and leave the city.",
+          "role": "City guards",
+          "relationships": {}
+        }
+      }
+    },
+    "lasaraleen-slaves": {
+      "name": "Lasaraleen's Slaves",
+      "aliases": ["Household Slaves"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The many slaves who serve in Lasaraleen's luxurious household, attending to her every need in typical Calormene fashion.",
+          "role": "Household servants",
+          "relationships": {
+            "Lasaraleen Tarkheena": "Serve"
+          }
+        }
+      }
+    },
+    "palace-courtiers": {
+      "name": "Palace Courtiers",
+      "aliases": ["Tisroc's Court"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The various nobles and officials who populate the Tisroc's court, witnesses to the secret meeting about the invasion plans.",
+          "role": "Court officials",
+          "relationships": {
+            "The Tisroc": "Serve"
+          }
+        }
+      }
+    },
+    "desert-travelers": {
+      "name": "Desert Travelers",
+      "aliases": ["Other Travelers"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Various people traveling through the desert that the companions encounter during their flight north.",
+          "role": "Fellow travelers",
+          "relationships": {}
+        }
+      }
+    },
+    "hermit-animals": {
+      "name": "Hermit's Animals",
+      "aliases": [],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The various animals that live with the Hermit of the Southern March in his peaceful dwelling.",
+          "role": "Hermit's companions",
+          "relationships": {
+            "The Hermit of the Southern March": "Live with"
+          }
+        }
+      }
+    },
+    "anvard-defenders": {
+      "name": "Defenders of Anvard",
+      "aliases": ["Castle Guards", "Anvard Garrison"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The soldiers and guards defending King Lune's castle of Anvard against Prince Rabadash's attack.",
+          "role": "Castle defenders",
+          "relationships": {
+            "King Lune": "Serve"
+          }
+        }
+      }
+    },
+    "wounded-soldiers": {
+      "name": "Wounded Soldiers",
+      "aliases": [],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Soldiers from both sides who are wounded during the battle at Anvard and receive care after the fighting ends.",
+          "role": "Battle casualties",
+          "relationships": {}
+        }
+      }
+    },
+    "aravis-stepmother": {
+      "name": "Aravis's Stepmother",
+      "aliases": [],
+      "appearances": [],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Aravis's cruel stepmother who arranged her marriage to Ahoshta. She is mentioned as part of the reason Aravis chose to flee rather than submit to the unwanted marriage.",
+          "role": "Cruel stepmother",
+          "relationships": {
+            "Aravis": "Stepmother of"
+          }
+        }
+      }
+    },
+    "aravis-father": {
+      "name": "Aravis's Father",
+      "aliases": [],
+      "appearances": [],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Calormene Tarkaan who agreed to his daughter's marriage to the Grand Vizier, presumably for political and financial gain.",
+          "role": "Aravis's father",
+          "relationships": {
+            "Aravis": "Father of"
+          }
+        }
+      }
+    },
+    "hwin-previous-owners": {
+      "name": "Hwin's Previous Owners",
+      "aliases": [],
+      "appearances": [],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Calormene nobles who owned Hwin before she came to serve Aravis, mentioned as part of her history in captivity.",
+          "role": "Former owners",
+          "relationships": {
+            "Hwin": "Former owners of"
+          }
+        }
+      }
+    },
+    "bree-war-companions": {
+      "name": "Bree's War Companions",
+      "aliases": [],
+      "appearances": [],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Other horses that Bree fought alongside during his years in the Calormene army, mentioned as part of his military experience.",
+          "role": "Fellow war horses",
+          "relationships": {
+            "Bree": "War companions of"
+          }
+        }
+      }
+    },
+    "fishing-village-inhabitants": {
+      "name": "Fishing Village Inhabitants",
+      "aliases": ["Villagers"],
+      "appearances": [],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The people of the small fishing village where Arsheesh lives with Shasta, mentioned as the community they are part of.",
+          "role": "Village community",
+          "relationships": {
+            "Arsheesh": "Neighbors of"
+          }
+        }
+      }
+    },
+    "lune-hunting-party": {
+      "name": "King Lune's Hunting Party",
+      "aliases": ["Royal Hunters"],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The nobles and huntsmen accompanying King Lune when they encounter Shasta in the mountains of Archenland.",
+          "role": "Royal companions",
+          "relationships": {
+            "King Lune": "Accompany"
+          }
+        }
+      }
+    },
+    "castle-servants": {
+      "name": "Castle Servants",
+      "aliases": ["Anvard Staff"],
+      "appearances": [11, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The various servants and staff who work in King Lune's castle at Anvard, preparing for war and caring for guests.",
+          "role": "Castle staff",
+          "relationships": {
+            "King Lune": "Serve"
+          }
+        }
+      }
+    },
+    "corin-friends": {
+      "name": "Prince Corin's Friends",
+      "aliases": ["Young Nobles"],
+      "appearances": [11, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Young nobles and companions of Prince Corin who are eager for adventure and fighting, much like the prince himself.",
+          "role": "Young courtiers",
+          "relationships": {
+            "Prince Corin": "Friends of"
+          }
+        }
+      }
+    },
+    "narnian-sailors": {
+      "name": "Narnian Sailors",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The crew of the Narnian ship that brought the diplomatic mission to Tashbaan.",
+          "role": "Ship crew",
+          "relationships": {
+            "Edmund Pevensie": "Serve",
+            "Susan Pevensie": "Serve"
+          }
+        }
+      }
+    },
+    "tash-priests": {
+      "name": "Priests of Tash",
+      "aliases": ["Calormene Priests"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Religious officials in Tashbaan who serve the Calormene god Tash, seen performing their duties in the great city.",
+          "role": "Religious officials",
+          "relationships": {}
+        }
+      }
+    },
+    "market-vendors": {
+      "name": "Market Vendors",
+      "aliases": ["Merchants", "Traders"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The various merchants and traders selling goods in the markets of Tashbaan as the companions pass through the city.",
+          "role": "Merchants",
+          "relationships": {}
+        }
+      }
+    },
+    "street-children": {
+      "name": "Street Children",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Poor children seen in the streets of Tashbaan, representing the common people of the great Calormene capital.",
+          "role": "Street dwellers",
+          "relationships": {}
+        }
+      }
+    },
+    "palace-eunuchs": {
+      "name": "Palace Eunuchs",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Court officials who serve in the Tisroc's palace, present during the secret meeting about the invasion plans.",
+          "role": "Palace officials",
+          "relationships": {
+            "The Tisroc": "Serve"
+          }
+        }
+      }
+    },
+    "doorkeeper": {
+      "name": "Palace Doorkeeper",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The servant who guards the doors to the Tisroc's private chambers and announces visitors during the secret meeting.",
+          "role": "Palace servant",
+          "relationships": {
+            "The Tisroc": "Serves"
+          }
+        }
+      }
+    },
+    "grooms": {
+      "name": "Palace Grooms",
+      "aliases": ["Horse Keepers"],
+      "appearances": [1, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Servants responsible for caring for horses in various locations, including those at Arsheesh's village and in Tashbaan.",
+          "role": "Horse caretakers",
+          "relationships": {}
+        }
+      }
+    },
+    "boat-captain": {
+      "name": "Narnian Ship Captain",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The captain of the Narnian vessel that brought the diplomatic mission to Tashbaan, responsible for the ship and crew.",
+          "role": "Naval commander",
+          "relationships": {
+            "Edmund Pevensie": "Serves",
+            "Susan Pevensie": "Serves"
+          }
+        }
+      }
+    },
+    "tavern-keepers": {
+      "name": "Tavern Keepers",
+      "aliases": ["Inn Keepers"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The proprietors of inns and taverns in Tashbaan where travelers can find food and lodging.",
+          "role": "Hospitality providers",
+          "relationships": {}
+        }
+      }
+    },
+    "water-sellers": {
+      "name": "Water Sellers",
+      "aliases": [],
+      "appearances": [3, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Merchants selling water to travelers in Tashbaan and along the desert routes, essential for survival in the hot climate.",
+          "role": "Water merchants",
+          "relationships": {}
+        }
+      }
+    },
+    "camel-drivers": {
+      "name": "Camel Drivers",
+      "aliases": [],
+      "appearances": [3, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Professional guides who lead camel caravans through the desert routes, experienced in desert travel.",
+          "role": "Desert guides",
+          "relationships": {}
+        }
+      }
+    },
+    "fortune-tellers": {
+      "name": "Fortune Tellers",
+      "aliases": ["Soothsayers"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Mystics and charlatans in Tashbaan who claim to predict the future for paying customers.",
+          "role": "Street mystics",
+          "relationships": {}
+        }
+      }
+    },
+    "musicians": {
+      "name": "Street Musicians",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Performers in the streets and palaces of Tashbaan who provide entertainment with various instruments.",
+          "role": "Entertainers",
+          "relationships": {}
+        }
+      }
+    },
+    "scribes": {
+      "name": "Palace Scribes",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Court officials who record the Tisroc's decrees and handle official correspondence.",
+          "role": "Court clerks",
+          "relationships": {
+            "The Tisroc": "Serve"
+          }
+        }
+      }
+    },
+    "jesters": {
+      "name": "Court Jesters",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Entertainers at the Calormene court who provide amusement for the Tisroc and his nobles.",
+          "role": "Court entertainers",
+          "relationships": {
+            "The Tisroc": "Entertain"
+          }
+        }
+      }
+    },
+    "perfume-sellers": {
+      "name": "Perfume Sellers",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Merchants who sell exotic scents and oils, particularly catering to wealthy Calormene ladies like Lasaraleen.",
+          "role": "Luxury merchants",
+          "relationships": {}
+        }
+      }
+    },
+    "silk-merchants": {
+      "name": "Silk Merchants",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Wealthy traders dealing in fine fabrics and luxurious clothing in the markets of Tashbaan.",
+          "role": "Textile traders",
+          "relationships": {}
+        }
+      }
+    },
+    "spice-traders": {
+      "name": "Spice Traders",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Merchants selling exotic spices and seasonings in the bustling markets of the Calormene capital.",
+          "role": "Spice merchants",
+          "relationships": {}
+        }
+      }
+    },
+    "weapon-smiths": {
+      "name": "Weapon Smiths",
+      "aliases": ["Blacksmiths"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Craftsmen in Archenland who forge weapons and repair equipment for King Lune's forces preparing for war.",
+          "role": "Weapon crafters",
+          "relationships": {
+            "King Lune": "Serve"
+          }
+        }
+      }
+    },
+    "stable-masters": {
+      "name": "Stable Masters",
+      "aliases": [],
+      "appearances": [11, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Senior servants responsible for the care of horses and other animals at Anvard castle.",
+          "role": "Horse experts",
+          "relationships": {
+            "King Lune": "Serve"
+          }
+        }
+      }
+    },
+    "messenger-birds": {
+      "name": "Messenger Birds",
+      "aliases": ["Ravens", "Eagles"],
+      "appearances": [11, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Talking birds that serve as messengers between different locations, helping coordinate the defense against the Calormene invasion.",
+          "role": "Aerial messengers",
+          "relationships": {}
+        }
+      }
+    },
+    "healers": {
+      "name": "Healers",
+      "aliases": ["Physicians"],
+      "appearances": [13, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Medical practitioners who tend to the wounded after the battle at Anvard, working alongside Queen Lucy's magic cordial.",
+          "role": "Medical staff",
+          "relationships": {}
+        }
+      }
+    },
+    "cooks": {
+      "name": "Castle Cooks",
+      "aliases": ["Kitchen Staff"],
+      "appearances": [11, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The kitchen staff at Anvard who prepare meals for the court, guests, and army during the preparations for war.",
+          "role": "Kitchen workers",
+          "relationships": {
+            "King Lune": "Serve"
+          }
+        }
+      }
+    },
+    "bards": {
+      "name": "Court Bards",
+      "aliases": ["Storytellers"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Musicians and storytellers who will record and sing about the adventures of Shasta and his companions for future generations.",
+          "role": "Court historians",
+          "relationships": {}
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Shasta, a boy living with fisherman Arsheesh in Calormen, overhears that he's not Arsheesh's real son and is about to be sold to a visiting Tarkaan. He discovers the Tarkaan's horse Bree can talk and learns he's from Narnia. Together they decide to escape northward to the free lands of Narnia.",
+    "2": "Shasta and Bree meet Aravis, a young Tarkheena fleeing an unwanted marriage, and her talking horse Hwin. The four agree to travel together to Narnia. They learn they must pass through the great city of Tashbaan, capital of the Calormene Empire.",
+    "3": "The travelers approach Tashbaan at dawn and plan to pass through quickly. However, Shasta is mistaken for Prince Corin of Archenland by Narnian lords and taken to their lodgings. Aravis goes separately into the city with a plan to meet later.",
+    "4": "Shasta finds himself among the Narnian delegation, including King Edmund and Queen Susan, who mistake him for Prince Corin. He learns they are in Tashbaan on a diplomatic mission and that Prince Rabadash of Calormen wishes to marry Queen Susan.",
+    "5": "Aravis seeks out her friend Lasaraleen Tarkheena in Tashbaan's upper city. Meanwhile, the real Prince Corin appears and Shasta escapes. Aravis overhears a secret meeting where the Tisroc, Prince Rabadash, and the Grand Vizier plot to invade Archenland and Narnia.",
+    "6": "Aravis learns the Calormenes plan to attack when the Narnians refuse Rabadash's marriage proposal. She escapes with Lasaraleen's help to warn the others. The four companions reunite and plan to race north to warn Archenland of the coming invasion.",
+    "7": "The companions begin their desperate ride north through the desert to outrun the Calormene army and warn King Lune of Archenland. They push their horses hard but realize they're being pursued by a large force led by Prince Rabadash.",
+    "8": "Continuing their flight, the group encounters a lion (Aslan in disguise) who chases them, spurring them to greater speed. Shasta becomes separated from the others when his horse bolts in terror from the lion.",
+    "9": "Shasta finds himself alone in the misty mountains of Archenland, lost and frightened. He encounters what he believes are jackals but are actually talking beasts who help him. A mysterious presence comforts him through the night.",
+    "10": "Shasta discovers he has been talking to Aslan, who explains how he has been guiding and protecting Shasta throughout his journey. Aslan reveals some of Shasta's true history before disappearing at dawn.",
+    "11": "Shasta reaches Archenland and is found by King Lune and his hunting party. He delivers his warning about the Calormene invasion, and preparations begin for the defense of the realm. Shasta meets Prince Corin, amazed by their resemblance.",
+    "12": "The battle for Anvard begins as Prince Rabadash and his forces attack the castle. Shasta finds himself caught up in the fighting, while Aravis, Bree, and Hwin have taken refuge with the Hermit of the Southern March.",
+    "13": "The battle continues with King Lune's forces defending Anvard. Edmund and the Narnian forces arrive as reinforcements. Prince Rabadash is defeated and captured when he becomes stuck in a window while trying to escape.",
+    "14": "After the victory, King Lune reveals that Shasta is actually Prince Cor, his long-lost son and twin to Prince Corin. The story of Shasta's kidnapping as a baby and his rescue is told. Shasta learns his true identity and place in the royal family.",
+    "15": "The story concludes with the aftermath of the battle and Shasta's acceptance of his royal identity. Aravis chooses to remain in Archenland, and both she and Shasta are granted their heart's desires. The tale ends with hints of their future together."
+  }
+}
