@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import ChapterSelector from '@/components/ChapterSelector';
 import Breadcrumb from '@/components/Breadcrumb';
+import StructuredData from '@/components/StructuredData';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -76,8 +77,35 @@ export default async function BookPage({
     { label: bookMeta.title, current: true }
   ];
 
+  const characterCount = bookData ? Object.keys(bookData.characters).length : 0;
+  
+  // Find book position in series
+  const bookKeys = Object.keys(series.books);
+  const bookPosition = bookKeys.indexOf(resolvedParams.book) + 1;
+
   return (
-    <div className="container mx-auto px-4 py-6">
+    <>
+      <StructuredData 
+        type="book"
+        data={{
+          title: bookMeta.title,
+          author: series.author,
+          description: `Spoiler-free character guide for ${bookMeta.title} by ${series.author}. Track ${characterCount} characters across ${bookMeta.chapters} chapters without spoilers.`,
+          url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}`,
+          chapters: bookMeta.chapters,
+          characterCount,
+          isbn: bookMeta.asin,
+          seriesName: series.title,
+          position: bookPosition,
+          genre: ['Fantasy', 'Science Fiction'],
+          breadcrumbs: [
+            { name: 'Home', url: 'https://spoilerfreecharacterguide.com' },
+            { name: series.title, url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}` },
+            { name: bookMeta.title, url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}` }
+          ]
+        }}
+      />
+      <div className="container mx-auto px-4 py-6">
       <Breadcrumb items={breadcrumbItems} />
       
       <div className="text-center mb-6">
@@ -150,5 +178,6 @@ export default async function BookPage({
         </div>
       </div>
     </div>
+    </>
   );
 }

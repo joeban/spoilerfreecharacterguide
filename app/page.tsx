@@ -27,7 +27,9 @@ export default async function HomePage() {
       <StructuredData 
         type="website"
         data={{
-          description: 'The ultimate spoiler-free character guide for fantasy and sci-fi books. Track characters chapter by chapter without spoilers.'
+          title: 'Spoiler-Free Character Guide',
+          description: 'The ultimate spoiler-free character guide for fantasy and sci-fi books. Track characters chapter by chapter without spoilers.',
+          url: 'https://spoilerfreecharacterguide.com'
         }}
       />
       <div className="container mx-auto px-4 py-8">

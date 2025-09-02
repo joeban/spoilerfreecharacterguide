@@ -4,6 +4,7 @@ import ChapterSelector from '@/components/ChapterSelector';
 import ChapterRecap from '@/components/ChapterRecap';
 import CharacterList from '@/components/CharacterList';
 import Breadcrumb from '@/components/Breadcrumb';
+import StructuredData from '@/components/StructuredData';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
@@ -90,7 +91,22 @@ export default async function ChapterPage({
   ];
 
   return (
-    <div className="container mx-auto px-4 py-6">
+    <>
+      <StructuredData 
+        type="chapter"
+        data={{
+          title: `${bookMeta.title} - Chapter ${chapterNum}`,
+          description: recap || `Chapter ${chapterNum} of ${bookMeta.title} by ${series.author}. Track ${inThisChapter.length + previouslySeen.length} characters without spoilers.`,
+          url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}/${chapterNum}`,
+          breadcrumbs: [
+            { name: 'Home', url: 'https://spoilerfreecharacterguide.com' },
+            { name: series.title, url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}` },
+            { name: bookMeta.title, url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}` },
+            { name: `Chapter ${chapterNum}`, url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}/${chapterNum}` }
+          ]
+        }}
+      />
+      <div className="container mx-auto px-4 py-6">
       <Breadcrumb items={breadcrumbItems} />
       
       <div className="text-center mb-8">
@@ -186,5 +202,6 @@ export default async function ChapterPage({
         </div>
       </div>
     </div>
+    </>
   );
 }

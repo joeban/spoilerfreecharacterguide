@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import SeriesBookshelf from '@/components/SeriesBookshelf';
 import Breadcrumb from '@/components/Breadcrumb';
+import StructuredData from '@/components/StructuredData';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -67,7 +68,23 @@ export default async function SeriesPage({
   ];
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <>
+      <StructuredData 
+        type="series"
+        data={{
+          title: series.title,
+          author: series.author,
+          description: `Complete spoiler-free character guide for ${series.title} by ${series.author}`,
+          url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}`,
+          bookCount: Object.keys(series.books).length,
+          genre: ['Fantasy', 'Science Fiction'],
+          breadcrumbs: [
+            { name: 'Home', url: 'https://spoilerfreecharacterguide.com' },
+            { name: series.title, url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}` }
+          ]
+        }}
+      />
+      <div className="container mx-auto px-4 py-12">
       <Breadcrumb items={breadcrumbItems} />
       
       <div className="text-center mb-12">
@@ -153,5 +170,6 @@ export default async function SeriesPage({
         </div>
       </div>
     </div>
+    </>
   );
 }
