@@ -832,6 +832,967 @@
           }
         }
       }
+    },
+    "lieutenant-commander-thorsen": {
+      "name": "Lieutenant Commander Thorsen",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Executive Officer of the MCRN Donnager, second-in-command to Captain Yao. Professional military officer.",
+          "role": "MCRN XO",
+          "relationships": {
+            "Ship": "MCRN Donnager",
+            "Captain": "Captain Theresa Yao"
+          }
+        }
+      }
+    },
+    "sergeant-draper": {
+      "name": "Sergeant Draper",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Marine sergeant aboard the MCRN Donnager, part of the ship's security detail.",
+          "role": "MCRN Marine Sergeant",
+          "relationships": {
+            "Ship": "MCRN Donnager",
+            "Service": "MCRN Marines"
+          }
+        }
+      }
+    },
+    "corporal-sa": {
+      "name": "Corporal Sa",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Martian Marine corporal serving aboard the Donnager, part of the boarding team.",
+          "role": "MCRN Marine",
+          "relationships": {
+            "Ship": "MCRN Donnager",
+            "Service": "MCRN Marines"
+          }
+        }
+      }
+    },
+    "gomez": {
+      "name": "Gomez",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN Donnager crew member, works in ship operations.",
+          "role": "MCRN Crew",
+          "relationships": {
+            "Ship": "MCRN Donnager"
+          }
+        }
+      }
+    },
+    "tracy": {
+      "name": "Tracy",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member working in the ship's engineering section.",
+          "role": "Canterbury Engineer",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "cameron": {
+      "name": "Cameron",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member responsible for cargo operations and loading.",
+          "role": "Canterbury Cargo Tech",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "higa": {
+      "name": "Higa",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member working in ship maintenance and repairs.",
+          "role": "Canterbury Maintenance",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "sanchez": {
+      "name": "Sanchez",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member assigned to communications and sensor operations.",
+          "role": "Canterbury Comm Tech",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "rivera": {
+      "name": "Rivera",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member working in the galley and food preparation.",
+          "role": "Canterbury Cook",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "young": {
+      "name": "Young",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member, junior officer learning ship operations.",
+          "role": "Canterbury Junior Officer",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "watanabe": {
+      "name": "Watanabe",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member specializing in ice processing and water purification systems.",
+          "role": "Canterbury Water Tech",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "brown": {
+      "name": "Brown",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member working in propulsion and engine maintenance.",
+          "role": "Canterbury Engine Tech",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "chen": {
+      "name": "Chen",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Canterbury crew member assigned to environmental systems and life support.",
+          "role": "Canterbury Life Support",
+          "relationships": {
+            "Ship": "Canterbury"
+          }
+        }
+      }
+    },
+    "star-helix-officer-kane": {
+      "name": "Officer Kane",
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Star Helix Security officer working on Ceres Station under Captain Shaddid.",
+          "role": "Star Helix Officer",
+          "relationships": {
+            "Boss": "Captain Shaddid",
+            "Station": "Ceres"
+          }
+        }
+      }
+    },
+    "star-helix-officer-davis": {
+      "name": "Officer Davis",
+      "appearances": [2, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Star Helix Security officer patrolling Ceres docks and commercial areas.",
+          "role": "Star Helix Officer",
+          "relationships": {
+            "Station": "Ceres",
+            "Service": "Star Helix Security"
+          }
+        }
+      }
+    },
+    "yuki": {
+      "name": "Yuki",
+      "appearances": [2, 4, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Bartender at a popular drinking establishment on Ceres Station, sources local information.",
+          "role": "Ceres Bartender",
+          "relationships": {
+            "Customer": "Joe Miller",
+            "Station": "Ceres"
+          }
+        }
+      }
+    },
+    "rossi": {
+      "name": "Rossi",
+      "appearances": [2, 6, 11],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Dockworker on Ceres Station involved in cargo handling and ship maintenance.",
+          "role": "Ceres Dockworker",
+          "relationships": {
+            "Station": "Ceres",
+            "Work Area": "Docks"
+          }
+        }
+      }
+    },
+    "maitland": {
+      "name": "Maitland",
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Ceres Station resident involved in small-scale smuggling operations.",
+          "role": "Smuggler",
+          "relationships": {
+            "Station": "Ceres"
+          }
+        }
+      }
+    },
+    "tang": {
+      "name": "Tang",
+      "appearances": [6, 9, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "OPA sympathizer on Ceres Station who provides information to Anderson Dawes.",
+          "role": "OPA Informant",
+          "relationships": {
+            "Contact": "Anderson Dawes",
+            "Station": "Ceres"
+          }
+        }
+      }
+    },
+    "wong": {
+      "name": "Wong",
+      "appearances": [4, 11, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Information broker on Ceres Station who trades in gossip and intelligence.",
+          "role": "Information Broker",
+          "relationships": {
+            "Customer": "Joe Miller",
+            "Station": "Ceres"
+          }
+        }
+      }
+    },
+    "kim": {
+      "name": "Kim",
+      "appearances": [18, 24, 31],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Local resident on Eros Station who witnessed unusual activity before the quarantine.",
+          "role": "Eros Resident",
+          "relationships": {
+            "Station": "Eros"
+          }
+        }
+      }
+    },
+    "garcia": {
+      "name": "Garcia",
+      "appearances": [18, 24, 31, 38],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Eros Station security guard working during the early stages of the infection.",
+          "role": "Eros Security",
+          "relationships": {
+            "Station": "Eros",
+            "Colleague": "Hawes"
+          }
+        }
+      }
+    },
+    "protogen-security-team-alpha": {
+      "name": "Protogen Security Team Alpha",
+      "appearances": [35, 42, 48],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Private military contractors employed by Protogen to secure research sites and eliminate witnesses.",
+          "role": "Corporate Security",
+          "relationships": {
+            "Employer": "Protogen Corporation",
+            "Mission": "Eros Operation"
+          }
+        }
+      }
+    },
+    "dr-cortazar": {
+      "name": "Dr. Cortazar",
+      "appearances": [35, 42],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Protogen researcher working under Dresden on protomolecule experiments.",
+          "role": "Protogen Researcher",
+          "relationships": {
+            "Boss": "Antony Dresden",
+            "Company": "Protogen Corporation"
+          }
+        }
+      }
+    },
+    "thompson": {
+      "name": "Thompson",
+      "appearances": [35, 42, 48],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Protogen security officer coordinating containment operations on Eros.",
+          "role": "Protogen Security",
+          "relationships": {
+            "Company": "Protogen Corporation",
+            "Operation": "Eros Containment"
+          }
+        }
+      }
+    },
+    "williams": {
+      "name": "Williams",
+      "appearances": [42, 48],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Protogen technician monitoring protomolecule experiment progress on Eros.",
+          "role": "Protogen Technician",
+          "relationships": {
+            "Company": "Protogen Corporation",
+            "Project": "Protomolecule Research"
+          }
+        }
+      }
+    },
+    "martinez": {
+      "name": "Martinez",
+      "appearances": [42, 48],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Protogen data analyst studying protomolecule behavior patterns and growth rates.",
+          "role": "Protogen Analyst",
+          "relationships": {
+            "Company": "Protogen Corporation",
+            "Research": "Data Analysis"
+          }
+        }
+      }
+    },
+    "commander-klaes-ashford": {
+      "name": "Commander Klaes Ashford",
+      "appearances": [28, 35, 49],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "OPA military commander working with Fred Johnson on Belt defense operations.",
+          "role": "OPA Commander",
+          "relationships": {
+            "Superior": "Fred Johnson",
+            "Organization": "OPA"
+          }
+        }
+      }
+    },
+    "naomi-friend-cara": {
+      "name": "Cara",
+      "appearances": [15, 21],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Engineer at Tycho Station who works alongside Naomi on various technical projects.",
+          "role": "Tycho Engineer",
+          "relationships": {
+            "Colleague": "Naomi Nagata",
+            "Station": "Tycho Station"
+          }
+        }
+      }
+    },
+    "tycho-dock-supervisor-nguyen": {
+      "name": "Dock Supervisor Nguyen",
+      "appearances": [8, 15, 28],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Tycho Station docking supervisor who coordinates ship arrivals and departures.",
+          "role": "Tycho Dock Supervisor",
+          "relationships": {
+            "Station": "Tycho Station",
+            "Boss": "Fred Johnson"
+          }
+        }
+      }
+    },
+    "tycho-medic-okoye": {
+      "name": "Medic Okoye",
+      "appearances": [15, 28],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Medical officer on Tycho Station providing healthcare for station personnel and visitors.",
+          "role": "Tycho Medical",
+          "relationships": {
+            "Station": "Tycho Station",
+            "Patients": "Rocinante Crew"
+          }
+        }
+      }
+    },
+    "vendor-avasarala-contact": {
+      "name": "UN Intelligence Contact",
+      "appearances": [20, 27, 34],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "UN intelligence operative providing information about Belt activities to Earth authorities.",
+          "role": "UN Intelligence",
+          "relationships": {
+            "Service": "UN Intelligence",
+            "Mission": "Belt Monitoring"
+          }
+        }
+      }
+    },
+    "eros-dockmaster-cole": {
+      "name": "Dockmaster Cole",
+      "appearances": [18, 24],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Eros Station dockmaster responsible for ship traffic and cargo manifest inspections.",
+          "role": "Eros Dockmaster",
+          "relationships": {
+            "Station": "Eros",
+            "Contact": "Joe Miller"
+          }
+        }
+      }
+    },
+    "eros-administrator-chen": {
+      "name": "Administrator Chen",
+      "appearances": [18, 24, 31],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Eros Station administrator overseeing civilian operations before the quarantine.",
+          "role": "Eros Administrator",
+          "relationships": {
+            "Station": "Eros"
+          }
+        }
+      }
+    },
+    "eros-bar-owner-vasquez": {
+      "name": "Bar Owner Vasquez",
+      "appearances": [18, 24],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Owner of a popular drinking establishment on Eros Station, source of local information.",
+          "role": "Bar Owner",
+          "relationships": {
+            "Customer": "Joe Miller",
+            "Station": "Eros"
+          }
+        }
+      }
+    },
+    "eros-prostitute-maya": {
+      "name": "Maya",
+      "appearances": [18, 24, 31],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Sex worker on Eros Station who provides information about station activities and visitors.",
+          "role": "Eros Resident",
+          "relationships": {
+            "Information Source": "Joe Miller",
+            "Station": "Eros"
+          }
+        }
+      }
+    },
+    "eros-mechanic-bruno": {
+      "name": "Bruno",
+      "appearances": [18, 24, 31, 38],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Ship mechanic on Eros Station who services visiting vessels and observes unusual cargo.",
+          "role": "Ship Mechanic",
+          "relationships": {
+            "Station": "Eros"
+          }
+        }
+      }
+    },
+    "ceres-gang-leader-loca": {
+      "name": "Loca",
+      "appearances": [6, 9, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Small-time gang leader on Ceres Station involved in protection rackets and smuggling.",
+          "role": "Gang Leader",
+          "relationships": {
+            "Station": "Ceres",
+            "Territory": "Level 5 Docks"
+          }
+        }
+      }
+    },
+    "ceres-shopkeeper-patel": {
+      "name": "Shopkeeper Patel",
+      "appearances": [2, 6, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Owner of a general goods store on Ceres Station, observes foot traffic and local news.",
+          "role": "Shopkeeper",
+          "relationships": {
+            "Station": "Ceres",
+            "Customer": "Joe Miller"
+          }
+        }
+      }
+    },
+    "ceres-air-recycling-tech-stone": {
+      "name": "Tech Stone",
+      "appearances": [2, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Environmental systems technician on Ceres Station maintaining air recycling systems.",
+          "role": "Environmental Tech",
+          "relationships": {
+            "Station": "Ceres",
+            "Department": "Life Support"
+          }
+        }
+      }
+    },
+    "ceres-water-recycling-engineer-lam": {
+      "name": "Engineer Lam",
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Water recycling engineer on Ceres Station, critical for station survival.",
+          "role": "Water Engineer",
+          "relationships": {
+            "Station": "Ceres",
+            "System": "Water Recycling"
+          }
+        }
+      }
+    },
+    "news-reporter-cohen": {
+      "name": "Reporter Cohen",
+      "appearances": [12, 18, 25, 32],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Independent news reporter covering the Canterbury incident and growing system tensions.",
+          "role": "News Reporter",
+          "relationships": {
+            "Story": "Canterbury Investigation",
+            "Colleague": "Monica Stuart"
+          }
+        }
+      }
+    },
+    "mars-military-liaison-torres": {
+      "name": "Liaison Torres",
+      "appearances": [20, 27, 34],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "MCRN military liaison coordinating with Earth forces during the crisis.",
+          "role": "MCRN Liaison",
+          "relationships": {
+            "Service": "MCRN",
+            "Mission": "Inter-planetary Coordination"
+          }
+        }
+      }
+    },
+    "earth-ambassador-johnson": {
+      "name": "Ambassador Johnson",
+      "appearances": [20, 27, 34],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "UN diplomatic representative working to prevent interplanetary war.",
+          "role": "UN Ambassador",
+          "relationships": {
+            "Government": "United Nations",
+            "Mission": "Diplomatic Relations"
+          }
+        }
+      }
+    },
+    "belt-opa-cell-leader-kai": {
+      "name": "Cell Leader Kai",
+      "appearances": [16, 23, 29],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "OPA cell leader organizing resistance activities on various Belt stations.",
+          "role": "OPA Cell Leader",
+          "relationships": {
+            "Organization": "OPA",
+            "Superior": "Anderson Dawes"
+          }
+        }
+      }
+    },
+    "protogen-ship-captain-harris": {
+      "name": "Captain Harris",
+      "appearances": [3, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Captain of one of the stealth ships that attacked the Canterbury and later the Donnager.",
+          "role": "Stealth Ship Captain",
+          "relationships": {
+            "Employer": "Protogen Corporation",
+            "Ship": "Stealth Attack Vessel"
+          }
+        }
+      }
+    },
+    "protogen-operative-shin": {
+      "name": "Operative Shin",
+      "appearances": [35, 42],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Protogen field operative coordinating black operations and corporate espionage.",
+          "role": "Corporate Operative",
+          "relationships": {
+            "Company": "Protogen Corporation",
+            "Boss": "Antony Dresden"
+          }
+        }
+      }
+    },
+    "eros-victim-sarah": {
+      "name": "Sarah",
+      "appearances": [31, 38],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Eros Station resident who becomes infected by the protomolecule during the experiment.",
+          "role": "Infection Victim",
+          "relationships": {
+            "Station": "Eros",
+            "Status": "Protomolecule Infected"
+          }
+        }
+      }
+    },
+    "eros-victim-james": {
+      "name": "James (Eros)",
+      "appearances": [31, 38],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Eros Station maintenance worker transformed by the protomolecule infection.",
+          "role": "Infection Victim",
+          "relationships": {
+            "Station": "Eros",
+            "Status": "Protomolecule Infected"
+          }
+        }
+      }
+    },
+    "eros-victim-maria": {
+      "name": "Maria",
+      "appearances": [31, 38],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Eros Station teacher who becomes part of the protomolecule collective consciousness.",
+          "role": "Infection Victim",
+          "relationships": {
+            "Station": "Eros",
+            "Status": "Protomolecule Infected"
+          }
+        }
+      }
+    },
+    "eros-victim-tom": {
+      "name": "Tom",
+      "appearances": [31, 38, 44],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Eros Station shop owner who becomes infected and integrated into the protomolecule organism.",
+          "role": "Infection Victim",
+          "relationships": {
+            "Station": "Eros",
+            "Status": "Protomolecule Infected"
+          }
+        }
+      }
+    },
+    "donnager-marine-hendricks": {
+      "name": "Marine Hendricks",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN Marine serving aboard the Donnager, part of the boarding and security team.",
+          "role": "MCRN Marine",
+          "relationships": {
+            "Ship": "MCRN Donnager",
+            "Unit": "Marine Detachment"
+          }
+        }
+      }
+    },
+    "donnager-marine-okafor": {
+      "name": "Marine Okafor",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN Marine specializing in powered armor operations and ship defense.",
+          "role": "MCRN Marine",
+          "relationships": {
+            "Ship": "MCRN Donnager",
+            "Specialty": "Power Armor"
+          }
+        }
+      }
+    },
+    "donnager-comm-officer-reyes": {
+      "name": "Comm Officer Reyes",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN communications officer managing ship-to-ship and long-range communications.",
+          "role": "MCRN Communications",
+          "relationships": {
+            "Ship": "MCRN Donnager",
+            "Department": "Communications"
+          }
+        }
+      }
+    },
+    "donnager-engineer-patel": {
+      "name": "Engineer Patel",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN engineer responsible for the Donnager's propulsion and power systems.",
+          "role": "MCRN Engineer",
+          "relationships": {
+            "Ship": "MCRN Donnager",
+            "Department": "Engineering"
+          }
+        }
+      }
+    },
+    "donnager-medic-santos": {
+      "name": "Medic Santos",
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN medical officer providing healthcare for the Donnager's crew and passengers.",
+          "role": "MCRN Medical",
+          "relationships": {
+            "Ship": "MCRN Donnager",
+            "Patients": "Canterbury Survivors"
+          }
+        }
+      }
+    },
+    "tycho-security-chief-hudson": {
+      "name": "Security Chief Hudson",
+      "appearances": [8, 15, 28],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Head of security at Tycho Station, responsible for station defense and personnel safety.",
+          "role": "Tycho Security Chief",
+          "relationships": {
+            "Boss": "Fred Johnson",
+            "Station": "Tycho Station"
+          }
+        }
+      }
+    },
+    "tycho-communications-officer-lee": {
+      "name": "Comm Officer Lee",
+      "appearances": [8, 15, 28, 35],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Tycho Station communications officer managing system-wide transmissions and intelligence.",
+          "role": "Tycho Communications",
+          "relationships": {
+            "Station": "Tycho Station",
+            "Boss": "Fred Johnson"
+          }
+        }
+      }
+    },
+    "ceres-riot-leader-vasquez": {
+      "name": "Riot Leader Vasquez",
+      "appearances": [10, 16],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Belter organizer who leads protests and riots on Ceres Station following the Canterbury incident.",
+          "role": "Protest Leader",
+          "relationships": {
+            "Station": "Ceres",
+            "Cause": "Belter Rights"
+          }
+        }
+      }
+    },
+    "ceres-medical-officer-kim": {
+      "name": "Medical Officer Kim",
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Chief medical officer on Ceres Station, overseeing healthcare for the large population.",
+          "role": "Ceres Medical Chief",
+          "relationships": {
+            "Station": "Ceres",
+            "Department": "Medical"
+          }
+        }
+      }
+    },
+    "opa-agent-rivera": {
+      "name": "Agent Rivera",
+      "appearances": [16, 23, 29],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "OPA intelligence agent gathering information on Earth and Mars military activities.",
+          "role": "OPA Intelligence",
+          "relationships": {
+            "Organization": "OPA",
+            "Handler": "Anderson Dawes"
+          }
+        }
+      }
+    },
+    "belt-transport-captain-zhao": {
+      "name": "Transport Captain Zhao",
+      "appearances": [21, 28],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Independent Belt transport captain who provides shipping services to various factions.",
+          "role": "Transport Captain",
+          "relationships": {
+            "Service Area": "Belt",
+            "Client": "OPA Operations"
+          }
+        }
+      }
+    },
+    "un-fleet-admiral-chen": {
+      "name": "Fleet Admiral Chen",
+      "appearances": [34, 41, 49],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Senior UN Navy commander overseeing Earth's military response to the system crisis.",
+          "role": "UN Fleet Admiral",
+          "relationships": {
+            "Service": "UN Navy",
+            "Command": "Earth Defense Fleet"
+          }
+        }
+      }
+    },
+    "mars-fleet-commander-torres": {
+      "name": "Fleet Commander Torres",
+      "appearances": [34, 41, 49],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "MCRN fleet commander coordinating Mars military operations during the crisis.",
+          "role": "MCRN Fleet Commander",
+          "relationships": {
+            "Service": "MCRN",
+            "Command": "Mars Combat Fleet"
+          }
+        }
+      }
+    },
+    "scientist-klein": {
+      "name": "Dr. Klein",
+      "appearances": [42, 48],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Independent scientist studying the protomolecule samples and trying to understand its properties.",
+          "role": "Independent Researcher",
+          "relationships": {
+            "Research": "Protomolecule Analysis",
+            "Contact": "Fred Johnson"
+          }
+        }
+      }
     }
   },
   "recaps": {

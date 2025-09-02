@@ -427,6 +427,1221 @@
           }
         }
       }
+    },
+    "rce-security-officer-brooks": {
+      "name": "Security Officer Brooks",
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "RCE security officer working under Murtry's command, involved in enforcement operations against colonists.",
+          "role": "RCE Security Officer",
+          "relationships": {
+            "Commander": "Adolphus Murtry",
+            "Team": "RCE Security"
+          }
+        }
+      }
+    },
+    "rce-security-officer-harris": {
+      "name": "Security Officer Harris",
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "RCE security personnel specializing in crowd control and colonist surveillance.",
+          "role": "RCE Security Officer",
+          "relationships": {
+            "Commander": "Adolphus Murtry",
+            "Partner": "Brooks"
+          }
+        }
+      }
+    },
+    "rce-security-officer-martinez": {
+      "name": "Security Officer Martinez",
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "RCE security team member with tactical training, assists in enforcement operations.",
+          "role": "RCE Security Officer",
+          "relationships": {
+            "Team": "RCE Security",
+            "Commander": "Adolphus Murtry"
+          }
+        }
+      }
+    },
+    "rce-geologist-chen": {
+      "name": "Geologist Chen",
+      "appearances": [7, 13, 19, 25, 31, 37, 43, 49, 55],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "RCE geologist working alongside Dr. Wei to survey Ilus mineral deposits and geological structures.",
+          "role": "RCE Geologist",
+          "relationships": {
+            "Colleague": "Dr. Wei",
+            "Research": "Mineral Survey"
+          }
+        }
+      }
+    },
+    "rce-botanist-silva": {
+      "name": "Botanist Silva",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE botanist studying Ilus plant life and its interaction with protomolecule technology.",
+          "role": "RCE Botanist",
+          "relationships": {
+            "Team": "RCE Scientific Survey",
+            "Focus": "Plant Biology"
+          }
+        }
+      }
+    },
+    "rce-engineer-okafor": {
+      "name": "Engineer Okafor",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "RCE engineer responsible for setting up and maintaining mining equipment on Ilus.",
+          "role": "RCE Engineer",
+          "relationships": {
+            "Project": "Mining Operations",
+            "Equipment": "Heavy Machinery"
+          }
+        }
+      }
+    },
+    "rce-pilot-nakamura": {
+      "name": "Pilot Nakamura",
+      "appearances": [3, 9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "RCE shuttle pilot providing transportation between orbital facilities and surface operations.",
+          "role": "RCE Pilot",
+          "relationships": {
+            "Service": "Surface Transportation",
+            "Crew": "RCE Expedition"
+          }
+        }
+      }
+    },
+    "rce-medic-rodriguez": {
+      "name": "Medic Rodriguez",
+      "appearances": [12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "RCE medical officer providing healthcare for expedition members and treating casualties from the conflict.",
+          "role": "RCE Medical Officer",
+          "relationships": {
+            "Patients": "RCE Personnel",
+            "Emergency Care": "Bombing Victims"
+          }
+        }
+      }
+    },
+    "rce-communications-officer-kim": {
+      "name": "Communications Officer Kim",
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "RCE communications specialist managing contact with orbital assets and Earth headquarters.",
+          "role": "RCE Communications Officer",
+          "relationships": {
+            "Network": "RCE Command Structure",
+            "Contact": "Corporate Headquarters"
+          }
+        }
+      }
+    },
+    "colonist-ibrahim": {
+      "name": "Ibrahim",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "First Landing colonist working in agriculture and food production for the settlement.",
+          "role": "Colonial Farmer",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Work": "Food Production"
+          }
+        }
+      }
+    },
+    "colonist-petrov": {
+      "name": "Petrov",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "First Landing colonist specializing in equipment maintenance and repair.",
+          "role": "Colonial Technician",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Specialty": "Equipment Maintenance"
+          }
+        }
+      }
+    },
+    "colonist-santos": {
+      "name": "Santos",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "First Landing colonist working in construction and habitat expansion.",
+          "role": "Colonial Builder",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Project": "Settlement Construction"
+          }
+        }
+      }
+    },
+    "colonist-garcia": {
+      "name": "Garcia",
+      "appearances": [8, 14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "First Landing colonist involved in the sabotage operations against RCE equipment.",
+          "role": "Colonial Saboteur",
+          "relationships": {
+            "Co-conspirator": "Basia Merton",
+            "Target": "RCE Infrastructure"
+          }
+        }
+      }
+    },
+    "colonist-hoffman": {
+      "name": "Hoffman",
+      "appearances": [8, 14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "First Landing colonist participating in resistance activities against RCE occupation.",
+          "role": "Colonial Resistor",
+          "relationships": {
+            "Group": "Sabotage Cell",
+            "Leader": "Basia Merton"
+          }
+        }
+      }
+    },
+    "colonist-chen": {
+      "name": "Chen",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "First Landing colonist working in medical support and healthcare services.",
+          "role": "Colonial Medic",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Service": "Healthcare"
+          }
+        }
+      }
+    },
+    "colonist-nakamura": {
+      "name": "Nakamura",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "First Landing colonist responsible for communications and coordination between settlement areas.",
+          "role": "Colonial Communications",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Function": "Internal Communications"
+          }
+        }
+      }
+    },
+    "colonist-torres": {
+      "name": "Torres",
+      "appearances": [11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "First Landing colonist working in mineral extraction and processing operations.",
+          "role": "Colonial Miner",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Work": "Mining Operations"
+          }
+        }
+      }
+    },
+    "colonist-okafor": {
+      "name": "Okafor",
+      "appearances": [11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "First Landing colonist specializing in water recycling and environmental systems.",
+          "role": "Colonial Environmental Tech",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "System": "Water and Air Recycling"
+          }
+        }
+      }
+    },
+    "colonist-family-wong": {
+      "name": "Wong Family",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial family with children, representing the civilian population caught in the conflict.",
+          "role": "Colonial Family",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Status": "Civilian Refugees"
+          }
+        }
+      }
+    },
+    "rce-ship-captain-volkov": {
+      "name": "Ship Captain Volkov",
+      "appearances": [3, 9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Captain of the RCE transport ship providing orbital support for the surface expedition.",
+          "role": "RCE Ship Captain",
+          "relationships": {
+            "Mission": "Orbital Support",
+            "Crew": "RCE Naval Personnel"
+          }
+        }
+      }
+    },
+    "rce-ship-engineer-martinez": {
+      "name": "Ship Engineer Martinez",
+      "appearances": [3, 9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Chief engineer aboard the RCE orbital vessel maintaining ship systems and shuttle operations.",
+          "role": "RCE Ship Engineer",
+          "relationships": {
+            "Ship": "RCE Transport",
+            "Captain": "Volkov"
+          }
+        }
+      }
+    },
+    "rce-orbital-coordinator-hassan": {
+      "name": "Orbital Coordinator Hassan",
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "RCE orbital operations coordinator managing supply drops and personnel transfers.",
+          "role": "RCE Orbital Coordinator",
+          "relationships": {
+            "Operation": "Surface Support",
+            "Contact": "Surface Teams"
+          }
+        }
+      }
+    },
+    "rce-quartermaster-lee": {
+      "name": "Quartermaster Lee",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "RCE quartermaster managing supplies, equipment, and logistics for the surface expedition.",
+          "role": "RCE Quartermaster",
+          "relationships": {
+            "Responsibility": "Supply Management",
+            "Reports to": "Carol Chiwewe"
+          }
+        }
+      }
+    },
+    "colonist-family-silva": {
+      "name": "Silva Family",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial family with teenage children, affected by the escalating violence on Ilus.",
+          "role": "Colonial Family",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Concern": "Child Safety"
+          }
+        }
+      }
+    },
+    "colonist-family-patel": {
+      "name": "Patel Family",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial family involved in agricultural operations, struggling with crop failures due to alien interference.",
+          "role": "Colonial Family",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Occupation": "Agriculture"
+          }
+        }
+      }
+    },
+    "colonial-teacher-brown": {
+      "name": "Teacher Brown",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial teacher responsible for educating the settlement's children despite the dangerous conditions.",
+          "role": "Colonial Teacher",
+          "relationships": {
+            "Students": "Colonial Children",
+            "Community": "First Landing Colony"
+          }
+        }
+      }
+    },
+    "colonial-doctor-kim": {
+      "name": "Dr. Kim",
+      "appearances": [12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Colonial medical doctor treating injuries from both the dangerous environment and human conflict.",
+          "role": "Colonial Doctor",
+          "relationships": {
+            "Patients": "Colonial Population",
+            "Emergency Care": "Violence Victims"
+          }
+        }
+      }
+    },
+    "colonial-security-chief-torres": {
+      "name": "Security Chief Torres",
+      "appearances": [11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Colonial security chief responsible for protecting the settlement from environmental dangers and threats.",
+          "role": "Colonial Security Chief",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Authority": "Governor Trying"
+          }
+        }
+      }
+    },
+    "colonial-prospector-johnson": {
+      "name": "Prospector Johnson",
+      "appearances": [8, 14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Colonial prospector discovering lithium deposits, whose claims are threatened by RCE operations.",
+          "role": "Colonial Prospector",
+          "relationships": {
+            "Discovery": "Lithium Deposits",
+            "Threat": "RCE Mining Rights"
+          }
+        }
+      }
+    },
+    "rce-xenoarchaeologist-patel": {
+      "name": "Xenoarchaeologist Patel",
+      "appearances": [13, 19, 25, 31, 37, 43, 49, 55],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "RCE specialist studying alien ruins and artifacts scattered across Ilus surface.",
+          "role": "RCE Xenoarchaeologist",
+          "relationships": {
+            "Research": "Alien Ruins",
+            "Team": "Scientific Survey"
+          }
+        }
+      }
+    },
+    "rce-atmospheric-specialist-wong": {
+      "name": "Atmospheric Specialist Wong",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE atmospheric scientist monitoring Ilus air quality and environmental changes.",
+          "role": "RCE Atmospheric Scientist",
+          "relationships": {
+            "Research": "Atmospheric Analysis",
+            "Concern": "Air Quality Safety"
+          }
+        }
+      }
+    },
+    "rce-mining-foreman-garcia": {
+      "name": "Mining Foreman Garcia",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "RCE mining operations supervisor overseeing extraction equipment and procedures.",
+          "role": "RCE Mining Foreman",
+          "relationships": {
+            "Operation": "Lithium Mining",
+            "Equipment": "Heavy Extractors"
+          }
+        }
+      }
+    },
+    "colonial-hydroponics-engineer-hassan": {
+      "name": "Hydroponics Engineer Hassan",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial engineer maintaining food production systems essential for settlement survival.",
+          "role": "Colonial Hydroponics Engineer",
+          "relationships": {
+            "System": "Food Production",
+            "Community": "First Landing Colony"
+          }
+        }
+      }
+    },
+    "colonial-water-technician-rodriguez": {
+      "name": "Water Technician Rodriguez",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial technician responsible for water purification and recycling systems.",
+          "role": "Colonial Water Technician",
+          "relationships": {
+            "System": "Water Processing",
+            "Critical Function": "Settlement Survival"
+          }
+        }
+      }
+    },
+    "colonial-power-engineer-thompson": {
+      "name": "Power Engineer Thompson",
+      "appearances": [8, 14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Colonial engineer managing power generation and distribution for the settlement.",
+          "role": "Colonial Power Engineer",
+          "relationships": {
+            "System": "Power Grid",
+            "Sabotage Target": "RCE Operations"
+          }
+        }
+      }
+    },
+    "rce-transport-pilot-clark": {
+      "name": "Transport Pilot Clark",
+      "appearances": [3, 9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "RCE pilot operating cargo shuttles between orbital platforms and surface facilities.",
+          "role": "RCE Transport Pilot",
+          "relationships": {
+            "Service": "Cargo Transport",
+            "Route": "Orbit to Surface"
+          }
+        }
+      }
+    },
+    "rce-transport-pilot-davis": {
+      "name": "Transport Pilot Davis",
+      "appearances": [3, 9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "RCE backup pilot providing personnel transport and emergency evacuation services.",
+          "role": "RCE Transport Pilot",
+          "relationships": {
+            "Service": "Personnel Transport",
+            "Emergency Duty": "Medical Evacuation"
+          }
+        }
+      }
+    },
+    "colonial-communications-tech-wilson": {
+      "name": "Communications Tech Wilson",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Colonial communications technician maintaining contact with other settlements and orbital platforms.",
+          "role": "Colonial Communications Tech",
+          "relationships": {
+            "Network": "Settlement Communications",
+            "Contact": "External Colonies"
+          }
+        }
+      }
+    },
+    "colonial-child-anna-wong": {
+      "name": "Anna Wong",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial child representing the next generation of human settlers on Ilus.",
+          "role": "Colonial Child",
+          "relationships": {
+            "Family": "Wong Family",
+            "Education": "Teacher Brown"
+          }
+        }
+      }
+    },
+    "colonial-child-marcus-silva": {
+      "name": "Marcus Silva",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Teenage colonial resident adapting to life on the dangerous alien world.",
+          "role": "Colonial Teenager",
+          "relationships": {
+            "Family": "Silva Family",
+            "Community": "First Landing Colony"
+          }
+        }
+      }
+    },
+    "rce-chemical-engineer-adams": {
+      "name": "Chemical Engineer Adams",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE chemical engineer analyzing protomolecule compounds and alien biochemistry.",
+          "role": "RCE Chemical Engineer",
+          "relationships": {
+            "Research": "Chemical Analysis",
+            "Team": "Scientific Survey"
+          }
+        }
+      }
+    },
+    "rce-structural-engineer-miller": {
+      "name": "Structural Engineer Miller",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "RCE structural engineer assessing alien ruins and building new facilities.",
+          "role": "RCE Structural Engineer",
+          "relationships": {
+            "Project": "Base Construction",
+            "Analysis": "Alien Architecture"
+          }
+        }
+      }
+    },
+    "colonial-elder-mccormick": {
+      "name": "Elder McCormick",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Elderly colonial settler providing wisdom and guidance to the First Landing community.",
+          "role": "Colonial Elder",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Role": "Community Advisor"
+          }
+        }
+      }
+    },
+    "colonial-mechanic-brooks": {
+      "name": "Mechanic Brooks",
+      "appearances": [8, 14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Colonial mechanic maintaining vehicles and equipment for the settlement operations.",
+          "role": "Colonial Mechanic",
+          "relationships": {
+            "Equipment": "Settlement Vehicles",
+            "Support": "Sabotage Operations"
+          }
+        }
+      }
+    },
+    "rce-logistics-coordinator-taylor": {
+      "name": "Logistics Coordinator Taylor",
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "RCE logistics coordinator managing supply chains and resource distribution.",
+          "role": "RCE Logistics Coordinator",
+          "relationships": {
+            "Operation": "Supply Management",
+            "Network": "Resource Distribution"
+          }
+        }
+      }
+    },
+    "rce-surveyor-chen": {
+      "name": "Surveyor Chen",
+      "appearances": [7, 13, 19, 25, 31, 37, 43, 49, 55],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "RCE land surveyor mapping territorial claims and mineral deposits across Ilus.",
+          "role": "RCE Land Surveyor",
+          "relationships": {
+            "Project": "Territory Mapping",
+            "Focus": "Mining Claims"
+          }
+        }
+      }
+    },
+    "colonial-salvage-specialist-parker": {
+      "name": "Salvage Specialist Parker",
+      "appearances": [11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Colonial specialist recovering useful materials from damaged equipment and alien ruins.",
+          "role": "Colonial Salvage Specialist",
+          "relationships": {
+            "Resource": "Salvaged Materials",
+            "Sites": "Alien Ruins"
+          }
+        }
+      }
+    },
+    "rce-data-analyst-cooper": {
+      "name": "Data Analyst Cooper",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE data analyst processing scientific measurements and survey information.",
+          "role": "RCE Data Analyst",
+          "relationships": {
+            "Data": "Scientific Measurements",
+            "Analysis": "Survey Results"
+          }
+        }
+      }
+    },
+    "colonial-weather-observer-stone": {
+      "name": "Weather Observer Stone",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial weather observer monitoring Ilus atmospheric conditions and storm patterns.",
+          "role": "Colonial Weather Observer",
+          "relationships": {
+            "Monitoring": "Weather Patterns",
+            "Safety": "Storm Warnings"
+          }
+        }
+      }
+    },
+    "rce-camp-administrator-white": {
+      "name": "Camp Administrator White",
+      "appearances": [12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "RCE administrator managing daily operations and personnel assignments at the base camp.",
+          "role": "RCE Camp Administrator",
+          "relationships": {
+            "Management": "Base Operations",
+            "Personnel": "Work Assignments"
+          }
+        }
+      }
+    },
+    "colonial-youth-coordinator-green": {
+      "name": "Youth Coordinator Green",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial coordinator organizing activities and education for settlement children.",
+          "role": "Colonial Youth Coordinator",
+          "relationships": {
+            "Charges": "Colonial Children",
+            "Activities": "Education and Recreation"
+          }
+        }
+      }
+    },
+    "rce-heavy-equipment-operator-jones": {
+      "name": "Equipment Operator Jones",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "RCE heavy equipment operator running excavators and mining machinery.",
+          "role": "RCE Equipment Operator",
+          "relationships": {
+            "Equipment": "Heavy Machinery",
+            "Operation": "Mining Extraction"
+          }
+        }
+      }
+    },
+    "colonial-family-martinez": {
+      "name": "Martinez Family",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial family with young twins, representing civilian casualties in the growing conflict.",
+          "role": "Colonial Family",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Children": "Twin Toddlers"
+          }
+        }
+      }
+    },
+    "colonial-family-okafor": {
+      "name": "Okafor Family",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial family whose father works in environmental systems maintenance.",
+          "role": "Colonial Family",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Father": "Environmental Technician"
+          }
+        }
+      }
+    },
+    "colonial-family-hassan": {
+      "name": "Hassan Family",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial family involved in food production systems for the settlement.",
+          "role": "Colonial Family",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Occupation": "Food Production"
+          }
+        }
+      }
+    },
+    "rce-explosives-expert-taylor": {
+      "name": "Explosives Expert Taylor",
+      "appearances": [15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "RCE demolitions specialist handling controlled explosions for mining operations.",
+          "role": "RCE Explosives Expert",
+          "relationships": {
+            "Operation": "Mining Demolition",
+            "Safety": "Controlled Explosions"
+          }
+        }
+      }
+    },
+    "rce-environmental-safety-officer-brown": {
+      "name": "Safety Officer Brown",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE environmental safety officer monitoring hazards and workplace safety protocols.",
+          "role": "RCE Safety Officer",
+          "relationships": {
+            "Monitoring": "Environmental Hazards",
+            "Protocol": "Safety Procedures"
+          }
+        }
+      }
+    },
+    "colonial-hydroponics-assistant-clark": {
+      "name": "Hydroponics Assistant Clark",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial assistant helping maintain food production systems under Hassan's supervision.",
+          "role": "Colonial Hydroponics Assistant",
+          "relationships": {
+            "Supervisor": "Hassan",
+            "System": "Food Production"
+          }
+        }
+      }
+    },
+    "colonial-power-technician-davis": {
+      "name": "Power Technician Davis",
+      "appearances": [8, 14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Colonial technician assisting Thompson with power grid maintenance and sabotage preparation.",
+          "role": "Colonial Power Technician",
+          "relationships": {
+            "Supervisor": "Thompson",
+            "Activity": "Grid Maintenance"
+          }
+        }
+      }
+    },
+    "colonial-communications-assistant-garcia": {
+      "name": "Communications Assistant Garcia",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Colonial assistant managing local communications and message routing.",
+          "role": "Colonial Communications Assistant",
+          "relationships": {
+            "Supervisor": "Wilson",
+            "Network": "Local Communications"
+          }
+        }
+      }
+    },
+    "rce-field-geologist-anderson": {
+      "name": "Field Geologist Anderson",
+      "appearances": [7, 13, 19, 25, 31, 37, 43, 49, 55],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "RCE field geologist collecting soil and rock samples across different regions of Ilus.",
+          "role": "RCE Field Geologist",
+          "relationships": {
+            "Team": "Geological Survey",
+            "Research": "Soil Analysis"
+          }
+        }
+      }
+    },
+    "rce-seismologist-williams": {
+      "name": "Seismologist Williams",
+      "appearances": [13, 19, 25, 31, 37, 43, 49, 55],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "RCE seismologist monitoring ground stability and geological activity on Ilus.",
+          "role": "RCE Seismologist",
+          "relationships": {
+            "Monitoring": "Seismic Activity",
+            "Data": "Ground Stability"
+          }
+        }
+      }
+    },
+    "colonial-botanist-assistant-murphy": {
+      "name": "Botanist Assistant Murphy",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial assistant helping Lucia Merton with agricultural research and crop management.",
+          "role": "Colonial Botanist Assistant",
+          "relationships": {
+            "Supervisor": "Lucia Merton",
+            "Focus": "Crop Research"
+          }
+        }
+      }
+    },
+    "rce-maintenance-chief-robinson": {
+      "name": "Maintenance Chief Robinson",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "RCE maintenance chief overseeing equipment repairs and facility upkeep.",
+          "role": "RCE Maintenance Chief",
+          "relationships": {
+            "Responsibility": "Equipment Maintenance",
+            "Facility": "Base Operations"
+          }
+        }
+      }
+    },
+    "colonial-medical-assistant-lee": {
+      "name": "Medical Assistant Lee",
+      "appearances": [12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Colonial medical assistant helping Dr. Kim with patient care and medical procedures.",
+          "role": "Colonial Medical Assistant",
+          "relationships": {
+            "Supervisor": "Dr. Kim",
+            "Duty": "Patient Care"
+          }
+        }
+      }
+    },
+    "rce-computer-specialist-baker": {
+      "name": "Computer Specialist Baker",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE computer specialist managing data processing and communication systems.",
+          "role": "RCE Computer Specialist",
+          "relationships": {
+            "Systems": "Data Processing",
+            "Network": "Communication Systems"
+          }
+        }
+      }
+    },
+    "colonial-security-patrol-smith": {
+      "name": "Security Patrol Smith",
+      "appearances": [11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Colonial security patrol member working under Torres to protect settlement perimeter.",
+          "role": "Colonial Security Patrol",
+          "relationships": {
+            "Chief": "Torres",
+            "Duty": "Perimeter Security"
+          }
+        }
+      }
+    },
+    "colonial-security-patrol-johnson": {
+      "name": "Security Patrol Johnson",
+      "appearances": [11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Colonial security officer patrolling settlement boundaries and monitoring threats.",
+          "role": "Colonial Security Patrol",
+          "relationships": {
+            "Partner": "Smith",
+            "Chief": "Torres"
+          }
+        }
+      }
+    },
+    "rce-laboratory-technician-wilson": {
+      "name": "Laboratory Technician Wilson",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE laboratory technician processing samples and conducting analysis for the scientific team.",
+          "role": "RCE Laboratory Technician",
+          "relationships": {
+            "Team": "Scientific Research",
+            "Function": "Sample Analysis"
+          }
+        }
+      }
+    },
+    "colonial-toolmaker-evans": {
+      "name": "Toolmaker Evans",
+      "appearances": [8, 14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Colonial craftsman creating and repairing tools essential for settlement survival.",
+          "role": "Colonial Toolmaker",
+          "relationships": {
+            "Community": "First Landing Colony",
+            "Service": "Tool Manufacturing"
+          }
+        }
+      }
+    },
+    "rce-inventory-manager-cooper": {
+      "name": "Inventory Manager Cooper",
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "RCE inventory manager tracking supplies, equipment, and resource consumption.",
+          "role": "RCE Inventory Manager",
+          "relationships": {
+            "Logistics": "Supply Tracking",
+            "Reports to": "Quartermaster Lee"
+          }
+        }
+      }
+    },
+    "colonial-librarian-foster": {
+      "name": "Librarian Foster",
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Colonial librarian maintaining educational resources and historical records for the settlement.",
+          "role": "Colonial Librarian",
+          "relationships": {
+            "Resource": "Educational Materials",
+            "Students": "Colonial Children"
+          }
+        }
+      }
+    },
+    "rce-fuel-technician-gray": {
+      "name": "Fuel Technician Gray",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "RCE fuel technician managing propellant storage and distribution for vehicles and equipment.",
+          "role": "RCE Fuel Technician",
+          "relationships": {
+            "Resource": "Fuel Management",
+            "Equipment": "Vehicle Maintenance"
+          }
+        }
+      }
+    },
+    "colonial-veterinarian-hill": {
+      "name": "Veterinarian Hill",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial veterinarian caring for livestock and monitoring animal health in the settlement.",
+          "role": "Colonial Veterinarian",
+          "relationships": {
+            "Animals": "Settlement Livestock",
+            "Health": "Animal Care"
+          }
+        }
+      }
+    },
+    "rce-quality-control-inspector-martin": {
+      "name": "Quality Inspector Martin",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE quality control inspector ensuring mining operations meet corporate standards.",
+          "role": "RCE Quality Inspector",
+          "relationships": {
+            "Standards": "Corporate Quality Control",
+            "Operations": "Mining Oversight"
+          }
+        }
+      }
+    },
+    "colonial-textile-worker-cross": {
+      "name": "Textile Worker Cross",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial worker producing clothing and fabric goods for the settlement population.",
+          "role": "Colonial Textile Worker",
+          "relationships": {
+            "Production": "Clothing Manufacturing",
+            "Community": "First Landing Colony"
+          }
+        }
+      }
+    },
+    "rce-waste-management-coordinator-bell": {
+      "name": "Waste Coordinator Bell",
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "RCE waste management coordinator handling disposal and recycling of expedition materials.",
+          "role": "RCE Waste Coordinator",
+          "relationships": {
+            "Function": "Waste Processing",
+            "Environmental": "Site Cleanup"
+          }
+        }
+      }
+    },
+    "colonial-fisherman-wood": {
+      "name": "Fisherman Wood",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial fisherman providing protein from Ilus water sources for the settlement's diet.",
+          "role": "Colonial Fisherman",
+          "relationships": {
+            "Resource": "Aquatic Protein",
+            "Location": "Ilus Water Bodies"
+          }
+        }
+      }
+    },
+    "rce-radiation-safety-officer-king": {
+      "name": "Radiation Safety Officer King",
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE radiation safety officer monitoring exposure levels and protecting personnel from hazardous materials.",
+          "role": "RCE Radiation Safety Officer",
+          "relationships": {
+            "Monitoring": "Radiation Exposure",
+            "Protection": "Personnel Safety"
+          }
+        }
+      }
+    },
+    "colonial-food-storage-manager-scott": {
+      "name": "Food Storage Manager Scott",
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Colonial manager overseeing food preservation and distribution systems for the settlement.",
+          "role": "Colonial Food Manager",
+          "relationships": {
+            "Resource": "Food Storage",
+            "Distribution": "Settlement Rationing"
+          }
+        }
+      }
+    },
+    "rce-night-shift-supervisor-young": {
+      "name": "Night Shift Supervisor Young",
+      "appearances": [12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "RCE night shift supervisor coordinating operations during Ilus nighttime hours.",
+          "role": "RCE Night Supervisor",
+          "relationships": {
+            "Schedule": "Night Operations",
+            "Coordination": "24-hour Coverage"
+          }
+        }
+      }
     }
   },
   "recaps": {

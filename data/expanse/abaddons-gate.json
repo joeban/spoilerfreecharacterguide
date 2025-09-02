@@ -311,6 +311,1206 @@
           }
         }
       }
+    },
+    "thomas-prince-science-officer-chen": {
+      "name": "Science Officer Chen",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Lead science officer aboard the Thomas Prince, responsible for analyzing Ring data and coordinating scientific research.",
+          "role": "Thomas Prince Science Officer",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Captain": "Jakande"
+          }
+        }
+      }
+    },
+    "thomas-prince-comm-officer-martinez": {
+      "name": "Comm Officer Martinez",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Communications officer managing fleet coordination and diplomatic channels aboard the Thomas Prince.",
+          "role": "Thomas Prince Communications",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Admiral": "Nguyễn"
+          }
+        }
+      }
+    },
+    "thomas-prince-security-chief-okafor": {
+      "name": "Security Chief Okafor",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Head of security aboard the Thomas Prince, managing ship defense and diplomatic protection protocols.",
+          "role": "Thomas Prince Security Chief",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Protects": "Religious delegation"
+          }
+        }
+      }
+    },
+    "thomas-prince-marine-captain-torres": {
+      "name": "Marine Captain Torres",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "UN Marine captain commanding the military contingent aboard the Thomas Prince.",
+          "role": "UN Marine Captain",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Service": "UN Marines"
+          }
+        }
+      }
+    },
+    "thomas-prince-medical-officer-kim": {
+      "name": "Medical Officer Kim",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Chief medical officer aboard the Thomas Prince, providing healthcare for crew and delegation members.",
+          "role": "Thomas Prince Medical Officer",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Patients": "Religious delegation"
+          }
+        }
+      }
+    },
+    "thomas-prince-engineer-nakamura": {
+      "name": "Engineer Nakamura",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Chief engineer aboard the Thomas Prince, maintaining ship systems during the Ring expedition.",
+          "role": "Thomas Prince Chief Engineer",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Captain": "Jakande"
+          }
+        }
+      }
+    },
+    "rabbi-davila": {
+      "name": "Rabbi Davila",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Jewish rabbi serving as part of the interfaith religious delegation aboard the Thomas Prince.",
+          "role": "Rabbi",
+          "relationships": {
+            "Colleague": "Anna Volovodov",
+            "Part of": "Religious delegation"
+          }
+        }
+      }
+    },
+    "imam-rashid": {
+      "name": "Imam Rashid",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Muslim imam representing Islamic faith in the interfaith delegation aboard the Thomas Prince.",
+          "role": "Imam",
+          "relationships": {
+            "Colleague": "Anna Volovodov",
+            "Part of": "Religious delegation"
+          }
+        }
+      }
+    },
+    "buddhist-monk-chen": {
+      "name": "Monk Chen",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Buddhist monk participating in the interfaith religious delegation studying the Ring's implications.",
+          "role": "Buddhist Monk",
+          "relationships": {
+            "Colleague": "Anna Volovodov",
+            "Part of": "Religious delegation"
+          }
+        }
+      }
+    },
+    "hindu-priest-sharma": {
+      "name": "Priest Sharma",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Hindu priest serving in the religious delegation, providing spiritual perspective on the Ring encounter.",
+          "role": "Hindu Priest",
+          "relationships": {
+            "Colleague": "Anna Volovodov",
+            "Part of": "Religious delegation"
+          }
+        }
+      }
+    },
+    "behemoth-security-officer-vargas": {
+      "name": "Security Officer Vargas",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Security officer serving under Bull aboard the massive Behemoth, helping maintain order on the converted generation ship.",
+          "role": "Behemoth Security Officer",
+          "relationships": {
+            "Boss": "Bull",
+            "Ship": "Behemoth"
+          }
+        }
+      }
+    },
+    "behemoth-security-officer-gutmansdottir": {
+      "name": "Security Officer Gutmansdottir",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Belter security officer working under Bull to manage the diverse crew and factions aboard the Behemoth.",
+          "role": "Behemoth Security Officer",
+          "relationships": {
+            "Boss": "Bull",
+            "Ship": "Behemoth"
+          }
+        }
+      }
+    },
+    "behemoth-engineer-koenen": {
+      "name": "Engineer Koenen",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Engineering technician working under Sam Rosenberg to maintain the Behemoth's complex converted systems.",
+          "role": "Behemoth Engineer",
+          "relationships": {
+            "Boss": "Sam Rosenberg",
+            "Ship": "Behemoth"
+          }
+        }
+      }
+    },
+    "behemoth-medical-officer-casillas": {
+      "name": "Medical Officer Casillas",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Chief medical officer aboard the Behemoth, managing healthcare for the ship's large and diverse crew.",
+          "role": "Behemoth Medical Officer",
+          "relationships": {
+            "Ship": "Behemoth",
+            "Captain": "Ashford"
+          }
+        }
+      }
+    },
+    "behemoth-comm-officer-stanton": {
+      "name": "Comm Officer Stanton",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Communications officer managing the Behemoth's complex communication needs with the fleet and Belt stations.",
+          "role": "Behemoth Communications Officer",
+          "relationships": {
+            "Ship": "Behemoth",
+            "Captain": "Ashford"
+          }
+        }
+      }
+    },
+    "behemoth-pilot-serge": {
+      "name": "Pilot Serge",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Senior pilot responsible for maneuvering the massive Behemoth and coordinating with fleet traffic control.",
+          "role": "Behemoth Senior Pilot",
+          "relationships": {
+            "Ship": "Behemoth",
+            "XO": "Michio Pa"
+          }
+        }
+      }
+    },
+    "cerisier-captain-massa": {
+      "name": "Captain Massa",
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Captain of the ship Cerisier where Clarissa 'Melba' Mao works as an engineer under her false identity.",
+          "role": "Cerisier Captain",
+          "relationships": {
+            "Ship": "Cerisier",
+            "Engineer": "Melba Koh (Clarissa)"
+          }
+        }
+      }
+    },
+    "cerisier-crew-ren": {
+      "name": "Ren",
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Crew member aboard the Cerisier who becomes romantically involved with Clarissa 'Melba' Mao, unaware of her true identity.",
+          "role": "Cerisier Crew Member",
+          "relationships": {
+            "Ship": "Cerisier",
+            "Romantic Interest": "Melba Koh (Clarissa)"
+          }
+        }
+      }
+    },
+    "cerisier-engineer-singh": {
+      "name": "Engineer Singh",
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Chief engineer aboard the Cerisier who works alongside Clarissa 'Melba' Mao in the engineering department.",
+          "role": "Cerisier Chief Engineer",
+          "relationships": {
+            "Ship": "Cerisier",
+            "Subordinate": "Melba Koh (Clarissa)"
+          }
+        }
+      }
+    },
+    "cerisier-medical-officer-reeve": {
+      "name": "Medical Officer Reeve",
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Medical officer aboard the Cerisier providing healthcare for the crew during the Ring expedition.",
+          "role": "Cerisier Medical Officer",
+          "relationships": {
+            "Ship": "Cerisier",
+            "Patient": "Melba Koh (Clarissa)"
+          }
+        }
+      }
+    },
+    "mars-fleet-commander-hollis": {
+      "name": "Fleet Commander Hollis",
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN fleet commander coordinating Mars military operations at the Ring alongside Earth and Belt forces.",
+          "role": "MCRN Fleet Commander",
+          "relationships": {
+            "Service": "Mars Congressional Republic Navy",
+            "Mission": "Ring Investigation"
+          }
+        }
+      }
+    },
+    "mars-battleship-captain-anderton": {
+      "name": "Captain Anderton",
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN battleship captain serving under Fleet Commander Hollis in the Martian fleet at the Ring.",
+          "role": "MCRN Battleship Captain",
+          "relationships": {
+            "Fleet Commander": "Hollis",
+            "Service": "MCRN"
+          }
+        }
+      }
+    },
+    "mars-science-officer-vega": {
+      "name": "Science Officer Vega",
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN science officer analyzing Ring data and coordinating Mars research efforts.",
+          "role": "MCRN Science Officer",
+          "relationships": {
+            "Fleet": "Mars Congressional Republic Navy",
+            "Research": "Ring Analysis"
+          }
+        }
+      }
+    },
+    "belt-transport-captain-yuan": {
+      "name": "Transport Captain Yuan",
+      "appearances": [6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Belt transport ship captain bringing supplies and personnel to the Ring expedition.",
+          "role": "Belt Transport Captain",
+          "relationships": {
+            "Faction": "Outer Planets Alliance",
+            "Mission": "Supply Run"
+          }
+        }
+      }
+    },
+    "belt-mining-ship-captain-volkov": {
+      "name": "Mining Captain Volkov",
+      "appearances": [6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Belt mining ship captain who joined the expedition hoping to claim resources from the Ring.",
+          "role": "Belt Mining Captain",
+          "relationships": {
+            "Faction": "Independent Belt Miner",
+            "Goal": "Resource Claims"
+          }
+        }
+      }
+    },
+    "un-diplomatic-aide-harrison": {
+      "name": "Diplomatic Aide Harrison",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "UN diplomatic aide aboard the Thomas Prince, assisting with inter-faction negotiations.",
+          "role": "UN Diplomatic Aide",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Admiral": "Nguyễn"
+          }
+        }
+      }
+    },
+    "un-fleet-intelligence-officer-brass": {
+      "name": "Intelligence Officer Brass",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "UN intelligence officer gathering information on Belt and Mars activities at the Ring.",
+          "role": "UN Intelligence Officer",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Mission": "Intelligence Gathering"
+          }
+        }
+      }
+    },
+    "independent-journalist-silva": {
+      "name": "Journalist Silva",
+      "appearances": [8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Independent journalist covering the Ring expedition, competing with Monica Stuart's documentary crew.",
+          "role": "Independent Journalist",
+          "relationships": {
+            "Competition": "Monica Stuart",
+            "Story": "Ring Expedition"
+          }
+        }
+      }
+    },
+    "belt-opa-political-officer-watanabe": {
+      "name": "Political Officer Watanabe",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "OPA political officer aboard the Behemoth, monitoring faction interests and Belt political objectives.",
+          "role": "OPA Political Officer",
+          "relationships": {
+            "Ship": "Behemoth",
+            "Reports to": "Drummer"
+          }
+        }
+      }
+    },
+    "research-ship-captain-okonkwo": {
+      "name": "Research Captain Okonkwo",
+      "appearances": [12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Captain of an independent research vessel studying the Ring's properties and alien technology.",
+          "role": "Research Ship Captain",
+          "relationships": {
+            "Mission": "Ring Research",
+            "Affiliation": "Independent Scientific Consortium"
+          }
+        }
+      }
+    },
+    "civilian-evacuation-coordinator-hendricks": {
+      "name": "Coordinator Hendricks",
+      "appearances": [35, 39, 43, 47, 51, 53],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Civilian evacuation coordinator managing emergency protocols as the Ring situation escalates.",
+          "role": "Evacuation Coordinator",
+          "relationships": {
+            "Mission": "Civilian Safety",
+            "Works with": "All Three Fleets"
+          }
+        }
+      }
+    },
+    "fleet-traffic-controller-nkomo": {
+      "name": "Traffic Controller Nkomo",
+      "appearances": [8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Fleet traffic control officer managing the complex coordination of hundreds of ships around the Ring.",
+          "role": "Fleet Traffic Controller",
+          "relationships": {
+            "Works with": "All Three Fleets",
+            "Mission": "Ship Coordination"
+          }
+        }
+      }
+    },
+    "ring-station-security-chief-lopez": {
+      "name": "Security Chief Lopez",
+      "appearances": [40, 44, 48, 52, 53],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Security chief managing protection and order within the Ring Station after it becomes accessible.",
+          "role": "Ring Station Security Chief",
+          "relationships": {
+            "Station": "Ring Station",
+            "Mission": "Station Security"
+          }
+        }
+      }
+    },
+    "ring-station-scientist-patel": {
+      "name": "Scientist Patel",
+      "appearances": [40, 44, 48, 52, 53],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Lead scientist studying the Ring Station's alien technology and interface systems.",
+          "role": "Ring Station Lead Scientist",
+          "relationships": {
+            "Station": "Ring Station",
+            "Research": "Alien Technology"
+          }
+        }
+      }
+    },
+    "ring-station-engineer-kozlov": {
+      "name": "Engineer Kozlov",
+      "appearances": [40, 44, 48, 52, 53],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Chief engineer working to understand and maintain the Ring Station's alien systems.",
+          "role": "Ring Station Chief Engineer",
+          "relationships": {
+            "Station": "Ring Station",
+            "Mission": "Systems Analysis"
+          }
+        }
+      }
+    },
+    "ring-station-medical-officer-tanaka": {
+      "name": "Medical Officer Tanaka",
+      "appearances": [40, 44, 48, 52, 53],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Medical officer providing healthcare for personnel working within the Ring Station.",
+          "role": "Ring Station Medical Officer",
+          "relationships": {
+            "Station": "Ring Station",
+            "Patients": "Station Personnel"
+          }
+        }
+      }
+    },
+    "thomas-prince-tactical-officer-wright": {
+      "name": "Tactical Officer Wright",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Tactical officer aboard the Thomas Prince managing weapons systems and threat assessment.",
+          "role": "Thomas Prince Tactical Officer",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Admiral": "Nguyễn"
+          }
+        }
+      }
+    },
+    "thomas-prince-navigator-chen": {
+      "name": "Navigator Chen",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Navigation officer aboard the Thomas Prince responsible for ship positioning and fleet coordination.",
+          "role": "Thomas Prince Navigator",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Captain": "Jakande"
+          }
+        }
+      }
+    },
+    "behemoth-deck-supervisor-okafor": {
+      "name": "Deck Supervisor Okafor",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Deck supervisor aboard the massive Behemoth, overseeing cargo operations and deck crew activities.",
+          "role": "Behemoth Deck Supervisor",
+          "relationships": {
+            "Ship": "Behemoth",
+            "Department": "Deck Operations"
+          }
+        }
+      }
+    },
+    "behemoth-quartermaster-rodriguez": {
+      "name": "Quartermaster Rodriguez",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Quartermaster managing supplies and logistics for the Behemoth's large crew and extended mission.",
+          "role": "Behemoth Quartermaster",
+          "relationships": {
+            "Ship": "Behemoth",
+            "Reports to": "Captain Ashford"
+          }
+        }
+      }
+    },
+    "belt-militia-captain-garcia": {
+      "name": "Militia Captain Garcia",
+      "appearances": [6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Belt militia captain commanding one of the smaller armed vessels in the OPA fleet at the Ring.",
+          "role": "Belt Militia Captain",
+          "relationships": {
+            "Faction": "Outer Planets Alliance",
+            "Fleet": "Belt Military"
+          }
+        }
+      }
+    },
+    "scientific-consortium-leader-kim": {
+      "name": "Consortium Leader Kim",
+      "appearances": [12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Leader of the independent scientific consortium studying the Ring and coordinating research efforts.",
+          "role": "Scientific Consortium Leader",
+          "relationships": {
+            "Organization": "Independent Scientific Consortium",
+            "Mission": "Ring Research"
+          }
+        }
+      }
+    },
+    "mars-marine-sergeant-hill": {
+      "name": "Marine Sergeant Hill",
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN Marine sergeant serving aboard one of the Mars battleships in the fleet at the Ring.",
+          "role": "MCRN Marine Sergeant",
+          "relationships": {
+            "Service": "Mars Congressional Republic Navy Marines",
+            "Fleet": "Mars Naval Forces"
+          }
+        }
+      }
+    },
+    "freelance-salvage-captain-singh": {
+      "name": "Salvage Captain Singh",
+      "appearances": [14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Freelance salvage ship captain hoping to claim valuable technology from the Ring expedition.",
+          "role": "Salvage Captain",
+          "relationships": {
+            "Ship Type": "Independent Salvage Vessel",
+            "Goal": "Technology Recovery"
+          }
+        }
+      }
+    },
+    "thomas-prince-marine-corporal-jackson": {
+      "name": "Marine Corporal Jackson",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "UN Marine corporal serving aboard the Thomas Prince as part of the ship's security detail.",
+          "role": "UN Marine Corporal",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Commander": "Marine Captain Torres"
+          }
+        }
+      }
+    },
+    "thomas-prince-marine-private-lee": {
+      "name": "Marine Private Lee",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "UN Marine private providing security and protection services aboard the Thomas Prince.",
+          "role": "UN Marine Private",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Service": "UN Marines"
+          }
+        }
+      }
+    },
+    "thomas-prince-quartermaster-davis": {
+      "name": "Quartermaster Davis",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Supply officer managing logistics and provisions for the Thomas Prince's extended mission.",
+          "role": "Thomas Prince Quartermaster",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Captain": "Jakande"
+          }
+        }
+      }
+    },
+    "behemoth-hydroponics-tech-miller": {
+      "name": "Hydroponics Tech Miller",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Hydroponics technician maintaining food production systems on the converted generation ship Behemoth.",
+          "role": "Behemoth Hydroponics Technician",
+          "relationships": {
+            "Ship": "Behemoth",
+            "System": "Food Production"
+          }
+        }
+      }
+    },
+    "behemoth-water-recycling-engineer-thompson": {
+      "name": "Water Engineer Thompson",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Water recycling engineer essential for maintaining life support on the massive Behemoth.",
+          "role": "Behemoth Water Engineer",
+          "relationships": {
+            "Ship": "Behemoth",
+            "Boss": "Sam Rosenberg"
+          }
+        }
+      }
+    },
+    "behemoth-air-recycling-tech-santos": {
+      "name": "Air Tech Santos",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Air recycling technician managing atmospheric systems critical for the Behemoth's large population.",
+          "role": "Behemoth Air Tech",
+          "relationships": {
+            "Ship": "Behemoth",
+            "System": "Atmospheric Control"
+          }
+        }
+      }
+    },
+    "behemoth-reactor-engineer-petrov": {
+      "name": "Reactor Engineer Petrov",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Nuclear reactor engineer responsible for the Behemoth's power systems and propulsion.",
+          "role": "Behemoth Reactor Engineer",
+          "relationships": {
+            "Ship": "Behemoth",
+            "Boss": "Sam Rosenberg"
+          }
+        }
+      }
+    },
+    "cerisier-pilot-nakamura": {
+      "name": "Pilot Nakamura",
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Primary pilot of the Cerisier, responsible for ship navigation and maneuvering during the Ring expedition.",
+          "role": "Cerisier Pilot",
+          "relationships": {
+            "Ship": "Cerisier",
+            "Captain": "Massa"
+          }
+        }
+      }
+    },
+    "cerisier-comm-tech-brown": {
+      "name": "Comm Tech Brown",
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Communications technician aboard the Cerisier managing ship-to-fleet communications.",
+          "role": "Cerisier Communications Tech",
+          "relationships": {
+            "Ship": "Cerisier",
+            "Works with": "Melba Koh (Clarissa)"
+          }
+        }
+      }
+    },
+    "cerisier-security-officer-walsh": {
+      "name": "Security Officer Walsh",
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Security officer aboard the Cerisier responsible for ship safety and crew protection.",
+          "role": "Cerisier Security Officer",
+          "relationships": {
+            "Ship": "Cerisier",
+            "Captain": "Massa"
+          }
+        }
+      }
+    },
+    "mars-destroyer-captain-taylor": {
+      "name": "Destroyer Captain Taylor",
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN destroyer captain serving in the Mars fleet at the Ring, specializing in fast attack operations.",
+          "role": "MCRN Destroyer Captain",
+          "relationships": {
+            "Fleet Commander": "Hollis",
+            "Service": "MCRN"
+          }
+        }
+      }
+    },
+    "mars-frigate-commander-zhao": {
+      "name": "Frigate Commander Zhao",
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "MCRN frigate commander leading escort operations for the Mars fleet at the Ring.",
+          "role": "MCRN Frigate Commander",
+          "relationships": {
+            "Fleet": "Mars Congressional Republic Navy",
+            "Mission": "Fleet Escort"
+          }
+        }
+      }
+    },
+    "belt-cargo-hauler-captain-okafor": {
+      "name": "Hauler Captain Okafor",
+      "appearances": [6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Belt cargo hauler captain transporting supplies and equipment to support the Ring expedition.",
+          "role": "Belt Cargo Captain",
+          "relationships": {
+            "Faction": "Belt Alliance",
+            "Mission": "Supply Transport"
+          }
+        }
+      }
+    },
+    "belt-prospector-captain-martinez": {
+      "name": "Prospector Martinez",
+      "appearances": [6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Independent Belt prospector hoping to discover valuable resources related to the Ring technology.",
+          "role": "Belt Prospector",
+          "relationships": {
+            "Goal": "Resource Discovery",
+            "Ship Type": "Mining Prospector"
+          }
+        }
+      }
+    },
+    "sikh-religious-delegate-singh": {
+      "name": "Delegate Singh",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Sikh religious delegate representing the Sikh faith in the interfaith council aboard the Thomas Prince.",
+          "role": "Sikh Delegate",
+          "relationships": {
+            "Colleague": "Anna Volovodov",
+            "Part of": "Religious delegation"
+          }
+        }
+      }
+    },
+    "orthodox-priest-petrov": {
+      "name": "Priest Petrov",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Russian Orthodox priest participating in the religious delegation's study of the Ring's implications.",
+          "role": "Orthodox Priest",
+          "relationships": {
+            "Colleague": "Anna Volovodov",
+            "Part of": "Religious delegation"
+          }
+        }
+      }
+    },
+    "protestant-minister-johnson": {
+      "name": "Minister Johnson",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Protestant minister serving alongside other religious leaders in the interfaith delegation.",
+          "role": "Protestant Minister",
+          "relationships": {
+            "Colleague": "Anna Volovodov",
+            "Part of": "Religious delegation"
+          }
+        }
+      }
+    },
+    "documentary-editor-wilson": {
+      "name": "Editor Wilson",
+      "appearances": [1, 5, 8, 12, 15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 51],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Video editor working with Monica Stuart's documentary crew to process footage of the Ring expedition.",
+          "role": "Documentary Editor",
+          "relationships": {
+            "Boss": "Monica Stuart",
+            "Crew": "Cohen, Okju, Clip"
+          }
+        }
+      }
+    },
+    "documentary-assistant-park": {
+      "name": "Assistant Park",
+      "appearances": [1, 5, 8, 12, 15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 51],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Production assistant helping Monica Stuart's documentary crew coordinate their historic coverage.",
+          "role": "Production Assistant",
+          "relationships": {
+            "Boss": "Monica Stuart",
+            "Team": "Documentary Crew"
+          }
+        }
+      }
+    },
+    "medical-research-team-leader-chen": {
+      "name": "Dr. Chen (Medical Research)",
+      "appearances": [16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Medical research team leader studying the biological effects of Ring exposure on human physiology.",
+          "role": "Medical Research Leader",
+          "relationships": {
+            "Research": "Ring Biological Effects",
+            "Team": "Multi-faction Medical Consortium"
+          }
+        }
+      }
+    },
+    "physics-research-team-leader-okafor": {
+      "name": "Dr. Okafor (Physics)",
+      "appearances": [16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Physics research team leader analyzing the Ring's exotic matter and space-time effects.",
+          "role": "Physics Research Leader",
+          "relationships": {
+            "Research": "Ring Physics",
+            "Collaboration": "Multi-faction Science Team"
+          }
+        }
+      }
+    },
+    "xenobiology-expert-hassan": {
+      "name": "Dr. Hassan",
+      "appearances": [20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Xenobiology expert studying the Ring's alien technology and its relationship to the protomolecule.",
+          "role": "Xenobiology Expert",
+          "relationships": {
+            "Research": "Alien Technology",
+            "Specialty": "Protomolecule Studies"
+          }
+        }
+      }
+    },
+    "engineering-specialist-volkov": {
+      "name": "Engineer Volkov",
+      "appearances": [20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Engineering specialist analyzing Ring construction methods and alien engineering principles.",
+          "role": "Alien Engineering Analyst",
+          "relationships": {
+            "Research": "Ring Engineering",
+            "Focus": "Construction Analysis"
+          }
+        }
+      }
+    },
+    "fleet-chaplain-davies": {
+      "name": "Chaplain Davies",
+      "appearances": [8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Fleet chaplain providing spiritual support to military personnel across the multi-faction fleet.",
+          "role": "Fleet Chaplain",
+          "relationships": {
+            "Service": "Multi-faction Fleet",
+            "Mission": "Spiritual Support"
+          }
+        }
+      }
+    },
+    "civilian-representative-thompson": {
+      "name": "Representative Thompson",
+      "appearances": [12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Civilian representative advocating for non-military interests in Ring expedition decisions.",
+          "role": "Civilian Representative",
+          "relationships": {
+            "Represents": "Civilian Interests",
+            "Works with": "All Three Fleets"
+          }
+        }
+      }
+    },
+    "rocinante-guest-researcher-klein": {
+      "name": "Researcher Klein",
+      "appearances": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Independent researcher who joins the Rocinante crew temporarily to study Ring phenomena.",
+          "role": "Guest Researcher",
+          "relationships": {
+            "Ship": "Rocinante",
+            "Research": "Ring Studies"
+          }
+        }
+      }
+    },
+    "commercial-vessel-captain-okafor": {
+      "name": "Commercial Captain Okafor",
+      "appearances": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Captain of a commercial vessel hoping to establish trade opportunities related to Ring technology.",
+          "role": "Commercial Vessel Captain",
+          "relationships": {
+            "Goal": "Trade Opportunities",
+            "Affiliation": "Independent Commercial"
+          }
+        }
+      }
+    },
+    "asteroid-miner-captain-silva": {
+      "name": "Miner Captain Silva",
+      "appearances": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Asteroid mining captain hoping the Ring will provide access to new mineral resources.",
+          "role": "Asteroid Miner Captain",
+          "relationships": {
+            "Industry": "Asteroid Mining",
+            "Goal": "Resource Access"
+          }
+        }
+      }
+    },
+    "transport-pilot-nakamura": {
+      "name": "Transport Pilot Nakamura",
+      "appearances": [14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Independent transport pilot providing shuttle services between ships in the massive fleet.",
+          "role": "Transport Pilot",
+          "relationships": {
+            "Service": "Inter-ship Transport",
+            "Clients": "Fleet Personnel"
+          }
+        }
+      }
+    },
+    "medical-evacuation-pilot-garcia": {
+      "name": "Medevac Pilot Garcia",
+      "appearances": [24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Medical evacuation pilot providing emergency transport services across the fleet.",
+          "role": "Medical Evacuation Pilot",
+          "relationships": {
+            "Service": "Emergency Medical Transport",
+            "Works with": "Fleet Medical Teams"
+          }
+        }
+      }
+    },
+    "security-contractor-martinez": {
+      "name": "Contractor Martinez",
+      "appearances": [18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Private security contractor providing protection services for civilian vessels in the fleet.",
+          "role": "Security Contractor",
+          "relationships": {
+            "Service": "Private Security",
+            "Clients": "Civilian Vessels"
+          }
+        }
+      }
+    },
+    "freelance-engineer-chan": {
+      "name": "Engineer Chan",
+      "appearances": [22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Freelance engineer offering technical services and repairs to ships throughout the fleet.",
+          "role": "Freelance Engineer",
+          "relationships": {
+            "Service": "Technical Support",
+            "Clients": "Multiple Ships"
+          }
+        }
+      }
+    },
+    "communications-relay-operator-wong": {
+      "name": "Relay Operator Wong",
+      "appearances": [16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Communications relay operator managing signal routing between the hundreds of ships in the fleet.",
+          "role": "Communications Relay Operator",
+          "relationships": {
+            "Service": "Fleet Communications",
+            "Network": "Multi-faction Communication Grid"
+          }
+        }
+      }
+    },
+    "supply-coordinator-patel": {
+      "name": "Supply Coordinator Patel",
+      "appearances": [18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Supply chain coordinator managing resource distribution across the massive multi-faction fleet.",
+          "role": "Supply Coordinator",
+          "relationships": {
+            "Service": "Fleet Logistics",
+            "Coordinates with": "All Three Factions"
+          }
+        }
+      }
+    },
+    "navigation-specialist-kim": {
+      "name": "Navigation Specialist Kim",
+      "appearances": [12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Navigation specialist helping coordinate fleet positioning and movement around the Ring structure.",
+          "role": "Fleet Navigation Specialist",
+          "relationships": {
+            "Service": "Fleet Navigation",
+            "Works with": "Traffic Control"
+          }
+        }
+      }
+    },
+    "damage-control-team-leader-torres": {
+      "name": "DC Team Leader Torres",
+      "appearances": [30, 34, 38, 42, 46, 50, 52, 53],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Damage control team leader coordinating emergency repairs across multiple ships during crisis events.",
+          "role": "Damage Control Leader",
+          "relationships": {
+            "Service": "Emergency Repairs",
+            "Coordinates with": "Multiple Ship Crews"
+          }
+        }
+      }
     }
   },
   "recaps": {
