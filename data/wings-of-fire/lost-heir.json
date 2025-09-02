@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "title": "The Lost Heir",
+    "author": "Tui T. Sutherland",
+    "chapters": 27,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "tsunami": {
+      "name": "Tsunami",
+      "aliases": ["Princess Tsunami", "The Lost Heir", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A fierce blue SeaWing princess who has just returned to her mother's kingdom after years of captivity. Struggles to adapt to royal life while maintaining her bonds with her fellow dragonets.",
+          "role": "SeaWing Princess and Dragonet of Destiny",
+          "relationships": {
+            "Queen Coral": "Mother and queen",
+            "Clay": "Fellow dragonet and close friend",
+            "Glory": "Fellow dragonet",
+            "Starflight": "Fellow dragonet",
+            "Sunny": "Fellow dragonet"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Learns to use Aquatic, the underwater light language of SeaWings, allowing her to communicate properly with her mother and other SeaWings for the first time.",
+          "role": "SeaWing Princess Learning Her Heritage",
+          "relationships": {
+            "Anemone": "Younger sister she's protective of",
+            "Riptide": "SeaWing guard she's attracted to"
+          }
+        }
+      }
+    },
+    "clay": {
+      "name": "Clay",
+      "aliases": ["The MudWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The kind-hearted brown MudWing continues his journey with the dragonets of destiny. His fireproof scales proved crucial in their escape from Queen Scarlet.",
+          "role": "Loyal Friend and Protector",
+          "relationships": {
+            "Tsunami": "Fellow dragonet and close friend",
+            "Peril": "Dangerous friend from the SkyWing arena"
+          }
+        }
+      }
+    },
+    "glory": {
+      "name": "Glory",
+      "aliases": ["The RainWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The sarcastic RainWing with deadly venom continues her journey with the dragonets. Her quick thinking and lethal abilities helped them escape Queen Scarlet's palace.",
+          "role": "Deadly Protector with Sharp Wit",
+          "relationships": {
+            "Tsunami": "Fellow dragonet",
+            "Jambu": "RainWing who might be her brother"
+          }
+        }
+      }
+    },
+    "starflight": {
+      "name": "Starflight",
+      "aliases": ["The NightWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The anxious black NightWing scholar continues to provide knowledge and worry in equal measure. Still struggles with his lack of traditional NightWing powers.",
+          "role": "Scholar and Anxious Strategist",
+          "relationships": {
+            "Tsunami": "Fellow dragonet he cares for deeply",
+            "Morrowseer": "NightWing elder who intimidates him"
+          }
+        }
+      }
+    },
+    "sunny": {
+      "name": "Sunny",
+      "aliases": ["The SandWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The small, optimistic yellow SandWing continues to be the heart of the group. Her unusual appearance and missing tail barb remain mysterious.",
+          "role": "Peacemaker and Group Heart",
+          "relationships": {
+            "Tsunami": "Fellow dragonet and dear friend",
+            "Dune": "Deceased guardian she mourns"
+          }
+        }
+      }
+    },
+    "queen-coral": {
+      "name": "Queen Coral",
+      "aliases": ["The SeaWing Queen", "Tsunami's Mother"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The ruling SeaWing queen and Tsunami's mother. Devastated by the loss of her daughter years ago and overjoyed but overprotective upon her return.",
+          "role": "Protective Mother and Queen",
+          "relationships": {
+            "Tsunami": "Long-lost daughter",
+            "Anemone": "Younger daughter and heir",
+            "Auklet": "Baby daughter",
+            "Gill": "Husband and king"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Reveals she's been writing scrolls about her daughters and the royal family. Extremely protective of her remaining children after losing so many eggs to a mysterious killer.",
+          "role": "Author Queen",
+          "relationships": {
+            "Whirlpool": "Royal tutor and potential suitor",
+            "Blister": "Allied SandWing queen"
+          }
+        }
+      }
+    },
+    "anemone": {
+      "name": "Anemone",
+      "aliases": ["Princess Anemone", "The Animus Princess"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Tsunami's younger sister and the heir to the SeaWing throne. A bright green SeaWing princess who has lived her entire life in the Deep Palace.",
+          "role": "SeaWing Princess and Heir",
+          "relationships": {
+            "Tsunami": "Older sister she's eager to know",
+            "Queen Coral": "Protective mother",
+            "Auklet": "Baby sister"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Revealed to be an animus dragon with powerful magic abilities. This makes her incredibly valuable and dangerous, explaining Queen Coral's extreme protectiveness.",
+          "role": "Animus Dragon Princess",
+          "relationships": {
+            "Whirlpool": "Tutor who wants to control her power",
+            "Tsunami": "Sister who wants to protect her from magic's corruption"
+          }
+        }
+      }
+    },
+    "auklet": {
+      "name": "Auklet",
+      "aliases": ["Princess Auklet", "The Baby Princess"],
+      "appearances": [3, 4, 5, 8, 9, 12, 15, 18, 21, 24, 26],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The youngest SeaWing princess, still a baby. Queen Coral's latest daughter and the apple of her eye, kept under constant guard.",
+          "role": "Baby Princess",
+          "relationships": {
+            "Queen Coral": "Devoted mother",
+            "Tsunami": "Big sister protector",
+            "Anemone": "Sister and playmate"
+          }
+        }
+      }
+    },
+    "gill": {
+      "name": "Gill",
+      "aliases": ["King Gill", "The SeaWing King"],
+      "appearances": [4, 6, 8, 11, 15, 19, 22, 24],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The SeaWing king and Queen Coral's husband. A steady presence in the royal family, though often overshadowed by his queen's strong personality.",
+          "role": "SeaWing King and Father",
+          "relationships": {
+            "Queen Coral": "Queen and wife",
+            "Tsunami": "Daughter he's glad to have home",
+            "Anemone": "Daughter he protects"
+          }
+        }
+      }
+    },
+    "riptide": {
+      "name": "Riptide",
+      "aliases": ["SeaWing Guard", "Talons Member"],
+      "appearances": [1, 2, 4, 6, 7, 9, 12, 15, 18, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young blue SeaWing who was part of the Talons of Peace. Now serves as a guard in Queen Coral's palace and shows interest in Princess Tsunami.",
+          "role": "Palace Guard and Former Talons Member",
+          "relationships": {
+            "Tsunami": "Princess he's attracted to",
+            "Webs": "Uncle and former leader",
+            "Nautilus": "Talons of Peace leader"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Reveals more about his past with the Talons of Peace and his genuine feelings for Tsunami, despite their class differences as princess and guard.",
+          "role": "Love Interest and Loyal Guard",
+          "relationships": {
+            "Tsunami": "Princess he loves",
+            "Queen Coral": "Queen he serves loyally"
+          }
+        }
+      }
+    },
+    "whirlpool": {
+      "name": "Whirlpool",
+      "aliases": ["Royal Tutor", "Court Scholar"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A pompous green SeaWing who serves as royal tutor to the princesses. Overly flattering to Queen Coral and shows inappropriate interest in young Princess Anemone.",
+          "role": "Royal Tutor and Schemer",
+          "relationships": {
+            "Queen Coral": "Queen he flatters constantly",
+            "Anemone": "Student he shows too much interest in",
+            "Tsunami": "Princess who distrusts him"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "His true motives are revealed as he attempts to control Anemone's animus magic for his own gain, showing his manipulative and dangerous nature.",
+          "role": "Magic-Seeking Manipulator",
+          "relationships": {
+            "Anemone": "Animus dragon he wants to control",
+            "Tsunami": "Princess who opposes him"
+          }
+        }
+      }
+    },
+    "shark": {
+      "name": "Shark",
+      "aliases": ["Palace Guard", "Royal Guard"],
+      "appearances": [4, 6, 8, 12, 15, 18, 21, 24],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A large grey SeaWing who serves as one of Queen Coral's palace guards. Strong and loyal but not particularly bright.",
+          "role": "Palace Guard",
+          "relationships": {
+            "Queen Coral": "Queen he protects",
+            "Tsunami": "Princess he guards",
+            "Riptide": "Fellow guard"
+          }
+        }
+      }
+    },
+    "moray": {
+      "name": "Moray",
+      "aliases": ["Council Member"],
+      "appearances": [6, 8, 11, 15, 19, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An elderly SeaWing who serves on Queen Coral's royal council. Wise but sometimes questions the queen's decisions regarding the war.",
+          "role": "Royal Councillor",
+          "relationships": {
+            "Queen Coral": "Queen she advises",
+            "Shark": "Fellow council member"
+          }
+        }
+      }
+    },
+    "lagoon": {
+      "name": "Lagoon",
+      "aliases": ["SeaWing Noble"],
+      "appearances": [7, 11, 15, 19],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A light blue SeaWing noble who frequents Queen Coral's court. Gossipy and interested in royal family drama.",
+          "role": "Court Noble",
+          "relationships": {
+            "Queen Coral": "Queen she serves",
+            "Tsunami": "Princess she's curious about"
+          }
+        }
+      }
+    },
+    "splash": {
+      "name": "Splash",
+      "aliases": ["Young SeaWing"],
+      "appearances": [9, 12, 15, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A young SeaWing dragonet who lives in the Deep Palace. Curious about the returned princess and the dragonets of destiny.",
+          "role": "Young Palace Resident",
+          "relationships": {
+            "Tsunami": "Princess she admires",
+            "Anemone": "Princess she knows"
+          }
+        }
+      }
+    },
+    "blister": {
+      "name": "Blister",
+      "aliases": ["Queen Blister", "The Cunning Sister"],
+      "appearances": [8, 11, 13, 19, 22, 23, 24, 25],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The most intelligent and manipulative of the three SandWing sisters fighting for the throne. Currently allied with Queen Coral and the SeaWings.",
+          "role": "SandWing War Claimant",
+          "relationships": {
+            "Queen Coral": "SeaWing ally",
+            "Burn": "Sister and rival",
+            "Blaze": "Sister and rival",
+            "Tsunami": "Dragonet she wants to use"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Reveals her true ruthless nature and willingness to eliminate anyone who threatens her path to the throne, including the dragonets if necessary.",
+          "role": "Ruthless Manipulator",
+          "relationships": {
+            "Anemone": "Animus dragon she wants to control",
+            "Whirlpool": "Ally in her schemes"
+          }
+        }
+      }
+    },
+    "webs": {
+      "name": "Webs",
+      "aliases": ["Former Guardian", "Talons Member"],
+      "appearances": [1, 2, 6, 12, 18, 26],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The former guardian of the dragonets, now revealed as Tsunami's egg-thief. Struggles with guilt over his past actions while trying to help the dragonets.",
+          "role": "Repentant Guardian",
+          "relationships": {
+            "Tsunami": "Dragonet whose egg he stole",
+            "Queen Coral": "Queen he betrayed",
+            "Riptide": "Nephew he mentored"
+          }
+        }
+      }
+    },
+    "nautilus": {
+      "name": "Nautilus",
+      "aliases": ["Talons Leader"],
+      "appearances": [1, 6, 18, 26],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A SeaWing leader of the Talons of Peace organization. Coordinates peace efforts and helps guide the dragonets' mission.",
+          "role": "Peace Organization Leader",
+          "relationships": {
+            "Webs": "Fellow SeaWing member",
+            "Riptide": "Young member he leads",
+            "Tsunami": "Princess he hopes will bring peace"
+          }
+        }
+      }
+    },
+    "turtle": {
+      "name": "Turtle",
+      "aliases": ["Prince Turtle", "The Quiet Prince"],
+      "appearances": [11, 15, 19, 21, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "One of Queen Coral's sons and Tsunami's brother. A quiet, bookish SeaWing prince who prefers to stay out of the spotlight.",
+          "role": "SeaWing Prince",
+          "relationships": {
+            "Queen Coral": "Mother and queen",
+            "Tsunami": "Sister he's cautious around",
+            "Anemone": "Sister he worries about"
+          }
+        }
+      }
+    },
+    "orca": {
+      "name": "Orca",
+      "aliases": ["Princess Orca", "The Dead Princess"],
+      "appearances": [13, 16, 20, 23],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A deceased SeaWing princess, Queen Coral's daughter who died years ago. Her death was part of the pattern of mysterious royal egg and dragonet killings.",
+          "role": "Deceased Princess",
+          "relationships": {
+            "Queen Coral": "Grieving mother",
+            "Tsunami": "Sister who never knew her"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Revealed to have been an animus dragon who created a statue that kills royal SeaWing heirs, explaining the mysterious deaths in the royal family.",
+          "role": "Vengeful Animus Spirit",
+          "relationships": {
+            "Anemone": "Sister threatened by her magic",
+            "Auklet": "Sister nearly killed by her creation"
+          }
+        }
+      }
+    },
+    "electric-eel": {
+      "name": "Electric Eel",
+      "aliases": ["Palace Servant"],
+      "appearances": [7, 12, 15, 18],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A SeaWing servant who works in Queen Coral's Deep Palace. Helps maintain the royal chambers and serves the royal family.",
+          "role": "Palace Servant",
+          "relationships": {
+            "Queen Coral": "Queen he serves",
+            "Tsunami": "Princess he assists"
+          }
+        }
+      }
+    },
+    "current": {
+      "name": "Current",
+      "aliases": ["SeaWing General"],
+      "appearances": [8, 12, 19, 22, 24],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A military SeaWing general who serves Queen Coral in the war against the SandWings. Strategic and loyal to the crown.",
+          "role": "Military General",
+          "relationships": {
+            "Queen Coral": "Queen he serves in war",
+            "Blister": "Allied queen he coordinates with"
+          }
+        }
+      }
+    },
+    "squid": {
+      "name": "Squid",
+      "aliases": ["SeaWing Soldier"],
+      "appearances": [9, 12, 15, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A SeaWing soldier serving in Queen Coral's military forces. Participates in patrols and palace security duties.",
+          "role": "Palace Soldier",
+          "relationships": {
+            "Current": "General he serves under",
+            "Queen Coral": "Queen he protects"
+          }
+        }
+      }
+    },
+    "flounder": {
+      "name": "Flounder",
+      "aliases": ["Court SeaWing"],
+      "appearances": [11, 15, 19],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A SeaWing who frequents Queen Coral's court. Often seen discussing politics and royal family matters with other nobles.",
+          "role": "Court Noble",
+          "relationships": {
+            "Lagoon": "Fellow court dragon",
+            "Queen Coral": "Queen he follows"
+          }
+        }
+      }
+    },
+    "herring": {
+      "name": "Herring",
+      "aliases": ["Palace Guard"],
+      "appearances": [4, 8, 12, 18, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A SeaWing guard who protects the Deep Palace and royal family. Works alongside Shark and other guards in palace security.",
+          "role": "Palace Guard",
+          "relationships": {
+            "Shark": "Fellow guard",
+            "Queen Coral": "Queen he protects"
+          }
+        }
+      }
+    },
+    "piranha": {
+      "name": "Piranha",
+      "aliases": ["Royal Messenger"],
+      "appearances": [6, 11, 19, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A fast SeaWing who serves as a royal messenger, carrying communications between Queen Coral and her allies.",
+          "role": "Royal Messenger",
+          "relationships": {
+            "Queen Coral": "Queen he serves",
+            "Current": "General he reports to"
+          }
+        }
+      }
+    },
+    "octopus": {
+      "name": "Octopus",
+      "aliases": ["Palace Servant"],
+      "appearances": [7, 9, 15, 21],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A SeaWing servant working in the Deep Palace, responsible for maintaining the royal quarters and assisting with daily needs.",
+          "role": "Palace Servant",
+          "relationships": {
+            "Electric Eel": "Fellow servant",
+            "Queen Coral": "Queen he serves"
+          }
+        }
+      }
+    },
+    "morrowseer": {
+      "name": "Morrowseer",
+      "aliases": ["NightWing Prophet"],
+      "appearances": [18, 24, 26],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "The imposing NightWing who created the dragonet prophecy appears to check on their progress and judge their worthiness for their destiny.",
+          "role": "Prophecy Overseer",
+          "relationships": {
+            "Starflight": "NightWing dragonet he evaluates",
+            "Tsunami": "Dragonet whose progress he judges"
+          }
+        }
+      }
+    },
+    "burn": {
+      "name": "Burn",
+      "aliases": ["Queen Burn", "The Militaristic Sister"],
+      "appearances": [13, 22, 25],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The largest and most military-minded of the three SandWing sisters. Enemy of Queen Coral and her allies, known for her collection of rare creatures.",
+          "role": "SandWing War Claimant",
+          "relationships": {
+            "Queen Scarlet": "SkyWing ally",
+            "Blister": "Sister and enemy",
+            "Blaze": "Sister and rival"
+          }
+        }
+      }
+    },
+    "blaze": {
+      "name": "Blaze",
+      "aliases": ["Queen Blaze", "The Beautiful Sister"],
+      "appearances": [13, 25],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The most beautiful but least intelligent of the three SandWing sisters competing for the throne. Currently hiding with the IceWings.",
+          "role": "SandWing War Claimant",
+          "relationships": {
+            "Burn": "Sister and rival",
+            "Blister": "Sister and rival"
+          }
+        }
+      }
+    },
+    "peril": {
+      "name": "Peril",
+      "aliases": ["Firescales Champion"],
+      "appearances": [1, 18, 26],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The dangerous SkyWing with firescales who became Clay's friend. Still searching for her place in the world after leaving Queen Scarlet.",
+          "role": "Dangerous Ally",
+          "relationships": {
+            "Clay": "Best and only friend",
+            "Queen Scarlet": "Former queen and captor"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Tsunami and the other dragonets of destiny arrive at the Kingdom of the Sea, where Tsunami hopes to reunite with her SeaWing family and find allies for their mission to end the war.",
+    "2": "Tsunami meets her mother Queen Coral for the first time, experiencing the overwhelming joy and complicated emotions of their reunion after years of separation and believing each other dead.",
+    "3": "Tsunami is introduced to her younger sisters Princess Anemone and baby Princess Auklet. She struggles to adapt to royal life and the expectations of being a SeaWing princess.",
+    "4": "The dragonets explore the magnificent Deep Palace underwater kingdom while Tsunami learns about SeaWing culture, including their unique light-language called Aquatic that she cannot yet understand.",
+    "5": "Tsunami meets Whirlpool, the pompous royal tutor who makes her uncomfortable with his overly flattering manner toward Queen Coral and inappropriate interest in young Princess Anemone.",
+    "6": "Queen Coral reveals the tragic history of her family - many of her eggs and young dragonets have been mysteriously murdered over the years, explaining her extreme protectiveness of her remaining children.",
+    "7": "Tsunami begins learning Aquatic and starts to understand the complex politics of the SeaWing court, while her fellow dragonets explore the underwater kingdom and meet its inhabitants.",
+    "8": "Queen Coral shows Tsunami her private study where she writes scrolls about her daughters. Tsunami learns about her mother's alliance with Blister in the SandWing war of succession.",
+    "9": "The dragonets attend a royal feast where they meet more SeaWing nobles and courtiers. Tsunami continues to feel torn between her loyalty to her fellow dragonets and her newfound royal responsibilities.",
+    "10": "Tensions rise in the palace as Tsunami struggles with the restrictions of royal life. She wants to continue the quest with her fellow dragonets but feels pressure to stay and fulfill her princess duties.",
+    "11": "Tsunami meets more of her extended family including her brother Prince Turtle. She learns more about the mysterious deaths that have plagued the royal family for years.",
+    "12": "Riptide reveals more about his feelings for Tsunami and his past with the Talons of Peace. Their growing romance is complicated by the difference in their social status.",
+    "13": "The mystery of the royal family murders deepens as another attempt is made on a young prince's life. Tsunami begins to suspect someone in the palace is behind the killings.",
+    "14": "Tsunami and her friends investigate the palace, looking for clues about who might be killing the royal family members. The danger feels closer than ever.",
+    "15": "Tsunami finally masters enough Aquatic to communicate properly with her mother and sister. This breakthrough helps her feel more connected to her SeaWing heritage while maintaining her bonds with the dragonets.",
+    "16": "The shocking revelation that Princess Anemone is an animus dragon explains why she's so carefully guarded and why Whirlpool shows such interest in her magical abilities.",
+    "17": "With Anemone's animus powers revealed, the danger to the royal family becomes clearer. Tsunami realizes the murders may be connected to preventing animus dragons from being born or surviving.",
+    "18": "Morrowseer arrives to check on the dragonets' progress, creating tension as Tsunami must balance her royal duties with her destiny as a dragonet of prophecy.",
+    "19": "Political tensions escalate as Blister's influence in the SeaWing kingdom becomes more apparent. Tsunami realizes her mother's ally may not be the right choice for queen.",
+    "20": "The truth about Princess Orca is revealed - the dead princess was an animus who created a statue that kills royal heirs, solving the mystery of the family murders.",
+    "21": "With the killer statue destroyed, the royal family is finally safe. Tsunami must decide whether to stay in her underwater kingdom or continue with the dragonets on their quest.",
+    "22": "Blister reveals her true nature, showing the dragonets how ruthless and manipulative she really is. Tsunami realizes they cannot support her claim to the SandWing throne.",
+    "23": "Tensions reach a breaking point as Blister's schemes are exposed. The dragonets realize they must escape the Deep Palace before they become Blister's pawns or victims.",
+    "24": "A dramatic confrontation occurs as the dragonets attempt to leave the SeaWing kingdom. Tsunami must choose between her royal duties and her destiny with her fellow dragonets.",
+    "25": "The dragonets prepare to leave the Kingdom of the Sea, with Tsunami having learned valuable lessons about leadership, family, and the complexity of choosing the right side in war.",
+    "26": "Tsunami says goodbye to her family, including her mother Queen Coral and sister Anemone. Despite their tearful parting, she knows she must continue with the prophecy mission.",
+    "27": "The dragonets leave the SeaWing kingdom with new allies and a clearer understanding of the political complexities they face. Tsunami has grown into her role as both princess and prophesied dragonet."
+  }
+}

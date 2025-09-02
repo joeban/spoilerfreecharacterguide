@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "title": "The Hidden Kingdom",
+    "author": "Tui T. Sutherland",
+    "chapters": 28,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "glory": {
+      "name": "Glory",
+      "aliases": ["Queen Glory", "The RainWing Queen", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The sarcastic RainWing with deadly venom and color-changing scales. Feeling displaced after Tsunami's reunion with her family, she's determined to find her own tribe and heritage.",
+          "role": "Searching Dragonet of Destiny",
+          "relationships": {
+            "Clay": "Fellow dragonet and loyal friend",
+            "Tsunami": "Fellow dragonet",
+            "Starflight": "Fellow dragonet",
+            "Sunny": "Fellow dragonet"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Becomes Queen of the RainWings after challenging the existing monarchy and proving her worth through trials. Takes on the responsibility of protecting both RainWings and NightWings.",
+          "role": "Queen of the RainWings",
+          "relationships": {
+            "Deathbringer": "NightWing assassin who becomes her devoted protector",
+            "Jambu": "Half-brother and trusted advisor",
+            "Grandeur": "Former queen she defeated",
+            "Kinkajou": "Young RainWing friend"
+          }
+        }
+      }
+    },
+    "clay": {
+      "name": "Clay",
+      "aliases": ["The MudWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The loyal brown MudWing continues to support Glory as she searches for her place among the RainWings. His steady friendship provides comfort during her identity crisis.",
+          "role": "Loyal Friend and Support",
+          "relationships": {
+            "Glory": "Best friend whose quest he supports",
+            "Tsunami": "Fellow dragonet",
+            "Starflight": "Fellow dragonet",
+            "Sunny": "Fellow dragonet"
+          }
+        }
+      }
+    },
+    "tsunami": {
+      "name": "Tsunami",
+      "aliases": ["Princess Tsunami", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The fierce SeaWing princess who recently reunited with her family. Now helps Glory search for the RainWing kingdom while dealing with her own complex feelings about family and duty.",
+          "role": "Supportive Friend and Princess",
+          "relationships": {
+            "Glory": "Fellow dragonet she supports",
+            "Queen Coral": "Mother she left behind",
+            "Riptide": "SeaWing she loves"
+          }
+        }
+      }
+    },
+    "starflight": {
+      "name": "Starflight",
+      "aliases": ["The NightWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The anxious NightWing scholar whose knowledge becomes crucial in finding both the RainWing village and the secret NightWing island. Struggles with loyalty to his birth tribe.",
+          "role": "Scholar and Conflicted Tribe Member",
+          "relationships": {
+            "Glory": "Dragonet he secretly loves",
+            "Morrowseer": "NightWing elder who intimidates him",
+            "Fatespeaker": "Alternative NightWing dragonet"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Forced to confront the truth about his NightWing heritage and the tribe's deception. Must choose between loyalty to his birth tribe and doing what's right.",
+          "role": "Torn Between Loyalties",
+          "relationships": {
+            "Battlewinner": "Secret NightWing queen",
+            "Mastermind": "His father among the NightWings"
+          }
+        }
+      }
+    },
+    "sunny": {
+      "name": "Sunny",
+      "aliases": ["The SandWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The optimistic small SandWing who provides emotional support to Glory during her search for identity and belonging among the RainWings.",
+          "role": "Emotional Support and Optimist",
+          "relationships": {
+            "Glory": "Friend she encourages and supports",
+            "Clay": "Fellow dragonet she cares for",
+            "Tsunami": "Fellow dragonet"
+          }
+        }
+      }
+    },
+    "jambu": {
+      "name": "Jambu",
+      "aliases": ["Glory's Brother", "RainWing Guide"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A cheerful pink-and-gold RainWing who becomes the dragonets' guide to the RainWing village. Laid-back and friendly, embodying typical RainWing peaceful nature.",
+          "role": "RainWing Guide and Friend",
+          "relationships": {
+            "Glory": "Dragon he befriends and helps",
+            "Liana": "Fellow RainWing",
+            "Mangrove": "Worried village elder"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Revealed to be Glory's half-brother, sharing the same father. This family connection helps Glory feel more grounded in RainWing society.",
+          "role": "Glory's Half-Brother",
+          "relationships": {
+            "Glory": "Half-sister he loves and supports",
+            "Grandeur": "Queen he sometimes questions"
+          }
+        }
+      }
+    },
+    "grandeur": {
+      "name": "Grandeur",
+      "aliases": ["Queen Grandeur", "Former RainWing Queen"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "One of the RainWing queens who rules through a rotating monarchy system. Elderly and set in traditional RainWing ways of avoiding conflict and responsibility.",
+          "role": "Traditional RainWing Queen",
+          "relationships": {
+            "Magnificent": "Fellow queen in rotation",
+            "Glory": "Young dragon she initially dismisses",
+            "Jambu": "Subject she barely notices"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Loses the queenship challenge to Glory but becomes a valuable advisor, recognizing Glory's potential to lead the RainWings into a new era.",
+          "role": "Former Queen and Advisor",
+          "relationships": {
+            "Glory": "New queen she respects and advises",
+            "Deathbringer": "NightWing she learns to tolerate"
+          }
+        }
+      }
+    },
+    "magnificent": {
+      "name": "Magnificent",
+      "aliases": ["Queen Magnificent", "Vain RainWing Queen"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The most vain and self-centered of the RainWing queens, obsessed with her appearance and completely uninterested in the missing RainWings or any real problems.",
+          "role": "Vain and Ineffective Queen",
+          "relationships": {
+            "Grandeur": "Fellow queen she barely tolerates",
+            "Exquisite": "Fellow queen she competes with",
+            "Glory": "Young dragon who challenges her authority"
+          }
+        }
+      }
+    },
+    "exquisite": {
+      "name": "Exquisite",
+      "aliases": ["Queen Exquisite", "Artistic RainWing Queen"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A RainWing queen who focuses on art and beauty rather than governance. More interested in creating lovely things than solving real problems facing her tribe.",
+          "role": "Artistic but Ineffective Queen",
+          "relationships": {
+            "Magnificent": "Fellow queen she competes with",
+            "Grandeur": "Fellow queen she defers to",
+            "Glory": "Young dragon who disrupts her peaceful existence"
+          }
+        }
+      }
+    },
+    "handsome": {
+      "name": "Handsome",
+      "aliases": ["RainWing Villager"],
+      "appearances": [9, 11, 13, 15, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A RainWing villager who lives in the canopy village. Like most RainWings, he's generally peaceful and laid-back, preferring to avoid conflict.",
+          "role": "Typical RainWing Villager",
+          "relationships": {
+            "Jambu": "Fellow villager",
+            "Glory": "Visiting dragon he's curious about"
+          }
+        }
+      }
+    },
+    "mangrove": {
+      "name": "Mangrove",
+      "aliases": ["Worried Father", "Orchid's Mate"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A dark green RainWing who is desperately worried about his missing partner Orchid. One of the few RainWings willing to take action about the disappearances.",
+          "role": "Worried Partner and Father",
+          "relationships": {
+            "Orchid": "Missing partner he loves",
+            "Glory": "Dragon he hopes will help find Orchid",
+            "Kinkajou": "Young dragonet who helps him"
+          }
+        }
+      }
+    },
+    "orchid": {
+      "name": "Orchid",
+      "aliases": ["Missing RainWing", "Mangrove's Partner"],
+      "appearances": [11, 14, 22, 24, 25, 26],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A missing RainWing who disappeared weeks ago, causing great distress to her partner Mangrove. Her disappearance is part of a larger pattern the queens ignore.",
+          "role": "Missing RainWing Victim",
+          "relationships": {
+            "Mangrove": "Partner who desperately misses her",
+            "Glory": "Dragon searching for her"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Found imprisoned on the NightWing island, drugged and used as a test subject by NightWing scientists. Her rescue becomes part of Glory's larger mission.",
+          "role": "Rescued Victim and Test Subject",
+          "relationships": {
+            "Mastermind": "NightWing scientist who experimented on her",
+            "Mangrove": "Partner who never stopped searching"
+          }
+        }
+      }
+    },
+    "liana": {
+      "name": "Liana",
+      "aliases": ["RainWing Villager"],
+      "appearances": [9, 11, 13, 15, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A friendly RainWing who lives in the village and helps newcomers feel welcome. Represents the typical RainWing hospitality and peaceful nature.",
+          "role": "Welcoming Villager",
+          "relationships": {
+            "Jambu": "Fellow villager and friend",
+            "Glory": "Visiting dragon she befriends"
+          }
+        }
+      }
+    },
+    "coconut": {
+      "name": "Coconut",
+      "aliases": ["Young RainWing"],
+      "appearances": [9, 13, 15, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A young RainWing living in the village who is curious about the visiting dragonets of destiny but maintains the typical RainWing easy-going attitude.",
+          "role": "Curious Young RainWing",
+          "relationships": {
+            "Kinkajou": "Fellow young RainWing",
+            "Glory": "Visiting dragon he finds interesting"
+          }
+        }
+      }
+    },
+    "kinkajou": {
+      "name": "Kinkajou",
+      "aliases": ["Young RainWing", "Glory's Friend"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A small, energetic young RainWing with bright pink and yellow scales. Unlike most RainWings, she's curious and eager for adventure, quickly befriending Glory.",
+          "role": "Adventurous Young RainWing",
+          "relationships": {
+            "Glory": "Older dragon she admires and follows",
+            "Coconut": "Fellow young RainWing",
+            "Mangrove": "Adult who worries about missing dragons"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Volunteers to help rescue the missing RainWings despite the danger, showing courage unusual for her typically peaceful tribe.",
+          "role": "Brave Young Helper",
+          "relationships": {
+            "Glory": "Queen she loyally serves",
+            "Deathbringer": "NightWing she learns to trust"
+          }
+        }
+      }
+    },
+    "deathbringer": {
+      "name": "Deathbringer",
+      "aliases": ["NightWing Assassin", "Glory's Protector"],
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A black NightWing assassin sent to kill Glory, but becomes fascinated by her instead. Cocky and dangerous, but begins to question his orders as he gets to know her.",
+          "role": "Conflicted Assassin",
+          "relationships": {
+            "Glory": "Target who becomes his obsession",
+            "Morrowseer": "Elder who gave him the assassination mission",
+            "Vengeance": "Fellow NightWing assassin"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Fully commits to protecting Glory and helping her save both tribes, abandoning his loyalty to the NightWing elders in favor of doing what's right.",
+          "role": "Devoted Protector and Ally",
+          "relationships": {
+            "Glory": "Queen he serves and loves",
+            "Battlewinner": "NightWing queen he defies",
+            "Jambu": "RainWing he learns to work with"
+          }
+        }
+      }
+    },
+    "morrowseer": {
+      "name": "Morrowseer",
+      "aliases": ["NightWing Prophet", "False Prophet"],
+      "appearances": [16, 20, 24, 25, 26, 27],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The imposing NightWing elder who created the dragonet prophecy. His true motives begin to surface as he tries to control the situation with Glory and the RainWings.",
+          "role": "Manipulative Prophet",
+          "relationships": {
+            "Deathbringer": "Assassin he commands",
+            "Starflight": "NightWing dragonet he controls",
+            "Glory": "Dragon he underestimates"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Revealed as a fraud who made up the prophecy to serve NightWing interests. His lies and manipulation are exposed as Glory uncovers the truth about both tribes.",
+          "role": "Exposed False Prophet",
+          "relationships": {
+            "Battlewinner": "Queen he serves secretly",
+            "Mastermind": "Scientist he works with",
+            "Glory": "Queen who exposes his deception"
+          }
+        }
+      }
+    },
+    "mastermind": {
+      "name": "Mastermind",
+      "aliases": ["NightWing Scientist", "Starflight's Father"],
+      "appearances": [22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A NightWing scientist conducting experiments on captured RainWings. Cold and calculating, he represents the worst of NightWing arrogance and cruelty.",
+          "role": "Mad Scientist",
+          "relationships": {
+            "Orchid": "RainWing test subject",
+            "Morrowseer": "Elder he serves",
+            "Battlewinner": "Queen he serves"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Revealed to be Starflight's father, adding personal stakes to the conflict between the NightWings and their victims.",
+          "role": "Starflight's Father and Enemy",
+          "relationships": {
+            "Starflight": "Son he abandoned",
+            "Glory": "Queen who threatens his experiments"
+          }
+        }
+      }
+    },
+    "fatespeaker": {
+      "name": "Fatespeaker",
+      "aliases": ["Alternative NightWing", "False Dragonet"],
+      "appearances": [20, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A cheerful black NightWing dragonet who was raised as an alternative to Starflight. Optimistic and friendly, unlike most NightWings the dragonets have met.",
+          "role": "Alternative Dragonet of Destiny",
+          "relationships": {
+            "Starflight": "Dragon she was meant to replace",
+            "Glory": "Queen she comes to respect",
+            "Morrowseer": "Elder who trained her"
+          }
+        }
+      }
+    },
+    "battlewinner": {
+      "name": "Battlewinner",
+      "aliases": ["Queen Battlewinner", "The Ice-Trapped Queen"],
+      "appearances": [25, 26, 27, 28],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "The secret NightWing queen who has been trapped in ice for years after a battle with an IceWing. Rules from the shadows while planning to take over the RainWing kingdom.",
+          "role": "Hidden Queen and Conqueror",
+          "relationships": {
+            "Greatness": "Daughter who rules in her place",
+            "Morrowseer": "Elder who serves her plans",
+            "Glory": "RainWing queen she wants to replace"
+          }
+        }
+      }
+    },
+    "greatness": {
+      "name": "Greatness",
+      "aliases": ["Princess Greatness", "Acting Queen"],
+      "appearances": [25, 26, 27, 28],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Battlewinner's daughter who acts as queen while her mother is trapped in ice. Nervous and insecure, struggling with the weight of leadership.",
+          "role": "Reluctant Acting Queen",
+          "relationships": {
+            "Battlewinner": "Mother she fears disappointing",
+            "Morrowseer": "Elder who intimidates her",
+            "Glory": "RainWing queen who threatens her position"
+          }
+        }
+      }
+    },
+    "vengeance": {
+      "name": "Vengeance",
+      "aliases": ["NightWing Assassin"],
+      "appearances": [17, 20, 24, 25],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A NightWing assassin working with Deathbringer on missions for the NightWing leadership. More ruthless and loyal to the tribe than Deathbringer proves to be.",
+          "role": "Loyal NightWing Assassin",
+          "relationships": {
+            "Deathbringer": "Partner who becomes a traitor",
+            "Morrowseer": "Elder who commands him",
+            "Glory": "Target he's ordered to eliminate"
+          }
+        }
+      }
+    },
+    "preyhunter": {
+      "name": "Preyhunter",
+      "aliases": ["NightWing Warrior"],
+      "appearances": [24, 25, 26, 27],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "A NightWing warrior who serves Queen Battlewinner loyally. Participates in the tribe's plans to take over the RainWing territory.",
+          "role": "NightWing Warrior",
+          "relationships": {
+            "Battlewinner": "Queen he serves",
+            "Glory": "Enemy queen",
+            "Deathbringer": "Former ally turned traitor"
+          }
+        }
+      }
+    },
+    "strongwings": {
+      "name": "Strongwings",
+      "aliases": ["NightWing Elder"],
+      "appearances": [25, 26, 27],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "An elder NightWing who serves in Battlewinner's council. Supports the plan to take over RainWing territory for the dying NightWing tribe.",
+          "role": "NightWing Elder and Councillor",
+          "relationships": {
+            "Battlewinner": "Queen he advises",
+            "Morrowseer": "Fellow elder",
+            "Glory": "RainWing queen he opposes"
+          }
+        }
+      }
+    },
+    "fierceteeth": {
+      "name": "Fierceteeth",
+      "aliases": ["Alternative Dragonet"],
+      "appearances": [23, 24, 25, 26],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A fierce NightWing dragonet who was part of the alternative set of dragonets created as backups to the prophecy. Aggressive and ambitious.",
+          "role": "Backup Dragonet of Destiny",
+          "relationships": {
+            "Fatespeaker": "Fellow alternative dragonet",
+            "Morrowseer": "Elder who trained them",
+            "Glory": "Dragon she views as unworthy"
+          }
+        }
+      }
+    },
+    "mindreader": {
+      "name": "Mindreader",
+      "aliases": ["NightWing with Powers"],
+      "appearances": [25, 26, 27],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A NightWing who actually possesses the rare power of mind-reading, making her valuable to the tribe's leadership but also burdened by constantly hearing others' thoughts.",
+          "role": "Mind-Reading NightWing",
+          "relationships": {
+            "Battlewinner": "Queen whose thoughts she reads",
+            "Starflight": "Powerless NightWing she pities",
+            "Glory": "RainWing queen she learns to respect"
+          }
+        }
+      }
+    },
+    "silverwings": {
+      "name": "Silverwings",
+      "aliases": ["NightWing Councillor"],
+      "appearances": [25, 26, 27],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A NightWing elder serving on Queen Battlewinner's council. Helps plan the invasion of RainWing territory as a solution to their dying homeland.",
+          "role": "NightWing Councillor",
+          "relationships": {
+            "Battlewinner": "Queen he serves",
+            "Strongwings": "Fellow councillor"
+          }
+        }
+      }
+    },
+    "wisdom": {
+      "name": "Wisdom",
+      "aliases": ["NightWing Scholar"],
+      "appearances": [24, 26, 27],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "A NightWing scholar involved in the experiments and studies being conducted on captured RainWings. Represents the intellectual arrogance of the NightWing tribe.",
+          "role": "NightWing Scholar",
+          "relationships": {
+            "Mastermind": "Fellow researcher",
+            "Orchid": "Test subject"
+          }
+        }
+      }
+    },
+    "secretkeeper": {
+      "name": "Secretkeeper",
+      "aliases": ["NightWing Mother"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A NightWing mother living on the volcano island, struggling with the harsh conditions and the tribe's desperate situation.",
+          "role": "NightWing Mother",
+          "relationships": {
+            "Glory": "RainWing queen offering refuge",
+            "Battlewinner": "Queen whose policies affect her family"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Glory struggles with feeling displaced after Tsunami's family reunion and decides to search for her own tribe, the RainWings, hoping to find where she truly belongs.",
+    "2": "The dragonets begin their journey to find the mysterious RainWing kingdom, which is supposedly hidden deep in the rainforest and difficult to locate.",
+    "3": "Searching through the dense jungle, the dragonets encounter various obstacles and dangers while looking for any sign of the elusive RainWing village.",
+    "4": "The group continues their quest through the rainforest, facing both natural hazards and their own doubts about whether they'll ever find Glory's tribe.",
+    "5": "Glory's frustration grows as the search proves more difficult than expected, and she begins to wonder if the RainWings even want to be found.",
+    "6": "The dragonets discover signs of dragon habitation in the rainforest but struggle to pinpoint the exact location of the RainWing settlement.",
+    "7": "Clues finally lead the dragonets closer to the RainWing village, though they're still unsure exactly what they'll find when they arrive.",
+    "8": "The dragonets meet Jambu, a friendly RainWing who becomes their guide to the hidden village built high in the rainforest canopy.",
+    "9": "Glory and her friends arrive at the beautiful RainWing village, a treetop paradise where RainWings live peacefully among the branches and flowers.",
+    "10": "Glory meets the RainWing queens - Grandeur, Magnificent, and Exquisite - who rule through a rotating monarchy but seem uninterested in real leadership.",
+    "11": "The dragonets learn about Mangrove, a RainWing desperately searching for his missing partner Orchid, though the queens dismiss his concerns as unimportant.",
+    "12": "Glory becomes increasingly frustrated with the RainWing queens' indifference to serious problems, including the mysterious disappearances of several tribe members.",
+    "13": "Glory befriends Kinkajou, an energetic young RainWing, while continuing to investigate the missing dragons that the queens refuse to acknowledge.",
+    "14": "The pattern of disappearances becomes clearer as Glory realizes that RainWings have been vanishing regularly, but no one in authority seems to care enough to investigate.",
+    "15": "Glory encounters Deathbringer, a NightWing assassin sent to kill her, but instead of completing his mission, he becomes fascinated by her strength and determination.",
+    "16": "Morrowseer appears and reveals more about the prophecy's true purpose while Deathbringer struggles with his conflicting loyalties between his mission and his growing respect for Glory.",
+    "17": "Glory challenges the RainWing queens' authority and begins taking charge of investigating the disappearances, showing leadership qualities the lazy queens lack.",
+    "18": "Glory learns that Jambu is her half-brother, giving her a family connection in the RainWing tribe while strengthening her resolve to protect her newfound people.",
+    "19": "The investigation into the missing RainWings leads Glory closer to the truth about who is taking them and why the tribe's leadership has been so ineffective.",
+    "20": "Glory challenges Queen Grandeur to trials for the crown and wins, becoming the new RainWing queen and gaining the authority to properly address the tribe's problems.",
+    "21": "As the new queen, Glory begins organizing the RainWings to take action against whoever is responsible for the disappearances, despite their natural reluctance for conflict.",
+    "22": "Glory and her allies discover that the NightWings have been kidnapping RainWings and using them as test subjects for cruel experiments.",
+    "23": "The full scope of NightWing deception becomes clear as Glory realizes the tribe has been planning to take over RainWing territory while conducting horrific experiments.",
+    "24": "Glory leads a rescue mission to save the captured RainWings, including Orchid, from the NightWing island where they're being held and tortured.",
+    "25": "Glory confronts Queen Battlewinner and the NightWing leadership, exposing their lies about the prophecy and their plans to steal RainWing land.",
+    "26": "The truth about Morrowseer's false prophecy is revealed as Glory uncovers the NightWing plot to use the dragonets as pawns in their scheme to abandon their dying homeland.",
+    "27": "Glory must decide the fate of the NightWing tribe - whether to punish them for their crimes or offer them mercy and a chance to coexist peacefully with the RainWings.",
+    "28": "Glory establishes herself as queen of both the RainWings and NightWings, creating a new alliance between the tribes while ensuring justice for past wrongs and hope for the future."
+  }
+}

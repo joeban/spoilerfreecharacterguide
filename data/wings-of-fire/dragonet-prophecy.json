@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "title": "The Dragonet Prophecy",
+    "author": "Tui T. Sutherland",
+    "chapters": 27,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "clay": {
+      "name": "Clay",
+      "aliases": ["The BigWings", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A brown MudWing dragonet raised in captivity with four others under a mountain. Kind-hearted and hungry, believed to be one of the dragonets of destiny from the prophecy.",
+          "role": "Dragonet of Destiny",
+          "relationships": {
+            "Tsunami": "Fellow dragonet",
+            "Glory": "Fellow dragonet",
+            "Starflight": "Fellow dragonet",
+            "Sunny": "Fellow dragonet",
+            "Kestrel": "Guardian",
+            "Dune": "Guardian",
+            "Webs": "Guardian"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Discovered to have fireproof scales, a rare MudWing ability that makes him immune to fire attacks. This saves him in the SkyWing arena.",
+          "role": "Champion in the Arena",
+          "relationships": {
+            "Peril": "Arena opponent who becomes ally",
+            "Queen Scarlet": "Captor forcing him to fight"
+          }
+        }
+      }
+    },
+    "tsunami": {
+      "name": "Tsunami",
+      "aliases": ["The Seawing Princess", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A fierce blue SeaWing dragonet with a short temper and strong protective instincts. Brave and loyal to her friends, often acts as their leader.",
+          "role": "Dragonet of Destiny",
+          "relationships": {
+            "Clay": "Fellow dragonet",
+            "Glory": "Fellow dragonet",
+            "Starflight": "Fellow dragonet",
+            "Sunny": "Fellow dragonet"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Revealed to be the daughter of Queen Coral of the SeaWings, making her a true princess. Her royal heritage explains her natural leadership abilities.",
+          "role": "SeaWing Princess",
+          "relationships": {
+            "Queen Coral": "Mother",
+            "Webs": "Dragon who stole her egg"
+          }
+        }
+      }
+    },
+    "glory": {
+      "name": "Glory",
+      "aliases": ["The RainWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A sarcastic RainWing dragonet with color-changing scales that reflect her moods. Often feels like an outsider since she wasn't part of the original prophecy.",
+          "role": "Replacement Dragonet",
+          "relationships": {
+            "Clay": "Fellow dragonet",
+            "Tsunami": "Fellow dragonet",
+            "Starflight": "Fellow dragonet",
+            "Sunny": "Fellow dragonet"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Revealed to be a replacement for the original SkyWing dragonet who died. Her venom is deadly and can be shot from her fangs with deadly accuracy.",
+          "role": "Deadly Venom Wielder",
+          "relationships": {
+            "Hvitur": "Dragon who died protecting her egg"
+          }
+        }
+      }
+    },
+    "starflight": {
+      "name": "Starflight",
+      "aliases": ["The NightWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A nervous black NightWing dragonet who loves scrolls and learning. Anxious and cautious, but deeply knowledgeable about dragon history and lore.",
+          "role": "Scholar and Strategist",
+          "relationships": {
+            "Clay": "Fellow dragonet",
+            "Tsunami": "Fellow dragonet",
+            "Glory": "Fellow dragonet",
+            "Sunny": "Fellow dragonet"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Discovers he doesn't have the traditional NightWing powers of prophecy or mind-reading, making him feel inadequate among his tribe.",
+          "role": "Powerless NightWing",
+          "relationships": {
+            "Morrowseer": "NightWing who judges him harshly"
+          }
+        }
+      }
+    },
+    "sunny": {
+      "name": "Sunny",
+      "aliases": ["The SandWing", "Dragonet of Destiny"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A small, optimistic yellow SandWing dragonet who always sees the good in others. The smallest of the group but has the biggest heart.",
+          "role": "Peacemaker and Optimist",
+          "relationships": {
+            "Clay": "Fellow dragonet",
+            "Tsunami": "Fellow dragonet",
+            "Glory": "Fellow dragonet",
+            "Starflight": "Fellow dragonet"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Noticed to be smaller than normal SandWings and missing the typical venomous tail barb, suggesting unusual parentage.",
+          "role": "Unique SandWing Hybrid",
+          "relationships": {
+            "Dune": "Guardian who cared for her"
+          }
+        }
+      }
+    },
+    "kestrel": {
+      "name": "Kestrel",
+      "aliases": ["The SkyWing Guardian"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 22, 25],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A harsh, orange-red SkyWing dragon who serves as one of the dragonets' guardians. Strict and often cruel in her training methods, believing toughness is necessary for their destiny.",
+          "role": "Guardian and Combat Trainer",
+          "relationships": {
+            "Dune": "Fellow guardian",
+            "Webs": "Fellow guardian",
+            "Clay": "Student",
+            "Tsunami": "Student she particularly dislikes"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Revealed to have her own tragic past, having lost her own dragonets to Queen Scarlet's cruelty, which explains her harsh demeanor.",
+          "role": "Grieving Mother",
+          "relationships": {
+            "Queen Scarlet": "Queen who killed her dragonets",
+            "Peril": "Her daughter, thought dead"
+          }
+        }
+      }
+    },
+    "dune": {
+      "name": "Dune",
+      "aliases": ["The SandWing Guardian"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 24, 25],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A pale yellow SandWing dragon who serves as a guardian to the dragonets. More patient than Kestrel but still stern about their training and destiny.",
+          "role": "Guardian and History Teacher",
+          "relationships": {
+            "Kestrel": "Fellow guardian",
+            "Webs": "Fellow guardian",
+            "Sunny": "Student he's fondest of"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Dies from his infected wounds sustained during the dragonets' escape, showing his dedication to their cause even unto death.",
+          "role": "Dying Guardian",
+          "relationships": {
+            "Sunny": "Dragonet he loved most",
+            "Burn": "SandWing queen he opposed"
+          }
+        }
+      }
+    },
+    "webs": {
+      "name": "Webs",
+      "aliases": ["The SeaWing Guardian"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 26, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A green SeaWing dragon who serves as the kindest of the three guardians. Often tries to mediate between Kestrel and the dragonets.",
+          "role": "Guardian and Mediator",
+          "relationships": {
+            "Kestrel": "Fellow guardian",
+            "Dune": "Fellow guardian",
+            "Tsunami": "Student he stole as an egg"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Revealed to have stolen Tsunami's egg from the SeaWing palace, making him a traitor to his own tribe but believing it necessary for the prophecy.",
+          "role": "Egg Thief and Traitor",
+          "relationships": {
+            "Queen Coral": "Queen whose egg he stole",
+            "Riptide": "Nephew in the Talons of Peace"
+          }
+        }
+      }
+    },
+    "asha": {
+      "name": "Asha",
+      "aliases": ["The MudWing Guardian"],
+      "appearances": [2, 8, 11],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A brown MudWing who was supposed to be Clay's guardian but died before the dragonets hatched. Mentioned as being gentler than the current guardians.",
+          "role": "Deceased Guardian",
+          "relationships": {
+            "Clay": "Was meant to be his guardian",
+            "Kestrel": "Replacement guardian"
+          }
+        }
+      }
+    },
+    "hvitur": {
+      "name": "Hvitur",
+      "aliases": ["The IceWing Guardian"],
+      "appearances": [6, 11],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A white IceWing who died protecting Glory's egg when she was still in the shell. His death led to Glory becoming the replacement for the original SkyWing dragonet.",
+          "role": "Deceased Protector",
+          "relationships": {
+            "Glory": "Dragonet whose egg he protected",
+            "Queen Scarlet": "Enemy who killed him"
+          }
+        }
+      }
+    },
+    "queen-scarlet": {
+      "name": "Queen Scarlet",
+      "aliases": ["The SkyWing Queen", "Arena Queen"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The cruel red SkyWing queen who rules through fear and spectacle. Obsessed with her gladiator arena where dragons fight to the death for her entertainment.",
+          "role": "Tyrant Queen",
+          "relationships": {
+            "Peril": "Champion fighter",
+            "Osprey": "Son and heir"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Forces captured dragons to fight in her arena for sport. Takes particular interest in Clay when he proves fireproof and survives multiple matches.",
+          "role": "Arena Master",
+          "relationships": {
+            "Clay": "Prized gladiator",
+            "Glory": "Dragon she plans to execute slowly"
+          }
+        }
+      }
+    },
+    "peril": {
+      "name": "Peril",
+      "aliases": ["Firescales", "Champion of the Arena"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 25],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A fierce orange SkyWing with firescales - her touch burns anything, making her deadly in combat. Queen Scarlet's undefeated arena champion.",
+          "role": "Arena Champion",
+          "relationships": {
+            "Queen Scarlet": "Queen and mother figure",
+            "Clay": "Opponent who becomes friend"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Revealed to be Kestrel's daughter, thought to have died as a dragonet. Her firescales condition made her too dangerous to raise normally.",
+          "role": "Lost Daughter",
+          "relationships": {
+            "Kestrel": "Birth mother",
+            "Clay": "First real friend"
+          }
+        }
+      }
+    },
+    "osprey": {
+      "name": "Osprey",
+      "aliases": ["Prince Osprey"],
+      "appearances": [10, 11, 12, 15, 19],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Queen Scarlet's son and heir to the SkyWing throne. Arrogant and cruel like his mother, enjoys watching the arena matches.",
+          "role": "SkyWing Prince",
+          "relationships": {
+            "Queen Scarlet": "Mother and queen",
+            "Glory": "Dragon he wants to torture"
+          }
+        }
+      }
+    },
+    "vermilion": {
+      "name": "Vermilion",
+      "aliases": ["General Vermilion"],
+      "appearances": [10, 11, 12, 19, 22],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A high-ranking SkyWing general who serves Queen Scarlet loyally. Helps oversee the arena and palace security.",
+          "role": "SkyWing General",
+          "relationships": {
+            "Queen Scarlet": "Queen he serves",
+            "Osprey": "Prince he protects"
+          }
+        }
+      }
+    },
+    "hawk": {
+      "name": "Hawk",
+      "aliases": ["Arena Fighter"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A SkyWing prisoner forced to fight in Queen Scarlet's arena. One of many dragons captured and used for the queen's entertainment.",
+          "role": "Arena Prisoner",
+          "relationships": {
+            "Queen Scarlet": "Captor and tormentor",
+            "Clay": "Fellow prisoner"
+          }
+        }
+      }
+    },
+    "morrowseer": {
+      "name": "Morrowseer",
+      "aliases": ["The NightWing Prophet", "Prophecy Keeper"],
+      "appearances": [8, 23, 24, 26],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A large, imposing black NightWing who claims to have created the dragonet prophecy. Mysterious and intimidating, with hidden motives for the prophecy.",
+          "role": "Prophecy Creator",
+          "relationships": {
+            "Starflight": "NightWing dragonet he judges",
+            "Glory": "Dragon he considers expendable"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Tests the dragonets harshly and shows disappointment in their progress, particularly criticizing Starflight for lacking traditional NightWing powers.",
+          "role": "Harsh Judge",
+          "relationships": {
+            "Starflight": "Dragonet he finds lacking",
+            "Clay": "Dragonet he barely tolerates"
+          }
+        }
+      }
+    },
+    "burn": {
+      "name": "Burn",
+      "aliases": ["Queen Burn", "SandWing War Claimant"],
+      "appearances": [5, 24, 25],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "One of three SandWing sisters fighting for the throne after Queen Oasis's death. The largest and most militaristic, known for her collection of rare creatures and artifacts.",
+          "role": "War Queen Claimant",
+          "relationships": {
+            "Blister": "Sister and rival",
+            "Blaze": "Sister and rival",
+            "Queen Scarlet": "Military ally"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Kills Dune with her venomous tail barb when he tries to protect the dragonets from capture, showing her ruthless nature.",
+          "role": "Ruthless Killer",
+          "relationships": {
+            "Dune": "Guardian she murdered",
+            "Sunny": "Dragonet she wants to capture"
+          }
+        }
+      }
+    },
+    "reed": {
+      "name": "Reed",
+      "aliases": ["Bigwings Reed"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Clay's older brother and the bigwings of his sibling group. A capable brown MudWing who has been caring for their siblings since Clay disappeared.",
+          "role": "Clay's Brother",
+          "relationships": {
+            "Clay": "Younger brother",
+            "Marsh": "Sister",
+            "Sora": "Sister",
+            "Umber": "Brother",
+            "Crane": "Sister"
+          }
+        }
+      }
+    },
+    "marsh": {
+      "name": "Marsh",
+      "aliases": ["Clay's Sister"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "One of Clay's sisters from his MudWing family. Lives in the marshland with Reed and their other siblings.",
+          "role": "Clay's Sister",
+          "relationships": {
+            "Clay": "Brother",
+            "Reed": "Bigwings brother",
+            "Sora": "Sister",
+            "Umber": "Brother"
+          }
+        }
+      }
+    },
+    "sora": {
+      "name": "Sora",
+      "aliases": ["Clay's Sister"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "One of Clay's sisters, a young MudWing who was just a dragonet when Clay was taken. Now grown and living with the family.",
+          "role": "Clay's Sister",
+          "relationships": {
+            "Clay": "Brother she barely remembers",
+            "Reed": "Bigwings brother",
+            "Marsh": "Sister"
+          }
+        }
+      }
+    },
+    "umber": {
+      "name": "Umber",
+      "aliases": ["Clay's Brother"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "One of Clay's younger brothers, a brown MudWing who grew up hearing stories about his missing brother Clay.",
+          "role": "Clay's Brother",
+          "relationships": {
+            "Clay": "Older brother",
+            "Reed": "Bigwings brother",
+            "Marsh": "Sister",
+            "Sora": "Sister"
+          }
+        }
+      }
+    },
+    "crane": {
+      "name": "Crane",
+      "aliases": ["Clay's Sister"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "The youngest of Clay's siblings, a small MudWing who was born after Clay was taken by the guardians.",
+          "role": "Clay's Youngest Sister",
+          "relationships": {
+            "Clay": "Brother she never knew",
+            "Reed": "Bigwings brother who raised her"
+          }
+        }
+      }
+    },
+    "pheasant": {
+      "name": "Pheasant",
+      "aliases": ["MudWing Fighter"],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A MudWing prisoner forced to fight in Queen Scarlet's arena. Dies in combat while the dragonets watch helplessly.",
+          "role": "Arena Victim",
+          "relationships": {
+            "Queen Scarlet": "Captor who forced him to fight",
+            "Clay": "Fellow MudWing who witnessed his death"
+          }
+        }
+      }
+    },
+    "gill": {
+      "name": "Gill",
+      "aliases": ["Commander Gill"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A blue SeaWing prisoner in Queen Scarlet's arena, forced to fight for the queen's entertainment. Has been there so long he's nearly broken.",
+          "role": "Arena Prisoner",
+          "relationships": {
+            "Queen Scarlet": "Captor",
+            "Tsunami": "Fellow SeaWing"
+          }
+        }
+      }
+    },
+    "crocodile": {
+      "name": "Crocodile",
+      "aliases": ["Arena Fighter"],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A MudWing gladiator in Queen Scarlet's arena. Fights against Clay in one of the arena matches.",
+          "role": "Arena Fighter",
+          "relationships": {
+            "Clay": "Arena opponent",
+            "Queen Scarlet": "Queen he fights for"
+          }
+        }
+      }
+    },
+    "horizon": {
+      "name": "Horizon",
+      "aliases": ["SkyWing Guard"],
+      "appearances": [10, 11, 19, 22],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A SkyWing guard who serves in Queen Scarlet's palace. Helps maintain order and security in the Sky Palace.",
+          "role": "Palace Guard",
+          "relationships": {
+            "Queen Scarlet": "Queen he serves",
+            "Vermilion": "Superior officer"
+          }
+        }
+      }
+    },
+    "fjord": {
+      "name": "Fjord",
+      "aliases": ["IceWing Prisoner"],
+      "appearances": [14, 15, 16, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A white IceWing prisoner held in Queen Scarlet's dungeons. Scheduled to fight in the arena but tries to maintain his dignity despite captivity.",
+          "role": "Prisoner of War",
+          "relationships": {
+            "Queen Scarlet": "Captor",
+            "Glory": "Fellow prisoner"
+          }
+        }
+      }
+    },
+    "orchid": {
+      "name": "Orchid",
+      "aliases": ["RainWing Prisoner"],
+      "appearances": [14, 15, 17, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A purple-and-pink RainWing held prisoner by Queen Scarlet. Drugged with sleeping darts to keep her docile and unable to use her venom.",
+          "role": "Drugged Prisoner",
+          "relationships": {
+            "Glory": "Fellow RainWing",
+            "Queen Scarlet": "Captor who drugs her"
+          }
+        }
+      }
+    },
+    "boulder": {
+      "name": "Boulder",
+      "aliases": ["MudWing Soldier"],
+      "appearances": [9, 12, 19],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A large brown MudWing soldier who serves in Queen Scarlet's army. Helps capture the dragonets when they're brought to the Sky Palace.",
+          "role": "SkyWing Allied Soldier",
+          "relationships": {
+            "Queen Scarlet": "Allied queen he serves",
+            "Clay": "Dragonet he helped capture"
+          }
+        }
+      }
+    },
+    "mushroom": {
+      "name": "Mushroom",
+      "aliases": ["SkyWing Soldier"],
+      "appearances": [9, 10, 11, 19],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A reddish SkyWing soldier who patrols Queen Scarlet's territory. Part of the group that captures the escaped dragonets.",
+          "role": "Palace Soldier",
+          "relationships": {
+            "Queen Scarlet": "Queen he serves loyally",
+            "Tsunami": "Dragonet he helped capture"
+          }
+        }
+      }
+    },
+    "blaze": {
+      "name": "Blaze",
+      "aliases": ["Queen Blaze", "The Beautiful Queen"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "One of three SandWing sisters fighting for the throne. Known for her beauty but considered the least intelligent and capable of the three sisters.",
+          "role": "War Queen Claimant",
+          "relationships": {
+            "Burn": "Sister and rival",
+            "Blister": "Sister and rival"
+          }
+        }
+      }
+    },
+    "blister": {
+      "name": "Blister",
+      "aliases": ["Queen Blister", "The Clever Queen"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "One of three SandWing sisters fighting for the throne. The most cunning and manipulative of the sisters, allied with Queen Coral of the SeaWings.",
+          "role": "War Queen Claimant",
+          "relationships": {
+            "Burn": "Sister and rival",
+            "Blaze": "Sister and rival",
+            "Queen Coral": "SeaWing ally"
+          }
+        }
+      }
+    },
+    "stonemover": {
+      "name": "Stonemover",
+      "aliases": ["The Hermit", "Animus Dragon"],
+      "appearances": [25],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A mysterious NightWing animus dragon living as a hermit in the desert. Has been slowly turning to stone due to his use of animus magic.",
+          "role": "Animus Hermit",
+          "relationships": {
+            "Sunny": "Dragon whose parentage he hints about"
+          }
+        }
+      }
+    },
+    "six-claws": {
+      "name": "Six-Claws",
+      "aliases": ["Talons of Peace Member"],
+      "appearances": [25, 26, 27],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A SandWing member of the Talons of Peace who helps the dragonets after Dune's death. Missing one claw from an old battle wound.",
+          "role": "Peace Organization Member",
+          "relationships": {
+            "Dune": "Fellow SandWing he replaces",
+            "Sunny": "Dragonet he helps protect"
+          }
+        }
+      }
+    },
+    "nautilus": {
+      "name": "Nautilus",
+      "aliases": ["Talons Leader"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A SeaWing leader in the Talons of Peace organization. Coordinates efforts to end the war between the dragon tribes.",
+          "role": "Peace Organization Leader",
+          "relationships": {
+            "Webs": "Fellow SeaWing member",
+            "Riptide": "Younger member he guides"
+          }
+        }
+      }
+    },
+    "riptide": {
+      "name": "Riptide",
+      "aliases": ["Young Talons Member"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A young blue SeaWing member of the Talons of Peace. Nephew to Webs and eager to help end the war between tribes.",
+          "role": "Young Peace Advocate",
+          "relationships": {
+            "Webs": "Uncle and mentor",
+            "Tsunami": "Princess he's drawn to",
+            "Nautilus": "Organization leader"
+          }
+        }
+      }
+    },
+    "queen-oasis": {
+      "name": "Queen Oasis",
+      "aliases": ["The Dead Queen", "Former SandWing Queen"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The former SandWing queen and mother of Burn, Blister, and Blaze. Her death sparked the current war of succession among her daughters.",
+          "role": "Deceased Former Queen",
+          "relationships": {
+            "Burn": "Daughter and war claimant",
+            "Blister": "Daughter and war claimant",
+            "Blaze": "Daughter and war claimant"
+          }
+        }
+      }
+    },
+    "scald": {
+      "name": "Scald",
+      "aliases": ["SandWing Soldier"],
+      "appearances": [24, 25],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "A SandWing soldier serving under Burn's command. Participates in the attack on the Talons of Peace stronghold.",
+          "role": "Military Soldier",
+          "relationships": {
+            "Burn": "Queen he serves",
+            "Dune": "Enemy he fights"
+          }
+        }
+      }
+    },
+    "thorn": {
+      "name": "Thorn",
+      "aliases": ["Outclaw Leader"],
+      "appearances": [25],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A tough SandWing who leads a group of outlaw dragons in the desert. Skeptical of the dragonets but willing to help them.",
+          "role": "Outlaw Leader",
+          "relationships": {
+            "Sunny": "Dragonet she agrees to help",
+            "Six-Claws": "Ally who asks for her aid"
+          }
+        }
+      }
+    },
+    "smolder": {
+      "name": "Smolder",
+      "aliases": ["Prince Smolder", "Queen Oasis's Son"],
+      "appearances": [25],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A SandWing prince, son of the late Queen Oasis and brother to the three feuding sisters. Chooses to stay out of the succession war.",
+          "role": "Neutral Prince",
+          "relationships": {
+            "Queen Oasis": "Deceased mother",
+            "Burn": "Sister",
+            "Blister": "Sister",
+            "Blaze": "Sister"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Clay, a brown MudWing dragonet, lives underground with four other dragonets of destiny who are prophesied to end the great dragon war. Their guardians Kestrel, Dune, and Webs train them harshly for their future role.",
+    "2": "The dragonets learn more about the prophecy that foretells their destiny to choose the next SandWing queen and end the twenty-year war. Clay struggles with whether he truly has the greatness the prophecy demands.",
+    "3": "Tensions rise between the dragonets and their guardians as the young dragons question their captivity. Glory, the RainWing, feels particularly excluded since she wasn't part of the original prophecy.",
+    "4": "The dragonets attempt to explore beyond their underground prison but are caught by their guardians. They learn more about the three SandWing queens fighting for the throne: Burn, Blister, and Blaze.",
+    "5": "Starflight shares his extensive knowledge about the dragon tribes and their history with his friends. The dragonets debate which SandWing sister would make the best queen to end the war.",
+    "6": "Glory's backstory is revealed - she's a replacement for the original SkyWing dragonet whose guardian Hvitur died protecting her egg. The dragonets realize their guardians have been lying to them about many things.",
+    "7": "The dragonets plan a daring escape from their underground prison. They're tired of waiting for their guardians to release them and want to fulfill the prophecy on their own terms.",
+    "8": "Morrowseer, a mysterious and intimidating NightWing, arrives to check on the dragonets' progress. His visit spurs the dragonets to finally attempt their escape from the mountain stronghold.",
+    "9": "The dragonets successfully escape their underground prison but are quickly captured by SkyWing soldiers. They're taken as prisoners to Queen Scarlet's palace in the Sky Kingdom.",
+    "10": "The dragonets meet Queen Scarlet, the cruel SkyWing queen who delights in violence and spectacle. She decides to use them as entertainment in her gladiator arena rather than execute them immediately.",
+    "11": "Imprisoned in Queen Scarlet's dungeons, the dragonets meet other prisoners including dragons from various tribes. They learn about the queen's obsession with her deadly arena fights.",
+    "12": "The dragonets are separated and prepared for different fates. Clay is chosen to fight in the arena while his friends face various forms of execution as entertainment for the queen.",
+    "13": "Clay is forced into the arena to fight for Queen Scarlet's amusement. He must battle other dragons while his friends watch helplessly from their prison cells.",
+    "14": "Clay meets Peril, Queen Scarlet's undefeated arena champion whose firescales make her touch deadly. Despite her dangerous nature, she shows curiosity about Clay and his friends.",
+    "15": "Clay discovers he has fireproof scales when Peril's deadly touch doesn't harm him. This rare MudWing ability saves his life in the arena and amazes both Peril and Queen Scarlet.",
+    "16": "The arena battles continue as Clay is forced to fight multiple opponents. His fireproof scales give him an advantage, but he struggles with having to harm other dragons to survive.",
+    "17": "Clay's friendship with Peril grows as she begins to question Queen Scarlet's methods. Meanwhile, his friends work desperately to find a way to escape their various death sentences.",
+    "18": "The dragonets devise an escape plan involving Glory's deadly venom and Tsunami's leadership skills. They must coordinate their efforts while avoiding Queen Scarlet's surveillance.",
+    "19": "Chaos erupts in the Sky Palace as the dragonets execute their escape plan. Glory uses her venom to deadly effect while Tsunami leads the breakout from their prison cells.",
+    "20": "The dragonets fight their way out of the Sky Palace with help from some sympathetic prisoners. Peril must choose between her loyalty to Queen Scarlet and her new friendship with Clay.",
+    "21": "Peril aids the dragonets' escape by using her firescales to clear their path. The group flees the Sky Kingdom with Queen Scarlet's forces in hot pursuit behind them.",
+    "22": "Free from Queen Scarlet's prison, the dragonets head toward the Kingdom of the Sea to return Tsunami to her family. They hope to find allies among the SeaWings for their mission.",
+    "23": "Morrowseer catches up with the dragonets and harshly judges their progress. He's particularly critical of Starflight for lacking the traditional NightWing powers of prophecy and mind-reading.",
+    "24": "The dragonets face an attack by Burn's forces at a Talons of Peace stronghold. Their beloved guardian Dune is killed by Burn herself, leaving the dragonets heartbroken and more determined than ever.",
+    "25": "The group seeks shelter and allies among the Outclaw dragons led by Thorn. They meet mysterious figures including Stonemover, an animus dragon slowly turning to stone.",
+    "26": "The dragonets reach the Kingdom of the Sea where Tsunami is reunited with her mother Queen Coral. They learn about Tsunami's royal heritage and the SeaWing royal family's troubles.",
+    "27": "Clay reunites with his MudWing family and learns about his siblings who grew up without him. The dragonets prepare for the next phase of their quest to fulfill the prophecy and end the war."
+  }
+}
