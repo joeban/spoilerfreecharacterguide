@@ -1,0 +1,1477 @@
+{
+  "meta": {
+    "title": "Shadow and Bone",
+    "author": "Leigh Bardugo",
+    "chapters": 23,
+    "createdAt": "2024-09-02T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "alina-starkov": {
+      "name": "Alina Starkov",
+      "aliases": ["Sun Summoner", "Sankta Alina"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A pale, sickly mapmaker in the First Army. Small and weak, often overlooked. Best friends with Mal Oretsev since childhood at Keramzin orphanage.",
+          "role": "Junior cartographer",
+          "relationships": {
+            "Mal Oretsev": "Best friend since childhood",
+            "Mikhael": "Fellow mapmaker",
+            "Dubrov": "Fellow mapmaker"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Discovers she can summon light when Mal is attacked by volcra in the Shadow Fold. Her power manifests as blinding light that drives away the creatures.",
+          "role": "Sun Summoner (newly discovered)",
+          "relationships": {
+            "The Darkling": "Rescued by",
+            "Mal Oretsev": "Saved from volcra"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Brought to the Little Palace and given luxurious quarters. Struggles to control her power and feels overwhelmed by her new status.",
+          "role": "Grisha in training",
+          "relationships": {
+            "Genya Safin": "Befriended by",
+            "Baghra": "Being trained by"
+          }
+        }
+      }
+    },
+    "mal-oretsev": {
+      "name": "Mal Oretsev",
+      "aliases": ["Malyen Oretsev"],
+      "appearances": [1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A skilled tracker in the First Army. Handsome and popular with other soldiers. Has been Alina's best friend since childhood at Keramzin orphanage.",
+          "role": "Army tracker",
+          "relationships": {
+            "Alina Starkov": "Best friend since childhood",
+            "Mikhael": "Fellow soldier",
+            "Dubrov": "Fellow soldier"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Nearly killed by volcra in the Shadow Fold when their skiff is attacked. His injuries trigger Alina's power to manifest for the first time.",
+          "role": "Injured soldier",
+          "relationships": {
+            "Alina Starkov": "Saved by her power"
+          }
+        }
+      }
+    },
+    "the-darkling": {
+      "name": "The Darkling",
+      "aliases": ["General Kirigan", "Aleksander", "The Black General"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A powerful Grisha who can summon and control darkness. Commands great respect and fear. Appears young but his eyes suggest great age.",
+          "role": "General of the Second Army",
+          "relationships": {
+            "Alina Starkov": "Rescues and takes interest in"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Leader of all Grisha in Ravka. Wears a black kefta and travels with an elite guard. Shows particular interest in Alina's power.",
+          "role": "Leader of the Grisha",
+          "relationships": {
+            "Ivan": "Protected by",
+            "Fedyor": "Protected by"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Brings Alina to the Little Palace, his stronghold. Claims her power could destroy the Shadow Fold that plagues Ravka.",
+          "role": "Alina's mentor and commander",
+          "relationships": {
+            "Alina Starkov": "Training and mentoring"
+          }
+        }
+      }
+    },
+    "genya-safin": {
+      "name": "Genya Safin",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A beautiful Grisha Corporalnik who can alter appearances. Has distinctive red hair and wears a white kefta instead of the traditional red.",
+          "role": "The Queen's personal Grisha",
+          "relationships": {
+            "Alina Starkov": "Befriends and helps",
+            "The Queen": "Serves personally"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Uses her Tailoring abilities to improve Alina's appearance. Explains the hierarchy and politics of the Little Palace.",
+          "role": "Alina's friend and guide",
+          "relationships": {
+            "Alina Starkov": "Friend and advisor"
+          }
+        }
+      }
+    },
+    "baghra": {
+      "name": "Baghra",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An ancient, bitter Grisha woman who teaches at the Little Palace. Has white hair and a sharp tongue. Extremely powerful but uses her abilities sparingly.",
+          "role": "Grisha instructor",
+          "relationships": {
+            "Alina Starkov": "Reluctant teacher",
+            "The Darkling": "Has complex history with"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Harshly trains Alina to control her power. Shows little patience for weakness or self-pity.",
+          "role": "Alina's harsh instructor",
+          "relationships": {
+            "Alina Starkov": "Demanding teacher"
+          }
+        }
+      }
+    },
+    "ivan": {
+      "name": "Ivan",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A powerful Heartrender in the Darkling's personal guard. Wears a red kefta and has a stern, intimidating presence.",
+          "role": "The Darkling's bodyguard",
+          "relationships": {
+            "The Darkling": "Serves and protects",
+            "Fedyor": "Fellow Heartrender"
+          }
+        }
+      }
+    },
+    "fedyor": {
+      "name": "Fedyor",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A cheerful Heartrender who serves as one of the Darkling's guards. More approachable than Ivan but equally dangerous.",
+          "role": "The Darkling's bodyguard",
+          "relationships": {
+            "The Darkling": "Serves loyally",
+            "Ivan": "Fellow Heartrender and guard"
+          }
+        }
+      }
+    },
+    "mikhael": {
+      "name": "Mikhael",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A fellow cartographer in the First Army unit with Alina. Part of the surveying team crossing the Shadow Fold.",
+          "role": "Army mapmaker",
+          "relationships": {
+            "Alina Starkov": "Fellow mapmaker",
+            "Dubrov": "Fellow soldier",
+            "Mal Oretsev": "Fellow soldier"
+          }
+        }
+      }
+    },
+    "dubrov": {
+      "name": "Dubrov",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A fellow cartographer in the First Army unit with Alina. Part of the surveying team crossing the Shadow Fold.",
+          "role": "Army mapmaker",
+          "relationships": {
+            "Alina Starkov": "Fellow mapmaker",
+            "Mikhael": "Fellow soldier",
+            "Mal Oretsev": "Fellow soldier"
+          }
+        }
+      }
+    },
+    "king-of-ravka": {
+      "name": "The King of Ravka",
+      "aliases": [],
+      "appearances": [8, 9, 14, 15, 22, 23],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The weak and ineffectual ruler of Ravka. Overshadowed by his court and increasingly dependent on the Darkling's power.",
+          "role": "King of Ravka",
+          "relationships": {
+            "The Queen": "Husband of",
+            "The Darkling": "Relies on for military power"
+          }
+        }
+      }
+    },
+    "queen-of-ravka": {
+      "name": "The Queen of Ravka",
+      "aliases": [],
+      "appearances": [8, 9, 14, 15, 22, 23],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The vain and shallow queen who is obsessed with her appearance. Completely dependent on Genya's Tailoring abilities.",
+          "role": "Queen of Ravka",
+          "relationships": {
+            "The King": "Wife of",
+            "Genya Safin": "Dependent on for beauty"
+          }
+        }
+      }
+    },
+    "marie": {
+      "name": "Marie",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young Grisha Squaller who befriends Alina at the Little Palace. Wears a blue kefta and has a cheerful disposition.",
+          "role": "Grisha student",
+          "relationships": {
+            "Alina Starkov": "Friend at the Little Palace",
+            "Nadia": "Best friend"
+          }
+        }
+      }
+    },
+    "nadia": {
+      "name": "Nadia",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Grisha Squaller and Marie's best friend. Also wears a blue kefta and is kind to Alina when she arrives.",
+          "role": "Grisha student",
+          "relationships": {
+            "Marie": "Best friend",
+            "Alina Starkov": "Friend at the Little Palace"
+          }
+        }
+      }
+    },
+    "zoya-nazyalensky": {
+      "name": "Zoya Nazyalensky",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A beautiful and powerful Squaller who immediately dislikes Alina. Has dark hair and wears a blue kefta. Arrogant and competitive.",
+          "role": "Elite Grisha Squaller",
+          "relationships": {
+            "Alina Starkov": "Rival and enemy",
+            "The Darkling": "Former romantic interest"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Reveals her jealousy of the attention Alina receives. Makes Alina's life difficult at the Little Palace through petty cruelties.",
+          "role": "Alina's primary antagonist at court",
+          "relationships": {
+            "Alina Starkov": "Actively hostile toward"
+          }
+        }
+      }
+    },
+    "captain-sturmhond": {
+      "name": "Sturmhond",
+      "aliases": ["Captain Sturmhond"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A charismatic privateer captain who rescues Alina and Mal from the sea. Has a roguish charm and commands a flying ship.",
+          "role": "Privateer captain",
+          "relationships": {
+            "Alina Starkov": "Rescuer and ally",
+            "Mal Oretsev": "Rescuer",
+            "Tolya": "First mate",
+            "Tamar": "Crew member"
+          }
+        }
+      }
+    },
+    "tolya": {
+      "name": "Tolya Yul-Bataar",
+      "aliases": [],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A giant Shu Heartrender who serves as Sturmhond's first mate. Has a love of poetry and is surprisingly gentle despite his size.",
+          "role": "Heartrender and first mate",
+          "relationships": {
+            "Sturmhond": "Serves as first mate",
+            "Tamar": "Twin sister",
+            "Alina Starkov": "Protects"
+          }
+        }
+      }
+    },
+    "tamar": {
+      "name": "Tamar Kir-Bataar",
+      "aliases": [],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A skilled Shu warrior and Heartrender who is part of Sturmhond's crew. Tolya's twin sister, equally dangerous but more direct.",
+          "role": "Heartrender and warrior",
+          "relationships": {
+            "Tolya": "Twin brother",
+            "Sturmhond": "Serves loyally",
+            "Alina Starkov": "Protects"
+          }
+        }
+      }
+    },
+    "sergei": {
+      "name": "Sergei",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A nervous young Grisha Heartrender at the Little Palace. Easily frightened and not particularly powerful.",
+          "role": "Junior Heartrender",
+          "relationships": {
+            "Marie": "Fellow student",
+            "Nadia": "Fellow student"
+          }
+        }
+      }
+    },
+    "ana-kuya": {
+      "name": "Ana Kuya",
+      "aliases": [],
+      "appearances": [1, 10, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The stern headmistress of Keramzin orphanage where Alina and Mal grew up. Strict but caring in her own way.",
+          "role": "Orphanage headmistress",
+          "relationships": {
+            "Alina Starkov": "Raised at her orphanage",
+            "Mal Oretsev": "Raised at her orphanage"
+          }
+        }
+      }
+    },
+    "botkin": {
+      "name": "Botkin",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A former mercenary who teaches combat at the Little Palace. Speaks with a thick accent and is an excellent weapons instructor.",
+          "role": "Combat instructor",
+          "relationships": {
+            "Alina Starkov": "Teaches fighting skills to"
+          }
+        }
+      }
+    },
+    "apparat": {
+      "name": "The Apparat",
+      "aliases": [],
+      "appearances": [8, 9, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The King's spiritual advisor, a gaunt priest with ambitious eyes. Sees opportunity in Alina's power for religious purposes.",
+          "role": "Royal priest and advisor",
+          "relationships": {
+            "The King": "Spiritual advisor to",
+            "Alina Starkov": "Seeks to use for religious purposes"
+          }
+        }
+      }
+    },
+    "david": {
+      "name": "David Kostyk",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A brilliant but socially awkward Durast who creates Grisha amplifiers and devices. Wears a purple kefta and is completely absorbed in his work.",
+          "role": "Fabrikator and inventor",
+          "relationships": {
+            "Genya Safin": "Secretly in love with",
+            "The Darkling": "Creates amplifiers for"
+          }
+        }
+      }
+    },
+    "volcra": {
+      "name": "Volcra",
+      "aliases": ["Shadow creatures"],
+      "appearances": [2, 15, 16, 17, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Terrifying winged creatures that live in the Shadow Fold. Attack anything that enters their domain with razor-sharp claws and teeth.",
+          "role": "Monsters of the Shadow Fold",
+          "relationships": {
+            "The Darkling": "Created by (unknown to most)"
+          }
+        }
+      }
+    },
+    "grisha-fabrikators": {
+      "name": "Fabrikators",
+      "aliases": ["Durasts", "Alkemis"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grisha who work with materials - Durasts work with solid materials like metal and stone, while Alkemis work with chemicals and poisons.",
+          "role": "Materialki Grisha",
+          "relationships": {
+            "David": "Most notable member at Little Palace"
+          }
+        }
+      }
+    },
+    "first-army-soldiers": {
+      "name": "First Army Soldiers",
+      "aliases": [],
+      "appearances": [1, 2, 3, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Regular human soldiers who make up the bulk of Ravka's military forces. Often resentful of the Grisha Second Army's privileges.",
+          "role": "Regular army soldiers",
+          "relationships": {
+            "Mal Oretsev": "Fellow soldiers",
+            "Alina Starkov": "Former member"
+          }
+        }
+      }
+    },
+    "morozova": {
+      "name": "Ilya Morozova",
+      "aliases": ["The Bonesmith"],
+      "appearances": [10, 11, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A legendary Grisha who created powerful amplifiers from mythical creatures. Disappeared long ago but his work remains.",
+          "role": "Legendary amplifier creator",
+          "relationships": {
+            "The Darkling": "Former associate",
+            "Baghra": "Former lover"
+          }
+        }
+      }
+    },
+    "stag": {
+      "name": "The Stag",
+      "aliases": ["Morozova's Stag"],
+      "appearances": [11, 14, 15, 16, 17],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A magical white stag that serves as one of Morozova's amplifiers. Grants incredible power to whoever claims it.",
+          "role": "Mythical amplifier creature",
+          "relationships": {
+            "Morozova": "Created by",
+            "Alina Starkov": "Bonded to",
+            "Mal Oretsev": "Tracked by"
+          }
+        }
+      }
+    },
+    "captain-of-guard": {
+      "name": "Captain of the Palace Guard",
+      "aliases": [],
+      "appearances": [8, 9, 14, 15, 22, 23],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The head of the royal guard at the Grand Palace. Responsible for the King and Queen's security.",
+          "role": "Royal guard captain",
+          "relationships": {
+            "The King": "Protects",
+            "The Queen": "Protects"
+          }
+        }
+      }
+    },
+    "shu-soldiers": {
+      "name": "Shu Soldiers",
+      "aliases": [],
+      "appearances": [1, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Enemy soldiers from Shu Han who are at war with Ravka. Known for their discipline and cruelty toward captured Grisha.",
+          "role": "Enemy soldiers",
+          "relationships": {
+            "Ravka": "At war with"
+          }
+        }
+      }
+    },
+    "fjerdan-soldiers": {
+      "name": "Fjerdan Soldiers",
+      "aliases": ["Drüskelle"],
+      "appearances": [1, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Enemy soldiers from Fjerda who hunt and kill Grisha, believing them to be abominations. Particularly feared by all Grisha.",
+          "role": "Grisha hunters",
+          "relationships": {
+            "Ravka": "At war with",
+            "Grisha": "Hunt and kill"
+          }
+        }
+      }
+    },
+    "peasants": {
+      "name": "Ravkan Peasants",
+      "aliases": [],
+      "appearances": [1, 3, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Common people of Ravka who suffer under the constant warfare and the Shadow Fold's disruption of trade routes.",
+          "role": "Common citizens",
+          "relationships": {
+            "The King": "Ruled by",
+            "First Army": "Conscripted into"
+          }
+        }
+      }
+    },
+    "palace-servants": {
+      "name": "Palace Servants",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The many servants who work at the Little Palace and Grand Palace, maintaining the luxurious lifestyle of the Grisha and royalty.",
+          "role": "Palace staff",
+          "relationships": {
+            "Alina Starkov": "Serve at the Little Palace",
+            "The King": "Serve the royal family"
+          }
+        }
+      }
+    },
+    "little-palace-grisha": {
+      "name": "Little Palace Grisha",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The community of Grisha who live and train at the Little Palace. Divided into Corporalki (red kefta), Etherealki (blue kefta), and Materialki (purple kefta).",
+          "role": "Grisha community",
+          "relationships": {
+            "The Darkling": "Led by",
+            "Alina Starkov": "New member among them"
+          }
+        }
+      }
+    },
+    "oprichniki": {
+      "name": "Oprichniki",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Elite guards who serve the Darkling directly. Wear black uniforms and are fanatically loyal to their master.",
+          "role": "The Darkling's personal army",
+          "relationships": {
+            "The Darkling": "Serve fanatically",
+            "Ivan": "Work alongside",
+            "Fedyor": "Work alongside"
+          }
+        }
+      }
+    },
+    "skiffs-crew": {
+      "name": "Skiff Crew",
+      "aliases": [],
+      "appearances": [1, 2, 15, 16, 17, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Brave sailors who pilot the sandskiffs across the Shadow Fold. Face constant danger from volcra attacks.",
+          "role": "Fold crossing specialists",
+          "relationships": {
+            "First Army": "Transport soldiers across Fold",
+            "Volcra": "Constant threat from"
+          }
+        }
+      }
+    },
+    "keramzin-children": {
+      "name": "Keramzin Orphans",
+      "aliases": [],
+      "appearances": [1, 10, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The other children who grew up at Keramzin orphanage alongside Alina and Mal. Many were later conscripted into the army.",
+          "role": "Orphanage children",
+          "relationships": {
+            "Alina Starkov": "Childhood companions",
+            "Mal Oretsev": "Childhood companions",
+            "Ana Kuya": "Raised by"
+          }
+        }
+      }
+    },
+    "inferni-grisha": {
+      "name": "Inferni",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grisha who can manipulate fire and heat. Part of the Etherealki order and wear blue kefta.",
+          "role": "Fire-summoning Grisha",
+          "relationships": {
+            "The Darkling": "Serve under",
+            "Squallers": "Fellow Etherealki"
+          }
+        }
+      }
+    },
+    "squallers-grisha": {
+      "name": "Squallers",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grisha who can manipulate air and wind. The most common type of Etherealki, wearing blue kefta.",
+          "role": "Wind-summoning Grisha",
+          "relationships": {
+            "Zoya": "Most powerful among them",
+            "Marie": "Member of order",
+            "Nadia": "Member of order"
+          }
+        }
+      }
+    },
+    "tidemakers-grisha": {
+      "name": "Tidemakers",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grisha who can manipulate water. The rarest of the Etherealki orders, also wearing blue kefta.",
+          "role": "Water-summoning Grisha",
+          "relationships": {
+            "Squallers": "Fellow Etherealki",
+            "Inferni": "Fellow Etherealki"
+          }
+        }
+      }
+    },
+    "heartrenders-grisha": {
+      "name": "Heartrenders",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Grisha who can manipulate the human body - stopping hearts, healing, or controlling blood flow. Wear red kefta and are feared in combat.",
+          "role": "Body-manipulating Grisha",
+          "relationships": {
+            "Ivan": "Elite member",
+            "Fedyor": "Elite member",
+            "Healers": "Fellow Corporalki"
+          }
+        }
+      }
+    },
+    "healers-grisha": {
+      "name": "Healers",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grisha who specialize in healing injuries and illnesses. A subset of Corporalki who wear red kefta.",
+          "role": "Healing Grisha",
+          "relationships": {
+            "Heartrenders": "Fellow Corporalki",
+            "Genya": "Related abilities but different focus"
+          }
+        }
+      }
+    },
+    "tailors-grisha": {
+      "name": "Tailors",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Rare Grisha who can alter physical appearances. Genya is the only known Tailor at the Little Palace.",
+          "role": "Appearance-altering Grisha",
+          "relationships": {
+            "Genya Safin": "Primary representative"
+          }
+        }
+      }
+    },
+    "alkemi-grisha": {
+      "name": "Alkemi",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grisha who work with chemicals, poisons, and other dangerous substances. Part of the Materialki order wearing purple kefta.",
+          "role": "Chemical-working Grisha",
+          "relationships": {
+            "Durasts": "Fellow Materialki",
+            "David": "Work alongside"
+          }
+        }
+      }
+    },
+    "durasts-grisha": {
+      "name": "Durasts",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grisha who work with solid materials like metal, stone, and wood. Create weapons and amplifiers for other Grisha.",
+          "role": "Material-working Grisha",
+          "relationships": {
+            "David": "Leading member",
+            "Alkemi": "Fellow Materialki"
+          }
+        }
+      }
+    },
+    "merchants": {
+      "name": "Merchants",
+      "aliases": [],
+      "appearances": [1, 3, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Traders and business people whose livelihoods are severely impacted by the Shadow Fold cutting through Ravka's trade routes.",
+          "role": "Commercial traders",
+          "relationships": {
+            "Shadow Fold": "Disrupted by",
+            "Ravkan economy": "Essential part of"
+          }
+        }
+      }
+    },
+    "nobles": {
+      "name": "Ravkan Nobles",
+      "aliases": [],
+      "appearances": [8, 9, 14, 15, 22, 23],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The aristocratic class of Ravka who live in luxury while the country suffers from war and the Shadow Fold.",
+          "role": "Aristocratic class",
+          "relationships": {
+            "The King": "Serve in court",
+            "The Queen": "Part of royal court"
+          }
+        }
+      }
+    },
+    "os-alta-citizens": {
+      "name": "Os Alta Citizens",
+      "aliases": [],
+      "appearances": [3, 4, 8, 9, 14, 15, 22, 23],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Residents of Ravka's capital city where both the Grand Palace and Little Palace are located.",
+          "role": "Capital city residents",
+          "relationships": {
+            "The King": "Subjects of",
+            "Grisha": "Live near"
+          }
+        }
+      }
+    },
+    "kribirsk-soldiers": {
+      "name": "Kribirsk Garrison",
+      "aliases": [],
+      "appearances": [1, 2, 3, 16, 17, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Military forces stationed at the town on the edge of the Shadow Fold, tasked with managing crossings and defense.",
+          "role": "Border garrison troops",
+          "relationships": {
+            "First Army": "Part of larger force",
+            "Shadow Fold": "Guard against"
+          }
+        }
+      }
+    },
+    "priests": {
+      "name": "Ravkan Priests",
+      "aliases": [],
+      "appearances": [8, 9, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Religious figures in Ravka who begin to see Alina as a possible saint due to her light-summoning abilities.",
+          "role": "Religious clergy",
+          "relationships": {
+            "The Apparat": "Led by",
+            "Alina Starkov": "See as potential saint"
+          }
+        }
+      }
+    },
+    "refugees": {
+      "name": "War Refugees",
+      "aliases": [],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Displaced people fleeing from the ongoing wars and the chaos caused by the expanding Shadow Fold.",
+          "role": "Displaced civilians",
+          "relationships": {
+            "Alina Starkov": "Look to for salvation",
+            "The Apparat": "Ministered to by"
+          }
+        }
+      }
+    },
+    "spy-network": {
+      "name": "The Darkling's Spies",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A network of informants and agents who report to the Darkling throughout Ravka and beyond.",
+          "role": "Intelligence network",
+          "relationships": {
+            "The Darkling": "Report to and serve"
+          }
+        }
+      }
+    },
+    "library-scholars": {
+      "name": "Palace Scholars",
+      "aliases": [],
+      "appearances": [10, 11, 14, 15],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Academic researchers who maintain the extensive libraries at the Little Palace and study Grisha history and amplifiers.",
+          "role": "Academic researchers",
+          "relationships": {
+            "Alina Starkov": "Provide research to",
+            "Morozova": "Study the works of"
+          }
+        }
+      }
+    },
+    "cult-followers": {
+      "name": "Alina's Cult Followers",
+      "aliases": ["Sun Saint Followers"],
+      "appearances": [18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Religious fanatics who worship Alina as 'Sankta Alina' and believe she will save Ravka from the Shadow Fold.",
+          "role": "Religious devotees",
+          "relationships": {
+            "Alina Starkov": "Worship as saint",
+            "The Apparat": "Led and organized by"
+          }
+        }
+      }
+    },
+    "captain-razin": {
+      "name": "Captain Razin",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The captain of the skiff that carries Alina's unit across the Shadow Fold. An experienced veteran of many crossings.",
+          "role": "Skiff captain",
+          "relationships": {
+            "Skiff crew": "Commands",
+            "First Army": "Transports"
+          }
+        }
+      }
+    },
+    "lieutenant-konev": {
+      "name": "Lieutenant Konev",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A First Army officer who supervises the cartographers during the Fold crossing. Shows typical disdain for non-combat roles.",
+          "role": "First Army lieutenant",
+          "relationships": {
+            "Alina Starkov": "Supervises",
+            "Mikhael": "Commands",
+            "Dubrov": "Commands"
+          }
+        }
+      }
+    },
+    "eva": {
+      "name": "Eva",
+      "aliases": [],
+      "appearances": [1, 10, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the children at Keramzin orphanage. A friend to both Alina and Mal during their childhood.",
+          "role": "Orphanage child",
+          "relationships": {
+            "Alina Starkov": "Childhood friend",
+            "Mal Oretsev": "Childhood friend",
+            "Ana Kuya": "Under care of"
+          }
+        }
+      }
+    },
+    "ruby": {
+      "name": "Ruby",
+      "aliases": [],
+      "appearances": [1, 10, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another child from Keramzin orphanage. Part of Alina and Mal's childhood group.",
+          "role": "Orphanage child",
+          "relationships": {
+            "Alina Starkov": "Childhood companion",
+            "Mal Oretsev": "Childhood companion",
+            "Eva": "Fellow orphan"
+          }
+        }
+      }
+    },
+    "general-zlatan": {
+      "name": "General Zlatan",
+      "aliases": [],
+      "appearances": [3, 8, 9, 16, 17, 22, 23],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A high-ranking First Army general who resents the Darkling's influence over military matters.",
+          "role": "First Army general",
+          "relationships": {
+            "The Darkling": "Political rival",
+            "The King": "Military advisor to"
+          }
+        }
+      }
+    },
+    "commander-volkov": {
+      "name": "Commander Volkov",
+      "aliases": [],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A First Army commander who leads forces against the Darkling's expansion of the Shadow Fold.",
+          "role": "First Army commander",
+          "relationships": {
+            "General Zlatan": "Serves under",
+            "Alina Starkov": "Initially opposes, later supports"
+          }
+        }
+      }
+    },
+    "pavel": {
+      "name": "Pavel",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young Inferni at the Little Palace. Nervous and eager to prove himself among the other Grisha.",
+          "role": "Junior Inferni",
+          "relationships": {
+            "Sergei": "Fellow junior Grisha",
+            "Marie": "Friendly with",
+            "Nadia": "Friendly with"
+          }
+        }
+      }
+    },
+    "maxim": {
+      "name": "Maxim",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An experienced Heartrender who helps train the younger Corporalki at the Little Palace.",
+          "role": "Senior Heartrender",
+          "relationships": {
+            "Ivan": "Fellow Heartrender",
+            "Sergei": "Trains"
+          }
+        }
+      }
+    },
+    "polina": {
+      "name": "Polina",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A skilled Squaller who often works alongside Zoya. Less hostile than Zoya but still cool toward Alina.",
+          "role": "Experienced Squaller",
+          "relationships": {
+            "Zoya": "Works with",
+            "Alina Starkov": "Indifferent toward"
+          }
+        }
+      }
+    },
+    "adrik": {
+      "name": "Adrik",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young Squaller who looks up to Zoya and mimics her dismissive attitude toward Alina.",
+          "role": "Junior Squaller",
+          "relationships": {
+            "Zoya": "Idolizes",
+            "Alina Starkov": "Follows Zoya's lead in disliking"
+          }
+        }
+      }
+    },
+    "nina": {
+      "name": "Nina",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A confident young Heartrender who is popular among the other Grisha at the Little Palace.",
+          "role": "Junior Heartrender",
+          "relationships": {
+            "Marie": "Friend of",
+            "Nadia": "Friend of"
+          }
+        }
+      }
+    },
+    "harshaw": {
+      "name": "Harshaw",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An eccentric Inferni who keeps unusual pets and has a reputation for unpredictable behavior.",
+          "role": "Experienced Inferni",
+          "relationships": {
+            "Pavel": "Senior to"
+          }
+        }
+      }
+    },
+    "stigg": {
+      "name": "Stigg",
+      "aliases": [],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A crew member aboard Sturmhond's ship. Skilled sailor and loyal to the captain.",
+          "role": "Ship crew member",
+          "relationships": {
+            "Sturmhond": "Serves",
+            "Tolya": "Fellow crew member",
+            "Tamar": "Fellow crew member"
+          }
+        }
+      }
+    },
+    "privyet": {
+      "name": "Privyet",
+      "aliases": [],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Another member of Sturmhond's crew. Experienced in both sailing and combat.",
+          "role": "Ship crew member",
+          "relationships": {
+            "Sturmhond": "Serves loyally",
+            "Stigg": "Fellow crew member"
+          }
+        }
+      }
+    },
+    "duke-keramsov": {
+      "name": "Duke Keramsov",
+      "aliases": [],
+      "appearances": [8, 9, 14, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wealthy noble at the Ravkan court who seeks to curry favor with the royal family and the Darkling.",
+          "role": "Court noble",
+          "relationships": {
+            "The King": "Serves at court of",
+            "The Queen": "Flatters"
+          }
+        }
+      }
+    },
+    "count-kirigin": {
+      "name": "Count Kirigin",
+      "aliases": [],
+      "appearances": [8, 9, 14, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A young and somewhat foolish nobleman who is fascinated by Grisha powers and eager to ingratiate himself with Alina.",
+          "role": "Young courtier",
+          "relationships": {
+            "Alina Starkov": "Tries to impress",
+            "Duke Keramsov": "Fellow courtier"
+          }
+        }
+      }
+    },
+    "nikolai-lantsov": {
+      "name": "Prince Nikolai Lantsov",
+      "aliases": ["Sturmhond", "Sobachka"],
+      "appearances": [18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "The spare prince of Ravka who has been living as the privateer Sturmhond. Intelligent, charismatic, and politically savvy.",
+          "role": "Second prince of Ravka",
+          "relationships": {
+            "The King": "Second son of",
+            "Alina Starkov": "Ally and potential romantic interest",
+            "Tolya": "Commands loyalty of",
+            "Tamar": "Commands loyalty of"
+          }
+        }
+      }
+    },
+    "vadim": {
+      "name": "Vadim",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Durast who works in the workshops of the Little Palace, creating weapons and tools for the Grisha.",
+          "role": "Durast craftsman",
+          "relationships": {
+            "David": "Works alongside",
+            "Fabrikators": "Part of order"
+          }
+        }
+      }
+    },
+    "paja": {
+      "name": "Paja",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Alkemi who specializes in creating poisons and other dangerous chemical compounds at the Little Palace.",
+          "role": "Alkemi specialist",
+          "relationships": {
+            "Vadim": "Fellow Materialki",
+            "David": "Fellow Materialki"
+          }
+        }
+      }
+    },
+    "kostyk": {
+      "name": "Kostyk",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elderly Durast who teaches the younger Materialki and has vast knowledge of amplifier creation.",
+          "role": "Senior Durast instructor",
+          "relationships": {
+            "David": "Mentor to",
+            "Vadim": "Teaches"
+          }
+        }
+      }
+    },
+    "anya": {
+      "name": "Anya",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A kind Healer who works in the infirmary at the Little Palace, tending to injured Grisha and students.",
+          "role": "Palace Healer",
+          "relationships": {
+            "Alina Starkov": "Tends to when needed",
+            "Marie": "Heals when injured",
+            "Nadia": "Heals when injured"
+          }
+        }
+      }
+    },
+    "dimitri": {
+      "name": "Dimitri",
+      "aliases": [],
+      "appearances": [18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A former Grisha who joined Alina's resistance movement after becoming disillusioned with the Darkling.",
+          "role": "Resistance member",
+          "relationships": {
+            "Alina Starkov": "Supports in rebellion",
+            "The Apparat": "Works with reluctantly"
+          }
+        }
+      }
+    },
+    "misha": {
+      "name": "Misha",
+      "aliases": [],
+      "appearances": [18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A young boy who becomes devoted to Alina and serves as a messenger in her underground movement.",
+          "role": "Young resistance member",
+          "relationships": {
+            "Alina Starkov": "Devoted follower",
+            "The Apparat": "Serves under"
+          }
+        }
+      }
+    },
+    "captain-bezya": {
+      "name": "Captain Bezya",
+      "aliases": [],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A First Army captain who leads troops in the fight against the Darkling's forces after the Fold expansion.",
+          "role": "First Army captain",
+          "relationships": {
+            "Commander Volkov": "Serves under",
+            "General Zlatan": "Reports to through chain of command"
+          }
+        }
+      }
+    },
+    "brother-felix": {
+      "name": "Brother Felix",
+      "aliases": [],
+      "appearances": [18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A priest who serves under the Apparat and helps spread the word of Alina as a saint among the people.",
+          "role": "Religious brother",
+          "relationships": {
+            "The Apparat": "Serves under",
+            "Alina Starkov": "Preaches about as saint"
+          }
+        }
+      }
+    },
+    "sister-marianne": {
+      "name": "Sister Marianne",
+      "aliases": [],
+      "appearances": [18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A nun who tends to refugees and spreads the Apparat's religious message about Alina being a saint.",
+          "role": "Religious sister",
+          "relationships": {
+            "The Apparat": "Serves faithfully",
+            "Brother Felix": "Fellow religious worker"
+          }
+        }
+      }
+    },
+    "captain-nesku": {
+      "name": "Captain Nesku",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A First Army officer stationed at Kribirsk who oversees the organization of Fold crossings.",
+          "role": "Kribirsk garrison officer",
+          "relationships": {
+            "Captain Razin": "Coordinates with",
+            "Lieutenant Konev": "Senior to"
+          }
+        }
+      }
+    },
+    "yuri": {
+      "name": "Yuri",
+      "aliases": [],
+      "appearances": [10, 11, 14, 15],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A scholar at the Little Palace who specializes in ancient Grisha history and the study of amplifiers.",
+          "role": "Historical scholar",
+          "relationships": {
+            "Alina Starkov": "Provides research to about Morozova",
+            "David": "Collaborates with on amplifier theory"
+          }
+        }
+      }
+    },
+    "ilia": {
+      "name": "Ilia",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A servant at the Little Palace who is assigned to help Alina adjust to her new life and luxury.",
+          "role": "Personal servant",
+          "relationships": {
+            "Alina Starkov": "Serves personally",
+            "Genya": "Takes direction from"
+          }
+        }
+      }
+    },
+    "lev": {
+      "name": "Lev",
+      "aliases": [],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A crew member on Sturmhond's ship who specializes in maintaining the vessel's unusual flying capabilities.",
+          "role": "Ship's engineer",
+          "relationships": {
+            "Sturmhond": "Serves",
+            "Stigg": "Works alongside",
+            "Privyet": "Fellow crew member"
+          }
+        }
+      }
+    },
+    "petya": {
+      "name": "Petya",
+      "aliases": [],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A young First Army soldier who joins Alina's cause after witnessing the destruction caused by the expanded Shadow Fold.",
+          "role": "Converted soldier",
+          "relationships": {
+            "Alina Starkov": "Supports and fights for",
+            "Captain Bezya": "Former subordinate of"
+          }
+        }
+      }
+    },
+    "vasily": {
+      "name": "Vasily",
+      "aliases": [],
+      "appearances": [8, 9, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The crown prince of Ravka, heir to the throne. More interested in parties and luxury than governing.",
+          "role": "Crown Prince of Ravka",
+          "relationships": {
+            "The King": "Eldest son and heir of",
+            "Prince Nikolai": "Older brother of"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Alina Starkov, a sickly mapmaker in the First Army, prepares to cross the dangerous Shadow Fold with her childhood friend Mal Oretsev. The Shadow Fold is a swath of darkness filled with monsters called volcra that divides Ravka. Alina reflects on her childhood at Keramzin orphanage and her deep friendship with Mal.",
+    "2": "The skiff carrying Alina's unit is attacked by volcra in the Shadow Fold. When Mal is gravely injured, Alina's desperation triggers a burst of brilliant light that drives away the creatures. The mysterious Darkling, leader of the Grisha, arrives and recognizes Alina as the legendary Sun Summoner.",
+    "3": "The Darkling takes Alina to Os Alta, the capital, while she struggles to understand her new powers. She is separated from Mal and brought to the opulent Little Palace where the Grisha live and train. The Darkling explains that she may be powerful enough to destroy the Shadow Fold.",
+    "4": "Alina is given luxurious quarters at the Little Palace and meets other Grisha, including the hostile Zoya and the friendly Marie and Nadia. Genya, a beautiful Grisha Tailor, befriends her and improves her appearance. Alina begins to feel overwhelmed by the attention and expectations placed upon her.",
+    "5": "Alina begins training with the harsh instructor Baghra, who shows no patience for her struggles to control her power. She also trains in combat with Botkin and learns about Grisha politics from Genya. The Darkling maintains a mysterious but compelling presence in her life.",
+    "6": "Alina's training intensifies as Baghra pushes her harder. She begins to make progress with her light-summoning abilities but still struggles with consistency. The other Grisha watch her with a mixture of awe and resentment, particularly Zoya who becomes increasingly hostile.",
+    "7": "As Alina grows stronger, she becomes more integrated into Little Palace life but feels increasingly isolated from her past. She longs to see Mal but is told he is on assignment. The Darkling becomes more attentive, and Alina finds herself drawn to him despite her reservations.",
+    "8": "Alina is presented at court to the King and Queen of Ravka, where she demonstrates her powers. The vain Queen is more interested in Genya's beauty treatments than Alina's abilities. The Apparat, the King's priest, sees religious potential in Alina's power. Political intrigue swirls around her growing reputation.",
+    "9": "Alina's fame spreads throughout Ravka as news of the Sun Summoner reaches the people. She performs public demonstrations of her power, bringing hope to the war-torn nation. However, she feels increasingly like a political tool rather than a person, and her desire to see Mal grows stronger.",
+    "10": "Baghra reveals shocking truths about the Darkling's past and his true intentions. She warns Alina that the Darkling plans to use her power for his own dark purposes and that she must flee immediately. Alina learns about Morozova's amplifiers and their connection to the Darkling's centuries-long plan.",
+    "11": "Following Baghra's warning, Alina escapes from the Little Palace disguised as a servant. She flees into the countryside, determined to find Mal and warn him about the Darkling's true nature. Her journey is dangerous as she must avoid both the Darkling's agents and enemy forces.",
+    "12": "Alina reunites with Mal, and they flee together across Ravka while being pursued by the Darkling's forces. They seek passage across the True Sea but are betrayed and captured. Just as they face execution, they are rescued by the charismatic privateer captain Sturmhond and his crew.",
+    "13": "Aboard Sturmhond's ship, Alina and Mal meet Tolya and Tamar, twin Grisha warriors who serve the privateer. Alina learns that Sturmhond knows her true identity and offers to help her find Morozova's amplifiers. She must decide whether to trust this mysterious captain with her secrets.",
+    "14": "The group travels to hunt for the legendary Stag, one of Morozova's amplifiers that could greatly enhance Alina's power. They face dangers in the wilderness while being pursued by the Darkling's forces. Alina struggles with the moral implications of killing the magical creature for its power.",
+    "15": "They successfully track and find Morozova's Stag in the forest. However, their triumph is short-lived as the Darkling arrives with his forces, having anticipated their destination. A confrontation ensues over who will claim the amplifier, with Alina caught between her desire for power and her conscience.",
+    "16": "The Darkling kills the Stag and forces its antler collar around Alina's neck, binding her power to his will. He reveals his true plan to expand the Shadow Fold and use it as a weapon against Ravka's enemies. Alina realizes she has become a prisoner despite her enhanced abilities.",
+    "17": "Under the Darkling's control, Alina is forced to demonstrate the expanded Shadow Fold's destructive power by obliterating an enemy stronghold. Hundreds die in the darkness as the Fold consumes everything in its path. Alina is horrified by her unwilling participation in this massacre.",
+    "18": "Sturmhond reveals his true identity as Prince Nikolai Lantsov of Ravka, adding a new political dimension to their alliance. Meanwhile, Alina struggles to break free from the Darkling's control over her power through the amplifier. The Apparat's religious movement grows stronger as people view Alina as a saint.",
+    "19": "Alina discovers a way to fight back against the Darkling's control by drawing on her connection to the Stag's spirit and her own inner strength. She begins to reclaim her power while planning her resistance against the Darkling. Mal supports her despite the personal cost.",
+    "20": "The resistance against the Darkling gains momentum as Alina masters her abilities and breaks free from his control. She reunites with Genya and other allies who have turned against the Darkling after learning of his true nature. A plan forms to stop him from using the Shadow Fold as a weapon.",
+    "21": "Alina leads an assault on the Shadow Fold itself, attempting to destroy it and end the Darkling's power source. The battle is fierce as the Darkling commands volcra and his remaining followers. Alina must push her abilities to their limit while her friends fight for their lives.",
+    "22": "In the climactic confrontation, Alina faces the Darkling in direct combat within the Shadow Fold. She realizes that destroying him may require sacrificing her own power. The battle threatens to consume everyone as light and darkness clash in an epic struggle.",
+    "23": "Alina makes the ultimate sacrifice, using all her power to destroy the Shadow Fold and defeat the Darkling, but loses her abilities in the process. She and Mal escape to start a new life together, free from the burdens of power and politics. Ravka begins to heal as the Fold disappears and hope returns to the land."
+  }
+}
