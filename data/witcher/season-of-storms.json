@@ -662,8 +662,7 @@
           }
         }
       }
-    }
-  },
+    },
     "mysterious-hooded-figure": {
       "name": "The Hooded Stranger",
       "aliases": ["Unknown Benefactor"],
@@ -676,6 +675,214 @@
           "relationships": {
             "Geralt": "Observes from distance",
             "Greater Forces": "May represent"
+          }
+        }
+      }
+    },
+    "lyrian-ambassador": {
+      "name": "Ambassador Astrogarus",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A diplomatic representative from Lyria who becomes involved in the complex political situation surrounding Kerack.",
+          "role": "Diplomatic envoy",
+          "relationships": {
+            "Lyria": "Represents",
+            "Political Negotiations": "Participates in"
+          }
+        }
+      }
+    },
+    "kerack-noble-lady-ferrant": {
+      "name": "Lady Ferrant",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A noblewoman at the Kerack court who is involved in the social and political intrigues of the royal family.",
+          "role": "Court noblewoman",
+          "relationships": {
+            "Royal Court": "Influential in",
+            "Queen Hedvig": "Associates with"
+          }
+        }
+      }
+    },
+    "court-musician-dainty": {
+      "name": "Court Musician Dainty",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A court musician who provides entertainment at royal functions and sometimes serves as an informal messenger.",
+          "role": "Court entertainer",
+          "relationships": {
+            "Royal Court": "Entertains",
+            "Information Network": "Sometimes part of"
+          }
+        }
+      }
+    },
+    "kerack-spy-network-agent": {
+      "name": "Agent Talar",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A member of the royal intelligence network in Kerack who reports on threats to the kingdom.",
+          "role": "Intelligence agent",
+          "relationships": {
+            "Spymaster Roche": "Reports to",
+            "Kerack Security": "Works for"
+          }
+        }
+      }
+    },
+    "rissberg-apprentice-younger": {
+      "name": "Apprentice Cordovan",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A junior apprentice at Rissberg who assists in magical research and experiments under the supervision of senior sorcerers.",
+          "role": "Junior apprentice",
+          "relationships": {
+            "Ortolan": "Studies under",
+            "Rissberg Academy": "Student at"
+          }
+        }
+      }
+    },
+    "kerack-merchant-guild-leader": {
+      "name": "Guildmaster Var Enc",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The head of Kerack's merchant guild who represents commercial interests in the kingdom's political affairs.",
+          "role": "Guild leader",
+          "relationships": {
+            "Merchant Guild": "Leads",
+            "King Belohun": "Advises on trade"
+          }
+        }
+      }
+    },
+    "ship-passenger-noblewoman": {
+      "name": "Lady Marta of Cidaris",
+      "aliases": [],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A traveling noblewoman who becomes a passenger on Captain Wolverstone's ship during Geralt's sea voyage.",
+          "role": "Noble passenger",
+          "relationships": {
+            "Cidaris": "Noble of",
+            "Captain Wolverstone": "Passenger of"
+          }
+        }
+      }
+    },
+    "ship-crew-bosun": {
+      "name": "Bosun Callonetta",
+      "aliases": [],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The ship's bosun responsible for maintaining discipline among the crew and overseeing daily operations.",
+          "role": "Ship's bosun",
+          "relationships": {
+            "Captain Wolverstone": "Second officer to",
+            "Ship's Crew": "Supervises"
+          }
+        }
+      }
+    },
+    "festival-merchant-giancardi": {
+      "name": "Merchant Giancardi",
+      "aliases": [],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A wealthy merchant who participates in the local festival, selling goods and representing commercial interests.",
+          "role": "Festival merchant",
+          "relationships": {
+            "Festival Commerce": "Major participant in",
+            "Local Trade": "Represents"
+          }
+        }
+      }
+    },
+    "aguara-companion-fox": {
+      "name": "The Silver Fox",
+      "aliases": [],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Another fox spirit associated with the Aguara, representing the mystical forces that Geralt encounters.",
+          "role": "Fox spirit",
+          "relationships": {
+            "Aguara": "Spirit companion of",
+            "Mystical Realm": "Inhabitant of"
+          }
+        }
+      }
+    },
+    "prison-guard-captain": {
+      "name": "Captain Fulko",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The captain of guards at a prison where Geralt is briefly held, representing law enforcement during his quest.",
+          "role": "Prison guard captain",
+          "relationships": {
+            "Prison Guards": "Commands",
+            "Law Enforcement": "Represents"
+          }
+        }
+      }
+    },
+    "innkeeper-wife-martha": {
+      "name": "Martha",
+      "aliases": ["Innkeeper's Wife"],
+      "appearances": [1, 17, 18],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The wife of tavern keeper Vesemir who helps run the inn and serves travelers including Geralt.",
+          "role": "Innkeeper's wife",
+          "relationships": {
+            "Vesemir": "Wife of",
+            "Inn Guests": "Serves"
+          }
+        }
+      }
+    },
+    "traveling-philosopher": {
+      "name": "Philosopher Napp",
+      "aliases": [],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A traveling scholar and philosopher who discusses magical theory and ethics with those he encounters.",
+          "role": "Traveling philosopher",
+          "relationships": {
+            "Academic Community": "Member of",
+            "Magical Theory": "Studies"
           }
         }
       }

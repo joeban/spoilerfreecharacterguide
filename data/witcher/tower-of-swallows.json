@@ -813,8 +813,7 @@
           }
         }
       }
-    }
-  },
+    },
     "time-traveler-galahad": {
       "name": "Galahad",
       "aliases": ["The Knight of Time"],
@@ -827,6 +826,320 @@
           "relationships": {
             "Ciri": "Guides through time",
             "Arthurian World": "Representative of"
+          }
+        }
+      }
+    },
+    "hotsporn": {
+      "name": "Hotsporn",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The charismatic leader of the Rats gang and Ciri's lover. He represents the dark path Ciri has chosen in her desperation.",
+          "role": "Gang leader",
+          "relationships": {
+            "Ciri": "Leader and lover",
+            "The Rats": "Commands"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Dies violently along with the rest of the Rats when Bonhart destroys the gang, marking the end of Ciri's criminal phase.",
+          "role": "Doomed gang leader",
+          "relationships": {
+            "Bonhart": "Killed by"
+          }
+        }
+      }
+    },
+    "philippa-eilhart": {
+      "name": "Philippa Eilhart",
+      "aliases": ["The Owl"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The powerful sorceress and spymaster continues her political machinations, seeking to control Ciri for her own agenda.",
+          "role": "Political sorceress",
+          "relationships": {
+            "Lodge of Sorceresses": "Leader of",
+            "Ciri": "Seeks to control"
+          }
+        }
+      }
+    },
+    "triss-merigold": {
+      "name": "Triss Merigold",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Works with other sorceresses in the Lodge, though she maintains some sympathy for Geralt and Ciri's situation.",
+          "role": "Lodge member",
+          "relationships": {
+            "Lodge of Sorceresses": "Member of",
+            "Geralt": "Former ally",
+            "Ciri": "Concerned for"
+          }
+        }
+      }
+    },
+    "margarita-laux-antille": {
+      "name": "Margarita Laux-Antille",
+      "aliases": ["Rita"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Lodge sorceress and former Rectress of Aretuza who participates in the political schemes surrounding Ciri.",
+          "role": "Lodge sorceress",
+          "relationships": {
+            "Lodge of Sorceresses": "Senior member of",
+            "Aretuza": "Former head of"
+          }
+        }
+      }
+    },
+    "ida-emean": {
+      "name": "Ida Emean aep Sivney",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An elven sorceress and member of the Lodge who represents elven interests in their political schemes.",
+          "role": "Elven Lodge member",
+          "relationships": {
+            "Lodge of Sorceresses": "Member of",
+            "Francesca Findabair": "Ally of"
+          }
+        }
+      }
+    },
+    "assire-var-anahid": {
+      "name": "Assire var Anahid",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Nilfgaardian sorceress who serves the empire's interests within the Lodge of Sorceresses.",
+          "role": "Nilfgaardian sorceress",
+          "relationships": {
+            "Lodge of Sorceresses": "Member of",
+            "Nilfgaard": "Represents"
+          }
+        }
+      }
+    },
+    "angouleme": {
+      "name": "Angoulême",
+      "aliases": [],
+      "appearances": [4, 5, 6, 8, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The youngest member of Geralt's company who proves her worth through courage and loyalty despite her criminal past.",
+          "role": "Company member",
+          "relationships": {
+            "Geralt's Company": "Youngest member of",
+            "Milva": "Mentored by"
+          }
+        }
+      }
+    },
+    "aen-elle-general-eredin": {
+      "name": "Eredin Bréacc Glas",
+      "aliases": ["King of the Wild Hunt"],
+      "appearances": [7, 9, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The fearsome leader of the Wild Hunt who pursues Ciri across worlds and dimensions for his own dark purposes.",
+          "role": "Otherworldly hunter",
+          "relationships": {
+            "Wild Hunt": "Commander of",
+            "Ciri": "Primary target",
+            "Avallac'h": "Rival of"
+          }
+        }
+      }
+    },
+    "aen-elle-navigator-caranthir": {
+      "name": "Caranthir Ar-Feiniel",
+      "aliases": ["The Navigator"],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Wild Hunt navigator with powerful ice magic who helps track Ciri through different worlds and times.",
+          "role": "Wild Hunt navigator",
+          "relationships": {
+            "Eredin": "Serves",
+            "Wild Hunt": "Navigator for"
+          }
+        }
+      }
+    },
+    "aen-elle-warrior-imlerith": {
+      "name": "Imlerith",
+      "aliases": ["General of the Red Riders"],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A brutal Wild Hunt general known for his fighting prowess and cruelty in hunting their targets.",
+          "role": "Wild Hunt general",
+          "relationships": {
+            "Eredin": "General under",
+            "Wild Hunt": "Military leader of"
+          }
+        }
+      }
+    },
+    "emhyr-var-emreis": {
+      "name": "Emperor Emhyr var Emreis",
+      "aliases": ["The White Flame"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Emperor of Nilfgaard who has his own mysterious personal interest in Ciri that goes beyond politics.",
+          "role": "Emperor with hidden agenda",
+          "relationships": {
+            "Ciri": "Seeks for personal reasons",
+            "Stefan Skellen": "Employs to find Ciri"
+          }
+        }
+      }
+    },
+    "bounty-hunter-nightingale": {
+      "name": "Nightingale",
+      "aliases": ["The Bounty Hunter"],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professional bounty hunter who works with Bonhart in tracking down and capturing valuable targets.",
+          "role": "Professional hunter",
+          "relationships": {
+            "Leo Bonhart": "Partner of",
+            "Criminal Underworld": "Operates in"
+          }
+        }
+      }
+    },
+    "rats-gang-member-spark": {
+      "name": "Spark",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Rats gang who participates in their criminal activities alongside Ciri and the others.",
+          "role": "Gang member",
+          "relationships": {
+            "The Rats": "Member of",
+            "Ciri": "Gang companion to"
+          }
+        }
+      }
+    },
+    "skellige-warrior-hjuki": {
+      "name": "Hjuki",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Skellige warrior who serves under Crach an Craite, representing the maritime warrior culture of the islands.",
+          "role": "Skellige warrior",
+          "relationships": {
+            "Crach an Craite": "Serves",
+            "Skellige": "Warrior of"
+          }
+        }
+      }
+    },
+    "skellige-druid-ermion": {
+      "name": "Ermion",
+      "aliases": ["Mousesack"],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A powerful druid from Skellige who has knowledge of ancient magic and the Elder Blood prophecies.",
+          "role": "Skellige druid",
+          "relationships": {
+            "Skellige Druids": "Leader of",
+            "Ciri": "Knows prophecies about"
+          }
+        }
+      }
+    },
+    "nilfgaardian-spy-vattier": {
+      "name": "Vattier de Rideaux",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A high-ranking Nilfgaardian intelligence officer who coordinates the empire's efforts to locate and capture Ciri.",
+          "role": "Imperial spymaster",
+          "relationships": {
+            "Emperor Emhyr": "Reports to",
+            "Stefan Skellen": "Coordinates with"
+          }
+        }
+      }
+    },
+    "arena-owner-cleaver": {
+      "name": "Cleaver",
+      "aliases": ["The Dwarf"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A dwarf crime boss who runs fighting arenas where Bonhart forces Ciri to compete for entertainment and profit.",
+          "role": "Arena owner",
+          "relationships": {
+            "Leo Bonhart": "Business partner of",
+            "Ciri": "Exploits in fights"
+          }
+        }
+      }
+    },
+    "arena-fighter-neratin": {
+      "name": "Neratin Ceka",
+      "aliases": ["The Beast"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A massive arena fighter who serves as one of Ciri's opponents in the fighting pits, representing the brutal entertainment.",
+          "role": "Arena champion",
+          "relationships": {
+            "Cleaver": "Fights for",
+            "Ciri": "Opponent of"
+          }
+        }
+      }
+    },
+    "temple-guard-nenneke": {
+      "name": "Nenneke",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A priestess of Melitele who provides healing and sanctuary, representing the religious forces trying to help in the conflict.",
+          "role": "Temple priestess",
+          "relationships": {
+            "Melitele": "Priestess of",
+            "Geralt": "Old friend of"
           }
         }
       }

@@ -877,8 +877,7 @@
           }
         }
       }
-    }
-  },
+    },
     "future-historian-algernon": {
       "name": "Algernon",
       "aliases": ["The Future Historian"],
@@ -891,6 +890,262 @@
           "relationships": {
             "Nimue": "Contemporary of",
             "Historical Records": "Studies and preserves"
+          }
+        }
+      }
+    },
+    "rience": {
+      "name": "Rience",
+      "aliases": ["The Fire Mage"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The scarred fire mage continues to serve Vilgefortz in the hunt for Ciri, his face bearing the permanent marks of his previous encounters.",
+          "role": "Fire mage hunter",
+          "relationships": {
+            "Vilgefortz": "Serves loyally",
+            "Ciri": "Primary target"
+          }
+        }
+      }
+    },
+    "stefan-skellen": {
+      "name": "Stefan Skellen",
+      "aliases": ["Tawny Owl"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Nilfgaardian agent continues his pursuit of Ciri for Emperor Emhyr, representing the empire's personal interest in her fate.",
+          "role": "Imperial agent",
+          "relationships": {
+            "Emperor Emhyr": "Serves directly",
+            "Ciri": "Hunts relentlessly"
+          }
+        }
+      }
+    },
+    "hotsporn": {
+      "name": "Hotsporn",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The deceased leader of the Rats gang, whose memory haunts Ciri as she faces the consequences of her time with the criminal group.",
+          "role": "Dead gang leader",
+          "relationships": {
+            "Ciri": "Former lover, memory haunts",
+            "The Rats": "Dead leader of"
+          }
+        }
+      }
+    },
+    "crach-an-craite": {
+      "name": "Crach an Craite",
+      "aliases": ["Jarl of Skellige"],
+      "appearances": [5, 6, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The powerful Skellige jarl who aids in the search for Ciri and supports Yennefer's investigation.",
+          "role": "Skellige jarl",
+          "relationships": {
+            "Yennefer": "Ally in search",
+            "Skellige": "Leading jarl of"
+          }
+        }
+      }
+    },
+    "hjalmar-an-craite": {
+      "name": "Hjalmar an Craite",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Crach's son, a young warrior eager to prove himself in the final battles and political upheavals.",
+          "role": "Young Skellige warrior",
+          "relationships": {
+            "Crach an Craite": "Son of",
+            "Cerys an Craite": "Brother of"
+          }
+        }
+      }
+    },
+    "cerys-an-craite": {
+      "name": "Cerys an Craite",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Crach's daughter, known for her wisdom and political acumen beyond her years.",
+          "role": "Wise Skellige princess",
+          "relationships": {
+            "Crach an Craite": "Daughter of",
+            "Hjalmar an Craite": "Sister of"
+          }
+        }
+      }
+    },
+    "philippa-eilhart": {
+      "name": "Philippa Eilhart",
+      "aliases": ["The Owl"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The master sorceress and spymaster continues her political schemes even as the world changes around her.",
+          "role": "Political mastermind",
+          "relationships": {
+            "Lodge of Sorceresses": "Leader of",
+            "Political Powers": "Manipulates"
+          }
+        }
+      }
+    },
+    "dijkstra": {
+      "name": "Sigismund Dijkstra",
+      "aliases": ["Sigi Reuven"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Redanian spymaster works his intelligence networks as the political situation reaches its climax.",
+          "role": "Master spy",
+          "relationships": {
+            "Redania": "Chief intelligence officer",
+            "Philippa Eilhart": "Complex relationship with"
+          }
+        }
+      }
+    },
+    "keira-metz": {
+      "name": "Keira Metz",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A younger Lodge sorceress who participates in their final schemes to control the political landscape.",
+          "role": "Ambitious sorceress",
+          "relationships": {
+            "Lodge of Sorceresses": "Member of",
+            "Political Ambitions": "Pursues"
+          }
+        }
+      }
+    },
+    "assire-var-anahid": {
+      "name": "Assire var Anahid",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Nilfgaardian sorceress represents her empire's magical interests in the Lodge's machinations.",
+          "role": "Imperial sorceress",
+          "relationships": {
+            "Lodge of Sorceresses": "Member of",
+            "Nilfgaard": "Represents"
+          }
+        }
+      }
+    },
+    "vattier-de-rideaux": {
+      "name": "Vattier de Rideaux",
+      "aliases": [],
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Nilfgaardian intelligence chief coordinates the empire's efforts in the final conflicts.",
+          "role": "Imperial spymaster",
+          "relationships": {
+            "Emperor Emhyr": "Chief intelligence officer",
+            "Stefan Skellen": "Coordinates operations with"
+          }
+        }
+      }
+    },
+    "boreas-mun": {
+      "name": "Boreas Mun",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professional bounty hunter working with other agents to capture Ciri for various interested parties.",
+          "role": "Bounty hunter",
+          "relationships": {
+            "Stefan Skellen": "Works with",
+            "Ciri": "Hunts"
+          }
+        }
+      }
+    },
+    "kenna": {
+      "name": "Kenna",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another bounty hunter in the network of professionals seeking Ciri, known for tracking skills.",
+          "role": "Professional tracker",
+          "relationships": {
+            "Bounty Hunter Network": "Member of",
+            "Ciri": "Tracks"
+          }
+        }
+      }
+    },
+    "ida-emean": {
+      "name": "Ida Emean aep Sivney",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An elven sorceress in the Lodge who represents elven interests in their political schemes.",
+          "role": "Elven Lodge member",
+          "relationships": {
+            "Lodge of Sorceresses": "Member of",
+            "Francesca Findabair": "Works with"
+          }
+        }
+      }
+    },
+    "cleaver": {
+      "name": "Cleaver",
+      "aliases": ["The Dwarf"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The dwarf crime boss who profited from Ciri's arena fights, representing the criminal underworld's exploitation.",
+          "role": "Crime boss",
+          "relationships": {
+            "Leo Bonhart": "Business partner of",
+            "Criminal Underworld": "Leader in"
+          }
+        }
+      }
+    },
+    "angouleme-spirit": {
+      "name": "Angoulême",
+      "aliases": [],
+      "appearances": [1, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The brave young woman who joined Geralt's company and proved her loyalty through the ultimate sacrifice.",
+          "role": "Heroic sacrifice",
+          "relationships": {
+            "Geralt's Company": "Died protecting",
+            "Milva": "Sister in arms"
           }
         }
       }

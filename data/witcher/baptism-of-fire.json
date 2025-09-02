@@ -713,8 +713,7 @@
           }
         }
       }
-    }
-  },
+    },
     "war-orphan-tim": {
       "name": "Tim",
       "aliases": ["The War Orphan"],
@@ -821,6 +820,286 @@
           "relationships": {
             "Free Company": "Commands",
             "Various Employers": "Sells services to"
+          }
+        }
+      }
+    },
+    "mistle": {
+      "name": "Mistle",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A member of the Rats gang that Ciri joins. She becomes Ciri's closest companion within the criminal group.",
+          "role": "Gang member",
+          "relationships": {
+            "Ciri": "Close companion to",
+            "The Rats": "Member of"
+          }
+        }
+      }
+    },
+    "giselher": {
+      "name": "Giselher",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A young member of the Rats gang, skilled with weapons and fiercely loyal to the group's criminal lifestyle.",
+          "role": "Young gang member",
+          "relationships": {
+            "The Rats": "Core member of",
+            "Ciri": "Gang brother to"
+          }
+        }
+      }
+    },
+    "kayleigh": {
+      "name": "Kayleigh",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The youngest member of the Rats before Ciri joined, eager to prove himself worthy of the gang.",
+          "role": "Youngest gang member",
+          "relationships": {
+            "The Rats": "Youngest member of",
+            "Ciri": "Looks up to"
+          }
+        }
+      }
+    },
+    "reef": {
+      "name": "Reef",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Rats gang member known for his quick thinking and ability to scout potential targets for robbery.",
+          "role": "Gang scout",
+          "relationships": {
+            "The Rats": "Scout for",
+            "Criminal Activities": "Plans"
+          }
+        }
+      }
+    },
+    "asse": {
+      "name": "Asse",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Another member of the Rats, skilled in combat and serving as one of their enforcers during robberies.",
+          "role": "Gang enforcer",
+          "relationships": {
+            "The Rats": "Enforcer for",
+            "Ciri": "Gang companion to"
+          }
+        }
+      }
+    },
+    "iskra": {
+      "name": "Iskra",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A female member of the Rats gang who serves as one of Ciri's companions in their criminal activities.",
+          "role": "Gang member",
+          "relationships": {
+            "The Rats": "Member of",
+            "Ciri": "Fellow gang member"
+          }
+        }
+      }
+    },
+    "stefan-skellen": {
+      "name": "Stefan Skellen",
+      "aliases": ["Tawny Owl"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Nilfgaardian agent working for Emperor Emhyr, tasked with tracking down and capturing Ciri for the empire.",
+          "role": "Imperial agent",
+          "relationships": {
+            "Emperor Emhyr": "Serves directly",
+            "Ciri": "Hunts for empire"
+          }
+        }
+      }
+    },
+    "emperor-emhyr": {
+      "name": "Emperor Emhyr var Emreis",
+      "aliases": ["The White Flame Dancing on the Graves of His Foes"],
+      "appearances": [2, 5, 7],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Emperor of Nilfgaard who has his own mysterious interest in Ciri's fate, driving the empire's continued search for her.",
+          "role": "Emperor with hidden agenda",
+          "relationships": {
+            "Ciri": "Seeks for unknown reasons",
+            "Field Marshal Coehoorn": "Commands military through"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "His personal interest in Ciri becomes more apparent as he assigns his best agents to find her, suggesting deeper motivations than mere politics.",
+          "role": "Emperor with personal stakes",
+          "relationships": {
+            "Stefan Skellen": "Employs personally"
+          }
+        }
+      }
+    },
+    "dol-blathanna-queen": {
+      "name": "Francesca Findabair",
+      "aliases": ["Enid an Gleanna", "The Beautiful"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Queen of the elves and a powerful sorceress who leads her people's struggle for survival in a world increasingly hostile to non-humans.",
+          "role": "Elven queen",
+          "relationships": {
+            "Elves": "Queen of",
+            "Scoia'tael": "Spiritual leader of"
+          }
+        }
+      }
+    },
+    "colonel-damien": {
+      "name": "Colonel Damien de la Tour",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Northern Kingdom colonel leading desperate defensive actions against the Nilfgaardian advance.",
+          "role": "Northern military commander",
+          "relationships": {
+            "Northern Armies": "Commands regiment in",
+            "Captain Winfried": "Works with"
+          }
+        }
+      }
+    },
+    "sergeant-gerd": {
+      "name": "Sergeant Gerd",
+      "aliases": [],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A tough Northern sergeant trying to maintain discipline among retreating troops during the Nilfgaardian invasion.",
+          "role": "Northern NCO",
+          "relationships": {
+            "Northern Armies": "Senior sergeant in",
+            "Retreating Soldiers": "Maintains order among"
+          }
+        }
+      }
+    },
+    "field-surgeon-joachim": {
+      "name": "Field Surgeon Joachim",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A battlefield medic working desperately to save wounded soldiers from both sides of the conflict.",
+          "role": "Military surgeon",
+          "relationships": {
+            "War Wounded": "Treats all",
+            "Regis": "Shares medical knowledge with"
+          }
+        }
+      }
+    },
+    "merchant-vivaldi": {
+      "name": "Dainty Biberveldt",
+      "aliases": ["Vivaldi"],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A halfling merchant trying to continue his trade routes despite the ongoing war disrupting commerce.",
+          "role": "Halfling merchant",
+          "relationships": {
+            "Geralt": "Old business partner",
+            "Trade Routes": "Maintains"
+          }
+        }
+      }
+    },
+    "doppler-dudu": {
+      "name": "Dudu",
+      "aliases": ["The Doppler"],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A doppler (shapeshifter) who has integrated into human society, representing the non-humans trying to survive through adaptation.",
+          "role": "Doppler merchant",
+          "relationships": {
+            "Dainty Biberveldt": "Sometimes impersonates",
+            "Non-human Underground": "Part of"
+          }
+        }
+      }
+    },
+    "bard-priscilla": {
+      "name": "Priscilla",
+      "aliases": ["Callonetta"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A fellow bard and performer who knows Dandelion, representing the artistic community affected by war.",
+          "role": "Bard and performer",
+          "relationships": {
+            "Dandelion": "Fellow performer",
+            "Artistic Community": "Member of"
+          }
+        }
+      }
+    },
+    "peasant-leader-coleman": {
+      "name": "Coleman",
+      "aliases": ["The Peasant Organizer"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A common man who tries to organize other peasants for mutual protection during the chaos of war.",
+          "role": "Peasant leader",
+          "relationships": {
+            "Common People": "Organizes",
+            "War Refugees": "Sometimes leads"
+          }
+        }
+      }
+    },
+    "witch-kalkstein": {
+      "name": "Kalkstein",
+      "aliases": ["The Alchemist"],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A rogue alchemist and scholar who operates on the margins of respectable magical society.",
+          "role": "Rogue alchemist",
+          "relationships": {
+            "Magical Underground": "Part of",
+            "Forbidden Knowledge": "Pursues"
           }
         }
       }
