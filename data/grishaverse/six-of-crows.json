@@ -1,0 +1,2428 @@
+{
+  "meta": {
+    "title": "Six of Crows",
+    "author": "Leigh Bardugo",
+    "chapters": 47,
+    "createdAt": "2024-09-02T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "kaz-brekker": {
+      "name": "Kaz Brekker",
+      "aliases": ["Dirtyhands", "Bastard of the Barrel", "The Dregs Lieutenant"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A seventeen-year-old with a crooked nose and a limp who requires a cane. Known as Dirtyhands, he's the lieutenant of the Dregs gang in Ketterdam's Barrel district. Ruthless, clever, and feared throughout the criminal underworld.",
+          "role": "Lieutenant of the Dregs",
+          "relationships": {
+            "Per Haskell": "Boss (officially)",
+            "Inej Ghafa": "Right hand, Wraith",
+            "Jesper Fahey": "Sharpshooter, friend"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Reveals his plan to break into the impenetrable Ice Court in Fjerda to kidnap Bo Yul-Bayur, the Shu inventor of jurda parem. The job is worth thirty million kruge.",
+          "role": "Heist leader",
+          "relationships": {
+            "Jan Van Eck": "Employer for the heist",
+            "Nina Zenik": "Recruited for inside knowledge",
+            "Matthias Helvar": "Key to accessing Ice Court"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Shows his strategic mind by orchestrating Matthias's escape from Hellgate prison. Demonstrates his ability to plan multiple steps ahead.",
+          "role": "Master strategist",
+          "relationships": {
+            "Rollins' crew": "Enemies in the prison",
+            "Matthias Helvar": "Reluctant ally"
+          }
+        }
+      }
+    },
+    "inej-ghafa": {
+      "name": "Inej Ghafa",
+      "aliases": ["The Wraith", "Inej the Spider"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Suli girl who works as Kaz's spy and scout, known as the Wraith for her ability to move unseen. She carries multiple knives and can climb buildings with extraordinary skill. Has brown skin and dark hair.",
+          "role": "Spy and scout for the Dregs",
+          "relationships": {
+            "Kaz Brekker": "Boss and complicated feelings",
+            "Tante Heleen": "Former owner at the Menagerie"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Reveals her past as a former acrobat whose family was killed. She was sold to Tante Heleen and forced to work at the Menagerie before Kaz bought her indenture.",
+          "role": "Former acrobat, current Wraith",
+          "relationships": {
+            "Her parents": "Deceased acrobats",
+            "Her brother": "Deceased"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Shows her religious faith by praying to her Suli saints. Demonstrates her acrobatic skills during reconnaissance missions.",
+          "role": "Faithful Suli, skilled acrobat",
+          "relationships": {
+            "Sankta Alina": "Saint she prays to",
+            "Other Suli saints": "Objects of worship"
+          }
+        }
+      }
+    },
+    "jesper-fahey": {
+      "name": "Jesper Fahey",
+      "aliases": ["Jes"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A lanky Zemeni sharpshooter with dark skin and a gambling addiction. Known for his quick draw and pearl-handled revolvers. Flirtatious and charming but deeply in debt from gambling.",
+          "role": "Dregs sharpshooter",
+          "relationships": {
+            "Kaz Brekker": "Boss and friend",
+            "Inej Ghafa": "Fellow crew member",
+            "Various gambling debts": "Owes money throughout the Barrel"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Demonstrates exceptional marksmanship during the heist preparation. His gambling has put him in serious debt to several dangerous people.",
+          "role": "Expert marksman",
+          "relationships": {
+            "Creditors": "Owes significant gambling debts",
+            "Wylan Van Eck": "Growing attraction and friendship"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Reveals he's a Grisha Fabrikator, able to manipulate metal and other materials. He's been hiding his abilities his entire life due to fear and prejudice.",
+          "role": "Hidden Grisha Fabrikator",
+          "relationships": {
+            "His father": "Zemeni farmer who fears Grisha",
+            "Colm Fahey": "Father who doesn't know about his powers"
+          }
+        }
+      }
+    },
+    "nina-zenik": {
+      "name": "Nina Zenik",
+      "aliases": ["Little Red Bird"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Ravkan Grisha Heartrender with brown hair and curves. She was a soldier for the Second Army but is now in Ketterdam. Has the power to manipulate the human body - stopping hearts, healing, or causing pain.",
+          "role": "Grisha Heartrender",
+          "relationships": {
+            "Matthias Helvar": "Complicated history",
+            "Kaz Brekker": "Recruited by for heist"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Reveals she was captured by Fjerdan drüskelle and put on trial. She and Matthias survived a shipwreck together, during which they fell in love despite being enemies.",
+          "role": "Former Second Army soldier",
+          "relationships": {
+            "Matthias Helvar": "Love interest, former captor",
+            "Other drüskelle": "Former captors"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Shows her knowledge of Fjerdan customs and the Ice Court layout. Her time as a prisoner gave her valuable intelligence for the heist.",
+          "role": "Intelligence asset for Ice Court heist",
+          "relationships": {
+            "Brum": "Former drüskelle captor",
+            "Ice Court guards": "Former captors"
+          }
+        }
+      }
+    },
+    "matthias-helvar": {
+      "name": "Matthias Helvar",
+      "aliases": ["Fjerdan", "Drüskelle"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A former Fjerdan drüskelle (witchhunter) imprisoned in Hellgate for slaving. Tall, blonde, and built like a soldier. He was trained from childhood to hunt and kill Grisha.",
+          "role": "Former drüskelle, prisoner",
+          "relationships": {
+            "Nina Zenik": "Turned him in, complicated feelings",
+            "Kaz Brekker": "Negotiating for his freedom"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Reveals his past with Nina - they were shipwrecked together and fell in love despite being natural enemies. He was betrayed when she accused him of slaving to get him imprisoned.",
+          "role": "Reluctant heist member",
+          "relationships": {
+            "Nina Zenik": "Former lover who betrayed him",
+            "Brum": "Former mentor and commander",
+            "Other drüskelle": "Former brothers-in-arms"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Begins to question his lifelong beliefs about Grisha being evil. His training and knowledge of the Ice Court make him essential to the heist.",
+          "role": "Ice Court infiltration expert",
+          "relationships": {
+            "The crew": "Reluctant allies",
+            "Fjerdan beliefs": "Questioning his faith"
+          }
+        }
+      }
+    },
+    "wylan-van-eck": {
+      "name": "Wylan Van Eck",
+      "aliases": ["Wylan Hendriks"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young demolitions expert with curly red hair and soft features. Son of Jan Van Eck, though he uses the false name Hendriks. Skilled at making bombs and explosives.",
+          "role": "Demolitions expert",
+          "relationships": {
+            "Kaz Brekker": "Recruited by for the heist",
+            "Jesper Fahey": "Growing friendship"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Reveals he cannot read due to a learning difficulty. His father cast him out for this perceived weakness, seeing him as a disappointment to the Van Eck name.",
+          "role": "Estranged merchant's son",
+          "relationships": {
+            "Jan Van Eck": "Disapproving father who disowned him",
+            "His mother": "Deceased"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Shows his true identity as Jan Van Eck's son, revealing the complex family dynamics and his father's expectations. His inability to read has shaped his entire life.",
+          "role": "Van Eck heir (disowned)",
+          "relationships": {
+            "Jan Van Eck": "Father who considers him worthless",
+            "Van Eck fortune": "Inheritance he cannot claim"
+          }
+        }
+      }
+    },
+    "jan-van-eck": {
+      "name": "Jan Van Eck",
+      "aliases": ["Van Eck"],
+      "appearances": [3, 4, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A wealthy Kerch merchant and member of the Merchant Council. Tall and dignified with graying hair. He hires Kaz's crew to kidnap Bo Yul-Bayur from the Ice Court for thirty million kruge.",
+          "role": "Merchant Council member, client",
+          "relationships": {
+            "Kaz Brekker": "Hired for the impossible heist",
+            "The Merchant Council": "Fellow member",
+            "Bo Yul-Bayur": "Target of kidnapping plan"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Revealed to be Wylan's father, though he disowned his son for being unable to read. Cold and calculating, seeing people only in terms of their usefulness to him.",
+          "role": "Wylan's estranged father",
+          "relationships": {
+            "Wylan Van Eck": "Disowned son",
+            "Marya Hendriks": "Former wife (Wylan's mother)"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Reveals his true plan - he never intended to pay the crew. He wants to use jurda parem to control Grisha and consolidate power in Kerch.",
+          "role": "Primary antagonist",
+          "relationships": {
+            "The crew": "Planned to betray from the beginning",
+            "Jurda parem": "Seeks to control the drug trade"
+          }
+        }
+      }
+    },
+    "pekka-rollins": {
+      "name": "Pekka Rollins",
+      "aliases": ["The Barrel King"],
+      "appearances": [1, 2, 6, 11, 14, 20, 32, 35, 38, 44, 45, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Leader of the Dime Lions gang, Kaz's primary rival in the Barrel. A dangerous crime boss with significant power and influence in Ketterdam's underworld.",
+          "role": "Dime Lions gang leader",
+          "relationships": {
+            "Kaz Brekker": "Primary rival and enemy",
+            "Dime Lions": "Leader of the gang"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Has a long history with Kaz involving deep personal betrayal. Their enmity runs deeper than simple gang rivalry.",
+          "role": "Kaz's nemesis",
+          "relationships": {
+            "Kaz Brekker": "Complex history of betrayal",
+            "The Barrel": "Major power player"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "His past with Kaz is revealed - he was involved in the con that led to Kaz's brother's death. This drives much of Kaz's motivation for revenge.",
+          "role": "Cause of Kaz's trauma",
+          "relationships": {
+            "Jordie Rietveld": "Victim of his con",
+            "Young Kaz": "Survivor of his schemes"
+          }
+        }
+      }
+    },
+    "tante-heleen": {
+      "name": "Tante Heleen",
+      "aliases": ["Heleen Van Houden"],
+      "appearances": [1, 2, 15, 23, 38, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The cruel owner of the Menagerie, a high-end pleasure house in the Barrel. She formerly owned Inej's indenture before Kaz bought it.",
+          "role": "Menagerie owner",
+          "relationships": {
+            "Inej Ghafa": "Former 'property'",
+            "Kaz Brekker": "Business rival"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Known for her cruelty to the girls in her establishment. She marked and scarred many of them, including forcing Inej to work against her will.",
+          "role": "Cruel brothel keeper",
+          "relationships": {
+            "Menagerie girls": "Owns their indentures",
+            "The Peacock": "One of her girls"
+          }
+        }
+      }
+    },
+    "per-haskell": {
+      "name": "Per Haskell",
+      "aliases": ["Haskell"],
+      "appearances": [1, 2, 7, 12, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The nominal leader of the Dregs gang, though Kaz does most of the actual work. An aging gangster who relies heavily on Kaz's intelligence and planning.",
+          "role": "Dregs leader (figurehead)",
+          "relationships": {
+            "Kaz Brekker": "Lieutenant who really runs things",
+            "The Dregs": "Nominal leader"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Shows his declining influence and reliance on Kaz for major decisions. He's aware that Kaz has become the real power in the Dregs.",
+          "role": "Fading gang boss",
+          "relationships": {
+            "Kaz Brekker": "Successor in all but name",
+            "Other gang leaders": "Peer but losing influence"
+          }
+        }
+      }
+    },
+    "bo-yul-bayur": {
+      "name": "Bo Yul-Bayur",
+      "aliases": ["The Shu inventor"],
+      "appearances": [3, 29, 30, 31, 44, 45],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Shu inventor imprisoned in the Ice Court for creating jurda parem, a drug that amplifies Grisha powers but is highly addictive. He is the target of the crew's heist.",
+          "role": "Imprisoned inventor",
+          "relationships": {
+            "Jurda parem": "Creator of the dangerous drug",
+            "Ice Court": "Prisoner held in highest security"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Discovered to be dead, having died before the crew could reach him. His death complicates the entire heist plan.",
+          "role": "Deceased target",
+          "relationships": {
+            "Kuwei Yul-Bo": "Son who inherited his knowledge",
+            "The heist crew": "Their target (now impossible to retrieve)"
+          }
+        }
+      }
+    },
+    "kuwei-yul-bo": {
+      "name": "Kuwei Yul-Bo",
+      "aliases": ["Kuwei"],
+      "appearances": [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Bo Yul-Bayur's son, a young Shu Grisha who knows how to make jurda parem. He becomes the crew's actual target when they discover his father is dead.",
+          "role": "Jurda parem creator (heir to knowledge)",
+          "relationships": {
+            "Bo Yul-Bayur": "Deceased father",
+            "The crew": "Rescued/kidnapped by",
+            "Ice Court": "Former prisoner"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Reveals he's an Inferni, able to manipulate fire. His Grisha abilities make him even more valuable and dangerous.",
+          "role": "Shu Inferni with dangerous knowledge",
+          "relationships": {
+            "Jesper Fahey": "Fellow hidden Grisha",
+            "Nina Zenik": "Fellow Grisha"
+          }
+        }
+      }
+    },
+    "jarl-brum": {
+      "name": "Jarl Brum",
+      "aliases": ["Brum", "Commander Brum"],
+      "appearances": [15, 21, 22, 29, 30, 31, 32, 33, 34, 35, 36, 37],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A high-ranking drüskelle commander at the Ice Court. He was Nina's captor and torturer, and Matthias's former mentor and father figure.",
+          "role": "Drüskelle commander",
+          "relationships": {
+            "Matthias Helvar": "Former student and surrogate son",
+            "Nina Zenik": "Former prisoner and torture victim",
+            "Ice Court": "High-ranking officer"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Shows his fanatic devotion to destroying all Grisha. He sees Matthias's apparent betrayal as a personal failure and seeks to recapture Nina.",
+          "role": "Anti-Grisha fanatic",
+          "relationships": {
+            "Drüskelle": "Commander of witchhunters",
+            "Grisha prisoners": "Torturer and executioner"
+          }
+        }
+      }
+    },
+    "genya-safin": {
+      "name": "Genya Safin",
+      "aliases": ["Genya"],
+      "appearances": [15, 21, 29],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A Grisha Tailor imprisoned in the Ice Court. She has red hair and scars from the Darkling's attack. She can alter appearances and is being held as a valuable prisoner.",
+          "role": "Imprisoned Grisha Tailor",
+          "relationships": {
+            "The Darkling": "Former master who scarred her",
+            "Ice Court": "Valuable prisoner",
+            "Other Grisha prisoners": "Fellow captive"
+          }
+        }
+      }
+    },
+    "specht": {
+      "name": "Specht",
+      "aliases": [],
+      "appearances": [1, 2, 8, 12, 13, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Dregs gang who works under Kaz. He handles various criminal operations and is loyal to the gang.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "big-bolliger": {
+      "name": "Big Bolliger",
+      "aliases": ["Big Bol"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A large member of the Dregs who works various jobs for Kaz. He's involved in the crew's criminal activities in the Barrel.",
+          "role": "Dregs enforcer",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Revealed to be a traitor working for Pekka Rollins. Kaz discovers his betrayal and deals with him accordingly.",
+          "role": "Traitor",
+          "relationships": {
+            "Pekka Rollins": "Secret employer",
+            "Inej Ghafa": "Threatened by his betrayal"
+          }
+        }
+      }
+    },
+    "anika": {
+      "name": "Anika",
+      "aliases": [],
+      "appearances": [1, 2, 7, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A female member of the Dregs gang. She's tough and capable, handling various criminal operations for Kaz.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "rotty": {
+      "name": "Rotty",
+      "aliases": [],
+      "appearances": [1, 2, 12, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young member of the Dregs gang who runs messages and does smaller jobs for Kaz.",
+          "role": "Dregs runner",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "muzzen": {
+      "name": "Muzzen",
+      "aliases": [],
+      "appearances": [1, 7, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Dregs gang who works under Kaz in various criminal enterprises.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "keeg": {
+      "name": "Keeg",
+      "aliases": [],
+      "appearances": [1, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Dregs who participates in the gang's various operations.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "dirix": {
+      "name": "Dirix",
+      "aliases": [],
+      "appearances": [1, 2, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Dregs gang member who works under Kaz's leadership in the Barrel.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "pieter": {
+      "name": "Pieter",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Dregs gang who works various jobs in Ketterdam's criminal underworld.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "the-menagerie-peacock": {
+      "name": "The Peacock",
+      "aliases": [],
+      "appearances": [2, 15],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the girls working at Tante Heleen's Menagerie. She has her own animal theme and performs for wealthy clients.",
+          "role": "Menagerie performer",
+          "relationships": {
+            "Tante Heleen": "Owner of her indenture",
+            "Other Menagerie girls": "Fellow performers"
+          }
+        }
+      }
+    },
+    "hellgate-guard-captain": {
+      "name": "Hellgate Guard Captain",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The captain of guards at Hellgate prison. He oversees the brutal prison conditions and can be bribed for special arrangements.",
+          "role": "Prison guard captain",
+          "relationships": {
+            "Matthias Helvar": "Prisoner under his watch",
+            "Kaz Brekker": "Negotiates prisoner release"
+          }
+        }
+      }
+    },
+    "sten": {
+      "name": "Sten",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A Fjerdan prisoner at Hellgate who has conflicts with Matthias. He represents the dangerous criminal element in the prison.",
+          "role": "Hellgate prisoner",
+          "relationships": {
+            "Matthias Helvar": "Prison rival",
+            "Other prisoners": "Fellow inmate"
+          }
+        }
+      }
+    },
+    "captain-roeder": {
+      "name": "Captain Roeder",
+      "aliases": ["Roeder"],
+      "appearances": [8, 9, 11, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The captain of the Ferolind, the ship that will take the crew to Fjerda. He's a experienced sailor familiar with dangerous waters.",
+          "role": "Ship captain",
+          "relationships": {
+            "The Ferolind crew": "Captain of the ship",
+            "Kaz's crew": "Transport provider"
+          }
+        }
+      }
+    },
+    "the-ferolind-crew": {
+      "name": "Ferolind Crew",
+      "aliases": [],
+      "appearances": [8, 9, 11, 12, 38, 39],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The sailors who work on the Ferolind under Captain Roeder. They help transport Kaz's crew to Fjerda for the heist.",
+          "role": "Ship's crew",
+          "relationships": {
+            "Captain Roeder": "Ship captain",
+            "Kaz's crew": "Passengers"
+          }
+        }
+      }
+    },
+    "councilman-hoede": {
+      "name": "Councilman Hoede",
+      "aliases": ["Hoede"],
+      "appearances": [4, 25],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A wealthy member of Kerch's Merchant Council. He owns a large estate and has been experimenting with jurda parem on captured Grisha.",
+          "role": "Merchant Council member",
+          "relationships": {
+            "Merchant Council": "Fellow member",
+            "Anya": "Grisha test subject"
+          }
+        }
+      }
+    },
+    "anya": {
+      "name": "Anya",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Grisha Squaller who was captured and used in Councilman Hoede's experiments with jurda parem. The drug amplified her powers but left her addicted and weakened.",
+          "role": "Grisha test subject",
+          "relationships": {
+            "Councilman Hoede": "Captor and experimenter",
+            "Jurda parem": "Unwilling test subject"
+          }
+        }
+      }
+    },
+    "mikka": {
+      "name": "Mikka",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A guard working for Councilman Hoede who helps oversee the jurda parem experiments on captured Grisha.",
+          "role": "Hoede's guard",
+          "relationships": {
+            "Councilman Hoede": "Employer",
+            "Anya": "Guards during experiments"
+          }
+        }
+      }
+    },
+    "colm-fahey": {
+      "name": "Colm Fahey",
+      "aliases": [],
+      "appearances": [17, 23, 45],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Jesper's father, a Zemeni farmer who raised his son after his wife died. He doesn't know about Jesper's Grisha abilities and sent him to university in Ketterdam.",
+          "role": "Jesper's father",
+          "relationships": {
+            "Jesper Fahey": "Son who left home",
+            "Aditi Hilli": "Deceased wife (Jesper's mother)"
+          }
+        }
+      }
+    },
+    "aditi-hilli": {
+      "name": "Aditi Hilli",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Jesper's deceased mother, a Zemeni woman who was secretly a Grisha. She died when Jesper was young, and he inherited her Grisha abilities.",
+          "role": "Jesper's deceased mother",
+          "relationships": {
+            "Jesper Fahey": "Son who inherited her powers",
+            "Colm Fahey": "Husband"
+          }
+        }
+      }
+    },
+    "marya-hendriks": {
+      "name": "Marya Hendriks",
+      "aliases": ["Wylan's mother"],
+      "appearances": [25, 44, 45, 46],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Wylan's mother, who Jan Van Eck claimed had died. She was actually committed to an asylum because she knew too much about Van Eck's business dealings.",
+          "role": "Wylan's imprisoned mother",
+          "relationships": {
+            "Wylan Van Eck": "Son who believes she's dead",
+            "Jan Van Eck": "Husband who imprisoned her"
+          }
+        }
+      }
+    },
+    "alys-van-eck": {
+      "name": "Alys Van Eck",
+      "aliases": ["Alys Hendriks"],
+      "appearances": [44, 45, 46],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Jan Van Eck's young second wife, who is pregnant with his child. She's much younger than Van Eck and seems naive about his true nature.",
+          "role": "Van Eck's second wife",
+          "relationships": {
+            "Jan Van Eck": "Husband",
+            "Wylan Van Eck": "Stepson"
+          }
+        }
+      }
+    },
+    "cornelis-smeet": {
+      "name": "Cornelis Smeet",
+      "aliases": ["Smeet"],
+      "appearances": [25, 44],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A member of the Merchant Council and associate of Jan Van Eck. He's involved in the conspiracy surrounding jurda parem.",
+          "role": "Merchant Council member",
+          "relationships": {
+            "Jan Van Eck": "Fellow conspirator",
+            "Merchant Council": "Council member"
+          }
+        }
+      }
+    },
+    "dryden": {
+      "name": "Dryden",
+      "aliases": [],
+      "appearances": [25, 44, 45],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Another member of the Merchant Council who works with Jan Van Eck in his schemes involving jurda parem and Grisha control.",
+          "role": "Merchant Council member",
+          "relationships": {
+            "Jan Van Eck": "Co-conspirator",
+            "Merchant Council": "Member"
+          }
+        }
+      }
+    },
+    "raske": {
+      "name": "Raske",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "A drüskelle officer at the Ice Court who serves under Brum. He's involved in guarding and torturing Grisha prisoners.",
+          "role": "Drüskelle officer",
+          "relationships": {
+            "Jarl Brum": "Commander",
+            "Other drüskelle": "Fellow officer"
+          }
+        }
+      }
+    },
+    "ice-court-prisoners": {
+      "name": "Ice Court Prisoners",
+      "aliases": ["Grisha prisoners"],
+      "appearances": [29, 30, 31],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Various Grisha captured by the Fjerdans and held in the Ice Court for experimentation and execution. They represent different Grisha orders.",
+          "role": "Imprisoned Grisha",
+          "relationships": {
+            "Ice Court guards": "Captors",
+            "Drüskelle": "Captors and torturers"
+          }
+        }
+      }
+    },
+    "ice-court-kitchen-staff": {
+      "name": "Ice Court Kitchen Staff",
+      "aliases": [],
+      "appearances": [14, 15, 21, 22],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The servants who work in the Ice Court kitchens. Nina and Matthias plan to infiltrate through the kitchen staff.",
+          "role": "Ice Court servants",
+          "relationships": {
+            "Ice Court": "Employees",
+            "Nina and Matthias": "Infiltration targets"
+          }
+        }
+      }
+    },
+    "ice-court-guards": {
+      "name": "Ice Court Guards",
+      "aliases": [],
+      "appearances": [21, 22, 23, 29, 30, 31, 32, 33, 34, 35, 36, 37],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The heavily armed guards who protect the Ice Court. They are well-trained soldiers loyal to Fjerda and suspicious of outsiders.",
+          "role": "Ice Court security",
+          "relationships": {
+            "Ice Court": "Protectors",
+            "Drüskelle": "Fellow military personnel"
+          }
+        }
+      }
+    },
+    "fjerdan-nobles": {
+      "name": "Fjerdan Nobles",
+      "aliases": [],
+      "appearances": [21, 22, 23, 29],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The wealthy aristocrats of Fjerda who attend court functions at the Ice Court. They are potential covers for the crew's infiltration.",
+          "role": "Fjerdan aristocracy",
+          "relationships": {
+            "Ice Court": "Guests and visitors",
+            "Fjerdan royalty": "Court members"
+          }
+        }
+      }
+    },
+    "the-conductor": {
+      "name": "The Conductor",
+      "aliases": [],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A smuggler who helps transport people across borders illegally. He operates routes between Kerch and Fjerda for the right price.",
+          "role": "People smuggler",
+          "relationships": {
+            "Kaz's crew": "Transport provider",
+            "Border crossings": "Illegal operations"
+          }
+        }
+      }
+    },
+    "black-tips-gang": {
+      "name": "Black Tips Gang",
+      "aliases": ["Black Tips"],
+      "appearances": [1, 2, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the criminal gangs operating in Ketterdam's Barrel district. They are rivals to both the Dregs and Dime Lions.",
+          "role": "Criminal gang",
+          "relationships": {
+            "The Dregs": "Rival gang",
+            "Dime Lions": "Rival gang"
+          }
+        }
+      }
+    },
+    "razor-gulls": {
+      "name": "Razor Gulls",
+      "aliases": [],
+      "appearances": [1, 2, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another criminal gang in the Barrel, competing for territory and criminal operations with other gangs.",
+          "role": "Criminal gang",
+          "relationships": {
+            "Other Barrel gangs": "Rivals and competitors"
+          }
+        }
+      }
+    },
+    "stadwatch": {
+      "name": "Stadwatch",
+      "aliases": ["City Watch"],
+      "appearances": [1, 2, 3, 5, 6, 38, 44, 45, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Ketterdam's city guard and police force. They patrol the city and attempt to maintain order, though they're often corrupt or incompetent.",
+          "role": "City guards",
+          "relationships": {
+            "Criminal gangs": "Supposed to stop but often bribed by",
+            "Ketterdam": "City protectors"
+          }
+        }
+      }
+    },
+    "jordie-rietveld": {
+      "name": "Jordie Rietveld",
+      "aliases": [],
+      "appearances": [46, 47],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "Kaz's older brother who died during a plague outbreak in Ketterdam. His death was caused by Pekka Rollins's con, which left the brothers penniless and sick.",
+          "role": "Kaz's deceased brother",
+          "relationships": {
+            "Kaz Brekker": "Younger brother (real name Kaz Rietveld)",
+            "Pekka Rollins": "Cause of his death"
+          }
+        }
+      }
+    },
+    "ketterdam-merchants": {
+      "name": "Ketterdam Merchants",
+      "aliases": [],
+      "appearances": [3, 4, 5, 25, 44, 45],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The wealthy trading class of Ketterdam who control much of the city's commerce. They are often involved in both legitimate and illegal business.",
+          "role": "Commercial class",
+          "relationships": {
+            "Merchant Council": "Governing body",
+            "Criminal gangs": "Sometimes work with"
+          }
+        }
+      }
+    },
+    "embassy-staff": {
+      "name": "Embassy Staff",
+      "aliases": [],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Workers at various national embassies in Ketterdam. They help the crew obtain false documents and papers for their mission.",
+          "role": "Diplomatic workers",
+          "relationships": {
+            "Foreign governments": "Representatives",
+            "Kaz's crew": "Document providers"
+          }
+        }
+      }
+    },
+    "university-students": {
+      "name": "University Students",
+      "aliases": [],
+      "appearances": [5, 17],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Students at the University of Ketterdam where Jesper was supposed to be studying instead of gambling and running with gangs.",
+          "role": "Students",
+          "relationships": {
+            "Jesper Fahey": "Former classmate",
+            "University of Ketterdam": "Students"
+          }
+        }
+      }
+    },
+    "barrel-residents": {
+      "name": "Barrel Residents",
+      "aliases": [],
+      "appearances": [1, 2, 3, 5, 6, 38, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The various people living and working in Ketterdam's Barrel district - the poor, criminals, immigrants, and desperate people trying to survive.",
+          "role": "District residents",
+          "relationships": {
+            "Criminal gangs": "Sometimes victims, sometimes participants",
+            "The Barrel": "Residents of the district"
+          }
+        }
+      }
+    },
+    "gambling-den-owners": {
+      "name": "Gambling Den Owners",
+      "aliases": [],
+      "appearances": [1, 5, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The people who run gambling establishments throughout Ketterdam, particularly in the Barrel. Many have connections to criminal gangs.",
+          "role": "Gambling house operators",
+          "relationships": {
+            "Jesper Fahey": "Regular customer with debts",
+            "Criminal gangs": "Often connected to"
+          }
+        }
+      }
+    },
+    "creditors": {
+      "name": "Jesper's Creditors",
+      "aliases": [],
+      "appearances": [1, 5, 17, 45],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various people and organizations to whom Jesper owes gambling debts. They represent a constant threat to his safety.",
+          "role": "Debt collectors",
+          "relationships": {
+            "Jesper Fahey": "Debtor who owes them money",
+            "Gambling establishments": "Often connected to"
+          }
+        }
+      }
+    },
+    "dime-lions": {
+      "name": "Dime Lions Gang Members",
+      "aliases": ["Dime Lions"],
+      "appearances": [1, 2, 6, 32, 35, 44, 45, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Members of Pekka Rollins's gang, the most powerful criminal organization in the Barrel. They are the primary rivals of Kaz's Dregs.",
+          "role": "Gang members",
+          "relationships": {
+            "Pekka Rollins": "Gang leader",
+            "The Dregs": "Primary rivals"
+          }
+        }
+      }
+    },
+    "shu-han-diplomats": {
+      "name": "Shu Han Diplomats",
+      "aliases": [],
+      "appearances": [13, 25],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Representatives of the Shu Han government in Ketterdam. They are interested in jurda parem and its potential uses.",
+          "role": "Foreign diplomats",
+          "relationships": {
+            "Shu Han": "Government representatives",
+            "Jurda parem": "Interested in the drug"
+          }
+        }
+      }
+    },
+    "ravkan-diplomats": {
+      "name": "Ravkan Diplomats",
+      "aliases": [],
+      "appearances": [13, 25],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Representatives of Ravka in Ketterdam who are concerned about their Grisha citizens and the threat of jurda parem.",
+          "role": "Foreign diplomats",
+          "relationships": {
+            "Ravka": "Government representatives",
+            "Grisha": "Protecting their citizens"
+          }
+        }
+      }
+    },
+    "fjerdan-diplomats": {
+      "name": "Fjerdan Diplomats",
+      "aliases": [],
+      "appearances": [13, 21, 25],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Representatives of Fjerda working in Ketterdam. They maintain the official government position while the Ice Court operates its anti-Grisha policies.",
+          "role": "Foreign diplomats",
+          "relationships": {
+            "Fjerda": "Government representatives",
+            "Ice Court": "Connected to the military"
+          }
+        }
+      }
+    },
+    "harbor-workers": {
+      "name": "Harbor Workers",
+      "aliases": [],
+      "appearances": [8, 9, 11, 12, 38, 39],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The dock workers, sailors, and other laborers who work in Ketterdam's busy ports. They help load ships and handle cargo.",
+          "role": "Port laborers",
+          "relationships": {
+            "Ship captains": "Work for",
+            "Ketterdam ports": "Workers"
+          }
+        }
+      }
+    },
+    "ship-captains": {
+      "name": "Other Ship Captains",
+      "aliases": [],
+      "appearances": [8, 9, 38, 39],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Various captains of merchant and transport vessels operating out of Ketterdam's harbors. They compete for cargo and passenger business.",
+          "role": "Ship captains",
+          "relationships": {
+            "Harbor workers": "Employ",
+            "Merchants": "Transport goods for"
+          }
+        }
+      }
+    },
+    "tailors": {
+      "name": "Ketterdam Tailors",
+      "aliases": [],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Clothing makers and costume creators who help the crew prepare disguises for their mission. They provide the necessary clothing for infiltration.",
+          "role": "Disguise providers",
+          "relationships": {
+            "Kaz's crew": "Provide costumes and disguises",
+            "Ketterdam": "Local craftspeople"
+          }
+        }
+      }
+    },
+    "forgers": {
+      "name": "Document Forgers",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Criminal specialists who create false identification papers, travel documents, and other forged materials needed for illegal activities.",
+          "role": "Document forgers",
+          "relationships": {
+            "Kaz's crew": "Provide false papers",
+            "Criminal underworld": "Services providers"
+          }
+        }
+      }
+    },
+    "weapons-dealers": {
+      "name": "Weapons Dealers",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Black market arms dealers who supply weapons and equipment for criminal operations. They provide specialized gear for the heist.",
+          "role": "Arms dealers",
+          "relationships": {
+            "Kaz's crew": "Weapon suppliers",
+            "Criminal underworld": "Equipment providers"
+          }
+        }
+      }
+    },
+    "servants": {
+      "name": "Wealthy House Servants",
+      "aliases": [],
+      "appearances": [4, 25, 44, 45],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Domestic workers in the homes of Ketterdam's wealthy merchants. They often overhear important information and can be sources of intelligence.",
+          "role": "Domestic servants",
+          "relationships": {
+            "Wealthy merchants": "Employers",
+            "Criminal gangs": "Sometimes informants for"
+          }
+        }
+      }
+    },
+    "oomen": {
+      "name": "Oomen",
+      "aliases": [],
+      "appearances": [1, 2, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of Pekka Rollins's Dime Lions gang. He's one of Rollins's trusted enforcers and often handles violent work.",
+          "role": "Dime Lions enforcer",
+          "relationships": {
+            "Pekka Rollins": "Boss and gang leader",
+            "Dime Lions": "Gang member"
+          }
+        }
+      }
+    },
+    "black-tips-lennart": {
+      "name": "Lennart",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Black Tips gang who operates in the Barrel. He's involved in territorial disputes with other gangs.",
+          "role": "Black Tips gang member",
+          "relationships": {
+            "Black Tips": "Gang member",
+            "Other gangs": "Territorial rival"
+          }
+        }
+      }
+    },
+    "sweet-reef": {
+      "name": "Sweet Reef",
+      "aliases": [],
+      "appearances": [1, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Dregs gang who works under Kaz's leadership. He handles various criminal operations in the Barrel.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "big-bol": {
+      "name": "Big Bol",
+      "aliases": [],
+      "appearances": [47],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Another member of the Dregs, different from Big Bolliger. He participates in gang operations and is loyal to Kaz.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "doughty": {
+      "name": "Doughty",
+      "aliases": [],
+      "appearances": [1, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Dregs member who works various jobs for Kaz. He's part of the gang's day-to-day operations in the Barrel.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "needy": {
+      "name": "Needy",
+      "aliases": [],
+      "appearances": [1, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Dregs gang who participates in various criminal activities under Kaz's direction.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "pim": {
+      "name": "Pim",
+      "aliases": [],
+      "appearances": [1, 2, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Dregs gang member who works under Kaz. He's involved in the gang's operations throughout the Barrel district.",
+          "role": "Dregs gang member",
+          "relationships": {
+            "Kaz Brekker": "Boss",
+            "The Dregs": "Gang member"
+          }
+        }
+      }
+    },
+    "kaz-father": {
+      "name": "Kaz's Father",
+      "aliases": ["Rietveld Senior"],
+      "appearances": [46],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "Kaz and Jordie's father who died when they were young, leaving the boys to fend for themselves. His death led to their journey to Ketterdam.",
+          "role": "Deceased father",
+          "relationships": {
+            "Kaz Brekker": "Son (real name Kaz Rietveld)",
+            "Jordie Rietveld": "Son"
+          }
+        }
+      }
+    },
+    "saskia": {
+      "name": "Saskia",
+      "aliases": [],
+      "appearances": [2, 15],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the girls working at Tante Heleen's Menagerie. She has her own animal theme and performs for wealthy clients.",
+          "role": "Menagerie performer",
+          "relationships": {
+            "Tante Heleen": "Owner of her indenture",
+            "Other Menagerie girls": "Fellow performer"
+          }
+        }
+      }
+    },
+    "zemeni-girl": {
+      "name": "Zemeni Girl",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another performer at the Menagerie with dark skin from Zemeni heritage. She works under Tante Heleen's cruel management.",
+          "role": "Menagerie performer",
+          "relationships": {
+            "Tante Heleen": "Owner of her indenture",
+            "Other Menagerie girls": "Fellow performer"
+          }
+        }
+      }
+    },
+    "kaelish-girl": {
+      "name": "Kaelish Girl",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A red-haired performer at the Menagerie with Kaelish heritage. She's another victim of Tante Heleen's exploitation.",
+          "role": "Menagerie performer",
+          "relationships": {
+            "Tante Heleen": "Owner of her indenture",
+            "Other Menagerie girls": "Fellow performer"
+          }
+        }
+      }
+    },
+    "fjerdan-girl": {
+      "name": "Fjerdan Girl",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A blonde performer at the Menagerie representing Fjerdan beauty standards. She works under the same cruel conditions as the others.",
+          "role": "Menagerie performer",
+          "relationships": {
+            "Tante Heleen": "Owner of her indenture",
+            "Other Menagerie girls": "Fellow performer"
+          }
+        }
+      }
+    },
+    "van-eck-guards": {
+      "name": "Van Eck Guards",
+      "aliases": [],
+      "appearances": [3, 25, 44, 45, 46],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Private security employed by Jan Van Eck to protect his interests and property. They are well-armed and loyal to their wealthy employer.",
+          "role": "Private security",
+          "relationships": {
+            "Jan Van Eck": "Employer",
+            "Van Eck estate": "Protectors"
+          }
+        }
+      }
+    },
+    "johannus-rietveld": {
+      "name": "Johannus Rietveld",
+      "aliases": [],
+      "appearances": [46],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "The name Kaz and Jordie used in one of Pekka Rollins's cons. It was part of the fake identity they created to swindle people.",
+          "role": "False identity used by Rollins",
+          "relationships": {
+            "Pekka Rollins": "Con man who used the identity",
+            "Kaz and Jordie": "Victims of the con"
+          }
+        }
+      }
+    },
+    "hellgate-prisoners": {
+      "name": "Hellgate Prisoners",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Various criminals imprisoned in Ketterdam's most notorious prison. They include murderers, thieves, and other dangerous individuals.",
+          "role": "Prison inmates",
+          "relationships": {
+            "Matthias Helvar": "Fellow prisoner",
+            "Prison guards": "Captors"
+          }
+        }
+      }
+    },
+    "hellgate-guards": {
+      "name": "Hellgate Guards",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The brutal guards who oversee Hellgate prison. They maintain order through violence and can be bribed for special favors.",
+          "role": "Prison guards",
+          "relationships": {
+            "Hellgate prisoners": "Guards and tormentors",
+            "Guard Captain": "Subordinates"
+          }
+        }
+      }
+    },
+    "makker": {
+      "name": "Makker",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A prisoner at Hellgate who has conflicts with other inmates. He's part of the dangerous criminal population in the prison.",
+          "role": "Hellgate prisoner",
+          "relationships": {
+            "Other prisoners": "Fellow inmate and sometimes rival",
+            "Prison guards": "Guarded by"
+          }
+        }
+      }
+    },
+    "fjerdan-prisoners": {
+      "name": "Fjerdan Prisoners",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Prisoners from Fjerda held in Hellgate, including former soldiers and criminals. Some are hostile to Matthias for various reasons.",
+          "role": "Foreign prisoners",
+          "relationships": {
+            "Matthias Helvar": "Fellow Fjerdan, sometimes rival",
+            "Other prisoners": "Fellow inmates"
+          }
+        }
+      }
+    },
+    "first-mate": {
+      "name": "Ferolind First Mate",
+      "aliases": [],
+      "appearances": [8, 9, 11, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The second-in-command aboard the Ferolind under Captain Roeder. He helps manage the ship and crew during the dangerous voyage.",
+          "role": "Ship's first mate",
+          "relationships": {
+            "Captain Roeder": "Superior officer",
+            "Ferolind crew": "Second-in-command over"
+          }
+        }
+      }
+    },
+    "seaman-joost": {
+      "name": "Joost",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young guard working for Councilman Hoede. He's present during the jurda parem experiments and witnesses their horrific effects.",
+          "role": "Estate guard",
+          "relationships": {
+            "Councilman Hoede": "Employer",
+            "Anya": "Witnessed her experiments"
+          }
+        }
+      }
+    },
+    "henk": {
+      "name": "Henk",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another guard working for Councilman Hoede during the jurda parem experiments. He assists in controlling the Grisha test subjects.",
+          "role": "Estate guard",
+          "relationships": {
+            "Councilman Hoede": "Employer",
+            "Joost": "Fellow guard"
+          }
+        }
+      }
+    },
+    "rutger": {
+      "name": "Rutger",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A guard at Councilman Hoede's estate who participates in the security during dangerous Grisha experiments.",
+          "role": "Estate guard",
+          "relationships": {
+            "Councilman Hoede": "Employer",
+            "Other guards": "Fellow security"
+          }
+        }
+      }
+    },
+    "zemeni-ambassador": {
+      "name": "Zemeni Ambassador",
+      "aliases": [],
+      "appearances": [13, 25],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The diplomatic representative of Zemeni interests in Ketterdam. He's involved in international negotiations regarding jurda parem.",
+          "role": "Foreign diplomat",
+          "relationships": {
+            "Zemeni government": "Representative",
+            "Other diplomats": "International colleague"
+          }
+        }
+      }
+    },
+    "kerch-ambassadors": {
+      "name": "Kerch Ambassadors",
+      "aliases": [],
+      "appearances": [13, 25, 44],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Kerch diplomatic representatives working in foreign embassies and managing international relations for the merchant nation.",
+          "role": "Kerch diplomats",
+          "relationships": {
+            "Kerch government": "Representatives",
+            "Foreign governments": "Negotiate with"
+          }
+        }
+      }
+    },
+    "university-professors": {
+      "name": "University Professors",
+      "aliases": [],
+      "appearances": [5, 17],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Academic faculty at the University of Ketterdam where Jesper was supposed to be studying before joining the criminal underworld.",
+          "role": "University faculty",
+          "relationships": {
+            "University students": "Teachers",
+            "Jesper Fahey": "Former student"
+          }
+        }
+      }
+    },
+    "chemistry-professor": {
+      "name": "Chemistry Professor",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A specific professor at the university who taught chemistry, relevant to Wylan's demolitions expertise and scientific knowledge.",
+          "role": "Chemistry instructor",
+          "relationships": {
+            "University": "Faculty member",
+            "Wylan Van Eck": "Potential former student"
+          }
+        }
+      }
+    },
+    "music-teacher": {
+      "name": "Music Teacher",
+      "aliases": [],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Wylan's former music instructor who helped him develop his musical abilities as a way to cope with his inability to read.",
+          "role": "Music instructor",
+          "relationships": {
+            "Wylan Van Eck": "Former student",
+            "Van Eck family": "Employee"
+          }
+        }
+      }
+    },
+    "inej-parents": {
+      "name": "Inej's Parents",
+      "aliases": ["The Ghafas"],
+      "appearances": [2, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Inej's parents were Suli acrobats who performed in traveling shows. They were killed when Inej was captured and sold into slavery.",
+          "role": "Deceased parents",
+          "relationships": {
+            "Inej Ghafa": "Daughter",
+            "Suli community": "Members of the traveling people"
+          }
+        }
+      }
+    },
+    "inej-brother": {
+      "name": "Inej's Brother",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Inej's younger brother who was also killed when their family was attacked. His death weighs heavily on Inej's conscience.",
+          "role": "Deceased brother",
+          "relationships": {
+            "Inej Ghafa": "Sister",
+            "Inej's parents": "Son"
+          }
+        }
+      }
+    },
+    "suli-travelers": {
+      "name": "Suli Travelers",
+      "aliases": [],
+      "appearances": [2, 23, 40],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Members of Inej's nomadic people who travel in caravans and perform acrobatic shows. They have their own cultural traditions and beliefs.",
+          "role": "Cultural community",
+          "relationships": {
+            "Inej Ghafa": "Community member",
+            "Inej's family": "Fellow travelers"
+          }
+        }
+      }
+    },
+    "slavers": {
+      "name": "Slavers",
+      "aliases": [],
+      "appearances": [2, 6, 7],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The criminals who captured Inej and killed her family, then sold her to Tante Heleen. They represent the brutal trade in human trafficking.",
+          "role": "Human traffickers",
+          "relationships": {
+            "Inej Ghafa": "Victim they sold",
+            "Tante Heleen": "Buyer of their 'merchandise'"
+          }
+        }
+      }
+    },
+    "grisha-refugees": {
+      "name": "Grisha Refugees",
+      "aliases": [],
+      "appearances": [3, 4, 13, 15, 29, 30, 31],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Grisha who have fled their home countries due to persecution, particularly from Fjerda. Many end up in Ketterdam seeking safety.",
+          "role": "Refugees",
+          "relationships": {
+            "Fjerdan drüskelle": "Flee from persecution by",
+            "Ketterdam": "Seek refuge in"
+          }
+        }
+      }
+    },
+    "second-army-soldiers": {
+      "name": "Second Army Soldiers",
+      "aliases": [],
+      "appearances": [7, 15, 29],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ravkan Grisha soldiers from Nina's past service in the Second Army. They fought against Fjerdan forces and hunted down rogue Grisha.",
+          "role": "Military Grisha",
+          "relationships": {
+            "Nina Zenik": "Former comrade",
+            "Ravkan military": "Part of armed forces"
+          }
+        }
+      }
+    },
+    "druskelle-soldiers": {
+      "name": "Drüskelle Soldiers",
+      "aliases": ["Witchhunters"],
+      "appearances": [7, 15, 21, 22, 29, 30, 31, 32, 33, 34, 35, 36, 37],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Fjerdan soldiers trained from childhood to hunt and kill Grisha, whom they view as unnatural witches. They are fanatically devoted to their cause.",
+          "role": "Anti-Grisha military unit",
+          "relationships": {
+            "Matthias Helvar": "Former member",
+            "Jarl Brum": "Commanded by",
+            "Grisha": "Hunt and kill"
+          }
+        }
+      }
+    },
+    "ice-court-servants": {
+      "name": "Ice Court Servants",
+      "aliases": [],
+      "appearances": [14, 15, 21, 22, 23, 29, 30, 31],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The domestic staff who work in the Ice Court, including kitchen workers, cleaners, and other service personnel. They are potential cover identities for infiltration.",
+          "role": "Domestic staff",
+          "relationships": {
+            "Ice Court": "Employees",
+            "Nina and Matthias": "Infiltration cover"
+          }
+        }
+      }
+    },
+    "fjerdan-royalty": {
+      "name": "Fjerdan Royalty",
+      "aliases": [],
+      "appearances": [21, 22, 29],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The ruling family and nobility of Fjerda who reside in or visit the Ice Court. They maintain the anti-Grisha policies of their nation.",
+          "role": "Ruling class",
+          "relationships": {
+            "Ice Court": "Royal residence",
+            "Drüskelle": "Support their anti-Grisha mission"
+          }
+        }
+      }
+    },
+    "fjerdan-military": {
+      "name": "Fjerdan Military",
+      "aliases": [],
+      "appearances": [21, 22, 29, 30, 31, 32, 33, 34, 35, 36, 37],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Regular soldiers of the Fjerdan army, distinct from the specialized drüskelle. They guard the Ice Court and serve the royal family.",
+          "role": "Military personnel",
+          "relationships": {
+            "Fjerdan royalty": "Serve and protect",
+            "Drüskelle": "Military colleagues",
+            "Ice Court": "Defend"
+          }
+        }
+      }
+    },
+    "nina-shipmates": {
+      "name": "Nina's Former Shipmates",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The crew and passengers aboard the ship that wrecked, stranding Nina and Matthias together. Most died in the wreck.",
+          "role": "Shipwreck victims",
+          "relationships": {
+            "Nina Zenik": "Fellow passenger",
+            "Matthias Helvar": "Fellow survivor initially"
+          }
+        }
+      }
+    },
+    "barrel-merchants": {
+      "name": "Barrel Merchants",
+      "aliases": [],
+      "appearances": [1, 2, 3, 5, 6, 38, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Small-time traders and business owners operating in the Barrel district. They often pay protection money to gangs and deal with criminal elements.",
+          "role": "Local business owners",
+          "relationships": {
+            "Criminal gangs": "Pay protection to",
+            "Barrel residents": "Serve"
+          }
+        }
+      }
+    },
+    "pleasure-house-owners": {
+      "name": "Pleasure House Owners",
+      "aliases": [],
+      "appearances": [1, 2, 15, 38],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Owners and operators of various brothels and entertainment establishments in the Barrel, competing with places like the Menagerie.",
+          "role": "Entertainment business owners",
+          "relationships": {
+            "Tante Heleen": "Business rival",
+            "Criminal gangs": "Sometimes connected to"
+          }
+        }
+      }
+    },
+    "dock-workers": {
+      "name": "Dock Workers",
+      "aliases": [],
+      "appearances": [8, 9, 11, 12, 38, 39],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The laborers who load and unload ships at Ketterdam's busy ports. They handle cargo and help with ship operations.",
+          "role": "Port laborers",
+          "relationships": {
+            "Ship captains": "Work for",
+            "Harbor masters": "Supervised by"
+          }
+        }
+      }
+    },
+    "harbor-masters": {
+      "name": "Harbor Masters",
+      "aliases": [],
+      "appearances": [8, 9, 38, 39],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Officials who oversee port operations and ship movements in Ketterdam's harbors. They manage trade and shipping logistics.",
+          "role": "Port officials",
+          "relationships": {
+            "Ship captains": "Regulate and oversee",
+            "Dock workers": "Supervise",
+            "Merchants": "Facilitate trade for"
+          }
+        }
+      }
+    },
+    "customs-officials": {
+      "name": "Customs Officials",
+      "aliases": [],
+      "appearances": [8, 9, 13, 38],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Government officials responsible for inspecting cargo and collecting duties on imported goods. They can be bribed to overlook certain items.",
+          "role": "Government inspectors",
+          "relationships": {
+            "Merchants": "Inspect goods from",
+            "Smugglers": "Often bribed by"
+          }
+        }
+      }
+    },
+    "border-guards": {
+      "name": "Border Guards",
+      "aliases": [],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Soldiers stationed at the borders between nations, particularly between Kerch and Fjerda. They check documents and prevent illegal crossings.",
+          "role": "Border security",
+          "relationships": {
+            "The Conductor": "Avoid through smuggling routes",
+            "Travelers": "Inspect documents of"
+          }
+        }
+      }
+    },
+    "innkeepers": {
+      "name": "Innkeepers",
+      "aliases": [],
+      "appearances": [12, 13, 14, 38],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Owners and operators of taverns and inns along the crew's travel route. They provide lodging and information to travelers.",
+          "role": "Hospitality providers",
+          "relationships": {
+            "Travelers": "Provide lodging to",
+            "Local communities": "Serve"
+          }
+        }
+      }
+    },
+    "stable-hands": {
+      "name": "Stable Hands",
+      "aliases": [],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Workers who care for horses and other animals used for transportation. They help travelers with their mounts and wagons.",
+          "role": "Animal caretakers",
+          "relationships": {
+            "Travelers": "Care for animals of",
+            "Innkeepers": "Often work for"
+          }
+        }
+      }
+    },
+    "traveling-performers": {
+      "name": "Traveling Performers",
+      "aliases": [],
+      "appearances": [13, 14, 15, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Entertainers who travel between cities and countries, providing cover identities for the crew's infiltration of the Ice Court.",
+          "role": "Entertainment troupe",
+          "relationships": {
+            "Kaz's crew": "Cover identity for infiltration",
+            "Ice Court": "Plan to perform at"
+          }
+        }
+      }
+    },
+    "costume-makers": {
+      "name": "Costume Makers",
+      "aliases": [],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Artisans who create elaborate costumes and disguises for the crew's infiltration. They specialize in authentic-looking regional clothing.",
+          "role": "Disguise creators",
+          "relationships": {
+            "Kaz's crew": "Provide disguises for",
+            "Traveling performers": "Create costumes for"
+          }
+        }
+      }
+    },
+    "makeup-artists": {
+      "name": "Makeup Artists",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Specialists in altering appearance through cosmetics and prosthetics. They help the crew look like authentic Fjerdans and performers.",
+          "role": "Appearance alteration specialists",
+          "relationships": {
+            "Kaz's crew": "Alter appearances of",
+            "Costume makers": "Work with"
+          }
+        }
+      }
+    },
+    "fence": {
+      "name": "The Fence",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A dealer in stolen goods who helps the crew acquire specialized equipment for their heist. He has connections throughout the criminal underworld.",
+          "role": "Stolen goods dealer",
+          "relationships": {
+            "Kaz's crew": "Equipment supplier",
+            "Criminal networks": "Connected to"
+          }
+        }
+      }
+    },
+    "locksmith": {
+      "name": "Locksmith",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A craftsman who creates and repairs locks, but also helps criminals bypass security measures. He provides lock-picking tools and advice.",
+          "role": "Lock and security specialist",
+          "relationships": {
+            "Kaz Brekker": "Provides tools and advice to",
+            "Criminal elements": "Sometimes works with"
+          }
+        }
+      }
+    },
+    "poisoner": {
+      "name": "Poisoner",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A specialist in toxins and their antidotes who provides chemical assistance for the heist. He supplies sleeping draughts and other substances.",
+          "role": "Toxin specialist",
+          "relationships": {
+            "Kaz's crew": "Chemical supplier for",
+            "Criminal underworld": "Specialist within"
+          }
+        }
+      }
+    },
+    "explosives-expert": {
+      "name": "Explosives Expert",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A demolitions specialist who works with Wylan to prepare the explosives needed for the Ice Court heist. He teaches advanced techniques.",
+          "role": "Demolitions specialist",
+          "relationships": {
+            "Wylan Van Eck": "Mentor and colleague",
+            "Kaz's crew": "Consultant for"
+          }
+        }
+      }
+    },
+    "ice-court-architect": {
+      "name": "Ice Court Architect",
+      "aliases": [],
+      "appearances": [15, 29],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The designer of the Ice Court's complex layout and security systems. His plans are studied to understand the fortress's weaknesses.",
+          "role": "Fortress designer",
+          "relationships": {
+            "Ice Court": "Designer of the fortress",
+            "Fjerdan royalty": "Commissioned by"
+          }
+        }
+      }
+    },
+    "ice-court-chaplain": {
+      "name": "Ice Court Chaplain",
+      "aliases": [],
+      "appearances": [21, 22, 29],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "A religious leader who serves the spiritual needs of the Ice Court's inhabitants and conducts ceremonies for the royal family.",
+          "role": "Religious leader",
+          "relationships": {
+            "Fjerdan royalty": "Spiritual advisor to",
+            "Ice Court": "Religious leader for"
+          }
+        }
+      }
+    },
+    "court-physicians": {
+      "name": "Court Physicians",
+      "aliases": [],
+      "appearances": [21, 29, 30],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Medical professionals who serve the Ice Court, treating injuries and illnesses of the royal family, guards, and prisoners.",
+          "role": "Medical practitioners",
+          "relationships": {
+            "Ice Court": "Medical staff for",
+            "Grisha prisoners": "Sometimes treat"
+          }
+        }
+      }
+    },
+    "torture-specialists": {
+      "name": "Torture Specialists",
+      "aliases": [],
+      "appearances": [29, 30, 31],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Experts in inflicting pain and extracting information, employed by the drüskelle to interrogate Grisha prisoners. They use both physical and psychological methods.",
+          "role": "Interrogators",
+          "relationships": {
+            "Drüskelle": "Work for",
+            "Grisha prisoners": "Torture and interrogate"
+          }
+        }
+      }
+    },
+    "grisha-executioner": {
+      "name": "Grisha Executioner",
+      "aliases": [],
+      "appearances": [29, 30],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "The person responsible for carrying out death sentences on Grisha prisoners, using methods designed to be particularly cruel to those with magical abilities.",
+          "role": "Executioner",
+          "relationships": {
+            "Drüskelle": "Carries out sentences for",
+            "Grisha prisoners": "Executes"
+          }
+        }
+      }
+    },
+    "ice-court-librarian": {
+      "name": "Ice Court Librarian",
+      "aliases": [],
+      "appearances": [21, 29],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The keeper of the Ice Court's extensive collection of books and records, including information about Grisha and their abilities.",
+          "role": "Knowledge keeper",
+          "relationships": {
+            "Ice Court": "Maintains records for",
+            "Scholars": "Provides research assistance to"
+          }
+        }
+      }
+    },
+    "shu-han-spies": {
+      "name": "Shu Han Spies",
+      "aliases": [],
+      "appearances": [25, 30, 44],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Intelligence agents working for the Shu Han government, interested in obtaining jurda parem and understanding its effects on Grisha.",
+          "role": "Foreign intelligence",
+          "relationships": {
+            "Shu Han": "Work for government of",
+            "Jurda parem": "Seeking information about"
+          }
+        }
+      }
+    },
+    "ravkan-spies": {
+      "name": "Ravkan Spies",
+      "aliases": [],
+      "appearances": [25, 44],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Agents working for Ravka to protect their Grisha citizens and counter the threat of jurda parem to their Second Army.",
+          "role": "Government agents",
+          "relationships": {
+            "Ravka": "Serve the government of",
+            "Grisha": "Work to protect"
+          }
+        }
+      }
+    },
+    "kerch-politicians": {
+      "name": "Kerch Politicians",
+      "aliases": [],
+      "appearances": [25, 44, 45],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Government officials and elected leaders of Kerch who are influenced by the merchant class and their commercial interests.",
+          "role": "Government officials",
+          "relationships": {
+            "Merchant Council": "Influenced by",
+            "Jan Van Eck": "Some allied with"
+          }
+        }
+      }
+    },
+    "stadwatch-captain": {
+      "name": "Stadwatch Captain",
+      "aliases": [],
+      "appearances": [44, 45, 46, 47],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "The leader of Ketterdam's city watch, responsible for maintaining law and order. He can be influenced by wealthy merchants and political pressure.",
+          "role": "Police chief",
+          "relationships": {
+            "Stadwatch": "Commands",
+            "Wealthy merchants": "Sometimes influenced by"
+          }
+        }
+      }
+    },
+    "medical-examiner": {
+      "name": "Medical Examiner",
+      "aliases": [],
+      "appearances": [44, 45],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "A doctor who examines bodies and determines causes of death for legal purposes. He may be involved in covering up crimes for the right price.",
+          "role": "Forensic physician",
+          "relationships": {
+            "Stadwatch": "Works with",
+            "Wealthy clients": "Sometimes corrupted by"
+          }
+        }
+      }
+    },
+    "van-eck-lawyer": {
+      "name": "Van Eck's Lawyer",
+      "aliases": [],
+      "appearances": [44, 45, 46],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "A legal representative who handles Jan Van Eck's business and personal affairs, including his attempts to disinherit Wylan and control his assets.",
+          "role": "Legal counsel",
+          "relationships": {
+            "Jan Van Eck": "Legal client",
+            "Wylan Van Eck": "Involved in disinheritance case"
+          }
+        }
+      }
+    },
+    "asylum-workers": {
+      "name": "Asylum Workers",
+      "aliases": [],
+      "appearances": [25, 44, 45],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Staff at the mental institution where Jan Van Eck had his wife Marya committed. They are paid to keep her confined and hidden.",
+          "role": "Institutional staff",
+          "relationships": {
+            "Marya Hendriks": "Keep imprisoned",
+            "Jan Van Eck": "Paid by to maintain secrecy"
+          }
+        }
+      }
+    },
+    "private-investigators": {
+      "name": "Private Investigators",
+      "aliases": [],
+      "appearances": [44, 45],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Detectives hired by wealthy individuals to gather information and conduct surveillance. They may work for multiple clients with conflicting interests.",
+          "role": "Private detectives",
+          "relationships": {
+            "Wealthy clients": "Employed by",
+            "Various subjects": "Investigate and surveil"
+          }
+        }
+      }
+    },
+    "newspaper-reporters": {
+      "name": "Newspaper Reporters",
+      "aliases": [],
+      "appearances": [44, 45, 47],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Journalists who cover news events in Ketterdam, including crimes, politics, and business dealings. They can be bought or threatened to control information.",
+          "role": "Journalists",
+          "relationships": {
+            "Ketterdam citizens": "Report news to",
+            "Powerful interests": "Sometimes influenced by"
+          }
+        }
+      }
+    },
+    "black-market-dealers": {
+      "name": "Black Market Dealers",
+      "aliases": [],
+      "appearances": [13, 14, 44, 45],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Merchants who trade in illegal goods, including weapons, drugs, and stolen items. They operate in the shadows of legitimate commerce.",
+          "role": "Illegal goods traders",
+          "relationships": {
+            "Criminal gangs": "Supply goods to",
+            "Legitimate merchants": "Compete with illegally"
+          }
+        }
+      }
+    },
+    "street-children": {
+      "name": "Street Children",
+      "aliases": [],
+      "appearances": [1, 2, 5, 6, 38, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Orphaned or abandoned children living on the streets of Ketterdam, particularly in the Barrel. They survive through begging, theft, and running messages.",
+          "role": "Street survivors",
+          "relationships": {
+            "Criminal gangs": "Sometimes recruited by",
+            "Barrel residents": "Part of street community"
+          }
+        }
+      }
+    },
+    "beggars": {
+      "name": "Beggars",
+      "aliases": [],
+      "appearances": [1, 2, 5, 38, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Impoverished people who ask for charity on the streets of Ketterdam. They often have valuable information about street activities and comings and goings.",
+          "role": "Street informants",
+          "relationships": {
+            "Street community": "Part of",
+            "Criminal gangs": "Sometimes provide information to"
+          }
+        }
+      }
+    },
+    "pickpockets": {
+      "name": "Pickpockets",
+      "aliases": [],
+      "appearances": [1, 2, 5, 38, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Small-time thieves who steal from tourists and wealthy citizens in Ketterdam. They operate throughout the city but especially in crowded areas.",
+          "role": "Street thieves",
+          "relationships": {
+            "Tourist victims": "Steal from",
+            "Criminal gangs": "Sometimes affiliated with"
+          }
+        }
+      }
+    },
+    "con-artists": {
+      "name": "Con Artists",
+      "aliases": [],
+      "appearances": [1, 2, 46, 47],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Swindlers who run elaborate schemes to defraud victims of their money. They operate throughout Ketterdam's criminal underworld.",
+          "role": "Fraud specialists",
+          "relationships": {
+            "Pekka Rollins": "Some work for or compete with",
+            "Wealthy marks": "Target for scams"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Kaz Brekker, known as Dirtyhands, leads the Dregs gang in Ketterdam's criminal Barrel district. He discovers that Big Bolliger has been betraying the Dregs to their rival Pekka Rollins. Kaz deals with the traitor and begins planning something big.",
+    "2": "Inej Ghafa, the Wraith, reflects on her past as a former acrobat sold into slavery at the Menagerie before Kaz bought her indenture. The Dregs prepare for a major job while dealing with rival gangs in the Barrel.",
+    "3": "Jan Van Eck, a wealthy merchant, approaches Kaz with an impossible job: break into Fjerda's impenetrable Ice Court and kidnap the Shu inventor Bo Yul-Bayur, who created the dangerous drug jurda parem. The payment: thirty million kruge.",
+    "4": "The deadly effects of jurda parem are revealed through experiments on a Grisha named Anya. The drug amplifies Grisha powers but leaves them addicted and eventually kills them. Kaz realizes the global implications of this discovery.",
+    "5": "Kaz recruits Wylan Van Eck (using the false name Hendriks) as the crew's demolitions expert. Jesper Fahey's gambling debts mount as he struggles with his addiction. The crew begins assembling for the impossible heist.",
+    "6": "The crew travels to Hellgate prison to recruit Matthias Helvar, a former Fjerdan drüskelle (witchhunter) who was imprisoned for slaving. Kaz orchestrates Matthias's release, knowing his knowledge of the Ice Court is essential.",
+    "7": "Nina Zenik's complicated history with Matthias is revealed. They were enemies who fell in love during a shipwreck, but she betrayed him to protect other Grisha, leading to his imprisonment. Their reunion is tense and painful.",
+    "8": "The crew boards the Ferolind, captained by Roeder, to sail toward Fjerda. Tensions run high between the six members as they prepare for the dangerous mission ahead. Each has their own motivations for the job.",
+    "9": "During the voyage, the crew members begin to work together despite their differences. Jesper and Wylan develop a friendship, while Nina and Matthias struggle with their complex past and conflicting loyalties.",
+    "10": "The ship encounters rough weather and dangerous waters as they approach Fjerdan territory. The crew uses the time to plan their approach to the Ice Court and prepare their equipment.",
+    "11": "Wylan reveals he cannot read, a secret that has shaped his entire life and caused his father to disown him. The crew continues planning their infiltration strategy for the heavily fortified Ice Court.",
+    "12": "The crew meets with the Conductor, a smuggler who will help them cross the border into Fjerda illegally. They finalize their approach route and begin the dangerous journey into enemy territory.",
+    "13": "The crew acquires disguises and forged documents in preparation for their infiltration. They split into teams and prepare to enter the Ice Court using different methods - some as performers, others as servants.",
+    "14": "Nina and Matthias prepare to infiltrate as part of the kitchen staff, while Kaz, Inej, and Jesper plan their approach through different routes. Wylan prepares the explosives they'll need for the heist.",
+    "15": "The crew enters the Ice Court compound. Nina sees Jarl Brum, her former captor and torturer, which brings back traumatic memories. They discover the layout is more complex than expected.",
+    "16": "The infiltration begins in earnest as the crew splits up to accomplish different objectives. Each faces unexpected challenges and dangers within the heavily guarded fortress.",
+    "17": "Jesper is forced to use his hidden Grisha abilities - he's a Fabrikator who can manipulate metal and other materials. This revelation changes the dynamics of the mission and his relationships with the crew.",
+    "18": "The crew navigates the complex social and political dynamics within the Ice Court. They gather intelligence while maintaining their cover identities among the Fjerdan nobles and staff.",
+    "19": "Tensions escalate as the crew gets deeper into the Ice Court. They face increased scrutiny from guards and must adapt their plans as they encounter unexpected obstacles.",
+    "20": "The crew discovers that their mission parameters have changed. New information forces them to reassess their objectives while trying to maintain their cover within the fortress.",
+    "21": "Nina confronts her traumatic past as she encounters more drüskelle and Fjerdan officials. The crew works to maintain their disguises while gathering crucial intelligence about their target.",
+    "22": "The crew's plans become more complicated as they discover the true layout and security of the Ice Court. They must adapt quickly to avoid detection while moving closer to their objective.",
+    "23": "Multiple close calls threaten to expose the crew's true identities. They use quick thinking and their unique skills to avoid capture while continuing toward their goal.",
+    "24": "The crew reaches a critical juncture in their mission. Each member must make difficult choices that will determine the success or failure of the entire operation.",
+    "25": "Jan Van Eck's true identity as Wylan's father is revealed, along with his cruel treatment of his son. The crew realizes they may have been manipulated from the beginning.",
+    "26": "The crew's situation becomes more desperate as they discover the full extent of the deception surrounding their mission. They must decide whether to continue or abort the increasingly dangerous operation.",
+    "27": "With their original plan compromised, the crew must improvise new strategies to accomplish their objectives. Each member's skills and loyalty are tested to the limit.",
+    "28": "The crew faces betrayal and discovers that their mission may have been doomed from the start. They must rely on each other and their wits to survive the increasingly hostile environment.",
+    "29": "Inside the Ice Court's most secure areas, the crew encounters the horrific reality of Fjerdan treatment of Grisha prisoners. They witness torture and experimentation that strengthens their resolve.",
+    "30": "The shocking discovery: Bo Yul-Bayur is dead, and his son Kuwei is the one who actually knows how to make jurda parem. The crew's entire mission parameters shift as they adapt to this revelation.",
+    "31": "With their original target dead, the crew must decide whether to rescue Kuwei instead. The decision puts them at greater risk but may be their only chance to complete the mission successfully.",
+    "32": "The crew attempts to rescue Kuwei from the Ice Court's highest security area. They face increased danger as Fjerdan forces become aware that something is wrong.",
+    "33": "The rescue operation intensifies as the crew fights through Ice Court defenses. Each member must use their specialized skills to overcome seemingly impossible obstacles.",
+    "34": "The crew's cover is blown as Fjerdan forces mobilize against them. They must fight their way out while protecting Kuwei, who holds the dangerous knowledge of jurda parem production.",
+    "35": "Kuwei reveals he is an Inferni Grisha, adding another complication to the escape. The crew faces increasing resistance as they try to flee the Ice Court with their valuable but dangerous cargo.",
+    "36": "The escape from the Ice Court becomes a desperate battle for survival. The crew uses every skill and resource at their disposal to evade capture and protect their mission.",
+    "37": "The crew successfully escapes the Ice Court but faces new dangers as Fjerdan forces pursue them. They must reach safety while protecting Kuwei and dealing with their own injuries and trauma.",
+    "38": "Back in Ketterdam, the crew discovers that their troubles are far from over. Jan Van Eck's betrayal becomes clear as he attempts to eliminate them and take Kuwei for himself.",
+    "39": "The crew realizes they've been pawns in a larger political game. Van Eck never intended to pay them and has been planning to betray them from the beginning of the mission.",
+    "40": "With Van Eck as their enemy, the crew must use all their skills to survive his attempts to eliminate them. They prepare for a final confrontation with their former employer.",
+    "41": "The crew plans their counter-attack against Van Eck, using their knowledge of his weaknesses and their own unique abilities. Each member prepares for what may be their final battle.",
+    "42": "The confrontation with Van Eck escalates as both sides prepare for a decisive battle. The crew must protect Kuwei while dealing with Van Eck's superior resources and political connections.",
+    "43": "The final battle begins as the crew faces off against Van Eck's forces. They must use every trick and skill they've learned to survive and protect the people they care about.",
+    "44": "Van Eck's true plan is revealed as he attempts to use Kuwei and jurda parem to gain power over all Grisha. The crew realizes the global implications of stopping him.",
+    "45": "The crew works together to defeat Van Eck's scheme and protect Kuwei. Each member's growth and skills contribute to their fight against overwhelming odds.",
+    "46": "Kaz's traumatic past with Pekka Rollins is finally revealed, showing how his brother Jordie's death shaped him into Dirtyhands. The crew prepares for their final confrontation with their enemies.",
+    "47": "The crew emerges victorious but forever changed by their experiences. They've gained wealth, power, and most importantly, they've become a true family bound by shared trauma and triumph."
+  }
+}
