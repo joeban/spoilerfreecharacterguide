@@ -1,0 +1,987 @@
+{
+  "meta": {
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "chapters": 19,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "hari-seldon": {
+      "name": "Hari Seldon",
+      "aliases": ["The First Speaker", "Founder of Psychohistory"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A brilliant mathematician who has developed the science of psychohistory, a mathematical discipline that can predict the future of large groups of people.",
+          "role": "Founder of psychohistory and the Foundation",
+          "relationships": {
+            "mentor to": "Gaal Dornick",
+            "ally of": "Foundation",
+            "opposed by": "Galactic Empire"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Revealed to have recorded messages for future generations of the Foundation, appearing through a time vault to guide them during crises.",
+          "role": "Guiding spirit of the Foundation through recorded messages",
+          "relationships": {
+            "mentor to": "Foundation leaders",
+            "predicted": "Seldon Crises"
+          }
+        }
+      }
+    },
+    "gaal-dornick": {
+      "name": "Gaal Dornick",
+      "aliases": ["Young Mathematician"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young mathematician from Synnax who comes to Trantor to work with Hari Seldon.",
+          "role": "Student and follower of Hari Seldon",
+          "relationships": {
+            "student of": "Hari Seldon",
+            "ally of": "Foundation"
+          }
+        }
+      }
+    },
+    "salvor-hardin": {
+      "name": "Salvor Hardin",
+      "aliases": ["Mayor of Terminus"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The pragmatic mayor of Terminus City and leader of the Foundation who believes in political solutions over scientific isolation.",
+          "role": "Mayor of Terminus and Foundation leader",
+          "relationships": {
+            "leads": "Foundation",
+            "opposed by": "Board of Trustees",
+            "rival of": "Lewis Pirenne"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Successfully navigates the first Seldon Crisis by establishing the Foundation as a religious power among the Four Kingdoms.",
+          "role": "Political leader who turned science into religion for diplomatic advantage",
+          "relationships": {
+            "converted": "Four Kingdoms to Foundation religion",
+            "mentor to": "Foundation politicians"
+          }
+        }
+      }
+    },
+    "lewis-pirenne": {
+      "name": "Lewis Pirenne",
+      "aliases": ["Director of the Encyclopedia"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The director of the Encyclopedia Galactica project and chairman of the Board of Trustees, focused on preserving knowledge.",
+          "role": "Director of Encyclopedia project",
+          "relationships": {
+            "leads": "Board of Trustees",
+            "rival of": "Salvor Hardin",
+            "opposed by": "Foundation politicians"
+          }
+        }
+      }
+    },
+    "hober-mallow": {
+      "name": "Hober Mallow",
+      "aliases": ["Master Trader"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Master Trader of the Foundation who becomes involved in establishing trade relationships with distant worlds.",
+          "role": "Master Trader and future Foundation leader",
+          "relationships": {
+            "member of": "Traders Guild",
+            "ally of": "Foundation"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Becomes mayor of the Foundation after successfully handling the Korellian trade crisis and proving the power of economic warfare.",
+          "role": "Mayor of the Foundation",
+          "relationships": {
+            "leads": "Foundation",
+            "established trade with": "Korell"
+          }
+        }
+      }
+    },
+    "jord-fara": {
+      "name": "Jord Fara",
+      "aliases": ["High Priest of Anacreon"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A priest of the Foundation's pseudo-religion on Anacreon who maintains the nuclear power plant.",
+          "role": "High Priest maintaining Foundation technology",
+          "relationships": {
+            "serves": "Foundation religion",
+            "maintains": "Anacreon power plant",
+            "reports to": "Foundation"
+          }
+        }
+      }
+    },
+    "wienis": {
+      "name": "Wienis",
+      "aliases": ["Prince Regent of Anacreon"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The regent of Anacreon who plots to attack the Foundation and seize its technology.",
+          "role": "Prince Regent plotting against the Foundation",
+          "relationships": {
+            "rules": "Anacreon",
+            "plots against": "Foundation",
+            "uncle of": "King Lepold"
+          }
+        }
+      }
+    },
+    "lepold": {
+      "name": "Lepold I",
+      "aliases": ["King of Anacreon"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The young king of Anacreon, manipulated by his uncle Wienis in the plot against the Foundation.",
+          "role": "King of Anacreon",
+          "relationships": {
+            "rules": "Anacreon",
+            "nephew of": "Wienis",
+            "manipulated by": "Prince Regent"
+          }
+        }
+      }
+    },
+    "theo-aporat": {
+      "name": "Theo Aporat",
+      "aliases": ["Grand Prior"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The Grand Prior of the Foundation religion on Anacreon, loyal to the Foundation.",
+          "role": "Religious leader loyal to Foundation",
+          "relationships": {
+            "serves": "Foundation",
+            "leads": "Foundation priests on Anacreon"
+          }
+        }
+      }
+    },
+    "verisof": {
+      "name": "Verisof",
+      "aliases": ["Captain"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A captain in Prince Wienis's forces involved in the plot against the Foundation.",
+          "role": "Military captain under Wienis",
+          "relationships": {
+            "serves": "Prince Wienis",
+            "opposes": "Foundation"
+          }
+        }
+      }
+    },
+    "anselm-haut-rodric": {
+      "name": "Anselm haut Rodric",
+      "aliases": ["King of Smyrno"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The king of Smyrno, one of the Four Kingdoms threatening the Foundation.",
+          "role": "King threatening Foundation",
+          "relationships": {
+            "rules": "Smyrno",
+            "threatens": "Foundation",
+            "member of": "Four Kingdoms"
+          }
+        }
+      }
+    },
+    "sef-sermak": {
+      "name": "Sef Sermak",
+      "aliases": ["Leader of Actionist Party"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Leader of the Actionist party opposing Hardin's policies, advocating for military action.",
+          "role": "Political opposition leader",
+          "relationships": {
+            "leads": "Actionist Party",
+            "opposes": "Salvor Hardin",
+            "advocates for": "military solutions"
+          }
+        }
+      }
+    },
+    "limmar-ponyets": {
+      "name": "Limmar Ponyets",
+      "aliases": ["Master Trader"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Master Trader who helps rescue Eskel Gorov from Askone.",
+          "role": "Master Trader and negotiator",
+          "relationships": {
+            "member of": "Traders Guild",
+            "rescues": "Eskel Gorov"
+          }
+        }
+      }
+    },
+    "eskel-gorov": {
+      "name": "Eskel Gorov",
+      "aliases": ["Foundation Representative"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Foundation representative imprisoned on Askone for trying to introduce nuclear technology.",
+          "role": "Foundation diplomat",
+          "relationships": {
+            "represents": "Foundation",
+            "imprisoned by": "Askone",
+            "rescued by": "Limmar Ponyets"
+          }
+        }
+      }
+    },
+    "pherl": {
+      "name": "Pherl",
+      "aliases": ["Commdor of Korell"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The Commdor (ruler) of Korell who initially welcomes Foundation trade but is secretly plotting against them.",
+          "role": "Ruler of Korell",
+          "relationships": {
+            "rules": "Korell",
+            "trades with": "Foundation",
+            "secretly opposes": "Foundation"
+          }
+        }
+      }
+    },
+    "jorane-sutt": {
+      "name": "Jorane Sutt",
+      "aliases": ["Secretary to Mayor Hardin"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Secretary to Mayor Hardin and leader of the investigation into Hober Mallow.",
+          "role": "Political secretary and investigator",
+          "relationships": {
+            "serves": "Mayor Hardin",
+            "investigates": "Hober Mallow",
+            "ally of": "Sef Sermak"
+          }
+        }
+      }
+    },
+    "jaim-twer": {
+      "name": "Jaim Twer",
+      "aliases": ["Foundation Councilman"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Foundation councilman who accompanies Hober Mallow to Korell as part of the trade mission.",
+          "role": "Foundation councilman and trade representative",
+          "relationships": {
+            "member of": "Foundation Council",
+            "accompanies": "Hober Mallow",
+            "represents": "Foundation interests"
+          }
+        }
+      }
+    },
+    "yohan-lee": {
+      "name": "Yohan Lee",
+      "aliases": ["Trader"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young trader who supports Salvor Hardin's political approach over the Encyclopedia project.",
+          "role": "Trader and Hardin supporter",
+          "relationships": {
+            "supports": "Salvor Hardin",
+            "opposes": "Board of Trustees"
+          }
+        }
+      }
+    },
+    "dorwin": {
+      "name": "Lord Dorwin",
+      "aliases": ["Chancellor of the Empire"],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An Imperial Chancellor who visits Terminus but proves to be ineffectual and more concerned with social niceties than real help.",
+          "role": "Imperial Chancellor",
+          "relationships": {
+            "represents": "Galactic Empire",
+            "visits": "Foundation",
+            "proves ineffectual to": "Foundation's needs"
+          }
+        }
+      }
+    },
+    "creohan": {
+      "name": "Creohan",
+      "aliases": ["High Priest of Askone"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The High Priest of Askone who initially opposes Foundation technology but is eventually convinced by Limmar Ponyets.",
+          "role": "High Priest of Askone",
+          "relationships": {
+            "leads": "Askone religion",
+            "initially opposes": "Foundation technology",
+            "convinced by": "Limmar Ponyets"
+          }
+        }
+      }
+    },
+    "lem-tarki": {
+      "name": "Lem Tarki",
+      "aliases": ["Askonian Official"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "An Askonian official involved in the negotiations with Limmar Ponyets regarding Eskel Gorov's fate.",
+          "role": "Askonian government official",
+          "relationships": {
+            "serves": "Askone government",
+            "negotiates with": "Limmar Ponyets"
+          }
+        }
+      }
+    },
+    "klev": {
+      "name": "Klev",
+      "aliases": ["Korellan Official"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Korellian official who deals with Foundation traders and is involved in the trade negotiations.",
+          "role": "Korellian trade official",
+          "relationships": {
+            "serves": "Korell",
+            "deals with": "Foundation traders"
+          }
+        }
+      }
+    },
+    "poly-verisof": {
+      "name": "Poly Verisof",
+      "aliases": ["Anacreonian Noble"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An Anacreonian noble involved in Prince Wienis's court and the plotting against the Foundation.",
+          "role": "Anacreonian courtier",
+          "relationships": {
+            "serves": "Prince Wienis",
+            "member of": "Anacreonian nobility"
+          }
+        }
+      }
+    },
+    "digger": {
+      "name": "Digger",
+      "aliases": ["Foundation Technician"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Foundation technician working on Terminus, representing the practical workers as opposed to the academic Board.",
+          "role": "Foundation technician",
+          "relationships": {
+            "works for": "Foundation",
+            "represents": "working class perspective"
+          }
+        }
+      }
+    },
+    "harla-branno": {
+      "name": "Harla Branno",
+      "aliases": ["Foundation Citizen"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Foundation citizen involved in the political discussions about trade policy and military action.",
+          "role": "Foundation citizen and political participant",
+          "relationships": {
+            "citizen of": "Foundation",
+            "participates in": "political discussions"
+          }
+        }
+      }
+    },
+    "sennett-forell": {
+      "name": "Sennett Forell",
+      "aliases": ["Foundation Psychologist"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Foundation psychologist who analyzes the political and social implications of the Korellian situation.",
+          "role": "Foundation psychologist",
+          "relationships": {
+            "serves": "Foundation",
+            "analyzes": "political situations"
+          }
+        }
+      }
+    },
+    "bel-arvardan": {
+      "name": "Bel Arvardan",
+      "aliases": ["Imperial Archaeologist"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An Imperial archaeologist and scientist who becomes involved with the Foundation's early history.",
+          "role": "Imperial scientist",
+          "relationships": {
+            "works for": "Galactic Empire",
+            "studies": "galactic history"
+          }
+        }
+      }
+    },
+    "raven-seldon": {
+      "name": "Raven Seldon",
+      "aliases": ["Hari's Granddaughter"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Hari Seldon's granddaughter who helps with the early Foundation work and supports her grandfather's vision.",
+          "role": "Seldon family member and Foundation supporter",
+          "relationships": {
+            "granddaughter of": "Hari Seldon",
+            "supports": "Foundation project"
+          }
+        }
+      }
+    },
+    "chen": {
+      "name": "Chen",
+      "aliases": ["Imperial Commission Member"],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A member of the Imperial Commission investigating Hari Seldon's activities and the threat of psychohistory.",
+          "role": "Imperial investigator",
+          "relationships": {
+            "member of": "Imperial Commission",
+            "investigates": "Hari Seldon"
+          }
+        }
+      }
+    },
+    "alurin": {
+      "name": "Alurin",
+      "aliases": ["Imperial Commission Member"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another member of the Imperial Commission, more hostile to Seldon's psychohistory project than Chen.",
+          "role": "Imperial prosecutor",
+          "relationships": {
+            "member of": "Imperial Commission",
+            "opposes": "Hari Seldon",
+            "prosecutes": "psychohistory"
+          }
+        }
+      }
+    },
+    "linge-chen": {
+      "name": "Linge Chen",
+      "aliases": ["Chief Commissioner"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Chief Commissioner of the Public Safety Committee investigating Hari Seldon's work.",
+          "role": "Chief Imperial investigator",
+          "relationships": {
+            "leads": "Imperial Commission",
+            "presides over": "Seldon Trial"
+          }
+        }
+      }
+    },
+    "yate-fulham": {
+      "name": "Yate Fulham",
+      "aliases": ["Board Member"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A member of the Board of Trustees who supports the Encyclopedia project over political involvement.",
+          "role": "Board of Trustees member",
+          "relationships": {
+            "member of": "Board of Trustees",
+            "supports": "Encyclopedia project",
+            "opposes": "Salvor Hardin"
+          }
+        }
+      }
+    },
+    "lundin-crast": {
+      "name": "Lundin Crast",
+      "aliases": ["Board Secretary"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Secretary of the Board of Trustees and supporter of Lewis Pirenne's academic approach.",
+          "role": "Board secretary",
+          "relationships": {
+            "secretary of": "Board of Trustees",
+            "supports": "Lewis Pirenne"
+          }
+        }
+      }
+    },
+    "haut-anselm": {
+      "name": "Haut Anselm",
+      "aliases": ["Smyrnian Prince"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A prince of Smyrno involved in the Four Kingdoms' threat to the Foundation.",
+          "role": "Smyrnian royalty",
+          "relationships": {
+            "member of": "Smyrnian royal family",
+            "threatens": "Foundation"
+          }
+        }
+      }
+    },
+    "ver-hovic": {
+      "name": "Ver Hovic",
+      "aliases": ["Foundation Engineer"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Foundation engineer working on Anacreon to maintain the power plants and Foundation technology.",
+          "role": "Foundation technical specialist",
+          "relationships": {
+            "serves": "Foundation",
+            "works on": "Anacreon",
+            "maintains": "nuclear technology"
+          }
+        }
+      }
+    },
+    "twer": {
+      "name": "Twer",
+      "aliases": ["Foundation Representative"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A Foundation representative who works closely with the trade missions.",
+          "role": "Foundation diplomat",
+          "relationships": {
+            "represents": "Foundation",
+            "works with": "trade missions"
+          }
+        }
+      }
+    },
+    "gorov": {
+      "name": "Gorov",
+      "aliases": ["Foundation Trader"],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Foundation trader involved in early attempts to establish trade relationships beyond the Four Kingdoms.",
+          "role": "Foundation trader",
+          "relationships": {
+            "works for": "Foundation",
+            "engages in": "interstellar trade"
+          }
+        }
+      }
+    },
+    "poly": {
+      "name": "Poly",
+      "aliases": ["Anacreonian Courtier"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A courtier in the Anacreonian court involved in the political maneuvering around the Foundation crisis.",
+          "role": "Court official",
+          "relationships": {
+            "serves": "Anacreonian court",
+            "involved in": "anti-Foundation plotting"
+          }
+        }
+      }
+    },
+    "sermak": {
+      "name": "Sermak",
+      "aliases": ["Actionist"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A member of the Actionist party who advocates for military solutions to Foundation problems.",
+          "role": "Political activist",
+          "relationships": {
+            "member of": "Actionist Party",
+            "advocates": "military action"
+          }
+        }
+      }
+    },
+    "manlio": {
+      "name": "Manlio",
+      "aliases": ["Korellian Official"],
+      "appearances": [17, 18],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A Korellian official involved in the trade negotiations and political maneuvering with the Foundation.",
+          "role": "Korellian administrator",
+          "relationships": {
+            "serves": "Korell government",
+            "negotiates with": "Foundation"
+          }
+        }
+      }
+    },
+    "barr": {
+      "name": "Barr",
+      "aliases": ["Foundation Scientist"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Foundation scientist working on the early development of psychohistorical mathematics.",
+          "role": "Foundation mathematician",
+          "relationships": {
+            "works with": "Hari Seldon",
+            "develops": "psychohistory"
+          }
+        }
+      }
+    },
+    "randu": {
+      "name": "Randu",
+      "aliases": ["Foundation Councilman"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Foundation councilman involved in the political debates about trade policy and military preparedness.",
+          "role": "Foundation politician",
+          "relationships": {
+            "member of": "Foundation Council",
+            "participates in": "policy debates"
+          }
+        }
+      }
+    },
+    "sutt": {
+      "name": "Sutt",
+      "aliases": ["Foundation Official"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A Foundation official involved in the investigation and prosecution of various political matters.",
+          "role": "Foundation investigator",
+          "relationships": {
+            "serves": "Foundation government",
+            "investigates": "political crimes"
+          }
+        }
+      }
+    },
+    "fara": {
+      "name": "Fara",
+      "aliases": ["Foundation Priest"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Foundation priest working to maintain the religious facade that protects Foundation technology.",
+          "role": "Foundation religious official",
+          "relationships": {
+            "serves": "Foundation religion",
+            "protects": "Foundation technology"
+          }
+        }
+      }
+    },
+    "verisof-captain": {
+      "name": "Captain Verisof",
+      "aliases": ["Anacreonian Officer"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "An Anacreonian military captain involved in Prince Wienis's plans against the Foundation.",
+          "role": "Military officer",
+          "relationships": {
+            "serves": "Prince Wienis",
+            "commands": "Anacreonian forces"
+          }
+        }
+      }
+    },
+    "hort": {
+      "name": "Hort",
+      "aliases": ["Foundation Technician"],
+      "appearances": [6, 7, 8, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A Foundation technician working on various technical projects during the early crises.",
+          "role": "Technical specialist",
+          "relationships": {
+            "works for": "Foundation",
+            "maintains": "Foundation technology"
+          }
+        }
+      }
+    },
+    "mallow-aide": {
+      "name": "Mallow's Aide",
+      "aliases": ["Foundation Assistant"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "An assistant to Hober Mallow during his political rise and trade negotiations.",
+          "role": "Political aide",
+          "relationships": {
+            "assists": "Hober Mallow",
+            "supports": "Foundation trade policy"
+          }
+        }
+      }
+    },
+    "korellian-ambassador": {
+      "name": "Korellian Ambassador",
+      "aliases": ["Korell Representative"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "The official representative of Korell in negotiations with the Foundation regarding trade agreements.",
+          "role": "Diplomatic representative",
+          "relationships": {
+            "represents": "Korell",
+            "negotiates with": "Foundation"
+          }
+        }
+      }
+    },
+    "foundation-guard": {
+      "name": "Foundation Guard",
+      "aliases": ["Security Officer"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Security personnel protecting Foundation facilities and officials during the various crises.",
+          "role": "Security officer",
+          "relationships": {
+            "protects": "Foundation officials",
+            "secures": "Foundation facilities"
+          }
+        }
+      }
+    },
+    "anacreonian-priest": {
+      "name": "Anacreonian Priest",
+      "aliases": ["Religious Official"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Local religious officials on Anacreon who have adopted the Foundation's pseudo-religion to maintain their technology.",
+          "role": "Local religious leader",
+          "relationships": {
+            "follows": "Foundation religion",
+            "serves": "local population"
+          }
+        }
+      }
+    },
+    "imperial-envoy": {
+      "name": "Imperial Envoy",
+      "aliases": ["Empire Representative"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Various representatives of the declining Galactic Empire who attempt to deal with the Foundation situation.",
+          "role": "Imperial diplomat",
+          "relationships": {
+            "represents": "Galactic Empire",
+            "deals with": "Foundation crisis"
+          }
+        }
+      }
+    },
+    "smyrnian-noble": {
+      "name": "Smyrnian Noble",
+      "aliases": ["Kingdom Representative"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Nobles from the Kingdom of Smyrno involved in the Four Kingdoms' alliance against the Foundation.",
+          "role": "Aristocratic leader",
+          "relationships": {
+            "member of": "Smyrnian nobility",
+            "opposes": "Foundation"
+          }
+        }
+      }
+    },
+    "trade-representative": {
+      "name": "Trade Representative",
+      "aliases": ["Commercial Agent"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Various commercial agents and trade representatives working to establish Foundation commerce throughout the galaxy.",
+          "role": "Commercial diplomat",
+          "relationships": {
+            "represents": "Foundation trade interests",
+            "negotiates": "commercial agreements"
+          }
+        }
+      }
+    },
+    "terminus-citizen": {
+      "name": "Terminus Citizen",
+      "aliases": ["Foundation Civilian"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The civilian population of Terminus who support the Foundation through various crises.",
+          "role": "Civilian population",
+          "relationships": {
+            "supports": "Foundation",
+            "lives on": "Terminus"
+          }
+        }
+      }
+    },
+    "galactic-emperor": {
+      "name": "Galactic Emperor",
+      "aliases": ["Imperial Ruler"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The distant ruler of the declining Galactic Empire, largely ineffective in dealing with the Foundation situation.",
+          "role": "Supreme ruler of the Empire",
+          "relationships": {
+            "rules": "Galactic Empire",
+            "threatened by": "Foundation's growth"
+          }
+        }
+      }
+    },
+    "psychohistorian": {
+      "name": "Psychohistorian",
+      "aliases": ["Foundation Mathematician"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various mathematicians and scientists working on the development and application of psychohistory.",
+          "role": "Scientific researcher",
+          "relationships": {
+            "studies": "psychohistory",
+            "works with": "Hari Seldon"
+          }
+        }
+      }
+    },
+    "encyclopedia-editor": {
+      "name": "Encyclopedia Editor",
+      "aliases": ["Academic Scholar"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Scholars working on the Encyclopedia Galactica project, the supposed reason for the Foundation's establishment.",
+          "role": "Academic researcher",
+          "relationships": {
+            "works on": "Encyclopedia Galactica",
+            "serves": "Board of Trustees"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Mathematician Hari Seldon presents his science of psychohistory to the Imperial court, predicting the Empire's fall and proposing the Foundation as a way to shorten the coming dark age.",
+    "2": "The Imperial Commission puts Seldon on trial for treason, but he convinces them to exile him and his followers to Terminus to work on an Encyclopedia Galactica.",
+    "3": "Seldon and his group arrive on Terminus and begin establishing the Foundation, ostensibly to compile human knowledge but actually to preserve civilization.",
+    "4": "Gaal Dornick learns more about psychohistory and Seldon's true plans as the Foundation begins its work on the remote planet of Terminus.",
+    "5": "Fifty years later, the Foundation faces its first crisis as the Four Kingdoms threaten Terminus while the Galactic Empire proves unable to help.",
+    "6": "Mayor Salvor Hardin challenges the Board of Trustees' academic focus, arguing that political action is needed to save the Foundation from external threats.",
+    "7": "Hardin takes control of the Foundation government, sidelining the Encyclopedia project in favor of dealing with the immediate political crisis.",
+    "8": "The first Seldon Crisis is resolved when Hardin turns Foundation science into a religion, making the Four Kingdoms dependent on Foundation technology.",
+    "9": "Thirty years later, Anacreon threatens the Foundation again as Prince Regent Wienis plots to seize Foundation technology and attack Terminus.",
+    "10": "The Foundation's pseudo-religion has become established throughout the Four Kingdoms, with priests maintaining the nuclear power plants and other technology.",
+    "11": "Wienis attempts his coup but finds that the Foundation's religious hold over his people makes military action impossible.",
+    "12": "The second Seldon Crisis ends with Wienis's defeat and suicide, as the Foundation's religious influence proves stronger than military might.",
+    "13": "Another generation later, the Foundation faces competition from independent traders who operate beyond the religious framework that controls the Four Kingdoms.",
+    "14": "Master Trader Limmar Ponyets negotiates the release of Eskel Gorov from Askone, demonstrating the power of economic rather than religious influence.",
+    "15": "Political opposition grows on Terminus as the Actionist party, led by Sef Sermak, argues for military expansion to compete with the independent traders.",
+    "16": "Hober Mallow travels to Korell as a Master Trader, discovering that the Korellians have Imperial support and nuclear weapons independent of the Foundation.",
+    "17": "Mallow establishes trade relationships with Korell while investigating the extent of Imperial involvement in the outer provinces.",
+    "18": "The Foundation faces its third Seldon Crisis as Korell, backed by the Empire, prepares for war using nuclear weapons that don't depend on Foundation religion.",
+    "19": "Mallow becomes mayor and defeats the Korellian threat through economic warfare, proving that trade and economic dependence are more powerful than military force or religion."
+  }
+}

@@ -1,0 +1,677 @@
+{
+  "meta": {
+    "title": "Foundation and Empire",
+    "author": "Isaac Asimov",
+    "chapters": 16,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "bel-riose": {
+      "name": "Bel Riose",
+      "aliases": ["General Riose", "The Last Great General"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The brilliant and ambitious general of the declining Galactic Empire, considered the last great military commander of Imperial history.",
+          "role": "Imperial General",
+          "relationships": {
+            "serves": "Galactic Empire",
+            "commands": "Imperial Fleet",
+            "threatens": "Foundation"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Successfully begins a campaign against the Foundation, initially achieving military victories and capturing Foundation territory.",
+          "role": "Successful military commander",
+          "relationships": {
+            "defeats": "Foundation forces",
+            "captures": "Foundation worlds",
+            "serves": "Emperor Cleon II"
+          }
+        }
+      }
+    },
+    "lathan-devers": {
+      "name": "Lathan Devers",
+      "aliases": ["Trader Devers", "Foundation Trader"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Foundation trader who becomes involved in the investigation of General Riose and the Imperial threat to the Foundation.",
+          "role": "Foundation trader and spy",
+          "relationships": {
+            "works for": "Foundation",
+            "investigates": "Bel Riose",
+            "partner of": "Ducem Barr"
+          }
+        }
+      }
+    },
+    "ducem-barr": {
+      "name": "Ducem Barr",
+      "aliases": ["Patrician of Siwenna"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The elderly Patrician of Siwenna whose family has suffered under Imperial rule, and who becomes an ally to the Foundation.",
+          "role": "Siwennian noble and Foundation ally",
+          "relationships": {
+            "rules": "Siwenna",
+            "ally of": "Foundation",
+            "enemy of": "Galactic Empire",
+            "partner of": "Lathan Devers"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Revealed to have deep knowledge of psychohistory and Seldon's plan, understanding the inevitability of the Foundation's victory.",
+          "role": "Keeper of psychohistorical knowledge",
+          "relationships": {
+            "understands": "Seldon's plan",
+            "educates": "Lathan Devers"
+          }
+        }
+      }
+    },
+    "cleon-ii": {
+      "name": "Cleon II",
+      "aliases": ["Emperor", "His Imperial Majesty"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The weak and paranoid Emperor of the Galactic Empire who becomes suspicious of General Riose's success against the Foundation.",
+          "role": "Galactic Emperor",
+          "relationships": {
+            "rules": "Galactic Empire",
+            "commands": "Bel Riose",
+            "suspicious of": "successful generals"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Orders the execution of General Riose due to paranoia about his growing power and success, effectively ending the Imperial threat to the Foundation.",
+          "role": "Paranoid ruler who destroys his own strength",
+          "relationships": {
+            "executes": "Bel Riose",
+            "destroys": "Imperial military effectiveness"
+          }
+        }
+      }
+    },
+    "mule": {
+      "name": "The Mule",
+      "aliases": ["Magnifico Giganticus", "First Citizen of the Union"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A mysterious conqueror who begins rapidly conquering worlds with seemingly impossible ease, defying all psychohistorical predictions.",
+          "role": "Unknown conqueror",
+          "relationships": {
+            "conquers": "Independent worlds",
+            "threatens": "Foundation",
+            "defies": "psychohistory"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Revealed to be a mutant with the power to control and manipulate human emotions, making him unpredictable to psychohistory.",
+          "role": "Emotional manipulator and conqueror",
+          "relationships": {
+            "controls": "human emotions",
+            "bypasses": "psychohistorical predictions",
+            "conquers": "Foundation"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Disclosed to be the seemingly harmless court jester Magnifico, who has been manipulating events while appearing weak and pathetic.",
+          "role": "Hidden master manipulator",
+          "relationships": {
+            "disguised as": "Magnifico",
+            "manipulated": "Bayta and Toran",
+            "seeks": "Second Foundation"
+          }
+        }
+      }
+    },
+    "bayta-darell": {
+      "name": "Bayta Darell",
+      "aliases": ["Mrs. Darell"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A young Foundation woman who travels with her husband Toran as they investigate the threat of the Mule.",
+          "role": "Foundation citizen and investigator",
+          "relationships": {
+            "wife of": "Toran Darell",
+            "investigates": "The Mule",
+            "befriends": "Magnifico"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "The only person to discover the Mule's true identity and resist his emotional manipulation, ultimately saving the Second Foundation from discovery.",
+          "role": "Hero who stops the Mule",
+          "relationships": {
+            "discovers": "Mule's identity",
+            "resists": "emotional manipulation",
+            "kills": "Magnifico/Mule"
+          }
+        }
+      }
+    },
+    "toran-darell": {
+      "name": "Toran Darell",
+      "aliases": ["Trader Darell"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Foundation trader and husband of Bayta, who investigates the Mule's conquests and tries to understand the threat to the Foundation.",
+          "role": "Foundation trader and investigator",
+          "relationships": {
+            "husband of": "Bayta Darell",
+            "investigates": "The Mule",
+            "travels with": "Magnifico"
+          }
+        }
+      }
+    },
+    "magnifico": {
+      "name": "Magnifico Giganticus",
+      "aliases": ["The Mule", "Court Jester"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A seemingly pitiful court jester who claims to have escaped from the Mule's court, appearing weak, deformed, and harmless.",
+          "role": "Apparent refugee and entertainer",
+          "relationships": {
+            "befriended by": "Bayta and Toran",
+            "escaped from": "The Mule (supposedly)",
+            "entertains with": "Visi-Sonor"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Revealed to actually be the Mule himself in disguise, using his pathetic appearance to avoid suspicion while manipulating those around him.",
+          "role": "The Mule in disguise",
+          "relationships": {
+            "true identity": "The Mule",
+            "manipulates": "Bayta and Toran",
+            "disguised as": "harmless jester"
+          }
+        }
+      }
+    },
+    "ebling-mis": {
+      "name": "Ebling Mis",
+      "aliases": ["Foundation Psychologist"],
+      "appearances": [12, 13, 14, 15, 16],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A brilliant Foundation psychologist who attempts to locate the Second Foundation by analyzing Seldon's psychohistorical equations.",
+          "role": "Foundation scientist",
+          "relationships": {
+            "works for": "Foundation",
+            "searches for": "Second Foundation",
+            "studies": "Seldon's work"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Under the Mule's emotional control, he works obsessively to find the Second Foundation but begins to resist as he nears the answer.",
+          "role": "Controlled scientist breaking free",
+          "relationships": {
+            "controlled by": "The Mule",
+            "resisting": "emotional manipulation",
+            "discovering": "Second Foundation location"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Dies after revealing that the Second Foundation is located at the opposite end of the galaxy from Terminus, at 'Star's End.'",
+          "role": "Martyr who saves Second Foundation",
+          "relationships": {
+            "reveals": "Second Foundation location",
+            "dies to protect": "vital information"
+          }
+        }
+      }
+    },
+    "captain-pritcher": {
+      "name": "Captain Pritcher",
+      "aliases": ["Foundation Military Officer"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Foundation military officer who leads the defense against the Mule's advancing forces.",
+          "role": "Foundation military commander",
+          "relationships": {
+            "serves": "Foundation",
+            "commands": "Foundation fleet",
+            "opposes": "The Mule"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Converted by the Mule's power and becomes one of his most loyal followers, demonstrating the Mule's ability to change personalities completely.",
+          "role": "Converted Foundation officer",
+          "relationships": {
+            "converted by": "The Mule",
+            "serves": "Mule's forces",
+            "loyal to": "new master"
+          }
+        }
+      }
+    },
+    "indbur": {
+      "name": "Indbur III",
+      "aliases": ["Mayor of Terminus"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The mayor of Terminus and leader of the Foundation during the Mule crisis, initially confident in psychohistory's protection.",
+          "role": "Foundation leader",
+          "relationships": {
+            "leads": "Foundation",
+            "trusts in": "psychohistory",
+            "rules from": "Terminus"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Becomes increasingly desperate as the Mule's forces approach Terminus despite all psychohistorical predictions indicating the Foundation should be safe.",
+          "role": "Failing leader facing unprecedented crisis",
+          "relationships": {
+            "fails to stop": "The Mule",
+            "loses control of": "Foundation"
+          }
+        }
+      }
+    },
+    "randu": {
+      "name": "Randu",
+      "aliases": ["Foundation Councilman"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Foundation councilman and experienced politician who is concerned about the Mule's rapid conquests.",
+          "role": "Foundation politician",
+          "relationships": {
+            "serves": "Foundation government",
+            "advises": "Mayor Indbur",
+            "father of": "Toran Darell"
+          }
+        }
+      }
+    },
+    "brodrig": {
+      "name": "Brodrig",
+      "aliases": ["Imperial Courtier"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A scheming courtier in Emperor Cleon II's court who works to undermine General Riose out of jealousy and political ambition.",
+          "role": "Imperial court schemer",
+          "relationships": {
+            "serves": "Emperor Cleon II",
+            "plots against": "Bel Riose",
+            "seeks": "political advancement"
+          }
+        }
+      }
+    },
+    "forell": {
+      "name": "Forell",
+      "aliases": ["Foundation Representative"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Foundation representative who deals with the growing Imperial threat under General Riose.",
+          "role": "Foundation diplomat",
+          "relationships": {
+            "represents": "Foundation interests",
+            "negotiates with": "Imperial forces"
+          }
+        }
+      }
+    },
+    "barr-senior": {
+      "name": "Onum Barr",
+      "aliases": ["Ducem Barr's Father"],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The former Patrician of Siwenna and father of Ducem Barr, executed by the Empire for rebellion years earlier.",
+          "role": "Martyred Siwennian leader",
+          "relationships": {
+            "father of": "Ducem Barr",
+            "executed by": "Galactic Empire",
+            "rebelled against": "Imperial rule"
+          }
+        }
+      }
+    },
+    "seldon-vault": {
+      "name": "Hari Seldon (Vault Recording)",
+      "aliases": ["Seldon Hologram", "The Plan"],
+      "appearances": [8, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Seldon's recorded image appears to address the Seldon Crisis caused by General Riose, confirming that the Empire's weakness would defeat any strong general.",
+          "role": "Psychohistorical guide",
+          "relationships": {
+            "predicted": "Imperial weakness",
+            "guides": "Foundation through crisis"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Appears again during the Mule crisis but is completely wrong for the first time, proving that psychohistory failed to predict the Mule.",
+          "role": "Failed prediction",
+          "relationships": {
+            "failed to predict": "The Mule",
+            "wrong about": "Foundation's safety"
+          }
+        }
+      }
+    },
+    "han-pritcher": {
+      "name": "Han Pritcher",
+      "aliases": ["Foundation Captain"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Foundation captain who initially resists the Mule but is later converted to serve him loyally.",
+          "role": "Foundation officer turned Mule servant",
+          "relationships": {
+            "initially serves": "Foundation",
+            "converted by": "The Mule",
+            "becomes loyal to": "Mule's cause"
+          }
+        }
+      }
+    },
+    "jole": {
+      "name": "Jole",
+      "aliases": ["Foundation Soldier"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Foundation soldier involved in the military resistance against the Mule's forces.",
+          "role": "Foundation military personnel",
+          "relationships": {
+            "fights for": "Foundation",
+            "opposes": "Mule's forces"
+          }
+        }
+      }
+    },
+    "riose-aide": {
+      "name": "Riose's Aide",
+      "aliases": ["Imperial Officer"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Military officers serving under General Riose in his campaign against the Foundation.",
+          "role": "Imperial military staff",
+          "relationships": {
+            "serves": "General Riose",
+            "fights against": "Foundation"
+          }
+        }
+      }
+    },
+    "siwennian-noble": {
+      "name": "Siwennian Noble",
+      "aliases": ["Local Aristocrat"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Nobles of Siwenna who have suffered under Imperial rule and are potential allies to the Foundation.",
+          "role": "Oppressed aristocracy",
+          "relationships": {
+            "rules": "Siwenna",
+            "oppressed by": "Galactic Empire",
+            "allied with": "Foundation"
+          }
+        }
+      }
+    },
+    "imperial-admiral": {
+      "name": "Imperial Admiral",
+      "aliases": ["Fleet Commander"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "High-ranking naval officers in the Imperial fleet who serve under General Riose in the campaign against the Foundation.",
+          "role": "Imperial naval commander",
+          "relationships": {
+            "serves": "General Riose",
+            "commands": "Imperial fleet",
+            "attacks": "Foundation worlds"
+          }
+        }
+      }
+    },
+    "foundation-mayor": {
+      "name": "Foundation Mayor",
+      "aliases": ["Terminus Leader"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The elected leader of the Foundation during the crisis period, struggling to maintain order as psychohistory fails.",
+          "role": "Political leader",
+          "relationships": {
+            "leads": "Foundation government",
+            "struggles with": "unprecedented crisis"
+          }
+        }
+      }
+    },
+    "kalgan-warlord": {
+      "name": "Kalgan Warlord",
+      "aliases": ["Independent Ruler"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The ruler of Kalgan who is conquered by the Mule early in his campaign of galactic conquest.",
+          "role": "Independent world leader",
+          "relationships": {
+            "rules": "Kalgan",
+            "conquered by": "The Mule"
+          }
+        }
+      }
+    },
+    "terminus-citizen": {
+      "name": "Terminus Citizen",
+      "aliases": ["Foundation Civilian"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The civilian population of Terminus who experience the terror and confusion of the Mule's conquest of their world.",
+          "role": "Civilian population",
+          "relationships": {
+            "lives on": "Terminus",
+            "conquered by": "The Mule",
+            "experiences": "emotional manipulation"
+          }
+        }
+      }
+    },
+    "converted-foundation-officer": {
+      "name": "Converted Foundation Officer",
+      "aliases": ["Mule's Servant"],
+      "appearances": [12, 13, 14, 15],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Foundation military and civilian leaders who have been emotionally converted by the Mule to serve his cause with absolute loyalty.",
+          "role": "Converted servant",
+          "relationships": {
+            "formerly served": "Foundation",
+            "converted by": "The Mule",
+            "loyal to": "Mule's empire"
+          }
+        }
+      }
+    },
+    "neotrantorian-official": {
+      "name": "Neotrantorian Official",
+      "aliases": ["Provincial Administrator"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Officials on Neotrantor who deal with the search for the Second Foundation and the Mule's investigation.",
+          "role": "Provincial government official",
+          "relationships": {
+            "serves": "Neotrantor government",
+            "deals with": "Second Foundation search"
+          }
+        }
+      }
+    },
+    "library-official": {
+      "name": "Library Official",
+      "aliases": ["Galactic Library Keeper"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Keepers of the Galactic Library who assist in the research to locate the Second Foundation.",
+          "role": "Information keeper",
+          "relationships": {
+            "maintains": "Galactic Library",
+            "assists": "Second Foundation search"
+          }
+        }
+      }
+    },
+    "mules-general": {
+      "name": "Mule's General",
+      "aliases": ["Converted Commander"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Military commanders who serve the Mule, some converted from other forces and others originally from his own armies.",
+          "role": "Military commander",
+          "relationships": {
+            "serves": "The Mule",
+            "commands": "Mule's forces",
+            "conquers": "galactic worlds"
+          }
+        }
+      }
+    },
+    "independent-trader": {
+      "name": "Independent Trader",
+      "aliases": ["Free Merchant"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Merchants and traders operating independently of both the Foundation and the Empire who get caught up in the Mule's conquests.",
+          "role": "Independent merchant",
+          "relationships": {
+            "operates independently": "between major powers",
+            "affected by": "galactic warfare"
+          }
+        }
+      }
+    },
+    "galactic-citizen": {
+      "name": "Galactic Citizen",
+      "aliases": ["Common Person"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The ordinary people throughout the galaxy who are affected by the great political and military struggles between the Empire, Foundation, and the Mule.",
+          "role": "Civilian population",
+          "relationships": {
+            "affected by": "galactic wars",
+            "lives under": "various governments"
+          }
+        }
+      }
+    },
+    "court-noble": {
+      "name": "Court Noble",
+      "aliases": ["Imperial Aristocrat"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Nobles in the Imperial court who engage in the political maneuvering that ultimately leads to General Riose's downfall.",
+          "role": "Imperial courtier",
+          "relationships": {
+            "serves": "Imperial court",
+            "engages in": "political intrigue"
+          }
+        }
+      }
+    },
+    "scientist": {
+      "name": "Foundation Scientist",
+      "aliases": ["Researcher"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Scientists and researchers working for the Foundation who try to understand and counter the Mule's unprecedented abilities.",
+          "role": "Scientific researcher",
+          "relationships": {
+            "works for": "Foundation",
+            "studies": "Mule phenomenon",
+            "attempts to": "find solutions"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "General Bel Riose, the Empire's last great military commander, begins investigating the Foundation threat and planning a campaign against them.",
+    "2": "Trader Lathan Devers meets with Ducem Barr, Patrician of Siwenna, whose family has suffered under Imperial rule and who becomes an ally to the Foundation.",
+    "3": "Riose captures Devers and Barr, interrogating them about the Foundation while demonstrating his military brilliance and strategic thinking.",
+    "4": "The Imperial court, led by the paranoid Emperor Cleon II and his scheming courtier Brodrig, becomes suspicious of Riose's growing power and success.",
+    "5": "Riose launches his military campaign against the Foundation, achieving initial victories and capturing Foundation territory despite their technological advantages.",
+    "6": "The Foundation struggles against Riose's tactical brilliance while Devers and Barr work to escape Imperial custody and warn of the growing threat.",
+    "7": "Emperor Cleon II, manipulated by Brodrig and consumed by paranoia about successful generals, orders the arrest and execution of General Riose.",
+    "8": "The Seldon Vault opens to reveal that psychohistory predicted this outcome - any strong general would threaten a weak emperor, ensuring the Empire would destroy its own military strength.",
+    "9": "A new threat emerges: the mysterious conqueror known as the Mule begins rapidly conquering independent worlds with unprecedented ease and speed.",
+    "10": "Foundation citizens Bayta and Toran Darell investigate the Mule threat, befriending a pitiful court jester named Magnifico who claims to have escaped the Mule's service.",
+    "11": "The Mule's forces approach Foundation territory, easily converting or defeating all opposition, including Foundation military officers who inexplicably switch sides.",
+    "12": "Terminus falls to the Mule's forces, and the Seldon Vault opens to reveal that psychohistory has failed completely - Seldon's predictions are entirely wrong for the first time.",
+    "13": "The survivors, including Bayta, Toran, and Magnifico, travel to the ruins of Trantor to find psychologist Ebling Mis, hoping to locate the Second Foundation.",
+    "14": "Mis works frantically to solve Seldon's equations and find the Second Foundation, but his behavior becomes increasingly erratic under unknown influences.",
+    "15": "Bayta realizes that Magnifico is actually the Mule in disguise, and that he has been emotionally manipulating everyone around him; she kills him to prevent him from discovering the Second Foundation's location.",
+    "16": "With the Mule dead, his empire begins to crumble, but the damage to psychohistory's credibility and the Foundation's confidence in the Plan remains a lasting consequence of his brief but devastating reign."
+  }
+}

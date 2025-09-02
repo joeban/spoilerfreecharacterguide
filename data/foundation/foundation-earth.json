@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "title": "Foundation and Earth",
+    "author": "Isaac Asimov",
+    "chapters": 24,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "golan-trevize": {
+      "name": "Golan Trevize",
+      "aliases": ["The Decider"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Having chosen Gaia's path toward Galaxia, Trevize is now uncertain about his decision and seeks to find Earth to understand humanity's true nature.",
+          "role": "Searcher questioning his momentous choice",
+          "relationships": {
+            "chose": "Gaia/Galaxia path",
+            "questions": "his own decision",
+            "seeks": "Earth and truth"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Discovers that his intuitive decision-making ability comes from subtle guidance by Gaia, making him question his independence.",
+          "role": "Guided decision-maker",
+          "relationships": {
+            "guided by": "Gaia",
+            "questions": "his free will",
+            "doubts": "independence of choice"
+          }
+        }
+      }
+    },
+    "janov-pelorat": {
+      "name": "Janov Pelorat",
+      "aliases": ["Mythologist", "Earth Scholar"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues his scholarly pursuit of Earth's location and history, now motivated even more by his love for Bliss and acceptance by Gaia.",
+          "role": "Scholar and lover",
+          "relationships": {
+            "in love with": "Bliss",
+            "accepted by": "Gaia",
+            "studies": "Earth mythology"
+          }
+        }
+      }
+    },
+    "bliss": {
+      "name": "Bliss",
+      "aliases": ["Blissenobiarella", "Gaia's Representative"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues as Gaia's representative, balancing her individual love for Pelorat with her role as part of the planetary consciousness.",
+          "role": "Individual within collective consciousness",
+          "relationships": {
+            "represents": "Gaia",
+            "loves": "Janov Pelorat",
+            "guides": "Earth search"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Demonstrates her ability to heal and her connection to all of Gaia's life forms, including the capacity to merge temporarily with animals and plants.",
+          "role": "Gaian healer and life-connector",
+          "relationships": {
+            "connected to": "all Gaian life",
+            "heals": "injuries and illness",
+            "merges with": "living beings"
+          }
+        }
+      }
+    },
+    "fallom": {
+      "name": "Fallom",
+      "aliases": ["Solarian Child", "Hermaphrodite Child"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The young Solarian continues to be cared for by the group, showing remarkable intelligence and adaptability despite their alien upbringing.",
+          "role": "Adopted Solarian child",
+          "relationships": {
+            "cared for by": "Trevize's group",
+            "especially close to": "Bliss",
+            "from": "Solaria"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Reveals growing mental powers and the ability to influence others, demonstrating the dangerous potential of Solarian genetic engineering.",
+          "role": "Mentally powerful child",
+          "relationships": {
+            "possesses": "dangerous mental abilities",
+            "protected by": "Bliss and Gaia",
+            "represents": "Solarian evolution"
+          }
+        }
+      }
+    },
+    "daneel-olivaw": {
+      "name": "R. Daneel Olivaw",
+      "aliases": ["Eto Demerzel", "The Immortal Robot"],
+      "appearances": [20, 21, 22, 23, 24],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Revealed to be an ancient robot who has been secretly guiding human history for twenty thousand years, working to fulfill the Zeroth Law of Robotics.",
+          "role": "Ancient guiding robot",
+          "relationships": {
+            "guided": "human history",
+            "created": "psychohistory through Seldon",
+            "established": "both Foundations"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Explains that he has been behind the establishment of psychohistory, the Foundations, and even Gaia, all to protect humanity from itself.",
+          "role": "Master architect of galactic civilization",
+          "relationships": {
+            "created": "galactic civilization structure",
+            "guided": "Hari Seldon",
+            "protected": "humanity for millennia"
+          }
+        }
+      }
+    },
+    "bander": {
+      "name": "Bander",
+      "aliases": ["Solarian Leader"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A powerful Solarian hermaphrodite encountered on a return visit to Solaria, demonstrating the evolution of Solarian society toward complete isolation.",
+          "role": "Evolved Solarian",
+          "relationships": {
+            "rules": "Solarian territory",
+            "practices": "extreme isolation",
+            "parent of": "Fallom"
+          }
+        }
+      }
+    },
+    "vasilia-aliena": {
+      "name": "Vasilia Aliena",
+      "aliases": ["Auroran Roboticist"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A roboticist on Aurora who provides information about the ancient Spacer worlds and their relationship with Earth.",
+          "role": "Spacer scientist and historian",
+          "relationships": {
+            "expert on": "Spacer-Earth relations",
+            "provides": "historical information",
+            "lives on": "Aurora"
+          }
+        }
+      }
+    },
+    "gladia": {
+      "name": "Gladia",
+      "aliases": ["Solarian Exile"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "An ancient Solarian woman who was exiled to Aurora and provides crucial information about the early conflicts between Spacers and Earth.",
+          "role": "Living witness to ancient history",
+          "relationships": {
+            "exiled from": "Solaria",
+            "lived on": "Aurora",
+            "witnessed": "Spacer-Earth conflicts"
+          }
+        }
+      }
+    },
+    "alpha": {
+      "name": "Alpha",
+      "aliases": ["Pack Leader"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The leader of a pack of intelligent wolves on a world colonized by Earth, representing one path of human and animal evolution.",
+          "role": "Intelligent pack leader",
+          "relationships": {
+            "leads": "wolf pack",
+            "evolved from": "Earth wolves",
+            "communicates with": "human visitors"
+          }
+        }
+      }
+    },
+    "hiroko": {
+      "name": "Hiroko",
+      "aliases": ["New Earth Leader"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A leader on New Earth, one of the worlds colonized by Earth refugees, who provides information about Earth's history and fate.",
+          "role": "Colonial leader and historian",
+          "relationships": {
+            "leads": "New Earth settlement",
+            "descended from": "Earth refugees",
+            "knows": "Earth's true history"
+          }
+        }
+      }
+    },
+    "earth-survivor": {
+      "name": "Earth Survivor",
+      "aliases": ["Terran Remnant"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "One of the few remaining humans living on the radioactive ruins of Earth, maintaining ancient knowledge and traditions.",
+          "role": "Last Earth native",
+          "relationships": {
+            "lives on": "ruined Earth",
+            "maintains": "ancient traditions",
+            "guards": "Earth's secrets"
+          }
+        }
+      }
+    },
+    "dom": {
+      "name": "Dom",
+      "aliases": ["Gaia Consciousness"],
+      "appearances": [2, 3, 4, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The planetary consciousness of Gaia that communicates with the travelers and explains Gaia's role in galactic evolution.",
+          "role": "Planetary group mind",
+          "relationships": {
+            "is": "Gaia collective consciousness",
+            "works toward": "Galaxia",
+            "communicates through": "individual Gaians"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Reveals that Gaia was created and guided by Daneel Olivaw as part of his long-term plan to protect humanity.",
+          "role": "Daneel's creation for humanity's protection",
+          "relationships": {
+            "created by": "R. Daneel Olivaw",
+            "serves": "humanity's protection",
+            "implements": "Daneel's vision"
+          }
+        }
+      }
+    },
+    "spacer-robot": {
+      "name": "Spacer Robot",
+      "aliases": ["Ancient Servant"],
+      "appearances": [8, 9, 10, 11, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Ancient robots left behind on the Spacer worlds, still functioning after thousands of years but gradually deteriorating without human masters.",
+          "role": "Ancient robotic remnant",
+          "relationships": {
+            "served": "ancient Spacers",
+            "maintains": "Spacer facilities",
+            "gradually": "deteriorating"
+          }
+        }
+      }
+    },
+    "settler-leader": {
+      "name": "Settler Leader",
+      "aliases": ["Earth Colony Chief"],
+      "appearances": [13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Leaders of various worlds colonized by Earth settlers, each representing different evolutionary paths taken by humanity.",
+          "role": "Colonial administrator",
+          "relationships": {
+            "leads": "settler colony",
+            "descended from": "Earth colonists",
+            "represents": "human evolution path"
+          }
+        }
+      }
+    },
+    "comporian-official": {
+      "name": "Comporian Official",
+      "aliases": ["Aurora Descendant"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Government officials on Comporellon who maintain their world's connection to Aurora and knowledge of galactic history.",
+          "role": "Planetary administrator",
+          "relationships": {
+            "governs": "Comporellon",
+            "descended from": "Auroran colonists",
+            "maintains": "historical knowledge"
+          }
+        }
+      }
+    },
+    "melpomenian": {
+      "name": "Melpomenian",
+      "aliases": ["Isolated Colonist"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Inhabitants of Melpomenia, another world influenced by Spacer culture, who provide clues about Earth's location and condition.",
+          "role": "Spacer-influenced colonist",
+          "relationships": {
+            "lives on": "Melpomenia",
+            "influenced by": "Spacer culture",
+            "knows about": "Earth's fate"
+          }
+        }
+      }
+    },
+    "computer-AI": {
+      "name": "Ship Computer",
+      "aliases": ["Far Star AI"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The advanced computer system of Trevize's ship, providing navigation, analysis, and support throughout their journey to find Earth.",
+          "role": "Ship's artificial intelligence",
+          "relationships": {
+            "serves": "Trevize and crew",
+            "provides": "navigation and analysis",
+            "assists in": "Earth search"
+          }
+        }
+      }
+    },
+    "robot-servant": {
+      "name": "Robot Servant",
+      "aliases": ["Mechanical Helper"],
+      "appearances": [8, 9, 10, 11, 12, 19, 20, 21],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Various robots encountered on different worlds, representing the legacy of Earth's robotic technology and its spread throughout the galaxy.",
+          "role": "Mechanical servant",
+          "relationships": {
+            "serves": "various masters",
+            "represents": "Earth's robotic legacy",
+            "follows": "robotic laws"
+          }
+        }
+      }
+    },
+    "trader-pilot": {
+      "name": "Independent Pilot",
+      "aliases": ["Free Spacer"],
+      "appearances": [3, 4, 5, 6, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Independent pilots and traders who provide transportation and information as the group travels between worlds.",
+          "role": "Independent spaceship operator",
+          "relationships": {
+            "provides": "transportation services",
+            "operates": "independent spacecraft",
+            "shares": "galactic information"
+          }
+        }
+      }
+    },
+    "librarian": {
+      "name": "Galactic Librarian",
+      "aliases": ["Information Keeper"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Librarians and information keepers on various worlds who help research Earth's history and location.",
+          "role": "Information specialist",
+          "relationships": {
+            "maintains": "historical records",
+            "assists": "research efforts",
+            "preserves": "galactic knowledge"
+          }
+        }
+      }
+    },
+    "scientist": {
+      "name": "Colonial Scientist",
+      "aliases": ["Researcher"],
+      "appearances": [13, 14, 15, 16, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Scientists on various colony worlds who study evolution, genetics, and the development of different human and animal populations.",
+          "role": "Scientific researcher",
+          "relationships": {
+            "studies": "evolutionary development",
+            "researches": "genetic variations",
+            "analyzes": "colonial populations"
+          }
+        }
+      }
+    },
+    "security-officer": {
+      "name": "Planetary Security",
+      "aliases": ["World Guardian"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Security personnel on various worlds who monitor and sometimes restrict the travelers' movements and investigations.",
+          "role": "Planetary security officer",
+          "relationships": {
+            "monitors": "visitor activities",
+            "protects": "planetary interests",
+            "enforces": "local regulations"
+          }
+        }
+      }
+    },
+    "medical-officer": {
+      "name": "Colonial Doctor",
+      "aliases": ["Medical Specialist"],
+      "appearances": [14, 15, 16, 17, 18],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Medical professionals on various worlds who provide health services and information about biological evolution and adaptation.",
+          "role": "Medical practitioner",
+          "relationships": {
+            "provides": "medical services",
+            "studies": "biological adaptation",
+            "treats": "evolutionary variations"
+          }
+        }
+      }
+    },
+    "communications-specialist": {
+      "name": "Comm Officer",
+      "aliases": ["Signal Operator"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Communications officers who manage interstellar communications and help coordinate the search for Earth across multiple worlds.",
+          "role": "Communications specialist",
+          "relationships": {
+            "manages": "interstellar communications",
+            "coordinates": "multi-world search",
+            "facilitates": "information exchange"
+          }
+        }
+      }
+    },
+    "historian": {
+      "name": "Galactic Historian",
+      "aliases": ["Chronicle Keeper"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Historians on various worlds who maintain records of Earth's history and humanity's expansion throughout the galaxy.",
+          "role": "Historical scholar",
+          "relationships": {
+            "maintains": "historical records",
+            "studies": "human expansion",
+            "preserves": "Earth's legacy"
+          }
+        }
+      }
+    },
+    "technician": {
+      "name": "Technical Specialist",
+      "aliases": ["Equipment Operator"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Technical specialists who maintain equipment and facilities on various worlds, representing the technological legacy of different human settlements.",
+          "role": "Technical maintenance specialist",
+          "relationships": {
+            "maintains": "planetary infrastructure",
+            "operates": "advanced equipment",
+            "preserves": "technological knowledge"
+          }
+        }
+      }
+    },
+    "civilian-population": {
+      "name": "World Citizen",
+      "aliases": ["Local Inhabitant"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The civilian populations of various worlds encountered during the search, each representing different evolutionary paths and cultural developments from Earth's dispersal.",
+          "role": "Planetary civilian",
+          "relationships": {
+            "lives on": "various worlds",
+            "descended from": "Earth origins",
+            "represents": "human diversity"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Trevize, having chosen Gaia's path toward Galaxia, now doubts his decision and insists on finding Earth to understand humanity's true nature and validate his choice.",
+    "2": "The group of Trevize, Pelorat, Bliss, and Fallom begins their journey to find Earth, with Gaia's consciousness Dom explaining the importance of understanding humanity's origins.",
+    "3": "They visit various worlds, gathering clues about Earth's location while dealing with the practical challenges of traveling with the Solarian child Fallom.",
+    "4": "On Comporellon, they learn more about the ancient Spacer worlds and their relationship with Earth, discovering that Earth is considered taboo and dangerous.",
+    "5": "The travelers return to Solaria to gather more information, encountering the evolved Solarian hermaphrodites who have become even more isolated and alien.",
+    "6": "They visit Melpomenia and other Spacer-influenced worlds, piecing together the history of the conflict between Earth and the Spacer worlds.",
+    "7": "Each world they visit shows a different evolutionary path taken by human colonies, from extreme isolation to collective consciousness to hybrid human-animal societies.",
+    "8": "On Aurora, they encounter ancient robots and facilities that provide crucial information about the Spacers' relationship with Earth and the reasons for Earth's quarantine.",
+    "9": "The group learns about the great plague that devastated Earth and forced its population to disperse throughout the galaxy, leaving the planet radioactive and dangerous.",
+    "10": "They meet Gladia, an ancient Solarian who lived through the early conflicts and can provide firsthand testimony about the relationships between Earth and the Spacer worlds.",
+    "11": "Continuing their search, they visit worlds where Earth's influence is still strong, learning about the different paths human evolution has taken across the galaxy.",
+    "12": "The investigation reveals that Earth's children - both Spacers and Settlers - went their separate ways after the planet's destruction, leading to vastly different societies.",
+    "13": "On a world colonized by Earth, they encounter Alpha and the intelligent wolf pack, representing one possible path of evolution where humans and animals developed together.",
+    "14": "They discover worlds where genetic engineering has created new forms of human life, some successful and others representing evolutionary dead ends.",
+    "15": "Bliss demonstrates her healing abilities and connection to all life, showing how Gaia represents another possible evolutionary path for humanity.",
+    "16": "On New Earth, they meet Hiroko and other leaders who have maintained closer ties to Earth's original culture and can provide more direct information about the mother world.",
+    "17": "The search intensifies as they get closer to Earth's location, learning about the protective measures put in place to prevent anyone from approaching the dangerous world.",
+    "18": "Fallom's growing mental powers become more apparent and concerning, representing the dangerous potential of unchecked human evolution and genetic manipulation.",
+    "19": "They finally reach Earth and encounter the few remaining human survivors living in the radioactive ruins, who have maintained the planet's ancient knowledge and secrets.",
+    "20": "The shocking revelation: R. Daneel Olivaw, an ancient robot, has been secretly guiding human history for twenty thousand years, including creating psychohistory and the Foundations.",
+    "21": "Daneel explains that he has been working to fulfill the Zeroth Law of Robotics - protecting humanity as a whole - by guiding galactic civilization's development.",
+    "22": "The truth emerges: Daneel created both Foundations, guided Seldon, established Gaia, and has been the hidden architect of all major galactic developments.",
+    "23": "Daneel reveals that his positronic brain is failing and that he needs a successor to continue protecting humanity - and that successor may be related to Fallom's abilities.",
+    "24": "With the mystery of Earth solved and humanity's true history revealed, Trevize confirms his choice of Gaia's path, understanding that Galaxia represents humanity's best hope for survival under Daneel's continued guidance."
+  }
+}

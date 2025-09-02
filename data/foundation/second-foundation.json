@@ -1,0 +1,591 @@
+{
+  "meta": {
+    "title": "Second Foundation",
+    "author": "Isaac Asimov",
+    "chapters": 16,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "han-pritcher": {
+      "name": "Han Pritcher",
+      "aliases": ["Colonel Pritcher", "Converted Officer"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A former Foundation officer who was converted by the Mule and now serves as one of his most trusted agents in the search for the Second Foundation.",
+          "role": "Mule's converted agent",
+          "relationships": {
+            "serves": "The Mule",
+            "converted from": "Foundation officer",
+            "searches for": "Second Foundation"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Begins to show signs of aging and emotional strain as the Mule's control over him conflicts with his original personality and memories.",
+          "role": "Struggling converted agent",
+          "relationships": {
+            "controlled by": "The Mule",
+            "retains memories of": "original self"
+          }
+        }
+      }
+    },
+    "bail-channis": {
+      "name": "Bail Channis",
+      "aliases": ["Foundation Psychologist", "Second Foundation Agent"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young Foundation psychologist who volunteers to help the Mule search for the Second Foundation, appearing eager and ambitious.",
+          "role": "Foundation volunteer",
+          "relationships": {
+            "volunteers to": "help the Mule",
+            "claims loyalty to": "Foundation cause"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Revealed to be a Second Foundation agent who has been manipulating the Mule's search to lead him away from the true location.",
+          "role": "Second Foundation spy",
+          "relationships": {
+            "secret agent of": "Second Foundation",
+            "manipulates": "The Mule",
+            "protects": "Trantor location"
+          }
+        }
+      }
+    },
+    "mule": {
+      "name": "The Mule",
+      "aliases": ["First Citizen"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The mutant conqueror who now rules a galactic empire and obsessively searches for the Second Foundation to eliminate the threat they pose to his rule.",
+          "role": "Galactic conqueror seeking Second Foundation",
+          "relationships": {
+            "rules": "galactic empire",
+            "searches for": "Second Foundation",
+            "commands": "converted agents"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Defeated by the Second Foundation's superior mental powers; his emotional control abilities are neutralized and his memory of them is erased.",
+          "role": "Defeated mutant",
+          "relationships": {
+            "defeated by": "Second Foundation",
+            "memory erased by": "mental scientists",
+            "powers removed": "permanently"
+          }
+        }
+      }
+    },
+    "first-speaker": {
+      "name": "First Speaker",
+      "aliases": ["Leader of Second Foundation"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The leader of the Second Foundation, a master of mental science who orchestrates the defeat of the Mule.",
+          "role": "Second Foundation leader",
+          "relationships": {
+            "leads": "Second Foundation",
+            "masters": "mental science",
+            "defeats": "The Mule"
+          }
+        }
+      }
+    },
+    "arcadia-darell": {
+      "name": "Arcadia Darell",
+      "aliases": ["Arkady", "Student"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The precocious fourteen-year-old granddaughter of Bayta Darell, brilliant and curious about the Second Foundation mystery.",
+          "role": "Young Foundation citizen",
+          "relationships": {
+            "granddaughter of": "Bayta Darell",
+            "daughter of": "Toran Darell",
+            "student of": "galactic history"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Reveals herself to be instrumental in exposing the false Second Foundation on Terminus, having been manipulated by the real Second Foundation.",
+          "role": "Unwitting Second Foundation agent",
+          "relationships": {
+            "manipulated by": "Second Foundation",
+            "exposes": "false Second Foundation"
+          }
+        }
+      }
+    },
+    "toran-darell": {
+      "name": "Toran Darell",
+      "aliases": ["Dr. Darell"],
+      "appearances": [9, 10, 11, 12, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Now a psychologist and father of Arcadia, continuing his family's involvement in the struggle against the Second Foundation.",
+          "role": "Foundation psychologist",
+          "relationships": {
+            "father of": "Arcadia Darell",
+            "son of": "Bayta and Toran",
+            "studies": "mental science"
+          }
+        }
+      }
+    },
+    "pelleas-anthor": {
+      "name": "Pelleas Anthor",
+      "aliases": ["Foundation Statistician", "Second Foundation Agent"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Foundation statistician who joins the group investigating the Second Foundation, appearing to be a loyal Foundation citizen.",
+          "role": "Foundation researcher",
+          "relationships": {
+            "member of": "investigation team",
+            "studies": "statistical analysis"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Revealed to be a Second Foundation agent who has been guiding the investigation to create the illusion that the Second Foundation has been found and destroyed.",
+          "role": "Second Foundation infiltrator",
+          "relationships": {
+            "secret agent of": "Second Foundation",
+            "manipulates": "Foundation investigation",
+            "creates": "false victory"
+          }
+        }
+      }
+    },
+    "homir-munn": {
+      "name": "Homir Munn",
+      "aliases": ["Librarian"],
+      "appearances": [10, 11, 12, 13],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "An elderly librarian and Mule specialist who possesses extensive knowledge about the Mule period and becomes involved in the Second Foundation investigation.",
+          "role": "Librarian and historian",
+          "relationships": {
+            "expert on": "Mule period",
+            "works at": "Foundation library",
+            "joins": "investigation team"
+          }
+        }
+      }
+    },
+    "callia": {
+      "name": "Callia",
+      "aliases": ["Lady Callia", "Mule's Mistress"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The Mule's companion and mistress, converted to love him completely despite his physical deformities.",
+          "role": "Mule's converted companion",
+          "relationships": {
+            "companion of": "The Mule",
+            "converted by": "emotional manipulation",
+            "devoted to": "Mule's cause"
+          }
+        }
+      }
+    },
+    "jole-turbor": {
+      "name": "Jole Turbor",
+      "aliases": ["News Reporter"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A news reporter investigating stories about the Second Foundation and its possible influence on current events.",
+          "role": "Journalist",
+          "relationships": {
+            "investigates": "Second Foundation stories",
+            "reports on": "galactic news"
+          }
+        }
+      }
+    },
+    "speaker": {
+      "name": "Second Foundation Speaker",
+      "aliases": ["Mental Scientist"],
+      "appearances": [6, 7, 8, 15, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "High-ranking members of the Second Foundation with advanced mental science abilities who can manipulate minds and emotions.",
+          "role": "Mental scientist",
+          "relationships": {
+            "member of": "Second Foundation",
+            "practices": "mental science",
+            "manipulates": "human minds"
+          }
+        }
+      }
+    },
+    "student": {
+      "name": "Second Foundation Student",
+      "aliases": ["Mental Science Trainee"],
+      "appearances": [6, 7, 8, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Young members of the Second Foundation learning the advanced mental sciences under the guidance of the Speakers.",
+          "role": "Student of mental science",
+          "relationships": {
+            "studies under": "Second Foundation Speakers",
+            "learns": "mental manipulation"
+          }
+        }
+      }
+    },
+    "randu-elder": {
+      "name": "Randu (Elder)",
+      "aliases": ["Foundation Elder"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An elderly Foundation citizen and relative of the Darell family, representing the older generation's views on the Second Foundation threat.",
+          "role": "Foundation elder",
+          "relationships": {
+            "relative of": "Darell family",
+            "represents": "older generation views"
+          }
+        }
+      }
+    },
+    "semic": {
+      "name": "Semic",
+      "aliases": ["Foundation Technician"],
+      "appearances": [10, 11, 12, 13],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Foundation technician involved in developing and testing devices designed to detect Second Foundation mental influence.",
+          "role": "Technical specialist",
+          "relationships": {
+            "develops": "detection devices",
+            "works with": "investigation team"
+          }
+        }
+      }
+    },
+    "elvett-semic": {
+      "name": "Elvett Semic",
+      "aliases": ["Semic's Wife"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The wife of technician Semic, involved in the domestic life of Foundation citizens during the Second Foundation crisis.",
+          "role": "Foundation civilian",
+          "relationships": {
+            "wife of": "Semic",
+            "part of": "Foundation community"
+          }
+        }
+      }
+    },
+    "kleise": {
+      "name": "Kleise",
+      "aliases": ["Foundation Citizen"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Foundation citizen involved in the broader community discussions about the Second Foundation threat and investigation.",
+          "role": "Community member",
+          "relationships": {
+            "participates in": "community discussions",
+            "concerned about": "Second Foundation"
+          }
+        }
+      }
+    },
+    "preem-palver": {
+      "name": "Preem Palver",
+      "aliases": ["Trantor Farmer", "First Speaker"],
+      "appearances": [12, 13, 14, 15, 16],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Appears to be a simple farmer on Trantor who helps Arcadia during her adventure, seemingly kind and helpful.",
+          "role": "Trantor farmer",
+          "relationships": {
+            "helps": "Arcadia Darell",
+            "lives on": "Trantor",
+            "appears as": "simple farmer"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Revealed to be the First Speaker of the Second Foundation, having orchestrated many of the events while appearing as a humble farmer.",
+          "role": "First Speaker in disguise",
+          "relationships": {
+            "true identity": "First Speaker",
+            "manipulated": "entire investigation",
+            "protected": "Second Foundation"
+          }
+        }
+      }
+    },
+    "lady-palver": {
+      "name": "Lady Palver",
+      "aliases": ["Farmer's Wife"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Preem Palver's wife who also helps care for Arcadia during her time on Trantor, appearing to be a simple farm wife.",
+          "role": "Farmer's wife",
+          "relationships": {
+            "wife of": "Preem Palver",
+            "cares for": "Arcadia Darell"
+          }
+        }
+      }
+    },
+    "mule-general": {
+      "name": "Mule's General",
+      "aliases": ["Converted Commander"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Military commanders serving the Mule in his continued rule and search for the Second Foundation.",
+          "role": "Military commander",
+          "relationships": {
+            "serves": "The Mule",
+            "commands": "Mule's forces"
+          }
+        }
+      }
+    },
+    "foundation-councilman": {
+      "name": "Foundation Councilman",
+      "aliases": ["Political Leader"],
+      "appearances": [9, 10, 11, 12, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Political leaders of the Foundation who debate and decide policy regarding the Second Foundation investigation and threat.",
+          "role": "Political leader",
+          "relationships": {
+            "leads": "Foundation government",
+            "debates": "Second Foundation policy"
+          }
+        }
+      }
+    },
+    "trantor-native": {
+      "name": "Trantor Native",
+      "aliases": ["Trantor Citizen"],
+      "appearances": [5, 6, 7, 12, 13, 14],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The native population of Trantor, now mostly farmers and simple people living among the ruins of the former Imperial capital.",
+          "role": "Planetary citizen",
+          "relationships": {
+            "lives on": "Trantor",
+            "among": "Imperial ruins"
+          }
+        }
+      }
+    },
+    "kalgan-official": {
+      "name": "Kalgan Official",
+      "aliases": ["Planetary Administrator"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Officials on the world of Kalgan who deal with the investigation team's visit and the search for Second Foundation clues.",
+          "role": "Planetary official",
+          "relationships": {
+            "serves": "Kalgan government",
+            "deals with": "investigators"
+          }
+        }
+      }
+    },
+    "terminus-mayor": {
+      "name": "Terminus Mayor",
+      "aliases": ["Foundation Leader"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The elected mayor of Terminus who leads the Foundation during the Second Foundation crisis and investigation.",
+          "role": "Political leader",
+          "relationships": {
+            "leads": "Terminus government",
+            "oversees": "Second Foundation investigation"
+          }
+        }
+      }
+    },
+    "mental-scientist": {
+      "name": "Mental Scientist",
+      "aliases": ["Psychologist"],
+      "appearances": [6, 7, 8, 10, 11, 12, 15, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Scientists studying mental sciences, both from the Second Foundation and regular Foundation researchers trying to understand mental manipulation.",
+          "role": "Scientific researcher",
+          "relationships": {
+            "studies": "mental science",
+            "researches": "mind manipulation"
+          }
+        }
+      }
+    },
+    "library-assistant": {
+      "name": "Library Assistant",
+      "aliases": ["Research Helper"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Assistants working in the Foundation libraries who help with research into the Mule period and Second Foundation clues.",
+          "role": "Research assistant",
+          "relationships": {
+            "works in": "Foundation library",
+            "assists": "research efforts"
+          }
+        }
+      }
+    },
+    "converted-citizen": {
+      "name": "Converted Citizen",
+      "aliases": ["Mind-Controlled Person"],
+      "appearances": [1, 2, 3, 4, 5, 15, 16],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various citizens who have been emotionally converted by the Mule or mentally manipulated by the Second Foundation.",
+          "role": "Manipulated individual",
+          "relationships": {
+            "controlled by": "mental powers",
+            "serves": "controller's agenda"
+          }
+        }
+      }
+    },
+    "statistician": {
+      "name": "Foundation Statistician",
+      "aliases": ["Data Analyst"],
+      "appearances": [10, 11, 12, 13, 14],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Mathematical analysts working to understand patterns in galactic events and detect Second Foundation influence through statistical analysis.",
+          "role": "Mathematical analyst",
+          "relationships": {
+            "analyzes": "galactic patterns",
+            "searches for": "Second Foundation influence"
+          }
+        }
+      }
+    },
+    "trading-captain": {
+      "name": "Trading Captain",
+      "aliases": ["Merchant Captain"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Captains of trading vessels who transport the investigation team and provide information about galactic conditions.",
+          "role": "Merchant trader",
+          "relationships": {
+            "transports": "investigation team",
+            "provides": "galactic intelligence"
+          }
+        }
+      }
+    },
+    "school-teacher": {
+      "name": "School Teacher",
+      "aliases": ["Educator"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Educators on Terminus who teach the younger generation, including Arcadia, about galactic history and current events.",
+          "role": "Educational instructor",
+          "relationships": {
+            "teaches": "Foundation youth",
+            "educates about": "galactic history"
+          }
+        }
+      }
+    },
+    "security-officer": {
+      "name": "Security Officer",
+      "aliases": ["Foundation Guard"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Security personnel protecting Foundation facilities and officials during the ongoing crisis and investigation period.",
+          "role": "Security specialist",
+          "relationships": {
+            "protects": "Foundation officials",
+            "secures": "Foundation facilities"
+          }
+        }
+      }
+    },
+    "communications-officer": {
+      "name": "Communications Officer",
+      "aliases": ["Signal Operator"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Officers managing communications between Foundation worlds and the investigation team during their mission.",
+          "role": "Communications specialist",
+          "relationships": {
+            "manages": "interworld communications",
+            "coordinates": "investigation activities"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Five years after the Mule's conquest, he continues to rule his empire while obsessively searching for the Second Foundation, using converted agents like Han Pritcher.",
+    "2": "The Mule recruits Foundation psychologist Bail Channis to help in the search, believing that an unconverted Foundation citizen might think differently than his converted agents.",
+    "3": "Pritcher and Channis travel together to search for clues about the Second Foundation's location, with Pritcher growing increasingly suspicious of his young companion.",
+    "4": "The search leads them through various worlds as they investigate potential Second Foundation hiding places, with Channis showing unexpected knowledge and intuition.",
+    "5": "They discover that the Second Foundation is located on Trantor, the old Imperial capital, where it has been hiding among the ruins and simple farming communities.",
+    "6": "Channis reveals himself to be a Second Foundation agent who has been manipulating the search, leading the Mule into a trap prepared by the mental scientists.",
+    "7": "The Second Foundation defeats the Mule using their superior mental sciences, removing his mutant powers and erasing his memory of them, reducing him to a normal human.",
+    "8": "With the Mule neutralized, the Second Foundation begins working to restore psychohistory's validity and return the galaxy to Seldon's planned course.",
+    "9": "Fifty years later, young Arcadia Darell becomes involved in a new investigation of the Second Foundation, as Foundation citizens fear their mental manipulation.",
+    "10": "A group of Foundation researchers, including Arcadia's father Toran, teams up with librarian Homir Munn and statistician Pelleas Anthor to locate and destroy the Second Foundation.",
+    "11": "The investigation team travels to various worlds gathering information, while Arcadia has her own adventure that leads her to Trantor and farmer Preem Palver.",
+    "12": "Arcadia discovers what appears to be evidence of the Second Foundation on Kalgan and sends this information back to the Foundation investigation team.",
+    "13": "The Foundation launches an attack on Kalgan based on Arcadia's intelligence, believing they have found and can destroy the Second Foundation there.",
+    "14": "The attack succeeds and the Foundation believes the Second Foundation has been destroyed, with fifty mental scientists apparently captured and eliminated.",
+    "15": "Pelleas Anthor reveals himself as a Second Foundation agent and explains that the entire operation was orchestrated to make the Foundation believe the Second Foundation was destroyed.",
+    "16": "The real Second Foundation, led by First Speaker Preem Palver, remains hidden and continues to guide galactic history according to Seldon's Plan, now safe from Foundation interference."
+  }
+}
