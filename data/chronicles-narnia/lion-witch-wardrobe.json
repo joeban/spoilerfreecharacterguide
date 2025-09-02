@@ -1,0 +1,1141 @@
+{
+  "meta": {
+    "title": "The Lion, the Witch and the Wardrobe",
+    "author": "C.S. Lewis",
+    "chapters": 17,
+    "createdAt": "2025-09-02T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "lucy-pevensie": {
+      "name": "Lucy Pevensie",
+      "aliases": ["Lu"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The youngest of the four Pevensie children. She is curious and adventurous, the first to discover the wardrobe during a game of hide-and-seek.",
+          "role": "Youngest Pevensie child",
+          "relationships": {
+            "Peter Pevensie": "Sister of",
+            "Susan Pevensie": "Sister of",
+            "Edmund Pevensie": "Sister of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "First to enter Narnia through the wardrobe. Met the faun Mr. Tumnus and had tea with him in his cave. She is brave and trusting, believing in the magic of Narnia.",
+          "role": "First visitor to Narnia",
+          "relationships": {
+            "Mr. Tumnus": "Friend of",
+            "Peter Pevensie": "Sister of",
+            "Susan Pevensie": "Sister of",
+            "Edmund Pevensie": "Sister of"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Returns to Narnia with her siblings. Shows them the lamp-post and leads them to Mr. Tumnus's cave, only to find it ransacked.",
+          "role": "Guide to Narnia",
+          "relationships": {
+            "Mr. Tumnus": "Concerned friend of",
+            "Peter Pevensie": "Sister of",
+            "Susan Pevensie": "Sister of",
+            "Edmund Pevensie": "Sister of"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Crowned Queen Lucy the Valiant at Cair Paravel. Rules Narnia for many years as one of the four monarchs.",
+          "role": "Queen Lucy the Valiant",
+          "relationships": {
+            "Aslan": "Subject of",
+            "Peter Pevensie": "Co-ruler with",
+            "Susan Pevensie": "Co-ruler with",
+            "Edmund Pevensie": "Co-ruler with"
+          }
+        }
+      }
+    },
+    "edmund-pevensie": {
+      "name": "Edmund Pevensie",
+      "aliases": ["Ed"],
+      "appearances": [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The third child and younger son of the Pevensie family. He can be spiteful and doesn't believe Lucy's story about the wardrobe.",
+          "role": "Third Pevensie child",
+          "relationships": {
+            "Peter Pevensie": "Brother of",
+            "Susan Pevensie": "Brother of",
+            "Lucy Pevensie": "Brother of"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Follows Lucy into the wardrobe and meets the White Witch. She gives him enchanted Turkish Delight and makes him promise to bring his siblings to her.",
+          "role": "Reluctant ally of the White Witch",
+          "relationships": {
+            "White Witch": "Tempted by",
+            "Lucy Pevensie": "Brother of (denies her story)",
+            "Peter Pevensie": "Brother of",
+            "Susan Pevensie": "Brother of"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Slips away from the Beavers' house to betray his siblings to the White Witch, hoping for Turkish Delight and to become a prince.",
+          "role": "Traitor (temporarily)",
+          "relationships": {
+            "White Witch": "Betrays siblings to",
+            "Peter Pevensie": "Brother of (betrayed)",
+            "Susan Pevensie": "Brother of (betrayed)",
+            "Lucy Pevensie": "Brother of (betrayed)"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Rescued by Aslan's army and forgiven by his siblings. Learns the true cost of his betrayal when Aslan sacrifices himself for Edmund's treachery.",
+          "role": "Repentant brother",
+          "relationships": {
+            "Aslan": "Saved by (indirectly)",
+            "Peter Pevensie": "Forgiven brother of",
+            "Susan Pevensie": "Forgiven brother of",
+            "Lucy Pevensie": "Forgiven brother of"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Crowned King Edmund the Just at Cair Paravel. Becomes known for his fairness and wisdom in judgment, having learned from his mistakes.",
+          "role": "King Edmund the Just",
+          "relationships": {
+            "Aslan": "Subject of",
+            "Peter Pevensie": "Co-ruler with",
+            "Susan Pevensie": "Co-ruler with",
+            "Lucy Pevensie": "Co-ruler with"
+          }
+        }
+      }
+    },
+    "susan-pevensie": {
+      "name": "Susan Pevensie",
+      "aliases": ["Su"],
+      "appearances": [1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The second child and elder daughter of the Pevensie family. She is practical and cautious, initially skeptical about Lucy's claims about the wardrobe.",
+          "role": "Second Pevensie child",
+          "relationships": {
+            "Peter Pevensie": "Sister of",
+            "Edmund Pevensie": "Sister of",
+            "Lucy Pevensie": "Sister of"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Enters Narnia with her siblings and begins to believe Lucy's story. Shows concern for their safety and Edmund's whereabouts.",
+          "role": "Cautious explorer of Narnia",
+          "relationships": {
+            "Peter Pevensie": "Sister of",
+            "Edmund Pevensie": "Sister of (worried about)",
+            "Lucy Pevensie": "Sister of (believing)"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Witnesses Aslan's death with Lucy and stays with him through the night. Shows great courage and loyalty despite her natural caution.",
+          "role": "Witness to Aslan's sacrifice",
+          "relationships": {
+            "Aslan": "Mourns for",
+            "Lucy Pevensie": "Comforts and is comforted by",
+            "Peter Pevensie": "Sister of",
+            "Edmund Pevensie": "Sister of"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Crowned Queen Susan the Gentle at Cair Paravel. Known for her kindness and wisdom, skilled with the bow given to her by Father Christmas.",
+          "role": "Queen Susan the Gentle",
+          "relationships": {
+            "Aslan": "Subject of",
+            "Peter Pevensie": "Co-ruler with",
+            "Edmund Pevensie": "Co-ruler with",
+            "Lucy Pevensie": "Co-ruler with"
+          }
+        }
+      }
+    },
+    "peter-pevensie": {
+      "name": "Peter Pevensie",
+      "aliases": [],
+      "appearances": [1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The eldest of the four Pevensie children and natural leader of his siblings. He feels responsible for their safety and behavior.",
+          "role": "Eldest Pevensie child and leader",
+          "relationships": {
+            "Susan Pevensie": "Brother of",
+            "Edmund Pevensie": "Brother of",
+            "Lucy Pevensie": "Brother of"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Enters Narnia and takes charge of the situation when they discover Mr. Tumnus is missing. Shows leadership qualities and determination to help.",
+          "role": "Leader of the children",
+          "relationships": {
+            "Susan Pevensie": "Brother of",
+            "Edmund Pevensie": "Brother of (protective of)",
+            "Lucy Pevensie": "Brother of (supports)"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Leads the charge in the final battle against the White Witch's forces. Shows great courage and skill in combat with the sword and shield given by Father Christmas.",
+          "role": "Battle leader",
+          "relationships": {
+            "Aslan": "Follower of",
+            "Susan Pevensie": "Brother of",
+            "Edmund Pevensie": "Brother of (forgiven)",
+            "Lucy Pevensie": "Brother of"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Crowned High King Peter the Magnificent at Cair Paravel. Rules as the highest of the four monarchs and becomes known for his noble leadership.",
+          "role": "High King Peter the Magnificent",
+          "relationships": {
+            "Aslan": "High King under",
+            "Susan Pevensie": "Co-ruler with",
+            "Edmund Pevensie": "Co-ruler with",
+            "Lucy Pevensie": "Co-ruler with"
+          }
+        }
+      }
+    },
+    "mr-tumnus": {
+      "name": "Mr. Tumnus",
+      "aliases": ["Tumnus"],
+      "appearances": [2, 4, 17],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A faun with goat legs and a tail, carrying an umbrella and packages. He has a reddish skin, curly hair, a short pointed beard, and two horns. Lives in a cave with a fireplace and many books.",
+          "role": "Faun of Narnia",
+          "relationships": {
+            "Lucy Pevensie": "Friend of",
+            "White Witch": "Fears"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Captured by the White Witch's secret police for harboring a human child (Lucy). His cave is ransacked and a notice declares him under arrest for high treason.",
+          "role": "Prisoner of the White Witch",
+          "relationships": {
+            "Lucy Pevensie": "Friend of (imprisoned for helping)",
+            "White Witch": "Prisoner of",
+            "Maugrim": "Arrested by (indirectly)"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Rescued and freed from the White Witch's spell. Becomes a loyal subject of the four monarchs and lives peacefully in Narnia.",
+          "role": "Free faun and subject of the Kings and Queens",
+          "relationships": {
+            "Lucy Pevensie": "Friend of Queen Lucy",
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Aslan": "Subject of"
+          }
+        }
+      }
+    },
+    "aslan": {
+      "name": "Aslan",
+      "aliases": ["The Lion", "King of Beasts", "Son of the Emperor-Over-the-Sea"],
+      "appearances": [7, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A great lion, the true King of Narnia and son of the Emperor-Over-the-Sea. The Beavers speak of him with reverence and explain that his return signals hope for Narnia's liberation.",
+          "role": "True King of Narnia",
+          "relationships": {
+            "Emperor-Over-the-Sea": "Son of",
+            "White Witch": "Enemy of"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Arrives at the Stone Table and makes the ultimate sacrifice, allowing the White Witch to kill him in exchange for Edmund's life, according to the Deep Magic.",
+          "role": "Sacrificial savior",
+          "relationships": {
+            "Edmund Pevensie": "Dies for",
+            "White Witch": "Sacrifices self to",
+            "Lucy Pevensie": "Comforted by",
+            "Susan Pevensie": "Comforted by"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Returns to life due to the Deeper Magic, revealing that a willing victim who dies for a traitor's sake will have death reversed. More powerful than before.",
+          "role": "Risen King",
+          "relationships": {
+            "Lucy Pevensie": "Beloved of",
+            "Susan Pevensie": "Beloved of",
+            "White Witch": "Victor over"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Crowns the four Pevensie children as Kings and Queens of Narnia. Rules as the true sovereign with wisdom and justice, bringing the golden age to Narnia.",
+          "role": "Sovereign of Narnia",
+          "relationships": {
+            "Peter Pevensie": "Crowns as High King",
+            "Susan Pevensie": "Crowns as Queen",
+            "Edmund Pevensie": "Crowns as King",
+            "Lucy Pevensie": "Crowns as Queen"
+          }
+        }
+      }
+    },
+    "white-witch": {
+      "name": "Jadis, the White Witch",
+      "aliases": ["Queen of Narnia", "White Witch", "Jadis"],
+      "appearances": [3, 8, 9, 11, 12, 14],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A tall, beautiful woman dressed entirely in white fur, riding a sleigh drawn by white reindeer. Claims to be the Queen of Narnia and has made it always winter but never Christmas.",
+          "role": "Self-proclaimed Queen of Narnia",
+          "relationships": {
+            "Edmund Pevensie": "Manipulates with Turkish Delight"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Lives in a castle made of ice and snow. Reveals her cruelty when Edmund arrives - she gives him only dry bread and water instead of the feast she promised.",
+          "role": "Cruel ruler and deceiver",
+          "relationships": {
+            "Edmund Pevensie": "Betrays and imprisons",
+            "Maugrim": "Commands as her chief of police"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Her power begins to weaken as the eternal winter starts to break. Father Christmas arrives, signaling her spell is failing.",
+          "role": "Weakening tyrant",
+          "relationships": {
+            "Father Christmas": "Power challenged by arrival of",
+            "Aslan": "Power threatened by return of"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Dies in the final battle, defeated by the forces of good. Her reign of terror over Narnia comes to an end.",
+          "role": "Defeated tyrant",
+          "relationships": {
+            "Aslan": "Defeated by",
+            "Peter Pevensie": "Defeated by forces of"
+          }
+        }
+      }
+    },
+    "mr-beaver": {
+      "name": "Mr. Beaver",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8, 17],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A beaver who approaches the children at the ruined cave of Mr. Tumnus. He shows them a handkerchief as a sign that he knew the faun.",
+          "role": "Talking beaver and friend of Mr. Tumnus",
+          "relationships": {
+            "Mr. Tumnus": "Friend of",
+            "Mrs. Beaver": "Husband of"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Takes the children to his dam home where they meet Mrs. Beaver. He explains the situation in Narnia and tells them about Aslan's expected return.",
+          "role": "Guide and informant",
+          "relationships": {
+            "Mrs. Beaver": "Husband of",
+            "Aslan": "Loyal to",
+            "White Witch": "Enemy of"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Tells the children about the prophecy of four human children becoming Kings and Queens of Narnia, and explains Aslan's true identity as the son of the Emperor-Over-the-Sea.",
+          "role": "Keeper of prophecies and lore",
+          "relationships": {
+            "Peter Pevensie": "Advisor to",
+            "Susan Pevensie": "Advisor to",
+            "Lucy Pevensie": "Advisor to",
+            "Aslan": "Devoted follower of"
+          }
+        }
+      }
+    },
+    "mrs-beaver": {
+      "name": "Mrs. Beaver",
+      "aliases": [],
+      "appearances": [6, 7, 8, 17],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A kindly female beaver who welcomes the children to their dam home. She provides them with a hearty meal and shows maternal care for their wellbeing.",
+          "role": "Hospitable beaver and homemaker",
+          "relationships": {
+            "Mr. Beaver": "Wife of",
+            "Lucy Pevensie": "Motherly toward",
+            "Susan Pevensie": "Motherly toward",
+            "Peter Pevensie": "Motherly toward"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Supports her husband in explaining the prophecy and Aslan's return. Shows practical wisdom about preparing for their journey to meet Aslan.",
+          "role": "Wise counselor",
+          "relationships": {
+            "Mr. Beaver": "Wife of",
+            "Aslan": "Faithful to",
+            "White Witch": "Opposes"
+          }
+        }
+      }
+    },
+    "professor-kirke": {
+      "name": "Professor Digory Kirke",
+      "aliases": ["The Professor", "Professor"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An elderly professor who owns the large country house where the Pevensie children are staying during the war. He has a study full of books and appears to be a learned man.",
+          "role": "Host and guardian of the children",
+          "relationships": {
+            "Mrs. Macready": "Employs as housekeeper",
+            "Peter Pevensie": "Guardian of",
+            "Susan Pevensie": "Guardian of",
+            "Edmund Pevensie": "Guardian of",
+            "Lucy Pevensie": "Guardian of"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Believes Lucy's story about the wardrobe when the children return. He hints that he knows more about Narnia than he initially let on, suggesting he may have been there himself.",
+          "role": "Wise guardian with hidden knowledge",
+          "relationships": {
+            "Lucy Pevensie": "Believes and supports",
+            "Peter Pevensie": "Guardian of",
+            "Susan Pevensie": "Guardian of",
+            "Edmund Pevensie": "Guardian of"
+          }
+        }
+      }
+    },
+    "mrs-macready": {
+      "name": "Mrs. Macready",
+      "aliases": [],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Professor's stern housekeeper who gives the children a tour of the house and warns them not to bother the Professor or make noise.",
+          "role": "Housekeeper",
+          "relationships": {
+            "Professor Kirke": "Works for",
+            "Peter Pevensie": "Supervises",
+            "Susan Pevensie": "Supervises",
+            "Edmund Pevensie": "Supervises",
+            "Lucy Pevensie": "Supervises"
+          }
+        }
+      }
+    },
+    "father-christmas": {
+      "name": "Father Christmas",
+      "aliases": ["Santa Claus"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A jolly, bearded figure in red robes who appears when the White Witch's power begins to weaken. He brings gifts to the children and explains that his presence means the witch's spell is breaking.",
+          "role": "Magical gift-giver and herald of change",
+          "relationships": {
+            "Peter Pevensie": "Gives sword and shield to",
+            "Susan Pevensie": "Gives bow and arrows to",
+            "Lucy Pevensie": "Gives cordial and dagger to",
+            "White Witch": "Power opposes"
+          }
+        }
+      }
+    },
+    "maugrim": {
+      "name": "Maugrim",
+      "aliases": ["Chief of the Secret Police"],
+      "appearances": [4, 8, 11, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The chief wolf of the White Witch's secret police. His notice is found at Mr. Tumnus's cave, declaring the faun under arrest for high treason.",
+          "role": "Chief of the White Witch's secret police",
+          "relationships": {
+            "White Witch": "Serves as chief of police",
+            "Mr. Tumnus": "Arrests for treason"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "A large, savage wolf who serves the White Witch with fierce loyalty. He guards her and carries out her cruel orders.",
+          "role": "Vicious enforcer",
+          "relationships": {
+            "White Witch": "Loyal enforcer for",
+            "Edmund Pevensie": "Guards as prisoner"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Killed by Peter in battle when he attacks Susan and Lucy. His death marks Peter's first act of courage as a warrior.",
+          "role": "Defeated enemy",
+          "relationships": {
+            "Peter Pevensie": "Killed by",
+            "Susan Pevensie": "Threatens",
+            "Lucy Pevensie": "Threatens"
+          }
+        }
+      }
+    },
+    "dwarf-servant": {
+      "name": "The White Witch's Dwarf",
+      "aliases": [],
+      "appearances": [3, 8, 12],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A dwarf who serves as the White Witch's driver, operating her sleigh drawn by white reindeer.",
+          "role": "Servant and driver of the White Witch",
+          "relationships": {
+            "White Witch": "Serves as driver"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Continues to serve the White Witch faithfully at her castle, helping with her evil plans.",
+          "role": "Castle servant",
+          "relationships": {
+            "White Witch": "Loyal servant of",
+            "Edmund Pevensie": "Helps imprison"
+          }
+        }
+      }
+    },
+    "robin": {
+      "name": "Robin",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A talking robin who guides the children through the forest toward Mr. Beaver. Shows that not all of Narnia's creatures serve the White Witch.",
+          "role": "Helpful guide",
+          "relationships": {
+            "Mr. Beaver": "Leads children to",
+            "Lucy Pevensie": "Guides"
+          }
+        }
+      }
+    },
+    "centaurs": {
+      "name": "The Centaurs",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Half-human, half-horse creatures who fight in the final battle against the White Witch. They are skilled archers and warriors.",
+          "role": "Warriors of Aslan's army",
+          "relationships": {
+            "Aslan": "Fight for",
+            "Peter Pevensie": "Fight alongside"
+          }
+        }
+      }
+    },
+    "unicorns": {
+      "name": "The Unicorns",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Magical horse-like creatures with single horns who join Aslan's army in the final battle against evil.",
+          "role": "Magical warriors",
+          "relationships": {
+            "Aslan": "Fight for",
+            "Peter Pevensie": "Fight alongside"
+          }
+        }
+      }
+    },
+    "leopards": {
+      "name": "The Leopards",
+      "aliases": [],
+      "appearances": [12, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Great cats who are among Aslan's followers and witness his sacrifice at the Stone Table.",
+          "role": "Followers of Aslan",
+          "relationships": {
+            "Aslan": "Follow loyally"
+          }
+        }
+      }
+    },
+    "eagles": {
+      "name": "The Eagles",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Great birds who fight from the air in the final battle, providing aerial support for Aslan's forces.",
+          "role": "Aerial warriors",
+          "relationships": {
+            "Aslan": "Fight for",
+            "Peter Pevensie": "Support in battle"
+          }
+        }
+      }
+    },
+    "dryads": {
+      "name": "The Dryads",
+      "aliases": ["Tree-spirits"],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Tree-spirits who emerge from their trees to join the battle against the White Witch. They represent nature's awakening from her spell.",
+          "role": "Nature spirits and warriors",
+          "relationships": {
+            "Aslan": "Fight for",
+            "White Witch": "Oppose"
+          }
+        }
+      }
+    },
+    "naiads": {
+      "name": "The Naiads",
+      "aliases": ["Water-spirits"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Water-spirits who join the battle, representing the rivers and streams freed from the White Witch's winter.",
+          "role": "Water spirits and allies",
+          "relationships": {
+            "Aslan": "Fight for",
+            "White Witch": "Oppose"
+          }
+        }
+      }
+    },
+    "dogs": {
+      "name": "The Talking Dogs",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Loyal talking dogs who fight bravely in Aslan's army against the forces of evil.",
+          "role": "Faithful warriors",
+          "relationships": {
+            "Aslan": "Loyal to",
+            "Peter Pevensie": "Fight for"
+          }
+        }
+      }
+    },
+    "horses": {
+      "name": "The Talking Horses",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Noble talking horses who serve as mounts and warriors in the final battle.",
+          "role": "Noble steeds and warriors",
+          "relationships": {
+            "Aslan": "Serve",
+            "Peter Pevensie": "Carry into battle"
+          }
+        }
+      }
+    },
+    "badgers": {
+      "name": "The Badgers",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Talking badgers who become loyal subjects of the four monarchs in the golden age of Narnia.",
+          "role": "Loyal subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "mice": {
+      "name": "The Talking Mice",
+      "aliases": [],
+      "appearances": [13, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Small talking mice who show loyalty to Aslan by gnawing through his bonds at the Stone Table after his sacrifice.",
+          "role": "Loyal helpers",
+          "relationships": {
+            "Aslan": "Devoted to"
+          }
+        }
+      }
+    },
+    "rabbits": {
+      "name": "The Talking Rabbits",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Talking rabbits who live peacefully in Narnia under the rule of the four monarchs.",
+          "role": "Peaceful subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "wolves": {
+      "name": "The Witch's Wolves",
+      "aliases": [],
+      "appearances": [8, 11, 14],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Savage wolves who serve as the White Witch's secret police and enforcers throughout Narnia.",
+          "role": "Secret police and enforcers",
+          "relationships": {
+            "White Witch": "Serve as police",
+            "Maugrim": "Led by"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Fight in the final battle on the side of the White Witch against Aslan's forces.",
+          "role": "Enemy warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "ghouls": {
+      "name": "The Ghouls",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Evil spirits that fight for the White Witch in the final battle.",
+          "role": "Evil spirits and warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "boggles": {
+      "name": "The Boggles",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Malicious spirits that serve the White Witch in the final battle against Aslan's army.",
+          "role": "Malicious spirits",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "ogres": {
+      "name": "The Ogres",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Large, brutish creatures who fight for the White Witch in her final battle.",
+          "role": "Brutish warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "minotaurs": {
+      "name": "The Minotaurs",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Bull-headed creatures who serve the White Witch as warriors in the final battle.",
+          "role": "Bull-headed warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "cruels": {
+      "name": "The Cruels",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Wicked creatures who fight for the White Witch, living up to their name with their cruelty.",
+          "role": "Cruel warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "hags": {
+      "name": "The Hags",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Evil witch-like creatures who serve the White Witch in her army.",
+          "role": "Evil witches",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "incubuses": {
+      "name": "The Incubuses",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Evil spirits who join the White Witch's forces in the final battle.",
+          "role": "Evil spirits",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "wraiths": {
+      "name": "The Wraiths",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Ghostly beings that serve the White Witch as part of her dark army.",
+          "role": "Ghostly warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "horrors": {
+      "name": "The Horrors",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Terrifying creatures whose very name describes their nature, fighting for the White Witch.",
+          "role": "Terrifying warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "efreets": {
+      "name": "The Efreets",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Fire-spirits who serve the White Witch despite being creatures of heat in her world of eternal winter.",
+          "role": "Fire-spirits",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "sprites": {
+      "name": "The Sprites",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Mischievous spirits who fight on the side of evil in the White Witch's army.",
+          "role": "Mischievous spirits",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "orknies": {
+      "name": "The Orknies",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Evil creatures who serve in the White Witch's army during the final battle.",
+          "role": "Evil warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "wooses": {
+      "name": "The Wooses",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Wild, savage creatures who fight for the White Witch in her final battle.",
+          "role": "Savage warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "ettins": {
+      "name": "The Ettins",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Giant-like creatures who serve the White Witch as formidable warriors.",
+          "role": "Giant warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "fauns": {
+      "name": "The Fauns",
+      "aliases": [],
+      "appearances": [2, 14, 17],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Half-human, half-goat creatures like Mr. Tumnus. They have been oppressed under the White Witch's rule but maintain their good nature.",
+          "role": "Oppressed subjects of Narnia",
+          "relationships": {
+            "Mr. Tumnus": "Fellow faun",
+            "White Witch": "Oppressed by"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Join Aslan's army in the final battle, fighting for their freedom from the White Witch's tyranny.",
+          "role": "Freedom fighters",
+          "relationships": {
+            "Aslan": "Fight for",
+            "White Witch": "Fight against"
+          }
+        }
+      }
+    },
+    "satyrs": {
+      "name": "The Satyrs",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Creatures similar to fauns who join the battle for Narnia's liberation.",
+          "role": "Liberation fighters",
+          "relationships": {
+            "Aslan": "Fight for",
+            "White Witch": "Fight against"
+          }
+        }
+      }
+    },
+    "dwarfs": {
+      "name": "The Good Dwarfs",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Noble dwarfs who fight for Aslan against the White Witch, unlike the dwarf who serves her.",
+          "role": "Noble warriors",
+          "relationships": {
+            "Aslan": "Fight for",
+            "White Witch": "Fight against"
+          }
+        }
+      }
+    },
+    "giants": {
+      "name": "The Good Giants",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Large, gentle giants who fight on Aslan's side in the final battle.",
+          "role": "Gentle giants and warriors",
+          "relationships": {
+            "Aslan": "Fight for",
+            "White Witch": "Fight against"
+          }
+        }
+      }
+    },
+    "pelicans": {
+      "name": "The Pelicans",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Large water birds who join the aerial forces in Aslan's army.",
+          "role": "Aerial support",
+          "relationships": {
+            "Aslan": "Fight for",
+            "Eagles": "Fight alongside"
+          }
+        }
+      }
+    },
+    "stags": {
+      "name": "The Talking Stags",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Noble talking deer who become subjects of the four monarchs during the golden age.",
+          "role": "Noble subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "emperor-over-sea": {
+      "name": "The Emperor-Over-the-Sea",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The father of Aslan and ultimate ruler over all. He is the source of the Deep Magic and represents the highest authority in all the worlds.",
+          "role": "Ultimate sovereign and father of Aslan",
+          "relationships": {
+            "Aslan": "Father of"
+          }
+        }
+      }
+    },
+    "white-stag": {
+      "name": "The White Stag",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A legendary white stag that appears in Narnia and grants wishes to those who catch it. Its appearance leads the four monarchs back to the lamp-post and ultimately back to England.",
+          "role": "Magical wish-granting creature",
+          "relationships": {
+            "Peter Pevensie": "Pursued by",
+            "Susan Pevensie": "Pursued by",
+            "Edmund Pevensie": "Pursued by",
+            "Lucy Pevensie": "Pursued by"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "The four Pevensie children - Peter, Susan, Edmund, and Lucy - are sent to stay with Professor Kirke in his large country house during World War II. Mrs. Macready, the housekeeper, shows them around and warns them not to disturb the Professor.",
+    "2": "During a game of hide-and-seek, Lucy hides in an old wardrobe and discovers it leads to a snowy forest. She meets a faun named Mr. Tumnus who invites her for tea in his cave, where he reveals she is in a land called Narnia.",
+    "3": "Lucy returns through the wardrobe but finds no time has passed. Her siblings don't believe her story about Narnia. Later, Edmund follows Lucy into the wardrobe and meets the White Witch, who gives him enchanted Turkish Delight and commands him to bring his siblings to her.",
+    "4": "When Edmund returns, he lies about Narnia to spite Lucy. Eventually, all four children enter Narnia together while hiding from Mrs. Macready's tour group. They discover Mr. Tumnus has been arrested by the White Witch's secret police.",
+    "5": "The children explore Narnia and meet a robin who guides them through the forest. They encounter Mr. Beaver, who knew Mr. Tumnus and shows them a handkerchief as proof of their friendship.",
+    "6": "Mr. Beaver takes the children to his dam where they meet Mrs. Beaver. Over dinner, the Beavers explain that Narnia has been under the White Witch's spell of eternal winter, and that Aslan, the true king, is returning.",
+    "7": "The Beavers tell the children about an ancient prophecy that four human children will become Kings and Queens of Narnia and defeat the White Witch. They explain that Aslan is the son of the Emperor-Over-the-Sea and the rightful ruler of Narnia.",
+    "8": "Edmund slips away to betray his siblings to the White Witch. The others discover his absence and flee with the Beavers toward the Stone Table where Aslan is gathering his forces. Edmund reaches the White Witch's castle but finds her cold and cruel.",
+    "9": "Edmund learns the White Witch's true nature when she gives him only bread and water instead of the feast she promised. Meanwhile, the other children travel through Narnia with the Beavers, noticing signs that the eternal winter is beginning to break.",
+    "10": "As they journey, the group encounters Father Christmas, whose appearance signals that the White Witch's power is weakening. He gives the children magical gifts: Peter receives a sword and shield, Susan a bow and arrows, and Lucy a healing cordial and dagger.",
+    "11": "The White Witch pursues Edmund and the children with her sleigh, but spring continues to arrive, making travel difficult for her. She eventually abandons the sleigh and continues on foot. Meanwhile, Peter kills Maugrim, the chief wolf, when he attacks Susan and Lucy.",
+    "12": "The children reach Aslan at the Stone Table, where Edmund is reunited with his siblings and forgiven. That night, Aslan walks to the Stone Table to meet the White Witch and offers his life in exchange for Edmund's, fulfilling the Deep Magic's requirement for a traitor's blood.",
+    "13": "Susan and Lucy witness Aslan's sacrifice and stay with his body through the night. At sunrise, the Stone Table cracks and Aslan returns to life, explaining that the Deeper Magic reverses death when a willing victim dies for a traitor. Aslan then goes to the White Witch's castle and frees her stone prisoners.",
+    "14": "The final battle takes place as Peter leads Aslan's army against the White Witch's forces of evil creatures. Aslan arrives with his freed prisoners and joins the fight. The White Witch is defeated and killed, ending her reign over Narnia.",
+    "15": "With the battle won, Aslan breathes on the petrified creatures to bring them back to life. The White Witch's spell over Narnia is completely broken, and the land begins to flourish again with spring and new life.",
+    "16": "Aslan crowns the four children as Kings and Queens of Narnia at the ancient castle of Cair Paravel. Peter becomes High King Peter the Magnificent, Susan becomes Queen Susan the Gentle, Edmund becomes King Edmund the Just, and Lucy becomes Queen Lucy the Valiant.",
+    "17": "The children rule Narnia for many years, growing into wise and beloved monarchs during a golden age. One day, while hunting the White Stag that grants wishes, they find the lamp-post and follow it back through the wardrobe, returning to England where no time has passed at all."
+  }
+}
