@@ -1,0 +1,2390 @@
+{
+  "meta": {
+    "title": "Oathbringer",
+    "author": "Brandon Sanderson",
+    "chapters": 122,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "dalinar-kholin": {
+      "name": "Dalinar Kholin",
+      "aliases": ["The Blackthorn", "Bondsmith"],
+      "appearances": [1, 7, 10, 14, 17, 21, 24, 28, 31, 33, 39, 46, 54, 62, 65, 71, 74, 82, 90, 96, 103, 112],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A powerful highprince struggling with alcoholism and haunting visions from the Stormfather",
+          "role": "Highprince of Alethkar",
+          "relationships": {
+            "Father of": "Adolin Kholin, Renarin Kholin",
+            "Brother to": "Gavilar Kholin (deceased)",
+            "Bonded to": "The Stormfather"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Attempts to unite the highprinces against the coming Everstorm, facing political resistance and doubt",
+          "role": "Coalition leader",
+          "relationships": {
+            "Allied with": "Various Alethi highprinces",
+            "Married to": "Navani Kholin"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Experiences intense visions showing Honor's final days and the abandonment of oaths by the Knights Radiant",
+          "role": "Vessel for Honor's visions",
+          "relationships": {
+            "Connected to": "Honor (through visions)",
+            "Guided by": "The Stormfather"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Begins remembering his deceased wife Evi and the circumstances surrounding her death",
+          "role": "Haunted widower",
+          "relationships": {
+            "Previously married to": "Evi (deceased)",
+            "Haunted by": "Memories of past violence"
+          }
+        },
+        "54": {
+          "revealedIn": 54,
+          "description": "Confronts the truth about his wife's death and his role in the tragedy that shaped his guilt",
+          "role": "Man seeking redemption",
+          "relationships": {
+            "Responsible for": "Evi's death",
+            "Seeking forgiveness from": "Himself and his family"
+          }
+        },
+        "74": {
+          "revealedIn": 74,
+          "description": "Understands Honor's final plan and realizes his role as a Bondsmith in uniting people",
+          "role": "Bondsmith Knight Radiant",
+          "relationships": {
+            "Bonded to": "The Stormfather",
+            "Serving": "Honor's final wishes"
+          }
+        },
+        "96": {
+          "revealedIn": 96,
+          "description": "Becomes the vessel for a new kind of Connection, learning to facilitate unity between different groups",
+          "role": "Unity facilitator",
+          "relationships": {
+            "Connecting": "All members of the coalition",
+            "Bonded to": "The Stormfather (deeper bond)"
+          }
+        }
+      }
+    },
+    "kaladin": {
+      "name": "Kaladin",
+      "aliases": ["Captain", "Stormblessed", "Kaladin Stormblessed"],
+      "appearances": [2, 8, 15, 22, 29, 34, 41, 47, 55, 63, 66, 72, 76, 83, 92, 97, 105, 115],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Former bridgeman turned Knight Radiant, training new members of Bridge Four",
+          "role": "Knight Radiant of the Order of Windrunners",
+          "relationships": {
+            "Leader of": "Bridge Four",
+            "Bonded to": "Sylphrena (Syl)",
+            "Captain under": "Dalinar Kholin"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Leads rescue missions during the Everstorm, witnessing its devastating power firsthand",
+          "role": "Rescue mission leader",
+          "relationships": {
+            "Protecting": "Thaylen ships and civilians",
+            "Working with": "Bridge Four members"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Faces a crisis of faith about violence and his role as a protector",
+          "role": "Conflicted protector",
+          "relationships": {
+            "Questioning": "His role as a soldier",
+            "Guided by": "Syl's moral compass"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Infiltrates Kholinar to rescue the royal family, facing new challenges in occupied territory",
+          "role": "Infiltration mission leader",
+          "relationships": {
+            "Working with": "Shallan and Adolin",
+            "Rescuing": "Kholinar royal family"
+          }
+        },
+        "47": {
+          "revealedIn": 47,
+          "description": "Confronts his personal limitations and fears to access his full potential as a Knight Radiant",
+          "role": "Evolving Knight Radiant",
+          "relationships": {
+            "Bonded more deeply to": "Syl",
+            "Overcoming": "Personal limitations"
+          }
+        },
+        "76": {
+          "revealedIn": 76,
+          "description": "Leads aerial defense against ancient Fused warriors with centuries of combat experience",
+          "role": "Aerial combat commander",
+          "relationships": {
+            "Fighting": "Ancient Fused warriors",
+            "Protecting": "Ground forces below"
+          }
+        },
+        "92": {
+          "revealedIn": 92,
+          "description": "Overcomes his greatest fear to become the Knight Radiant he was meant to be",
+          "role": "Fully realized Knight Radiant",
+          "relationships": {
+            "Fully bonded to": "Syl",
+            "Leading": "Windrunner forces"
+          }
+        },
+        "97": {
+          "revealedIn": 97,
+          "description": "Takes on the responsibility of training new Knights Radiant while healing from trauma",
+          "role": "Knight Radiant instructor",
+          "relationships": {
+            "Training": "New Knights Radiant",
+            "Rebuilding": "Bridge Four"
+          }
+        }
+      }
+    },
+    "shallan-davar": {
+      "name": "Shallan Davar",
+      "aliases": ["Veil", "Radiant", "Brightness Shallan"],
+      "appearances": [3, 9, 16, 23, 30, 35, 42, 48, 56, 64, 67, 73, 77, 84, 93, 98, 106, 116],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Knight Radiant exploring her abilities with Pattern while investigating the mysterious Ghostbloods",
+          "role": "Knight Radiant of the Order of Lightweavers",
+          "relationships": {
+            "Bonded to": "Pattern",
+            "Investigating": "The Ghostbloods",
+            "Engaged to": "Adolin Kholin"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Uses multiple personality identities to maintain cover while investigating dangerous organizations",
+          "role": "Undercover investigator",
+          "relationships": {
+            "Alternate identities": "Veil, Radiant",
+            "Connected to": "Ghostblood activities"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Infiltrates Ghostblood meetings and learns about their connection to larger cosmere activities",
+          "role": "Infiltrator",
+          "relationships": {
+            "Infiltrating": "Ghostblood organization",
+            "Learning about": "Cosmere connections"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Joins the mission to Kholinar, using her illusion abilities to disguise the infiltration team",
+          "role": "Mission specialist",
+          "relationships": {
+            "Working with": "Kaladin and Adolin",
+            "Disguising": "Infiltration team"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Faces a crisis that threatens to overwhelm her carefully maintained multiple identities",
+          "role": "Person with fractured identity",
+          "relationships": {
+            "Struggling with": "Veil and Radiant personas",
+            "Supported by": "Pattern"
+          }
+        },
+        "64": {
+          "revealedIn": 64,
+          "description": "Confronts the truth about her past and must integrate her different selves or risk losing herself entirely",
+          "role": "Person seeking integration",
+          "relationships": {
+            "Integrating": "Multiple personalities",
+            "Confronting": "Her traumatic past"
+          }
+        },
+        "77": {
+          "revealedIn": 77,
+          "description": "Uses her abilities to coordinate defense and provide tactical intelligence during battle",
+          "role": "Tactical coordinator",
+          "relationships": {
+            "Coordinating": "Coalition defense",
+            "Working with": "Military leaders"
+          }
+        },
+        "93": {
+          "revealedIn": 93,
+          "description": "Finally integrates her multiple personalities and achieves a new level of power as a Knight Radiant",
+          "role": "Integrated Knight Radiant",
+          "relationships": {
+            "Fully integrated with": "All her personalities",
+            "Enhanced bond with": "Pattern"
+          }
+        },
+        "98": {
+          "revealedIn": 98,
+          "description": "Explores her newly integrated identity and enhanced abilities as a true Knight Radiant",
+          "role": "Evolved Lightweaver",
+          "relationships": {
+            "Mastering": "Enhanced Lightweaver abilities",
+            "Partnered with": "Adolin Kholin"
+          }
+        }
+      }
+    },
+    "adolin-kholin": {
+      "name": "Adolin Kholin",
+      "aliases": ["Prince Adolin", "Brightlord Adolin"],
+      "appearances": [4, 11, 18, 25, 32, 40, 50, 58, 68, 78, 86, 99, 108],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Dalinar, courting Shallan while struggling to understand his father's visions",
+          "role": "Prince of Alethkar",
+          "relationships": {
+            "Son of": "Dalinar Kholin",
+            "Brother to": "Renarin Kholin",
+            "Courting": "Shallan Davar"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Deals with the societal collapse as parshmen transform into enemies across Alethkar",
+          "role": "Military commander",
+          "relationships": {
+            "Commanding": "Alethi forces",
+            "Dealing with": "Parshman uprising"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Helps coordinate Alethkar's defense while grappling with the consequences of his father's violent past",
+          "role": "Defense coordinator",
+          "relationships": {
+            "Learning about": "His father's past crimes",
+            "Coordinating with": "Military leaders"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Accompanies the mission to Kholinar and confronts the reality of his homeland's transformation",
+          "role": "Mission participant",
+          "relationships": {
+            "Working with": "Kaladin and Shallan",
+            "Witnessing": "Kholinar's fall"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Faces a personal crisis that forces him to examine his beliefs and define his own path",
+          "role": "Man finding his identity",
+          "relationships": {
+            "Defining": "His own moral code",
+            "Independent from": "His father's shadow"
+          }
+        },
+        "78": {
+          "revealedIn": 78,
+          "description": "Leads ground forces during the climactic battle, proving his worth through courage and skill",
+          "role": "Ground forces commander",
+          "relationships": {
+            "Leading": "Coalition ground forces",
+            "Fighting alongside": "Knights Radiant"
+          }
+        },
+        "99": {
+          "revealedIn": 99,
+          "description": "Finds his place in the new world order despite lacking magical powers",
+          "role": "Non-magical leader",
+          "relationships": {
+            "Contributing to": "Rebuilding efforts",
+            "Supporting": "Knight Radiant activities"
+          }
+        }
+      }
+    },
+    "szeth": {
+      "name": "Szeth-son-son-Vallano",
+      "aliases": ["Szeth", "Assassin in White", "Truthless"],
+      "appearances": [5, 12, 19, 26, 36, 43, 51, 59, 69, 79, 87, 100, 109],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Former Truthless assassin now training with the sentient sword Nightblood under Herald Nale's guidance",
+          "role": "Skybreaker initiate",
+          "relationships": {
+            "Bonded to": "Nightblood (sentient sword)",
+            "Training under": "Nale (Herald)",
+            "Formerly": "Truthless of Shinovar"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Learns about the lies he was told about his powers and begins to understand his true nature",
+          "role": "Truth-seeker",
+          "relationships": {
+            "Discovering": "Truth about his exile",
+            "Questioning": "Shinovar's teachings"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Continues training and learns about the true nature of Surgebinding and his abilities",
+          "role": "Student of Surgebinding",
+          "relationships": {
+            "Learning from": "Skybreaker order",
+            "Understanding": "His Windrunner abilities"
+          }
+        },
+        "43": {
+          "revealedIn": 43,
+          "description": "Learns about the history of Desolations and the cyclical nature of the conflict with Voidbringers",
+          "role": "Student of history",
+          "relationships": {
+            "Understanding": "Desolation cycles",
+            "Learning about": "Herald responsibilities"
+          }
+        },
+        "69": {
+          "revealedIn": 69,
+          "description": "Faces final tests to determine his fitness as a Skybreaker, proving his understanding of justice",
+          "role": "Skybreaker candidate",
+          "relationships": {
+            "Tested by": "Skybreaker order",
+            "Proving": "His commitment to justice"
+          }
+        },
+        "79": {
+          "revealedIn": 79,
+          "description": "Arrives at the climactic battle and must choose which side represents true justice",
+          "role": "Arbiter of justice",
+          "relationships": {
+            "Choosing between": "Competing concepts of justice",
+            "Fighting alongside": "Knights Radiant"
+          }
+        },
+        "100": {
+          "revealedIn": 100,
+          "description": "Completes his transformation from Truthless outcast to a true Skybreaker Knight Radiant",
+          "role": "Knight Radiant of the Skybreakers",
+          "relationships": {
+            "Bonded to": "Nightblood",
+            "Member of": "Skybreaker order",
+            "At peace with": "His sense of justice"
+          }
+        }
+      }
+    },
+    "venli": {
+      "name": "Venli",
+      "aliases": ["Listener", "Singer"],
+      "appearances": [6, 13, 20, 27, 37, 44, 52, 60, 70, 80, 88, 101, 110],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A Listener who has undergone transformation due to the Everstorm, grappling with guilt over her role in the new Desolation",
+          "role": "Transformed Listener",
+          "relationships": {
+            "Sister to": "Eshonai (deceased)",
+            "Guilty about": "Bringing the Everstorm",
+            "Connected to": "Ancient rhythms"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Struggles with her new form and the expectations placed on her by the ancient Fused",
+          "role": "Reluctant servant",
+          "relationships": {
+            "Serving": "The Fused",
+            "Struggling with": "New transformed body",
+            "Mourning": "Her sister Eshonai"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Witnesses the return of the Fused and begins to understand their ancient hatred of humans",
+          "role": "Witness to history",
+          "relationships": {
+            "Learning from": "Ancient Fused",
+            "Understanding": "Historical conflicts",
+            "Seeing": "Fused ancient hatred"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Is forced to make choices that compromise her remaining humanity as she serves the Fused",
+          "role": "Compromised individual",
+          "relationships": {
+            "Losing": "Her humanity",
+            "Serving": "Fused against her will",
+            "Remembering": "Her sister's ideals"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Witnesses atrocities committed by the Fused and struggles with her complicity in their actions",
+          "role": "Reluctant accomplice",
+          "relationships": {
+            "Witnessing": "Fused atrocities",
+            "Complicit in": "Violence against humans",
+            "Questioning": "Possibility of redemption"
+          }
+        },
+        "70": {
+          "revealedIn": 70,
+          "description": "Begins to understand the true nature of her transformation and sees new possibilities for her future",
+          "role": "Person seeking redemption",
+          "relationships": {
+            "Understanding": "Her transformation's meaning",
+            "Seeing": "Path to redemption",
+            "Connected to": "Timbre (spren)"
+          }
+        },
+        "88": {
+          "revealedIn": 88,
+          "description": "Makes a choice to work against the Fused despite personal danger, beginning active resistance",
+          "role": "Active resistor",
+          "relationships": {
+            "Working against": "The Fused",
+            "Bonded to": "Timbre",
+            "Risking": "Her own safety"
+          }
+        },
+        "101": {
+          "revealedIn": 101,
+          "description": "Understands the possibility of redemption for her people and works toward peace between humans and singers",
+          "role": "Bridge-builder",
+          "relationships": {
+            "Working toward": "Human-singer peace",
+            "Bonded to": "Timbre (spren)",
+            "Representing": "Redemption possibility"
+          }
+        }
+      }
+    },
+    "navani-kholin": {
+      "name": "Navani Kholin",
+      "aliases": ["Queen Navani", "Brightness Navani"],
+      "appearances": [7, 14, 24, 31, 39, 46, 62, 71, 82, 96, 107, 112],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Queen of Alethkar and Dalinar's wife, brilliant engineer and scholar working on fabrial technology",
+          "role": "Queen and scholar",
+          "relationships": {
+            "Married to": "Dalinar Kholin",
+            "Mother-in-law to": "Shallan Davar",
+            "Mother of": "Adolin and Renarin Kholin (by marriage)"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Works on advancing fabrial technology to aid in the war effort against the Voidbringers",
+          "role": "Lead fabrial engineer",
+          "relationships": {
+            "Collaborating with": "Artifabrian scholars",
+            "Supporting": "Coalition war effort"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Provides crucial support to Dalinar during his most difficult memories and visions",
+          "role": "Emotional anchor",
+          "relationships": {
+            "Supporting": "Dalinar through trauma",
+            "Understanding": "His connection to Honor"
+          }
+        },
+        "82": {
+          "revealedIn": 82,
+          "description": "Uses her engineering expertise to coordinate technical aspects of the coalition's defense",
+          "role": "Technical coordinator",
+          "relationships": {
+            "Coordinating": "Coalition technical resources",
+            "Working with": "Military engineers"
+          }
+        }
+      }
+    },
+    "renarin-kholin": {
+      "name": "Renarin Kholin",
+      "aliases": ["Prince Renarin"],
+      "appearances": [4, 18, 32, 50, 68, 86, 99, 113],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Younger son of Dalinar, a quiet and scholarly prince with an unusual spren bond",
+          "role": "Prince and Knight Radiant",
+          "relationships": {
+            "Son of": "Dalinar Kholin",
+            "Brother to": "Adolin Kholin",
+            "Bonded to": "Glys (corrupted truthwatcher spren)"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "His bond with a corrupted spren gives him unique but unreliable prophetic abilities",
+          "role": "Truthwatcher with corrupt bond",
+          "relationships": {
+            "Bonded to": "Glys (Voidspren-touched)",
+            "Seeing": "Possible futures",
+            "Struggling with": "Unreliable visions"
+          }
+        },
+        "68": {
+          "revealedIn": 68,
+          "description": "Works to understand his unique abilities while supporting the coalition effort",
+          "role": "Developing Knight Radiant",
+          "relationships": {
+            "Learning about": "His corrupted bond",
+            "Supporting": "Family and coalition"
+          }
+        }
+      }
+    },
+    "jasnah-kholin": {
+      "name": "Jasnah Kholin",
+      "aliases": ["Princess Jasnah", "Brightness Jasnah"],
+      "appearances": [14, 31, 46, 65, 82, 96, 107],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Brilliant scholar and Knight Radiant who has returned from Shadesmar after being presumed dead",
+          "role": "Knight Radiant Elsecaller",
+          "relationships": {
+            "Niece of": "Dalinar Kholin",
+            "Cousin to": "Adolin and Renarin",
+            "Bonded to": "Ivory (inkspren)"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Uses her Elsecaller abilities to travel through Shadesmar and gather intelligence",
+          "role": "Shadesmar scout",
+          "relationships": {
+            "Traveling with": "Ivory",
+            "Scouting": "Shadesmar realm",
+            "Reporting to": "Coalition leadership"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Provides crucial knowledge about the nature of spren and the Cognitive Realm",
+          "role": "Cognitive Realm expert",
+          "relationships": {
+            "Teaching": "Coalition about spren",
+            "Expert on": "Shadesmar travel"
+          }
+        }
+      }
+    },
+    "wit": {
+      "name": "Wit",
+      "aliases": ["Hoid", "The King's Wit"],
+      "appearances": [21, 46, 74, 90, 112],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Mysterious storyteller and ancient being who appears at crucial moments with cryptic wisdom",
+          "role": "Storyteller and guide",
+          "relationships": {
+            "Advising": "Dalinar Kholin",
+            "Ancient connection to": "Cosmere events",
+            "Storytelling to": "Various characters"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Provides guidance and perspective during the darkest moments of the conflict",
+          "role": "Philosophical guide",
+          "relationships": {
+            "Guiding": "Key characters",
+            "Understanding": "Cosmere-wide events"
+          }
+        },
+        "90": {
+          "revealedIn": 90,
+          "description": "Reveals deeper knowledge about the nature of the conflict and cosmic forces at play",
+          "role": "Cosmere agent",
+          "relationships": {
+            "Connected to": "Cosmic powers",
+            "Working toward": "Unknown larger goals"
+          }
+        }
+      }
+    },
+    "pattern": {
+      "name": "Pattern",
+      "aliases": ["Shallan's spren"],
+      "appearances": [3, 9, 16, 23, 30, 35, 42, 48, 56, 64, 67, 73, 77, 84, 93, 98, 106],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A cryptic spren bonded to Shallan, manifesting as complex geometric patterns",
+          "role": "Cryptic spren",
+          "relationships": {
+            "Bonded to": "Shallan Davar",
+            "Enabling": "Lightweaver abilities",
+            "Understanding": "Truth and lies"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Helps Shallan navigate the complexities of her multiple identities and investigation work",
+          "role": "Identity guide",
+          "relationships": {
+            "Supporting": "Shallan's personalities",
+            "Advising on": "Truth and deception"
+          }
+        },
+        "64": {
+          "revealedIn": 64,
+          "description": "Aids Shallan in confronting the truth about her past and integrating her fractured identity",
+          "role": "Truth facilitator",
+          "relationships": {
+            "Helping": "Shallan face truth",
+            "Facilitating": "Identity integration"
+          }
+        }
+      }
+    },
+    "syl": {
+      "name": "Sylphrena",
+      "aliases": ["Syl", "Kaladin's spren"],
+      "appearances": [2, 8, 15, 22, 29, 34, 41, 47, 55, 63, 72, 76, 83, 92, 97],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An honorspren bonded to Kaladin, appearing as a small glowing figure with changing forms",
+          "role": "Honorspren",
+          "relationships": {
+            "Bonded to": "Kaladin",
+            "Enabling": "Windrunner abilities",
+            "Daughter of": "The Stormfather"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Provides moral guidance to Kaladin during his crisis of faith about violence",
+          "role": "Moral compass",
+          "relationships": {
+            "Guiding": "Kaladin's moral choices",
+            "Understanding": "Honor and protection"
+          }
+        },
+        "47": {
+          "revealedIn": 47,
+          "description": "Helps Kaladin overcome his limitations and access his full potential as a Knight Radiant",
+          "role": "Empowerment catalyst",
+          "relationships": {
+            "Deepening bond with": "Kaladin",
+            "Enabling": "Full Windrunner powers"
+          }
+        }
+      }
+    },
+    "the-stormfather": {
+      "name": "The Stormfather",
+      "aliases": ["Stormfather", "Storm's essence"],
+      "appearances": [1, 7, 21, 28, 46, 65, 74, 82, 90, 96],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Ancient and powerful spren of storms, bonded to Dalinar and source of his visions",
+          "role": "Bondsmith spren",
+          "relationships": {
+            "Bonded to": "Dalinar Kholin",
+            "Source of": "Honor's visions",
+            "Father to": "Sylphrena"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Reveals more about Honor's final days and the true nature of the abandoned oaths",
+          "role": "Honor's remnant",
+          "relationships": {
+            "Carrying": "Honor's final message",
+            "Connected to": "Ancient oaths"
+          }
+        },
+        "74": {
+          "revealedIn": 74,
+          "description": "Works with Dalinar to understand and implement Honor's final plan for unity",
+          "role": "Unity facilitator",
+          "relationships": {
+            "Partnered with": "Dalinar",
+            "Implementing": "Honor's vision"
+          }
+        }
+      }
+    },
+    "nightblood": {
+      "name": "Nightblood",
+      "aliases": ["The sword", "Nightblood the sword"],
+      "appearances": [5, 12, 26, 43, 59, 79, 100],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A sentient sword with immense destructive power, capable of consuming Investiture",
+          "role": "Awakened weapon",
+          "relationships": {
+            "Wielded by": "Szeth",
+            "Created on": "Nalthis",
+            "Consuming": "Investiture and souls"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Provides Szeth with overwhelming destructive power while maintaining its own agenda",
+          "role": "Powerful weapon with agenda",
+          "relationships": {
+            "Bonded to": "Szeth",
+            "Seeking to": "Destroy evil",
+            "Understanding": "Good and evil in simple terms"
+          }
+        },
+        "79": {
+          "revealedIn": 79,
+          "description": "Plays a crucial role in the climactic battle with its ability to destroy Investiture",
+          "role": "Anti-Investiture weapon",
+          "relationships": {
+            "Wielded by": "Szeth in battle",
+            "Effective against": "Fused and voidspren"
+          }
+        }
+      }
+    },
+    "rock": {
+      "name": "Lunamor",
+      "aliases": ["Rock", "Unkalaki"],
+      "appearances": [2, 8, 15, 29, 34, 41, 55, 72, 76, 97],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Horneater cook and warrior of Bridge Four, skilled in both cooking and combat",
+          "role": "Bridge Four cook and warrior",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Cook for": "Bridge Four crew",
+            "Loyal to": "Kaladin"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Participates in rescue missions during the Everstorm, using his Horneater heritage for unique abilities",
+          "role": "Mission specialist",
+          "relationships": {
+            "Heritage from": "Horneater Peaks",
+            "Able to see": "Spren more clearly",
+            "Supporting": "Bridge Four operations"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Joins the infiltration of Kholinar, providing crucial support with his skills and heritage",
+          "role": "Infiltration specialist",
+          "relationships": {
+            "Part of": "Kholinar mission team",
+            "Using": "Horneater abilities"
+          }
+        }
+      }
+    },
+    "teft": {
+      "name": "Teft",
+      "aliases": ["Old Teft"],
+      "appearances": [2, 15, 22, 29, 41, 55, 72, 76, 83, 97],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Veteran soldier and member of Bridge Four with a troubled past involving the Knights Radiant",
+          "role": "Bridge Four veteran",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Experienced": "Former soldier",
+            "Connected to": "Ancient Radiant knowledge"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Struggles with his past and his growing understanding of what it means to be a Knight Radiant",
+          "role": "Developing Knight Radiant",
+          "relationships": {
+            "Learning about": "Knight Radiant oaths",
+            "Dealing with": "Personal guilt",
+            "Bonding with": "A spren"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Begins to manifest Knight Radiant abilities, becoming a Windrunner like Kaladin",
+          "role": "New Knight Radiant",
+          "relationships": {
+            "Bonded to": "A windspren",
+            "Following": "Kaladin's example",
+            "Member of": "Windrunner order"
+          }
+        }
+      }
+    },
+    "lopen": {
+      "name": "Lopen",
+      "aliases": ["The Lopen"],
+      "appearances": [2, 8, 15, 29, 41, 55, 63, 72, 76, 97],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One-armed Herdazian member of Bridge Four known for his humor and loyalty",
+          "role": "Bridge Four member",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "From": "Herdaz",
+            "Known for": "Humor and optimism"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Shows signs of bonding with a spren and developing Knight Radiant abilities",
+          "role": "Developing Knight Radiant",
+          "relationships": {
+            "Bonding with": "A spren",
+            "Learning": "Radiant abilities",
+            "Part of": "New Radiants"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Becomes a full Knight Radiant Windrunner, regaining the use of his arm through his abilities",
+          "role": "Knight Radiant Windrunner",
+          "relationships": {
+            "Bonded to": "A windspren",
+            "Regained": "Full use of both arms",
+            "Member of": "Windrunner order"
+          }
+        }
+      }
+    },
+    "sigzil": {
+      "name": "Sigzil",
+      "aliases": ["Sig"],
+      "appearances": [2, 15, 29, 41, 55, 72, 97],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Worldly member of Bridge Four with knowledge of various cultures and fighting techniques",
+          "role": "Bridge Four scholar-warrior",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Student of": "Wit (formerly)",
+            "Knowledgeable about": "Cosmere cultures"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Uses his wide knowledge to help train and organize the growing Bridge Four",
+          "role": "Training coordinator",
+          "relationships": {
+            "Teaching": "New Bridge Four members",
+            "Organizing": "Training programs"
+          }
+        }
+      }
+    },
+    "drehy": {
+      "name": "Drehy",
+      "aliases": [],
+      "appearances": [2, 15, 41, 72, 76],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Loyal member of Bridge Four known for his dedication and combat skills",
+          "role": "Bridge Four warrior",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Loyal to": "Kaladin and the crew"
+          }
+        }
+      }
+    },
+    "skar": {
+      "name": "Skar",
+      "aliases": [],
+      "appearances": [2, 15, 41, 72, 76],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Bridge Four member who serves as one of Kaladin's most trusted subordinates",
+          "role": "Bridge Four sergeant",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Trusted by": "Kaladin",
+            "Leading": "Bridge Four squads"
+          }
+        }
+      }
+    },
+    "lyn": {
+      "name": "Lyn",
+      "aliases": [],
+      "appearances": [15, 29, 41, 72],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Female recruit to the growing Bridge Four organization, showing promise as a warrior",
+          "role": "Bridge Four recruit",
+          "relationships": {
+            "New member of": "Bridge Four",
+            "Training under": "Kaladin's leadership"
+          }
+        }
+      }
+    },
+    "azure": {
+      "name": "Azure",
+      "aliases": ["Vivenna"],
+      "appearances": [45, 53, 61, 77, 84],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Mysterious swordswoman found in Kholinar with unusual abilities and weapons",
+          "role": "Mysterious ally",
+          "relationships": {
+            "Leading": "Kholinar resistance",
+            "Wielding": "Awakened sword",
+            "Allied with": "Kaladin's team"
+          }
+        },
+        "53": {
+          "revealedIn": 53,
+          "description": "Reveals herself to be a skilled warrior from another world with Awakener abilities",
+          "role": "Worldhopper warrior",
+          "relationships": {
+            "From": "Nalthis",
+            "Using": "Awakening abilities",
+            "Fighting": "Voidbringers in Kholinar"
+          }
+        },
+        "77": {
+          "revealedIn": 77,
+          "description": "Joins the battle using her unique abilities to fight alongside the coalition forces",
+          "role": "Allied warrior",
+          "relationships": {
+            "Fighting with": "Coalition forces",
+            "Using": "Awakened weapons",
+            "Experienced in": "Cosmic conflicts"
+          }
+        }
+      }
+    },
+    "malata": {
+      "name": "Malata",
+      "aliases": [],
+      "appearances": [31, 46, 65, 82],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Knight Radiant of the Dustbringers order with a dangerous and unpredictable spren bond",
+          "role": "Dustbringer Knight Radiant",
+          "relationships": {
+            "Bonded to": "Ashspren",
+            "Member of": "Dustbringer order",
+            "Serving": "Coalition forces"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Shows concerning attitudes about destruction and the use of her dangerous powers",
+          "role": "Dangerous Knight Radiant",
+          "relationships": {
+            "Conflicted about": "Proper use of powers",
+            "Influenced by": "Destructive spren",
+            "Monitored by": "Coalition leadership"
+          }
+        }
+      }
+    },
+    "ivory": {
+      "name": "Ivory",
+      "aliases": [],
+      "appearances": [14, 31, 46, 65, 82, 96],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Ancient inkspren bonded to Jasnah, appearing as a small figure made of flowing ink",
+          "role": "Inkspren",
+          "relationships": {
+            "Bonded to": "Jasnah Kholin",
+            "Enabling": "Elsecaller abilities",
+            "Ancient": "Long-lived spren"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Helps Jasnah navigate the complexities of Shadesmar and Elsecaller transportation",
+          "role": "Shadesmar guide",
+          "relationships": {
+            "Guiding": "Jasnah through Shadesmar",
+            "Expert on": "Cognitive Realm travel"
+          }
+        }
+      }
+    },
+    "glys": {
+      "name": "Glys",
+      "aliases": [],
+      "appearances": [4, 32, 50, 68, 86],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Renarin's spren, a corrupted truthwatcher spren with unusual properties",
+          "role": "Corrupted spren",
+          "relationships": {
+            "Bonded to": "Renarin Kholin",
+            "Corrupted by": "Voidspren influence",
+            "Enabling": "Prophetic abilities"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "The corruption allows unique but unreliable glimpses of possible futures",
+          "role": "Future-sight facilitator",
+          "relationships": {
+            "Showing": "Possible futures to Renarin",
+            "Affected by": "Voidspren corruption",
+            "Unique among": "Truthwatcher spren"
+          }
+        }
+      }
+    },
+    "timbre": {
+      "name": "Timbre",
+      "aliases": [],
+      "appearances": [70, 80, 88, 101, 110],
+      "knowledge": {
+        "70": {
+          "revealedIn": 70,
+          "description": "A unique spren that begins bonding with Venli, representing a new possibility for singer-spren relationships",
+          "role": "Revolutionary spren",
+          "relationships": {
+            "Bonding with": "Venli",
+            "Representing": "New spren-singer bonds",
+            "Opposing": "Fused control"
+          }
+        },
+        "88": {
+          "revealedIn": 88,
+          "description": "Enables Venli to resist Fused control and work toward redemption for her people",
+          "role": "Liberation spren",
+          "relationships": {
+            "Bonded to": "Venli",
+            "Enabling": "Resistance to Fused",
+            "Supporting": "Singer freedom"
+          }
+        }
+      }
+    },
+    "odium": {
+      "name": "Odium",
+      "aliases": ["Rayse", "The Enemy"],
+      "appearances": [10, 20, 37, 52, 74, 81, 89, 94],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A powerful Shard of Adonalsium representing hatred and passion, the force behind the Desolations",
+          "role": "Shard of hatred",
+          "relationships": {
+            "Enemy of": "Honor and Cultivation",
+            "Commanding": "Voidbringers and Fused",
+            "Seeking": "Destruction of Roshar"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Ancient cosmic entity that has been imprisoned on Braize for millennia, now breaking free",
+          "role": "Imprisoned Shard",
+          "relationships": {
+            "Imprisoned on": "Braize",
+            "Breaking free through": "The Everstorm",
+            "Commanding": "The Fused"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Seeks to escape his prison by destroying the resistance and claiming victory on Roshar",
+          "role": "Cosmic conqueror",
+          "relationships": {
+            "Seeking to escape": "Braize prison",
+            "Planning": "Complete conquest of Roshar",
+            "Using": "Ancient Fused as generals"
+          }
+        },
+        "89": {
+          "revealedIn": 89,
+          "description": "Manifests more directly in the conflict as ancient powers awaken on the battlefield",
+          "role": "Active cosmic force",
+          "relationships": {
+            "Directly influencing": "The battle",
+            "Opposing": "Honor's champions",
+            "Seeking": "Final victory"
+          }
+        }
+      }
+    },
+    "re-shephir": {
+      "name": "Re-Shephir",
+      "aliases": ["The Midnight Mother", "Unmade"],
+      "appearances": [45, 57, 61],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "One of the Unmade found corrupting the Kholinar palace, creating twisted shadow creatures",
+          "role": "Unmade corruptor",
+          "relationships": {
+            "One of": "The nine Unmade",
+            "Corrupting": "Kholinar palace",
+            "Creating": "Shadow creatures and illusions"
+          }
+        },
+        "57": {
+          "revealedIn": 57,
+          "description": "Ancient power that feeds on fear and creates nightmarish manifestations to torment victims",
+          "role": "Ancient nightmare entity",
+          "relationships": {
+            "Feeding on": "Fear and terror",
+            "Creating": "Nightmarish manifestations",
+            "Serving": "Odium's purposes"
+          }
+        }
+      }
+    },
+    "sja-anat": {
+      "name": "Sja-anat",
+      "aliases": ["The Taker of Secrets", "Unmade"],
+      "appearances": [32, 60, 88],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "One of the Unmade with the ability to corrupt spren, responsible for Renarin's unusual bond",
+          "role": "Spren corruptor",
+          "relationships": {
+            "One of": "The nine Unmade",
+            "Corrupting": "Spren bonds",
+            "Connected to": "Glys and Renarin"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Shows signs of developing independent will and questioning her role in Odium's plans",
+          "role": "Questioning Unmade",
+          "relationships": {
+            "Questioning": "Odium's commands",
+            "Developing": "Independent consciousness",
+            "Protecting": "Her corrupted spren"
+          }
+        }
+      }
+    },
+    "yelig-nar": {
+      "name": "Yelig-nar",
+      "aliases": ["The Blightwind", "Unmade"],
+      "appearances": [75, 81, 89],
+      "knowledge": {
+        "75": {
+          "revealedIn": 75,
+          "description": "One of the Unmade that can bond with humans to grant terrible power at a horrific cost",
+          "role": "Parasitic Unmade",
+          "relationships": {
+            "One of": "The nine Unmade",
+            "Bonding with": "Willing humans",
+            "Granting": "Power at terrible cost"
+          }
+        }
+      }
+    },
+    "nergaoul": {
+      "name": "Nergaoul",
+      "aliases": ["The Thrill", "Unmade"],
+      "appearances": [1, 33, 54, 82],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Unmade responsible for the Thrill that drove Dalinar's past violence and bloodlust",
+          "role": "Violence-inducing Unmade",
+          "relationships": {
+            "One of": "The nine Unmade",
+            "Influencing": "Dalinar's past violence",
+            "Creating": "The Thrill of battle"
+          }
+        },
+        "54": {
+          "revealedIn": 54,
+          "description": "Revealed as the source of the bloodlust that led to Dalinar's worst actions, including his wife's death",
+          "role": "Corruption source",
+          "relationships": {
+            "Responsible for": "Dalinar's violent past",
+            "Causing": "The tragedy of Evi's death",
+            "Serving": "Odium's corruption"
+          }
+        }
+      }
+    },
+    "taln": {
+      "name": "Taln",
+      "aliases": ["Talenelat'Elin", "Herald of War"],
+      "appearances": ["prologue", 89, 94],
+      "knowledge": {
+        "prologue": {
+          "revealedIn": "prologue",
+          "description": "One of the ten Heralds who maintained the Oathpact, the only one who did not abandon his duty",
+          "role": "Herald of War",
+          "relationships": {
+            "One of": "The ten Heralds",
+            "Maintained": "The Oathpact alone",
+            "Did not abandon": "His duty to humanity"
+          }
+        },
+        "89": {
+          "revealedIn": 89,
+          "description": "Returns as the most tortured Herald, having endured millennia of torture alone to protect humanity",
+          "role": "Tortured protector",
+          "relationships": {
+            "Endured": "Millennia of torture",
+            "Protecting": "Humanity through sacrifice",
+            "Most loyal of": "The Heralds"
+          }
+        }
+      }
+    },
+    "ash": {
+      "name": "Ash",
+      "aliases": ["Shalash", "Herald of Beauty"],
+      "appearances": ["prologue", 74, 89],
+      "knowledge": {
+        "prologue": {
+          "revealedIn": "prologue",
+          "description": "One of the ten Heralds who abandoned the Oathpact, Herald associated with beauty and art",
+          "role": "Herald of Beauty",
+          "relationships": {
+            "One of": "The ten Heralds",
+            "Abandoned": "The Oathpact",
+            "Associated with": "Beauty and art"
+          }
+        },
+        "74": {
+          "revealedIn": 74,
+          "description": "Struggles with guilt over abandoning humanity and destroying art depicting the Heralds",
+          "role": "Guilt-ridden Herald",
+          "relationships": {
+            "Guilty about": "Abandoning humanity",
+            "Destroying": "Art depicting Heralds",
+            "Avoiding": "Recognition and worship"
+          }
+        }
+      }
+    },
+    "jezrien": {
+      "name": "Jezrien",
+      "aliases": ["Herald of Kings"],
+      "appearances": ["prologue", 28, 46, 74],
+      "knowledge": {
+        "prologue": {
+          "revealedIn": "prologue",
+          "description": "Leader of the Heralds who led the decision to abandon the Oathpact",
+          "role": "Herald leader",
+          "relationships": {
+            "Leader of": "The ten Heralds",
+            "Led": "Decision to abandon Oathpact",
+            "King of": "The Heralds"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Appears in Dalinar's visions as Honor shows the consequences of broken oaths",
+          "role": "Vision figure",
+          "relationships": {
+            "Shown in": "Honor's visions",
+            "Representing": "Leadership and broken promises",
+            "Connected to": "Honor's message"
+          }
+        }
+      }
+    },
+    "nale": {
+      "name": "Nale",
+      "aliases": ["Nalan'Elin", "Herald of Justice"],
+      "appearances": [5, 19, 36, 69, 79],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Herald of Justice leading the Skybreaker order, training Szeth in their interpretation of law",
+          "role": "Herald of Justice",
+          "relationships": {
+            "One of": "The ten Heralds",
+            "Leading": "Skybreaker order",
+            "Training": "Szeth"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Believes that preventing the return of Knights Radiant will stop another Desolation",
+          "role": "Misguided protector",
+          "relationships": {
+            "Believing": "Knights Radiant cause Desolations",
+            "Leading": "Anti-Radiant campaign",
+            "Misunderstanding": "The true threat"
+          }
+        },
+        "69": {
+          "revealedIn": 69,
+          "description": "Tests potential Skybreakers to ensure they understand justice according to his interpretation",
+          "role": "Justice arbiter",
+          "relationships": {
+            "Testing": "Skybreaker candidates",
+            "Judging": "Understanding of justice",
+            "Maintaining": "Order through law"
+          }
+        }
+      }
+    },
+    "honor": {
+      "name": "Honor",
+      "aliases": ["Tanavast"],
+      "appearances": [21, 28, 46, 74, 90],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The Shard of Adonalsium representing honor and oaths, killed by Odium but leaving behind visions and plans",
+          "role": "Dead Shard",
+          "relationships": {
+            "Killed by": "Odium",
+            "Leaving behind": "Visions and final plans",
+            "Connected to": "Knights Radiant oaths"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Shows Dalinar the truth about the Recreance and the abandonment of oaths by the Knights Radiant",
+          "role": "Truth revealer",
+          "relationships": {
+            "Revealing": "Truth about the Recreance",
+            "Teaching": "The cost of broken oaths",
+            "Preparing": "Dalinar for his role"
+          }
+        },
+        "74": {
+          "revealedIn": 74,
+          "description": "His final plan becomes clear - to create unity through Connection and restore the ability to bind oaths",
+          "role": "Unity architect",
+          "relationships": {
+            "Planning": "Unity through Connection",
+            "Restoring": "Power of oaths",
+            "Working through": "Dalinar as Bondsmith"
+          }
+        }
+      }
+    },
+    "cultivation": {
+      "name": "Cultivation",
+      "aliases": ["Koravellium Avast"],
+      "appearances": [60, 88, 101],
+      "knowledge": {
+        "60": {
+          "revealedIn": 60,
+          "description": "The Shard of Adonalsium representing growth and change, working subtly against Odium",
+          "role": "Shard of growth",
+          "relationships": {
+            "Shard representing": "Growth and change",
+            "Working against": "Odium's plans",
+            "Subtly influencing": "Events on Roshar"
+          }
+        },
+        "88": {
+          "revealedIn": 88,
+          "description": "Reveals her role in preparing certain individuals for the coming conflict",
+          "role": "Secret preparer",
+          "relationships": {
+            "Preparing": "Key individuals",
+            "Planning for": "Long-term resistance",
+            "Cultivating": "Growth in her champions"
+          }
+        }
+      }
+    },
+    "the-pursuer": {
+      "name": "The Pursuer",
+      "aliases": ["Defeated One"],
+      "appearances": [37, 52, 75, 83, 91],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "One of the ancient Fused, a powerful warrior with millennia of combat experience",
+          "role": "Ancient Fused warrior",
+          "relationships": {
+            "One of": "The ancient Fused",
+            "Serving": "Odium",
+            "Leading": "Voidbringer forces"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Leads Fused forces in the climactic battle, using ancient knowledge and hatred of humans",
+          "role": "Fused general",
+          "relationships": {
+            "Leading": "Fused in battle",
+            "Hating": "Human defenders",
+            "Using": "Ancient combat knowledge"
+          }
+        }
+      }
+    },
+    "eshonai": {
+      "name": "Eshonai",
+      "aliases": ["Listener", "Stormform"],
+      "appearances": [6, 13, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Venli's deceased sister, a former Listener who was transformed and died in the previous conflict",
+          "role": "Deceased Listener",
+          "relationships": {
+            "Sister to": "Venli",
+            "Former": "Listener explorer",
+            "Died in": "Previous conflict with humans"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Remembered by Venli as someone who sought understanding between humans and Listeners",
+          "role": "Peacemaker (remembered)",
+          "relationships": {
+            "Sought": "Human-Listener understanding",
+            "Influenced": "Venli's conscience",
+            "Represented": "Hope for cooperation"
+          }
+        }
+      }
+    },
+    "fen": {
+      "name": "Fen",
+      "aliases": ["Queen Fen", "Thaylen Queen"],
+      "appearances": [8, 24, 71, 75, 82, 95],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Queen of Thaylenah, a practical ruler concerned about protecting her people from the Everstorm",
+          "role": "Thaylen Queen",
+          "relationships": {
+            "Queen of": "Thaylenah",
+            "Concerned about": "Protecting her people",
+            "Working with": "Coalition forces"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Joins Dalinar's coalition despite reservations, recognizing the threat to her kingdom",
+          "role": "Coalition member",
+          "relationships": {
+            "Joined": "Dalinar's coalition",
+            "Representing": "Thaylen interests",
+            "Concerned about": "The Everstorm threat"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Coordinates the defense of Thaylen City as it becomes the focal point of the climactic battle",
+          "role": "Defensive coordinator",
+          "relationships": {
+            "Defending": "Thaylen City",
+            "Coordinating with": "Coalition forces",
+            "Fighting for": "Her people's survival"
+          }
+        }
+      }
+    },
+    "kmakl": {
+      "name": "Kmakl",
+      "aliases": [],
+      "appearances": [8, 75, 82],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Thaylen naval officer involved in rescue operations during the Everstorm",
+          "role": "Thaylen naval officer",
+          "relationships": {
+            "Serving": "Thaylen navy",
+            "Participating in": "Rescue operations",
+            "Working with": "Coalition forces"
+          }
+        }
+      }
+    },
+    "yokska": {
+      "name": "Yokska",
+      "aliases": [],
+      "appearances": [75, 82, 95],
+      "knowledge": {
+        "75": {
+          "revealedIn": 75,
+          "description": "Thaylen citizen who becomes involved in the defense of Thaylen City during the battle",
+          "role": "Thaylen defender",
+          "relationships": {
+            "Defending": "Thaylen City",
+            "Citizen of": "Thaylenah",
+            "Fighting alongside": "Coalition forces"
+          }
+        }
+      }
+    },
+    "gawx": {
+      "name": "Gawx",
+      "aliases": ["Emperor Gawx"],
+      "appearances": ["i-4", "i-9", 107],
+      "knowledge": {
+        "i-4": {
+          "revealedIn": "i-4",
+          "description": "Young Emperor of Azir who has grown into his role since his earlier adventures",
+          "role": "Azish Emperor",
+          "relationships": {
+            "Emperor of": "Azir",
+            "Grown from": "Street thief origins",
+            "Ruling": "Azish Empire"
+          }
+        },
+        "107": {
+          "revealedIn": 107,
+          "description": "Leads the Azish response to the new world order after the battle",
+          "role": "Imperial leader",
+          "relationships": {
+            "Leading": "Azish Empire",
+            "Adapting to": "Post-battle world",
+            "Dealing with": "Political changes"
+          }
+        }
+      }
+    },
+    "lift": {
+      "name": "Lift",
+      "aliases": ["The awesome", "Edgedancer"],
+      "appearances": ["i-4", "i-9", 75, 84],
+      "knowledge": {
+        "i-4": {
+          "revealedIn": "i-4",
+          "description": "Young Edgedancer Knight Radiant with unique abilities and an irreverent attitude",
+          "role": "Edgedancer Knight Radiant",
+          "relationships": {
+            "Bonded to": "Wyndle",
+            "Knight Radiant of": "Edgedancer order",
+            "Connected to": "Azish court"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Arrives at the battle to help with her unique healing and mobility abilities",
+          "role": "Battle participant",
+          "relationships": {
+            "Fighting in": "The climactic battle",
+            "Using": "Edgedancer abilities",
+            "Helping": "Wounded and trapped people"
+          }
+        }
+      }
+    },
+    "wyndle": {
+      "name": "Wyndle",
+      "aliases": [],
+      "appearances": ["i-4", "i-9", 75, 84],
+      "knowledge": {
+        "i-4": {
+          "revealedIn": "i-4",
+          "description": "A cultivationspren bonded to Lift, manifesting as crystalline vines",
+          "role": "Cultivationspren",
+          "relationships": {
+            "Bonded to": "Lift",
+            "Enabling": "Edgedancer abilities",
+            "Manifesting as": "Crystal vines"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Provides support to Lift during the battle, enabling her unique abilities",
+          "role": "Radiant support",
+          "relationships": {
+            "Supporting": "Lift in battle",
+            "Enabling": "Growth and healing powers",
+            "Connected to": "Cultivation"
+          }
+        }
+      }
+    },
+    "rlain": {
+      "name": "Rlain",
+      "aliases": ["Bridge Four listener"],
+      "appearances": [2, 15, 29, 55, 72, 88, 97, 110],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The former Listener who joined Bridge Four and chose to side with humans",
+          "role": "Bridge Four member",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Former": "Listener",
+            "Chose": "Humans over his own people"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Struggles with his position between two peoples, serving humans while his kin become enemies",
+          "role": "Cultural bridge",
+          "relationships": {
+            "Caught between": "Humans and singers",
+            "Serving": "Bridge Four",
+            "Conflicted about": "His people's transformation"
+          }
+        },
+        "88": {
+          "revealedIn": 88,
+          "description": "Finds new purpose as a potential bridge between the transformed singers and humans",
+          "role": "Potential peacemaker",
+          "relationships": {
+            "Bridging": "Human-singer relations",
+            "Understanding": "Both cultures",
+            "Working toward": "Peaceful coexistence"
+          }
+        }
+      }
+    },
+    "gavilar-kholin": {
+      "name": "Gavilar Kholin",
+      "aliases": ["King Gavilar"],
+      "appearances": [1, 33, 39, 54, 103],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Dalinar's deceased brother, the former king whose death triggered the events of the series",
+          "role": "Deceased king",
+          "relationships": {
+            "Brother to": "Dalinar Kholin",
+            "Former king of": "Alethkar",
+            "Father of": "Adolin and Renarin (through remarriage)"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Remembered in flashbacks as someone who understood Dalinar's violent nature and used it",
+          "role": "Enabling brother",
+          "relationships": {
+            "Enabled": "Dalinar's violence",
+            "Used": "Dalinar as a weapon",
+            "Married": "Navani after Evi's death"
+          }
+        },
+        "54": {
+          "revealedIn": 54,
+          "description": "Shown to have been involved in the circumstances that led to Evi's death",
+          "role": "Complicit figure",
+          "relationships": {
+            "Involved in": "Evi's death",
+            "Responsible for": "Political machinations",
+            "Influenced": "Dalinar's worst actions"
+          }
+        }
+      }
+    },
+    "evi": {
+      "name": "Evi",
+      "aliases": ["Dalinar's wife"],
+      "appearances": [1, 33, 39, 46, 54, 103],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Dalinar's deceased first wife, whose memory haunts him through his visions",
+          "role": "Deceased wife",
+          "relationships": {
+            "Wife of": "Dalinar Kholin (deceased)",
+            "Mother of": "Adolin and Renarin Kholin",
+            "From": "Rira"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Remembered as a peaceful woman who tried to moderate Dalinar's violent tendencies",
+          "role": "Moderating influence",
+          "relationships": {
+            "Tried to moderate": "Dalinar's violence",
+            "Brought": "Peace to their marriage",
+            "Opposed": "Unnecessary warfare"
+          }
+        },
+        "54": {
+          "revealedIn": 54,
+          "description": "Her death is revealed to be the result of Dalinar's actions while under the influence of the Thrill",
+          "role": "Tragic victim",
+          "relationships": {
+            "Killed by": "Dalinar's actions",
+            "Victim of": "The Thrill's influence",
+            "Represents": "Dalinar's greatest regret"
+          }
+        }
+      }
+    },
+    "moash": {
+      "name": "Moash",
+      "aliases": ["Vyre"],
+      "appearances": [15, 29, 41, 72, 83, 91],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Former member of Bridge Four who has turned against his former friends",
+          "role": "Betrayer",
+          "relationships": {
+            "Former member of": "Bridge Four",
+            "Betrayed": "Kaladin and Bridge Four",
+            "Now serving": "Odium's forces"
+          }
+        },
+        "41": {
+          "revealedIn": 41,
+          "description": "Works with Voidbringer forces, having completely abandoned his former loyalties",
+          "role": "Enemy agent",
+          "relationships": {
+            "Working with": "Fused and singers",
+            "Enemy of": "His former friends",
+            "Serving": "Odium"
+          }
+        },
+        "83": {
+          "revealedIn": 83,
+          "description": "Confronts his former friends in battle, representing the path of abandoning responsibility",
+          "role": "Dark mirror",
+          "relationships": {
+            "Fighting against": "Bridge Four",
+            "Representing": "Abandonment of oaths",
+            "Opposing": "Kaladin directly"
+          }
+        }
+      }
+    },
+    "elhokar": {
+      "name": "Elhokar",
+      "aliases": ["King Elhokar"],
+      "appearances": [17, 31, 34, 45, 53],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "King of Alethkar trapped in Kholinar as the city falls under Voidbringer control",
+          "role": "Besieged king",
+          "relationships": {
+            "King of": "Alethkar",
+            "Son of": "Gavilar Kholin (deceased)",
+            "Nephew of": "Dalinar Kholin"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Target of the rescue mission to Kholinar, struggling to maintain control of his city",
+          "role": "Rescue target",
+          "relationships": {
+            "Being rescued by": "Kaladin's team",
+            "Struggling to control": "Kholinar",
+            "Connected to": "Cryptic spren"
+          }
+        },
+        "53": {
+          "revealedIn": 53,
+          "description": "Reveals that he has been seeing cryptic patterns and may be bonding with a spren",
+          "role": "Potential Knight Radiant",
+          "relationships": {
+            "Seeing": "Cryptic spren patterns",
+            "Potentially bonding with": "A cryptic",
+            "Learning about": "Knight Radiant abilities"
+          }
+        }
+      }
+    },
+    "bisig": {
+      "name": "Bisig",
+      "aliases": [],
+      "appearances": [2, 15, 41, 72],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Member of Bridge Four known for his reliability and steady demeanor",
+          "role": "Bridge Four member",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Loyal to": "Kaladin and the crew"
+          }
+        }
+      }
+    },
+    "hobber": {
+      "name": "Hobber",
+      "aliases": [],
+      "appearances": [2, 15, 29, 72],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Bridge Four member who was injured and now serves in support roles",
+          "role": "Bridge Four support",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Injured in": "Previous battles",
+            "Serving in": "Support capacity"
+          }
+        }
+      }
+    },
+    "peet": {
+      "name": "Peet",
+      "aliases": [],
+      "appearances": [2, 15, 72],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Younger member of Bridge Four who looks up to the veteran members",
+          "role": "Bridge Four recruit",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Learning from": "Veteran members"
+          }
+        }
+      }
+    },
+    "beard": {
+      "name": "Beard",
+      "aliases": [],
+      "appearances": [2, 15, 72],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Bridge Four member known for his distinctive facial hair and quiet nature",
+          "role": "Bridge Four member",
+          "relationships": {
+            "Member of": "Bridge Four",
+            "Known for": "His distinctive beard"
+          }
+        }
+      }
+    },
+    "natam": {
+      "name": "Natam",
+      "aliases": ["Highprince Natam"],
+      "appearances": [7, 24, 71],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Alethi highprince who participates in Dalinar's coalition meetings",
+          "role": "Alethi highprince",
+          "relationships": {
+            "Highprince of": "Alethkar",
+            "Member of": "Dalinar's coalition",
+            "Participating in": "War council meetings"
+          }
+        }
+      }
+    },
+    "ruthar": {
+      "name": "Ruthar",
+      "aliases": ["Highprince Ruthar"],
+      "appearances": [7, 24, 71],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Alethi highprince skeptical of Dalinar's visions and coalition plans",
+          "role": "Skeptical highprince",
+          "relationships": {
+            "Highprince of": "Alethkar",
+            "Skeptical of": "Dalinar's visions",
+            "Resistant to": "Coalition plans"
+          }
+        }
+      }
+    },
+    "bethab": {
+      "name": "Bethab",
+      "aliases": ["Highprince Bethab"],
+      "appearances": [7, 24, 71],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Alethi highprince who eventually joins Dalinar's coalition",
+          "role": "Coalition highprince",
+          "relationships": {
+            "Highprince of": "Alethkar",
+            "Joined": "Dalinar's coalition",
+            "Supporting": "War effort"
+          }
+        }
+      }
+    },
+    "sebarial": {
+      "name": "Sebarial",
+      "aliases": ["Highprince Sebarial"],
+      "appearances": [7, 24, 71, 82, 95],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Practical Alethi highprince known for his merchant background and pragmatic approach",
+          "role": "Pragmatic highprince",
+          "relationships": {
+            "Highprince of": "Alethkar",
+            "Known for": "Merchant background",
+            "Takes": "Pragmatic approach to war"
+          }
+        },
+        "82": {
+          "revealedIn": 82,
+          "description": "Provides logistical support to the coalition forces during the battle",
+          "role": "Logistics coordinator",
+          "relationships": {
+            "Supporting": "Coalition logistics",
+            "Coordinating": "Supply lines",
+            "Managing": "Resources"
+          }
+        }
+      }
+    },
+    "brightness-palona": {
+      "name": "Palona",
+      "aliases": ["Brightness Palona"],
+      "appearances": [7, 24, 82],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Sebarial's mistress and a practical woman who helps with coalition logistics",
+          "role": "Coalition supporter",
+          "relationships": {
+            "Mistress of": "Highprince Sebarial",
+            "Helping with": "Coalition logistics",
+            "Managing": "Practical affairs"
+          }
+        }
+      }
+    },
+    "kadash": {
+      "name": "Kadash",
+      "aliases": ["Ardent Kadash"],
+      "appearances": [1, 14, 39, 62],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Former soldier turned ardent who serves as Dalinar's spiritual advisor",
+          "role": "Spiritual advisor",
+          "relationships": {
+            "Advisor to": "Dalinar Kholin",
+            "Former": "Soldier",
+            "Current": "Ardent"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Struggles with Dalinar's claims about visions and direct communication with divine forces",
+          "role": "Conflicted advisor",
+          "relationships": {
+            "Struggling with": "Dalinar's visions",
+            "Questioning": "Divine communications",
+            "Maintaining": "Traditional beliefs"
+          }
+        }
+      }
+    },
+    "khen": {
+      "name": "Khen",
+      "aliases": [],
+      "appearances": ["i-1", "i-5", "i-8"],
+      "knowledge": {
+        "i-1": {
+          "revealedIn": "i-1",
+          "description": "A parshman who experiences transformation during the Everstorm",
+          "role": "Transformed parshman",
+          "relationships": {
+            "Experiencing": "Everstorm transformation",
+            "Awakening to": "True consciousness",
+            "Connected to": "Ancient rhythms"
+          }
+        }
+      }
+    },
+    "vathah": {
+      "name": "Vathah",
+      "aliases": [],
+      "appearances": [3, 23, 35, 48, 67],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Former deserter who now serves under Shallan's command",
+          "role": "Shallan's guard",
+          "relationships": {
+            "Serving": "Shallan Davar",
+            "Former": "Deserter",
+            "Leading": "Shallan's guards"
+          }
+        }
+      }
+    },
+    "gaz": {
+      "name": "Gaz",
+      "aliases": [],
+      "appearances": [3, 23, 35, 48, 67],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Former bridge sergeant who now serves in Shallan's retinue",
+          "role": "Guard member",
+          "relationships": {
+            "Serving": "Shallan Davar",
+            "Former": "Bridge sergeant",
+            "Working with": "Vathah's group"
+          }
+        }
+      }
+    },
+    "red": {
+      "name": "Red",
+      "aliases": [],
+      "appearances": [3, 35, 48, 67],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Member of Shallan's guard detail, known for his red hair",
+          "role": "Guard member",
+          "relationships": {
+            "Member of": "Shallan's guards",
+            "Working under": "Vathah",
+            "Known for": "Red hair"
+          }
+        }
+      }
+    },
+    "ishnah": {
+      "name": "Ishnah",
+      "aliases": [],
+      "appearances": [23, 30, 48, 73],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Young woman who becomes involved in Shallan's intelligence work",
+          "role": "Intelligence assistant",
+          "relationships": {
+            "Working for": "Shallan Davar",
+            "Involved in": "Ghostblood investigation",
+            "Learning": "Espionage techniques"
+          }
+        }
+      }
+    },
+    "mraize": {
+      "name": "Mraize",
+      "aliases": [],
+      "appearances": [23, 56, 73],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Mysterious Ghostblood agent with connections to worldhopping activities",
+          "role": "Ghostblood agent",
+          "relationships": {
+            "Agent of": "Ghostbloods",
+            "Connected to": "Worldhopping",
+            "Manipulating": "Various characters"
+          }
+        },
+        "56": {
+          "revealedIn": 56,
+          "description": "Reveals more about the Ghostbloods' true purposes and cosmere connections",
+          "role": "Cosmere operative",
+          "relationships": {
+            "Working for": "Ghostblood organization",
+            "Connected to": "Cosmere-wide activities",
+            "Pursuing": "Specific artifacts"
+          }
+        }
+      }
+    },
+    "kalami": {
+      "name": "Kalami",
+      "aliases": [],
+      "appearances": ["i-2", "i-6"],
+      "knowledge": {
+        "i-2": {
+          "revealedIn": "i-2",
+          "description": "Character featured in an interlude dealing with the aftermath of the Everstorm",
+          "role": "Interlude character",
+          "relationships": {
+            "Dealing with": "Everstorm aftermath",
+            "Witnessing": "Societal changes"
+          }
+        }
+      }
+    },
+    "puuli": {
+      "name": "Puuli",
+      "aliases": [],
+      "appearances": ["i-3", "i-7"],
+      "knowledge": {
+        "i-3": {
+          "revealedIn": "i-3",
+          "description": "Character featured in an interlude showing the broader impact of the conflict",
+          "role": "Interlude character",
+          "relationships": {
+            "Experiencing": "War's impact",
+            "Representing": "Ordinary people's struggles"
+          }
+        }
+      }
+    },
+    "veil": {
+      "name": "Veil",
+      "aliases": [],
+      "appearances": [9, 23, 30, 42, 64, 93],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "One of Shallan's alternate personalities, representing her investigative and street-smart side",
+          "role": "Shallan's alternate identity",
+          "relationships": {
+            "Alternate identity of": "Shallan Davar",
+            "Representing": "Street-smart investigator",
+            "Used for": "Undercover work"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Becomes more distinct and threatens to overwhelm Shallan's primary identity",
+          "role": "Competing personality",
+          "relationships": {
+            "Competing with": "Shallan's other identities",
+            "Threatening": "Shallan's integration",
+            "Seeking": "Independent existence"
+          }
+        },
+        "64": {
+          "revealedIn": 64,
+          "description": "Must be integrated with Shallan's other aspects to prevent mental fracture",
+          "role": "Identity to integrate",
+          "relationships": {
+            "Being integrated with": "Shallan's core identity",
+            "Part of": "Shallan's healing process",
+            "Contributing": "Specific skills and perspectives"
+          }
+        }
+      }
+    },
+    "radiant": {
+      "name": "Radiant",
+      "aliases": [],
+      "appearances": [9, 23, 42, 64, 93],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Another of Shallan's alternate personalities, representing her Knight Radiant ideals",
+          "role": "Shallan's alternate identity",
+          "relationships": {
+            "Alternate identity of": "Shallan Davar",
+            "Representing": "Knight Radiant ideals",
+            "Embodying": "Honor and duty"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Clashes with Shallan's other identities over proper behavior and decisions",
+          "role": "Moral personality",
+          "relationships": {
+            "Clashing with": "Veil and Shallan",
+            "Advocating for": "Honorable behavior",
+            "Representing": "Moral absolutism"
+          }
+        },
+        "64": {
+          "revealedIn": 64,
+          "description": "Must be integrated to create a whole person rather than competing fragments",
+          "role": "Identity to integrate",
+          "relationships": {
+            "Being integrated with": "Shallan's complete identity",
+            "Contributing": "Moral strength and purpose",
+            "Part of": "Shallan's growth"
+          }
+        }
+      }
+    },
+    "amaram": {
+      "name": "Amaram",
+      "aliases": ["Brightlord Amaram"],
+      "appearances": [39, 75, 81, 89],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Dalinar's former friend who betrayed Kaladin and has been corrupted by an Unmade",
+          "role": "Corrupted former ally",
+          "relationships": {
+            "Former friend of": "Dalinar Kholin",
+            "Betrayer of": "Kaladin",
+            "Corrupted by": "Yelig-nar (Unmade)"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Appears in battle wielding terrible power granted by his bond with an Unmade",
+          "role": "Unmade-bonded warrior",
+          "relationships": {
+            "Bonded to": "Yelig-nar",
+            "Fighting for": "Odium's forces",
+            "Wielding": "Corrupted power"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "prologue": "The Heralds abandon their duties, breaking the Oathpact and ending the cycle of Desolations. They cast aside their Honorblades, believing they've saved humanity from further suffering.",
+    "1": "Dalinar struggles with his alcoholism and the visions from the Stormfather. He begins to remember fragments of his past, particularly involving his wife Evi.",
+    "2": "Kaladin trains the new Bridge Four members and grapples with his powers as a Knight Radiant. He faces internal conflict about his role and responsibilities.",
+    "3": "Shallan explores her abilities with Pattern and begins investigating the Ghostbloods. She delves deeper into her multiple personalities and their purposes.",
+    "4": "Adolin continues his courtship of Shallan while dealing with the changing political landscape. He struggles with his father's visions and the implications for Alethkar.",
+    "5": "Szeth begins his training with Nightblood under the guidance of Nale. He learns about the true nature of the Desolation and his role as Truthless.",
+    "6": "Venli experiences her first transformation and begins to understand the magnitude of the Everstorm. She grapples with guilt over her role in bringing about the new Desolation.",
+    "7": "Dalinar meets with various highprinces to discuss the threat of the Everstorm. Political tensions rise as some refuse to believe the danger.",
+    "8": "Kaladin leads a mission to rescue Thaylen ships caught in the Everstorm's path. He witnesses the storm's devastating power firsthand.",
+    "9": "Shallan continues her investigation of the Ghostbloods while maintaining her cover identities. She uncovers disturbing information about their activities.",
+    "10": "The Everstorm arrives, bringing transformation to parshmen across Roshar. Dalinar witnesses the beginning of the new Desolation.",
+    "11": "Adolin deals with the aftermath of the Everstorm and the revelation that parshmen are transforming. Society begins to collapse as slaves become enemies.",
+    "12": "Szeth learns more about his past and the lies he was told. His training with Nightblood intensifies as he prepares for his mission.",
+    "13": "Venli struggles with her new form and the expectations placed upon her by the Fused. She begins to understand the complexity of her situation.",
+    "14": "Dalinar attempts to form a coalition to face the new threat. He struggles with memories of his past violence and his wife's death.",
+    "15": "Kaladin helps evacuate civilians as transformed parshmen attack. He faces difficult decisions about who to save and who to fight.",
+    "16": "Shallan uses her abilities to help with the evacuation efforts. She continues to develop her understanding of her powers and multiple identities.",
+    "17": "The siege of Kholinar begins as Voidbringers attack the capital. Dalinar coordinates the defense while dealing with political complications.",
+    "18": "Adolin leads troops in the defense of various cities. He begins to question his role in a world where his father claims to speak with gods.",
+    "19": "Szeth encounters other Skybreakers and learns about their interpretation of justice. He struggles with conflicting loyalties and beliefs.",
+    "20": "Venli witnesses the return of the Fused and begins to understand their ancient hatred. She learns about the history of the conflict between humans and singers.",
+    "21": "Dalinar's visions intensify, showing him more of Honor's final days. He begins to understand the true nature of the Recreance and the abandonment of oaths.",
+    "22": "Kaladin faces a crisis of faith as he witnesses the brutality of war. He questions whether violence is ever justified, even in defense of others.",
+    "23": "Shallan infiltrates a Ghostblood meeting and learns about their connection to the larger cosmere. She discovers troubling information about their goals.",
+    "24": "The coalition forces begin to organize against the Voidbringer threat. Dalinar struggles to maintain unity among the various factions.",
+    "25": "Adolin helps coordinate the defense of Alethkar while dealing with his own doubts. He begins to see the true cost of his father's past actions.",
+    "26": "Szeth continues his training and learns about the true nature of Surgebinding. He begins to question everything he believed about honor and duty.",
+    "27": "Venli learns more about the Fused's plans and the scope of their intended conquest. She begins to see the futility of resistance from the human perspective.",
+    "28": "Dalinar experiences a powerful vision that shows him the day the Knights Radiant abandoned their oaths. He begins to understand the weight of broken promises.",
+    "29": "Kaladin struggles with depression and the weight of his responsibilities. He faces a crisis that threatens his ability to use his powers.",
+    "30": "Shallan continues to balance her multiple identities while investigating threats to the coalition. She uncovers a plot that threatens everything they've built.",
+    "31": "The battle for Kholinar intensifies as more Fused arrive. Dalinar realizes the capital may be lost despite their efforts.",
+    "32": "Adolin makes a difficult decision that puts him at odds with his father's plans. He begins to carve out his own path in the changing world.",
+    "i-1": "An interlude focusing on a minor character affected by the Everstorm. They witness the transformation of parshmen and the beginning of societal collapse.",
+    "i-2": "Another perspective on the early days of the new Desolation. A different character deals with the implications of the changed world.",
+    "i-3": "A third interlude showing how various parts of Roshar are responding to the crisis. The scope of the transformation becomes clear.",
+    "33": "Dalinar begins to remember more about his wife Evi and the circumstances of her death. The memories bring both pain and understanding.",
+    "34": "Kaladin attempts to infiltrate Kholinar to rescue the royal family. He faces new challenges as the city falls under Voidbringer control.",
+    "35": "Shallan joins the mission to Kholinar, using her abilities to disguise the team. She struggles to maintain her cover while dealing with internal conflicts.",
+    "36": "Szeth meets with other Skybreakers and learns about their plans. He begins to understand the complexity of their interpretation of justice.",
+    "37": "Venli witnesses the Fused establishing their rule over conquered territories. She sees the systematic nature of their conquest and the fate awaiting humanity.",
+    "38": "The mission to Kholinar becomes more dangerous as the team discovers the extent of Voidbringer control. They realize the situation is worse than expected.",
+    "39": "Dalinar continues to experience memories of his past, including his relationship with his brother Gavilar. He begins to understand the roots of his violent nature.",
+    "40": "Adolin accompanies the mission to Kholinar and faces the reality of what his homeland has become. He struggles with the loss of everything familiar.",
+    "41": "Kaladin's team encounters unexpected resistance in Kholinar. They discover that not all enemies are what they seem to be.",
+    "42": "Shallan faces a crisis that threatens to overwhelm her carefully maintained identities. She must choose which aspect of herself to embrace.",
+    "43": "Szeth learns about the history of the Desolations and the role of the Heralds. He begins to understand the cyclical nature of the conflict.",
+    "44": "Venli is forced to make choices that compromise her remaining humanity. She begins to lose herself to the demands of her new existence.",
+    "45": "The team in Kholinar discovers the palace has been corrupted by Voidbringer influence. They face supernatural threats beyond normal combat.",
+    "46": "Dalinar experiences a vision that shows him Honor's death and the shattering of the oaths. He understands the true cost of broken promises.",
+    "47": "Kaladin confronts his own limitations and fears. He must overcome personal obstacles to access his full potential as a Knight Radiant.",
+    "48": "Shallan uses her powers in new ways to aid the mission, but the effort takes a toll on her mental stability. Her personalities begin to conflict more severely.",
+    "49": "The mission in Kholinar reaches a critical point as they attempt to locate the royal family. They discover the palace holds darker secrets than expected.",
+    "50": "Adolin faces a personal crisis that forces him to examine his beliefs and loyalties. He must decide what kind of person he wants to be.",
+    "51": "Szeth encounters a test that challenges his understanding of justice and duty. He must make a choice that will define his future path.",
+    "52": "Venli witnesses atrocities committed by the Fused and struggles with her complicity. She begins to question whether redemption is possible.",
+    "53": "The team discovers the fate of the Kholinar royal family and faces a devastating revelation. Their mission takes an unexpected turn.",
+    "54": "Dalinar's memories reveal the true circumstances of his wife's death and his role in the tragedy. He must confront the worst aspects of his past.",
+    "55": "Kaladin faces his greatest challenge yet as he attempts to protect innocent lives. He must overcome his limitations to save others.",
+    "56": "Shallan's investigation leads to a confrontation with forces beyond her understanding. She must use all her abilities to survive.",
+    "57": "The situation in Kholinar deteriorates as ancient powers awaken. The team realizes they're facing threats from the deepest parts of Roshar's history.",
+    "58": "Adolin makes a crucial decision that puts him in direct conflict with supernatural forces. He must rely on courage rather than magical abilities.",
+    "59": "Szeth completes a significant part of his training and learns about his true destiny. He begins to understand his role in the larger conflict.",
+    "60": "Venli experiences a transformation that changes her understanding of her situation. She begins to see possibilities she hadn't considered before.",
+    "61": "The team attempts to escape Kholinar with vital information about the enemy's plans. They face pursuit by forces both human and otherwise.",
+    "62": "Dalinar must make a choice between his past and his future. His decision will determine whether he can unite the coalition or remain trapped by guilt.",
+    "63": "Kaladin pushes his abilities to their limits in a desperate battle. He discovers new aspects of his powers while facing overwhelming odds.",
+    "64": "Shallan confronts the truth about her past and her multiple identities. She must integrate her different selves or risk losing herself entirely.",
+    "i-4": "An interlude showing how the war is affecting different parts of Roshar. A new character's perspective reveals the scope of the conflict.",
+    "i-5": "Another interlude focusing on the transformed singers and their adaptation to their new existence. The complexity of their situation becomes apparent.",
+    "i-6": "A third interlude exploring the consequences of the Everstorm on society and culture. Traditional structures begin to collapse and reform.",
+    "i-7": "The final interlude of Part 2 shows the growing desperation of human resistance. Hope seems increasingly distant as the Voidbringers consolidate power.",
+    "65": "Dalinar makes a breakthrough in understanding his visions and begins to piece together Honor's final message. He starts to see a path forward.",
+    "66": "Kaladin returns from Kholinar changed by his experiences. He must find new ways to help the coalition while dealing with his own trauma.",
+    "67": "Shallan struggles to maintain her sanity while providing crucial intelligence about Voidbringer capabilities. Her mental state becomes increasingly precarious.",
+    "68": "Adolin deals with the aftermath of the Kholinar mission and his growing disillusionment. He searches for a meaningful role in the changing world.",
+    "69": "Szeth faces a final test that will determine his fitness as a Skybreaker. He must prove his understanding of justice and his commitment to their cause.",
+    "70": "Venli begins to understand the true nature of her transformation and the possibilities it offers. She starts to see a different path forward.",
+    "71": "The coalition prepares for a major battle as Voidbringer forces mass for an assault. Dalinar attempts to inspire unity among the disparate factions.",
+    "72": "Kaladin trains new Knights Radiant while dealing with his own ongoing struggles. He must find ways to pass on hope along with combat skills.",
+    "73": "Shallan's investigation uncovers a conspiracy that threatens the coalition from within. She must navigate political intrigue while maintaining her cover.",
+    "74": "Dalinar experiences his most intense vision yet, seeing the moment of Honor's death and understanding the god's final plan. He realizes what must be done.",
+    "75": "The battle begins as Voidbringer forces attack the coalition stronghold. Multiple fronts open as the enemy reveals the scope of their assault.",
+    "76": "Kaladin leads the aerial defense against Fused attacks. He faces opponents with centuries of experience while protecting ground forces below.",
+    "77": "Shallan uses her abilities to coordinate the defense and provide tactical intelligence. She pushes her powers to new limits while fighting internal battles.",
+    "78": "Adolin leads ground forces against overwhelming odds. He proves his worth through courage and tactical skill rather than supernatural power.",
+    "79": "Szeth arrives at the battlefield and must choose which side to support. His decision will have far-reaching consequences for the conflict.",
+    "80": "Venli finds herself in a position to influence the battle's outcome. She must decide whether to help her former enemies or continue serving the Fused.",
+    "81": "The battle reaches a crucial turning point as ancient powers awaken on the battlefield. Both sides must adapt to threats they never anticipated.",
+    "82": "Dalinar attempts to unite the scattered human forces through a desperate gambit. He risks everything on his understanding of Honor's message.",
+    "83": "Kaladin faces his most dangerous opponent yet in aerial combat. The fight tests not only his skill but his understanding of what it means to protect others.",
+    "84": "Shallan confronts the enemy's supernatural weapons with her own growing abilities. She discovers new applications of her powers under extreme pressure.",
+    "85": "The coalition's situation becomes desperate as enemy reinforcements arrive. Leaders must make impossible choices about who to save and who to sacrifice.",
+    "86": "Adolin makes a desperate charge to buy time for the retreat. His actions inspire others even as the situation seems hopeless.",
+    "87": "Szeth engages with other Radiants and must reconcile his training with the reality of the conflict. He begins to understand the true meaning of his oaths.",
+    "88": "Venli makes a choice that puts her at odds with the Fused. She begins to actively work against her former allies despite the personal cost.",
+    "89": "Ancient forces awaken as the battle reaches its climax. Powers that have slept for millennia begin to stir, changing the nature of the conflict.",
+    "90": "Dalinar makes a desperate attempt to contact Honor directly. He risks his sanity and his soul in an effort to save the coalition.",
+    "91": "The battle's outcome hangs in the balance as all the major players converge on a single point. Personal conflicts merge with the larger war.",
+    "92": "Kaladin must overcome his greatest fear to access his full power. His choice will determine whether he becomes the Radiant he's meant to be.",
+    "93": "Shallan finally integrates her multiple personalities and achieves a new level of power. Her transformation comes at a crucial moment in the battle.",
+    "94": "The climax of the battle arrives as all forces converge. The fate of Roshar hangs in the balance as ancient oaths are tested and renewed.",
+    "i-8": "An interlude showing the impact of the battle on ordinary people. Civilians deal with the aftermath and try to rebuild their lives.",
+    "i-9": "Another interlude focusing on the changed dynamic between humans and singers. Some attempt cooperation while others remain hostile.",
+    "i-10": "The final interlude of Part 3 explores the philosophical implications of the conflict. Characters grapple with questions of identity and belonging.",
+    "95": "In the aftermath of the great battle, survivors begin to assess the cost and plan for the future. The world has changed irrevocably.",
+    "96": "Dalinar begins to understand his role as the vessel for a new kind of Connection. He must learn to bear the weight of unity without losing himself.",
+    "97": "Kaladin works to rebuild Bridge Four and train new Radiants. He finds new purpose in teaching others while healing from his own trauma.",
+    "98": "Shallan explores her newly integrated identity and enhanced abilities. She begins to understand what it truly means to be a Knight Radiant.",
+    "99": "Adolin finds his place in the new world order. Without magical powers, he must discover other ways to contribute to the rebuilding effort.",
+    "100": "Szeth completes his transformation from Truthless to a true Skybreaker. He finds peace in serving justice while maintaining his personal honor.",
+    "101": "Venli begins to understand the possibility of redemption for her people. She works to find a middle path between human and singer interests.",
+    "102": "The coalition begins the difficult work of establishing a new order. Former enemies must learn to coexist or face mutual destruction.",
+    "103": "Dalinar's flashbacks reveal the final details of his past, including his wife's death and his subsequent alcoholism. He achieves full understanding of his journey.",
+    "104": "New threats emerge as the immediate crisis passes. The characters realize their victory was only the beginning of a longer struggle.",
+    "105": "Kaladin takes on greater responsibility as a leader of the Knights Radiant. He must balance his desire to protect with the need to trust others.",
+    "106": "Shallan begins to explore the deeper mysteries of her order and the true nature of her abilities. She uncovers secrets that challenge her understanding.",
+    "107": "The political situation becomes more complex as various factions vie for power in the new order. Diplomacy becomes as important as military might.",
+    "108": "Adolin's relationship with Shallan deepens as they both adapt to their new roles. Personal happiness becomes possible even in a changed world.",
+    "109": "Szeth mentors other would-be Skybreakers and learns the difference between justice and vengeance. His past as Truthless informs his teaching.",
+    "110": "Venli's efforts to bridge the gap between humans and singers face resistance from both sides. She persists despite the personal cost.",
+    "111": "Ancient mysteries begin to surface as the immediate crisis passes. The characters realize they've only scratched the surface of Roshar's secrets.",
+    "112": "Dalinar's role as Bondsmith becomes more defined as he learns to facilitate Connection between different groups. Unity requires constant effort.",
+    "113": "New Knights Radiant emerge with different perspectives and abilities. The orders begin to take shape in ways both familiar and surprising.",
+    "114": "The rebuilding effort faces setbacks as old prejudices and new fears complicate cooperation. Progress is slower than hoped but still meaningful.",
+    "115": "Kaladin faces a new kind of challenge as he deals with success rather than crisis. Learning to live without constant danger proves difficult.",
+    "116": "Shallan's investigations lead her to discover connections between current events and ancient history. The past continues to influence the present.",
+    "117": "The various storylines begin to converge as characters realize their individual journeys are part of a larger pattern. Cooperation becomes essential.",
+    "i-11": "An interlude exploring how the common people are adapting to the new world. Daily life continues even as everything has changed.",
+    "i-12": "Another interlude showing the development of new traditions and customs. Culture evolves to incorporate the reality of Knights Radiant and magical abilities.",
+    "i-13": "The final regular interlude focuses on hope and renewal. Despite the trauma and loss, people find ways to build meaningful lives.",
+    "118": "The characters prepare for whatever challenges lie ahead. They've grown from their experiences and are ready to face the future together.",
+    "119": "Final preparations are made for the next phase of their journey. Personal relationships are strengthened and new alliances are formed.",
+    "120": "The immediate story arcs reach their resolution. Characters find peace with their past while looking forward to new challenges.",
+    "121": "Loose ends are tied up and the stage is set for future conflicts. The characters have evolved but their essential natures remain true.",
+    "122": "The book concludes with a sense of hope tempered by realism. The characters have won a victory but know the struggle continues.",
+    "epilogue": "A final look at the transformed world and the characters' places in it. Seeds are planted for future stories while this chapter closes satisfyingly."
+  }
+}
