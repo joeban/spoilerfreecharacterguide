@@ -637,8 +637,8 @@ None currently - all configured series have complete book coverage!
   - 🟡 Leviathan Falls: 57 characters, all recaps, v2.0
 
 - ✅ **The Kingkiller Chronicle** (2 books)
-  - 🟡 The Name of the Wind: 52 characters, all recaps, v2.0
-  - 🟡 The Wise Man's Fear: 62 characters, all recaps, v2.0
+  - 🟢 The Name of the Wind: 129 characters, all recaps, v2.0
+  - 🟢 The Wise Man's Fear: 100 characters, all recaps, v2.0
 
 ### Not Started (Configured but no data)
 - ❌ **Mistborn/Cosmere** (0 of 7 books - 1 partial file exists)
