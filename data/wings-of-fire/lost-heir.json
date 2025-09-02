@@ -581,6 +581,722 @@
           }
         }
       }
+    },
+    "snail": {
+      "name": "Snail",
+      "aliases": ["SeaWing Guard"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A blue-green SeaWing guard who serves Queen Coral loyally at the Deep Palace. One of many guards protecting the royal family.",
+          "role": "Palace Guard",
+          "relationships": {
+            "Queen Coral": "Queen he protects",
+            "Shark": "Fellow guard"
+          }
+        }
+      }
+    },
+    "flounder": {
+      "name": "Flounder",
+      "aliases": ["Palace Guard"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A SeaWing palace guard who helps maintain security at the Deep Palace. Part of Queen Coral's extensive security force.",
+          "role": "Security Guard",
+          "relationships": {
+            "Queen Coral": "Queen he serves",
+            "Tsunami": "Princess he guards"
+          }
+        }
+      }
+    },
+    "herring": {
+      "name": "Herring",
+      "aliases": ["Royal Guard"],
+      "appearances": [4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A loyal SeaWing guard assigned to protect the royal family. Takes his duties very seriously and follows all protocol.",
+          "role": "Royal Protector",
+          "relationships": {
+            "Anemone": "Princess he guards",
+            "Queen Coral": "Queen he serves"
+          }
+        }
+      }
+    },
+    "barracuda": {
+      "name": "Barracuda",
+      "aliases": ["Council Member"],
+      "appearances": [6, 7, 8, 12, 18, 19],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A SeaWing council member who advises Queen Coral on matters of state. Experienced in palace politics and tribal affairs.",
+          "role": "Royal Advisor",
+          "relationships": {
+            "Queen Coral": "Queen he advises",
+            "Blister": "War ally he supports"
+          }
+        }
+      }
+    },
+    "moray": {
+      "name": "Moray",
+      "aliases": ["Senior Council Member"],
+      "appearances": [6, 7, 8, 18, 19, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An older SeaWing council member with decades of experience. One of Queen Coral's most trusted advisors.",
+          "role": "Senior Advisor",
+          "relationships": {
+            "Queen Coral": "Queen he counsels",
+            "Barracuda": "Fellow council member"
+          }
+        }
+      }
+    },
+    "octopus": {
+      "name": "Octopus",
+      "aliases": ["Kitchen Staff"],
+      "appearances": [4, 5, 8, 9, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A SeaWing who works in the palace kitchens, preparing meals for the royal family and their guests.",
+          "role": "Palace Cook",
+          "relationships": {
+            "Queen Coral": "Queen whose palace he serves"
+          }
+        }
+      }
+    },
+    "sea-lettuce": {
+      "name": "Sea Lettuce",
+      "aliases": ["Palace Servant"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A SeaWing servant who maintains the palace and tends to the needs of the royal family and their guests.",
+          "role": "Palace Staff",
+          "relationships": {
+            "Queen Coral": "Queen she serves",
+            "Tsunami": "Princess she attends"
+          }
+        }
+      }
+    },
+    "kelp": {
+      "name": "Kelp",
+      "aliases": ["Palace Maintenance"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A SeaWing who helps maintain the Deep Palace, keeping the underwater structure in perfect condition.",
+          "role": "Palace Maintenance",
+          "relationships": {
+            "Sea Lettuce": "Fellow palace worker"
+          }
+        }
+      }
+    },
+    "angel-fish": {
+      "name": "Angel Fish",
+      "aliases": ["Nursery Keeper"],
+      "appearances": [5, 8, 9, 14],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A gentle SeaWing who helps care for the royal dragonets in the palace nursery. Patient and protective of young dragons.",
+          "role": "Dragonet Caretaker",
+          "relationships": {
+            "Anemone": "Princess she helps care for",
+            "Queen Coral": "Queen whose dragonets she tends"
+          }
+        }
+      }
+    },
+    "oyster": {
+      "name": "Oyster",
+      "aliases": ["Royal Tutor"],
+      "appearances": [8, 9, 16, 17],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A scholarly SeaWing who teaches the royal dragonets about SeaWing history, Aquatic language, and palace protocol.",
+          "role": "Royal Educator",
+          "relationships": {
+            "Anemone": "Princess student",
+            "Tsunami": "Princess she attempts to tutor"
+          }
+        }
+      }
+    },
+    "sea-urchin": {
+      "name": "Sea Urchin",
+      "aliases": ["Palace Healer"],
+      "appearances": [11, 13, 14, 20],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A SeaWing healer who tends to injuries and illnesses in the palace. Has extensive knowledge of underwater medicine.",
+          "role": "Medical Healer",
+          "relationships": {
+            "Queen Coral": "Queen whose family she tends",
+            "Anemone": "Princess she monitors"
+          }
+        }
+      }
+    },
+    "dolphin": {
+      "name": "Dolphin",
+      "aliases": ["Royal Messenger"],
+      "appearances": [6, 7, 12, 18, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A fast-swimming SeaWing who carries messages for Queen Coral throughout the kingdom and to allied tribes.",
+          "role": "Royal Messenger",
+          "relationships": {
+            "Queen Coral": "Queen whose messages she carries",
+            "Blister": "War ally she communicates with"
+          }
+        }
+      }
+    },
+    "stingray": {
+      "name": "Stingray",
+      "aliases": ["Palace Captain"],
+      "appearances": [7, 8, 9, 18, 22, 24],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A SeaWing captain who commands the palace guards. Experienced military leader responsible for royal family security.",
+          "role": "Guard Captain",
+          "relationships": {
+            "Queen Coral": "Queen he protects",
+            "Shark": "Guard he commands",
+            "Snail": "Guard under his command"
+          }
+        }
+      }
+    },
+    "manta-ray": {
+      "name": "Manta Ray",
+      "aliases": ["Deep Palace Architect"],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A SeaWing who designed and maintains the underwater architecture of the Deep Palace. Expert in underwater construction.",
+          "role": "Palace Architect",
+          "relationships": {
+            "Queen Coral": "Queen whose palace he designed"
+          }
+        }
+      }
+    },
+    "sea-horse": {
+      "name": "Sea Horse",
+      "aliases": ["Royal Announcer"],
+      "appearances": [6, 18, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A SeaWing who makes official announcements for the royal court. Has a strong voice that carries well underwater.",
+          "role": "Court Announcer",
+          "relationships": {
+            "Queen Coral": "Queen whose proclamations he announces"
+          }
+        }
+      }
+    },
+    "electric-eel": {
+      "name": "Electric Eel",
+      "aliases": ["Royal Historian"],
+      "appearances": [8, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A scholarly SeaWing who keeps records of SeaWing history and genealogy. Particularly knowledgeable about the royal bloodline.",
+          "role": "Palace Historian",
+          "relationships": {
+            "Queen Coral": "Queen whose history he records",
+            "Oyster": "Fellow scholar"
+          }
+        }
+      }
+    },
+    "sea-anemone": {
+      "name": "Sea Anemone",
+      "aliases": ["Garden Keeper"],
+      "appearances": [5, 6, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A SeaWing who tends to the underwater gardens around the Deep Palace, maintaining the beautiful sea plants and corals.",
+          "role": "Palace Gardener",
+          "relationships": {
+            "Queen Coral": "Queen whose gardens she maintains"
+          }
+        }
+      }
+    },
+    "tuna": {
+      "name": "Tuna",
+      "aliases": ["Swift Messenger"],
+      "appearances": [12, 18, 19, 22],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A fast SeaWing messenger who carries urgent communications for Queen Coral, especially during times of crisis.",
+          "role": "Emergency Messenger",
+          "relationships": {
+            "Queen Coral": "Queen he serves",
+            "Dolphin": "Fellow messenger"
+          }
+        }
+      }
+    },
+    "sea-snake": {
+      "name": "Sea Snake",
+      "aliases": ["Intelligence Gatherer"],
+      "appearances": [12, 18, 19, 22, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A secretive SeaWing who gathers intelligence for Queen Coral about threats to the kingdom and royal family.",
+          "role": "Spy and Scout",
+          "relationships": {
+            "Queen Coral": "Queen he reports to",
+            "Blister": "Ally he monitors"
+          }
+        }
+      }
+    },
+    "nautilus-guard": {
+      "name": "Nautilus",
+      "aliases": ["Elite Guard"],
+      "appearances": [7, 8, 9, 20, 22],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A highly trained SeaWing guard who protects the most important members of the royal family. Elite warrior with years of experience.",
+          "role": "Elite Royal Guard",
+          "relationships": {
+            "Queen Coral": "Queen he protects with his life",
+            "Stingray": "Captain he reports to"
+          }
+        }
+      }
+    },
+    "coral-assistant": {
+      "name": "Coral",
+      "aliases": ["Queen's Assistant"],
+      "appearances": [6, 7, 8, 18, 19],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A SeaWing who assists Queen Coral with daily administrative duties and royal correspondence. Highly trusted by the queen.",
+          "role": "Royal Assistant",
+          "relationships": {
+            "Queen Coral": "Queen she assists directly",
+            "Barracuda": "Council member she coordinates with"
+          }
+        }
+      }
+    },
+    "mackerel": {
+      "name": "Mackerel",
+      "aliases": ["Palace Scout"],
+      "appearances": [12, 13, 14, 20],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A SeaWing scout who patrols the waters around the Deep Palace, watching for threats and reporting suspicious activity.",
+          "role": "Palace Scout",
+          "relationships": {
+            "Stingray": "Captain he reports to",
+            "Sea Snake": "Fellow intelligence gatherer"
+          }
+        }
+      }
+    },
+    "pufferfish": {
+      "name": "Pufferfish",
+      "aliases": ["Royal Chef"],
+      "appearances": [4, 8, 9, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A SeaWing chef who prepares special meals for the royal family. Expert at preparing both sea creatures and land food for guests.",
+          "role": "Head Chef",
+          "relationships": {
+            "Queen Coral": "Queen whose meals he prepares",
+            "Octopus": "Fellow kitchen worker"
+          }
+        }
+      }
+    },
+    "sea-turtle": {
+      "name": "Sea Turtle",
+      "aliases": ["Palace Elder"],
+      "appearances": [8, 16, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An elderly SeaWing who has served the royal family for decades. Repository of palace traditions and royal protocol.",
+          "role": "Palace Elder",
+          "relationships": {
+            "Queen Coral": "Queen he has served for years",
+            "Electric Eel": "Fellow keeper of history"
+          }
+        }
+      }
+    },
+    "swordfish": {
+      "name": "Swordfish",
+      "aliases": ["Royal Weapons Master"],
+      "appearances": [9, 18, 22, 24],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A SeaWing warrior who trains the palace guards in combat and maintains the royal armory. Expert in underwater warfare.",
+          "role": "Weapons Trainer",
+          "relationships": {
+            "Stingray": "Guard captain he works with",
+            "Shark": "Guard he trains"
+          }
+        }
+      }
+    },
+    "sea-cucumber": {
+      "name": "Sea Cucumber",
+      "aliases": ["Palace Cleaner"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A humble SeaWing who keeps the Deep Palace clean and well-maintained. Works quietly to ensure royal comfort.",
+          "role": "Palace Maintenance",
+          "relationships": {
+            "Sea Lettuce": "Fellow palace worker",
+            "Kelp": "Fellow maintenance worker"
+          }
+        }
+      }
+    },
+    "crab": {
+      "name": "Crab",
+      "aliases": ["Palace Porter"],
+      "appearances": [4, 5, 6, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A sturdy SeaWing who carries supplies and messages throughout the palace. Reliable and hardworking staff member.",
+          "role": "Palace Porter",
+          "relationships": {
+            "Sea Cucumber": "Fellow worker",
+            "Pufferfish": "Chef he delivers supplies to"
+          }
+        }
+      }
+    },
+    "jellyfish": {
+      "name": "Jellyfish",
+      "aliases": ["Night Guard"],
+      "appearances": [11, 13, 14, 20],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A SeaWing guard who works the night shift, protecting the palace while the royal family sleeps. Vigilant and alert.",
+          "role": "Night Security",
+          "relationships": {
+            "Stingray": "Captain he reports to",
+            "Mackerel": "Scout he coordinates with"
+          }
+        }
+      }
+    },
+    "lobster": {
+      "name": "Lobster",
+      "aliases": ["Armory Keeper"],
+      "appearances": [9, 18, 22],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A SeaWing responsible for maintaining the palace armory and weapon supplies. Ensures all guards have proper equipment.",
+          "role": "Armory Keeper",
+          "relationships": {
+            "Swordfish": "Weapons master he works with",
+            "Stingray": "Captain he equips"
+          }
+        }
+      }
+    },
+    "starfish": {
+      "name": "Starfish",
+      "aliases": ["Royal Seamstress"],
+      "appearances": [5, 8, 16],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A skilled SeaWing who creates and maintains royal garments and ceremonial items. Expert in underwater textiles.",
+          "role": "Royal Seamstress",
+          "relationships": {
+            "Queen Coral": "Queen whose garments she creates",
+            "Tsunami": "Princess she fits clothing for"
+          }
+        }
+      }
+    },
+    "sea-otter": {
+      "name": "Sea Otter",
+      "aliases": ["Royal Jeweler"],
+      "appearances": [5, 8, 16, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A SeaWing artisan who creates jewelry and decorative items for the royal family. Skilled in working with pearls and precious stones.",
+          "role": "Royal Jeweler",
+          "relationships": {
+            "Queen Coral": "Queen whose jewelry he creates",
+            "Anemone": "Princess he makes ornaments for"
+          }
+        }
+      }
+    },
+    "hammerhead": {
+      "name": "Hammerhead",
+      "aliases": ["Border Patrol"],
+      "appearances": [2, 18, 22, 24],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A SeaWing warrior who patrols the borders of the Sea Kingdom, watching for enemies and protecting territorial waters.",
+          "role": "Border Guard",
+          "relationships": {
+            "Queen Coral": "Queen whose territory he protects",
+            "Stingray": "Palace captain he coordinates with"
+          }
+        }
+      }
+    },
+    "minnow": {
+      "name": "Minnow",
+      "aliases": ["Young Guard"],
+      "appearances": [7, 8, 9, 18],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young SeaWing guard newly assigned to palace duty. Eager to prove himself and protect the royal family.",
+          "role": "Junior Guard",
+          "relationships": {
+            "Stingray": "Captain he looks up to",
+            "Shark": "Experienced guard who mentors him"
+          }
+        }
+      }
+    },
+    "grouper": {
+      "name": "Grouper",
+      "aliases": ["Palace Treasurer"],
+      "appearances": [8, 18, 19],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A SeaWing who manages the royal treasury and keeps track of the kingdom's wealth and resources.",
+          "role": "Royal Treasurer",
+          "relationships": {
+            "Queen Coral": "Queen whose treasury he manages",
+            "Moray": "Council member he reports to"
+          }
+        }
+      }
+    },
+    "sea-dragon": {
+      "name": "Sea Dragon",
+      "aliases": ["Military Advisor"],
+      "appearances": [18, 19, 22, 24],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "An experienced SeaWing military advisor who counsels Queen Coral on war strategy and alliance matters.",
+          "role": "Military Strategist",
+          "relationships": {
+            "Queen Coral": "Queen he advises on military matters",
+            "Blister": "War ally he strategizes with"
+          }
+        }
+      }
+    },
+    "anchovy": {
+      "name": "Anchovy",
+      "aliases": ["Record Keeper"],
+      "appearances": [6, 8, 16, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A meticulous SeaWing who keeps detailed records of palace activities, royal decrees, and important events.",
+          "role": "Palace Record Keeper",
+          "relationships": {
+            "Electric Eel": "Historian he works with",
+            "Queen Coral": "Queen whose activities he records"
+          }
+        }
+      }
+    },
+    "sea-bass": {
+      "name": "Sea Bass",
+      "aliases": ["Summer Palace Guard"],
+      "appearances": [10, 11, 13, 14, 15],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A SeaWing guard stationed at the Summer Palace. Protects the royal family during their visits to the surface palace.",
+          "role": "Surface Palace Guard",
+          "relationships": {
+            "Queen Coral": "Queen he protects at Summer Palace",
+            "Stingray": "Captain he reports to"
+          }
+        }
+      }
+    },
+    "clownfish": {
+      "name": "Clownfish",
+      "aliases": ["Royal Entertainer"],
+      "appearances": [5, 8, 16],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A cheerful SeaWing who provides entertainment for the royal court with stories, songs, and performances.",
+          "role": "Court Entertainer",
+          "relationships": {
+            "Queen Coral": "Queen who enjoys his performances",
+            "Anemone": "Princess he entertains"
+          }
+        }
+      }
+    },
+    "mantis-shrimp": {
+      "name": "Mantis Shrimp",
+      "aliases": ["Palace Spy"],
+      "appearances": [12, 18, 19, 22, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A secretive SeaWing who gathers information about potential threats to the kingdom and royal family.",
+          "role": "Intelligence Agent",
+          "relationships": {
+            "Queen Coral": "Queen he spies for",
+            "Sea Snake": "Fellow intelligence gatherer"
+          }
+        }
+      }
+    },
+    "conch": {
+      "name": "Conch",
+      "aliases": ["Royal Herald"],
+      "appearances": [6, 18, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A SeaWing who announces important visitors and royal proclamations throughout the palace and kingdom.",
+          "role": "Royal Herald",
+          "relationships": {
+            "Sea Horse": "Fellow announcer",
+            "Queen Coral": "Queen whose proclamations he heralds"
+          }
+        }
+      }
+    },
+    "sea-foam": {
+      "name": "Sea Foam",
+      "aliases": ["Royal Masseuse"],
+      "appearances": [5, 8, 16],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A gentle SeaWing who provides relaxation services to the royal family, helping them manage the stress of ruling.",
+          "role": "Royal Wellness Provider",
+          "relationships": {
+            "Queen Coral": "Queen she helps relax",
+            "Sea Urchin": "Palace healer she works with"
+          }
+        }
+      }
+    },
+    "electric-ray": {
+      "name": "Electric Ray",
+      "aliases": ["Palace Engineer"],
+      "appearances": [5, 9, 14],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A clever SeaWing who maintains and improves the mechanical systems of the Deep Palace, including lighting and water flow.",
+          "role": "Palace Engineer",
+          "relationships": {
+            "Manta Ray": "Architect he works with",
+            "Queen Coral": "Queen whose palace he maintains"
+          }
+        }
+      }
+    },
+    "sea-weed": {
+      "name": "Sea Weed",
+      "aliases": ["Herb Keeper"],
+      "appearances": [11, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A knowledgeable SeaWing who tends to the palace herb gardens and provides medicinal plants to the healer.",
+          "role": "Herbalist",
+          "relationships": {
+            "Sea Urchin": "Palace healer she supplies",
+            "Sea Anemone": "Garden keeper she works with"
+          }
+        }
+      }
+    },
+    "sea-fan": {
+      "name": "Sea Fan",
+      "aliases": ["Art Keeper"],
+      "appearances": [5, 8, 16, 20],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A cultured SeaWing who curates and maintains the royal art collection, including the statue of Princess Orca.",
+          "role": "Palace Art Curator",
+          "relationships": {
+            "Queen Coral": "Queen whose art collection she manages",
+            "Princess Orca": "Deceased princess whose statue she tends"
+          }
+        }
+      }
+    },
+    "sea-lily": {
+      "name": "Sea Lily",
+      "aliases": ["Royal Florist"],
+      "appearances": [5, 16, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A SeaWing who arranges beautiful underwater flowers and decorations for royal ceremonies and special occasions.",
+          "role": "Palace Florist",
+          "relationships": {
+            "Sea Anemone": "Garden keeper she gets flowers from",
+            "Queen Coral": "Queen whose events she decorates"
+          }
+        }
+      }
     }
   },
   "recaps": {

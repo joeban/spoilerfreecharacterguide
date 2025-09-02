@@ -578,6 +578,743 @@
           }
         }
       }
+    },
+    "bromeliad": {
+      "name": "Bromeliad",
+      "aliases": ["RainWing Villager"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A pink-and-orange RainWing who lives in the village. Spends most days sunbathing and enjoying the peaceful life of the rainforest.",
+          "role": "Village Resident",
+          "relationships": {
+            "Glory": "Fellow RainWing who returns home",
+            "Grandeur": "Village elder she respects"
+          }
+        }
+      }
+    },
+    "tamarin": {
+      "name": "Tamarin",
+      "aliases": ["Young RainWing"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young RainWing with bright green scales. Curious about Glory and the outside world, less content than older dragons with endless sunbathing.",
+          "role": "Curious Youth",
+          "relationships": {
+            "Glory": "RainWing hero she admires",
+            "Bromeliad": "Village resident she knows"
+          }
+        }
+      }
+    },
+    "coconut": {
+      "name": "Coconut",
+      "aliases": ["RainWing Fruit Gatherer"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A brown-scaled RainWing who is responsible for gathering fruit from the canopy. One of the few RainWings with regular duties.",
+          "role": "Fruit Collector",
+          "relationships": {
+            "Liana": "Fellow fruit gatherer",
+            "Tamarin": "Young dragon she teaches"
+          }
+        }
+      }
+    },
+    "liana": {
+      "name": "Liana",
+      "aliases": ["RainWing Healer"],
+      "appearances": [4, 5, 9, 18, 22],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A gentle green RainWing with healing knowledge. One of the few RainWings who actively helps others instead of just sunbathing.",
+          "role": "Village Healer",
+          "relationships": {
+            "Glory": "Queen she serves",
+            "Coconut": "Fellow active villager"
+          }
+        }
+      }
+    },
+    "orchid": {
+      "name": "Orchid",
+      "aliases": ["RainWing Elder"],
+      "appearances": [5, 6, 7, 12, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An older RainWing with purple and white scales. More traditional in her views and skeptical of changes to RainWing peaceful lifestyle.",
+          "role": "Village Elder",
+          "relationships": {
+            "Grandeur": "Fellow elder",
+            "Glory": "New queen she's uncertain about"
+          }
+        }
+      }
+    },
+    "hibiscus": {
+      "name": "Hibiscus",
+      "aliases": ["RainWing Artist"],
+      "appearances": [3, 4, 5, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A creative RainWing who decorates the village with beautiful flower arrangements and natural art. Takes pride in making the village beautiful.",
+          "role": "Village Artist",
+          "relationships": {
+            "Bromeliad": "Fellow villager",
+            "Glory": "Queen whose village she beautifies"
+          }
+        }
+      }
+    },
+    "passion-fruit": {
+      "name": "Passion Fruit",
+      "aliases": ["RainWing Keeper"],
+      "appearances": [6, 7, 12, 18, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A RainWing who keeps track of village supplies and organizes community activities. More organized than most RainWings.",
+          "role": "Village Organizer",
+          "relationships": {
+            "Glory": "Queen she helps organize for",
+            "Liana": "Healer she coordinates with"
+          }
+        }
+      }
+    },
+    "papaya": {
+      "name": "Papaya",
+      "aliases": ["RainWing Storyteller"],
+      "appearances": [4, 5, 8, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An orange-scaled RainWing who tells stories to young dragonets and keeps oral traditions alive in the village.",
+          "role": "Village Storyteller",
+          "relationships": {
+            "Tamarin": "Young dragon she tells stories to",
+            "Glory": "Queen whose adventures she recounts"
+          }
+        }
+      }
+    },
+    "mango": {
+      "name": "Mango",
+      "aliases": ["RainWing Scout"],
+      "appearances": [8, 9, 12, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A yellow RainWing who is recruited by Glory to help scout for missing RainWings and guard against threats.",
+          "role": "Village Scout",
+          "relationships": {
+            "Glory": "Queen who gave him purpose",
+            "Jambu": "Fellow scout"
+          }
+        }
+      }
+    },
+    "vine": {
+      "name": "Vine",
+      "aliases": ["RainWing Guard"],
+      "appearances": [12, 18, 22, 24, 25],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A green RainWing who becomes one of Glory's guards. Learns to be more alert and active under Glory's leadership.",
+          "role": "Royal Guard",
+          "relationships": {
+            "Glory": "Queen he protects",
+            "Mango": "Fellow guard"
+          }
+        }
+      }
+    },
+    "banyan": {
+      "name": "Banyan",
+      "aliases": ["RainWing Teacher"],
+      "appearances": [5, 8, 12, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A wise RainWing who teaches young dragonets about the rainforest and RainWing abilities like camouflage and venom.",
+          "role": "Dragonet Teacher",
+          "relationships": {
+            "Tamarin": "Student she teaches",
+            "Glory": "Queen she supports"
+          }
+        }
+      }
+    },
+    "fig": {
+      "name": "Fig",
+      "aliases": ["RainWing Lazy One"],
+      "appearances": [3, 4, 5, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sleepy RainWing who embodies the tribe's relaxed lifestyle. Spends all day sunbathing and shows little interest in Glory's changes.",
+          "role": "Traditional Sunbather",
+          "relationships": {
+            "Bromeliad": "Fellow sunbather",
+            "Glory": "Queen whose energy confuses him"
+          }
+        }
+      }
+    },
+    "kiwi": {
+      "name": "Kiwi",
+      "aliases": ["RainWing Messenger"],
+      "appearances": [8, 12, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A fast-flying RainWing who becomes one of Glory's messengers, carrying news between RainWing groups.",
+          "role": "Message Carrier",
+          "relationships": {
+            "Glory": "Queen whose messages he carries",
+            "Jambu": "Fellow active RainWing"
+          }
+        }
+      }
+    },
+    "breadfruit": {
+      "name": "Breadfruit",
+      "aliases": ["RainWing Cook"],
+      "appearances": [4, 5, 8, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A RainWing who prepares food for village gatherings. Skilled at finding and preparing the best fruits and plants.",
+          "role": "Village Cook",
+          "relationships": {
+            "Coconut": "Fruit gatherer she works with",
+            "Glory": "Queen she cooks for"
+          }
+        }
+      }
+    },
+    "starfruit": {
+      "name": "Starfruit",
+      "aliases": ["RainWing Sunbather"],
+      "appearances": [3, 4, 7, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A typical RainWing who loves sunbathing and sleeping. Represents the traditional RainWing way of life.",
+          "role": "Peaceful Resident",
+          "relationships": {
+            "Fig": "Fellow sunbather",
+            "Bromeliad": "Village friend"
+          }
+        }
+      }
+    },
+    "dragon-fruit": {
+      "name": "Dragon Fruit",
+      "aliases": ["RainWing Decorator"],
+      "appearances": [5, 8, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A RainWing who helps decorate the village for special occasions. Works with natural materials to create beautiful displays.",
+          "role": "Festival Decorator",
+          "relationships": {
+            "Hibiscus": "Fellow artist",
+            "Glory": "Queen whose festivals she decorates"
+          }
+        }
+      }
+    },
+    "durian": {
+      "name": "Durian",
+      "aliases": ["RainWing Grump"],
+      "appearances": [6, 8, 12, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A grumpy RainWing who complains about Glory's changes to village life. Prefers the old ways of endless relaxation.",
+          "role": "Village Complainer",
+          "relationships": {
+            "Glory": "Queen he grumbles about",
+            "Orchid": "Elder who shares his concerns"
+          }
+        }
+      }
+    },
+    "guava": {
+      "name": "Guava",
+      "aliases": ["Young RainWing"],
+      "appearances": [4, 8, 12, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young RainWing dragonet who is fascinated by Glory's stories of the outside world. More adventurous than most RainWings.",
+          "role": "Curious Dragonet",
+          "relationships": {
+            "Tamarin": "Fellow young dragon",
+            "Banyan": "Teacher who educates her"
+          }
+        }
+      }
+    },
+    "custard-apple": {
+      "name": "Custard Apple",
+      "aliases": ["RainWing Sleepyhead"],
+      "appearances": [3, 5, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An extremely sleepy RainWing who naps most of the day. Even more lazy than typical RainWings.",
+          "role": "Village Sleeper",
+          "relationships": {
+            "Fig": "Fellow lazy dragon",
+            "Starfruit": "Sunbathing companion"
+          }
+        }
+      }
+    },
+    "melon": {
+      "name": "Melon",
+      "aliases": ["RainWing Helper"],
+      "appearances": [8, 12, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A helpful RainWing who assists Glory with organizing the search for missing dragons. One of the more active villagers.",
+          "role": "Queen's Assistant",
+          "relationships": {
+            "Glory": "Queen she helps",
+            "Passion Fruit": "Fellow organizer"
+          }
+        }
+      }
+    },
+    "jackfruit": {
+      "name": "Jackfruit",
+      "aliases": ["RainWing Builder"],
+      "appearances": [5, 8, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A RainWing who builds and maintains tree platforms and village structures. More industrious than most of his tribe.",
+          "role": "Village Builder",
+          "relationships": {
+            "Glory": "Queen whose village he improves",
+            "Liana": "Dragon whose healing hut he maintains"
+          }
+        }
+      }
+    },
+    "rambutan": {
+      "name": "Rambutan",
+      "aliases": ["RainWing Watcher"],
+      "appearances": [8, 12, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A observant RainWing who becomes one of Glory's lookouts, watching for NightWings and other threats.",
+          "role": "Village Lookout",
+          "relationships": {
+            "Glory": "Queen who gave him purpose",
+            "Vine": "Fellow guard"
+          }
+        }
+      }
+    },
+    "longan": {
+      "name": "Longan",
+      "aliases": ["RainWing Elder"],
+      "appearances": [6, 12, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An elderly RainWing with pale scales who remembers older times. Provides wisdom about RainWing history.",
+          "role": "Tribal Elder",
+          "relationships": {
+            "Grandeur": "Fellow elder",
+            "Orchid": "Younger elder"
+          }
+        }
+      }
+    },
+    "lychee": {
+      "name": "Lychee",
+      "aliases": ["RainWing Gatherer"],
+      "appearances": [4, 8, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A RainWing who gathers medicinal plants and herbs for the village healer. Knowledgeable about forest plants.",
+          "role": "Plant Gatherer",
+          "relationships": {
+            "Liana": "Healer she supplies",
+            "Coconut": "Fellow gatherer"
+          }
+        }
+      }
+    },
+    "nightshade": {
+      "name": "Nightshade",
+      "aliases": ["NightWing Soldier"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A black NightWing soldier who patrols the volcanic island. Part of the force that captures and experiments on RainWings.",
+          "role": "Island Guard",
+          "relationships": {
+            "Battlewinner": "Queen he serves",
+            "Strongwings": "Fellow soldier"
+          }
+        }
+      }
+    },
+    "strongwings": {
+      "name": "Strongwings",
+      "aliases": ["NightWing Guard"],
+      "appearances": [13, 14, 15, 16, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A powerful NightWing guard who helps capture RainWings for the experiments. Loyal to the NightWing cause.",
+          "role": "Capture Specialist",
+          "relationships": {
+            "Nightshade": "Fellow guard",
+            "Mastermind": "Scientist he brings subjects to"
+          }
+        }
+      }
+    },
+    "mindreader": {
+      "name": "Mindreader",
+      "aliases": ["NightWing Spy"],
+      "appearances": [14, 15, 16, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A NightWing with mind-reading abilities who gathers intelligence for Queen Battlewinner. Uses her powers to spy on enemies.",
+          "role": "Intelligence Gatherer",
+          "relationships": {
+            "Battlewinner": "Queen she serves with her mind powers",
+            "Morrowseer": "Fellow powerful NightWing"
+          }
+        }
+      }
+    },
+    "vengeance": {
+      "name": "Vengeance",
+      "aliases": ["NightWing Warrior"],
+      "appearances": [13, 14, 19, 20, 23, 24],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A fierce NightWing warrior who leads raids against other tribes. Driven by anger about the NightWings' situation.",
+          "role": "Raid Leader",
+          "relationships": {
+            "Battlewinner": "Queen he fights for",
+            "Strongwings": "Warrior he leads into battle"
+          }
+        }
+      }
+    },
+    "secretkeeper": {
+      "name": "Secretkeeper",
+      "aliases": ["NightWing Information Keeper"],
+      "appearances": [14, 15, 16, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A NightWing who keeps track of tribal secrets and sensitive information. Trusted with the tribe's most important knowledge.",
+          "role": "Information Keeper",
+          "relationships": {
+            "Battlewinner": "Queen whose secrets she keeps",
+            "Mindreader": "Spy who reports to her"
+          }
+        }
+      }
+    },
+    "wisdom": {
+      "name": "Wisdom",
+      "aliases": ["NightWing Elder"],
+      "appearances": [15, 16, 20, 23],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "An elderly NightWing who advises the queen and council. One of the few who remembers better times for the tribe.",
+          "role": "Tribal Elder",
+          "relationships": {
+            "Battlewinner": "Queen he advises",
+            "Morrowseer": "Younger dragon he mentored"
+          }
+        }
+      }
+    },
+    "truthfinder": {
+      "name": "Truthfinder",
+      "aliases": ["NightWing Interrogator"],
+      "appearances": [14, 15, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A NightWing who uses her abilities to extract information from prisoners and captives. Skilled at reading minds and detecting lies.",
+          "role": "Interrogation Specialist",
+          "relationships": {
+            "Mastermind": "Scientist she works with",
+            "Mindreader": "Fellow mind-reader"
+          }
+        }
+      }
+    },
+    "eclipse": {
+      "name": "Eclipse",
+      "aliases": ["NightWing Scientist"],
+      "appearances": [15, 16, 19, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A NightWing scientist who assists Mastermind with experiments on captured RainWings. Studies RainWing abilities.",
+          "role": "Research Assistant",
+          "relationships": {
+            "Mastermind": "Lead scientist she assists",
+            "Glory": "RainWing subject she studies"
+          }
+        }
+      }
+    },
+    "shadowhunter": {
+      "name": "Shadowhunter",
+      "aliases": ["NightWing Tracker"],
+      "appearances": [13, 14, 19, 20, 24],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A skilled NightWing tracker who hunts down escaped prisoners and tracks enemy movements. Expert at stealth.",
+          "role": "Master Tracker",
+          "relationships": {
+            "Vengeance": "Warrior he scouts for",
+            "Strongwings": "Guard he coordinates with"
+          }
+        }
+      }
+    },
+    "deathbringer-assistant": {
+      "name": "Venom",
+      "aliases": ["NightWing Assassin"],
+      "appearances": [19, 20, 23, 24],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A deadly NightWing assassin who works alongside Deathbringer on dangerous missions. Expert in poison and stealth kills.",
+          "role": "Poison Specialist",
+          "relationships": {
+            "Deathbringer": "Fellow assassin",
+            "Battlewinner": "Queen who sends them on missions"
+          }
+        }
+      }
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "aliases": ["NightWing Guard Captain"],
+      "appearances": [13, 14, 15, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A NightWing captain who commands the island guards. Responsible for security on the volcanic island.",
+          "role": "Security Captain",
+          "relationships": {
+            "Battlewinner": "Queen he protects",
+            "Nightshade": "Guard under his command",
+            "Strongwings": "Soldier he commands"
+          }
+        }
+      }
+    },
+    "gloom": {
+      "name": "Gloom",
+      "aliases": ["NightWing Pessimist"],
+      "appearances": [14, 15, 16, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A gloomy NightWing who believes the tribe is doomed. Spreads despair and negativity throughout the island.",
+          "role": "Tribal Pessimist",
+          "relationships": {
+            "Wisdom": "Elder he depresses",
+            "Secretkeeper": "Dragon who tries to keep his complaints quiet"
+          }
+        }
+      }
+    },
+    "midnight": {
+      "name": "Midnight",
+      "aliases": ["NightWing Night Patrol"],
+      "appearances": [13, 14, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A NightWing who patrols the island at night, watching for threats and escape attempts. Works the dark hours.",
+          "role": "Night Guard",
+          "relationships": {
+            "Obsidian": "Captain he reports to",
+            "Shadowhunter": "Fellow night worker"
+          }
+        }
+      }
+    },
+    "nightmare": {
+      "name": "Nightmare",
+      "aliases": ["NightWing Torturer"],
+      "appearances": [15, 19, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A cruel NightWing who tortures prisoners and captives to break their spirits. Takes pleasure in causing suffering.",
+          "role": "Prison Torturer",
+          "relationships": {
+            "Truthfinder": "Interrogator he works with",
+            "Mastermind": "Scientist who requests broken subjects"
+          }
+        }
+      }
+    },
+    "smokeseer": {
+      "name": "Smokeseer",
+      "aliases": ["NightWing Prophet"],
+      "appearances": [15, 16, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A NightWing who claims to have prophetic visions but actually just makes educated guesses. Pretends to have powers he lacks.",
+          "role": "False Prophet",
+          "relationships": {
+            "Morrowseer": "Real prophet he envies",
+            "Wisdom": "Elder who sees through his lies"
+          }
+        }
+      }
+    },
+    "starflight-teacher": {
+      "name": "Clearsight",
+      "aliases": ["NightWing Teacher"],
+      "appearances": [16, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A NightWing teacher who educated young dragons about NightWing history and traditions. More reasonable than most.",
+          "role": "Dragonet Educator",
+          "relationships": {
+            "Starflight": "Student she once taught",
+            "Wisdom": "Elder she learns from"
+          }
+        }
+      }
+    },
+    "darkstalker": {
+      "name": "Darkstalker",
+      "aliases": ["Ancient NightWing"],
+      "appearances": [20, 23],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "An ancient NightWing animus mentioned in tribal legends. His story serves as a warning about the dangers of animus magic.",
+          "role": "Legendary Figure",
+          "relationships": {
+            "Battlewinner": "Queen who fears his return",
+            "Wisdom": "Elder who knows his story"
+          }
+        }
+      }
+    },
+    "moonwatcher-parent": {
+      "name": "Secretkeeper",
+      "aliases": ["Moon's Mother"],
+      "appearances": [20, 24],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A NightWing who will become important in the future. Currently works as an information keeper for the tribe.",
+          "role": "Future Mother",
+          "relationships": {
+            "Morrowseer": "Prophet she works with",
+            "Battlewinner": "Queen she serves"
+          }
+        }
+      }
+    },
+    "inkwell": {
+      "name": "Inkwell",
+      "aliases": ["NightWing Scribe"],
+      "appearances": [14, 15, 16, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A NightWing who keeps written records of tribal activities and experiments. Meticulous record keeper.",
+          "role": "Tribal Scribe",
+          "relationships": {
+            "Mastermind": "Scientist whose work he records",
+            "Secretkeeper": "Information keeper he works with"
+          }
+        }
+      }
+    },
+    "blackout": {
+      "name": "Blackout",
+      "aliases": ["NightWing Messenger"],
+      "appearances": [13, 14, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A fast-flying NightWing who carries messages between the island and NightWing agents in other kingdoms.",
+          "role": "Long-distance Messenger",
+          "relationships": {
+            "Morrowseer": "Prophet whose messages he carries",
+            "Battlewinner": "Queen he reports to"
+          }
+        }
+      }
+    },
+    "despair": {
+      "name": "Despair",
+      "aliases": ["NightWing Defeatist"],
+      "appearances": [15, 16, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A hopeless NightWing who has given up on the tribe's survival. Believes they are all doomed to die on the volcano.",
+          "role": "Hopeless Dragon",
+          "relationships": {
+            "Gloom": "Fellow pessimist",
+            "Battlewinner": "Queen he has no faith in"
+          }
+        }
+      }
+    },
+    "volcano": {
+      "name": "Volcano",
+      "aliases": ["NightWing Geologist"],
+      "appearances": [15, 16, 20, 24],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A NightWing who studies the volcano and predicts its eruptions. Provides warnings about geological dangers.",
+          "role": "Volcano Expert",
+          "relationships": {
+            "Battlewinner": "Queen he warns about eruptions",
+            "Mastermind": "Scientist who uses his data"
+          }
+        }
+      }
     }
   },
   "recaps": {

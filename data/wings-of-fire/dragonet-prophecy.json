@@ -780,6 +780,632 @@
           }
         }
       }
+    },
+    "viper": {
+      "name": "Viper",
+      "aliases": ["SandWing Fighter"],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A SandWing prisoner forced to fight in Queen Scarlet's arena. Dies in one of the brutal matches while the dragonets watch.",
+          "role": "Arena Victim",
+          "relationships": {
+            "Queen Scarlet": "Captor who forces him to fight",
+            "Clay": "MudWing who witnesses his death"
+          }
+        }
+      }
+    },
+    "crane-the-guard": {
+      "name": "Crane",
+      "aliases": ["SkyWing Guard"],
+      "appearances": [10, 11, 12, 19, 22],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A SkyWing guard who serves in Queen Scarlet's palace. Helps maintain security and watches over prisoners.",
+          "role": "Palace Guard",
+          "relationships": {
+            "Queen Scarlet": "Queen he serves",
+            "Vermilion": "Superior officer"
+          }
+        }
+      }
+    },
+    "eagle": {
+      "name": "Eagle",
+      "aliases": ["SkyWing Soldier"],
+      "appearances": [9, 10, 11, 19],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A SkyWing soldier who participates in capturing the escaped dragonets. Serves Queen Scarlet with unwavering loyalty.",
+          "role": "Patrol Soldier",
+          "relationships": {
+            "Queen Scarlet": "Queen he serves loyally",
+            "Glory": "Dragonet he helped capture"
+          }
+        }
+      }
+    },
+    "falcon": {
+      "name": "Falcon",
+      "aliases": ["SkyWing Patrol"],
+      "appearances": [9, 19, 22],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A SkyWing patrol dragon who helps track down the escaped dragonets. Known for his sharp eyesight and flying skills.",
+          "role": "Scout and Tracker",
+          "relationships": {
+            "Queen Scarlet": "Queen whose territory he patrols",
+            "Starflight": "Dragonet he helped track down"
+          }
+        }
+      }
+    },
+    "kite": {
+      "name": "Kite",
+      "aliases": ["SkyWing Messenger"],
+      "appearances": [10, 11, 19],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A swift SkyWing who serves as a messenger for Queen Scarlet, carrying orders throughout the Sky Kingdom.",
+          "role": "Royal Messenger",
+          "relationships": {
+            "Queen Scarlet": "Queen whose messages he carries",
+            "Osprey": "Prince he delivers messages to"
+          }
+        }
+      }
+    },
+    "swift": {
+      "name": "Swift",
+      "aliases": ["Arena Keeper"],
+      "appearances": [12, 14, 15, 16, 17],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A SkyWing who helps manage Queen Scarlet's arena, overseeing prisoner movements and fight preparations.",
+          "role": "Arena Administrator",
+          "relationships": {
+            "Queen Scarlet": "Queen whose arena he manages",
+            "Peril": "Champion fighter he oversees"
+          }
+        }
+      }
+    },
+    "ruby": {
+      "name": "Ruby",
+      "aliases": ["SkyWing Noble"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A noble SkyWing who attends Queen Scarlet's court. Part of the audience that watches the arena matches.",
+          "role": "Court Noble",
+          "relationships": {
+            "Queen Scarlet": "Queen she serves at court",
+            "Osprey": "Prince she attends to"
+          }
+        }
+      }
+    },
+    "cardinal": {
+      "name": "Cardinal",
+      "aliases": ["Palace Cook"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A SkyWing who works in Queen Scarlet's palace kitchens, preparing meals for the queen and her court.",
+          "role": "Palace Staff",
+          "relationships": {
+            "Queen Scarlet": "Queen whose palace he serves"
+          }
+        }
+      }
+    },
+    "robin": {
+      "name": "Robin",
+      "aliases": ["Palace Servant"],
+      "appearances": [11, 12, 19],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A small SkyWing servant who works in Queen Scarlet's palace, cleaning and maintaining the royal quarters.",
+          "role": "Palace Servant",
+          "relationships": {
+            "Queen Scarlet": "Queen whose palace she serves"
+          }
+        }
+      }
+    },
+    "jay": {
+      "name": "Jay",
+      "aliases": ["Wingery Keeper"],
+      "appearances": [12, 20],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A SkyWing who tends to the dragonets in Queen Scarlet's wingery, caring for young SkyWings until they're old enough to serve.",
+          "role": "Dragonet Caretaker",
+          "relationships": {
+            "Queen Scarlet": "Queen whose dragonets he tends"
+          }
+        }
+      }
+    },
+    "garnet": {
+      "name": "Garnet",
+      "aliases": ["Arena Fighter"],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A powerful SkyWing forced to fight in Queen Scarlet's arena. One of the few prisoners who has survived multiple matches.",
+          "role": "Experienced Arena Fighter",
+          "relationships": {
+            "Clay": "Fellow arena fighter",
+            "Queen Scarlet": "Queen who forces him to fight"
+          }
+        }
+      }
+    },
+    "amber": {
+      "name": "Amber",
+      "aliases": ["IceWing Prisoner"],
+      "appearances": [14, 15, 16, 17, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "An IceWing prisoner held in Queen Scarlet's dungeons. Maintains her dignity despite the harsh conditions of captivity.",
+          "role": "Prisoner of War",
+          "relationships": {
+            "Fjord": "Fellow IceWing prisoner",
+            "Queen Scarlet": "Captor"
+          }
+        }
+      }
+    },
+    "arctic": {
+      "name": "Arctic",
+      "aliases": ["IceWing Prisoner"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "An elderly IceWing prisoner who has been in Queen Scarlet's dungeons for years. Weak from long captivity but still proud.",
+          "role": "Long-term Prisoner",
+          "relationships": {
+            "Fjord": "Fellow IceWing prisoner",
+            "Amber": "Fellow IceWing prisoner"
+          }
+        }
+      }
+    },
+    "cedar": {
+      "name": "Cedar",
+      "aliases": ["MudWing Prisoner"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A brown MudWing captured and imprisoned by Queen Scarlet. Scheduled to fight in the arena against other prisoners.",
+          "role": "Arena Fighter",
+          "relationships": {
+            "Clay": "Fellow MudWing",
+            "Pheasant": "Fellow MudWing prisoner"
+          }
+        }
+      }
+    },
+    "swamp": {
+      "name": "Swamp",
+      "aliases": ["MudWing Soldier"],
+      "appearances": [9, 12, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A MudWing soldier serving under Queen Scarlet's alliance. Helps capture the escaped dragonets.",
+          "role": "Allied Soldier",
+          "relationships": {
+            "Boulder": "Fellow MudWing soldier",
+            "Queen Scarlet": "Allied queen he serves"
+          }
+        }
+      }
+    },
+    "cattail-fighter": {
+      "name": "Cattail",
+      "aliases": ["MudWing Fighter"],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A MudWing forced to participate in Queen Scarlet's arena fights. Dies during one of the brutal matches.",
+          "role": "Arena Victim",
+          "relationships": {
+            "Clay": "Fellow MudWing who watches his death",
+            "Pheasant": "Fellow arena fighter"
+          }
+        }
+      }
+    },
+    "cypress": {
+      "name": "Cypress",
+      "aliases": ["RainWing Prisoner"],
+      "appearances": [14, 17, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A green-and-blue RainWing held prisoner by Queen Scarlet. Drugged with sleeping darts to prevent her from using her venom.",
+          "role": "Drugged Prisoner",
+          "relationships": {
+            "Glory": "Fellow RainWing",
+            "Orchid": "Fellow RainWing prisoner"
+          }
+        }
+      }
+    },
+    "chameleon": {
+      "name": "Chameleon",
+      "aliases": ["RainWing Prisoner"],
+      "appearances": [14, 17, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A RainWing prisoner who constantly shifts colors due to fear and stress. Kept docile with sleeping darts by Queen Scarlet's guards.",
+          "role": "Terrified Prisoner",
+          "relationships": {
+            "Glory": "Fellow RainWing who gives him hope",
+            "Orchid": "Fellow captive RainWing"
+          }
+        }
+      }
+    },
+    "mango": {
+      "name": "Mango",
+      "aliases": ["RainWing Prisoner"],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A young RainWing prisoner held in Queen Scarlet's dungeons. Too drugged and weak to properly use her natural color-changing or venom abilities.",
+          "role": "Young Prisoner",
+          "relationships": {
+            "Glory": "Older RainWing who protects her",
+            "Queen Scarlet": "Captor who drugs her"
+          }
+        }
+      }
+    },
+    "heron": {
+      "name": "Heron",
+      "aliases": ["SeaWing Prisoner"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A blue-green SeaWing prisoner forced to fight in Queen Scarlet's arena. Struggles without access to water for extended periods.",
+          "role": "Dehydrated Fighter",
+          "relationships": {
+            "Gill": "Fellow SeaWing prisoner",
+            "Tsunami": "Fellow SeaWing"
+          }
+        }
+      }
+    },
+    "coral-guard": {
+      "name": "Coral",
+      "aliases": ["SeaWing Fighter"],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A SeaWing warrior captured and forced to fight in Queen Scarlet's arena. Dies in one of the matches while desperately trying to survive.",
+          "role": "Arena Victim",
+          "relationships": {
+            "Gill": "Fellow SeaWing prisoner",
+            "Clay": "MudWing who witnesses his death"
+          }
+        }
+      }
+    },
+    "narwhal": {
+      "name": "Narwhal",
+      "aliases": ["SeaWing Prisoner"],
+      "appearances": [14, 15, 16, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A large SeaWing prisoner held in Queen Scarlet's dungeons. One of the longest-surviving prisoners due to his size and fighting ability.",
+          "role": "Veteran Prisoner",
+          "relationships": {
+            "Gill": "Fellow SeaWing prisoner and leader",
+            "Tsunami": "Princess he recognizes"
+          }
+        }
+      }
+    },
+    "thrush": {
+      "name": "Thrush",
+      "aliases": ["NightWing Messenger"],
+      "appearances": [8, 23],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A black NightWing who accompanies Morrowseer and serves as his assistant. Observes the dragonets' progress with cold calculation.",
+          "role": "Morrowseer's Assistant",
+          "relationships": {
+            "Morrowseer": "NightWing prophet he serves",
+            "Starflight": "Dragonet he evaluates"
+          }
+        }
+      }
+    },
+    "shadowhunter": {
+      "name": "Shadowhunter",
+      "aliases": ["NightWing Spy"],
+      "appearances": [23, 24],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A NightWing spy working with Morrowseer to monitor the dragonets' progress. Reports back on their activities and compliance with the prophecy.",
+          "role": "Intelligence Gatherer",
+          "relationships": {
+            "Morrowseer": "Superior he reports to",
+            "Starflight": "Dragonet he spies on"
+          }
+        }
+      }
+    },
+    "flash": {
+      "name": "Flash",
+      "aliases": ["SandWing Scout"],
+      "appearances": [24, 25],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "A fast SandWing scout serving under Burn's command. Helps track the dragonets for the attack on the Talons of Peace stronghold.",
+          "role": "Scout and Tracker",
+          "relationships": {
+            "Burn": "Queen he serves",
+            "Scald": "Fellow SandWing soldier"
+          }
+        }
+      }
+    },
+    "dune-soldier": {
+      "name": "Dune",
+      "aliases": ["SandWing Fighter"],
+      "appearances": [24],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "A SandWing soldier serving under Burn who participates in the attack on the Talons stronghold. Named after the desert terrain.",
+          "role": "Military Soldier",
+          "relationships": {
+            "Burn": "Queen he serves loyally",
+            "Flash": "Fellow scout"
+          }
+        }
+      }
+    },
+    "sandstorm": {
+      "name": "Sandstorm",
+      "aliases": ["SandWing Warrior"],
+      "appearances": [24, 25],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "A fierce SandWing warrior in Burn's army. Participates in the brutal attack that kills Dune and destroys the Talons' stronghold.",
+          "role": "Elite Warrior",
+          "relationships": {
+            "Burn": "Queen whose army he serves",
+            "Dune": "Guardian he helps kill"
+          }
+        }
+      }
+    },
+    "cactus": {
+      "name": "Cactus",
+      "aliases": ["SandWing Guard"],
+      "appearances": [24],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "A SandWing guard in Burn's forces who helps surround and attack the Talons of Peace stronghold where Dune dies.",
+          "role": "Military Guard",
+          "relationships": {
+            "Burn": "Queen he guards",
+            "Sunny": "Dragonet he tries to capture"
+          }
+        }
+      }
+    },
+    "addax": {
+      "name": "Addax",
+      "aliases": ["Desert Outlaw"],
+      "appearances": [25],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A SandWing outlaw who lives in the desert and is part of Thorn's group. Helps provide shelter to the dragonets after Dune's death.",
+          "role": "Desert Survivor",
+          "relationships": {
+            "Thorn": "Outlaw leader he follows",
+            "Six-Claws": "Talons member he aids"
+          }
+        }
+      }
+    },
+    "armadillo": {
+      "name": "Armadillo",
+      "aliases": ["Desert Outlaw"],
+      "appearances": [25],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A tough SandWing outlaw living in the desert with Thorn's group. Experienced at surviving in the harsh desert conditions.",
+          "role": "Desert Fighter",
+          "relationships": {
+            "Thorn": "Leader of his outlaw group",
+            "Addax": "Fellow outlaw"
+          }
+        }
+      }
+    },
+    "prickle": {
+      "name": "Prickle",
+      "aliases": ["Desert Outlaw"],
+      "appearances": [25],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A young SandWing outlaw who is part of Thorn's desert group. Quick-witted and good at finding water and shelter.",
+          "role": "Desert Scout",
+          "relationships": {
+            "Thorn": "Outlaw leader",
+            "Sunny": "Dragonet she helps hide"
+          }
+        }
+      }
+    },
+    "meerkat": {
+      "name": "Meerkat",
+      "aliases": ["Desert Lookout"],
+      "appearances": [25],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A small, alert SandWing outlaw who serves as a lookout for Thorn's group. Expert at spotting danger from long distances.",
+          "role": "Lookout and Sentry",
+          "relationships": {
+            "Thorn": "Leader he watches for",
+            "Addax": "Fellow outlaw"
+          }
+        }
+      }
+    },
+    "ostrich": {
+      "name": "Ostrich",
+      "aliases": ["Talons Runner"],
+      "appearances": [25, 26, 27],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A SandWing member of the Talons of Peace known for her speed. Helps coordinate between different Talons groups across Pyrrhia.",
+          "role": "Messenger and Coordinator",
+          "relationships": {
+            "Six-Claws": "Fellow Talons member",
+            "Nautilus": "Talons leader she reports to"
+          }
+        }
+      }
+    },
+    "lagoon": {
+      "name": "Lagoon",
+      "aliases": ["Talons SeaWing"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A SeaWing member of the Talons of Peace who works with Nautilus to coordinate peace efforts across the sea kingdom.",
+          "role": "Peace Negotiator",
+          "relationships": {
+            "Nautilus": "Fellow SeaWing leader",
+            "Webs": "Former Talons member",
+            "Riptide": "Younger Talons member"
+          }
+        }
+      }
+    },
+    "pike": {
+      "name": "Pike",
+      "aliases": ["SeaWing Talons"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A SeaWing warrior who joined the Talons of Peace to end the war. Works under Nautilus to establish peace between the tribes.",
+          "role": "Peace Warrior",
+          "relationships": {
+            "Nautilus": "Leader he serves",
+            "Lagoon": "Fellow SeaWing Talons member"
+          }
+        }
+      }
+    },
+    "bass": {
+      "name": "Bass",
+      "aliases": ["Young SeaWing"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A young SeaWing who admires the dragonets of destiny and wants to join their cause for peace.",
+          "role": "Enthusiastic Supporter",
+          "relationships": {
+            "Riptide": "Fellow young SeaWing",
+            "Tsunami": "Princess he admires"
+          }
+        }
+      }
+    },
+    "clay-family-mother": {
+      "name": "Cattail",
+      "aliases": ["Clay's Mother"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Clay's mother, a brown MudWing who grieved when her bigwings dragonet was taken. Overjoyed to see Clay return home safely.",
+          "role": "Clay's Mother",
+          "relationships": {
+            "Clay": "Son she thought was dead",
+            "Reed": "Son who became bigwings",
+            "Marsh": "Daughter",
+            "Sora": "Daughter",
+            "Umber": "Son",
+            "Crane": "Youngest daughter"
+          }
+        }
+      }
+    },
+    "mudflower": {
+      "name": "Mudflower",
+      "aliases": ["MudWing Aunt"],
+      "appearances": [27],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Clay's aunt, a MudWing who helped raise his siblings after he was taken. Welcomes him back to the family with warmth.",
+          "role": "Extended Family",
+          "relationships": {
+            "Clay": "Nephew she helped raise siblings for",
+            "Reed": "Nephew she guided"
+          }
+        }
+      }
+    },
+    "sepia": {
+      "name": "Sepia",
+      "aliases": ["MudWing Cousin"],
+      "appearances": [27],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Clay's cousin, a young MudWing who grew up hearing stories about the missing bigwings. Excited to finally meet the legendary Clay.",
+          "role": "Extended Family",
+          "relationships": {
+            "Clay": "Cousin she's heard stories about",
+            "Mudflower": "Mother"
+          }
+        }
+      }
     }
   },
   "recaps": {
