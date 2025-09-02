@@ -1,0 +1,1162 @@
+{
+  "meta": {
+    "title": "The Wise Man's Fear",
+    "author": "Patrick Rothfuss",
+    "chapters": 151,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "kvothe": {
+      "name": "Kvothe",
+      "aliases": ["Kote", "The Bloodless", "Reshi", "Maedre", "Six-String", "Dulator"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The innkeeper known as Kote, living quietly in the Waystone Inn. His red hair has lost its luster and his green eyes seem lifeless.",
+          "role": "Innkeeper and former legend",
+          "relationships": {
+            "Student": "Bast",
+            "Chronicler": "Chronicler"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Continues his tale, now pursuing admission to the University and seeking knowledge of the Chandrian.",
+          "role": "Student and arcanist",
+          "relationships": {
+            "Friends": "Simmon, Wilem",
+            "Enemy": "Ambrose Jakis",
+            "Teacher": "Kilvin, Elodin"
+          }
+        }
+      }
+    },
+    "bast": {
+      "name": "Bast",
+      "aliases": ["Bastas, son of Remmen, Prince of Twilight and the Telwyth Mael"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 149, 150, 151],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Kvothe's devoted student, young-looking with dark hair and eyes that seem older than his face.",
+          "role": "Student and assistant",
+          "relationships": {
+            "Teacher": "Kvothe"
+          }
+        }
+      }
+    },
+    "chronicler": {
+      "name": "Chronicler",
+      "aliases": ["Devan Lochees"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 149, 150, 151],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A traveling scribe who has come to record Kvothe's true story. He carries writing materials and has heard the legends.",
+          "role": "Chronicler and scribe",
+          "relationships": {
+            "Subject": "Kvothe"
+          }
+        }
+      }
+    },
+    "graham": {
+      "name": "Graham",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A local villager who frequents the Waystone Inn. He's one of the regular customers who enjoys the company and ale.",
+          "role": "Local villager and patron",
+          "relationships": {
+            "Innkeeper": "Kote"
+          }
+        }
+      }
+    },
+    "jake": {
+      "name": "Jake",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A villager from Newarre who comes to the inn with the other locals. He participates in conversations about recent strange events.",
+          "role": "Local villager",
+          "relationships": {
+            "Fellow patrons": "Graham, Shep, Old Cob"
+          }
+        }
+      }
+    },
+    "shep": {
+      "name": "Shep",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another of the local villagers who visits the Waystone Inn regularly. He joins in the discussions about local happenings.",
+          "role": "Local villager",
+          "relationships": {
+            "Fellow patrons": "Graham, Jake, Old Cob"
+          }
+        }
+      }
+    },
+    "old-cob": {
+      "name": "Old Cob",
+      "aliases": ["Cob"],
+      "appearances": [4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elderly villager who serves as something of a local storyteller and source of gossip. He knows many old tales and local legends.",
+          "role": "Village storyteller and elder",
+          "relationships": {
+            "Fellow patrons": "Graham, Jake, Shep"
+          }
+        }
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young man from the village who occasionally comes to the inn with the other locals.",
+          "role": "Young villager",
+          "relationships": {
+            "Fellow villagers": "Graham, Jake, Shep"
+          }
+        }
+      }
+    },
+    "soldier-captain": {
+      "name": "Soldier Captain",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The leader of a group of soldiers who arrive at the inn. He appears to be in charge and makes demands of the innkeeper.",
+          "role": "Military officer",
+          "relationships": {
+            "Subordinates": "His soldiers"
+          }
+        }
+      }
+    },
+    "first-soldier": {
+      "name": "First Soldier",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "One of the soldiers accompanying the captain. He follows orders and participates in the intimidation of the inn's inhabitants.",
+          "role": "Soldier",
+          "relationships": {
+            "Commander": "Soldier Captain"
+          }
+        }
+      }
+    },
+    "second-soldier": {
+      "name": "Second Soldier",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Another soldier in the group that arrives at the inn. He assists in carrying out the captain's orders.",
+          "role": "Soldier",
+          "relationships": {
+            "Commander": "Soldier Captain"
+          }
+        }
+      }
+    },
+    "simmon": {
+      "name": "Simmon",
+      "aliases": ["Sim"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Kvothe's loyal friend at the University, a nobleman's son with a cheerful disposition and talent for sympathy.",
+          "role": "University student and friend",
+          "relationships": {
+            "Best friends": "Kvothe, Wilem",
+            "Romantic interest": "Fela"
+          }
+        }
+      }
+    },
+    "wilem": {
+      "name": "Wilem",
+      "aliases": ["Wil"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Kvothe's close friend, a serious Cealdish student with a talent for artificing and a practical nature.",
+          "role": "University student and friend",
+          "relationships": {
+            "Best friends": "Kvothe, Simmon",
+            "Academic focus": "Artificing"
+          }
+        }
+      }
+    },
+    "ambrose-jakis": {
+      "name": "Ambrose Jakis",
+      "aliases": ["Ambrose"],
+      "appearances": [15, 16, 17, 20, 21, 109, 111, 112, 114, 115, 117, 119],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Kvothe's wealthy noble rival at the University, arrogant and vindictive with a talent for making enemies.",
+          "role": "University student and antagonist",
+          "relationships": {
+            "Enemy": "Kvothe",
+            "Social circle": "Other noble students"
+          }
+        }
+      }
+    },
+    "devi": {
+      "name": "Devi",
+      "aliases": [],
+      "appearances": [18, 19, 111, 112, 115, 117],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A former University student turned gaelet (moneylender), dangerous and intelligent with sympathy skills.",
+          "role": "Gaelet and former student",
+          "relationships": {
+            "Client": "Kvothe",
+            "Former status": "University student"
+          }
+        }
+      }
+    },
+    "auri": {
+      "name": "Auri",
+      "aliases": [],
+      "appearances": [19, 113, 116, 119],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A mysterious young woman who lives in the Underthing beneath the University, with strange ways and knowledge.",
+          "role": "Underthing dweller",
+          "relationships": {
+            "Friend": "Kvothe",
+            "Home": "The Underthing"
+          }
+        }
+      }
+    },
+    "master-kilvin": {
+      "name": "Master Kilvin",
+      "aliases": ["Kilvin"],
+      "appearances": [14, 16, 17, 22, 110, 111, 114, 116],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Master of Artificing at the University, a large man with great skill in creating magical devices and sympathy.",
+          "role": "University Master",
+          "relationships": {
+            "Student": "Kvothe",
+            "Specialty": "Artificing"
+          }
+        }
+      }
+    },
+    "master-elodin": {
+      "name": "Master Elodin",
+      "aliases": ["Elodin"],
+      "appearances": [16, 17, 20, 21, 110, 113, 115, 116, 118],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Master of Naming at the University, eccentric and unpredictable with deep knowledge of the ancient magic.",
+          "role": "Master of Naming",
+          "relationships": {
+            "Student": "Kvothe",
+            "Specialty": "Naming"
+          }
+        }
+      }
+    },
+    "master-lorren": {
+      "name": "Master Lorren",
+      "aliases": ["Lorren"],
+      "appearances": [14, 20, 110, 116, 117, 120],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Master Archivist of the University, stern guardian of the Archives with vast knowledge of books and lore.",
+          "role": "Master Archivist",
+          "relationships": {
+            "Student helper": "Kvothe",
+            "Domain": "The Archives"
+          }
+        }
+      }
+    },
+    "master-hemme": {
+      "name": "Master Hemme",
+      "aliases": ["Hemme"],
+      "appearances": [14, 15, 17, 110, 111],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Master of Rhetoric at the University, often antagonistic toward Kvothe and quick to find fault.",
+          "role": "Master of Rhetoric",
+          "relationships": {
+            "Student": "Kvothe",
+            "Attitude": "Antagonistic"
+          }
+        }
+      }
+    },
+    "fela": {
+      "name": "Fela",
+      "aliases": [],
+      "appearances": [13, 14, 16, 19, 110, 112, 113, 115],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A talented female student at the University with interests in artificing and a kind nature.",
+          "role": "University student",
+          "relationships": {
+            "Romantic interest": "Simmon",
+            "Friends": "Kvothe, Simmon, Wilem"
+          }
+        }
+      }
+    },
+    "mola": {
+      "name": "Mola",
+      "aliases": [],
+      "appearances": [14, 16, 112, 115, 119],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A medical student at the University with skills in healing and a practical, no-nonsense attitude.",
+          "role": "Medical student",
+          "relationships": {
+            "Patient": "Kvothe",
+            "Fellow students": "Simmon, Wilem"
+          }
+        }
+      }
+    },
+    "manet": {
+      "name": "Manet",
+      "aliases": [],
+      "appearances": [13, 14, 16, 110, 112],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A longtime student at the University, older than most, with extensive knowledge of University politics and customs.",
+          "role": "Senior student",
+          "relationships": {
+            "Advisor": "Kvothe",
+            "Status": "Longtime student"
+          }
+        }
+      }
+    },
+    "maer-alveron": {
+      "name": "Maer Alveron",
+      "aliases": ["Lerandus Alveron", "The Maer"],
+      "appearances": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 52, 53, 54, 55, 56, 57],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A powerful nobleman in Vintas, ruler of Severen and one of the most influential men in the realm. He suffers from a mysterious illness.",
+          "role": "Nobleman and ruler",
+          "relationships": {
+            "Servant": "Kvothe",
+            "Servant": "Stapes",
+            "Love interest": "Meluan Lackless"
+          }
+        }
+      }
+    },
+    "stapes": {
+      "name": "Stapes",
+      "aliases": [],
+      "appearances": [27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 52, 53, 54, 55, 56],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "The Maer's loyal manservant, devoted and protective of his master's interests and wellbeing.",
+          "role": "Manservant",
+          "relationships": {
+            "Master": "Maer Alveron",
+            "Colleague": "Kvothe"
+          }
+        }
+      }
+    },
+    "meluan-lackless": {
+      "name": "Meluan Lackless",
+      "aliases": ["Lady Lackless"],
+      "appearances": [35, 36, 37, 38, 39, 40, 125, 126],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "A noblewoman of the powerful Lackless family, beautiful and intelligent, the object of the Maer's romantic interest.",
+          "role": "Noblewoman",
+          "relationships": {
+            "Suitor": "Maer Alveron",
+            "Family": "Lackless lineage"
+          }
+        }
+      }
+    },
+    "bredon": {
+      "name": "Bredon",
+      "aliases": [],
+      "appearances": [30, 31, 32, 34, 35, 36, 37, 38, 39],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "An elderly nobleman at the Maer's court, skilled at the strategic game of tak and fond of teaching others.",
+          "role": "Court nobleman",
+          "relationships": {
+            "Tak partner": "Kvothe",
+            "Court position": "Noble advisor"
+          }
+        }
+      }
+    },
+    "caudicus": {
+      "name": "Caudicus",
+      "aliases": [],
+      "appearances": [29, 30, 31, 32, 33],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "The Maer's physician and arcanist, supposedly treating his illness but harboring secret intentions.",
+          "role": "Court physician",
+          "relationships": {
+            "Patient": "Maer Alveron",
+            "Secret agenda": "Unknown motives"
+          }
+        }
+      }
+    },
+    "dagon": {
+      "name": "Dagon",
+      "aliases": [],
+      "appearances": [30, 31, 32, 41, 42, 52],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "The Maer's enforcer and security chief, a dangerous man who handles the nobleman's less pleasant business.",
+          "role": "Enforcer",
+          "relationships": {
+            "Master": "Maer Alveron",
+            "Colleague": "Kvothe"
+          }
+        }
+      }
+    },
+    "tempi": {
+      "name": "Tempi",
+      "aliases": [],
+      "appearances": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 59, 60, 74, 75, 76, 77, 78, 79, 80, 81],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "An Adem mercenary hired to help hunt the bandits, skilled in their unique martial arts and philosophy.",
+          "role": "Adem warrior",
+          "relationships": {
+            "Employer": "Maer Alveron",
+            "Hunting partner": "Kvothe",
+            "Student": "Kvothe"
+          }
+        }
+      }
+    },
+    "dedan": {
+      "name": "Dedan",
+      "aliases": [],
+      "appearances": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "A tracker and huntsman hired for the bandit-hunting expedition, experienced in wilderness survival.",
+          "role": "Tracker",
+          "relationships": {
+            "Employer": "Maer Alveron",
+            "Hunting party": "Kvothe, Tempi, Hespe, Marten"
+          }
+        }
+      }
+    },
+    "hespe": {
+      "name": "Hespe",
+      "aliases": [],
+      "appearances": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "A female mercenary hired for the bandit hunt, tough and competent with weapons and combat skills.",
+          "role": "Mercenary",
+          "relationships": {
+            "Employer": "Maer Alveron",
+            "Hunting party": "Kvothe, Tempi, Dedan, Marten"
+          }
+        }
+      }
+    },
+    "marten": {
+      "name": "Marten",
+      "aliases": [],
+      "appearances": [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "A skilled bowman hired for the expedition against the bandits, quiet and professional.",
+          "role": "Archer",
+          "relationships": {
+            "Employer": "Maer Alveron",
+            "Hunting party": "Kvothe, Tempi, Dedan, Hespe"
+          }
+        }
+      }
+    },
+    "cinder": {
+      "name": "Cinder",
+      "aliases": ["Ferule"],
+      "appearances": [49, 50, 72, 121, 122, 123, 124, 125, 126],
+      "knowledge": {
+        "49": {
+          "revealedIn": 49,
+          "description": "One of the seven Chandrian, leading a group of bandits with supernatural power and malevolent intent.",
+          "role": "Chandrian",
+          "relationships": {
+            "Enemy": "Kvothe",
+            "Organization": "The Seven Chandrian",
+            "Commands": "Bandit followers"
+          }
+        }
+      }
+    },
+    "felurian": {
+      "name": "Felurian",
+      "aliases": [],
+      "appearances": [63, 64, 65, 66, 67, 68, 69, 70, 73],
+      "knowledge": {
+        "63": {
+          "revealedIn": 63,
+          "description": "A legendary fae woman of incredible beauty and power, who lures mortal men to their doom through enchantment.",
+          "role": "Fae enchantress",
+          "relationships": {
+            "Lover": "Kvothe",
+            "Nature": "Ancient fae being"
+          }
+        }
+      }
+    },
+    "cthaeh": {
+      "name": "The Cthaeh",
+      "aliases": [],
+      "appearances": [71, 72, 76, 77],
+      "knowledge": {
+        "71": {
+          "revealedIn": 71,
+          "description": "An ancient, malevolent oracle bound within a tree in the Fae realm, knowing all possible futures but speaking only malice.",
+          "role": "Malevolent oracle",
+          "relationships": {
+            "Consulter": "Kvothe",
+            "Nature": "Ancient evil entity"
+          }
+        }
+      }
+    },
+    "vashet": {
+      "name": "Vashet",
+      "aliases": [],
+      "appearances": [81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92],
+      "knowledge": {
+        "81": {
+          "revealedIn": 81,
+          "description": "Kvothe's Adem teacher in the martial arts, a skilled warrior who becomes his lover and guide to Adem culture.",
+          "role": "Adem teacher and warrior",
+          "relationships": {
+            "Student": "Kvothe",
+            "Lover": "Kvothe",
+            "Culture": "Adem traditions"
+          }
+        }
+      }
+    },
+    "shehyn": {
+      "name": "Shehyn",
+      "aliases": [],
+      "appearances": [79, 80, 86, 87, 91, 92],
+      "knowledge": {
+        "79": {
+          "revealedIn": 79,
+          "description": "The leader of the Adem school at Haert, an elderly woman of great wisdom and martial skill who oversees Kvothe's training.",
+          "role": "Adem school leader",
+          "relationships": {
+            "Student": "Kvothe",
+            "Authority over": "Vashet, other Adem"
+          }
+        }
+      }
+    },
+    "carceret": {
+      "name": "Carceret",
+      "aliases": [],
+      "appearances": [87, 88, 89, 90],
+      "knowledge": {
+        "87": {
+          "revealedIn": 87,
+          "description": "An Adem student who challenges Kvothe's presence at the school, viewing him as an outsider unworthy of their traditions.",
+          "role": "Adem student and rival",
+          "relationships": {
+            "Rival": "Kvothe",
+            "Fellow students": "Other Adem"
+          }
+        }
+      }
+    },
+    "penthe": {
+      "name": "Penthe",
+      "aliases": [],
+      "appearances": [84, 85, 86, 88, 89],
+      "knowledge": {
+        "84": {
+          "revealedIn": 84,
+          "description": "A young Adem woman who becomes Kvothe's friend and occasional lover during his time at Haert.",
+          "role": "Adem student and friend",
+          "relationships": {
+            "Friend": "Kvothe",
+            "Lover": "Kvothe"
+          }
+        }
+      }
+    },
+    "celean": {
+      "name": "Celean",
+      "aliases": [],
+      "appearances": [83, 84, 85, 86, 87, 88],
+      "knowledge": {
+        "83": {
+          "revealedIn": 83,
+          "description": "A young Adem girl who befriends Kvothe, representing the innocence and curiosity within Adem culture.",
+          "role": "Young Adem student",
+          "relationships": {
+            "Friend": "Kvothe",
+            "Mentor figure": "Vashet"
+          }
+        }
+      }
+    },
+    "denna": {
+      "name": "Denna",
+      "aliases": ["Dianne", "Dinah", "Aloine", "Dinnah"],
+      "appearances": [98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "Kvothe's beloved, a mysterious woman with many names who captures his heart but remains elusive and independent.",
+          "role": "Love interest and musician",
+          "relationships": {
+            "Beloved": "Kvothe",
+            "Patron": "Master Ash"
+          }
+        }
+      }
+    },
+    "master-ash": {
+      "name": "Master Ash",
+      "aliases": ["Denna's patron"],
+      "appearances": [102, 103, 104, 105, 106],
+      "knowledge": {
+        "102": {
+          "revealedIn": 102,
+          "description": "Denna's mysterious patron who supports her but may have darker intentions. His true identity remains hidden.",
+          "role": "Mysterious patron",
+          "relationships": {
+            "Patronage": "Denna",
+            "Identity": "Unknown"
+          }
+        }
+      }
+    },
+    "puppet": {
+      "name": "Puppet",
+      "aliases": [],
+      "appearances": [20, 116, 117, 120],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A mysterious figure who lives deep in the Archives, surrounded by books and speaking in cryptic riddles.",
+          "role": "Archives dweller",
+          "relationships": {
+            "Domain": "Deep Archives",
+            "Acquaintance": "Kvothe"
+          }
+        }
+      }
+    },
+    "master-dal": {
+      "name": "Master Dal",
+      "aliases": ["Dal"],
+      "appearances": [14, 15, 110, 111, 114],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Master of Sympathy at the University, responsible for teaching the principles of sympathetic magic.",
+          "role": "University Master",
+          "relationships": {
+            "Student": "Kvothe",
+            "Specialty": "Sympathy"
+          }
+        }
+      }
+    },
+    "master-arwyl": {
+      "name": "Master Arwyl",
+      "aliases": ["Arwyl"],
+      "appearances": [14, 112, 119],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Master of Medicine at the University, skilled in healing arts and medical knowledge.",
+          "role": "University Master",
+          "relationships": {
+            "Student": "Kvothe",
+            "Specialty": "Medicine"
+          }
+        }
+      }
+    },
+    "lanre": {
+      "name": "Lanre",
+      "aliases": ["Haliax"],
+      "appearances": [70, 121, 122, 123, 124, 125],
+      "knowledge": {
+        "70": {
+          "revealedIn": 70,
+          "description": "A legendary figure from ancient times, once a great hero who became the leader of the Chandrian after a terrible tragedy.",
+          "role": "Ancient hero turned Chandrian leader",
+          "relationships": {
+            "Wife": "Lyra",
+            "Organization": "The Chandrian",
+            "Enemy": "Selitos"
+          }
+        }
+      }
+    },
+    "lyra": {
+      "name": "Lyra",
+      "aliases": [],
+      "appearances": [70, 122, 123],
+      "knowledge": {
+        "70": {
+          "revealedIn": 70,
+          "description": "Lanre's beloved wife in ancient times, a skilled namer whose death led to Lanre's transformation into Haliax.",
+          "role": "Ancient namer and Lanre's wife",
+          "relationships": {
+            "Husband": "Lanre",
+            "Skill": "Naming"
+          }
+        }
+      }
+    },
+    "selitos": {
+      "name": "Selitos",
+      "aliases": [],
+      "appearances": [70, 121, 122, 123, 125],
+      "knowledge": {
+        "70": {
+          "revealedIn": 70,
+          "description": "An ancient figure of great power and sight, enemy of Lanre and founding member of the Amyr seeking justice.",
+          "role": "Ancient enemy of the Chandrian",
+          "relationships": {
+            "Enemy": "Lanre",
+            "Organization": "The Amyr",
+            "Power": "Great sight and justice"
+          }
+        }
+      }
+    },
+    "iax": {
+      "name": "Iax",
+      "aliases": ["Jax"],
+      "appearances": [69, 70, 122],
+      "knowledge": {
+        "69": {
+          "revealedIn": 69,
+          "description": "An ancient shaper who stole the moon and was responsible for the creation of the Fae realm through his naming magic.",
+          "role": "Ancient shaper",
+          "relationships": {
+            "Creation": "Fae realm",
+            "Action": "Stole the moon",
+            "Power": "Shaping"
+          }
+        }
+      }
+    },
+    "tehlu": {
+      "name": "Tehlu",
+      "aliases": [],
+      "appearances": [121, 123, 125],
+      "knowledge": {
+        "121": {
+          "revealedIn": 121,
+          "description": "A figure from religious legend, associated with justice and the pursuit of demons, worshipped by the Tehlin Church.",
+          "role": "Religious figure",
+          "relationships": {
+            "Organization": "Tehlin Church",
+            "Domain": "Justice and demon hunting"
+          }
+        }
+      }
+    },
+    "count-threpe": {
+      "name": "Count Threpe",
+      "aliases": ["Threpe"],
+      "appearances": [98, 99, 109, 110],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "A nobleman and patron of the arts who frequents the Eolian and appreciates Kvothe's musical talents.",
+          "role": "Noble patron of arts",
+          "relationships": {
+            "Protégé": "Kvothe",
+            "Interest": "Music and arts"
+          }
+        }
+      }
+    },
+    "wil": {
+      "name": "Wil",
+      "aliases": [],
+      "appearances": [98, 99, 100],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "A performer at the Eolian, part of the musical community that Kvothe interacts with upon his return to Imre.",
+          "role": "Musician",
+          "relationships": {
+            "Venue": "The Eolian",
+            "Peer": "Kvothe"
+          }
+        }
+      }
+    },
+    "stanchion": {
+      "name": "Stanchion",
+      "aliases": [],
+      "appearances": [98, 99, 100, 109, 111],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "The proprietor of the Eolian tavern, who maintains order and oversees the musical performances and competitions.",
+          "role": "Tavern owner",
+          "relationships": {
+            "Business": "The Eolian",
+            "Patron": "Kvothe"
+          }
+        }
+      }
+    },
+    "marie": {
+      "name": "Marie",
+      "aliases": [],
+      "appearances": [98, 99, 109],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "A serving girl at the Eolian who helps run the tavern and serves the customers and performers.",
+          "role": "Serving girl",
+          "relationships": {
+            "Workplace": "The Eolian",
+            "Employer": "Stanchion"
+          }
+        }
+      }
+    },
+    "sovoy": {
+      "name": "Sovoy",
+      "aliases": [],
+      "appearances": [13, 14, 15, 110, 111, 112],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A wealthy University student from a noble family, acquaintance of Simmon and part of their social circle.",
+          "role": "Noble University student",
+          "relationships": {
+            "Friends": "Simmon, Wilem",
+            "Social status": "Wealthy noble"
+          }
+        }
+      }
+    },
+    "viari": {
+      "name": "Viari",
+      "aliases": [],
+      "appearances": [20, 116, 117],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A giller (helper) in the Archives, who assists with organizing and maintaining the vast collection of books and documents.",
+          "role": "Archives assistant",
+          "relationships": {
+            "Workplace": "University Archives",
+            "Superior": "Master Lorren"
+          }
+        }
+      }
+    },
+    "anker": {
+      "name": "Anker",
+      "aliases": [],
+      "appearances": [13, 109, 110, 111],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The innkeeper of the Anker's Inn in Imre, where many University students lodge and take their meals.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Business": "Anker's Inn",
+            "Customers": "University students"
+          }
+        }
+      }
+    },
+    "roent": {
+      "name": "Roent",
+      "aliases": [],
+      "appearances": [14, 16, 110, 114],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A University student studying artificing under Master Kilvin, working on various magical devices and experiments.",
+          "role": "Artificing student",
+          "relationships": {
+            "Teacher": "Master Kilvin",
+            "Study partner": "Kvothe"
+          }
+        }
+      }
+    },
+    "jaxim": {
+      "name": "Jaxim",
+      "aliases": [],
+      "appearances": [14, 16, 110, 114],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Another University student in the Fishery, working under Master Kilvin on various artificing projects.",
+          "role": "Artificing student",
+          "relationships": {
+            "Teacher": "Master Kilvin",
+            "Peer": "Kvothe, Roent"
+          }
+        }
+      }
+    },
+    "brand": {
+      "name": "Brand",
+      "aliases": [],
+      "appearances": [14, 22, 110, 114, 116],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Master Kilvin's chief assistant in the Fishery, experienced in artificing and helps oversee student projects.",
+          "role": "Senior artificer",
+          "relationships": {
+            "Superior": "Master Kilvin",
+            "Assists": "University students"
+          }
+        }
+      }
+    },
+    "jacob-walker": {
+      "name": "Jacob Walker",
+      "aliases": [],
+      "appearances": [23, 24, 25, 26, 57, 94],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A merchant who provides Kvothe with transportation and business opportunities on his journey to Severen.",
+          "role": "Merchant",
+          "relationships": {
+            "Business partner": "Kvothe",
+            "Trade route": "University to Severen"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "The story opens with a silence of three parts at the Waystone Inn, where the innkeeper Kote and his student Bast await the arrival of the Chronicler. The silence is described as a thing with three parts.",
+    "2": "Chronicler arrives at the inn, recognizing Kote as the legendary Kvothe. The atmosphere is tense as they negotiate the terms of telling Kvothe's true story.",
+    "3": "Kvothe agrees to tell his story in three days, warning that it cannot be done justice in any shorter time. The tale will be complete and unabridged.",
+    "4": "Local villagers arrive at the inn including Graham, Jake, Shep, and Old Cob. They discuss strange happenings in the area and share local gossip.",
+    "5": "The villagers continue their conversations while Kvothe serves them. Bast seems restless and eager for his master to return to his former self.",
+    "6": "Strange creatures attack the inn during the night. The group fights them off, but not without cost and revelation of hidden abilities.",
+    "7": "The aftermath of the attack reveals more about the nature of the creatures and the current state of the world. Plans are made for safety.",
+    "8": "Soldiers arrive at the inn, bringing news from the outside world and creating tension with their presence and demands.",
+    "9": "The soldiers' true nature becomes apparent as they make threatening demands. Violence seems inevitable as tensions escalate.",
+    "10": "A confrontation occurs between the soldiers and the inn's inhabitants. Kvothe's legendary skills begin to resurface despite his efforts to remain hidden.",
+    "11": "The immediate danger passes, but the events have shaken everyone. Kvothe prepares to continue his story to Chronicler.",
+    "12": "Kvothe resumes his tale, beginning with his return to the University after the events of the first book. He faces new challenges and opportunities.",
+    "13": "Kvothe reconnects with his friends Simmon and Wilem at the University. He also encounters familiar adversaries and begins new studies.",
+    "14": "Financial difficulties force Kvothe to seek alternative sources of income. He explores various options while maintaining his studies.",
+    "15": "Kvothe's ongoing feud with Ambrose Jakis escalates, leading to new complications in his University life and studies.",
+    "16": "Master Elodin offers Kvothe admission to Naming classes, though the lessons prove to be unconventional and mysterious.",
+    "17": "Kvothe continues to struggle with his finances while exploring the deeper mysteries of naming and the nature of magic.",
+    "18": "A visit to Devi, the gaelet, provides Kvothe with needed funds but also creates new obligations and potential dangers.",
+    "19": "Kvothe encounters Auri in the Underthing again, learning more about her mysterious existence beneath the University.",
+    "20": "Research into the Chandrian continues as Kvothe seeks information in the Archives, despite the restrictions and obstacles.",
+    "21": "Kvothe's reputation at the University grows, both for his talents and his troublemaking, creating both opportunities and enemies.",
+    "22": "Master Kilvin presents Kvothe with advanced artificery projects, testing his skills and pushing his understanding of the craft.",
+    "23": "Kvothe receives a mysterious letter that will lead to significant changes in his life and adventures beyond the University.",
+    "24": "The letter's contents are revealed, leading to an opportunity that could solve Kvothe's financial problems while taking him away from his studies.",
+    "25": "Kvothe makes the decision to leave the University temporarily, despite concerns from his friends about the wisdom of this choice.",
+    "26": "Kvothe travels to Severen in Vintas, beginning a new chapter of his adventures in the court of a powerful nobleman.",
+    "27": "Arriving at the Maer's estate, Kvothe is introduced to Severen society and begins to understand the complex politics of the court.",
+    "28": "Kvothe meets Maer Alveron, a powerful nobleman who has summoned him for a specific purpose related to courtship and politics.",
+    "29": "The Maer explains his situation: he wishes to court Meluan Lackless but faces obstacles including his poor health and rivals.",
+    "30": "Kvothe begins his work as a courtier, learning the intricate social dynamics of Severen while investigating the Maer's mysterious illness.",
+    "31": "Court life proves challenging as Kvothe navigates noble politics, learns proper etiquette, and begins to suspect the cause of the Maer's sickness.",
+    "32": "Kvothe discovers that the Maer is being slowly poisoned and begins to plan a way to both cure him and expose the culprit.",
+    "33": "The poisoner is revealed to be Caudicus, the Maer's physician. Kvothe exposes the plot and saves the Maer's life.",
+    "34": "With his health restored, the Maer is grateful to Kvothe and begins to trust him more completely, leading to new responsibilities.",
+    "35": "Kvothe helps the Maer with his courtship of Meluan Lackless, using his skills in music and poetry to aid the romance.",
+    "36": "The courtship progresses successfully, with Kvothe serving as an intermediary and advisor to the increasingly smitten Maer.",
+    "37": "Kvothe learns more about the Lackless family history and begins to suspect connections to his own past and the Chandrian.",
+    "38": "Romance blooms between the Maer and Meluan, with Kvothe's assistance proving invaluable in overcoming various obstacles.",
+    "39": "Wedding preparations begin as the Maer and Meluan become engaged, with Kvothe playing an important role in the arrangements.",
+    "40": "The wedding takes place, cementing the political alliance and providing Kvothe with rewards and recognition for his service.",
+    "41": "The Maer assigns Kvothe a new task: dealing with bandits who have been plaguing the roads and threatening trade routes.",
+    "42": "Kvothe assembles a team of mercenaries to hunt the bandits, including the Adem warrior Tempi and others with various skills.",
+    "43": "The hunting party sets out into the wilderness, beginning their pursuit of the dangerous bandits terrorizing the countryside.",
+    "44": "The group tracks the bandits through difficult terrain, learning more about their quarry and the challenges they face.",
+    "45": "Signs of the bandits become more ominous, suggesting these are not ordinary criminals but something far more dangerous.",
+    "46": "The party discovers evidence that the bandits they're hunting may be connected to the Chandrian, making the mission more personal for Kvothe.",
+    "47": "Tension grows within the hunting party as the true nature of their quarry becomes apparent and fear begins to affect the group.",
+    "48": "The group makes contact with the bandits, leading to a confrontation that reveals the involvement of one of the Chandrian.",
+    "49": "Cinder, one of the seven Chandrian, is revealed to be leading the bandits. A deadly battle ensues with devastating consequences.",
+    "50": "The confrontation with Cinder and his followers ends in victory for Kvothe's group, but at great cost and with troubling implications.",
+    "51": "In the aftermath of the battle, Kvothe and the survivors must deal with their losses and the implications of what they've discovered.",
+    "52": "The surviving members of the hunting party return to Severen with their grim news and evidence of the Chandrian's activities.",
+    "53": "Back at court, Kvothe reports to the Maer about the mission's outcome and the discovery of Chandrian involvement.",
+    "54": "The Maer's reaction to news of the Chandrian is troubling, revealing his skepticism and leading to tension between him and Kvothe.",
+    "55": "Kvothe's relationship with the Maer begins to deteriorate as their different worldviews and priorities become apparent.",
+    "56": "Further conflicts arise between Kvothe and the Maer, particularly regarding the Chandrian and Kvothe's methods and beliefs.",
+    "57": "The situation at court becomes untenable for Kvothe, leading him to make preparations to leave Severen behind.",
+    "58": "Kvothe departs from Severen, ending his time as a courtier and beginning a new phase of his adventures.",
+    "59": "Traveling with Tempi, Kvothe begins to learn about Adem culture and the martial arts that make them legendary warriors.",
+    "60": "The journey toward Ademre continues as Tempi begins teaching Kvothe the basics of Adem fighting techniques and philosophy.",
+    "61": "Kvothe and Tempi's travels are interrupted by an unexpected detour into the Fae realm, beginning a strange and dangerous adventure.",
+    "62": "Kvothe finds himself in the fairy realm, a place where time moves differently and the rules of reality are altered.",
+    "63": "In the Fae, Kvothe encounters Felurian, the legendary and deadly fairy woman who has claimed countless mortal men.",
+    "64": "Kvothe becomes Felurian's captive and lover, experiencing the intoxicating and dangerous nature of fairy magic and passion.",
+    "65": "Life with Felurian continues as Kvothe experiences both ecstasy and the gradual loss of his human nature and memories.",
+    "66": "Kvothe begins to resist Felurian's influence, using his skills as a namer and his human will to maintain his identity.",
+    "67": "A dangerous game of wills ensues between Kvothe and Felurian as he seeks to leave while she tries to keep him forever.",
+    "68": "Kvothe succeeds in negotiating his freedom from Felurian while maintaining their relationship and learning fairy magic.",
+    "69": "Felurian teaches Kvothe about the Fae realm, its history, and grants him a magnificent cloak that marks him as her lover.",
+    "70": "Kvothe's time with Felurian includes learning about the Chandrian from her ancient perspective and knowledge.",
+    "71": "Before leaving the Fae, Kvothe encounters the Cthaeh, an oracular tree that knows all futures but speaks only malice.",
+    "72": "The Cthaeh reveals disturbing information about Denna, her patron, and hints about future tragedies that await Kvothe.",
+    "73": "Kvothe escapes the Cthaeh's influence and leaves the Fae realm, returning to the mortal world forever changed by his experiences.",
+    "74": "Reunited with Tempi, Kvothe continues his journey to Ademre, though his companion is deeply disturbed by his encounter with the Cthaeh.",
+    "75": "The revelation of Kvothe's meeting with the Cthaeh creates serious problems with Tempi and threatens their friendship.",
+    "76": "Tempi explains the significance of the Cthaeh in Adem culture and why Kvothe's encounter makes him incredibly dangerous.",
+    "77": "Despite the complications, the journey to Ademre continues as Kvothe tries to understand the full implications of his actions.",
+    "78": "Kvothe and Tempi arrive in Haert, the school where Adem warriors are trained, beginning a new phase of education.",
+    "79": "Kvothe is introduced to Adem culture and their unique approach to martial arts, philosophy, and social interaction.",
+    "80": "Initial training begins as Kvothe struggles to understand Adem customs and their different approach to fighting and life.",
+    "81": "Kvothe meets Vashet, who becomes his teacher in the Adem martial arts, beginning an intense and intimate training relationship.",
+    "82": "Training with Vashet intensifies as Kvothe learns the physical and philosophical aspects of Adem fighting techniques.",
+    "83": "Kvothe's progress in Adem martial arts accelerates, though he continues to struggle with their cultural expectations and customs.",
+    "84": "The relationship between Kvothe and Vashet deepens beyond teacher and student as they become lovers and close companions.",
+    "85": "Kvothe learns more about Adem history, their relationship with the outside world, and their unique cultural practices.",
+    "86": "Advanced training continues as Kvothe approaches the level of skill needed to be considered for membership in their warrior society.",
+    "87": "Kvothe faces challenges from other students who doubt his worthiness and question whether an outsider can truly understand their ways.",
+    "88": "Conflict with other Adem students escalates, particularly with Carceret, who sees Kvothe as a threat to their traditions.",
+    "89": "A formal challenge is issued, forcing Kvothe to prove his worth through combat and demonstration of his understanding of Adem ways.",
+    "90": "The challenge takes place with high stakes, as Kvothe must prove himself worthy of the red shirt marking an Adem warrior.",
+    "91": "Kvothe succeeds in his trials, earning recognition as an Adem warrior and the right to wear their traditional garb.",
+    "92": "With his training complete, Kvothe prepares to leave Ademre, saying farewell to Vashet and the friends he's made.",
+    "93": "Kvothe departs from Ademre with new skills, perspectives, and equipment, beginning his journey back to civilization.",
+    "94": "The return journey brings Kvothe through various lands and encounters as he makes his way back toward the University.",
+    "95": "Kvothe encounters various people and situations on his travels, using his new skills and knowledge from his recent adventures.",
+    "96": "Strange events and encounters mark Kvothe's journey as he deals with the consequences of his growing reputation and abilities.",
+    "97": "Kvothe arrives in Imre, returning to familiar territory after his long absence and adventures in foreign lands.",
+    "98": "Reunion with old friends at the Eolian brings both joy and complications as Kvothe tries to readjust to his former life.",
+    "99": "Kvothe encounters Denna again, renewing their complex relationship that has been interrupted by his travels and adventures.",
+    "100": "The reunion with Denna is both sweet and painful as both have changed during their time apart, creating new tensions.",
+    "101": "Kvothe and Denna spend time together, but their relationship is complicated by secrets, different experiences, and unspoken truths.",
+    "102": "Trouble arises involving Denna and her mysterious patron, creating new challenges for Kvothe's feelings and loyalties.",
+    "103": "The situation with Denna's patron becomes more complex as Kvothe learns disturbing information about the man's identity and nature.",
+    "104": "Kvothe's investigation into Denna's patron leads him to make connections to his own past and the Chandrian.",
+    "105": "Evidence suggests that Denna's patron may be connected to Kvothe's enemies, creating a terrible conflict between love and justice.",
+    "106": "The truth about Denna's patron creates a rift between Kvothe and Denna that may be impossible to bridge.",
+    "107": "Kvothe must decide how to handle the situation with Denna while dealing with his own emotional turmoil and conflicted loyalties.",
+    "108": "The conflict with Denna reaches a crisis point, forcing Kvothe to choose between his love for her and his quest for justice.",
+    "109": "Kvothe returns to the University, seeking solace in his studies and trying to process the emotional upheaval of recent events.",
+    "110": "Back at the University, Kvothe tries to resume his normal life but finds himself changed by his experiences and struggling with inner conflicts.",
+    "111": "Kvothe's return to the University brings both familiar comforts and new complications as he tries to readjust to academic life.",
+    "112": "Studies resume as Kvothe throws himself into his work, trying to distract himself from personal troubles and emotional pain.",
+    "113": "Kvothe's advancement in his studies continues, though his teachers and friends notice changes in his demeanor and approach.",
+    "114": "New challenges arise at the University as Kvothe's reputation and experiences create both opportunities and complications.",
+    "115": "Kvothe faces academic and personal challenges as he struggles to balance his various pursuits and responsibilities.",
+    "116": "Research into the Chandrian continues with new urgency as Kvothe pursues leads and follows clues about their activities.",
+    "117": "Kvothe's investigation leads him deeper into dangerous territory as he uncovers more about his enemies and their methods.",
+    "118": "New information about the Chandrian brings both hope and terror as Kvothe realizes the scope of the challenge he faces.",
+    "119": "Kvothe's knowledge of the Chandrian grows, but so does the danger as he learns more about their power and reach.",
+    "120": "The search for information about the Chandrian leads Kvothe to make difficult choices about how far he's willing to go.",
+    "121": "Kvothe uncovers disturbing connections between various events in his life and the larger pattern of Chandrian activity.",
+    "122": "New revelations about the past shed light on the true nature of the conflict between Kvothe's family and the Chandrian.",
+    "123": "Kvothe learns more about his own heritage and the significance of his family's knowledge and the troupe's destruction.",
+    "124": "The pieces of the puzzle begin to come together as Kvothe understands more about why the Chandrian targeted his family.",
+    "125": "Kvothe's research reveals the deeper connections between the Lackless family, his own heritage, and the Chandrian's interest.",
+    "126": "New understanding brings both clarity and new questions as Kvothe realizes the scope of the forces he's dealing with.",
+    "127": "Kvothe's investigation takes a dangerous turn as he comes closer to direct confrontation with his enemies.",
+    "128": "The search for answers leads Kvothe into increasingly perilous territory as he pursues leads about the Chandrian.",
+    "129": "Kvothe faces difficult decisions about how to proceed with his quest for justice while protecting those he cares about.",
+    "130": "New complications arise as Kvothe's various pursuits and relationships create conflicts and difficult choices.",
+    "131": "Kvothe must balance his desire for revenge with his responsibilities to friends and his own moral compass.",
+    "132": "The tension between Kvothe's goals and the reality of his situation creates new challenges and internal conflicts.",
+    "133": "Kvothe's plans begin to crystallize as he prepares for actions that will have far-reaching consequences.",
+    "134": "Preparation and planning occupy Kvothe as he makes ready for the next phase of his quest against the Chandrian.",
+    "135": "Kvothe's final preparations at the University set the stage for events that will change everything.",
+    "136": "The time for action approaches as Kvothe completes his preparations and makes difficult decisions about his future.",
+    "137": "Kvothe takes decisive action that will have profound consequences for himself and everyone around him.",
+    "138": "The consequences of Kvothe's actions begin to unfold, creating new challenges and changing relationships.",
+    "139": "Events spiral beyond Kvothe's control as the full impact of his decisions becomes apparent.",
+    "140": "Kvothe faces the aftermath of his actions and must deal with the unintended consequences of his choices.",
+    "141": "The situation reaches a crisis point as Kvothe confronts the results of his quest and the price of his actions.",
+    "142": "Kvothe must make crucial decisions about how to handle the chaos his actions have unleashed.",
+    "143": "The full scope of the disaster becomes clear as Kvothe realizes the extent of what his actions have caused.",
+    "144": "Kvothe attempts to address the consequences of his actions, but finds that some things cannot be undone.",
+    "145": "The tragic results of Kvothe's quest force him to confront the terrible price of his pursuit of justice.",
+    "146": "Kvothe faces the ultimate consequences of his actions as everything he cared about is threatened or destroyed.",
+    "147": "The culmination of Kvothe's story reveals the tragic events that led to his current state of despair and silence.",
+    "148": "Kvothe concludes his tale, explaining how the legendary hero became the broken innkeeper living in hiding.",
+    "149": "The story ends and returns to the present, where Kvothe, Bast, and Chronicler deal with the implications of what has been revealed.",
+    "150": "In the present day, the consequences of telling his story begin to manifest as the silence returns to the Waystone Inn.",
+    "151": "The epilogue shows the final state of affairs at the inn as Kvothe retreats into his assumed identity, but hints that greater forces are still at work."
+  }
+}

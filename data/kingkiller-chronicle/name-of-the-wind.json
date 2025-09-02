@@ -1,0 +1,1365 @@
+{
+  "meta": {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "chapters": 92,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "kvothe": {
+      "name": "Kvothe",
+      "aliases": ["Kote", "Dulator", "Maedre", "Flame", "Thunder", "Broken-Tree", "Six-String", "E'lir Kvothe", "Re'lar Kvothe"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An innkeeper known as Kote who runs the Waystone Inn in Newarre. Has distinctive red hair and green eyes.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Teacher of": "Bast"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Demonstrates unusual knowledge and abilities, suggesting he's more than he appears. Shows concern for dangerous creatures appearing.",
+          "role": "Former hero in hiding",
+          "relationships": {
+            "Teacher of": "Bast",
+            "Host to": "Chronicler"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Reveals himself to be the legendary figure Kvothe, agreeing to tell his true story to Chronicler over three days.",
+          "role": "Legendary hero and arcanist",
+          "relationships": {
+            "Teacher of": "Bast",
+            "Telling story to": "Chronicler"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Born to a troupe of traveling performers, parents are Arliden and Laurian. Showed early aptitude for music and learning.",
+          "role": "Child performer",
+          "relationships": {
+            "Son of": "Arliden and Laurian",
+            "Student of": "Ben"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Learns his first sympathy and naming from Ben, the troupe's arcanist. Shows remarkable aptitude for the arcane arts.",
+          "role": "Student of sympathy",
+          "relationships": {
+            "Son of": "Arliden and Laurian",
+            "Student of": "Ben"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Witnesses the massacre of his troupe by the Chandrian. Survives by being away gathering sage. Family and friends all killed.",
+          "role": "Sole survivor",
+          "relationships": {
+            "Orphaned by": "The Chandrian",
+            "Seeks revenge against": "The Chandrian"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Gains admission to the University and begins formal arcane education. Becomes youngest student ever admitted.",
+          "role": "University student",
+          "relationships": {
+            "Friend of": "Simmon and Wilem",
+            "Enemy of": "Ambrose",
+            "Student of": "University Masters"
+          }
+        }
+      }
+    },
+    "bast": {
+      "name": "Bast",
+      "aliases": ["Bastas, son of Remmen, Prince of Twilight and the Telwyth Mael"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young man with dark hair and eyes who helps run the Waystone Inn. Appears to be Kote's assistant or student.",
+          "role": "Inn assistant",
+          "relationships": {
+            "Student of": "Kote"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Shows unusual knowledge and seems concerned about his teacher's wellbeing. Demonstrates strange abilities when examining the scrael.",
+          "role": "Student with mysterious abilities",
+          "relationships": {
+            "Student of": "Kote",
+            "Worried about": "Kote"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Reveals he is fae, specifically a Prince of Twilight. Deeply devoted to Kvothe and wants him to return to his former self.",
+          "role": "Fae prince and devoted student",
+          "relationships": {
+            "Student of": "Kvothe",
+            "Prince of": "Twilight Court",
+            "Son of": "Remmen"
+          }
+        }
+      }
+    },
+    "chronicler": {
+      "name": "Chronicler",
+      "aliases": ["Devan Lochees"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A traveling scribe who arrives at the Waystone Inn. Carries himself with the bearing of an educated man.",
+          "role": "Scribe and historian",
+          "relationships": {
+            "Guest of": "Kote"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Reveals he is searching for Kvothe, having heard rumors of his location. Shows knowledge of arcane arts.",
+          "role": "Chronicler seeking the truth",
+          "relationships": {
+            "Searching for": "Kvothe",
+            "Protected by": "Bast"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "His true name is Devan Lochees. A renowned chronicler who will record Kvothe's true story over three days.",
+          "role": "Official chronicler",
+          "relationships": {
+            "Recording story of": "Kvothe",
+            "Protected by": "Bast"
+          }
+        }
+      }
+    },
+    "arliden": {
+      "name": "Arliden",
+      "aliases": ["Kvothe's father"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Kvothe's father and leader of their traveling troupe. A talented musician and storyteller with dark hair.",
+          "role": "Troupe leader and performer",
+          "relationships": {
+            "Husband of": "Laurian",
+            "Father of": "Kvothe",
+            "Leader of": "The troupe"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Working on a song about Lanre, researching the story extensively. Shows scholarly dedication to his craft.",
+          "role": "Musician and researcher",
+          "relationships": {
+            "Husband of": "Laurian",
+            "Father of": "Kvothe",
+            "Researching": "The Chandrian"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Killed by the Chandrian along with the rest of the troupe, likely because of his song about Lanre.",
+          "role": "Victim of the Chandrian",
+          "relationships": {
+            "Murdered by": "The Chandrian"
+          }
+        }
+      }
+    },
+    "laurian": {
+      "name": "Laurian",
+      "aliases": ["Natalia Lackless", "Lady Lackless", "Kvothe's mother"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Kvothe's mother, a beautiful woman with red hair and green eyes. Performs with the troupe.",
+          "role": "Troupe performer",
+          "relationships": {
+            "Wife of": "Arliden",
+            "Mother of": "Kvothe"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Reveals she came from nobility, specifically the Lackless family. Ran away to join the troupe and marry for love.",
+          "role": "Runaway noble",
+          "relationships": {
+            "Wife of": "Arliden",
+            "Mother of": "Kvothe",
+            "Estranged from": "Lackless family"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Killed by the Chandrian along with the rest of the troupe.",
+          "role": "Victim of the Chandrian",
+          "relationships": {
+            "Murdered by": "The Chandrian"
+          }
+        }
+      }
+    },
+    "ben": {
+      "name": "Ben",
+      "aliases": ["Abenthy", "The arcanist"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The troupe's arcanist, a learned man who begins teaching Kvothe the basics of sympathy and naming.",
+          "role": "Arcanist and teacher",
+          "relationships": {
+            "Teacher of": "Kvothe",
+            "Member of": "The troupe"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Recognizes Kvothe's exceptional talent and recommends him for the University. Shows deep knowledge of arcane arts.",
+          "role": "Mentor and guide",
+          "relationships": {
+            "Teacher of": "Kvothe",
+            "Recommends": "University education"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Leaves the troupe before the massacre, having found a patron. His departure likely saved his life.",
+          "role": "Former troupe member",
+          "relationships": {
+            "Former teacher of": "Kvothe",
+            "Served": "Baron Greyfallow"
+          }
+        }
+      }
+    },
+    "haliax": {
+      "name": "Haliax",
+      "aliases": ["Lanre", "Shadow-Hamed", "Lord of Seven"],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Leader of the Chandrian, a figure wrapped in shadow and darkness. Commands the other Chandrian and speaks of their cursed existence.",
+          "role": "Leader of the Chandrian",
+          "relationships": {
+            "Leader of": "The Chandrian",
+            "Commands": "Cinder and the others"
+          }
+        }
+      }
+    },
+    "cinder": {
+      "name": "Cinder",
+      "aliases": ["Ferule", "The one whose face is sharp and white"],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "One of the Chandrian, with a sharp white face and pale eyes. Shows cruelty and seems to enjoy violence.",
+          "role": "Member of the Chandrian",
+          "relationships": {
+            "Serves": "Haliax",
+            "Member of": "The Chandrian"
+          }
+        }
+      }
+    },
+    "simmon": {
+      "name": "Simmon",
+      "aliases": ["Sim"],
+      "appearances": [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "A friendly University student who befriends Kvothe. Has a cheerful disposition and comes from a wealthy family.",
+          "role": "University student",
+          "relationships": {
+            "Friend of": "Kvothe",
+            "Student at": "University"
+          }
+        },
+        "41": {
+          "revealedIn": 41,
+          "description": "Studies in the Artificery under Master Kilvin. Shows genuine friendship and concern for Kvothe's wellbeing.",
+          "role": "Artificery student",
+          "relationships": {
+            "Friend of": "Kvothe and Wilem",
+            "Student of": "Master Kilvin"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "From a noble family with money, often helps Kvothe financially. Good-natured and generous.",
+          "role": "Wealthy friend",
+          "relationships": {
+            "Best friend of": "Kvothe",
+            "Helps financially": "Kvothe"
+          }
+        }
+      }
+    },
+    "wilem": {
+      "name": "Wilem",
+      "aliases": ["Wil"],
+      "appearances": [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "A serious University student from the Commonwealth who befriends Kvothe. Has dark skin and a thoughtful manner.",
+          "role": "University student",
+          "relationships": {
+            "Friend of": "Kvothe",
+            "Student at": "University"
+          }
+        },
+        "41": {
+          "revealedIn": 41,
+          "description": "Studies languages and linguistics. More serious and cautious than Simmon but equally loyal as a friend.",
+          "role": "Linguistics student",
+          "relationships": {
+            "Friend of": "Kvothe and Simmon",
+            "Studies": "Languages"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Provides steady friendship and practical advice. Often serves as the voice of reason among the three friends.",
+          "role": "Practical advisor",
+          "relationships": {
+            "Best friend of": "Kvothe",
+            "Voice of reason for": "The group"
+          }
+        }
+      }
+    },
+    "ambrose": {
+      "name": "Ambrose Jakis",
+      "aliases": ["Ambrose"],
+      "appearances": [41, 42, 43, 44, 50, 51, 52, 53, 54, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "A wealthy, arrogant University student from a noble family. Immediately antagonistic toward Kvothe.",
+          "role": "Rival student",
+          "relationships": {
+            "Enemy of": "Kvothe",
+            "Student at": "University"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "From the powerful Jakis family, twelfth in line for the throne of Vintas. Uses his wealth and connections to cause problems.",
+          "role": "Noble antagonist",
+          "relationships": {
+            "Rival of": "Kvothe",
+            "Heir of": "Jakis family"
+          }
+        },
+        "71": {
+          "revealedIn": 71,
+          "description": "Escalates his harassment of Kvothe, leading to a confrontation involving malfeasance and Kvothe's expulsion threat.",
+          "role": "Dangerous enemy",
+          "relationships": {
+            "Threatens": "Kvothe",
+            "Uses malfeasance against": "Kvothe"
+          }
+        }
+      }
+    },
+    "master-kilvin": {
+      "name": "Master Kilvin",
+      "aliases": ["Kilvin"],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Master of the Artificery at the University. A large, practical man who teaches the creation of magical devices.",
+          "role": "University Master",
+          "relationships": {
+            "Teacher of": "Artificery students",
+            "Master at": "University"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Recognizes Kvothe's talent for artificing and becomes one of his favorite teachers. Values practical application over theory.",
+          "role": "Mentor",
+          "relationships": {
+            "Teacher of": "Kvothe",
+            "Appreciates": "Kvothe's talent"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Offers Kvothe work in his shop, providing both income and valuable experience. Shows faith in Kvothe's abilities.",
+          "role": "Employer and mentor",
+          "relationships": {
+            "Employs": "Kvothe",
+            "Mentor to": "Kvothe"
+          }
+        }
+      }
+    },
+    "master-hemme": {
+      "name": "Master Hemme",
+      "aliases": ["Hemme"],
+      "appearances": [39, 40, 42, 44, 45, 70, 71, 72],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Master of Rhetoric and Logic at the University. Immediately takes a dislike to Kvothe during his admissions.",
+          "role": "University Master",
+          "relationships": {
+            "Teacher of": "Rhetoric",
+            "Dislikes": "Kvothe"
+          }
+        },
+        "70": {
+          "revealedIn": 70,
+          "description": "Consistently opposes Kvothe in University matters, voting against his advancement and supporting his punishments.",
+          "role": "Antagonistic master",
+          "relationships": {
+            "Opposes": "Kvothe",
+            "Ally of": "Ambrose's interests"
+          }
+        }
+      }
+    },
+    "master-lorren": {
+      "name": "Master Lorren",
+      "aliases": ["Lorren"],
+      "appearances": [45, 46, 47, 48, 49, 65, 66, 67, 68, 69, 70],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Master Archivist at the University, guardian of the Archives. Stern and protective of his books.",
+          "role": "Master Archivist",
+          "relationships": {
+            "Guardian of": "The Archives",
+            "Master at": "University"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Initially refuses Kvothe access to the Archives due to his youth and the Ambrose incident.",
+          "role": "Gatekeeper of knowledge",
+          "relationships": {
+            "Denies access to": "Kvothe",
+            "Protects": "University books"
+          }
+        },
+        "69": {
+          "revealedIn": 69,
+          "description": "Eventually grants Kvothe access to the Archives after he proves his worth and follows proper procedures.",
+          "role": "Reluctant ally",
+          "relationships": {
+            "Grants access to": "Kvothe",
+            "Mentor to": "Kvothe"
+          }
+        }
+      }
+    },
+    "master-elodin": {
+      "name": "Master Elodin",
+      "aliases": ["Elodin"],
+      "appearances": [39, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Master Namer at the University, youngest person ever to be raised to Master. Eccentric and unpredictable.",
+          "role": "Master of Naming",
+          "relationships": {
+            "Teacher of": "Naming",
+            "Master at": "University"
+          }
+        },
+        "78": {
+          "revealedIn": 78,
+          "description": "Begins to take interest in Kvothe after hearing of his calling the wind. Mysterious and often speaks in riddles.",
+          "role": "Potential mentor",
+          "relationships": {
+            "Interested in": "Kvothe",
+            "Teacher of": "The Name of the Wind"
+          }
+        },
+        "82": {
+          "revealedIn": 82,
+          "description": "Takes Kvothe as his first student in many years, beginning to teach him the true art of Naming.",
+          "role": "Naming master and mentor",
+          "relationships": {
+            "Master of": "Kvothe",
+            "Teacher of": "True naming"
+          }
+        }
+      }
+    },
+    "auri": {
+      "name": "Auri",
+      "aliases": ["The girl in the Underthing"],
+      "appearances": [85, 86, 87, 88, 89],
+      "knowledge": {
+        "85": {
+          "revealedIn": 85,
+          "description": "A mysterious girl living in the tunnels beneath the University. Thin and pale with large dark eyes.",
+          "role": "Mysterious tunnel dweller",
+          "relationships": {
+            "Lives beneath": "University",
+            "Friend of": "Kvothe"
+          }
+        },
+        "86": {
+          "revealedIn": 86,
+          "description": "Gives Kvothe gifts and seems to understand things in her own unique way. Appears to have been hurt in the past.",
+          "role": "Fragile friend",
+          "relationships": {
+            "Gives gifts to": "Kvothe",
+            "Protected by": "Kvothe"
+          }
+        }
+      }
+    },
+    "devi": {
+      "name": "Devi",
+      "aliases": ["The gaelet"],
+      "appearances": [63, 64, 65, 66, 67, 68, 69, 84, 85],
+      "knowledge": {
+        "63": {
+          "revealedIn": 63,
+          "description": "A former University student who now works as a moneylender in Imre. Beautiful but dangerous.",
+          "role": "Moneylender",
+          "relationships": {
+            "Lends money to": "Students",
+            "Former student at": "University"
+          }
+        },
+        "64": {
+          "revealedIn": 64,
+          "description": "Banned from the University for unknown reasons. Skilled in sympathy and keeps a well-appointed office.",
+          "role": "Expelled sympathist",
+          "relationships": {
+            "Banned from": "University",
+            "Creditor to": "Students"
+          }
+        },
+        "84": {
+          "revealedIn": 84,
+          "description": "Becomes romantically interested in Kvothe and offers him favors beyond mere money lending.",
+          "role": "Romantic interest",
+          "relationships": {
+            "Attracted to": "Kvothe",
+            "Ally of": "Kvothe"
+          }
+        }
+      }
+    },
+    "threpe": {
+      "name": "Threpe",
+      "aliases": ["Count Threpe"],
+      "appearances": [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "75": {
+          "revealedIn": 75,
+          "description": "A minor noble who frequents the Eolian and becomes Kvothe's patron after hearing him play.",
+          "role": "Patron of the arts",
+          "relationships": {
+            "Patron of": "Kvothe",
+            "Regular at": "The Eolian"
+          }
+        },
+        "77": {
+          "revealedIn": 77,
+          "description": "Provides Kvothe with money, instruments, and social connections in exchange for musical performances.",
+          "role": "Generous patron",
+          "relationships": {
+            "Supports": "Kvothe",
+            "Provides for": "Kvothe's needs"
+          }
+        }
+      }
+    },
+    "stanchion": {
+      "name": "Stanchion",
+      "aliases": ["Owner of the Eolian"],
+      "appearances": [73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "73": {
+          "revealedIn": 73,
+          "description": "Owner and operator of the Eolian, the most prestigious musical establishment in Imre.",
+          "role": "Tavern owner",
+          "relationships": {
+            "Owner of": "The Eolian",
+            "Employer of": "Musicians"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Recognizes Kvothe's exceptional talent and allows him to play for silver, a rare honor.",
+          "role": "Musical patron",
+          "relationships": {
+            "Employs": "Kvothe",
+            "Recognizes talent of": "Kvothe"
+          }
+        }
+      }
+    },
+    "trapis": {
+      "name": "Trapis",
+      "aliases": ["Old Trapis"],
+      "appearances": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "An old beggar in Tarbean who cares for orphaned children. Tells stories and shares what little food he has.",
+          "role": "Caretaker of street children",
+          "relationships": {
+            "Protects": "Street orphans",
+            "Storyteller to": "Children"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Despite his own poverty, shows kindness to Kvothe and teaches him how to survive on the streets.",
+          "role": "Street mentor",
+          "relationships": {
+            "Mentor to": "Kvothe",
+            "Father figure to": "Street children"
+          }
+        }
+      }
+    },
+    "skarpi": {
+      "name": "Skarpi",
+      "aliases": ["The storyteller"],
+      "appearances": [26, 27, 28, 36, 37],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A professional storyteller in Tarbean who tells tales for coins. Knows stories about Lanre and the Creation War.",
+          "role": "Professional storyteller",
+          "relationships": {
+            "Storyteller to": "Tarbean citizens",
+            "Teacher of": "Ancient history"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Tells the story of Lanre's fall and transformation into Haliax, providing Kvothe with crucial information about the Chandrian.",
+          "role": "Keeper of dangerous knowledge",
+          "relationships": {
+            "Informs": "Kvothe about Chandrian",
+            "Knows truth about": "Lanre"
+          }
+        }
+      }
+    },
+    "fela": {
+      "name": "Fela",
+      "aliases": [],
+      "appearances": [44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "A beautiful University student with golden hair. Studies in the Medica under Master Arwyl.",
+          "role": "University student",
+          "relationships": {
+            "Student of": "Master Arwyl",
+            "Admired by": "Many students"
+          }
+        },
+        "82": {
+          "revealedIn": 82,
+          "description": "Shows interest in Kvothe and appears to have some talent for naming, though not formally trained.",
+          "role": "Potential namer",
+          "relationships": {
+            "Interested in": "Kvothe",
+            "Student at": "University"
+          }
+        }
+      }
+    },
+    "mola": {
+      "name": "Mola",
+      "aliases": [],
+      "appearances": [44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "A no-nonsense University student studying in the Medica. Has dark hair and a practical manner.",
+          "role": "Medical student",
+          "relationships": {
+            "Student of": "Master Arwyl",
+            "Medic to": "University students"
+          }
+        },
+        "71": {
+          "revealedIn": 71,
+          "description": "Treats Kvothe's injuries after his confrontation with Ambrose, showing professional skill and personal concern.",
+          "role": "Skilled medic",
+          "relationships": {
+            "Treats": "Kvothe",
+            "Friend of": "Kvothe"
+          }
+        }
+      }
+    },
+    "manet": {
+      "name": "Manet",
+      "aliases": [],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "An older University student who has been there for many years. Knowledgeable about University life and customs.",
+          "role": "Senior student",
+          "relationships": {
+            "Mentor to": "Younger students",
+            "Veteran of": "University life"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Provides practical advice to Kvothe about University politics and how to avoid trouble with other students.",
+          "role": "Advisor and guide",
+          "relationships": {
+            "Advises": "Kvothe",
+            "Friend of": "Kvothe"
+          }
+        }
+      }
+    },
+    "puppet": {
+      "name": "Puppet",
+      "aliases": [],
+      "appearances": [69, 70, 71, 72],
+      "knowledge": {
+        "69": {
+          "revealedIn": 69,
+          "description": "A strange student who lives in the Archives, surrounded by puppets he has made. Rarely speaks to others.",
+          "role": "Archives dweller",
+          "relationships": {
+            "Lives in": "The Archives",
+            "Tolerated by": "Master Lorren"
+          }
+        },
+        "70": {
+          "revealedIn": 70,
+          "description": "Shows unexpected knowledge and wisdom, suggesting there is more to him than his odd appearance suggests.",
+          "role": "Mysterious scholar",
+          "relationships": {
+            "Knows secrets of": "The Archives",
+            "Speaks rarely to": "Others"
+          }
+        }
+      }
+    },
+    "sovoy": {
+      "name": "Sovoy",
+      "aliases": [],
+      "appearances": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "A wealthy University student from a noble family. Well-dressed and interested in social connections.",
+          "role": "Noble student",
+          "relationships": {
+            "Student at": "University",
+            "Member of": "Noble family"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Introduces Kvothe to social circles in Imre and helps him navigate noble society.",
+          "role": "Social guide",
+          "relationships": {
+            "Introduces": "Kvothe to society",
+            "Friend of": "Kvothe"
+          }
+        }
+      }
+    },
+    "master-arwyl": {
+      "name": "Master Arwyl",
+      "aliases": ["Arwyl"],
+      "appearances": [44, 45, 71, 72],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Master of the Medica at the University, teaching healing arts and medicine.",
+          "role": "Medical master",
+          "relationships": {
+            "Teacher of": "Medical students",
+            "Master at": "University"
+          }
+        }
+      }
+    },
+    "master-dal": {
+      "name": "Master Dal",
+      "aliases": ["Dal"],
+      "appearances": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Master of Sympathy at the University, teaching the binding of forces and objects.",
+          "role": "Sympathy master",
+          "relationships": {
+            "Teacher of": "Sympathy students",
+            "Master at": "University"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Recognizes Kvothe's natural talent for sympathy and becomes a supportive teacher.",
+          "role": "Supportive mentor",
+          "relationships": {
+            "Teacher of": "Kvothe",
+            "Supporter of": "Kvothe's advancement"
+          }
+        }
+      }
+    },
+    "master-brandeur": {
+      "name": "Master Brandeur",
+      "aliases": ["Brandeur"],
+      "appearances": [40, 41, 42],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Master of Mathematics at the University, teaching arithmetic and calculation.",
+          "role": "Mathematics master",
+          "relationships": {
+            "Teacher of": "Mathematics",
+            "Master at": "University"
+          }
+        }
+      }
+    },
+    "master-mandrag": {
+      "name": "Master Mandrag",
+      "aliases": ["Mandrag"],
+      "appearances": [40, 41, 42],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Master of Alchemy at the University, teaching the mixing of compounds and reactions.",
+          "role": "Alchemy master",
+          "relationships": {
+            "Teacher of": "Alchemy",
+            "Master at": "University"
+          }
+        }
+      }
+    },
+    "chancellor-herma": {
+      "name": "Chancellor Herma",
+      "aliases": ["Herma"],
+      "appearances": [39, 70, 71, 72],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Chancellor of the University, overseeing admissions and major decisions.",
+          "role": "University Chancellor",
+          "relationships": {
+            "Leader of": "University",
+            "Oversees": "Masters and students"
+          }
+        }
+      }
+    },
+    "graham": {
+      "name": "Graham",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A villager from Newarre who frequents the Waystone Inn. Local gossip and regular customer.",
+          "role": "Village regular",
+          "relationships": {
+            "Customer of": "Waystone Inn",
+            "Villager in": "Newarre"
+          }
+        }
+      }
+    },
+    "jake": {
+      "name": "Jake",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A villager from Newarre who drinks at the Waystone Inn and shares local news.",
+          "role": "Village regular",
+          "relationships": {
+            "Customer of": "Waystone Inn",
+            "Villager in": "Newarre"
+          }
+        }
+      }
+    },
+    "shep": {
+      "name": "Shep",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A villager from Newarre, part of the group that regularly gathers at the inn.",
+          "role": "Village regular",
+          "relationships": {
+            "Customer of": "Waystone Inn",
+            "Villager in": "Newarre"
+          }
+        }
+      }
+    },
+    "old-cob": {
+      "name": "Old Cob",
+      "aliases": ["Cob"],
+      "appearances": [3, 4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly villager from Newarre who tells stories and shares drinks at the Waystone Inn.",
+          "role": "Village storyteller",
+          "relationships": {
+            "Regular at": "Waystone Inn",
+            "Storyteller to": "Other villagers"
+          }
+        }
+      }
+    },
+    "carter": {
+      "name": "Carter",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A farmer and carter from Newarre who brings news of strange creatures and dangers on the roads.",
+          "role": "Farmer and messenger",
+          "relationships": {
+            "Brings news to": "Waystone Inn",
+            "Works as": "Carter"
+          }
+        }
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young villager from Newarre, part of the local community that gathers at the inn.",
+          "role": "Young villager",
+          "relationships": {
+            "Member of": "Newarre community",
+            "Customer at": "Waystone Inn"
+          }
+        }
+      }
+    },
+    "smiths-prentice": {
+      "name": "Smith's Prentice",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 90, 91],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The apprentice to Newarre's blacksmith, a young man learning his trade.",
+          "role": "Blacksmith's apprentice",
+          "relationships": {
+            "Apprentice to": "Village blacksmith",
+            "Member of": "Newarre community"
+          }
+        }
+      }
+    },
+    "trip": {
+      "name": "Trip",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A member of Kvothe's troupe, one of the traveling performers who raised him.",
+          "role": "Troupe member",
+          "relationships": {
+            "Member of": "Kvothe's troupe",
+            "Caretaker of": "Kvothe"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Killed by the Chandrian along with the rest of the troupe.",
+          "role": "Victim of the Chandrian",
+          "relationships": {
+            "Murdered by": "The Chandrian"
+          }
+        }
+      }
+    },
+    "teren": {
+      "name": "Teren",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A member of Kvothe's troupe, part of the traveling family of performers.",
+          "role": "Troupe member",
+          "relationships": {
+            "Member of": "Kvothe's troupe",
+            "Caretaker of": "Kvothe"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Killed by the Chandrian along with the rest of the troupe.",
+          "role": "Victim of the Chandrian",
+          "relationships": {
+            "Murdered by": "The Chandrian"
+          }
+        }
+      }
+    },
+    "shandi": {
+      "name": "Shandi",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A member of Kvothe's troupe, one of the performers who helped raise him.",
+          "role": "Troupe member",
+          "relationships": {
+            "Member of": "Kvothe's troupe",
+            "Caretaker of": "Kvothe"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Killed by the Chandrian along with the rest of the troupe.",
+          "role": "Victim of the Chandrian",
+          "relationships": {
+            "Murdered by": "The Chandrian"
+          }
+        }
+      }
+    },
+    "marion": {
+      "name": "Marion",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A member of Kvothe's troupe, part of the traveling performing family.",
+          "role": "Troupe member",
+          "relationships": {
+            "Member of": "Kvothe's troupe",
+            "Caretaker of": "Kvothe"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Killed by the Chandrian along with the rest of the troupe.",
+          "role": "Victim of the Chandrian",
+          "relationships": {
+            "Murdered by": "The Chandrian"
+          }
+        }
+      }
+    },
+    "baron-greyfallow": {
+      "name": "Baron Greyfallow",
+      "aliases": [],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A minor noble who becomes Ben's patron, leading to Ben leaving the troupe before the massacre.",
+          "role": "Noble patron",
+          "relationships": {
+            "Patron of": "Ben",
+            "Employer of": "Ben"
+          }
+        }
+      }
+    },
+    "pike": {
+      "name": "Pike",
+      "aliases": [],
+      "appearances": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A street thief in Tarbean who robs Kvothe when he first arrives in the city.",
+          "role": "Street thief",
+          "relationships": {
+            "Robs": "Kvothe",
+            "Member of": "Tarbean thieves"
+          }
+        }
+      }
+    },
+    "tanee": {
+      "name": "Tanee",
+      "aliases": [],
+      "appearances": [22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A young girl living on the streets of Tarbean, cared for by Trapis.",
+          "role": "Street orphan",
+          "relationships": {
+            "Protected by": "Trapis",
+            "Lives with": "Other street children"
+          }
+        }
+      }
+    },
+    "anker": {
+      "name": "Anker",
+      "aliases": [],
+      "appearances": [63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "63": {
+          "revealedIn": 63,
+          "description": "Innkeeper of Anker's inn near the University, where many students lodge.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Landlord to": "University students",
+            "Owner of": "Anker's inn"
+          }
+        }
+      }
+    },
+    "tehlu": {
+      "name": "Tehlu",
+      "aliases": [],
+      "appearances": [26, 27, 28],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A figure from religious stories, said to be one of the angels who fought against darkness.",
+          "role": "Religious figure",
+          "relationships": {
+            "Leader of": "The angels",
+            "Enemy of": "Demons and darkness"
+          }
+        }
+      }
+    },
+    "selitos": {
+      "name": "Selitos",
+      "aliases": ["One-Eye"],
+      "appearances": [28],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A powerful figure from ancient history who could see truth and founded the Amyr after Lanre's betrayal.",
+          "role": "Ancient hero",
+          "relationships": {
+            "Founder of": "The Amyr",
+            "Enemy of": "Lanre/Haliax"
+          }
+        }
+      }
+    },
+    "lanre": {
+      "name": "Lanre",
+      "aliases": ["Haliax"],
+      "appearances": [12, 28],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A hero from ancient stories, the subject of Arliden's research for a song.",
+          "role": "Ancient hero",
+          "relationships": {
+            "Husband of": "Lyra",
+            "Hero of": "Creation War"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Revealed to have fallen to darkness and become Haliax after his beloved Lyra died.",
+          "role": "Fallen hero",
+          "relationships": {
+            "Became": "Haliax",
+            "Betrayed": "His former allies"
+          }
+        }
+      }
+    },
+    "lyra": {
+      "name": "Lyra",
+      "aliases": [],
+      "appearances": [12, 28],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A figure from ancient stories, associated with Lanre in the tales Arliden researches.",
+          "role": "Ancient figure",
+          "relationships": {
+            "Wife of": "Lanre",
+            "Character in": "Ancient stories"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Lanre's beloved whose death drove him to despair and eventually to darkness.",
+          "role": "Tragic figure",
+          "relationships": {
+            "Beloved of": "Lanre",
+            "Cause of": "Lanre's fall"
+          }
+        }
+      }
+    },
+    "taborlin": {
+      "name": "Taborlin the Great",
+      "aliases": ["Taborlin"],
+      "appearances": [9, 10, 26],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A legendary wizard from old stories, known for his clever escapes and magical abilities.",
+          "role": "Legendary wizard",
+          "relationships": {
+            "Hero of": "Old stories",
+            "Wielder of": "Magic and cunning"
+          }
+        }
+      }
+    },
+    "iax": {
+      "name": "Iax",
+      "aliases": ["Jax"],
+      "appearances": [26],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A figure from ancient stories, associated with stealing and being locked away.",
+          "role": "Ancient figure",
+          "relationships": {
+            "Locked in": "Ancient prison",
+            "Associated with": "Stealing and chaos"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "0": "A Silence of Three Parts - The prologue introduces the Waystone Inn and its mysterious innkeeper, establishing the frame narrative and the sense of waiting that permeates the story.",
+    "1": "Silence settles over the Waystone Inn in the village of Newarre. The innkeeper Kote moves through his evening routine while his assistant Bast watches with concern. A traveling scribe named Chronicler arrives seeking shelter.",
+    "2": "Carter the farmer brings news of strange creatures called scrael attacking people on the roads. Kote and Bast examine a dead scrael, with Bast showing unusual knowledge about the dangerous creatures and their unnatural origin.",
+    "3": "The locals gather at the inn to discuss the growing dangers on the roads. Old Cob tells stories while the men drink and worry about the strange times they're living in.",
+    "4": "More villagers arrive at the inn as news spreads about the scrael attacks. The community seeks comfort in familiar routines while underlying tensions about the changing world grow stronger.",
+    "5": "Bast grows increasingly worried about his master's passive behavior. The villagers continue their discussions about the dangerous creatures, while Kote remains withdrawn and seemingly powerless.",
+    "6": "Bast reveals his true nature as one of the fae to Chronicler, explaining his desperate concern for his master who has lost his former power and vitality. He threatens Chronicler to help restore Kvothe.",
+    "7": "Kote reveals his true identity as the legendary Kvothe to Chronicler. He agrees to tell his complete story over three days, beginning the tale that will encompass his entire life and explain how he came to his current state.",
+    "8": "Kvothe begins his story with his childhood in a traveling troupe of performers. Born to Arliden and Laurian, he grew up learning music, stories, and the skills of entertainers while traveling the Commonwealth roads.",
+    "9": "Ben, the troupe's arcanist, begins teaching young Kvothe the basics of sympathy and naming. Kvothe shows remarkable aptitude for these arcane arts, learning faster than Ben expected and demonstrating unusual talent.",
+    "10": "Kvothe continues his education under Ben while the troupe travels and performs. He learns more about the University and begins to dream of studying there, while also developing his musical abilities.",
+    "11": "The troupe encounters nobles and performs for various audiences. Laurian reveals her noble background as part of the Lackless family, explaining why she left that life behind for love and adventure.",
+    "12": "Arliden begins researching and composing a song about Lanre, gathering stories and historical accounts. His scholarly approach to the project shows his dedication to accuracy in his artistic work.",
+    "13": "The troupe continues traveling while Arliden works on his Lanre song. Kvothe learns more about music and performance while Ben continues his arcane education, preparing him for eventual University admission.",
+    "14": "Ben receives an offer from Baron Greyfallow to become his personal arcanist. After much consideration and preparation, he decides to leave the troupe to take the position, saying farewell to Kvothe.",
+    "15": "With Ben gone, the troupe continues their travels. Arliden works intensively on his Lanre song while the group performs their regular shows, unaware of the danger their research is attracting.",
+    "16": "Kvothe returns from gathering sage to find his entire troupe massacred by the Chandrian. He witnesses the aftermath and sees the signs of the Chandrian's presence before fleeing in terror and grief.",
+    "17": "Alone and traumatized, Kvothe buries his troupe and salvages what he can. He begins the long journey toward civilization, carrying his grief and a burning desire for revenge against the Chandrian.",
+    "18": "Kvothe reaches Tarbean and is immediately robbed by street thieves. Penniless and alone in the city, he begins learning the harsh realities of life on the streets.",
+    "19": "Kvothe struggles to survive in Tarbean's dangerous streets. He learns to avoid the worst areas and finds meager ways to stay alive while dealing with his trauma and loss.",
+    "20": "Life on the streets proves brutal as Kvothe faces hunger, cold, and constant danger. He begins to adapt to urban survival while his grief and trauma leave him emotionally numb.",
+    "21": "Kvothe continues his hard existence in Tarbean, slowly learning the unwritten rules of street life. His trauma leaves him detached from his former self and abilities.",
+    "22": "Kvothe encounters Trapis, an old beggar who cares for street children. Trapis shares what little food he has and tells stories, providing some small comfort in the harsh urban environment.",
+    "23": "Under Trapis's protection, Kvothe finds a measure of safety among other street orphans. Trapis teaches him survival skills and shares stories that keep hope alive in desperate circumstances.",
+    "24": "Kvothe settles into the routine of street life under Trapis's care. The old man's kindness and the community of children provide some stability, though life remains precarious.",
+    "25": "The street children face the daily challenges of finding food and shelter. Trapis continues to tell stories and share wisdom while protecting his makeshift family as best he can.",
+    "26": "Skarpi the storyteller begins telling tales of ancient times in Tarbean's marketplace. His stories of Tehlu, Iax, and other legendary figures draw crowds and capture Kvothe's attention.",
+    "27": "Skarpi continues his storytelling, weaving tales of the Creation War and ancient heroes. Kvothe becomes a regular listener, drawn to these stories that echo themes from his past.",
+    "28": "Skarpi tells the crucial story of Lanre's fall and transformation into Haliax. This tale provides Kvothe with vital information about the Chandrian and begins to reawaken his sense of purpose.",
+    "29": "The impact of Skarpi's story begins to penetrate Kvothe's emotional numbness. Learning about Lanre and the Chandrian starts to restore his connection to his grief and his desire for revenge.",
+    "30": "Kvothe begins to emerge from his emotional paralysis. The stories have reminded him of who he was and what he lost, slowly rekindling his determination to seek answers and justice.",
+    "31": "With his sense of purpose returning, Kvothe starts to remember his former abilities. He begins practicing music again, reconnecting with the skills that defined his earlier life.",
+    "32": "Kvothe continues his slow recovery, rediscovering his talents and beginning to plan for a future beyond mere survival. The stories have given him both knowledge and renewed motivation.",
+    "33": "As Kvothe regains more of himself, he starts to see a path forward. His musical abilities return as he practices, and he begins to envision leaving the streets behind.",
+    "34": "Kvothe's recovery accelerates as he reconnects with his musical talents. He starts earning small amounts of money through performance, building toward his escape from street life.",
+    "35": "With growing confidence and returning skills, Kvothe begins planning his departure from Tarbean. He saves money and prepares for the journey to the University that Ben had recommended.",
+    "36": "Skarpi continues his storytelling while Kvothe prepares to leave. The old storyteller's tales have provided both crucial knowledge about the Chandrian and the inspiration to reclaim his life.",
+    "37": "Kvothe makes final preparations to leave Tarbean. He says farewell to Trapis and the other street children, carrying with him the lessons learned in the city's harsh streets.",
+    "38": "Kvothe finally leaves Tarbean behind, beginning his journey toward the University. He carries little more than his lute and his determination to learn what he needs to find the Chandrian.",
+    "39": "Kvothe arrives at the University and faces the admissions process. He impresses some masters while antagonizing Master Hemme, but ultimately gains admission despite being younger than typical students.",
+    "40": "Kvothe begins his formal education at the University, attending classes with Masters Kilvin, Dal, and others. He meets fellow students and starts learning the structured approach to arcane studies.",
+    "41": "Kvothe befriends Simmon and Wilem while making an enemy of the noble student Ambrose. He excels in his studies, particularly in Master Kilvin's Artificery and Master Dal's Sympathy classes.",
+    "42": "Kvothe's conflict with Ambrose escalates when the noble student breaks Kvothe's lute. This leads to a confrontation that results in Kvothe being brought before the masters for punishment.",
+    "43": "The masters deliberate on Kvothe's punishment for his confrontation with Ambrose. Despite the politics involved, Kvothe receives a relatively light sentence, though tensions remain high.",
+    "44": "Kvothe settles into University life, making friends like Fela and Mola while pursuing his studies. He excels academically but faces financial difficulties due to his lack of family support.",
+    "45": "Kvothe seeks access to the Archives to research the Chandrian but is denied by Master Lorren. He begins exploring other ways to gather information while continuing his formal education.",
+    "46": "Frustrated by his limited access to books and information, Kvothe focuses on his studies and relationships with other students. He continues working to prove himself worthy of Archives access.",
+    "47": "Kvothe's academic excellence continues as he advances in his understanding of sympathy, artificery, and other subjects. His reputation as a brilliant but troublesome student grows among faculty and students.",
+    "48": "Financial pressures mount as Kvothe struggles to pay for tuition and living expenses. He seeks ways to earn money while maintaining his academic performance and social relationships.",
+    "49": "Kvothe continues his studies while dealing with ongoing money problems. His friendships with Simmon and Wilem provide support, while his rivalry with Ambrose creates additional complications.",
+    "50": "The daily routine of University life continues as Kvothe attends classes, studies, and works on various projects. His reputation as an exceptional student grows, along with the challenges this brings.",
+    "51": "Kvothe faces another financial crisis as tuition payments come due. He explores various options for earning money while maintaining his academic standing and avoiding further conflict with Ambrose.",
+    "52": "Life at the University presents both opportunities and obstacles as Kvothe navigates academic politics, financial pressure, and social relationships. His exceptional abilities continue to set him apart from other students.",
+    "53": "Kvothe's studies progress as he delves deeper into the theoretical and practical aspects of the arcane arts. His relationships with various masters and students continue to evolve.",
+    "54": "The ongoing challenges of University life test Kvothe's resolve and resourcefulness. He works to balance his academic goals with practical necessities and personal relationships.",
+    "55": "Master Kilvin offers Kvothe work in the Artificery shop, providing both income and valuable hands-on experience. This opportunity helps address his financial problems while advancing his education.",
+    "56": "Working in the Artificery under Master Kilvin, Kvothe gains practical experience while earning money. His innovative approaches to problems impress his teacher and fellow workers.",
+    "57": "Kvothe continues his work in the Artificery while maintaining his studies. The combination of theoretical knowledge and practical application enhances his understanding of the arcane arts.",
+    "58": "Life at the University settles into a more manageable routine as Kvothe's work provides financial stability. He continues to excel academically while building valuable relationships.",
+    "59": "Kvothe's reputation at the University continues to grow as both a brilliant student and a capable artificer. His work and studies provide new insights into the nature of sympathy and naming.",
+    "60": "The ongoing tension with Ambrose creates periodic complications in Kvothe's University life. Despite these challenges, he continues to advance academically and personally.",
+    "61": "Kvothe faces new challenges as his growing reputation attracts both positive and negative attention. His relationship with various masters and students continues to evolve.",
+    "62": "Academic and social life at the University becomes more complex as Kvothe's abilities and reputation grow. He must navigate increasing expectations and political considerations.",
+    "63": "Financial pressures return as Kvothe faces unexpected expenses. He seeks new sources of income, leading him to explore options outside the University's immediate environment.",
+    "64": "Kvothe encounters Devi, a former University student who now works as a moneylender. Their meeting introduces new possibilities and complications into his financial and academic situation.",
+    "65": "The relationship with Devi develops as Kvothe considers his options for addressing financial needs. Her mysterious past and current situation intrigue him while raising questions about University politics.",
+    "66": "Kvothe continues to navigate the complex social and academic environment of the University. His relationships with masters, students, and outside contacts like Devi grow more intricate.",
+    "67": "The ongoing challenges of University life require Kvothe to balance multiple priorities and relationships. His quest for knowledge about the Chandrian remains a driving force beneath daily concerns.",
+    "68": "Kvothe's studies and work continue as he seeks to advance his understanding of the arcane arts. The combination of formal education and practical experience shapes his growing abilities.",
+    "69": "Master Lorren finally grants Kvothe access to the Archives, opening new opportunities for research. Kvothe begins exploring the vast collection of books and documents for information about the Chandrian.",
+    "70": "In the Archives, Kvothe meets Puppet, a strange student who lives among the books. He begins systematic research into the Chandrian while navigating the Archives' rules and restrictions.",
+    "71": "Kvothe's conflict with Ambrose reaches a new level when the noble student attempts to use malfeasance against him. The confrontation results in Kvothe facing potential expulsion from the University.",
+    "72": "The aftermath of the malfeasance incident creates new challenges for Kvothe's academic career. He must deal with the political consequences while continuing his education and research.",
+    "73": "Seeking a new source of income, Kvothe ventures to Imre and discovers the Eolian, a prestigious musical establishment. He attempts to earn money through performance while maintaining his studies.",
+    "74": "At the Eolian, Kvothe demonstrates his musical abilities to the owner Stanchion and the assembled audience. His performance attracts attention and begins to establish his reputation as a musician.",
+    "75": "Kvothe's musical performance at the Eolian earns him the right to play for silver, a rare honor. He also attracts the attention of Count Threpe, who becomes interested in becoming his patron.",
+    "76": "The relationship with Count Threpe develops as the nobleman offers to become Kvothe's patron. This arrangement promises financial support in exchange for musical performances and social appearances.",
+    "77": "Under Threpe's patronage, Kvothe gains access to higher social circles in Imre. He performs at various noble gatherings while continuing his University studies and research.",
+    "78": "Master Elodin begins to take interest in Kvothe after learning of his ability to call the wind. The mysterious naming master starts to consider taking Kvothe as a student.",
+    "79": "Kvothe's life becomes more complex as he balances University studies, work in the Artificery, musical performances, and social obligations as Threpe's protégé.",
+    "80": "The various aspects of Kvothe's life at the University and in Imre continue to develop. His reputation grows in multiple areas while he maintains his focus on learning about the Chandrian.",
+    "81": "Master Elodin's interest in Kvothe intensifies as the master begins testing his potential for naming. These interactions hint at deeper mysteries surrounding the art of true naming.",
+    "82": "Elodin accepts Kvothe as his student, beginning to teach him the true art of naming. Kvothe also meets Auri, a mysterious girl living in the tunnels beneath the University.",
+    "83": "Kvothe's education in naming begins under Elodin's unconventional teaching methods. His friendship with Auri develops as he learns to navigate her unique perspective and fragile nature.",
+    "84": "The relationship with Devi becomes more complex as both financial and romantic elements emerge. Kvothe continues his studies in naming while maintaining other responsibilities and relationships.",
+    "85": "Kvothe's various pursuits continue as he balances his education in naming, work with Master Kilvin, musical performances, and his growing friendship with the enigmatic Auri.",
+    "86": "The friendship with Auri deepens as Kvothe learns to understand her strange but insightful way of seeing the world. His studies in naming progress under Elodin's mysterious guidance.",
+    "87": "Kvothe continues to develop his abilities in naming while maintaining his other studies and responsibilities. His relationships with various friends and mentors grow more complex and meaningful.",
+    "88": "The various threads of Kvothe's University life continue to develop as he advances in his education, relationships, and understanding of both arcane arts and the wider world.",
+    "89": "Kvothe's time at the University reaches a turning point as his education, relationships, and research combine to prepare him for the next phase of his journey and the challenges ahead.",
+    "90": "The story returns to the present at the Waystone Inn, where Kvothe pauses in his telling. The first day of his tale concludes with both Chronicler and Bast absorbing the remarkable story of his early life.",
+    "91": "In the present, the effects of Kvothe's storytelling are evident as some of his former vitality seems to return. However, the silence and stillness that have claimed him remain largely intact, suggesting deeper wounds yet to be revealed.",
+    "92": "A Silence of Three Parts - The epilogue mirrors the prologue, returning to the silence of the inn as Kvothe's story pauses, leaving both Chronicler and readers anticipating the continuation of his tale."
+  }
+}
