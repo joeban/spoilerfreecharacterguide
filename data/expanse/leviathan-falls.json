@@ -403,6 +403,688 @@
           }
         }
       }
+    },
+    "laconian-force-member-1": {
+      "name": "Admiral Trejo",
+      "aliases": ["Trejo"],
+      "appearances": [11, 23, 35, 47],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former Laconian admiral working to maintain some form of order as the empire collapses and the ring systems face extinction.",
+          "role": "Order Maintainer",
+          "relationships": {
+            "Mission": "Preventing collapse"
+          }
+        }
+      }
+    },
+    "laconian-force-member-2": {
+      "name": "Commander Singh",
+      "aliases": ["Singh"],
+      "appearances": [11, 23, 35],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Laconian military commander dealing with the breakdown of imperial authority during the crisis.",
+          "role": "Crisis Commander",
+          "relationships": {
+            "Challenge": "Imperial breakdown"
+          }
+        }
+      }
+    },
+    "colony-representative-1": {
+      "name": "Colony Rep Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [18, 30, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Representative from one of the ring colonies coordinating evacuation efforts as systems become uninhabitable.",
+          "role": "Evacuation Coordinator",
+          "relationships": {
+            "Mission": "Population evacuation"
+          }
+        }
+      }
+    },
+    "colony-representative-2": {
+      "name": "Colony Rep Chen",
+      "aliases": ["Chen"],
+      "appearances": [18, 30, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Another colony representative working to coordinate mass evacuation as the ring systems face destruction.",
+          "role": "Evacuation Coordinator",
+          "relationships": {
+            "Goal": "System evacuation"
+          }
+        }
+      }
+    },
+    "ship-crew-member-1": {
+      "name": "Captain Rodriguez",
+      "aliases": ["Rodriguez"],
+      "appearances": [15, 31, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Ship captain working to transport refugees during the final crisis as ring systems become uninhabitable.",
+          "role": "Refugee Transport",
+          "relationships": {
+            "Mission": "Refugee evacuation",
+            "Challenge": "System instability"
+          }
+        }
+      }
+    },
+    "ship-crew-member-2": {
+      "name": "Pilot Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [15, 31, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Transport pilot navigating the increasingly dangerous ring space during the evacuation efforts.",
+          "role": "Evacuation Pilot",
+          "relationships": {
+            "Hazard": "Ring space dangers",
+            "Mission": "Transport operations"
+          }
+        }
+      }
+    },
+    "people-affected-by-hive-mind-1": {
+      "name": "Affected Person Alpha",
+      "aliases": ["Alpha"],
+      "appearances": [24, 36, 48, 51],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Individual affected by the expanding hive mind consciousness that threatens human individuality.",
+          "role": "Hive Mind Affected",
+          "relationships": {
+            "Condition": "Collective consciousness",
+            "Status": "Individual loss"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Shows the progression of hive mind integration and loss of individual identity.",
+          "role": "Integration Example",
+          "relationships": {
+            "Process": "Identity dissolution"
+          }
+        }
+      }
+    },
+    "people-affected-by-hive-mind-2": {
+      "name": "Affected Person Beta",
+      "aliases": ["Beta"],
+      "appearances": [24, 36, 48],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Another person experiencing the effects of collective consciousness as individual thought becomes impossible.",
+          "role": "Collective Consciousness Victim",
+          "relationships": {
+            "Experience": "Loss of individuality"
+          }
+        }
+      }
+    },
+    "resistance-member-1": {
+      "name": "Resistance Fighter Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [12, 24, 36, 48],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Resistance member working to coordinate final efforts to save human civilization from extinction.",
+          "role": "Final Resistance",
+          "relationships": {
+            "Mission": "Civilization preservation",
+            "Network": "Final resistance cells"
+          }
+        }
+      }
+    },
+    "resistance-member-2": {
+      "name": "Underground Agent Kim",
+      "aliases": ["Kim"],
+      "appearances": [12, 24, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Underground operative working in the final desperate attempts to prevent human extinction.",
+          "role": "Final Operative",
+          "relationships": {
+            "Goal": "Species survival"
+          }
+        }
+      }
+    },
+    "scientist-researcher-1": {
+      "name": "Dr. Foster",
+      "aliases": ["Foster"],
+      "appearances": [19, 31, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Scientist working to understand the final crisis and find solutions to prevent complete human extinction.",
+          "role": "Crisis Scientist",
+          "relationships": {
+            "Research": "Extinction prevention",
+            "Challenge": "Limited time"
+          }
+        }
+      }
+    },
+    "scientist-researcher-2": {
+      "name": "Research Tech Wilson",
+      "aliases": ["Wilson"],
+      "appearances": [19, 31, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Research technician assisting in the final attempts to understand and counter the ancient alien response.",
+          "role": "Final Research Tech",
+          "relationships": {
+            "Supervisor": "Dr. Foster",
+            "Mission": "Alien response analysis"
+          }
+        }
+      }
+    },
+    "kit-associate-1": {
+      "name": "Kit Associate Adams",
+      "aliases": ["Adams"],
+      "appearances": [21, 33, 45, 51],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Person working alongside Kit in the final humanitarian efforts as civilization faces its end.",
+          "role": "Humanitarian Associate",
+          "relationships": {
+            "Leader": "Kit",
+            "Mission": "Final humanitarian aid"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Continues working to help others even as the situation becomes hopeless for human civilization.",
+          "role": "Final Helper",
+          "relationships": {
+            "Dedication": "Helping to the end"
+          }
+        }
+      }
+    },
+    "kit-associate-2": {
+      "name": "Kit Associate Torres",
+      "aliases": ["Torres"],
+      "appearances": [21, 33, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Another member of Kit's organization working to provide aid during the final crisis.",
+          "role": "Aid Worker",
+          "relationships": {
+            "Organization": "Kit's group",
+            "Focus": "Crisis relief"
+          }
+        }
+      }
+    },
+    "ring-space-person-1": {
+      "name": "Ring Space Entity Alpha",
+      "aliases": ["Alpha Entity"],
+      "appearances": [38, 44, 50],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Entity or consciousness encountered in ring space as the ancient alien crisis reaches its climax.",
+          "role": "Ring Space Entity",
+          "relationships": {
+            "Nature": "Unknown consciousness",
+            "Location": "Ring space"
+          }
+        }
+      }
+    },
+    "ring-space-person-2": {
+      "name": "Ring Space Entity Beta",
+      "aliases": ["Beta Entity"],
+      "appearances": [38, 44],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Another consciousness or entity existing within the ring space during the final crisis.",
+          "role": "Ring Space Consciousness",
+          "relationships": {
+            "Realm": "Ring space",
+            "Status": "Non-human entity"
+          }
+        }
+      }
+    },
+    "epilogue-character-1": {
+      "name": "Future Person Alpha",
+      "aliases": ["Future Alpha"],
+      "appearances": [52, 53],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "Person living in the aftermath of the ancient alien crisis, representing the future of human civilization.",
+          "role": "Future Human",
+          "relationships": {
+            "Time": "Post-crisis future",
+            "Status": "Survivor descendant"
+          }
+        }
+      }
+    },
+    "epilogue-character-2": {
+      "name": "Future Person Beta",
+      "aliases": ["Future Beta"],
+      "appearances": [52, 53],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "Another person in the post-crisis world, showing how humanity has adapted to the new reality.",
+          "role": "Adapted Human",
+          "relationships": {
+            "World": "Post-crisis Earth",
+            "Adaptation": "New way of life"
+          }
+        }
+      }
+    },
+    "tanaka-team-member-1": {
+      "name": "Tanaka Agent Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [8, 20, 32, 44],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Agent working with Colonel Tanaka in the hunt for Teresa Duarte and related operations.",
+          "role": "Tanaka Agent",
+          "relationships": {
+            "Superior": "Aliana Tanaka",
+            "Mission": "Teresa pursuit"
+          }
+        }
+      }
+    },
+    "tanaka-team-member-2": {
+      "name": "Tanaka Operative Brown",
+      "aliases": ["Brown"],
+      "appearances": [8, 20, 32],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Operative assisting Tanaka in tracking down Teresa and investigating the larger crisis.",
+          "role": "Investigation Operative",
+          "relationships": {
+            "Leader": "Colonel Tanaka",
+            "Target": "Teresa investigation"
+          }
+        }
+      }
+    },
+    "transport-coordinator-1": {
+      "name": "Transport Chief Lopez",
+      "aliases": ["Lopez"],
+      "appearances": [16, 28, 40, 52],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Transportation coordinator managing the massive evacuation efforts as ring systems become uninhabitable.",
+          "role": "Evacuation Coordinator",
+          "relationships": {
+            "Mission": "System-wide evacuation",
+            "Challenge": "Limited time and ships"
+          }
+        }
+      }
+    },
+    "transport-coordinator-2": {
+      "name": "Logistics Manager Davis",
+      "aliases": ["Davis"],
+      "appearances": [16, 28, 40],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Logistics specialist coordinating supply and transport during the emergency evacuation operations.",
+          "role": "Emergency Logistics",
+          "relationships": {
+            "Function": "Evacuation support",
+            "Scope": "System-wide operations"
+          }
+        }
+      }
+    },
+    "communication-operator-1": {
+      "name": "Comms Officer Patel",
+      "aliases": ["Patel"],
+      "appearances": [14, 26, 38, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Communications officer maintaining contact between scattered groups during the final crisis.",
+          "role": "Emergency Communications",
+          "relationships": {
+            "Mission": "Maintaining contact",
+            "Challenge": "System instability"
+          }
+        }
+      }
+    },
+    "communication-operator-2": {
+      "name": "Signal Specialist Wong",
+      "aliases": ["Wong"],
+      "appearances": [14, 26, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Signal processing specialist working to maintain communications as the infrastructure fails.",
+          "role": "Signal Processor",
+          "relationships": {
+            "Equipment": "Communication systems",
+            "Goal": "Signal maintenance"
+          }
+        }
+      }
+    },
+    "medical-responder-1": {
+      "name": "Emergency Doctor Taylor",
+      "aliases": ["Dr. Taylor"],
+      "appearances": [17, 29, 41, 53],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Medical doctor providing emergency care during the evacuation and crisis response efforts.",
+          "role": "Emergency Doctor",
+          "relationships": {
+            "Mission": "Medical crisis response",
+            "Patients": "Crisis victims"
+          }
+        }
+      }
+    },
+    "medical-responder-2": {
+      "name": "Medic Johnson",
+      "aliases": ["Johnson"],
+      "appearances": [17, 29, 41],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Medical technician assisting in treating those affected by the ring space crisis and evacuation trauma.",
+          "role": "Crisis Medic",
+          "relationships": {
+            "Supervisor": "Dr. Taylor",
+            "Focus": "Trauma treatment"
+          }
+        }
+      }
+    },
+    "security-personnel-1": {
+      "name": "Security Chief Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [13, 25, 37, 49],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Security chief maintaining order during the chaotic evacuation and crisis response operations.",
+          "role": "Crisis Security",
+          "relationships": {
+            "Mission": "Maintaining order",
+            "Challenge": "Widespread panic"
+          }
+        }
+      }
+    },
+    "security-personnel-2": {
+      "name": "Guard Captain Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [13, 25, 37],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Security captain working to protect evacuation sites and maintain safety during the crisis.",
+          "role": "Protection Captain",
+          "relationships": {
+            "Responsibility": "Evacuation security",
+            "Priority": "Civilian safety"
+          }
+        }
+      }
+    },
+    "technical-specialist-1": {
+      "name": "Tech Specialist Kim",
+      "aliases": ["Kim"],
+      "appearances": [20, 32, 44, 50],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Technical specialist working on systems to understand and potentially counter the ancient alien response.",
+          "role": "Crisis Technician",
+          "relationships": {
+            "Mission": "Technical solution research",
+            "Focus": "Alien response analysis"
+          }
+        }
+      }
+    },
+    "technical-specialist-2": {
+      "name": "Systems Analyst Rodriguez",
+      "aliases": ["Rodriguez"],
+      "appearances": [20, 32, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Systems analyst studying the breakdown of ring gate technology and its implications for human survival.",
+          "role": "System Analyst",
+          "relationships": {
+            "Analysis": "Ring gate breakdown",
+            "Implication": "Human survival"
+          }
+        }
+      }
+    },
+    "supply-coordinator-1": {
+      "name": "Supply Chief Santos",
+      "aliases": ["Santos"],
+      "appearances": [18, 30, 42, 52],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Supply coordinator managing resources during the mass evacuation from doomed ring systems.",
+          "role": "Resource Manager",
+          "relationships": {
+            "Mission": "Evacuation supplies",
+            "Challenge": "Limited resources"
+          }
+        }
+      }
+    },
+    "supply-coordinator-2": {
+      "name": "Logistics Officer Lewis",
+      "aliases": ["Lewis"],
+      "appearances": [18, 30, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Logistics officer coordinating the complex supply chains needed for system-wide evacuation efforts.",
+          "role": "Evacuation Logistics",
+          "relationships": {
+            "Scope": "System-wide evacuation",
+            "Complexity": "Multi-system coordination"
+          }
+        }
+      }
+    },
+    "civilian-survivor-1": {
+      "name": "Survivor Chen",
+      "aliases": ["Chen"],
+      "appearances": [22, 34, 46, 53],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Civilian survivor of the ring space crisis, representing the ordinary people caught in the ancient alien response.",
+          "role": "Crisis Survivor",
+          "relationships": {
+            "Status": "Ordinary civilian",
+            "Experience": "Crisis survival"
+          }
+        }
+      }
+    },
+    "civilian-survivor-2": {
+      "name": "Refugee Miller",
+      "aliases": ["Miller"],
+      "appearances": [22, 34, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Refugee fleeing from ring systems as they become uninhabitable due to ancient alien defenses.",
+          "role": "System Refugee",
+          "relationships": {
+            "Origin": "Ring system",
+            "Status": "Displaced person"
+          }
+        }
+      }
+    },
+    "engineering-crew-1": {
+      "name": "Engineer Thompson",
+      "aliases": ["Thompson"],
+      "appearances": [16, 28, 40, 52],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Engineer working on emergency repairs and modifications to enable evacuation ship operations.",
+          "role": "Emergency Engineer",
+          "relationships": {
+            "Mission": "Ship modifications",
+            "Goal": "Evacuation capability"
+          }
+        }
+      }
+    },
+    "engineering-crew-2": {
+      "name": "Maintenance Tech Adams",
+      "aliases": ["Adams"],
+      "appearances": [16, 28, 40],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Maintenance technician keeping evacuation ships and systems operational during the crisis.",
+          "role": "Crisis Maintenance",
+          "relationships": {
+            "Equipment": "Evacuation systems",
+            "Priority": "Operational readiness"
+          }
+        }
+      }
+    },
+    "government-official-1": {
+      "name": "Official Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [19, 31, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Government official trying to coordinate official response to the unprecedented crisis threatening human extinction.",
+          "role": "Crisis Official",
+          "relationships": {
+            "Mission": "Government response",
+            "Scope": "Species extinction prevention"
+          }
+        }
+      }
+    },
+    "government-official-2": {
+      "name": "Administrator Hayes",
+      "aliases": ["Hayes"],
+      "appearances": [19, 31],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Administrative official managing bureaucratic aspects of the emergency response to the final crisis.",
+          "role": "Emergency Administrator",
+          "relationships": {
+            "Function": "Emergency bureaucracy",
+            "Challenge": "System collapse"
+          }
+        }
+      }
+    },
+    "transport-pilot-1": {
+      "name": "Evacuation Pilot Foster",
+      "aliases": ["Foster"],
+      "appearances": [23, 35, 47, 53],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Transport pilot conducting dangerous evacuation flights from ring systems to safer locations.",
+          "role": "Evacuation Pilot",
+          "relationships": {
+            "Mission": "Civilian evacuation",
+            "Risk": "Ring space instability"
+          }
+        }
+      }
+    },
+    "transport-pilot-2": {
+      "name": "Shuttle Pilot Jackson",
+      "aliases": ["Jackson"],
+      "appearances": [23, 35, 47],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Shuttle pilot working to transport people and critical supplies during the evacuation operations.",
+          "role": "Transport Pilot",
+          "relationships": {
+            "Cargo": "People and supplies",
+            "Challenge": "Dangerous conditions"
+          }
+        }
+      }
+    },
+    "final-battle-participant-1": {
+      "name": "Battle Participant Alpha",
+      "aliases": ["Alpha"],
+      "appearances": [49, 51],
+      "knowledge": {
+        "49": {
+          "revealedIn": 49,
+          "description": "Individual participating in the final confrontations as humanity faces its ultimate crisis.",
+          "role": "Final Battle Participant",
+          "relationships": {
+            "Context": "Ultimate crisis",
+            "Participation": "Final confrontation"
+          }
+        }
+      }
+    },
+    "final-battle-participant-2": {
+      "name": "Battle Participant Beta",
+      "aliases": ["Beta"],
+      "appearances": [49, 51],
+      "knowledge": {
+        "49": {
+          "revealedIn": 49,
+          "description": "Another person involved in the final events that determine the fate of human civilization.",
+          "role": "Final Participant",
+          "relationships": {
+            "Stakes": "Civilization survival",
+            "Role": "Final events"
+          }
+        }
+      }
     }
   },
   "recaps": {

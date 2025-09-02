@@ -380,6 +380,788 @@
           }
         }
       }
+    },
+    "josephus-miller": {
+      "name": "Josephus Miller",
+      "aliases": ["Miller", "The Investigator"],
+      "appearances": [19, 31, 43, 53],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "The protomolecule construct appears as the ancient alien crisis intensifies, providing guidance about the growing threats.",
+          "role": "Alien Guide",
+          "relationships": {
+            "Connection": "Ancient alien knowledge",
+            "Warning": "Ring space dangers"
+          }
+        }
+      }
+    },
+    "laconian-high-consul-staff-1": {
+      "name": "Consul Aide Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [15, 23, 31, 39, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "High-ranking Laconian official serving directly under Duarte, managing imperial administration.",
+          "role": "Imperial Aide",
+          "relationships": {
+            "Superior": "Winston Duarte",
+            "Function": "Administrative oversight"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Struggles with Duarte's increasing alienation from human concerns and decision-making processes.",
+          "role": "Concerned Administrator",
+          "relationships": {
+            "Worry": "Duarte's transformation"
+          }
+        }
+      }
+    },
+    "laconian-high-consul-staff-2": {
+      "name": "Imperial Secretary Chen",
+      "aliases": ["Secretary Chen"],
+      "appearances": [15, 23, 31, 39],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "High-level Laconian bureaucrat managing the day-to-day operations of the imperial government.",
+          "role": "Imperial Secretary",
+          "relationships": {
+            "Responsibility": "Government operations",
+            "Challenge": "Duarte's increasing absence"
+          }
+        }
+      }
+    },
+    "laconian-guard-1": {
+      "name": "Guard Captain Rodriguez",
+      "aliases": ["Rodriguez"],
+      "appearances": [7, 15, 23, 31, 39, 47],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Elite Laconian guard responsible for protecting High Consul Duarte and the imperial family.",
+          "role": "Imperial Guard",
+          "relationships": {
+            "Protected": "Winston Duarte",
+            "Secondary": "Teresa Duarte"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Observes Duarte's transformation with growing concern about the leader's changing nature.",
+          "role": "Concerned Protector",
+          "relationships": {
+            "Observation": "Duarte's changes"
+          }
+        }
+      }
+    },
+    "laconian-guard-2": {
+      "name": "Lieutenant Davis",
+      "aliases": ["Davis"],
+      "appearances": [7, 15, 23, 31, 39],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Laconian security officer working under Captain Rodriguez to protect the imperial leadership.",
+          "role": "Security Officer",
+          "relationships": {
+            "Superior": "Captain Rodriguez",
+            "Duty": "Imperial protection"
+          }
+        }
+      }
+    },
+    "auberon-resident-1": {
+      "name": "Colony Administrator Kim",
+      "aliases": ["Kim"],
+      "appearances": [10, 18, 26, 34, 42, 50],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Auberon colony administrator dealing with the aftermath of the neutron star incident and imperial investigation.",
+          "role": "Colonial Administrator",
+          "relationships": {
+            "Colony": "Auberon",
+            "Challenge": "Imperial investigation"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Coordinates with imperial authorities while trying to protect colony residents from increasing scrutiny.",
+          "role": "Protective Administrator",
+          "relationships": {
+            "Goal": "Resident protection"
+          }
+        }
+      }
+    },
+    "auberon-resident-2": {
+      "name": "Colony Engineer Patel",
+      "aliases": ["Patel"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Technical specialist on Auberon working to understand and repair the damage from the ring space incident.",
+          "role": "Colonial Engineer",
+          "relationships": {
+            "Specialty": "Ring space damage",
+            "Colony": "Auberon"
+          }
+        }
+      }
+    },
+    "auberon-official-1": {
+      "name": "Colonial Representative Wong",
+      "aliases": ["Wong"],
+      "appearances": [10, 18, 26, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Auberon colonial representative dealing with imperial demands and investigations following the crisis.",
+          "role": "Colonial Representative",
+          "relationships": {
+            "Authority": "Imperial investigators",
+            "Responsibility": "Colony interests"
+          }
+        }
+      }
+    },
+    "scientific-expedition-member-1": {
+      "name": "Dr. Foster",
+      "aliases": ["Foster"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Lead researcher studying alien artifacts and ring gate phenomena under Laconian scientific programs.",
+          "role": "Imperial Scientist",
+          "relationships": {
+            "Research": "Alien artifacts",
+            "Program": "Laconian science initiative"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Discovers increasingly dangerous patterns in ring space behavior that threaten all human transportation.",
+          "role": "Warning Scientist",
+          "relationships": {
+            "Discovery": "Ring space instability"
+          }
+        }
+      }
+    },
+    "scientific-expedition-member-2": {
+      "name": "Research Tech Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [14, 22, 30, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Technical specialist supporting scientific research into alien technology and ring gate mechanics.",
+          "role": "Research Technician",
+          "relationships": {
+            "Supervisor": "Dr. Foster",
+            "Focus": "Technical analysis"
+          }
+        }
+      }
+    },
+    "resistance-operative-1": {
+      "name": "Agent Smith",
+      "aliases": ["Smith"],
+      "appearances": [13, 21, 29, 37, 45, 53],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Underground resistance operative working across multiple systems to coordinate anti-Laconian activities.",
+          "role": "Resistance Agent",
+          "relationships": {
+            "Network": "Multi-system resistance",
+            "Mission": "Anti-imperial operations"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Coordinates intelligence gathering and sabotage operations against Laconian installations.",
+          "role": "Operations Coordinator",
+          "relationships": {
+            "Activity": "Intelligence and sabotage"
+          }
+        }
+      }
+    },
+    "resistance-operative-2": {
+      "name": "Operative Johnson",
+      "aliases": ["Johnson"],
+      "appearances": [13, 21, 29, 37, 45],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Resistance member specializing in communications and information networks between rebel cells.",
+          "role": "Communications Specialist",
+          "relationships": {
+            "Function": "Inter-cell communication",
+            "Network": "Resistance cells"
+          }
+        }
+      }
+    },
+    "resistance-operative-3": {
+      "name": "Saboteur Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [13, 21, 29, 37],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Technical saboteur targeting Laconian infrastructure and technology systems across the empire.",
+          "role": "Technical Saboteur",
+          "relationships": {
+            "Specialty": "Infrastructure sabotage",
+            "Target": "Imperial systems"
+          }
+        }
+      }
+    },
+    "tempest-crew-member-1": {
+      "name": "Commander Lee",
+      "aliases": ["Lee"],
+      "appearances": [19, 27, 35, 43, 51],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Senior officer aboard a Laconian Tempest-class battleship, dealing with the advanced alien-hybrid technology.",
+          "role": "Tempest Commander",
+          "relationships": {
+            "Ship": "Tempest-class battleship",
+            "Technology": "Alien-hybrid systems"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Manages ship operations while observing the increasingly erratic behavior of imperial leadership.",
+          "role": "Ship Operations Manager",
+          "relationships": {
+            "Concern": "Leadership instability"
+          }
+        }
+      }
+    },
+    "tempest-crew-member-2": {
+      "name": "Navigation Officer Torres",
+      "aliases": ["Torres"],
+      "appearances": [19, 27, 35, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Navigation specialist operating the advanced guidance systems of Laconian warships.",
+          "role": "Navigation Specialist",
+          "relationships": {
+            "Specialty": "Advanced navigation",
+            "Equipment": "Alien-hybrid guidance"
+          }
+        }
+      }
+    },
+    "tempest-crew-member-3": {
+      "name": "Weapons Officer Brown",
+      "aliases": ["Brown"],
+      "appearances": [19, 27, 35],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Weapons systems operator managing the devastating firepower of Laconian military technology.",
+          "role": "Weapons Specialist",
+          "relationships": {
+            "Systems": "Advanced weaponry",
+            "Capability": "Devastating firepower"
+          }
+        }
+      }
+    },
+    "test-subject-1": {
+      "name": "Test Subject Alpha",
+      "aliases": ["Alpha"],
+      "appearances": [22, 30, 38, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Individual subjected to Laconian experiments with alien modification technology similar to Duarte's transformation.",
+          "role": "Test Subject",
+          "relationships": {
+            "Program": "Alien modification research",
+            "Status": "Experimental subject"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Shows both the potential and dangers of alien enhancement technology through dramatic physical and mental changes.",
+          "role": "Enhancement Example",
+          "relationships": {
+            "Result": "Physical and mental changes"
+          }
+        }
+      }
+    },
+    "test-subject-2": {
+      "name": "Test Subject Beta",
+      "aliases": ["Beta"],
+      "appearances": [22, 30, 38],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Another experimental subject in the Laconian alien modification program, demonstrating different response patterns.",
+          "role": "Test Subject",
+          "relationships": {
+            "Program": "Modification experiments",
+            "Response": "Variable outcomes"
+          }
+        }
+      }
+    },
+    "researcher-1": {
+      "name": "Dr. Wilson",
+      "aliases": ["Wilson"],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Laconian research scientist studying the effects of alien technology on human physiology and consciousness.",
+          "role": "Modification Researcher",
+          "relationships": {
+            "Research": "Human-alien integration",
+            "Subject": "Duarte's transformation"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Documents the progression of alien enhancement effects while growing concerned about the implications.",
+          "role": "Documentation Scientist",
+          "relationships": {
+            "Concern": "Enhancement implications"
+          }
+        }
+      }
+    },
+    "researcher-2": {
+      "name": "Lab Tech Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [18, 26, 34, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Laboratory technician assisting in alien modification research and monitoring test subject responses.",
+          "role": "Lab Technician",
+          "relationships": {
+            "Supervisor": "Dr. Wilson",
+            "Work": "Subject monitoring"
+          }
+        }
+      }
+    },
+    "teresa-associate-1": {
+      "name": "Companion Singh",
+      "aliases": ["Singh"],
+      "appearances": [16, 24, 32, 40, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Young person serving as companion and confidant to Teresa Duarte within the imperial court.",
+          "role": "Imperial Companion",
+          "relationships": {
+            "Friend": "Teresa Duarte",
+            "Status": "Court member"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Provides emotional support to Teresa as she struggles with her father's transformation and imperial expectations.",
+          "role": "Emotional Support",
+          "relationships": {
+            "Support": "Teresa's wellbeing"
+          }
+        }
+      }
+    },
+    "teresa-associate-2": {
+      "name": "Tutor Jackson",
+      "aliases": ["Jackson"],
+      "appearances": [16, 24, 32, 40],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Educational instructor responsible for Teresa's continued learning and preparation for imperial responsibilities.",
+          "role": "Imperial Tutor",
+          "relationships": {
+            "Student": "Teresa Duarte",
+            "Subject": "Imperial education"
+          }
+        }
+      }
+    },
+    "colony-defense-force-1": {
+      "name": "Defense Coordinator Taylor",
+      "aliases": ["Taylor"],
+      "appearances": [17, 25, 33, 41, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Colonial defense coordinator managing security for ring world colonies under imperial oversight.",
+          "role": "Defense Coordinator",
+          "relationships": {
+            "Responsibility": "Colonial security",
+            "Authority": "Imperial oversight"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Adapts defense strategies to deal with increasing resistance activities and imperial security demands.",
+          "role": "Adaptive Coordinator",
+          "relationships": {
+            "Challenge": "Dual security concerns"
+          }
+        }
+      }
+    },
+    "colony-defense-force-2": {
+      "name": "Security Chief Adams",
+      "aliases": ["Adams"],
+      "appearances": [17, 25, 33, 41],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Colonial security chief balancing local protection needs with imperial compliance requirements.",
+          "role": "Security Chief",
+          "relationships": {
+            "Balance": "Local vs. imperial needs"
+          }
+        }
+      }
+    },
+    "underground-network-member-1": {
+      "name": "Network Agent Cooper",
+      "aliases": ["Cooper"],
+      "appearances": [21, 29, 37, 45, 53],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Underground resistance network member coordinating between different anti-imperial cells across systems.",
+          "role": "Network Coordinator",
+          "relationships": {
+            "Function": "Inter-cell coordination",
+            "Network": "Multi-system resistance"
+          }
+        },
+        "37": {
+          "revealedIn": 37,
+          "description": "Manages information flow and resource distribution between resistance groups facing imperial crackdowns.",
+          "role": "Resource Manager",
+          "relationships": {
+            "Challenge": "Imperial crackdowns"
+          }
+        }
+      }
+    },
+    "underground-network-member-2": {
+      "name": "Information Broker Hayes",
+      "aliases": ["Hayes"],
+      "appearances": [21, 29, 37, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Intelligence broker providing crucial information about imperial activities to resistance networks.",
+          "role": "Information Broker",
+          "relationships": {
+            "Service": "Imperial intelligence",
+            "Clients": "Resistance networks"
+          }
+        }
+      }
+    },
+    "laconian-civilian-1": {
+      "name": "Imperial Citizen Miller",
+      "aliases": ["Miller"],
+      "appearances": [8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Laconian civilian living in the imperial capital, observing the changes in their society and leadership.",
+          "role": "Imperial Citizen",
+          "relationships": {
+            "Status": "Laconian resident",
+            "Observation": "Societal changes"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Notices the increasing strangeness in imperial policies and the growing absence of normal governance.",
+          "role": "Observant Citizen",
+          "relationships": {
+            "Concern": "Governance changes"
+          }
+        }
+      }
+    },
+    "laconian-civilian-2": {
+      "name": "Imperial Worker Lewis",
+      "aliases": ["Lewis"],
+      "appearances": [8, 16, 24, 32, 40],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Working-class Laconian citizen whose job involves maintaining imperial infrastructure and technology.",
+          "role": "Infrastructure Worker",
+          "relationships": {
+            "Work": "Imperial infrastructure",
+            "Technology": "Advanced systems"
+          }
+        }
+      }
+    },
+    "medical-specialist-1": {
+      "name": "Imperial Doctor Rodriguez",
+      "aliases": ["Dr. Rodriguez"],
+      "appearances": [20, 28, 36, 44, 52],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Medical specialist studying the physiological effects of alien technology integration on human subjects.",
+          "role": "Medical Researcher",
+          "relationships": {
+            "Research": "Alien integration effects",
+            "Subjects": "Enhancement recipients"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Documents the medical implications of Duarte's transformation and similar enhancement procedures.",
+          "role": "Medical Documentarian",
+          "relationships": {
+            "Focus": "Transformation documentation"
+          }
+        }
+      }
+    },
+    "medical-specialist-2": {
+      "name": "Research Nurse Patel",
+      "aliases": ["Patel"],
+      "appearances": [20, 28, 36, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Medical professional assisting in the care and monitoring of alien enhancement test subjects.",
+          "role": "Research Nurse",
+          "relationships": {
+            "Supervisor": "Dr. Rodriguez",
+            "Patients": "Enhancement subjects"
+          }
+        }
+      }
+    },
+    "intelligence-analyst-1": {
+      "name": "Analyst Chen",
+      "aliases": ["Chen"],
+      "appearances": [22, 30, 38, 46, 52],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Laconian intelligence analyst studying resistance patterns and anti-imperial activities across the systems.",
+          "role": "Intelligence Analyst",
+          "relationships": {
+            "Focus": "Resistance analysis",
+            "Department": "Imperial intelligence"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Provides analysis on the growing instability within the empire and increasing resistance coordination.",
+          "role": "Stability Analyst",
+          "relationships": {
+            "Analysis": "Imperial instability"
+          }
+        }
+      }
+    },
+    "intelligence-analyst-2": {
+      "name": "Data Specialist Kim",
+      "aliases": ["Kim"],
+      "appearances": [22, 30, 38, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Intelligence data specialist processing information about resistance activities and system-wide unrest.",
+          "role": "Data Analyst",
+          "relationships": {
+            "Specialty": "Data processing",
+            "Subject": "System-wide intelligence"
+          }
+        }
+      }
+    },
+    "transportation-coordinator-1": {
+      "name": "Transport Manager Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [12, 20, 28, 36, 44, 52],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Transportation coordinator managing the complex logistics of moving people and goods through imperial space.",
+          "role": "Transport Coordinator",
+          "relationships": {
+            "System": "Imperial transportation",
+            "Challenge": "Ring space instability"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Adapts transportation networks to deal with increasing ring gate anomalies and safety concerns.",
+          "role": "Safety Coordinator",
+          "relationships": {
+            "Priority": "Transportation safety"
+          }
+        }
+      }
+    },
+    "transportation-coordinator-2": {
+      "name": "Logistics Officer Wong",
+      "aliases": ["Wong"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Logistics specialist managing supply chains and resource distribution across the imperial territory.",
+          "role": "Logistics Specialist",
+          "relationships": {
+            "Responsibility": "Imperial supply chains"
+          }
+        }
+      }
+    },
+    "communication-specialist-1": {
+      "name": "Communications Director Davis",
+      "aliases": ["Davis"],
+      "appearances": [14, 22, 30, 38, 46, 52],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Communications specialist managing information flow and propaganda distribution throughout the empire.",
+          "role": "Communications Director",
+          "relationships": {
+            "Function": "Information management",
+            "System": "Imperial communications"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Struggles with communicating increasingly erratic imperial policies and maintaining public confidence.",
+          "role": "Information Manager",
+          "relationships": {
+            "Challenge": "Policy communication"
+          }
+        }
+      }
+    },
+    "communication-specialist-2": {
+      "name": "Signal Analyst Thompson",
+      "aliases": ["Thompson"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Technical specialist monitoring communications networks and detecting unauthorized transmissions.",
+          "role": "Signal Analyst",
+          "relationships": {
+            "Function": "Network monitoring",
+            "Target": "Unauthorized communications"
+          }
+        }
+      }
+    },
+    "maintenance-engineer-1": {
+      "name": "Chief Engineer Santos",
+      "aliases": ["Santos"],
+      "appearances": [11, 19, 27, 35, 43, 51],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Senior engineer responsible for maintaining the advanced alien-hybrid technology systems throughout the empire.",
+          "role": "Chief Engineer",
+          "relationships": {
+            "Technology": "Alien-hybrid systems",
+            "Responsibility": "System maintenance"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Observes increasing instabilities in alien technology and growing difficulties with system maintenance.",
+          "role": "System Monitor",
+          "relationships": {
+            "Observation": "Technology instabilities"
+          }
+        }
+      }
+    },
+    "maintenance-engineer-2": {
+      "name": "Tech Specialist Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [11, 19, 27, 35, 43],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Technical maintenance specialist working with the complex alien-integrated systems of imperial technology.",
+          "role": "Tech Specialist",
+          "relationships": {
+            "Supervisor": "Chief Engineer Santos",
+            "Specialty": "Alien-integrated systems"
+          }
+        }
+      }
+    },
+    "security-officer-1": {
+      "name": "Security Commander Taylor",
+      "aliases": ["Taylor"],
+      "appearances": [6, 14, 22, 30, 38, 46, 52],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Imperial security commander responsible for maintaining order and investigating threats to imperial authority.",
+          "role": "Security Commander",
+          "relationships": {
+            "Authority": "Imperial security",
+            "Mission": "Threat investigation"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Coordinates security responses to increasing resistance activities and internal imperial instabilities.",
+          "role": "Response Coordinator",
+          "relationships": {
+            "Challenge": "Multi-front security issues"
+          }
+        }
+      }
+    },
+    "security-officer-2": {
+      "name": "Investigator Lopez",
+      "aliases": ["Lopez"],
+      "appearances": [6, 14, 22, 30, 38, 46],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Imperial investigator tracking resistance networks and anti-imperial conspiracies across multiple systems.",
+          "role": "Imperial Investigator",
+          "relationships": {
+            "Target": "Resistance networks",
+            "Method": "Multi-system tracking"
+          }
+        }
+      }
     }
   },
   "recaps": {

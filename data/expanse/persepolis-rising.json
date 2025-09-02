@@ -390,6 +390,797 @@
           }
         }
       }
+    },
+    "josephus-miller": {
+      "name": "Josephus Miller",
+      "aliases": ["Miller", "The Investigator"],
+      "appearances": [23, 35, 47, 55],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "The protomolecule construct appears during the Laconian occupation crisis, providing cryptic guidance.",
+          "role": "Protomolecule Guide",
+          "relationships": {
+            "Connection": "Ancient alien knowledge",
+            "Context": "Laconian technology"
+          }
+        }
+      }
+    },
+    "laconian-marine-1": {
+      "name": "Sergeant Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [17, 25, 33, 41, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Laconian marine serving under Governor Singh, enforcing imperial control on Medina Station.",
+          "role": "Imperial Marine",
+          "relationships": {
+            "Commander": "Santiago Singh",
+            "Unit": "Laconian Marines"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Participates in security crackdowns against resistance activities on the station.",
+          "role": "Security Enforcer",
+          "relationships": {
+            "Mission": "Counter-resistance operations"
+          }
+        }
+      }
+    },
+    "laconian-marine-2": {
+      "name": "Corporal Torres",
+      "aliases": ["Torres"],
+      "appearances": [17, 25, 33, 41, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Laconian marine corporal working patrol duties and maintaining order under imperial occupation.",
+          "role": "Imperial Marine",
+          "relationships": {
+            "Superior": "Sergeant Martinez",
+            "Duty": "Station patrols"
+          }
+        }
+      }
+    },
+    "laconian-technician-1": {
+      "name": "Tech Specialist Kim",
+      "aliases": ["Kim"],
+      "appearances": [21, 29, 37, 45, 53],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Laconian technician working on integrating alien-hybrid technology into station systems.",
+          "role": "Imperial Technician",
+          "relationships": {
+            "Project": "Technology integration",
+            "Specialization": "Alien-hybrid systems"
+          }
+        },
+        "37": {
+          "revealedIn": 37,
+          "description": "Maintains the advanced surveillance and control systems used to monitor the occupied station.",
+          "role": "Surveillance Technician",
+          "relationships": {
+            "Equipment": "Advanced monitoring systems"
+          }
+        }
+      }
+    },
+    "laconian-technician-2": {
+      "name": "Engineer Rodriguez",
+      "aliases": ["Rodriguez"],
+      "appearances": [21, 29, 37, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Laconian engineer managing the technical aspects of the occupation infrastructure.",
+          "role": "Imperial Engineer",
+          "relationships": {
+            "Responsibility": "Occupation infrastructure",
+            "Technology": "Laconian systems"
+          }
+        }
+      }
+    },
+    "medina-resistance-member-1": {
+      "name": "Resistance Fighter Chen",
+      "aliases": ["Chen"],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Medina Station resident who joins Bobbie's resistance network against Laconian occupation.",
+          "role": "Resistance Fighter",
+          "relationships": {
+            "Leader": "Bobbie Draper",
+            "Network": "Medina resistance"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Participates in sabotage operations against Laconian infrastructure and surveillance systems.",
+          "role": "Saboteur",
+          "relationships": {
+            "Target": "Laconian systems"
+          }
+        }
+      }
+    },
+    "medina-resistance-member-2": {
+      "name": "Resistance Fighter Patel",
+      "aliases": ["Patel"],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Former station technician now working with the underground resistance against imperial control.",
+          "role": "Technical Saboteur",
+          "relationships": {
+            "Background": "Station technician",
+            "Role": "Technical resistance"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Uses technical knowledge to help resistance operations bypass Laconian security measures.",
+          "role": "Technical Specialist",
+          "relationships": {
+            "Expertise": "System bypassing"
+          }
+        }
+      }
+    },
+    "medina-resistance-member-3": {
+      "name": "Resistance Fighter Johnson",
+      "aliases": ["Johnson"],
+      "appearances": [18, 26, 34, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Medina Station security officer who joined the resistance after the Laconian takeover.",
+          "role": "Security Defector",
+          "relationships": {
+            "Former job": "Station security",
+            "Current role": "Resistance fighter"
+          }
+        }
+      }
+    },
+    "transport-union-officer-1": {
+      "name": "Union Officer Walsh",
+      "aliases": ["Walsh"],
+      "appearances": [12, 20, 28, 36, 44, 52],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Transport Union officer working under Drummer, dealing with Laconian demands for compliance.",
+          "role": "Union Officer",
+          "relationships": {
+            "Superior": "Camina Drummer",
+            "Challenge": "Laconian compliance"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Struggles with the difficult balance between union independence and avoiding Laconian retaliation.",
+          "role": "Diplomatic Balancer",
+          "relationships": {
+            "Dilemma": "Independence vs. safety"
+          }
+        }
+      }
+    },
+    "transport-union-officer-2": {
+      "name": "Union Officer Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Transport Union logistics coordinator managing shipping operations under Laconian oversight.",
+          "role": "Logistics Coordinator",
+          "relationships": {
+            "Organization": "Transport Union",
+            "Oversight": "Laconian monitoring"
+          }
+        }
+      }
+    },
+    "transport-union-officer-3": {
+      "name": "Union Officer Lee",
+      "aliases": ["Lee"],
+      "appearances": [12, 20, 28, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Transport Union representative dealing with the bureaucratic aspects of imperial control.",
+          "role": "Union Representative",
+          "relationships": {
+            "Function": "Imperial bureaucracy interface"
+          }
+        }
+      }
+    },
+    "laconian-administrator-1": {
+      "name": "Administrator Wilson",
+      "aliases": ["Wilson"],
+      "appearances": [13, 21, 29, 37, 45, 53],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Laconian civilian administrator managing the bureaucratic aspects of station occupation.",
+          "role": "Imperial Administrator",
+          "relationships": {
+            "Superior": "Santiago Singh",
+            "Function": "Civilian administration"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Implements imperial policies while dealing with growing resistance and non-compliance from station residents.",
+          "role": "Policy Implementer",
+          "relationships": {
+            "Challenge": "Resistance management"
+          }
+        }
+      }
+    },
+    "laconian-administrator-2": {
+      "name": "Administrator Davis",
+      "aliases": ["Davis"],
+      "appearances": [13, 21, 29, 37, 45],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Laconian administrator responsible for economic integration of the occupied territories.",
+          "role": "Economic Administrator",
+          "relationships": {
+            "Focus": "Economic integration",
+            "Goal": "Imperial economic policy"
+          }
+        }
+      }
+    },
+    "medina-station-civilian-1": {
+      "name": "Civilian Thompson",
+      "aliases": ["Thompson"],
+      "appearances": [9, 17, 25, 33, 41, 49],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Medina Station civilian dealing with the dramatic changes brought by Laconian occupation.",
+          "role": "Station Civilian",
+          "relationships": {
+            "Status": "Occupied resident",
+            "Challenge": "Life under occupation"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Adapts to new imperial regulations while trying to maintain normal life and business.",
+          "role": "Adaptive Civilian",
+          "relationships": {
+            "Strategy": "Compliance for survival"
+          }
+        }
+      }
+    },
+    "medina-station-civilian-2": {
+      "name": "Merchant Santos",
+      "aliases": ["Santos"],
+      "appearances": [9, 17, 25, 33, 41],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Station merchant whose business is affected by the new imperial trade regulations.",
+          "role": "Station Merchant",
+          "relationships": {
+            "Business": "Trade and commerce",
+            "Impact": "Imperial regulations"
+          }
+        }
+      }
+    },
+    "medina-station-civilian-3": {
+      "name": "Worker Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [9, 17, 25, 33],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Station worker whose job has been reorganized under the new imperial administrative system.",
+          "role": "Station Worker",
+          "relationships": {
+            "Work": "Station maintenance",
+            "Change": "Imperial reorganization"
+          }
+        }
+      }
+    },
+    "laconian-intelligence-1": {
+      "name": "Intelligence Analyst Park",
+      "aliases": ["Park"],
+      "appearances": [21, 29, 37, 45, 53],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Laconian intelligence analyst working under Major Tanaka to identify resistance networks.",
+          "role": "Intelligence Analyst",
+          "relationships": {
+            "Superior": "Major Tanaka",
+            "Target": "Resistance identification"
+          }
+        },
+        "37": {
+          "revealedIn": 37,
+          "description": "Analyzes patterns in station activity to detect and predict resistance operations.",
+          "role": "Pattern Analyst",
+          "relationships": {
+            "Method": "Behavioral analysis"
+          }
+        }
+      }
+    },
+    "laconian-intelligence-2": {
+      "name": "Intelligence Officer Brown",
+      "aliases": ["Brown"],
+      "appearances": [21, 29, 37, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Laconian intelligence officer conducting interrogations and information gathering operations.",
+          "role": "Interrogation Officer",
+          "relationships": {
+            "Department": "Imperial intelligence",
+            "Specialty": "Information extraction"
+          }
+        }
+      }
+    },
+    "ring-space-researcher-1": {
+      "name": "Dr. Okoye",
+      "aliases": ["Elvi"],
+      "appearances": [11, 19, 27, 35, 43, 51, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Leading scientist studying the ring gates, now working under Laconian oversight but maintaining scientific independence.",
+          "role": "Ring Gate Scientist",
+          "relationships": {
+            "Research": "Ring gate phenomena",
+            "Oversight": "Laconian administration"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Continues critical research while navigating the political complexities of imperial scientific priorities.",
+          "role": "Independent Scientist",
+          "relationships": {
+            "Challenge": "Scientific independence"
+          }
+        }
+      }
+    },
+    "ring-space-researcher-2": {
+      "name": "Dr. Foster",
+      "aliases": ["Foster"],
+      "appearances": [11, 19, 27, 35, 43],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Ring gate researcher working alongside Dr. Okoye on understanding the alien technology.",
+          "role": "Research Scientist",
+          "relationships": {
+            "Colleague": "Dr. Okoye",
+            "Focus": "Alien technology"
+          }
+        }
+      }
+    },
+    "underground-network-member-1": {
+      "name": "Underground Coordinator Adams",
+      "aliases": ["Adams"],
+      "appearances": [20, 28, 36, 44, 52],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Member of the broader underground resistance network operating across multiple systems.",
+          "role": "Network Coordinator",
+          "relationships": {
+            "Network": "Multi-system resistance",
+            "Function": "Coordination"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Coordinates information and resource sharing between different resistance cells.",
+          "role": "Resource Coordinator",
+          "relationships": {
+            "Mission": "Cell coordination"
+          }
+        }
+      }
+    },
+    "underground-network-member-2": {
+      "name": "Underground Agent Lewis",
+      "aliases": ["Lewis"],
+      "appearances": [20, 28, 36, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Underground agent working to maintain communication between resistance groups across the system.",
+          "role": "Communications Agent",
+          "relationships": {
+            "Function": "Inter-group communication",
+            "Network": "Resistance communications"
+          }
+        }
+      }
+    },
+    "transport-pilot-1": {
+      "name": "Pilot Jackson",
+      "aliases": ["Jackson"],
+      "appearances": [14, 22, 30, 38, 46, 54],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Transport pilot working under the new imperial shipping regulations and oversight.",
+          "role": "Transport Pilot",
+          "relationships": {
+            "Regulation": "Imperial shipping controls",
+            "Work": "Regulated transport"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Adapts flying operations to comply with increasingly restrictive Laconian traffic control.",
+          "role": "Compliant Pilot",
+          "relationships": {
+            "Challenge": "Restrictive regulations"
+          }
+        }
+      }
+    },
+    "transport-pilot-2": {
+      "name": "Captain Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Independent ship captain dealing with the new realities of imperial control over interstellar trade.",
+          "role": "Independent Captain",
+          "relationships": {
+            "Business": "Independent shipping",
+            "Challenge": "Imperial trade controls"
+          }
+        }
+      }
+    },
+    "colony-representative-1": {
+      "name": "Colony Rep Williams",
+      "aliases": ["Rep Williams"],
+      "appearances": [16, 24, 32, 40, 48, 52],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Representative from one of the ring colonies, dealing with new imperial demands for tribute and compliance.",
+          "role": "Colony Representative",
+          "relationships": {
+            "Colony": "Ring world colony",
+            "Challenge": "Imperial demands"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Negotiates with imperial authorities while trying to protect colony independence and resources.",
+          "role": "Colonial Negotiator",
+          "relationships": {
+            "Goal": "Colony protection"
+          }
+        }
+      }
+    },
+    "colony-representative-2": {
+      "name": "Colony Rep Chen",
+      "aliases": ["Rep Chen"],
+      "appearances": [16, 24, 32, 40, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Another colony representative working with others to coordinate responses to imperial expansion.",
+          "role": "Colony Representative",
+          "relationships": {
+            "Alliance": "Inter-colony coordination",
+            "Opposition": "Imperial expansion"
+          }
+        }
+      }
+    },
+    "security-personnel-1": {
+      "name": "Security Officer Kim",
+      "aliases": ["Kim"],
+      "appearances": [12, 20, 28, 36, 44, 52],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Station security officer working under the new imperial security protocols.",
+          "role": "Imperial Security",
+          "relationships": {
+            "Protocol": "Imperial security measures",
+            "Authority": "Laconian command"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Balances loyalty to station residents with compliance to imperial security demands.",
+          "role": "Conflicted Officer",
+          "relationships": {
+            "Conflict": "Loyalty vs. compliance"
+          }
+        }
+      }
+    },
+    "security-personnel-2": {
+      "name": "Chief of Security Lopez",
+      "aliases": ["Lopez"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Station security chief adapting department operations to work under Laconian oversight.",
+          "role": "Security Chief",
+          "relationships": {
+            "Department": "Station security",
+            "Oversight": "Laconian command"
+          }
+        }
+      }
+    },
+    "communication-specialist-1": {
+      "name": "Comms Tech Rodriguez",
+      "aliases": ["Rodriguez"],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Communications technician whose work is now monitored and controlled by imperial authorities.",
+          "role": "Monitored Technician",
+          "relationships": {
+            "Work": "Communications systems",
+            "Monitor": "Imperial surveillance"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Secretly assists resistance communications while maintaining official compliance.",
+          "role": "Resistance Sympathizer",
+          "relationships": {
+            "Support": "Covert resistance aid"
+          }
+        }
+      }
+    },
+    "communication-specialist-2": {
+      "name": "Signal Officer Taylor",
+      "aliases": ["Taylor"],
+      "appearances": [18, 26, 34, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Signal processing specialist working to maintain communication systems under imperial monitoring.",
+          "role": "Signal Specialist",
+          "relationships": {
+            "Specialty": "Signal processing",
+            "Constraint": "Imperial monitoring"
+          }
+        }
+      }
+    },
+    "medical-personnel-1": {
+      "name": "Station Doctor Patel",
+      "aliases": ["Dr. Patel"],
+      "appearances": [15, 23, 31, 39, 47, 55],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Medina Station doctor treating patients while dealing with new imperial health regulations.",
+          "role": "Station Doctor",
+          "relationships": {
+            "Patients": "Station residents",
+            "Regulation": "Imperial health policies"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Provides medical care while maintaining patient confidentiality despite imperial surveillance.",
+          "role": "Protective Doctor",
+          "relationships": {
+            "Priority": "Patient confidentiality"
+          }
+        }
+      }
+    },
+    "medical-personnel-2": {
+      "name": "Medic Johnson",
+      "aliases": ["Johnson"],
+      "appearances": [15, 23, 31, 39, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Medical technician assisting in station healthcare while adapting to imperial medical protocols.",
+          "role": "Medical Technician",
+          "relationships": {
+            "Supervisor": "Dr. Patel",
+            "Protocol": "Imperial medical standards"
+          }
+        }
+      }
+    },
+    "maintenance-crew-1": {
+      "name": "Maintenance Chief Wong",
+      "aliases": ["Wong"],
+      "appearances": [10, 18, 26, 34, 42, 50],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Station maintenance chief whose work is now supervised by Laconian technical personnel.",
+          "role": "Maintenance Chief",
+          "relationships": {
+            "Department": "Station maintenance",
+            "Supervision": "Laconian technicians"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Coordinates with resistance members to provide intelligence about station infrastructure.",
+          "role": "Resistance Informant",
+          "relationships": {
+            "Information": "Infrastructure intelligence"
+          }
+        }
+      }
+    },
+    "maintenance-crew-2": {
+      "name": "Engineer Smith",
+      "aliases": ["Smith"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Station engineer working on systems maintenance under new imperial technical standards.",
+          "role": "Station Engineer",
+          "relationships": {
+            "Work": "Systems maintenance",
+            "Standards": "Imperial technical requirements"
+          }
+        }
+      }
+    },
+    "supply-coordinator-1": {
+      "name": "Supply Chief Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [14, 22, 30, 38, 46, 54],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Station supply coordinator managing resource distribution under imperial rationing systems.",
+          "role": "Supply Coordinator",
+          "relationships": {
+            "System": "Imperial rationing",
+            "Responsibility": "Resource distribution"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Balances official supply quotas with covert support for resistance operations.",
+          "role": "Dual-Purpose Coordinator",
+          "relationships": {
+            "Conflict": "Official vs. resistance support"
+          }
+        }
+      }
+    },
+    "supply-coordinator-2": {
+      "name": "Logistics Officer Miller",
+      "aliases": ["Miller"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Logistics officer handling the complex supply chains under imperial economic integration.",
+          "role": "Logistics Officer",
+          "relationships": {
+            "Challenge": "Imperial economic integration",
+            "Work": "Supply chain management"
+          }
+        }
+      }
+    },
+    "civilian-informant-1": {
+      "name": "Informant Cooper",
+      "aliases": ["Cooper"],
+      "appearances": [25, 33, 41, 49],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Station civilian who provides information to imperial authorities about suspicious activities.",
+          "role": "Imperial Informant",
+          "relationships": {
+            "Function": "Information provider",
+            "Target": "Suspicious activities"
+          }
+        },
+        "41": {
+          "revealedIn": 41,
+          "description": "Faces increasing danger as resistance members identify collaborators within the community.",
+          "role": "Endangered Collaborator",
+          "relationships": {
+            "Risk": "Resistance retaliation"
+          }
+        }
+      }
+    },
+    "civilian-informant-2": {
+      "name": "Collaborator Hayes",
+      "aliases": ["Hayes"],
+      "appearances": [25, 33, 41],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Station resident who collaborates with imperial authorities for personal advantages.",
+          "role": "Imperial Collaborator",
+          "relationships": {
+            "Motivation": "Personal advantage",
+            "Function": "Authority collaboration"
+          }
+        }
+      }
+    },
+    "resistance-sympathizer-1": {
+      "name": "Sympathizer Wilson",
+      "aliases": ["Wilson"],
+      "appearances": [22, 30, 38, 46, 54],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Station resident who supports the resistance while maintaining a facade of compliance.",
+          "role": "Resistance Sympathizer",
+          "relationships": {
+            "Support": "Covert resistance aid",
+            "Cover": "Compliance facade"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Provides safe houses and resources for resistance operations while avoiding imperial detection.",
+          "role": "Safe House Provider",
+          "relationships": {
+            "Service": "Resistance logistics support"
+          }
+        }
+      }
+    },
+    "resistance-sympathizer-2": {
+      "name": "Supporter Davis",
+      "aliases": ["Davis"],
+      "appearances": [22, 30, 38, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Civilian who quietly supports resistance activities through information sharing and resource provision.",
+          "role": "Resource Provider",
+          "relationships": {
+            "Function": "Information and resources",
+            "Risk": "Imperial detection"
+          }
+        }
+      }
     }
   },
   "recaps": {

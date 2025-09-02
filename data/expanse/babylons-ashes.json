@@ -406,6 +406,742 @@
           }
         }
       }
+    },
+    "josephus-miller": {
+      "name": "Josephus Miller",
+      "aliases": ["Miller", "The Investigator"],
+      "appearances": [13, 25, 37, 49],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The protomolecule construct continues to provide guidance during the system-wide war, appearing to key individuals.",
+          "role": "Protomolecule Guide",
+          "relationships": {
+            "Connection": "Various individuals",
+            "Nature": "Alien intelligence"
+          }
+        }
+      }
+    },
+    "diogo": {
+      "name": "Diogo",
+      "aliases": [],
+      "appearances": [6, 14, 22, 30, 38, 46],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Young Belter racer caught up in the Free Navy movement, struggling with loyalty and survival.",
+          "role": "Belter Youth",
+          "relationships": {
+            "Faction": "Free Navy sympathizer",
+            "Challenge": "War survival"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Becomes involved in Free Navy operations while questioning the morality of their actions.",
+          "role": "Conflicted Operative",
+          "relationships": {
+            "Doubt": "Free Navy methods"
+          }
+        }
+      }
+    },
+    "melba-koh": {
+      "name": "Melba Koh",
+      "aliases": ["Clarissa Mao", "Peaches"],
+      "appearances": [11, 19, 27, 35, 43, 51],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former terrorist using her false identity while working with the Rocinante crew in the war effort.",
+          "role": "Reformed Criminal",
+          "relationships": {
+            "Identity": "Melba Koh cover",
+            "True self": "Clarissa Mao"
+          }
+        }
+      }
+    },
+    "pa-crew-member-1": {
+      "name": "Oksana",
+      "aliases": [],
+      "appearances": [8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Michio Pa's trusted crew member aboard the Connaught, loyal to Pa rather than Marco.",
+          "role": "Ship Crew",
+          "relationships": {
+            "Captain": "Michio Pa",
+            "Ship": "Connaught"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Supports Pa's decision to break away from Marco's Free Navy and pursue an independent path.",
+          "role": "Loyal Follower",
+          "relationships": {
+            "Support": "Pa's independence"
+          }
+        }
+      }
+    },
+    "pa-crew-member-2": {
+      "name": "Evans",
+      "aliases": [],
+      "appearances": [8, 16, 24, 32, 40],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Another crew member serving under Pa, struggling with the moral implications of Free Navy actions.",
+          "role": "Ship Crew",
+          "relationships": {
+            "Captain": "Michio Pa",
+            "Conflict": "Moral concerns"
+          }
+        }
+      }
+    },
+    "un-fleet-commander": {
+      "name": "Admiral Kirino",
+      "aliases": ["Kirino"],
+      "appearances": [15, 23, 31, 39, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Earth Navy admiral coordinating combined fleet operations against the Free Navy.",
+          "role": "Combined Fleet Commander",
+          "relationships": {
+            "Command": "Earth naval forces",
+            "Mission": "Free Navy defeat"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Works with Martian and other allied forces to coordinate the multi-faction military campaign.",
+          "role": "Alliance Coordinator",
+          "relationships": {
+            "Alliance": "Multi-faction fleet"
+          }
+        }
+      }
+    },
+    "martian-fleet-commander": {
+      "name": "Admiral Sauveterre",
+      "aliases": ["Sauveterre"],
+      "appearances": [15, 23, 31, 39, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Martian Navy admiral working with the combined fleet to defeat Marco's forces.",
+          "role": "Martian Fleet Commander",
+          "relationships": {
+            "Service": "Martian Navy",
+            "Alliance": "Combined fleet"
+          }
+        }
+      }
+    },
+    "medina-station-resident-1": {
+      "name": "Dr. Okoye",
+      "aliases": ["Elvi"],
+      "appearances": [7, 15, 23, 31, 39, 47],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Scientist on Medina Station studying the ring gates while the war rages around them.",
+          "role": "Ring Gate Researcher",
+          "relationships": {
+            "Station": "Medina",
+            "Research": "Ring phenomena"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Continues critical research while dealing with the disruption caused by Free Navy control of the station.",
+          "role": "Wartime Scientist",
+          "relationships": {
+            "Challenge": "Research under occupation"
+          }
+        }
+      }
+    },
+    "medina-station-resident-2": {
+      "name": "Captain Holden",
+      "aliases": ["Holden"],
+      "appearances": [7, 15, 23, 31, 39],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Transport Union captain dealing with the Free Navy occupation of Medina Station.",
+          "role": "Transport Captain",
+          "relationships": {
+            "Station": "Medina",
+            "Occupation": "Free Navy control"
+          }
+        }
+      }
+    },
+    "transport-union-member-1": {
+      "name": "Chief Pilot Torres",
+      "aliases": ["Torres"],
+      "appearances": [8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Transport Union pilot working to maintain shipping operations during the war.",
+          "role": "Union Pilot",
+          "relationships": {
+            "Union": "Transport Union",
+            "Challenge": "Wartime operations"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Struggles with the dangerous conditions created by Free Navy control of key shipping routes.",
+          "role": "Risk Manager",
+          "relationships": {
+            "Hazard": "Free Navy interference"
+          }
+        }
+      }
+    },
+    "transport-union-member-2": {
+      "name": "Engineer Patel",
+      "aliases": ["Patel"],
+      "appearances": [8, 16, 24, 32, 40],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Transport Union engineer maintaining ships and stations during the chaotic war period.",
+          "role": "Union Engineer",
+          "relationships": {
+            "Union": "Transport Union",
+            "Work": "Ship maintenance"
+          }
+        }
+      }
+    },
+    "refugee-ship-passenger-1": {
+      "name": "Maria Santos",
+      "aliases": ["Santos"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Refugee fleeing the devastation on Earth, struggling to survive aboard overcrowded evacuation ships.",
+          "role": "Earth Refugee",
+          "relationships": {
+            "Origin": "Devastated Earth",
+            "Status": "War refugee"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Works to help other refugees while dealing with the trauma of losing her home planet.",
+          "role": "Refugee Helper",
+          "relationships": {
+            "Mission": "Helping other survivors"
+          }
+        }
+      }
+    },
+    "refugee-ship-passenger-2": {
+      "name": "Chen Wei",
+      "aliases": ["Chen"],
+      "appearances": [12, 20, 28, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Another Earth refugee dealing with the loss of family and home in the asteroid bombardment.",
+          "role": "Trauma Survivor",
+          "relationships": {
+            "Loss": "Family and home",
+            "Status": "Displaced person"
+          }
+        }
+      }
+    },
+    "colony-representative-1": {
+      "name": "Ganymede Rep Johnson",
+      "aliases": ["Rep Johnson"],
+      "appearances": [17, 25, 33, 41, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Ganymede colony representative dealing with food shortages and supply disruptions caused by the war.",
+          "role": "Colony Representative",
+          "relationships": {
+            "Colony": "Ganymede",
+            "Crisis": "Food supply shortage"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Works with other colony representatives to coordinate relief efforts and mutual support.",
+          "role": "Relief Coordinator",
+          "relationships": {
+            "Network": "Inter-colony cooperation"
+          }
+        }
+      }
+    },
+    "colony-representative-2": {
+      "name": "Europa Rep Kim",
+      "aliases": ["Rep Kim"],
+      "appearances": [17, 25, 33, 41],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Europa colony representative advocating for neutral status during the system-wide conflict.",
+          "role": "Neutral Advocate",
+          "relationships": {
+            "Colony": "Europa",
+            "Position": "Neutrality"
+          }
+        }
+      }
+    },
+    "rocinante-ally-1": {
+      "name": "Captain McBride",
+      "aliases": ["McBride"],
+      "appearances": [19, 27, 35, 43, 51],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Independent ship captain allied with the Rocinante in operations against the Free Navy.",
+          "role": "Allied Captain",
+          "relationships": {
+            "Ship": "Independent vessel",
+            "Alliance": "Anti-Free Navy"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Participates in coordinated strikes against Free Navy positions and supply lines.",
+          "role": "Combat Ally",
+          "relationships": {
+            "Mission": "Free Navy interdiction"
+          }
+        }
+      }
+    },
+    "rocinante-ally-2": {
+      "name": "Commander Liu",
+      "aliases": ["Liu"],
+      "appearances": [19, 27, 35, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Military officer working with Holden's team on special operations against Free Navy targets.",
+          "role": "Special Operations",
+          "relationships": {
+            "Partner": "Rocinante crew",
+            "Specialty": "Military tactics"
+          }
+        }
+      }
+    },
+    "combatant-1": {
+      "name": "Sergeant Hayes",
+      "aliases": ["Hayes"],
+      "appearances": [11, 19, 27, 35, 43],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Combat veteran fighting in the combined fleet forces against Free Navy installations.",
+          "role": "Combat Sergeant",
+          "relationships": {
+            "Unit": "Combined fleet marines",
+            "Mission": "Boarding actions"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Leads marine boarding parties in dangerous assaults on Free Navy strongholds.",
+          "role": "Boarding Leader",
+          "relationships": {
+            "Specialty": "Ship-to-ship combat"
+          }
+        }
+      }
+    },
+    "combatant-2": {
+      "name": "Pilot Richardson",
+      "aliases": ["Richardson"],
+      "appearances": [11, 19, 27, 35],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Fighter pilot conducting strikes against Free Navy positions throughout the system.",
+          "role": "Fighter Pilot",
+          "relationships": {
+            "Squadron": "Combined fleet",
+            "Target": "Free Navy ships"
+          }
+        }
+      }
+    },
+    "political-figure-1": {
+      "name": "UN Secretary Park",
+      "aliases": ["Secretary Park"],
+      "appearances": [21, 29, 37, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "UN political leader working to rebuild Earth's government and coordinate war efforts.",
+          "role": "UN Secretary",
+          "relationships": {
+            "Government": "United Nations",
+            "Mission": "Earth reconstruction"
+          }
+        },
+        "37": {
+          "revealedIn": 37,
+          "description": "Negotiates with other faction representatives about post-war arrangements and reconstruction.",
+          "role": "Diplomatic Negotiator",
+          "relationships": {
+            "Goal": "Post-war settlement"
+          }
+        }
+      }
+    },
+    "political-figure-2": {
+      "name": "Mars Premier Singh",
+      "aliases": ["Premier Singh"],
+      "appearances": [21, 29, 37, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Martian political leader coordinating with Earth and other allies in the war against the Free Navy.",
+          "role": "Mars Premier",
+          "relationships": {
+            "Government": "Martian Republic",
+            "Alliance": "Anti-Free Navy coalition"
+          }
+        }
+      }
+    },
+    "advisor-1": {
+      "name": "Strategic Advisor Chen",
+      "aliases": ["Advisor Chen"],
+      "appearances": [13, 21, 29, 37, 45],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Military strategic advisor helping coordinate combined fleet operations against Free Navy forces.",
+          "role": "Strategic Planner",
+          "relationships": {
+            "Command": "Combined fleet",
+            "Specialty": "Naval strategy"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Develops tactical plans for the final phases of the war against Marco's remaining forces.",
+          "role": "Tactical Planner",
+          "relationships": {
+            "Focus": "End-war strategy"
+          }
+        }
+      }
+    },
+    "advisor-2": {
+      "name": "Intelligence Advisor Martinez",
+      "aliases": ["Advisor Martinez"],
+      "appearances": [13, 21, 29, 37],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Intelligence specialist providing analysis on Free Navy capabilities and movements.",
+          "role": "Intelligence Analyst",
+          "relationships": {
+            "Department": "Combined intelligence",
+            "Target": "Free Navy assessment"
+          }
+        }
+      }
+    },
+    "free-navy-defector-1": {
+      "name": "Captain Valdez",
+      "aliases": ["Valdez"],
+      "appearances": [26, 34, 42, 50],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Former Free Navy captain who defected due to disagreement with Marco's increasingly desperate tactics.",
+          "role": "Free Navy Defector",
+          "relationships": {
+            "Former faction": "Free Navy",
+            "Reason": "Tactical disagreement"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Provides intelligence about Free Navy operations and weaknesses to the combined fleet.",
+          "role": "Intelligence Source",
+          "relationships": {
+            "Information": "Free Navy tactics"
+          }
+        }
+      }
+    },
+    "free-navy-defector-2": {
+      "name": "Lieutenant Costa",
+      "aliases": ["Costa"],
+      "appearances": [26, 34, 42],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Free Navy officer who abandoned the cause after witnessing civilian casualties.",
+          "role": "Moral Defector",
+          "relationships": {
+            "Former allegiance": "Free Navy",
+            "Motivation": "Civilian protection"
+          }
+        }
+      }
+    },
+    "humanitarian-worker-1": {
+      "name": "Dr. Sarah Kim",
+      "aliases": ["Dr. Kim"],
+      "appearances": [20, 28, 36, 44, 50],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Medical doctor providing humanitarian aid to war refugees across the system.",
+          "role": "Humanitarian Doctor",
+          "relationships": {
+            "Mission": "Refugee medical care",
+            "Patients": "War victims"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Coordinates medical relief efforts as the war reaches its conclusion.",
+          "role": "Relief Coordinator",
+          "relationships": {
+            "Network": "Medical relief organizations"
+          }
+        }
+      }
+    },
+    "humanitarian-worker-2": {
+      "name": "Aid Worker Thompson",
+      "aliases": ["Thompson"],
+      "appearances": [20, 28, 36, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Relief worker organizing food and supply distribution to displaced populations.",
+          "role": "Relief Organizer",
+          "relationships": {
+            "Mission": "Humanitarian supplies",
+            "Beneficiaries": "War refugees"
+          }
+        }
+      }
+    },
+    "ceres-administrator": {
+      "name": "Station Administrator Wong",
+      "aliases": ["Wong"],
+      "appearances": [5, 13, 21, 29, 37, 45],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Ceres Station administrator trying to maintain civil order during the chaotic war period.",
+          "role": "Station Administrator",
+          "relationships": {
+            "Station": "Ceres",
+            "Challenge": "Wartime governance"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Works with Dawes and other Belter leaders to establish post-war governmental structures.",
+          "role": "Transition Administrator",
+          "relationships": {
+            "Goal": "Post-war stability"
+          }
+        }
+      }
+    },
+    "eros-survivor": {
+      "name": "Survivor Jackson",
+      "aliases": ["Jackson"],
+      "appearances": [9, 17, 25, 33],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Former Eros resident who survived the station's destruction, now working to prevent similar tragedies.",
+          "role": "Tragedy Survivor",
+          "relationships": {
+            "Origin": "Destroyed Eros",
+            "Mission": "Preventing future disasters"
+          }
+        }
+      }
+    },
+    "shipping-coordinator": {
+      "name": "Coordinator Walsh",
+      "aliases": ["Walsh"],
+      "appearances": [8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Transport Union coordinator working to maintain essential shipping despite Free Navy interdiction.",
+          "role": "Shipping Coordinator",
+          "relationships": {
+            "Union": "Transport Union",
+            "Challenge": "Free Navy disruption"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Develops alternative shipping routes to bypass Free Navy controlled areas.",
+          "role": "Route Planner",
+          "relationships": {
+            "Strategy": "Bypassing Free Navy"
+          }
+        }
+      }
+    },
+    "security-chief": {
+      "name": "Security Chief Davis",
+      "aliases": ["Chief Davis"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Station security chief dealing with increased crime and unrest during the war period.",
+          "role": "Security Chief",
+          "relationships": {
+            "Responsibility": "Station security",
+            "Challenge": "War-related crime"
+          }
+        }
+      }
+    },
+    "engineer-specialist": {
+      "name": "Chief Engineer Rodriguez",
+      "aliases": ["Rodriguez"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Senior engineer working on ship modifications to counter Free Navy technological advantages.",
+          "role": "Combat Engineer",
+          "relationships": {
+            "Project": "Ship upgrades",
+            "Goal": "Tactical advantage"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Develops countermeasures against Free Navy stealth and jamming technologies.",
+          "role": "Countermeasure Developer",
+          "relationships": {
+            "Target": "Free Navy tech"
+          }
+        }
+      }
+    },
+    "communication-officer": {
+      "name": "Comms Officer Lee",
+      "aliases": ["Lee"],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Communications specialist coordinating information flow between allied forces.",
+          "role": "Communications Officer",
+          "relationships": {
+            "Network": "Allied communications",
+            "Mission": "Information coordination"
+          }
+        }
+      }
+    },
+    "logistics-officer": {
+      "name": "Supply Officer Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [16, 24, 32, 40, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Logistics officer managing supply lines for combined fleet operations.",
+          "role": "Logistics Officer",
+          "relationships": {
+            "Responsibility": "Fleet supplies",
+            "Challenge": "Supply line security"
+          }
+        }
+      }
+    },
+    "medical-officer": {
+      "name": "Fleet Doctor Wilson",
+      "aliases": ["Dr. Wilson"],
+      "appearances": [19, 27, 35, 43, 51],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Fleet medical officer treating casualties from the ongoing military operations.",
+          "role": "Fleet Doctor",
+          "relationships": {
+            "Patients": "Combat casualties",
+            "Service": "Combined fleet"
+          }
+        }
+      }
+    },
+    "intelligence-operative": {
+      "name": "Agent Foster",
+      "aliases": ["Foster"],
+      "appearances": [22, 30, 38, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Intelligence operative gathering information on Free Navy operations and plans.",
+          "role": "Intelligence Agent",
+          "relationships": {
+            "Target": "Free Navy intelligence",
+            "Method": "Covert operations"
+          }
+        }
+      }
+    },
+    "civilian-leader": {
+      "name": "Community Leader Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [25, 33, 41, 49],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Civilian community leader organizing mutual aid and support during the war crisis.",
+          "role": "Community Organizer",
+          "relationships": {
+            "Community": "War-affected civilians",
+            "Mission": "Mutual support"
+          }
+        }
+      }
+    },
+    "resistance-coordinator": {
+      "name": "Coordinator Miller",
+      "aliases": ["Miller"],
+      "appearances": [24, 32, 40, 48],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Underground resistance coordinator organizing sabotage operations against Free Navy installations.",
+          "role": "Resistance Coordinator",
+          "relationships": {
+            "Network": "Underground resistance",
+            "Target": "Free Navy infrastructure"
+          }
+        }
+      }
     }
   },
   "recaps": {
