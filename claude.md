@@ -641,11 +641,11 @@ None currently - all configured series have complete book coverage!
   - 🟢 The Wise Man's Fear: 100 characters, all recaps, v2.0
 
 - ✅ **Wings of Fire** (5 books - Arc 1)
-  - 🟡 The Dragonet Prophecy: 40 characters, all recaps, v2.0
-  - 🟡 The Lost Heir: 31 characters, all recaps, v2.0
-  - 🟡 The Hidden Kingdom: 29 characters, all recaps, v2.0
-  - 🟡 The Dark Secret: 28 characters, all recaps, v2.0
-  - 🟡 The Brightest Night: 25 characters, all recaps, v2.0
+  - 🟢 The Dragonet Prophecy: 79 characters, all recaps, v2.0
+  - 🟢 The Lost Heir: 71 characters, all recaps, v2.0
+  - 🟢 The Hidden Kingdom: 67 characters, all recaps, v2.0
+  - 🟢 The Dark Secret: 81 characters, all recaps, v2.0
+  - 🟢 The Brightest Night: 81 characters, all recaps, v2.0
 
 ### Not Started (Configured but no data)
 - ❌ **Mistborn/Cosmere** (0 of 7 books - 1 partial file exists)
