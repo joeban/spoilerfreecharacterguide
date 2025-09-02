@@ -1341,6 +1341,1263 @@
           }
         }
       }
+    },
+    "noril": {
+      "name": "Noril",
+      "aliases": [],
+      "appearances": [32, 38, 43, 48, 53, 58, 64, 69],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Member of Kaladin's therapy group in the Tower, struggling with his own trauma and mental health issues.",
+          "role": "Therapy group member",
+          "relationships": {
+            "Kaladin Stormblessed": "Therapy group leader",
+            "Other survivors": "Fellow trauma survivors"
+          }
+        }
+      }
+    },
+    "stump": {
+      "name": "Stump",
+      "aliases": ["Edgedancer Stump"],
+      "appearances": [25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Gruff Edgedancer who works with Lift, known for her practical approach to healing and helping others.",
+          "role": "Edgedancer",
+          "relationships": {
+            "Lift": "Fellow Edgedancer",
+            "Godeke": "Fellow Edgedancer"
+          }
+        }
+      }
+    },
+    "arshqqam": {
+      "name": "Arshqqam",
+      "aliases": ["Edgedancer Arshqqam"],
+      "appearances": [25, 31, 37, 43, 49, 55, 61, 67, 73],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Edgedancer working with Lift's group to help people and remember the forgotten.",
+          "role": "Edgedancer",
+          "relationships": {
+            "Lift": "Fellow Edgedancer",
+            "Stump": "Fellow Edgedancer"
+          }
+        }
+      }
+    },
+    "malata": {
+      "name": "Malata",
+      "aliases": ["Dustbringer Malata"],
+      "appearances": [30, 36, 42, 48, 54, 60, 66, 72],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Dustbringer Radiant with a concerning fascination for destruction and fire.",
+          "role": "Dustbringer",
+          "relationships": {
+            "Spark": "Bonded ashspren",
+            "Other Radiants": "Uneasy ally"
+          }
+        }
+      }
+    },
+    "spark": {
+      "name": "Spark",
+      "aliases": ["Ashspren"],
+      "appearances": [30, 36, 42, 48, 54, 60, 66, 72],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Ashspren bonded to Malata, shares her interest in destruction.",
+          "role": "Ashspren",
+          "relationships": {
+            "Malata": "Bonded Radiant"
+          }
+        }
+      }
+    },
+    "khen": {
+      "name": "Khen",
+      "aliases": ["Listener recruit"],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87, 93],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Former listener who joined the human forces, serves alongside Bridge Four.",
+          "role": "Listener recruit",
+          "relationships": {
+            "Kaladin Stormblessed": "Captain",
+            "Rlain": "Fellow listener",
+            "Bridge Four": "Member"
+          }
+        }
+      }
+    },
+    "sah": {
+      "name": "Sah",
+      "aliases": ["Former parshman"],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Former parshman who gained freedom, now works with the human forces despite past grievances.",
+          "role": "Reformed parshman",
+          "relationships": {
+            "Kaladin Stormblessed": "Former enemy, now ally",
+            "Rlain": "Fellow singer"
+          }
+        }
+      }
+    },
+    "earless-jaks": {
+      "name": "Earless Jaks",
+      "aliases": ["Jaks"],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87, 93],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Bridge Four member known for his missing ear and steady demeanor under pressure.",
+          "role": "Bridge Four soldier",
+          "relationships": {
+            "Kaladin Stormblessed": "Captain",
+            "Bridge Four": "Member"
+          }
+        }
+      }
+    },
+    "narm": {
+      "name": "Narm",
+      "aliases": [],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87, 93],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Bridge Four member who serves loyally under Kaladin's command.",
+          "role": "Bridge Four soldier",
+          "relationships": {
+            "Kaladin Stormblessed": "Captain",
+            "Bridge Four": "Member"
+          }
+        }
+      }
+    },
+    "ved": {
+      "name": "Ved",
+      "aliases": [],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Bridge Four member known for his reliability in combat situations.",
+          "role": "Bridge Four soldier",
+          "relationships": {
+            "Kaladin Stormblessed": "Captain",
+            "Bridge Four": "Member"
+          }
+        }
+      }
+    },
+    "colot": {
+      "name": "Colot",
+      "aliases": [],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Bridge Four member who fights alongside his brothers in the resistance.",
+          "role": "Bridge Four soldier",
+          "relationships": {
+            "Kaladin Stormblessed": "Captain",
+            "Bridge Four": "Member"
+          }
+        }
+      }
+    },
+    "laran": {
+      "name": "Laran",
+      "aliases": [],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Bridge Four member who participates in the Tower resistance efforts.",
+          "role": "Bridge Four soldier",
+          "relationships": {
+            "Kaladin Stormblessed": "Captain",
+            "Bridge Four": "Member"
+          }
+        }
+      }
+    },
+    "dru": {
+      "name": "Dru",
+      "aliases": [],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Bridge Four member who serves in dangerous Tower operations.",
+          "role": "Bridge Four soldier",
+          "relationships": {
+            "Kaladin Stormblessed": "Captain",
+            "Bridge Four": "Member"
+          }
+        }
+      }
+    },
+    "kadash": {
+      "name": "Kadash",
+      "aliases": ["Ardent Kadash"],
+      "appearances": [10, 17, 21, 27, 33, 39, 44, 49, 54, 59, 65, 70, 76, 82],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Former soldier turned ardent, serves in the Tower's religious and administrative functions.",
+          "role": "Ardent",
+          "relationships": {
+            "Dalinar Kholin": "Former captain",
+            "Other Ardents": "Fellow clergy"
+          }
+        }
+      }
+    },
+    "rushu": {
+      "name": "Rushu",
+      "aliases": ["Engineer Rushu"],
+      "appearances": [12, 17, 21, 27, 33, 39, 44, 49, 54, 59, 65, 70, 76, 82, 86, 91],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Brilliant engineer working with Navani on fabrial research and Tower systems.",
+          "role": "Engineer",
+          "relationships": {
+            "Navani Kholin": "Research partner",
+            "Tomor": "Fellow scholar"
+          }
+        }
+      }
+    },
+    "tomor": {
+      "name": "Tomor",
+      "aliases": ["Ardent Tomor"],
+      "appearances": [12, 17, 21, 27, 33, 39, 44, 49, 54, 59, 65, 70, 76, 82],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Scholarly ardent working on fabrial research under Navani's direction.",
+          "role": "Scholar Ardent",
+          "relationships": {
+            "Navani Kholin": "Research supervisor",
+            "Rushu": "Fellow researcher"
+          }
+        }
+      }
+    },
+    "falilar": {
+      "name": "Falilar",
+      "aliases": ["Ardent Falilar"],
+      "appearances": [12, 17, 21, 27, 33, 39, 44, 49, 54, 59, 65],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Ardent scholar working on understanding ancient fabrials and Investiture.",
+          "role": "Scholar Ardent",
+          "relationships": {
+            "Navani Kholin": "Research supervisor",
+            "Other Ardents": "Fellow scholars"
+          }
+        }
+      }
+    },
+    "velat": {
+      "name": "Velat",
+      "aliases": [],
+      "appearances": [12, 17, 21, 27, 33, 39, 44, 49, 54],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Scholar working with Navani's research team on fabrial innovations.",
+          "role": "Scholar",
+          "relationships": {
+            "Navani Kholin": "Research supervisor",
+            "Research team": "Member"
+          }
+        }
+      }
+    },
+    "isabi": {
+      "name": "Isabi",
+      "aliases": [],
+      "appearances": [12, 17, 21, 27, 33, 39, 44, 49],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Research assistant working on fabrial experiments in the Tower.",
+          "role": "Research assistant",
+          "relationships": {
+            "Navani Kholin": "Research supervisor",
+            "Research team": "Member"
+          }
+        }
+      }
+    },
+    "adin": {
+      "name": "Adin",
+      "aliases": ["Windrunner squire"],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Windrunner squire training under Kaladin, learning to use Stormlight and fly.",
+          "role": "Windrunner squire",
+          "relationships": {
+            "Kaladin Stormblessed": "Trainer and captain",
+            "Other squires": "Fellow trainees"
+          }
+        }
+      }
+    },
+    "dinah": {
+      "name": "Dinah",
+      "aliases": ["Windrunner squire"],
+      "appearances": [6, 11, 16, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Young woman training as a Windrunner squire under Kaladin's instruction.",
+          "role": "Windrunner squire",
+          "relationships": {
+            "Kaladin Stormblessed": "Trainer and captain",
+            "Adin": "Fellow squire"
+          }
+        }
+      }
+    },
+    "gaz": {
+      "name": "Gaz",
+      "aliases": ["Former bridgeleader"],
+      "appearances": [26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87, 93],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Former bridgeleader who now works with the resistance in the Tower, has found redemption through helping others.",
+          "role": "Resistance member",
+          "relationships": {
+            "Kaladin Stormblessed": "Former enemy, now ally",
+            "Vathah": "Fellow reformed soldier"
+          }
+        }
+      }
+    },
+    "vathah": {
+      "name": "Vathah",
+      "aliases": ["Deserter"],
+      "appearances": [26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87, 93],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Former deserter who joined Kaladin's group, now helps with Tower resistance efforts.",
+          "role": "Resistance member",
+          "relationships": {
+            "Kaladin Stormblessed": "Leader and captain",
+            "Gaz": "Fellow reformed soldier"
+          }
+        }
+      }
+    },
+    "red": {
+      "name": "Red",
+      "aliases": ["Soldier Red"],
+      "appearances": [26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87, 93],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Soldier who works with Kaladin's resistance group in the Tower, known for his red hair.",
+          "role": "Resistance member",
+          "relationships": {
+            "Kaladin Stormblessed": "Captain",
+            "Gaz": "Fellow soldier",
+            "Vathah": "Fellow soldier"
+          }
+        }
+      }
+    },
+    "turash": {
+      "name": "Turash",
+      "aliases": ["Fused Turash"],
+      "appearances": [20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Powerful Fused warrior serving in the Tower occupation, known for his combat prowess.",
+          "role": "Fused warrior",
+          "relationships": {
+            "Raboniel": "Serves under",
+            "Lezian": "Fellow Fused",
+            "Odium": "Serves"
+          }
+        }
+      }
+    },
+    "vatwha": {
+      "name": "Vatwha",
+      "aliases": ["Fused Vatwha"],
+      "appearances": [20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Fused involved in the Tower occupation, works alongside other Fused in implementing their plans.",
+          "role": "Fused operative",
+          "relationships": {
+            "Raboniel": "Serves under",
+            "Other Fused": "Fellow servants of Odium"
+          }
+        }
+      }
+    },
+    "she-who-dreams": {
+      "name": "She Who Dreams",
+      "aliases": ["Ancient Fused"],
+      "appearances": [15, 24, 30, 36, 42, 47, 52, 57, 62, 68, 73, 79],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Ancient and wise Fused who provides counsel on the nature of their eternal war and the singers' purpose.",
+          "role": "Ancient Fused advisor",
+          "relationships": {
+            "Leshwi": "Fellow ancient",
+            "Venli": "Observes with interest",
+            "Odium": "Serves with reservations"
+          }
+        }
+      }
+    },
+    "essu": {
+      "name": "Essu",
+      "aliases": ["Raboniel's daughter"],
+      "appearances": [21, 27, 33, 39, 44, 49, 54, 59, 65, 70, 76],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Raboniel's deceased daughter, whose loss motivates much of Raboniel's actions and research.",
+          "role": "Deceased Fused",
+          "relationships": {
+            "Raboniel": "Mother",
+            "Ancient War": "Victim of"
+          }
+        }
+      }
+    },
+    "altoki": {
+      "name": "Altoki",
+      "aliases": ["Singer Altoki"],
+      "appearances": [24, 30, 36, 42, 47, 52, 57, 62, 68, 73],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Singer working under the Fused occupation, questioning the righteousness of their cause.",
+          "role": "Singer laborer",
+          "relationships": {
+            "Venli": "Fellow singer",
+            "Thude": "Companion",
+            "Jaxlim": "Fellow worker"
+          }
+        }
+      }
+    },
+    "melu": {
+      "name": "Melu",
+      "aliases": ["Singer Melu"],
+      "appearances": [24, 30, 36, 42, 47, 52, 57, 62, 68],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Singer serving the Fused, begins to develop doubts about their treatment of humans.",
+          "role": "Singer guard",
+          "relationships": {
+            "Venli": "Fellow singer",
+            "Other singers": "Companions in service"
+          }
+        }
+      }
+    },
+    "rothan": {
+      "name": "Rothan",
+      "aliases": ["Listener Rothan"],
+      "appearances": [30, 36, 42, 47, 52, 57, 62, 68],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Former listener now serving as a singer under the Fused, remembers the old ways.",
+          "role": "Former listener",
+          "relationships": {
+            "Venli": "Fellow former listener",
+            "Ancient listeners": "Remembers"
+          }
+        }
+      }
+    },
+    "abiajan": {
+      "name": "Abiajan",
+      "aliases": ["Singer Abiajan"],
+      "appearances": [24, 30, 36, 42, 47, 52, 57],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Singer working in the Tower under Fused occupation, conflicted about the war.",
+          "role": "Singer worker",
+          "relationships": {
+            "Venli": "Fellow singer",
+            "Fused": "Serves reluctantly"
+          }
+        }
+      }
+    },
+    "the-defeated-one": {
+      "name": "The Defeated One",
+      "aliases": ["Ancient Fused"],
+      "appearances": [40, 50, 60, 70, 80],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Ancient Fused who has experienced many defeats, provides wisdom about the cyclical nature of their war.",
+          "role": "Ancient Fused",
+          "relationships": {
+            "Other Ancient Fused": "Fellow ancients",
+            "Raboniel": "Contemporary"
+          }
+        }
+      }
+    },
+    "heavenly-ones-group": {
+      "name": "The Heavenly Ones",
+      "aliases": ["Flying Fused"],
+      "appearances": [15, 20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Group of flying Fused including Leshwi, known for their aerial combat abilities and codes of honor.",
+          "role": "Flying Fused warriors",
+          "relationships": {
+            "Leshwi": "Member and leader",
+            "Kaladin Stormblessed": "Aerial opponents"
+          }
+        }
+      }
+    },
+    "masked-ones-group": {
+      "name": "The Masked Ones",
+      "aliases": ["Deepest Ones"],
+      "appearances": [20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Group of Fused who wear masks and serve specialized functions in the occupation.",
+          "role": "Specialized Fused",
+          "relationships": {
+            "Raboniel": "Serve under",
+            "Tower occupation": "Key operatives"
+          }
+        }
+      }
+    },
+    "sixteen": {
+      "name": "Sixteen",
+      "aliases": ["Honorspren Sixteen"],
+      "appearances": [23, 29, 35, 41, 46, 51, 56, 61, 67, 72, 78, 84],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Honorspren at Lasting Integrity, involved in the trial proceedings against humans.",
+          "role": "Honorspren official",
+          "relationships": {
+            "Blended": "Fellow judge",
+            "Adolin Kholin": "Judges in trial"
+          }
+        }
+      }
+    },
+    "sekeir": {
+      "name": "Sekeir",
+      "aliases": ["Honorspren Judge"],
+      "appearances": [23, 29, 35, 41, 46, 51, 56, 61, 67, 72, 78],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Honorspren judge presiding over the trial of Adolin and humanity for ancient betrayals.",
+          "role": "Honorspren Judge",
+          "relationships": {
+            "Adolin Kholin": "Judges",
+            "Maya": "Witness testimony affects",
+            "Other honorspren": "Fellow judges"
+          }
+        }
+      }
+    },
+    "cryptic-followers": {
+      "name": "Cryptic Followers",
+      "aliases": ["Shallan's Cryptics"],
+      "appearances": [2, 7, 13, 18, 22, 28, 34, 40, 45, 50, 55, 60, 66, 71, 77],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Group of cryptic spren following Shallan, drawn to her lies and truths.",
+          "role": "Cryptic spren",
+          "relationships": {
+            "Shallan Davar": "Drawn to",
+            "Pattern": "Follow lead of"
+          }
+        }
+      }
+    },
+    "peakspren-captain": {
+      "name": "Peakspren Captain",
+      "aliases": ["Captain"],
+      "appearances": [14, 19, 23, 29, 35, 41, 46, 51, 56, 61, 67],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Peakspren serving as ship captain in Shadesmar, helps transport the expedition.",
+          "role": "Ship captain",
+          "relationships": {
+            "Adolin Kholin": "Transports expedition",
+            "Shadesmar traders": "Fellow merchant"
+          }
+        }
+      }
+    },
+    "reacher-captain": {
+      "name": "Reacher Captain",
+      "aliases": ["Spren Captain"],
+      "appearances": [14, 19, 23, 29, 35, 41, 46, 51, 56],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Reacherspren captain of a vessel in Shadesmar, involved in spren commerce.",
+          "role": "Ship captain",
+          "relationships": {
+            "Shadesmar expedition": "Provides transport",
+            "Spren merchants": "Fellow trader"
+          }
+        }
+      }
+    },
+    "shadesmar-merchants": {
+      "name": "Shadesmar Merchants",
+      "aliases": ["Spren traders"],
+      "appearances": [8, 14, 19, 23, 29, 35, 41, 46, 51, 56, 61, 67, 72, 78],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Various spren involved in commerce and trade throughout Shadesmar.",
+          "role": "Spren merchants",
+          "relationships": {
+            "Adolin Kholin": "Trade with expedition",
+            "Ua'pam": "Fellow trader"
+          }
+        }
+      }
+    },
+    "shadesmar-sailors": {
+      "name": "Shadesmar Sailors",
+      "aliases": ["Spren sailors"],
+      "appearances": [8, 14, 19, 23, 29, 35, 41, 46, 51, 56, 61, 67],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Spren who work the ships and vessels that traverse the Shadesmar seas.",
+          "role": "Spren sailors",
+          "relationships": {
+            "Ship captains": "Serve under",
+            "Shadesmar expedition": "Provide services to"
+          }
+        }
+      }
+    },
+    "kalak-kelek": {
+      "name": "Kalak",
+      "aliases": ["Kelek", "Herald of Resolve"],
+      "appearances": [55, 65, 75, 85, 95, 105],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "Herald of Resolve, also known as Kelek, who abandoned his duties and now hides among mortals.",
+          "role": "Herald of Resolve",
+          "relationships": {
+            "Other Heralds": "Former companions",
+            "Honor": "Former bond",
+            "Ishar": "Fellow Herald"
+          }
+        }
+      }
+    },
+    "vedel": {
+      "name": "Vedel",
+      "aliases": ["Herald of Healing"],
+      "appearances": [85, 95, 105, 115],
+      "knowledge": {
+        "85": {
+          "revealedIn": 85,
+          "description": "Herald of Healing, mentioned in ancient texts and historical records.",
+          "role": "Herald of Healing",
+          "relationships": {
+            "Other Heralds": "Fellow Herald",
+            "Ancient Radiants": "Taught healing"
+          }
+        }
+      }
+    },
+    "battar": {
+      "name": "Battar",
+      "aliases": ["Herald of Resolve"],
+      "appearances": [75, 85, 95],
+      "knowledge": {
+        "75": {
+          "revealedIn": 75,
+          "description": "Herald mentioned in historical records and ancient texts.",
+          "role": "Herald",
+          "relationships": {
+            "Other Heralds": "Fellow Herald",
+            "Ancient history": "Part of"
+          }
+        }
+      }
+    },
+    "chana": {
+      "name": "Chana",
+      "aliases": ["Herald of Devotion"],
+      "appearances": [75, 85, 95],
+      "knowledge": {
+        "75": {
+          "revealedIn": 75,
+          "description": "Herald of Devotion, referenced in ancient histories and religious texts.",
+          "role": "Herald of Devotion",
+          "relationships": {
+            "Other Heralds": "Fellow Herald",
+            "Ancient orders": "Founded"
+          }
+        }
+      }
+    },
+    "dova": {
+      "name": "Dova",
+      "aliases": ["Herald"],
+      "appearances": [85, 95, 105],
+      "knowledge": {
+        "85": {
+          "revealedIn": 85,
+          "description": "One of the Heralds mentioned in ancient records and scholarly texts.",
+          "role": "Herald",
+          "relationships": {
+            "Other Heralds": "Fellow Herald",
+            "Ancient Radiants": "Taught"
+          }
+        }
+      }
+    },
+    "ancient-radiants": {
+      "name": "Ancient Radiants",
+      "aliases": ["First Radiants"],
+      "appearances": [23, 29, 35, 41, 46, 51, 56, 61, 67, 72, 78, 84, 89, 95],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "The first generation of Knights Radiant who abandoned their oaths, causing the Recreance.",
+          "role": "Historical Radiants",
+          "relationships": {
+            "Spren": "Abandoned bonds with",
+            "Maya": "Broke bond with",
+            "Honor": "Served"
+          }
+        }
+      }
+    },
+    "dieno-mink": {
+      "name": "Dieno",
+      "aliases": ["The Mink"],
+      "appearances": [90, 95, 100, 105, 110, 115],
+      "knowledge": {
+        "90": {
+          "revealedIn": 90,
+          "description": "Renowned military tactician known as 'The Mink' who serves in the Emul war camp.",
+          "role": "Military tactician",
+          "relationships": {
+            "Coalition forces": "Serves",
+            "Emul leadership": "Advises"
+          }
+        }
+      }
+    },
+    "emul-leadership": {
+      "name": "Emul Leadership",
+      "aliases": ["Emul commanders"],
+      "appearances": [90, 95, 100, 105, 110, 115],
+      "knowledge": {
+        "90": {
+          "revealedIn": 90,
+          "description": "Military and political leaders of Emul involved in the war effort.",
+          "role": "Military leaders",
+          "relationships": {
+            "Dieno": "Work with",
+            "Coalition forces": "Allied with"
+          }
+        }
+      }
+    },
+    "alethi-scouts": {
+      "name": "Alethi Scouts",
+      "aliases": ["Coalition scouts"],
+      "appearances": [90, 95, 100, 105, 110, 115],
+      "knowledge": {
+        "90": {
+          "revealedIn": 90,
+          "description": "Alethi soldiers and scouts mentioned by name serving in the war effort.",
+          "role": "Military scouts",
+          "relationships": {
+            "Dieno": "Report to",
+            "Coalition forces": "Serve"
+          }
+        }
+      }
+    },
+    "veden-soldiers": {
+      "name": "Veden Soldiers",
+      "aliases": ["Veden forces"],
+      "appearances": [90, 95, 100, 105, 110],
+      "knowledge": {
+        "90": {
+          "revealedIn": 90,
+          "description": "Various named Veden soldiers serving in the coalition war effort.",
+          "role": "Soldiers",
+          "relationships": {
+            "Coalition forces": "Part of",
+            "Emul war": "Fight in"
+          }
+        }
+      }
+    },
+    "dabbid-encounters": {
+      "name": "Dabbid's Contacts",
+      "aliases": ["Tower contacts"],
+      "appearances": [26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Various people Dabbid encounters during his missions in the Tower resistance.",
+          "role": "Resistance contacts",
+          "relationships": {
+            "Dabbid": "Encountered by",
+            "Tower resistance": "Part of network"
+          }
+        }
+      }
+    },
+    "dukar": {
+      "name": "Dukar",
+      "aliases": ["Taravangian's advisor"],
+      "appearances": ["I-2", "I-6", "I-9", "I-12"],
+      "knowledge": {
+        "I-2": {
+          "revealedIn": "I-2",
+          "description": "One of Taravangian's advisors who serves him before and after his transformation.",
+          "role": "Royal advisor",
+          "relationships": {
+            "Taravangian": "Advises",
+            "Mrall": "Fellow servant"
+          }
+        }
+      }
+    },
+    "ishar-companions": {
+      "name": "Ishar's Companions",
+      "aliases": ["Herald's servants"],
+      "appearances": [60, 70, 80, 90, 100, 110],
+      "knowledge": {
+        "60": {
+          "revealedIn": 60,
+          "description": "People serving the corrupt Herald Ishar in his dangerous experiments.",
+          "role": "Herald servants",
+          "relationships": {
+            "Ishar": "Serve",
+            "Szeth": "Encounter"
+          }
+        }
+      }
+    },
+    "musah": {
+      "name": "Musah",
+      "aliases": ["Singer Musah"],
+      "appearances": ["I-3", 24, 30, 36, 42],
+      "knowledge": {
+        "I-3": {
+          "revealedIn": "I-3",
+          "description": "Singer who appears in interludes, representing the singer perspective on the war.",
+          "role": "Singer civilian",
+          "relationships": {
+            "Other singers": "Fellow singers",
+            "Fused": "Serves"
+          }
+        }
+      }
+    },
+    "dul": {
+      "name": "Dul",
+      "aliases": ["Singer Dul"],
+      "appearances": ["I-3", 24, 30, 36],
+      "knowledge": {
+        "I-3": {
+          "revealedIn": "I-3",
+          "description": "Singer mentioned in interludes, part of the singer community under Fused rule.",
+          "role": "Singer civilian",
+          "relationships": {
+            "Musah": "Fellow singer",
+            "Singer community": "Member"
+          }
+        }
+      }
+    },
+    "jasim": {
+      "name": "Jasim",
+      "aliases": ["Singer Jasim"],
+      "appearances": ["I-3", 24, 30],
+      "knowledge": {
+        "I-3": {
+          "revealedIn": "I-3",
+          "description": "Singer appearing in interludes, showing daily life under Fused occupation.",
+          "role": "Singer civilian",
+          "relationships": {
+            "Other singers": "Community member",
+            "Fused rule": "Lives under"
+          }
+        }
+      }
+    },
+    "jaxlim-mother": {
+      "name": "Jaxlim (Eshonai's mother)",
+      "aliases": ["Listener mother"],
+      "appearances": ["flashback-30", "flashback-36", "flashback-42", "flashback-47"],
+      "knowledge": {
+        "flashback-30": {
+          "revealedIn": "flashback-30",
+          "description": "Mother to Eshonai and Venli in flashbacks, representing the older generation of listeners.",
+          "role": "Listener matriarch",
+          "relationships": {
+            "Eshonai": "Daughter",
+            "Venli": "Daughter",
+            "Listener community": "Elder"
+          }
+        }
+      }
+    },
+    "the-five-listeners": {
+      "name": "The Five",
+      "aliases": ["Listener leaders"],
+      "appearances": ["flashback-30", "flashback-36", "flashback-42", "flashback-47", "flashback-52"],
+      "knowledge": {
+        "flashback-30": {
+          "revealedIn": "flashback-30",
+          "description": "The five leaders of the listener community in flashbacks, governing their people.",
+          "role": "Listener leadership council",
+          "relationships": {
+            "Eshonai": "Led",
+            "Venli": "Governed",
+            "Listener community": "Ruled"
+          }
+        }
+      }
+    },
+    "asma": {
+      "name": "Asma",
+      "aliases": ["Listener scout"],
+      "appearances": ["flashback-30", "flashback-36", "flashback-42"],
+      "knowledge": {
+        "flashback-30": {
+          "revealedIn": "flashback-30",
+          "description": "Listener scout who worked with Eshonai in exploring their world in flashbacks.",
+          "role": "Listener scout",
+          "relationships": {
+            "Eshonai": "Fellow scout",
+            "Listener explorers": "Part of team"
+          }
+        }
+      }
+    },
+    "first-human-contact": {
+      "name": "First Human Contact",
+      "aliases": ["Human explorers"],
+      "appearances": ["flashback-36", "flashback-42", "flashback-47"],
+      "knowledge": {
+        "flashback-36": {
+          "revealedIn": "flashback-36",
+          "description": "The first humans encountered by the listeners in flashbacks, changing their world forever.",
+          "role": "Human explorers",
+          "relationships": {
+            "Eshonai": "First encountered",
+            "Listeners": "Made contact with"
+          }
+        }
+      }
+    },
+    "kmakl": {
+      "name": "Kmakl",
+      "aliases": ["Thaylen prince"],
+      "appearances": [12, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Thaylen prince and member of the coalition leadership working on war strategy.",
+          "role": "Thaylen prince",
+          "relationships": {
+            "Queen Fen": "Fellow Thaylen leader",
+            "Coalition": "Member"
+          }
+        }
+      }
+    },
+    "highprince-representatives": {
+      "name": "Highprince Representatives",
+      "aliases": ["Alethi highprinces"],
+      "appearances": [12, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79, 85, 91],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Various representatives of the Alethi highprinces in coalition meetings.",
+          "role": "Political representatives",
+          "relationships": {
+            "Dalinar Kholin": "Report to",
+            "Coalition": "Represent interests in"
+          }
+        }
+      }
+    },
+    "battalion-commanders": {
+      "name": "Battalion Commanders",
+      "aliases": ["Military commanders"],
+      "appearances": [90, 95, 100, 105, 110, 115],
+      "knowledge": {
+        "90": {
+          "revealedIn": 90,
+          "description": "Various named battalion and company commanders serving in the coalition forces.",
+          "role": "Military commanders",
+          "relationships": {
+            "Dieno": "Serve under",
+            "Coalition forces": "Lead units in"
+          }
+        }
+      }
+    },
+    "azish-officials": {
+      "name": "Azish Officials",
+      "aliases": ["Azish representatives"],
+      "appearances": [12, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Named Azish officials and representatives in coalition politics.",
+          "role": "Political officials",
+          "relationships": {
+            "Coalition": "Represent Azir in",
+            "Sigzil": "Fellow Azish"
+          }
+        }
+      }
+    },
+    "regals": {
+      "name": "Regals",
+      "aliases": ["Enhanced singers"],
+      "appearances": [20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Named singers who have taken Regal forms during the Tower occupation.",
+          "role": "Enhanced singers",
+          "relationships": {
+            "Fused": "Serve",
+            "Tower occupation": "Participate in"
+          }
+        }
+      }
+    },
+    "deepest-ones": {
+      "name": "Deepest Ones",
+      "aliases": ["Tower infiltrators"],
+      "appearances": [20, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Named members of the Deepest Ones serving in the Tower occupation.",
+          "role": "Fused infiltrators",
+          "relationships": {
+            "Raboniel": "Serve under",
+            "Tower systems": "Infiltrate"
+          }
+        }
+      }
+    },
+    "human-collaborators": {
+      "name": "Human Collaborators",
+      "aliases": ["Tower collaborators"],
+      "appearances": [26, 32, 38, 43, 48, 53, 58, 64, 69, 75],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Named humans who collaborate with the Fused during the Tower occupation.",
+          "role": "Collaborators",
+          "relationships": {
+            "Fused": "Work with",
+            "Tower resistance": "Oppose"
+          }
+        }
+      }
+    },
+    "urithiru-residents": {
+      "name": "Urithiru Residents",
+      "aliases": ["Tower civilians"],
+      "appearances": [26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87, 93],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Various named residents of Urithiru Tower during the occupation.",
+          "role": "Tower civilians",
+          "relationships": {
+            "Kaladin Stormblessed": "Protected by",
+            "Fused occupation": "Live under"
+          }
+        }
+      }
+    },
+    "tower-guards": {
+      "name": "Tower Guards",
+      "aliases": ["Urithiru guards"],
+      "appearances": [26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Named guards serving in Urithiru Tower before and during occupation.",
+          "role": "Tower guards",
+          "relationships": {
+            "Kaladin Stormblessed": "Some join resistance",
+            "Tower security": "Responsible for"
+          }
+        }
+      }
+    },
+    "tower-servants": {
+      "name": "Tower Servants",
+      "aliases": ["Urithiru servants"],
+      "appearances": [26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Named servants working in Urithiru Tower during the occupation.",
+          "role": "Tower servants",
+          "relationships": {
+            "Tower residents": "Serve",
+            "Fused occupation": "Work under"
+          }
+        }
+      }
+    },
+    "lightweaver-students": {
+      "name": "Lightweaver Students",
+      "aliases": ["Shallan's students"],
+      "appearances": [2, 7, 13, 18, 22, 28, 34, 40, 45, 50, 55, 60, 66, 71, 77],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "New Lightweaver students being trained by Shallan in the use of their abilities.",
+          "role": "Lightweaver trainees",
+          "relationships": {
+            "Shallan Davar": "Teacher",
+            "Cryptic spren": "Bonding with"
+          }
+        }
+      }
+    },
+    "cult-of-moments": {
+      "name": "Cult of Moments",
+      "aliases": ["Religious cultists"],
+      "appearances": [32, 38, 43, 48, 53, 58, 64, 69],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Named members of the Cult of Moments religious group in the Tower.",
+          "role": "Religious cultists",
+          "relationships": {
+            "Tower residents": "Fellow residents",
+            "Religious beliefs": "Follow"
+          }
+        }
+      }
+    },
+    "refugee-camps": {
+      "name": "Named Refugees",
+      "aliases": ["War refugees"],
+      "appearances": [32, 38, 43, 48, 53, 58, 64, 69, 75, 80, 87],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Various named refugees from the war living in camps around Urithiru.",
+          "role": "War refugees",
+          "relationships": {
+            "Kaladin Stormblessed": "Helped by",
+            "War displacement": "Victims of"
+          }
+        }
+      }
+    },
+    "thaylen-traders": {
+      "name": "Thaylen Traders",
+      "aliases": ["Thaylen merchants"],
+      "appearances": [12, 19, 25, 31, 37, 43, 49, 55, 61, 67],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Named Thaylen sailors and traders working with the coalition.",
+          "role": "Merchants and sailors",
+          "relationships": {
+            "Queen Fen": "Serve",
+            "Coalition trade": "Facilitate"
+          }
+        }
+      }
+    },
+    "tower-surgeons": {
+      "name": "Tower Surgeons",
+      "aliases": ["Medical staff"],
+      "appearances": [16, 26, 32, 38, 43, 48, 53, 58, 64, 69, 75, 80],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Named surgeons and healers working in the Tower's medical facilities.",
+          "role": "Medical personnel",
+          "relationships": {
+            "Lirin": "Work with",
+            "Tower patients": "Treat"
+          }
+        }
+      }
+    },
+    "messengers-scouts": {
+      "name": "Messengers and Scouts",
+      "aliases": ["Communication network"],
+      "appearances": [90, 95, 100, 105, 110, 115],
+      "knowledge": {
+        "90": {
+          "revealedIn": 90,
+          "description": "Named messengers and scouts facilitating communication across the war zones.",
+          "role": "Communication personnel",
+          "relationships": {
+            "Coalition forces": "Serve",
+            "Military commanders": "Report to"
+          }
+        }
+      }
     }
   },
   "recaps": {
