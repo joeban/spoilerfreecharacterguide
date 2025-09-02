@@ -636,10 +636,13 @@ None currently - all configured series have complete book coverage!
   - 🟡 Tiamat's Wrath: 54 characters, all recaps, v2.0
   - 🟡 Leviathan Falls: 57 characters, all recaps, v2.0
 
+- ✅ **The Kingkiller Chronicle** (2 books)
+  - 🟡 The Name of the Wind: 52 characters, all recaps, v2.0
+  - 🟡 The Wise Man's Fear: 62 characters, all recaps, v2.0
+
 ### Not Started (Configured but no data)
 - ❌ **Mistborn/Cosmere** (0 of 7 books - 1 partial file exists)
 - ❌ **Foundation** (0 of 5 books)
-- ❌ **Kingkiller Chronicle** (0 of 2 books)
 - ❌ **Wings of Fire** (0 of 5 books)
 - ❌ **Discworld** (0 of 8 books configured)
 
@@ -658,8 +661,8 @@ Priority books that need upgrading to Comprehensive (🟢) coverage:
 4. ~~**Shadow and Bone/Grishaverse**~~ ✅ COMPLETE - Netflix adaptation boost
 
 ### Remaining Priority Series to Add
-1. **Kingkiller Chronicle** - Highly searched, awaiting book 3 (NEXT PRIORITY)
-2. **Wings of Fire** - Young reader audience, very popular
+1. **Wings of Fire** - Young reader audience, very popular (NEXT PRIORITY)
+2. **Foundation** - Apple TV+ adaptation, classic sci-fi
 3. **Wings of Fire** - Young reader audience, very popular
 4. **Foundation** - Apple TV+ adaptation, classic sci-fi
 5. **Discworld** - Terry Pratchett's massive fanbase
@@ -667,9 +670,9 @@ Priority books that need upgrading to Comprehensive (🟢) coverage:
 
 ## Project Statistics (as of latest update)
 - **Total Series Configured**: 20 series
-- **Fully Complete Series**: 17 series (85% coverage)
-- **Total Books with Data**: 88 books
-- **Total Characters**: 7,000+ unique characters across all series
+- **Fully Complete Series**: 18 series (90% coverage)
+- **Total Books with Data**: 90 books
+- **Total Characters**: 7,100+ unique characters across all series
 - **Total Indexed Pages**: 4,600+ URLs in sitemap
 - **All complete books have**: Full chapter recaps, comprehensive character coverage, v2.0 schema
 - **SEO Implementation**: Complete with structured data, sitemap, metadata optimization
