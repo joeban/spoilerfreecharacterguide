@@ -557,15 +557,15 @@ After completing and pushing any series or book data:
   - 🟡 Feast for Crows: 70+ characters, all recaps, v2.0
   - 🟡 Dance with Dragons: 85+ characters, all recaps, v2.0
 
-- ✅ **The Witcher** (8 books)
-  - 🟡 Last Wish: 45+ characters, all recaps, v2.0
-  - 🟡 Sword of Destiny: 50+ characters, all recaps, v2.0
-  - 🟡 Blood of Elves: 55+ characters, all recaps, v2.0
-  - 🟡 Time of Contempt: 60+ characters, all recaps, v2.0
-  - 🟡 Baptism of Fire: 65+ characters, all recaps, v2.0
-  - 🟡 Tower of Swallows: 70+ characters, all recaps, v2.0
-  - 🟡 Lady of the Lake: 80+ characters, all recaps, v2.0
-  - 🟡 Season of Storms: 45+ characters, all recaps, v2.0
+- ✅ **The Witcher** (8 books) - FIXED JSON ERRORS
+  - 🟡 Last Wish: 62 characters, all recaps, v2.0
+  - 🟡 Sword of Destiny: 52 characters, all recaps, v2.0
+  - 🟡 Blood of Elves: 60 characters, all recaps, v2.0
+  - 🟡 Time of Contempt: 60 characters, all recaps, v2.0
+  - 🟡 Baptism of Fire: 63 characters, all recaps, v2.0 (FIXED)
+  - 🟡 Tower of Swallows: 61 characters, all recaps, v2.0 (FIXED)
+  - 🟡 Lady of the Lake: 61 characters, all recaps, v2.0 (FIXED)
+  - 🟡 Season of Storms: 55 characters, all recaps, v2.0 (FIXED)
 
 - ✅ **Fourth Wing** (2 books)
   - 🟡 Fourth Wing: 85+ characters, all recaps, v2.0
@@ -668,10 +668,9 @@ Priority books that need upgrading to Comprehensive (🟢) coverage:
 
 ### Remaining Priority Series to Add
 1. **Foundation** - Apple TV+ adaptation, classic sci-fi (FINAL SERIES FOR MVP!)
-3. **Wings of Fire** - Young reader audience, very popular
-4. **Foundation** - Apple TV+ adaptation, classic sci-fi
-5. **Discworld** - Terry Pratchett's massive fanbase
-6. **Mistborn/Cosmere** - Brandon Sanderson fanbase
+2. ~~**Wings of Fire**~~ ✅ COMPLETE - Young reader audience, very popular
+3. **Discworld** - Terry Pratchett's massive fanbase
+4. **Mistborn/Cosmere** - Brandon Sanderson fanbase
 
 ## Project Statistics (as of latest update)
 - **Total Series Configured**: 20 series
