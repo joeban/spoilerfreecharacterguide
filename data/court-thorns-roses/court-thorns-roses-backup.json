@@ -1,0 +1,3284 @@
+{
+  "meta": {
+    "title": "A Court of Thorns and Roses",
+    "author": "Sarah J. Maas",
+    "chapters": 46,
+    "createdAt": "2025-01-01T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "feyre-archeron": {
+      "name": "Feyre Archeron",
+      "aliases": [
+        "Feyre Cursebreaker",
+        "Huntress"
+      ],
+      "appearances": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Nineteen-year-old huntress who hunts to feed her impoverished family. Skilled archer living in a cabin near the Wall.",
+          "role": "Hunter, Family provider",
+          "relationships": {
+            "Elain Archeron": "Sister",
+            "Nesta Archeron": "Sister",
+            "Father": "Daughter of"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Killed a massive wolf (later revealed as a faerie) while hunting. Taken to the Spring Court as consequence for breaking the Treaty.",
+          "role": "Prisoner, Treaty-breaker",
+          "relationships": {
+            "Tamlin": "Captive of",
+            "Lucien": "Watched by"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Learning to read and discovering her artistic talents while staying in the Spring Court. Growing closer to Tamlin.",
+          "role": "Guest, Student",
+          "relationships": {
+            "Tamlin": "Growing fond of",
+            "Alis": "Taught by"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Accepts her love for Tamlin and becomes fully involved in the Spring Court's fate. Determined to break the curse.",
+          "role": "Lover, Curse-breaker",
+          "relationships": {
+            "Tamlin": "In love with",
+            "Amarantha": "Enemy of"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Agrees to Amarantha's bargain to save Tamlin. Must solve a riddle to free the Spring Court from the curse.",
+          "role": "Bargainer, Riddle-solver",
+          "relationships": {
+            "Amarantha": "Bound by bargain to",
+            "Rhysand": "Aided by"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Solves the riddle, breaks the curse, and is killed and resurrected as High Fae. Becomes immortal with enhanced abilities.",
+          "role": "Curse-breaker, High Fae",
+          "relationships": {
+            "Tamlin": "Mate to",
+            "Seven High Lords": "Given life by"
+          }
+        }
+      }
+    },
+    "tamlin": {
+      "name": "Tamlin",
+      "aliases": [
+        "High Lord of Spring",
+        "Beast"
+      ],
+      "appearances": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Powerful faerie who appears as a beast-like creature with wolf and human features. Brings Feyre to his court as payment for killing Andras.",
+          "role": "Faerie lord, Captor",
+          "relationships": {
+            "Feyre": "Captor of",
+            "Lucien": "Friend and emissary",
+            "Andras": "Mourns death of"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "High Lord of the Spring Court under Amarantha's curse. Can only appear in his true faerie form at night.",
+          "role": "Cursed High Lord",
+          "relationships": {
+            "Amarantha": "Cursed by",
+            "Spring Court": "Lord of"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Shows his true immortal faerie form to Feyre - devastatingly beautiful with pointed ears and green eyes. Reveals his deep loneliness and burden.",
+          "role": "High Lord, Lonely immortal",
+          "relationships": {
+            "Feyre": "Growing close to",
+            "Spring Court": "Responsible for"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Desperately in love with Feyre but bound by the curse. Cannot tell her he loves her or the curse will never break.",
+          "role": "Cursed lover",
+          "relationships": {
+            "Feyre": "Secretly in love with",
+            "Amarantha": "Tormented by"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Taken Under the Mountain by Amarantha. Tortured and forced to watch Feyre endure the trials.",
+          "role": "Prisoner, Torture victim",
+          "relationships": {
+            "Feyre": "Beloved",
+            "Amarantha": "Tortured by"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Freed from Amarantha's curse when Feyre solves the riddle. Restored to his full power as High Lord of Spring.",
+          "role": "High Lord, Feyre's mate",
+          "relationships": {
+            "Feyre": "Mate to",
+            "Spring Court": "Restored ruler of"
+          }
+        }
+      }
+    },
+    "rhysand": {
+      "name": "Rhysand",
+      "aliases": [
+        "High Lord of Night",
+        "Most Powerful High Lord"
+      ],
+      "appearances": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Mysterious and powerful High Lord of the Night Court. Appears at Amarantha's court with dark beauty and violet eyes.",
+          "role": "High Lord, Amarantha's ally",
+          "relationships": {
+            "Amarantha": "Apparent ally of",
+            "Night Court": "Lord of"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Makes a bargain with Feyre to save her life after she's nearly killed in the first trial. Demands one week per month with her.",
+          "role": "Bargain-maker",
+          "relationships": {
+            "Feyre": "Bound by bargain to",
+            "Amarantha": "Playing along with"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Forces Feyre to dance and drink wine at Amarantha's parties, causing her to black out. His motives remain unclear.",
+          "role": "Manipulator, Protector",
+          "relationships": {
+            "Feyre": "Protects in secret",
+            "Tamlin": "Torments to protect Feyre"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Subtly helps Feyre solve the final riddle by guiding her thoughts. Has been protecting her all along.",
+          "role": "Secret protector, Ally",
+          "relationships": {
+            "Feyre": "Secretly helping",
+            "Amarantha": "True enemy of"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Revealed to have been protecting Feyre throughout her trials. Helps bring her back to life as High Fae.",
+          "role": "Protector, High Lord",
+          "relationships": {
+            "Feyre": "Protector and savior of",
+            "Tamlin": "Rival of"
+          }
+        }
+      }
+    },
+    "lucien-vanserra": {
+      "name": "Lucien Vanserra",
+      "aliases": [
+        "Lucien",
+        "Fox"
+      ],
+      "appearances": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Red-haired faerie with fox-like features and a mechanical golden eye. Tamlin's emissary and closest friend.",
+          "role": "Emissary, Friend",
+          "relationships": {
+            "Tamlin": "Best friend and emissary to",
+            "Feyre": "Suspicious of"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Lost his eye in a brutal encounter. Wears a golden mechanical replacement. Shows fierce loyalty to Tamlin.",
+          "role": "Loyal friend, Survivor",
+          "relationships": {
+            "Tamlin": "Fiercely loyal to",
+            "Autumn Court": "Exiled from"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Reveals he's originally from the Autumn Court but was cast out. Found sanctuary in the Spring Court.",
+          "role": "Exile, Refugee",
+          "relationships": {
+            "Beron": "Cast out by",
+            "Spring Court": "Adopted by"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Grows to care for Feyre and helps prepare her for the dangers ahead. Shows his protective nature.",
+          "role": "Protector, Friend",
+          "relationships": {
+            "Feyre": "Growing fond of",
+            "Tamlin": "Serves loyally"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Taken Under the Mountain with Tamlin. Forced to watch his friend's torment while being powerless to help.",
+          "role": "Prisoner, Helpless witness",
+          "relationships": {
+            "Tamlin": "Worried for",
+            "Amarantha": "Prisoner of"
+          }
+        }
+      }
+    },
+    "amarantha": {
+      "name": "Amarantha",
+      "aliases": [
+        "The Deceiver",
+        "Sorceress"
+      ],
+      "appearances": [
+        20,
+        21,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Powerful sorceress who cursed the Spring Court. Rules from Under the Mountain with cruel authority.",
+          "role": "Sorceress, Tyrant",
+          "relationships": {
+            "Tamlin": "Cursed and obsessed with",
+            "Spring Court": "Cursed"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Red-haired faerie of terrible beauty who holds court Under the Mountain. Keeps all High Lords under her power.",
+          "role": "Ruler, Curse-caster",
+          "relationships": {
+            "High Lords": "Controls",
+            "Rhysand": "Favors"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Offers Feyre a bargain - complete three tasks and solve a riddle to free Tamlin and the Spring Court.",
+          "role": "Bargain-maker, Taskmaster",
+          "relationships": {
+            "Feyre": "Bargains with",
+            "Tamlin": "Obsessed with"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Revealed to have been in love with Tamlin's father. Cursed the Spring Court in revenge after he rejected and killed her.",
+          "role": "Spurned lover, Vengeful sorceress",
+          "relationships": {
+            "Tamlin's father": "Was in love with",
+            "Spring Court": "Seeks revenge against"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Killed by Tamlin when Feyre breaks the curse. Her death frees all the courts from her power.",
+          "role": "Defeated enemy",
+          "relationships": {
+            "Tamlin": "Killed by",
+            "Feyre": "Defeated by"
+          }
+        }
+      }
+    },
+    "nesta-archeron": {
+      "name": "Nesta Archeron",
+      "aliases": [
+        "Nesta"
+      ],
+      "appearances": [
+        1,
+        2,
+        3,
+        4,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Feyre's eldest sister, beautiful and sharp-tongued. Refuses to help with hunting or household work.",
+          "role": "Eldest sister, Aristocrat at heart",
+          "relationships": {
+            "Feyre": "Sister to, often cruel to",
+            "Elain": "Sister to, protective of"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Bitter about their family's fall from wealth. Dreams of returning to their former status and comfort.",
+          "role": "Former aristocrat, Bitter survivor",
+          "relationships": {
+            "Father": "Disappointed in",
+            "Tomas Mandray": "Being courted by"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Shows concern when Feyre visits home, though she maintains her cold exterior. Notices Feyre's changes.",
+          "role": "Sister, Observer",
+          "relationships": {
+            "Feyre": "Notices changes in",
+            "Family": "Protective of in her way"
+          }
+        }
+      }
+    },
+    "elain-archeron": {
+      "name": "Elain Archeron",
+      "aliases": [
+        "Elain"
+      ],
+      "appearances": [
+        1,
+        2,
+        3,
+        4,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Feyre's middle sister, gentle and beautiful. Tends a small garden and dreams of marriage.",
+          "role": "Middle sister, Dreamer",
+          "relationships": {
+            "Feyre": "Sister to, loved by",
+            "Nesta": "Sister to"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Engaged to Graysen, a merchant's son. Plans to marry and hopes to restore the family's fortunes through marriage.",
+          "role": "Fianc\u00e9e, Hope for family",
+          "relationships": {
+            "Graysen": "Engaged to",
+            "Father": "Beloved daughter of"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Happy to see Feyre when she returns home. Shows genuine affection and concern for her sister.",
+          "role": "Loving sister, Innocent",
+          "relationships": {
+            "Feyre": "Loves and misses",
+            "Graysen": "Still engaged to"
+          }
+        }
+      }
+    },
+    "papa-archeron": {
+      "name": "Papa Archeron",
+      "aliases": [
+        "Father",
+        "Mr. Archeron"
+      ],
+      "appearances": [
+        1,
+        2,
+        3,
+        4,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Feyre's father, a former merchant who lost his fortune and ships. Now broken and unable to work due to injury.",
+          "role": "Failed merchant, Broken father",
+          "relationships": {
+            "Feyre": "Father to, relies on",
+            "Nesta": "Father to, disappoints",
+            "Elain": "Father to, beloved by"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Injured his leg badly in the attack that cost them their fortune. Cannot hunt or work, leaving Feyre to provide.",
+          "role": "Invalid, Burden",
+          "relationships": {
+            "Feyre": "Dependent on",
+            "Family": "Unable to provide for"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Shows some spirit when Feyre returns, asking questions about where she's been. Still weak but more alert.",
+          "role": "Recovering father, Curious",
+          "relationships": {
+            "Feyre": "Concerned for",
+            "Tamlin": "Meets and accepts"
+          }
+        }
+      }
+    },
+    "alis": {
+      "name": "Alis",
+      "aliases": [
+        "Nursemaid"
+      ],
+      "appearances": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Servant in Tamlin's manor who appears as an older woman with kind eyes. Takes care of Feyre's needs.",
+          "role": "Servant, Caretaker",
+          "relationships": {
+            "Feyre": "Tends to and teaches",
+            "Tamlin": "Serves faithfully"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Teaches Feyre to read and helps her adapt to life in the Spring Court. Shows motherly concern for her.",
+          "role": "Teacher, Mother figure",
+          "relationships": {
+            "Feyre": "Teaches and cares for",
+            "Spring Court": "Loyal servant of"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Reveals the truth about the curse to Feyre. Has been waiting and hoping for someone to break it.",
+          "role": "Truth-teller, Hope-keeper",
+          "relationships": {
+            "Feyre": "Confides in",
+            "Tamlin": "Wants to save"
+          }
+        }
+      }
+    },
+    "andras": {
+      "name": "Andras",
+      "aliases": [
+        "The Wolf"
+      ],
+      "appearances": [
+        1,
+        5,
+        9,
+        20
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Large wolf that Feyre kills while hunting. Unusual in size and behavior for an ordinary wolf.",
+          "role": "Mysterious wolf, Victim",
+          "relationships": {
+            "Feyre": "Killed by"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Revealed to have been a faerie in wolf form, serving the Spring Court. His death triggers the consequences for Feyre.",
+          "role": "Spring Court faerie, Sacrifice",
+          "relationships": {
+            "Tamlin": "Served and loved by",
+            "Spring Court": "Member of"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Was one of Tamlin's sentries, transformed by Amarantha's curse. Died protecting the borders of the Spring Court.",
+          "role": "Sentry, Loyal guard",
+          "relationships": {
+            "Tamlin": "Died serving",
+            "Amarantha": "Victim of curse"
+          }
+        }
+      }
+    },
+    "the-bone-carver": {
+      "name": "The Bone Carver",
+      "aliases": [
+        "Ancient One",
+        "Prisoner"
+      ],
+      "appearances": [
+        36,
+        37,
+        38
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Ancient creature imprisoned Under the Mountain. Speaks in riddles and appears as whatever the viewer fears most.",
+          "role": "Ancient prisoner, Oracle",
+          "relationships": {
+            "Amarantha": "Imprisoned by",
+            "Feyre": "Speaks to"
+          }
+        },
+        "37": {
+          "revealedIn": 37,
+          "description": "Gives Feyre cryptic advice about her trials and the nature of love. Appears to know more than he reveals.",
+          "role": "Advisor, Seer",
+          "relationships": {
+            "Feyre": "Advises",
+            "Ancient magic": "Connected to"
+          }
+        }
+      }
+    },
+    "the-attor": {
+      "name": "The Attor",
+      "aliases": [
+        "Winged Beast",
+        "Amarantha's Pet"
+      ],
+      "appearances": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Horrifying winged creature that serves Amarantha. Has a woman's torso and head with bat-like wings.",
+          "role": "Amarantha's creature, Guardian",
+          "relationships": {
+            "Amarantha": "Serves faithfully",
+            "Prisoners": "Guards and torments"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Oversees Feyre's trials and delights in the suffering of others. Acts as Amarantha's enforcer.",
+          "role": "Enforcer, Torturer",
+          "relationships": {
+            "Feyre": "Torments during trials",
+            "Amarantha": "Faithful servant to"
+          }
+        }
+      }
+    },
+    "the-suriel": {
+      "name": "The Suriel",
+      "aliases": [
+        "Truth-teller",
+        "Ancient Oracle"
+      ],
+      "appearances": [
+        18,
+        19
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Ancient faerie creature that must answer questions truthfully if caught. Appears as a horrifying winged being.",
+          "role": "Oracle, Truth-speaker",
+          "relationships": {
+            "Feyre": "Bound to answer",
+            "Ancient magic": "Connected to"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Tells Feyre crucial information about the curse and how it might be broken. Warns her of dangers ahead.",
+          "role": "Information source, Warner",
+          "relationships": {
+            "Feyre": "Advises and warns",
+            "Tamlin": "Reveals truth about"
+          }
+        }
+      }
+    },
+    "bron": {
+      "name": "Bron",
+      "aliases": [
+        "Guard"
+      ],
+      "appearances": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of the servants in Tamlin's manor. Helps maintain the grounds and serves the household.",
+          "role": "Servant, Groundskeeper",
+          "relationships": {
+            "Tamlin": "Serves",
+            "Spring Court": "Member of"
+          }
+        }
+      }
+    },
+    "hart": {
+      "name": "Hart",
+      "aliases": [
+        "Groundskeeper"
+      ],
+      "appearances": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another servant in the Spring Court manor. Works alongside Bron to maintain the estate.",
+          "role": "Servant, Groundskeeper",
+          "relationships": {
+            "Bron": "Works with",
+            "Tamlin": "Serves"
+          }
+        }
+      }
+    },
+    "graysen": {
+      "name": "Graysen",
+      "aliases": [
+        "Merchant's son"
+      ],
+      "appearances": [
+        3,
+        27,
+        29
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Son of a local merchant, engaged to Elain. Considered a good match for the family's financial situation.",
+          "role": "Fianc\u00e9, Merchant's son",
+          "relationships": {
+            "Elain": "Engaged to",
+            "Archeron family": "Potential provider for"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Still courting Elain and planning their wedding. Represents hope for the family's future prosperity.",
+          "role": "Future husband, Hope for family",
+          "relationships": {
+            "Elain": "Still engaged to",
+            "Archeron family": "Future member of"
+          }
+        }
+      }
+    },
+    "tomas-mandray": {
+      "name": "Tomas Mandray",
+      "aliases": [
+        "Tomas"
+      ],
+      "appearances": [
+        3,
+        27
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Local man who shows interest in courting Nesta. Has a reputation that makes Feyre uncomfortable.",
+          "role": "Suitor, Local man",
+          "relationships": {
+            "Nesta": "Courts",
+            "Feyre": "Distrusted by"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Still pursuing Nesta despite her family's changed circumstances. His persistence concerns Feyre.",
+          "role": "Persistent suitor",
+          "relationships": {
+            "Nesta": "Still pursuing",
+            "Feyre": "Worries"
+          }
+        }
+      }
+    },
+    "isaac-hale": {
+      "name": "Isaac Hale",
+      "aliases": [
+        "Isaac"
+      ],
+      "appearances": [
+        1,
+        2,
+        26
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Young man from the village who helps Feyre hunt sometimes. Shows romantic interest in her.",
+          "role": "Hunting companion, Admirer",
+          "relationships": {
+            "Feyre": "Hunts with, attracted to",
+            "Village": "Member of"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Greets Feyre warmly when she returns to the village. Still shows signs of his feelings for her.",
+          "role": "Friend, Admirer",
+          "relationships": {
+            "Feyre": "Still cares for",
+            "Village": "Part of community"
+          }
+        }
+      }
+    },
+    "beron": {
+      "name": "Beron",
+      "aliases": [
+        "High Lord of Autumn"
+      ],
+      "appearances": [
+        15,
+        33
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "High Lord of the Autumn Court and Lucien's father. Cast Lucien out of his court for unknown reasons.",
+          "role": "High Lord, Harsh father",
+          "relationships": {
+            "Lucien": "Exiled son",
+            "Autumn Court": "Rules"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Present Under the Mountain as one of the High Lords under Amarantha's control.",
+          "role": "Imprisoned High Lord",
+          "relationships": {
+            "Amarantha": "Controlled by",
+            "Lucien": "Estranged from"
+          }
+        }
+      }
+    },
+    "helion": {
+      "name": "Helion",
+      "aliases": [
+        "High Lord of Day"
+      ],
+      "appearances": [
+        33,
+        46
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "High Lord of the Day Court, known for his golden hair and warm personality. Trapped Under the Mountain.",
+          "role": "High Lord, Prisoner",
+          "relationships": {
+            "Amarantha": "Controlled by",
+            "Day Court": "Rules"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "One of the seven High Lords who gives part of his power to resurrect Feyre as High Fae.",
+          "role": "Life-giver, Ally",
+          "relationships": {
+            "Feyre": "Helps resurrect",
+            "Other High Lords": "Allies with"
+          }
+        }
+      }
+    },
+    "kallias": {
+      "name": "Kallias",
+      "aliases": [
+        "High Lord of Winter"
+      ],
+      "appearances": [
+        33,
+        46
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "High Lord of the Winter Court with silver hair and ice-blue eyes. Held captive Under the Mountain.",
+          "role": "High Lord, Prisoner",
+          "relationships": {
+            "Amarantha": "Controlled by",
+            "Winter Court": "Rules"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Contributes his power to bring Feyre back to life as High Fae after she dies breaking the curse.",
+          "role": "Life-giver, Ally",
+          "relationships": {
+            "Feyre": "Helps resurrect",
+            "Other High Lords": "Allies with"
+          }
+        }
+      }
+    },
+    "tarquin": {
+      "name": "Tarquin",
+      "aliases": [
+        "High Lord of Summer"
+      ],
+      "appearances": [
+        33,
+        46
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Young High Lord of the Summer Court with blue-green hair and sea-colored eyes. Newest of the High Lords.",
+          "role": "High Lord, Youngest ruler",
+          "relationships": {
+            "Amarantha": "Controlled by",
+            "Summer Court": "Rules"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Joins the other High Lords in giving Feyre new life. Shows his generous and noble nature.",
+          "role": "Life-giver, Noble ruler",
+          "relationships": {
+            "Feyre": "Helps resurrect",
+            "Other High Lords": "Allies with"
+          }
+        }
+      }
+    },
+    "thesan": {
+      "name": "Thesan",
+      "aliases": [
+        "High Lord of Dawn"
+      ],
+      "appearances": [
+        33,
+        46
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "High Lord of the Dawn Court with healing powers. Known for his golden-brown skin and kind demeanor.",
+          "role": "High Lord, Healer",
+          "relationships": {
+            "Amarantha": "Controlled by",
+            "Dawn Court": "Rules"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Uses his healing magic and life force to help resurrect Feyre. Shows compassion for her sacrifice.",
+          "role": "Healer, Life-giver",
+          "relationships": {
+            "Feyre": "Helps resurrect",
+            "Other High Lords": "Allies with"
+          }
+        }
+      }
+    },
+    "tamlin-father": {
+      "name": "Tamlin's Father",
+      "aliases": [
+        "Former High Lord of Spring"
+      ],
+      "appearances": [
+        42
+      ],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Former High Lord of the Spring Court who rejected and killed Amarantha when she tried to seduce him. His actions led to the curse.",
+          "role": "Former High Lord, Amarantha's victim",
+          "relationships": {
+            "Amarantha": "Rejected and was killed by",
+            "Tamlin": "Father to",
+            "Spring Court": "Former ruler of"
+          }
+        }
+      }
+    },
+    "tamlin-mother": {
+      "name": "Tamlin's Mother",
+      "aliases": [
+        "Former Lady of Spring"
+      ],
+      "appearances": [
+        42
+      ],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Former Lady of the Spring Court, killed along with her husband by Amarantha in revenge.",
+          "role": "Former Lady, Murder victim",
+          "relationships": {
+            "Tamlin's father": "Wife to",
+            "Tamlin": "Mother to",
+            "Amarantha": "Killed by"
+          }
+        }
+      }
+    },
+    "tamlin-brothers": {
+      "name": "Tamlin's Brothers",
+      "aliases": [
+        "Spring Court Heirs"
+      ],
+      "appearances": [
+        42
+      ],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Tamlin's older brothers who were killed by Amarantha along with their parents. Their deaths made Tamlin the High Lord.",
+          "role": "Former heirs, Murder victims",
+          "relationships": {
+            "Tamlin": "Brothers to",
+            "Amarantha": "Killed by",
+            "Spring Court": "Former heirs of"
+          }
+        }
+      }
+    },
+    "rhysand-mother": {
+      "name": "Rhysand's Mother",
+      "aliases": [
+        "Lady of Night"
+      ],
+      "appearances": [
+        44
+      ],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Rhysand's mother who was killed in a war. Her death deeply affected him and shaped his protective nature.",
+          "role": "Former Lady, War victim",
+          "relationships": {
+            "Rhysand": "Mother to",
+            "Night Court": "Former Lady of"
+          }
+        }
+      }
+    },
+    "rhysand-sister": {
+      "name": "Rhysand's Sister",
+      "aliases": [
+        "Night Court Princess"
+      ],
+      "appearances": [
+        44
+      ],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Rhysand's younger sister who was killed in the same war as their mother. Her death haunts him.",
+          "role": "Princess, War victim",
+          "relationships": {
+            "Rhysand": "Sister to",
+            "Night Court": "Princess of"
+          }
+        }
+      }
+    },
+    "jurian": {
+      "name": "Jurian",
+      "aliases": [
+        "Human Commander",
+        "The Eye"
+      ],
+      "appearances": [
+        34,
+        35,
+        42
+      ],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Ancient human commander who fought against the faeries. Now exists only as an eye in Amarantha's ring.",
+          "role": "Human commander, Trapped soul",
+          "relationships": {
+            "Amarantha": "Trapped by",
+            "Clythia": "Former lover"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Forced to watch everything through Amarantha's ring. Witnesses all her cruelties and Feyre's trials.",
+          "role": "Unwilling witness, Prisoner",
+          "relationships": {
+            "Feyre": "Witnesses trials of",
+            "Amarantha": "Enslaved by"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Reveals his tragic history - was tricked into betraying the humans when Amarantha killed his faerie lover Clythia.",
+          "role": "Betrayed commander, Tragic figure",
+          "relationships": {
+            "Clythia": "Lost love",
+            "Human forces": "Betrayed"
+          }
+        }
+      }
+    },
+    "clythia": {
+      "name": "Clythia",
+      "aliases": [
+        "The Lesser Faerie"
+      ],
+      "appearances": [
+        42
+      ],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Lesser faerie who loved the human commander Jurian. Killed by Amarantha, leading to Jurian's downfall and capture.",
+          "role": "Lesser faerie, Tragic lover",
+          "relationships": {
+            "Jurian": "Loved",
+            "Amarantha": "Killed by"
+          }
+        }
+      }
+    },
+    "clare-beddor": {
+      "name": "Clare Beddor",
+      "aliases": [
+        "Innocent Girl"
+      ],
+      "appearances": [
+        35,
+        36
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Innocent human girl tortured and killed by Amarantha as punishment when Feyre fails to give the correct answer during the trials.",
+          "role": "Innocent victim, Torture victim",
+          "relationships": {
+            "Amarantha": "Tortured and killed by",
+            "Feyre": "Dies because of Feyre's failure"
+          }
+        }
+      }
+    },
+    "cook": {
+      "name": "The Cook",
+      "aliases": [
+        "Kitchen Staff"
+      ],
+      "appearances": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Cook in Tamlin's manor who prepares meals for the household. Part of the cursed Spring Court staff.",
+          "role": "Cook, Servant",
+          "relationships": {
+            "Spring Court": "Serves",
+            "Tamlin": "Cooks for"
+          }
+        }
+      }
+    },
+    "lesser-faeries-spring": {
+      "name": "Lesser Faeries of Spring",
+      "aliases": [
+        "Spring Court Folk"
+      ],
+      "appearances": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        31,
+        32
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Various lesser faeries who serve in the Spring Court manor. All affected by Amarantha's curse.",
+          "role": "Servants, Cursed beings",
+          "relationships": {
+            "Tamlin": "Serve",
+            "Amarantha": "Cursed by"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "All hoping for the curse to be broken so they can return to their true forms and normal lives.",
+          "role": "Hope-keepers, Curse victims",
+          "relationships": {
+            "Feyre": "Hope she will save them",
+            "Spring Court": "Loyal to"
+          }
+        }
+      }
+    },
+    "painter": {
+      "name": "The Court Painter",
+      "aliases": [
+        "Artist"
+      ],
+      "appearances": [
+        10,
+        11,
+        12
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Artist who created the beautiful paintings throughout Tamlin's manor. Reveals Feyre's potential artistic talents.",
+          "role": "Artist, Inspiration",
+          "relationships": {
+            "Spring Court": "Served",
+            "Feyre": "Inspires"
+          }
+        }
+      }
+    },
+    "merchant-1": {
+      "name": "Village Merchant",
+      "aliases": [
+        "Trader"
+      ],
+      "appearances": [
+        1,
+        2,
+        26
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Local merchant who sometimes buys Feyre's hunted game. Provides income for the Archeron family.",
+          "role": "Merchant, Customer",
+          "relationships": {
+            "Feyre": "Buys game from",
+            "Village": "Serves"
+          }
+        }
+      }
+    },
+    "merchant-2": {
+      "name": "Second Village Merchant",
+      "aliases": [
+        "Shopkeeper"
+      ],
+      "appearances": [
+        1,
+        2,
+        26
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another merchant in the village who occasionally trades with Feyre for supplies and food.",
+          "role": "Merchant, Trader",
+          "relationships": {
+            "Feyre": "Trades with",
+            "Village": "Part of community"
+          }
+        }
+      }
+    },
+    "village-children": {
+      "name": "Village Children",
+      "aliases": [
+        "Local Children"
+      ],
+      "appearances": [
+        1,
+        2,
+        26,
+        27
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Children from the village who sometimes see Feyre hunting. Represent the innocent life she's trying to protect.",
+          "role": "Innocents, Community members",
+          "relationships": {
+            "Village": "Live in",
+            "Feyre": "Protected by her hunting"
+          }
+        }
+      }
+    },
+    "village-women": {
+      "name": "Village Women",
+      "aliases": [
+        "Gossips",
+        "Local Women"
+      ],
+      "appearances": [
+        1,
+        2,
+        26,
+        27
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Women of the village who gossip about the Archeron family's fall from grace. Often judge Feyre's hunting.",
+          "role": "Gossipers, Community members",
+          "relationships": {
+            "Archeron family": "Judge and gossip about",
+            "Village": "Part of community"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Notice Feyre's changed appearance when she returns, whispering about her new beauty and fine clothes.",
+          "role": "Observers, Gossipers",
+          "relationships": {
+            "Feyre": "Notice changes in",
+            "Village": "Spread news through"
+          }
+        }
+      }
+    },
+    "cottage-neighbors": {
+      "name": "Cottage Neighbors",
+      "aliases": [
+        "Nearby Families"
+      ],
+      "appearances": [
+        1,
+        2,
+        3,
+        26,
+        27
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Families living near the Archeron cottage who occasionally interact with them. Some offer help, others judge.",
+          "role": "Neighbors, Community",
+          "relationships": {
+            "Archeron family": "Live near",
+            "Village": "Part of community"
+          }
+        }
+      }
+    },
+    "woodcutter": {
+      "name": "The Woodcutter",
+      "aliases": [
+        "Wood Seller"
+      ],
+      "appearances": [
+        1,
+        2
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Man who occasionally sells firewood to the Archeron family when they can afford it.",
+          "role": "Wood seller, Supplier",
+          "relationships": {
+            "Archeron family": "Sometimes sells to",
+            "Village": "Works in area"
+          }
+        }
+      }
+    },
+    "guards-under-mountain": {
+      "name": "Guards Under the Mountain",
+      "aliases": [
+        "Amarantha's Guards"
+      ],
+      "appearances": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Various faerie guards who serve Amarantha Under the Mountain. Enforce her will and maintain order.",
+          "role": "Guards, Enforcers",
+          "relationships": {
+            "Amarantha": "Serve loyally",
+            "Prisoners": "Guard"
+          }
+        }
+      }
+    },
+    "naga": {
+      "name": "The Naga",
+      "aliases": [
+        "Giant Worm",
+        "First Trial Beast"
+      ],
+      "appearances": [
+        36
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Enormous worm-like creature that Feyre must kill in her first trial. Has acidic saliva and multiple rows of teeth.",
+          "role": "Trial monster, Death trap",
+          "relationships": {
+            "Feyre": "Fights against",
+            "Amarantha": "Controlled by"
+          }
+        }
+      }
+    },
+    "servants-under-mountain": {
+      "name": "Servants Under the Mountain",
+      "aliases": [
+        "Mountain Staff"
+      ],
+      "appearances": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Lesser faeries who serve as servants Under the Mountain. Tend to the needs of Amarantha and her court.",
+          "role": "Servants, Attendants",
+          "relationships": {
+            "Amarantha": "Serve",
+            "Court Under Mountain": "Maintain"
+          }
+        }
+      }
+    },
+    "fire-salamanders": {
+      "name": "Fire Salamanders",
+      "aliases": [
+        "Flame Creatures"
+      ],
+      "appearances": [
+        37
+      ],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Magical creatures made of fire that Feyre encounters in her second trial. Must be avoided or they will burn her.",
+          "role": "Trial obstacle, Magical creatures",
+          "relationships": {
+            "Feyre": "Threaten",
+            "Amarantha": "Controlled by for trial"
+          }
+        }
+      }
+    },
+    "courtiers-under-mountain": {
+      "name": "Courtiers Under the Mountain",
+      "aliases": [
+        "Court Members"
+      ],
+      "appearances": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Various faeries who make up Amarantha's court Under the Mountain. Watch the trials and entertainment.",
+          "role": "Court members, Audience",
+          "relationships": {
+            "Amarantha": "Serve and entertain",
+            "Feyre": "Watch trials of"
+          }
+        }
+      }
+    },
+    "musicians-under-mountain": {
+      "name": "Musicians Under the Mountain",
+      "aliases": [
+        "Court Musicians"
+      ],
+      "appearances": [
+        33,
+        40,
+        41,
+        44
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Faerie musicians who provide entertainment at Amarantha's court. Play during feasts and celebrations.",
+          "role": "Musicians, Entertainers",
+          "relationships": {
+            "Amarantha": "Entertain",
+            "Court": "Provide music for"
+          }
+        }
+      }
+    },
+    "dancers-under-mountain": {
+      "name": "Dancers Under the Mountain",
+      "aliases": [
+        "Court Dancers"
+      ],
+      "appearances": [
+        40,
+        41,
+        44
+      ],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Professional dancers who perform at Amarantha's court. Feyre is forced to join them during her time Under the Mountain.",
+          "role": "Dancers, Entertainers",
+          "relationships": {
+            "Feyre": "Forced to dance with",
+            "Amarantha": "Perform for"
+          }
+        }
+      }
+    },
+    "wine-servants": {
+      "name": "Wine Servants",
+      "aliases": [
+        "Cup Bearers"
+      ],
+      "appearances": [
+        40,
+        41,
+        42,
+        44
+      ],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Servants who serve wine and other drinks at Amarantha's court. Often serve the drugged wine that makes Feyre forget.",
+          "role": "Cup bearers, Servants",
+          "relationships": {
+            "Amarantha": "Serve",
+            "Feyre": "Serve drugged wine to"
+          }
+        }
+      }
+    },
+    "spring-court-sentries": {
+      "name": "Spring Court Sentries",
+      "aliases": [
+        "Border Guards"
+      ],
+      "appearances": [
+        5,
+        20,
+        31,
+        32
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Faeries who guard the borders of the Spring Court. Andras was one of them before being killed by Feyre.",
+          "role": "Border guards, Protectors",
+          "relationships": {
+            "Tamlin": "Serve",
+            "Spring Court": "Protect borders of",
+            "Andras": "Former member"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Return to their duties after the curse is broken, helping to restore order to the Spring Court.",
+          "role": "Restored guards, Protectors",
+          "relationships": {
+            "Tamlin": "Serve loyally",
+            "Spring Court": "Protect"
+          }
+        }
+      }
+    },
+    "library-keeper": {
+      "name": "Library Keeper",
+      "aliases": [
+        "Librarian"
+      ],
+      "appearances": [
+        12,
+        13,
+        14
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Faerie who maintains Tamlin's extensive library. Helps Feyre find books to improve her reading skills.",
+          "role": "Librarian, Teacher",
+          "relationships": {
+            "Feyre": "Helps learn to read",
+            "Spring Court": "Serves"
+          }
+        }
+      }
+    },
+    "stable-master": {
+      "name": "Stable Master",
+      "aliases": [
+        "Horse Keeper"
+      ],
+      "appearances": [
+        8,
+        9,
+        16,
+        17
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Faerie who cares for the horses and other animals in the Spring Court stables.",
+          "role": "Stable keeper, Animal tender",
+          "relationships": {
+            "Spring Court": "Serves",
+            "Horses": "Cares for"
+          }
+        }
+      }
+    },
+    "garden-keeper": {
+      "name": "Garden Keeper",
+      "aliases": [
+        "Groundskeeper"
+      ],
+      "appearances": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        16,
+        17
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Faerie responsible for maintaining the beautiful gardens around Tamlin's manor.",
+          "role": "Gardener, Groundskeeper",
+          "relationships": {
+            "Spring Court": "Serves",
+            "Gardens": "Maintains"
+          }
+        }
+      }
+    },
+    "healer-spring": {
+      "name": "Spring Court Healer",
+      "aliases": [
+        "Court Healer"
+      ],
+      "appearances": [
+        10,
+        15,
+        16
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Faerie with healing abilities who tends to injuries and illnesses in the Spring Court.",
+          "role": "Healer, Medical practitioner",
+          "relationships": {
+            "Spring Court": "Serves",
+            "Injured": "Heals"
+          }
+        }
+      }
+    },
+    "message-runners": {
+      "name": "Message Runners",
+      "aliases": [
+        "Couriers"
+      ],
+      "appearances": [
+        13,
+        14,
+        19,
+        20
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Fast faeries who carry messages between courts and deliver important communications.",
+          "role": "Messengers, Couriers",
+          "relationships": {
+            "Spring Court": "Serve",
+            "Other Courts": "Communicate with"
+          }
+        }
+      }
+    },
+    "hunting-hounds": {
+      "name": "Hunting Hounds",
+      "aliases": [
+        "Court Hounds"
+      ],
+      "appearances": [
+        14,
+        15,
+        16
+      ],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Magical hounds used for hunting in the Spring Court. More intelligent than normal dogs.",
+          "role": "Hunting animals, Companions",
+          "relationships": {
+            "Tamlin": "Hunt with",
+            "Lucien": "Accompanied by"
+          }
+        }
+      }
+    },
+    "magical-horses": {
+      "name": "Magical Horses",
+      "aliases": [
+        "Faerie Steeds"
+      ],
+      "appearances": [
+        8,
+        16,
+        17,
+        28,
+        29
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Enchanted horses that are faster and stronger than normal horses. Used for travel in the Spring Court.",
+          "role": "Magical steeds, Transportation",
+          "relationships": {
+            "Spring Court": "Belong to",
+            "Feyre": "Carries on journeys"
+          }
+        }
+      }
+    },
+    "forest-spirits": {
+      "name": "Forest Spirits",
+      "aliases": [
+        "Nature Spirits"
+      ],
+      "appearances": [
+        7,
+        8,
+        15,
+        17
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ancient spirits that dwell in the forests around the Spring Court. Generally benevolent but mysterious.",
+          "role": "Forest guardians, Ancient beings",
+          "relationships": {
+            "Spring Court": "Coexist with",
+            "Forest": "Guard and protect"
+          }
+        }
+      }
+    },
+    "water-wraiths": {
+      "name": "Water Wraiths",
+      "aliases": [
+        "Lake Spirits"
+      ],
+      "appearances": [
+        17,
+        18
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Ghostly beings that inhabit the lakes and streams of the Spring Court territory. Generally avoid contact with others.",
+          "role": "Water spirits, Elusive beings",
+          "relationships": {
+            "Water bodies": "Inhabit",
+            "Spring Court": "Live within territory"
+          }
+        }
+      }
+    },
+    "flower-faeries": {
+      "name": "Flower Faeries",
+      "aliases": [
+        "Blossom Spirits"
+      ],
+      "appearances": [
+        7,
+        11,
+        16,
+        17
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Tiny faeries that live within flowers and help them bloom. Part of the Spring Court's natural magic.",
+          "role": "Nature faeries, Garden helpers",
+          "relationships": {
+            "Flowers": "Live in and tend",
+            "Spring Court": "Part of natural order"
+          }
+        }
+      }
+    },
+    "wind-singers": {
+      "name": "Wind Singers",
+      "aliases": [
+        "Air Spirits"
+      ],
+      "appearances": [
+        15,
+        17,
+        22
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Invisible spirits that create music with the wind. Their songs can be heard throughout the Spring Court.",
+          "role": "Musical spirits, Weather workers",
+          "relationships": {
+            "Wind": "Control and sing with",
+            "Spring Court": "Provide music for"
+          }
+        }
+      }
+    },
+    "night-court-spies": {
+      "name": "Night Court Spies",
+      "aliases": [
+        "Shadow Servants"
+      ],
+      "appearances": [
+        44,
+        45,
+        46
+      ],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Mysterious servants who work for Rhysand. Appear as shadows that can gather information.",
+          "role": "Spies, Information gatherers",
+          "relationships": {
+            "Rhysand": "Serve loyally",
+            "Night Court": "Work for"
+          }
+        }
+      }
+    },
+    "shadow-singers": {
+      "name": "Shadow Singers",
+      "aliases": [
+        "Dark Musicians"
+      ],
+      "appearances": [
+        40,
+        44,
+        45
+      ],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Mysterious musicians from the Night Court who play haunting melodies that affect the mind.",
+          "role": "Musicians, Mind workers",
+          "relationships": {
+            "Rhysand": "Serve",
+            "Night Court": "Represent"
+          }
+        }
+      }
+    },
+    "dream-walkers": {
+      "name": "Dream Walkers",
+      "aliases": [
+        "Mind Visitors"
+      ],
+      "appearances": [
+        44,
+        45
+      ],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Rare faeries who can enter and manipulate dreams. Part of the Night Court's more mysterious powers.",
+          "role": "Dream manipulators, Mind workers",
+          "relationships": {
+            "Rhysand": "Work for",
+            "Dreams": "Can enter and control"
+          }
+        }
+      }
+    },
+    "moon-blessed": {
+      "name": "Moon Blessed",
+      "aliases": [
+        "Lunar Touched"
+      ],
+      "appearances": [
+        44,
+        45,
+        46
+      ],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Faeries whose power is strongest during the full moon. Connected to the Night Court's celestial magic.",
+          "role": "Celestial magic users, Moon servants",
+          "relationships": {
+            "Moon": "Draw power from",
+            "Night Court": "Serve"
+          }
+        }
+      }
+    },
+    "star-touched": {
+      "name": "Star Touched",
+      "aliases": [
+        "Stellar Blessed"
+      ],
+      "appearances": [
+        44,
+        45,
+        46
+      ],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Faeries who can read the stars and predict futures. Rare even within the Night Court.",
+          "role": "Seers, Star readers",
+          "relationships": {
+            "Stars": "Read and interpret",
+            "Night Court": "Provide guidance to"
+          }
+        }
+      }
+    },
+    "darkness-weavers": {
+      "name": "Darkness Weavers",
+      "aliases": [
+        "Shadow Crafters"
+      ],
+      "appearances": [
+        44,
+        45
+      ],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Faeries who can manipulate darkness and shadows as tools or weapons. Elite guards of the Night Court.",
+          "role": "Shadow manipulators, Elite guards",
+          "relationships": {
+            "Shadows": "Control and shape",
+            "Rhysand": "Protect and serve"
+          }
+        }
+      }
+    },
+    "mind-speakers": {
+      "name": "Mind Speakers",
+      "aliases": [
+        "Thought Sharers"
+      ],
+      "appearances": [
+        35,
+        44,
+        45
+      ],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Faeries who can communicate telepathically. Rhysand demonstrates this ability with Feyre during her trials.",
+          "role": "Telepaths, Mental communicators",
+          "relationships": {
+            "Minds": "Can read and speak to",
+            "Night Court": "Serve"
+          }
+        }
+      }
+    },
+    "truth-seekers": {
+      "name": "Truth Seekers",
+      "aliases": [
+        "Lie Detectors"
+      ],
+      "appearances": [
+        38,
+        40,
+        44
+      ],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Faeries who can sense lies and deception. Used by courts to determine honesty in important matters.",
+          "role": "Lie detectors, Truth finders",
+          "relationships": {
+            "Truth": "Can sense and reveal",
+            "Courts": "Serve various"
+          }
+        }
+      }
+    },
+    "memory-keepers": {
+      "name": "Memory Keepers",
+      "aliases": [
+        "Living Libraries"
+      ],
+      "appearances": [
+        38,
+        44
+      ],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Ancient faeries who store and preserve important memories and knowledge. Living libraries of their courts.",
+          "role": "Memory preservers, Knowledge keepers",
+          "relationships": {
+            "Memories": "Store and protect",
+            "Courts": "Preserve history for"
+          }
+        }
+      }
+    },
+    "pain-weavers": {
+      "name": "Pain Weavers",
+      "aliases": [
+        "Torture Artists"
+      ],
+      "appearances": [
+        36,
+        37,
+        38
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Faeries who specialize in causing and manipulating pain. Used by Amarantha for torture and punishment.",
+          "role": "Torturers, Pain manipulators",
+          "relationships": {
+            "Amarantha": "Serve",
+            "Prisoners": "Torture"
+          }
+        }
+      }
+    },
+    "fear-feeders": {
+      "name": "Fear Feeders",
+      "aliases": [
+        "Terror Eaters"
+      ],
+      "appearances": [
+        36,
+        37,
+        40
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Dark faeries who feed on fear and terror. Drawn to places of suffering like Under the Mountain.",
+          "role": "Fear consumers, Dark parasites",
+          "relationships": {
+            "Fear": "Feed on",
+            "Amarantha": "Attracted to court of"
+          }
+        }
+      }
+    },
+    "bone-collectors": {
+      "name": "Bone Collectors",
+      "aliases": [
+        "Death Gatherers"
+      ],
+      "appearances": [
+        36,
+        37,
+        38
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Grim faeries who collect bones and remains. Serve Amarantha by cleaning up after her executions.",
+          "role": "Death cleaners, Bone gatherers",
+          "relationships": {
+            "Death": "Clean up after",
+            "Amarantha": "Serve"
+          }
+        }
+      }
+    },
+    "blood-letter": {
+      "name": "Blood Letter",
+      "aliases": [
+        "Crimson Scribe"
+      ],
+      "appearances": [
+        36,
+        42
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Faerie who records events in blood instead of ink. Keeps records of Amarantha's trials and punishments.",
+          "role": "Blood scribe, Record keeper",
+          "relationships": {
+            "Amarantha": "Records deeds for",
+            "Blood": "Writes with"
+          }
+        }
+      }
+    },
+    "poison-masters": {
+      "name": "Poison Masters",
+      "aliases": [
+        "Toxin Brewers"
+      ],
+      "appearances": [
+        37,
+        40
+      ],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Faeries who create and manage various poisons and toxins. Serve Amarantha's court with deadly brews.",
+          "role": "Poison brewers, Death dealers",
+          "relationships": {
+            "Poisons": "Create and manage",
+            "Amarantha": "Serve with deadly skills"
+          }
+        }
+      }
+    },
+    "curse-smiths": {
+      "name": "Curse Smiths",
+      "aliases": [
+        "Hex Crafters"
+      ],
+      "appearances": [
+        20,
+        33,
+        42
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Powerful faeries who can create and forge curses. Helped Amarantha craft the curse on the Spring Court.",
+          "role": "Curse creators, Magic forgers",
+          "relationships": {
+            "Curses": "Forge and craft",
+            "Amarantha": "Helped create Spring Court curse"
+          }
+        }
+      }
+    },
+    "spell-weavers": {
+      "name": "Spell Weavers",
+      "aliases": [
+        "Magic Crafters"
+      ],
+      "appearances": [
+        20,
+        33,
+        42,
+        46
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Faeries skilled in creating complex magical spells and enchantments. Some serve various courts.",
+          "role": "Magic crafters, Spell creators",
+          "relationships": {
+            "Magic": "Weave and create",
+            "Courts": "Serve various"
+          }
+        }
+      }
+    },
+    "ancient-ones": {
+      "name": "The Ancient Ones",
+      "aliases": [
+        "First Born",
+        "Elder Faeries"
+      ],
+      "appearances": [
+        33,
+        36,
+        44,
+        46
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "The oldest and most powerful faeries, present Under the Mountain. Witness to ancient conflicts and treaties.",
+          "role": "Ancient beings, Witnesses",
+          "relationships": {
+            "Ancient history": "Remember and witness",
+            "Amarantha": "Controlled by"
+          }
+        }
+      }
+    },
+    "treaty-makers": {
+      "name": "Treaty Makers",
+      "aliases": [
+        "Pact Forgers"
+      ],
+      "appearances": [
+        5,
+        20,
+        33
+      ],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Ancient faeries who helped create the Treaty between the human and faerie realms. Their work governs interactions.",
+          "role": "Pact creators, Law makers",
+          "relationships": {
+            "Treaty": "Created and maintain",
+            "Human-Faerie relations": "Govern"
+          }
+        }
+      }
+    },
+    "wall-guardians": {
+      "name": "Wall Guardians",
+      "aliases": [
+        "Border Sentries"
+      ],
+      "appearances": [
+        1,
+        5,
+        33
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Powerful beings who maintain and guard the Wall between the human and faerie realms.",
+          "role": "Border guards, Wall maintainers",
+          "relationships": {
+            "The Wall": "Guard and maintain",
+            "Human realm": "Keep separate from faerie realm"
+          }
+        }
+      }
+    },
+    "seasonal-spirits": {
+      "name": "Seasonal Spirits",
+      "aliases": [
+        "Season Keepers"
+      ],
+      "appearances": [
+        7,
+        11,
+        17,
+        31
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Spirits that embody the different seasons and help maintain the natural cycle. Connected to the seasonal courts.",
+          "role": "Season maintainers, Natural cycle keepers",
+          "relationships": {
+            "Seasons": "Embody and maintain",
+            "Seasonal Courts": "Connected to"
+          }
+        }
+      }
+    },
+    "elemental-lords": {
+      "name": "Elemental Lords",
+      "aliases": [
+        "Element Masters"
+      ],
+      "appearances": [
+        33,
+        46
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Powerful faeries who command the basic elements - fire, water, earth, and air. Some serve the High Lords.",
+          "role": "Element controllers, Powerful beings",
+          "relationships": {
+            "Elements": "Command and control",
+            "High Lords": "Some serve"
+          }
+        }
+      }
+    },
+    "life-givers": {
+      "name": "Life Givers",
+      "aliases": [
+        "Healers Supreme"
+      ],
+      "appearances": [
+        46
+      ],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "The most powerful healers who can actually restore life. The High Lords who brought Feyre back demonstrate this power.",
+          "role": "Life restorers, Supreme healers",
+          "relationships": {
+            "Life": "Can restore and give",
+            "Feyre": "Brought back to life"
+          }
+        }
+      }
+    },
+    "fate-spinners": {
+      "name": "Fate Spinners",
+      "aliases": [
+        "Destiny Weavers"
+      ],
+      "appearances": [
+        44,
+        46
+      ],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Mysterious beings who can see and sometimes influence the threads of fate and destiny.",
+          "role": "Fate seers, Destiny influencers",
+          "relationships": {
+            "Fate": "Can see and influence",
+            "Destiny": "Help weave"
+          }
+        }
+      }
+    },
+    "village-elder-1": {
+      "name": "Village Elder Marcus",
+      "aliases": [
+        "Elder Marcus",
+        "Town Leader"
+      ],
+      "appearances": [
+        1,
+        2,
+        26,
+        27
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Elderly leader of the village who remembers when the Archeron family was wealthy.",
+          "role": "Village elder, Memory keeper",
+          "relationships": {
+            "Archeron family": "Remembers their former status",
+            "Village": "Leads and guides",
+            "Past": "Keeper of memories"
+          }
+        }
+      }
+    },
+    "village-elder-2": {
+      "name": "Village Elder Sarah",
+      "aliases": [
+        "Elder Sarah",
+        "Wise Woman"
+      ],
+      "appearances": [
+        1,
+        2,
+        26,
+        27
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wise woman who provides herbal remedies and advice to village families.",
+          "role": "Healer, Advice giver",
+          "relationships": {
+            "Village families": "Provides care for",
+            "Herbs": "Gathers and uses",
+            "Healing": "Practices traditional"
+          }
+        }
+      }
+    },
+    "village-blacksmith": {
+      "name": "Thomas the Blacksmith",
+      "aliases": [
+        "Tom Smith",
+        "The Smith"
+      ],
+      "appearances": [
+        1,
+        2,
+        26,
+        27
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Village blacksmith who repairs Feyre's hunting equipment and tools.",
+          "role": "Craftsman, Tool maker",
+          "relationships": {
+            "Feyre": "Repairs equipment for",
+            "Village": "Provides metalwork for",
+            "Tools": "Creates and maintains"
+          }
+        }
+      }
+    },
+    "ianthe": {
+      "name": "Ianthe",
+      "aliases": [
+        "High Priestess",
+        "Priestess of Spring"
+      ],
+      "appearances": [
+        46
+      ],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "Beautiful priestess who officiates ceremonies in the Spring Court. Present at Feyre's revival as High Fae.",
+          "role": "High Priestess, Ceremony officiant",
+          "relationships": {
+            "Spring Court": "Serves as priestess",
+            "Feyre": "Witnesses revival of"
+          }
+        }
+      }
+    },
+    "aunt-ripleigh": {
+      "name": "Aunt Ripleigh",
+      "aliases": [
+        "Ripleigh",
+        "Father's Sister"
+      ],
+      "appearances": [
+        2,
+        3
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Papa Archeron's sister who occasionally checks on the family but offers little help in their poverty.",
+          "role": "Aunt, Distant relative",
+          "relationships": {
+            "Papa Archeron": "Sister to",
+            "Archeron girls": "Aunt to"
+          }
+        }
+      }
+    },
+    "mother-archeron": {
+      "name": "Mother Archeron",
+      "aliases": [
+        "Mama",
+        "Mrs. Archeron"
+      ],
+      "appearances": [
+        2,
+        3,
+        27
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Feyre's deceased mother who died of typhus. Was determined to maintain the family's social status.",
+          "role": "Deceased mother, Former socialite",
+          "relationships": {
+            "Papa Archeron": "Wife to",
+            "Feyre, Nesta, Elain": "Mother to"
+          }
+        }
+      }
+    },
+    "bogge": {
+      "name": "The Bogge",
+      "aliases": [
+        "Swamp Beast",
+        "Bog Monster"
+      ],
+      "appearances": [
+        16,
+        17
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Dangerous creature that lurks in swamps and bogs. Feeds on those who venture too close to its territory.",
+          "role": "Predator, Swamp dweller",
+          "relationships": {
+            "Swamps": "Lives in and guards",
+            "Travelers": "Preys upon"
+          }
+        }
+      }
+    },
+    "puca": {
+      "name": "The Puca",
+      "aliases": [
+        "Shape-shifter",
+        "Trickster Spirit"
+      ],
+      "appearances": [
+        15,
+        17
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Mischievous faerie creature that can take the form of animals, often leading travelers astray.",
+          "role": "Trickster, Shape-shifter",
+          "relationships": {
+            "Travelers": "Misleads and tricks",
+            "Forest": "Lives in wild places"
+          }
+        }
+      }
+    },
+    "will-o-wisps": {
+      "name": "Will-o'-wisps",
+      "aliases": [
+        "Ghost Lights",
+        "Marsh Lights"
+      ],
+      "appearances": [
+        17,
+        18
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Mysterious floating lights that appear in marshlands, sometimes guiding travelers to safety or leading them to danger.",
+          "role": "Guide spirits, Light beings",
+          "relationships": {
+            "Marshlands": "Inhabit and patrol",
+            "Lost travelers": "Guide or mislead"
+          }
+        }
+      }
+    },
+    "bean-tighe": {
+      "name": "Bean Tighe",
+      "aliases": [
+        "House Faerie",
+        "Domestic Spirit"
+      ],
+      "appearances": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Small house faeries that help with domestic tasks in the Spring Court manor, invisible to most but felt in their helpful acts.",
+          "role": "House helper, Domestic spirit",
+          "relationships": {
+            "Spring Court manor": "Helps maintain",
+            "Household tasks": "Assists with"
+          }
+        }
+      }
+    },
+    "dullahan": {
+      "name": "The Dullahan",
+      "aliases": [
+        "Headless Horseman",
+        "Death Messenger"
+      ],
+      "appearances": [
+        33,
+        36
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Terrifying headless faerie that serves as Amarantha's messenger of death. Appears as an omen of doom.",
+          "role": "Death messenger, Harbinger",
+          "relationships": {
+            "Amarantha": "Serves as messenger",
+            "Death": "Heralds and brings"
+          }
+        }
+      }
+    },
+    "redcaps": {
+      "name": "Redcaps",
+      "aliases": [
+        "Blood Caps",
+        "Murder Faeries"
+      ],
+      "appearances": [
+        33,
+        36,
+        37
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Vicious faeries with blood-red caps who serve in Amarantha's forces. Known for their brutality and love of violence.",
+          "role": "Violent enforcers, Brutal guards",
+          "relationships": {
+            "Amarantha": "Serve as brutal enforcers",
+            "Violence": "Revel in and cause"
+          }
+        }
+      }
+    },
+    "sluagh": {
+      "name": "The Sluagh",
+      "aliases": [
+        "Soul Hunters",
+        "Restless Spirits"
+      ],
+      "appearances": [
+        33,
+        36,
+        40
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Dark spirits that hunt for souls, drawn to places of death and suffering like Under the Mountain.",
+          "role": "Soul hunters, Dark spirits",
+          "relationships": {
+            "Souls": "Hunt and devour",
+            "Under the Mountain": "Drawn to suffering of"
+          }
+        }
+      }
+    },
+    "banshee": {
+      "name": "The Banshee",
+      "aliases": [
+        "Wailing Woman",
+        "Death Herald"
+      ],
+      "appearances": [
+        36,
+        42
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Ghostly woman whose wails foretell death. Her cries echo through Under the Mountain during the trials.",
+          "role": "Death prophet, Mourner",
+          "relationships": {
+            "Death": "Foretells and mourns",
+            "Trials": "Wails during dangerous moments"
+          }
+        }
+      }
+    },
+    "kelpie": {
+      "name": "The Kelpie",
+      "aliases": [
+        "Water Horse",
+        "Lake Monster"
+      ],
+      "appearances": [
+        17,
+        18
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Dangerous water horse that lures riders to their deaths beneath the waves. Dwells in the deeper lakes of the Spring Court.",
+          "role": "Water predator, Shape-shifter",
+          "relationships": {
+            "Lakes": "Dwells in deep waters",
+            "Unwary riders": "Lures to watery deaths"
+          }
+        }
+      }
+    },
+    "barghest": {
+      "name": "The Barghest",
+      "aliases": [
+        "Black Dog",
+        "Demon Hound"
+      ],
+      "appearances": [
+        14,
+        17
+      ],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Massive black dog with glowing eyes that roams the wilder parts of the Spring Court territory. An omen of danger.",
+          "role": "Omen beast, Territory guardian",
+          "relationships": {
+            "Wild territories": "Patrols and guards",
+            "Danger": "Appears as warning of"
+          }
+        }
+      }
+    },
+    "aos-si": {
+      "name": "The Aos Si",
+      "aliases": [
+        "People of the Mounds",
+        "Hill Folk"
+      ],
+      "appearances": [
+        7,
+        15,
+        17
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ancient faerie folk who live in the hills and mounds around the Spring Court. Rarely seen but their presence is felt.",
+          "role": "Ancient residents, Hill dwellers",
+          "relationships": {
+            "Hills and mounds": "Ancient homes in",
+            "Spring Court": "Coexist peacefully with"
+          }
+        }
+      }
+    },
+    "leannán-sidhe": {
+      "name": "Leannán Sidhe",
+      "aliases": [
+        "Fairy Lover",
+        "Muse Spirit"
+      ],
+      "appearances": [
+        10,
+        12
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Inspiring faerie that grants artistic talent to humans in exchange for their life force. Connected to Feyre's newfound painting ability.",
+          "role": "Artistic muse, Life exchanger",
+          "relationships": {
+            "Artists": "Inspires and drains",
+            "Feyre": "May have influenced artistic awakening"
+          }
+        }
+      }
+    },
+    "cat-sith": {
+      "name": "Cat Sith",
+      "aliases": [
+        "Fairy Cat",
+        "Spectral Feline"
+      ],
+      "appearances": [
+        8,
+        12,
+        16
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Large black cat with white chest marking that appears around the Spring Court manor. More intelligent than ordinary cats.",
+          "role": "Magical familiar, Court cat",
+          "relationships": {
+            "Spring Court": "Roams grounds of",
+            "Manor": "Makes home in"
+          }
+        }
+      }
+    },
+    "far-darrig": {
+      "name": "Far Darrig",
+      "aliases": [
+        "Red Man",
+        "Nightmare Bringer"
+      ],
+      "appearances": [
+        33,
+        40
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Malevolent faerie in red clothing who brings nightmares and terror. Serves in Amarantha's court of horrors.",
+          "role": "Nightmare bringer, Terror merchant",
+          "relationships": {
+            "Nightmares": "Creates and controls",
+            "Amarantha": "Serves in court of"
+          }
+        }
+      }
+    },
+    "dearg-due": {
+      "name": "Dearg Due",
+      "aliases": [
+        "Red Blood Sucker",
+        "Vampire Faerie"
+      ],
+      "appearances": [
+        33,
+        36,
+        42
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Blood-drinking faerie with pale skin and red eyes. One of the more terrifying inhabitants of Under the Mountain.",
+          "role": "Blood drinker, Terror creature",
+          "relationships": {
+            "Blood": "Feeds on",
+            "Amarantha": "Serves under"
+          }
+        }
+      }
+    },
+    "doppelganger": {
+      "name": "The Doppelganger",
+      "aliases": [
+        "Mirror Self",
+        "False Twin"
+      ],
+      "appearances": [
+        36,
+        44
+      ],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Shape-shifting creature that can take the appearance of others. Used by Amarantha to confuse and torment prisoners.",
+          "role": "Shape-shifter, Deceiver",
+          "relationships": {
+            "Others' forms": "Copies and mimics",
+            "Amarantha": "Tool of deception for"
+          }
+        }
+      }
+    },
+    "changeling": {
+      "name": "Changeling",
+      "aliases": [
+        "Fairy Swap",
+        "Substitute Child"
+      ],
+      "appearances": [
+        20,
+        33
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Faerie child left in place of a human child. Part of old stories and treaties between human and faerie realms.",
+          "role": "Replacement child, Treaty relic",
+          "relationships": {
+            "Human children": "Replaces in old tales",
+            "Treaty": "Part of ancient agreements"
+          }
+        }
+      }
+    },
+    "fear-dearg": {
+      "name": "Fear Dearg",
+      "aliases": [
+        "Red Fear",
+        "Trickster Imp"
+      ],
+      "appearances": [
+        15,
+        33
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Mischievous red-capped faerie that plays practical jokes, sometimes harmless, sometimes cruel.",
+          "role": "Trickster, Prankster",
+          "relationships": {
+            "Pranks": "Plays on others",
+            "Mischief": "Delights in causing"
+          }
+        }
+      }
+    },
+    "fetch": {
+      "name": "The Fetch",
+      "aliases": [
+        "Soul Thief",
+        "Life Stealer"
+      ],
+      "appearances": [
+        33,
+        36
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Sinister creature that can steal the essence or soul from living beings. One of Amarantha's more terrifying servants.",
+          "role": "Soul thief, Essence stealer",
+          "relationships": {
+            "Souls": "Steals and devours",
+            "Amarantha": "Serves as executioner"
+          }
+        }
+      }
+    },
+    "glastig": {
+      "name": "The Glastig",
+      "aliases": [
+        "Water Guardian",
+        "Half-woman Spirit"
+      ],
+      "appearances": [
+        17,
+        18
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Half-woman, half-goat creature that guards water sources. Can be protective or dangerous depending on how she's approached.",
+          "role": "Water guardian, Protective spirit",
+          "relationships": {
+            "Water sources": "Guards and protects",
+            "Travelers": "Helps or hinders"
+          }
+        }
+      }
+    },
+    "merrow": {
+      "name": "The Merrow",
+      "aliases": [
+        "Sea Maiden",
+        "Irish Mermaid"
+      ],
+      "appearances": [
+        17,
+        18
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Beautiful but dangerous sea faerie with a fish tail and green hair. Lives in the deeper waters near the Spring Court.",
+          "role": "Sea dweller, Water faerie",
+          "relationships": {
+            "Deep waters": "Rules domain of",
+            "Sailors": "Sometimes lures to doom"
+          }
+        }
+      }
+    },
+    "selkie": {
+      "name": "The Selkie",
+      "aliases": [
+        "Seal Woman",
+        "Shape-shifting Maiden"
+      ],
+      "appearances": [
+        17,
+        18
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Faerie woman who can transform into a seal. Lives between land and sea, connected to both worlds.",
+          "role": "Seal shifter, Dual-nature being",
+          "relationships": {
+            "Sea": "Transforms to live in",
+            "Land": "Can walk upon"
+          }
+        }
+      }
+    },
+    "nuckelavee": {
+      "name": "The Nuckelavee",
+      "aliases": [
+        "Skinless Horse",
+        "Sea Devil"
+      ],
+      "appearances": [
+        18
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Horrifying creature that appears as a skinless horse with a human torso. One of the most feared beings in faerie waters.",
+          "role": "Terror of waters, Nightmare creature",
+          "relationships": {
+            "Waters": "Brings terror to",
+            "Fear": "Embodies pure"
+          }
+        }
+      }
+    },
+    "abhartach": {
+      "name": "The Abhartach",
+      "aliases": [
+        "Dwarf Vampire",
+        "Blood Drinker"
+      ],
+      "appearances": [
+        33,
+        36
+      ],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Malevolent dwarf-like creature that drinks blood and cannot be permanently killed. Serves in Amarantha's court.",
+          "role": "Undead creature, Blood drinker",
+          "relationships": {
+            "Blood": "Requires to survive",
+            "Amarantha": "Bound to serve"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Feyre Archeron hunts in the woods to feed her impoverished family, killing a large wolf that seems strangely intelligent.",
+    "2": "The Archeron family struggles with poverty after losing their wealth. Feyre bears the burden of providing food while her sisters and father remain idle.",
+    "3": "Nesta is courted by Tomas Mandray while Elain prepares for marriage to Graysen. The family dreams of restoring their lost fortune.",
+    "4": "Feyre continues hunting despite the dangers, selling her kills to local merchants to keep her family fed through the harsh winter.",
+    "5": "A powerful faerie named Tamlin arrives, demanding Feyre's life as payment for killing the wolf, who was actually his friend Andras in disguise.",
+    "6": "Tamlin brings Feyre to his manor in the Spring Court, where she meets the servants and begins to adapt to faerie life.",
+    "7": "Feyre explores the Spring Court grounds and begins to appreciate its beauty, though she remains wary of her captors.",
+    "8": "Feyre learns more about faerie customs and begins training with weapons, slowly adjusting to her new life.",
+    "9": "Tamlin's friend Lucien, with his mechanical golden eye, serves as emissary and watches over Feyre with suspicion.",
+    "10": "Feyre discovers her artistic talents while learning to read, finding purpose and joy in painting for the first time.",
+    "11": "The curse affecting the Spring Court is revealed - Tamlin can only appear in his true form at night.",
+    "12": "Feyre's reading skills improve with help from Alis, and she grows closer to understanding the Spring Court's situation.",
+    "13": "Tensions rise as Feyre learns more about the political situation between the courts and the mysterious threat Under the Mountain.",
+    "14": "Feyre and Tamlin go hunting together, and she begins to see him as more than just her captor.",
+    "15": "Lucien's tragic backstory is revealed - he was cast out from the Autumn Court and found refuge with Tamlin.",
+    "16": "Feyre's archery skills impress the Spring Court, and she feels increasingly at home despite her initial captivity.",
+    "17": "Feyre encounters the Suriel, an ancient creature, while exploring the Spring Court's vast territories.",
+    "18": "The Suriel reveals crucial information about a curse affecting all the High Fae courts, warning Feyre of great danger ahead.",
+    "19": "Feyre learns more about the faerie courts and their complex relationships, understanding the scope of the threat they face.",
+    "20": "Alis reveals the truth about Amarantha's curse on the Spring Court and the impossible conditions for breaking it.",
+    "21": "The curse's origins are explained - Amarantha's revenge for being spurned by Tamlin's father decades ago.",
+    "22": "Feyre realizes the depth of Tamlin's sacrifice and the true nature of her role in potentially breaking the curse.",
+    "23": "Growing feelings between Feyre and Tamlin complicate the situation as the curse's deadline approaches.",
+    "24": "Feyre struggles with her human mortality and her place in the immortal faerie world.",
+    "25": "Feyre and Tamlin finally acknowledge their love for each other, but the curse prevents him from saying it aloud.",
+    "26": "Feyre visits her family to check on them, finding them well-provided for but changed by her absence.",
+    "27": "Her sisters react with mixed emotions to Feyre's return, noticing her transformation and new beauty.",
+    "28": "Feyre's father shows more life than before, and she realizes her family may not need her as much as she thought.",
+    "29": "Despite her family's improved situation, Feyre knows her heart now belongs in the faerie realm with Tamlin.",
+    "30": "Feyre returns to the Spring Court, fully accepting her feelings and ready to face whatever comes next.",
+    "31": "Life in the Spring Court takes on new meaning as Feyre embraces her role and her love for Tamlin.",
+    "32": "The approach of the curse's deadline creates mounting tension and urgency throughout the Spring Court.",
+    "33": "Feyre is taken Under the Mountain to face Amarantha, meeting other High Lords including the mysterious Rhysand.",
+    "34": "Amarantha's court is revealed in all its terrible glory, with various faeries trapped under her power.",
+    "35": "Feyre accepts Amarantha's bargain to complete three trials and solve a riddle to save Tamlin and the Spring Court.",
+    "36": "The first trial pits Feyre against a giant worm-like creature, testing her will to survive and kill.",
+    "37": "Feyre barely survives the first trial with help from Rhysand, who makes his own bargain with her to ensure her survival.",
+    "38": "Between trials, Feyre endures the horrors of Amarantha's court while trying to gather information.",
+    "39": "The psychological torture of watching Tamlin suffer while being powerless to help takes its toll on Feyre.",
+    "40": "Rhysand forces Feyre to dance and drink wine that makes her forget, though his true motives remain unclear.",
+    "41": "The second trial involves navigating dangerous obstacles, testing Feyre's intelligence and courage.",
+    "42": "Amarantha's tragic backstory is revealed - her love for Tamlin's father and the revenge that followed his rejection.",
+    "43": "The final trial approaches as Feyre realizes the depth of the political and personal stakes involved.",
+    "44": "Rhysand subtly helps Feyre understand the true nature of love, preparing her for the final riddle.",
+    "45": "The riddle's answer comes to Feyre in a moment of clarity about the nature of love and sacrifice.",
+    "46": "Feyre solves the riddle, dies in the process, and is resurrected as High Fae by the seven High Lords, breaking the curse forever."
+  }
+}
