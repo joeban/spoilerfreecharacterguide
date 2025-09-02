@@ -1,0 +1,1473 @@
+{
+  "meta": {
+    "title": "Prince Caspian",
+    "author": "C.S. Lewis",
+    "chapters": 15,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "peter-pevensie": {
+      "name": "Peter Pevensie",
+      "aliases": ["High King Peter", "King Peter the Magnificent"],
+      "appearances": [1, 2, 6, 7, 8, 9, 11, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The eldest of the four Pevensie children, formerly High King of Narnia. He discovers his old sword Rhindon among the treasure at Cair Paravel and realizes they have returned to their former kingdom after many centuries.",
+          "role": "Former High King of Narnia",
+          "relationships": {
+            "Brother to": "Susan, Edmund, and Lucy Pevensie"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Takes command of the war council and decides to challenge King Miraz to single combat rather than risk a battle they cannot win. Shows mature leadership and tactical thinking in desperate circumstances.",
+          "role": "Military commander and challenger",
+          "relationships": {
+            "Allied with": "Prince Caspian",
+            "Commands": "Narnian forces"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Fights King Miraz in single combat, showing skill with sword and shield. Though younger and smaller than Miraz, he holds his own through courage and determination in the crucial duel.",
+          "role": "Champion duelist",
+          "relationships": {
+            "Dueling": "King Miraz",
+            "Supported by": "All Old Narnians"
+          }
+        }
+      }
+    },
+    "susan-pevensie": {
+      "name": "Susan Pevensie",
+      "aliases": ["Queen Susan", "Queen Susan the Gentle"],
+      "appearances": [1, 2, 6, 7, 8, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The second eldest Pevensie child and former Queen of Narnia. She finds her magical horn and bow among the treasures at Cair Paravel, realizing how much time has passed since their reign.",
+          "role": "Former Queen of Narnia",
+          "relationships": {
+            "Sister to": "Peter, Edmund, and Lucy Pevensie"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Learns that her magic horn was blown by Prince Caspian to call for help, which is what brought the Pevensie children back to Narnia. The horn's magic has worked across centuries to summon aid in Narnia's darkest hour.",
+          "role": "Provider of magical aid",
+          "relationships": {
+            "Horn used by": "Prince Caspian"
+          }
+        }
+      }
+    },
+    "edmund-pevensie": {
+      "name": "Edmund Pevensie",
+      "aliases": ["King Edmund", "King Edmund the Just"],
+      "appearances": [1, 2, 6, 7, 8, 11, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The third Pevensie child and former King of Narnia. He recovers his sword among the treasures and helps explore the ruins of their old castle, piecing together what has happened to Narnia.",
+          "role": "Former King of Narnia",
+          "relationships": {
+            "Brother to": "Peter, Susan, and Lucy Pevensie"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Shows practical wisdom in questioning Trumpkin about the current state of Narnia. He helps coordinate the rescue of the dwarf and listens carefully to the account of Prince Caspian's situation.",
+          "role": "Strategic advisor",
+          "relationships": {
+            "Allied with": "Trumpkin and the Old Narnians"
+          }
+        }
+      }
+    },
+    "lucy-pevensie": {
+      "name": "Lucy Pevensie",
+      "aliases": ["Queen Lucy", "Queen Lucy the Valiant"],
+      "appearances": [1, 2, 6, 7, 8, 9, 10, 12, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The youngest Pevensie child and former Queen of Narnia. She finds her magical cordial and dagger among the treasures, and is the first to realize they are at Cair Paravel.",
+          "role": "Former Queen of Narnia",
+          "relationships": {
+            "Sister to": "Peter, Susan, and Edmund Pevensie"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Claims to see Aslan beckoning them to take a different path, but the others don't believe her. Her faith in Aslan remains strong despite the skepticism of her siblings and Trumpkin.",
+          "role": "Spiritual guide and Aslan's chosen",
+          "relationships": {
+            "Chosen by": "Aslan",
+            "Doubted by": "Her siblings and Trumpkin"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Follows Aslan's call and slips away from Aslan's How during the night. She finally meets Aslan face to face and receives his guidance for the restoration of Narnia.",
+          "role": "Aslan's faithful follower",
+          "relationships": {
+            "Meets with": "Aslan",
+            "Trusted by": "The great lion"
+          }
+        }
+      }
+    },
+    "prince-caspian": {
+      "name": "Prince Caspian",
+      "aliases": ["Caspian X", "King Caspian"],
+      "appearances": [3, 4, 5, 7, 8, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young Telmarine prince who was secretly educated about Old Narnia by his tutor Doctor Cornelius. He learns that his father was murdered by his uncle Miraz, and that he is the rightful heir to the throne.",
+          "role": "Rightful heir to Narnia's throne",
+          "relationships": {
+            "Nephew of": "King Miraz",
+            "Student of": "Doctor Cornelius",
+            "Son of": "Caspian IX (deceased)"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Flees his uncle's castle after Miraz's son is born, making him expendable. He is found by the Old Narnians who debate whether to trust any Telmarine, but eventually accept him as their leader.",
+          "role": "Refugee prince seeking allies",
+          "relationships": {
+            "Protected by": "Trufflehunter, Trumpkin, and Nikabrik",
+            "Fled from": "King Miraz"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Lives among the Old Narnians and learns their ways while building an army of resistance. He establishes his headquarters at Aslan's How and prepares to fight for his rightful throne.",
+          "role": "Leader of the Old Narnian resistance",
+          "relationships": {
+            "Commands": "Old Narnian forces",
+            "Allied with": "Talking beasts and mythical creatures"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Is crowned King of Narnia by Aslan himself in a great ceremony after the victory over the Telmarines. He becomes the rightful ruler of a restored Narnia where Old Narnians and reformed Telmarines can live in peace.",
+          "role": "King of Narnia",
+          "relationships": {
+            "Crowned by": "Aslan",
+            "Rules over": "All Narnians, both old and new"
+          }
+        }
+      }
+    },
+    "king-miraz": {
+      "name": "King Miraz",
+      "aliases": ["Miraz the Usurper"],
+      "appearances": [3, 8, 9, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Prince Caspian's uncle who murdered Caspian's father and usurped the throne of Narnia. He rules the Telmarines with an iron fist and has nearly driven the Old Narnians to extinction.",
+          "role": "Usurper King of Narnia",
+          "relationships": {
+            "Uncle of": "Prince Caspian",
+            "Murderer of": "Caspian IX",
+            "Father of": "A newborn son"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Accepts Peter's challenge to single combat after his lords manipulate his pride. He is a skilled warrior but his arrogance and desire to prove his courage lead him to agree to the duel.",
+          "role": "Champion duelist",
+          "relationships": {
+            "Challenged by": "Peter Pevensie",
+            "Manipulated by": "His own lords"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Dies during the single combat, but not from Peter's sword - he is murdered by his own treacherous lords who then blame the Narnians. His death triggers the general battle that follows.",
+          "role": "Murdered king",
+          "relationships": {
+            "Killed by": "Sopespian and Glozelle",
+            "Death blamed on": "The Narnians"
+          }
+        }
+      }
+    },
+    "trumpkin": {
+      "name": "Trumpkin",
+      "aliases": ["DLF (Dear Little Friend)"],
+      "appearances": [2, 6, 7, 8, 12, 13, 14, 15],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A red dwarf who is rescued by the Pevensie children from drowning at the hands of Telmarine soldiers. He is skeptical about the old stories and the children's claims to be the former kings and queens of Narnia.",
+          "role": "Reluctant messenger and guide",
+          "relationships": {
+            "Rescued by": "The Pevensie children",
+            "Companion of": "Prince Caspian",
+            "Friend of": "Trufflehunter and Nikabrik"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Guides the Pevensie children toward Caspian's forces, though he remains doubtful about Lucy's visions of Aslan. His practical nature conflicts with faith in the old magic and stories.",
+          "role": "Practical guide and skeptic",
+          "relationships": {
+            "Guides": "The Pevensie children",
+            "Doubts": "Lucy's visions of Aslan"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Successfully leads the group to Aslan's How where they reunite with Prince Caspian. He begins to accept that the Pevensie children truly are the legendary kings and queens when he sees their reception by the other Old Narnians.",
+          "role": "Trusted companion and believer",
+          "relationships": {
+            "Serves": "Prince Caspian",
+            "Accepts": "The Pevensie children as royalty"
+          }
+        }
+      }
+    },
+    "nikabrik": {
+      "name": "Nikabrik",
+      "aliases": [],
+      "appearances": [4, 5, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A black dwarf who, along with Trumpkin and Trufflehunter, finds Prince Caspian collapsed in the woods. He is deeply suspicious of all Telmarines and questions whether they can trust Caspian despite his royal blood.",
+          "role": "Suspicious ally and skeptical dwarf",
+          "relationships": {
+            "Companion of": "Trumpkin and Trufflehunter",
+            "Distrusts": "Prince Caspian initially",
+            "Found": "Caspian in the woods"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Joins the resistance against Miraz but remains bitter about the Telmarines' treatment of Old Narnia. His anger and desire for revenge make him open to darker solutions to their problems.",
+          "role": "Bitter resistance fighter",
+          "relationships": {
+            "Allied with": "Old Narnian resistance",
+            "Bitter toward": "All Telmarines"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Suggests calling upon the White Witch and using dark magic to defeat Miraz's army. He argues that they need any ally they can get, even evil ones, showing how desperate and corrupted his thinking has become.",
+          "role": "Advocate for dark magic",
+          "relationships": {
+            "Opposes": "Peter and Caspian's moral stance",
+            "Wants to summon": "The White Witch"
+          }
+        }
+      }
+    },
+    "trufflehunter": {
+      "name": "Trufflehunter",
+      "aliases": [],
+      "appearances": [4, 5, 7, 8, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A wise and loyal badger who finds Prince Caspian with the two dwarfs. He immediately recognizes Caspian's right to the throne and argues passionately for supporting him as the true king of Narnia.",
+          "role": "Wise counselor and loyal supporter",
+          "relationships": {
+            "Supports": "Prince Caspian as rightful king",
+            "Companion of": "Trumpkin and Nikabrik",
+            "Argues with": "Nikabrik about trusting Caspian"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Becomes one of Caspian's most trusted advisors and helps build the resistance movement. His wisdom and knowledge of Old Narnia make him invaluable to the cause.",
+          "role": "Trusted advisor and resistance leader",
+          "relationships": {
+            "Advises": "Prince Caspian",
+            "Leads": "Other talking animals in the resistance"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Firmly opposes Nikabrik's suggestion to use dark magic and call upon the White Witch. He maintains that some prices are too high to pay, even for victory.",
+          "role": "Voice of moral conscience",
+          "relationships": {
+            "Opposes": "Nikabrik's dark magic proposal",
+            "Supports": "Peter and Caspian's honorable approach"
+          }
+        }
+      }
+    },
+    "doctor-cornelius": {
+      "name": "Doctor Cornelius",
+      "aliases": ["Cornelius"],
+      "appearances": [3, 7, 8, 13],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Prince Caspian's tutor and mentor, who is secretly half-dwarf. He taught Caspian about Old Narnia against Miraz's wishes and revealed the truth about his father's murder. He helps Caspian escape with Queen Susan's horn.",
+          "role": "Secret tutor and mentor",
+          "relationships": {
+            "Tutor to": "Prince Caspian",
+            "Half-dwarf hidden from": "King Miraz",
+            "Gave": "Queen Susan's horn to Caspian"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Arrives at Aslan's How with news about Miraz's approaching army. He provides crucial intelligence about Telmarine military movements and helps plan the defense strategy.",
+          "role": "Intelligence gatherer and strategic advisor",
+          "relationships": {
+            "Serves": "Prince Caspian's cause",
+            "Provides intelligence about": "Miraz's army"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Witnesses Caspian's coronation as King of Narnia. His years of secret teaching and loyalty to the true Narnia are finally vindicated with the restoration of the rightful order.",
+          "role": "Vindicated mentor and witness",
+          "relationships": {
+            "Proud of": "King Caspian's coronation",
+            "Vindicated by": "Narnia's restoration"
+          }
+        }
+      }
+    },
+    "sopespian": {
+      "name": "Lord Sopespian",
+      "aliases": ["Sopespian"],
+      "appearances": [9, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A treacherous Telmarine lord who, along with Glozelle, manipulates King Miraz into accepting Peter's challenge by questioning his courage. He pretends to be loyal while plotting against the king.",
+          "role": "Treacherous courtier and manipulator",
+          "relationships": {
+            "Conspirator with": "Lord Glozelle",
+            "Manipulates": "King Miraz",
+            "Plots against": "The crown"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Murders King Miraz during the duel by stabbing him in the back, then blames the Narnians for the treacherous act. His betrayal triggers the general battle that follows.",
+          "role": "Murderer and traitor",
+          "relationships": {
+            "Murders": "King Miraz",
+            "Blames": "The Narnians for Miraz's death",
+            "Partner in crime with": "Lord Glozelle"
+          }
+        }
+      }
+    },
+    "glozelle": {
+      "name": "Lord Glozelle",
+      "aliases": ["Glozelle"],
+      "appearances": [9, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Telmarine lord who works with Sopespian to manipulate King Miraz into the single combat. He appears to be advising the king while actually maneuvering him into a vulnerable position.",
+          "role": "Conspirator and false advisor",
+          "relationships": {
+            "Conspirator with": "Lord Sopespian",
+            "False advisor to": "King Miraz",
+            "Plans betrayal with": "Sopespian"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Participates in the murder of King Miraz alongside Sopespian during the single combat. He helps blame the Narnians for their own treacherous deed to justify the attack.",
+          "role": "Co-conspirator in regicide",
+          "relationships": {
+            "Co-murderer with": "Lord Sopespian",
+            "Betrays": "King Miraz",
+            "Falsely accuses": "The Narnians"
+          }
+        }
+      }
+    },
+    "telmarine-soldiers": {
+      "name": "Telmarine Soldiers",
+      "aliases": ["Miraz's Army"],
+      "appearances": [2, 7, 11, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Two Telmarine soldiers attempt to drown Trumpkin as an enemy of the state. They represent the oppressive military force that has driven the Old Narnians into hiding and near extinction.",
+          "role": "Oppressive enforcers",
+          "relationships": {
+            "Serve": "King Miraz",
+            "Enemies of": "Old Narnians",
+            "Attempt to execute": "Trumpkin"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Form the vast army that fights against Caspian's smaller force. They initially have the advantage in numbers but are eventually routed by Aslan's supernatural reinforcements.",
+          "role": "Overwhelming military force",
+          "relationships": {
+            "Fight for": "King Miraz",
+            "Outnumber": "Caspian's forces",
+            "Defeated by": "Aslan's army"
+          }
+        }
+      }
+    },
+    "mirazs-queen": {
+      "name": "Queen of Miraz",
+      "aliases": ["Miraz's Wife"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "King Miraz's wife who gives birth to a son, making Prince Caspian no longer the heir to the throne. Her child's birth precipitates Caspian's need to flee as he becomes expendable to Miraz.",
+          "role": "Queen and mother",
+          "relationships": {
+            "Wife of": "King Miraz",
+            "Mother of": "Miraz's newborn son",
+            "Birth threatens": "Prince Caspian's safety"
+          }
+        }
+      }
+    },
+    "mirazs-son": {
+      "name": "Prince (Miraz's Son)",
+      "aliases": ["Miraz's Heir"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The newborn son of King Miraz and his queen. His birth makes him the new heir to the throne, replacing Prince Caspian and making Caspian's position dangerous.",
+          "role": "New heir to the throne",
+          "relationships": {
+            "Son of": "King Miraz and his queen",
+            "Replaces": "Prince Caspian as heir",
+            "Threatens": "Caspian's life by existing"
+          }
+        }
+      }
+    },
+    "caspian-ix": {
+      "name": "Caspian IX",
+      "aliases": ["Prince Caspian's Father", "The Previous King"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Prince Caspian's father and the previous king, who was murdered by his brother Miraz. His death allowed Miraz to usurp the throne and rule as regent for young Caspian.",
+          "role": "Murdered king and father",
+          "relationships": {
+            "Father of": "Prince Caspian",
+            "Murdered by": "His brother Miraz",
+            "Rightful king before": "Miraz's usurpation"
+          }
+        }
+      }
+    },
+    "reepicheep": {
+      "name": "Reepicheep",
+      "aliases": ["Chief Mouse"],
+      "appearances": [5, 7, 8, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The valiant leader of the talking mice who joins Prince Caspian's cause. He is brave beyond his small size and leads his fellow mice in the resistance against King Miraz.",
+          "role": "Chief of the talking mice and warrior",
+          "relationships": {
+            "Leads": "The talking mice",
+            "Serves": "Prince Caspian",
+            "Commands": "Mouse warriors in battle"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Fights bravely in the battle against the Telmarines despite his tiny size. He and his mice prove that courage is not measured by physical stature as they engage much larger enemies.",
+          "role": "Heroic warrior",
+          "relationships": {
+            "Fights alongside": "Caspian's forces",
+            "Leads": "Mice into battle",
+            "Demonstrates": "Courage beyond his size"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Is honored by Aslan for his bravery and loyalty. Aslan personally recognizes the mice's contribution to the victory and Reepicheep's outstanding leadership and valor.",
+          "role": "Honored hero",
+          "relationships": {
+            "Honored by": "Aslan",
+            "Recognized for": "Bravery and leadership",
+            "Represents": "All talking mice"
+          }
+        }
+      }
+    },
+    "talking-mice": {
+      "name": "Talking Mice",
+      "aliases": ["Reepicheep's Mice", "Mouse Warriors"],
+      "appearances": [5, 11, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A band of brave talking mice led by Reepicheep who join the Old Narnian resistance. Despite their small size, they are fierce warriors ready to fight for the restoration of Narnia.",
+          "role": "Small but fierce warriors",
+          "relationships": {
+            "Led by": "Reepicheep",
+            "Allied with": "Prince Caspian's forces",
+            "Fight against": "Telmarine oppression"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Fight valiantly in the battle against Miraz's army, proving that size doesn't determine courage. Their bravery inspires the larger creatures and shows the spirit of Old Narnia.",
+          "role": "Valiant warriors",
+          "relationships": {
+            "Follow": "Reepicheep into battle",
+            "Inspire": "Other Old Narnians",
+            "Fight for": "Caspian's cause"
+          }
+        }
+      }
+    },
+    "bulgy-bears": {
+      "name": "Bulgy Bears",
+      "aliases": ["The Bears"],
+      "appearances": [5, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Talking bears who join Prince Caspian's resistance movement. They represent the larger talking beasts who have survived the Telmarine persecution and are willing to fight for their freedom.",
+          "role": "Large talking beast warriors",
+          "relationships": {
+            "Allied with": "Prince Caspian",
+            "Part of": "Old Narnian resistance",
+            "Fight alongside": "Other talking beasts"
+          }
+        }
+      }
+    },
+    "talking-badgers": {
+      "name": "Talking Badgers",
+      "aliases": ["The Badgers"],
+      "appearances": [4, 5, 7, 11, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Talking badgers like Trufflehunter who have maintained their loyalty to the old ways of Narnia. They are among the most steadfast supporters of the rightful monarchy.",
+          "role": "Loyal supporters of rightful rule",
+          "relationships": {
+            "Include": "Trufflehunter",
+            "Support": "Prince Caspian's claim",
+            "Maintain": "Old Narnian traditions"
+          }
+        }
+      }
+    },
+    "talking-squirrels": {
+      "name": "Talking Squirrels",
+      "aliases": ["The Squirrels"],
+      "appearances": [5, 11, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Nimble talking squirrels who act as messengers and scouts for the resistance. Their speed and agility make them valuable for gathering intelligence and carrying communications.",
+          "role": "Messengers and scouts",
+          "relationships": {
+            "Serve": "Prince Caspian's cause",
+            "Work with": "Other talking beasts",
+            "Provide": "Intelligence and communication"
+          }
+        }
+      }
+    },
+    "talking-rabbits": {
+      "name": "Talking Rabbits",
+      "aliases": ["The Rabbits"],
+      "appearances": [5, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Small talking rabbits who join the resistance despite their timid nature. Their participation shows that even the most peaceful creatures are willing to fight for their freedom.",
+          "role": "Unlikely but brave participants",
+          "relationships": {
+            "Join": "The resistance movement",
+            "Overcome": "Their natural timidity",
+            "Support": "The Old Narnian cause"
+          }
+        }
+      }
+    },
+    "talking-moles": {
+      "name": "Talking Moles",
+      "aliases": ["The Moles"],
+      "appearances": [5, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Underground-dwelling talking moles who provide knowledge of tunnels and hidden passages. Their expertise proves valuable for the resistance's tactical planning.",
+          "role": "Underground specialists",
+          "relationships": {
+            "Provide": "Knowledge of tunnels and passages",
+            "Support": "Tactical planning",
+            "Allied with": "Other talking beasts"
+          }
+        }
+      }
+    },
+    "talking-horses": {
+      "name": "Talking Horses",
+      "aliases": ["The Horses"],
+      "appearances": [5, 11, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Noble talking horses who join the resistance and provide cavalry support. They represent the proud and free spirit of Old Narnia that refuses to be broken by Telmarine oppression.",
+          "role": "Cavalry and noble allies",
+          "relationships": {
+            "Provide": "Cavalry support",
+            "Represent": "Noble spirit of Old Narnia",
+            "Fight for": "Freedom from oppression"
+          }
+        }
+      }
+    },
+    "aslan": {
+      "name": "Aslan",
+      "aliases": ["The Great Lion", "The Lion", "The King"],
+      "appearances": [9, 10, 12, 13, 14, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The great lion and true king of Narnia appears to Lucy when she follows his call away from Aslan's How. He has been waiting for her and explains that things never happen the same way twice.",
+          "role": "True King of Narnia and divine guide",
+          "relationships": {
+            "Appears to": "Lucy Pevensie",
+            "True king of": "Narnia",
+            "Guides": "The restoration of his kingdom"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Awakens the sleeping spirits of Narnia - the trees, the river god, and other nature spirits who have been silent under Telmarine oppression. His power begins to restore the magical life to the land.",
+          "role": "Awakener and restorer",
+          "relationships": {
+            "Awakens": "Trees and nature spirits",
+            "Restores": "Magic to Narnia",
+            "Commands": "The forces of nature"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Arrives at the battle with Lucy and an army of awakened trees and nature spirits. His supernatural force turns the tide of battle and routes the Telmarine army completely.",
+          "role": "Divine deliverer and conqueror",
+          "relationships": {
+            "Leads": "Army of trees and nature spirits",
+            "Delivers": "Victory to Caspian's forces",
+            "Routes": "The Telmarine army"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Crowns Prince Caspian as the rightful King of Narnia in a great ceremony. He deals justly with both the victorious Old Narnians and the defeated Telmarines, offering mercy and choices for the future.",
+          "role": "Divine king-maker and judge",
+          "relationships": {
+            "Crowns": "King Caspian",
+            "Judges": "Telmarines with justice and mercy",
+            "Restores": "Rightful order to Narnia"
+          }
+        }
+      }
+    },
+    "glenstorm": {
+      "name": "Glenstorm",
+      "aliases": ["The Centaur"],
+      "appearances": [5, 7, 8, 11, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A wise centaur who joins Prince Caspian's resistance. He represents the ancient wisdom and nobility of the Old Narnians, and his knowledge of stars and prophecy proves valuable to the cause.",
+          "role": "Wise centaur and prophet",
+          "relationships": {
+            "Serves": "Prince Caspian",
+            "Provides": "Wisdom and prophecy",
+            "Represents": "Ancient Narnian nobility"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Participates in the war council at Aslan's How, offering his wisdom and strategic advice. His knowledge of ancient lore helps guide the resistance's decisions.",
+          "role": "Strategic advisor and counselor",
+          "relationships": {
+            "Advises": "The war council",
+            "Shares": "Ancient knowledge and wisdom",
+            "Counsels": "Prince Caspian and allies"
+          }
+        }
+      }
+    },
+    "wimbleweather": {
+      "name": "Wimbleweather",
+      "aliases": ["The Giant"],
+      "appearances": [5, 8, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A friendly giant who joins the Old Narnian resistance despite his somewhat clumsy nature. He represents the larger mythical beings who have survived Telmarine persecution.",
+          "role": "Gentle giant and ally",
+          "relationships": {
+            "Allied with": "Prince Caspian's forces",
+            "Represents": "Surviving giants of Old Narnia",
+            "Known for": "Good intentions despite clumsiness"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Fights in the battle against the Telmarines, using his great size and strength to help the smaller Old Narnian forces. Despite some mishaps, his heart is in the right place.",
+          "role": "Giant warrior",
+          "relationships": {
+            "Fights for": "Caspian's cause",
+            "Uses": "Great strength in battle",
+            "Supports": "Smaller allies with his size"
+          }
+        }
+      }
+    },
+    "tree-spirits": {
+      "name": "Tree Spirits",
+      "aliases": ["Dryads", "Tree People", "The Trees"],
+      "appearances": [4, 10, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Dancing dryads and tree spirits that Prince Caspian encounters when he first flees into the woods. They represent the magical life of Narnia that has been suppressed under Telmarine rule.",
+          "role": "Magical forest dwellers",
+          "relationships": {
+            "Encountered by": "Prince Caspian",
+            "Represent": "Suppressed magic of Narnia",
+            "Dance in": "The ancient circles"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Are awakened by Aslan after centuries of silence under Telmarine oppression. They come alive with joy and magic, ready to help restore Narnia to its former glory.",
+          "role": "Awakened magical allies",
+          "relationships": {
+            "Awakened by": "Aslan",
+            "Join": "The restoration of Narnia",
+            "Represent": "Return of natural magic"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "March with Aslan as a supernatural army to defeat the Telmarines. The trees come alive as warriors, striking fear into the hearts of Miraz's soldiers who have never seen such magic.",
+          "role": "Supernatural army",
+          "relationships": {
+            "March with": "Aslan",
+            "Fight against": "Telmarine army",
+            "Terrify": "Miraz's soldiers"
+          }
+        }
+      }
+    },
+    "river-god": {
+      "name": "River God",
+      "aliases": ["The River", "Beruna's Spirit"],
+      "appearances": [10, 12, 13],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The ancient river god who has been bound and silenced by the Telmarines' bridge at Beruna ford. Aslan awakens him from his long imprisonment, restoring his voice and power.",
+          "role": "Awakened water spirit",
+          "relationships": {
+            "Awakened by": "Aslan",
+            "Imprisoned by": "Telmarine bridge",
+            "Rules": "The waters of Beruna"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Destroys the bridge that has bound him and helps defeat the Telmarine forces. His liberation represents the freeing of Narnia's natural magic from human oppression.",
+          "role": "Liberated force of nature",
+          "relationships": {
+            "Destroys": "The Telmarine bridge",
+            "Fights with": "Aslan's forces",
+            "Represents": "Freed natural magic"
+          }
+        }
+      }
+    },
+    "fauns": {
+      "name": "Fauns",
+      "aliases": ["Goat-men"],
+      "appearances": [4, 5, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Fauns dancing in the woodland circles when Prince Caspian first encounters the Old Narnians. They represent the joyful, innocent magic of Narnia that the Telmarines have tried to destroy.",
+          "role": "Joyful magical beings",
+          "relationships": {
+            "Dance with": "Dryads in woodland circles",
+            "Represent": "Innocent magic of Old Narnia",
+            "Encountered by": "Prince Caspian"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Join the resistance movement, bringing their woodland knowledge and ancient connections to nature. They help bridge the gap between the mythical and practical aspects of the rebellion.",
+          "role": "Woodland allies and guides",
+          "relationships": {
+            "Join": "The resistance movement",
+            "Provide": "Woodland knowledge",
+            "Connect": "Nature with the rebellion"
+          }
+        }
+      }
+    },
+    "satyrs": {
+      "name": "Satyrs",
+      "aliases": ["Forest People"],
+      "appearances": [5, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Wild forest satyrs who join Prince Caspian's cause, bringing their untamed energy and connection to the wilder aspects of nature. They represent the primal magic of Narnia.",
+          "role": "Wild nature spirits",
+          "relationships": {
+            "Allied with": "Prince Caspian",
+            "Represent": "Primal magic of nature",
+            "Bring": "Wild energy to the cause"
+          }
+        }
+      }
+    },
+    "red-dwarfs": {
+      "name": "Red Dwarfs",
+      "aliases": ["Loyal Dwarfs"],
+      "appearances": [2, 4, 5, 7, 8, 11, 12, 13],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Red dwarfs like Trumpkin who have remained loyal to the old ways and the rightful monarchy of Narnia. They are distinguished from the black dwarfs by their continued faith in the ancient order.",
+          "role": "Loyal supporters of rightful rule",
+          "relationships": {
+            "Include": "Trumpkin",
+            "Support": "Old Narnian monarchy",
+            "Distinguished from": "Black dwarfs"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Form an important part of the resistance movement, bringing their craftsmanship, mining knowledge, and combat skills to Prince Caspian's cause.",
+          "role": "Skilled craftsmen and warriors",
+          "relationships": {
+            "Support": "Prince Caspian's resistance",
+            "Provide": "Craftsmanship and combat skills",
+            "Part of": "Old Narnian forces"
+          }
+        }
+      }
+    },
+    "black-dwarfs": {
+      "name": "Black Dwarfs",
+      "aliases": ["Skeptical Dwarfs"],
+      "appearances": [4, 5, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Black dwarfs like Nikabrik who have become bitter and skeptical due to the Telmarine persecution. They are more willing to consider desperate or morally questionable solutions to their problems.",
+          "role": "Bitter and skeptical allies",
+          "relationships": {
+            "Include": "Nikabrik",
+            "Affected by": "Telmarine persecution",
+            "Consider": "Desperate solutions"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Some black dwarfs like Nikabrik become so desperate that they're willing to use dark magic and ally with evil forces, showing how oppression can corrupt even good hearts.",
+          "role": "Potentially corrupted allies",
+          "relationships": {
+            "Corrupted by": "Desperation and oppression",
+            "Consider": "Dark magic and evil alliances",
+            "Represent": "Moral dangers of desperation"
+          }
+        }
+      }
+    },
+    "bacchus": {
+      "name": "Bacchus",
+      "aliases": ["The Wine God"],
+      "appearances": [10, 12, 13],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The ancient god of wine and revelry who is awakened by Aslan along with the other nature spirits. He represents the joyful, celebratory aspects of the natural world that have been suppressed.",
+          "role": "God of wine and celebration",
+          "relationships": {
+            "Awakened by": "Aslan",
+            "Accompanies": "Other nature spirits",
+            "Represents": "Joy and celebration in nature"
+          }
+        }
+      }
+    },
+    "silenus": {
+      "name": "Silenus",
+      "aliases": ["The Fat Man", "Donkey Rider"],
+      "appearances": [10, 12, 13],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The fat old man who rides a donkey and accompanies Bacchus in the wild celebration. He represents the earthier, more rustic aspects of nature's joy and merriment.",
+          "role": "Companion of Bacchus",
+          "relationships": {
+            "Companion of": "Bacchus",
+            "Rides": "A donkey",
+            "Participates in": "Nature's celebration"
+          }
+        }
+      }
+    },
+    "maenads": {
+      "name": "Maenads",
+      "aliases": ["Wild Women", "Bacchus's Followers"],
+      "appearances": [10, 12, 13],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Wild women who follow Bacchus in his procession, dancing and celebrating with unrestrained joy. They represent the untamed, ecstatic aspects of nature's freedom.",
+          "role": "Wild celebrants and followers",
+          "relationships": {
+            "Follow": "Bacchus",
+            "Dance with": "Nature spirits",
+            "Represent": "Untamed joy and freedom"
+          }
+        }
+      }
+    },
+    "schoolmaster": {
+      "name": "Schoolmaster",
+      "aliases": ["The Teacher"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Telmarine schoolmaster who is overwhelmed when Aslan and his followers visit his classroom. He represents the rigid, joyless education system that suppresses wonder and imagination.",
+          "role": "Representative of oppressive education",
+          "relationships": {
+            "Visited by": "Aslan and his followers",
+            "Represents": "Joyless educational system",
+            "Overwhelmed by": "Natural magic and joy"
+          }
+        }
+      }
+    },
+    "schoolchildren": {
+      "name": "Schoolchildren",
+      "aliases": ["Students", "The Children"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Telmarine children who are liberated from their dreary classroom by Aslan's arrival. They represent the natural joy and wonder of childhood that flourishes when freed from oppression.",
+          "role": "Liberated young people",
+          "relationships": {
+            "Liberated by": "Aslan's arrival",
+            "Freed from": "Oppressive education",
+            "Represent": "Natural childhood joy"
+          }
+        }
+      }
+    },
+    "nurse": {
+      "name": "Nurse",
+      "aliases": ["Caspian's Nurse"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Prince Caspian's old nurse who first told him stories about Old Narnia when he was young. She was dismissed by Miraz for filling the boy's head with 'nonsense,' but her stories planted the seeds of truth.",
+          "role": "First teacher of Old Narnia lore",
+          "relationships": {
+            "Former nurse to": "Prince Caspian",
+            "Dismissed by": "King Miraz",
+            "Taught": "Stories of Old Narnia"
+          }
+        }
+      }
+    },
+    "hag": {
+      "name": "The Hag",
+      "aliases": ["Witch Woman"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An evil hag who appears with the werewolf to support Nikabrik's plan to summon the White Witch. She represents the dark forces that some are willing to embrace in desperation.",
+          "role": "Dark magic practitioner",
+          "relationships": {
+            "Allies with": "Nikabrik and the werewolf",
+            "Supports": "Summoning the White Witch",
+            "Represents": "Dark temptation"
+          }
+        }
+      }
+    },
+    "werewolf": {
+      "name": "The Werewolf",
+      "aliases": ["Wolf-man"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A werewolf who joins with Nikabrik and the hag in attempting to summon the White Witch through dark magic. He represents the corrupted creatures who have turned to evil.",
+          "role": "Corrupted creature and dark ally",
+          "relationships": {
+            "Allies with": "Nikabrik and the hag",
+            "Attempts to summon": "The White Witch",
+            "Represents": "Corruption and evil"
+          }
+        }
+      }
+    },
+    "white-witch": {
+      "name": "The White Witch",
+      "aliases": ["Jadis", "The Witch"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The evil White Witch from the first Narnia story, whom Nikabrik and his allies attempt to summon through dark magic. Though defeated long ago, some desperate souls consider calling upon her power.",
+          "role": "Ancient evil enemy",
+          "relationships": {
+            "Target of": "Nikabrik's summoning attempt",
+            "Ancient enemy of": "Narnia and Aslan",
+            "Represents": "Temptation to use evil for good ends"
+          }
+        }
+      }
+    },
+    "mr-tumnus": {
+      "name": "Mr. Tumnus",
+      "aliases": ["The Faun"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The faun from the Pevensie children's first adventure, now remembered as they explore the ruins of Cair Paravel. His memory represents the connections between past and present adventures in Narnia.",
+          "role": "Remembered friend from the past",
+          "relationships": {
+            "Former friend of": "Lucy Pevensie",
+            "Remembered by": "The Pevensie children",
+            "Represents": "Connections to past adventures"
+          }
+        }
+      }
+    },
+    "old-narnian-lords": {
+      "name": "Old Narnian Lords",
+      "aliases": ["Ancient Nobility"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The former nobility of Narnia during the golden age, mentioned in Doctor Cornelius's teachings about the old kingdom. They represent the legitimate government that was overthrown by the Telmarines.",
+          "role": "Former legitimate rulers",
+          "relationships": {
+            "Mentioned by": "Doctor Cornelius",
+            "Overthrown by": "Telmarine invasion",
+            "Represent": "Legitimate Old Narnian government"
+          }
+        }
+      }
+    },
+    "telmarine-ancestors": {
+      "name": "Telmarine Ancestors",
+      "aliases": ["Original Telmarines"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The original Telmarines who came to Narnia from another world through a magical portal. Aslan reveals their true origin and offers their descendants a chance to return to their ancestral world.",
+          "role": "Original invaders and ancestors",
+          "relationships": {
+            "Ancestors of": "Current Telmarines",
+            "Came from": "Another world through magic",
+            "Origin revealed by": "Aslan"
+          }
+        }
+      }
+    },
+    "dancing-lawn-creatures": {
+      "name": "Dancing Lawn Creatures",
+      "aliases": ["Midnight Dancers"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Various magical creatures who gather at the Dancing Lawn for secret celebrations under the moonlight. They represent the hidden magical life that continues despite Telmarine oppression.",
+          "role": "Secret magical celebrants",
+          "relationships": {
+            "Gather at": "The Dancing Lawn",
+            "Celebrate": "Old Narnian traditions secretly",
+            "Include": "Fauns, dryads, and other creatures"
+          }
+        }
+      }
+    },
+    "cair-paravel-ghosts": {
+      "name": "Cair Paravel Memories",
+      "aliases": ["Palace Spirits"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The lingering sense of their former lives and reign that the Pevensie children feel when exploring the ruins of Cair Paravel. They represent the weight of lost time and changed circumstances.",
+          "role": "Echoes of past glory",
+          "relationships": {
+            "Felt by": "The Pevensie children",
+            "Located in": "Cair Paravel ruins",
+            "Represent": "Lost time and changed circumstances"
+          }
+        }
+      }
+    },
+    "beruna-bridge-builders": {
+      "name": "Bridge Builders",
+      "aliases": ["Telmarine Engineers"],
+      "appearances": [10, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The Telmarine engineers who built the bridge at Beruna ford, unknowingly imprisoning the river god. They represent humanity's tendency to impose its will on nature without understanding the consequences.",
+          "role": "Unwitting oppressors of nature",
+          "relationships": {
+            "Built": "The bridge at Beruna",
+            "Imprisoned": "The river god unknowingly",
+            "Represent": "Human domination over nature"
+          }
+        }
+      }
+    },
+    "telmarine-refugees": {
+      "name": "Telmarine Refugees",
+      "aliases": ["Fleeing Telmarines"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Telmarine soldiers and civilians who flee the battle when confronted with Aslan's supernatural army. Many surrender rather than face the awakened trees and nature spirits.",
+          "role": "Defeated and fleeing enemies",
+          "relationships": {
+            "Flee from": "Aslan's supernatural army",
+            "Surrender to": "Caspian's forces",
+            "Terrified by": "Awakened trees and spirits"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Face a choice offered by Aslan to either remain in Narnia under Caspian's rule or return to their ancestral world. This represents mercy and justice combined in dealing with former oppressors.",
+          "role": "Recipients of mercy and choice",
+          "relationships": {
+            "Offered choice by": "Aslan",
+            "Can remain under": "King Caspian's rule",
+            "Can return to": "Their ancestral world"
+          }
+        }
+      }
+    },
+    "party-of-telmarines": {
+      "name": "Telmarine Test Group",
+      "aliases": ["First Returnees"],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A group of Telmarines who volunteer to be the first to pass through Aslan's magical door as a test for the others. Their successful passage proves that the offer of return is genuine and safe.",
+          "role": "Test volunteers and proof",
+          "relationships": {
+            "Volunteer for": "Testing Aslan's door",
+            "Prove safety to": "Other Telmarines",
+            "Successfully pass through": "The magical portal"
+          }
+        }
+      }
+    },
+    "pattertwig": {
+      "name": "Pattertwig",
+      "aliases": ["The Squirrel"],
+      "appearances": [5, 7, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A brave talking squirrel who serves as a messenger for the Old Narnian resistance. He represents the smaller creatures who risk everything for the cause of freedom.",
+          "role": "Messenger and scout",
+          "relationships": {
+            "Serves": "Prince Caspian's resistance",
+            "Part of": "Talking squirrel community",
+            "Acts as": "Scout and messenger"
+          }
+        }
+      }
+    },
+    "camillo": {
+      "name": "Camillo",
+      "aliases": ["The Hare"],
+      "appearances": [5, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A talking hare who joins the resistance movement despite the natural timidity of his species. He shows that courage comes in all sizes and forms.",
+          "role": "Brave talking hare",
+          "relationships": {
+            "Allied with": "Old Narnian resistance",
+            "Overcomes": "Natural timidity",
+            "Represents": "Small but brave creatures"
+          }
+        }
+      }
+    },
+    "hogglestock": {
+      "name": "Hogglestock",
+      "aliases": ["The Hedgehog"],
+      "appearances": [5, 11],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A talking hedgehog who joins Prince Caspian's cause. Though small and seemingly defenseless, he brings determination and loyalty to the resistance.",
+          "role": "Small but determined ally",
+          "relationships": {
+            "Supports": "Prince Caspian",
+            "Part of": "Small talking beasts",
+            "Shows": "Determination despite size"
+          }
+        }
+      }
+    },
+    "peepiceek": {
+      "name": "Peepiceek",
+      "aliases": ["The Mouse Warrior"],
+      "appearances": [5, 11, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "One of Reepicheep's brave mouse warriors who fights alongside the resistance. He embodies the fierce courage that all the mice show in battle.",
+          "role": "Mouse warrior",
+          "relationships": {
+            "Serves under": "Reepicheep",
+            "Fights with": "Mouse warrior band",
+            "Shows": "Fierce courage in battle"
+          }
+        }
+      }
+    },
+    "destrier": {
+      "name": "Destrier",
+      "aliases": ["The Warhorse"],
+      "appearances": [5, 11, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A noble talking warhorse who provides cavalry support for the Old Narnian forces. He represents the proud military traditions of Old Narnia.",
+          "role": "Noble cavalry mount",
+          "relationships": {
+            "Serves": "Old Narnian cavalry",
+            "Represents": "Military traditions",
+            "Fights in": "The resistance army"
+          }
+        }
+      }
+    },
+    "bree": {
+      "name": "Bree",
+      "aliases": ["The Horse"],
+      "appearances": [5, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A talking horse who joins the resistance after years of hiding his true nature. He represents those who have had to conceal their identity under oppression.",
+          "role": "Reformed talking horse",
+          "relationships": {
+            "Joins": "The resistance movement",
+            "Previously concealed": "His talking ability",
+            "Represents": "Hidden identity under oppression"
+          }
+        }
+      }
+    },
+    "stonefoot": {
+      "name": "Stonefoot",
+      "aliases": ["The Giant"],
+      "appearances": [5, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another giant who allies with Wimbleweather in supporting Prince Caspian. He brings great strength to the resistance despite the challenges of coordinating giant warriors.",
+          "role": "Giant ally and warrior",
+          "relationships": {
+            "Fights alongside": "Wimbleweather",
+            "Allied with": "Prince Caspian",
+            "Provides": "Great strength to the cause"
+          }
+        }
+      }
+    },
+    "thornbut": {
+      "name": "Thornbut",
+      "aliases": ["The Dwarf Archer"],
+      "appearances": [5, 7, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A skilled dwarf archer who brings his expertise with the bow to the Old Narnian resistance. He represents the martial skills that the dwarfs contribute to the cause.",
+          "role": "Skilled archer and warrior",
+          "relationships": {
+            "Serves": "Prince Caspian's forces",
+            "Skilled in": "Archery and combat",
+            "Represents": "Dwarf military skills"
+          }
+        }
+      }
+    },
+    "caspian-the-first": {
+      "name": "Caspian I",
+      "aliases": ["The First Conqueror"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The first Telmarine king to conquer Narnia, mentioned in Doctor Cornelius's historical accounts. He began the dynasty that would oppress the Old Narnians for centuries.",
+          "role": "Original Telmarine conqueror",
+          "relationships": {
+            "Founded": "Telmarine dynasty in Narnia",
+            "Ancestor of": "Prince Caspian",
+            "Conquered": "Old Narnia originally"
+          }
+        }
+      }
+    },
+    "pomona": {
+      "name": "Pomona",
+      "aliases": ["Tree Goddess"],
+      "appearances": [10, 12, 13],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A tree goddess who awakens with the other nature spirits when Aslan restores magic to Narnia. She represents the fertility and abundance of the natural world.",
+          "role": "Goddess of trees and fruit",
+          "relationships": {
+            "Awakened by": "Aslan",
+            "Represents": "Natural fertility and abundance",
+            "Joins": "The supernatural army"
+          }
+        }
+      }
+    },
+    "centaur-sons": {
+      "name": "Centaur Sons",
+      "aliases": ["Young Centaurs"],
+      "appearances": [5, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Young centaurs, sons of Glenstorm, who fight alongside their father in the resistance. They represent the next generation of Old Narnians fighting for their heritage.",
+          "role": "Young centaur warriors",
+          "relationships": {
+            "Sons of": "Glenstorm",
+            "Fight with": "The resistance army",
+            "Represent": "Next generation of warriors"
+          }
+        }
+      }
+    },
+    "pattertwigs-family": {
+      "name": "Squirrel Family",
+      "aliases": ["The Squirrel Clan"],
+      "appearances": [5, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Pattertwig's extended family of talking squirrels who help with scouting and messaging throughout the forest network. They show how entire communities support the resistance.",
+          "role": "Forest messenger network",
+          "relationships": {
+            "Related to": "Pattertwig",
+            "Provide": "Forest communication network",
+            "Support": "The resistance cause"
+          }
+        }
+      }
+    },
+    "drinian": {
+      "name": "Drinian",
+      "aliases": ["The Ship Captain"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A loyal Telmarine who will become one of King Caspian's most trusted captains in future adventures. He represents the honorable Telmarines who choose to serve the restored Narnia.",
+          "role": "Future loyal captain",
+          "relationships": {
+            "Will serve": "King Caspian faithfully",
+            "Represents": "Honorable Telmarines",
+            "Becomes": "Trusted sea captain"
+          }
+        }
+      }
+    },
+    "woodpeople": {
+      "name": "Wood People",
+      "aliases": ["Forest Folk"],
+      "appearances": [4, 10, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Various woodland creatures and spirits who live in the deep forest and maintain the old ways in secret. They include dryads, fauns, and other forest dwellers.",
+          "role": "Secret keepers of forest lore",
+          "relationships": {
+            "Include": "Dryads, fauns, and forest spirits",
+            "Maintain": "Old Narnian traditions secretly",
+            "Live in": "Deep forest hiding"
+          }
+        }
+      }
+    },
+    "vineyard-people": {
+      "name": "Vineyard People",
+      "aliases": ["Wine Folk"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "People connected to the vineyards who are liberated and join in the celebration when Bacchus awakens. They represent the joy and abundance that returns with Aslan's victory.",
+          "role": "Liberated agricultural workers",
+          "relationships": {
+            "Liberated by": "Bacchus and Aslan",
+            "Connected to": "Vineyards and wine-making",
+            "Join in": "Victory celebration"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "The four Pevensie children are pulled from a railway station back to Narnia, finding themselves on a deserted island. They discover ruins and realize they're at the remains of Cair Paravel, their old castle. Exploring the treasure chamber, they find their old gifts still intact and realize that many centuries have passed in Narnia since their previous visit.",
+    "2": "The children encounter a dwarf named Trumpkin who is about to be drowned by two soldiers. After rescuing him, Trumpkin reluctantly tells them about the current state of Narnia under Telmarine rule. He explains that the talking beasts and Old Narnians are nearly extinct, and that Prince Caspian has blown Queen Susan's magic horn to call for help in his struggle against his uncle King Miraz.",
+    "3": "Trumpkin recounts Prince Caspian's story, beginning with his childhood education by his tutor Doctor Cornelius. Cornelius secretly taught Caspian about Old Narnia and revealed that Caspian's father was murdered by Miraz. When Miraz's wife gives birth to a son, making Caspian no longer heir, Cornelius helps Caspian escape the castle with Queen Susan's horn.",
+    "4": "Caspian flees through the night and eventually collapses from exhaustion near a dancing circle of fauns and dryads. Two dwarfs, Nikabrik and Trumpkin, along with a badger named Trufflehunter, find him and debate whether to help him. Trufflehunter argues for supporting Caspian as the rightful king, while the skeptical Nikabrik questions trusting any Telmarine.",
+    "5": "Caspian lives with the Old Narnians and learns their ways while they gather forces for resistance. More talking beasts and mythical creatures join their cause, including mice led by the valiant Reepicheep. They establish their headquarters at Aslan's How, the ancient mound built over the Stone Table from the first story, and prepare for war against Miraz.",
+    "6": "The Pevensie children and Trumpkin begin their journey to find Caspian, but disagree about which route to take. Lucy claims to see Aslan beckoning them in a different direction, but the others don't believe her and choose what seems the easier path. Their chosen route leads them into difficult terrain and they realize they should have trusted Lucy's vision.",
+    "7": "After a difficult night, the group continues their journey and encounters hostile Telmarines. They successfully evade capture and eventually meet Caspian's forces at Aslan's How. The reunion between the children and their Old Narnian allies is joyful, and they begin planning strategy for the upcoming battle against Miraz's army.",
+    "8": "The war council debates their next move as Miraz's vast army approaches Aslan's How. Some suggest using dark magic and calling upon the White Witch, which Peter and Caspian firmly reject. They decide to send a challenge to Miraz for single combat, hoping to avoid a costly battle that they're unlikely to win with their smaller force.",
+    "9": "Peter's challenge reaches Miraz, and the Telmarine lords manipulate the proud king into accepting the single combat by questioning his courage. Meanwhile, Lucy slips away from Aslan's How following Aslan's call, finally meeting the great lion who has been waiting for her. Aslan explains that things never happen the same way twice and that she must trust him completely.",
+    "10": "Aslan awakens the spirits of the land - the trees, the river god, and other nature spirits who have long been silent under Telmarine rule. Lucy witnesses this magical awakening as Aslan prepares to restore Narnia to its former glory. Meanwhile, the single combat between Peter and Miraz begins, with the fate of Narnia hanging in the balance.",
+    "11": "The duel between Peter and King Miraz continues with both fighters showing skill and determination. During a break in combat, treacherous Telmarine lords murder Miraz and blame the Narnians for his death, using this as an excuse to attack. The battle becomes general, with Caspian's smaller force fighting desperately against the overwhelming Telmarine army.",
+    "12": "Just when all seems lost, Aslan arrives with Lucy and an army of awakened trees and nature spirits. The Telmarines flee in terror before this supernatural force, and many are driven to the river where they surrender. The battle ends in complete victory for Caspian and the Old Narnians, with Narnia finally free from Telmarine oppression.",
+    "13": "After the victory celebration, Aslan crowns Prince Caspian as the rightful King of Narnia in a great ceremony. The talking beasts and Old Narnians rejoice as their land is restored. Aslan deals justly with the defeated Telmarines, offering them a choice to stay in Narnia under Caspian's rule or return to the human world from which their ancestors originally came.",
+    "14": "Many Telmarines choose to return to their ancestral world through a magical door created by Aslan. The Pevensie children realize they too must return to their own world, as they are now too old to keep coming back to Narnia. Aslan explains that Peter and Susan will not return again, but Edmund and Lucy may come back once more.",
+    "15": "The Pevensie children say their emotional farewells to their Narnian friends and to Aslan himself. They pass through the magical doorway and find themselves back at the railway station where their adventure began, with only a few minutes having passed in their world. They reflect on their experiences and the knowledge that their time as kings and queens of Narnia has truly ended."
+  }
+}
