@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "title": "Leviathan Falls",
+    "author": "James S.A. Corey",
+    "chapters": 53,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "james-holden": {
+      "name": "James Holden",
+      "aliases": ["Jim", "Captain"],
+      "appearances": [1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Elderly former captain dealing with the mental effects of his exposure to the ring entities and ancient alien consciousness.",
+          "role": "Aging Former Captain",
+          "relationships": {
+            "Condition": "Mental deterioration",
+            "Connection": "Ring entities"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "His unique connection to the ring builders makes him crucial to understanding the final crisis threatening human civilization.",
+          "role": "Bridge to Aliens",
+          "relationships": {
+            "Significance": "Ring builder connection"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Faces the ultimate choice between his own humanity and the survival of human civilization across the ring systems.",
+          "role": "Sacrifice Decision Maker",
+          "relationships": {
+            "Choice": "Personal vs. species survival"
+          }
+        },
+        "49": {
+          "revealedIn": 49,
+          "description": "Makes his final contribution to humanity's future as the ancient alien crisis reaches its climax.",
+          "role": "Final Contributor",
+          "relationships": {
+            "Legacy": "Species salvation"
+          }
+        }
+      }
+    },
+    "colonel-tanaka": {
+      "name": "Aliana Tanaka",
+      "aliases": ["Tanaka", "Colonel"],
+      "appearances": [2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Former Laconian intelligence officer now hunting Winston Duarte's missing daughter Teresa through the collapsing ring systems.",
+          "role": "Bounty Hunter",
+          "relationships": {
+            "Target": "Teresa Duarte",
+            "Mission": "Recovery operation"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Discovers that Teresa's escape is connected to larger events threatening the stability of all human civilization.",
+          "role": "Investigator",
+          "relationships": {
+            "Discovery": "Systemic threats"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Realizes that finding Teresa may be the key to preventing the complete destruction of humanity across the ring systems.",
+          "role": "Key Hunter",
+          "relationships": {
+            "Stakes": "Species survival"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Faces moral choices about duty versus the greater good as the ancient alien crisis threatens everything.",
+          "role": "Moral Decision Maker",
+          "relationships": {
+            "Conflict": "Duty vs. survival"
+          }
+        }
+      }
+    },
+    "kit": {
+      "name": "Kit",
+      "aliases": [],
+      "appearances": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Young resistance fighter now grown into leadership, dealing with the collapse of civilization and the ancient alien threat.",
+          "role": "Resistance Leader",
+          "relationships": {
+            "Organization": "Underground resistance",
+            "Responsibility": "Next generation"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Coordinates humanitarian efforts as the ring systems face unprecedented dangers from awakening alien defenses.",
+          "role": "Humanitarian Coordinator",
+          "relationships": {
+            "Mission": "Civilian protection"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Leads efforts to evacuate populations from systems threatened by the ancient alien response to human expansion.",
+          "role": "Evacuation Leader",
+          "relationships": {
+            "Priority": "Population survival"
+          }
+        }
+      }
+    },
+    "naomi-nagata": {
+      "name": "Naomi Nagata",
+      "aliases": ["Naomi"],
+      "appearances": [4, 10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Elderly former chief engineer struggling with age-related cognitive decline while trying to support Holden through his mental deterioration.",
+          "role": "Aging Partner",
+          "relationships": {
+            "Partner": "James Holden",
+            "Condition": "Cognitive decline"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Despite her declining abilities, provides crucial technical insights for understanding the alien technology crisis.",
+          "role": "Technical Advisor",
+          "relationships": {
+            "Expertise": "Alien technology understanding"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Faces the reality of her own mortality while supporting humanity's final attempts to survive the ancient alien response.",
+          "role": "Elder Supporter",
+          "relationships": {
+            "Support": "Species survival effort"
+          }
+        }
+      }
+    },
+    "teresa-duarte": {
+      "name": "Teresa Duarte",
+      "aliases": ["Teresa"],
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Former imperial heir now in hiding, possessing crucial knowledge about her father's alien modifications and Laconian technology.",
+          "role": "Fugitive Heir",
+          "relationships": {
+            "Hunter": "Colonel Tanaka",
+            "Knowledge": "Laconian secrets"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Her understanding of her father's transformation and alien technology becomes crucial to preventing catastrophic system collapse.",
+          "role": "Key Knowledge Holder",
+          "relationships": {
+            "Information": "Duarte's modifications"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Must decide whether to use her knowledge to help save humanity or continue hiding from her imperial legacy.",
+          "role": "Decision Maker",
+          "relationships": {
+            "Choice": "Knowledge vs. safety"
+          }
+        }
+      }
+    },
+    "winston-duarte": {
+      "name": "Winston Duarte",
+      "aliases": ["High Consul", "The Emperor"],
+      "appearances": [7, 13, 19, 25, 31, 37, 43, 49],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The transformed former emperor, no longer fully human, his alien modifications having fundamentally changed his consciousness and priorities.",
+          "role": "Alien-Enhanced Entity",
+          "relationships": {
+            "Transformation": "Beyond human",
+            "Daughter": "Teresa Duarte"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "His pursuit of alien technology has made him part of the problem threatening human civilization across all ring systems.",
+          "role": "Systemic Threat",
+          "relationships": {
+            "Status": "Dangerous to humanity"
+          }
+        },
+        "37": {
+          "revealedIn": 37,
+          "description": "Becomes both a key to understanding the crisis and a potential solution that could save or destroy human civilization.",
+          "role": "Dual Nature Entity",
+          "relationships": {
+            "Potential": "Solution or destruction"
+          }
+        }
+      }
+    },
+    "elvi-okoye": {
+      "name": "Elvi Okoye",
+      "aliases": ["Dr. Okoye"],
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Leading scientist desperately working to understand the ring gate collapse and ancient alien defenses threatening all human systems.",
+          "role": "Crisis Scientist",
+          "relationships": {
+            "Research": "Ring gate collapse",
+            "Urgency": "Species survival"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Her research reveals that human expansion through the rings has triggered ancient alien defense systems that view humanity as a threat.",
+          "role": "Discovery Scientist",
+          "relationships": {
+            "Finding": "Ancient alien response"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Works with others to find a solution that could allow human civilization to survive the ancient alien judgment.",
+          "role": "Solution Seeker",
+          "relationships": {
+            "Goal": "Species preservation"
+          }
+        }
+      }
+    },
+    "amos-burton": {
+      "name": "Amos Burton",
+      "aliases": ["Amos"],
+      "appearances": [8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Elderly former mechanic continuing to provide practical support despite the physical limitations of extreme old age.",
+          "role": "Elder Supporter",
+          "relationships": {
+            "Loyalty": "Holden and Naomi",
+            "Limitation": "Extreme age"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Faces his own mortality while trying to contribute to humanity's final struggle for survival.",
+          "role": "Dying Helper",
+          "relationships": {
+            "Contribution": "Final service"
+          }
+        }
+      }
+    },
+    "clarissa-mao": {
+      "name": "Clarissa Mao",
+      "aliases": ["Peaches"],
+      "appearances": [9, 17, 25, 33, 41, 49],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "In the final stages of her terminal illness, her body modifications completely failing as she approaches death.",
+          "role": "Dying Companion",
+          "relationships": {
+            "Condition": "Terminal illness",
+            "Family": "Rocinante crew"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Makes peace with her approaching death while trying to contribute something meaningful to the survival effort.",
+          "role": "Final Contributor",
+          "relationships": {
+            "Peace": "Accepting death"
+          }
+        }
+      }
+    },
+    "investigator": {
+      "name": "The Investigator",
+      "aliases": ["Miller", "Detective"],
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The protomolecule construct returns as the ancient alien crisis intensifies, providing crucial information about the ring builders.",
+          "role": "Alien Information Source",
+          "relationships": {
+            "Knowledge": "Ring builder history",
+            "Contact": "James Holden"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Reveals the true nature of the ancient threat and what humanity must do to survive the judgment of the ring builders' enemies.",
+          "role": "Survival Guide",
+          "relationships": {
+            "Revelation": "Survival requirements"
+          }
+        }
+      }
+    },
+    "cara": {
+      "name": "Cara",
+      "aliases": [],
+      "appearances": [21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Young survivor connected to the alien technology, representing a new form of human evolution influenced by ring builder modifications.",
+          "role": "Evolved Human",
+          "relationships": {
+            "Connection": "Alien technology",
+            "Significance": "Human evolution"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Her unique abilities and connection to alien systems make her crucial to understanding potential survival paths for humanity.",
+          "role": "Bridge Entity",
+          "relationships": {
+            "Ability": "Alien communication"
+          }
+        }
+      }
+    },
+    "xan": {
+      "name": "Xan",
+      "aliases": [],
+      "appearances": [21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Another evolved human connected to alien technology, working with Cara to bridge the gap between human and ring builder consciousness.",
+          "role": "Evolved Companion",
+          "relationships": {
+            "Partner": "Cara",
+            "Connection": "Alien consciousness"
+          }
+        }
+      }
+    },
+    "bobbie-draper": {
+      "name": "Bobbie Draper",
+      "aliases": ["Bobbie", "Gunny"],
+      "appearances": [15, 31, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The aged former Marine makes her final contributions to humanity's survival before her death from natural causes.",
+          "role": "Final Veteran",
+          "relationships": {
+            "Status": "Dying of age",
+            "Legacy": "Military wisdom"
+          }
+        }
+      }
+    },
+    "trejo": {
+      "name": "Admiral Trejo",
+      "aliases": ["Trejo"],
+      "appearances": [11, 23, 35, 47],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former Laconian admiral working to maintain some form of order as the empire collapses and the ring systems face extinction.",
+          "role": "Order Maintainer",
+          "relationships": {
+            "Mission": "Preventing collapse"
+          }
+        }
+      }
+    },
+    "drummer": {
+      "name": "Camina Drummer",
+      "aliases": ["Drummer"],
+      "appearances": [18, 30, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Aging Transport Union leader working to coordinate evacuation efforts as ring systems become uninhabitable.",
+          "role": "Evacuation Coordinator",
+          "relationships": {
+            "Mission": "Population evacuation"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "James Holden, now elderly and suffering from mental deterioration, struggles with his connection to the ring entities as an ancient crisis unfolds.",
+    "2": "Colonel Tanaka hunts for Winston Duarte's missing daughter Teresa through the collapsing ring systems, unaware of larger threats.",
+    "3": "Kit, now a mature resistance leader, coordinates efforts to help populations survive as civilization faces unprecedented dangers.",
+    "4": "Naomi Nagata, suffering from age-related cognitive decline, tries to support Holden while contributing to the survival effort.",
+    "5": "Teresa Duarte remains in hiding, possessing crucial knowledge about her father's alien modifications and Laconian technology.",
+    "6": "Dr. Elvi Okoye desperately researches the ring gate collapse and ancient alien defenses threatening all human systems.",
+    "7": "Winston Duarte, transformed beyond humanity by alien modifications, has become both a threat and potential key to survival.",
+    "8": "Amos Burton, now extremely elderly, continues providing practical support despite severe physical limitations.",
+    "9": "Clarissa Mao faces death as her body modifications completely fail in the final stages of her terminal illness.",
+    "10": "The aging Rocinante crew struggles with their physical and mental decline while facing humanity's greatest crisis.",
+    "11": "Tanaka's hunt for Teresa intersects with larger systemic threats as former imperial forces try to maintain order.",
+    "12": "Scientific research reveals the ring gates are collapsing due to ancient alien defenses activated by human expansion.",
+    "13": "Holden's unique connection to the ring builders becomes crucial to understanding the final crisis threatening civilization.",
+    "14": "The Investigator returns to provide crucial information about the ring builders and their ancient enemies.",
+    "15": "Kit coordinates humanitarian efforts as ring systems face unprecedented dangers from awakening alien defenses.",
+    "16": "The elderly crew members face their mortality while trying to contribute to humanity's survival.",
+    "17": "Teresa's knowledge of her father's transformation becomes crucial to preventing catastrophic system collapse.",
+    "18": "Evacuation efforts begin as multiple ring systems become uninhabitable due to ancient alien responses.",
+    "19": "Duarte's alien modifications make him part of the threat to human civilization across all ring systems.",
+    "20": "Ancient alien information sources reveal the true scope of the threat facing human expansion.",
+    "21": "Evolved humans like Cara and Xan emerge as potential bridges between human and alien consciousness.",
+    "22": "Naomi provides crucial technical insights despite her declining cognitive abilities.",
+    "23": "Former imperial leaders work to prevent complete civilizational collapse as the crisis intensifies.",
+    "24": "Scientific research reveals that human expansion has triggered ancient defenses that view humanity as a threat.",
+    "25": "Dying crew members make peace with mortality while contributing to the species survival effort.",
+    "26": "Tanaka realizes that finding Teresa may be key to preventing complete human extinction across the ring systems.",
+    "27": "Evolved humans work to establish communication between human consciousness and alien defense systems.",
+    "28": "The crisis reaches critical levels as multiple systems face imminent destruction from ancient responses.",
+    "29": "Teresa must decide whether to use her dangerous knowledge to help save humanity or remain hidden.",
+    "30": "Evacuation efforts intensify as the scope of the ancient alien threat becomes undeniable.",
+    "31": "Holden faces the ultimate choice between his humanity and the survival of human civilization.",
+    "32": "Ancient information sources reveal what humanity must do to survive the judgment of the ring builders' enemies.",
+    "33": "Evolved humans become crucial to understanding potential survival paths as traditional solutions fail.",
+    "34": "Aging leaders make final preparations as the crisis approaches its climactic resolution.",
+    "35": "Teresa confronts the choice between using her knowledge and continuing to hide from her imperial legacy.",
+    "36": "Scientific efforts reach their conclusion as researchers understand the full scope of required solutions.",
+    "37": "Duarte becomes both a key to understanding the crisis and a potential solution that could save or destroy humanity.",
+    "38": "Ancient alien guidance provides the final pieces needed to understand survival requirements.",
+    "39": "Evolved humans attempt to bridge the gap between species as the crisis reaches its peak.",
+    "40": "Elderly survivors face their mortality while supporting humanity's final attempt to avoid extinction.",
+    "41": "Teresa makes her final decision about whether to reveal her knowledge and risk everything for species survival.",
+    "42": "Scientific and alien guidance combine to reveal the path forward for human civilization's survival.",
+    "43": "Duarte's transformation reaches its conclusion as he becomes either humanity's salvation or destruction.",
+    "44": "Tanaka faces moral choices about duty versus the greater good as the ancient crisis threatens everything.",
+    "45": "Evolved humans make their final attempt to establish communication with the ancient alien defense systems.",
+    "46": "The elderly Rocinante crew makes their final contributions to humanity's survival effort.",
+    "47": "Former imperial forces and resistance leaders unite in humanity's last chance to survive extinction.",
+    "48": "Scientific understanding reaches its climax as the final solution to the ancient threat becomes clear.",
+    "49": "Holden makes his ultimate contribution to humanity's future as the crisis reaches its resolution.",
+    "50": "The Investigator provides final guidance as ancient alien judgment determines humanity's fate.",
+    "51": "Evolved humans complete their bridge between species as the new reality of human existence emerges.",
+    "52": "The survivors face the aftermath of the crisis and the new conditions for human civilization's continuation.",
+    "53": "The conclusion of the ancient crisis establishes the final parameters for humanity's future among the stars."
+  }
+}

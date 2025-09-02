@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "title": "Nemesis Games",
+    "author": "James S.A. Corey",
+    "chapters": 55,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "james-holden": {
+      "name": "James Holden",
+      "aliases": ["Jim", "Captain"],
+      "appearances": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captain of the Rocinante, dealing with the crew's temporary separation as each member pursues personal business in the system.",
+          "role": "Rocinante Captain",
+          "relationships": {
+            "Ship": "Rocinante",
+            "Crew": "Naomi Nagata, Alex Kamal, Amos Burton"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Investigates mysterious attacks on Earth and Mars while trying to reunite his scattered crew during the brewing crisis.",
+          "role": "Investigator",
+          "relationships": {
+            "Ally": "Fred Johnson",
+            "Concern": "Crew safety"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Races against time to prevent system-wide catastrophe while dealing with the revelation of a massive conspiracy that threatens all human civilization.",
+          "role": "Crisis Responder",
+          "relationships": {
+            "Enemy": "Marco Inaros"
+          }
+        }
+      }
+    },
+    "naomi-nagata": {
+      "name": "Naomi Nagata",
+      "aliases": ["Naomi"],
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Takes leave from the Rocinante to deal with personal matters involving her past and her son Filip, whom she abandoned years ago.",
+          "role": "Chief Engineer",
+          "relationships": {
+            "Son": "Filip Inaros",
+            "Past": "Marco Inaros"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Confronts her history with the radical Belter faction and her former lover Marco Inaros, who has become a dangerous terrorist leader.",
+          "role": "Reluctant Returnee",
+          "relationships": {
+            "Former lover": "Marco Inaros",
+            "Regret": "Abandoning Filip"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Becomes a prisoner of Marco's faction while trying to reconnect with her son and prevent the escalating terrorist attacks.",
+          "role": "Prisoner",
+          "relationships": {
+            "Captor": "Marco Inaros",
+            "Focus": "Protecting Filip"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Attempts a dangerous escape while trying to warn the system about Marco's plan to destroy Earth with asteroid bombardments.",
+          "role": "Escapee",
+          "relationships": {
+            "Mission": "Warning Earth"
+          }
+        }
+      }
+    },
+    "alex-kamal": {
+      "name": "Alex Kamal",
+      "aliases": ["Alex"],
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Returns to Mars to visit his estranged family and deal with the deteriorating relationship with his ex-wife and son.",
+          "role": "Ship's Pilot",
+          "relationships": {
+            "Ex-wife": "Talissa",
+            "Son": "Kit Kamal"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Investigates suspicious Martian military activities while trying to repair his damaged family relationships.",
+          "role": "Investigator",
+          "relationships": {
+            "Investigation": "Martian Navy corruption"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Uncovers a conspiracy within the Martian military involving the sale of advanced warships to Belter extremists.",
+          "role": "Whistleblower",
+          "relationships": {
+            "Discovery": "Military conspiracy"
+          }
+        }
+      }
+    },
+    "amos-burton": {
+      "name": "Amos Burton",
+      "aliases": ["Amos"],
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Returns to Earth and his hometown of Baltimore to settle affairs related to his criminal past and the death of his mentor Lydia.",
+          "role": "Ship's Mechanic",
+          "relationships": {
+            "Past": "Lydia",
+            "Hometown": "Baltimore"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Becomes involved in the criminal underworld of Baltimore while dealing with inheritance matters and old associates from his violent past.",
+          "role": "Criminal Associate",
+          "relationships": {
+            "Associate": "Erich",
+            "Territory": "Baltimore underworld"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Fights to survive the devastating asteroid attack on Earth while protecting innocent people caught in the chaos.",
+          "role": "Survivor",
+          "relationships": {
+            "Protected": "Clarissa Mao",
+            "Crisis": "Earth bombardment"
+          }
+        }
+      }
+    },
+    "marco-inaros": {
+      "name": "Marco Inaros",
+      "aliases": ["Marco"],
+      "appearances": [14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Charismatic Belter terrorist leader and Naomi's former lover. Father to Filip and architect of a massive conspiracy against the inner planets.",
+          "role": "Terrorist Leader",
+          "relationships": {
+            "Former lover": "Naomi Nagata",
+            "Son": "Filip Inaros"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Reveals his plan to launch coordinated attacks on Earth and Mars using stolen military technology and asteroid bombardments.",
+          "role": "Conspiracy Leader",
+          "relationships": {
+            "Weapon": "Asteroid bombardment",
+            "Target": "Inner planets"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Successfully executes his attack plan, causing massive devastation on Earth and fundamentally changing the balance of power in the solar system.",
+          "role": "System Destroyer",
+          "relationships": {
+            "Achievement": "Earth bombardment",
+            "Status": "Most wanted terrorist"
+          }
+        }
+      }
+    },
+    "filip-inaros": {
+      "name": "Filip Inaros",
+      "aliases": ["Filip"],
+      "appearances": [18, 22, 26, 30, 34, 38, 42, 46, 50, 54],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Naomi's son, raised by Marco after she abandoned them. Conflicted young man torn between loyalty to his father and longing for his mother.",
+          "role": "Marco's Son",
+          "relationships": {
+            "Father": "Marco Inaros",
+            "Mother": "Naomi Nagata"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Participates in his father's terrorist operations while struggling with his feelings about his mother's return and the morality of their actions.",
+          "role": "Reluctant Terrorist",
+          "relationships": {
+            "Conflict": "Loyalty vs. morality"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Faces the consequences of his father's actions and must choose between following Marco's path of destruction or finding his own way.",
+          "role": "Conflicted Youth",
+          "relationships": {
+            "Choice": "Father vs. conscience"
+          }
+        }
+      }
+    },
+    "fred-johnson": {
+      "name": "Fred Johnson",
+      "aliases": ["The Colonel"],
+      "appearances": [11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Leader of Tycho Station and the moderate OPA faction, struggling to maintain unity as radical elements threaten Belter solidarity.",
+          "role": "OPA Leader",
+          "relationships": {
+            "Station": "Tycho",
+            "Opposition": "Marco Inaros"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Realizes the scope of Marco's conspiracy and works desperately to prevent system-wide catastrophe while maintaining OPA legitimacy.",
+          "role": "Crisis Manager",
+          "relationships": {
+            "Ally": "James Holden",
+            "Enemy": "Extremist factions"
+          }
+        }
+      }
+    },
+    "clarissa-mao": {
+      "name": "Clarissa Mao",
+      "aliases": ["Peaches", "Melba Koh"],
+      "appearances": [33, 37, 41, 45, 49, 53],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Former terrorist serving prison time on Earth, caught in the asteroid bombardment. Her survival instincts and hidden modifications become crucial.",
+          "role": "Prisoner",
+          "relationships": {
+            "Protector": "Amos Burton",
+            "Past": "Anti-Holden terrorism"
+          }
+        },
+        "41": {
+          "revealedIn": 41,
+          "description": "Uses her illegal body modifications to help survive the chaos of the Earth bombardment while traveling with Amos.",
+          "role": "Survivor",
+          "relationships": {
+            "Companion": "Amos Burton",
+            "Secret": "Body modifications"
+          }
+        }
+      }
+    },
+    "erich": {
+      "name": "Erich",
+      "aliases": [],
+      "appearances": [17, 21, 25, 29, 37, 41, 45, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Amos's old friend from Baltimore's criminal underworld, now running part of the local crime syndicate operations.",
+          "role": "Crime Boss",
+          "relationships": {
+            "Old friend": "Amos Burton",
+            "Territory": "Baltimore operations"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Provides Amos with resources and shelter during the crisis while managing the chaos that follows the Earth bombardment.",
+          "role": "Criminal Ally",
+          "relationships": {
+            "Support": "Amos Burton"
+          }
+        }
+      }
+    },
+    "talissa-kamal": {
+      "name": "Talissa Kamal",
+      "aliases": ["Talissa"],
+      "appearances": [8, 12, 20, 24, 28, 36, 40, 44],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Alex's ex-wife living on Mars with their son. Their relationship remains strained due to Alex's absence during their marriage.",
+          "role": "Ex-wife",
+          "relationships": {
+            "Ex-husband": "Alex Kamal",
+            "Son": "Kit Kamal"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Struggles with Alex's attempts to reconnect with the family while dealing with her own life and Kit's growing independence.",
+          "role": "Single Mother",
+          "relationships": {
+            "Focus": "Kit's wellbeing"
+          }
+        }
+      }
+    },
+    "kit-kamal": {
+      "name": "Kit Kamal",
+      "aliases": ["Kit"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Alex's teenage son who barely knows his father due to Alex's long absences. Intelligent and independent but distant from Alex.",
+          "role": "Estranged Son",
+          "relationships": {
+            "Father": "Alex Kamal",
+            "Mother": "Talissa Kamal"
+          }
+        }
+      }
+    },
+    "bobbie-draper": {
+      "name": "Bobbie Draper",
+      "aliases": ["Bobbie", "Gunny"],
+      "appearances": [16, 24, 32, 40, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Former Martian Marine now working private security, investigating the theft of advanced Martian military technology.",
+          "role": "Private Investigator",
+          "relationships": {
+            "Client": "Martian interests",
+            "Investigation": "Military theft"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Uncovers the conspiracy involving stolen Martian warships being sold to Belter extremists, linking to Marco's terrorist network.",
+          "role": "Whistleblower",
+          "relationships": {
+            "Discovery": "Conspiracy evidence"
+          }
+        }
+      }
+    },
+    "karal": {
+      "name": "Karal",
+      "aliases": [],
+      "appearances": [22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Member of Marco's inner circle, loyal to the cause of Belter independence through violent means.",
+          "role": "Terrorist Lieutenant",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Mission": "Inner planet destruction"
+          }
+        }
+      }
+    },
+    "cyn": {
+      "name": "Cyn",
+      "aliases": [],
+      "appearances": [22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Another of Marco's trusted lieutenants, helping coordinate the complex terrorist operations across the system.",
+          "role": "Terrorist Coordinator",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Role": "Operations planning"
+          }
+        }
+      }
+    },
+    "dawes": {
+      "name": "Anderson Dawes",
+      "aliases": ["Dawes"],
+      "appearances": [19, 23, 27, 31, 39, 43, 47, 51],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Ceres-based OPA leader caught between supporting Marco's radical approach and maintaining the legitimacy Fred Johnson seeks.",
+          "role": "OPA Politician",
+          "relationships": {
+            "Station": "Ceres",
+            "Conflict": "Fred Johnson vs Marco Inaros"
+          }
+        },
+        "31": {
+          "revealedIn": 31,
+          "description": "Forced to choose sides as Marco's actions threaten to destroy the careful political balance of the OPA and Belter independence movement.",
+          "role": "Political Broker",
+          "relationships": {
+            "Dilemma": "Legitimacy vs. revolution"
+          }
+        }
+      }
+    },
+    "lydia": {
+      "name": "Lydia",
+      "aliases": [],
+      "appearances": [5, 9, 13, 17, 21],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Amos's deceased mentor and former crime boss of Baltimore. Her death brings Amos back to Earth to settle her affairs and inherit her operation.",
+          "role": "Crime Boss (deceased)",
+          "relationships": {
+            "Protégé": "Amos Burton",
+            "Legacy": "Criminal empire"
+          }
+        }
+      }
+    },
+    "winston-duarte": {
+      "name": "Winston Duarte",
+      "aliases": ["Admiral Duarte"],
+      "appearances": [32, 40, 48, 52],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "High-ranking Martian Navy officer involved in the conspiracy to sell military assets to fund a secret Martian breakaway colony.",
+          "role": "Martian Admiral",
+          "relationships": {
+            "Conspiracy": "Military asset sales",
+            "Goal": "Laconian colony"
+          }
+        },
+        "48": {
+          "revealedIn": 48,
+          "description": "Reveals his plan to establish an independent Martian colony beyond the ring gates, using the chaos of the system war as cover.",
+          "role": "Breakaway Leader",
+          "relationships": {
+            "Destination": "Laconia system"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "The crew of the Rocinante temporarily splits up to pursue personal business as Holden deals with mundane ship maintenance and missing his scattered crew.",
+    "2": "Naomi takes leave to confront her past, including the son she abandoned and her former lover who has become a dangerous terrorist leader.",
+    "3": "Holden investigates strange messages and prepares for the crew's eventual reunion while monitoring rising tensions in the system.",
+    "4": "Alex returns to Mars to reconnect with his estranged ex-wife and teenage son, finding his family relationships more damaged than expected.",
+    "5": "Amos travels to Earth and Baltimore to settle affairs related to his deceased mentor Lydia's criminal empire and inheritance.",
+    "6": "Naomi arrives at Tycho Station and reluctantly agrees to meet with representatives of her son Filip and former lover Marco.",
+    "7": "Holden begins to detect patterns in the mysterious incidents occurring across the system, sensing a larger conspiracy at work.",
+    "8": "Alex struggles to reconnect with his son Kit while discovering suspicious activities within the Martian military establishment.",
+    "9": "Amos navigates the Baltimore criminal underworld while settling Lydia's affairs and reconnecting with old associates like Erich.",
+    "10": "Naomi confronts the painful memories of abandoning her son and the circumstances that forced her to leave Marco years ago.",
+    "11": "Fred Johnson deals with increasing pressure from radical Belter factions while trying to maintain OPA unity and legitimacy.",
+    "12": "Alex's investigation into Martian military corruption reveals connections to missing warships and classified technology transfers.",
+    "13": "Amos becomes involved in Baltimore's criminal politics while preparing to inherit Lydia's position and responsibilities.",
+    "14": "Naomi comes face to face with Marco Inaros, the charismatic terrorist leader who is planning something catastrophic for the inner planets.",
+    "15": "Holden realizes the scope of the conspiracy threatening the system and begins working with Fred Johnson to investigate further.",
+    "16": "Alex teams up with Bobbie Draper to investigate the theft of advanced Martian military technology and its potential buyers.",
+    "17": "Amos accepts his inheritance of Lydia's criminal operation while preparing for what he senses will be a major crisis.",
+    "18": "Naomi meets her son Filip, now a young man indoctrinated by Marco's ideology and conflicted about his mother's abandonment.",
+    "19": "Anderson Dawes finds himself caught between supporting Marco's radical approach and maintaining the political gains of the OPA.",
+    "20": "Alex's family relationships reach a breaking point as his investigation puts him in conflict with Martian military interests.",
+    "21": "Amos prepares his Baltimore operation for coming chaos while settling old scores and making new alliances.",
+    "22": "Marco reveals the scope of his terrorist network and his plan to fundamentally change the balance of power in the solar system.",
+    "23": "Fred Johnson realizes he's been outmaneuvered by Marco and desperately tries to prevent the coming catastrophe.",
+    "24": "Alex uncovers evidence of a massive conspiracy involving stolen Martian warships and a breakaway military faction.",
+    "25": "Amos senses impending disaster and takes steps to protect both his territory and the people he cares about.",
+    "26": "Marco begins implementing his attack plan, coordinating with terrorist cells across the system for simultaneous strikes.",
+    "27": "Fred Johnson attempts to warn Earth and Mars about the coming attacks while trying to maintain some control over the situation.",
+    "28": "Alex discovers the connection between the military conspiracy and the terrorist attacks being planned against Earth.",
+    "29": "Amos makes final preparations as he realizes Earth itself is about to become a target for unprecedented destruction.",
+    "30": "Naomi becomes a prisoner of Marco's faction while trying to protect Filip and prevent the escalating terrorist attacks.",
+    "31": "Dawes is forced to choose between his political survival and preventing the destruction Marco is about to unleash.",
+    "32": "The conspiracy reaches its climax as stolen Martian technology is used to coordinate devastating attacks on the inner planets.",
+    "33": "The asteroid bombardment of Earth begins, catching Amos and prisoner Clarissa Mao in the devastating attack on the planet.",
+    "34": "Marco's attacks succeed beyond his expectations, fundamentally changing the power structure of the entire solar system.",
+    "35": "Holden realizes the full scope of the disaster and begins coordinating rescue and response efforts across the system.",
+    "36": "Alex races to help coordinate the response to the attacks while dealing with the political fallout on Mars.",
+    "37": "Amos and Clarissa fight to survive the devastation on Earth while navigating the chaos of societal collapse.",
+    "38": "Marco declares victory and announces his intention to establish Belter independence through continued attacks on the inner planets.",
+    "39": "Fred Johnson struggles to maintain any authority as the OPA fractures between moderate and radical factions.",
+    "40": "Alex works with Bobbie to track down the remaining stolen Martian ships before they can be used for further attacks.",
+    "41": "Amos and Clarissa form an unlikely partnership as they struggle to escape the devastated Earth and find safety.",
+    "42": "Naomi attempts to escape from Marco's custody while trying to save her son from following his father's path of destruction.",
+    "43": "Fred Johnson makes a desperate gambit to regain control of the situation and prevent further catastrophic attacks.",
+    "44": "Alex uncovers the final pieces of the conspiracy, including the Martian military's secret colonization plans beyond the rings.",
+    "45": "Amos and Clarissa face dangerous obstacles as they try to get off Earth and rejoin the fight against Marco's terrorism.",
+    "46": "Naomi makes a dangerous escape attempt while trying to warn the system about Marco's continued plans for destruction.",
+    "47": "The system-wide crisis reaches a new phase as the political and military balance of power shifts dramatically.",
+    "48": "Hidden players reveal themselves as the conspiracy's true scope becomes clear, including plans for breakaway colonies.",
+    "49": "Amos successfully gets himself and Clarissa off Earth, but the planet's devastation marks a permanent change to human civilization.",
+    "50": "Marco consolidates his gains while Filip struggles with the consequences of his father's actions and his own complicity.",
+    "51": "Fred Johnson makes final attempts to salvage some form of legitimate Belter government from the chaos of radical terrorism.",
+    "52": "The Martian military conspiracy's endgame is revealed as Admiral Duarte implements his plan for an independent colony.",
+    "53": "Amos reflects on the devastation of his homeworld while preparing to rejoin his crew for the continuing crisis.",
+    "54": "Naomi's escape attempt reaches its climax as she faces the choice between saving herself and saving her son.",
+    "55": "The crew of the Rocinante begins to reunite as the solar system faces a new reality shaped by terrorism, war, and conspiracy."
+  }
+}

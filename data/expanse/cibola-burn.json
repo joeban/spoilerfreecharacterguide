@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "title": "Cibola Burn",
+    "author": "James S.A. Corey",
+    "chapters": 55,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "james-holden": {
+      "name": "James Holden",
+      "aliases": ["Jim", "Captain"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captain of the Rocinante, investigating the alien technology on Ilus. Struggles with the moral implications of the colony dispute and the mysterious protomolecule structures.",
+          "role": "Rocinante Captain",
+          "relationships": {
+            "Ship": "Rocinante",
+            "Crew": "Naomi Nagata, Alex Kamal, Amos Burton"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Becomes increasingly involved in mediating between the colonists and RCE corporate forces. His decisions could determine the fate of humanity's first extrasolar colony.",
+          "role": "Mediator",
+          "relationships": {
+            "Ally": "Elvi Okoye",
+            "Opponent": "Adolphus Murtry"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Confronts the ancient alien defenses that threaten all human life on Ilus. Must make critical decisions about humanity's future in the ring systems.",
+          "role": "Reluctant Leader",
+          "relationships": {
+            "Protomolecule Entity": "Investigator Miller"
+          }
+        }
+      }
+    },
+    "basia-merton": {
+      "name": "Basia Merton",
+      "aliases": ["Bas"],
+      "appearances": [2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Belter colonist on Ilus, formerly worked on Ganymede. Father trying to build a new life for his family on the dangerous alien world.",
+          "role": "Colonist",
+          "relationships": {
+            "Wife": "Lucia Merton",
+            "Children": "Katoa, Felcia, Jakub"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Participates in sabotage operations against RCE equipment. His actions escalate the conflict between colonists and the corporate expedition.",
+          "role": "Saboteur",
+          "relationships": {
+            "Co-conspirator": "Coop"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Captured by RCE security forces after the bombing. Faces interrogation and possible execution for his role in the terrorist activities.",
+          "role": "Prisoner",
+          "relationships": {
+            "Captor": "Adolphus Murtry"
+          }
+        }
+      }
+    },
+    "dimitri-havelock": {
+      "name": "Dimitri Havelock",
+      "aliases": ["Havelock", "Dim"],
+      "appearances": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Former Star Helix Security detective, now working as head of security for Royal Charter Energy. Experienced investigator with a complex past.",
+          "role": "RCE Security Chief",
+          "relationships": {
+            "Employer": "Royal Charter Energy",
+            "Subordinate": "Adolphus Murtry"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Struggles with the increasingly militaristic approach of his team. His police background conflicts with the harsh corporate security tactics being employed.",
+          "role": "Reluctant Enforcer",
+          "relationships": {
+            "Concern": "Colonist safety"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Begins to question RCE's methods and Murtry's leadership. His moral compass increasingly puts him at odds with corporate interests.",
+          "role": "Conflicted Security Chief",
+          "relationships": {
+            "Conflict": "Adolphus Murtry"
+          }
+        }
+      }
+    },
+    "elvi-okoye": {
+      "name": "Elvi Okoye",
+      "aliases": ["Dr. Okoye"],
+      "appearances": [4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Brilliant xenobiologist leading RCE's scientific survey of Ilus. Fascinated by the alien ecosystem and the protomolecule technology scattered across the planet.",
+          "role": "Lead Scientist",
+          "relationships": {
+            "Employer": "Royal Charter Energy",
+            "Research Focus": "Alien biology"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Discovers the interconnected nature of Ilus's alien organisms. Her research reveals the planet's ecosystem is far more complex and dangerous than initially understood.",
+          "role": "Xenobiologist",
+          "relationships": {
+            "Ally": "James Holden",
+            "Research Subject": "Proto-organisms"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Realizes the true scope of the alien defense systems threatening human survival. Her scientific expertise becomes crucial for understanding the ancient technology.",
+          "role": "Key Researcher",
+          "relationships": {
+            "Discovery": "Alien defense network"
+          }
+        }
+      }
+    },
+    "adolphus-murtry": {
+      "name": "Adolphus Murtry",
+      "aliases": ["Murtry"],
+      "appearances": [6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "RCE security contractor with military background. Takes a hardline approach to dealing with the colonist 'terrorist' threat on Ilus.",
+          "role": "Security Contractor",
+          "relationships": {
+            "Superior": "Dimitri Havelock",
+            "Target": "Belter colonists"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Escalates security measures after colonist sabotage operations. His aggressive tactics increase tensions and push the situation toward open conflict.",
+          "role": "Security Enforcer",
+          "relationships": {
+            "Enemy": "Basia Merton",
+            "Authority": "Corporate mandate"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Becomes increasingly unstable and violent in his pursuit of what he sees as justice. His actions threaten to destroy any chance of peaceful resolution.",
+          "role": "Rogue Operative",
+          "relationships": {
+            "Conflict": "James Holden"
+          }
+        }
+      }
+    },
+    "naomi-nagata": {
+      "name": "Naomi Nagata",
+      "aliases": ["Naomi"],
+      "appearances": [1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Rocinante's chief engineer and Holden's second-in-command. Belter background gives her unique perspective on the colonial situation.",
+          "role": "Chief Engineer",
+          "relationships": {
+            "Partner": "James Holden",
+            "Ship": "Rocinante"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Works to keep the Rocinante operational while dealing with the unique challenges of the alien environment and escalating human conflict.",
+          "role": "Ship's Engineer",
+          "relationships": {
+            "Responsibility": "Crew safety"
+          }
+        }
+      }
+    },
+    "alex-kamal": {
+      "name": "Alex Kamal",
+      "aliases": ["Alex"],
+      "appearances": [1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Rocinante's pilot, former Martian Navy. His flying skills are crucial for navigating the dangerous orbital environment around Ilus.",
+          "role": "Ship's Pilot",
+          "relationships": {
+            "Ship": "Rocinante",
+            "Captain": "James Holden"
+          }
+        }
+      }
+    },
+    "amos-burton": {
+      "name": "Amos Burton",
+      "aliases": ["Amos"],
+      "appearances": [1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Rocinante's mechanic and muscle. His practical approach to problems often clashes with the complex political situation on Ilus.",
+          "role": "Ship's Mechanic",
+          "relationships": {
+            "Loyalty": "James Holden",
+            "Ship": "Rocinante"
+          }
+        }
+      }
+    },
+    "lucia-merton": {
+      "name": "Lucia Merton",
+      "aliases": ["Lucia"],
+      "appearances": [5, 8, 14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Basia's wife and fellow colonist. Trained botanist working to establish sustainable agriculture on Ilus despite the alien environment.",
+          "role": "Colonist Botanist",
+          "relationships": {
+            "Husband": "Basia Merton",
+            "Focus": "Colonial agriculture"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Becomes a voice of reason among the colonists, advocating for peaceful solutions even as tensions escalate with RCE.",
+          "role": "Moderate Leader",
+          "relationships": {
+            "Community": "First Landing colonists"
+          }
+        }
+      }
+    },
+    "investigator": {
+      "name": "The Investigator",
+      "aliases": ["Miller", "Detective"],
+      "appearances": [11, 18, 25, 32, 39, 46, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Protomolecule construct based on Detective Miller's consciousness. Appears to Holden to investigate the alien technology and its connection to the ring gates.",
+          "role": "Protomolecule Entity",
+          "relationships": {
+            "Contact": "James Holden",
+            "Purpose": "Investigation of alien tech"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Reveals information about the ancient alien civilization that built the ring network and the dangers they faced from unknown enemies.",
+          "role": "Information Source",
+          "relationships": {
+            "Knowledge": "Ancient alien history"
+          }
+        }
+      }
+    },
+    "coop": {
+      "name": "Coop",
+      "aliases": ["Cooper"],
+      "appearances": [8, 11, 17, 23, 29, 35, 41, 47],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Belter colonist and demolitions expert. Partners with Basia in sabotage operations against RCE equipment and personnel.",
+          "role": "Demolitions Expert",
+          "relationships": {
+            "Partner": "Basia Merton",
+            "Target": "RCE infrastructure"
+          }
+        }
+      }
+    },
+    "wei": {
+      "name": "Dr. Wei",
+      "aliases": ["Wei"],
+      "appearances": [7, 13, 19, 25, 31, 37, 43, 49],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "RCE geologist studying the mineral deposits and geological structures on Ilus. Her research reveals the planet's complex history.",
+          "role": "Geologist",
+          "relationships": {
+            "Team": "RCE scientific survey",
+            "Research": "Mineral deposits"
+          }
+        }
+      }
+    },
+    "fayez": {
+      "name": "Dr. Fayez",
+      "aliases": ["Fayez"],
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "RCE biologist working with Dr. Okoye on the alien ecosystem. Provides comic relief while conducting serious scientific research.",
+          "role": "Biologist",
+          "relationships": {
+            "Colleague": "Elvi Okoye",
+            "Research": "Alien biology"
+          }
+        }
+      }
+    },
+    "governor-trying": {
+      "name": "Governor Trying",
+      "aliases": ["Trying"],
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Elected leader of the First Landing colony. Struggles to maintain order and negotiate with RCE while protecting his people's interests.",
+          "role": "Colonial Governor",
+          "relationships": {
+            "Community": "First Landing colonists",
+            "Negotiation": "RCE representatives"
+          }
+        }
+      }
+    },
+    "carol-chiwewe": {
+      "name": "Carol Chiwewe",
+      "aliases": ["Chief Chiwewe"],
+      "appearances": [12, 18, 24, 30, 36, 42, 48, 54],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "RCE expedition leader responsible for overall mission success. Balances corporate interests with practical concerns about the dangerous situation.",
+          "role": "Expedition Leader",
+          "relationships": {
+            "Authority": "Royal Charter Energy",
+            "Subordinate": "Security team"
+          }
+        }
+      }
+    },
+    "katoa-merton": {
+      "name": "Katoa Merton",
+      "aliases": ["Katoa"],
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Basia and Lucia's son, struggling to adapt to life on the alien world. Represents the future generation of human colonists.",
+          "role": "Colonist Child",
+          "relationships": {
+            "Parents": "Basia and Lucia Merton"
+          }
+        }
+      }
+    },
+    "felcia-merton": {
+      "name": "Felcia Merton",
+      "aliases": ["Felcia"],
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Basia and Lucia's daughter, adapting to colonial life. Shows resilience in facing the challenges of the alien environment.",
+          "role": "Colonist Child",
+          "relationships": {
+            "Parents": "Basia and Lucia Merton"
+          }
+        }
+      }
+    },
+    "jakub-merton": {
+      "name": "Jakub Merton",
+      "aliases": ["Jakub"],
+      "appearances": [14, 20, 26, 32, 38, 44, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Youngest of the Merton children, representing the innocence caught in the conflict between colonists and corporate interests.",
+          "role": "Colonist Child",
+          "relationships": {
+            "Parents": "Basia and Lucia Merton"
+          }
+        }
+      }
+    },
+    "reeve": {
+      "name": "Reeve",
+      "aliases": ["Security Officer Reeve"],
+      "appearances": [15, 21, 27, 33, 39, 45, 51],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "RCE security officer working under Murtry. Follows orders but shows occasional moral flexibility in dealing with colonists.",
+          "role": "Security Officer",
+          "relationships": {
+            "Superior": "Adolphus Murtry"
+          }
+        }
+      }
+    },
+    "scottie": {
+      "name": "Scottie",
+      "aliases": ["Engineer Scottie"],
+      "appearances": [17, 23, 29, 35, 41, 47, 53],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Colonist engineer responsible for maintaining critical infrastructure. His technical skills are essential for survival on Ilus.",
+          "role": "Colonial Engineer",
+          "relationships": {
+            "Community": "First Landing colony"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "James Holden and the crew of the Rocinante are hired to mediate a dispute on the planet Ilus between Belter colonists and a corporate expedition from Royal Charter Energy.",
+    "2": "Basia Merton, a colonist on Ilus, participates in planning sabotage operations against RCE equipment to protect the colony's mining claims.",
+    "3": "Dimitri Havelock arrives with the RCE security team, bringing his experience as a former detective to investigate the growing tensions on Ilus.",
+    "4": "Dr. Elvi Okoye begins her scientific survey of Ilus's alien ecosystem, making disturbing discoveries about the planet's biology and history.",
+    "5": "The colonists of First Landing struggle to maintain their settlement while facing pressure from the arriving corporate expedition.",
+    "6": "Adolphus Murtry takes charge of RCE security operations, implementing harsh measures to deal with what he sees as terrorist activities.",
+    "7": "Scientific teams begin exploring the alien structures scattered across Ilus, uncovering evidence of the planet's dangerous past.",
+    "8": "Basia and other colonists execute a bombing operation against RCE facilities, escalating the conflict and resulting in casualties.",
+    "9": "The Rocinante crew attempts to mediate between the two factions while investigating the strange phenomena occurring across the planet.",
+    "10": "Dr. Okoye's research reveals the interconnected nature of Ilus's ecosystem and the role of protomolecule technology in its function.",
+    "11": "The Investigator, a protomolecule construct based on Detective Miller, appears to Holden to warn of ancient dangers awakening on Ilus.",
+    "12": "RCE leadership struggles to balance corporate interests with the growing security threat posed by escalating violence.",
+    "13": "Scientific discoveries reveal that Ilus was the site of a catastrophic alien war that destroyed the planet's original inhabitants.",
+    "14": "Colonial families like the Mertons face increasing danger as the conflict threatens their children's safety and future.",
+    "15": "Holden attempts to broker peace talks while Murtry's security measures become increasingly authoritarian and violent.",
+    "16": "Dr. Okoye discovers that the alien organisms on Ilus are reacting to human presence in ways that threaten planetary stability.",
+    "17": "Sabotage operations continue as colonists desperately try to protect their claims against corporate takeover.",
+    "18": "The Investigator reveals more about the ancient alien civilization and the cosmic threat that destroyed them.",
+    "19": "The Rocinante crew works to understand the alien technology while trying to prevent all-out war between the human factions.",
+    "20": "Lucia Merton emerges as a voice of reason among the colonists, advocating for peaceful solutions to the crisis.",
+    "21": "Negotiations between RCE and the colonists break down as mutual distrust and fear drive both sides toward violence.",
+    "22": "Scientific research reveals that human activities are triggering ancient alien defense systems across the planet.",
+    "23": "The bombing campaign intensifies as colonists become more desperate and RCE security becomes more brutal.",
+    "24": "Expedition leaders struggle to maintain control as the situation spirals toward chaos and potential genocide.",
+    "25": "Ancient alien systems begin activating across Ilus, threatening all human life on the planet regardless of faction.",
+    "26": "Basia is captured by RCE forces and faces interrogation and possible execution for his role in the terrorist activities.",
+    "27": "The conflict reaches a breaking point as both sides prepare for what could become a massacre.",
+    "28": "Dr. Okoye's research becomes crucial as the alien defense systems pose an existential threat to human survival.",
+    "29": "The colonists face the possibility of losing everything they've worked to build on their new world.",
+    "30": "Havelock begins questioning the methods and morality of the security operations he's supposed to oversee.",
+    "31": "Alien phenomena intensify across the planet, causing widespread fear and disrupting both human settlements.",
+    "32": "The Investigator provides crucial information about how to survive the awakening alien defenses.",
+    "33": "Both factions must choose between continuing their conflict or working together to survive the alien threat.",
+    "34": "Dr. Okoye's scientific expertise becomes the key to understanding how to prevent planetary catastrophe.",
+    "35": "Holden faces critical decisions that will determine the fate of all humans on Ilus and potentially in the ring systems.",
+    "36": "Murtry's actions become increasingly erratic and dangerous as he pursues his vision of justice.",
+    "37": "The alien defense systems reach full activation, threatening to sterilize the planet of all human life.",
+    "38": "Colonial families face potential evacuation as the planet becomes too dangerous for human habitation.",
+    "39": "The Investigator's warnings about ancient enemies become more urgent as the situation deteriorates.",
+    "40": "Scientific teams race against time to find a solution to the alien threat before it's too late.",
+    "41": "The bombing campaign reaches its climax as desperation drives both sides to extreme measures.",
+    "42": "RCE leadership faces the possibility of complete mission failure as their expedition is threatened with annihilation.",
+    "43": "Dr. Okoye works frantically to understand the alien technology that holds the key to human survival.",
+    "44": "The Merton family and other colonists face the potential loss of their new home and dreams of independence.",
+    "45": "Final negotiations take place as both sides realize they must cooperate or face mutual destruction.",
+    "46": "The Investigator provides the crucial insight needed to shut down the alien defense systems safely.",
+    "47": "Last-ditch efforts are made to sabotage the alien systems before they can complete their deadly cycle.",
+    "48": "Havelock must choose between following orders and doing what he believes is morally right.",
+    "49": "Dr. Okoye implements the solution to the alien threat, requiring dangerous cooperation between all factions.",
+    "50": "The crisis reaches resolution as the immediate alien threat is neutralized through combined human effort.",
+    "51": "Murtry faces the consequences of his actions as the security situation finally comes under control.",
+    "52": "The scientific team completes their understanding of the alien systems and the dangers they represent.",
+    "53": "Basia and the other colonists learn the true cost of their fight for independence and survival.",
+    "54": "Havelock reflects on the moral compromises made during the crisis and their long-term implications.",
+    "55": "The Rocinante crew prepares to leave Ilus, having helped establish a framework for future human colonization despite the ongoing dangers."
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "title": "Abaddon's Gate",
+    "author": "James S.A. Corey",
+    "chapters": 55,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "james-holden": {
+      "name": "James Holden",
+      "appearances": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captain of the Rocinante, arriving at the Ring along with hundreds of other ships from Earth, Mars, and the Belt. Still dealing with the aftermath of previous events and the mysterious Ring structure.",
+          "role": "Rocinante Captain",
+          "relationships": {
+            "Crew": "Naomi Nagata, Alex Kamal, Amos Burton",
+            "Ship": "Rocinante"
+          }
+        }
+      }
+    },
+    "carlos-bull-de-baca": {
+      "name": "Carlos \"Bull\" de Baca",
+      "aliases": ["Bull"],
+      "appearances": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Security chief aboard the OPA ship Behemoth, formerly the LDSS Nauvoo. An experienced officer trying to maintain order on the massive converted generation ship as it approaches the Ring.",
+          "role": "Behemoth Security Chief",
+          "relationships": {
+            "Captain": "Ashford",
+            "XO": "Michio Pa",
+            "Ship": "Behemoth"
+          }
+        }
+      }
+    },
+    "clarissa-mao": {
+      "name": "Clarissa \"Melba\" Mao",
+      "aliases": ["Melba Koh", "Melba"],
+      "appearances": [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An engineer working under the identity 'Melba Koh' aboard the ship Cerisier. She has joined the fleet heading to the Ring, but her true motivations remain unclear.",
+          "role": "Engineer (under false identity)",
+          "relationships": {
+            "Ship": "Cerisier",
+            "Identity": "Using false papers as Melba Koh"
+          }
+        }
+      }
+    },
+    "anna-volovodov": {
+      "name": "Anna Volovodov",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Methodist pastor who has joined the religious delegation aboard the UN ship Thomas Prince. She's traveling to the Ring to witness this momentous event in human history.",
+          "role": "Methodist Pastor",
+          "relationships": {
+            "Ship": "Thomas Prince",
+            "Part of": "Religious delegation",
+            "Friend": "Father Hector Cortez"
+          }
+        }
+      }
+    },
+    "naomi-nagata": {
+      "name": "Naomi Nagata",
+      "appearances": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Executive Officer and chief engineer of the Rocinante. A highly skilled Belter engineer who has been with Holden through their previous adventures.",
+          "role": "Rocinante XO/Engineer",
+          "relationships": {
+            "Captain": "James Holden",
+            "Crew": "Alex Kamal, Amos Burton"
+          }
+        }
+      }
+    },
+    "alex-kamal": {
+      "name": "Alex Kamal",
+      "appearances": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Pilot of the Rocinante, originally from Mars. His piloting skills and Martian military background make him invaluable to the crew.",
+          "role": "Rocinante Pilot",
+          "relationships": {
+            "Captain": "James Holden",
+            "Crew": "Naomi Nagata, Amos Burton"
+          }
+        }
+      }
+    },
+    "amos-burton": {
+      "name": "Amos Burton",
+      "appearances": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Ship's mechanic and muscle for the Rocinante crew. His straightforward approach to problems and loyalty to his crewmates make him a reliable member of the team.",
+          "role": "Rocinante Mechanic",
+          "relationships": {
+            "Captain": "James Holden",
+            "Crew": "Naomi Nagata, Alex Kamal"
+          }
+        }
+      }
+    },
+    "monica-stuart": {
+      "name": "Monica Stuart",
+      "appearances": [1, 5, 8, 12, 15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 51],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A documentary filmmaker and reporter who has been following Holden's story. She's part of a media crew documenting the historic journey to the Ring.",
+          "role": "Documentary Filmmaker/Reporter",
+          "relationships": {
+            "Crew": "Cohen, Okju, Clip",
+            "Subject": "James Holden"
+          }
+        }
+      }
+    },
+    "cohen": {
+      "name": "Cohen",
+      "appearances": [1, 5, 8, 12, 15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 51],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Cameraman for Monica Stuart's documentary crew, capturing footage of the historic expedition to the Ring.",
+          "role": "Cameraman",
+          "relationships": {
+            "Boss": "Monica Stuart",
+            "Crew": "Okju, Clip"
+          }
+        }
+      }
+    },
+    "okju": {
+      "name": "Okju",
+      "appearances": [1, 5, 8, 12, 15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 51],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Sound technician for Monica Stuart's documentary crew, working to record the audio for their historic documentation of the Ring expedition.",
+          "role": "Sound Technician",
+          "relationships": {
+            "Boss": "Monica Stuart",
+            "Crew": "Cohen, Clip"
+          }
+        }
+      }
+    },
+    "clip": {
+      "name": "Clip",
+      "appearances": [1, 5, 8, 12, 15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 51],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Producer for Monica Stuart's documentary crew, helping organize their coverage of the expedition to the Ring.",
+          "role": "Producer",
+          "relationships": {
+            "Boss": "Monica Stuart",
+            "Crew": "Cohen, Okju"
+          }
+        }
+      }
+    },
+    "captain-ashford": {
+      "name": "Captain Ashford",
+      "appearances": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Captain of the OPA ship Behemoth, the massive converted generation ship formerly known as the LDSS Nauvoo. He commands the largest ship in the Belt's fleet heading to the Ring.",
+          "role": "Behemoth Captain",
+          "relationships": {
+            "XO": "Michio Pa",
+            "Security Chief": "Bull",
+            "Ship": "Behemoth"
+          }
+        }
+      }
+    },
+    "michio-pa": {
+      "name": "Michio Pa",
+      "appearances": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Executive Officer aboard the Behemoth, serving under Captain Ashford. A competent officer dealing with the complexities of commanding the converted generation ship.",
+          "role": "Behemoth XO",
+          "relationships": {
+            "Captain": "Ashford",
+            "Security Chief": "Bull"
+          }
+        }
+      }
+    },
+    "sam-rosenberg": {
+      "name": "Sam Rosenberg",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Chief Engineer aboard the Behemoth, responsible for maintaining the massive converted generation ship's complex systems.",
+          "role": "Chief Engineer",
+          "relationships": {
+            "Ship": "Behemoth",
+            "Reports to": "Captain Ashford"
+          }
+        }
+      }
+    },
+    "drummer": {
+      "name": "Drummer",
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Representative of Fred Johnson aboard the Behemoth, ensuring OPA interests are maintained during the Ring expedition.",
+          "role": "OPA Representative",
+          "relationships": {
+            "Reports to": "Fred Johnson",
+            "Ship": "Behemoth"
+          }
+        }
+      }
+    },
+    "admiral-nguyen": {
+      "name": "Admiral Nguyễn",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Admiral commanding the UN fleet, including the flagship Thomas Prince. He's responsible for Earth's military presence at the Ring.",
+          "role": "UN Fleet Admiral",
+          "relationships": {
+            "Flagship": "Thomas Prince",
+            "Fleet": "UN Navy"
+          }
+        }
+      }
+    },
+    "captain-jakande": {
+      "name": "Captain Jakande",
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Captain of the UN ship Thomas Prince, serving under Admiral Nguyễn.",
+          "role": "Thomas Prince Captain",
+          "relationships": {
+            "Admiral": "Nguyễn",
+            "Ship": "Thomas Prince"
+          }
+        }
+      }
+    },
+    "father-hector-cortez": {
+      "name": "Father Hector \"Hank\" Cortez",
+      "aliases": ["Hank"],
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 54],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Catholic priest and close friend of Anna Volovodov, part of the religious delegation aboard the Thomas Prince.",
+          "role": "Catholic Priest",
+          "relationships": {
+            "Friend": "Anna Volovodov",
+            "Part of": "Religious delegation"
+          }
+        }
+      }
+    },
+    "miller": {
+      "name": "Miller",
+      "aliases": ["The Investigator", "Detective Miller"],
+      "appearances": [7, 15, 23, 31, 39, 47, 53],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The protomolecule construct that appears as Detective Miller, continuing to investigate the Ring's mysteries and origins.",
+          "role": "Protomolecule Construct",
+          "relationships": {
+            "Working with": "James Holden",
+            "Investigation": "Ring mysteries"
+          }
+        }
+      }
+    },
+    "maneo": {
+      "name": "Manéo",
+      "appearances": [0],
+      "knowledge": {
+        "0": {
+          "revealedIn": 0,
+          "description": "Young Belter who attempts to fly through the Ring in the prologue, setting off the events that follow.",
+          "role": "Belter pilot",
+          "relationships": {
+            "Ship": "Y Que"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "0": "Young Belter Manéo attempts to fly his ship Y Que through the mysterious Ring structure, triggering unknown alien defenses and setting in motion the events that will affect the entire fleet gathering at the Ring.",
+    "1": "James Holden and the Rocinante crew arrive at the Ring along with hundreds of ships from Earth, Mars, and the Belt. The massive fleet represents humanity's largest gathering at this alien artifact, while tensions run high between the different factions.",
+    "2": "Bull, security chief aboard the massive OPA ship Behemoth, deals with the challenges of maintaining order on the converted generation ship. The Behemoth represents the Belt's major presence at the Ring, but internal politics complicate Bull's job.",
+    "3": "Clarissa 'Melba' Mao continues her undercover work as an engineer aboard the Cerisier, hiding her true identity and motivations. Her relationship with Ren provides cover while she pursues her secret agenda related to the Ring expedition.",
+    "4": "Anna Volovodov, Methodist pastor aboard the UN flagship Thomas Prince, observes the religious and diplomatic implications of humanity's encounter with the Ring. The interfaith delegation prepares for potential first contact scenarios.",
+    "5": "The three major fleets - Earth's UN Navy, Mars' MCRN, and the Belt's OPA ships - maintain tense positions around the Ring. Each faction has different goals and concerns about accessing the alien structure.",
+    "6": "Bull continues managing security concerns aboard the Behemoth as political tensions between Captain Ashford, XO Pa, and various crew factions create internal conflicts that mirror the larger fleet tensions.",
+    "7": "The Miller construct appears to Holden again, continuing its investigation into the Ring's mysteries. The protomolecule entity provides cryptic insights about the alien technology and its purposes.",
+    "8": "Fleet communications reveal growing tensions as each faction maneuvers for advantage around the Ring. The massive gathering of ships creates logistical and political challenges unlike anything humanity has faced before.",
+    "9": "Anna witnesses the complex dynamics aboard the Thomas Prince as military, civilian, and religious personnel struggle to understand their roles in this historic moment. The Ring's presence affects everyone differently.",
+    "10": "Bull's security team faces new challenges as the stress of the Ring expedition affects crew morale and discipline aboard the Behemoth. The converted ship's unique design creates additional complications for maintaining order.",
+    "11": "Clarissa continues her engineering work while concealing her true identity, using her technical skills and position to further her hidden agenda. Her relationship with Ren becomes more complex as events unfold.",
+    "12": "The religious delegation aboard the Thomas Prince grapples with theological implications of the Ring, while Anna provides pastoral care to those struggling with the magnitude of the situation.",
+    "13": "Inter-fleet communications and negotiations become increasingly strained as each faction pursues its own interests. The Ring remains mysteriously inactive, adding to the tension and uncertainty.",
+    "14": "Bull investigates security incidents aboard the Behemoth while trying to balance the competing interests of Captain Ashford, XO Pa, and the various crew factions representing different Belt interests.",
+    "15": "Holden's interactions with the Miller construct intensify as they work together to understand the Ring's purpose and the potential dangers it represents to humanity's gathering fleets.",
+    "16": "Political maneuvering between the fleets intensifies as representatives from each faction attempt to negotiate access to the Ring while protecting their own interests and maintaining defensive positions.",
+    "17": "The massive scale of the fleet operation becomes apparent as hundreds of ships from three different governments create the largest human presence in space. Communication delays and coordination challenges mount.",
+    "18": "Anna continues her pastoral duties while observing the psychological and spiritual effects of the Ring on the diverse crew and passengers aboard the Thomas Prince.",
+    "19": "Clarissa's engineering expertise proves valuable aboard the Cerisier, but her secret agenda becomes more difficult to maintain as the Ring situation develops and scrutiny increases.",
+    "20": "Bull faces escalating challenges aboard the Behemoth as crew tensions mirror the larger political conflicts between Earth, Mars, and the Belt factions represented in the massive fleet.",
+    "21": "Fleet-wide communications reveal growing impatience and concern as the Ring remains inactive. Each faction begins considering more aggressive approaches to investigating the alien structure.",
+    "22": "The documentary crew led by Monica Stuart continues recording the historic events, capturing the human drama and political tensions surrounding humanity's first major encounter with alien technology.",
+    "23": "Holden's investigation into the Ring's mysteries deepens with continued input from the Miller construct, as they try to understand both the opportunities and dangers the structure represents.",
+    "24": "Security concerns aboard the Behemoth escalate as Bull deals with increasing incidents and conflicts among crew members under stress from the unprecedented situation at the Ring.",
+    "25": "Anna provides counsel and support to those struggling with the spiritual and psychological implications of humanity's encounter with clearly superior alien technology.",
+    "26": "Clarissa's position aboard the Cerisier allows her to monitor fleet communications and activities while maintaining her cover identity, but the stress of deception grows more difficult.",
+    "27": "Political negotiations between fleet commanders become more complex as each faction seeks to position itself advantageously for eventual access to and exploration of the Ring structure.",
+    "28": "Bull's security investigations reveal growing tensions not just between factions but within individual ships as crew members struggle with fear, excitement, and uncertainty about the alien encounter.",
+    "29": "The Ring's continued inactivity creates speculation and concern throughout the fleet, with scientists, military officers, and civilians all offering different theories about its purpose and dangers.",
+    "30": "Anna observes how the Ring's presence affects different people in various ways, from religious wonder to existential fear, as humanity grapples with proof of superior alien intelligence.",
+    "31": "Holden's work with the Miller construct reveals more about the Ring's connection to the protomolecule technology, though many questions remain about the aliens who created both.",
+    "32": "Aboard the Behemoth, Bull continues managing the complex security situation while various crew factions pursue different agendas related to the Belt's interests at the Ring.",
+    "33": "Fleet-wide tension increases as patience wears thin and various factions begin considering more direct action to investigate or access the mysterious Ring structure.",
+    "34": "Clarissa's engineering work provides cover for her activities, but maintaining her false identity becomes increasingly challenging as fleet security measures tighten.",
+    "35": "Political and military leaders across the three fleets engage in complex negotiations about protocols for Ring investigation while maintaining their defensive positions.",
+    "36": "Anna's pastoral work expands as more crew members seek spiritual guidance in dealing with the unprecedented situation of humanity's encounter with advanced alien technology.",
+    "37": "The documentary crew captures increasing tension and drama as the fleet-wide situation develops, with Monica Stuart recognizing the historic nature of the unfolding events.",
+    "38": "Bull's security challenges intensify aboard the Behemoth as crew stress levels rise and various factions become more assertive in pursuing their competing interests.",
+    "39": "Holden continues working with the Miller construct to unravel the Ring's mysteries, making progress in understanding its connection to the protomolecule and its creators.",
+    "40": "Fleet communications reveal growing divisions not just between Earth, Mars, and Belt factions, but within each faction as different groups pursue varying approaches to the Ring.",
+    "41": "Clarissa's position allows her to observe and potentially influence developing events, but her secret agenda becomes more difficult to maintain as scrutiny increases.",
+    "42": "Anna witnesses the diverse human reactions to the Ring, from scientific curiosity to religious awe to military concern, as the expedition's historic nature becomes clear.",
+    "43": "Security incidents and crew tensions aboard various ships reflect the stress of the unprecedented situation, with Bull and other security chiefs struggling to maintain order.",
+    "44": "The Miller construct provides Holden with crucial insights about the Ring's purpose and potential dangers, though much remains unclear about the alien technology.",
+    "45": "Political maneuvering between fleet factions reaches a critical point as patience wears thin and various groups consider taking independent action regarding the Ring.",
+    "46": "Bull faces his greatest security challenges yet as competing interests aboard the Behemoth threaten to undermine the ship's mission and the Belt's position in fleet negotiations.",
+    "47": "Fleet-wide tensions approach a breaking point as the Ring's continued inactivity and the massive logistical challenges of maintaining hundreds of ships create unprecedented strain.",
+    "48": "Anna's role as pastoral counselor becomes crucial as crew members across the fleet struggle with the psychological and spiritual implications of humanity's alien encounter.",
+    "49": "Clarissa's secret agenda reaches a critical phase as fleet events develop in ways that may force her to reveal her true identity and motivations.",
+    "50": "The complex political and military situation around the Ring reaches a crisis point as competing factions can no longer maintain the fragile peace that has held the fleet together.",
+    "51": "Major developments unfold as the various plot threads converge, with Holden's investigation, Bull's security concerns, Clarissa's agenda, and Anna's observations all coming to a head.",
+    "52": "The climactic events around the Ring force all factions and individuals to confront the reality of their situation and make crucial decisions about humanity's future.",
+    "53": "The aftermath of major events requires all the characters to deal with the consequences of their actions and decisions, as the Ring situation reaches its resolution.",
+    "54": "Anna reflects on the events and their implications in the epilogue, providing perspective on how humanity's encounter with the Ring has changed everything for the future."
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "title": "Persepolis Rising",
+    "author": "James S.A. Corey",
+    "chapters": 55,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "james-holden": {
+      "name": "James Holden",
+      "aliases": ["Jim", "Captain"],
+      "appearances": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now in his seventies, aging captain of the Rocinante dealing with the emergence of Laconia as a new galactic power.",
+          "role": "Aging Captain",
+          "relationships": {
+            "Ship": "Rocinante",
+            "Partner": "Naomi Nagata"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Faces the reality of Laconian conquest and their advanced alien-hybrid technology that makes resistance seem impossible.",
+          "role": "Resistance Fighter",
+          "relationships": {
+            "Enemy": "Laconian Empire",
+            "Station": "Medina Station"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Becomes a prisoner of the Laconian occupation while maintaining hope for eventual liberation of the ring systems.",
+          "role": "Political Prisoner",
+          "relationships": {
+            "Captor": "Winston Duarte"
+          }
+        }
+      }
+    },
+    "bobbie-draper": {
+      "name": "Bobbie Draper",
+      "aliases": ["Bobbie", "Gunny"],
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Former Martian Marine now working security on Medina Station, aging but still formidable in combat situations.",
+          "role": "Station Security",
+          "relationships": {
+            "Station": "Medina Station",
+            "Partner": "Alex Kamal"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Leads resistance efforts against the Laconian occupation, using her military experience to organize insurgent activities.",
+          "role": "Resistance Leader",
+          "relationships": {
+            "Mission": "Fighting Laconian occupation"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Coordinates underground resistance operations while evading Laconian security forces and their advanced surveillance.",
+          "role": "Insurgent Commander",
+          "relationships": {
+            "Network": "Resistance cells"
+          }
+        }
+      }
+    },
+    "camina-drummer": {
+      "name": "Camina Drummer",
+      "aliases": ["Drummer"],
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "President of the Transport Union, managing the complex logistics of interstellar trade through the ring gates.",
+          "role": "Transport Union President",
+          "relationships": {
+            "Organization": "Transport Union",
+            "Responsibility": "Ring gate traffic"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Struggles to maintain independence and protect Belter interests in the face of Laconian expansion and demands for submission.",
+          "role": "Political Leader",
+          "relationships": {
+            "Challenge": "Laconian demands"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Makes difficult decisions about resistance and collaboration while trying to protect her people from Laconian retaliation.",
+          "role": "Resistance Coordinator",
+          "relationships": {
+            "Dilemma": "Protection vs. resistance"
+          }
+        }
+      }
+    },
+    "santiago-singh": {
+      "name": "Santiago Singh",
+      "aliases": ["Governor Singh"],
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Laconian colonial administrator appointed to govern Medina Station and control access to the ring gates.",
+          "role": "Colonial Governor",
+          "relationships": {
+            "Empire": "Laconia",
+            "Station": "Medina Station"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Implements Laconian control policies while dealing with resistance from the existing population and Transport Union.",
+          "role": "Occupation Administrator",
+          "relationships": {
+            "Opposition": "Local resistance"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Struggles to maintain order and legitimacy while facing increasing resistance and the complexity of governing diverse populations.",
+          "role": "Embattled Governor",
+          "relationships": {
+            "Challenge": "Growing insurgency"
+          }
+        }
+      }
+    },
+    "winston-duarte": {
+      "name": "Winston Duarte",
+      "aliases": ["High Consul Duarte"],
+      "appearances": [7, 15, 23, 31, 39, 47, 55],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Former Martian admiral now ruler of the Laconian Empire, enhanced by alien technology and leading humanity's expansion into the ring systems.",
+          "role": "Imperial Ruler",
+          "relationships": {
+            "Empire": "Laconia",
+            "Enhancement": "Alien technology"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Implements his vision of human unity under Laconian rule, believing his empire represents humanity's best hope for survival.",
+          "role": "Imperial Visionary",
+          "relationships": {
+            "Goal": "Human unification"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Demonstrates the advanced capabilities of Laconian technology while pursuing his goal of total system control.",
+          "role": "Technological Superior",
+          "relationships": {
+            "Advantage": "Alien-hybrid tech"
+          }
+        }
+      }
+    },
+    "naomi-nagata": {
+      "name": "Naomi Nagata",
+      "aliases": ["Naomi"],
+      "appearances": [1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Aging chief engineer of the Rocinante, dealing with both the technical challenges of an old ship and the political crisis of Laconian emergence.",
+          "role": "Chief Engineer",
+          "relationships": {
+            "Partner": "James Holden",
+            "Ship": "Rocinante"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Uses her technical expertise to support resistance efforts while maintaining the Rocinante's systems under difficult conditions.",
+          "role": "Technical Specialist",
+          "relationships": {
+            "Mission": "Supporting resistance"
+          }
+        }
+      }
+    },
+    "alex-kamal": {
+      "name": "Alex Kamal",
+      "aliases": ["Alex"],
+      "appearances": [1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Aging pilot of the Rocinante, dealing with the physical challenges of advanced age while maintaining his flying skills.",
+          "role": "Ship's Pilot",
+          "relationships": {
+            "Ship": "Rocinante",
+            "Partner": "Bobbie Draper"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Supports resistance operations with his piloting expertise while managing the health challenges that come with age.",
+          "role": "Resistance Pilot",
+          "relationships": {
+            "Health": "Age-related issues"
+          }
+        }
+      }
+    },
+    "amos-burton": {
+      "name": "Amos Burton",
+      "aliases": ["Amos"],
+      "appearances": [1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Aging mechanic and muscle of the Rocinante crew, his practical approach to problems unchanged despite advancing years.",
+          "role": "Ship's Mechanic",
+          "relationships": {
+            "Loyalty": "James Holden",
+            "Ship": "Rocinante"
+          }
+        }
+      }
+    },
+    "clarissa-mao": {
+      "name": "Clarissa Mao",
+      "aliases": ["Peaches"],
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Reformed member of the Rocinante crew, her body modifications degrading with age but her loyalty to the crew unwavering.",
+          "role": "Crew Member",
+          "relationships": {
+            "Loyalty": "Rocinante crew",
+            "Health": "Degrading modifications"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Uses her remaining enhanced capabilities to support resistance efforts despite the physical cost to her health.",
+          "role": "Enhanced Operative",
+          "relationships": {
+            "Mission": "Resistance support"
+          }
+        }
+      }
+    },
+    "teresa-duarte": {
+      "name": "Teresa Duarte",
+      "aliases": ["Teresa"],
+      "appearances": [11, 19, 27, 35, 43, 51],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Winston Duarte's teenage daughter, growing up in the privileged but isolated environment of the Laconian imperial court.",
+          "role": "Imperial Daughter",
+          "relationships": {
+            "Father": "Winston Duarte",
+            "Status": "Laconian royalty"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Begins to question her father's methods and the morality of the Laconian Empire's expansion and control.",
+          "role": "Questioning Heir",
+          "relationships": {
+            "Conflict": "Family loyalty vs. conscience"
+          }
+        }
+      }
+    },
+    "trejo": {
+      "name": "Admiral Trejo",
+      "aliases": ["Trejo"],
+      "appearances": [15, 23, 31, 39, 47],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "High-ranking Laconian military commander overseeing the expansion into the ring systems with advanced warships.",
+          "role": "Laconian Admiral",
+          "relationships": {
+            "Superior": "Winston Duarte",
+            "Command": "Laconian fleet"
+          }
+        }
+      }
+    },
+    "overstreet": {
+      "name": "Colonel Overstreet",
+      "aliases": ["Overstreet"],
+      "appearances": [17, 25, 33, 41, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Laconian military officer responsible for security operations on Medina Station under Governor Singh.",
+          "role": "Security Commander",
+          "relationships": {
+            "Superior": "Santiago Singh",
+            "Mission": "Station security"
+          }
+        }
+      }
+    },
+    "tanaka": {
+      "name": "Major Tanaka",
+      "aliases": ["Tanaka"],
+      "appearances": [21, 29, 37, 45, 53],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Laconian intelligence officer investigating resistance activities and hunting down insurgent networks.",
+          "role": "Intelligence Officer",
+          "relationships": {
+            "Target": "Resistance networks",
+            "Method": "Counter-intelligence"
+          }
+        }
+      }
+    },
+    "kate-kamal": {
+      "name": "Kate Kamal",
+      "aliases": ["Kate"],
+      "appearances": [6, 14, 22, 30, 38, 46, 54],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Transport Union officer and relative of Alex, working to maintain shipping operations under Laconian oversight.",
+          "role": "Transport Officer",
+          "relationships": {
+            "Organization": "Transport Union",
+            "Relative": "Alex Kamal"
+          }
+        }
+      }
+    },
+    "walker": {
+      "name": "Walker",
+      "aliases": [],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Member of the resistance network on Medina Station, working to undermine Laconian control through sabotage and intelligence gathering.",
+          "role": "Resistance Fighter",
+          "relationships": {
+            "Network": "Medina resistance",
+            "Activity": "Sabotage operations"
+          }
+        }
+      }
+    },
+    "saba": {
+      "name": "Saba",
+      "aliases": [],
+      "appearances": [20, 28, 36, 44, 52],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Belter resistance coordinator working with Drummer and others to organize opposition to Laconian rule.",
+          "role": "Resistance Coordinator",
+          "relationships": {
+            "Leader": "Camina Drummer",
+            "Mission": "Anti-Laconian operations"
+          }
+        }
+      }
+    },
+    "carrie-fisk": {
+      "name": "Carrie Fisk",
+      "aliases": ["Fisk"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Former Medina Station security chief now working underground against the Laconian occupation.",
+          "role": "Underground Leader",
+          "relationships": {
+            "Former position": "Station security",
+            "Current role": "Resistance organizer"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Thirty years after the Free Navy war, James Holden and the aging Rocinante crew face a new threat as the mysterious Laconian Empire emerges from hiding.",
+    "2": "Bobbie Draper works security on Medina Station while dealing with the challenges of aging and her relationship with Alex Kamal.",
+    "3": "Clarissa Mao struggles with her degrading body modifications while remaining loyal to the Rocinante crew that gave her a second chance.",
+    "4": "Camina Drummer leads the Transport Union, managing interstellar trade while facing pressure from the emerging Laconian power.",
+    "5": "Santiago Singh arrives as the new Laconian governor of Medina Station, implementing imperial control over the ring gate hub.",
+    "6": "Transport Union officers like Kate Kamal work to maintain shipping operations under increasing Laconian oversight and restrictions.",
+    "7": "Winston Duarte reveals himself as the ruler of Laconia, enhanced by alien technology and leading humanity's expansion into the ring systems.",
+    "8": "Drummer faces difficult decisions about resistance versus accommodation as Laconian demands for submission become more explicit.",
+    "9": "The Rocinante crew observes the growing Laconian presence while preparing for what appears to be an inevitable confrontation.",
+    "10": "Bobbie begins organizing resistance efforts among station personnel as Laconian control tightens around Medina Station.",
+    "11": "Teresa Duarte grows up in the Laconian imperial court, beginning to form her own opinions about her father's empire.",
+    "12": "Former station security chief Carrie Fisk goes underground as Laconian forces take over key infrastructure and security operations.",
+    "13": "Governor Singh implements new policies designed to integrate Medina Station into the Laconian administrative system.",
+    "14": "Transport Union operations face increasing restrictions as Laconia asserts control over interstellar trade and movement.",
+    "15": "Admiral Trejo demonstrates Laconian military superiority with advanced alien-hybrid warships that dwarf existing human technology.",
+    "16": "Drummer struggles to balance protecting her people with maintaining Transport Union independence from Laconian control.",
+    "17": "Colonel Overstreet establishes Laconian security protocols while resistance networks begin forming among station personnel.",
+    "18": "Bobbie coordinates with resistance fighters like Walker to plan sabotage operations against Laconian infrastructure and personnel.",
+    "19": "Clarissa uses her remaining enhanced capabilities to support resistance efforts despite the physical cost to her deteriorating health.",
+    "20": "Resistance coordinator Saba works with Drummer and others to organize system-wide opposition to Laconian expansion.",
+    "21": "Major Tanaka begins intelligence operations to identify and eliminate resistance networks throughout the Laconian-controlled territories.",
+    "22": "Transport operations become increasingly militarized as Laconia transforms the commercial shipping network into an imperial logistics system.",
+    "23": "Duarte implements his vision of human unification under Laconian rule, believing his empire represents humanity's evolutionary next step.",
+    "24": "Drummer faces the reality that traditional Belter independence may no longer be possible under Laconian technological superiority.",
+    "25": "Alex supports resistance operations despite health challenges, using his piloting expertise for covert missions.",
+    "26": "Resistance networks expand their sabotage operations while trying to avoid detection by increasingly sophisticated Laconian surveillance.",
+    "27": "Teresa begins questioning her father's methods as she learns more about the resistance and the cost of imperial expansion.",
+    "28": "Underground leaders like Fisk work to coordinate resistance cells while maintaining operational security against Laconian intelligence.",
+    "29": "The aging Rocinante crew adapts their tactics to deal with Laconian technology that makes traditional space combat obsolete.",
+    "30": "Transport Union personnel struggle to maintain their independence while working under direct Laconian supervision.",
+    "31": "Governor Singh faces growing challenges maintaining order as resistance activities increase throughout his jurisdiction.",
+    "32": "Drummer makes critical decisions about the level of resistance the Transport Union can sustain without triggering massive retaliation.",
+    "33": "Laconian security forces implement harsh crackdowns in response to increasing sabotage and resistance activities.",
+    "34": "Bobbie leads increasingly dangerous resistance operations while evading advanced Laconian surveillance and security measures.",
+    "35": "Holden becomes a political prisoner as Laconian forces capture key resistance leaders to break the growing insurgency.",
+    "36": "Resistance networks face their greatest test as Laconian intelligence operations threaten to expose their entire organizational structure.",
+    "37": "Major Tanaka's investigation closes in on the resistance leadership while insurgent activities reach a critical escalation point.",
+    "38": "Transport operations face complete militarization as Laconia transforms civilian infrastructure into imperial military assets.",
+    "39": "Duarte demonstrates the full extent of Laconian technological capabilities in response to continued resistance activities.",
+    "40": "Drummer faces the possibility that continued resistance may result in the complete destruction of Belter independence.",
+    "41": "Colonel Overstreet implements martial law as the situation on Medina Station approaches a breaking point.",
+    "42": "Resistance fighters face increasingly desperate odds as Laconian technology proves nearly impossible to counter effectively.",
+    "43": "Teresa's growing awareness of her father's methods creates internal conflict within the Laconian imperial family.",
+    "44": "Underground networks prepare for what may be their final operations before Laconian control becomes absolutely unbreakable.",
+    "45": "Intelligence operations reach their climax as both sides prepare for decisive confrontations that will determine the future.",
+    "46": "Transport Union leadership faces ultimate choices about collaboration, resistance, or complete submission to Laconian rule.",
+    "47": "Admiral Trejo prepares to demonstrate Laconian power in ways that will fundamentally change the political landscape of human space.",
+    "48": "Drummer and other leaders make final decisions about whether continued resistance is possible or merely suicidal.",
+    "49": "The security situation reaches crisis levels as both resistance and imperial forces prepare for potentially final confrontations.",
+    "50": "Resistance operations face their ultimate test as Laconian responses threaten to destroy any possibility of future independence.",
+    "51": "Teresa confronts the reality of her father's empire and her own role in its future as political tensions reach their peak.",
+    "52": "The resistance faces the consequences of their actions as Laconian retaliation threatens everyone who opposed imperial rule.",
+    "53": "Major confrontations reshape the political landscape as the balance of power in human space undergoes fundamental changes.",
+    "54": "The aftermath of resistance activities creates new realities for everyone living under Laconian rule and imperial expansion.",
+    "55": "The conclusion of the crisis establishes new parameters for human civilization under Laconian dominance and imperial control."
+  }
+}

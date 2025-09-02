@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "title": "Babylon's Ashes",
+    "author": "James S.A. Corey",
+    "chapters": 51,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "james-holden": {
+      "name": "James Holden",
+      "aliases": ["Jim", "Captain"],
+      "appearances": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captain of the Rocinante, working to reunite his crew while fighting in the system-wide war against Marco Inaros and the Free Navy.",
+          "role": "Rocinante Captain",
+          "relationships": {
+            "Ship": "Rocinante",
+            "Enemy": "Marco Inaros"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Leads missions against Free Navy positions while trying to minimize civilian casualties in the escalating conflict.",
+          "role": "Resistance Leader",
+          "relationships": {
+            "Ally": "Combined Fleet",
+            "Mission": "Free Navy defeat"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Faces the moral complexities of war while working to end the conflict and restore some form of peace to the system.",
+          "role": "War Leader",
+          "relationships": {
+            "Goal": "System peace"
+          }
+        }
+      }
+    },
+    "filip-inaros": {
+      "name": "Filip Inaros",
+      "aliases": ["Filip"],
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Marco's son and reluctant participant in the Free Navy, increasingly questioning his father's methods and the morality of their cause.",
+          "role": "Conflicted Terrorist",
+          "relationships": {
+            "Father": "Marco Inaros",
+            "Mother": "Naomi Nagata"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Struggles with guilt over the Earth bombardment and his growing awareness of the human cost of his father's war.",
+          "role": "Guilty Son",
+          "relationships": {
+            "Conflict": "Loyalty vs. conscience"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Begins to actively question Marco's leadership and consider alternatives to the path of violence and terrorism.",
+          "role": "Questioning Follower",
+          "relationships": {
+            "Doubt": "Father's methods"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Makes critical decisions about his future and whether to continue following his father's destructive path.",
+          "role": "Decision Maker",
+          "relationships": {
+            "Choice": "Independence from Marco"
+          }
+        }
+      }
+    },
+    "michio-pa": {
+      "name": "Michio Pa",
+      "aliases": ["Pa", "Captain Pa"],
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Former Belter pirate turned reluctant Free Navy commander, increasingly uncomfortable with Marco's methods and civilian casualties.",
+          "role": "Free Navy Captain",
+          "relationships": {
+            "Superior": "Marco Inaros",
+            "Ship": "Connaught"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Questions the ethics of the Free Navy's tactics while trying to maintain the loyalty of her crew and protect Belter interests.",
+          "role": "Moral Questioner",
+          "relationships": {
+            "Conflict": "Ethics vs. loyalty"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Makes the difficult decision to break with Marco and the Free Navy, leading her ship and crew in a different direction.",
+          "role": "Defector",
+          "relationships": {
+            "Former ally": "Marco Inaros",
+            "New path": "Independent Belter"
+          }
+        }
+      }
+    },
+    "anderson-dawes": {
+      "name": "Anderson Dawes",
+      "aliases": ["Dawes"],
+      "appearances": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Ceres-based OPA leader attempting to navigate the political chaos following Marco's rise and the destruction of the old order.",
+          "role": "Political Survivor",
+          "relationships": {
+            "Station": "Ceres",
+            "Challenge": "Political legitimacy"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Works to rebuild some form of legitimate Belter governance while dealing with the fractured state of the OPA.",
+          "role": "Political Rebuilder",
+          "relationships": {
+            "Goal": "Belter unity"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Attempts to broker peace negotiations and find a way to end the system-wide conflict before it destroys everything.",
+          "role": "Peace Broker",
+          "relationships": {
+            "Mission": "War termination"
+          }
+        }
+      }
+    },
+    "prax-meng": {
+      "name": "Praxidike Meng",
+      "aliases": ["Prax"],
+      "appearances": [7, 15, 23, 31, 39, 47],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Botanist and former Ganymede researcher now working on food production solutions for the war-torn system.",
+          "role": "Agricultural Scientist",
+          "relationships": {
+            "Daughter": "Mei Meng",
+            "Work": "Food security"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Develops agricultural programs to address the food crisis created by the disruption of interplanetary trade.",
+          "role": "Crisis Scientist",
+          "relationships": {
+            "Mission": "Feeding the system"
+          }
+        }
+      }
+    },
+    "bobbie-draper": {
+      "name": "Bobbie Draper",
+      "aliases": ["Bobbie", "Gunny"],
+      "appearances": [11, 19, 27, 35, 43, 51],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former Martian Marine now fighting against the Free Navy as part of the combined resistance forces.",
+          "role": "Marine Veteran",
+          "relationships": {
+            "Alliance": "Combined Fleet",
+            "Enemy": "Free Navy"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Leads ground operations and boarding actions against Free Navy positions, using her combat experience to train others.",
+          "role": "Combat Leader",
+          "relationships": {
+            "Role": "Training resistance fighters"
+          }
+        }
+      }
+    },
+    "marco-inaros": {
+      "name": "Marco Inaros",
+      "aliases": ["Marco"],
+      "appearances": [6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Leader of the Free Navy, struggling to maintain control over his fractious coalition while fighting a system-wide war.",
+          "role": "Free Navy Leader",
+          "relationships": {
+            "Son": "Filip Inaros",
+            "Enemy": "Inner planets"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Faces increasing challenges to his authority as the war drags on and his allies begin questioning his methods.",
+          "role": "Challenged Leader",
+          "relationships": {
+            "Problem": "Coalition fractures"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Becomes increasingly isolated and paranoid as his movement fractures and his closest allies begin to abandon him.",
+          "role": "Isolated Dictator",
+          "relationships": {
+            "Status": "Losing control"
+          }
+        }
+      }
+    },
+    "naomi-nagata": {
+      "name": "Naomi Nagata",
+      "aliases": ["Naomi"],
+      "appearances": [1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Rocinante's chief engineer, recovered from her ordeal with Marco and now fighting to end the Free Navy's reign of terror.",
+          "role": "Chief Engineer",
+          "relationships": {
+            "Partner": "James Holden",
+            "Son": "Filip Inaros"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Attempts to reach out to her son Filip while supporting the war effort against Marco's faction.",
+          "role": "Concerned Mother",
+          "relationships": {
+            "Goal": "Saving Filip"
+          }
+        }
+      }
+    },
+    "alex-kamal": {
+      "name": "Alex Kamal",
+      "aliases": ["Alex"],
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Rocinante's pilot, reunited with his crew and fighting in the war against the Free Navy while dealing with family concerns.",
+          "role": "Ship's Pilot",
+          "relationships": {
+            "Ship": "Rocinante",
+            "Family": "Mars-based ex-wife and son"
+          }
+        }
+      }
+    },
+    "amos-burton": {
+      "name": "Amos Burton",
+      "aliases": ["Amos"],
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Rocinante's mechanic, back with the crew after surviving the Earth bombardment with Clarissa Mao.",
+          "role": "Ship's Mechanic",
+          "relationships": {
+            "Loyalty": "James Holden",
+            "Companion": "Clarissa Mao"
+          }
+        }
+      }
+    },
+    "clarissa-mao": {
+      "name": "Clarissa Mao",
+      "aliases": ["Peaches", "Claire"],
+      "appearances": [11, 19, 27, 35, 43, 51],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former terrorist now working with the Rocinante crew, her body modifications proving valuable in the ongoing conflict.",
+          "role": "Reformed Terrorist",
+          "relationships": {
+            "Protector": "Amos Burton",
+            "Status": "Crew member"
+          }
+        }
+      }
+    },
+    "drummer": {
+      "name": "Camina Drummer",
+      "aliases": ["Drummer"],
+      "appearances": [8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Belter leader torn between loyalty to the cause and disgust at Marco's methods, trying to find a third path for her people.",
+          "role": "Belter Captain",
+          "relationships": {
+            "Conflict": "Loyalty vs. morality",
+            "People": "Belter crew"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Makes increasingly difficult decisions about which side to support as the war escalates and civilian casualties mount.",
+          "role": "Moral Decision Maker",
+          "relationships": {
+            "Challenge": "Choosing sides"
+          }
+        }
+      }
+    },
+    "fred-johnson": {
+      "name": "Fred Johnson",
+      "aliases": ["The Colonel"],
+      "appearances": [9, 17, 25, 33, 41, 49],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Former OPA leader now working with the combined fleet against Marco, his authority diminished but his experience valuable.",
+          "role": "Military Advisor",
+          "relationships": {
+            "Alliance": "Combined Fleet",
+            "Enemy": "Free Navy"
+          }
+        }
+      }
+    },
+    "winston-duarte": {
+      "name": "Winston Duarte",
+      "aliases": ["Admiral Duarte"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Former Martian admiral now establishing the breakaway Laconian colony beyond the ring gates, using the war as cover.",
+          "role": "Colonial Leader",
+          "relationships": {
+            "Colony": "Laconia",
+            "Status": "Independent"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Consolidates power in the Laconia system while remaining hidden from the main conflict, preparing for future expansion.",
+          "role": "Hidden Power",
+          "relationships": {
+            "Plan": "Future dominance"
+          }
+        }
+      }
+    },
+    "karal": {
+      "name": "Karal",
+      "aliases": [],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Marco's lieutenant struggling with the increasing chaos and brutality of the Free Navy's operations.",
+          "role": "Free Navy Officer",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Concern": "Mission coherence"
+          }
+        }
+      }
+    },
+    "cyn": {
+      "name": "Cyn",
+      "aliases": [],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Another of Marco's core supporters, helping coordinate Free Navy operations while managing growing internal conflicts.",
+          "role": "Free Navy Coordinator",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Challenge": "Internal disputes"
+          }
+        }
+      }
+    },
+    "rosenfeld": {
+      "name": "Rosenfeld",
+      "aliases": ["Commander Rosenfeld"],
+      "appearances": [20, 28, 36, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Free Navy commander struggling to maintain discipline and effectiveness as the organization fractures under pressure.",
+          "role": "Free Navy Commander",
+          "relationships": {
+            "Challenge": "Unit cohesion"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "James Holden leads the Rocinante in the system-wide war against Marco Inaros and the Free Navy, working to reunite his crew and end the conflict.",
+    "2": "Filip Inaros struggles with increasing doubts about his father's methods and the human cost of the Free Navy's war against the inner planets.",
+    "3": "The Rocinante crew reunites as Alex and Amos return from their separate ordeals, ready to fight in the resistance against the Free Navy.",
+    "4": "Michio Pa commands a Free Navy ship while growing uncomfortable with Marco's tactics and the civilian casualties of their operations.",
+    "5": "Anderson Dawes attempts to navigate the political chaos on Ceres and rebuild some form of legitimate Belter governance.",
+    "6": "Marco Inaros struggles to maintain control over his fractious coalition as the Free Navy faces increasing resistance from the combined fleet.",
+    "7": "Praxidike Meng works on agricultural solutions to address the food crisis created by the disruption of interplanetary trade.",
+    "8": "Camina Drummer finds herself torn between Belter loyalty and moral disgust at the Free Navy's methods and civilian targeting.",
+    "9": "Fred Johnson works with the combined fleet against his former Belter allies, his authority diminished but his experience still valuable.",
+    "10": "Filip continues to question his father's leadership while participating reluctantly in Free Navy operations against civilian targets.",
+    "11": "Bobbie Draper and Clarissa Mao join the fight against the Free Navy, bringing their unique skills to the resistance effort.",
+    "12": "Winston Duarte consolidates power in the hidden Laconian colony while the rest of the system tears itself apart in war.",
+    "13": "Dawes attempts to broker peace negotiations while dealing with the fractured and chaotic state of Belter politics.",
+    "14": "The Free Navy faces internal conflicts as Filip and other members begin to question Marco's increasingly desperate tactics.",
+    "15": "Holden leads targeted strikes against Free Navy positions while trying to minimize civilian casualties in the escalating war.",
+    "16": "Michio Pa's moral struggles intensify as she witnesses more civilian casualties from Free Navy operations under her command.",
+    "17": "Naomi attempts to reach out to her son Filip while supporting the resistance war effort against Marco's faction.",
+    "18": "Marco becomes increasingly isolated and paranoid as his authority is challenged by defections and military failures.",
+    "19": "The combined fleet coordinates major operations against Free Navy strongholds while managing the complex politics of the alliance.",
+    "20": "Free Navy commanders struggle to maintain unit cohesion and effectiveness as the organization fractures under military pressure.",
+    "21": "Dawes works to establish alternative Belter leadership that could provide a path to peace negotiations and political legitimacy.",
+    "22": "Marco's inner circle shows increasing signs of strain as the war drags on and their position becomes more desperate.",
+    "23": "Prax's agricultural programs become crucial for addressing the humanitarian crisis created by the breakdown of interplanetary trade.",
+    "24": "Drummer faces increasingly difficult decisions about which side to support as the war's civilian casualties continue to mount.",
+    "25": "The resistance coordinates complex military operations while managing the political challenges of their diverse coalition.",
+    "26": "Filip's crisis of conscience deepens as he witnesses more of the human cost of his father's war.",
+    "27": "Bobbie leads combat operations and training programs, using her military experience to strengthen resistance capabilities.",
+    "28": "Duarte's Laconian colony remains hidden while he prepares for future expansion once the current war destroys the existing order.",
+    "29": "Holden grapples with the moral complexities of war while working to minimize casualties and find a path to peace.",
+    "30": "Filip begins to actively question Marco's methods and consider whether there are alternatives to continued violence.",
+    "31": "The food crisis worsens as Prax and others struggle to maintain agricultural production amid the ongoing conflict.",
+    "32": "Michio Pa makes the difficult decision to break with Marco and lead her crew away from the Free Navy's destructive path.",
+    "33": "Dawes attempts to create a framework for peace negotiations that could end the system-wide war before complete collapse.",
+    "34": "Marco becomes increasingly desperate and isolated as his movement fractures and his closest allies abandon him.",
+    "35": "Major military operations reshape the balance of power in the system as the combined fleet gains momentum against the Free Navy.",
+    "36": "Duarte observes the system's self-destruction while positioning Laconia to emerge as the dominant power when the war ends.",
+    "37": "The resistance faces critical decisions about how to end the war while preventing the complete collapse of human civilization.",
+    "38": "Free Navy forces fragment as local commanders make independent decisions about continuing the fight or seeking terms.",
+    "39": "Humanitarian efforts intensify as the true scope of the war's civilian casualties becomes clear across all factions.",
+    "40": "Drummer's faction makes crucial decisions about their future role in Belter politics and the post-war order.",
+    "41": "Fred Johnson's experience proves valuable in coordinating the final phases of military operations against the Free Navy.",
+    "42": "Marco's position becomes untenable as his son and other close associates openly challenge his leadership and methods.",
+    "43": "The combined fleet prepares for decisive military action while political leaders work on frameworks for post-war governance.",
+    "44": "Duarte's preparations for Laconian emergence accelerate as he anticipates the imminent collapse of the existing system order.",
+    "45": "Naomi's efforts to save her son intensify as the conflict approaches its climax and Filip faces critical choices.",
+    "46": "Filip makes his final decision about whether to continue following his father's destructive path or forge his own future.",
+    "47": "The war reaches its conclusion as the Free Navy's remaining forces face defeat and the system begins planning reconstruction.",
+    "48": "Michio Pa and other defectors work to establish new forms of Belter political organization separate from both Marco and the old OPA.",
+    "49": "Dawes and other leaders attempt to create a framework for lasting peace that addresses the root causes of the conflict.",
+    "50": "Marco faces the final consequences of his actions as his war ends in defeat and his movement collapses around him.",
+    "51": "The system begins the difficult process of reconstruction while hidden powers like Duarte prepare to emerge from the shadows."
+  }
+}
