@@ -1004,6 +1004,614 @@
           }
         }
       }
+    },
+    "ghille": {
+      "name": "Ghille",
+      "aliases": [],
+      "appearances": [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A servant at the Maer's estate, working in the household staff under Stapes.",
+          "role": "Estate servant",
+          "relationships": {
+            "Serves": "Maer Alveron",
+            "Works under": "Stapes"
+          }
+        }
+      }
+    },
+    "lentaren-court": {
+      "name": "Lentaren",
+      "aliases": ["Court Lentaren"],
+      "appearances": [30, 31, 32, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "A nobleman at the Maer's court, participating in court politics and social events.",
+          "role": "Court nobleman",
+          "relationships": {
+            "Member of": "Severen court",
+            "Peer of": "Other nobles"
+          }
+        }
+      }
+    },
+    "praevek": {
+      "name": "Praevek",
+      "aliases": [],
+      "appearances": [30, 31, 32, 34, 35, 36, 37],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "A courtier at Severen, involved in the complex social dynamics of the Maer's court.",
+          "role": "Courtier",
+          "relationships": {
+            "Member of": "Severen court",
+            "Plays": "Court politics"
+          }
+        }
+      }
+    },
+    "arwyl-severen": {
+      "name": "Arwyl of Severen",
+      "aliases": ["Court Arwyl"],
+      "appearances": [30, 31, 32, 33, 34, 35],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "A member of the nobility at the Maer's court, participating in social gatherings.",
+          "role": "Noble courtier",
+          "relationships": {
+            "Member of": "Severen nobility",
+            "Attends": "Court functions"
+          }
+        }
+      }
+    },
+    "elxa-dal-court": {
+      "name": "Elxa Dal",
+      "aliases": ["Lady Elxa Dal"],
+      "appearances": [35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "A lady at the Maer's court, part of the social circle around Meluan Lackless.",
+          "role": "Court lady",
+          "relationships": {
+            "Friend of": "Meluan Lackless",
+            "Member of": "Court ladies"
+          }
+        }
+      }
+    },
+    "alveron-guards": {
+      "name": "Alveron Guards",
+      "aliases": ["Estate guards"],
+      "appearances": [27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "The personal guards of Maer Alveron, protecting the estate and the Maer himself.",
+          "role": "Estate security",
+          "relationships": {
+            "Protects": "Maer Alveron",
+            "Guards": "Severen estate"
+          }
+        }
+      }
+    },
+    "keth": {
+      "name": "Keth",
+      "aliases": [],
+      "appearances": [81, 82, 83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "81": {
+          "revealedIn": 81,
+          "description": "An Adem student at Haert, training alongside Kvothe in the martial arts.",
+          "role": "Adem student",
+          "relationships": {
+            "Fellow student": "Kvothe",
+            "Trains at": "Haert school"
+          }
+        }
+      }
+    },
+    "inyssa": {
+      "name": "Inyssa",
+      "aliases": [],
+      "appearances": [83, 84, 85, 86, 87, 88, 89],
+      "knowledge": {
+        "83": {
+          "revealedIn": 83,
+          "description": "A female Adem student training at Haert, skilled in the martial arts.",
+          "role": "Adem student",
+          "relationships": {
+            "Fellow student": "Kvothe",
+            "Trains at": "Haert school"
+          }
+        }
+      }
+    },
+    "magwyn": {
+      "name": "Magwyn",
+      "aliases": [],
+      "appearances": [79, 80, 86, 87, 91, 92],
+      "knowledge": {
+        "79": {
+          "revealedIn": 79,
+          "description": "An elderly Adem teacher at Haert, one of the senior instructors in the school.",
+          "role": "Adem teacher",
+          "relationships": {
+            "Senior teacher at": "Haert school",
+            "Colleague of": "Shehyn, Vashet"
+          }
+        }
+      }
+    },
+    "duert": {
+      "name": "Duert",
+      "aliases": [],
+      "appearances": [83, 84, 85, 86, 87, 88],
+      "knowledge": {
+        "83": {
+          "revealedIn": 83,
+          "description": "An Adem student at Haert, one of Kvothe's training partners in the martial arts.",
+          "role": "Adem student",
+          "relationships": {
+            "Fellow student": "Kvothe",
+            "Trains with": "Other Adem students"
+          }
+        }
+      }
+    },
+    "osal": {
+      "name": "Osal",
+      "aliases": [],
+      "appearances": [87, 88, 89, 90],
+      "knowledge": {
+        "87": {
+          "revealedIn": 87,
+          "description": "An Adem student who challenges Kvothe's worthiness, skeptical of outsiders learning their ways.",
+          "role": "Adem student",
+          "relationships": {
+            "Challenges": "Kvothe",
+            "Fellow of": "Carceret"
+          }
+        }
+      }
+    },
+    "rethe": {
+      "name": "Rethe",
+      "aliases": ["The legendary Adem warrior"],
+      "appearances": [85, 86, 87, 91],
+      "knowledge": {
+        "85": {
+          "revealedIn": 85,
+          "description": "A legendary Adem warrior from history, mentioned in stories and teachings at Haert.",
+          "role": "Legendary warrior",
+          "relationships": {
+            "Historical figure of": "Adem culture",
+            "Mentioned by": "Adem teachers"
+          }
+        }
+      }
+    },
+    "fae-servants": {
+      "name": "Fae Servants",
+      "aliases": ["Felurian's servants"],
+      "appearances": [63, 64, 65, 66, 67, 68, 69, 70],
+      "knowledge": {
+        "63": {
+          "revealedIn": 63,
+          "description": "Various fae creatures that serve Felurian in her realm, tending to her needs.",
+          "role": "Fae servants",
+          "relationships": {
+            "Serves": "Felurian",
+            "Lives in": "Fae realm"
+          }
+        }
+      }
+    },
+    "bast-relatives": {
+      "name": "Bast's Relatives",
+      "aliases": ["Twilight Court family"],
+      "appearances": [70, 71, 72],
+      "knowledge": {
+        "70": {
+          "revealedIn": 70,
+          "description": "Members of Bast's fae family in the Twilight Court, mentioned in stories about fae politics.",
+          "role": "Fae nobility",
+          "relationships": {
+            "Family of": "Bast",
+            "Members of": "Twilight Court"
+          }
+        }
+      }
+    },
+    "lackless-servants": {
+      "name": "Lackless Servants",
+      "aliases": ["Estate staff"],
+      "appearances": [35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Servants working for the Lackless family, attending to Meluan and the household.",
+          "role": "Noble servants",
+          "relationships": {
+            "Serves": "Meluan Lackless",
+            "Works for": "Lackless family"
+          }
+        }
+      }
+    },
+    "severen-nobles": {
+      "name": "Severen Nobles",
+      "aliases": ["Court nobility"],
+      "appearances": [30, 31, 32, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Various nobles attending the Maer's court, participating in politics and social events.",
+          "role": "Court nobility",
+          "relationships": {
+            "Members of": "Severen court",
+            "Attend": "Court functions"
+          }
+        }
+      }
+    },
+    "bandit-followers": {
+      "name": "Bandit Followers",
+      "aliases": ["Cinder's bandits"],
+      "appearances": [48, 49, 50, 51],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Bandits following Cinder, more dangerous than ordinary criminals due to their supernatural leader.",
+          "role": "Supernatural bandits",
+          "relationships": {
+            "Follows": "Cinder",
+            "Led by": "Chandrian"
+          }
+        }
+      }
+    },
+    "ship-captain": {
+      "name": "Ship Captain",
+      "aliases": ["Captain"],
+      "appearances": [94, 95, 96, 97],
+      "knowledge": {
+        "94": {
+          "revealedIn": 94,
+          "description": "The captain of a ship that transports Kvothe during his journey back from Ademre.",
+          "role": "Ship captain",
+          "relationships": {
+            "Transports": "Kvothe",
+            "Commands": "Ship crew"
+          }
+        }
+      }
+    },
+    "ship-crew": {
+      "name": "Ship Crew",
+      "aliases": ["Sailors"],
+      "appearances": [94, 95, 96, 97],
+      "knowledge": {
+        "94": {
+          "revealedIn": 94,
+          "description": "The crew of the ship that carries Kvothe, working under the captain.",
+          "role": "Ship crew",
+          "relationships": {
+            "Works under": "Ship Captain",
+            "Transports": "Passengers"
+          }
+        }
+      }
+    },
+    "denna-suitors": {
+      "name": "Denna's Suitors",
+      "aliases": ["Various admirers"],
+      "appearances": [98, 99, 100, 101, 102, 103],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "Various men who court Denna, providing her with gifts and attention.",
+          "role": "Romantic interests",
+          "relationships": {
+            "Courts": "Denna",
+            "Competes with": "Kvothe"
+          }
+        }
+      }
+    },
+    "university-students-new": {
+      "name": "New University Students",
+      "aliases": ["Fresh students"],
+      "appearances": [109, 110, 111, 112, 113, 114, 115],
+      "knowledge": {
+        "109": {
+          "revealedIn": 109,
+          "description": "New students who have arrived at the University since Kvothe's absence.",
+          "role": "New students",
+          "relationships": {
+            "Studies at": "University",
+            "Newcomers to": "Academic life"
+          }
+        }
+      }
+    },
+    "imre-musicians": {
+      "name": "Imre Musicians",
+      "aliases": ["Local performers"],
+      "appearances": [98, 99, 100, 109, 111],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "Musicians performing in Imre's various establishments, competing for audiences.",
+          "role": "Local musicians",
+          "relationships": {
+            "Performs in": "Imre",
+            "Competes with": "Kvothe"
+          }
+        }
+      }
+    },
+    "cthaeh-guardians": {
+      "name": "Cthaeh Guardians",
+      "aliases": ["Sithe"],
+      "appearances": [71, 72, 76, 77],
+      "knowledge": {
+        "71": {
+          "revealedIn": 71,
+          "description": "Fae guardians who watch over the Cthaeh, preventing others from reaching the malevolent oracle.",
+          "role": "Fae guardians",
+          "relationships": {
+            "Guards": "The Cthaeh",
+            "Prevents access to": "Dangerous knowledge"
+          }
+        }
+      }
+    },
+    "kilvin-students": {
+      "name": "Kilvin's Students",
+      "aliases": ["Artificery students"],
+      "appearances": [14, 16, 22, 110, 111, 114, 116],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Students studying artificery under Master Kilvin, learning to create magical devices.",
+          "role": "Artificery students",
+          "relationships": {
+            "Studies under": "Master Kilvin",
+            "Classmates of": "Kvothe"
+          }
+        }
+      }
+    },
+    "elodin-students": {
+      "name": "Elodin's Students",
+      "aliases": ["Naming students"],
+      "appearances": [16, 17, 20, 21, 110, 113, 115, 116, 118],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The few students studying naming under Master Elodin's unconventional teaching.",
+          "role": "Naming students",
+          "relationships": {
+            "Studies under": "Master Elodin",
+            "Fellow student": "Kvothe"
+          }
+        }
+      }
+    },
+    "uresh-eolian": {
+      "name": "Uresh",
+      "aliases": ["Eolian musician"],
+      "appearances": [98, 99, 109, 111],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "A skilled musician performing at the Eolian, one of the regular entertainers.",
+          "role": "Professional musician",
+          "relationships": {
+            "Performs at": "The Eolian",
+            "Colleague of": "Other musicians"
+          }
+        }
+      }
+    },
+    "timothy-eolian": {
+      "name": "Timothy",
+      "aliases": ["Eolian performer"],
+      "appearances": [98, 99, 109, 111],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "Another musician at the Eolian, part of the regular performance roster.",
+          "role": "Musician",
+          "relationships": {
+            "Performs at": "The Eolian",
+            "Competes with": "Other performers"
+          }
+        }
+      }
+    },
+    "marie-eolian": {
+      "name": "Marie",
+      "aliases": ["Eolian serving girl"],
+      "appearances": [98, 99, 109, 111],
+      "knowledge": {
+        "98": {
+          "revealedIn": 98,
+          "description": "A serving girl at the Eolian, working to serve drinks and food to patrons.",
+          "role": "Serving girl",
+          "relationships": {
+            "Works at": "The Eolian",
+            "Serves": "Patrons and musicians"
+          }
+        }
+      }
+    },
+    "lackless-family": {
+      "name": "Lackless Family",
+      "aliases": ["Noble family"],
+      "appearances": [37, 38, 39, 40, 125, 126],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Members of the powerful Lackless noble family, related to Meluan.",
+          "role": "Noble family",
+          "relationships": {
+            "Family of": "Meluan Lackless",
+            "Related to": "Kvothe's mother"
+          }
+        }
+      }
+    },
+    "haert-residents": {
+      "name": "Haert Residents",
+      "aliases": ["Adem townspeople"],
+      "appearances": [79, 80, 81, 82, 83, 84, 85],
+      "knowledge": {
+        "79": {
+          "revealedIn": 79,
+          "description": "Residents of Haert, the town where the Adem warrior school is located.",
+          "role": "Town residents",
+          "relationships": {
+            "Lives in": "Haert",
+            "Supports": "Adem school"
+          }
+        }
+      }
+    },
+    "adem-merchants": {
+      "name": "Adem Merchants",
+      "aliases": ["Haert traders"],
+      "appearances": [79, 80, 81, 82, 83, 84],
+      "knowledge": {
+        "79": {
+          "revealedIn": 79,
+          "description": "Merchants operating in Haert, trading with the Adem and visitors.",
+          "role": "Merchants",
+          "relationships": {
+            "Trades in": "Haert",
+            "Serves": "Adem community"
+          }
+        }
+      }
+    },
+    "fae-creatures": {
+      "name": "Fae Creatures",
+      "aliases": ["Fairy beings"],
+      "appearances": [63, 64, 65, 66, 67, 68, 69, 70, 71, 72],
+      "knowledge": {
+        "63": {
+          "revealedIn": 63,
+          "description": "Various supernatural creatures inhabiting the Fae realm, with their own natures and purposes.",
+          "role": "Fae beings",
+          "relationships": {
+            "Lives in": "Fae realm",
+            "Interacts with": "Kvothe, Felurian"
+          }
+        }
+      }
+    },
+    "mortal-realm-travelers": {
+      "name": "Mortal Realm Travelers",
+      "aliases": ["Fellow travelers"],
+      "appearances": [94, 95, 96, 97],
+      "knowledge": {
+        "94": {
+          "revealedIn": 94,
+          "description": "Other travelers Kvothe encounters on his journey back to civilization from Ademre.",
+          "role": "Travelers",
+          "relationships": {
+            "Fellow travelers": "Kvothe",
+            "Journeys through": "Commonwealth"
+          }
+        }
+      }
+    },
+    "university-masters-council": {
+      "name": "University Masters Council",
+      "aliases": ["The Masters"],
+      "appearances": [110, 111, 114, 115, 117, 119, 120],
+      "knowledge": {
+        "110": {
+          "revealedIn": 110,
+          "description": "The collective body of University Masters who make decisions about students and policies.",
+          "role": "Academic authority",
+          "relationships": {
+            "Governs": "University",
+            "Judges": "Student matters"
+          }
+        }
+      }
+    },
+    "archives-staff": {
+      "name": "Archives Staff",
+      "aliases": ["Library workers"],
+      "appearances": [20, 116, 117, 120],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Various staff members working in the Archives under Master Lorren.",
+          "role": "Library staff",
+          "relationships": {
+            "Works under": "Master Lorren",
+            "Maintains": "Archives collection"
+          }
+        }
+      }
+    },
+    "vintish-nobles": {
+      "name": "Vintish Nobles",
+      "aliases": ["Vintas nobility"],
+      "appearances": [27, 28, 29, 30, 31, 32],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Nobles from various parts of Vintas who interact with or visit the Maer's court.",
+          "role": "Regional nobility",
+          "relationships": {
+            "Part of": "Vintas nobility",
+            "Interacts with": "Maer's court"
+          }
+        }
+      }
+    },
+    "commonwealth-citizens": {
+      "name": "Commonwealth Citizens",
+      "aliases": ["Local people"],
+      "appearances": [23, 24, 25, 26, 94, 95, 96, 97],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Citizens of the Commonwealth that Kvothe encounters during his travels.",
+          "role": "Citizens",
+          "relationships": {
+            "Lives in": "Commonwealth",
+            "Encounters": "Kvothe"
+          }
+        }
+      }
+    },
+    "road-bandits": {
+      "name": "Road Bandits",
+      "aliases": ["Highway robbers"],
+      "appearances": [42, 43, 44, 45, 46, 47],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Ordinary bandits plaguing the roads before Cinder's supernatural group is encountered.",
+          "role": "Common criminals",
+          "relationships": {
+            "Threatens": "Travelers",
+            "Operates on": "Trade routes"
+          }
+        }
+      }
     }
   },
   "recaps": {
