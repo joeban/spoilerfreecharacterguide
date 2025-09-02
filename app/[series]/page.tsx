@@ -3,6 +3,39 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import SeriesBookshelf from '@/components/SeriesBookshelf';
 import Breadcrumb from '@/components/Breadcrumb';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ series: string }>
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const series = await getSeries(resolvedParams.series);
+  
+  if (!series) {
+    return {
+      title: 'Series Not Found'
+    };
+  }
+
+  const bookCount = Object.keys(series.books).length;
+  
+  return {
+    title: `${series.title} Character Guide - All ${bookCount} Books Spoiler-Free`,
+    description: `Complete spoiler-free character guide for ${series.title} by ${series.author}. Track characters across all ${bookCount} books without spoilers. Choose your chapter and read safely.`,
+    keywords: [`${series.title} characters`, `${series.title} character guide`, `${series.author} books`, 'spoiler-free guide', 'no spoilers', `${series.title} reading guide`],
+    alternates: {
+      canonical: `https://spoilerfreecharacterguide.com/${resolvedParams.series}`
+    },
+    openGraph: {
+      title: `${series.title} - Spoiler-Free Character Guide`,
+      description: `Track every character in ${series.title} by ${series.author} without spoilers. ${bookCount} books covered.`,
+      url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}`,
+      type: 'website'
+    }
+  };
+}
 
 export default async function SeriesPage({
   params
@@ -70,7 +103,7 @@ export default async function SeriesPage({
                       <div key={index} className="relative overflow-hidden">
                         <img 
                           src={coverUrl}
-                          alt={`${series.title} book ${index + 1} cover`}
+                          alt={`${series.title} book ${index + 1} cover - ${series.author} - Spoiler-Free Character Guide`}
                           className="w-full h-full object-cover"
                           loading="lazy"
                         />

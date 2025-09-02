@@ -6,6 +6,43 @@ import CharacterList from '@/components/CharacterList';
 import Breadcrumb from '@/components/Breadcrumb';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ series: string; book: string; chapter: string }>
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const chapterNum = parseInt(resolvedParams.chapter);
+  const series = await getSeries(resolvedParams.series);
+  const bookMeta = await getBookMeta(resolvedParams.series, resolvedParams.book);
+  const bookData = await loadBookData(resolvedParams.series, resolvedParams.book);
+  
+  if (!series || !bookMeta || !bookData || isNaN(chapterNum)) {
+    return {
+      title: 'Chapter Not Found'
+    };
+  }
+
+  const { inThisChapter, previouslySeen } = getCharactersForChapter(bookData, chapterNum);
+  const totalCharacters = inThisChapter.length + previouslySeen.length;
+  
+  return {
+    title: `${bookMeta.title} Chapter ${chapterNum} Characters - Spoiler-Free Guide`,
+    description: `Characters in ${bookMeta.title} Chapter ${chapterNum} without spoilers. See ${inThisChapter.length} characters appearing in this chapter plus ${previouslySeen.length} previously introduced. Safe reading guide.`,
+    keywords: [`${bookMeta.title} chapter ${chapterNum}`, `chapter ${chapterNum} characters`, `${series.title} spoiler-free`, 'no spoilers chapter guide', `${series.author}`],
+    alternates: {
+      canonical: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}/${chapterNum}`
+    },
+    openGraph: {
+      title: `Chapter ${chapterNum} - ${bookMeta.title} Character Guide`,
+      description: `Track ${totalCharacters} characters in Chapter ${chapterNum} of ${bookMeta.title} without any spoilers.`,
+      url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}/${chapterNum}`,
+      type: 'article'
+    }
+  };
+}
 
 export default async function ChapterPage({
   params
@@ -97,7 +134,7 @@ export default async function ChapterPage({
                   {coverImageUrl ? (
                     <img 
                       src={coverImageUrl}
-                      alt={`${bookMeta.title} cover`}
+                      alt={`${bookMeta.title} by ${series.author} - Book Cover - Spoiler-Free Character Guide`}
                       className="w-36 h-auto"
                       loading="lazy"
                     />

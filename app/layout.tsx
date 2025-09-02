@@ -5,8 +5,55 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export const metadata: Metadata = {
-  title: 'Spoiler-Free Character Guide',
-  description: 'A trusted resource for tracking characters in fantasy and science fiction novels without spoilers',
+  metadataBase: new URL('https://spoilerfreecharacterguide.com'),
+  title: {
+    default: 'Spoiler-Free Character Guide - Track Book Characters Without Spoilers',
+    template: '%s | Spoiler-Free Character Guide'
+  },
+  description: 'Track characters in fantasy & sci-fi books without spoilers. Choose your chapter and see only what you need to know. Covers Harry Potter, Percy Jackson, LOTR, Dune & more.',
+  keywords: ['spoiler-free', 'character guide', 'book characters', 'fantasy books', 'sci-fi books', 'reading companion', 'no spoilers', 'chapter by chapter'],
+  authors: [{ name: 'Spoiler-Free Character Guide' }],
+  creator: 'Spoiler-Free Character Guide',
+  publisher: 'Spoiler-Free Character Guide',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://spoilerfreecharacterguide.com',
+    siteName: 'Spoiler-Free Character Guide',
+    title: 'Spoiler-Free Character Guide - Track Book Characters Without Spoilers',
+    description: 'Track characters in fantasy & sci-fi books without spoilers. Choose your chapter and see only what you need to know.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Spoiler-Free Character Guide'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Spoiler-Free Character Guide',
+    description: 'Track characters in fantasy & sci-fi books without spoilers',
+    images: ['/og-image.jpg']
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'google-site-verification-code',
+  },
+  alternates: {
+    canonical: 'https://spoilerfreecharacterguide.com'
+  }
 }
 
 export default function RootLayout({

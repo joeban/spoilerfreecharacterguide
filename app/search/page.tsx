@@ -1,6 +1,19 @@
 import { getAllSeries } from '@/lib/dataLoader';
 import Link from 'next/link';
 import BookSpine from '@/components/BookSpine';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Search Fantasy & Sci-Fi Books - Find Character Guides',
+  description: 'Search our collection of spoiler-free character guides. Find your favorite fantasy and sci-fi series including Harry Potter, Percy Jackson, LOTR, Dune and more.',
+  alternates: {
+    canonical: 'https://spoilerfreecharacterguide.com/search'
+  },
+  robots: {
+    index: false,
+    follow: true
+  }
+};
 
 interface SearchResult {
   type: 'series' | 'book';

@@ -4,6 +4,41 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import ChapterSelector from '@/components/ChapterSelector';
 import Breadcrumb from '@/components/Breadcrumb';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ series: string; book: string }>
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const series = await getSeries(resolvedParams.series);
+  const bookMeta = await getBookMeta(resolvedParams.series, resolvedParams.book);
+  const bookData = await loadBookData(resolvedParams.series, resolvedParams.book);
+  
+  if (!series || !bookMeta) {
+    return {
+      title: 'Book Not Found'
+    };
+  }
+
+  const characterCount = bookData ? Object.keys(bookData.characters).length : 0;
+  
+  return {
+    title: `${bookMeta.title} Characters - ${characterCount}+ Characters Chapter by Chapter`,
+    description: `Spoiler-free character guide for ${bookMeta.title} by ${series.author}. Track ${characterCount}+ characters across ${bookMeta.chapters} chapters without spoilers. Perfect reading companion.`,
+    keywords: [`${bookMeta.title} characters`, `${bookMeta.title} character list`, `${series.title} books`, 'chapter by chapter guide', 'spoiler-free reading', `${series.author}`],
+    alternates: {
+      canonical: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}`
+    },
+    openGraph: {
+      title: `${bookMeta.title} - Spoiler-Free Character Guide`,
+      description: `Track all ${characterCount}+ characters in ${bookMeta.title} without spoilers. ${bookMeta.chapters} chapters covered.`,
+      url: `https://spoilerfreecharacterguide.com/${resolvedParams.series}/${resolvedParams.book}`,
+      type: 'book'
+    }
+  };
+}
 
 export default async function BookPage({
   params
@@ -81,7 +116,7 @@ export default async function BookPage({
                 {coverImageUrl ? (
                   <img 
                     src={coverImageUrl}
-                    alt={`${bookMeta.title} cover`}
+                    alt={`${bookMeta.title} by ${series.author} - Book Cover - Spoiler-Free Character Guide`}
                     className="w-36 h-auto"
                     loading="lazy"
                   />
