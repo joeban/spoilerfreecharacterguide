@@ -80,13 +80,10 @@ export default async function BookPage({
     <div className="container mx-auto px-4 py-6">
       <Breadcrumb items={breadcrumbItems} />
       
-      <div className="text-center mb-4">
-        <h1 className="text-3xl md:text-4xl font-display mb-2 text-amber-50 text-shadow-subtle">
+      <div className="text-center mb-6">
+        <h1 className="text-3xl md:text-4xl font-display text-amber-50 text-shadow-subtle">
           {bookMeta.title}
         </h1>
-        <p className="text-lg text-amber-100 font-serif">
-          {bookMeta.chapters} Chapters
-        </p>
       </div>
       
       {/* Chapter selector - First */}

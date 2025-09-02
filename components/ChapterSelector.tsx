@@ -113,25 +113,23 @@ export default function ChapterSelector({
   // Show go button when on book page (currentChapter === 0) or when chapter differs from current
   const showGoButton = currentChapter === 0 || (selectedChapter !== currentChapter && !isInvalid);
   
-  // Determine header text
-  const headerText = currentChapter === 0 
-    ? 'Select Your Chapter' 
-    : (currentChapter === selectedChapter ? 'Current Chapter' : 'Select Chapter');
-
   return (
     <div className="flex flex-col items-center space-y-4">
-      <h3 className="text-lg font-display text-center">
-        {headerText}
-      </h3>
-      
       <div className="parchment-panel px-6 py-4">
+        {/* Header text inside the panel */}
+        {currentChapter === 0 && (
+          <h3 className="text-lg font-display text-center text-parchment-primary mb-4 uppercase tracking-wider">
+            Select Your Chapter
+          </h3>
+        )}
+        
         <div className="flex items-center gap-3">
           {/* Decrement button */}
           <button
             onClick={handleDecrement}
             disabled={selectedChapter <= 1}
             className={clsx(
-              'w-10 h-10 rounded-full flex items-center justify-center transition-all',
+              'w-12 h-12 rounded-full flex items-center justify-center transition-all',
               'bg-gradient-to-b from-amber-700 to-amber-800 border border-amber-900',
               'hover:from-amber-600 hover:to-amber-700 hover:shadow-lg',
               'active:scale-95',
@@ -140,7 +138,7 @@ export default function ChapterSelector({
             title="Previous chapter"
             aria-label="Previous chapter"
           >
-            <span className="text-amber-100 text-xl font-bold">−</span>
+            <span className="text-amber-100 text-2xl font-bold">−</span>
           </button>
 
           {/* Chapter input */}
@@ -152,7 +150,7 @@ export default function ChapterSelector({
               onBlur={handleInputBlur}
               onKeyDown={handleKeyDown}
               className={clsx(
-                'w-20 h-12 text-center text-lg font-display',
+                'w-24 h-16 text-center text-3xl font-display font-bold',
                 'bg-amber-50 border-2 rounded-md',
                 'focus:outline-none focus:ring-2 focus:ring-amber-500',
                 'transition-all',
@@ -164,7 +162,7 @@ export default function ChapterSelector({
               )}
               style={{ appearance: 'textfield' }}
             />
-            <div className="text-xs text-amber-700 text-center mt-1">
+            <div className="text-base text-amber-700 text-center mt-1 font-medium">
               of {totalChapters}
             </div>
           </div>
@@ -174,7 +172,7 @@ export default function ChapterSelector({
             onClick={handleIncrement}
             disabled={selectedChapter >= totalChapters}
             className={clsx(
-              'w-10 h-10 rounded-full flex items-center justify-center transition-all',
+              'w-12 h-12 rounded-full flex items-center justify-center transition-all',
               'bg-gradient-to-b from-amber-700 to-amber-800 border border-amber-900',
               'hover:from-amber-600 hover:to-amber-700 hover:shadow-lg',
               'active:scale-95',
@@ -183,7 +181,7 @@ export default function ChapterSelector({
             title="Next chapter"
             aria-label="Next chapter"
           >
-            <span className="text-amber-100 text-xl font-bold">+</span>
+            <span className="text-amber-100 text-2xl font-bold">+</span>
           </button>
         </div>
 
