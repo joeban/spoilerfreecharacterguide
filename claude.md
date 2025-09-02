@@ -625,9 +625,19 @@ None currently - all configured series have complete book coverage!
   - 🟢 Mockingjay: 150 characters, all recaps, v2.0
   - 🟢 The Ballad of Songbirds and Snakes: 151 characters, all recaps, v2.0
 
+- ✅ **The Expanse** (9 books)
+  - 🟢 Leviathan Wakes: 110 characters, all recaps, v2.0
+  - 🟢 Caliban's War: 105 characters, all recaps, v2.0
+  - 🟢 Abaddon's Gate: 100 characters, all recaps, v2.0
+  - 🟢 Cibola Burn: 101 characters, all recaps, v2.0
+  - 🟡 Nemesis Games: 73 characters, all recaps, v2.0
+  - 🟡 Babylon's Ashes: 55 characters, all recaps, v2.0
+  - 🟡 Persepolis Rising: 57 characters, all recaps, v2.0
+  - 🟡 Tiamat's Wrath: 54 characters, all recaps, v2.0
+  - 🟡 Leviathan Falls: 57 characters, all recaps, v2.0
+
 ### Not Started (Configured but no data)
 - ❌ **Mistborn/Cosmere** (0 of 7 books - 1 partial file exists)
-- ❌ **The Expanse** (0 of 9 books)
 - ❌ **Foundation** (0 of 5 books)
 - ❌ **Kingkiller Chronicle** (0 of 2 books)
 - ❌ **Wings of Fire** (0 of 5 books)
@@ -648,8 +658,8 @@ Priority books that need upgrading to Comprehensive (🟢) coverage:
 4. ~~**Shadow and Bone/Grishaverse**~~ ✅ COMPLETE - Netflix adaptation boost
 
 ### Remaining Priority Series to Add
-1. **The Expanse** - TV show fanbase, sci-fi audience (NEXT PRIORITY)
-2. **Kingkiller Chronicle** - Highly searched, awaiting book 3
+1. **Kingkiller Chronicle** - Highly searched, awaiting book 3 (NEXT PRIORITY)
+2. **Wings of Fire** - Young reader audience, very popular
 3. **Wings of Fire** - Young reader audience, very popular
 4. **Foundation** - Apple TV+ adaptation, classic sci-fi
 5. **Discworld** - Terry Pratchett's massive fanbase
@@ -657,9 +667,9 @@ Priority books that need upgrading to Comprehensive (🟢) coverage:
 
 ## Project Statistics (as of latest update)
 - **Total Series Configured**: 20 series
-- **Fully Complete Series**: 16 series (80% coverage)
-- **Total Books with Data**: 79 books
-- **Total Characters**: 6,000+ unique characters across all series
+- **Fully Complete Series**: 17 series (85% coverage)
+- **Total Books with Data**: 88 books
+- **Total Characters**: 7,000+ unique characters across all series
 - **Total Indexed Pages**: 4,600+ URLs in sitemap
 - **All complete books have**: Full chapter recaps, comprehensive character coverage, v2.0 schema
 - **SEO Implementation**: Complete with structured data, sitemap, metadata optimization
