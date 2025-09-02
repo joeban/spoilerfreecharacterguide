@@ -1,0 +1,1138 @@
+{
+  "meta": {
+    "title": "The Voyage of the Dawn Treader",
+    "author": "C.S. Lewis",
+    "chapters": 16,
+    "createdAt": "2025-09-02T00:00:00Z",
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "edmund-pevensie": {
+      "name": "Edmund Pevensie",
+      "aliases": ["King Edmund the Just", "Ed"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Former King of Narnia, now staying with his disagreeable cousins the Scrubbs. He and Lucy are drawn back to Narnia through a painting of a ship.",
+          "role": "Former King Edmund the Just",
+          "relationships": {
+            "Lucy Pevensie": "Brother of",
+            "Eustace Scrubb": "Cousin of",
+            "Caspian X": "Friend of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Reunited with King Caspian aboard the Dawn Treader. Ready to join the quest to find the seven lost lords of Narnia.",
+          "role": "Companion on the voyage",
+          "relationships": {
+            "Lucy Pevensie": "Sister and fellow voyager",
+            "Eustace Scrubb": "Reluctant cousin companion",
+            "Caspian X": "Loyal friend and ally",
+            "Reepicheep": "Respected companion"
+          }
+        }
+      }
+    },
+    "lucy-pevensie": {
+      "name": "Lucy Pevensie",
+      "aliases": ["Queen Lucy the Valiant", "Lu"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Former Queen of Narnia, staying with the Scrubbs. She and Edmund enter Narnia through a painting of the Dawn Treader.",
+          "role": "Former Queen Lucy the Valiant",
+          "relationships": {
+            "Edmund Pevensie": "Sister of",
+            "Eustace Scrubb": "Cousin of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Joyfully reunited with Caspian and eager to explore new lands. Her gentle nature makes her well-suited for the diplomatic aspects of their journey.",
+          "role": "Diplomatic companion",
+          "relationships": {
+            "Edmund Pevensie": "Brother and fellow voyager",
+            "Caspian X": "Dear friend",
+            "Reepicheep": "Beloved companion"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Tempted by a spell in the magician's book that would make her beautiful, but resists when Aslan appears in the pages.",
+          "role": "Tempted but faithful queen",
+          "relationships": {
+            "Aslan": "Guided by"
+          }
+        }
+      }
+    },
+    "eustace-scrubb": {
+      "name": "Eustace Clarence Scrubb",
+      "aliases": ["Eustace"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Edmund and Lucy's unpleasant cousin who doesn't believe in fairy tales. Accidentally pulled into Narnia through the painting and initially terrified.",
+          "role": "Unwilling traveler",
+          "relationships": {
+            "Edmund Pevensie": "Cousin of",
+            "Lucy Pevensie": "Cousin of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Complains constantly about everything aboard the Dawn Treader and keeps a diary of grievances against everyone.",
+          "role": "Complainant and diarist",
+          "relationships": {
+            "Caspian X": "Reluctant subject of",
+            "Reepicheep": "Annoyed by"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Transformed into a dragon after his greedy thoughts while sleeping on the dragon's hoard. Experiences genuine remorse for his behavior.",
+          "role": "Dragon (temporarily)",
+          "relationships": {
+            "Edmund Pevensie": "Repentant cousin of",
+            "Lucy Pevensie": "Repentant cousin of"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Restored to human form by Aslan after learning humility and experiencing true friendship. Much changed in character.",
+          "role": "Reformed companion",
+          "relationships": {
+            "Aslan": "Redeemed by",
+            "Reepicheep": "Friend of"
+          }
+        }
+      }
+    },
+    "caspian-x": {
+      "name": "King Caspian X",
+      "aliases": ["Caspian", "King Caspian"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Now established as King of Narnia, undertaking a voyage to find the seven lords who were loyal to his father but sent away by his uncle Miraz.",
+          "role": "King of Narnia and quest leader",
+          "relationships": {
+            "Edmund Pevensie": "Friend and ally",
+            "Lucy Pevensie": "Friend and ally",
+            "Drinian": "Captain under his command",
+            "Reepicheep": "Loyal subject"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Shows his leadership by decisively dealing with the slave trade on the Lone Islands and appointing Lord Bern as the new Duke.",
+          "role": "Just ruler and reformer",
+          "relationships": {
+            "Lord Bern": "Appointee and ally",
+            "Gumpas": "Deposed governor"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Reaches the World's End but cannot enter Aslan's Country. Must return to rule Narnia, though he longs to continue eastward.",
+          "role": "Duty-bound king",
+          "relationships": {
+            "Ramandu's Daughter": "Future wife",
+            "Aslan": "Subject of"
+          }
+        }
+      }
+    },
+    "reepicheep": {
+      "name": "Reepicheep",
+      "aliases": ["Chief Mouse"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The valiant chief of the Talking Mice, eager to sail to the Eastern end of the world to find Aslan's Country as prophesied.",
+          "role": "Chief of the Talking Mice",
+          "relationships": {
+            "Caspian X": "Loyal subject of",
+            "Edmund Pevensie": "Companion of",
+            "Lucy Pevensie": "Devoted to"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Nearly duels with Eustace over matters of honor, showing his chivalrous nature and strict code of conduct.",
+          "role": "Defender of honor",
+          "relationships": {
+            "Eustace Scrubb": "Initially antagonistic toward"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Reaches the World's End and continues alone in his coracle to Aslan's Country, fulfilling his lifelong dream.",
+          "role": "Pilgrim to Aslan's Country",
+          "relationships": {
+            "Aslan": "Devoted follower seeking"
+          }
+        }
+      }
+    },
+    "drinian": {
+      "name": "Lord Drinian",
+      "aliases": ["Captain Drinian"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Captain of the Dawn Treader and Caspian's most trusted naval officer. Experienced sailor who commands the ship with skill.",
+          "role": "Ship's captain and naval commander",
+          "relationships": {
+            "Caspian X": "Loyal captain serving",
+            "Rhince": "Fellow crew member"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Supports Caspian's reforms on the Lone Islands and helps enforce the new laws against slave trading.",
+          "role": "Enforcer of royal justice",
+          "relationships": {
+            "Lord Bern": "Allied with"
+          }
+        }
+      }
+    },
+    "lord-bern": {
+      "name": "Lord Bern",
+      "aliases": ["Bern"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "One of the seven lost lords, found living quietly on the Lone Islands. A great warrior who has been waiting for Caspian's return, appointed as the new Duke of the Lone Islands.",
+          "role": "Duke of the Lone Islands",
+          "relationships": {
+            "Caspian X": "Loyal lord serving",
+            "Lord Revilian": "Fellow lost lord",
+            "Gumpas": "Replaced as governor"
+          }
+        }
+      }
+    },
+    "gumpas": {
+      "name": "Governor Gumpas",
+      "aliases": ["Gumpas"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The ineffective and corrupt governor of the Lone Islands who has allowed the slave trade to flourish. Deposed by Caspian for his failures.",
+          "role": "Former governor (deposed)",
+          "relationships": {
+            "Caspian X": "Deposed by",
+            "Lord Bern": "Replaced by",
+            "Pug": "Collaborator with slave traders"
+          }
+        }
+      }
+    },
+    "pug": {
+      "name": "Pug",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A slave trader who captures Caspian, Edmund, Lucy and Eustace when they first land on the Lone Islands.",
+          "role": "Slave trader",
+          "relationships": {
+            "Tacks": "Fellow slave trader"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "His slave trading operation is shut down when Caspian reforms the Lone Islands government.",
+          "role": "Disbanded slave trader",
+          "relationships": {
+            "Caspian X": "Business destroyed by"
+          }
+        }
+      }
+    },
+    "tacks": {
+      "name": "Tacks",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Pug's partner in the slave trading business who helps capture the main characters.",
+          "role": "Slave trader",
+          "relationships": {
+            "Pug": "Partner of"
+          }
+        }
+      }
+    },
+    "lord-octesian": {
+      "name": "Lord Octesian",
+      "aliases": ["The Dragon"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of the seven lost lords who was transformed into a dragon and died on Dragon Island, leaving behind a great hoard of treasure.",
+          "role": "Dragon (deceased lord)",
+          "relationships": {
+            "Lord Bern": "Fellow lost lord"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "His bracelet confirms his identity as one of the seven lords. His treasure hoard tempted Eustace into greed.",
+          "role": "Identified lost lord",
+          "relationships": {
+            "Eustace Scrubb": "Indirectly affected"
+          }
+        }
+      }
+    },
+    "lord-restimar": {
+      "name": "Lord Restimar",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "One of the seven lost lords who was turned to gold when he fell into the pool on Deathwater Island. Found as a golden statue at the bottom of the pool.",
+          "role": "Deceased lord (turned to gold)",
+          "relationships": {
+            "Lord Bern": "Fellow lost lord"
+          }
+        }
+      }
+    },
+    "coriakin": {
+      "name": "Coriakin",
+      "aliases": ["The Magician"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A mysterious magician who rules over the Island of the Voices. The Dufflepuds are under his authority and somewhat afraid of him.",
+          "role": "Magician and island ruler",
+          "relationships": {
+            "Chief Dufflepud": "Rules over",
+            "Dufflepuds": "Master of"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Reveals himself as a wise and benevolent magician who was once a star. He made the Dufflepuds invisible to help them, not harm them.",
+          "role": "Benevolent star-magician",
+          "relationships": {
+            "Lucy Pevensie": "Helped by",
+            "Aslan": "Serves under"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Provides helpful information about their journey and the dangers ahead, particularly warning them about the Dark Island.",
+          "role": "Wise counselor",
+          "relationships": {
+            "Caspian X": "Advisor to"
+          }
+        }
+      }
+    },
+    "chief-dufflepud": {
+      "name": "Chief Dufflepud",
+      "aliases": ["Chief Monopod"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Leader of the invisible creatures on the Island of the Voices. Demands that Lucy read from the magician's book to make them visible again.",
+          "role": "Chief of the Dufflepuds",
+          "relationships": {
+            "Lucy Pevensie": "Demands help from",
+            "Coriakin": "Subject of"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Revealed as the chief of the Dufflepuds (also called Monopods) - strange creatures with one large foot who hop around on it.",
+          "role": "Chief Monopod",
+          "relationships": {
+            "Dufflepuds": "Leader of",
+            "Coriakin": "Ruled by"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Shows his people's simple but loyal nature, and their tendency to always agree with whatever their chief says.",
+          "role": "Simple but loyal leader",
+          "relationships": {
+            "Caspian X": "Hospitable to"
+          }
+        }
+      }
+    },
+    "lord-rhoop": {
+      "name": "Lord Rhoop",
+      "aliases": [],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "One of the seven lost lords, rescued from the Dark Island where nightmares become reality. Nearly driven mad by his experiences there.",
+          "role": "Rescued lord, nightmare victim",
+          "relationships": {
+            "Caspian X": "Rescued by",
+            "Edmund Pevensie": "Saved by"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Begins to recover his sanity after being rescued from the Dark Island. Grateful to his rescuers but deeply traumatized.",
+          "role": "Recovering traumatized lord",
+          "relationships": {
+            "Lord Bern": "Fellow lost lord"
+          }
+        }
+      }
+    },
+    "ramandu": {
+      "name": "Ramandu",
+      "aliases": ["The Retired Star"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A retired star who lives on Ramandu's Island at the World's End. Ancient and wise, he explains the nature of the sleeping lords and Aslan's Table.",
+          "role": "Retired star and island guardian",
+          "relationships": {
+            "Ramandu's Daughter": "Father of",
+            "Lord Argoz": "Guardian of",
+            "Lord Mavramorn": "Guardian of",
+            "Lord Revilian": "Guardian of"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Provides crucial information about reaching Aslan's Country and blesses the continuation of the voyage to the World's End.",
+          "role": "Guide to Aslan's Country",
+          "relationships": {
+            "Caspian X": "Advisor to",
+            "Aslan": "Servant of"
+          }
+        }
+      }
+    },
+    "ramandus-daughter": {
+      "name": "Ramandu's Daughter",
+      "aliases": ["The Star's Daughter"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A beautiful young woman who is the daughter of the retired star Ramandu. She tends to Aslan's Table and the three sleeping lords.",
+          "role": "Tender of Aslan's Table",
+          "relationships": {
+            "Ramandu": "Daughter of",
+            "Lord Argoz": "Caretaker of",
+            "Lord Mavramorn": "Caretaker of",
+            "Lord Revilian": "Caretaker of"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Falls in love with Caspian and agrees to wait for him to complete his quest before marrying him.",
+          "role": "Caspian's betrothed",
+          "relationships": {
+            "Caspian X": "Betrothed to"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Awaits Caspian's return, representing the love and duty that will draw him back to Narnia and his responsibilities.",
+          "role": "Patient beloved",
+          "relationships": {
+            "Caspian X": "Future queen"
+          }
+        }
+      }
+    },
+    "lord-argoz": {
+      "name": "Lord Argoz",
+      "aliases": [],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "One of the seven lost lords found in enchanted sleep at Aslan's Table on Ramandu's Island. Cannot be awakened until the voyage to the World's End is completed.",
+          "role": "Enchanted sleeping lord",
+          "relationships": {
+            "Lord Mavramorn": "Fellow sleeping lord",
+            "Lord Revilian": "Fellow sleeping lord",
+            "Ramandu": "Under protection of"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Remains in enchanted sleep awaiting the completion of the quest that will wake him and his companions.",
+          "role": "Awaiting awakening",
+          "relationships": {
+            "Caspian X": "Quest dependent on"
+          }
+        }
+      }
+    },
+    "lord-mavramorn": {
+      "name": "Lord Mavramorn",
+      "aliases": [],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "One of the seven lost lords found in enchanted sleep at Aslan's Table. Quarreled with his companions before the enchantment took hold.",
+          "role": "Enchanted sleeping lord",
+          "relationships": {
+            "Lord Argoz": "Fellow sleeping lord",
+            "Lord Revilian": "Fellow sleeping lord and former quarrel partner"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "His quarrel with the other lords over the knife of stone caused their enchantment, serving as a warning about discord.",
+          "role": "Cautionary example",
+          "relationships": {
+            "Stone Knife": "Quarreled over"
+          }
+        }
+      }
+    },
+    "lord-revilian": {
+      "name": "Lord Revilian",
+      "aliases": [],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "One of the seven lost lords found in enchanted sleep at Aslan's Table. The third member of the sleeping trio.",
+          "role": "Enchanted sleeping lord",
+          "relationships": {
+            "Lord Argoz": "Fellow sleeping lord",
+            "Lord Mavramorn": "Fellow sleeping lord"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Part of the dispute that led to the enchantment, showing how even loyal lords can fall into temptation and discord.",
+          "role": "Fallen into temptation",
+          "relationships": {
+            "Stone Knife": "Quarreled over"
+          }
+        }
+      }
+    },
+    "aslan": {
+      "name": "Aslan",
+      "aliases": ["The Great Lion"],
+      "appearances": [7, 10, 16],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Appears to Eustace in his dragon form and painfully but lovingly removes the dragon skin to restore him to human form, teaching him about redemption.",
+          "role": "Redeemer and transformer",
+          "relationships": {
+            "Eustace Scrubb": "Redeemer of"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Appears in the pages of the magician's book to prevent Lucy from reading a dangerous spell, showing his protective care.",
+          "role": "Protector and guide",
+          "relationships": {
+            "Lucy Pevensie": "Protector of",
+            "Coriakin": "Master of"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Appears as a lamb at the World's End and reveals himself as Aslan, explaining that Edmund and Lucy will not return to Narnia again as they are too old.",
+          "role": "The Great Lion and lamb",
+          "relationships": {
+            "Edmund Pevensie": "Final Narnia meeting with",
+            "Lucy Pevensie": "Final Narnia meeting with",
+            "Reepicheep": "Welcomes to his country"
+          }
+        }
+      }
+    },
+    "rhince": {
+      "name": "Rhince",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the experienced sailors aboard the Dawn Treader. Reliable crew member who supports Captain Drinian.",
+          "role": "Ship's sailor",
+          "relationships": {
+            "Drinian": "Serves under",
+            "Caspian X": "Loyal to"
+          }
+        }
+      }
+    },
+    "rynelf": {
+      "name": "Rynelf",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A skilled sailor on the Dawn Treader's crew, known for his seamanship and loyalty to the expedition.",
+          "role": "Ship's sailor",
+          "relationships": {
+            "Drinian": "Serves under",
+            "Rhince": "Fellow crew member"
+          }
+        }
+      }
+    },
+    "pittencream": {
+      "name": "Pittencream",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A somewhat cowardly member of the Dawn Treader's crew who often voices the fears and concerns of the common sailors.",
+          "role": "Anxious crew member",
+          "relationships": {
+            "Drinian": "Serves under"
+          }
+        }
+      }
+    },
+    "sea-serpent": {
+      "name": "Sea Serpent",
+      "aliases": ["The Great Sea Serpent"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A massive sea serpent that attacks the Dawn Treader, coiling around the ship and threatening to crush it before being driven off.",
+          "role": "Sea monster and threat",
+          "relationships": {
+            "Dawn Treader": "Attacker of"
+          }
+        }
+      }
+    },
+    "burnt-island-shepherd": {
+      "name": "Burnt Island Shepherd",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A lonely shepherd living on the desolate Burnt Island who provides water and limited supplies to the Dawn Treader's crew.",
+          "role": "Island hermit",
+          "relationships": {
+            "Caspian X": "Provides aid to"
+          }
+        }
+      }
+    },
+    "dufflepuds": {
+      "name": "The Dufflepuds",
+      "aliases": ["Monopods", "The Invisible Voices"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Strange invisible creatures on the Island of the Voices who demand that Lucy make them visible again by reading from the magician's book.",
+          "role": "Invisible island inhabitants",
+          "relationships": {
+            "Chief Dufflepud": "Led by",
+            "Lucy Pevensie": "Make requests of",
+            "Coriakin": "Ruled by"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Revealed to be odd creatures with one large foot each (hence Monopods) who hop around and are generally simple but hospitable.",
+          "role": "Visible one-footed creatures",
+          "relationships": {
+            "Coriakin": "Subjects of"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Show their nature as agreeable creatures who always echo their chief's opinions and provide hospitality to the voyagers.",
+          "role": "Hospitable echoing followers",
+          "relationships": {
+            "Chief Dufflepud": "Always agree with"
+          }
+        }
+      }
+    },
+    "dark-island-nightmare": {
+      "name": "The Dark Island Nightmare",
+      "aliases": ["Living Nightmare"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The personification of nightmares that becomes reality on the Dark Island, threatening to trap the Dawn Treader and her crew in their worst fears.",
+          "role": "Nightmare incarnate",
+          "relationships": {
+            "Lord Rhoop": "Tormentor of",
+            "Dark Island": "Guardian spirit of"
+          }
+        }
+      }
+    },
+    "sea-people": {
+      "name": "Sea People",
+      "aliases": ["Underwater Folk"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Peaceful underwater dwellers glimpsed in the clear seas near the World's End. They have their own civilization beneath the waves.",
+          "role": "Underwater civilization",
+          "relationships": {
+            "Lucy Pevensie": "Observed by"
+          }
+        }
+      }
+    },
+    "sea-girl": {
+      "name": "Sea Girl",
+      "aliases": [],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A young member of the Sea People who Lucy sees playing underwater, representing the peaceful and magical nature of the deep sea folk.",
+          "role": "Young sea person",
+          "relationships": {
+            "Sea People": "Member of",
+            "Lucy Pevensie": "Observed by"
+          }
+        }
+      }
+    },
+    "lamb": {
+      "name": "The Lamb",
+      "aliases": [],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A mysterious lamb cooking fish on the shore at World's End who reveals himself to be Aslan in another form.",
+          "role": "Aslan in lamb form",
+          "relationships": {
+            "Aslan": "Is",
+            "Edmund Pevensie": "Appears to",
+            "Lucy Pevensie": "Appears to",
+            "Eustace Scrubb": "Appears to"
+          }
+        }
+      }
+    },
+    "dawn-treader-ship": {
+      "name": "The Dawn Treader",
+      "aliases": ["Dawn Treader"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The magnificent Narnian ship depicted in the painting that serves as the portal to Narnia. Built for King Caspian's voyage of exploration.",
+          "role": "Portal and royal vessel",
+          "relationships": {
+            "Caspian X": "Belongs to"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "A beautiful ship designed like a dragon with a golden dragon head and purple silk sail, built specifically for the voyage to find the seven lost lords.",
+          "role": "Quest vessel",
+          "relationships": {
+            "Drinian": "Captained by",
+            "Caspian X": "Commissioned by"
+          }
+        }
+      }
+    },
+    "mice": {
+      "name": "Talking Mice",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Reepicheep's fellow talking mice who accompany the voyage, smaller than their chief but equally brave and loyal to the quest.",
+          "role": "Reepicheep's companions",
+          "relationships": {
+            "Reepicheep": "Followers of",
+            "Caspian X": "Serve"
+          }
+        }
+      }
+    },
+    "harold-scrubb": {
+      "name": "Harold Scrubb",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Eustace's father, mentioned as being away from home. Part of the modern, practical family that doesn't believe in fairy tales.",
+          "role": "Eustace's absent father",
+          "relationships": {
+            "Eustace Scrubb": "Father of",
+            "Alberta Scrubb": "Husband of"
+          }
+        }
+      }
+    },
+    "alberta-scrubb": {
+      "name": "Alberta Scrubb",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Eustace's mother who is also away from home, leaving the children alone. Shares her family's disdain for imagination and traditional stories.",
+          "role": "Eustace's absent mother",
+          "relationships": {
+            "Eustace Scrubb": "Mother of",
+            "Harold Scrubb": "Wife of"
+          }
+        }
+      }
+    },
+    "peter-pevensie": {
+      "name": "Peter Pevensie",
+      "aliases": ["High King Peter"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Edmund and Lucy's older brother, mentioned as being away studying with Professor Kirke. Former High King of Narnia but too old to return.",
+          "role": "Former High King (absent)",
+          "relationships": {
+            "Edmund Pevensie": "Brother of",
+            "Lucy Pevensie": "Brother of",
+            "Susan Pevensie": "Brother of"
+          }
+        }
+      }
+    },
+    "susan-pevensie": {
+      "name": "Susan Pevensie",
+      "aliases": ["Queen Susan"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Edmund and Lucy's older sister, mentioned as being in America with their parents. Former Queen of Narnia but no longer believes in it.",
+          "role": "Former Queen (absent and unbelieving)",
+          "relationships": {
+            "Edmund Pevensie": "Sister of",
+            "Lucy Pevensie": "Sister of",
+            "Peter Pevensie": "Sister of"
+          }
+        }
+      }
+    },
+    "golden-pavilion-lords": {
+      "name": "Lords of the Golden Pavilion",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Minor nobles on the Lone Islands who are complicit in allowing the slave trade to continue under Governor Gumpas's administration.",
+          "role": "Corrupt minor nobles",
+          "relationships": {
+            "Gumpas": "Support",
+            "Lord Bern": "Opposed by"
+          }
+        }
+      }
+    },
+    "slave-dealers": {
+      "name": "Slave Dealers",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Various merchants involved in the illegal slave trade operating on the Lone Islands, working with Pug and Tacks.",
+          "role": "Illegal traders",
+          "relationships": {
+            "Pug": "Associates of",
+            "Gumpas": "Tolerated by"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Their operations are shut down when Caspian reforms the government and enforces proper Narnian law.",
+          "role": "Disbanded criminals",
+          "relationships": {
+            "Caspian X": "Defeated by",
+            "Lord Bern": "Suppressed by"
+          }
+        }
+      }
+    },
+    "felimath-fishermen": {
+      "name": "Felimath Fishermen",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Honest fishermen on the island of Felimath who provide information to Lord Bern about the situation in the Lone Islands.",
+          "role": "Local informants",
+          "relationships": {
+            "Lord Bern": "Informants for"
+          }
+        }
+      }
+    },
+    "doorn-townspeople": {
+      "name": "Doorn Townspeople",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Citizens of Narrowhaven on Doorn who witness Caspian's reforms and the end of the slave trade, generally supportive of the changes.",
+          "role": "Island citizens",
+          "relationships": {
+            "Caspian X": "Subjects of",
+            "Lord Bern": "Governed by"
+          }
+        }
+      }
+    },
+    "dragon-island-birds": {
+      "name": "Dragon Island Birds",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Wild birds living on Dragon Island who fled when the original dragon (Lord Octesian) was alive but return when Eustace becomes the new dragon.",
+          "role": "Island wildlife",
+          "relationships": {
+            "Lord Octesian": "Feared",
+            "Eustace Scrubb": "Less afraid of"
+          }
+        }
+      }
+    },
+    "dragon-island-goats": {
+      "name": "Dragon Island Goats",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Wild goats living on Dragon Island that provide food for the crew and serve as prey for the dragons.",
+          "role": "Island wildlife and food source",
+          "relationships": {
+            "Lord Octesian": "Prey of",
+            "Eustace Scrubb": "Hunted by (as dragon)"
+          }
+        }
+      }
+    },
+    "stone-knife": {
+      "name": "The Stone Knife",
+      "aliases": ["Knife of Stone"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A mysterious and dangerous knife made of stone found on Aslan's Table, which the three sleeping lords quarreled over before falling into enchanted sleep.",
+          "role": "Cursed artifact",
+          "relationships": {
+            "Lord Argoz": "Coveted by",
+            "Lord Mavramorn": "Coveted by",
+            "Lord Revilian": "Coveted by"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Revealed to be the knife used to kill Aslan at the Stone Table, making it both sacred and dangerous, which explains why touching it caused the enchantment.",
+          "role": "Sacred/cursed relic",
+          "relationships": {
+            "Aslan": "Used against (in past)"
+          }
+        }
+      }
+    },
+    "aslans-table": {
+      "name": "Aslan's Table",
+      "aliases": [],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A great stone table on Ramandu's Island where a magical feast appears each day, and where the three lords fell into enchanted sleep.",
+          "role": "Magical feast table",
+          "relationships": {
+            "Ramandu": "Tended by",
+            "Ramandu's Daughter": "Served by",
+            "Stone Knife": "Bears"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "The same table where Aslan was sacrificed in ancient times, now serving as a place of blessing and magical sustenance.",
+          "role": "Sacred table of sacrifice and blessing",
+          "relationships": {
+            "Aslan": "Scene of sacrifice"
+          }
+        }
+      }
+    },
+    "world-end-flowers": {
+      "name": "World's End Flowers",
+      "aliases": [],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Beautiful and otherworldly flowers that grow in the clear waters near the World's End, part of the magical landscape approaching Aslan's Country.",
+          "role": "Magical flora",
+          "relationships": {
+            "Sea People": "Admired by"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Part of the increasingly magical and beautiful environment as the voyagers approach the edge of the world.",
+          "role": "Indicator of approaching Aslan's Country",
+          "relationships": {
+            "Aslan's Country": "Herald of"
+          }
+        }
+      }
+    },
+    "white-birds": {
+      "name": "White Birds",
+      "aliases": [],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Pure white birds seen flying toward Aslan's Country at the World's End, representing the spiritual nature of the approaching holy land.",
+          "role": "Spiritual messengers",
+          "relationships": {
+            "Aslan's Country": "Fly toward"
+          }
+        }
+      }
+    },
+    "sweet-waters": {
+      "name": "Sweet Waters",
+      "aliases": [],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The water near the World's End that becomes increasingly sweet and light, no longer salt water but something approaching the divine.",
+          "role": "Divine water",
+          "relationships": {
+            "Aslan's Country": "Emanates from"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "The water becomes so light and sweet that it hardly seems like water at all, representing the transition from earthly to heavenly realm.",
+          "role": "Heavenly element",
+          "relationships": {
+            "Aslan": "Gift from"
+          }
+        }
+      }
+    },
+    "silver-sea": {
+      "name": "The Silver Sea",
+      "aliases": [],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The final sea at the World's End covered with white lilies, where the water is sweet and where Aslan's Country can be glimpsed.",
+          "role": "Final earthly sea",
+          "relationships": {
+            "White Lilies": "Covered with",
+            "Aslan's Country": "Borders"
+          }
+        }
+      }
+    },
+    "white-lilies": {
+      "name": "White Lilies",
+      "aliases": [],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Pure white lilies that cover the Silver Sea at the World's End, creating a carpet of flowers on the water near Aslan's Country.",
+          "role": "Sacred flowers",
+          "relationships": {
+            "Silver Sea": "Cover",
+            "Aslan's Country": "Approach to"
+          }
+        }
+      }
+    },
+    "reepicheeps-coracle": {
+      "name": "Reepicheep's Coracle",
+      "aliases": [],
+      "appearances": [16],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The small boat that Reepicheep uses for the final leg of his journey to Aslan's Country, specially made for his size.",
+          "role": "Final journey vessel",
+          "relationships": {
+            "Reepicheep": "Carries to Aslan's Country"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Edmund and Lucy Pevensie are staying with their unpleasant cousin Eustace Scrubb when they are magically drawn into a painting of a Narnian ship. They find themselves in the water next to the Dawn Treader and are rescued by King Caspian.",
+    "2": "Caspian explains his quest to find the seven lords who were loyal to his father but banished by his evil uncle Miraz. The Dawn Treader is sailing east to search for them, and Edmund, Lucy, and the reluctant Eustace join the voyage.",
+    "3": "The ship reaches the Lone Islands but the crew is captured by slave traders led by Pug. They are taken to be sold in the slave market, beginning their first real adventure of the voyage.",
+    "4": "Caspian reveals his identity and reforms the corrupt government of the Lone Islands, shutting down the slave trade. They discover that one of the seven lords, Lord Bern, has been living quietly on the islands and is appointed as the new Duke.",
+    "5": "The Dawn Treader continues eastward and encounters various dangers including a massive sea serpent that attacks the ship. They reach the desolate Burnt Island where they find little but take on water from a lonely shepherd.",
+    "6": "On Dragon Island, Eustace wanders off alone and discovers a dragon's cave filled with treasure. His greedy thoughts cause him to transform into a dragon, teaching him about the consequences of selfishness and greed.",
+    "7": "Aslan appears to Eustace in a dream and painfully but lovingly removes the dragon skin, restoring him to human form. Eustace emerges much changed in character, having learned humility and the value of friendship through his ordeal.",
+    "8": "The crew discovers Deathwater Island, where anything that touches the water turns to gold. At the bottom of a pool, they find a golden statue that was once Lord Restimar, one of the seven lost lords, who fell in and was transformed.",
+    "9": "They reach the Island of the Voices where invisible creatures demand that Lucy read from a magician's book to make them visible again. Lucy agrees to help them despite not knowing what dangers this might involve.",
+    "10": "Lucy reads the magician's book and makes the invisible creatures visible, revealing them to be Dufflepuds (also called Monopods). She also encounters Aslan in the pages of the book, who prevents her from reading a dangerous spell that would have made her supernaturally beautiful.",
+    "11": "The magician Coriakin reveals himself as a benevolent retired star who rules the island. He explains that he made the Dufflepuds invisible for their own protection and provides information about the dangers that lie ahead on their journey.",
+    "12": "The Dawn Treader reaches the terrifying Dark Island where nightmares become reality. They rescue Lord Rhoop, one of the seven lords, who has been trapped there and driven nearly mad by his experiences with living nightmares.",
+    "13": "Escaping the Dark Island through divine intervention, they sail toward Ramandu's Island. Lord Rhoop begins to recover from his traumatic experiences while the crew reflects on how close they came to being trapped forever in their worst fears.",
+    "14": "On Ramandu's Island, they discover the remaining three lords (Argoz, Mavramorn, and Revilian) in enchanted sleep around Aslan's Table. They meet Ramandu, a retired star, and his beautiful daughter who explains the situation and the conditions for breaking the enchantment.",
+    "15": "Caspian falls in love with Ramandu's daughter and wants to stay with her, but she convinces him that he must complete his quest first. The crew learns about the final stretch to the World's End and what awaits them there.",
+    "16": "At the World's End, they encounter a lamb cooking fish who reveals himself as Aslan. He tells Edmund and Lucy they cannot return to Narnia as they are too old, but they will know him in their own world. Reepicheep continues alone to Aslan's Country while the others return home."
+  }
+}
