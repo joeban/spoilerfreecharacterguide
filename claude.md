@@ -365,6 +365,7 @@ All development is done through the terminal using Claude Code:
 - **Git workflow**: Make changes → test locally → `git add` → `git commit` → `git push`
 - **Testing**: Always verify changes at localhost:3000 before committing
 - **Deployment**: Automatic via Vercel on push to main branch
+- **Documentation**: ALWAYS update CLAUDE.md with progress after completing and pushing changes for any series/books
 
 ### Common Commands
 ```bash
@@ -409,6 +410,13 @@ python3 -c "import json; ..."
 git add data/series/book.json
 git commit -m "feat: expand Book Name characters (22→307)"
 git push
+
+# 5. UPDATE DOCUMENTATION (CRITICAL!)
+# Always update CLAUDE.md after pushing changes:
+# - Update character counts in "Data Completion Status" section
+# - Move series from "Not Started" to appropriate section
+# - Update project statistics (total books, characters, etc.)
+# - Mark completed series with ✅
 ```
 
 #### 3. Series-Wide Strategy
@@ -430,6 +438,17 @@ Expanded character coverage:
 
 Co-Authored-By: Claude <noreply@anthropic.com>
 ```
+
+#### 5. Documentation Update Checklist (MUST DO AFTER EACH PUSH)
+After completing and pushing any series or book data:
+- [ ] Update character counts for each book in "Data Completion Status"
+- [ ] Change coverage level indicators (🔴→🟠→🟡→🟢) based on character count
+- [ ] Move series from "Not Started" to "Fully Complete Series" when done
+- [ ] Update "Project Statistics" section with new totals
+- [ ] Remove series from "Remaining Priority Series" list
+- [ ] Add ✅ checkmark to completed series
+- [ ] Ensure all book counts and chapter numbers are accurate
+- [ ] Commit and push the CLAUDE.md updates immediately
 
 ## File Structure
 ```
@@ -559,9 +578,23 @@ Co-Authored-By: Claude <noreply@anthropic.com>
   - 🟡 Shadow Rising: 95+ characters, all recaps, v2.0
   - 🟡 Fires of Heaven: 90+ characters, all recaps, v2.0
 
+- ✅ **Stormlight Archive** (4 books)
+  - 🟢 Way of Kings: 202 characters, all recaps, v2.0
+  - 🟢 Words of Radiance: 82 characters, all recaps, v2.0
+  - 🟢 Oathbringer: 144 characters, all recaps, v2.0
+  - 🟢 Rhythm of War: 153 characters, all recaps, v2.0
+
+- ✅ **Chronicles of Narnia** (7 books)
+  - 🟡 Lion, Witch, Wardrobe: 49 characters, all recaps, v2.0
+  - 🟡 Prince Caspian: 65 characters, all recaps, v2.0
+  - 🟡 Voyage of Dawn Treader: 51 characters, all recaps, v2.0
+  - 🟡 Silver Chair: 56 characters, all recaps, v2.0
+  - 🟡 Horse and His Boy: 66 characters, all recaps, v2.0
+  - 🟡 Magician's Nephew: 37 characters, all recaps, v2.0
+  - 🟡 Last Battle: 80 characters, all recaps, v2.0
+
 ### Partially Complete Series
-- ⚠️ **Stormlight Archive** (1 of 4 books)
-  - 🟠 Way of Kings: 30+ characters, all recaps, v2.0
+None currently - all configured series have complete book coverage!
 
 - ✅ **Shadow and Bone/Grishaverse** (5 books)
   - 🟡 Shadow and Bone: 85 characters, all recaps, v2.0
@@ -594,7 +627,6 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ### Not Started (Configured but no data)
 - ❌ **Mistborn/Cosmere** (0 of 7 books - 1 partial file exists)
-- ❌ **Chronicles of Narnia** (0 of 7 books)
 - ❌ **The Expanse** (0 of 9 books)
 - ❌ **Foundation** (0 of 5 books)
 - ❌ **Kingkiller Chronicle** (0 of 2 books)
@@ -616,18 +648,18 @@ Priority books that need upgrading to Comprehensive (🟢) coverage:
 4. ~~**Shadow and Bone/Grishaverse**~~ ✅ COMPLETE - Netflix adaptation boost
 
 ### Remaining Priority Series to Add
-1. **Chronicles of Narnia** - Classic series, evergreen traffic
-2. **The Expanse** - TV show fanbase, sci-fi audience
-3. **Kingkiller Chronicle** - Highly searched, awaiting book 3
-4. **Wings of Fire** - Young reader audience, very popular
-5. **Foundation** - Apple TV+ adaptation, classic sci-fi
-6. **Discworld** - Terry Pratchett's massive fanbase
+1. **The Expanse** - TV show fanbase, sci-fi audience (NEXT PRIORITY)
+2. **Kingkiller Chronicle** - Highly searched, awaiting book 3
+3. **Wings of Fire** - Young reader audience, very popular
+4. **Foundation** - Apple TV+ adaptation, classic sci-fi
+5. **Discworld** - Terry Pratchett's massive fanbase
+6. **Mistborn/Cosmere** - Brandon Sanderson fanbase
 
 ## Project Statistics (as of latest update)
 - **Total Series Configured**: 20 series
-- **Fully Complete Series**: 14 series (70% coverage)
-- **Total Books with Data**: 68 books
-- **Total Characters**: 5,000+ unique characters across all series
+- **Fully Complete Series**: 16 series (80% coverage)
+- **Total Books with Data**: 79 books
+- **Total Characters**: 6,000+ unique characters across all series
 - **Total Indexed Pages**: 4,600+ URLs in sitemap
 - **All complete books have**: Full chapter recaps, comprehensive character coverage, v2.0 schema
 - **SEO Implementation**: Complete with structured data, sitemap, metadata optimization
