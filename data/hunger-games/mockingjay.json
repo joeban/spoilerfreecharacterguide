@@ -163,498 +163,675 @@
         }
       }
     },
-    "character-1": {
-      "name": "District 13 Resident 1",
-      "aliases": [],
-      "appearances": [
-        1
-      ],
+    "peeta-mellark": {
+      "name": "Peeta Mellark",
+      "aliases": ["Boy with the Bread"],
+      "appearances": [1, 2, 3, 4, 5, 10, 11, 12, 13, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Captured by the Capitol after the Quarter Quell. Katniss desperately wants to save him.",
+          "role": "Former tribute",
+          "relationships": {
+            "Katniss Everdeen": "Loved by"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Rescued from the Capitol but has been hijacked - his memories altered to make him fear and hate Katniss.",
+          "role": "Hijacked tribute",
+          "relationships": {
+            "Katniss Everdeen": "Hijacked against"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Slowly recovering from hijacking with therapy. Still struggles with what's real.",
+          "role": "Recovering tribute",
+          "relationships": {
+            "Katniss Everdeen": "Cautiously reconnecting with",
+            "Dr. Aurelius": "Treated by"
+          }
         }
       }
     },
-    "character-2": {
-      "name": "District 13 Resident 2",
+    "gale-hawthorne": {
+      "name": "Gale Hawthorne",
       "aliases": [],
-      "appearances": [
-        2
-      ],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Katniss's hunting partner and childhood friend, now a soldier in District 13.",
+          "role": "Soldier",
+          "relationships": {
+            "Katniss Everdeen": "Close friend of",
+            "President Coin": "Works for"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Becoming more militaristic and focused on winning the war. Helps design weapons and traps.",
+          "role": "Weapons designer",
+          "relationships": {
+            "Beetee": "Collaborates with",
+            "Katniss Everdeen": "Growing apart from"
+          }
         }
       }
     },
-    "character-3": {
-      "name": "District 13 Resident 3",
+    "finnick-odair": {
+      "name": "Finnick Odair",
       "aliases": [],
-      "appearances": [
-        3
-      ],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Former tribute from District 4, now part of the rebellion in District 13.",
+          "role": "Rebel fighter",
+          "relationships": {
+            "Annie Cresta": "Loves",
+            "Katniss Everdeen": "Ally of"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Reveals dark secrets about President Snow's control over victors, including himself.",
+          "role": "Truth teller",
+          "relationships": {
+            "President Snow": "Exploited by",
+            "Annie Cresta": "Devoted to"
+          }
         }
       }
     },
-    "character-4": {
-      "name": "District 13 Resident 4",
+    "johanna-mason": {
+      "name": "Johanna Mason",
       "aliases": [],
-      "appearances": [
-        4
-      ],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "10": {
+          "revealedIn": 10,
+          "description": "Rescued from the Capitol along with Peeta. Was captured and tortured.",
+          "role": "Rescued tribute",
+          "relationships": {
+            "Peeta Mellark": "Fellow captive",
+            "Katniss Everdeen": "Complicated ally"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Recovering from torture but still traumatized. Has difficulty with water due to her torture.",
+          "role": "Traumatized victor",
+          "relationships": {
+            "Katniss Everdeen": "Reluctant friend"
+          }
         }
       }
     },
-    "character-5": {
-      "name": "District 13 Resident 5",
+    "haymitch-abernathy": {
+      "name": "Haymitch Abernathy",
       "aliases": [],
-      "appearances": [
-        5
-      ],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 24, 25, 26, 27],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Katniss and Peeta's former mentor, now in District 13 as part of the rebellion.",
+          "role": "Former mentor",
+          "relationships": {
+            "Katniss Everdeen": "Mentor to",
+            "Peeta Mellark": "Mentor to",
+            "President Coin": "Advises"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Helps plan rescue missions and provides strategic advice to the rebellion.",
+          "role": "Strategic advisor",
+          "relationships": {
+            "Plutarch Heavensbee": "Works with"
+          }
         }
       }
     },
-    "character-6": {
-      "name": "District 13 Resident 6",
-      "aliases": [],
-      "appearances": [
-        6
-      ],
+    "primrose-everdeen": {
+      "name": "Primrose Everdeen",
+      "aliases": ["Prim"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Katniss's younger sister, now safe in District 13 after being evacuated from District 12.",
+          "role": "Refugee",
+          "relationships": {
+            "Katniss Everdeen": "Sister of",
+            "Mrs. Everdeen": "Daughter of"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Training to become a medic in District 13, following her calling to heal people.",
+          "role": "Medic trainee",
+          "relationships": {
+            "Mrs. Everdeen": "Learning from"
+          }
         }
       }
     },
-    "character-7": {
-      "name": "District 13 Resident 7",
-      "aliases": [],
-      "appearances": [
-        7
-      ],
+    "president-snow": {
+      "name": "President Snow",
+      "aliases": ["Coriolanus Snow"],
+      "appearances": [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 25, 26, 27],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "The tyrannical president of Panem, now fighting against the rebellion.",
+          "role": "President of Panem",
+          "relationships": {
+            "Katniss Everdeen": "Mortal enemy of",
+            "President Coin": "At war with"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "His control over the Capitol and the districts is weakening as the rebellion gains strength.",
+          "role": "Desperate dictator",
+          "relationships": {
+            "Finnick Odair": "Exploited"
+          }
         }
       }
     },
-    "character-8": {
-      "name": "District 13 Resident 8",
+    "plutarch-heavensbee": {
+      "name": "Plutarch Heavensbee",
       "aliases": [],
-      "appearances": [
-        8
-      ],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 24, 25, 26, 27],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Former Head Gamemaker who defected to the rebellion, now helping plan the war against the Capitol.",
+          "role": "Rebel strategist",
+          "relationships": {
+            "President Coin": "Advises",
+            "Katniss Everdeen": "Manipulates"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Orchestrates propaganda efforts including Katniss's propos to inspire the districts.",
+          "role": "Propaganda coordinator",
+          "relationships": {
+            "Cressida": "Works with"
+          }
         }
       }
     },
-    "character-9": {
-      "name": "District 13 Resident 9",
-      "aliases": [],
-      "appearances": [
-        9
-      ],
+    "beetee": {
+      "name": "Beetee",
+      "aliases": ["Volts"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Victor from District 3, now the chief technology specialist for the rebellion.",
+          "role": "Technology specialist",
+          "relationships": {
+            "Katniss Everdeen": "Ally of",
+            "President Coin": "Works for"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Designs weapons and technology for the rebellion, including bombs and tactical equipment.",
+          "role": "Weapons designer",
+          "relationships": {
+            "Gale Hawthorne": "Collaborates with"
+          }
         }
       }
     },
-    "character-10": {
-      "name": "District 13 Resident 10",
+    "annie-cresta": {
+      "name": "Annie Cresta",
       "aliases": [],
-      "appearances": [
-        10
-      ],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 27],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "10": {
+          "revealedIn": 10,
+          "description": "Victor from District 4 and Finnick's love interest, rescued from the Capitol.",
+          "role": "Rescued victor",
+          "relationships": {
+            "Finnick Odair": "Loved by",
+            "Katniss Everdeen": "Protected by"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Marries Finnick in a ceremony in District 13, bringing some joy during dark times.",
+          "role": "Finnick's wife",
+          "relationships": {
+            "Finnick Odair": "Married to"
+          }
         }
       }
     },
-    "character-11": {
-      "name": "District 13 Resident 11",
+    "commander-paylor": {
+      "name": "Commander Paylor",
       "aliases": [],
-      "appearances": [
-        11
-      ],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 25, 26, 27],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "8": {
+          "revealedIn": 8,
+          "description": "Military leader from District 8, fighting against the Capitol forces.",
+          "role": "District commander",
+          "relationships": {
+            "Katniss Everdeen": "Respects",
+            "President Coin": "Allied with"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "One of the key military leaders in the assault on the Capitol.",
+          "role": "Military strategist",
+          "relationships": {
+            "Boggs": "Fellow commander"
+          }
         }
       }
     },
-    "character-12": {
-      "name": "District 13 Resident 12",
+    "pollux": {
+      "name": "Pollux",
       "aliases": [],
-      "appearances": [
-        12
-      ],
+      "appearances": [18, 19, 20, 21, 22, 23, 24],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "18": {
+          "revealedIn": 18,
+          "description": "Former Avox and camera assistant to Cressida, his tongue was cut out by the Capitol.",
+          "role": "Camera operator",
+          "relationships": {
+            "Cressida": "Works with",
+            "Castor": "Brother of",
+            "Katniss Everdeen": "Helps"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Guides the squad through the Capitol sewers using his knowledge from working as an Avox.",
+          "role": "Guide",
+          "relationships": {
+            "Katniss Everdeen": "Trusted by"
+          }
         }
       }
     },
-    "character-13": {
-      "name": "District 13 Resident 13",
+    "castor": {
+      "name": "Castor",
       "aliases": [],
-      "appearances": [
-        13
-      ],
+      "appearances": [18, 19, 20, 21, 22],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "18": {
+          "revealedIn": 18,
+          "description": "Camera operator working with Cressida's film crew, Pollux's brother.",
+          "role": "Camera operator",
+          "relationships": {
+            "Cressida": "Works with",
+            "Pollux": "Brother of",
+            "Katniss Everdeen": "Films"
+          }
         }
       }
     },
-    "character-14": {
-      "name": "District 13 Resident 14",
+    "jackson": {
+      "name": "Jackson",
       "aliases": [],
-      "appearances": [
-        14
-      ],
+      "appearances": [18, 19, 20, 21, 22, 23],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "18": {
+          "revealedIn": 18,
+          "description": "Second-in-command of the Star Squad, a disciplined soldier from District 13.",
+          "role": "Squad second-in-command",
+          "relationships": {
+            "Boggs": "Second to",
+            "Katniss Everdeen": "Protects"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Takes command of the squad after Boggs is injured, follows orders to protect Katniss.",
+          "role": "Squad leader",
+          "relationships": {
+            "Katniss Everdeen": "Commands squad protecting"
+          }
         }
       }
     },
-    "character-15": {
-      "name": "District 13 Resident 15",
+    "leeg-1": {
+      "name": "Leeg 1",
       "aliases": [],
-      "appearances": [
-        15
-      ],
+      "appearances": [18, 19, 20],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "18": {
+          "revealedIn": 18,
+          "description": "One of two sisters in the Star Squad, both skilled soldiers from District 13.",
+          "role": "Squad member",
+          "relationships": {
+            "Leeg 2": "Sister of",
+            "Boggs": "Serves under"
+          }
         }
       }
     },
-    "character-16": {
-      "name": "District 13 Resident 16",
+    "leeg-2": {
+      "name": "Leeg 2",
       "aliases": [],
-      "appearances": [
-        16
-      ],
+      "appearances": [18, 19, 20, 21],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "18": {
+          "revealedIn": 18,
+          "description": "Sister to Leeg 1, part of the Star Squad assigned to protect Katniss in the Capitol.",
+          "role": "Squad member",
+          "relationships": {
+            "Leeg 1": "Sister of",
+            "Katniss Everdeen": "Protects"
+          }
         }
       }
     },
-    "character-17": {
-      "name": "District 13 Resident 17",
+    "homes": {
+      "name": "Homes",
       "aliases": [],
-      "appearances": [
-        17
-      ],
+      "appearances": [18, 19, 20],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "18": {
+          "revealedIn": 18,
+          "description": "Young soldier from District 13, part of the Star Squad mission in the Capitol.",
+          "role": "Squad member",
+          "relationships": {
+            "Boggs": "Serves under",
+            "Mitchell": "Fellow soldier"
+          }
         }
       }
     },
-    "character-18": {
-      "name": "District 13 Resident 18",
+    "mitchell": {
+      "name": "Mitchell",
       "aliases": [],
-      "appearances": [
-        18
-      ],
+      "appearances": [18, 19, 20],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "18": {
+          "revealedIn": 18,
+          "description": "Soldier from District 13, member of the Star Squad sent to the Capitol.",
+          "role": "Squad member",
+          "relationships": {
+            "Boggs": "Serves under",
+            "Homes": "Fellow soldier"
+          }
         }
       }
     },
-    "character-19": {
-      "name": "District 13 Resident 19",
+    "delly-cartwright": {
+      "name": "Delly Cartwright",
       "aliases": [],
-      "appearances": [
-        19
-      ],
+      "appearances": [12, 13, 18, 19],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "12": {
+          "revealedIn": 12,
+          "description": "Peeta's childhood friend from District 12, now helping with his recovery from hijacking.",
+          "role": "Peeta's friend",
+          "relationships": {
+            "Peeta Mellark": "Childhood friend of",
+            "Katniss Everdeen": "Knows"
+          }
         }
       }
     },
-    "character-20": {
-      "name": "District 13 Resident 20",
+    "mrs-everdeen": {
+      "name": "Mrs. Everdeen",
       "aliases": [],
-      "appearances": [
-        20
-      ],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 27],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Katniss and Prim's mother, a healer now working as a medic in District 13.",
+          "role": "Medic",
+          "relationships": {
+            "Katniss Everdeen": "Mother of",
+            "Primrose Everdeen": "Mother of"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Training Prim in medical skills, helping care for the wounded in District 13.",
+          "role": "Medical trainer",
+          "relationships": {
+            "Primrose Everdeen": "Teaching"
+          }
         }
       }
     },
-    "character-21": {
-      "name": "District 13 Resident 21",
+    "effie-trinket": {
+      "name": "Effie Trinket",
       "aliases": [],
-      "appearances": [
-        21
-      ],
+      "appearances": [15, 16, 17, 24, 25, 26, 27],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "15": {
+          "revealedIn": 15,
+          "description": "Former escort for District 12 tributes, now in District 13 as a refugee from the Capitol.",
+          "role": "Former escort",
+          "relationships": {
+            "Katniss Everdeen": "Former escort of",
+            "Peeta Mellark": "Former escort of",
+            "Haymitch Abernathy": "Works with"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Helps Katniss prepare for important events, maintains her Capitol mannerisms despite everything.",
+          "role": "Katniss's aide",
+          "relationships": {
+            "Katniss Everdeen": "Assists"
+          }
         }
       }
     },
-    "character-22": {
-      "name": "District 13 Resident 22",
+    "dr-aurelius": {
+      "name": "Dr. Aurelius",
       "aliases": [],
-      "appearances": [
-        22
-      ],
+      "appearances": [11, 12, 13, 18, 19, 27],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "11": {
+          "revealedIn": 11,
+          "description": "Head doctor in District 13, specializes in treating mental trauma and hijacking.",
+          "role": "Head doctor",
+          "relationships": {
+            "Peeta Mellark": "Treats",
+            "Katniss Everdeen": "Counsels"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Continues treating Peeta's hijacking and helps other traumatized tributes.",
+          "role": "Trauma specialist",
+          "relationships": {
+            "Johanna Mason": "Treats"
+          }
         }
       }
     },
-    "character-23": {
-      "name": "District 13 Resident 23",
+    "messalla": {
+      "name": "Messalla",
       "aliases": [],
-      "appearances": [
-        23
-      ],
+      "appearances": [18, 19, 20, 21, 22],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "18": {
+          "revealedIn": 18,
+          "description": "Member of Cressida's camera crew, former Capitol citizen who defected to the rebellion.",
+          "role": "Camera crew",
+          "relationships": {
+            "Cressida": "Works with",
+            "Pollux": "Fellow crew member",
+            "Castor": "Fellow crew member"
+          }
         }
       }
     },
-    "character-24": {
-      "name": "District 13 Resident 24",
+    "tigris": {
+      "name": "Tigris",
       "aliases": [],
-      "appearances": [
-        24
-      ],
+      "appearances": [22, 23, 24],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "22": {
+          "revealedIn": 22,
+          "description": "Former stylist who helps hide Katniss and her squad in the Capitol. Has been surgically altered to look like a tiger.",
+          "role": "Former stylist",
+          "relationships": {
+            "Katniss Everdeen": "Helps",
+            "President Snow": "Despises"
+          }
         }
       }
     },
-    "character-25": {
-      "name": "District 13 Resident 25",
+    "buttercup": {
+      "name": "Buttercup",
       "aliases": [],
-      "appearances": [
-        25
-      ],
+      "appearances": [1, 2, 27],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "Prim's cat, rescued from District 12 and brought to District 13.",
+          "role": "Pet cat",
+          "relationships": {
+            "Primrose Everdeen": "Beloved pet of",
+            "Katniss Everdeen": "Tolerated by"
+          }
         }
       }
     },
-    "character-26": {
-      "name": "District 13 Resident 26",
+    "enobaria": {
+      "name": "Enobaria",
       "aliases": [],
-      "appearances": [
-        26
-      ],
+      "appearances": [10, 26, 27],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "10": {
+          "revealedIn": 10,
+          "description": "Victor from District 2 with sharpened teeth, was captured but not hijacked.",
+          "role": "Captured victor",
+          "relationships": {
+            "Peeta Mellark": "Fellow prisoner",
+            "Johanna Mason": "Fellow prisoner"
+          }
         }
       }
     },
-    "character-27": {
-      "name": "District 13 Resident 27",
+    "greasy-sae": {
+      "name": "Greasy Sae",
       "aliases": [],
-      "appearances": [
-        27
-      ],
+      "appearances": [27],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "27": {
+          "revealedIn": 27,
+          "description": "Soup vendor from District 12 who returns to help rebuild after the war.",
+          "role": "District 12 resident",
+          "relationships": {
+            "Katniss Everdeen": "Cares for"
+          }
         }
       }
     },
-    "character-28": {
-      "name": "District 13 Resident 28",
+    "commander-lyme": {
+      "name": "Commander Lyme",
       "aliases": [],
-      "appearances": [
-        1
-      ],
+      "appearances": [17, 18, 19, 20],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "17": {
+          "revealedIn": 17,
+          "description": "Former victor from District 2, now a rebel commander helping lead the assault on the Capitol.",
+          "role": "Rebel commander",
+          "relationships": {
+            "Katniss Everdeen": "Allied with",
+            "Boggs": "Fellow commander"
+          }
         }
       }
     },
-    "character-29": {
-      "name": "District 13 Resident 29",
+    "mockingjay": {
+      "name": "Mockingjay",
       "aliases": [],
-      "appearances": [
-        2
-      ],
+      "appearances": [1, 8, 9, 24, 27],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+          "description": "The hybrid bird that became the symbol of the rebellion, combining mockingbird and jabberjay.",
+          "role": "Rebel symbol",
+          "relationships": {
+            "Katniss Everdeen": "Symbol of"
+          }
         }
       }
     },
-    "character-30": {
-      "name": "District 13 Resident 30",
+    "fulvia-cardew": {
+      "name": "Fulvia Cardew",
       "aliases": [],
-      "appearances": [
-        3
-      ],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "6": {
+          "revealedIn": 6,
+          "description": "Plutarch's assistant, helps coordinate the propaganda campaign and propo production.",
+          "role": "Propaganda assistant",
+          "relationships": {
+            "Plutarch Heavensbee": "Assistant to",
+            "Katniss Everdeen": "Manages"
+          }
         }
       }
     },
-    "character-31": {
-      "name": "District 13 Resident 31",
+    "octavia": {
+      "name": "Octavia",
       "aliases": [],
-      "appearances": [
-        4
-      ],
+      "appearances": [5, 6, 24],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "5": {
+          "revealedIn": 5,
+          "description": "One of Katniss's former prep team members, now imprisoned in District 13.",
+          "role": "Former stylist",
+          "relationships": {
+            "Katniss Everdeen": "Former stylist of",
+            "Flavius": "Fellow prep team member",
+            "Venia": "Fellow prep team member"
+          }
         }
       }
     },
-    "character-32": {
-      "name": "District 13 Resident 32",
+    "flavius": {
+      "name": "Flavius",
       "aliases": [],
-      "appearances": [
-        5
-      ],
+      "appearances": [5, 6, 24],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "5": {
+          "revealedIn": 5,
+          "description": "Member of Katniss's prep team, imprisoned in District 13 for Capitol connections.",
+          "role": "Former stylist",
+          "relationships": {
+            "Katniss Everdeen": "Former stylist of",
+            "Octavia": "Fellow prep team member",
+            "Venia": "Fellow prep team member"
+          }
         }
       }
     },
-    "character-33": {
-      "name": "District 13 Resident 33",
+    "venia": {
+      "name": "Venia",
       "aliases": [],
-      "appearances": [
-        6
-      ],
+      "appearances": [5, 6, 24],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Resident or soldier in District 13.",
-          "role": "Resident",
-          "relationships": {}
+        "5": {
+          "revealedIn": 5,
+          "description": "Third member of Katniss's prep team, also imprisoned in District 13.",
+          "role": "Former stylist",
+          "relationships": {
+            "Katniss Everdeen": "Former stylist of",
+            "Octavia": "Fellow prep team member",
+            "Flavius": "Fellow prep team member"
+          }
         }
       }
     },
