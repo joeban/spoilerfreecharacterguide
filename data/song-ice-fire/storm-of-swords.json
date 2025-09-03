@@ -112,10 +112,10 @@
         },
         "60": {
           "revealedIn": 60,
-          "description": "Arrested for King Joffrey's murder at the Purple Wedding, though he is innocent of this particular crime.",
-          "role": "Accused of regicide",
+          "description": "Arrested after shocking events at the royal wedding feast.",
+          "role": "Accused",
           "relationships": {
-            "Joffrey Baratheon": "Accused of murdering",
+            "Joffrey Baratheon": "Accused regarding",
             "Cersei Lannister": "Sister who wants him dead"
           }
         },
@@ -131,11 +131,11 @@
         "78": {
           "revealedIn": 78,
           "description": "Escapes King's Landing after killing his father Tywin on the privy. Discovers Shae in Tywin's bed and kills her too.",
-          "role": "Patricide and fugitive",
+          "role": "Fugitive",
           "relationships": {
-            "Tywin Lannister": "Father he murdered",
-            "Shae": "Former lover he killed",
-            "Varys": "Helped him escape"
+            "Tywin Lannister": "Confronted",
+            "Shae": "Former lover",
+            "Varys": "Helped by"
           }
         }
       }
@@ -144,8 +144,7 @@
       "name": "Catelyn Stark",
       "aliases": [
         "Cat",
-        "Lady Stark",
-        "Lady Stoneheart"
+        "Lady Stark"
       ],
       "appearances": [
         7,
@@ -177,11 +176,11 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "Dies at the Red Wedding, killed after watching Robb murdered. Her throat is cut by Black Walder Frey.",
-          "role": "Murdered at Red Wedding",
+          "description": "Attends the wedding at the Twins as part of reconciliation with House Frey.",
+          "role": "Wedding guest",
           "relationships": {
-            "Robb Stark": "Son she watches die",
-            "Walder Frey": "Host who orchestrates their deaths"
+            "Robb Stark": "Son",
+            "Walder Frey": "Host"
           }
         }
       }
@@ -227,8 +226,8 @@
         },
         "52": {
           "revealedIn": 52,
-          "description": "Arrives at the Twins just as the Red Wedding concludes. Witnesses the aftermath of her family's slaughter.",
-          "role": "Witness to family's destruction",
+          "description": "Arrives at the Twins during chaos and confusion.",
+          "role": "Fugitive",
           "relationships": {
             "Sandor Clegane": "Protects her from seeing the worst"
           }
@@ -402,11 +401,11 @@
         },
         "60": {
           "revealedIn": 60,
-          "description": "Present at Joffrey's wedding when he is poisoned. Smuggled away by Ser Dontos during the chaos.",
-          "role": "Witness to the Purple Wedding",
+          "description": "Present at the royal wedding when chaos erupts. Smuggled away by Ser Dontos.",
+          "role": "Wedding guest",
           "relationships": {
-            "Ser Dontos": "Knight who helps her escape",
-            "Joffrey Baratheon": "Witnesses his death"
+            "Ser Dontos": "Helped by",
+            "Royal wedding": "Guest at"
           }
         },
         "80": {
@@ -680,10 +679,10 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "Murdered at the Red Wedding by the Freys and Boltons, along with his wife, mother, and loyal bannermen.",
-          "role": "Murdered king",
+          "description": "Attends Edmure's wedding at the Twins to make amends with House Frey.",
+          "role": "King in the North",
           "relationships": {
-            "Walder Frey": "Host who orchestrates his murder",
+            "Walder Frey": "Making peace with",
             "Roose Bolton": "Bannerman who betrays him"
           }
         }
@@ -758,12 +757,12 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Orchestrates the Red Wedding massacre in revenge for Robb Stark's broken betrothal vow.",
-          "role": "Host of the Red Wedding",
+          "description": "Hosts Edmure's wedding at the Twins, still bitter about Robb's broken betrothal vow.",
+          "role": "Lord of the Crossing",
           "relationships": {
-            "Robb Stark": "King he murders",
-            "Catelyn Stark": "Guest he has killed",
-            "Roose Bolton": "Accomplice in the massacre"
+            "Robb Stark": "Reluctant host to",
+            "Edmure Tully": "New son-in-law",
+            "Roose Bolton": "Fellow lord"
           }
         }
       }
@@ -828,11 +827,11 @@
         },
         "63": {
           "revealedIn": 63,
-          "description": "Reveals to Sansa that she was involved in Joffrey's poisoning to protect Margaery from the cruel king.",
-          "role": "Co-conspirator in regicide",
+          "description": "Has a revealing conversation with Sansa about recent events and protecting Margaery.",
+          "role": "Queen of Thorns",
           "relationships": {
-            "Joffrey Baratheon": "King she helped poison",
-            "Littlefinger": "Partner in the assassination"
+            "Margaery Tyrell": "Protective grandmother",
+            "Sansa Stark": "Confides in"
           }
         }
       }
@@ -1046,10 +1045,10 @@
       "knowledge": {
         "60": {
           "revealedIn": 60,
-          "description": "Gentle young boy who becomes king after his brother Joffrey's death at the Purple Wedding.",
-          "role": "New king",
+          "description": "Gentle young boy whose role changes dramatically after the royal wedding.",
+          "role": "Prince",
           "relationships": {
-            "Joffrey Baratheon": "Deceased brother",
+            "Joffrey Baratheon": "Brother",
             "Cersei Lannister": "Mother and regent"
           }
         }
@@ -1107,10 +1106,10 @@
         },
         "60": {
           "revealedIn": 60,
-          "description": "Devastated by Joffrey's death, immediately suspects Tyrion and demands his arrest.",
-          "role": "Grieving mother",
+          "description": "Devastated by events at the wedding, immediately suspects Tyrion.",
+          "role": "Queen Regent",
           "relationships": {
-            "Joffrey Baratheon": "Dead son",
+            "Joffrey Baratheon": "Son",
             "Tyrion Lannister": "Brother she accuses of murder"
           }
         }
@@ -1233,10 +1232,10 @@
         },
         "78": {
           "revealedIn": 78,
-          "description": "Found in Tywin's bed wearing the Hand's golden chain. Killed by Tyrion in rage and betrayal.",
-          "role": "Betrayer",
+          "description": "Found in an unexpected place wearing the Hand's golden chain.",
+          "role": "Courtesan",
           "relationships": {
-            "Tyrion Lannister": "Former lover who strangles her",
+            "Tyrion Lannister": "Former lover",
             "Tywin Lannister": "Lord she was sleeping with"
           }
         }
@@ -2334,7 +2333,7 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "Marries Roslin Frey at the Twins, the marriage that serves as cover for the Red Wedding massacre.",
+          "description": "Marries Roslin Frey at the Twins in a tense ceremony.",
           "role": "Bridegroom and prisoner",
           "relationships": {
             "Roslin Frey": "New wife",
@@ -2362,7 +2361,7 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "Marries Edmure at the wedding that becomes the cover for the Red Wedding massacre. Genuinely fond of her husband.",
+          "description": "Marries Edmure at the Twins. Genuinely fond of her husband.",
           "role": "New bride",
           "relationships": {
             "Edmure Tully": "Husband",
@@ -2394,10 +2393,10 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "Betrays and kills Robb Stark at the Red Wedding, revealing his secret alliance with Tywin Lannister.",
-          "role": "Traitor and kingslayer",
+          "description": "Attends the wedding at the Twins with his own agenda.",
+          "role": "Lord of the Dreadfort",
           "relationships": {
-            "Robb Stark": "King he murders",
+            "Robb Stark": "Bannerman to",
             "Tywin Lannister": "Lord he secretly serves"
           }
         }
@@ -2415,8 +2414,8 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Bastard son of Walder Frey who cuts Catelyn Stark's throat at the Red Wedding.",
-          "role": "Murderer",
+          "description": "Bastard son of Walder Frey present at the wedding.",
+          "role": "Frey bastard",
           "relationships": {
             "Walder Frey": "Father",
             "Catelyn Stark": "Woman he murders"
@@ -2436,7 +2435,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Intelligent but physically impaired son of Walder Frey, helps plan the Red Wedding.",
+          "description": "Intelligent but physically impaired son of Walder Frey, involved in wedding planning.",
           "role": "Frey conspirator",
           "relationships": {
             "Walder Frey": "Father he serves",
@@ -2457,7 +2456,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Another bastard son of Walder Frey, part of the Red Wedding conspiracy.",
+          "description": "Another bastard son of Walder Frey, present at the wedding.",
           "role": "Frey conspirator",
           "relationships": {
             "Walder Frey": "Father",
@@ -2495,7 +2494,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Eldest son of Walder Frey and heir to the Twins, present at the Red Wedding.",
+          "description": "Eldest son of Walder Frey and heir to the Twins, present at the wedding.",
           "role": "Frey heir",
           "relationships": {
             "Walder Frey": "Father and lord",
@@ -2513,7 +2512,7 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Grandson of Walder Frey, son of Ryman, present at the Red Wedding massacre.",
+          "description": "Grandson of Walder Frey, son of Ryman, present at the wedding.",
           "role": "Young Frey",
           "relationships": {
             "Ryman Frey": "Father",
@@ -2890,10 +2889,10 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "Captured at the Red Wedding after fighting fiercely to protect his king.",
-          "role": "Captured lord",
+          "description": "Present at the wedding when chaos erupts.",
+          "role": "Northern lord",
           "relationships": {
-            "Robb Stark": "King he tried to save",
+            "Robb Stark": "Bannerman to",
             "Walder Frey": "Host who captures him"
           }
         }
@@ -2912,8 +2911,8 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Son of the Greatjon, killed at the Red Wedding while trying to defend Robb Stark.",
-          "role": "Fallen protector",
+          "description": "Son of the Greatjon, present at the wedding.",
+          "role": "Northern heir",
           "relationships": {
             "Jon Umber": "Father, the Greatjon",
             "Robb Stark": "King he dies defending"
@@ -2933,8 +2932,8 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Son of Lord Wyman Manderly, killed at the Red Wedding while defending his king.",
-          "role": "Murdered knight",
+          "description": "Son of Lord Wyman Manderly, attends the wedding.",
+          "role": "Northern knight",
           "relationships": {
             "Wyman Manderly": "Father",
             "Robb Stark": "King he dies for"
@@ -2952,7 +2951,7 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Daughter of Bear Island, one of Robb's guards killed at the Red Wedding.",
+          "description": "Daughter of Bear Island, one of Robb's guards at the wedding.",
           "role": "Female warrior",
           "relationships": {
             "Maege Mormont": "Mother",
@@ -2984,10 +2983,10 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "Not present at the Red Wedding, spared from the massacre that kills her husband.",
-          "role": "Widowed queen",
+          "description": "Not present at the wedding, remains at Riverrun.",
+          "role": "Queen",
           "relationships": {
-            "Robb Stark": "Murdered husband",
+            "Robb Stark": "Husband",
             "Catelyn Stark": "Mother-in-law who dies"
           }
         }
@@ -4523,10 +4522,10 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Lord of White Harbor whose son Wendel dies at the Red Wedding, secretly plotting revenge.",
+          "description": "Lord of White Harbor whose son Wendel attended the wedding.",
           "role": "Northern lord",
           "relationships": {
-            "Wendel Manderly": "Son who died at Red Wedding",
+            "Wendel Manderly": "Son",
             "Robb Stark": "King he served"
           }
         }
@@ -4698,10 +4697,10 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Bastard knight who serves Robb Stark and dies at the Red Wedding.",
-          "role": "Dead knight",
+          "description": "Bastard knight who serves Robb Stark at the wedding.",
+          "role": "Knight",
           "relationships": {
-            "Robb Stark": "King he died for",
+            "Robb Stark": "Serves",
             "Catelyn Stark": "Queen Mother he served"
           }
         }
@@ -4716,10 +4715,10 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Northern lord killed at the Red Wedding while trying to defend his king.",
-          "role": "Dead northern lord",
+          "description": "Northern lord present at the wedding.",
+          "role": "Northern lord",
           "relationships": {
-            "Robb Stark": "King he died defending",
+            "Robb Stark": "Bannerman to",
             "Walder Frey": "Host who betrayed them"
           }
         }
@@ -4734,8 +4733,8 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "Young northern lord who dies at the Red Wedding massacre.",
-          "role": "Dead young lord",
+          "description": "Young northern lord who attends the wedding.",
+          "role": "Young lord",
           "relationships": {
             "Robb Stark": "King he served",
             "Smalljon Umber": "Fellow victim"
@@ -4753,7 +4752,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "One of Walder Frey's many sons, participates in the Red Wedding massacre.",
+          "description": "One of Walder Frey's many sons, attends the wedding massacre.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -4793,7 +4792,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Knight in service to House Frey, participates in the Red Wedding betrayal.",
+          "description": "Knight in service to House Frey, attends the wedding betrayal.",
           "role": "Frey knight",
           "relationships": {
             "Walder Frey": "Lord he serves",
@@ -4814,7 +4813,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Knight from a family allied to the Freys, part of the Red Wedding conspiracy.",
+          "description": "Knight from a family allied to the Freys, present at the wedding conspiracy.",
           "role": "Allied knight",
           "relationships": {
             "Walder Frey": "Ally",
@@ -4854,7 +4853,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Member of House Haigh present at the Red Wedding massacre.",
+          "description": "Member of House Haigh present at the wedding massacre.",
           "role": "Haigh member",
           "relationships": {
             "Walder Frey": "Ally",
@@ -5388,7 +5387,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "One of Walder Frey's many daughters present at the Red Wedding.",
+          "description": "One of Walder Frey's many daughters present at the wedding.",
           "role": "Frey daughter",
           "relationships": {
             "Walder Frey": "Father",
@@ -5485,7 +5484,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "One of Walder Frey's sons who participates in the Red Wedding betrayal.",
+          "description": "One of Walder Frey's sons who attends the wedding betrayal.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -5580,7 +5579,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Son of Walder Frey who participates in the Red Wedding massacre.",
+          "description": "Son of Walder Frey who attends the wedding massacre.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -5639,7 +5638,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Son of Walder Frey present at the Red Wedding betrayal.",
+          "description": "Son of Walder Frey present at the wedding betrayal.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -5677,7 +5676,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Another son of Walder Frey involved in the Red Wedding betrayal.",
+          "description": "Another son of Walder Frey present at the wedding betrayal.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -5736,7 +5735,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Son of Walder Frey involved in the Red Wedding massacre.",
+          "description": "Son of Walder Frey present at the wedding massacre.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -5795,7 +5794,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Son of Walder Frey involved in the Red Wedding betrayal.",
+          "description": "Son of Walder Frey present at the wedding betrayal.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -5833,7 +5832,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Son of Walder Frey who participates in the Red Wedding betrayal.",
+          "description": "Son of Walder Frey who attends the wedding betrayal.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -5914,7 +5913,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Son of Walder Frey involved in the Red Wedding betrayal.",
+          "description": "Son of Walder Frey present at the wedding betrayal.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -5990,7 +5989,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Son of Walder Frey present at the Red Wedding betrayal.",
+          "description": "Son of Walder Frey present at the wedding betrayal.",
           "role": "Frey son",
           "relationships": {
             "Walder Frey": "Father",
@@ -6047,7 +6046,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Walder Frey's daughter present at the Red Wedding.",
+          "description": "Walder Frey's daughter present at the wedding.",
           "role": "Frey daughter",
           "relationships": {
             "Walder Frey": "Father",
@@ -6199,7 +6198,7 @@
       "knowledge": {
         "45": {
           "revealedIn": 45,
-          "description": "Walder Frey's daughter present at the Red Wedding massacre.",
+          "description": "Walder Frey's daughter present at the wedding massacre.",
           "role": "Frey daughter",
           "relationships": {
             "Walder Frey": "Father",
@@ -6260,19 +6259,19 @@
     "48": "Jon escapes the wildlings and returns to Castle Black. Preparations for royal wedding.",
     "49": "Sansa navigates the dangerous politics of King's Landing.",
     "50": "Various factions prepare for upcoming conflicts and celebrations.",
-    "51": "The Red Wedding: Robb Stark, Catelyn, and their followers are massacred at the Twins.",
-    "52": "Arya arrives at the Twins just as the Red Wedding concludes, witnessing the aftermath.",
+    "51": "A wedding takes place at the Twins with shocking consequences.",
+    "52": "Arya arrives at the Twins during chaos and confusion.",
     "53": "Oberyn reveals his desire for justice for his sister Elia's murder.",
-    "54": "The realm reacts to news of the Red Wedding massacre.",
+    "54": "The realm reacts to shocking news from the Riverlands.",
     "55": "The wildling assault on Castle Black begins. Sam shows unexpected courage.",
     "56": "Arya continues her dangerous journey with the Hound.",
     "57": "Daenerys continues her conquests in Slaver's Bay.",
     "58": "Political ramifications continue from recent events.",
     "59": "Various characters deal with the changing political landscape.",
-    "60": "The Purple Wedding: King Joffrey dies of poison at his wedding feast.",
-    "61": "Chaos follows Joffrey's death as various parties react.",
+    "60": "Shocking events occur at the royal wedding feast.",
+    "61": "Chaos follows the wedding as various parties react.",
     "62": "Jaime deals with the political situation following his nephew's death.",
-    "63": "The investigation into Joffrey's murder begins with Tyrion as chief suspect.",
+    "63": "An investigation begins with Tyrion as chief suspect.",
     "64": "Various characters navigate the new political reality after Joffrey's death.",
     "65": "Arya and the Hound continue their travels through the war-torn Riverlands.",
     "66": "Political maneuvering continues following the major deaths.",
