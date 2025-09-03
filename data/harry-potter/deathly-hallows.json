@@ -101,11 +101,11 @@
         },
         "33": {
           "revealedIn": 33,
-          "description": "Learns he is the final Horcrux and must die for Voldemort to be mortal.",
-          "role": "Horcrux, Sacrifice",
+          "description": "Learns shocking truths from Snape's memories about his destiny.",
+          "role": "The Chosen One",
           "relationships": {
-            "Voldemort": "Part of soul inside",
-            "Severus Snape": "Learned truth from memories"
+            "Voldemort": "Connected to",
+            "Severus Snape": "Received memories from"
           }
         },
         "34": {
@@ -386,8 +386,7 @@
     "severus-snape": {
       "name": "Severus Snape",
       "aliases": [
-        "Professor Snape",
-        "The Half-Blood Prince"
+        "Professor Snape"
       ],
       "appearances": [
         1,
@@ -400,19 +399,19 @@
         "1": {
           "revealedIn": 1,
           "description": "Present at Death Eater meeting, providing information about Harry's movements to Voldemort.",
-          "role": "Death Eater, Double agent",
+          "role": "Death Eater",
           "relationships": {
-            "Voldemort": "Serving (seemingly)",
-            "Order of the Phoenix": "Actually serving"
+            "Voldemort": "Serving",
+            "Death Eaters": "Member"
           }
         },
         "30": {
           "revealedIn": 30,
-          "description": "Headmaster of Hogwarts under Death Eater control. Secretly helps students when possible.",
-          "role": "Headmaster, Secret protector",
+          "description": "Headmaster of Hogwarts under Death Eater control.",
+          "role": "Headmaster",
           "relationships": {
-            "Students": "Secretly protecting",
-            "Death Eaters": "Working for (outwardly)"
+            "Hogwarts": "Headmaster of",
+            "Death Eaters": "Working with"
           }
         },
         "32": {
@@ -426,12 +425,12 @@
         },
         "33": {
           "revealedIn": 33,
-          "description": "Memories reveal he loved Lily Potter and spent years protecting Harry for her sake.",
-          "role": "Double agent, Protector",
+          "description": "His memories reveal surprising truths about his past and motivations.",
+          "role": "Complex figure",
           "relationships": {
-            "Lily Potter": "Always loved",
-            "Harry Potter": "Protected for Lily's sake",
-            "Albus Dumbledore": "Worked with to protect Harry"
+            "Lily Potter": "Had history with",
+            "Harry Potter": "Complex relationship",
+            "Albus Dumbledore": "Had arrangements with"
           }
         }
       }
@@ -458,10 +457,10 @@
         },
         "33": {
           "revealedIn": 33,
-          "description": "His plan revealed through Snape's memories - he knew Harry was a Horcrux and must die.",
+          "description": "His long-term plans are revealed through Snape's memories.",
           "role": "Deceased mastermind",
           "relationships": {
-            "Harry Potter": "Planned death of",
+            "Harry Potter": "Had plans for",
             "Severus Snape": "Worked with"
           }
         },
@@ -496,12 +495,12 @@
         },
         "23": {
           "revealedIn": 23,
-          "description": "Dies saving Harry and friends from Malfoy Manor, killed by Bellatrix's knife.",
-          "role": "Free house-elf, Hero",
+          "description": "Helps Harry and friends escape from Malfoy Manor in a dangerous rescue.",
+          "role": "Free house-elf, Rescuer",
           "relationships": {
-            "Harry Potter": "Died saving",
-            "Bellatrix Lestrange": "Killed by",
-            "Hermione Granger": "Died protecting"
+            "Harry Potter": "Rescued",
+            "Bellatrix Lestrange": "Fought against",
+            "Hermione Granger": "Protected"
           }
         }
       }
@@ -1041,10 +1040,10 @@
         },
         "32": {
           "revealedIn": 32,
-          "description": "Devastated by Fred's death during the Battle of Hogwarts.",
-          "role": "Fighter, Grieving twin",
+          "description": "Fights alongside Fred during the Battle of Hogwarts.",
+          "role": "Fighter",
           "relationships": {
-            "Fred Weasley": "Dead twin brother",
+            "Fred Weasley": "Twin brother",
             "Death Eaters": "Fighting in revenge"
           }
         }
@@ -1074,10 +1073,10 @@
         },
         "32": {
           "revealedIn": 32,
-          "description": "Fights alongside his family in the Battle of Hogwarts. Present when Fred dies.",
+          "description": "Fights alongside his family in the Battle of Hogwarts. Reconciles with his family.",
           "role": "Fighter, Reconciled brother",
           "relationships": {
-            "Fred Weasley": "Reconciled with before death",
+            "Fred Weasley": "Reconciled with",
             "Weasley family": "Fighting with"
           }
         }
@@ -1298,11 +1297,11 @@
         },
         "4": {
           "revealedIn": 4,
-          "description": "Killed by Voldemort during the aerial battle while protecting Harry.",
-          "role": "Auror, War casualty",
+          "description": "Missing after the aerial battle. His fate remains uncertain.",
+          "role": "Auror, Missing",
           "relationships": {
-            "Voldemort": "Killed by",
-            "Harry Potter": "Died protecting"
+            "Order of the Phoenix": "Member",
+            "Harry Potter": "Protected"
           }
         }
       }
@@ -3372,12 +3371,11 @@
         },
         "4": {
           "revealedIn": 4,
-          "description": "Dies protecting Harry during the aerial battle, struck by a Killing Curse.",
-          "role": "Heroic pet, Sacrifice",
+          "description": "Lost during the aerial battle while in Harry's motorcycle sidecar.",
+          "role": "Harry's owl",
           "relationships": {
-            "Harry Potter": "Died protecting",
-            "Death Eaters": "Killed by",
-            "Aerial battle": "Casualty of"
+            "Harry Potter": "Pet of",
+            "Aerial battle": "Lost during"
           }
         }
       }
@@ -4038,7 +4036,7 @@
     "1": "Voldemort meets with his Death Eaters and takes Lucius Malfoy's wand. Plans for Harry's capture intensify.",
     "2": "Harry prepares to leave Privet Drive for good, packing his belongings and reflecting on Dumbledore's death. He says farewell to the Dursleys.",
     "3": "The Order of the Phoenix arrives to escort Harry away using decoys. They transform into multiple Harrys with Polyjuice Potion.",
-    "4": "Death Eaters attack during the escape. Hedwig is killed and Harry barely makes it to safety.",
+    "4": "Death Eaters attack during the escape. Harry loses important things and barely makes it to safety.",
     "5": "The survivors regroup at the Burrow, mourning their losses. Harry feels guilt over the dangers faced by his friends.",
     "6": "The Weasleys prepare for Bill and Fleur's wedding. Harry, Ron, and Hermione plan for their mission.",
     "7": "The wedding is interrupted by news that the Ministry has fallen. Death Eaters arrive, forcing Harry and his friends to flee.",
@@ -4056,15 +4054,15 @@
     "19": "Death Eaters capture Luna and pressure Xenophilius. The trio narrowly escapes another trap.",
     "20": "The Snatchers capture Harry, Ron, and Hermione. They are taken to Malfoy Manor.",
     "21": "Bellatrix Lestrange tortures Hermione for information at Malfoy Manor. Dobby the house-elf arrives to help with their escape attempt.",
-    "22": "They bury Dobby and regroup at Shell Cottage. Plans are made to break into Gringotts.",
+    "22": "They regroup at Shell Cottage after their escape. Plans are made to break into Gringotts.",
     "23": "The trio, with Griphook's help, infiltrates Gringotts disguised by Polyjuice Potion. They retrieve the cup Horcrux and escape on a dragon.",
     "24": "Harry has visions from Voldemort's mind that lead them to Hogwarts. They return to the school to find the next Horcrux.",
     "25": "Dumbledore's Army and the Order gather at Hogwarts. Teachers prepare to defend the castle against Voldemort's forces.",
     "26": "The Battle of Hogwarts begins with Death Eaters attacking the school. Students, staff, and allies fight back fiercely.",
     "27": "Voldemort calls for Harry, demanding his surrender to stop more bloodshed. Casualties weigh heavily on Harry.",
-    "28": "Harry learns the truth about Snape's loyalties through his memories. He discovers he must sacrifice himself to defeat Voldemort.",
-    "29": "Harry walks into the forest and allows Voldemort to strike him down. He has a surreal encounter with Dumbledore in a dreamlike King's Cross.",
-    "30": "Harry awakens and pretends to be dead while Voldemort shows his body to the defenders. A final confrontation looms.",
+    "28": "Harry views important memories that reveal surprising truths. He understands what must be done.",
+    "29": "Harry walks into the forest to face Voldemort. Strange events unfold that change everything.",
+    "30": "The situation at Hogwarts reaches a critical point. Everyone believes the battle is over."
     "31": "The final battle erupts in the Great Hall. Voldemort is ultimately defeated as his own curse rebounds.",
     "32": "Peace returns to Hogwarts. Harry reflects on the losses and quietly plans his future with his friends.",
     "33": "The wizarding world begins to rebuild. Harry visits Dumbledore's portrait for guidance.",
