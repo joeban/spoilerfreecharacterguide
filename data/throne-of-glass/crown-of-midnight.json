@@ -111,11 +111,23 @@
         },
         "25": {
           "revealedIn": 25,
-          "description": "Devastated by Nehemia's death, unleashing her full fury and magical abilities. Begins to embrace her true heritage and power.",
-          "role": "Avenging assassin with growing magical power",
+          "description": "Growing increasingly desperate as the web of deception tightens around her. Her magical abilities begin manifesting more strongly under stress.",
+          "role": "Assassin under increasing pressure",
           "relationships": {
             "enemy": "King of Adarlan",
             "complicated": "Chaol Westfall",
+            "friend": "Prince Dorian",
+            "sister": "Princess Nehemia",
+            "ally": "Mort"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Devastated by Nehemia's death, unleashing her full fury and magical abilities. Begins to embrace her true heritage and power in response to grief and rage.",
+          "role": "Avenging assassin with awakened power",
+          "relationships": {
+            "enemy": "King of Adarlan",
+            "estranged from": "Chaol Westfall",
             "friend": "Prince Dorian",
             "deceased": "Princess Nehemia",
             "ally": "Mort"
@@ -236,7 +248,19 @@
         },
         "25": {
           "revealedIn": 25,
-          "description": "Devastated by his role in Nehemia's death and Celaena's reaction. Realizes he may have been manipulated by those he serves.",
+          "description": "Struggling with conflicting loyalties as the political situation becomes more dangerous. Realizes he may be in over his head with the forces at play.",
+          "role": "Conflicted Captain",
+          "relationships": {
+            "serves": "King of Adarlan",
+            "complicated": "Celaena Sardothien",
+            "friend": "Prince Dorian",
+            "friend": "Princess Nehemia",
+            "manipulated by": "Duke Perrington"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Devastated by his role in Nehemia's death and Celaena's reaction. Realizes he may have been manipulated by those he serves and faces the consequences of his choices.",
           "role": "Guilt-ridden Captain",
           "relationships": {
             "serves": "King of Adarlan",
@@ -413,6 +437,17 @@
             "father": "Prince Dorian",
             "enemy": "Aelin Galathynius",
             "ally": "Duke Perrington",
+            "enemy": "Princess Nehemia"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "His ruthless nature fully revealed as he orders the murder of Princess Nehemia. Shows no remorse for eliminating threats to his power.",
+          "role": "Ruthless tyrant king",
+          "relationships": {
+            "father": "Prince Dorian",
+            "enemy": "Aelin Galathynius",
+            "ally": "Duke Perrington",
             "murdered": "Princess Nehemia"
           }
         }
@@ -437,7 +472,14 @@
         19,
         21,
         23,
-        25
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        38
       ],
       "knowledge": {
         "1": {
@@ -475,6 +517,28 @@
         },
         "25": {
           "revealedIn": 25,
+          "description": "Growing increasingly desperate in her rebel activities, putting herself at greater risk. Her secret meetings and dangerous plans worry those who care about her.",
+          "role": "Princess in growing danger",
+          "relationships": {
+            "sister": "Celaena Sardothien",
+            "friend": "Chaol Westfall",
+            "ally": "Murtaugh Allsbrook",
+            "enemy": "Duke Perrington"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Her rebel network faces increasing scrutiny and danger. The threat to her life becomes more imminent as her enemies close in.",
+          "role": "Princess under imminent threat",
+          "relationships": {
+            "sister": "Celaena Sardothien",
+            "friend": "Chaol Westfall",
+            "ally": "Ren Allsbrook",
+            "threatened by": "King of Adarlan"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
           "description": "Murdered by the King's forces, devastating Celaena and triggering her full transformation. Her death becomes a catalyst for rebellion.",
           "role": "Martyred princess",
           "relationships": {
@@ -533,6 +597,17 @@
           "revealedIn": 32,
           "description": "His true nature and the extent of his involvement in the King's atrocities become clearer. A master manipulator and strategist.",
           "role": "Master manipulator",
+          "relationships": {
+            "serves": "King of Adarlan",
+            "manipulates": "Chaol Westfall",
+            "enemy": "Aelin Galathynius",
+            "plotting against": "Princess Nehemia"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "His role in orchestrating Nehemia's death is revealed. Shows the full extent of his ruthless manipulation and willingness to destroy anyone who threatens the King's rule.",
+          "role": "Orchestrator of murder",
           "relationships": {
             "serves": "King of Adarlan",
             "manipulates": "Chaol Westfall",
@@ -787,7 +862,17 @@
         },
         "25": {
           "revealedIn": 25,
-          "description": "Devastated by Nehemia's death, he continues working with the resistance movement. Shows growing respect for Celaena's abilities.",
+          "description": "Increasingly worried about Nehemia's dangerous rebel activities and the growing threat to her safety. The resistance faces mounting pressure.",
+          "role": "Worried rebel",
+          "relationships": {
+            "ally": "Princess Nehemia",
+            "ally": "Celaena Sardothien",
+            "works with": "Murtaugh Allsbrook"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Devastated by Nehemia's death, he continues working with the resistance movement. Shows growing respect for Celaena's abilities and her transformation.",
           "role": "Grieving rebel",
           "relationships": {
             "mourns": "Princess Nehemia",
@@ -3667,11 +3752,11 @@
     "physician-harold": {
       "name": "Physician Harold",
       "aliases": [],
-      "appearances": [],
+      "appearances": [38],
       "knowledge": {
-        "25": {
-          "revealedIn": 25,
-          "description": "One of the castle physicians who examines Nehemia.",
+        "38": {
+          "revealedIn": 38,
+          "description": "One of the castle physicians who examines Nehemia after her murder.",
           "role": "Castle physician",
           "relationships": {
             "Ligenza": "Works with"
@@ -3682,11 +3767,11 @@
     "nurse-margaret": {
       "name": "Nurse Margaret",
       "aliases": [],
-      "appearances": [],
+      "appearances": [38],
       "knowledge": {
-        "25": {
-          "revealedIn": 25,
-          "description": "Nurse who assists with medical emergencies.",
+        "38": {
+          "revealedIn": 38,
+          "description": "Nurse who assists with medical emergencies, including the aftermath of Nehemia's murder.",
           "role": "Castle nurse",
           "relationships": {}
         }
@@ -3774,11 +3859,11 @@
     "22": "Celaena continues to navigate her relationship with Archer while growing increasingly suspicious of his true loyalties and motivations.",
     "23": "The various political factions in the court maneuver for advantage while the rebel network continues to operate in secret.",
     "24": "Violence escalates as the political situation becomes more unstable. The castle's healer becomes increasingly important as injuries mount.",
-    "25": "Princess Nehemia is murdered, devastating Celaena and triggering her full transformation. Her magical abilities unleash in response to grief and rage.",
-    "26": "Celaena's grief over Nehemia's death drives her to seek revenge while her magical powers continue to manifest more strongly.",
+    "25": "Growing tensions with Archer reveal the depth of political intrigue in the castle. Celaena faces difficult choices as the web of deception tightens around her.",
+    "26": "Celaena's investigation into Archer's true nature intensifies. The threat to those she cares about becomes more apparent as dangerous forces move against them.",
     "27": "Celaena discovers Mort, the ancient door knocker in the royal tombs, who begins to provide guidance about her true heritage and destiny.",
     "28": "Elena Havilliard appears to Celaena in visions, providing guidance about the larger conflicts and threats facing the world.",
-    "29": "The rebel network regroups after Nehemia's death while Murtaugh and Ren continue their work with deeper knowledge of the ancient bloodlines.",
+    "29": "The rebel network faces increased pressure and danger. Murtaugh and Ren continue their work while being hunted by the King's forces.",
     "30": "Celaena encounters the creature Yellowlegs in the secret passages, facing an ancient evil that guards the castle's deepest secrets.",
     "31": "Court politics continue to evolve as Roland's presence affects the royal family dynamics and various nobles pursue their agendas.",
     "32": "Elena provides more guidance about the ancient conflicts and Celaena's role in the coming war, while dark forces begin to stir.",
@@ -3787,7 +3872,7 @@
     "35": "Celaena learns more about her true identity through Mort's guidance while the political situation in the castle becomes increasingly dangerous.",
     "36": "Arobynn's true nature and manipulation become clearer as events unfold, affecting both Celaena and those in his network.",
     "37": "Lady Kaltain's transformation by dark magic becomes apparent while the various factions prepare for greater conflicts.",
-    "38": "Archer's betrayal is revealed, showing his true loyalty to the King and his role in Nehemia's death, devastating Celaena further.",
+    "38": "Archer's betrayal is revealed, showing his true loyalty to the King. Princess Nehemia is murdered, devastating Celaena and triggering her full transformation into Aelin.",
     "39": "The political tensions in the court reach a breaking point as various plots and schemes come to fruition.",
     "40": "Celaena reveals her true identity as Aelin Galathynius to Chaol, forever changing their relationship and her position in the world.",
     "41": "Ren and Murtaugh are revealed to be connected to the royal line of Terrasen, having served the Galathynius family for generations.",

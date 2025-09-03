@@ -105,7 +105,7 @@
           "role": "Queen of Terrasen",
           "relationships": {
             "Queen of": "Terrasen",
-            "Mate of": "Rowan Whitethorn"
+            "Companion": "Rowan Whitethorn"
           }
         },
         "25": {
@@ -117,9 +117,18 @@
             "Allied with": "Various kingdoms"
           }
         },
+        "47": {
+          "revealedIn": 47,
+          "description": "Accepts and embraces the mating bond with Rowan, strengthening their connection in the face of war.",
+          "role": "Mated queen",
+          "relationships": {
+            "Mate of": "Rowan Whitethorn",
+            "Queen of": "Terrasen"
+          }
+        },
         "75": {
           "revealedIn": 75,
-          "description": "Faces betrayal by Maeve and is captured, separated from her court and mate.",
+          "description": "Faces betrayal by Maeve and is captured, separated from her court and companions.",
           "role": "Captured queen",
           "relationships": {
             "Captured by": "Queen Maeve",
@@ -222,8 +231,17 @@
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Serves as Aelin's mate, protector, and strategic advisor in the war preparations.",
-          "role": "Queen's mate and advisor",
+          "description": "Serves as Aelin's protector and strategic advisor in the war preparations.",
+          "role": "Queen's advisor",
+          "relationships": {
+            "Protector of": "Aelin Galathynius",
+            "Prince of": "Doranelle"
+          }
+        },
+        "47": {
+          "revealedIn": 47,
+          "description": "Accepts and embraces the mating bond with Aelin, solidifying their eternal connection.",
+          "role": "Queen's mate",
           "relationships": {
             "Mate of": "Aelin Galathynius",
             "Prince of": "Doranelle"
@@ -231,7 +249,7 @@
         },
         "50": {
           "revealedIn": 50,
-          "description": "Devastated by Aelin's capture and determined to rescue her at any cost.",
+          "description": "Devastated by Aelin's capture and determined to rescue his mate at any cost.",
           "role": "Desperate mate",
           "relationships": {
             "Searching for": "Aelin Galathynius",
