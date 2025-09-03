@@ -114,12 +114,12 @@
           "role": "Witness, Captive",
           "relationships": {
             "Voldemort": "Dueled with",
-            "Cedric Diggory": "Witnessed murder of"
+            "Cedric Diggory": "Transported with"
           }
         },
         "35": {
           "revealedIn": 35,
-          "description": "Returns from the graveyard with Cedric's body. Traumatized by the events he witnessed.",
+          "description": "Returns from the graveyard deeply traumatized. Insists that Voldemort has returned.",
           "role": "Survivor, Witness",
           "relationships": {
             "Mad-Eye Moody": "Revealed as Barty Crouch Jr."
@@ -378,15 +378,15 @@
             "Harry Potter": "Failed to kill",
             "James Potter": "Killed (spirit appears)",
             "Lily Potter": "Killed (spirit appears)",
-            "Cedric Diggory": "Murdered"
+            "Death Eaters": "Enemies"
           }
         }
       }
     },
-    "barty-crouch-jr": {
-      "name": "Barty Crouch Jr.",
+    "mad-eye-moody-impostor": {
+      "name": "Mad-Eye Moody",
       "aliases": [
-        "Mad-Eye Moody",
+        "Professor Moody",
         "Alastor Moody"
       ],
       "appearances": [
@@ -411,36 +411,67 @@
         29,
         30,
         31,
-        35,
-        36
+        32,
+        33,
+        34
       ],
       "knowledge": {
         "11": {
           "revealedIn": 11,
-          "description": "Appears as the new Defence Against the Dark Arts teacher. Gruff, paranoid ex-Auror with a magical eye and wooden leg.",
-          "role": "Professor, Disguised Death Eater",
+          "description": "New Defence Against the Dark Arts teacher. Gruff, paranoid ex-Auror with a magical eye that can see through anything and a wooden leg.",
+          "role": "Defence Against the Dark Arts Professor",
           "relationships": {
             "Students": "Teacher of",
-            "Albus Dumbledore": "Trusted by"
+            "Albus Dumbledore": "Old friend of"
           }
         },
         "13": {
           "revealedIn": 13,
-          "description": "Teaches students about the Unforgivable Curses using live demonstrations. Particularly harsh on Neville.",
-          "role": "Professor, Cruel teacher",
+          "description": "Teaches students about the Unforgivable Curses using live demonstrations. Shows particular interest in helping Harry.",
+          "role": "Professor",
           "relationships": {
-            "Neville Longbottom": "Cruel to",
-            "Students": "Frightens"
+            "Harry Potter": "Helps and advises",
+            "Students": "Teacher of"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Helps Harry prepare for the Triwizard Tournament tasks. Seems unusually invested in Harry's success.",
+          "role": "Professor, Mentor",
+          "relationships": {
+            "Harry Potter": "Secretly helps"
+          }
+        }
+      }
+    },
+    "barty-crouch-jr": {
+      "name": "Barty Crouch Jr.",
+      "aliases": [
+        "Young Crouch"
+      ],
+      "appearances": [
+        30,
+        35,
+        36
+      ],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Mentioned in Pensieve memory as having been sent to Azkaban for Death Eater activities. Son of Barty Crouch Sr.",
+          "role": "Imprisoned Death Eater (historical)",
+          "relationships": {
+            "Barty Crouch Sr.": "Son of",
+            "Death Eaters": "Member of"
           }
         },
         "35": {
           "revealedIn": 35,
-          "description": "Revealed to be Barty Crouch Jr. under Polyjuice Potion. Death Eater who helped engineer Harry's participation in tournament.",
+          "description": "Revealed to have been impersonating Mad-Eye Moody all year using Polyjuice Potion. Escaped from Azkaban and orchestrated Harry's entry into the tournament to deliver him to Voldemort.",
           "role": "Death Eater, Impostor",
           "relationships": {
             "Voldemort": "Loyal servant of",
-            "Barty Crouch Sr.": "Son of",
-            "Harry Potter": "Used for master's plan",
+            "Barty Crouch Sr.": "Son of (killed him)",
+            "Harry Potter": "Manipulated",
             "Alastor Moody": "Impersonated"
           }
         }
@@ -498,11 +529,10 @@
         },
         "32": {
           "revealedIn": 32,
-          "description": "Murdered by Peter Pettigrew on Voldemort's orders after being transported to the graveyard.",
-          "role": "Champion, Murder victim",
+          "description": "Transported to a graveyard with Harry via the Triwizard Cup Portkey.",
+          "role": "Champion",
           "relationships": {
-            "Voldemort": "Killed by order of",
-            "Peter Pettigrew": "Murdered by"
+            "Harry Potter": "Transported with"
           }
         }
       }
@@ -830,7 +860,7 @@
           "role": "Death Eater, Ritualist",
           "relationships": {
             "Voldemort": "Restored to body",
-            "Cedric Diggory": "Murders on orders"
+            "Wormtail": "Servant"
           }
         },
         "33": {
@@ -6662,8 +6692,8 @@
     "31": "The champions enter the maze for the third task. Harry and Cedric face dangerous creatures and enchanted obstacles.",
     "32": "Harry and Cedric seize the Triwizard Cup together, but it transports them elsewhere. They realize too late it is a Portkey.",
     "33": "Harry witnesses a terrifying ritual that restores Voldemort to physical form. Voldemort calls his followers, the Death Eaters.",
-    "34": "Voldemort duels Harry in a graveyard. Their wands connect in a strange magical clash that allows Harry to escape with Cedric's body.",
-    "35": "Harry returns to Hogwarts carrying Cedric's body. Panic and grief spread through the crowd.",
+    "34": "Voldemort duels Harry in a graveyard. Their wands connect in a strange magical phenomenon called Priori Incantatem, allowing Harry to escape.",
+    "35": "Harry returns to Hogwarts from the graveyard in a state of shock. The truth about the evening's events begins to unfold.",
     "36": "Dumbledore comforts Harry and listens to his story. The Ministry begins to deny Voldemort's return.",
     "37": "The school year ends in uncertainty. Harry prepares to return to Privet Drive with Voldemort's return weighing heavily."
   }
