@@ -93,11 +93,11 @@
         },
         "29": {
           "revealedIn": 29,
-          "description": "Witnesses Dumbledore's death at Snape's hands. Discovers the locket Horcrux was a fake.",
-          "role": "Student, Witness to murder",
+          "description": "Witnesses shocking events at the Astronomy Tower. Discovers the locket Horcrux was a fake with a note from R.A.B.",
+          "role": "Student, Witness",
           "relationships": {
-            "Albus Dumbledore": "Watched die",
-            "Severus Snape": "Killer of Dumbledore"
+            "Severus Snape": "Enemy",
+            "R.A.B.": "Found note from"
           }
         }
       }
@@ -162,12 +162,12 @@
         },
         "29": {
           "revealedIn": 29,
-          "description": "Killed by Severus Snape atop the Astronomy Tower. His death leaves Harry to complete the mission alone.",
-          "role": "Headmaster, Murder victim",
+          "description": "Confronted atop the Astronomy Tower in a dramatic encounter with multiple Death Eaters.",
+          "role": "Headmaster",
           "relationships": {
-            "Severus Snape": "Killed by",
-            "Harry Potter": "Left mission to",
-            "Draco Malfoy": "Disarmed by before death"
+            "Death Eaters": "Confronted by",
+            "Harry Potter": "Protected",
+            "Draco Malfoy": "Disarmed by"
           }
         }
       }
@@ -175,8 +175,7 @@
     "severus-snape": {
       "name": "Severus Snape",
       "aliases": [
-        "Professor Snape",
-        "The Half-Blood Prince"
+        "Professor Snape"
       ],
       "appearances": [
         2,
@@ -212,21 +211,21 @@
         },
         "28": {
           "revealedIn": 28,
-          "description": "Revealed to be the Half-Blood Prince whose textbook helped Harry excel in Potions.",
-          "role": "DADA Professor, Half-Blood Prince",
+          "description": "Revealed to have a connection to the mysterious Potions textbook. His mother's maiden name was Prince.",
+          "role": "DADA Professor",
           "relationships": {
-            "Harry Potter": "Unknowingly helped through textbook",
-            "Lily Evans": "Mother whose maiden name was Prince"
+            "Harry Potter": "Enemy",
+            "Lily Evans": "Mother's maiden name Prince"
           }
         },
         "29": {
           "revealedIn": 29,
-          "description": "Kills Dumbledore with the Killing Curse and flees Hogwarts with Draco and Death Eaters.",
-          "role": "Death Eater, Murderer",
+          "description": "Takes decisive action at the Astronomy Tower and flees Hogwarts with Death Eaters.",
+          "role": "DADA Professor",
           "relationships": {
-            "Albus Dumbledore": "Murdered",
-            "Draco Malfoy": "Helped complete mission",
-            "Harry Potter": "Now mortal enemy"
+            "Death Eaters": "Fled with",
+            "Draco Malfoy": "Helped",
+            "Harry Potter": "Enemy"
           }
         }
       }
@@ -915,11 +914,11 @@
         },
         "30": {
           "revealedIn": 30,
-          "description": "Takes charge of Hogwarts arrangements after Dumbledore's death, showing strong leadership.",
+          "description": "Takes charge of Hogwarts arrangements during a crisis, showing strong leadership.",
           "role": "Acting authority figure",
           "relationships": {
-            "Albus Dumbledore": "Successor to",
-            "Hogwarts": "Protecting future of"
+            "Hogwarts": "Protecting",
+            "Students": "Leading"
           }
         }
       }
@@ -961,10 +960,10 @@
         },
         "30": {
           "revealedIn": 30,
-          "description": "Deeply mourns Dumbledore's death at the funeral, showing the depth of their bond.",
-          "role": "Groundskeeper, Mourner",
+          "description": "Deeply mourns recent events, showing the depth of his emotions.",
+          "role": "Groundskeeper",
           "relationships": {
-            "Albus Dumbledore": "Best friend (deceased)"
+            "Hogwarts": "Protector of"
           }
         }
       }
@@ -4856,16 +4855,16 @@
     "17": "Harry convinces Slughorn to share a crucial memory about Voldemort. It reveals Voldemort made multiple Horcruxes.",
     "18": "Harry continues watching Draco and suspects he is using the Room of Requirement. Tension grows as attacks increase outside school.",
     "19": "Harry and Ginny finally get together after a Quidditch match. Their relationship blossoms quickly.",
-    "20": "Dumbledore and Harry retrieve a locket Horcrux from a dangerous cave. Dumbledore weakens himself drinking a potion protecting it.",
-    "21": "They return to Hogwarts and find the Dark Mark above the Astronomy Tower. Harry hides as Draco confronts Dumbledore.",
-    "22": "Snape kills Dumbledore during the confrontation, shocking everyone. Death Eaters flee the castle.",
-    "23": "The Hogwarts community mourns Dumbledore's death. Harry vows to continue the mission to find and destroy Voldemort's Horcruxes.",
+    "20": "Dumbledore shows Harry more memories about Voldemort's past, revealing important information about magical objects.",
+    "21": "Harry uses Sectumsempra on Draco in a bathroom duel, nearly killing him. Snape heals Draco's wounds.",
+    "22": "A shocking confrontation occurs at the Astronomy Tower. Death Eaters flee the castle.",
+    "23": "The Hogwarts community processes shocking events. Harry vows to continue the mission to find and destroy Voldemort's Horcruxes.",
     "24": "Harry breaks up with Ginny to protect her. He, Ron, and Hermione plan to leave school to hunt Horcruxes instead of returning next year.",
-    "25": "Funeral preparations begin for Dumbledore. Wizards from across the world arrive to pay respects.",
-    "26": "Harry discovers the locket they retrieved was fake. A note from R.A.B. reveals someone else tried to destroy the real Horcrux.",
-    "27": "The funeral takes place by the lake. Harry watches as Dumbledore is laid to rest in a white tomb.",
-    "28": "Harry searches Dumbledore's office for clues. He finds nothing but feels the weight of continuing alone.",
-    "29": "Students pack to leave Hogwarts early. The future of the school remains uncertain without Dumbledore.",
-    "30": "Harry, Ron, and Hermione solidify their plans. They will hunt for Horcruxes together, starting with finding R.A.B.'s identity."
+    "25": "Harry and Dumbledore prepare for an important mission. Dumbledore gives Harry final instructions.",
+    "26": "Dumbledore and Harry journey to a dangerous cave to retrieve what they believe is a Horcrux. Dumbledore drinks a terrible potion.",
+    "27": "They return to find the Dark Mark over Hogwarts. Events unfold rapidly at the Astronomy Tower.",
+    "28": "Harry pursues Snape as he flees Hogwarts. Shocking revelations emerge during the confrontation.",
+    "29": "The Hogwarts community grieves together. A phoenix lament fills the air as everyone processes recent events.",
+    "30": "A ceremony takes place by the lake. Harry makes the difficult decision to break up with Ginny and prepares to hunt Horcruxes."
   }
 }
