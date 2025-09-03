@@ -356,16 +356,18 @@
         }
       }
     },
-    "peter-pettigrew": {
-      "name": "Peter Pettigrew",
-      "aliases": [
-        "Wormtail",
-        "Scabbers"
-      ],
+    "scabbers": {
+      "name": "Scabbers",
+      "aliases": [],
       "appearances": [
         4,
         5,
+        6,
+        8,
+        11,
+        13,
         15,
+        16,
         17,
         18,
         19
@@ -373,30 +375,74 @@
       "knowledge": {
         "4": {
           "revealedIn": 4,
-          "description": "Ron's pet rat who seems sickly and nervous. Has been with the Weasley family for twelve years.",
-          "role": "Pet rat",
+          "description": "Ron's pet rat who seems sickly and nervous. Has been with the Weasley family for twelve years. Looking rather ill and has lost weight.",
+          "role": "Ron's pet rat",
           "relationships": {
             "Ron Weasley": "Pet of",
-            "Weasley family": "Pet of"
+            "Percy Weasley": "Former pet of"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Ron's elderly pet rat who is terrified of Hermione's cat Crookshanks. Missing a toe on his front paw.",
+          "role": "Ron's pet rat",
+          "relationships": {
+            "Ron Weasley": "Pet of",
+            "Crookshanks": "Terrified of"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Ron's rat who has gone missing, apparently eaten by Crookshanks based on blood and ginger cat hairs found on Ron's sheets.",
+          "role": "Missing pet rat",
+          "relationships": {
+            "Ron Weasley": "Pet of",
+            "Crookshanks": "Supposedly killed by"
+          }
+        }
+      }
+    },
+    "peter-pettigrew": {
+      "name": "Peter Pettigrew",
+      "aliases": [
+        "Wormtail"
+      ],
+      "appearances": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Former friend of James Potter who was supposedly killed by Sirius Black. Said to have been blown to pieces, with only a finger found.",
+          "role": "Supposedly deceased wizard",
+          "relationships": {
+            "James Potter": "Former friend of",
+            "Sirius Black": "Supposedly killed by"
           }
         },
         "18": {
           "revealedIn": 18,
-          "description": "Revealed to be an Animagus who has been hiding as Ron's rat Scabbers. Actually the wizard who betrayed Harry's parents to Voldemort and framed Sirius.",
+          "description": "Revealed to be alive and an Animagus who has been hiding as Ron's rat Scabbers for twelve years. Actually the wizard who betrayed Harry's parents to Voldemort and framed Sirius for the murders.",
           "role": "Traitor, Animagus",
           "relationships": {
             "James Potter": "Betrayed to Voldemort",
             "Lily Potter": "Betrayed to Voldemort",
             "Sirius Black": "Framed for murder",
-            "Voldemort": "Servant of"
+            "Voldemort": "Servant of",
+            "Remus Lupin": "Former friend of"
           }
         },
-        "19": {
-          "revealedIn": 19,
-          "description": "Escapes when Lupin transforms into a werewolf. Returns to serve Voldemort after twelve years in hiding.",
+        "20": {
+          "revealedIn": 20,
+          "description": "Escaped after transforming back into a rat when Lupin transformed into a werewolf. His escape means Sirius cannot be cleared of the false charges.",
           "role": "Escaped traitor",
           "relationships": {
-            "Voldemort": "Fleeing to serve"
+            "Voldemort": "Seeking to return to",
+            "Sirius Black": "Framed for murder"
           }
         }
       }
