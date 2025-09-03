@@ -154,16 +154,16 @@ export default function RootLayout({
                         <div className="absolute -left-8 top-1/2 -translate-y-1/2 text-amber-600/70 text-2xl font-display">⟬</div>
                         <div className="absolute -right-8 top-1/2 -translate-y-1/2 text-amber-600/70 text-2xl font-display">⟭</div>
                         
-                        <h1 className="text-4xl md:text-5xl font-display tavern-sign-text tracking-wide">
-                          <span className="block text-5xl md:text-6xl font-black" style={{ letterSpacing: '0.02em', textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0 0 20px rgba(212,175,55,0.3)' }}>SPOILER-FREE</span>
-                          <span className="block text-3xl md:text-4xl font-black mt-1 tracking-widest" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0 0 20px rgba(212,175,55,0.3)' }}>CHARACTER GUIDE</span>
+                        <h1 className="font-display tavern-sign-text">
+                          <span className="block text-4xl md:text-5xl lg:text-6xl font-black" style={{ letterSpacing: '0.01em', marginBottom: '0.25rem' }}>SPOILER-FREE</span>
+                          <span className="block text-2xl md:text-3xl lg:text-4xl font-bold tracking-wider">CHARACTER GUIDE</span>
                         </h1>
                       </div>
                     </div>
                     
-                    {/* Bold claim tagline */}
-                    <div className="mt-6 text-center text-amber-100">
-                      <p className="text-lg md:text-xl font-bold tracking-wide">
+                    {/* Bold claim tagline - refined typography */}
+                    <div className="mt-4 text-center">
+                      <p className="text-base md:text-lg font-semibold tracking-wide text-amber-200" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.6)' }}>
                         Every Named Character. Every Book. Zero Spoilers.
                       </p>
                     </div>

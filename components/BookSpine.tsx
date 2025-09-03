@@ -10,20 +10,64 @@ interface BookSpineProps {
   orientation?: 'vertical' | 'horizontal';
 }
 
-// Book color patterns for variety
+// Expanded professional book color palette
 const bookColors = [
-  { spine: 'from-amber-900 to-amber-950', cover: 'from-amber-800 to-amber-900', accent: 'border-amber-700', solid: '#8b4513' },
-  { spine: 'from-red-900 to-red-950', cover: 'from-red-800 to-red-900', accent: 'border-red-700', solid: '#991b1b' },
-  { spine: 'from-green-900 to-green-950', cover: 'from-green-800 to-green-900', accent: 'border-green-700', solid: '#2d5a2d' },
-  { spine: 'from-blue-900 to-blue-950', cover: 'from-blue-800 to-blue-900', accent: 'border-blue-700', solid: '#2c5282' },
-  { spine: 'from-purple-900 to-purple-950', cover: 'from-purple-800 to-purple-900', accent: 'border-purple-700', solid: '#553c9a' },
-  { spine: 'from-slate-800 to-slate-900', cover: 'from-slate-700 to-slate-800', accent: 'border-slate-600', solid: '#4a4a5a' },
+  'book-burgundy',
+  'book-navy', 
+  'book-forest',
+  'book-purple',
+  'book-brown',
+  'book-charcoal',
+  'book-crimson',
+  'book-teal',
+  'book-indigo',
+  'book-amber',
+  'book-emerald',
+  'book-slate',
+  'book-olive',
+  'book-maroon',
+  'book-bronze'
 ];
 
+// Map specific series to thematic colors (matching actual titles from index.json)
+const seriesColorMap: Record<string, string> = {
+  'Harry Potter': 'book-burgundy',
+  'A Song of Ice and Fire': 'book-charcoal',
+  'Lord of the Rings / The Hobbit': 'book-forest',
+  'Dune': 'book-amber',
+  'The Wheel of Time': 'book-navy',
+  'Mistborn (Cosmere)': 'book-slate',
+  'The Stormlight Archive': 'book-indigo',
+  'The Witcher': 'book-maroon',
+  'A Court of Thorns and Roses': 'book-purple',
+  'Fourth Wing': 'book-crimson',
+  'Throne of Glass': 'book-teal',
+  'Shadow and Bone': 'book-bronze',
+  'The Hunger Games': 'book-olive',
+  'Percy Jackson and the Olympians': 'book-emerald',
+  'The Expanse': 'book-charcoal',
+  'Wings of Fire': 'book-amber',
+  'The Kingkiller Chronicle': 'book-brown',
+  'Chronicles of Narnia': 'book-purple',
+  'Foundation': 'book-slate',
+  'Discworld': 'book-olive'
+};
+
 export default function BookSpine({ title, author, bookCount, orientation = 'vertical' }: BookSpineProps) {
-  // Use title length to consistently assign colors
-  const colorIndex = title.length % bookColors.length;
-  const colors = bookColors[colorIndex];
+  // First check if series has a specific color mapping
+  let bookColorClass = seriesColorMap[title];
+  
+  // If no specific mapping, use a hash function for consistent but varied colors
+  if (!bookColorClass) {
+    // Better hash function to avoid clustering
+    let hash = 0;
+    for (let i = 0; i < title.length; i++) {
+      hash = ((hash << 5) - hash) + title.charCodeAt(i);
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    const colorIndex = Math.abs(hash) % bookColors.length;
+    bookColorClass = bookColors[colorIndex];
+  }
   
   // Force re-render on mount to fix back navigation issues
   const [mounted, setMounted] = useState(false);
@@ -82,14 +126,8 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
         <div 
           className={clsx(
             'book-spine',
-            'bg-gradient-to-b',
-            colors.spine
+            bookColorClass
           )}
-          style={{
-            // Add solid color fallback
-            backgroundColor: colors.solid,
-            backgroundImage: `linear-gradient(to bottom, ${colors.solid}, ${colors.solid}cc)`
-          }}
         >
           {/* Decorative spine details */}
           <div className="spine-decoration">
@@ -98,8 +136,8 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
             
             {/* Title on spine (rotated) */}
             <div className="flex-1 flex items-center justify-center px-1 py-4 overflow-hidden">
-              <span className="text-amber-200/90 text-sm font-display writing-mode-vertical whitespace-nowrap max-w-full">
-                {title.length > 22 ? title.substring(0, 20) + '...' : title}
+              <span className="text-amber-200/90 text-xs font-display writing-mode-vertical whitespace-nowrap max-w-full">
+                {title.length > 20 ? title.substring(0, 18) + '...' : title}
               </span>
             </div>
             
@@ -117,15 +155,8 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
         <div 
           className={clsx(
             'book-cover',
-            'bg-gradient-to-br',
-            colors.cover,
-            'border-r-2 border-t-2 border-b-2',
-            colors.accent
+            bookColorClass
           )}
-          style={{
-            // Add solid color fallback
-            backgroundColor: colors.solid,
-          }}
         >
           {/* Decorative corner flourishes */}
           <div className="absolute top-2 left-2 w-5 h-5 border-l-2 border-t-2 border-amber-400/20 rounded-tl" />
@@ -136,10 +167,10 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
           {/* Cover content */}
           <div className="relative z-10 h-full flex flex-col justify-between p-3">
             <div className="space-y-1">
-              <h3 className="text-lg font-display font-bold text-amber-100 leading-tight break-normal hyphens-none">
+              <h3 className="text-base font-display font-bold text-amber-100 leading-tight break-normal hyphens-none drop-shadow-md">
                 {title}
               </h3>
-              <p className="text-sm text-amber-200/70 italic">{author}</p>
+              <p className="text-xs text-amber-200/80 font-medium">{author}</p>
             </div>
             
             {/* Decorative center element */}
@@ -147,10 +178,10 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
               <div className="w-12 h-px bg-gradient-to-r from-transparent via-amber-400/30 to-transparent" />
             </div>
             
-            {/* Book count badge */}
+            {/* Book count badge - refined */}
             <div className="self-end">
-              <div className="w-14 h-14 bg-gradient-to-br from-amber-500/30 to-amber-600/30 rounded-full flex items-center justify-center border-2 border-amber-400/40 shadow-lg">
-                <span className="text-amber-100 font-bold text-xl">{bookCount}</span>
+              <div className="w-12 h-12 bg-gradient-to-br from-amber-600/20 to-amber-700/30 rounded-full flex items-center justify-center border border-amber-500/30 shadow-inner">
+                <span className="text-amber-100 font-bold text-lg">{bookCount}</span>
               </div>
             </div>
           </div>
