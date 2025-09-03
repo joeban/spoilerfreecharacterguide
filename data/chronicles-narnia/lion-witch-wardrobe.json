@@ -1117,6 +1117,924 @@
           }
         }
       }
+    },
+    "oreius": {
+      "name": "Oreius",
+      "aliases": ["General Oreius"],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A noble centaur who serves as one of Aslan's chief commanders in the battle against the White Witch. He is brave, skilled in combat, and deeply loyal to Aslan.",
+          "role": "Centaur general in Aslan's army",
+          "relationships": {
+            "Aslan": "General under",
+            "Peter Pevensie": "Fights alongside"
+          }
+        }
+      }
+    },
+    "rumblebuffin": {
+      "name": "Rumblebuffin",
+      "aliases": ["Giant Rumblebuffin"],
+      "appearances": [13, 14, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A friendly giant who was turned to stone by the White Witch but is freed by Aslan from her castle courtyard.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Fights valiantly in the final battle, using his great size and strength to help defeat the White Witch's forces.",
+          "role": "Giant warrior",
+          "relationships": {
+            "Aslan": "Fights for",
+            "Peter Pevensie": "Fights alongside"
+          }
+        }
+      }
+    },
+    "white-reindeer": {
+      "name": "The White Witch's Reindeer",
+      "aliases": [],
+      "appearances": [3, 8, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "White reindeer that draw the White Witch's sleigh through the snowy landscape of Narnia.",
+          "role": "The White Witch's sleigh animals",
+          "relationships": {
+            "White Witch": "Serve as transport for",
+            "Dwarf Servant": "Driven by"
+          }
+        }
+      }
+    },
+    "three-bears": {
+      "name": "The Three Bears",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Three talking bears who were turned to stone by the White Witch and freed by Aslan from her castle courtyard.",
+          "role": "Freed stone prisoners",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "leopard": {
+      "name": "The Leopard",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A talking leopard who was petrified by the White Witch but freed by Aslan from her castle.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "stone-lion": {
+      "name": "The Stone Lion",
+      "aliases": [],
+      "appearances": [13],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A great stone lion in the White Witch's courtyard who was brought back to life by Aslan's breath.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "dog-pack": {
+      "name": "The Dog Pack",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A pack of talking dogs who were turned to stone by the White Witch but freed by Aslan.",
+          "role": "Freed stone prisoners",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "dryad-prisoners": {
+      "name": "The Imprisoned Dryads",
+      "aliases": ["Tree-spirits"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Several tree-spirits who were turned to stone by the White Witch and freed by Aslan from her castle courtyard.",
+          "role": "Freed stone prisoners",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "stone-faun": {
+      "name": "The Stone Faun",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A faun who was petrified by the White Witch but freed by Aslan. Represents the oppressed creatures of Narnia.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "owl": {
+      "name": "The Owl",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A wise talking owl who participates in the final battle as part of Aslan's aerial forces.",
+          "role": "Aerial warrior and scout",
+          "relationships": {
+            "Aslan": "Fights for",
+            "Eagles": "Fights alongside"
+          }
+        }
+      }
+    },
+    "crows": {
+      "name": "The Crows",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Dark birds that serve the White Witch as spies and messengers, fighting in her army.",
+          "role": "Evil spies and warriors",
+          "relationships": {
+            "White Witch": "Spy for and fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "bats": {
+      "name": "The Bats",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Night creatures that serve the White Witch in her dark army during the final battle.",
+          "role": "Night warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "stone-giant": {
+      "name": "The Stone Giant",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A good giant who was turned to stone by the White Witch but freed by Aslan from her castle courtyard.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "young-dwarf": {
+      "name": "The Young Dwarf",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A young dwarf who was petrified by the White Witch but freed by Aslan, representing the good dwarfs of Narnia.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "wild-boars": {
+      "name": "The Wild Boars",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Fierce talking boars who fight bravely for Aslan in the final battle against the White Witch.",
+          "role": "Fierce warriors",
+          "relationships": {
+            "Aslan": "Fight for",
+            "White Witch": "Fight against"
+          }
+        }
+      }
+    },
+    "squirrels": {
+      "name": "The Talking Squirrels",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Nimble talking squirrels who become cheerful subjects of the four monarchs during the golden age of Narnia.",
+          "role": "Cheerful subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "moles": {
+      "name": "The Talking Moles",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Small talking moles who live peacefully underground in Narnia during the golden age of the four monarchs.",
+          "role": "Underground subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "hedgehogs": {
+      "name": "The Talking Hedgehogs",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Spiky talking hedgehogs who become peaceful subjects of the four monarchs during Narnia's golden age.",
+          "role": "Peaceful subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "foxes": {
+      "name": "The Talking Foxes",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Clever talking foxes who become cunning but loyal subjects during the golden age of Narnia.",
+          "role": "Clever subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "otters": {
+      "name": "The Talking Otters",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Playful talking otters who live by Narnia's rivers and streams during the peaceful reign of the four monarchs.",
+          "role": "Playful water subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "werewolves": {
+      "name": "The Werewolves",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Savage shapeshifters who fight for the White Witch in her army of evil creatures during the final battle.",
+          "role": "Savage shapeshifters",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "poisonous-adders": {
+      "name": "The Poisonous Adders",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Venomous snakes that serve the White Witch as deadly warriors in her evil army.",
+          "role": "Venomous warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "stone-centaur": {
+      "name": "The Stone Centaur",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A centaur who was turned to stone by the White Witch but freed by Aslan from her castle courtyard.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "stone-unicorn": {
+      "name": "The Stone Unicorn",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A unicorn that was petrified by the White Witch but restored to life by Aslan and joins the final battle.",
+          "role": "Freed magical creature",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "stone-stag": {
+      "name": "The Stone Stag",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A noble stag that was turned to stone by the White Witch but freed by Aslan from her castle courtyard.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "stone-horse": {
+      "name": "The Stone Horse",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A talking horse that was petrified by the White Witch but brought back to life by Aslan.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "vultures": {
+      "name": "The Vultures",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Carrion birds that serve the White Witch as aerial scouts and fighters in her evil army.",
+          "role": "Evil aerial scouts",
+          "relationships": {
+            "White Witch": "Serve as scouts for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "spectres": {
+      "name": "The Spectres",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Ghostly spirits that haunt the battlefield fighting for the White Witch's dark army.",
+          "role": "Haunting spirits",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "people-of-the-toadstools": {
+      "name": "The People of the Toadstools",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Strange fungal creatures that serve the White Witch in her army of unnatural beings.",
+          "role": "Fungal warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "enemy-dwarfs": {
+      "name": "The Enemy Dwarfs",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Evil dwarfs who fight for the White Witch, contrasting with the good dwarfs who serve Aslan.",
+          "role": "Evil dwarf warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "enemy-giants": {
+      "name": "The Enemy Giants",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Malevolent giants who serve the White Witch as massive warriors in her army.",
+          "role": "Evil giant warriors",
+          "relationships": {
+            "White Witch": "Fight for",
+            "Aslan": "Fight against"
+          }
+        }
+      }
+    },
+    "lamppost": {
+      "name": "The Lamp-post",
+      "aliases": ["The Light"],
+      "appearances": [2, 4, 17],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A solitary lamp-post standing in the snowy woods of Narnia, providing light in the darkness. It marks the border between Narnia and the world of the wardrobe.",
+          "role": "Landmark and beacon",
+          "relationships": {
+            "Lucy Pevensie": "First landmark seen by"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "The lamp-post serves as the gateway back to England for the adult monarchs, leading them to the wardrobe and their return home.",
+          "role": "Gateway marker",
+          "relationships": {
+            "Peter Pevensie": "Leads home",
+            "Susan Pevensie": "Leads home",
+            "Edmund Pevensie": "Leads home",
+            "Lucy Pevensie": "Leads home"
+          }
+        }
+      }
+    },
+    "stone-table": {
+      "name": "The Stone Table",
+      "aliases": ["The Table of Stone"],
+      "appearances": [7, 12, 13],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An ancient stone table on a hilltop where Aslan gathers his forces. It is covered with strange writing and has deep significance in Narnia's magic.",
+          "role": "Ancient magical artifact",
+          "relationships": {
+            "Aslan": "Meeting place for"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "The Stone Table cracks and breaks when the Deep Magic is fulfilled, symbolizing a great change in Narnia's destiny.",
+          "role": "Broken symbol of old magic",
+          "relationships": {
+            "Aslan": "Scene of sacrifice for"
+          }
+        }
+      }
+    },
+    "cair-paravel": {
+      "name": "Cair Paravel",
+      "aliases": ["The Castle", "The Palace"],
+      "appearances": [16, 17],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The ancient castle by the sea that serves as the royal palace of Narnia, where the four children are crowned as Kings and Queens.",
+          "role": "Royal castle and seat of power",
+          "relationships": {
+            "Peter Pevensie": "Palace of",
+            "Susan Pevensie": "Palace of",
+            "Edmund Pevensie": "Palace of",
+            "Lucy Pevensie": "Palace of"
+          }
+        }
+      }
+    },
+    "northern-giants": {
+      "name": "The Northern Giants",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Giants from the north of Narnia who are mentioned as subjects that the four monarchs deal with during their reign.",
+          "role": "Distant subjects",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
+    },
+    "archenlanders": {
+      "name": "The Archenlanders",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "People from the neighboring country of Archenland who have dealings with the Narnian monarchs during their reign.",
+          "role": "Neighboring people",
+          "relationships": {
+            "Peter Pevensie": "Ally of",
+            "Susan Pevensie": "Ally of",
+            "Edmund Pevensie": "Ally of",
+            "Lucy Pevensie": "Ally of"
+          }
+        }
+      }
+    },
+    "calormenes": {
+      "name": "The Calormenes",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "People from the southern country of Calormen who are mentioned as having interactions with Narnia during the reign of the four monarchs.",
+          "role": "Southern neighbors",
+          "relationships": {
+            "Peter Pevensie": "Sometimes enemy of",
+            "Susan Pevensie": "Sometimes enemy of",
+            "Edmund Pevensie": "Sometimes enemy of",
+            "Lucy Pevensie": "Sometimes enemy of"
+          }
+        }
+      }
+    },
+    "stone-badger": {
+      "name": "The Stone Badger",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A badger that was turned to stone by the White Witch but freed by Aslan from her castle courtyard.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "stone-squirrels": {
+      "name": "The Stone Squirrels",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Several squirrels that were petrified by the White Witch but brought back to life by Aslan.",
+          "role": "Freed stone prisoners",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "stone-rabbit": {
+      "name": "The Stone Rabbit",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A rabbit that was turned to stone by the White Witch but restored to life by Aslan's breath.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "stone-mouse": {
+      "name": "The Stone Mouse",
+      "aliases": [],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A small mouse that was petrified by the White Witch but freed by Aslan from her castle.",
+          "role": "Freed stone prisoner",
+          "relationships": {
+            "White Witch": "Petrified by",
+            "Aslan": "Freed by"
+          }
+        }
+      }
+    },
+    "deep-magic": {
+      "name": "The Deep Magic",
+      "aliases": ["Ancient Magic"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The ancient magical law that governs Narnia, written on the Stone Table. It demands that every traitor's life belongs to the White Witch.",
+          "role": "Fundamental magical law",
+          "relationships": {
+            "White Witch": "Invoked by",
+            "Edmund Pevensie": "Claims life of"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Revealed to have an even deeper magic that supersedes it - when a willing victim dies for a traitor, death itself works backward.",
+          "role": "Superseded magical law",
+          "relationships": {
+            "Aslan": "Transcended by"
+          }
+        }
+      }
+    },
+    "tourists": {
+      "name": "The Tourists",
+      "aliases": ["Visitors"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Visitors who come to see Professor Kirke's house, prompting the children to hide and leading to Lucy's discovery of the wardrobe.",
+          "role": "House visitors",
+          "relationships": {
+            "Mrs. Macready": "Given tour by"
+          }
+        }
+      }
+    },
+    "wardrobe": {
+      "name": "The Wardrobe",
+      "aliases": ["The Magic Wardrobe"],
+      "appearances": [1, 2, 3, 4, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An old wardrobe in the spare room of Professor Kirke's house, filled with mothballs and old coats.",
+          "role": "Mysterious furniture",
+          "relationships": {}
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Revealed to be a magical portal that leads from England to the land of Narnia when Lucy steps through it.",
+          "role": "Magical portal",
+          "relationships": {
+            "Lucy Pevensie": "Portal used by"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "The gateway that brings the four adult monarchs back to England, returning them to their childhood selves.",
+          "role": "Return gateway",
+          "relationships": {
+            "Peter Pevensie": "Returns to England through",
+            "Susan Pevensie": "Returns to England through",
+            "Edmund Pevensie": "Returns to England through",
+            "Lucy Pevensie": "Returns to England through"
+          }
+        }
+      }
+    },
+    "turkish-delight": {
+      "name": "The Enchanted Turkish Delight",
+      "aliases": ["Turkish Delight"],
+      "appearances": [3, 8, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Magical confection given to Edmund by the White Witch that creates an irresistible craving and makes him willing to betray his siblings.",
+          "role": "Enchanted food and temptation",
+          "relationships": {
+            "White Witch": "Created by",
+            "Edmund Pevensie": "Used to tempt"
+          }
+        }
+      }
+    },
+    "leopard-chief": {
+      "name": "The Chief Leopard",
+      "aliases": [],
+      "appearances": [12, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A particularly noble leopard who serves as one of Aslan's chief companions and witnesses important events.",
+          "role": "Noble companion of Aslan",
+          "relationships": {
+            "Aslan": "Chief companion of"
+          }
+        }
+      }
+    },
+    "bear-chief": {
+      "name": "The Chief Bear",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A mighty bear who leads other bears in the final battle, serving as one of Aslan's powerful warriors.",
+          "role": "Bear leader and warrior",
+          "relationships": {
+            "Aslan": "Warrior leader under",
+            "Bear Warriors": "Leader of"
+          }
+        }
+      }
+    },
+    "centaur-archers": {
+      "name": "The Centaur Archers",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Skilled centaur warriors who serve as Aslan's elite archers in the final battle against the White Witch.",
+          "role": "Elite archer unit",
+          "relationships": {
+            "Aslan": "Elite archers for",
+            "Oreius": "Fight alongside"
+          }
+        }
+      }
+    },
+    "eagle-scouts": {
+      "name": "The Eagle Scouts",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Swift eagles who serve as scouts and messengers for Aslan's army, providing aerial reconnaissance.",
+          "role": "Aerial scouts and messengers",
+          "relationships": {
+            "Aslan": "Scout for",
+            "Peter Pevensie": "Report to"
+          }
+        }
+      }
+    },
+    "unicorn-guards": {
+      "name": "The Unicorn Guards",
+      "aliases": [],
+      "appearances": [14, 17],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Noble unicorns who serve as elite guards and warriors in Aslan's army during the final battle.",
+          "role": "Elite magical guards",
+          "relationships": {
+            "Aslan": "Elite guards for",
+            "Peter Pevensie": "Guard"
+          }
+        }
+      }
+    },
+    "giant-hammerers": {
+      "name": "The Giant Hammerers",
+      "aliases": [],
+      "appearances": [14],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Good giants who wield massive war hammers in the final battle, serving as Aslan's heavy assault troops.",
+          "role": "Heavy assault warriors",
+          "relationships": {
+            "Aslan": "Heavy warriors for",
+            "Rumblebuffin": "Fight alongside"
+          }
+        }
+      }
+    },
+    "river-god": {
+      "name": "The River God",
+      "aliases": [],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "The divine spirit of Narnia's great river who awakens during the golden age under the four monarchs.",
+          "role": "River deity",
+          "relationships": {
+            "Peter Pevensie": "Honors",
+            "Susan Pevensie": "Honors",
+            "Edmund Pevensie": "Honors",
+            "Lucy Pevensie": "Honors"
+          }
+        }
+      }
+    },
+    "wood-gods": {
+      "name": "The Wood Gods",
+      "aliases": ["Forest Spirits"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Ancient forest deities who emerge during the golden age of Narnia under the rule of the four monarchs.",
+          "role": "Forest deities",
+          "relationships": {
+            "Peter Pevensie": "Subject of",
+            "Susan Pevensie": "Subject of",
+            "Edmund Pevensie": "Subject of",
+            "Lucy Pevensie": "Subject of"
+          }
+        }
+      }
     }
   },
   "recaps": {
