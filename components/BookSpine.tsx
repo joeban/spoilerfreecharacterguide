@@ -97,10 +97,8 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
       <div className={clsx(
         'hearthstone-book-horizontal',
         'h-20 w-full px-6 py-3',
-        'bg-gradient-to-r',
-        colors.cover,
-        'border-2',
-        colors.accent,
+        bookColorClass,
+        'border-2 border-amber-700/30',
         'rounded-lg',
         'flex items-center justify-between',
         'shadow-lg hover:shadow-xl',
