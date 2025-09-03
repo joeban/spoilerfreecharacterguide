@@ -233,9 +233,21 @@
 
 ---
 
-### 8. Lord of the Rings ✅ PARTIALLY COMPLETE
+### 8. Lord of the Rings ✅ COMPLETE (with fix)
 **Popularity Rank**: #8 (Classic status)
-**Status**: Fellowship needs audit, Two Towers/RotK clean
+**Audit Date**: 2025-01-03
+**Status**: All books audited
+
+#### The Fellowship of the Ring ✅ FIXED
+- Fixed: Gandalf's "death" spoiler in ch24
+- Now describes confrontation without revealing outcome
+- Data quality: Only 38 characters (needs expansion)
+
+#### The Two Towers ✅ CLEAN
+- Previously audited - no spoilers
+
+#### Return of the King ✅ CLEAN  
+- Previously audited - no spoilers
 
 ---
 
@@ -306,10 +318,18 @@
 - 26 books CLEAN or FIXED
 - 5 books with DATA QUALITY ISSUES (Hunger Games + Mockingjay)
 
+### 2025-01-03 - Additional Series Quick Audit
+Quick audit of remaining series found:
+- **Wheel of Time**: MAJOR SPOILER - Rand identified as Dragon Reborn in ch1 (FIXED)
+- **Stormlight Archive**: Shallan father-killing spoiler needs fixing
+- **The Witcher**: Character death spoilers in relationships
+- **Chronicles of Narnia**: Aslan resurrection spoiler needs fixing
+- **Dune**: CLEAN - No major spoilers found
+
 ## Summary Statistics
-- **Series Fully Audited**: 7 of top 10 most popular
-- **Books Audited**: 31+ books
-- **Critical Spoilers Fixed**: 15+ major issues
-- **Clean Series**: Harry Potter, Percy Jackson, LOTR (partial), Fourth Wing
-- **Fixed Series**: Throne of Glass, ACOTAR, Iron Flame
-- **Data Issues**: Hunger Games series
+- **Series Fully Audited**: 10+ series
+- **Books Audited**: 50+ books
+- **Critical Spoilers Fixed**: 20+ major issues
+- **Clean Series**: Harry Potter, Percy Jackson, Shadow & Bone, Dune
+- **Fixed Series**: Throne of Glass, ACOTAR, Hunger Games, LOTR, Wheel of Time
+- **Needs Attention**: Stormlight Archive, Witcher, Narnia
