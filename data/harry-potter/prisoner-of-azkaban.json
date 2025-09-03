@@ -260,8 +260,17 @@
         },
         "17": {
           "revealedIn": 17,
-          "description": "Actually innocent - was framed by Peter Pettigrew. Has been hunting Pettigrew to prove his innocence and protect Harry.",
-          "role": "Innocent prisoner, Animagus",
+          "description": "Confronts Harry in the Shrieking Shack. Claims to have important information about that night twelve years ago.",
+          "role": "Confrontational fugitive",
+          "relationships": {
+            "Harry Potter": "Confronting",
+            "Remus Lupin": "Known by"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Revealed to be innocent - was framed by Peter Pettigrew. Has been hunting Pettigrew as Scabbers to protect Harry.",
+          "role": "Innocent godfather, Animagus",
           "relationships": {
             "Harry Potter": "Protecting godson",
             "Peter Pettigrew": "Hunting for betrayal",
@@ -371,9 +380,9 @@
             "Weasley family": "Pet of"
           }
         },
-        "17": {
-          "revealedIn": 17,
-          "description": "Revealed to be an Animagus who has been hiding as Ron's rat. Actually the wizard who betrayed Harry's parents to Voldemort.",
+        "18": {
+          "revealedIn": 18,
+          "description": "Revealed to be an Animagus who has been hiding as Ron's rat Scabbers. Actually the wizard who betrayed Harry's parents to Voldemort and framed Sirius.",
           "role": "Traitor, Animagus",
           "relationships": {
             "James Potter": "Betrayed to Voldemort",
