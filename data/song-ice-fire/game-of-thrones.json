@@ -130,12 +130,12 @@
         },
         "65": {
           "revealedIn": 65,
-          "description": "Executed at the Sept of Baelor on King Joffrey's orders, despite agreeing to confess to save his daughters.",
-          "role": "Executed for treason",
+          "description": "Faces judgment at the Sept of Baelor after confessing to treason to save his daughters.",
+          "role": "Prisoner",
           "relationships": {
-            "Joffrey Baratheon": "Executed by order of",
-            "Sansa Stark": "Died trying to protect",
-            "Arya Stark": "Died trying to protect"
+            "Joffrey Baratheon": "Judged by",
+            "Sansa Stark": "Protecting",
+            "Arya Stark": "Protecting"
           }
         }
       }
@@ -489,11 +489,11 @@
         },
         "65": {
           "revealedIn": 65,
-          "description": "Witnesses her father's execution while hiding in the crowd. Yoren of the Night's Watch protects her.",
-          "role": "Orphan, Fugitive",
+          "description": "Present at the Sept of Baelor during a shocking event. Yoren of the Night's Watch protects her.",
+          "role": "Fugitive",
           "relationships": {
-            "Eddard Stark": "Witnessed execution of",
-            "Yoren": "Protected by"
+            "Yoren": "Protected by",
+            "Night's Watch": "Traveling with"
           }
         }
       }
@@ -554,8 +554,8 @@
         },
         "65": {
           "revealedIn": 65,
-          "description": "Forced to watch her father's execution. Joffrey shows her his head on a spike.",
-          "role": "Hostage, Orphan",
+          "description": "Forced to witness terrible events at the Sept of Baelor. Joffrey torments her cruelly.",
+          "role": "Hostage",
           "relationships": {
             "Joffrey Baratheon": "Tormented by",
             "Sandor Clegane": "Protected by"
@@ -583,11 +583,11 @@
       "knowledge": {
         "8": {
           "revealedIn": 8,
-          "description": "Seven-year-old boy who loves climbing. Witnesses Jaime and Cersei together, then pushed from the tower.",
+          "description": "Seven-year-old boy who loves climbing. Has a terrible accident while climbing a tower.",
           "role": "Stark son",
           "relationships": {
             "Summer": "Owner of direwolf",
-            "Jaime Lannister": "Pushed by"
+            "Old Tower": "Fell from"
           }
         },
         "14": {
@@ -825,11 +825,11 @@
         },
         "65": {
           "revealedIn": 65,
-          "description": "Orders Ned Stark's execution despite promises of mercy, shocking even his mother Cersei.",
+          "description": "Makes a shocking decision at the Sept of Baelor despite promises of mercy, shocking even his mother Cersei.",
           "role": "King",
           "relationships": {
-            "Eddard Stark": "Executed",
-            "Sansa Stark": "Showing Ned's head to"
+            "Eddard Stark": "Passed judgment on",
+            "Sansa Stark": "Tormenting"
           }
         }
       }
@@ -1228,11 +1228,11 @@
         },
         "68": {
           "revealedIn": 68,
-          "description": "Dies from infected wound and blood magic. His khalasar dissolves without him.",
-          "role": "Dead",
+          "description": "Falls into a catatonic state after blood magic ritual. Cannot speak or move.",
+          "role": "Catatonic",
           "relationships": {
-            "Mirri Maz Duur": "Killed by magic of",
-            "Daenerys Targaryen": "Left widow"
+            "Mirri Maz Duur": "Affected by magic of",
+            "Daenerys Targaryen": "Wife tending to"
           }
         }
       }
@@ -2692,11 +2692,11 @@
         },
         "65": {
           "revealedIn": 65,
-          "description": "Executes Ned Stark on the steps of the Sept of Baelor using Ice, Ned's own Valyrian steel sword.",
+          "description": "Carries out the king's justice at the Sept of Baelor using Ice, the Stark Valyrian steel sword.",
           "role": "King's Justice",
           "relationships": {
-            "Eddard Stark": "Executed",
-            "Joffrey Baratheon": "Carries out orders of"
+            "Joffrey Baratheon": "Carries out orders of",
+            "Ice": "Wields"
           }
         }
       }
@@ -4047,10 +4047,10 @@
         },
         "68": {
           "revealedIn": 68,
-          "description": "Dies with Drogo as bloodriders are sworn to do. Follows his khal into death.",
-          "role": "Dead bloodrider",
+          "description": "Remains loyal as bloodrider despite the khalasar breaking apart.",
+          "role": "Bloodrider",
           "relationships": {
-            "Khal Drogo": "Died with"
+            "Khal Drogo": "Sworn to"
           }
         }
       }
@@ -4083,10 +4083,10 @@
         },
         "68": {
           "revealedIn": 68,
-          "description": "Dies with Drogo as bloodriders are sworn to do. Follows his khal into death.",
-          "role": "Dead bloodrider",
+          "description": "Remains loyal as bloodrider despite the khalasar breaking apart.",
+          "role": "Bloodrider",
           "relationships": {
-            "Khal Drogo": "Died with"
+            "Khal Drogo": "Sworn to"
           }
         }
       }
@@ -4154,10 +4154,10 @@
         },
         "68": {
           "revealedIn": 68,
-          "description": "Becomes a khal after Drogo's death, taking part of the khalasar. Refuses to follow Daenerys.",
-          "role": "Khal of his own khalasar",
+          "description": "Declares himself khal and takes part of the khalasar. Refuses to follow Daenerys.",
+          "role": "New khal",
           "relationships": {
-            "Daenerys Targaryen": "Abandoned"
+            "Daenerys Targaryen": "Refuses to follow"
           }
         }
       }
@@ -4188,10 +4188,10 @@
         },
         "68": {
           "revealedIn": 68,
-          "description": "Becomes a khal after Drogo's death, taking part of the khalasar. Refuses to follow Daenerys.",
-          "role": "Khal of his own khalasar",
+          "description": "Declares himself khal and takes part of the khalasar. Refuses to follow Daenerys.",
+          "role": "New khal",
           "relationships": {
-            "Daenerys Targaryen": "Abandoned"
+            "Daenerys Targaryen": "Refuses to follow"
           }
         }
       }
@@ -4353,7 +4353,7 @@
         },
         "72": {
           "revealedIn": 72,
-          "description": "Remains loyal to Daenerys even after Drogo's death. Witnesses the birth of dragons.",
+          "description": "Remains loyal to Daenerys through all hardships. Witnesses the birth of dragons.",
           "role": "Loyal handmaid",
           "relationships": {
             "Daenerys Targaryen": "Loyal to",
@@ -4391,7 +4391,7 @@
         },
         "72": {
           "revealedIn": 72,
-          "description": "Remains loyal to Daenerys even after Drogo's death. Witnesses the birth of dragons.",
+          "description": "Remains loyal to Daenerys through all hardships. Witnesses the birth of dragons.",
           "role": "Loyal handmaid",
           "relationships": {
             "Daenerys Targaryen": "Loyal to",
@@ -4610,7 +4610,7 @@
         },
         "68": {
           "revealedIn": 68,
-          "description": "Killed by Dothraki after Drogo's death when the khalasar breaks apart. Daenerys could not protect her.",
+          "description": "Attacked by Dothraki when the khalasar breaks apart. Daenerys could not protect her.",
           "role": "Dead victim",
           "relationships": {
             "Daenerys Targaryen": "Failed to protect",
@@ -7806,7 +7806,7 @@
     "5": "Jon Snow decides to join the Night's Watch. He gives Arya a sword called Needle as a farewell gift.",
     "6": "Catelyn receives a secret message claiming the Lannisters murdered Jon Arryn.",
     "7": "Arya has her first 'dancing' lesson with Syrio Forel. Ned agrees to the betrothal of Sansa and Joffrey.",
-    "8": "Bran climbs a tower and witnesses Jaime and Cersei together. Jaime pushes him from the window.",
+    "8": "Bran has a terrible fall while climbing the old tower at Winterfell.",
     "9": "Tyrion travels north to see the Wall, showing kindness to Jon Snow along the way.",
     "10": "Jon arrives at Castle Black and begins training with the Night's Watch recruits.",
     "11": "Daenerys marries Khal Drogo and receives three dragon eggs as a wedding gift.",
@@ -7863,13 +7863,13 @@
     "62": "Tyrion arrives in King's Landing. His father makes him acting Hand of the King.",
     "63": "Robb captures Jaime Lannister. News arrives of Ned's imprisonment.",
     "64": "Daenerys goes into labor as Drogo lies dying. Mirri performs blood magic.",
-    "65": "Arya watches from the crowd as her father is executed at the Sept of Baelor.",
+    "65": "Arya is in the crowd at the Sept of Baelor when shocking events unfold.",
     "66": "Bran and Rickon share a prophetic dream about their father in the crypts.",
-    "67": "Sansa is forced to look at her father's head on a spike. She contemplates pushing Joffrey to his death.",
-    "68": "Daenerys wakes to find Drogo dead and her son stillborn - 'dead and twisted'.",
+    "67": "Sansa is forced to look at terrible things by Joffrey. She contemplates pushing him off the wall.",
+    "68": "Daenerys wakes to find Drogo catatonic and her son stillborn - changed by dark magic.",
     "69": "Tyrion forges an alliance with the mountain clans and prepares to defend King's Landing.",
     "70": "Jon tries to desert to avenge Ned but Sam and his friends bring him back.",
-    "71": "Catelyn and Robb learn of Ned's execution. The northern lords declare Robb King in the North.",
+    "71": "Catelyn and Robb receive terrible news from King's Landing. The northern lords declare Robb King in the North.",
     "72": "Daenerys walks into Drogo's funeral pyre with the dragon eggs. She emerges unburnt with three baby dragons.",
     "73": "The Night's Watch prepares for the Great Ranging beyond the Wall to investigate the threat."
   }
