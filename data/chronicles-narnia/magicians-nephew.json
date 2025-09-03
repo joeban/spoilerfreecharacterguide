@@ -432,6 +432,79 @@
         }
       }
     },
+    "digory-father": {
+      "name": "Digory's Father",
+      "aliases": ["Mr. Kirke"],
+      "appearances": [1, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Digory's father who is away in India on business, unable to return while his wife is dying. His absence adds to Digory's burden and loneliness.",
+          "role": "Absent father",
+          "relationships": {
+            "Digory Kirke": "Father of",
+            "Mabel Kirke": "Husband of"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Returns from India after his wife's miraculous recovery. He witnesses the happiness of his restored family and Digory's growth into maturity.",
+          "role": "Returned father",
+          "relationships": {
+            "Digory Kirke": "Father of",
+            "Mabel Kirke": "Husband of (reunited with)"
+          }
+        }
+      }
+    },
+    "nursemaid": {
+      "name": "Nursemaid",
+      "aliases": ["Nurse"],
+      "appearances": [1, 14],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A nurse hired to care for Digory's dying mother. She provides professional medical care but can do little to prevent the inevitable decline.",
+          "role": "Medical caregiver",
+          "relationships": {
+            "Mabel Kirke": "Caregiver of",
+            "Aunt Letty": "Assists"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Witnesses the miraculous healing of Mabel Kirke and is amazed by the sudden transformation from dying patient to healthy woman.",
+          "role": "Witness to miracle",
+          "relationships": {
+            "Mabel Kirke": "Witness to recovery of"
+          }
+        }
+      }
+    },
+    "cook": {
+      "name": "Cook",
+      "aliases": ["Kitchen Servant"],
+      "appearances": [1, 14],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The cook working in the Ketterley household, responsible for preparing meals during the difficult time of Mabel's illness.",
+          "role": "Household cook",
+          "relationships": {
+            "Aunt Letty": "Employee of",
+            "Sarah": "Works alongside"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Celebrates the miraculous recovery of the mistress of the house. She helps prepare celebratory meals for the restored family.",
+          "role": "Celebrant of recovery",
+          "relationships": {
+            "Mabel Kirke": "Celebrates recovery of"
+          }
+        }
+      }
+    },
     "mr-ketterley": {
       "name": "Mr. Ketterley",
       "aliases": ["Digory's Grandfather", "Father Ketterley"],
@@ -788,6 +861,554 @@
           "role": "Future landmark for Pevensies",
           "relationships": {
             "Digory Kirke": "Connected to through the wardrobe he will make"
+          }
+        }
+      }
+    },
+    "hansom-cab-driver": {
+      "name": "Hansom Cab Driver",
+      "aliases": ["Second Cabby"],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A London cab driver whose hansom cab is picked up and thrown by Jadis as a demonstration of her strength. He is terrified by her supernatural abilities.",
+          "role": "Frightened cab driver",
+          "relationships": {
+            "Jadis": "Victim of"
+          }
+        }
+      }
+    },
+    "gentleman-in-top-hat": {
+      "name": "Gentleman in Top Hat",
+      "aliases": ["Well-dressed Bystander"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A well-dressed London gentleman who witnesses Jadis's rampage in the street. He represents the upper-class Victorian society shocked by the supernatural events.",
+          "role": "Shocked witness",
+          "relationships": {
+            "London Crowd": "Part of"
+          }
+        }
+      }
+    },
+    "policeman-with-helmet": {
+      "name": "Policeman with Helmet",
+      "aliases": ["Bobby"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A London policeman attempting to arrest Jadis. His helmet is knocked off during the scuffle, showing how outmatched the authorities are against her power.",
+          "role": "Outmatched officer",
+          "relationships": {
+            "Police": "Member of",
+            "Jadis": "Defeated by"
+          }
+        }
+      }
+    },
+    "young-errand-boy": {
+      "name": "Young Errand Boy",
+      "aliases": ["Street Urchin"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A working-class boy on the London streets who witnesses Jadis's display of strength. He represents the common people amazed by the magical chaos.",
+          "role": "Street witness",
+          "relationships": {
+            "London Crowd": "Part of"
+          }
+        }
+      }
+    },
+    "shopkeeper": {
+      "name": "Shopkeeper",
+      "aliases": ["Local Merchant"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A London shopkeeper who comes out of his store to see what the commotion is about. He watches in amazement as Jadis demonstrates her supernatural powers.",
+          "role": "Curious merchant",
+          "relationships": {
+            "London Crowd": "Part of"
+          }
+        }
+      }
+    },
+    "housewife-with-apron": {
+      "name": "Housewife with Apron",
+      "aliases": ["Working Mother"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A London housewife who joins the growing crowd to witness Jadis's rampage. She represents the domestic sphere disrupted by magical events.",
+          "role": "Domestic witness",
+          "relationships": {
+            "London Crowd": "Part of"
+          }
+        }
+      }
+    },
+    "newspaper-seller": {
+      "name": "Newspaper Seller",
+      "aliases": ["Paper Boy"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A London newspaper vendor who abandons his papers to watch Jadis's demonstration of power. His amazement shows how the supernatural has interrupted normal commerce.",
+          "role": "Amazed vendor",
+          "relationships": {
+            "London Crowd": "Part of"
+          }
+        }
+      }
+    },
+    "omnibus-driver": {
+      "name": "Omnibus Driver",
+      "aliases": ["Bus Driver"],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A London omnibus driver who stops his vehicle to watch the chaos caused by Jadis. His horses become nervous from the supernatural disturbance.",
+          "role": "Transportation worker",
+          "relationships": {
+            "London Crowd": "Part of"
+          }
+        }
+      }
+    },
+    "police-sergeant": {
+      "name": "Police Sergeant",
+      "aliases": ["Senior Officer"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A senior police officer who leads the attempt to arrest Jadis. Despite his authority and experience, he is no match for her supernatural strength.",
+          "role": "Senior law enforcement",
+          "relationships": {
+            "Police": "Leader of",
+            "Jadis": "Defeated by"
+          }
+        }
+      }
+    },
+    "doctor": {
+      "name": "Doctor",
+      "aliases": ["Physician"],
+      "appearances": [1, 14],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The physician treating Digory's dying mother. He provides little hope for her recovery, making Digory's quest for a cure all the more urgent.",
+          "role": "Family physician",
+          "relationships": {
+            "Mabel Kirke": "Doctor of",
+            "Digory Kirke": "Consulted by family of"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Amazed by the miraculous recovery of Mabel Kirke after she eats the magical apple. He cannot explain the sudden cure medically.",
+          "role": "Bewildered physician",
+          "relationships": {
+            "Mabel Kirke": "Witness to recovery of"
+          }
+        }
+      }
+    },
+    "wood-trees": {
+      "name": "Wood Trees",
+      "aliases": ["Ancient Trees", "Eternal Trees"],
+      "appearances": [3, 8, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Massive, ancient trees that fill the Wood Between the Worlds. They are incredibly old and seem to have a peaceful, sleepy quality that affects all visitors.",
+          "role": "Silent guardians",
+          "relationships": {
+            "Wood Between Worlds": "Inhabitants of"
+          }
+        }
+      }
+    },
+    "guinea-pig": {
+      "name": "Guinea Pig",
+      "aliases": ["Test Subject"],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Uncle Andrew's guinea pig used to test his magic rings. The poor animal is sent to other worlds as an experiment before Uncle Andrew dares to use the rings on humans.",
+          "role": "Experimental victim",
+          "relationships": {
+            "Uncle Andrew": "Test subject of"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Found by the children in the Wood Between the Worlds, having been sent there by Uncle Andrew's ring. The guinea pig shows signs of having been in the peaceful wood for some time.",
+          "role": "Fellow traveler",
+          "relationships": {
+            "Digory Kirke": "Found by",
+            "Polly Plummer": "Found by"
+          }
+        }
+      }
+    },
+    "world-pools": {
+      "name": "World Pools",
+      "aliases": ["Portal Pools", "Magic Pools"],
+      "appearances": [3, 8, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Countless pools scattered throughout the Wood Between the Worlds, each leading to a different world. They appear as clear, still water that reflects the sky above.",
+          "role": "Inter-dimensional portals",
+          "relationships": {
+            "Wood Between Worlds": "Features of"
+          }
+        }
+      }
+    },
+    "yellow-rings": {
+      "name": "Yellow Rings",
+      "aliases": ["Transport Rings", "Out Rings"],
+      "appearances": [2, 3, 6, 7, 8, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Magic rings made by Uncle Andrew from Atlantis dust. They transport the wearer from their current world to the Wood Between the Worlds.",
+          "role": "Transportation device",
+          "relationships": {
+            "Uncle Andrew": "Created by",
+            "Mrs. Lefay": "Made from dust left by"
+          }
+        }
+      }
+    },
+    "green-rings": {
+      "name": "Green Rings",
+      "aliases": ["Return Rings", "Home Rings"],
+      "appearances": [2, 3, 6, 7, 8, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Magic rings made by Uncle Andrew from Atlantis dust. They transport the wearer from the Wood Between the Worlds back to their home world.",
+          "role": "Return device",
+          "relationships": {
+            "Uncle Andrew": "Created by",
+            "Mrs. Lefay": "Made from dust left by"
+          }
+        }
+      }
+    },
+    "charn-guards": {
+      "name": "Charn Guards",
+      "aliases": ["Palace Guards", "Royal Sentinels"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Armored guards who once protected the royal palace of Charn. They appear as stone-still figures in their armor, eternally frozen at their posts.",
+          "role": "Royal protectors (statues)",
+          "relationships": {
+            "Jadis": "Former protectors of",
+            "Royal Court of Charn": "Guardians of"
+          }
+        }
+      }
+    },
+    "great-bell": {
+      "name": "Great Bell",
+      "aliases": ["The Bell", "Awakening Bell"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A massive golden bell with a hammer beside it, inscribed with a verse warning of consequences. When struck by Digory, it awakens Jadis from her enchanted sleep.",
+          "role": "Magical awakening device",
+          "relationships": {
+            "Jadis": "Awakener of",
+            "Digory Kirke": "Struck by"
+          }
+        }
+      }
+    },
+    "deplorable-word": {
+      "name": "The Deplorable Word",
+      "aliases": ["Word of Power", "Destruction Word"],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A terrible word of magic known only to Jadis that destroyed all living things in Charn. It represents the ultimate expression of selfish power and destruction.",
+          "role": "Ultimate weapon",
+          "relationships": {
+            "Jadis": "Spoken by",
+            "Charn": "Destroyer of all life in"
+          }
+        }
+      }
+    },
+    "charn-throne": {
+      "name": "Charn Throne",
+      "aliases": ["Royal Throne", "Seat of Power"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The magnificent throne where Jadis once ruled as Queen of Charn. It sits empty in the great hall, a symbol of power that ultimately led to destruction.",
+          "role": "Symbol of power",
+          "relationships": {
+            "Jadis": "Former seat of"
+          }
+        }
+      }
+    },
+    "atlantis-dust": {
+      "name": "Atlantis Dust",
+      "aliases": ["Magic Dust", "Ring Material"],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Magical dust from the lost world of Atlantis, contained in Mrs. Lefay's box. Uncle Andrew uses this dust to create the yellow and green rings that transport people between worlds.",
+          "role": "Magical substance",
+          "relationships": {
+            "Mrs. Lefay": "Left by",
+            "Uncle Andrew": "Used by to make rings"
+          }
+        }
+      }
+    },
+    "charn-palace": {
+      "name": "Charn Palace",
+      "aliases": ["Royal Palace", "Dead Palace"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The vast, empty palace of Charn filled with halls of frozen statues. Once a center of power and luxury, now a monument to the consequences of absolute authority.",
+          "role": "Ruined seat of power",
+          "relationships": {
+            "Jadis": "Former palace of",
+            "Charn Inhabitants": "Former home of"
+          }
+        }
+      }
+    },
+    "garden-birds": {
+      "name": "Garden Birds",
+      "aliases": ["Mountain Birds", "Singing Birds"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Beautiful birds that sing in the garden where the Tree of Protection grows. Their songs add to the magical beauty and peace of the sacred mountain garden.",
+          "role": "Garden guardians",
+          "relationships": {
+            "Tree of Protection": "Guardians of"
+          }
+        }
+      }
+    },
+    "talking-squirrel": {
+      "name": "Talking Squirrel",
+      "aliases": ["Chatter Squirrel"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A lively squirrel given speech by Aslan. True to squirrel nature, he is energetic and quick-moving, bringing energy to the council of talking animals.",
+          "role": "Energetic messenger",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "talking-fox": {
+      "name": "Talking Fox",
+      "aliases": ["Clever Fox"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A fox granted speech by Aslan, bringing natural cunning and intelligence to the council. Foxes are known for their cleverness and adaptability.",
+          "role": "Clever advisor",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "talking-badger": {
+      "name": "Talking Badger",
+      "aliases": ["Wise Badger"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A badger granted speech by Aslan who becomes known for his wisdom and practical advice. Badgers are traditionally associated with persistence and earth wisdom.",
+          "role": "Wise counselor",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "talking-goat": {
+      "name": "Talking Goat",
+      "aliases": ["Mountain Goat"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A sure-footed goat granted speech by Aslan. Goats are known for their ability to navigate difficult terrain, making them valuable scouts and messengers.",
+          "role": "Mountain scout",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "talking-sheep": {
+      "name": "Talking Sheep",
+      "aliases": ["Gentle Sheep"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A woolly sheep given speech by Aslan. Sheep represent gentleness and community, bringing peaceful wisdom to the council of talking animals.",
+          "role": "Peaceful counselor",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "talking-beaver": {
+      "name": "Talking Beaver",
+      "aliases": ["Builder Beaver"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A beaver given speech by Aslan who will help build and maintain the infrastructure of the new kingdom. Beavers are natural builders and engineers.",
+          "role": "Builder and engineer",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "talking-otter": {
+      "name": "Talking Otter",
+      "aliases": ["Playful Otter"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A playful otter given speech by Aslan who brings joy and water knowledge to the council. Otters are known for their playfulness and swimming ability.",
+          "role": "Water guardian",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "talking-mole": {
+      "name": "Talking Mole",
+      "aliases": ["Underground Mole"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A humble mole given speech by Aslan. He represents those who work beneath the surface and understand the earth itself, bringing underground wisdom.",
+          "role": "Underground expert",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "talking-weasel": {
+      "name": "Talking Weasel",
+      "aliases": ["Quick Weasel"],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A quick weasel granted speech by Aslan. Weasels are known for their speed and agility, making them excellent scouts and messengers.",
+          "role": "Swift scout",
+          "relationships": {
+            "Aslan": "Given speech by"
+          }
+        }
+      }
+    },
+    "future-wardrobe": {
+      "name": "Future Wardrobe",
+      "aliases": ["The Wardrobe", "Portal Wardrobe"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The wardrobe that Professor Kirke will have made from the wood of the magical apple tree. This wardrobe will later become the portal through which the Pevensie children enter Narnia.",
+          "role": "Future portal",
+          "relationships": {
+            "Digory Kirke": "Will be made by",
+            "Tree of Protection": "Made from wood of"
+          }
+        }
+      }
+    },
+    "apple-tree-london": {
+      "name": "Apple Tree (London)",
+      "aliases": ["Digory's Apple Tree", "Magical Tree"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The tree that grows from the apple core Digory plants in his London garden. It carries the magic from Narnia and will eventually be used to make the famous wardrobe.",
+          "role": "Magical connection",
+          "relationships": {
+            "Digory Kirke": "Planted by",
+            "Tree of Protection": "Grown from apple of"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "When the tree is blown down in a storm, its wood is used to make the wardrobe that will later transport the Pevensie children to Narnia, completing the magical circle.",
+          "role": "Source of wardrobe wood",
+          "relationships": {
+            "Future Wardrobe": "Source wood for"
+          }
+        }
+      }
+    },
+    "london-storm": {
+      "name": "London Storm",
+      "aliases": ["Great Storm", "Tree-felling Storm"],
+      "appearances": [15],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The storm that eventually blows down the apple tree grown from the Narnian apple core, allowing its wood to be used for the famous wardrobe.",
+          "role": "Agent of destiny",
+          "relationships": {
+            "Apple Tree (London)": "Destroyer of",
+            "Future Wardrobe": "Enabler of"
           }
         }
       }

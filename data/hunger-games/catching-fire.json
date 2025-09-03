@@ -122,11 +122,21 @@
       "knowledge": {
         "11": {
           "revealedIn": 11,
-          "description": "Charismatic and popular victor from District 4, known for his charm.",
+          "description": "Charismatic and popular victor from District 4, known for his charm and skill with a trident.",
           "role": "District 4 tribute",
           "relationships": {
             "Annie Cresta": "In love with",
             "Mags": "Mentored by"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Demonstrates survival skills and loyalty by staying with Mags and helping the alliance.",
+          "role": "Alliance member",
+          "relationships": {
+            "Katniss Everdeen": "Allies with",
+            "Peeta Mellark": "Protects",
+            "Mags": "Cares for"
           }
         },
         "26": {
@@ -135,7 +145,8 @@
           "role": "Rebel ally",
           "relationships": {
             "Katniss Everdeen": "Protecting",
-            "Rebellion": "Secret member"
+            "Plutarch Heavensbee": "Works with",
+            "District 13": "Allied with"
           }
         }
       }
@@ -194,10 +205,19 @@
       "knowledge": {
         "15": {
           "revealedIn": 15,
-          "description": "Brilliant inventor from District 3.",
+          "description": "Brilliant inventor from District 3, specializes in electrical engineering.",
           "role": "District 3 tribute",
           "relationships": {
             "Wiress": "District partner"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Devises the plan to use lightning and wire to destroy the arena's force field.",
+          "role": "Rebel strategist",
+          "relationships": {
+            "Katniss Everdeen": "Allies with",
+            "Plutarch Heavensbee": "Secretly works with"
           }
         }
       }
@@ -221,10 +241,28 @@
       "knowledge": {
         "15": {
           "revealedIn": 15,
-          "description": "Intelligent but traumatized victor from District 3.",
+          "description": "Intelligent but traumatized victor from District 3, often appears confused but has moments of clarity.",
           "role": "District 3 tribute",
           "relationships": {
             "Beetee": "District partner"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Reveals the arena's clock pattern by repeatedly saying 'tick tock', helping the alliance understand the threats.",
+          "role": "Key strategist",
+          "relationships": {
+            "Katniss Everdeen": "Helps",
+            "Rebel alliance": "Provides crucial insight to"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Killed by Gloss during the attack at the Cornucopia while trying to help her allies.",
+          "role": "Martyred ally",
+          "relationships": {
+            "Gloss": "Killed by",
+            "Katniss Everdeen": "Dies helping"
           }
         }
       }
@@ -406,7 +444,7 @@
     },
     "district-5-male": {
       "name": "District 5 Male",
-      "aliases": [],
+      "aliases": ["Male District 5 Victor"],
       "appearances": [
         15,
         16,
@@ -416,7 +454,7 @@
       "knowledge": {
         "15": {
           "revealedIn": 15,
-          "description": "Male victor from District 5, not named in the books.",
+          "description": "Male victor from District 5 (power), appears elderly and frail during the Quarter Quell.",
           "role": "District 5 tribute",
           "relationships": {
             "District 5 Female": "District partner"
@@ -426,7 +464,7 @@
     },
     "district-5-female": {
       "name": "District 5 Female",
-      "aliases": [],
+      "aliases": ["Female District 5 Victor"],
       "appearances": [
         15,
         16,
@@ -436,7 +474,7 @@
       "knowledge": {
         "15": {
           "revealedIn": 15,
-          "description": "Female victor from District 5, not named in the books.",
+          "description": "Female victor from District 5 (power), appears middle-aged during the Quarter Quell.",
           "role": "District 5 tribute",
           "relationships": {
             "District 5 Male": "District partner"
@@ -581,7 +619,7 @@
     },
     "district-9-male": {
       "name": "District 9 Male",
-      "aliases": [],
+      "aliases": ["Male District 9 Victor"],
       "appearances": [
         15,
         16,
@@ -590,7 +628,7 @@
       "knowledge": {
         "15": {
           "revealedIn": 15,
-          "description": "Male victor from District 9, grain district. Not named in the books.",
+          "description": "Male victor from District 9 (grain), appears older during the Quarter Quell tribute parade.",
           "role": "District 9 tribute",
           "relationships": {
             "District 9 Female": "District partner"
@@ -600,7 +638,7 @@
     },
     "district-9-female": {
       "name": "District 9 Female",
-      "aliases": [],
+      "aliases": ["Female District 9 Victor"],
       "appearances": [
         15,
         16,
@@ -609,7 +647,7 @@
       "knowledge": {
         "15": {
           "revealedIn": 15,
-          "description": "Female victor from District 9, grain district. Not named in the books.",
+          "description": "Female victor from District 9 (grain), appears middle-aged during the Quarter Quell.",
           "role": "District 9 tribute",
           "relationships": {
             "District 9 Male": "District partner"
@@ -619,7 +657,7 @@
     },
     "district-10-male": {
       "name": "District 10 Male",
-      "aliases": [],
+      "aliases": ["Male District 10 Victor"],
       "appearances": [
         15,
         16,
@@ -628,7 +666,7 @@
       "knowledge": {
         "15": {
           "revealedIn": 15,
-          "description": "Male victor from District 10, livestock district. Not named in the books.",
+          "description": "Male victor from District 10 (livestock), appears sturdy and farm-weathered during the Quarter Quell.",
           "role": "District 10 tribute",
           "relationships": {
             "District 10 Female": "District partner"
@@ -638,7 +676,7 @@
     },
     "district-10-female": {
       "name": "District 10 Female",
-      "aliases": [],
+      "aliases": ["Female District 10 Victor"],
       "appearances": [
         15,
         16,
@@ -647,7 +685,7 @@
       "knowledge": {
         "15": {
           "revealedIn": 15,
-          "description": "Female victor from District 10, livestock district. Not named in the books.",
+          "description": "Female victor from District 10 (livestock), appears strong and practical during the Quarter Quell.",
           "role": "District 10 tribute",
           "relationships": {
             "District 10 Male": "District partner"
@@ -749,6 +787,15 @@
           "relationships": {
             "Peeta Mellark": "Replaced by"
           }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Revealed to be part of the rebel conspiracy to rescue Katniss from the arena.",
+          "role": "Rebel conspirator",
+          "relationships": {
+            "Plutarch Heavensbee": "Works with",
+            "District 13": "Collaborates with"
+          }
         }
       }
     },
@@ -781,6 +828,15 @@
             "Katniss Everdeen": "Escort for",
             "Peeta Mellark": "Escort for"
           }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Struggles emotionally with having to escort Katniss and Peeta to their likely deaths in the Quarter Quell.",
+          "role": "Conflicted escort",
+          "relationships": {
+            "Haymitch Abernathy": "Works with",
+            "Capitol": "Loyalty questioned"
+          }
         }
       }
     },
@@ -805,7 +861,27 @@
           "description": "President of Panem who threatens Katniss and her loved ones.",
           "role": "President",
           "relationships": {
-            "Katniss Everdeen": "Threatens"
+            "Katniss Everdeen": "Threatens",
+            "Gale Hawthorne": "Threatens",
+            "Prim Everdeen": "Threatens"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Hosts party where he subtly intimidates Katniss while introducing her to Plutarch Heavensbee.",
+          "role": "Manipulative host",
+          "relationships": {
+            "Plutarch Heavensbee": "Introduces",
+            "Capitol Citizens": "Entertains"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Announces the Third Quarter Quell to target victors, specifically to eliminate Katniss.",
+          "role": "Games orchestrator",
+          "relationships": {
+            "Quarter Quell tributes": "Condemns to arena",
+            "Katniss Everdeen": "Specifically targets"
           }
         }
       }
@@ -831,7 +907,26 @@
           "description": "Katniss's best friend and hunting partner from District 12.",
           "role": "Friend",
           "relationships": {
-            "Katniss Everdeen": "Best friend of"
+            "Katniss Everdeen": "Best friend of",
+            "Hazelle Hawthorne": "Son"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Publicly whipped by Thread for illegal hunting, showing the Capitol's increased brutality.",
+          "role": "Victim of Capitol oppression",
+          "relationships": {
+            "Thread": "Punished by",
+            "Katniss Everdeen": "Protected by"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Reveals his anger about the Capitol and desire for armed rebellion against their oppressors.",
+          "role": "Potential rebel",
+          "relationships": {
+            "Capitol": "Opposes",
+            "District 8 rebels": "Sympathizes with"
           }
         }
       }
@@ -1111,7 +1206,8 @@
       "name": "Leevy",
       "aliases": [],
       "appearances": [
-        1
+        1,
+        6
       ],
       "knowledge": {
         "1": {
@@ -1119,7 +1215,177 @@
           "description": "Neighbor who helps watch Prim while Katniss is away.",
           "role": "Neighbor",
           "relationships": {
-            "Prim Everdeen": "Watches over"
+            "Prim Everdeen": "Watches over",
+            "Katniss Everdeen": "Friend"
+          }
+        }
+      }
+    },
+    "bristel": {
+      "name": "Bristel",
+      "aliases": [],
+      "appearances": [
+        1
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Friend of Katniss and Gale from District 12, mentioned in conversation.",
+          "role": "District 12 friend",
+          "relationships": {
+            "Katniss Everdeen": "Friend",
+            "Gale Hawthorne": "Friend"
+          }
+        }
+      }
+    },
+    "thom": {
+      "name": "Thom",
+      "aliases": [],
+      "appearances": [
+        1,
+        5
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Friend of Gale from District 12 who hunts and works with him.",
+          "role": "District 12 friend",
+          "relationships": {
+            "Gale Hawthorne": "Friend",
+            "Katniss Everdeen": "Friend"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Present during Gale's whipping, showing concern for his friend.",
+          "role": "Concerned friend",
+          "relationships": {
+            "Gale Hawthorne": "Supports"
+          }
+        }
+      }
+    },
+    "mr-mellark": {
+      "name": "Mr. Mellark",
+      "aliases": ["Peeta's Father", "Baker Mellark"],
+      "appearances": [
+        1
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Peeta's father who runs the bakery in District 12. Kind man who once gave bread to starving Katniss.",
+          "role": "Baker",
+          "relationships": {
+            "Peeta Mellark": "Father",
+            "Mrs. Mellark": "Husband",
+            "Katniss Everdeen": "Helped in past"
+          }
+        }
+      }
+    },
+    "mrs-mellark": {
+      "name": "Mrs. Mellark",
+      "aliases": ["Peeta's Mother"],
+      "appearances": [
+        1
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Peeta's harsh mother who runs the bakery with her husband. Known for her sharp tongue.",
+          "role": "Baker's wife",
+          "relationships": {
+            "Peeta Mellark": "Mother",
+            "Mr. Mellark": "Wife"
+          }
+        }
+      }
+    },
+    "peeta-brothers": {
+      "name": "Peeta's Brothers",
+      "aliases": [],
+      "appearances": [
+        1
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Peeta's two older brothers who work in the family bakery.",
+          "role": "Peeta's brothers",
+          "relationships": {
+            "Peeta Mellark": "Brothers",
+            "Mr. Mellark": "Sons",
+            "Mrs. Mellark": "Sons"
+          }
+        }
+      }
+    },
+    "buttercup": {
+      "name": "Buttercup",
+      "aliases": [],
+      "appearances": [
+        1,
+        4,
+        6
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Prim's beloved cat, initially disliked by Katniss but tolerated for Prim's sake.",
+          "role": "Family pet",
+          "relationships": {
+            "Prim Everdeen": "Beloved pet",
+            "Katniss Everdeen": "Reluctantly tolerates"
+          }
+        }
+      }
+    },
+    "lady": {
+      "name": "Lady",
+      "aliases": [],
+      "appearances": [
+        1,
+        4
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Prim's goat, purchased with Katniss's winnings and provider of milk and cheese.",
+          "role": "Family goat",
+          "relationships": {
+            "Prim Everdeen": "Cared for by",
+            "Mrs. Everdeen": "Provides healing supplies"
+          }
+        }
+      }
+    },
+    "mockingjays": {
+      "name": "Mockingjays",
+      "aliases": [],
+      "appearances": [
+        1,
+        3,
+        24
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Hybrid birds that can repeat human songs, created from Capitol jabberjays and mockingbirds.",
+          "role": "Symbol of rebellion",
+          "relationships": {
+            "Katniss Everdeen": "Associated with",
+            "Rue": "Connected to"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Used in the arena's jabberjay attack to replay screams and torture tributes.",
+          "role": "Arena weapon",
+          "relationships": {
+            "Gamemakers": "Manipulated by",
+            "Jabberjays": "Related to"
           }
         }
       }
@@ -1208,7 +1474,1382 @@
           "description": "Black market alcohol seller at the Hob who was whipped by Thread.",
           "role": "Alcohol seller",
           "relationships": {
-            "Thread": "Punished by"
+            "Thread": "Punished by",
+            "Gale Hawthorne": "Customer"
+          }
+        }
+      }
+    },
+    "cray": {
+      "name": "Cray",
+      "aliases": ["Head Peacekeeper Cray"],
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Former Head Peacekeeper in District 12, more lenient than his replacement Thread.",
+          "role": "Former Head Peacekeeper",
+          "relationships": {
+            "Thread": "Replaced by",
+            "Katniss Everdeen": "Tolerated hunting"
+          }
+        }
+      }
+    },
+    "hob-vendors": {
+      "name": "Hob Vendors",
+      "aliases": ["Black Market Traders"],
+      "appearances": [
+        1,
+        8
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various traders at the Hob (black market) where Katniss sells game and buys supplies.",
+          "role": "Black market traders",
+          "relationships": {
+            "Katniss Everdeen": "Trade with",
+            "Gale Hawthorne": "Trade with"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Face increased scrutiny and punishment under Thread's harsh regime.",
+          "role": "Persecuted traders",
+          "relationships": {
+            "Thread": "Persecuted by"
+          }
+        }
+      }
+    },
+    "quarter-quell-announcer": {
+      "name": "Quarter Quell Announcer",
+      "aliases": [],
+      "appearances": [
+        10
+      ],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Capitol official who announces the Third Quarter Quell rules on television.",
+          "role": "Capitol announcer",
+          "relationships": {
+            "President Snow": "Represents"
+          }
+        }
+      }
+    },
+    "previous-quarter-quell-victors": {
+      "name": "Previous Quarter Quell Victors",
+      "aliases": ["50th Games Victor"],
+      "appearances": [
+        9,
+        10
+      ],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Winners of the previous Quarter Quell Games, including Haymitch from the 50th Games.",
+          "role": "Former victors",
+          "relationships": {
+            "Haymitch Abernathy": "Include",
+            "Capitol": "Previously survived"
+          }
+        }
+      }
+    },
+    "arena-force-field": {
+      "name": "Arena Force Field",
+      "aliases": ["Invisible Barrier"],
+      "appearances": [
+        21,
+        26
+      ],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Invisible barrier surrounding the Quarter Quell arena that kills on contact.",
+          "role": "Arena boundary",
+          "relationships": {
+            "Blight": "Kills",
+            "Gamemakers": "Created by"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Destroyed by Katniss's arrow and Beetee's wire, causing the arena to collapse.",
+          "role": "Vulnerable target",
+          "relationships": {
+            "Katniss Everdeen": "Destroyed by",
+            "Beetee": "Weakened by"
+          }
+        }
+      }
+    },
+    "lightning-tree": {
+      "name": "Lightning Tree",
+      "aliases": [],
+      "appearances": [
+        22,
+        24,
+        25,
+        26
+      ],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Massive tree in the arena that gets struck by lightning at midnight and noon.",
+          "role": "Arena landmark",
+          "relationships": {
+            "Beetee": "Used in plan by",
+            "Gamemakers": "Designed by"
+          }
+        }
+      }
+    },
+    "poisonous-fog": {
+      "name": "Poisonous Fog",
+      "aliases": ["Acid Fog"],
+      "appearances": [
+        18
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Deadly fog that burns skin on contact, one of the arena's hourly threats.",
+          "role": "Arena hazard",
+          "relationships": {
+            "Katniss Everdeen": "Attacks",
+            "Peeta Mellark": "Attacks",
+            "Mags": "Forces sacrifice by"
+          }
+        }
+      }
+    },
+    "blood-rain": {
+      "name": "Blood Rain",
+      "aliases": [],
+      "appearances": [
+        20
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Hot blood that falls from the sky in one section of the arena as an hourly threat.",
+          "role": "Arena hazard",
+          "relationships": {
+            "Gamemakers": "Created by",
+            "Quarter Quell tributes": "Threatens"
+          }
+        }
+      }
+    },
+    "tracker-jackers": {
+      "name": "Tracker Jackers",
+      "aliases": [],
+      "appearances": [
+        20
+      ],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Genetically modified wasps whose stings cause hallucinations and death, released in the arena.",
+          "role": "Arena threat",
+          "relationships": {
+            "Capitol": "Created by",
+            "Quarter Quell tributes": "Attack"
+          }
+        }
+      }
+    },
+    "katniss-styling-team": {
+      "name": "Katniss's Extended Styling Team",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Additional Capitol stylists and assistants who work with Cinna to prepare Katniss for the Quarter Quell.",
+          "role": "Styling assistants",
+          "relationships": {
+            "Cinna": "Assist",
+            "Katniss Everdeen": "Prepare"
+          }
+        }
+      }
+    },
+    "tribute-stylists": {
+      "name": "Other Tribute Stylists",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Capitol stylists assigned to the other Quarter Quell tributes for interviews and presentation.",
+          "role": "Capitol stylists",
+          "relationships": {
+            "Quarter Quell tributes": "Style",
+            "Capitol": "Work for"
+          }
+        }
+      }
+    },
+    "quarter-quell-mentors": {
+      "name": "Quarter Quell Mentors",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former victors who mentor the Quarter Quell tributes, though their role is complicated since the tributes are all former winners.",
+          "role": "Mentors",
+          "relationships": {
+            "Quarter Quell tributes": "Advise",
+            "Capitol": "Supervised by"
+          }
+        }
+      }
+    },
+    "district-peacekeepers": {
+      "name": "District Peacekeepers (Various)",
+      "aliases": [],
+      "appearances": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Peacekeepers stationed in various districts to maintain Capitol control during and after the Victory Tour.",
+          "role": "Law enforcement",
+          "relationships": {
+            "President Snow": "Serve",
+            "District citizens": "Control"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Become increasingly brutal under orders to suppress growing rebellion in the districts.",
+          "role": "Oppressive force",
+          "relationships": {
+            "Gale Hawthorne": "Punish",
+            "District rebels": "Suppress"
+          }
+        }
+      }
+    },
+    "victory-tour-officials": {
+      "name": "Victory Tour Officials",
+      "aliases": [],
+      "appearances": [
+        2,
+        3
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Capitol officials who coordinate and oversee the Victory Tour ceremonies in each district.",
+          "role": "Tour coordinators",
+          "relationships": {
+            "President Snow": "Report to",
+            "Katniss Everdeen": "Monitor",
+            "Peeta Mellark": "Monitor"
+          }
+        }
+      }
+    },
+    "district-1-citizens": {
+      "name": "District 1 Citizens",
+      "aliases": ["Luxury District Workers"],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Citizens of District 1 who work in luxury goods production and attend Victory Tour ceremony.",
+          "role": "District 1 population",
+          "relationships": {
+            "Gloss": "District mate",
+            "Cashmere": "District mate"
+          }
+        }
+      }
+    },
+    "district-2-citizens": {
+      "name": "District 2 Citizens",
+      "aliases": ["Masonry District Workers"],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Citizens of District 2 who work in masonry and Peacekeeper training, attend Victory Tour.",
+          "role": "District 2 population",
+          "relationships": {
+            "Brutus": "District mate",
+            "Enobaria": "District mate"
+          }
+        }
+      }
+    },
+    "district-3-citizens": {
+      "name": "District 3 Citizens",
+      "aliases": ["Technology District Workers"],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Citizens of District 3 who work in electronics and technology, attend Victory Tour ceremony.",
+          "role": "District 3 population",
+          "relationships": {
+            "Beetee": "District mate",
+            "Wiress": "District mate"
+          }
+        }
+      }
+    },
+    "district-4-citizens": {
+      "name": "District 4 Citizens",
+      "aliases": ["Fishing District Workers"],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Citizens of District 4 who work in fishing industry and attend Victory Tour ceremony.",
+          "role": "District 4 population",
+          "relationships": {
+            "Finnick Odair": "District mate",
+            "Mags": "District mate",
+            "Annie Cresta": "District mate"
+          }
+        }
+      }
+    },
+    "district-11-citizens": {
+      "name": "District 11 Citizens",
+      "aliases": ["Agriculture District Workers"],
+      "appearances": [
+        3
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Citizens of District 11 who work in agriculture and witness the uprising during the Victory Tour.",
+          "role": "District 11 population",
+          "relationships": {
+            "Rue": "Mourn",
+            "Thresh": "Mourn",
+            "Katniss Everdeen": "Inspired by"
+          }
+        }
+      }
+    },
+    "district-12-citizens": {
+      "name": "District 12 Citizens",
+      "aliases": ["Coal District Workers", "Seam People", "Merchant Class"],
+      "appearances": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Citizens of District 12 including coal miners from the Seam and merchant class families.",
+          "role": "District 12 population",
+          "relationships": {
+            "Katniss Everdeen": "Celebrate as victor",
+            "Peeta Mellark": "Celebrate as victor"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Face increased brutality under Thread's harsh new regime, with public punishments.",
+          "role": "Oppressed population",
+          "relationships": {
+            "Thread": "Oppressed by",
+            "Gale Hawthorne": "Witness punishment of"
+          }
+        }
+      }
+    },
+    "arena-beach": {
+      "name": "Arena Beach",
+      "aliases": ["Cornucopia Island Beach"],
+      "appearances": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Sandy beach surrounding the Cornucopia island where tributes first land in the Quarter Quell arena.",
+          "role": "Arena location",
+          "relationships": {
+            "Cornucopia": "Surrounds",
+            "Quarter Quell tributes": "Starting point for"
+          }
+        }
+      }
+    },
+    "arena-jungle": {
+      "name": "Arena Jungle",
+      "aliases": ["Tropical Forest"],
+      "appearances": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Dense tropical jungle that makes up most of the Quarter Quell arena, divided into 12 sections.",
+          "role": "Arena terrain",
+          "relationships": {
+            "Gamemakers": "Designed by",
+            "Quarter Quell tributes": "Shelter and danger for"
+          }
+        }
+      }
+    },
+    "arena-water": {
+      "name": "Arena Water",
+      "aliases": ["Saltwater", "Ocean"],
+      "appearances": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Saltwater that surrounds the Cornucopia island and fills the arena, providing both resource and barrier.",
+          "role": "Arena element",
+          "relationships": {
+            "Finnick Odair": "Advantage for",
+            "Mags": "Familiar to",
+            "District 4 tributes": "Advantage for"
+          }
+        }
+      }
+    },
+    "television-crews": {
+      "name": "Television Crews",
+      "aliases": ["Capitol TV Teams"],
+      "appearances": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Capitol television crews who film the tribute interviews and arena coverage for broadcast.",
+          "role": "Media",
+          "relationships": {
+            "Caesar Flickerman": "Work with",
+            "Quarter Quell tributes": "Film"
+          }
+        }
+      }
+    },
+    "capitol-servants": {
+      "name": "Capitol Servants",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Various servants and staff who work in the Training Center and Capitol buildings.",
+          "role": "Capitol staff",
+          "relationships": {
+            "Capitol": "Serve",
+            "Quarter Quell tributes": "Attend to"
+          }
+        }
+      }
+    },
+    "arena-spile": {
+      "name": "Arena Spile",
+      "aliases": ["Water Tap"],
+      "appearances": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Small device from the Cornucopia that can be hammered into trees to extract fresh water.",
+          "role": "Survival tool",
+          "relationships": {
+            "Katniss Everdeen": "Used by",
+            "Peeta Mellark": "Provides water for",
+            "Finnick Odair": "Provides water for"
+          }
+        }
+      }
+    },
+    "arena-wire": {
+      "name": "Arena Wire",
+      "aliases": ["Coil of Wire"],
+      "appearances": [
+        16,
+        24,
+        25,
+        26
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Coil of wire from the Cornucopia that Beetee plans to use in his electrical trap.",
+          "role": "Arena weapon",
+          "relationships": {
+            "Beetee": "Planned by",
+            "Katniss Everdeen": "Used by"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Used to channel lightning into the force field, causing the arena to collapse.",
+          "role": "Destruction tool",
+          "relationships": {
+            "Lightning Tree": "Connected to",
+            "Arena Force Field": "Destroys"
+          }
+        }
+      }
+    },
+    "career-pack": {
+      "name": "Career Pack",
+      "aliases": ["Career Alliance"],
+      "appearances": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Alliance of Career tributes from Districts 1 and 2 who control the Cornucopia in the Quarter Quell.",
+          "role": "Tribute alliance",
+          "relationships": {
+            "Gloss": "Include",
+            "Cashmere": "Include",
+            "Brutus": "Include",
+            "Enobaria": "Include"
+          }
+        }
+      }
+    },
+    "rebel-alliance": {
+      "name": "Rebel Alliance (Arena)",
+      "aliases": ["Katniss Alliance"],
+      "appearances": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Alliance formed between Katniss, Peeta, Finnick, and others to survive the Quarter Quell.",
+          "role": "Tribute alliance",
+          "relationships": {
+            "Katniss Everdeen": "Led by",
+            "Peeta Mellark": "Include",
+            "Finnick Odair": "Include",
+            "Mags": "Include"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Expands to include Beetee, Wiress, and Johanna as they work together against the Careers.",
+          "role": "Extended alliance",
+          "relationships": {
+            "Beetee": "Include",
+            "Wiress": "Include",
+            "Johanna Mason": "Include"
+          }
+        }
+      }
+    },
+    "quarter-quell-cannon": {
+      "name": "Quarter Quell Cannon",
+      "aliases": ["Death Cannon"],
+      "appearances": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Cannon that fires to announce the death of each tribute in the Quarter Quell arena.",
+          "role": "Death announcer",
+          "relationships": {
+            "Gamemakers": "Operated by",
+            "Quarter Quell tributes": "Announces deaths of"
+          }
+        }
+      }
+    },
+    "sponsor-gifts": {
+      "name": "Sponsor Gifts",
+      "aliases": ["Parachutes", "Arena Supplies"],
+      "appearances": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Gifts sent to tributes via parachute from sponsors in the Capitol during the Games.",
+          "role": "Arena supplies",
+          "relationships": {
+            "Haymitch Abernathy": "Coordinated by",
+            "Katniss Everdeen": "Received by",
+            "Capitol citizens": "Funded by"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Include bread from District 3 that serves as a secret message from the rebellion.",
+          "role": "Secret communication",
+          "relationships": {
+            "District 3": "Originates from",
+            "Beetee": "Connected to",
+            "Rebellion": "Message from"
+          }
+        }
+      }
+    },
+    "arena-clock-sections": {
+      "name": "Arena Clock Sections",
+      "aliases": ["Twelve Sections", "Hourly Threats"],
+      "appearances": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "The arena is divided into 12 sections like a clock, each with different hourly threats.",
+          "role": "Arena design",
+          "relationships": {
+            "Wiress": "Discovered by",
+            "Gamemakers": "Designed by",
+            "Quarter Quell tributes": "Threatens"
+          }
+        }
+      }
+    },
+    "rooba": {
+      "name": "Rooba",
+      "aliases": [],
+      "appearances": [
+        1
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Person mentioned in District 12 conversation, friend of Katniss and Gale.",
+          "role": "District 12 friend",
+          "relationships": {
+            "Katniss Everdeen": "Friend",
+            "Gale Hawthorne": "Friend"
+          }
+        }
+      }
+    },
+    "district-8-hospital-staff": {
+      "name": "District 8 Hospital Staff",
+      "aliases": [],
+      "appearances": [
+        8
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Medical staff at the District 8 hospital who were bombed by the Capitol during the rebellion.",
+          "role": "Medical workers",
+          "relationships": {
+            "District 8 rebels": "Treated",
+            "Capitol forces": "Killed by"
+          }
+        }
+      }
+    },
+    "district-8-wounded": {
+      "name": "District 8 Wounded",
+      "aliases": [],
+      "appearances": [
+        8
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Injured rebels from District 8 who were being treated in the hospital before it was bombed.",
+          "role": "War casualties",
+          "relationships": {
+            "District 8 hospital staff": "Treated by",
+            "Capitol forces": "Attacked by"
+          }
+        }
+      }
+    },
+    "peacekeeper-commanders": {
+      "name": "Peacekeeper Commanders",
+      "aliases": [],
+      "appearances": [
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "High-ranking Peacekeepers who oversee operations in the districts during the unrest.",
+          "role": "Military commanders",
+          "relationships": {
+            "Thread": "Include",
+            "President Snow": "Report to"
+          }
+        }
+      }
+    },
+    "capitol-party-guests": {
+      "name": "Capitol Party Guests",
+      "aliases": [],
+      "appearances": [
+        7
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Wealthy Capitol citizens who attend President Snow's party where Katniss meets Plutarch.",
+          "role": "Capitol elite",
+          "relationships": {
+            "President Snow": "Hosted by",
+            "Katniss Everdeen": "Meet"
+          }
+        }
+      }
+    },
+    "district-mayors-collective": {
+      "name": "District Mayors (Collective)",
+      "aliases": [],
+      "appearances": [
+        2,
+        3
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The mayors of all districts who must host Victory Tour ceremonies and maintain order.",
+          "role": "District officials",
+          "relationships": {
+            "President Snow": "Answer to",
+            "Victory Tour": "Host"
+          }
+        }
+      }
+    },
+    "tribute-escorts": {
+      "name": "Tribute Escorts",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Capitol escorts assigned to guide and present the Quarter Quell tributes, similar to Effie.",
+          "role": "Capitol escorts",
+          "relationships": {
+            "Effie Trinket": "Similar role to",
+            "Quarter Quell tributes": "Escort"
+          }
+        }
+      }
+    },
+    "arena-wildlife": {
+      "name": "Arena Wildlife",
+      "aliases": ["Natural Animals"],
+      "appearances": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Natural animals and birds living in the arena jungle, separate from the engineered mutts.",
+          "role": "Arena fauna",
+          "relationships": {
+            "Arena jungle": "Inhabit",
+            "Quarter Quell tributes": "Potential food for"
+          }
+        }
+      }
+    },
+    "arena-vegetation": {
+      "name": "Arena Vegetation",
+      "aliases": ["Jungle Plants", "Edible Plants"],
+      "appearances": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Various plants in the arena jungle, some edible and others potentially dangerous.",
+          "role": "Arena flora",
+          "relationships": {
+            "Katniss Everdeen": "Identified by",
+            "Quarter Quell tributes": "Food source for"
+          }
+        }
+      }
+    },
+    "seam-miners": {
+      "name": "Seam Miners",
+      "aliases": ["Coal Workers"],
+      "appearances": [
+        1,
+        4,
+        5,
+        8
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Coal miners who work in the dangerous mines of District 12, mostly from the Seam.",
+          "role": "District 12 workers",
+          "relationships": {
+            "Katniss Everdeen": "Include father of",
+            "District 12": "Labor force of"
+          }
+        }
+      }
+    },
+    "merchant-class": {
+      "name": "Merchant Class",
+      "aliases": ["District 12 Merchants"],
+      "appearances": [
+        1,
+        4,
+        5
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wealthier citizens of District 12 who own shops and businesses, including the bakery.",
+          "role": "Business owners",
+          "relationships": {
+            "Peeta Mellark": "Include family of",
+            "Madge Undersee": "Include"
+          }
+        }
+      }
+    },
+    "train-crew": {
+      "name": "Victory Tour Train Crew",
+      "aliases": [],
+      "appearances": [
+        2,
+        3
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Capitol employees who operate and staff the luxurious train during the Victory Tour.",
+          "role": "Transport staff",
+          "relationships": {
+            "Katniss Everdeen": "Transport",
+            "Peeta Mellark": "Transport",
+            "Capitol": "Work for"
+          }
+        }
+      }
+    },
+    "quarter-quell-audience": {
+      "name": "Quarter Quell Audience",
+      "aliases": ["Games Viewers"],
+      "appearances": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Capitol citizens who watch the Quarter Quell interviews and Games broadcasts.",
+          "role": "Entertainment audience",
+          "relationships": {
+            "Caesar Flickerman": "Watch",
+            "Quarter Quell tributes": "Watch"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Show unprecedented emotion and opposition to the Quarter Quell after Peeta's pregnancy announcement.",
+          "role": "Sympathetic audience",
+          "relationships": {
+            "Peeta Mellark": "Sympathize with",
+            "President Snow": "Question"
+          }
+        }
+      }
+    },
+    "district-13-president": {
+      "name": "District 13 Leadership",
+      "aliases": [],
+      "appearances": [
+        27
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Leadership of the supposedly destroyed District 13 who are revealed to be alive and leading the rebellion.",
+          "role": "Rebel leaders",
+          "relationships": {
+            "Plutarch Heavensbee": "Work with",
+            "Katniss Everdeen": "Rescue"
+          }
+        }
+      }
+    },
+    "beetee-wire-plan": {
+      "name": "Beetee's Wire Plan",
+      "aliases": ["Lightning Plan"],
+      "appearances": [
+        24,
+        25,
+        26
+      ],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Beetee's strategy to use the arena's lightning and wire to electrocute the remaining Career tributes.",
+          "role": "Battle strategy",
+          "relationships": {
+            "Beetee": "Devised by",
+            "Katniss Everdeen": "Modified by",
+            "Arena Force Field": "Ultimately targets"
+          }
+        }
+      }
+    },
+    "snow-threats": {
+      "name": "Snow's Threats",
+      "aliases": ["Capitol Intimidation"],
+      "appearances": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "President Snow's various threats and intimidation tactics against Katniss and her loved ones.",
+          "role": "Psychological warfare",
+          "relationships": {
+            "President Snow": "Orchestrated by",
+            "Katniss Everdeen": "Targets",
+            "Gale Hawthorne": "Threatens",
+            "Prim Everdeen": "Threatens"
+          }
+        }
+      }
+    },
+    "rebellion-symbols": {
+      "name": "Rebellion Symbols",
+      "aliases": ["Three-Finger Salute", "Mockingjay Pin"],
+      "appearances": [
+        1,
+        3,
+        7,
+        11,
+        13,
+        14
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various symbols of resistance including the mockingjay pin and three-finger salute.",
+          "role": "Resistance symbols",
+          "relationships": {
+            "Katniss Everdeen": "Associated with",
+            "District 11": "Adopted by",
+            "Cinna": "Incorporated by"
+          }
+        }
+      }
+    },
+    "victory-tour-security": {
+      "name": "Victory Tour Security",
+      "aliases": [],
+      "appearances": [
+        2,
+        3
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Enhanced security forces deployed during the Victory Tour to prevent uprising.",
+          "role": "Security forces",
+          "relationships": {
+            "President Snow": "Ordered by",
+            "District citizens": "Monitor"
+          }
+        }
+      }
+    },
+    "katniss-father": {
+      "name": "Katniss's Father",
+      "aliases": ["Mr. Everdeen"],
+      "appearances": [
+        1,
+        2
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Katniss's deceased father who died in a mine explosion, taught her to hunt and sing.",
+          "role": "Deceased father",
+          "relationships": {
+            "Katniss Everdeen": "Father",
+            "Mrs. Everdeen": "Husband",
+            "Prim Everdeen": "Father"
+          }
+        }
+      }
+    },
+    "rue": {
+      "name": "Rue",
+      "aliases": [],
+      "appearances": [
+        3,
+        13
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Deceased tribute from District 11 who Katniss allied with and mourns during the Victory Tour.",
+          "role": "Deceased ally",
+          "relationships": {
+            "Katniss Everdeen": "Allied with",
+            "Rue's Family": "Family member",
+            "District 11": "Representative of"
+          }
+        }
+      }
+    },
+    "thresh": {
+      "name": "Thresh",
+      "aliases": [],
+      "appearances": [
+        3
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Deceased tribute from District 11 who spared Katniss in the first Games, honored during Victory Tour.",
+          "role": "Deceased ally",
+          "relationships": {
+            "Katniss Everdeen": "Spared",
+            "Thresh's Family": "Family member",
+            "District 11": "Representative of"
+          }
+        }
+      }
+    },
+    "district-officials": {
+      "name": "District Officials",
+      "aliases": ["Local Government"],
+      "appearances": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Various local officials in each district who coordinate with the Capitol and manage local affairs.",
+          "role": "Local administrators",
+          "relationships": {
+            "Capitol": "Answer to",
+            "District citizens": "Govern"
+          }
+        }
+      }
+    },
+    "capitol-guards": {
+      "name": "Capitol Guards",
+      "aliases": [],
+      "appearances": [
+        7,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Security forces protecting Capitol buildings and officials, including President Snow.",
+          "role": "Capitol security",
+          "relationships": {
+            "President Snow": "Protect",
+            "Capitol buildings": "Guard"
+          }
+        }
+      }
+    },
+    "arena-fish": {
+      "name": "Arena Fish",
+      "aliases": [],
+      "appearances": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Fish living in the arena's saltwater that Finnick catches for food using his trident.",
+          "role": "Food source",
+          "relationships": {
+            "Finnick Odair": "Caught by",
+            "Arena water": "Live in"
+          }
+        }
+      }
+    },
+    "arena-shellfish": {
+      "name": "Arena Shellfish",
+      "aliases": ["Oysters", "Clams"],
+      "appearances": [
+        17,
+        18,
+        19
+      ],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Shellfish found in the arena waters that provide additional food for the tributes.",
+          "role": "Food source",
+          "relationships": {
+            "Finnick Odair": "Gathered by",
+            "Arena beach": "Found on"
+          }
+        }
+      }
+    },
+    "arena-nuts": {
+      "name": "Arena Nuts",
+      "aliases": ["Tree Nuts"],
+      "appearances": [
+        18,
+        19,
+        20
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Edible nuts found in the arena jungle that Katniss identifies as safe to eat.",
+          "role": "Food source",
+          "relationships": {
+            "Katniss Everdeen": "Identified by",
+            "Arena vegetation": "Part of"
+          }
+        }
+      }
+    },
+    "arena-roots": {
+      "name": "Arena Roots",
+      "aliases": ["Edible Roots"],
+      "appearances": [
+        18,
+        19,
+        20
+      ],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Edible roots found in the arena jungle that provide sustenance for the tributes.",
+          "role": "Food source",
+          "relationships": {
+            "Katniss Everdeen": "Identified by",
+            "Arena vegetation": "Part of"
+          }
+        }
+      }
+    },
+    "rebellion-districts": {
+      "name": "Rebellion Districts",
+      "aliases": ["Uprising Districts"],
+      "appearances": [
+        8,
+        9,
+        27
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Districts that have begun to rebel against the Capitol, starting with District 8.",
+          "role": "Rebel territories",
+          "relationships": {
+            "District 8": "Include",
+            "Capitol": "Rebel against",
+            "District 13": "Secretly coordinated by"
+          }
+        }
+      }
+    },
+    "quarter-quell-history": {
+      "name": "Quarter Quell History",
+      "aliases": ["Previous Quarter Quells"],
+      "appearances": [
+        9,
+        10
+      ],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Historical record of previous Quarter Quells, including the 25th and 50th Games with special rules.",
+          "role": "Historical precedent",
+          "relationships": {
+            "Haymitch Abernathy": "Include victory of",
+            "Capitol": "Designed by"
           }
         }
       }
@@ -1246,6 +2887,643 @@
           "relationships": {
             "Katniss Everdeen": "Friend",
             "Mayor Undersee": "Daughter"
+          }
+        }
+      }
+    },
+    "mayor-undersee": {
+      "name": "Mayor Undersee",
+      "aliases": [],
+      "appearances": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mayor of District 12, father to Madge and politically careful.",
+          "role": "District 12 Mayor",
+          "relationships": {
+            "Madge Undersee": "Father",
+            "Mrs. Undersee": "Husband"
+          }
+        }
+      }
+    },
+    "mrs-undersee": {
+      "name": "Mrs. Undersee",
+      "aliases": [],
+      "appearances": [
+        1,
+        4
+      ],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mayor's wife, mother to Madge, suffers from headaches and takes medicine.",
+          "role": "Mayor's wife",
+          "relationships": {
+            "Mayor Undersee": "Wife",
+            "Madge Undersee": "Mother"
+          }
+        }
+      }
+    },
+    "flavius": {
+      "name": "Flavius",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Member of Katniss's prep team, orange-skinned man who styles her hair.",
+          "role": "Prep team member",
+          "relationships": {
+            "Katniss Everdeen": "Prepares for interviews",
+            "Venia": "Works with",
+            "Octavia": "Works with"
+          }
+        }
+      }
+    },
+    "venia": {
+      "name": "Venia",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Member of Katniss's prep team with aqua hair and gold tattoos above her eyebrows.",
+          "role": "Prep team member",
+          "relationships": {
+            "Katniss Everdeen": "Prepares for interviews",
+            "Flavius": "Works with",
+            "Octavia": "Works with"
+          }
+        }
+      }
+    },
+    "octavia": {
+      "name": "Octavia",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Member of Katniss's prep team, plump woman with pea-green skin who does nails.",
+          "role": "Prep team member",
+          "relationships": {
+            "Katniss Everdeen": "Prepares for interviews",
+            "Flavius": "Works with",
+            "Venia": "Works with"
+          }
+        }
+      }
+    },
+    "snow-granddaughter": {
+      "name": "President Snow's Granddaughter",
+      "aliases": [],
+      "appearances": [
+        7
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Young girl at President Snow's party who admires Katniss's mockingjay dress.",
+          "role": "Capitol child",
+          "relationships": {
+            "President Snow": "Granddaughter",
+            "Katniss Everdeen": "Admires"
+          }
+        }
+      }
+    },
+    "caesar-flickerman": {
+      "name": "Caesar Flickerman",
+      "aliases": [],
+      "appearances": [
+        13,
+        14
+      ],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Famous Capitol television host who interviews the tributes before the Games.",
+          "role": "Television host",
+          "relationships": {
+            "Katniss Everdeen": "Interviews",
+            "Peeta Mellark": "Interviews"
+          }
+        }
+      }
+    },
+    "seneca-crane": {
+      "name": "Seneca Crane",
+      "aliases": [],
+      "appearances": [
+        7,
+        8
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Former Head Gamemaker who was executed for allowing two victors in the 74th Games.",
+          "role": "Former Head Gamemaker",
+          "relationships": {
+            "Plutarch Heavensbee": "Replaced by",
+            "President Snow": "Executed by"
+          }
+        }
+      }
+    },
+    "old-man-district-11": {
+      "name": "Old Man (District 11)",
+      "aliases": ["Whistler"],
+      "appearances": [
+        3
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Elderly man in District 11 who whistles the mockingjay tune after Katniss's speech, then gives the three-finger salute before being shot.",
+          "role": "District 11 citizen",
+          "relationships": {
+            "Katniss Everdeen": "Inspired by"
+          }
+        }
+      }
+    },
+    "rue-family": {
+      "name": "Rue's Family",
+      "aliases": [],
+      "appearances": [
+        3
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Rue's mother, father and siblings who Katniss meets during the Victory Tour in District 11.",
+          "role": "Rue's family",
+          "relationships": {
+            "Rue": "Family members",
+            "Katniss Everdeen": "Thanked by"
+          }
+        }
+      }
+    },
+    "thresh-family": {
+      "name": "Thresh's Family",
+      "aliases": [],
+      "appearances": [
+        3
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Thresh's grandmother and other family members who Katniss meets during the Victory Tour in District 11.",
+          "role": "Thresh's family",
+          "relationships": {
+            "Thresh": "Family members",
+            "Katniss Everdeen": "Thanked by"
+          }
+        }
+      }
+    },
+    "district-11-peacekeepers": {
+      "name": "District 11 Peacekeepers",
+      "aliases": [],
+      "appearances": [
+        3
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Brutal Peacekeepers who shoot the old man and maintain order during Katniss's visit to District 11.",
+          "role": "Peacekeepers",
+          "relationships": {
+            "Old Man (District 11)": "Execute",
+            "President Snow": "Serve"
+          }
+        }
+      }
+    },
+    "district-1-mayor": {
+      "name": "District 1 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 1 (luxury goods) who hosts Katniss and Peeta during their Victory Tour.",
+          "role": "District 1 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-2-mayor": {
+      "name": "District 2 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 2 (masonry/Peacekeepers) who participates in Victory Tour ceremonies.",
+          "role": "District 2 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-3-mayor": {
+      "name": "District 3 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 3 (technology) who participates in the Victory Tour ceremonies.",
+          "role": "District 3 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-4-mayor": {
+      "name": "District 4 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 4 (fishing) who hosts Katniss and Peeta during their Victory Tour stop.",
+          "role": "District 4 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-5-mayor": {
+      "name": "District 5 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 5 (power) who participates in Victory Tour events.",
+          "role": "District 5 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-6-mayor": {
+      "name": "District 6 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 6 (transportation) who hosts Victory Tour ceremonies.",
+          "role": "District 6 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-7-mayor": {
+      "name": "District 7 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 7 (lumber) who participates in the Victory Tour.",
+          "role": "District 7 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-8-mayor": {
+      "name": "District 8 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 8 (textiles) who greets Katniss and Peeta during their Victory Tour.",
+          "role": "District 8 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-9-mayor": {
+      "name": "District 9 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 9 (grain) who hosts Victory Tour events.",
+          "role": "District 9 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-10-mayor": {
+      "name": "District 10 Mayor",
+      "aliases": [],
+      "appearances": [
+        2
+      ],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mayor of District 10 (livestock) who participates in Victory Tour ceremonies.",
+          "role": "District 10 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "district-11-mayor": {
+      "name": "District 11 Mayor",
+      "aliases": [],
+      "appearances": [
+        3
+      ],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Mayor of District 11 (agriculture) who hosts the tense Victory Tour stop where the uprising begins.",
+          "role": "District 11 Mayor",
+          "relationships": {
+            "Katniss Everdeen": "Officially greets",
+            "Peeta Mellark": "Officially greets"
+          }
+        }
+      }
+    },
+    "capitol-citizens": {
+      "name": "Capitol Citizens",
+      "aliases": ["Capitol Audience"],
+      "appearances": [
+        7,
+        11,
+        13,
+        14
+      ],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Wealthy, fashion-obsessed citizens of the Capitol who attend parties and events.",
+          "role": "Capitol elite",
+          "relationships": {
+            "President Snow": "Ruled by",
+            "Katniss Everdeen": "Fascinated by"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "React with shock and horror to Peeta's pregnancy announcement during the interviews.",
+          "role": "Audience",
+          "relationships": {
+            "Peeta Mellark": "Sympathize with",
+            "Quarter Quell": "Question morality of"
+          }
+        }
+      }
+    },
+    "avoxes": {
+      "name": "Avoxes",
+      "aliases": ["Tongueless servants"],
+      "appearances": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Tongueless servants in the Training Center, including Darius who was turned into one.",
+          "role": "Servants",
+          "relationships": {
+            "Capitol": "Enslaved by",
+            "Darius": "Include"
+          }
+        }
+      }
+    },
+    "gamemakers": {
+      "name": "Gamemakers",
+      "aliases": [],
+      "appearances": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Capitol officials who design and control the Quarter Quell arena under Plutarch's direction.",
+          "role": "Arena controllers",
+          "relationships": {
+            "Plutarch Heavensbee": "Led by",
+            "Quarter Quell tributes": "Control"
+          }
+        }
+      }
+    },
+    "training-center-staff": {
+      "name": "Training Center Staff",
+      "aliases": [],
+      "appearances": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Capitol employees who run the Training Center and assist tributes before the Quarter Quell.",
+          "role": "Training staff",
+          "relationships": {
+            "Quarter Quell tributes": "Assist",
+            "Capitol": "Work for"
+          }
+        }
+      }
+    },
+    "district-8-rebels": {
+      "name": "District 8 Rebels",
+      "aliases": [],
+      "appearances": [
+        8
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Citizens of District 8 who rose up in rebellion against the Capitol, later bombed in the hospital.",
+          "role": "Rebels",
+          "relationships": {
+            "Twill": "Include",
+            "Bonnie": "Include",
+            "Capitol": "Rebel against"
+          }
+        }
+      }
+    },
+    "district-13-citizens": {
+      "name": "District 13 Citizens",
+      "aliases": [],
+      "appearances": [
+        27
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Citizens of the supposedly destroyed District 13 who are revealed to be alive and organizing the rebellion.",
+          "role": "Underground rebels",
+          "relationships": {
+            "Plutarch Heavensbee": "Work with",
+            "Katniss Everdeen": "Rescue"
+          }
+        }
+      }
+    },
+    "rescue-hovercraft-crew": {
+      "name": "Rescue Hovercraft Crew",
+      "aliases": [],
+      "appearances": [
+        27
+      ],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "District 13 rebels who pilot the hovercraft that rescues Katniss from the destroyed arena.",
+          "role": "Rescue crew",
+          "relationships": {
+            "Katniss Everdeen": "Rescue",
+            "District 13": "Work for"
+          }
+        }
+      }
+    },
+    "arena-mutts": {
+      "name": "Arena Mutts",
+      "aliases": ["Monkey Mutts", "Jabberjays"],
+      "appearances": [
+        19,
+        20,
+        24
+      ],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Genetically engineered creatures created by the Gamemakers, including aggressive monkey mutts in the jungle.",
+          "role": "Arena threats",
+          "relationships": {
+            "Gamemakers": "Created by",
+            "Female Morphling": "Kill"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Jabberjays that replay the screams of loved ones to torture the tributes.",
+          "role": "Psychological weapons",
+          "relationships": {
+            "Katniss Everdeen": "Torture",
+            "Finnick Odair": "Torture"
+          }
+        }
+      }
+    },
+    "cornucopia-weapons": {
+      "name": "Cornucopia Weapons",
+      "aliases": [],
+      "appearances": [
+        16
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Weapons and supplies stored in the Cornucopia at the center of the Quarter Quell arena.",
+          "role": "Arena supplies",
+          "relationships": {
+            "Gamemakers": "Placed by",
+            "Career tributes": "Controlled by"
           }
         }
       }
