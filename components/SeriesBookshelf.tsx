@@ -45,7 +45,7 @@ export default function SeriesBookshelf({ books, seriesSlug }: SeriesBookshelfPr
       </div>
       
       {/* Tablet Layout (3 books per row) - visible 640px to 900px */}
-      <div className="hidden sm:block tablet-max:block desktop:hidden space-y-8">
+      <div className="hidden sm:block desktop:hidden space-y-8">
         {tabletRows.map((row, rowIndex) => (
           <div key={`tablet-${rowIndex}`} className="grid grid-cols-3 gap-4">
             {row.map(({ slug, book }) => (
