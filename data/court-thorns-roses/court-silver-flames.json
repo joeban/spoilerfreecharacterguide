@@ -1245,6 +1245,958 @@
           }
         }
       }
+    },
+    "merrill": {
+      "name": "Merrill",
+      "aliases": ["Priestess Researcher", "Ancient Scholar"],
+      "appearances": [18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Brilliant but difficult priestess who conducts advanced magical research in the library.",
+          "role": "Magical researcher, Difficult scholar",
+          "relationships": {
+            "Research": "Pursues obsessively",
+            "Other priestesses": "Often conflicts with",
+            "Knowledge": "Values above relationships"
+          }
+        }
+      }
+    },
+    "gwyn-sister": {
+      "name": "Gwyn's Sister",
+      "aliases": ["Catrin", "Lost Sister"],
+      "appearances": [25, 35, 45, 55, 65, 75],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Gwyn's beloved sister who was killed, whose memory motivates her journey toward healing.",
+          "role": "Beloved memory, Motivation source",
+          "relationships": {
+            "Gwyn": "Beloved sister to",
+            "Memory": "Lives on in hearts",
+            "Healing": "Inspires journey toward"
+          }
+        }
+      }
+    },
+    "emerie-father": {
+      "name": "Emerie's Father",
+      "aliases": ["Abusive Parent", "Wing Clipper"],
+      "appearances": [40, 60, 75],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Abusive father who clipped Emerie's wings and represents the worst of Illyrian oppression.",
+          "role": "Oppressive abuser, Wing clipper",
+          "relationships": {
+            "Emerie": "Abused and clipped wings",
+            "Illyrian oppression": "Represents worst of",
+            "Abuse": "Perpetrated systematically"
+          }
+        }
+      }
+    },
+    "rhys-mother": {
+      "name": "Rhysand's Mother",
+      "aliases": ["Former High Lady", "Illyrian Warrior"],
+      "appearances": [35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Rhysand's mother whose memory and legacy inspire discussions of female strength.",
+          "role": "Inspiring memory, Strength legacy",
+          "relationships": {
+            "Rhysand": "Beloved mother to",
+            "Female strength": "Legacy inspires",
+            "Memory": "Lives on powerfully"
+          }
+        }
+      }
+    },
+    "cassian-mother": {
+      "name": "Cassian's Mother",
+      "aliases": ["Camp Servant", "Bastard's Mother"],
+      "appearances": [15, 35, 55, 75],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Cassian's mother whose difficult life shaped his understanding of Illyrian female oppression.",
+          "role": "Difficult life, Understanding shaper",
+          "relationships": {
+            "Cassian": "Shaped understanding of",
+            "Illyrian oppression": "Experienced personally",
+            "Memory": "Influences son's actions"
+          }
+        }
+      }
+    },
+    "azriel-mother": {
+      "name": "Azriel's Mother",
+      "aliases": ["Abused Servant", "Hidden Mother"],
+      "appearances": [35, 65, 75],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Azriel's mother whose traumatic experiences help him understand and support trauma survivors.",
+          "role": "Trauma survivor, Understanding source",
+          "relationships": {
+            "Azriel": "Shaped empathy of",
+            "Trauma": "Survived and influenced",
+            "Understanding": "Provided through experience"
+          }
+        }
+      }
+    },
+    "lord-of-autumn": {
+      "name": "Beron Vanserra",
+      "aliases": ["High Lord of Autumn", "Cruel Father"],
+      "appearances": [45, 55, 65, 75, 82],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Cruel High Lord whose political machinations create complications for the Night Court.",
+          "role": "Political schemer, Cruel ruler",
+          "relationships": {
+            "Political schemes": "Creates constantly",
+            "Night Court": "Complicates for",
+            "Family": "Rules cruelly"
+          }
+        }
+      }
+    },
+    "lady-of-autumn": {
+      "name": "Lady of Autumn Court",
+      "aliases": ["Beron's Wife", "Secret Keeper"],
+      "appearances": [45, 55, 65, 75, 82],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Mysterious lady who holds secrets that could affect the balance of power between courts.",
+          "role": "Secret holder, Mystery keeper",
+          "relationships": {
+            "Secrets": "Guards carefully",
+            "Power balance": "Could affect",
+            "Beron": "Endures marriage to"
+          }
+        }
+      }
+    },
+    "dread-trove-seekers": {
+      "name": "Dread Trove Seekers",
+      "aliases": ["Artifact Hunters", "Power Seekers"],
+      "appearances": [42, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Various individuals and groups who seek the powerful Made objects for their own purposes.",
+          "role": "Artifact hunters, Power pursuers",
+          "relationships": {
+            "Made objects": "Seek desperately",
+            "Power": "Pursue relentlessly",
+            "Danger": "Create through seeking"
+          }
+        }
+      }
+    },
+    "library-scholars": {
+      "name": "Library Scholars",
+      "aliases": ["Research Priestesses", "Knowledge Seekers"],
+      "appearances": [18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Scholarly priestesses who research ancient magic and lore while supporting trauma survivors.",
+          "role": "Knowledge researchers, Survivor supporters",
+          "relationships": {
+            "Ancient knowledge": "Research carefully",
+            "Trauma survivors": "Support through scholarship",
+            "Magic": "Study systematically"
+          }
+        }
+      }
+    },
+    "valkyrie-trainees": {
+      "name": "Additional Valkyrie Trainees",
+      "aliases": ["Warrior Students", "Training Sisters"],
+      "appearances": [28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Other priestesses who join the Valkyrie training, each bringing their own trauma and strength.",
+          "role": "Brave trainees, Strength contributors",
+          "relationships": {
+            "Training": "Join courageously",
+            "Trauma": "Work through together",
+            "Sisterhood": "Build through shared struggle"
+          }
+        }
+      }
+    },
+    "illyrian-camp-lords": {
+      "name": "Illyrian Camp Lords",
+      "aliases": ["Traditional Leaders", "Male Oppressors"],
+      "appearances": [32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Traditional Illyrian leaders who maintain sexist practices and oppose female empowerment.",
+          "role": "Traditional oppressors, Change resisters",
+          "relationships": {
+            "Sexist practices": "Maintain stubbornly",
+            "Female empowerment": "Oppose viciously",
+            "Change": "Resist at every turn"
+          }
+        }
+      }
+    },
+    "illyrian-warriors": {
+      "name": "Illyrian Warriors",
+      "aliases": ["Camp Warriors", "Wing Brothers"],
+      "appearances": [32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Traditional warriors who vary in their acceptance of change, some supporting progress.",
+          "role": "Mixed supporters, Tradition holders",
+          "relationships": {
+            "Tradition": "Hold to varying degrees",
+            "Change": "Accept at different rates",
+            "Female warriors": "React differently to"
+          }
+        }
+      }
+    },
+    "windhaven-mothers": {
+      "name": "Windhaven Mothers",
+      "aliases": ["Camp Mothers", "Silent Sufferers"],
+      "appearances": [32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Mothers in Illyrian camps who suffer in silence but begin to hope for their daughters' futures.",
+          "role": "Silent sufferers, Hope beginners",
+          "relationships": {
+            "Silence": "Suffer in traditionally",
+            "Daughters": "Hope for futures of",
+            "Change": "Begin to believe in"
+          }
+        }
+      }
+    },
+    "windhaven-daughters": {
+      "name": "Windhaven Daughters",
+      "aliases": ["Young Illyrian Females", "Future Warriors"],
+      "appearances": [32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Young Illyrian females who represent hope for change and equality in their restrictive culture.",
+          "role": "Hope symbols, Change representatives",
+          "relationships": {
+            "Hope": "Represent for future",
+            "Change": "Embody possibility of",
+            "Valkyrie example": "Inspired by"
+          }
+        }
+      }
+    },
+    "summer-court-emissaries": {
+      "name": "Summer Court Emissaries",
+      "aliases": ["Tarquin's Envoys", "Ocean Diplomats"],
+      "appearances": [45, 55, 65, 75, 82],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Diplomatic representatives who maintain relationships between Summer and Night Courts.",
+          "role": "Diplomatic bridges, Relationship maintainers",
+          "relationships": {
+            "Courts": "Bridge between",
+            "Diplomacy": "Conduct skillfully",
+            "Relationships": "Work to maintain"
+          }
+        }
+      }
+    },
+    "winter-court-emissaries": {
+      "name": "Winter Court Emissaries",
+      "aliases": ["Kallias's Envoys", "Ice Diplomats"],
+      "appearances": [45, 55, 65, 75, 82],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Representatives from the Winter Court who support peaceful cooperation between courts.",
+          "role": "Peace supporters, Cooperation builders",
+          "relationships": {
+            "Peace": "Support consistently",
+            "Cooperation": "Work to build",
+            "Courts": "Represent with honor"
+          }
+        }
+      }
+    },
+    "day-court-scholars": {
+      "name": "Day Court Scholars",
+      "aliases": ["Helion's Researchers", "Sun Scholars"],
+      "appearances": [35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Brilliant scholars who share knowledge and research to help understand ancient magic.",
+          "role": "Knowledge sharers, Magic researchers",
+          "relationships": {
+            "Knowledge": "Share generously",
+            "Ancient magic": "Research carefully",
+            "Understanding": "Help build"
+          }
+        }
+      }
+    },
+    "dawn-court-healers": {
+      "name": "Dawn Court Healers",
+      "aliases": ["Thesan's Healers", "Peregryn Medics"],
+      "appearances": [35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Skilled healers who provide medical expertise and emotional support during crises.",
+          "role": "Medical experts, Emotional supporters",
+          "relationships": {
+            "Medical expertise": "Provide skillfully",
+            "Emotional support": "Offer compassionately",
+            "Healing": "Facilitate completely"
+          }
+        }
+      }
+    },
+    "ancient-ones": {
+      "name": "Ancient Ones",
+      "aliases": ["Old Powers", "Forgotten Beings"],
+      "appearances": [55, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "Mysterious ancient beings whose power and knowledge influence the modern world's magical balance.",
+          "role": "Ancient influencers, Balance keepers",
+          "relationships": {
+            "Ancient power": "Wield mysteriously",
+            "Modern world": "Influence subtly",
+            "Magical balance": "Help maintain"
+          }
+        }
+      }
+    },
+    "cauldron-touched": {
+      "name": "Cauldron-Touched Beings",
+      "aliases": ["Magic Changed", "Power Bearers"],
+      "appearances": [25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Individuals changed by Cauldron magic who must learn to live with new powers and identities.",
+          "role": "Power bearers, Identity seekers",
+          "relationships": {
+            "New powers": "Learn to control",
+            "Changed identities": "Struggle to accept",
+            "Magic": "Connected to permanently"
+          }
+        }
+      }
+    },
+    "spirit-guides": {
+      "name": "Spirit Guides",
+      "aliases": ["Ancestor Spirits", "Guiding Voices"],
+      "appearances": [35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Spiritual presences who guide and inspire the living through difficult transformations.",
+          "role": "Spiritual guides, Inspiration providers",
+          "relationships": {
+            "Living beings": "Guide through challenges",
+            "Inspiration": "Provide in darkness",
+            "Transformation": "Support during"
+          }
+        }
+      }
+    },
+    "night-court-intelligence": {
+      "name": "Night Court Intelligence Network",
+      "aliases": ["Shadow Network", "Information Gatherers"],
+      "appearances": [12, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Azriel's network of spies and informants who gather intelligence to protect the court.",
+          "role": "Intelligence gatherers, Court protectors",
+          "relationships": {
+            "Intelligence": "Gather systematically",
+            "Court": "Protect through information",
+            "Azriel": "Report to and serve"
+          }
+        }
+      }
+    },
+    "velaris-healers": {
+      "name": "Velaris Healers",
+      "aliases": ["City Healers", "Community Medics"],
+      "appearances": [8, 15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Community healers who provide both physical and emotional support to trauma survivors.",
+          "role": "Community supporters, Trauma healers",
+          "relationships": {
+            "Physical healing": "Provide expertly",
+            "Emotional support": "Offer compassionately",
+            "Community": "Serve devotedly"
+          }
+        }
+      }
+    },
+    "house-magic": {
+      "name": "House of Wind Magic",
+      "aliases": ["Sentient Magic", "Living Enchantment"],
+      "appearances": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 82],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The magical consciousness of the House of Wind that responds to emotion and need.",
+          "role": "Magical consciousness, Emotional responder",
+          "relationships": {
+            "Emotions": "Responds to sensitively",
+            "Needs": "Anticipates and meets",
+            "Inhabitants": "Cares for lovingly"
+          }
+        }
+      }
+    },
+    "valkyrie-spirits": {
+      "name": "Ancient Valkyrie Spirits",
+      "aliases": ["Warrior Ancestors", "Battle Maidens"],
+      "appearances": [35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Spirits of ancient Valkyrie warriors who inspire and guide the modern resurrection.",
+          "role": "Ancient inspirers, Warrior guides",
+          "relationships": {
+            "Modern Valkyries": "Inspire and guide",
+            "Ancient wisdom": "Share through connection",
+            "Battle heritage": "Pass on proudly"
+          }
+        }
+      }
+    },
+    "trauma-survivors": {
+      "name": "General Trauma Survivors",
+      "aliases": ["Healing Seekers", "Recovery Workers"],
+      "appearances": [15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Various individuals working through trauma who find hope and healing through community.",
+          "role": "Hope seekers, Community healers",
+          "relationships": {
+            "Hope": "Seek actively",
+            "Community": "Find healing in",
+            "Recovery": "Work toward together"
+          }
+        }
+      }
+    },
+    "inner-circle-extended": {
+      "name": "Inner Circle Extended Family",
+      "aliases": ["Chosen Family", "Support Network"],
+      "appearances": [15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Extended network of friends and allies who form the broader chosen family structure.",
+          "role": "Extended family, Support providers",
+          "relationships": {
+            "Chosen family": "Form broader network",
+            "Support": "Provide consistently",
+            "Love": "Share unconditionally"
+          }
+        }
+      }
+    },
+    "court-seamstresses": {
+      "name": "Night Court Seamstresses",
+      "aliases": ["Clothing Makers", "Fashion Artists"],
+      "appearances": [8, 15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Skilled seamstresses who create beautiful clothing that helps people feel confident.",
+          "role": "Confidence builders, Beauty creators",
+          "relationships": {
+            "Beautiful clothing": "Create with skill",
+            "Confidence": "Build through craft",
+            "People": "Serve with pride"
+          }
+        }
+      }
+    },
+    "court-musicians": {
+      "name": "Night Court Musicians",
+      "aliases": ["Song Makers", "Melody Weavers"],
+      "appearances": [15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Talented musicians who provide soundtrack to healing and celebration alike.",
+          "role": "Healing soundtrackers, Joy creators",
+          "relationships": {
+            "Healing": "Provide musical backdrop",
+            "Celebration": "Create joyful atmosphere",
+            "Music": "Use for emotional support"
+          }
+        }
+      }
+    },
+    "training-assistants": {
+      "name": "Training Assistants",
+      "aliases": ["Combat Helpers", "Skill Supporters"],
+      "appearances": [25, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Various individuals who help with Valkyrie training, providing support and expertise.",
+          "role": "Training supporters, Skill sharers",
+          "relationships": {
+            "Training": "Support enthusiastically",
+            "Skills": "Share generously",
+            "Valkyries": "Help develop"
+          }
+        }
+      }
+    },
+    "nesta-father": {
+      "name": "Papa Archeron",
+      "aliases": ["Father Archeron", "Failed Provider"],
+      "appearances": [15, 35, 55, 75],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Deceased father whose failure to protect his family continues to influence Nesta's trauma and guilt.",
+          "role": "Failed protector, Guilt source",
+          "relationships": {
+            "Nesta": "Source of guilt for",
+            "Family protection": "Failed to provide",
+            "Memory": "Haunts daughters"
+          }
+        }
+      }
+    },
+    "archeron-mother": {
+      "name": "Mama Archeron",
+      "aliases": ["Mother Archeron", "Social Climber"],
+      "appearances": [15, 35, 55, 75],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Deceased mother whose social expectations and pressure shaped Nesta's defensive personality.",
+          "role": "Expectation setter, Pressure creator",
+          "relationships": {
+            "Nesta": "Shaped personality of",
+            "Social expectations": "Imposed heavily",
+            "Pressure": "Created constantly"
+          }
+        }
+      }
+    },
+    "shadowsinger-spies": {
+      "name": "Azriel's Spy Network",
+      "aliases": ["Shadow Agents", "Information Network"],
+      "appearances": [12, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Network of spies and informants who work under Azriel to gather intelligence and maintain security.",
+          "role": "Intelligence network, Security maintainers",
+          "relationships": {
+            "Azriel": "Report to and serve",
+            "Intelligence": "Gather systematically",
+            "Security": "Maintain through information"
+          }
+        }
+      }
+    },
+    "windhaven-blacksmiths": {
+      "name": "Windhaven Blacksmiths",
+      "aliases": ["Weapon Makers", "Metal Workers"],
+      "appearances": [32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Skilled blacksmiths who forge weapons and tools, some beginning to accept female customers.",
+          "role": "Weapon forgers, Slow adapters",
+          "relationships": {
+            "Weapons": "Forge with skill",
+            "Female customers": "Slowly accept",
+            "Change": "Adapt gradually to"
+          }
+        }
+      }
+    },
+    "windhaven-elders": {
+      "name": "Windhaven Elders",
+      "aliases": ["Camp Elders", "Traditional Keepers"],
+      "appearances": [32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Elderly Illyrians who hold traditional knowledge but resist changes to their culture.",
+          "role": "Knowledge holders, Change resisters",
+          "relationships": {
+            "Traditional knowledge": "Hold carefully",
+            "Cultural change": "Resist strongly",
+            "Younger generation": "Conflict with"
+          }
+        }
+      }
+    },
+    "priestess-healers": {
+      "name": "Priestess Healers",
+      "aliases": ["Library Healers", "Trauma Healers"],
+      "appearances": [15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Priestesses who specialize in healing trauma survivors both physically and emotionally.",
+          "role": "Trauma healers, Emotional supporters",
+          "relationships": {
+            "Trauma survivors": "Heal with compassion",
+            "Emotional support": "Provide expertly",
+            "Healing": "Facilitate holistically"
+          }
+        }
+      }
+    },
+    "priestess-librarians": {
+      "name": "Priestess Librarians",
+      "aliases": ["Book Keepers", "Knowledge Guardians"],
+      "appearances": [15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Priestesses who maintain the vast library and help others find knowledge and comfort in books.",
+          "role": "Knowledge maintainers, Comfort providers",
+          "relationships": {
+            "Library": "Maintain carefully",
+            "Knowledge": "Guard and share",
+            "Comfort": "Provide through books"
+          }
+        }
+      }
+    },
+    "kitchen-priestesses": {
+      "name": "Kitchen Priestesses",
+      "aliases": ["Food Preparers", "Nourishment Providers"],
+      "appearances": [15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Priestesses who prepare food and meals, understanding that nourishment aids healing.",
+          "role": "Nourishment providers, Healing supporters",
+          "relationships": {
+            "Food": "Prepare with love",
+            "Nourishment": "Provide for healing",
+            "Care": "Show through cooking"
+          }
+        }
+      }
+    },
+    "garden-priestesses": {
+      "name": "Garden Priestesses",
+      "aliases": ["Plant Tenders", "Growth Nurturers"],
+      "appearances": [15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Priestesses who tend gardens and use nature as part of the healing process.",
+          "role": "Nature tenders, Healing facilitators",
+          "relationships": {
+            "Gardens": "Tend with care",
+            "Nature": "Use for healing",
+            "Growth": "Nurture symbolically"
+          }
+        }
+      }
+    },
+    "music-priestesses": {
+      "name": "Music Priestesses",
+      "aliases": ["Song Healers", "Melody Makers"],
+      "appearances": [15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Priestesses who use music and song as therapeutic tools for trauma recovery.",
+          "role": "Music therapists, Sound healers",
+          "relationships": {
+            "Music": "Use for healing",
+            "Songs": "Create for comfort",
+            "Therapy": "Provide through sound"
+          }
+        }
+      }
+    },
+    "warrior-priestesses": {
+      "name": "Warrior Priestesses",
+      "aliases": ["Fighter Healers", "Combat Survivors"],
+      "appearances": [25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Priestesses with combat experience who understand both fighting and healing.",
+          "role": "Combat healers, Warrior guides",
+          "relationships": {
+            "Combat experience": "Draw from for teaching",
+            "Healing": "Combine with fighting",
+            "Warriors": "Guide with understanding"
+          }
+        }
+      }
+    },
+    "night-court-cooks": {
+      "name": "Night Court Cooks",
+      "aliases": ["Palace Chefs", "Meal Makers"],
+      "appearances": [8, 15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Skilled cooks who prepare meals that provide comfort and nourishment to court members.",
+          "role": "Comfort providers, Nourishment makers",
+          "relationships": {
+            "Meals": "Prepare with care",
+            "Comfort": "Provide through food",
+            "Court members": "Nourish lovingly"
+          }
+        }
+      }
+    },
+    "night-court-gardeners": {
+      "name": "Night Court Gardeners",
+      "aliases": ["Palace Gardeners", "Beauty Growers"],
+      "appearances": [8, 15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Gardeners who maintain beautiful spaces that provide peace and tranquility.",
+          "role": "Beauty maintainers, Peace providers",
+          "relationships": {
+            "Beautiful spaces": "Create and maintain",
+            "Peace": "Provide through nature",
+            "Tranquility": "Foster in gardens"
+          }
+        }
+      }
+    },
+    "night-court-cleaners": {
+      "name": "Night Court Cleaners",
+      "aliases": ["Palace Cleaners", "Space Maintainers"],
+      "appearances": [8, 15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Dedicated cleaners who maintain spaces and create environments conducive to healing.",
+          "role": "Space maintainers, Environment creators",
+          "relationships": {
+            "Clean spaces": "Maintain carefully",
+            "Healing environments": "Create through care",
+            "Order": "Bring to chaos"
+          }
+        }
+      }
+    },
+    "night-court-washerwomen": {
+      "name": "Night Court Washerwomen",
+      "aliases": ["Laundry Workers", "Cloth Cleaners"],
+      "appearances": [8, 15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Workers who clean and care for clothing and linens, providing fresh comfort.",
+          "role": "Comfort providers, Cleanliness maintainers",
+          "relationships": {
+            "Fresh linens": "Provide consistently",
+            "Comfort": "Create through cleanliness",
+            "Care": "Show in attention to detail"
+          }
+        }
+      }
+    },
+    "emerie-customers": {
+      "name": "Emerie's Customers",
+      "aliases": ["Shop Patrons", "Wind Haven Buyers"],
+      "appearances": [20, 25, 32, 35, 40, 45, 55, 65, 75],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Local customers who shop at Emerie's store and gradually come to respect her strength.",
+          "role": "Local supporters, Respect growers",
+          "relationships": {
+            "Emerie": "Gradually respect more",
+            "Shop": "Support through patronage",
+            "Change": "Witness and accept slowly"
+          }
+        }
+      }
+    },
+    "windhaven-children": {
+      "name": "Windhaven Children",
+      "aliases": ["Camp Youth", "Future Generation"],
+      "appearances": [32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Young Illyrians who represent hope for change and equality in the next generation.",
+          "role": "Hope bearers, Change representatives",
+          "relationships": {
+            "Hope": "Represent for future",
+            "Change": "Embody possibility of",
+            "Equality": "May achieve in future"
+          }
+        }
+      }
+    },
+    "court-musicians-extended": {
+      "name": "Extended Court Musicians",
+      "aliases": ["Traveling Musicians", "Celebration Players"],
+      "appearances": [15, 25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Musicians from various courts who come together to provide healing and celebratory music.",
+          "role": "Healing musicians, Joy creators",
+          "relationships": {
+            "Healing music": "Provide collaboratively",
+            "Celebrations": "Create joy for",
+            "Courts": "Bridge through music"
+          }
+        }
+      }
+    },
+    "ancient-warriors": {
+      "name": "Ancient Warriors",
+      "aliases": ["Legendary Fighters", "Historical Heroes"],
+      "appearances": [35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Legendary warriors from history whose stories inspire modern fighters and healers.",
+          "role": "Legendary inspirers, Story sources",
+          "relationships": {
+            "Modern warriors": "Inspire through legend",
+            "Stories": "Live on in",
+            "Inspiration": "Provide across time"
+          }
+        }
+      }
+    },
+    "magical-creatures": {
+      "name": "Magical Creatures",
+      "aliases": ["Enchanted Beings", "Magic Touched"],
+      "appearances": [35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Various magical creatures who are affected by and respond to the changes in magical balance.",
+          "role": "Magic responders, Balance indicators",
+          "relationships": {
+            "Magical balance": "Respond to changes in",
+            "Magic users": "Interact with cautiously",
+            "Natural world": "Connect to deeply"
+          }
+        }
+      }
+    },
+    "memory-keepers": {
+      "name": "Memory Keepers",
+      "aliases": ["Story Guardians", "History Preservers"],
+      "appearances": [25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Individuals who preserve important memories and stories for future generations.",
+          "role": "Memory preservers, Story guardians",
+          "relationships": {
+            "Important memories": "Preserve carefully",
+            "Future generations": "Pass stories to",
+            "History": "Guard against forgetting"
+          }
+        }
+      }
+    },
+    "healing-circles": {
+      "name": "Healing Circles",
+      "aliases": ["Support Groups", "Recovery Communities"],
+      "appearances": [25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Groups of trauma survivors who support each other through shared experience and understanding.",
+          "role": "Mutual supporters, Shared healers",
+          "relationships": {
+            "Trauma survivors": "Support mutually",
+            "Shared experience": "Bond through",
+            "Understanding": "Provide through similarity"
+          }
+        }
+      }
+    },
+    "dream-walkers": {
+      "name": "Dream Walkers",
+      "aliases": ["Sleep Healers", "Nightmare Fighters"],
+      "appearances": [45, 55, 65, 75, 82],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Mysterious beings who help heal trauma through dream work and nightmare resolution.",
+          "role": "Dream healers, Nightmare resolvers",
+          "relationships": {
+            "Dreams": "Work through for healing",
+            "Nightmares": "Help resolve and overcome",
+            "Sleep": "Make peaceful and restorative"
+          }
+        }
+      }
+    },
+    "power-teachers": {
+      "name": "Power Teachers",
+      "aliases": ["Magic Instructors", "Ability Guides"],
+      "appearances": [25, 35, 45, 55, 65, 75, 82],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Experienced magic users who help others learn to control and understand their abilities.",
+          "role": "Magic instructors, Control teachers",
+          "relationships": {
+            "New magic users": "Guide patiently",
+            "Power control": "Teach carefully",
+            "Understanding": "Build through instruction"
+          }
+        }
+      }
+    },
+    "balance-keepers": {
+      "name": "Balance Keepers",
+      "aliases": ["Equilibrium Guardians", "Harmony Maintainers"],
+      "appearances": [55, 65, 75, 82],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "Mysterious beings who work to maintain balance between different magical forces and powers.",
+          "role": "Balance maintainers, Equilibrium guardians",
+          "relationships": {
+            "Magical forces": "Balance carefully",
+            "Power equilibrium": "Maintain constantly",
+            "Harmony": "Work to preserve"
+          }
+        }
+      }
     }
   },
   "recaps": {
