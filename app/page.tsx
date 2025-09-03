@@ -1,8 +1,18 @@
 import { getAllSeries } from '@/lib/dataLoader';
-import Bookshelf from '@/components/Bookshelf';
+import dynamic from 'next/dynamic';
 import SearchBar from '@/components/SearchBar';
 import StructuredData from '@/components/StructuredData';
 import type { Metadata } from 'next';
+
+// Lazy load the bookshelf component
+const LazyBookshelf = dynamic(() => import('@/components/LazyBookshelf'), {
+  loading: () => (
+    <div className="flex justify-center items-center min-h-[400px]">
+      <div className="text-amber-100 animate-pulse">Loading library...</div>
+    </div>
+  ),
+  ssr: true
+});
 
 export const metadata: Metadata = {
   title: 'Track Book Characters Without Spoilers - Fantasy & Sci-Fi Series',
@@ -42,7 +52,7 @@ export default async function HomePage() {
 
       {/* Bookshelf */}
       {allSeries.length > 0 ? (
-        <Bookshelf series={allSeries} />
+        <LazyBookshelf initialSeries={allSeries} />
       ) : (
         <div className="text-center py-16">
           <div className="parchment-panel max-w-md mx-auto p-8">
