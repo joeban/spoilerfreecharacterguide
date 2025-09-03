@@ -643,6 +643,737 @@
           }
         }
       }
+    },
+    "councilor-yale": {
+      "name": "Councilor Yale",
+      "aliases": ["Foundation Legislature Member"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Foundation councilor who participates in the political debates surrounding Trevize's controversial questions about the Second Foundation.",
+          "role": "Foundation political representative",
+          "relationships": {
+            "serves on": "Foundation Council",
+            "debates with": "Golan Trevize",
+            "represents": "Foundation interests"
+          }
+        }
+      }
+    },
+    "minister-cross": {
+      "name": "Minister Cross",
+      "aliases": ["Foundation Administrator"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A government minister who advises Mayor Branno on policy matters and helps coordinate government responses to the Second Foundation crisis.",
+          "role": "Government policy advisor",
+          "relationships": {
+            "advises": "Mayor Branno",
+            "coordinates": "government policy",
+            "manages": "administrative affairs"
+          }
+        }
+      }
+    },
+    "general-flynn": {
+      "name": "General Flynn",
+      "aliases": ["Foundation Military Commander"],
+      "appearances": [2, 3, 4, 5, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Foundation military general who oversees defense preparations and coordinates with civilian leadership during the crisis.",
+          "role": "Military operations commander",
+          "relationships": {
+            "commands": "Foundation military",
+            "coordinates with": "civilian leadership",
+            "oversees": "defense preparations"
+          }
+        }
+      }
+    },
+    "admiral-kent": {
+      "name": "Admiral Kent",
+      "aliases": ["Foundation Fleet Commander"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Foundation admiral who manages naval operations and fleet deployment during the ongoing galactic tensions.",
+          "role": "Naval operations commander",
+          "relationships": {
+            "commands": "Foundation fleet",
+            "manages": "naval operations",
+            "coordinates": "fleet deployment"
+          }
+        }
+      }
+    },
+    "professor-dean": {
+      "name": "Professor Dean",
+      "aliases": ["Foundation Academic"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Foundation academic who studies galactic history and provides scholarly perspective on the Second Foundation question.",
+          "role": "Academic historian",
+          "relationships": {
+            "studies": "galactic history",
+            "provides": "scholarly analysis",
+            "researches": "Foundation origins"
+          }
+        }
+      }
+    },
+    "doctor-mills": {
+      "name": "Doctor Mills",
+      "aliases": ["Foundation Physician"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Foundation doctor who provides medical services and studies the psychological effects of the ongoing crisis on the population.",
+          "role": "Medical and psychological specialist",
+          "relationships": {
+            "provides": "medical services",
+            "studies": "psychological effects",
+            "treats": "crisis-related stress"
+          }
+        }
+      }
+    },
+    "speaker-wells": {
+      "name": "Speaker Wells",
+      "aliases": ["Second Foundation Analyst"],
+      "appearances": [3, 4, 5, 6, 19, 20, 21],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Second Foundation Speaker who specializes in analyzing galactic political trends and their implications for psychohistory.",
+          "role": "Political trend analyst",
+          "relationships": {
+            "analyzes": "political trends",
+            "specializes in": "galactic politics",
+            "serves": "Second Foundation"
+          }
+        }
+      }
+    },
+    "student-ross": {
+      "name": "Student Ross",
+      "aliases": ["Mental Science Learner"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Second Foundation student learning advanced mental sciences and participating in the organization's educational programs.",
+          "role": "Advanced student",
+          "relationships": {
+            "studies": "mental sciences",
+            "learns from": "Second Foundation Speakers",
+            "practices": "psychological techniques"
+          }
+        }
+      }
+    },
+    "adept-gray": {
+      "name": "Adept Gray",
+      "aliases": ["Psychic Specialist"],
+      "appearances": [4, 5, 6, 20, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Second Foundation adept who has advanced beyond student level and assists in complex mental operations.",
+          "role": "Advanced psychic practitioner",
+          "relationships": {
+            "assists in": "mental operations",
+            "advanced beyond": "student level",
+            "specializes in": "complex techniques"
+          }
+        }
+      }
+    },
+    "gaian-farmer": {
+      "name": "Gaian Farmer",
+      "aliases": ["Agricultural Consciousness"],
+      "appearances": [11, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Gaian individuals who work in agriculture while maintaining their connection to the planetary consciousness.",
+          "role": "Agricultural collective member",
+          "relationships": {
+            "works in": "Gaian agriculture",
+            "connected to": "planetary consciousness",
+            "maintains": "ecological balance"
+          }
+        }
+      }
+    },
+    "gaian-artist": {
+      "name": "Gaian Artist",
+      "aliases": ["Creative Consciousness"],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Gaian individuals who express creativity and art while being part of the collective consciousness.",
+          "role": "Artistic collective member",
+          "relationships": {
+            "creates": "collective art",
+            "expresses": "shared creativity",
+            "part of": "Gaia consciousness"
+          }
+        }
+      }
+    },
+    "gaian-scientist": {
+      "name": "Gaian Scientist",
+      "aliases": ["Research Consciousness"],
+      "appearances": [17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Gaian individuals who conduct scientific research as part of the collective consciousness's pursuit of knowledge.",
+          "role": "Scientific collective member",
+          "relationships": {
+            "conducts": "collective research",
+            "pursues": "shared knowledge",
+            "contributes to": "Gaia understanding"
+          }
+        }
+      }
+    },
+    "gaian-child": {
+      "name": "Gaian Child",
+      "aliases": ["Young Consciousness"],
+      "appearances": [16, 17, 18, 19, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Young Gaians who are naturally integrated into the planetary consciousness from birth.",
+          "role": "Developing collective member",
+          "relationships": {
+            "born into": "collective consciousness",
+            "develops within": "Gaia community",
+            "naturally integrated": "from birth"
+          }
+        }
+      }
+    },
+    "sayshell-official": {
+      "name": "Sayshell Official",
+      "aliases": ["Planetary Administrator"],
+      "appearances": [18, 19, 20],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Government officials on Sayshell who deal with the investigation team and manage planetary affairs.",
+          "role": "Planetary government representative",
+          "relationships": {
+            "manages": "planetary affairs",
+            "deals with": "investigation team",
+            "represents": "Sayshell interests"
+          }
+        }
+      }
+    },
+    "sayshell-citizen": {
+      "name": "Sayshell Citizen",
+      "aliases": ["Planetary Native"],
+      "appearances": [18, 19, 20],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Citizens of Sayshell who represent the civilian population and their interactions with visitors.",
+          "role": "Planetary civilian",
+          "relationships": {
+            "lives on": "Sayshell",
+            "represents": "civilian population",
+            "interacts with": "visitors"
+          }
+        }
+      }
+    },
+    "imperial-remnant": {
+      "name": "Imperial Remnant",
+      "aliases": ["Former Empire Official"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Former officials and personnel from the old Galactic Empire who maintain some influence in remote sectors.",
+          "role": "Former imperial official",
+          "relationships": {
+            "formerly served": "Galactic Empire",
+            "maintains": "remote influence",
+            "preserves": "imperial traditions"
+          }
+        }
+      }
+    },
+    "ship-engineer": {
+      "name": "Ship Engineer",
+      "aliases": ["Technical Specialist"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Engineers aboard various spacecraft who maintain ship systems and provide technical support during the journey.",
+          "role": "Spacecraft maintenance specialist",
+          "relationships": {
+            "maintains": "ship systems",
+            "provides": "technical support",
+            "ensures": "spacecraft operation"
+          }
+        }
+      }
+    },
+    "navigator": {
+      "name": "Ship Navigator",
+      "aliases": ["Course Plotter"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Navigation specialists who plot courses and manage stellar cartography for interstellar travel.",
+          "role": "Stellar navigation specialist",
+          "relationships": {
+            "plots": "interstellar courses",
+            "manages": "stellar cartography",
+            "navigates": "hyperspace routes"
+          }
+        }
+      }
+    },
+    "communications-tech": {
+      "name": "Communications Technician",
+      "aliases": ["Signal Operator"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Communications technicians who manage interstellar communications and coordinate information exchange.",
+          "role": "Communications management specialist",
+          "relationships": {
+            "manages": "interstellar communications",
+            "coordinates": "information exchange",
+            "operates": "communication systems"
+          }
+        }
+      }
+    },
+    "medical-tech": {
+      "name": "Medical Technician",
+      "aliases": ["Health Specialist"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Medical technicians who provide healthcare services and monitor the health of travelers during extended journeys.",
+          "role": "Healthcare services specialist",
+          "relationships": {
+            "provides": "healthcare services",
+            "monitors": "traveler health",
+            "maintains": "medical equipment"
+          }
+        }
+      }
+    },
+    "security-guard": {
+      "name": "Security Guard",
+      "aliases": ["Protection Specialist"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Security personnel who protect facilities and individuals during the investigation and ensure safety protocols.",
+          "role": "Security protection specialist",
+          "relationships": {
+            "protects": "facilities and personnel",
+            "ensures": "safety protocols",
+            "maintains": "security measures"
+          }
+        }
+      }
+    },
+    "maintenance-worker": {
+      "name": "Maintenance Worker",
+      "aliases": ["Systems Technician"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Maintenance workers who keep facilities and equipment operational during the extended investigation period.",
+          "role": "Systems maintenance specialist",
+          "relationships": {
+            "maintains": "facilities and equipment",
+            "ensures": "operational readiness",
+            "repairs": "system malfunctions"
+          }
+        }
+      }
+    },
+    "data-analyst": {
+      "name": "Data Analyst",
+      "aliases": ["Information Processor"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Data analysts who process information and identify patterns relevant to the ongoing investigation and research.",
+          "role": "Information analysis specialist",
+          "relationships": {
+            "processes": "investigation data",
+            "identifies": "relevant patterns",
+            "supports": "research efforts"
+          }
+        }
+      }
+    },
+    "supply-officer": {
+      "name": "Supply Officer",
+      "aliases": ["Resource Manager"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Supply officers who manage resources and logistics for the extended investigation and travel operations.",
+          "role": "Resource management specialist",
+          "relationships": {
+            "manages": "investigation resources",
+            "coordinates": "supply operations",
+            "ensures": "resource availability"
+          }
+        }
+      }
+    },
+    "research-assistant": {
+      "name": "Research Assistant",
+      "aliases": ["Study Helper"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Research assistants who support the investigation team's scholarly work and data collection efforts.",
+          "role": "Research support specialist",
+          "relationships": {
+            "supports": "research team",
+            "assists in": "data collection",
+            "helps with": "scholarly work"
+          }
+        }
+      }
+    },
+    "cultural-expert": {
+      "name": "Cultural Expert",
+      "aliases": ["Anthropological Specialist"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Cultural experts who help the team understand and navigate different planetary cultures and customs.",
+          "role": "Cultural navigation specialist",
+          "relationships": {
+            "interprets": "local cultures",
+            "advises on": "cultural customs",
+            "facilitates": "cultural understanding"
+          }
+        }
+      }
+    },
+    "diplomatic-aide": {
+      "name": "Diplomatic Aide",
+      "aliases": ["Relations Specialist"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Diplomatic aides who assist in managing relationships with various planetary governments and organizations.",
+          "role": "Diplomatic relations specialist",
+          "relationships": {
+            "manages": "diplomatic relations",
+            "assists in": "negotiations",
+            "coordinates": "inter-planetary contacts"
+          }
+        }
+      }
+    },
+    "transportation-coord": {
+      "name": "Transportation Coordinator",
+      "aliases": ["Travel Manager"],
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Transportation coordinators who organize travel logistics and manage movement between different worlds.",
+          "role": "Travel logistics specialist",
+          "relationships": {
+            "organizes": "travel logistics",
+            "manages": "inter-world movement",
+            "coordinates": "transportation resources"
+          }
+        }
+      }
+    },
+    "information-broker": {
+      "name": "Information Broker",
+      "aliases": ["Intelligence Trader"],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Information brokers who trade in knowledge and intelligence, providing valuable data to the investigation team.",
+          "role": "Intelligence commerce specialist",
+          "relationships": {
+            "trades in": "intelligence and knowledge",
+            "provides": "valuable information",
+            "operates": "information networks"
+          }
+        }
+      }
+    },
+    "local-guide": {
+      "name": "Local Guide",
+      "aliases": ["Planetary Navigator"],
+      "appearances": [17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Local guides on various worlds who help visitors navigate planetary geography and understand local conditions.",
+          "role": "Planetary guidance specialist",
+          "relationships": {
+            "guides": "visitors",
+            "navigates": "planetary geography",
+            "explains": "local conditions"
+          }
+        }
+      }
+    },
+    "equipment-specialist": {
+      "name": "Equipment Specialist",
+      "aliases": ["Technical Advisor"],
+      "appearances": [18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Equipment specialists who manage and maintain the sophisticated technology used in the investigation.",
+          "role": "Technical equipment specialist",
+          "relationships": {
+            "manages": "sophisticated technology",
+            "maintains": "investigation equipment",
+            "provides": "technical expertise"
+          }
+        }
+      }
+    },
+    "protocol-officer": {
+      "name": "Protocol Officer",
+      "aliases": ["Procedure Specialist"],
+      "appearances": [19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Protocol officers who ensure proper procedures are followed and diplomatic protocols are observed.",
+          "role": "Procedural compliance specialist",
+          "relationships": {
+            "ensures": "proper procedures",
+            "observes": "diplomatic protocols",
+            "maintains": "official standards"
+          }
+        }
+      }
+    },
+    "linguist": {
+      "name": "Language Specialist",
+      "aliases": ["Translation Expert"],
+      "appearances": [20, 21, 22, 23, 24],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Language specialists who handle translation and communication across different planetary languages and dialects.",
+          "role": "Linguistic communication specialist",
+          "relationships": {
+            "handles": "translation services",
+            "communicates across": "planetary languages",
+            "interprets": "linguistic variations"
+          }
+        }
+      }
+    },
+    "archivist": {
+      "name": "Historical Archivist",
+      "aliases": ["Record Keeper"],
+      "appearances": [21, 22, 23, 24],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Archivists who maintain comprehensive records of the investigation and preserve important historical information.",
+          "role": "Historical documentation specialist",
+          "relationships": {
+            "maintains": "investigation records",
+            "preserves": "historical information",
+            "organizes": "archival materials"
+          }
+        }
+      }
+    },
+    "systems-operator": {
+      "name": "Systems Operator",
+      "aliases": ["Control Specialist"],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Systems operators who manage complex technological systems and ensure optimal performance of all equipment.",
+          "role": "Systems management specialist",
+          "relationships": {
+            "manages": "technological systems",
+            "ensures": "optimal performance",
+            "operates": "complex equipment"
+          }
+        }
+      }
+    },
+    "field-agent": {
+      "name": "Field Agent",
+      "aliases": ["Operations Specialist"],
+      "appearances": [23, 24],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Field agents who conduct on-site operations and gather intelligence in potentially dangerous or sensitive situations.",
+          "role": "Field operations specialist",
+          "relationships": {
+            "conducts": "on-site operations",
+            "gathers": "field intelligence",
+            "operates in": "sensitive situations"
+          }
+        }
+      }
+    },
+    "mission-coordinator": {
+      "name": "Mission Coordinator",
+      "aliases": ["Operations Director"],
+      "appearances": [24],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Mission coordinators who oversee the final phases of the investigation and ensure mission objectives are achieved.",
+          "role": "Mission oversight specialist",
+          "relationships": {
+            "oversees": "mission phases",
+            "ensures": "objective achievement",
+            "coordinates": "final operations"
+          }
+        }
+      }
+    },
+    "psychohistorian": {
+      "name": "Foundation Psychohistorian",
+      "aliases": ["Mathematical Sociologist"],
+      "appearances": [1, 2, 3, 4, 5, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Foundation scientists who study psychohistory and analyze the mathematical patterns that govern galactic civilization.",
+          "role": "Psychohistorical analyst",
+          "relationships": {
+            "studies": "psychohistorical patterns",
+            "analyzes": "galactic trends",
+            "serves": "Foundation science division"
+          }
+        }
+      }
+    },
+    "economic-advisor": {
+      "name": "Economic Advisor",
+      "aliases": ["Trade Specialist"],
+      "appearances": [2, 3, 4, 5, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Economic specialists who advise on trade policy and analyze galactic commerce patterns for the Foundation government.",
+          "role": "Economic policy specialist",
+          "relationships": {
+            "advises on": "trade policy",
+            "analyzes": "commerce patterns",
+            "serves": "Foundation government"
+          }
+        }
+      }
+    },
+    "intelligence-chief": {
+      "name": "Intelligence Chief",
+      "aliases": ["Spy Master"],
+      "appearances": [3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The head of Foundation intelligence services who coordinates espionage and information gathering operations.",
+          "role": "Intelligence operations director",
+          "relationships": {
+            "heads": "intelligence services",
+            "coordinates": "espionage operations",
+            "reports to": "Mayor Branno"
+          }
+        }
+      }
+    },
+    "diplomatic-corps": {
+      "name": "Diplomatic Corps Officer",
+      "aliases": ["Foreign Relations Specialist"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Professional diplomats who manage the Foundation's relationships with other galactic powers and handle international affairs.",
+          "role": "Diplomatic relations specialist",
+          "relationships": {
+            "manages": "international relations",
+            "negotiates with": "galactic powers",
+            "serves": "diplomatic corps"
+          }
+        }
+      }
+    },
+    "planetary-governor": {
+      "name": "Planetary Governor",
+      "aliases": ["World Administrator"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Governors of Foundation worlds who administer planetary affairs and coordinate with the central government on Terminus.",
+          "role": "Planetary administration specialist",
+          "relationships": {
+            "administers": "Foundation worlds",
+            "coordinates with": "central government",
+            "manages": "local affairs"
+          }
+        }
+      }
+    },
+    "strategic-planner": {
+      "name": "Strategic Planner",
+      "aliases": ["Policy Architect"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Strategic planning specialists who develop long-term policies and coordinate the Foundation's overall direction and goals.",
+          "role": "Strategic development specialist",
+          "relationships": {
+            "develops": "long-term policies",
+            "coordinates": "Foundation direction",
+            "plans": "strategic initiatives"
+          }
+        }
+      }
     }
   },
   "recaps": {

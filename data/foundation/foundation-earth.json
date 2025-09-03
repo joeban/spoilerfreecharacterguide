@@ -514,6 +514,822 @@
           }
         }
       }
+    },
+    "comporian-minister": {
+      "name": "Comporian Minister",
+      "aliases": ["Government Official"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "High-ranking government ministers on Comporellon who maintain their world's policies and guard ancient secrets about Earth.",
+          "role": "Planetary government minister",
+          "relationships": {
+            "governs": "Comporellon affairs",
+            "guards": "Earth secrets",
+            "maintains": "planetary policies"
+          }
+        }
+      }
+    },
+    "comporian-guard": {
+      "name": "Comporian Security Guard",
+      "aliases": ["Planetary Protector"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Security personnel on Comporellon who protect government facilities and maintain order according to their world's strict customs.",
+          "role": "Planetary security officer",
+          "relationships": {
+            "protects": "government facilities",
+            "enforces": "planetary customs",
+            "maintains": "civil order"
+          }
+        }
+      }
+    },
+    "comporian-scholar": {
+      "name": "Comporian Scholar",
+      "aliases": ["Academic Researcher"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Scholars and academics on Comporellon who study their world's history and maintain knowledge of Earth's legacy.",
+          "role": "Academic historian",
+          "relationships": {
+            "studies": "planetary history",
+            "maintains": "Earth knowledge",
+            "researches": "ancient records"
+          }
+        }
+      }
+    },
+    "solarian-guardian": {
+      "name": "Solarian Guardian",
+      "aliases": ["Estate Protector"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Robotic or automated guardians that protect Solarian estates and enforce the extreme isolation practiced by Solarian society.",
+          "role": "Estate security system",
+          "relationships": {
+            "protects": "Solarian estates",
+            "enforces": "isolation protocols",
+            "serves": "Solarian masters"
+          }
+        }
+      }
+    },
+    "auroran-scientist": {
+      "name": "Auroran Scientist",
+      "aliases": ["Spacer Researcher"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Scientific researchers on Aurora who study the legacy of Spacer civilization and maintain their world's technological heritage.",
+          "role": "Scientific researcher",
+          "relationships": {
+            "studies": "Spacer civilization",
+            "maintains": "technological heritage",
+            "researches": "robotic systems"
+          }
+        }
+      }
+    },
+    "auroran-administrator": {
+      "name": "Auroran Administrator",
+      "aliases": ["Spacer Manager"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Administrative personnel on Aurora who manage the remaining functions of Spacer society and coordinate with visitors.",
+          "role": "Administrative coordinator",
+          "relationships": {
+            "manages": "Spacer society functions",
+            "coordinates with": "visitors",
+            "maintains": "social order"
+          }
+        }
+      }
+    },
+    "gladia-companion": {
+      "name": "Gladia's Companion",
+      "aliases": ["Personal Assistant"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Companions and assistants who help Gladia in her daily life and provide support during her interactions with visitors.",
+          "role": "Personal support specialist",
+          "relationships": {
+            "assists": "Gladia",
+            "provides": "daily support",
+            "facilitates": "social interactions"
+          }
+        }
+      }
+    },
+    "pack-beta": {
+      "name": "Beta Wolf",
+      "aliases": ["Second Pack Leader"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The second-in-command of Alpha's intelligent wolf pack, demonstrating the complex social hierarchy of evolved wolves.",
+          "role": "Pack second-in-command",
+          "relationships": {
+            "second to": "Alpha",
+            "leads": "pack units",
+            "coordinates": "pack activities"
+          }
+        }
+      }
+    },
+    "pack-gamma": {
+      "name": "Gamma Wolf",
+      "aliases": ["Pack Specialist"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A specialized member of the intelligent wolf pack with particular skills in hunting and territory management.",
+          "role": "Pack specialist",
+          "relationships": {
+            "serves": "pack hierarchy",
+            "specializes in": "hunting and territory",
+            "supports": "pack survival"
+          }
+        }
+      }
+    },
+    "pack-scout": {
+      "name": "Scout Wolf",
+      "aliases": ["Pack Explorer"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Wolves who serve as scouts and explorers for the pack, investigating new territories and potential threats.",
+          "role": "Pack reconnaissance specialist",
+          "relationships": {
+            "scouts for": "the pack",
+            "explores": "new territories",
+            "reports to": "pack leadership"
+          }
+        }
+      }
+    },
+    "human-symbiont": {
+      "name": "Human Symbiont",
+      "aliases": ["Pack Partner"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Humans who live in symbiotic relationships with the intelligent wolf packs, representing a unique evolutionary partnership.",
+          "role": "Symbiotic partner",
+          "relationships": {
+            "partners with": "wolf pack",
+            "lives in": "symbiotic relationship",
+            "represents": "evolutionary cooperation"
+          }
+        }
+      }
+    },
+    "new-earth-elder": {
+      "name": "New Earth Elder",
+      "aliases": ["Colony Leader"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Elder leaders on New Earth who maintain the colony's connection to Earth traditions and guide their community.",
+          "role": "Community elder",
+          "relationships": {
+            "leads": "New Earth colony",
+            "maintains": "Earth traditions",
+            "guides": "community decisions"
+          }
+        }
+      }
+    },
+    "new-earth-youth": {
+      "name": "New Earth Youth",
+      "aliases": ["Young Colonist"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Young people on New Earth who represent the future of the colony and carry forward Earth's cultural heritage.",
+          "role": "Future generation representative",
+          "relationships": {
+            "represents": "colony's future",
+            "carries forward": "cultural heritage",
+            "learns from": "community elders"
+          }
+        }
+      }
+    },
+    "earth-guardian": {
+      "name": "Earth Guardian",
+      "aliases": ["Planetary Protector"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Guardians who protect Earth and its remaining population, maintaining the planet's secrets and ancient knowledge.",
+          "role": "Planetary protection specialist",
+          "relationships": {
+            "protects": "Earth and its people",
+            "maintains": "ancient secrets",
+            "guards": "planetary knowledge"
+          }
+        }
+      }
+    },
+    "earth-keeper": {
+      "name": "Earth Keeper",
+      "aliases": ["Knowledge Custodian"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Keepers who maintain Earth's ancient knowledge and preserve the historical records of humanity's origin world.",
+          "role": "Knowledge preservation specialist",
+          "relationships": {
+            "maintains": "ancient knowledge",
+            "preserves": "historical records",
+            "custodian of": "human origins"
+          }
+        }
+      }
+    },
+    "robotic-caretaker": {
+      "name": "Robotic Caretaker",
+      "aliases": ["Maintenance Robot"],
+      "appearances": [8, 9, 10, 11, 12, 19, 20, 21],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Robots that continue to function across various worlds, maintaining facilities and providing services according to their programming.",
+          "role": "Automated maintenance specialist",
+          "relationships": {
+            "maintains": "facilities and infrastructure",
+            "provides": "automated services",
+            "follows": "robotic programming"
+          }
+        }
+      }
+    },
+    "transport-operator": {
+      "name": "Transport Operator",
+      "aliases": ["Vehicle Pilot"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Operators of various transportation vehicles who provide mobility services during the search across different worlds.",
+          "role": "Transportation services specialist",
+          "relationships": {
+            "operates": "transportation vehicles",
+            "provides": "mobility services",
+            "facilitates": "inter-world travel"
+          }
+        }
+      }
+    },
+    "service-provider": {
+      "name": "Service Provider",
+      "aliases": ["Local Vendor"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Individuals who provide various services to travelers and visitors, representing the commercial and service sectors of different worlds.",
+          "role": "Commercial services specialist",
+          "relationships": {
+            "provides": "traveler services",
+            "represents": "commercial sector",
+            "facilitates": "visitor needs"
+          }
+        }
+      }
+    },
+    "cultural-preservationist": {
+      "name": "Cultural Preservationist",
+      "aliases": ["Heritage Keeper"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Individuals dedicated to preserving the cultural heritage and traditions of their respective worlds and communities.",
+          "role": "Cultural preservation specialist",
+          "relationships": {
+            "preserves": "cultural heritage",
+            "maintains": "local traditions",
+            "educates": "future generations"
+          }
+        }
+      }
+    },
+    "genetic-engineer": {
+      "name": "Genetic Engineer",
+      "aliases": ["Biological Modifier"],
+      "appearances": [14, 15, 16, 17, 18],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Scientists who work with genetic engineering and biological modification, representing the advanced biological sciences of various worlds.",
+          "role": "Genetic modification specialist",
+          "relationships": {
+            "works with": "genetic engineering",
+            "modifies": "biological systems",
+            "advances": "biological sciences"
+          }
+        }
+      }
+    },
+    "evolutionary-biologist": {
+      "name": "Evolutionary Biologist",
+      "aliases": ["Evolution Researcher"],
+      "appearances": [14, 15, 16, 17, 18],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Scientists who study evolutionary processes and the development of life forms across different planetary environments.",
+          "role": "Evolutionary research specialist",
+          "relationships": {
+            "studies": "evolutionary processes",
+            "researches": "life form development",
+            "analyzes": "planetary environments"
+          }
+        }
+      }
+    },
+    "ecological-manager": {
+      "name": "Ecological Manager",
+      "aliases": ["Environmental Coordinator"],
+      "appearances": [15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Specialists who manage ecological systems and environmental balance on various worlds encountered during the search.",
+          "role": "Environmental management specialist",
+          "relationships": {
+            "manages": "ecological systems",
+            "maintains": "environmental balance",
+            "coordinates": "conservation efforts"
+          }
+        }
+      }
+    },
+    "social-coordinator": {
+      "name": "Social Coordinator",
+      "aliases": ["Community Organizer"],
+      "appearances": [16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Coordinators who manage social interactions and community organization across different planetary societies.",
+          "role": "Social organization specialist",
+          "relationships": {
+            "coordinates": "social interactions",
+            "organizes": "community activities",
+            "manages": "social systems"
+          }
+        }
+      }
+    },
+    "resource-manager": {
+      "name": "Resource Manager",
+      "aliases": ["Supply Coordinator"],
+      "appearances": [17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Managers who coordinate resource allocation and supply distribution for communities and facilities across various worlds.",
+          "role": "Resource coordination specialist",
+          "relationships": {
+            "coordinates": "resource allocation",
+            "manages": "supply distribution",
+            "optimizes": "resource utilization"
+          }
+        }
+      }
+    },
+    "communication-relay": {
+      "name": "Communications Relay",
+      "aliases": ["Signal Coordinator"],
+      "appearances": [18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Specialists who manage communication networks and coordinate information relay between different locations and worlds.",
+          "role": "Communication network specialist",
+          "relationships": {
+            "manages": "communication networks",
+            "coordinates": "information relay",
+            "maintains": "contact systems"
+          }
+        }
+      }
+    },
+    "navigation-expert": {
+      "name": "Navigation Expert",
+      "aliases": ["Course Calculator"],
+      "appearances": [19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Experts in stellar navigation and course calculation who help plan and execute the complex journey to find Earth.",
+          "role": "Stellar navigation specialist",
+          "relationships": {
+            "calculates": "stellar courses",
+            "plans": "navigation routes",
+            "guides": "interstellar travel"
+          }
+        }
+      }
+    },
+    "data-processor": {
+      "name": "Data Processor",
+      "aliases": ["Information Analyst"],
+      "appearances": [20, 21, 22, 23, 24],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Specialists who process and analyze the vast amounts of data collected during the search for Earth and humanity's origins.",
+          "role": "Data analysis specialist",
+          "relationships": {
+            "processes": "collected data",
+            "analyzes": "information patterns",
+            "supports": "research efforts"
+          }
+        }
+      }
+    },
+    "synthesis-coordinator": {
+      "name": "Synthesis Coordinator",
+      "aliases": ["Integration Specialist"],
+      "appearances": [21, 22, 23, 24],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Coordinators who synthesize information from multiple sources and integrate findings into comprehensive understanding.",
+          "role": "Information synthesis specialist",
+          "relationships": {
+            "synthesizes": "multiple information sources",
+            "integrates": "research findings",
+            "coordinates": "comprehensive analysis"
+          }
+        }
+      }
+    },
+    "revelation-witness": {
+      "name": "Revelation Witness",
+      "aliases": ["Truth Observer"],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Witnesses to the great revelations about humanity's true history and the hidden forces that have guided galactic civilization.",
+          "role": "Historical revelation witness",
+          "relationships": {
+            "witnesses": "great revelations",
+            "observes": "truth about history",
+            "records": "significant discoveries"
+          }
+        }
+      }
+    },
+    "future-planner": {
+      "name": "Future Planner",
+      "aliases": ["Destiny Architect"],
+      "appearances": [23, 24],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Planners who work to shape the future course of galactic civilization based on the discoveries made during the search.",
+          "role": "Future planning specialist",
+          "relationships": {
+            "plans": "galactic future",
+            "shapes": "civilization course",
+            "implements": "new understanding"
+          }
+        }
+      }
+    },
+    "legacy-keeper": {
+      "name": "Legacy Keeper",
+      "aliases": ["Heritage Guardian"],
+      "appearances": [24],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Keepers who preserve and protect the legacy of humanity's journey and the revelations discovered about Earth and galactic history.",
+          "role": "Legacy preservation specialist",
+          "relationships": {
+            "preserves": "humanity's legacy",
+            "protects": "historical revelations",
+            "maintains": "cultural continuity"
+          }
+        }
+      }
+    },
+    "melpomenia-official": {
+      "name": "Melpomenia Official",
+      "aliases": ["World Governor"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Government officials on Melpomenia who manage planetary affairs and deal with visitors seeking information about Earth.",
+          "role": "Planetary administration official",
+          "relationships": {
+            "governs": "Melpomenia",
+            "manages": "planetary affairs",
+            "controls": "visitor access"
+          }
+        }
+      }
+    },
+    "melpomenia-historian": {
+      "name": "Melpomenia Historian",
+      "aliases": ["Record Keeper"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Historians on Melpomenia who maintain records about Earth and the ancient history of human colonization.",
+          "role": "Historical records specialist",
+          "relationships": {
+            "maintains": "Earth records",
+            "studies": "colonization history",
+            "preserves": "ancient knowledge"
+          }
+        }
+      }
+    },
+    "alpha-subordinate": {
+      "name": "Delta Wolf",
+      "aliases": ["Pack Member"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A lower-ranking but important member of Alpha's intelligent wolf pack, demonstrating the complex social dynamics of evolved wolves.",
+          "role": "Pack member",
+          "relationships": {
+            "member of": "Alpha's pack",
+            "follows": "pack hierarchy",
+            "contributes to": "pack survival"
+          }
+        }
+      }
+    },
+    "pack-elder": {
+      "name": "Elder Wolf",
+      "aliases": ["Pack Wisdom Keeper"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "An elderly wolf who serves as a keeper of pack wisdom and traditions, advising the pack leadership.",
+          "role": "Pack wisdom keeper",
+          "relationships": {
+            "advises": "pack leadership",
+            "keeps": "pack traditions",
+            "shares": "accumulated wisdom"
+          }
+        }
+      }
+    },
+    "young-wolf": {
+      "name": "Young Wolf",
+      "aliases": ["Pack Youth"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Young wolves learning their place in the pack hierarchy and developing their intelligence under the guidance of elders.",
+          "role": "Developing pack member",
+          "relationships": {
+            "learns from": "pack elders",
+            "develops": "pack intelligence",
+            "represents": "pack future"
+          }
+        }
+      }
+    },
+    "symbiont-leader": {
+      "name": "Symbiont Leader",
+      "aliases": ["Human-Wolf Coordinator"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The leader of the human symbionts who coordinates the partnership between humans and wolves on their shared world.",
+          "role": "Symbiotic relationship coordinator",
+          "relationships": {
+            "leads": "human symbionts",
+            "coordinates": "human-wolf partnership",
+            "maintains": "symbiotic balance"
+          }
+        }
+      }
+    },
+    "agricultural-specialist": {
+      "name": "Agricultural Specialist",
+      "aliases": ["Farming Expert"],
+      "appearances": [16, 17, 18, 19, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Specialists in agriculture and food production who ensure sustainable farming practices across various colonial worlds.",
+          "role": "Agricultural production specialist",
+          "relationships": {
+            "manages": "food production",
+            "ensures": "sustainable farming",
+            "supports": "colonial communities"
+          }
+        }
+      }
+    },
+    "medical-researcher": {
+      "name": "Medical Researcher",
+      "aliases": ["Health Scientist"],
+      "appearances": [14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Medical researchers who study health and biological adaptation across different worlds and evolutionary paths.",
+          "role": "Medical research specialist",
+          "relationships": {
+            "researches": "biological adaptation",
+            "studies": "health patterns",
+            "develops": "medical treatments"
+          }
+        }
+      }
+    },
+    "geological-surveyor": {
+      "name": "Geological Surveyor",
+      "aliases": ["Planet Analyst"],
+      "appearances": [19, 20, 21, 22],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Surveyors who analyze planetary geology and environmental conditions, particularly on Earth and worlds in the search.",
+          "role": "Geological analysis specialist",
+          "relationships": {
+            "analyzes": "planetary geology",
+            "studies": "environmental conditions",
+            "maps": "geological features"
+          }
+        }
+      }
+    },
+    "archaeological-expert": {
+      "name": "Archaeological Expert",
+      "aliases": ["Ancient Sites Specialist"],
+      "appearances": [19, 20, 21, 22, 23],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Experts in archaeology who study ancient sites and artifacts, particularly those related to Earth's history and human origins.",
+          "role": "Archaeological research specialist",
+          "relationships": {
+            "studies": "ancient sites",
+            "analyzes": "historical artifacts",
+            "researches": "human origins"
+          }
+        }
+      }
+    },
+    "radiation-specialist": {
+      "name": "Radiation Specialist",
+      "aliases": ["Nuclear Safety Expert"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Specialists who deal with radiation hazards and nuclear contamination, particularly relevant to Earth's radioactive condition.",
+          "role": "Radiation safety specialist",
+          "relationships": {
+            "monitors": "radiation levels",
+            "ensures": "safety protocols",
+            "manages": "contamination risks"
+          }
+        }
+      }
+    },
+    "atmospheric-analyst": {
+      "name": "Atmospheric Analyst",
+      "aliases": ["Air Quality Specialist"],
+      "appearances": [20, 21, 22, 23],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Analysts who study atmospheric conditions and air quality on various worlds, including Earth's environmental status.",
+          "role": "Atmospheric analysis specialist",
+          "relationships": {
+            "analyzes": "atmospheric conditions",
+            "monitors": "air quality",
+            "assesses": "environmental status"
+          }
+        }
+      }
+    },
+    "biosecurity-officer": {
+      "name": "Biosecurity Officer",
+      "aliases": ["Biological Safety Coordinator"],
+      "appearances": [20, 21, 22, 23, 24],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Officers who manage biological security and safety protocols during the exploration of potentially hazardous worlds.",
+          "role": "Biological safety specialist",
+          "relationships": {
+            "manages": "biological security",
+            "enforces": "safety protocols",
+            "protects against": "biological hazards"
+          }
+        }
+      }
+    },
+    "robotics-engineer": {
+      "name": "Robotics Engineer",
+      "aliases": ["AI Systems Specialist"],
+      "appearances": [8, 9, 10, 11, 12, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Engineers who work with robotic systems and artificial intelligence, particularly in relation to Earth's robotic legacy.",
+          "role": "Robotics and AI specialist",
+          "relationships": {
+            "works with": "robotic systems",
+            "maintains": "AI technology",
+            "studies": "Earth's robotic legacy"
+          }
+        }
+      }
+    },
+    "quantum-physicist": {
+      "name": "Quantum Physicist",
+      "aliases": ["Advanced Physics Researcher"],
+      "appearances": [21, 22, 23, 24],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Physicists who study advanced quantum mechanics and physics principles relevant to understanding galactic civilization.",
+          "role": "Advanced physics specialist",
+          "relationships": {
+            "studies": "quantum mechanics",
+            "researches": "physics principles",
+            "advances": "scientific understanding"
+          }
+        }
+      }
+    },
+    "psychohistorian": {
+      "name": "Psychohistorian",
+      "aliases": ["Mathematical Sociologist"],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Specialists in psychohistory who work to understand and predict large-scale social and historical patterns.",
+          "role": "Psychohistorical analysis specialist",
+          "relationships": {
+            "studies": "social patterns",
+            "predicts": "historical trends",
+            "analyzes": "civilization dynamics"
+          }
+        }
+      }
+    },
+    "temporal-analyst": {
+      "name": "Temporal Analyst",
+      "aliases": ["Time Flow Specialist"],
+      "appearances": [23, 24],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Analysts who study temporal patterns and the flow of time in relation to galactic events and Daneel's long-term planning.",
+          "role": "Temporal analysis specialist",
+          "relationships": {
+            "studies": "temporal patterns",
+            "analyzes": "time flow",
+            "relates to": "Daneel's planning"
+          }
+        }
+      }
     }
   },
   "recaps": {

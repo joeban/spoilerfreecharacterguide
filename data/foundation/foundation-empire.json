@@ -622,6 +622,465 @@
         }
       }
     },
+    "imperial-colonel": {
+      "name": "Colonel Yasko",
+      "aliases": ["Imperial Officer"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A senior Imperial colonel serving under General Riose's command during the Foundation campaign.",
+          "role": "Imperial military officer",
+          "relationships": {
+            "serves under": "General Riose",
+            "commands": "Imperial troops",
+            "fights against": "Foundation"
+          }
+        }
+      }
+    },
+    "captain-avery": {
+      "name": "Captain Avery",
+      "aliases": ["Ship Commander"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Imperial fleet captain who commands one of Riose's warships in the Foundation campaign.",
+          "role": "Imperial fleet commander",
+          "relationships": {
+            "commands": "Imperial warship",
+            "serves": "General Riose",
+            "attacks": "Foundation worlds"
+          }
+        }
+      }
+    },
+    "sergeant-mori": {
+      "name": "Sergeant Mori",
+      "aliases": ["Imperial Noncom"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A veteran Imperial sergeant who leads ground troops during the Foundation campaign.",
+          "role": "Imperial ground forces leader",
+          "relationships": {
+            "leads": "ground troops",
+            "veteran of": "previous campaigns",
+            "loyal to": "Imperial army"
+          }
+        }
+      }
+    },
+    "lieutenant-hoff": {
+      "name": "Lieutenant Hoff",
+      "aliases": ["Junior Officer"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young Imperial lieutenant eager to prove himself in the campaign against the Foundation.",
+          "role": "Junior Imperial officer",
+          "relationships": {
+            "serves under": "senior officers",
+            "eager to": "prove himself",
+            "fights in": "Foundation campaign"
+          }
+        }
+      }
+    },
+    "admiral-sennett": {
+      "name": "Admiral Sennett",
+      "aliases": ["Fleet Admiral"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A high-ranking Imperial admiral who coordinates naval operations in Riose's campaign.",
+          "role": "Imperial naval commander",
+          "relationships": {
+            "coordinates": "naval operations",
+            "reports to": "General Riose",
+            "commands": "multiple fleet groups"
+          }
+        }
+      }
+    },
+    "major-kent": {
+      "name": "Major Kent",
+      "aliases": ["Infantry Commander"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Imperial major responsible for infantry operations during planetary assaults.",
+          "role": "Infantry operations commander",
+          "relationships": {
+            "commands": "infantry units",
+            "specializes in": "planetary assaults",
+            "serves": "Imperial army"
+          }
+        }
+      }
+    },
+    "corporal-dix": {
+      "name": "Corporal Dix",
+      "aliases": ["Squad Leader"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An experienced Imperial corporal who leads a squad in ground operations.",
+          "role": "Squad leader",
+          "relationships": {
+            "leads": "infantry squad",
+            "experienced in": "ground combat",
+            "reports to": "Sergeant Mori"
+          }
+        }
+      }
+    },
+    "commander-vex": {
+      "name": "Commander Vex",
+      "aliases": ["Logistics Officer"],
+      "appearances": [2, 3, 4, 5, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Imperial commander responsible for supply lines and logistics during the campaign.",
+          "role": "Imperial logistics coordinator",
+          "relationships": {
+            "manages": "supply operations",
+            "coordinates": "logistics network",
+            "supports": "military campaign"
+          }
+        }
+      }
+    },
+    "ensign-pale": {
+      "name": "Ensign Pale",
+      "aliases": ["Communications Officer"],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young Imperial ensign handling communications between fleet units.",
+          "role": "Fleet communications officer",
+          "relationships": {
+            "manages": "fleet communications",
+            "coordinates": "tactical information",
+            "serves on": "flagship bridge"
+          }
+        }
+      }
+    },
+    "general-arkady": {
+      "name": "General Arkady",
+      "aliases": ["Sector Commander"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An Imperial general who commands forces in a sector adjacent to Foundation space.",
+          "role": "Sector military commander",
+          "relationships": {
+            "commands": "sector forces",
+            "coordinates with": "Riose's campaign",
+            "guards": "Imperial borders"
+          }
+        }
+      }
+    },
+    "minister-krew": {
+      "name": "Minister Krew",
+      "aliases": ["Imperial Minister"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A civilian minister in the Imperial government who advises on military policy.",
+          "role": "Imperial policy advisor",
+          "relationships": {
+            "advises on": "military policy",
+            "serves": "Imperial government",
+            "reports to": "Emperor Cleon II"
+          }
+        }
+      }
+    },
+    "duke-randu": {
+      "name": "Duke Randu",
+      "aliases": ["Imperial Duke"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Imperial duke who holds significant influence in court politics during the Riose period.",
+          "role": "Imperial noble",
+          "relationships": {
+            "influences": "court politics",
+            "holds": "significant territory",
+            "allied with": "various court factions"
+          }
+        }
+      }
+    },
+    "count-semic": {
+      "name": "Count Semic",
+      "aliases": ["Imperial Count"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An Imperial count who participates in the court intrigue surrounding General Riose's campaign.",
+          "role": "Imperial courtier",
+          "relationships": {
+            "participates in": "court intrigue",
+            "concerned about": "Riose's success",
+            "supports": "certain court factions"
+          }
+        }
+      }
+    },
+    "lord-camber": {
+      "name": "Lord Camber",
+      "aliases": ["Imperial Lord"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An Imperial lord who voices concerns about successful generals potentially threatening the throne.",
+          "role": "Imperial noble and political advisor",
+          "relationships": {
+            "voices concerns about": "successful generals",
+            "advises": "Emperor on threats",
+            "supports": "imperial stability"
+          }
+        }
+      }
+    },
+    "baron-holt": {
+      "name": "Baron Holt",
+      "aliases": ["Court Baron"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An Imperial baron who serves as one of Brodrig's allies in court politics.",
+          "role": "Imperial courtier and Brodrig ally",
+          "relationships": {
+            "allied with": "Brodrig",
+            "participates in": "court scheming",
+            "opposes": "Riose's influence"
+          }
+        }
+      }
+    },
+    "ambassador-jord": {
+      "name": "Ambassador Jord",
+      "aliases": ["Imperial Diplomat"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An Imperial ambassador who handles diplomatic relations with border systems.",
+          "role": "Imperial diplomatic representative",
+          "relationships": {
+            "handles": "diplomatic relations",
+            "represents": "Imperial interests",
+            "negotiates with": "border systems"
+          }
+        }
+      }
+    },
+    "governor-linn": {
+      "name": "Governor Linn",
+      "aliases": ["Sector Governor"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Imperial governor who administers a sector near Foundation space.",
+          "role": "Imperial sector administrator",
+          "relationships": {
+            "administers": "Imperial sector",
+            "coordinates with": "military forces",
+            "manages": "civilian affairs"
+          }
+        }
+      }
+    },
+    "trader-vorn": {
+      "name": "Trader Vorn",
+      "aliases": ["Foundation Merchant"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Foundation trader who reports early intelligence about the Mule's conquests.",
+          "role": "Foundation merchant and intelligence source",
+          "relationships": {
+            "trades for": "Foundation",
+            "reports on": "Mule's activities",
+            "provides": "early intelligence"
+          }
+        }
+      }
+    },
+    "captain-dell": {
+      "name": "Captain Dell",
+      "aliases": ["Foundation Fleet Officer"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Foundation fleet captain who participates in the doomed defense against the Mule.",
+          "role": "Foundation naval officer",
+          "relationships": {
+            "serves": "Foundation fleet",
+            "defends against": "Mule's forces",
+            "coordinates": "naval defense"
+          }
+        }
+      }
+    },
+    "councilman-grey": {
+      "name": "Councilman Grey",
+      "aliases": ["Foundation Politician"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Foundation councilman who debates policy during the Mule crisis.",
+          "role": "Foundation political leader",
+          "relationships": {
+            "serves on": "Foundation Council",
+            "debates": "crisis policy",
+            "advises": "Mayor Indbur"
+          }
+        }
+      }
+    },
+    "lieutenant-nash": {
+      "name": "Lieutenant Nash",
+      "aliases": ["Foundation Officer"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Foundation military lieutenant who is converted by the Mule during Terminus's fall.",
+          "role": "Foundation officer turned Mule servant",
+          "relationships": {
+            "originally served": "Foundation",
+            "converted by": "The Mule",
+            "now loyal to": "Mule's cause"
+          }
+        }
+      }
+    },
+    "sergeant-polk": {
+      "name": "Sergeant Polk",
+      "aliases": ["Foundation Noncom"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Foundation sergeant who leads ground troops in the unsuccessful defense of Terminus.",
+          "role": "Foundation ground forces leader",
+          "relationships": {
+            "leads": "Foundation ground troops",
+            "defends": "Terminus",
+            "fights against": "Mule's invasion"
+          }
+        }
+      }
+    },
+    "doctor-bell": {
+      "name": "Doctor Bell",
+      "aliases": ["Foundation Physician"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Foundation doctor who treats casualties and studies the psychological effects of the Mule's conversion.",
+          "role": "Foundation medical officer",
+          "relationships": {
+            "treats": "war casualties",
+            "studies": "psychological effects",
+            "serves": "Foundation medical corps"
+          }
+        }
+      }
+    },
+    "engineer-stone": {
+      "name": "Engineer Stone",
+      "aliases": ["Foundation Technical Specialist"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Foundation engineer who attempts to analyze and counter the Mule's technology.",
+          "role": "Foundation technical analyst",
+          "relationships": {
+            "analyzes": "Mule's technology",
+            "attempts to": "develop countermeasures",
+            "works for": "Foundation technical division"
+          }
+        }
+      }
+    },
+    "historian-ford": {
+      "name": "Historian Ford",
+      "aliases": ["Foundation Scholar"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Foundation historian who researches historical precedents for the Mule phenomenon.",
+          "role": "Foundation historical researcher",
+          "relationships": {
+            "researches": "historical precedents",
+            "studies": "mutation records",
+            "advises": "research team"
+          }
+        }
+      }
+    },
+    "pilot-crane": {
+      "name": "Pilot Crane",
+      "aliases": ["Foundation Pilot"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A Foundation pilot who provides transportation during the Second Foundation search.",
+          "role": "Foundation transportation specialist",
+          "relationships": {
+            "provides": "transportation services",
+            "supports": "search mission",
+            "flies": "Foundation vessels"
+          }
+        }
+      }
+    },
+    "spy-master": {
+      "name": "Spy Master Vale",
+      "aliases": ["Foundation Intelligence Chief"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The head of Foundation intelligence who coordinates espionage efforts during the search for the Second Foundation.",
+          "role": "Foundation intelligence coordinator",
+          "relationships": {
+            "coordinates": "intelligence operations",
+            "manages": "spy networks",
+            "reports to": "Foundation leadership"
+          }
+        }
+      }
+    },
     "court-noble": {
       "name": "Court Noble",
       "aliases": ["Imperial Aristocrat"],
@@ -651,6 +1110,346 @@
             "works for": "Foundation",
             "studies": "Mule phenomenon",
             "attempts to": "find solutions"
+          }
+        }
+      }
+    },
+    "commander-yate": {
+      "name": "Commander Yate",
+      "aliases": ["Mule's Naval Commander"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A naval commander converted by the Mule who leads fleet operations against remaining resistance.",
+          "role": "Converted naval commander",
+          "relationships": {
+            "converted by": "The Mule",
+            "commands": "Mule's naval forces",
+            "attacks": "resistance strongholds"
+          }
+        }
+      }
+    },
+    "general-thallos": {
+      "name": "General Thallos",
+      "aliases": ["Mule's Ground Commander"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A former independent general who was converted by the Mule and now leads ground campaigns.",
+          "role": "Converted ground forces commander",
+          "relationships": {
+            "converted by": "The Mule",
+            "formerly": "independent general",
+            "leads": "planetary invasions"
+          }
+        }
+      }
+    },
+    "admiral-khorov": {
+      "name": "Admiral Khorov",
+      "aliases": ["Mule's Fleet Admiral"],
+      "appearances": [10, 11, 12, 13],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A brilliant admiral who joined the Mule's cause early and commands his main fleet.",
+          "role": "Mule's primary naval commander",
+          "relationships": {
+            "serves": "The Mule",
+            "commands": "main battle fleet",
+            "strategizes": "naval campaigns"
+          }
+        }
+      }
+    },
+    "colonel-bliss": {
+      "name": "Colonel Bliss",
+      "aliases": ["Converted Foundation Officer"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A former Foundation colonel who was converted by the Mule and now serves in his administration.",
+          "role": "Converted Foundation officer",
+          "relationships": {
+            "formerly served": "Foundation",
+            "converted by": "The Mule",
+            "now serves": "Mule's administration"
+          }
+        }
+      }
+    },
+    "captain-fara": {
+      "name": "Captain Fara",
+      "aliases": ["Intelligence Officer"],
+      "appearances": [12, 13, 14, 15],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A converted intelligence officer who helps the Mule gather information about the Second Foundation.",
+          "role": "Intelligence and reconnaissance officer",
+          "relationships": {
+            "serves": "Mule's intelligence network",
+            "gathers information on": "Second Foundation",
+            "coordinates": "spy networks"
+          }
+        }
+      }
+    },
+    "major-occupation": {
+      "name": "Major Kell",
+      "aliases": ["Occupation Commander"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A major in charge of occupation forces on conquered Foundation worlds.",
+          "role": "Occupation forces commander",
+          "relationships": {
+            "commands": "occupation troops",
+            "administers": "conquered territories",
+            "reports to": "Mule's generals"
+          }
+        }
+      }
+    },
+    "lieutenant-vorn": {
+      "name": "Lieutenant Vorn",
+      "aliases": ["Security Officer"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A security lieutenant responsible for maintaining order in Mule-controlled territories.",
+          "role": "Internal security officer",
+          "relationships": {
+            "maintains": "internal security",
+            "prevents": "resistance activities",
+            "loyal to": "Mule's regime"
+          }
+        }
+      }
+    },
+    "sergeant-bly": {
+      "name": "Sergeant Bly",
+      "aliases": ["Patrol Leader"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A sergeant who leads patrol units maintaining control over civilian populations.",
+          "role": "Patrol unit leader",
+          "relationships": {
+            "leads": "patrol units",
+            "monitors": "civilian populations",
+            "enforces": "Mule's rule"
+          }
+        }
+      }
+    },
+    "corporal-dent": {
+      "name": "Corporal Dent",
+      "aliases": ["Communications Specialist"],
+      "appearances": [12, 13, 14, 15],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A communications specialist who manages information flow in the Mule's military network.",
+          "role": "Military communications operator",
+          "relationships": {
+            "manages": "military communications",
+            "coordinates": "information flow",
+            "serves": "Mule's command structure"
+          }
+        }
+      }
+    },
+    "minister-dray": {
+      "name": "Minister Dray",
+      "aliases": ["Mule's Administrator"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A civilian administrator who helps the Mule govern his expanding empire.",
+          "role": "Imperial administrator",
+          "relationships": {
+            "administers": "Mule's empire",
+            "manages": "civilian government",
+            "coordinates": "imperial policy"
+          }
+        }
+      }
+    },
+    "director-monn": {
+      "name": "Director Monn",
+      "aliases": ["Research Director"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A research director who coordinates scientific efforts to understand and duplicate the Mule's abilities.",
+          "role": "Scientific research coordinator",
+          "relationships": {
+            "coordinates": "research programs",
+            "studies": "Mule's abilities",
+            "manages": "scientific personnel"
+          }
+        }
+      }
+    },
+    "doctor-lynn": {
+      "name": "Doctor Lynn",
+      "aliases": ["Court Physician"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A physician who serves in the Mule's court and studies the physical aspects of mutation.",
+          "role": "Court medical officer",
+          "relationships": {
+            "serves": "Mule's court",
+            "studies": "mutation effects",
+            "provides": "medical services"
+          }
+        }
+      }
+    },
+    "professor-kyle": {
+      "name": "Professor Kyle",
+      "aliases": ["Genetic Researcher"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A professor who researches the genetic basis of the Mule's mutant abilities.",
+          "role": "Genetic research specialist",
+          "relationships": {
+            "researches": "genetic mutations",
+            "studies": "Mule's biology",
+            "works for": "Mule's science division"
+          }
+        }
+      }
+    },
+    "technician-ross": {
+      "name": "Technician Ross",
+      "aliases": ["Equipment Specialist"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A technician who maintains and operates the sophisticated equipment used in Second Foundation research.",
+          "role": "Technical support specialist",
+          "relationships": {
+            "maintains": "research equipment",
+            "operates": "detection devices",
+            "supports": "scientific research"
+          }
+        }
+      }
+    },
+    "analyst-grey": {
+      "name": "Analyst Grey",
+      "aliases": ["Data Specialist"],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "An analyst who processes data and information in the search for the Second Foundation.",
+          "role": "Information analysis specialist",
+          "relationships": {
+            "processes": "intelligence data",
+            "analyzes": "Second Foundation clues",
+            "reports to": "research directors"
+          }
+        }
+      }
+    },
+    "coordinator-bell": {
+      "name": "Coordinator Bell",
+      "aliases": ["Operations Manager"],
+      "appearances": [15, 16],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "An operations coordinator who manages the complex logistics of the Second Foundation search.",
+          "role": "Operations management specialist",
+          "relationships": {
+            "coordinates": "search operations",
+            "manages": "resource allocation",
+            "supervises": "field teams"
+          }
+        }
+      }
+    },
+    "psychologist-finn": {
+      "name": "Psychologist Finn",
+      "aliases": ["Mind Researcher"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A psychologist who studies mental manipulation techniques and emotional conversion processes.",
+          "role": "Psychology research specialist",
+          "relationships": {
+            "studies": "mental manipulation",
+            "researches": "emotional conversion",
+            "analyzes": "psychological warfare"
+          }
+        }
+      }
+    },
+    "archivist-stone": {
+      "name": "Archivist Stone",
+      "aliases": ["Information Keeper"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "An archivist who maintains records and historical information relevant to the Second Foundation search.",
+          "role": "Information archival specialist",
+          "relationships": {
+            "maintains": "historical records",
+            "organizes": "research data",
+            "provides": "information access"
+          }
+        }
+      }
+    },
+    "navigator-cole": {
+      "name": "Navigator Cole",
+      "aliases": ["Star Chart Specialist"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A navigation specialist who plots courses and analyzes stellar geography in the Second Foundation search.",
+          "role": "Navigation and stellar cartography specialist",
+          "relationships": {
+            "plots": "search courses",
+            "analyzes": "stellar geography",
+            "maintains": "star charts"
+          }
+        }
+      }
+    },
+    "engineer-wade": {
+      "name": "Engineer Wade",
+      "aliases": ["Technical Designer"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "An engineer who designs and builds specialized equipment for detecting mental influence.",
+          "role": "Technical engineering specialist",
+          "relationships": {
+            "designs": "detection equipment",
+            "builds": "specialized devices",
+            "develops": "technical solutions"
           }
         }
       }

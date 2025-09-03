@@ -961,6 +961,966 @@
           }
         }
       }
+    },
+    "advocate": {
+      "name": "Advocate",
+      "aliases": ["Public Advocate"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The legal representative assigned to defend Hari Seldon during his trial before the Imperial Commission.",
+          "role": "Legal defender",
+          "relationships": {
+            "defends": "Hari Seldon",
+            "works with": "Imperial legal system"
+          }
+        }
+      }
+    },
+    "commission-secretary": {
+      "name": "Commission Secretary",
+      "aliases": ["Trial Secretary"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The secretary who records the proceedings of Seldon's trial and manages Commission documentation.",
+          "role": "Administrative recorder",
+          "relationships": {
+            "serves": "Imperial Commission",
+            "records": "trial proceedings"
+          }
+        }
+      }
+    },
+    "imperial-guard-captain": {
+      "name": "Imperial Guard Captain",
+      "aliases": ["Palace Guard"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The captain of the Imperial Guard responsible for security during Seldon's appearances at court.",
+          "role": "Security officer",
+          "relationships": {
+            "protects": "Imperial Court",
+            "serves": "Galactic Empire"
+          }
+        }
+      }
+    },
+    "trantor-librarian": {
+      "name": "Trantor Librarian",
+      "aliases": ["Imperial Librarian"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A librarian on Trantor who assists Gaal Dornick in accessing galactic historical records.",
+          "role": "Information keeper",
+          "relationships": {
+            "assists": "Gaal Dornick",
+            "maintains": "Imperial archives"
+          }
+        }
+      }
+    },
+    "court-mathematician": {
+      "name": "Court Mathematician",
+      "aliases": ["Imperial Scientist"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A mathematician serving the Imperial Court who is skeptical of Seldon's psychohistory claims.",
+          "role": "Court scientific advisor",
+          "relationships": {
+            "serves": "Imperial Court",
+            "skeptical of": "psychohistory"
+          }
+        }
+      }
+    },
+    "seldon-assistant": {
+      "name": "Seldon's Assistant",
+      "aliases": ["Research Assistant"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A research assistant who works closely with Hari Seldon on psychohistory calculations.",
+          "role": "Research aide",
+          "relationships": {
+            "assists": "Hari Seldon",
+            "works on": "psychohistory research"
+          }
+        }
+      }
+    },
+    "terminus-administrator": {
+      "name": "Terminus Administrator",
+      "aliases": ["Colonial Administrator"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The Imperial administrator overseeing the initial settlement of Terminus by the Foundation colonists.",
+          "role": "Colonial overseer",
+          "relationships": {
+            "administers": "Terminus settlement",
+            "reports to": "Galactic Empire"
+          }
+        }
+      }
+    },
+    "imperial-prosecutor": {
+      "name": "Imperial Prosecutor",
+      "aliases": ["State Prosecutor"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The prosecutor arguing the case against Hari Seldon for treason and sedition.",
+          "role": "Legal prosecutor",
+          "relationships": {
+            "prosecutes": "Hari Seldon",
+            "represents": "Imperial interests"
+          }
+        }
+      }
+    },
+    "psychohistory-student": {
+      "name": "Psychohistory Student",
+      "aliases": ["Graduate Student"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various students and junior researchers working under Seldon to develop psychohistory.",
+          "role": "Research student",
+          "relationships": {
+            "studies under": "Hari Seldon",
+            "learns": "psychohistory principles"
+          }
+        }
+      }
+    },
+    "board-member-sutt": {
+      "name": "Board Member Sutt",
+      "aliases": ["Trustee Sutt"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A member of the Board of Trustees who supports the Encyclopedia project over political involvement.",
+          "role": "Board trustee",
+          "relationships": {
+            "member of": "Board of Trustees",
+            "supports": "Lewis Pirenne",
+            "opposes": "political solutions"
+          }
+        }
+      }
+    },
+    "board-member-haut": {
+      "name": "Board Member Haut",
+      "aliases": ["Trustee Haut"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another Board of Trustees member focused on maintaining academic integrity of the Encyclopedia project.",
+          "role": "Academic trustee",
+          "relationships": {
+            "member of": "Board of Trustees",
+            "focuses on": "academic work",
+            "skeptical of": "political involvement"
+          }
+        }
+      }
+    },
+    "anacreon-ambassador": {
+      "name": "Anacreon Ambassador",
+      "aliases": ["Royal Ambassador"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The official representative of Anacreon in negotiations with the Foundation during the first crisis.",
+          "role": "Diplomatic representative",
+          "relationships": {
+            "represents": "Anacreon",
+            "negotiates with": "Foundation",
+            "threatens": "Foundation independence"
+          }
+        }
+      }
+    },
+    "foundation-engineer": {
+      "name": "Foundation Engineer",
+      "aliases": ["Technical Specialist"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Technical personnel working on Foundation infrastructure and technology maintenance.",
+          "role": "Technical engineer",
+          "relationships": {
+            "works for": "Foundation",
+            "maintains": "Foundation technology",
+            "supports": "Hardin's practical approach"
+          }
+        }
+      }
+    },
+    "encyclopedia-researcher": {
+      "name": "Encyclopedia Researcher",
+      "aliases": ["Academic Researcher"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Researchers working on compiling the Encyclopedia Galactica, the Foundation's supposed primary purpose.",
+          "role": "Academic researcher",
+          "relationships": {
+            "works on": "Encyclopedia Galactica",
+            "reports to": "Board of Trustees",
+            "concerned about": "external threats"
+          }
+        }
+      }
+    },
+    "foundation-security-chief": {
+      "name": "Foundation Security Chief",
+      "aliases": ["Security Director"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The head of Foundation security who coordinates defenses against the Four Kingdoms threat.",
+          "role": "Security administrator",
+          "relationships": {
+            "protects": "Foundation",
+            "reports to": "Mayor Hardin",
+            "coordinates": "defensive measures"
+          }
+        }
+      }
+    },
+    "smyrno-delegation": {
+      "name": "Smyrno Delegation",
+      "aliases": ["Royal Envoys"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Representatives from the Kingdom of Smyrno participating in the Four Kingdoms alliance against the Foundation.",
+          "role": "Diplomatic delegation",
+          "relationships": {
+            "represents": "Kingdom of Smyrno",
+            "member of": "Four Kingdoms alliance",
+            "threatens": "Foundation"
+          }
+        }
+      }
+    },
+    "konom-delegation": {
+      "name": "Konom Delegation",
+      "aliases": ["Kingdom Representatives"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Official representatives from the Kingdom of Konom in the Four Kingdoms alliance.",
+          "role": "Royal delegates",
+          "relationships": {
+            "represents": "Kingdom of Konom",
+            "participates in": "Four Kingdoms threat",
+            "demands": "Foundation submission"
+          }
+        }
+      }
+    },
+    "daribow-delegation": {
+      "name": "Daribow Delegation",
+      "aliases": ["Military Representatives"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Military and diplomatic representatives from Daribow, the fourth kingdom threatening the Foundation.",
+          "role": "Military diplomats",
+          "relationships": {
+            "represents": "Kingdom of Daribow",
+            "coordinates": "military threat",
+            "part of": "Four Kingdoms alliance"
+          }
+        }
+      }
+    },
+    "terminus-mayor-aide": {
+      "name": "Terminus Mayor's Aide",
+      "aliases": ["Administrative Assistant"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Administrative assistant working with the mayor's office during the political crisis.",
+          "role": "Administrative aide",
+          "relationships": {
+            "assists": "Mayor's office",
+            "supports": "Hardin's policies",
+            "coordinates": "government functions"
+          }
+        }
+      }
+    },
+    "foundation-communications": {
+      "name": "Foundation Communications Officer",
+      "aliases": ["Communications Director"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Officer responsible for maintaining communications with other worlds and monitoring the Four Kingdoms threat.",
+          "role": "Communications specialist",
+          "relationships": {
+            "monitors": "external communications",
+            "reports to": "Foundation leadership",
+            "coordinates": "diplomatic messages"
+          }
+        }
+      }
+    },
+    "high-priest-terminus": {
+      "name": "High Priest of Terminus",
+      "aliases": ["Foundation High Priest"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The highest religious authority on Terminus who oversees the Foundation's pseudo-religious activities.",
+          "role": "Religious leader",
+          "relationships": {
+            "leads": "Foundation religion",
+            "serves": "Hardin's political strategy",
+            "coordinates": "religious missions"
+          }
+        }
+      }
+    },
+    "anacreonian-general": {
+      "name": "Anacreonian General",
+      "aliases": ["Military Commander"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A high-ranking military officer under Prince Wienis who leads the Anacreonian forces.",
+          "role": "Military commander",
+          "relationships": {
+            "serves": "Prince Wienis",
+            "commands": "Anacreonian army",
+            "opposes": "Foundation"
+          }
+        }
+      }
+    },
+    "foundation-missionary": {
+      "name": "Foundation Missionary",
+      "aliases": ["Religious Missionary"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Religious missionaries sent to spread the Foundation's pseudo-religion throughout the Four Kingdoms.",
+          "role": "Religious missionary",
+          "relationships": {
+            "spreads": "Foundation religion",
+            "serves": "Hardin's strategy",
+            "establishes": "religious influence"
+          }
+        }
+      }
+    },
+    "anacreonian-court-official": {
+      "name": "Anacreonian Court Official",
+      "aliases": ["Royal Courtier"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Court officials serving in the Anacreonian royal court during the crisis with the Foundation.",
+          "role": "Court administrator",
+          "relationships": {
+            "serves": "Anacreonian court",
+            "supports": "royal policies",
+            "witnesses": "political maneuvering"
+          }
+        }
+      }
+    },
+    "religious-technician": {
+      "name": "Religious Technician",
+      "aliases": ["Priest-Engineer"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Technical specialists who maintain Foundation technology while presenting it as religious ritual.",
+          "role": "Technical-religious specialist",
+          "relationships": {
+            "maintains": "Foundation technology",
+            "presents as": "religious rituals",
+            "serves": "dual purpose"
+          }
+        }
+      }
+    },
+    "anacreonian-noble-family": {
+      "name": "Anacreonian Noble Family",
+      "aliases": ["Court Nobility"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Noble families at the Anacreonian court involved in the political intrigues surrounding the Foundation.",
+          "role": "Aristocratic families",
+          "relationships": {
+            "member of": "Anacreonian nobility",
+            "participates in": "court politics",
+            "affected by": "Foundation crisis"
+          }
+        }
+      }
+    },
+    "power-plant-supervisor": {
+      "name": "Power Plant Supervisor",
+      "aliases": ["Plant Director"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The supervisor overseeing the nuclear power plant on Anacreon, working under Foundation religious authority.",
+          "role": "Technical supervisor",
+          "relationships": {
+            "manages": "nuclear power plant",
+            "reports to": "Foundation priests",
+            "maintains": "energy supply"
+          }
+        }
+      }
+    },
+    "anacreonian-citizens": {
+      "name": "Anacreonian Citizens",
+      "aliases": ["Local Population"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The general population of Anacreon who have adopted the Foundation's pseudo-religion and depend on its technology.",
+          "role": "Civilian population",
+          "relationships": {
+            "follows": "Foundation religion",
+            "depends on": "Foundation technology",
+            "loyal to": "religious authority"
+          }
+        }
+      }
+    },
+    "royal-guard-captain": {
+      "name": "Royal Guard Captain",
+      "aliases": ["Palace Guard Commander"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The captain of the royal guard responsible for protecting the Anacreonian royal family.",
+          "role": "Security commander",
+          "relationships": {
+            "protects": "royal family",
+            "serves": "Anacreonian crown",
+            "loyal to": "legitimate authority"
+          }
+        }
+      }
+    },
+    "foundation-diplomat": {
+      "name": "Foundation Diplomat",
+      "aliases": ["Diplomatic Representative"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Diplomatic representatives of the Foundation working to maintain relationships with the Four Kingdoms.",
+          "role": "Diplomatic agent",
+          "relationships": {
+            "represents": "Foundation interests",
+            "negotiates": "political agreements",
+            "maintains": "diplomatic relations"
+          }
+        }
+      }
+    },
+    "religious-convert": {
+      "name": "Religious Convert",
+      "aliases": ["New Believer"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Citizens from various kingdoms who have converted to the Foundation's pseudo-religion.",
+          "role": "Religious follower",
+          "relationships": {
+            "converts to": "Foundation religion",
+            "spreads": "religious influence",
+            "supports": "Foundation authority"
+          }
+        }
+      }
+    },
+    "master-trader-guild": {
+      "name": "Master Trader Guild",
+      "aliases": ["Trader's Guild"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The organized guild of independent traders who operate beyond the Four Kingdoms and challenge Foundation monopoly.",
+          "role": "Trade organization",
+          "relationships": {
+            "competes with": "Foundation",
+            "operates": "independent trade routes",
+            "challenges": "religious monopoly"
+          }
+        }
+      }
+    },
+    "askonian-elder": {
+      "name": "Askonian Elder",
+      "aliases": ["Religious Elder"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Religious elders of Askone who initially oppose Foundation technology as contrary to their beliefs.",
+          "role": "Religious leader",
+          "relationships": {
+            "opposes": "Foundation technology",
+            "leads": "Askonian religion",
+            "eventually convinced by": "economic benefits"
+          }
+        }
+      }
+    },
+    "askonian-merchant": {
+      "name": "Askonian Merchant",
+      "aliases": ["Local Trader"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Local merchants on Askone who become interested in Foundation goods and technology.",
+          "role": "Commercial trader",
+          "relationships": {
+            "trades with": "Foundation",
+            "interested in": "new technology",
+            "influences": "local opinion"
+          }
+        }
+      }
+    },
+    "foundation-trader-captain": {
+      "name": "Foundation Trader Captain",
+      "aliases": ["Ship Captain"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Captains of Foundation trading vessels who navigate between worlds to establish commerce.",
+          "role": "Ship commander",
+          "relationships": {
+            "commands": "trading vessels",
+            "establishes": "trade routes",
+            "represents": "Foundation commerce"
+          }
+        }
+      }
+    },
+    "actionist-member": {
+      "name": "Actionist Member",
+      "aliases": ["Party Member"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Members of Sef Sermak's Actionist party who advocate for military expansion and direct action.",
+          "role": "Political activist",
+          "relationships": {
+            "member of": "Actionist Party",
+            "supports": "military solutions",
+            "opposes": "trade-based policies"
+          }
+        }
+      }
+    },
+    "foundation-council-member": {
+      "name": "Foundation Council Member",
+      "aliases": ["City Councilman"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Members of the Foundation's governing council who debate policy regarding the independent traders.",
+          "role": "Government official",
+          "relationships": {
+            "governs": "Foundation",
+            "debates": "policy issues",
+            "represents": "citizen interests"
+          }
+        }
+      }
+    },
+    "askonian-guard": {
+      "name": "Askonian Guard",
+      "aliases": ["Prison Guard"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Guards responsible for holding Eskel Gorov prisoner and overseeing the Foundation representative.",
+          "role": "Security personnel",
+          "relationships": {
+            "guards": "Eskel Gorov",
+            "serves": "Askonian government",
+            "maintains": "prisoner security"
+          }
+        }
+      }
+    },
+    "independent-trader": {
+      "name": "Independent Trader",
+      "aliases": ["Free Trader"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Independent merchants operating outside Foundation control who compete with official trade policy.",
+          "role": "Independent merchant",
+          "relationships": {
+            "competes with": "Foundation",
+            "operates": "freely",
+            "challenges": "official monopoly"
+          }
+        }
+      }
+    },
+    "askonian-official-council": {
+      "name": "Askonian Official Council",
+      "aliases": ["Government Council"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The governing council of Askone that makes decisions about Foundation technology and trade relations.",
+          "role": "Government body",
+          "relationships": {
+            "governs": "Askone",
+            "decides on": "Foundation relations",
+            "influenced by": "religious considerations"
+          }
+        }
+      }
+    },
+    "foundation-economist": {
+      "name": "Foundation Economist",
+      "aliases": ["Economic Advisor"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Economic specialists who analyze the impact of independent traders on Foundation commerce.",
+          "role": "Economic analyst",
+          "relationships": {
+            "analyzes": "trade impacts",
+            "advises": "Foundation government",
+            "studies": "economic competition"
+          }
+        }
+      }
+    },
+    "trader-representative": {
+      "name": "Trader Representative",
+      "aliases": ["Guild Representative"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Representatives of the various trading guilds and independent merchants who negotiate with the Foundation.",
+          "role": "Commercial representative",
+          "relationships": {
+            "represents": "trader interests",
+            "negotiates with": "Foundation",
+            "advocates for": "free trade"
+          }
+        }
+      }
+    },
+    "korellian-minister": {
+      "name": "Korellian Minister",
+      "aliases": ["Government Minister"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "High-ranking minister in the Korellian government involved in trade negotiations and military planning.",
+          "role": "Government official",
+          "relationships": {
+            "serves": "Commdor Pherl",
+            "oversees": "trade negotiations",
+            "coordinates": "military preparations"
+          }
+        }
+      }
+    },
+    "korellian-admiral": {
+      "name": "Korellian Admiral",
+      "aliases": ["Fleet Commander"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Admiral commanding the Korellian fleet equipped with Imperial nuclear weapons for the war against the Foundation.",
+          "role": "Military commander",
+          "relationships": {
+            "commands": "Korellian fleet",
+            "equipped with": "Imperial weapons",
+            "plans": "attack on Foundation"
+          }
+        }
+      }
+    },
+    "foundation-spy": {
+      "name": "Foundation Spy",
+      "aliases": ["Intelligence Agent"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Secret agents working for the Foundation to gather intelligence on Korell's Imperial connections.",
+          "role": "Intelligence operative",
+          "relationships": {
+            "works for": "Foundation",
+            "gathers": "intelligence on Korell",
+            "reports to": "Hober Mallow"
+          }
+        }
+      }
+    },
+    "korellian-trade-official": {
+      "name": "Korellian Trade Official",
+      "aliases": ["Commerce Director"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Officials responsible for managing Korell's trade relationships and commercial policies.",
+          "role": "Trade administrator",
+          "relationships": {
+            "manages": "Korellian trade",
+            "negotiates": "commercial agreements",
+            "coordinates": "economic policy"
+          }
+        }
+      }
+    },
+    "imperial-agent": {
+      "name": "Imperial Agent",
+      "aliases": ["Empire Spy"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Secret agents of the Galactic Empire working to support Korell against the Foundation.",
+          "role": "Imperial operative",
+          "relationships": {
+            "serves": "Galactic Empire",
+            "supports": "Korell",
+            "opposes": "Foundation expansion"
+          }
+        }
+      }
+    },
+    "foundation-merchant-prince": {
+      "name": "Foundation Merchant Prince",
+      "aliases": ["Wealthy Trader"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Wealthy and influential merchants who have risen to political power through successful trading ventures.",
+          "role": "Merchant politician",
+          "relationships": {
+            "leads": "merchant class",
+            "influences": "Foundation policy",
+            "controls": "major trade routes"
+          }
+        }
+      }
+    },
+    "korellian-scientist": {
+      "name": "Korellian Scientist",
+      "aliases": ["Nuclear Technician"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Scientists working on Korell's independent nuclear technology with Imperial assistance.",
+          "role": "Nuclear scientist",
+          "relationships": {
+            "works on": "nuclear technology",
+            "assisted by": "Imperial experts",
+            "develops": "weapon systems"
+          }
+        }
+      }
+    },
+    "foundation-economic-warfare-specialist": {
+      "name": "Foundation Economic Warfare Specialist",
+      "aliases": ["Economic Strategist"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Specialists who develop and implement economic warfare strategies against hostile worlds.",
+          "role": "Economic strategist",
+          "relationships": {
+            "develops": "economic warfare",
+            "implements": "trade sanctions",
+            "advises": "Hober Mallow"
+          }
+        }
+      }
+    },
+    "korellian-military-officer": {
+      "name": "Korellian Military Officer",
+      "aliases": ["Army Commander"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Military officers commanding Korellian ground forces and coordinating with the fleet.",
+          "role": "Military officer",
+          "relationships": {
+            "commands": "Korellian forces",
+            "coordinates with": "fleet",
+            "prepares for": "war with Foundation"
+          }
+        }
+      }
+    },
+    "foundation-intelligence-chief": {
+      "name": "Foundation Intelligence Chief",
+      "aliases": ["Spymaster"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The head of Foundation intelligence services who coordinates espionage activities.",
+          "role": "Intelligence director",
+          "relationships": {
+            "leads": "intelligence services",
+            "coordinates": "espionage operations",
+            "reports to": "Foundation leadership"
+          }
+        }
+      }
+    },
+    "korellian-court-noble": {
+      "name": "Korellian Court Noble",
+      "aliases": ["Aristocrat"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Nobles at the Korellian court who participate in the political intrigues surrounding the Foundation.",
+          "role": "Court aristocrat",
+          "relationships": {
+            "serves": "Korellian court",
+            "participates in": "political intrigue",
+            "influences": "government policy"
+          }
+        }
+      }
+    },
+    "foundation-fleet-captain": {
+      "name": "Foundation Fleet Captain",
+      "aliases": ["Naval Commander"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Captains commanding Foundation naval vessels during the Korellian crisis.",
+          "role": "Naval officer",
+          "relationships": {
+            "commands": "Foundation ships",
+            "defends": "Foundation territory",
+            "implements": "naval strategy"
+          }
+        }
+      }
+    },
+    "korellian-citizen": {
+      "name": "Korellian Citizen",
+      "aliases": ["Local Population"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "The civilian population of Korell who become dependent on Foundation consumer goods and technology.",
+          "role": "Civilian population",
+          "relationships": {
+            "depends on": "Foundation goods",
+            "influences": "public opinion",
+            "affected by": "economic warfare"
+          }
+        }
+      }
+    },
+    "foundation-factory-manager": {
+      "name": "Foundation Factory Manager",
+      "aliases": ["Industrial Supervisor"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Managers overseeing Foundation manufacturing facilities producing goods for export.",
+          "role": "Industrial manager",
+          "relationships": {
+            "manages": "production facilities",
+            "oversees": "manufacturing",
+            "supplies": "trade goods"
+          }
+        }
+      }
+    },
+    "imperial-advisor": {
+      "name": "Imperial Advisor",
+      "aliases": ["Empire Counselor"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Imperial advisors secretly counseling Korell on military and political strategy against the Foundation.",
+          "role": "Political advisor",
+          "relationships": {
+            "advises": "Korell",
+            "represents": "Imperial interests",
+            "coordinates": "anti-Foundation strategy"
+          }
+        }
+      }
     }
   },
   "recaps": {
