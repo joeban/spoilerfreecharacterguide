@@ -1,0 +1,957 @@
+{
+  "meta": {
+    "title": "The Final Empire",
+    "author": "Brandon Sanderson",
+    "chapters": 38,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "vin": {
+      "name": "Vin",
+      "aliases": ["Valette Renoux", "Lady Valette", "The Heir of the Survivor"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young street thief, part of Camon's thieving crew. Nervous and untrusting, with the ability to sense when she's being watched or followed.",
+          "role": "Street thief",
+          "relationships": {
+            "Camon": "Thieving crew leader",
+            "Reen": "Missing brother who taught her to survive"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Discovered to have powerful Allomantic abilities. Learning to use her powers under Kelsier's guidance.",
+          "role": "Allomancer in training",
+          "relationships": {
+            "Kelsier": "Mentor and teacher",
+            "Dockson": "Crew member"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Taking on the identity of Valette Renoux, a noble lady. Learning etiquette and dance while infiltrating noble society.",
+          "role": "Noble impersonator",
+          "relationships": {
+            "Sazed": "Etiquette teacher",
+            "Lord Renoux": "Supposed uncle"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Attending noble balls and gathering intelligence. Growing more confident in her abilities and her role in the crew's plans.",
+          "role": "Spy and Allomancer",
+          "relationships": {
+            "Elend Venture": "Intriguing noble who doesn't fit the typical mold"
+          }
+        }
+      }
+    },
+    "kelsier": {
+      "name": "Kelsier",
+      "aliases": ["The Survivor of Hathsin", "The Survivor"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A legendary thief and Allomancer who survived the Pits of Hathsin. Charismatic and confident, with ambitious plans involving the nobility.",
+          "role": "Master thief and Mistborn",
+          "relationships": {
+            "Dockson": "Partner and friend",
+            "Mare": "Deceased wife"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Revealed to be a Mistborn with incredible Allomantic powers. Plans to rob the Lord Ruler himself and overthrow the Final Empire.",
+          "role": "Leader of the thieving crew",
+          "relationships": {
+            "Vin": "Student and protégé",
+            "Marsh": "Brother and Steel Inquisitor"
+          }
+        }
+      }
+    },
+    "elend-venture": {
+      "name": "Elend Venture",
+      "appearances": [10, 11, 14, 17, 18, 19, 20, 21, 22, 23, 29, 32, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A young nobleman from House Venture who reads philosophy books at balls instead of socializing. Seems different from other nobles.",
+          "role": "Noble heir",
+          "relationships": {
+            "Straff Venture": "Father",
+            "Valette Renoux": "Dance partner and interest"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Intelligent and idealistic, interested in social reform and treating skaa fairly. Genuinely cares about justice and equality.",
+          "role": "Reformist noble",
+          "relationships": {}
+        }
+      }
+    },
+    "sazed": {
+      "name": "Sazed",
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Terrisman steward serving Lord Renoux. Calm, scholarly, and devoted to preserving knowledge of dead religions.",
+          "role": "Terris steward and scholar",
+          "relationships": {
+            "Lord Renoux": "Master"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "A Keeper of Terris, storing knowledge and memories in metalminds. Teaching Vin noble etiquette and customs.",
+          "role": "Keeper and teacher",
+          "relationships": {
+            "Vin": "Student"
+          }
+        }
+      }
+    },
+    "marsh": {
+      "name": "Marsh",
+      "appearances": [4, 14, 24, 27, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Kelsier's older brother, a former thief turned skaa rebellion leader. More serious and cautious than his brother.",
+          "role": "Skaa rebellion leader",
+          "relationships": {
+            "Kelsier": "Younger brother"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Agrees to infiltrate the Steel Ministry by becoming an obligator, despite the risks involved.",
+          "role": "Undercover obligator",
+          "relationships": {}
+        }
+      }
+    },
+    "dockson": {
+      "name": "Dockson",
+      "aliases": ["Dox"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Kelsier's partner in thieving operations. Practical, organized, and handles the logistics of their jobs.",
+          "role": "Thief and organizer",
+          "relationships": {
+            "Kelsier": "Partner and friend"
+          }
+        }
+      }
+    },
+    "hammond": {
+      "name": "Hammond",
+      "aliases": ["Ham"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Thug (pewter burner) and philosopher. Strong and capable in combat but enjoys intellectual discussions.",
+          "role": "Thug and crew security",
+          "relationships": {
+            "Kelsier": "Crew member"
+          }
+        }
+      }
+    },
+    "breeze": {
+      "name": "Breeze",
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Soother who can dampen emotions. Well-dressed, refined, and enjoys the finer things in life.",
+          "role": "Soother and crew manipulator",
+          "relationships": {
+            "Kelsier": "Crew member"
+          }
+        }
+      }
+    },
+    "clubs": {
+      "name": "Clubs",
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Smoker who can hide Allomantic activity. Gruff and generally pessimistic, but skilled at his craft.",
+          "role": "Smoker and crew craftsman",
+          "relationships": {
+            "Kelsier": "Crew member"
+          }
+        }
+      }
+    },
+    "spook": {
+      "name": "Spook",
+      "aliases": ["Lestibournes"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Clubs' young nephew, a Tineye with enhanced senses. Speaks in Eastern street slang that's hard to understand.",
+          "role": "Tineye and scout",
+          "relationships": {
+            "Clubs": "Uncle",
+            "Kelsier": "Crew member"
+          }
+        }
+      }
+    },
+    "oreseur": {
+      "name": "OreSeur",
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A kandra who can consume corpses and take their form. Bound by Contract to serve Kelsier, though he shows disdain for humans.",
+          "role": "Kandra impersonator",
+          "relationships": {
+            "Kelsier": "Contract holder"
+          }
+        }
+      }
+    },
+    "lord-renoux": {
+      "name": "Lord Renoux",
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A plantation owner who agrees to help Kelsier's crew. Serves as Vin's supposed uncle in her noble disguise.",
+          "role": "Noble collaborator",
+          "relationships": {
+            "Valette Renoux": "Supposed niece"
+          }
+        }
+      }
+    },
+    "lord-ruler": {
+      "name": "Lord Ruler",
+      "aliases": ["Rashek", "The Sliver of Infinity", "The Hero of Ages"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The immortal emperor who conquered the world a thousand years ago. Rules the Final Empire with absolute authority.",
+          "role": "Emperor of the Final Empire",
+          "relationships": {}
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Believed to have defeated the ancient evil known as the Deepness. Maintains his rule through the Steel Ministry and noble houses.",
+          "role": "Divine emperor",
+          "relationships": {}
+        }
+      }
+    },
+    "straff-venture": {
+      "name": "Straff Venture",
+      "appearances": [10, 11, 17, 18, 19, 20, 21, 22, 23, 29, 32, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Head of House Venture, one of the most powerful noble families. Elend's father and a shrewd political player.",
+          "role": "Noble house leader",
+          "relationships": {
+            "Elend Venture": "Son"
+          }
+        }
+      }
+    },
+    "kliss": {
+      "name": "Kliss",
+      "appearances": [10, 11, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A young noble woman who serves as a source of gossip and information at balls. Talkative and well-informed about noble affairs.",
+          "role": "Noble gossip",
+          "relationships": {}
+        }
+      }
+    },
+    "shan-elariel": {
+      "name": "Shan Elariel",
+      "appearances": [11, 17, 18, 19, 20, 21, 22, 23, 29],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A beautiful noble woman from House Elariel. Seems to have romantic interest in Elend Venture.",
+          "role": "Noble heir",
+          "relationships": {
+            "Elend Venture": "Romantic interest"
+          }
+        }
+      }
+    },
+    "steel-inquisitor": {
+      "name": "Steel Inquisitor",
+      "appearances": [1, 2, 14, 24, 27, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mysterious and terrifying agents of the Lord Ruler with spikes driven through their eyes. Hunt and kill Allomancers.",
+          "role": "Lord Ruler's enforcers",
+          "relationships": {
+            "Lord Ruler": "Master"
+          }
+        }
+      }
+    },
+    "camon": {
+      "name": "Camon",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Leader of a thieving crew that includes Vin. Brutal and willing to use violence to maintain control over his people.",
+          "role": "Thieving crew leader",
+          "relationships": {
+            "Vin": "Crew member"
+          }
+        }
+      }
+    },
+    "theron": {
+      "name": "Theron",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of Camon's thieving crew. One of the thieves working the con job with the Ministry.",
+          "role": "Thief",
+          "relationships": {
+            "Camon": "Crew leader"
+          }
+        }
+      }
+    },
+    "ulef": {
+      "name": "Ulef",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another member of Camon's crew, nervous about their job with the Ministry obligators.",
+          "role": "Thief",
+          "relationships": {
+            "Camon": "Crew leader"
+          }
+        }
+      }
+    },
+    "prelan-laird": {
+      "name": "Prelan Laird",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A high-ranking obligator in the Steel Ministry who Camon's crew attempts to swindle.",
+          "role": "Steel Ministry obligator",
+          "relationships": {}
+        }
+      }
+    },
+    "milev": {
+      "name": "Milev",
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A thief working with Kelsier's expanded crew during the preparation phases of their plan.",
+          "role": "Thief",
+          "relationships": {
+            "Kelsier": "Crew member"
+          }
+        }
+      }
+    },
+    "yeden": {
+      "name": "Yeden",
+      "appearances": [8, 12, 16, 20, 24, 27, 28, 29, 30, 31],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Leader of a skaa rebellion group. Hires Kelsier's crew to train his soldiers and steal the Lord Ruler's atium.",
+          "role": "Skaa rebellion leader",
+          "relationships": {
+            "Kelsier": "Hired thief"
+          }
+        }
+      }
+    },
+    "captain-demoux": {
+      "name": "Captain Demoux",
+      "appearances": [16, 20, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A soldier in the skaa rebellion army being trained by Ham. Shows potential for leadership.",
+          "role": "Skaa soldier",
+          "relationships": {
+            "Ham": "Trainer",
+            "Yeden": "Leader"
+          }
+        }
+      }
+    },
+    "telden-hasting": {
+      "name": "Telden Hasting",
+      "appearances": [10, 11, 17, 18, 19, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A young nobleman who attends balls and social functions. Part of the younger noble generation.",
+          "role": "Young nobleman",
+          "relationships": {}
+        }
+      }
+    },
+    "lord-hasting": {
+      "name": "Lord Hasting",
+      "appearances": [18, 19, 20, 21, 22],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Head of House Hasting, one of the Great Houses. Involved in noble politics and trade.",
+          "role": "Noble house leader",
+          "relationships": {
+            "Telden Hasting": "Son"
+          }
+        }
+      }
+    },
+    "lord-lekal": {
+      "name": "Lord Lekal",
+      "appearances": [18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Head of House Lekal, another of the Great Houses with significant political influence.",
+          "role": "Noble house leader",
+          "relationships": {}
+        }
+      }
+    },
+    "rene": {
+      "name": "Rene",
+      "appearances": [6, 7, 8, 9, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A serving woman at Renoux's manor who helps care for Vin during her transformation into a noblewoman.",
+          "role": "Servant",
+          "relationships": {
+            "Lord Renoux": "Master"
+          }
+        }
+      }
+    },
+    "cosahn": {
+      "name": "Cosahn",
+      "appearances": [6, 7, 8, 9, 10, 11],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another servant at Renoux's manor who assists with Vin's noble education and preparation.",
+          "role": "Servant",
+          "relationships": {
+            "Lord Renoux": "Master"
+          }
+        }
+      }
+    },
+    "mare": {
+      "name": "Mare",
+      "appearances": [13, 27, 30, 32, 33],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Kelsier's deceased wife, a thief and Allomancer who was captured and killed in the Pits of Hathsin.",
+          "role": "Deceased thief",
+          "relationships": {
+            "Kelsier": "Husband"
+          }
+        }
+      }
+    },
+    "goradel": {
+      "name": "Goradel",
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A Venture house guard who becomes sympathetic to the skaa cause. Reliable and trustworthy.",
+          "role": "House guard",
+          "relationships": {
+            "Straff Venture": "Employer"
+          }
+        }
+      }
+    },
+    "elend-s-friends": {
+      "name": "Elend's Friends",
+      "appearances": [17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A group of young nobles who share Elend's interest in philosophy and social reform. Intellectuals among the nobility.",
+          "role": "Noble intellectuals",
+          "relationships": {
+            "Elend Venture": "Friend and leader"
+          }
+        }
+      }
+    },
+    "jassites": {
+      "name": "Jassites",
+      "appearances": [17, 18, 19, 20],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Members of a philosophical movement that Elend and his friends follow, focused on social justice and reform.",
+          "role": "Philosophical movement",
+          "relationships": {}
+        }
+      }
+    },
+    "house-tekiel": {
+      "name": "House Tekiel",
+      "appearances": [18, 19, 20, 21, 22, 23, 29],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "One of the Great Houses, involved in the complex politics and economics of the noble class.",
+          "role": "Noble house",
+          "relationships": {}
+        }
+      }
+    },
+    "house-elariel": {
+      "name": "House Elariel",
+      "appearances": [11, 17, 18, 19, 20, 21, 22, 23, 29],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A powerful Great House known for their political maneuvering and wealth.",
+          "role": "Noble house",
+          "relationships": {
+            "Shan Elariel": "Family member"
+          }
+        }
+      }
+    },
+    "obligator": {
+      "name": "Obligator",
+      "appearances": [1, 8, 12, 14, 24, 27, 31, 32, 33],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Bureaucratic priests of the Steel Ministry who handle contracts and administrative duties throughout the empire.",
+          "role": "Steel Ministry priest",
+          "relationships": {
+            "Lord Ruler": "Divine emperor"
+          }
+        }
+      }
+    },
+    "high-prelan": {
+      "name": "High Prelan",
+      "appearances": [14, 24, 27, 31, 32],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "High-ranking obligators who oversee major Steel Ministry operations and ceremonies.",
+          "role": "Senior Steel Ministry priest",
+          "relationships": {}
+        }
+      }
+    },
+    "kelsier-s-army": {
+      "name": "Kelsier's Army",
+      "appearances": [16, 20, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A growing force of skaa rebels trained by Ham and organized to support the overthrow of the Final Empire.",
+          "role": "Skaa rebel army",
+          "relationships": {
+            "Kelsier": "Leader",
+            "Ham": "Trainer"
+          }
+        }
+      }
+    },
+    "skaa-workers": {
+      "name": "Skaa Workers",
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The oppressed working class of the Final Empire, treated as property by the nobles and living in harsh conditions.",
+          "role": "Oppressed laborers",
+          "relationships": {}
+        }
+      }
+    },
+    "plantation-skaa": {
+      "name": "Plantation Skaa",
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Skaa workers on Lord Renoux's plantation who are treated better than most, serving as cover for the crew's operations.",
+          "role": "Plantation workers",
+          "relationships": {
+            "Lord Renoux": "Master"
+          }
+        }
+      }
+    },
+    "venture-guards": {
+      "name": "Venture Guards",
+      "appearances": [10, 11, 17, 18, 19, 20, 21, 22, 23, 29, 32, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "House soldiers employed by House Venture to protect their interests and property.",
+          "role": "House guards",
+          "relationships": {
+            "Straff Venture": "Employer"
+          }
+        }
+      }
+    },
+    "alendi": {
+      "name": "Alendi",
+      "appearances": [14, 26, 30, 32, 33, 35, 37],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A legendary figure from ancient history, believed to have been the Hero of Ages who was supposed to defeat the Deepness.",
+          "role": "Ancient hero",
+          "relationships": {}
+        }
+      }
+    },
+    "deepness": {
+      "name": "Deepness",
+      "appearances": [14, 26, 30, 32, 33, 35, 37, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "An ancient evil that threatened the world a thousand years ago, supposedly defeated by the Lord Ruler.",
+          "role": "Ancient threat",
+          "relationships": {}
+        }
+      }
+    },
+    "well-of-ascension": {
+      "name": "Well of Ascension",
+      "appearances": [14, 26, 30, 32, 33, 35, 37, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A mystical location of great power, connected to ancient prophecies and the defeat of the Deepness.",
+          "role": "Mystical location",
+          "relationships": {}
+        }
+      }
+    },
+    "keeper": {
+      "name": "Keeper",
+      "appearances": [5, 6, 7, 8, 13, 25, 26, 30, 33],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Terris people who preserve knowledge and memories of ancient religions and cultures in their metalminds.",
+          "role": "Knowledge preservers",
+          "relationships": {}
+        }
+      }
+    },
+    "terrismen": {
+      "name": "Terrismen",
+      "appearances": [5, 6, 7, 8, 13, 25, 26, 30, 33, 35],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "People from the northern dominance of Terris, many of whom serve as stewards and eunuchs in noble houses.",
+          "role": "Stewards and servants",
+          "relationships": {}
+        }
+      }
+    },
+    "atium-miners": {
+      "name": "Atium Miners",
+      "appearances": [13, 27, 30, 32, 33],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Prisoners forced to work in the Pits of Hathsin, mining the incredibly valuable atium for the Lord Ruler.",
+          "role": "Slave miners",
+          "relationships": {
+            "Lord Ruler": "Master"
+          }
+        }
+      }
+    },
+    "hathsin-survivor": {
+      "name": "Hathsin Survivor",
+      "appearances": [2, 13, 27, 30],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The rare few who have survived the brutal conditions of the Pits of Hathsin, considered legendary among thieves.",
+          "role": "Legendary survivor",
+          "relationships": {}
+        }
+      }
+    },
+    "kandra": {
+      "name": "Kandra",
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Mysterious creatures that can consume and perfectly imitate dead bodies, bound by magical Contracts to serve others.",
+          "role": "Shape-shifting servants",
+          "relationships": {}
+        }
+      }
+    },
+    "koloss": {
+      "name": "Koloss",
+      "appearances": [30, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Large, brutish creatures that serve the Lord Ruler as soldiers. Blue-skinned and incredibly strong.",
+          "role": "Lord Ruler's army",
+          "relationships": {
+            "Lord Ruler": "Master"
+          }
+        }
+      }
+    },
+    "inquisitor-kar": {
+      "name": "Inquisitor Kar",
+      "appearances": [32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "A Steel Inquisitor who leads the hunt for Kelsier's crew and the growing rebellion.",
+          "role": "Steel Inquisitor",
+          "relationships": {
+            "Lord Ruler": "Master"
+          }
+        }
+      }
+    },
+    "captain-goradel": {
+      "name": "Captain Goradel",
+      "appearances": [34, 35, 36, 37, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "The former Venture guard who has risen to captain among the rebel forces, proving his loyalty to the cause.",
+          "role": "Rebel captain",
+          "relationships": {
+            "Elend Venture": "Former master's son"
+          }
+        }
+      }
+    },
+    "reen": {
+      "name": "Reen",
+      "appearances": [1, 3, 7, 15, 23, 28, 35],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Vin's older brother who disappeared years ago. Taught her to be suspicious and untrusting of everyone.",
+          "role": "Vin's missing brother",
+          "relationships": {
+            "Vin": "Sister"
+          }
+        }
+      }
+    },
+    "nobleman-at-ball": {
+      "name": "Nobleman at Ball",
+      "appearances": [10, 11, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Various noble attendees at the balls who provide information and gossip about house politics.",
+          "role": "Noble society members",
+          "relationships": {}
+        }
+      }
+    },
+    "noblewoman-at-ball": {
+      "name": "Noblewoman at Ball",
+      "appearances": [10, 11, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Noble ladies who attend social functions and are sources of information about house affairs and marriages.",
+          "role": "Noble society members",
+          "relationships": {}
+        }
+      }
+    },
+    "house-servants": {
+      "name": "House Servants",
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Skaa workers who serve in noble houses, better treated than field workers but still considered property.",
+          "role": "Household servants",
+          "relationships": {}
+        }
+      }
+    },
+    "ministry-acolyte": {
+      "name": "Ministry Acolyte",
+      "appearances": [1, 14, 24, 27, 31],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Junior members of the Steel Ministry who assist obligators in their duties and ceremonies.",
+          "role": "Junior priest",
+          "relationships": {}
+        }
+      }
+    },
+    "canton-head": {
+      "name": "Canton Head",
+      "appearances": [14, 24, 27, 31, 32],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Leaders of the various cantons (departments) within the Steel Ministry bureaucracy.",
+          "role": "Ministry department head",
+          "relationships": {}
+        }
+      }
+    },
+    "luthadel-guards": {
+      "name": "Luthadel Guards",
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "City guards who patrol Luthadel and enforce order for the Lord Ruler's government.",
+          "role": "City guards",
+          "relationships": {
+            "Lord Ruler": "Ultimate authority"
+          }
+        }
+      }
+    },
+    "thieving-crew-member": {
+      "name": "Thieving Crew Member",
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Various thieves and criminals who work with Kelsier's expanding organization.",
+          "role": "Criminal associates",
+          "relationships": {
+            "Kelsier": "Leader"
+          }
+        }
+      }
+    },
+    "street-informant": {
+      "name": "Street Informant",
+      "appearances": [2, 3, 4, 5, 8, 12, 16, 20, 24],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Skaa who provide information about noble activities and guard movements in exchange for payment.",
+          "role": "Information broker",
+          "relationships": {}
+        }
+      }
+    },
+    "house-spy": {
+      "name": "House Spy",
+      "appearances": [10, 11, 17, 18, 19, 20, 21, 22, 23, 29],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Agents employed by various noble houses to gather intelligence on their rivals and political enemies.",
+          "role": "Noble house spy",
+          "relationships": {}
+        }
+      }
+    },
+    "kelsier-s-reputation": {
+      "name": "Kelsier's Reputation",
+      "appearances": [2, 3, 4, 8, 12, 16, 20, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The growing legend of Kelsier among the skaa as a symbol of hope and rebellion against noble oppression.",
+          "role": "Symbol of rebellion",
+          "relationships": {}
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Vin, a street thief in Luthadel, uses her mysterious ability to sense danger during a thieving job gone wrong. Her crew leader Camon is killed by a Steel Inquisitor, one of the Lord Ruler's terrifying agents. A stranger named Kelsier saves Vin and reveals that she has Allomantic powers.",
+    "2": "Kelsier, the legendary Survivor of Hathsin, explains Allomancy to Vin - the magical ability to ingest and burn metals for various powers. He recruits her into his thieving crew, which includes his partner Dockson. Kelsier reveals his audacious plan to rob the Lord Ruler himself and overthrow the Final Empire.",
+    "3": "Vin begins training in Allomancy under Kelsier's guidance, learning to burn pewter for strength and tin for enhanced senses. She meets the rest of Kelsier's crew and learns about their specialties. Kelsier demonstrates his incredible Mistborn abilities by fighting and defeating multiple Steel Ministry soldiers.",
+    "4": "The crew expands as Kelsier recruits Hammond (Ham) the Thug, Breeze the Soother, Clubs the Smoker, and his nephew Spook. Marsh, Kelsier's brother and leader of a skaa rebellion, joins their cause. They begin planning the complex heist that will fund their war against the Lord Ruler.",
+    "5": "Vin travels to Fellise and meets Sazed, a Terrisman steward who serves Lord Renoux. Sazed reveals he is a Keeper, preserving knowledge of dead religions in his metalminds. The crew establishes their base of operations at Renoux's manor, where Vin will train to impersonate a noblewoman.",
+    "6": "Vin undergoes an intensive transformation, learning noble etiquette, dancing, and customs from Sazed. She adopts the identity of Valette Renoux, Lord Renoux's niece. Meanwhile, Kelsier continues building his network of thieves and informants throughout Luthadel in preparation for their grand plan.",
+    "7": "Vin practices her Allomancy and noble persona while the crew works on various aspects of their plan. Kelsier demonstrates more advanced Allomantic techniques and begins spreading his reputation among the skaa as a figure of hope and rebellion against the nobility.",
+    "8": "The crew meets with Yeden, who hires them to steal the Lord Ruler's atium reserves and train an army of skaa soldiers. Kelsier's plan becomes clearer - they will collapse the Final Empire's economy while building a rebellion. Vin continues her preparation to infiltrate noble society.",
+    "9": "Vin's training intensifies as she learns more complex Allomantic techniques and noble social skills. The crew begins gathering resources and establishing connections throughout the city. Kelsier's influence grows among both criminals and skaa workers who see him as a liberator.",
+    "10": "Vin attends her first noble ball as Valette Renoux, successfully infiltrating Luthadel's high society. She meets Elend Venture, an unusual nobleman who reads philosophy instead of participating in typical noble politics. She also encounters various other nobles and begins gathering intelligence.",
+    "11": "At another ball, Vin continues building relationships within noble society and gathering information about house politics. She learns more about the complex relationships between the Great Houses and meets Shan Elariel, who seems interested in Elend Venture.",
+    "12": "The crew's preparations continue as they work on different aspects of their plan. Kelsier builds his reputation among the skaa, while the others gather resources and intelligence. Vin becomes more comfortable in her dual role as noblewoman and thief.",
+    "13": "Kelsier reveals more of his past, including his time in the Pits of Hathsin and the death of his wife Mare. The crew learns about atium, the most valuable metal in the empire, and its connection to the Lord Ruler's power. Vin's Allomantic abilities continue to grow stronger.",
+    "14": "Marsh infiltrates the Steel Ministry to become an obligator, despite the dangers involved. Ancient history is revealed about the Hero of Ages, Alendi, and the Deepness - an ancient evil that supposedly threatened the world before the Lord Ruler's ascension to power.",
+    "15": "The crew acquires the services of OreSeur, a kandra who can consume corpses and perfectly imitate their appearance. This shape-shifting creature will be crucial to their infiltration plans. Vin learns more about the various magical creatures that serve the Lord Ruler.",
+    "16": "Ham begins training Yeden's army of skaa rebels in a hidden location outside the city. The soldiers show promise but lack experience. Captain Demoux emerges as a potential leader among the troops. Meanwhile, the crew continues building their network and resources.",
+    "17": "Vin attends more balls and develops her relationship with Elend, learning about his progressive political views and desire for social reform. She meets his friends who share similar idealistic philosophies about treating skaa better and reforming the empire's harsh class system.",
+    "18": "The political situation among the Great Houses becomes more complex as various noble families maneuver for power. Vin gathers intelligence about house alliances and conflicts while maintaining her cover as Valette Renoux. The crew begins to see how their actions might exploit these political tensions.",
+    "19": "Vin's relationship with Elend deepens as she attends more social functions and learns about noble society from within. She continues to struggle with her growing feelings for him while maintaining her mission objectives. The crew's plans begin to accelerate.",
+    "20": "The skaa army's training progresses under Ham's direction, but challenges arise as the soldiers face the reality of their dangerous mission. Vin continues to attend balls and social functions, gathering more intelligence about noble house politics and relationships.",
+    "21": "Tensions rise among the Great Houses as political maneuvering intensifies. Vin learns more about the complex web of noble relationships and how the crew might exploit them. Her relationship with Elend continues to develop, creating internal conflict about her mission.",
+    "22": "The crew begins implementing more active phases of their plan as various pieces fall into place. Vin attends important social functions that provide crucial intelligence about noble house vulnerabilities. The political situation in Luthadel becomes increasingly unstable.",
+    "23": "Noble house politics reach a critical point as various factions prepare for potential conflict. Vin's position in high society provides the crew with invaluable intelligence about house military capabilities and alliances. Her relationship with Elend becomes more complicated.",
+    "24": "Marsh provides intelligence from within the Steel Ministry about Inquisitor movements and Ministry operations. The crew begins to understand more about the Lord Ruler's power structure and the magical forces at his command. Yeden's army continues training for their crucial role.",
+    "25": "Sazed shares more knowledge about ancient religions and the history preserved by the Keepers. This information begins to shed light on the true nature of the Lord Ruler's power and the historical events that shaped the current empire.",
+    "26": "Ancient secrets about the Well of Ascension and the Deepness are revealed through historical records and Keeper knowledge. The crew begins to understand that there may be more to the Lord Ruler's story than the official version taught throughout the empire.",
+    "27": "The crew's plan moves into more dangerous phases as they prepare for direct action against the Lord Ruler's forces. Marsh reports increased Steel Inquisitor activity, suggesting their activities may have been detected. The skaa army prepares for its role in the coming conflict.",
+    "28": "Political tensions among the Great Houses reach a boiling point as the crew's manipulations begin to bear fruit. Vin struggles with her dual identity as the plan requires her to take more aggressive action that conflicts with her growing personal relationships.",
+    "29": "The Great Houses move toward open conflict as carefully laid plans come to fruition. Vin faces difficult choices about her loyalties as the crew's actions threaten the safety of nobles she has come to care about, particularly Elend.",
+    "30": "The Lord Ruler's forces, including koloss armies, begin mobilizing in response to growing unrest. The crew realizes their plan has triggered larger conflicts than anticipated, and they must adapt quickly to the changing situation.",
+    "31": "Direct confrontation with the Lord Ruler's forces becomes inevitable as the rebellion reaches critical mass. The crew faces the reality that their plan will require enormous sacrifices, and not all of them may survive the coming battles.",
+    "32": "Major battles begin as various factions clash throughout Luthadel. The crew's carefully laid plans face their ultimate test as Steel Inquisitors hunt them down and the Lord Ruler himself begins to take direct action against the rebellion.",
+    "33": "The true nature of the Lord Ruler's power and immortality begins to be revealed as the final confrontation approaches. Kelsier faces the reality of what it will cost to defeat such an ancient and powerful enemy.",
+    "34": "Luthadel erupts in warfare as noble houses clash and the skaa rebellion reaches full scale. The crew finds themselves at the center of a conflict that will determine the fate of the entire Final Empire. Loyalties are tested as former allies face difficult choices.",
+    "35": "The climactic battles reach their peak as Kelsier confronts the Lord Ruler directly. Ancient secrets are finally revealed about the true history of the empire and the real identity of its immortal emperor. The cost of victory becomes clear.",
+    "36": "The final confrontation between Kelsier and the Lord Ruler takes place, with the fate of the empire hanging in the balance. Vin must use everything she has learned to play her part in the ultimate test of their plan.",
+    "37": "The aftermath of the great battle reveals the true cost of challenging the Lord Ruler's thousand-year reign. Vin faces the consequences of the crew's actions and must step into a role she never expected to fill.",
+    "38": "The Final Empire's thousand-year reign comes to an end, but victory comes with unexpected consequences and revelations. Vin and the surviving members of the crew must face a new world where their actions have unleashed forces they didn't fully understand."
+  }
+}

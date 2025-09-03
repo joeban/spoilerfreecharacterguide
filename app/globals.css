@@ -85,8 +85,8 @@
   /* 3D Book Styles - with GPU acceleration and will-change */
   .book-3d-container {
     @apply relative;
-    width: 155px;
-    height: 200px;
+    width: 190px;
+    height: 250px;
     perspective: 800px;
     margin: 0 10px;
     /* Force GPU acceleration */
@@ -117,8 +117,8 @@
   /* Book spine (left side) - visible face */
   .book-spine {
     @apply absolute top-0 h-full;
-    left: -35px;
-    width: 35px;
+    left: -42px;
+    width: 42px;
     background: inherit;
     transform: rotateY(-90deg);
     transform-origin: right center;
@@ -161,8 +161,8 @@
   .book-3d::after {
     content: '';
     @apply absolute top-0 h-full;
-    right: -25px;
-    width: 25px;
+    right: -30px;
+    width: 30px;
     background: linear-gradient(to right, 
       rgba(0,0,0,0.3) 0%, 
       rgba(0,0,0,0.1) 50%,

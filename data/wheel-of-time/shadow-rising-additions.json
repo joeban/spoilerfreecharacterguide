@@ -1,0 +1,72 @@
+{
+  "additional_characters": {
+    "trolloc-chief-1": {
+      "name": "Dhjin'nen",
+      "aliases": [],
+      "appearances": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Trolloc leader commanding raids against Two Rivers villages.",
+          "role": "Trolloc commander",
+          "relationships": {
+            "Command": "Trolloc war party",
+            "Target": "Two Rivers",
+            "Nature": "Shadowspawn leader"
+          }
+        }
+      }
+    },
+    "myrddraal-1": {
+      "name": "Shaidar Haran aspect",
+      "aliases": ["The Eyeless"],
+      "appearances": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Myrddraal directing Trolloc attacks on the Two Rivers, serving the Shadow's plans.",
+          "role": "Fade commander",
+          "relationships": {
+            "Command": "Trolloc forces",
+            "Master": "The Shadow",
+            "Mission": "Two Rivers destruction"
+          }
+        }
+      }
+    },
+    "sea-folk-1": {
+      "name": "Coine",
+      "aliases": ["Sailmistress Coine"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Sea Folk Sailmistress commanding a ship near Tanchico waters.",
+          "role": "Sailmistress",
+          "relationships": {
+            "Command": "Sea Folk vessel",
+            "Waters": "Tanchico region",
+            "People": "Atha'an Miere"
+          }
+        }
+      }
+    },
+    "sea-folk-2": {
+      "name": "Jorin",
+      "aliases": ["Windfinder Jorin"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Sea Folk Windfinder with weather-working abilities, serving on ships near Tarabon.",
+          "role": "Windfinder",
+          "relationships": {
+            "Ability": "Weather working",
+            "Ship": "Sea Folk vessel",
+            "Magic": "Wind and weather"
+          }
+        }
+      }
+    }
+  }
+}
