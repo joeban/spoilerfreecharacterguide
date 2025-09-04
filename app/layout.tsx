@@ -77,75 +77,19 @@ export default function RootLayout({
               <Link href="/" className="block">
                 <div className="hanging-sign relative">
                   {/* Sign chains */}
-                  <div className="absolute -top-8 left-8 w-1 h-8 rounded-full" style={{background: `linear-gradient(to bottom, #8b6f47, #654321)`}} />
-                  <div className="absolute -top-8 right-8 w-1 h-8 rounded-full" style={{background: `linear-gradient(to bottom, #8b6f47, #654321)`}} />
+                  <div className="absolute -top-8 left-8 w-1 h-8 rounded-full sign-chain" />
+                  <div className="absolute -top-8 right-8 w-1 h-8 rounded-full sign-chain" />
                   
                   {/* Wooden sign board */}
-                  <div className="px-12 py-6 rounded-lg shadow-2xl relative"
-                       style={{
-                         background: `linear-gradient(180deg, 
-                           #8b6f47 0%, 
-                           #a0845c 15%, 
-                           #6b5537 40%, 
-                           #5a4530 60%, 
-                           #4a3525 85%, 
-                           #3a2818 100%)`,
-                         boxShadow: `
-                           inset 0 2px 4px rgba(255,255,255,0.1),
-                           inset 0 -2px 8px rgba(0,0,0,0.4),
-                           inset 2px 0 8px rgba(0,0,0,0.3),
-                           inset -2px 0 8px rgba(0,0,0,0.3),
-                           0 8px 32px rgba(0,0,0,0.8),
-                           0 4px 16px rgba(0,0,0,0.6)`,
-                         border: '2px solid',
-                         borderColor: '#2a1f15',
-                         position: 'relative',
-                         overflow: 'hidden'
-                       }}>
+                  <div className="px-12 py-6 rounded-lg shadow-2xl relative sign-board">
                     {/* Wood grain texture overlay */}
-                    <div className="absolute inset-0 opacity-20" 
-                         style={{
-                           backgroundImage: `repeating-linear-gradient(
-                             90deg,
-                             transparent,
-                             transparent 2px,
-                             rgba(0,0,0,0.1) 2px,
-                             rgba(0,0,0,0.1) 4px
-                           ), repeating-linear-gradient(
-                             180deg,
-                             transparent,
-                             transparent 10px,
-                             rgba(0,0,0,0.05) 10px,
-                             rgba(0,0,0,0.05) 11px
-                           )`,
-                           mixBlendMode: 'multiply'
-                         }} />
+                    <div className="absolute inset-0 opacity-20 sign-texture" />
                     
                     {/* Metal corner bolts */}
-                    <div className="absolute top-3 left-3 w-5 h-5 rounded-full" 
-                         style={{
-                           background: 'radial-gradient(circle at 30% 30%, #6b5d4f 0%, #4a3f32 40%, #2d2520 100%)',
-                           boxShadow: 'inset -2px -2px 4px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.5)',
-                           border: '1px solid #1a1511'
-                         }} />
-                    <div className="absolute top-3 right-3 w-5 h-5 rounded-full" 
-                         style={{
-                           background: 'radial-gradient(circle at 30% 30%, #6b5d4f 0%, #4a3f32 40%, #2d2520 100%)',
-                           boxShadow: 'inset -2px -2px 4px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.5)',
-                           border: '1px solid #1a1511'
-                         }} />
-                    <div className="absolute bottom-3 left-3 w-5 h-5 rounded-full" 
-                         style={{
-                           background: 'radial-gradient(circle at 30% 30%, #6b5d4f 0%, #4a3f32 40%, #2d2520 100%)',
-                           boxShadow: 'inset -2px -2px 4px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.5)',
-                           border: '1px solid #1a1511'
-                         }} />
-                    <div className="absolute bottom-3 right-3 w-5 h-5 rounded-full" 
-                         style={{
-                           background: 'radial-gradient(circle at 30% 30%, #6b5d4f 0%, #4a3f32 40%, #2d2520 100%)',
-                           boxShadow: 'inset -2px -2px 4px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.5)',
-                           border: '1px solid #1a1511'
-                         }} />
+                    <div className="absolute top-3 left-3 w-5 h-5 rounded-full sign-nail" />
+                    <div className="absolute top-3 right-3 w-5 h-5 rounded-full sign-nail" />
+                    <div className="absolute bottom-3 left-3 w-5 h-5 rounded-full sign-nail" />
+                    <div className="absolute bottom-3 right-3 w-5 h-5 rounded-full sign-nail" />
                     
                     {/* Logo-style title */}
                     <div className="text-center relative">
