@@ -106,8 +106,8 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
         'force-repaint'
       )}>
         <div>
-          <h3 className="text-lg font-display text-amber-100">{title}</h3>
-          <p className="text-sm text-amber-200/70">{author}</p>
+          <h3 className="text-xl font-display text-amber-100">{title}</h3>
+          <p className="text-base text-amber-200/70">{author}</p>
         </div>
         <div className="flex items-center justify-center w-10 h-10 bg-amber-600/20 rounded-full">
           <span className="text-amber-100 font-bold">{bookCount}</span>
@@ -165,10 +165,10 @@ export default function BookSpine({ title, author, bookCount, orientation = 'ver
           {/* Cover content */}
           <div className="relative z-10 h-full flex flex-col justify-between p-3">
             <div className="space-y-1">
-              <h3 className="text-base font-display font-bold text-amber-100 leading-tight break-normal hyphens-none drop-shadow-md">
+              <h3 className="text-lg font-display font-bold text-amber-100 leading-tight break-normal hyphens-none drop-shadow-md">
                 {title}
               </h3>
-              <p className="text-xs text-amber-200/80 font-medium">{author}</p>
+              <p className="text-sm text-amber-200/80 font-medium">{author}</p>
             </div>
             
             {/* Decorative center element */}
