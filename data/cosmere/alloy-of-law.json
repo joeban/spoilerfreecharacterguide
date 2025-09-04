@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "title": "The Alloy of Law",
+    "author": "Brandon Sanderson",
+    "chapters": 20,
+    "schemaVersion": "2.0",
+    "asin": "0765368544"
+  },
+  "characters": {
+    "waxillium-ladrian": {
+      "name": "Waxillium Ladrian",
+      "aliases": ["Wax", "Lord Waxillium", "The Roughs Lawman"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A lawman in the Roughs, skilled with guns and Allomancy. Recently returned to Elendel after his uncle's death to inherit the family estate.",
+          "role": "Roughs lawman turned nobleman",
+          "relationships": {
+            "Lessie": "Deceased wife from the Roughs",
+            "Wayne": "Deputy and partner"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Revealed to be a Twinborn - can Push on metals (Coinshot) and alter his weight (Feruchemical iron). Struggling to adapt to noble society in Elendel.",
+          "role": "Twinborn heir to House Ladrian",
+          "relationships": {
+            "Steris Harms": "Arranged fiancée",
+            "Marasi Colms": "Steris's half-sister, law student"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Learns the devastating truth about Lessie's death and her true identity. Must confront his greatest enemy while dealing with this personal betrayal.",
+          "role": "Avenger seeking justice for Lessie",
+          "relationships": {
+            "Miles Dagouter": "Revealed enemy and Lessie's killer"
+          }
+        }
+      }
+    },
+    "wayne": {
+      "name": "Wayne",
+      "aliases": ["Deputy Wayne"],
+      "appearances": [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wax's loyal deputy in the Roughs. Quick with a joke and quicker with his guns. Has a habit of 'borrowing' things.",
+          "role": "Deputy lawman",
+          "relationships": {
+            "Waxillium Ladrian": "Partner and friend"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Revealed to be a Twinborn with the ability to create speed bubbles (Allomantic bendalloy) and store health (Feruchemical gold). Expert at disguises and accents.",
+          "role": "Twinborn investigator",
+          "relationships": {
+            "Marasi Colms": "Developing romantic interest"
+          }
+        }
+      }
+    },
+    "marasi-colms": {
+      "name": "Marasi Colms",
+      "aliases": ["Miss Colms"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Steris's half-sister and a law student at the university. Fascinated by criminal investigation and eager to help with the case.",
+          "role": "University law student",
+          "relationships": {
+            "Steris Harms": "Half-sister",
+            "Waxillium Ladrian": "Future brother-in-law"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Revealed to be a Mistborn with Allomantic abilities. Proves herself capable in dangerous situations despite her academic background.",
+          "role": "Allomantic investigator",
+          "relationships": {
+            "Wayne": "Growing romantic attraction"
+          }
+        }
+      }
+    },
+    "steris-harms": {
+      "name": "Steris Harms",
+      "aliases": ["Lady Steris"],
+      "appearances": [2, 3, 6, 9, 11, 14, 16, 19, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Wax's arranged fiancée from House Harms. Practical and organized, she approaches their engagement like a business arrangement.",
+          "role": "Noble lady and arranged bride",
+          "relationships": {
+            "Waxillium Ladrian": "Arranged fiancé",
+            "Marasi Colms": "Half-sister"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Shows unexpected courage and loyalty when Wax's life is in danger. Reveals depths of character beyond her formal exterior.",
+          "role": "Loyal partner in crisis",
+          "relationships": {
+            "Lord Harms": "Father"
+          }
+        }
+      }
+    },
+    "miles-dagouter": {
+      "name": "Miles Dagouter",
+      "aliases": ["Hundredlives", "The Vanisher Leader"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A mysterious figure connected to the Vanishers gang. Appears to have unusual abilities that make him extremely difficult to kill.",
+          "role": "Vanishers leader",
+          "relationships": {}
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "Revealed as the man who killed Lessie and has been orchestrating the Vanisher crimes. A Twinborn with healing abilities who can survive almost any injury.",
+          "role": "Lessie's killer and criminal mastermind",
+          "relationships": {
+            "Lessie": "Murdered her",
+            "The Set": "Works for this mysterious organization"
+          }
+        }
+      }
+    },
+    "lessie": {
+      "name": "Lessie",
+      "aliases": ["Wax's Wife"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wax's deceased wife from his time in the Roughs. Her death deeply affected him and drove him to pursue justice relentlessly.",
+          "role": "Deceased wife",
+          "relationships": {
+            "Waxillium Ladrian": "Beloved husband"
+          }
+        },
+        "17": {
+          "revealedIn": 17,
+          "description": "The truth about her identity and death is revealed, showing that her murder was part of a larger conspiracy involving the Set.",
+          "role": "Victim of larger conspiracy",
+          "relationships": {
+            "Miles Dagouter": "Killed by him"
+          }
+        }
+      }
+    },
+    "mr-suit": {
+      "name": "Mr. Suit",
+      "aliases": ["The Suit", "Set Representative"],
+      "appearances": [18, 19, 20],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A mysterious and well-dressed figure who represents the shadowy organization known as the Set. Appears to be pulling strings from behind the scenes.",
+          "role": "Set operative",
+          "relationships": {
+            "The Set": "High-ranking member",
+            "Miles Dagouter": "Superior"
+          }
+        }
+      }
+    },
+    "lord-harms": {
+      "name": "Lord Harms",
+      "aliases": ["Steris's Father"],
+      "appearances": [2, 3, 6, 16, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Head of House Harms and Steris's father. A practical nobleman who arranged his daughter's engagement to strengthen both houses.",
+          "role": "Noble house head",
+          "relationships": {
+            "Steris Harms": "Daughter",
+            "Marasi Colms": "Illegitimate daughter"
+          }
+        }
+      }
+    },
+    "harmony": {
+      "name": "Harmony",
+      "aliases": ["Sazed", "The God of Scadrial"],
+      "appearances": [20],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "The god of Scadrial, formed from the combination of Preservation and Ruin. Provides guidance and support to those who serve justice.",
+          "role": "Divine entity",
+          "relationships": {
+            "Waxillium Ladrian": "Provides divine guidance"
+          }
+        }
+      }
+    },
+    "captain-brettin": {
+      "name": "Captain Brettin",
+      "aliases": ["Brettin"],
+      "appearances": [3, 4, 5, 8, 11, 15],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A captain in the Elendel constabulary who works with Wax on the Vanisher case. Professional but somewhat skeptical of Wax's unconventional methods.",
+          "role": "Constabulary captain",
+          "relationships": {
+            "Waxillium Ladrian": "Investigative partner"
+          }
+        }
+      }
+    },
+    "uncle-edwarn": {
+      "name": "Uncle Edwarn",
+      "aliases": ["Lord Ladrian", "Edwarn Ladrian"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wax's deceased uncle who ran House Ladrian before his death. His passing forced Wax to return from the Roughs to inherit the family responsibilities.",
+          "role": "Deceased family patriarch",
+          "relationships": {
+            "Waxillium Ladrian": "Nephew and heir"
+          }
+        }
+      }
+    },
+    "professor-hanlanaze": {
+      "name": "Professor Hanlanaze",
+      "aliases": ["The Professor"],
+      "appearances": [3, 8, 12],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A university professor who lectures on law enforcement and criminal justice. Marasi's mentor and a respected academic.",
+          "role": "University professor",
+          "relationships": {
+            "Marasi Colms": "Student"
+          }
+        }
+      }
+    },
+    "tillaume": {
+      "name": "Tillaume",
+      "aliases": ["Wax's Valet"],
+      "appearances": [2, 6, 9, 14, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Wax's devoted valet who helps him navigate the complexities of noble society. Extremely proper and well-versed in etiquette.",
+          "role": "Personal valet",
+          "relationships": {
+            "Waxillium Ladrian": "Employer and master"
+          }
+        }
+      }
+    },
+    "constable-jackson": {
+      "name": "Constable Jackson",
+      "aliases": ["Jackson"],
+      "appearances": [4, 5, 8, 11],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A constable who works under Captain Brettin. Professional and dedicated to upholding the law in Elendel.",
+          "role": "Elendel constable",
+          "relationships": {
+            "Captain Brettin": "Superior officer"
+          }
+        }
+      }
+    },
+    "constable-marken": {
+      "name": "Constable Marken",
+      "aliases": ["Marken"],
+      "appearances": [5, 8, 15],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another constable working on the Vanisher case. Reliable officer who follows orders and investigates diligently.",
+          "role": "Elendel constable",
+          "relationships": {
+            "Captain Brettin": "Reports to"
+          }
+        }
+      }
+    },
+    "the-survivor": {
+      "name": "The Survivor",
+      "aliases": ["Kelsier", "The Survivor of Hathsin"],
+      "appearances": [6, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A legendary figure from the past, now worshipped as a religious figure. His teachings about fighting oppression still inspire people.",
+          "role": "Historical religious figure",
+          "relationships": {}
+        }
+      }
+    },
+    "the-ascendant-warrior": {
+      "name": "The Ascendant Warrior",
+      "aliases": ["Lady Vin", "Vin"],
+      "appearances": [6, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another legendary figure from the past, remembered alongside the Survivor. Known for her incredible power and role in saving the world.",
+          "role": "Historical heroic figure",
+          "relationships": {
+            "The Survivor": "Historical companion"
+          }
+        }
+      }
+    },
+    "lord-yomen": {
+      "name": "Lord Yomen",
+      "aliases": ["Yomen"],
+      "appearances": [2, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Head of House Yomen and a prominent nobleman in Elendel. Involved in various business and political affairs.",
+          "role": "Noble house head",
+          "relationships": {}
+        }
+      }
+    },
+    "vanisher-thug-1": {
+      "name": "Vanisher Thug",
+      "aliases": ["Gang Member"],
+      "appearances": [4, 8, 12, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "One of the criminals working with the Vanishers gang. Armed and dangerous, following orders from higher-ranking members.",
+          "role": "Criminal gang member",
+          "relationships": {
+            "Miles Dagouter": "Works under"
+          }
+        }
+      }
+    },
+    "train-engineer": {
+      "name": "Train Engineer",
+      "aliases": ["Engineer"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The engineer of the train that was robbed by the Vanishers. Witnessed the attack and provided crucial testimony.",
+          "role": "Train operator and witness",
+          "relationships": {}
+        }
+      }
+    },
+    "house-ladrian-guard": {
+      "name": "House Ladrian Guard",
+      "aliases": ["Estate Guard"],
+      "appearances": [2, 14, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Security personnel protecting the Ladrian estate. Professional guards who ensure the safety of the family property.",
+          "role": "Estate security",
+          "relationships": {
+            "Waxillium Ladrian": "Protects"
+          }
+        }
+      }
+    },
+    "banker-druffel": {
+      "name": "Banker Druffel",
+      "aliases": ["Druffel"],
+      "appearances": [2, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A banker who handles House Ladrian's financial affairs. Concerned about the family's debts and business arrangements.",
+          "role": "Financial advisor",
+          "relationships": {
+            "Waxillium Ladrian": "Handles finances for"
+          }
+        }
+      }
+    },
+    "dock-worker-fabe": {
+      "name": "Dock Worker Fabe",
+      "aliases": ["Fabe"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dock worker who witnessed suspicious activity related to the Vanisher crimes. Provides information to the investigation.",
+          "role": "Witness and informant",
+          "relationships": {}
+        }
+      }
+    },
+    "bartender-cox": {
+      "name": "Bartender Cox",
+      "aliases": ["Cox"],
+      "appearances": [7, 12],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A bartender in one of Elendel's rougher establishments. Has connections to the criminal underworld and provides information.",
+          "role": "Informant",
+          "relationships": {
+            "Wayne": "Provides information to"
+          }
+        }
+      }
+    },
+    "lady-sequence": {
+      "name": "Lady Sequence",
+      "aliases": ["Sequence"],
+      "appearances": [3, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A prominent noblewoman who attends social gatherings. Well-connected in Elendel society and aware of various rumors.",
+          "role": "Noble socialite",
+          "relationships": {}
+        }
+      }
+    },
+    "house-harms-servant": {
+      "name": "House Harms Servant",
+      "aliases": ["Servant"],
+      "appearances": [2, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A servant working in House Harms who assists with household duties and serves during social functions.",
+          "role": "Household servant",
+          "relationships": {
+            "Lord Harms": "Works for",
+            "Steris Harms": "Serves"
+          }
+        }
+      }
+    },
+    "vanisher-lookout": {
+      "name": "Vanisher Lookout",
+      "aliases": ["Gang Lookout"],
+      "appearances": [8, 11, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A member of the Vanisher gang who serves as a lookout during their criminal operations. Alert and cautious.",
+          "role": "Criminal lookout",
+          "relationships": {
+            "Miles Dagouter": "Reports to"
+          }
+        }
+      }
+    },
+    "train-conductor": {
+      "name": "Train Conductor",
+      "aliases": ["Conductor"],
+      "appearances": [4, 11],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The conductor of the train robbed by the Vanishers. Helped passengers during the attack and provided witness testimony.",
+          "role": "Train crew member",
+          "relationships": {
+            "Train Engineer": "Works with"
+          }
+        }
+      }
+    },
+    "merchant-krent": {
+      "name": "Merchant Krent",
+      "aliases": ["Krent"],
+      "appearances": [5, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A merchant whose goods were targeted by the Vanishers. Provides information about the specific items that were stolen.",
+          "role": "Victim and witness",
+          "relationships": {}
+        }
+      }
+    },
+    "constable-reddi": {
+      "name": "Constable Reddi",
+      "aliases": ["Reddi"],
+      "appearances": [11, 15, 18],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A constable who participates in the investigation of the Vanisher crimes. Dependable officer who follows orders.",
+          "role": "Elendel constable",
+          "relationships": {
+            "Captain Brettin": "Serves under"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Waxillium Ladrian, a lawman from the Roughs, pursues outlaws through dangerous terrain. After a shootout, he receives news that his uncle has died and he must return to Elendel to inherit House Ladrian.",
+    "2": "Wax arrives in Elendel and meets his arranged fiancée Steris Harms. He struggles to adapt to noble society while learning about his inherited responsibilities and debts.",
+    "3": "At a social gathering, Wax meets Marasi Colms, Steris's half-sister who studies law enforcement. Their conversation is interrupted by news of a train robbery by the mysterious Vanishers gang.",
+    "4": "Wax and Wayne investigate the train robbery scene. They discover unusual Allomantic evidence and realize the thieves are specifically targeting valuable items rather than money.",
+    "5": "The investigation continues as Wax and Wayne interview witnesses and examine the robbery patterns. They begin to suspect the Vanishers have inside information about shipments.",
+    "6": "Wax attends another noble function where he learns more about the city's problems with crime. Meanwhile, the Vanishers strike again with increasing boldness.",
+    "7": "Wayne goes undercover to gather information about the criminal underworld. Wax struggles with his dual identity as both nobleman and lawman.",
+    "8": "The investigation leads to a dangerous confrontation as Wax and Wayne track down leads in the rougher parts of Elendel. They discover the scope of the Vanishers' operation.",
+    "9": "Wax faces pressure from noble society while continuing his investigation. The Vanishers' activities escalate, threatening more than just property.",
+    "10": "A major breakthrough in the case reveals connections between the robberies and certain members of Elendel's elite. Wax begins to suspect a larger conspiracy.",
+    "11": "Wax and his team prepare for a dangerous operation to infiltrate the Vanishers' organization. The stakes rise as innocent lives are threatened.",
+    "12": "The infiltration plan goes into effect, leading to revelations about the true scope and purpose of the Vanishers' criminal activities.",
+    "13": "Shocking discoveries about the Vanishers' leadership and motivations change everything Wax thought he knew about the case.",
+    "14": "Wax confronts difficult truths about the past while the investigation takes several unexpected turns. Personal and professional conflicts intensify.",
+    "15": "The conspiracy widens as Wax uncovers connections to powerful figures in Elendel society. The true enemy begins to reveal themselves.",
+    "16": "Wax faces his greatest challenge yet as the case becomes deeply personal. Past and present collide in dangerous ways.",
+    "17": "The truth about Lessie's death is revealed, forcing Wax to confront painful memories while dealing with immediate threats to those he cares about.",
+    "18": "Wax and his allies prepare for a final confrontation with the true mastermind behind the Vanishers and their criminal enterprise.",
+    "19": "The climactic battle takes place as Wax faces off against his enemies, using all his skills as both lawman and Twinborn to protect innocent lives.",
+    "20": "In the aftermath of the final confrontation, Wax comes to terms with his place in both the noble world and his role as protector of justice."
+  }
+}
