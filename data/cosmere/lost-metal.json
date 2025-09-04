@@ -1,0 +1,1776 @@
+{
+  "meta": {
+    "title": "The Lost Metal",
+    "author": "Brandon Sanderson",
+    "chapters": 74,
+    "schemaVersion": "2.0",
+    "asin": "0765391198"
+  },
+  "characters": {
+    "waxillium-ladrian": {
+      "name": "Waxillium Ladrian",
+      "aliases": ["Wax", "Lord Waxillium", "The Lawman"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now a seasoned investigator with his wife Steris, facing new threats from The Set's global operations and dealing with strange harmonium-related incidents across the city.",
+          "role": "Veteran investigator and nobleman",
+          "relationships": {
+            "Steris Harms": "Devoted wife",
+            "Wayne": "Longtime partner and best friend",
+            "Marasi Colms": "Trusted ally"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Discovers disturbing connections between The Set's operations and off-world influences that threaten not just Elendel but all of Scadrial.",
+          "role": "Defender against cosmic threats",
+          "relationships": {
+            "Harmony": "Receives divine guidance from",
+            "Kelsier": "Learns the truth about"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Confronts the reality of off-world interference in his planet's affairs and makes difficult choices about Scadrial's future relationship with the broader cosmere.",
+          "role": "Champion of Scadrial",
+          "relationships": {
+            "Autonomy": "Opposes the influence of"
+          }
+        }
+      }
+    },
+    "wayne": {
+      "name": "Wayne",
+      "aliases": ["Deputy Wayne", "The Slider"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues his partnership with Wax while developing his relationship with Ranette and dealing with his own fears about commitment and mortality.",
+          "role": "Twinborn partner and comic relief",
+          "relationships": {
+            "Waxillium Ladrian": "Partner and best friend",
+            "Ranette": "Growing romantic interest",
+            "MeLaan": "Close friend"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Faces personal growth and makes sacrifices that demonstrate his evolution from a carefree thief into a true hero willing to risk everything for others.",
+          "role": "Self-sacrificing hero",
+          "relationships": {
+            "The Set": "Infiltrates to protect friends"
+          }
+        },
+        "72": {
+          "revealedIn": 72,
+          "description": "His final actions in the climactic battle showcase the depth of his loyalty and courage, proving himself as more than just comic relief but a true friend and hero.",
+          "role": "Heroic sacrifice",
+          "relationships": {
+            "Marasi Colms": "Says goodbye to"
+          }
+        }
+      }
+    },
+    "steris-harms": {
+      "name": "Steris Harms",
+      "aliases": ["Lady Steris", "Mrs. Ladrian"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now fully integrated into Wax's dangerous lifestyle, she provides crucial organizational skills and unexpected courage in confronting The Set's latest schemes.",
+          "role": "Devoted wife and strategic planner",
+          "relationships": {
+            "Waxillium Ladrian": "Beloved husband",
+            "Marasi Colms": "Half-sister and friend"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Takes on greater leadership responsibilities during crisis situations, proving herself as capable of making difficult decisions under pressure.",
+          "role": "Crisis manager and leader",
+          "relationships": {
+            "Constable Aradel": "Coordinates with authorities"
+          }
+        }
+      }
+    },
+    "marasi-colms": {
+      "name": "Marasi Colms",
+      "aliases": ["Constable Colms", "Captain Colms"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now promoted to captain, she leads major investigations into The Set while coordinating law enforcement responses to escalating threats across the city.",
+          "role": "Police captain and lead investigator",
+          "relationships": {
+            "Wayne": "Close friend with unresolved feelings",
+            "Captain Aradel": "Reports to as superior",
+            "Steris Harms": "Half-sister"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Makes crucial discoveries about The Set's infiltration of law enforcement and government, coordinating efforts to root out corruption at all levels.",
+          "role": "Anti-corruption specialist",
+          "relationships": {
+            "Governor Innate": "Works directly with"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Takes command during the city-wide crisis, coordinating civilian evacuation and law enforcement response to The Set's final gambit.",
+          "role": "Emergency coordinator",
+          "relationships": {
+            "Constables": "Commands emergency response team"
+          }
+        }
+      }
+    },
+    "melaan": {
+      "name": "MeLaan",
+      "aliases": ["Kandra Seventh Generation", "Paalm"],
+      "appearances": [2, 3, 5, 8, 9, 11, 12, 14, 15, 17, 18, 20, 21, 23, 24, 26, 27, 29, 30, 32, 33, 35, 36, 38, 39, 41, 42, 44, 45, 47, 48, 50, 51, 53, 54, 56, 57, 59, 60, 62, 63, 65, 66, 68, 69, 71, 72, 74],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Continues serving as the team's shapeshifting infiltrator, using her abilities to investigate The Set's operations while struggling with questions about kandra loyalty.",
+          "role": "Shapeshifting investigator",
+          "relationships": {
+            "Wayne": "Close friend and confidant",
+            "Harmony": "Servant with growing independence"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Provides crucial intelligence about off-world threats and helps the team understand the cosmic implications of The Set's activities.",
+          "role": "Cosmic intelligence specialist",
+          "relationships": {
+            "TenSoon": "Fellow kandra advisor",
+            "Waxillium Ladrian": "Trusted team member"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Makes the ultimate sacrifice to protect her friends and Scadrial from off-world interference, demonstrating her complete loyalty to her chosen family.",
+          "role": "Heroic protector",
+          "relationships": {
+            "The Ghostbloods": "Infiltrates to gather intelligence"
+          }
+        }
+      }
+    },
+    "ranette": {
+      "name": "Ranette",
+      "aliases": ["The Gunsmith", "Inventor"],
+      "appearances": [3, 5, 7, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The brilliant gunsmith continues developing advanced weapons while navigating her complicated feelings for Wayne and her role in fighting The Set.",
+          "role": "Master gunsmith and inventor",
+          "relationships": {
+            "Wayne": "Romantic interest with complications",
+            "Waxillium Ladrian": "Weapons supplier"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Creates specialized weapons designed to combat off-world technology and threats, proving essential to the team's arsenal in their final battle.",
+          "role": "Advanced weapons designer",
+          "relationships": {
+            "Constables": "Supplies specialized equipment"
+          }
+        },
+        "66": {
+          "revealedIn": 66,
+          "description": "Her innovations prove crucial in the final confrontation, and she finally admits her feelings for Wayne while creating weapons that can affect cosmere-aware beings.",
+          "role": "Cosmere weapons specialist",
+          "relationships": {
+            "The Set": "Develops countermeasures against"
+          }
+        }
+      }
+    },
+    "kelsier": {
+      "name": "Kelsier",
+      "aliases": ["The Sovereign", "Thaidakar", "The Survivor"],
+      "appearances": [45, 50, 55, 60, 65, 70, 74],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Revealed to be operating through the Ghostbloods organization, working to protect Scadrial from off-world interference while pursuing his own agenda.",
+          "role": "Ghostbloods leader and protector",
+          "relationships": {
+            "Harmony": "Complex relationship with",
+            "The Ghostbloods": "Secret leader of"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Confronts the team directly about the cosmic threats facing Scadrial and reveals his true motivations for opposing other Shards' interference.",
+          "role": "Cosmere-aware protector",
+          "relationships": {
+            "Waxillium Ladrian": "Reluctant ally",
+            "Autonomy": "Opposes the influence of"
+          }
+        },
+        "70": {
+          "revealedIn": 70,
+          "description": "Makes his final play to protect Scadrial, working both with and against the protagonists to ensure his world's safety from cosmic threats.",
+          "role": "Anti-hero savior",
+          "relationships": {
+            "Spook": "Coordinates with old Crew member"
+          }
+        }
+      }
+    },
+    "harmony": {
+      "name": "Harmony",
+      "aliases": ["Sazed", "The God of Scadrial"],
+      "appearances": [15, 25, 35, 45, 55, 65, 74],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Provides guidance to his servants while struggling with the ethical implications of interference in mortal affairs during the escalating crisis.",
+          "role": "Divine advisor and protector",
+          "relationships": {
+            "MeLaan": "Guides and supports",
+            "TenSoon": "Works through ancient servant"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Revealed to be in conflict with Kelsier over the best way to protect Scadrial, creating tension between divine will and mortal determination.",
+          "role": "Conflicted deity",
+          "relationships": {
+            "Kelsier": "Disagrees with methods of",
+            "Waxillium Ladrian": "Provides direct guidance to"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Makes difficult choices about direct intervention in mortal affairs when faced with the threat of off-world invasion and manipulation.",
+          "role": "Active divine participant",
+          "relationships": {
+            "Autonomy": "Opposes interference from"
+          }
+        }
+      }
+    },
+    "tensoon": {
+      "name": "TenSoon",
+      "aliases": ["Kandra First Generation", "Ancient One"],
+      "appearances": [8, 15, 25, 35, 45, 55, 65, 74],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The ancient kandra provides historical context and wisdom about past crises while helping coordinate kandra responses to The Set's activities.",
+          "role": "Elder advisor and historian",
+          "relationships": {
+            "MeLaan": "Mentors and guides",
+            "Harmony": "Direct servant and confidant"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Reveals crucial information about off-world threats and the history of Shardic interference on Scadrial, drawing parallels to ancient conflicts.",
+          "role": "Cosmic historian",
+          "relationships": {
+            "Kelsier": "Remembers from original Crew"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Plays a crucial role in the final battle, using his ancient knowledge and abilities to help protect Scadrial from cosmic-level threats.",
+          "role": "Ancient guardian",
+          "relationships": {
+            "Other Kandra": "Leads in final conflict"
+          }
+        }
+      }
+    },
+    "telsin-ladrian": {
+      "name": "Telsin Ladrian",
+      "aliases": ["Telsin", "The Traitor Sister"],
+      "appearances": [8, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Wax's sister continues her work with The Set, now revealed to be operating at the highest levels of their organization with knowledge of off-world contacts.",
+          "role": "High-ranking Set operative",
+          "relationships": {
+            "Waxillium Ladrian": "Estranged brother",
+            "The Set": "Senior leader",
+            "Autonomy": "Serves interests of"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Confronts Wax directly about their family loyalty versus her commitment to what she believes is Scadrial's future, revealing her cosmic perspective.",
+          "role": "Cosmere-aware antagonist",
+          "relationships": {
+            "Suit": "Works with Set leadership"
+          }
+        },
+        "66": {
+          "revealedIn": 66,
+          "description": "Makes her final stand, choosing her ideology over family bonds while demonstrating the depth of off-world influence on The Set's operations.",
+          "role": "Tragic antagonist",
+          "relationships": {
+            "House Ladrian": "Betrayer of family legacy"
+          }
+        }
+      }
+    },
+    "captain-aradel": {
+      "name": "Captain Aradel",
+      "aliases": ["Aradel", "Police Captain"],
+      "appearances": [1, 4, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Now working closely with Marasi as she takes on greater responsibilities, coordinating police responses to The Set's escalating activities across the city.",
+          "role": "Senior police commander",
+          "relationships": {
+            "Marasi Colms": "Subordinate and successor",
+            "Governor Innate": "Reports to government"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Coordinates city-wide emergency response as The Set's activities threaten civilian populations, working to maintain order during crisis.",
+          "role": "Emergency response coordinator",
+          "relationships": {
+            "Constable Forces": "Commands during crisis"
+          }
+        }
+      }
+    },
+    "governor-innate": {
+      "name": "Governor Replar Innate",
+      "aliases": ["Governor Innate", "His Excellency"],
+      "appearances": [4, 11, 18, 25, 32, 39, 46, 53, 60, 67, 74],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Deals with increasing political pressure as The Set's activities threaten not just Elendel but regional stability, coordinating government response.",
+          "role": "Regional political leader",
+          "relationships": {
+            "Captain Aradel": "Works with law enforcement",
+            "Marasi Colms": "Coordinates with investigators"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Faces the reality of off-world threats to his jurisdiction and makes difficult decisions about Scadrial's place in the broader cosmere.",
+          "role": "Crisis government leader",
+          "relationships": {
+            "Federal Government": "Coordinates with higher authorities"
+          }
+        }
+      }
+    },
+    "suit": {
+      "name": "Suit",
+      "aliases": ["Edwarn Ladrian", "The Suit", "Set Leader"],
+      "appearances": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Continues leading The Set's operations with increasing desperation as off-world pressures mount and his organization faces exposure.",
+          "role": "Set supreme commander",
+          "relationships": {
+            "Telsin Ladrian": "Senior operative",
+            "The Set": "Supreme leader"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Reveals the true scope of The Set's off-world connections and their role as agents of external Shardic influence on Scadrial.",
+          "role": "Off-world agent",
+          "relationships": {
+            "Autonomy": "Serves the interests of"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Makes his final play to fulfill his off-world masters' agenda, demonstrating the extent to which he has been corrupted by external influence.",
+          "role": "Corrupted final boss",
+          "relationships": {
+            "Waxillium Ladrian": "Ultimate family enemy"
+          }
+        }
+      }
+    },
+    "constable-brett": {
+      "name": "Constable Brett",
+      "aliases": ["Brett", "Officer Brett"],
+      "appearances": [1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A reliable constable who continues working crime scenes related to The Set while dealing with increasingly strange incidents involving harmonium.",
+          "role": "Field investigator",
+          "relationships": {
+            "Marasi Colms": "Reports to Captain",
+            "Captain Aradel": "Senior officer"
+          }
+        }
+      }
+    },
+    "constable-reddi": {
+      "name": "Constable Reddi",
+      "aliases": ["Reddi", "Officer Reddi"],
+      "appearances": [1, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Works alongside other constables investigating The Set's escalating activities while dealing with reports of strange metallic incidents across the city.",
+          "role": "Street-level investigator",
+          "relationships": {
+            "Constable Brett": "Partner officer",
+            "Marasi Colms": "Superior officer"
+          }
+        }
+      }
+    },
+    "tillaume": {
+      "name": "Tillaume",
+      "aliases": ["Wax's Butler", "Estate Manager"],
+      "appearances": [1, 6, 11, 16, 21, 26, 31, 36, 41, 46, 51, 56, 61, 66, 71, 74],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Continues managing Wax and Steris's household while adapting to the increased security needs and dangerous lifestyle of his employers.",
+          "role": "Loyal household manager",
+          "relationships": {
+            "Waxillium Ladrian": "Devoted servant",
+            "Steris Harms": "Household coordinator"
+          }
+        }
+      }
+    },
+    "mayor-bleeder": {
+      "name": "Mayor Replar Sequence",
+      "aliases": ["Mayor Sequence", "Bilming Mayor"],
+      "appearances": [8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The mayor of Bilming who becomes involved in The Set's operations, either willingly or through coercion, as they establish operations in his city.",
+          "role": "Compromised city official",
+          "relationships": {
+            "The Set": "Cooperates with or controlled by",
+            "Bilming Citizens": "Represents but betrays"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Reveals the extent of The Set's infiltration of Bilming's government and their use of the city as a base for off-world operations.",
+          "role": "Set puppet leader",
+          "relationships": {
+            "Suit": "Takes orders from"
+          }
+        }
+      }
+    },
+    "dr-veillaind": {
+      "name": "Dr. Veillaind",
+      "aliases": ["Set Scientist", "Harmonium Researcher"],
+      "appearances": [6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A scientist working for The Set who studies harmonium and its potential applications, particularly its explosive properties when exposed to certain conditions.",
+          "role": "Harmonium weapons researcher",
+          "relationships": {
+            "The Set": "Chief scientific advisor",
+            "Suit": "Reports research to"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Makes breakthrough discoveries about harmonium that enable The Set's final weapons program, creating city-threatening explosive devices.",
+          "role": "Weapons program leader",
+          "relationships": {
+            "Bilming Operations": "Provides scientific support for"
+          }
+        },
+        "58": {
+          "revealedIn": 58,
+          "description": "Reveals the true scope of his research into harmonium's potential for mass destruction and its connection to off-world technological requirements.",
+          "role": "Mass destruction specialist",
+          "relationships": {
+            "Autonomy's Forces": "Develops weapons for"
+          }
+        }
+      }
+    },
+    "ghostblood-agent-tress": {
+      "name": "Agent Tress",
+      "aliases": ["Tress", "Ghostblood Operative"],
+      "appearances": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A Ghostbloods operative working to counter The Set's activities while serving the organization's mysterious agenda regarding off-world threats.",
+          "role": "Counter-Set operative",
+          "relationships": {
+            "The Ghostbloods": "Field agent",
+            "Kelsier": "Unknowingly serves"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Provides crucial intelligence about The Set's off-world connections while working to coordinate Ghostbloods' response to cosmic threats.",
+          "role": "Intelligence specialist",
+          "relationships": {
+            "MeLaan": "Coordinates with kandra"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Reveals her true loyalties and the Ghostbloods' role in protecting Scadrial from Shardic interference, working alongside the protagonists.",
+          "role": "Ally revealing true purpose",
+          "relationships": {
+            "Waxillium Ladrian": "Provides crucial support to"
+          }
+        }
+      }
+    },
+    "malwish-ambassador": {
+      "name": "Ambassador Dellash",
+      "aliases": ["Southern Representative", "Malwish Diplomat"],
+      "appearances": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A diplomatic representative from the Southern Scadrians (Malwish) who comes to Elendel to discuss growing tensions and technological exchanges.",
+          "role": "Cultural diplomat",
+          "relationships": {
+            "Governor Innate": "Negotiates with northern government",
+            "Southern Scadrians": "Represents homeland interests"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Warns northern leaders about The Set's infiltration of southern territories and their use of harmonium technology for destructive purposes.",
+          "role": "Warning messenger",
+          "relationships": {
+            "The Set": "Opposes activities of"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Coordinates joint response between Northern and Southern Scadrian forces against The Set's final operations and off-world interference.",
+          "role": "Military coordinator",
+          "relationships": {
+            "Captain Aradel": "Coordinates joint operations with"
+          }
+        }
+      }
+    },
+    "constable-jackson": {
+      "name": "Constable Jackson",
+      "aliases": ["Jackson", "Evidence Specialist"],
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Continues working crime scenes and collecting evidence related to The Set's activities, dealing with increasingly bizarre harmonium-related incidents.",
+          "role": "Crime scene investigator",
+          "relationships": {
+            "Marasi Colms": "Reports evidence to",
+            "Captain Aradel": "Senior officer"
+          }
+        }
+      }
+    },
+    "set-operative-iron": {
+      "name": "Iron",
+      "aliases": ["Set Agent Iron", "Field Commander Iron"],
+      "appearances": [7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57, 62, 67],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Set field operative who manages regional operations and coordinates with off-world contacts to further The Set's agenda in Bilming and surrounding areas.",
+          "role": "Regional operations manager",
+          "relationships": {
+            "Suit": "Reports to supreme leader",
+            "The Set": "Senior field operative"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Coordinates The Set's harmonium weapons program while managing the organization's infiltration of Bilming's government and industry.",
+          "role": "Weapons program coordinator",
+          "relationships": {
+            "Dr. Veillaind": "Works with scientific team"
+          }
+        }
+      }
+    },
+    "set-operative-steel": {
+      "name": "Steel",
+      "aliases": ["Set Agent Steel", "Intelligence Officer Steel"],
+      "appearances": [9, 14, 19, 24, 29, 34, 39, 44, 49, 54, 59, 64, 69],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Set intelligence specialist who manages information gathering and coordinates with off-world sources about cosmic threats and opportunities.",
+          "role": "Intelligence coordinator",
+          "relationships": {
+            "Iron": "Partner operative",
+            "Telsin Ladrian": "Reports to senior leadership"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Provides crucial intelligence about Ghostbloods activities and helps coordinate The Set's counter-operations against their rivals.",
+          "role": "Counter-intelligence specialist",
+          "relationships": {
+            "Agent Tress": "Opposes Ghostblood activities"
+          }
+        }
+      }
+    },
+    "coinshot-miles": {
+      "name": "Miles Dagouter",
+      "aliases": ["Miles", "The Undying Lawman", "Gold Twinborn"],
+      "appearances": [25, 35, 45, 55, 65],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Revealed to have survived his apparent death and been recruited by off-world forces, now serving as an enforcer for cosmic-level operations.",
+          "role": "Resurrected enforcer",
+          "relationships": {
+            "Autonomy": "Serves the interests of",
+            "Waxillium Ladrian": "Former enemy returned"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Confronts his past while serving new masters, demonstrating enhanced abilities granted by off-world intervention and technology.",
+          "role": "Enhanced antagonist",
+          "relationships": {
+            "The Set": "Advanced operative"
+          }
+        }
+      }
+    },
+    "bilming-constable-chief": {
+      "name": "Chief Constable Hammon",
+      "aliases": ["Chief Hammon", "Bilming Law"],
+      "appearances": [8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The chief of Bilming's constabulary who finds his authority undermined by The Set's infiltration of local government and their operations in the city.",
+          "role": "Compromised law enforcement chief",
+          "relationships": {
+            "Mayor Sequence": "Reports to compromised mayor",
+            "The Set": "Opposes but is outmaneuvered by"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Attempts to coordinate resistance against The Set's takeover of Bilming while protecting civilian populations from escalating violence.",
+          "role": "Resistance coordinator",
+          "relationships": {
+            "Loyal Constables": "Commands remaining honest officers"
+          }
+        }
+      }
+    },
+    "harmonium-researcher-dr-kent": {
+      "name": "Dr. Kent Colms",
+      "aliases": ["Dr. Kent", "Harmonium Specialist"],
+      "appearances": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A legitimate researcher studying harmonium's properties who becomes caught up in The Set's weapons program and must choose between science and ethics.",
+          "role": "Ethical scientist",
+          "relationships": {
+            "Marasi Colms": "Distant relative",
+            "Dr. Veillaind": "Scientific rival"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Provides crucial information about harmonium's dangerous potential while working to develop countermeasures to The Set's weapons program.",
+          "role": "Counter-weapons researcher",
+          "relationships": {
+            "Ranette": "Collaborates on weapons defense"
+          }
+        }
+      }
+    },
+    "ghostblood-worldhopper": {
+      "name": "Baon",
+      "aliases": ["Off-world Agent", "Cosmere Specialist"],
+      "appearances": [20, 30, 40, 50, 60, 70],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "An off-world agent working with the Ghostbloods who brings knowledge of other Shardworlds and helps coordinate resistance to Autonomy's influence.",
+          "role": "Cosmere intelligence operative",
+          "relationships": {
+            "The Ghostbloods": "Off-world coordinator",
+            "Kelsier": "Serves unknowingly"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Provides crucial intelligence about Autonomy's activities on other worlds and helps the team understand the cosmic scope of the threat to Scadrial.",
+          "role": "Cosmic threat analyst",
+          "relationships": {
+            "Agent Tress": "Coordinates with local operations"
+          }
+        }
+      }
+    },
+    "autonomy-avatar": {
+      "name": "Paalm",
+      "aliases": ["Bleeder", "Avatar of Autonomy"],
+      "appearances": [40, 50, 60, 70],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Revealed to be operating as an avatar of the Shard Autonomy, working to destabilize Scadrial and weaken Harmony's influence over the planet.",
+          "role": "Shardic avatar and infiltrator",
+          "relationships": {
+            "Autonomy": "Avatar of",
+            "Harmony": "Opposes divine will of"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Leads the final assault on Scadrial's stability, coordinating with The Set and other off-world forces to complete Autonomy's conquest.",
+          "role": "Invasion coordinator",
+          "relationships": {
+            "The Set": "Uses as local agents"
+          }
+        }
+      }
+    },
+    "constable-caps": {
+      "name": "Constable Caps",
+      "aliases": ["Caps", "Hat Constable"],
+      "appearances": [1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A reliable constable known for always wearing his distinctive hat, who continues investigating crime scenes related to The Set's activities.",
+          "role": "Field investigator",
+          "relationships": {
+            "Constable Jackson": "Partner investigator",
+            "Captain Aradel": "Reports to"
+          }
+        }
+      }
+    },
+    "house-ladrian-guard-captain": {
+      "name": "Captain Marsh",
+      "aliases": ["Security Chief Marsh", "Estate Captain"],
+      "appearances": [3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58, 63, 68, 73],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Head of security for House Ladrian who coordinates protection for Wax and Steris while dealing with increased threats from The Set.",
+          "role": "Estate security chief",
+          "relationships": {
+            "Waxillium Ladrian": "Protects and serves",
+            "Steris Harms": "Coordinates security for"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Leads estate defenses during The Set's direct attacks on House Ladrian properties and coordinates with city constabulary.",
+          "role": "Defensive coordinator",
+          "relationships": {
+            "Estate Guards": "Commands security team"
+          }
+        }
+      }
+    },
+    "banker-druffel": {
+      "name": "Druffel",
+      "aliases": ["House Banker", "Financial Advisor"],
+      "appearances": [2, 7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57, 62, 67, 72],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Continues managing House Ladrian's complex financial affairs while helping track The Set's financial networks and money laundering operations.",
+          "role": "Financial investigator",
+          "relationships": {
+            "Waxillium Ladrian": "Financial advisor",
+            "House Ladrian": "Family financial manager"
+          }
+        },
+        "32": {
+          "revealedIn": 32,
+          "description": "Provides crucial intelligence about The Set's funding sources and their connections to off-world financial networks.",
+          "role": "Financial intelligence specialist",
+          "relationships": {
+            "The Set": "Investigates financial operations of"
+          }
+        }
+      }
+    },
+    "set-enforcer-brace": {
+      "name": "Brace",
+      "aliases": ["Set Enforcer", "Muscle Brace"],
+      "appearances": [11, 16, 21, 26, 31, 36, 41, 46, 51, 56, 61, 66],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Set enforcer who handles the organization's violent operations and intimidation tactics, now equipped with off-world enhanced capabilities.",
+          "role": "Enhanced enforcer",
+          "relationships": {
+            "Iron": "Takes orders from",
+            "The Set": "Muscle and intimidation"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Demonstrates enhanced abilities granted by off-world technology, making him a more dangerous opponent than typical Set operatives.",
+          "role": "Super-enhanced antagonist",
+          "relationships": {
+            "Autonomy's Forces": "Enhanced by off-world tech"
+          }
+        }
+      }
+    },
+    "southern-scadrian-tech": {
+      "name": "Engineer Nalef",
+      "aliases": ["Southern Engineer", "Tech Specialist"],
+      "appearances": [12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Southern Scadrian engineer who works to maintain technological neutrality while his homeland becomes involved in the conflict between cosmic forces.",
+          "role": "Neutral technology specialist",
+          "relationships": {
+            "Ambassador Dellash": "Provides technical support to",
+            "Southern Scadrians": "Represents technical interests"
+          }
+        },
+        "36": {
+          "revealedIn": 36,
+          "description": "Helps develop countermeasures to The Set's harmonium weapons while maintaining Southern Scadrian technological independence.",
+          "role": "Counter-weapons engineer",
+          "relationships": {
+            "Dr. Kent Colms": "Technical collaborator"
+          }
+        }
+      }
+    },
+    "ghostblood-spy": {
+      "name": "Agent Riina",
+      "aliases": ["Riina", "Deep Cover Agent"],
+      "appearances": [18, 25, 32, 39, 46, 53, 60, 67, 74],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A Ghostbloods deep cover agent who has infiltrated The Set's operations to gather intelligence about their off-world connections.",
+          "role": "Double agent",
+          "relationships": {
+            "The Ghostbloods": "True loyalty lies with",
+            "The Set": "Infiltrates and spies on"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Provides crucial intelligence that helps the protagonists understand The Set's true agenda and their connection to Autonomy.",
+          "role": "Intelligence provider",
+          "relationships": {
+            "Agent Tress": "Coordinates with fellow agent"
+          }
+        }
+      }
+    },
+    "allomantic-assassin": {
+      "name": "Coinshot Kane",
+      "aliases": ["Kane", "The Flying Death"],
+      "appearances": [14, 21, 28, 35, 42, 49, 56, 63, 70],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A coinshot assassin working for The Set who has been enhanced with off-world technology to make him nearly unstoppable in combat.",
+          "role": "Enhanced allomantic assassin",
+          "relationships": {
+            "The Set": "Elite enforcer",
+            "Suit": "Personal assassin for"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Reveals the extent of his enhancements while pursuing the protagonists, demonstrating how off-world technology can amplify allomantic abilities.",
+          "role": "Super-powered antagonist",
+          "relationships": {
+            "Waxillium Ladrian": "Primary target"
+          }
+        }
+      }
+    },
+    "feruchemical-storage": {
+      "name": "Keeper Sazed-Ka",
+      "aliases": ["The Keeper", "Memory Guardian"],
+      "appearances": [22, 30, 38, 46, 54, 62, 70],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A Feruchemist who maintains historical records and knowledge about Scadrial's past, helping provide context for current cosmic threats.",
+          "role": "Historical keeper and advisor",
+          "relationships": {
+            "Harmony": "Serves indirectly",
+            "TenSoon": "Shares historical knowledge with"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Provides crucial historical context about previous Shardic interference on Scadrial and how past heroes dealt with cosmic-level threats.",
+          "role": "Cosmic history advisor",
+          "relationships": {
+            "Waxillium Ladrian": "Advises on historical precedents"
+          }
+        }
+      }
+    },
+    "constable-marken": {
+      "name": "Constable Marken",
+      "aliases": ["Marken", "Senior Constable"],
+      "appearances": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A veteran constable who continues investigating The Set's activities while adapting to increasingly bizarre crimes involving harmonium and off-world technology.",
+          "role": "Veteran field investigator",
+          "relationships": {
+            "Captain Aradel": "Senior officer",
+            "Marasi Colms": "Respected by"
+          }
+        }
+      }
+    },
+    "set-scientist-female": {
+      "name": "Dr. Lena Vass",
+      "aliases": ["Dr. Vass", "Set Researcher"],
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A scientist working for The Set who specializes in harmonium weaponization and off-world technology integration.",
+          "role": "Weapons scientist",
+          "relationships": {
+            "Dr. Veillaind": "Research partner",
+            "The Set": "Scientific division leader"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Makes breakthrough discoveries about harmonium's potential for mass destruction while working to integrate off-world technological components.",
+          "role": "Mass destruction researcher",
+          "relationships": {
+            "Autonomy's Forces": "Develops weapons for"
+          }
+        }
+      }
+    },
+    "kandra-fourth-generation": {
+      "name": "FeLaan",
+      "aliases": ["Fourth Generation", "Ancient Kandra"],
+      "appearances": [16, 26, 36, 46, 56, 66, 74],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "An ancient kandra who provides additional perspective on cosmic threats while serving Harmony's interests in the growing crisis.",
+          "role": "Ancient advisor",
+          "relationships": {
+            "TenSoon": "Fellow ancient kandra",
+            "MeLaan": "Younger generation colleague"
+          }
+        },
+        "46": {
+          "revealedIn": 46,
+          "description": "Plays a crucial role in coordinating kandra responses to off-world threats while maintaining their ancient duty to serve and protect.",
+          "role": "Kandra coordinator",
+          "relationships": {
+            "Harmony": "Ancient servant"
+          }
+        }
+      }
+    },
+    "bilming-citizen-leader": {
+      "name": "Citizen Leader Vince",
+      "aliases": ["Vince", "Resistance Leader"],
+      "appearances": [20, 26, 32, 38, 44, 50, 56, 62, 68, 74],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A Bilming citizen who organizes local resistance against The Set's takeover of their city, working to protect innocent civilians.",
+          "role": "Civilian resistance leader",
+          "relationships": {
+            "Chief Hammon": "Coordinates with honest law enforcement",
+            "The Set": "Opposes occupation by"
+          }
+        },
+        "44": {
+          "revealedIn": 44,
+          "description": "Coordinates civilian evacuation and resistance efforts during The Set's final operations in Bilming, helping save innocent lives.",
+          "role": "Evacuation coordinator",
+          "relationships": {
+            "Bilming Citizens": "Protects and organizes"
+          }
+        }
+      }
+    },
+    "newspaper-reporter": {
+      "name": "Reporter Wayne Yomen",
+      "aliases": ["Yomen", "Investigative Reporter"],
+      "appearances": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An investigative reporter who works to expose The Set's activities while dealing with attempts to suppress information about their operations.",
+          "role": "Investigative journalist",
+          "relationships": {
+            "The Set": "Investigates and exposes",
+            "Public": "Informs about hidden threats"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Publishes crucial exposés about The Set's infiltration of government and their connections to off-world forces, helping rally public opposition.",
+          "role": "Truth exposer",
+          "relationships": {
+            "Marasi Colms": "Coordinates with for information"
+          }
+        }
+      }
+    },
+    "airship-captain": {
+      "name": "Captain Elant",
+      "aliases": ["Elant", "Southern Captain"],
+      "appearances": [13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Southern Scadrian airship captain who helps coordinate transportation and logistics for forces opposing The Set's operations.",
+          "role": "Transportation coordinator",
+          "relationships": {
+            "Ambassador Dellash": "Provides transportation for",
+            "Engineer Nalef": "Works with technical team"
+          }
+        },
+        "37": {
+          "revealedIn": 37,
+          "description": "Leads aerial reconnaissance and support during the final battles, using Southern Scadrian technology to counter The Set's advantages.",
+          "role": "Aerial combat coordinator",
+          "relationships": {
+            "Allied Forces": "Provides air support for"
+          }
+        }
+      }
+    },
+    "set-infiltrator": {
+      "name": "Agent Deep",
+      "aliases": ["Deep", "Government Mole"],
+      "appearances": [17, 24, 31, 38, 45, 52, 59, 66, 73],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A Set infiltrator who has penetrated high levels of Elendel's government, feeding intelligence to The Set about official responses to their activities.",
+          "role": "Government infiltrator",
+          "relationships": {
+            "Governor Innate": "Infiltrates administration of",
+            "Steel": "Reports intelligence to"
+          }
+        },
+        "38": {
+          "revealedIn": 38,
+          "description": "Coordinates government responses to benefit The Set's final operations while working to undermine official resistance efforts.",
+          "role": "Government saboteur",
+          "relationships": {
+            "The Set": "Serves interests within government"
+          }
+        }
+      }
+    },
+    "constable-rust": {
+      "name": "Constable Rust",
+      "aliases": ["Old Rust", "Veteran Rust"],
+      "appearances": [3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A veteran constable with decades of experience who provides stability and wisdom during the investigation of increasingly bizarre crimes.",
+          "role": "Veteran advisor",
+          "relationships": {
+            "Captain Aradel": "Senior veteran officer",
+            "Younger Constables": "Mentor figure"
+          }
+        }
+      }
+    },
+    "house-harms-representative": {
+      "name": "Lord Harms",
+      "aliases": ["Steris's Father", "House Head"],
+      "appearances": [5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65, 71],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Head of House Harms who supports his daughter and son-in-law while dealing with the political implications of their dangerous activities.",
+          "role": "Political supporter and father",
+          "relationships": {
+            "Steris Harms": "Beloved daughter",
+            "Waxillium Ladrian": "Respected son-in-law"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Uses his political influence to support the fight against The Set while helping coordinate noble house responses to the crisis.",
+          "role": "Political coordinator",
+          "relationships": {
+            "Noble Houses": "Coordinates response among"
+          }
+        }
+      }
+    },
+    "ghostblood-leader": {
+      "name": "Iyatil",
+      "aliases": ["The Masked One", "Ghostblood Commander"],
+      "appearances": [35, 45, 55, 65],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "A high-ranking Ghostbloods operative who coordinates their response to The Set's final operations and off-world threats to Scadrial.",
+          "role": "Ghostbloods field commander",
+          "relationships": {
+            "Kelsier": "Reports directly to",
+            "Agent Tress": "Commands field operations"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Leads the Ghostbloods' direct intervention in the final battle, revealing their true role as protectors of Scadrial from cosmic threats.",
+          "role": "Protector commander",
+          "relationships": {
+            "Waxillium Ladrian": "Coordinates final battle with"
+          }
+        }
+      }
+    },
+    "harmonium-storage-guard": {
+      "name": "Guard Chief Torres",
+      "aliases": ["Torres", "Storage Security"],
+      "appearances": [6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Head of security for Elendel's harmonium storage facilities who must deal with increased theft attempts and The Set's infiltration efforts.",
+          "role": "Harmonium security chief",
+          "relationships": {
+            "The Set": "Defends against theft by",
+            "Government": "Coordinates security with"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Coordinates defensive efforts to prevent The Set from acquiring the harmonium needed for their mass destruction weapons program.",
+          "role": "Strategic defense coordinator",
+          "relationships": {
+            "Captain Aradel": "Coordinates with law enforcement"
+          }
+        }
+      }
+    },
+    "off-world-agent": {
+      "name": "Crow",
+      "aliases": ["Agent Crow", "Autonomy's Hand"],
+      "appearances": [38, 48, 58, 68],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "A direct agent of Autonomy who arrives on Scadrial to oversee The Set's final operations and ensure the Shard's objectives are achieved.",
+          "role": "Shardic representative",
+          "relationships": {
+            "Autonomy": "Direct agent of",
+            "The Set": "Oversees operations of"
+          }
+        },
+        "58": {
+          "revealedIn": 58,
+          "description": "Demonstrates off-world powers and abilities while coordinating the final assault on Scadrial's independence from Shardic interference.",
+          "role": "Cosmic antagonist",
+          "relationships": {
+            "Harmony": "Opposes directly",
+            "Suit": "Commands through"
+          }
+        }
+      }
+    },
+    "medical-examiner": {
+      "name": "Dr. Harding",
+      "aliases": ["ME Harding", "Coroner"],
+      "appearances": [4, 10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The city's medical examiner who investigates deaths related to The Set's activities, discovering increasingly bizarre causes involving harmonium exposure.",
+          "role": "Forensic medical specialist",
+          "relationships": {
+            "Marasi Colms": "Provides forensic evidence to",
+            "Captain Aradel": "Medical consultant for"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Documents the medical effects of off-world technology and harmonium weapons, providing crucial intelligence for countermeasures.",
+          "role": "Medical intelligence specialist",
+          "relationships": {
+            "Dr. Kent Colms": "Collaborates with researcher"
+          }
+        }
+      }
+    },
+    "noble-house-ally": {
+      "name": "Lady Sequence",
+      "aliases": ["House Sequence", "Noble Ally"],
+      "appearances": [9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A noble house leader who supports the effort against The Set while using her political influence to coordinate responses among the nobility.",
+          "role": "Noble political coordinator",
+          "relationships": {
+            "Lord Harms": "Political ally",
+            "Waxillium Ladrian": "Noble supporter"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Coordinates noble house resources to support the final battle against The Set while helping maintain social order during the crisis.",
+          "role": "Resource coordinator",
+          "relationships": {
+            "Noble Houses": "Represents collective interests"
+          }
+        }
+      }
+    },
+    "kandra-spy": {
+      "name": "VarSell",
+      "aliases": ["Kandra Agent", "Harmony's Eye"],
+      "appearances": [19, 29, 39, 49, 59, 69],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A kandra operating as a deep cover agent within The Set, gathering intelligence for Harmony while maintaining their cover identity.",
+          "role": "Divine intelligence agent",
+          "relationships": {
+            "Harmony": "Direct agent of",
+            "The Set": "Infiltrates as deep cover"
+          }
+        },
+        "39": {
+          "revealedIn": 39,
+          "description": "Provides crucial intelligence about The Set's final plans and their off-world connections, helping coordinate the divine response.",
+          "role": "Strategic intelligence provider",
+          "relationships": {
+            "TenSoon": "Coordinates with fellow kandra"
+          }
+        }
+      }
+    },
+    "steel-ministry-survivor": {
+      "name": "Former Obligator Rashek",
+      "aliases": ["Rashek", "Ministry Remnant"],
+      "appearances": [42, 52, 62, 72],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "A former Steel Ministry obligator who survived the Catacendre and now works to understand the cosmic implications of current events.",
+          "role": "Historical advisor",
+          "relationships": {
+            "Keeper Sazed-Ka": "Shares historical knowledge with",
+            "The Set": "Opposes as perversion of old order"
+          }
+        }
+      }
+    },
+    "constable-fader": {
+      "name": "Constable Fader",
+      "aliases": ["Fader", "Night Shift"],
+      "appearances": [7, 14, 21, 28, 35, 42, 49, 56, 63, 70],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A constable who works night shifts and has observed unusual activities related to The Set's operations during off-hours.",
+          "role": "Night patrol specialist",
+          "relationships": {
+            "Constable Rust": "Senior partner",
+            "Night Watch": "Coordinates with evening officers"
+          }
+        }
+      }
+    },
+    "ghostblood-scholar": {
+      "name": "Nazh",
+      "aliases": ["The Scholar", "Information Keeper"],
+      "appearances": [47, 57, 67],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "A Ghostbloods scholar who provides crucial information about off-world threats and cosmic-level events affecting Scadrial.",
+          "role": "Cosmic information specialist",
+          "relationships": {
+            "Iyatil": "Provides intelligence briefings to",
+            "Kelsier": "Serves research interests of"
+          }
+        }
+      }
+    },
+    "set-communications": {
+      "name": "Radio Operator Pine",
+      "aliases": ["Pine", "Comms Specialist"],
+      "appearances": [11, 18, 25, 32, 39, 46, 53, 60, 67, 74],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The Set's communications specialist who manages their radio networks and coordinates between different operational cells.",
+          "role": "Communications coordinator",
+          "relationships": {
+            "Iron": "Provides communications for",
+            "The Set": "Network coordinator"
+          }
+        }
+      }
+    },
+    "southern-scadrian-pilot": {
+      "name": "Pilot Shan",
+      "aliases": ["Shan", "Sky Navigator"],
+      "appearances": [23, 30, 37, 44, 51, 58, 65, 72],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "A Southern Scadrian pilot who helps coordinate aerial support and transportation for forces opposing The Set's operations.",
+          "role": "Aerial support coordinator",
+          "relationships": {
+            "Captain Elant": "Senior airship officer",
+            "Allied Forces": "Provides air support for"
+          }
+        }
+      }
+    },
+    "constable-detective": {
+      "name": "Detective Shai",
+      "aliases": ["Shai", "Special Investigations"],
+      "appearances": [8, 16, 24, 32, 40, 48, 56, 64, 72],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A detective who specializes in investigating complex cases involving The Set and helps coordinate multi-jurisdictional responses.",
+          "role": "Special investigations detective",
+          "relationships": {
+            "Marasi Colms": "Specialist under command of",
+            "Cross-jurisdiction": "Coordinates between areas"
+          }
+        }
+      }
+    },
+    "harmonium-mine-foreman": {
+      "name": "Foreman Clubs",
+      "aliases": ["Clubs", "Mining Boss"],
+      "appearances": [12, 20, 28, 36, 44, 52, 60, 68],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The foreman of harmonium mining operations who must deal with The Set's attempts to steal raw materials for their weapons program.",
+          "role": "Mining security coordinator",
+          "relationships": {
+            "Guard Chief Torres": "Coordinates security with",
+            "The Set": "Defends mining operations against"
+          }
+        }
+      }
+    },
+    "ghostblood-enforcer": {
+      "name": "Enforcer Dox",
+      "aliases": ["Dox", "Ghostblood Muscle"],
+      "appearances": [33, 43, 53, 63, 73],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "A Ghostbloods enforcer who handles physical confrontations and helps protect Ghostbloods operations from Set interference.",
+          "role": "Protection specialist",
+          "relationships": {
+            "Iyatil": "Takes orders from",
+            "Agent Tress": "Provides muscle for operations"
+          }
+        }
+      }
+    },
+    "bilming-doctor": {
+      "name": "Dr. Lestibournes",
+      "aliases": ["Dr. Spook", "Bilming Medic"],
+      "appearances": [16, 24, 32, 40, 48, 56, 64, 72],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A doctor in Bilming who treats casualties from The Set's operations while working to protect civilian populations.",
+          "role": "Medical care provider",
+          "relationships": {
+            "Citizen Leader Vince": "Medical support for resistance",
+            "Chief Hammon": "Emergency medical coordinator"
+          }
+        }
+      }
+    },
+    "set-quartermaster": {
+      "name": "Quartermaster Vale",
+      "aliases": ["Vale", "Supply Coordinator"],
+      "appearances": [13, 21, 29, 37, 45, 53, 61, 69],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The Set's supply coordinator who manages equipment and resources for their operations while coordinating with off-world suppliers.",
+          "role": "Logistics specialist",
+          "relationships": {
+            "Dr. Veillaind": "Supplies scientific equipment for",
+            "Iron": "Coordinates field supplies with"
+          }
+        }
+      }
+    },
+    "noble-house-guard": {
+      "name": "Guard Captain Dockson",
+      "aliases": ["Dockson", "Noble Security"],
+      "appearances": [10, 18, 26, 34, 42, 50, 58, 66, 74],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A security captain who protects noble houses allied against The Set while coordinating defensive preparations.",
+          "role": "Noble house protector",
+          "relationships": {
+            "Lady Sequence": "Provides security for",
+            "Captain Marsh": "Coordinates with other security chiefs"
+          }
+        }
+      }
+    },
+    "constable-training": {
+      "name": "Training Sergeant Ham",
+      "aliases": ["Sergeant Ham", "Training Officer"],
+      "appearances": [14, 22, 30, 38, 46, 54, 62, 70],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A training sergeant who prepares constables for dealing with The Set's enhanced operatives and off-world technology threats.",
+          "role": "Tactical training coordinator",
+          "relationships": {
+            "Captain Aradel": "Training division under",
+            "Constable Forces": "Prepares for enhanced threats"
+          }
+        }
+      }
+    },
+    "ghostblood-information": {
+      "name": "Information Broker Felt",
+      "aliases": ["Felt", "Intel Trader"],
+      "appearances": [27, 37, 47, 57, 67],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "An information broker working with the Ghostbloods who provides crucial intelligence about off-world activities and cosmic threats.",
+          "role": "Intelligence specialist",
+          "relationships": {
+            "Nazh": "Information sharing partner",
+            "Baon": "Cosmic intelligence coordinator"
+          }
+        }
+      }
+    },
+    "set-field-medic": {
+      "name": "Medic Frost",
+      "aliases": ["Frost", "Set Medical"],
+      "appearances": [19, 27, 35, 43, 51, 59, 67],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A field medic working for The Set who treats their operatives while helping maintain their enhanced abilities through off-world medical techniques.",
+          "role": "Enhanced medical specialist",
+          "relationships": {
+            "Brace": "Maintains enhancements for",
+            "The Set": "Medical division"
+          }
+        }
+      }
+    },
+    "constable-evidence": {
+      "name": "Evidence Specialist Kell",
+      "aliases": ["Kell", "Forensics Expert"],
+      "appearances": [15, 23, 31, 39, 47, 55, 63, 71],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A forensics specialist who analyzes evidence from scenes involving off-world technology and harmonium-related incidents.",
+          "role": "Advanced forensics analyst",
+          "relationships": {
+            "Dr. Harding": "Coordinates with medical examiner",
+            "Marasi Colms": "Provides technical analysis for"
+          }
+        }
+      }
+    },
+    "southern-trade-rep": {
+      "name": "Trade Representative Clubs",
+      "aliases": ["Rep Clubs", "Southern Commerce"],
+      "appearances": [17, 25, 33, 41, 49, 57, 65, 73],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "A Southern Scadrian trade representative who works to maintain commercial relationships while the political situation deteriorates.",
+          "role": "Commercial liaison",
+          "relationships": {
+            "Ambassador Dellash": "Works with diplomatic mission",
+            "Northern Merchants": "Maintains trade relationships with"
+          }
+        }
+      }
+    },
+    "kandra-messenger": {
+      "name": "OreSeur",
+      "aliases": ["Third Generation", "Divine Messenger"],
+      "appearances": [34, 44, 54, 64, 74],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "A kandra who serves as a messenger between Harmony and his other servants, coordinating divine responses to the cosmic crisis.",
+          "role": "Divine communications specialist",
+          "relationships": {
+            "Harmony": "Direct messenger for",
+            "TenSoon": "Coordinates with fellow kandra"
+          }
+        }
+      }
+    },
+    "set-weapons-tech": {
+      "name": "Weapons Tech Straff",
+      "aliases": ["Straff", "Arms Specialist"],
+      "appearances": [22, 30, 38, 46, 54, 62, 70],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A weapons technician who helps develop and maintain The Set's enhanced arsenal, including harmonium-based weapons.",
+          "role": "Advanced weapons specialist",
+          "relationships": {
+            "Dr. Lena Vass": "Technical support for research",
+            "Coinshot Kane": "Maintains enhanced equipment for"
+          }
+        }
+      }
+    },
+    "constable-communications": {
+      "name": "Radio Operator Lind",
+      "aliases": ["Lind", "Police Comms"],
+      "appearances": [20, 28, 36, 44, 52, 60, 68],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "The police communications specialist who coordinates radio traffic and helps maintain contact between different law enforcement units.",
+          "role": "Police communications coordinator",
+          "relationships": {
+            "Captain Aradel": "Coordinates communications for",
+            "Marasi Colms": "Maintains contact with field operations"
+          }
+        }
+      }
+    },
+    "ghostblood-coordinator": {
+      "name": "Coordinator Demoux",
+      "aliases": ["Demoux", "Operations Manager"],
+      "appearances": [41, 51, 61, 71],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "A Ghostbloods coordinator who manages their response to The Set's final operations while maintaining their protective mission for Scadrial.",
+          "role": "Strategic operations manager",
+          "relationships": {
+            "Iyatil": "Strategic coordinator under",
+            "Off-world Networks": "Maintains contact with"
+          }
+        }
+      }
+    },
+    "harmonium-researcher": {
+      "name": "Research Assistant Elend",
+      "aliases": ["Assistant Elend", "Lab Tech"],
+      "appearances": [26, 34, 42, 50, 58, 66, 74],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "A research assistant who helps develop countermeasures to The Set's harmonium weapons while supporting legitimate research efforts.",
+          "role": "Research support specialist",
+          "relationships": {
+            "Dr. Kent Colms": "Research assistant to",
+            "Ranette": "Provides technical data for weapons defense"
+          }
+        }
+      }
+    },
+    "set-transport": {
+      "name": "Transport Chief Yomen",
+      "aliases": ["Yomen", "Set Logistics"],
+      "appearances": [24, 32, 40, 48, 56, 64, 72],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "The Set's transportation coordinator who manages movement of personnel and equipment while maintaining operational security.",
+          "role": "Transportation logistics specialist",
+          "relationships": {
+            "Quartermaster Vale": "Coordinates supply transport with",
+            "Iron": "Provides transport support for operations"
+          }
+        }
+      }
+    },
+    "constable-investigator": {
+      "name": "Investigator Goradel",
+      "aliases": ["Goradel", "Special Cases"],
+      "appearances": [29, 37, 45, 53, 61, 69],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "A special investigator who handles cases involving unusual circumstances and helps coordinate responses to off-world threats.",
+          "role": "Unusual circumstances specialist",
+          "relationships": {
+            "Detective Shai": "Coordinates special investigations with",
+            "Evidence Specialist Kell": "Technical support from"
+          }
+        }
+      }
+    },
+    "ghostblood-tech": {
+      "name": "Tech Specialist Hoid",
+      "aliases": ["Hoid", "Worldhopper"],
+      "appearances": [56, 66],
+      "knowledge": {
+        "56": {
+          "revealedIn": 56,
+          "description": "A mysterious figure with knowledge of the broader cosmere who provides crucial technical support during the final confrontation.",
+          "role": "Cosmic technical specialist",
+          "relationships": {
+            "Kelsier": "Advisor with cosmic knowledge",
+            "Waxillium Ladrian": "Provides crucial assistance to"
+          }
+        }
+      }
+    },
+    "spook": {
+      "name": "Lord Spook",
+      "aliases": ["The Lord Mistborn", "Emperor Spook"],
+      "appearances": [68, 74],
+      "knowledge": {
+        "68": {
+          "revealedIn": 68,
+          "description": "The immortal survivor of the original Kelsier's crew who emerges to help coordinate the final defense against off-world threats.",
+          "role": "Immortal defender and coordinator",
+          "relationships": {
+            "Kelsier": "Old crew mate and ally",
+            "Harmony": "Works with divine will"
+          }
+        },
+        "74": {
+          "revealedIn": 74,
+          "description": "Helps coordinate the new order for Scadrial's relationship with the broader cosmere, drawing on centuries of experience and wisdom.",
+          "role": "Post-crisis coordinator",
+          "relationships": {
+            "Waxillium Ladrian": "Advises on cosmere implications"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Wax and Steris settle into married life while investigating a series of harmonium-related explosions across Elendel. The Set's activities appear to be escalating with new technological capabilities.",
+    "2": "MeLaan rejoins the team as they discover The Set is stealing large quantities of harmonium for unknown purposes. Strange incidents suggest off-world technology involvement.",
+    "3": "Ranette develops new weapons to counter enhanced threats while Wayne struggles with personal relationships. The team uncovers evidence of The Set's infiltration at highest government levels.",
+    "4": "Governor Innate coordinates government response as Reporter Yomen's investigations expose The Set's corruption. Marasi leads expanded law enforcement efforts against the criminal organization.",
+    "5": "Dr. Kent Colms discovers disturbing applications for harmonium while Suit reveals the global scope of The Set's operations. The team realizes they're facing more than just local criminals.",
+    "6": "Dr. Veillaind's research enables The Set's weapons program while security at harmonium facilities is increased. The stakes become clear as mass destruction weapons are developed.",
+    "7": "Iron coordinates regional Set operations as the team discovers the organization's reach extends beyond Elendel. Constable forces adapt to enhanced criminal capabilities.",
+    "8": "TenSoon provides historical context while Mayor Sequence becomes compromised in Bilming. The Set establishes a major base of operations in the outlying city.",
+    "9": "Steel manages intelligence operations as Dr. Lena Vass makes weapons breakthroughs. The team realizes The Set has access to knowledge and technology from off-world sources.",
+    "10": "Ambassador Dellash arrives from the South as The Set's operations threaten regional stability. Southern Scadrians become concerned about northern activities affecting their homeland.",
+    "11": "Set enforcer Brace demonstrates enhanced abilities while communications are intercepted revealing coordination with external forces. The cosmic scope of the threat becomes apparent.",
+    "12": "Engineer Nalef works to maintain technological neutrality as harmonium mining operations face increased Set infiltration. Foreman Clubs coordinates defensive measures.",
+    "13": "Captain Elant provides aerial reconnaissance while The Set's supply networks are mapped by Quartermaster Vale. Transportation becomes crucial for all factions.",
+    "14": "Coinshot Kane reveals enhanced allomantic abilities as Training Sergeant Ham prepares constables for superhuman threats. The Set's operatives are beyond normal human capabilities.",
+    "15": "Agent Tress reveals Ghostbloods operations while Evidence Specialist Kell analyzes off-world technology samples. A third faction emerges in the conflict.",
+    "16": "FeLaan joins other kandra in providing counsel while Dr. Lestibournes treats Set-related casualties in Bilming. The ancient servants of Harmony become active participants.",
+    "17": "Agent Deep infiltrates government operations while Trade Representative Clubs works to maintain Southern relations. Set infiltration reaches the highest levels of power.",
+    "18": "Agent Riina provides intelligence from deep cover while Set communications reveal coordination with cosmic-level forces. The true scope of external interference is revealed.",
+    "19": "VarSell operates as divine intelligence agent while Set medical support maintains enhanced operatives. Harmony begins active participation in mortal affairs.",
+    "20": "Citizen Leader Vince organizes Bilming resistance while Radio Operator Lind coordinates law enforcement communications. Civilian populations mobilize against Set occupation.",
+    "21": "Set Field Commander leads tactical operations while noble houses coordinate defensive preparations. The conflict escalates to open warfare between factions.",
+    "22": "Keeper Sazed-Ka provides historical context while Weapons Tech Straff develops advanced Set arsenal. Past cosmic conflicts offer guidance for current crisis.",
+    "23": "Pilot Shan provides aerial support while Detective Shai investigates complex inter-jurisdictional cases. Multi-dimensional coordination becomes essential for all sides.",
+    "24": "Transport Chief Yomen manages Set logistics while noble security forces prepare for final confrontation. Resources and positioning become crucial factors.",
+    "25": "Kelsier's involvement is revealed while Harmony provides direct guidance. The true nature of the cosmic conflict and the identity of all major players becomes clear.",
+    "26": "Research Assistant Elend develops countermeasures while OreSeur coordinates divine communications. Scientific and spiritual resources combine against the external threat.",
+    "27": "Information Broker Felt provides crucial intelligence while Set communications break down under pressure. Information warfare becomes as important as physical conflict.",
+    "28": "Dr. Harding documents medical effects while Guard Captain Dockson coordinates noble defenses. The human cost of cosmic warfare becomes apparent.",
+    "29": "Investigator Goradel handles special cases while Lord Harms coordinates political support. Unusual circumstances require specialized responses from all participants.",
+    "30": "Ranette's weapons prove crucial while Pilot Shan leads aerial operations. Technology and tactics evolved for cosmic-level conflict are finally deployed.",
+    "31": "Captain Aradel coordinates emergency response while Transport Chief manages final logistics. The immediate battle preparations are completed by all factions.",
+    "32": "Mayor Sequence's true loyalties are revealed while Iron coordinates final Set operations. The extent of Set infiltration and external control becomes fully apparent.",
+    "33": "Dr. Lena Vass completes weapons research while Enforcer Dox provides Ghostbloods protection. All factions prepare their ultimate capabilities for final confrontation.",
+    "34": "OreSeur delivers divine messages while Agent Deep sabotages government response. Communication and counter-communication reach critical importance.",
+    "35": "Wayne makes personal sacrifices while Miles Dagouter returns with enhanced abilities. Past enemies return with cosmic-level enhancements for final battle.",
+    "36": "Telsin confronts family loyalty while Coinshot Kane pursues enhanced assassination missions. Personal relationships become weapons in cosmic-level conflict.",
+    "37": "Captain Elant leads aerial combat while Information Broker coordinates intelligence. Multi-dimensional warfare requires unprecedented coordination.",
+    "38": "Agent Crow arrives as Autonomy's direct representative while Former Obligator provides historical context. The full power of external Shardic intervention is revealed.",
+    "39": "Agent Riina reveals crucial intelligence while Lady Sequence coordinates noble resources. The final pieces of information needed for victory are gathered.",
+    "40": "Paalm is revealed as Avatar of Autonomy while Dr. Lestibournes treats massive casualties. The true nature of the external threat and its local manifestation becomes clear.",
+    "41": "Coordinator Demoux manages Ghostbloods response while Guard Captain protects noble houses. Strategic coordination reaches its most crucial phase.",
+    "42": "Former Obligator Rashek provides historical guidance while Set Enforcer demonstrates peak enhancement. Past wisdom and present power clash in preparation for climax.",
+    "43": "Enforcer Dox protects Ghostbloods operations while Medic Frost maintains Set enhancements. All factions deploy their ultimate protective and enhancement capabilities.",
+    "44": "Citizen Leader Vince coordinates evacuation while Pilot Shan provides air support. Civilian protection becomes as important as military operations.",
+    "45": "Kelsier reveals his true role while Iyatil commands Ghostbloods forces. The protective conspiracy to defend Scadrial from cosmic interference is fully revealed.",
+    "46": "Keeper provides cosmic historical context while Governor Innate makes crisis decisions. Leadership at all levels must confront cosmic-level responsibilities.",
+    "47": "Nazh provides scholarly analysis while Training Sergeant prepares forces for enhanced combat. Knowledge and preparation combine for unprecedented warfare.",
+    "48": "Agent Crow demonstrates off-world powers while Captain Marsh coordinates estate defenses. Cosmic-level abilities clash with determined local resistance.",
+    "49": "Trade Representative maintains commercial stability while VarSell provides divine intelligence. Even during cosmic warfare, practical and spiritual concerns must be balanced.",
+    "50": "Baon coordinates off-world intelligence while Harmony confronts Autonomy's direct intervention. The conflict reaches truly cosmic proportions with Shards directly involved.",
+    "51": "Enforcer Dox protects final operations while Research Assistant supports countermeasures. Protection and counter-development become equally crucial.",
+    "52": "Former Obligator provides final historical insights while Radio Operator maintains critical communications. Past wisdom and present coordination combine for climactic preparation.",
+    "53": "Investigator Goradel handles crisis cases while Quartermaster manages final supplies. Special circumstances require specialized responses as resources become critical.",
+    "54": "FeLaan coordinates kandra response while Weapons Tech maintains final enhancements. Ancient servants and modern technology combine for ultimate confrontation.",
+    "55": "Iyatil leads direct Ghostbloods intervention while Marasi commands emergency coordination. Hidden protectors reveal themselves as official forces coordinate response.",
+    "56": "Tech Specialist Hoid provides cosmic knowledge while Guard Chief defends harmonium supplies. Worldhopper wisdom and local resources combine against external threat.",
+    "57": "Information Broker coordinates final intelligence while Trade Representative maintains stability. Information and commercial stability become weapons in cosmic conflict.",
+    "58": "Agent Crow reveals off-world assault while Dr. Veillaind completes mass destruction weapons. The full scope of external invasion and internal betrayal becomes apparent.",
+    "59": "VarSell provides crucial divine intelligence while Constable Fader observes final Set movements. Spiritual guidance and ground-level observation combine for tactical advantage.",
+    "60": "Kelsier confronts the team directly while Suit makes his final play. The true scope of the protective conspiracy and the destructive invasion both reach culmination.",
+    "61": "Coordinator Demoux manages strategic operations while Investigator handles crisis response. Multi-level coordination becomes essential as all plans reach implementation.",
+    "62": "Keeper provides final cosmic context while Medic Frost maintains enhanced operatives. Historical wisdom and enhanced capabilities combine for ultimate confrontation.",
+    "63": "Enforcer Dox protects Ghostbloods final moves while Evidence Specialist analyzes cosmic technology. Protection and analysis combine as all factions make final preparations.",
+    "64": "Dr. Lestibournes treats massive casualties while Constable Evidence analyzes aftermath. Medical care and forensic analysis become crucial as warfare reaches peak intensity.",
+    "65": "MeLaan makes ultimate sacrifice while Harmony intervenes directly. Personal heroism and divine intervention combine to protect Scadrial from cosmic-level destruction.",
+    "66": "Ranette's cosmic weapons prove decisive while Telsin makes final choice. Advanced technology and personal loyalty determine the outcome of cosmic-level conflict.",
+    "67": "Information networks coordinate final intelligence while Radio Operator maintains crucial communications. Information warfare reaches its climax as all sides coordinate final moves.",
+    "68": "Lord Spook emerges to coordinate defense while Agent Crow leads final assault. Immortal wisdom and cosmic power clash in the ultimate confrontation for Scadrial's future.",
+    "69": "All factions coordinate final battle while Set communications collapse. The culmination of cosmic warfare tests every alliance and capability developed throughout the crisis.",
+    "70": "Kelsier makes final sacrifice while Tech Specialist provides crucial cosmic support. Ultimate heroism and worldhopper knowledge combine to save Scadrial from external conquest.",
+    "71": "Training Sergeant coordinates aftermath while Detective investigates cosmic consequences. Military organization and investigative analysis help process the results of cosmic conflict.",
+    "72": "Wayne's final heroism while Citizen Leader coordinates reconstruction. Personal sacrifice and civilian leadership combine to ensure Scadrial's survival and recovery.",
+    "73": "Captain Elant coordinates reconstruction support while Radio Operator manages communications. Aerial support and communications coordination help rebuild after cosmic conflict.",
+    "74": "Lord Spook helps coordinate new order while Harmony establishes Scadrial's cosmic independence. Ancient wisdom and divine authority establish Scadrial's future relationship with the broader cosmere."
+  }
+}
