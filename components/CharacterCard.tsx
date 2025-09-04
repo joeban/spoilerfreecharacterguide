@@ -69,46 +69,36 @@ export default function CharacterCard({ character }: CharacterCardProps) {
     <div className="relative">
       {/* Individual parchment background for each character */}
       <div 
-        className="parchment-panel p-4 sm:p-6 transition-all duration-300 hover:scale-[1.01] cursor-pointer"
+        className="parchment-panel p-3 sm:p-5 transition-all duration-300 hover:scale-[1.01] cursor-pointer"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         {/* Header section - always visible with consistent height */}
-        <div className="flex justify-between items-start mb-3">
-          <div className="flex-1">
-            <h3 className="text-lg sm:text-xl font-heading font-bold text-parchment-primary leading-tight">
-              {character.name}
-            </h3>
-            {/* Always reserve space for aliases - either show them or empty space */}
-            {character.aliases && character.aliases.length > 0 && (
-              <div className="mt-0.5">
-                {!isExpanded ? (
-                  <p className="text-xs sm:text-sm text-parchment-secondary italic truncate">
-                    {truncateAliases(character.aliases)}
-                  </p>
-                ) : (
-                  <p className="text-sm text-parchment-secondary italic">
-                    Also known as: {character.aliases.join(', ')}
-                  </p>
-                )}
-              </div>
-            )}
-            {/* First seen info moved here - reduced spacing */}
-            <div className="text-xs text-parchment-secondary mt-0.5">
-              <span className="font-medium">First seen: Chapter {character.firstAppearance}</span>
-              {character.lastUpdate > character.firstAppearance && (
-                <span className="ml-3 font-medium">Updated: Chapter {character.lastUpdate}</span>
+        <div className="mb-4">
+          <h3 className="text-lg sm:text-xl font-heading font-bold text-parchment-primary leading-tight mb-1.5">
+            {character.name}
+          </h3>
+          {/* Role info - styled like aliases */}
+          <p className="text-xs sm:text-sm text-parchment-secondary italic">
+            {character.role}
+          </p>
+          {/* Always reserve space for aliases - either show them or empty space */}
+          {character.aliases && character.aliases.length > 0 && (
+            <div>
+              {!isExpanded ? (
+                <p className="text-xs sm:text-sm text-parchment-secondary italic truncate">
+                  {truncateAliases(character.aliases)}
+                </p>
+              ) : (
+                <p className="text-sm text-parchment-secondary italic">
+                  Also known as: {character.aliases.join(', ')}
+                </p>
               )}
             </div>
-          </div>
-          <div className="flex items-center gap-2 ml-2">
-            <span className="text-xs font-medium text-amber-100 bg-gradient-to-br from-amber-700 to-amber-800 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full shadow-sm whitespace-nowrap">
-              {character.role}
-            </span>
-          </div>
+          )}
         </div>
         
         {/* Description - abbreviated or full with consistent height */}
-        <div className={`mb-3 ${!isExpanded ? 'min-h-[3rem]' : ''}`}>
+        <div className={`mb-2 ${!isExpanded ? 'min-h-[3rem]' : ''}`}>
           <p className="text-sm sm:text-base text-parchment-primary text-readable leading-snug">
             {isExpanded ? character.description : truncateDescription(character.description)}
           </p>
@@ -117,6 +107,14 @@ export default function CharacterCard({ character }: CharacterCardProps) {
         {/* Expanded content */}
         {isExpanded && (
           <div className="space-y-4 transition-all duration-200 ease-in-out">
+            {/* First seen info - now only in expanded view */}
+            <div className="text-xs text-parchment-secondary border-t border-stone-300 pt-3">
+              <span className="font-medium">First seen: Chapter {character.firstAppearance}</span>
+              {character.lastUpdate > character.firstAppearance && (
+                <span className="ml-3 font-medium">Updated: Chapter {character.lastUpdate}</span>
+              )}
+            </div>
+            
             {/* Relationships section with improved formatting */}
             {character.relationships && Object.keys(character.relationships).length > 0 && (
               <div className="border-t border-stone-300 pt-4">
