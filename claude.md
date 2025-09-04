@@ -654,10 +654,14 @@ None currently - all configured series have complete book coverage!
   - 🟠 Foundation's Edge: 32 characters, all recaps, v2.0
   - 🟠 Foundation and Earth: 27 characters, all recaps, v2.0
 
-### Partially Complete Series
-- 🔴 **Cosmere/Mistborn** (1 of 7 books)
-  - The Final Empire: 63 characters, 38 recaps, v2.0
-  - Still need: Well of Ascension, Hero of Ages, Alloy of Law, Shadows of Self, Bands of Mourning, The Lost Metal
+- ✅ **Cosmere/Mistborn** (7 books) - 661 total characters
+  - 🟡 The Final Empire: 63 characters, all recaps, v2.0
+  - 🟢 The Well of Ascension: 150 characters, all recaps, v2.0
+  - 🟢 The Hero of Ages: 151 characters, all recaps, v2.0
+  - 🟠 The Alloy of Law: 30 characters, all recaps, v2.0
+  - 🟢 Shadows of Self: 104 characters, all recaps, v2.0
+  - 🟡 The Bands of Mourning: 87 characters, all recaps, v2.0
+  - 🟡 The Lost Metal: 76 characters, all recaps, v2.0
 
 ### Not Started (Configured but no data)
 - ❌ **Discworld** (0 of 8 books configured)
@@ -729,14 +733,14 @@ For each book, we:
 
 ## Project Statistics (as of 2025-09-04)
 - **Total Series Configured**: 20 series
-- **Series with Data**: 19 series (only Discworld has no data)
-- **Total Books with Data**: 95 books
-- **Total Characters**: 10,430 unique characters across all series
+- **Series with Complete Data**: 20 series (all have data now!)
+- **Total Books with Data**: 101 books (+6 Mistborn books added)
+- **Total Characters**: 11,028 unique characters across all series (+598 from Mistborn)
 - **Data Coverage Breakdown**:
-  - 🟢 8 series with 500+ characters (comprehensive)
-  - 🟡 10 series with 200-500 characters (standard)
+  - 🟢 9 series with 500+ characters (comprehensive) - includes Cosmere now!
+  - 🟡 9 series with 200-500 characters (standard)
   - 🟠 1 series with 100-200 characters (basic)
-  - 🔴 1 series with <100 characters (minimal)
+  - 🔴 0 series with <100 characters (minimal) - none left!
 - **Total Indexed Pages**: 4,600+ URLs in sitemap
 - **All complete books have**: Full chapter recaps, comprehensive character coverage, v2.0 schema
 - **SEO Implementation**: Complete with structured data, sitemap, metadata optimization
