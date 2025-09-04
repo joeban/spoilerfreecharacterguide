@@ -557,8 +557,8 @@ After completing and pushing any series or book data:
   - 🟢 Feast for Crows: 149 characters, all recaps, v2.0
   - 🟢 Dance with Dragons: 199 characters, all recaps, v2.0
 
-- ✅ **The Witcher** (8 books) - FIXED JSON ERRORS
-  - 🟡 Last Wish: 62 characters, all recaps, v2.0
+- ⚠️ **The Witcher** (8 books) - Has CHARACTER DEATH SPOILERS
+  - ⚠️ Last Wish: 62 characters, all recaps, v2.0 - DEATH SPOILERS
   - 🟡 Sword of Destiny: 52 characters, all recaps, v2.0
   - 🟡 Blood of Elves: 60 characters, all recaps, v2.0
   - 🟡 Time of Contempt: 60 characters, all recaps, v2.0
@@ -567,12 +567,12 @@ After completing and pushing any series or book data:
   - 🟡 Lady of the Lake: 61 characters, all recaps, v2.0 (FIXED)
   - 🟡 Season of Storms: 55 characters, all recaps, v2.0 (FIXED)
 
-- ✅ **Fourth Wing** (2 books) - 162 total characters
+- ✅ **Fourth Wing** (2 books) - 162 total characters - SPOILER-FREE ✅
   - 🟡 Fourth Wing: 81 characters, all recaps, v2.0
-  - 🟡 Iron Flame: 81 characters, all recaps, v2.0
+  - 🟡 Iron Flame: 81 characters, all recaps, v2.0 - FIXED SPOILERS
 
 - ⚠️ **Wheel of Time** (3 of 5 books complete) - 383 total characters
-  - ❌ Eye of the World: FILE MISSING
+  - ⚠️ Eye of the World: Has data but SPOILER in aliases - needs fix
   - 🟢 Great Hunt: 201 characters, all recaps, v2.0
   - 🟢 Dragon Reborn: 143 characters, all recaps, v2.0
   - ❌ Shadow Rising: JSON ERROR - needs fix
@@ -654,8 +654,12 @@ None currently - all configured series have complete book coverage!
   - 🟠 Foundation's Edge: 32 characters, all recaps, v2.0
   - 🟠 Foundation and Earth: 27 characters, all recaps, v2.0
 
+### Partially Complete Series
+- 🔴 **Cosmere/Mistborn** (1 of 7 books)
+  - The Final Empire: 63 characters, 38 recaps, v2.0
+  - Still need: Well of Ascension, Hero of Ages, Alloy of Law, Shadows of Self, Bands of Mourning, The Lost Metal
+
 ### Not Started (Configured but no data)
-- ❌ **Mistborn/Cosmere** (0 of 7 books - 1 partial file exists)
 - ❌ **Discworld** (0 of 8 books configured)
 
 ### Books Needing Character Expansion
@@ -672,51 +676,67 @@ Priority books that need upgrading to Comprehensive (🟢) coverage:
 3. ~~**Hunger Games**~~ ✅ COMPLETE - Evergreen popularity, new prequel
 4. ~~**Shadow and Bone/Grishaverse**~~ ✅ COMPLETE - Netflix adaptation boost
 
-### MVP COMPLETE! 🎉
-All 20 configured series now have complete data with comprehensive character coverage and full chapter recaps!
+### Current Development Priority
+Focus on expanding existing high-traffic series before adding new ones. Fourth Wing, Percy Jackson, and Hunger Games need significant character expansion to match user expectations.
 
 ### Potential Future Expansions
-1. **Discworld** - Terry Pratchett's massive fanbase (8 books configured)
-2. **Mistborn/Cosmere** - Brandon Sanderson fanbase (7 books configured)
-3. Additional Wheel of Time books (9 more books to complete series)
-4. Other popular fantasy/sci-fi series based on user demand
+1. **Complete Mistborn/Cosmere** - Finish remaining 6 books (Brandon Sanderson fanbase)
+2. **Discworld** - Terry Pratchett's massive fanbase (8 books configured, 0 complete)
+3. **Additional Wheel of Time books** - Complete remaining 9 books in series
+4. **The Broken Earth Trilogy** - N.K. Jemisin's Hugo Award-winning series
+5. **The Priory of the Orange Tree** - Samantha Shannon's epic fantasy
 
-## Spoiler Audit Status
+## Spoiler Audit Status (Last Update: 2025-09-04)
 
-### Completed Audits
-✅ **Harry Potter** - All 7 books audited for spoilers
-✅ **A Song of Ice and Fire** - All 5 books audited for spoilers  
-✅ **Lord of the Rings** - Fellowship audited (needs completion for Two Towers and Return of King)
-✅ **Fourth Wing** - Audited, mostly clean (minor: Xaden listed as Brennan's ally in ch30)
-⚠️ **Iron Flame** - CRITICAL SPOILERS FOUND - Xaden's venin corruption revealed throughout (ch8+) instead of end
+### Completed Audits - All Clean ✅
+- **Harry Potter** - All 7 books clean
+- **A Song of Ice and Fire** - All 5 books clean
+- **Lord of the Rings** - All 4 books clean
+- **Fourth Wing** - Clean
+- **Iron Flame** - FIXED (was: venin corruption ch42→now ch60+)
+- **Throne of Glass** - All 7 books clean
+- **A Court of Thorns and Roses** - All 5 books clean (mate bond correctly ch20)
+- **Hunger Games** - All 4 books clean (Mockingjay recaps FIXED)
+- **Percy Jackson** - All 5 books clean
+- **Stormlight Archive** - Clean (Gavilar's death appropriately ch1)
 
-### Critical Issues Found
-**Iron Flame** - MAJOR SPOILERS:
-- Xaden's corruption mentioned as early as chapter 8 (should be chapter 60+)
-- Multiple characters reference his corruption throughout book
-- Chapter 65 recap explicitly states "Xaden's cure succeeds"
-- Sgaeyl references corrupted bond in chapters 15, 28, 42
-- Garrick mentions supporting Xaden through corruption in ch28
+### Issues Requiring Fixes ⚠️
+**Eye of the World** (Wheel of Time):
+- Rand has "Dragon Reborn" in aliases array (major spoiler - should be ch51+)
+
+**The Witcher - Last Wish**:
+- Renfri described as "Dies in Blaviken" (ch2)
+- Bruxa described as "Her death...breaks curse" (ch4)
+
+### Recently Fixed Issues ✅
+**Iron Flame** (2025-09-04):
+- Removed early venin corruption mentions
+- Fixed "cure" references in supporting characters
+- Moved major reveal from ch42 to ch60+
+
+**Mockingjay** (2025-09-04):
+- Replaced all 27 placeholder recaps with proper summaries
+- Protected Prim's death (only ch24+)
+- Coin's nature only revealed late
 
 ### Audit Process
 For each book, we:
-1. Identify major plot twists and developments
-2. Check character descriptions in early chapters for premature reveals
-3. Verify chapter recaps don't spoil future events
-4. Ensure relationships and roles are revealed progressively
+1. Search for death/transformation keywords
+2. Verify aliases don't contain spoilers
+3. Check character descriptions for premature reveals
+4. Ensure chapter recaps are spoiler-free
+5. Verify relationships evolve progressively
 
-### Next Priority for Audit (by popularity)
-1. **Throne of Glass** - Sarah J. Maas series, massive fanbase
-2. **A Court of Thorns and Roses** - Sarah J. Maas, extremely popular
-3. **Hunger Games** - Evergreen popularity
-4. **Percy Jackson** - Rick Riordan series
-
-## Project Statistics (as of latest update)
+## Project Statistics (as of 2025-09-04)
 - **Total Series Configured**: 20 series
-- **Series with Complete Data**: 18 series (2 have missing files)
-- **Total Books with Data**: 93 of 100 planned
-- **Total Characters**: 9,701 unique characters across all series
-- **Books Needing Fixes**: 21 (missing files, recap errors, or <50 chars)
+- **Series with Data**: 19 series (only Discworld has no data)
+- **Total Books with Data**: 95 books
+- **Total Characters**: 10,430 unique characters across all series
+- **Data Coverage Breakdown**:
+  - 🟢 8 series with 500+ characters (comprehensive)
+  - 🟡 10 series with 200-500 characters (standard)
+  - 🟠 1 series with 100-200 characters (basic)
+  - 🔴 1 series with <100 characters (minimal)
 - **Total Indexed Pages**: 4,600+ URLs in sitemap
 - **All complete books have**: Full chapter recaps, comprehensive character coverage, v2.0 schema
 - **SEO Implementation**: Complete with structured data, sitemap, metadata optimization
