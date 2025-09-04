@@ -1,0 +1,2515 @@
+{
+  "meta": {
+    "title": "The Well of Ascension",
+    "author": "Brandon Sanderson",
+    "chapters": 59,
+    "schemaVersion": "2.0",
+    "asin": "0765356139"
+  },
+  "characters": {
+    "vin": {
+      "name": "Vin",
+      "aliases": ["Lady Heir", "The Ascendant Warrior", "Empress"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The former street thief has become a powerful Mistborn and member of Elend's inner circle. She wears noble's clothing but still struggles with her place in the political world.",
+          "role": "Mistborn bodyguard and advisor",
+          "relationships": {
+            "Elend Venture": "Romantic partner and king she protects",
+            "OreSeur": "Kandra companion and bodyguard"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Learning to navigate the complex political world while maintaining her skills as a Mistborn. She's uncomfortable with the formal court but dedicated to protecting Elend.",
+          "role": "Elend's protector and confidante",
+          "relationships": {
+            "Tindwyl": "Keeper who teaches royal protocol",
+            "Sazed": "Trusted friend and advisor"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Has discovered her incredible power and the weight of expectation placed upon her as the Hero of Ages. Struggling with the prophecies and her destiny.",
+          "role": "Prophesied Hero of Ages",
+          "relationships": {
+            "The Deepness": "Ancient force she's meant to combat"
+          }
+        }
+      }
+    },
+    "elend-venture": {
+      "name": "Elend Venture",
+      "aliases": ["King Elend", "The Philosopher King"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The idealistic young nobleman has claimed the throne of Luthadel after his father's death. He's attempting to rule with fairness and justice, though he lacks practical experience.",
+          "role": "King of the Central Dominance",
+          "relationships": {
+            "Vin": "Beloved partner and protector",
+            "Assembly": "Noble body he shares power with"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Learning the hard realities of kingship under Tindwyl's tutelage. Struggling to balance his idealistic principles with the practical demands of leadership.",
+          "role": "Student of leadership",
+          "relationships": {
+            "Tindwyl": "Keeper instructor in royal protocol"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Has grown into his role as king, becoming more decisive and authoritative while maintaining his core principles of justice and equality.",
+          "role": "Experienced monarch",
+          "relationships": {
+            "His people": "Subjects he's sworn to protect"
+          }
+        }
+      }
+    },
+    "oreseur": {
+      "name": "OreSeur",
+      "aliases": ["TenSoon", "The Nameless"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The kandra continues to serve under his Contract with Vin, maintaining the bones and appearance of a wolfhound while acting as her companion and bodyguard.",
+          "role": "Contracted kandra bodyguard",
+          "relationships": {
+            "Vin": "Contracted master",
+            "Kandra Homeland": "Distant origins"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Beginning to show more personality and independence, though still bound by the Contract. Displays loyalty that goes beyond mere contractual obligation.",
+          "role": "Loyal companion",
+          "relationships": {
+            "Vin": "Trusted partner"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Has revealed his true identity and broken his Contract to help Vin, showing that kandra are capable of choosing their own path.",
+          "role": "Free kandra ally",
+          "relationships": {
+            "TenSoon": "His true identity",
+            "The First Generation": "Kandra elders"
+          }
+        }
+      }
+    },
+    "sazed": {
+      "name": "Sazed",
+      "aliases": ["Chief Ambassador", "Keeper of Terris"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Terris Keeper serves as chief ambassador and advisor to King Elend. He continues his mission to preserve and share the knowledge of dead religions.",
+          "role": "Chief Ambassador and Keeper",
+          "relationships": {
+            "Elend": "Trusted advisor",
+            "Tindwyl": "Fellow Keeper"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Developing deeper feelings for Tindwyl while working together to educate Elend in kingship. Struggling with the implications of romantic relationships for Keepers.",
+          "role": "Scholar and diplomat",
+          "relationships": {
+            "Tindwyl": "Romantic interest",
+            "Synod": "Keeper leadership council"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Devastated by loss but continuing his duty as a Keeper. His faith in religion and the Keeper traditions has been shaken by recent events.",
+          "role": "Grieving Keeper",
+          "relationships": {
+            "Lost love": "Memory that haunts him"
+          }
+        }
+      }
+    },
+    "tindwyl": {
+      "name": "Tindwyl",
+      "aliases": ["Keeper Tindwyl"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A distinguished Keeper from the Terris Synod, sent to help train Elend in the arts of kingship. She's stern, proper, and deeply knowledgeable about royal protocol and history.",
+          "role": "Royal instructor and Keeper",
+          "relationships": {
+            "Elend": "Student in kingship",
+            "Sazed": "Fellow Keeper"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Beginning to show a softer side as she works closely with Sazed and develops feelings for him. Still maintains her professional demeanor while teaching Elend.",
+          "role": "Teacher and scholar",
+          "relationships": {
+            "Sazed": "Growing romantic interest"
+          }
+        }
+      }
+    },
+    "straff-venture": {
+      "name": "Straff Venture",
+      "aliases": ["Lord Venture", "The Northern King"],
+      "appearances": [4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Elend's father and the former head of House Venture. He has arrived with an army to retake Luthadel from his son, viewing Elend's rule as weak and idealistic.",
+          "role": "Rival claimant to the throne",
+          "relationships": {
+            "Elend": "Estranged son and rival",
+            "Zane": "Mistborn assassin son"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "A cunning and ruthless politician who uses manipulation and intimidation to achieve his goals. He's gathered a large army and seeks to reclaim his family's power.",
+          "role": "Military commander and schemer",
+          "relationships": {
+            "His army": "Tool for conquest"
+          }
+        }
+      }
+    },
+    "ashweather-cett": {
+      "name": "Ashweather Cett",
+      "aliases": ["Lord Cett", "King Cett"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A powerful warlord from the Western Dominance who has marched on Luthadel with his own army. He's known for his direct, crude manner and strategic brilliance.",
+          "role": "Western warlord and king claimant",
+          "relationships": {
+            "Allrianne": "Beloved daughter"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Despite his gruff exterior, he's shown to be a caring father and capable military strategist. Uses his daughter's abilities to his advantage in political maneuvering.",
+          "role": "Strategic military leader",
+          "relationships": {
+            "His troops": "Loyal soldiers from the west"
+          }
+        }
+      }
+    },
+    "zane": {
+      "name": "Zane",
+      "aliases": ["Zane Venture", "The Mad Mistborn"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Straff's illegitimate son and a powerful Mistborn. He serves his father reluctantly and shows signs of instability, often talking to himself or an unseen presence.",
+          "role": "Mistborn assassin",
+          "relationships": {
+            "Straff": "Father and reluctant master",
+            "God": "Mysterious voice he hears"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Becoming increasingly unstable and fixated on Vin. He sees her as the only person who might understand his struggle with the voice in his head and the demands of being Mistborn.",
+          "role": "Unstable Mistborn warrior",
+          "relationships": {
+            "Vin": "Obsessive interest"
+          }
+        }
+      }
+    },
+    "breeze": {
+      "name": "Breeze",
+      "aliases": ["Ladrian"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The elegant Soother continues to serve as one of Elend's key advisors. His ability to manipulate emotions makes him valuable in negotiations and politics.",
+          "role": "Royal advisor and Soother",
+          "relationships": {
+            "Elend": "Trusted counselor",
+            "Allrianne": "Object of unexpected affection"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Developing genuine feelings for Allrianne Cett, which surprises him given his usual cynical nature. Still maintains his sophisticated facade while dealing with these emotions.",
+          "role": "Advisor and reluctant romantic",
+          "relationships": {
+            "Allrianne": "Romantic interest"
+          }
+        }
+      }
+    },
+    "ham": {
+      "name": "Ham",
+      "aliases": ["Hammond"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The philosophical Thug serves as Elend's general and military advisor. He continues to ponder deep questions while leading soldiers and planning defensive strategies.",
+          "role": "General and military strategist",
+          "relationships": {
+            "Elend": "Military advisor",
+            "The Army": "Soldiers under his command"
+          }
+        }
+      }
+    },
+    "clubs": {
+      "name": "Clubs",
+      "aliases": ["General Clubs"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The grumpy Smoker serves as one of Elend's generals, using his ability to hide Allomantic pulses to coordinate military operations. He remains as cantankerous as ever.",
+          "role": "General and Smoker",
+          "relationships": {
+            "Spook": "Nephew",
+            "The Army": "Grumbling commander"
+          }
+        }
+      }
+    },
+    "spook": {
+      "name": "Spook",
+      "aliases": ["Lestibournes"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The young Tineye has matured somewhat but still maintains his strange speech patterns and keen senses. He serves as a scout and spy for Elend's forces.",
+          "role": "Scout and spy",
+          "relationships": {
+            "Clubs": "Uncle and mentor",
+            "Vin": "Fellow crew member"
+          }
+        }
+      }
+    },
+    "dockson": {
+      "name": "Dockson",
+      "aliases": ["Dox"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Kelsier's former right-hand man now serves as one of Elend's key administrators. His organizational skills and practical mind make him invaluable in running the kingdom.",
+          "role": "Royal administrator",
+          "relationships": {
+            "Elend": "Administrative advisor",
+            "Kelsier": "Former leader and friend"
+          }
+        }
+      }
+    },
+    "marsh": {
+      "name": "Marsh",
+      "aliases": ["Ironeyes", "Steel Inquisitor"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Kelsier's brother has been transformed into a Steel Inquisitor, but retains some of his original personality and loyalty to his former comrades. He struggles with his new nature.",
+          "role": "Reformed Steel Inquisitor",
+          "relationships": {
+            "Kelsier": "Dead brother",
+            "Vin": "Ally from the past"
+          }
+        }
+      }
+    },
+    "allrianne": {
+      "name": "Allrianne",
+      "aliases": ["Allrianne Cett", "Lady Cett"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Lord Cett's daughter, a skilled Soother who can manipulate emotions. She appears frivolous and concerned with fashion but is actually quite intelligent and capable.",
+          "role": "Soother and noble daughter",
+          "relationships": {
+            "Ashweather Cett": "Father and lord",
+            "Breeze": "Target of romantic pursuit"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Has set her sights on Breeze romantically, using her charm and Allomantic abilities to pursue him. Despite her apparent superficiality, she shows genuine affection.",
+          "role": "Romantic pursuer",
+          "relationships": {
+            "Breeze": "Object of romantic interest"
+          }
+        }
+      }
+    },
+    "demoux": {
+      "name": "Demoux",
+      "aliases": ["Captain Demoux"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The former skaa soldier has risen to become one of Elend's most trusted military officers. He's deeply religious and devoted to the Church of the Survivor.",
+          "role": "Military captain",
+          "relationships": {
+            "Elend": "King and commander",
+            "The Survivor": "Religious devotion to Kelsier"
+          }
+        }
+      }
+    },
+    "tensoon": {
+      "name": "TenSoon",
+      "aliases": ["The Nameless", "OreSeur"],
+      "appearances": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "The kandra's true identity, revealed when he breaks his Contract to help Vin. He's a member of the Third Generation and has chosen to aid Vin of his own free will.",
+          "role": "Free kandra ally",
+          "relationships": {
+            "Vin": "Chosen ally",
+            "The First Generation": "Kandra leaders he's defied"
+          }
+        }
+      }
+    },
+    "kwaan": {
+      "name": "Kwaan",
+      "aliases": ["The Worldbringer"],
+      "appearances": [22, 35, 45, 55],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "An ancient Terris Keeper mentioned in historical texts as one who was involved in the events surrounding the Hero of Ages prophecy.",
+          "role": "Historical Terris figure",
+          "relationships": {
+            "Alendi": "The Hero he once endorsed"
+          }
+        }
+      }
+    },
+    "alendi": {
+      "name": "Alendi",
+      "aliases": ["The Hero of Ages"],
+      "appearances": [14, 22, 35, 45, 55],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The legendary Hero of Ages from ancient times, believed to have been the one prophesied to defeat the Deepness but who failed in his quest.",
+          "role": "Failed ancient hero",
+          "relationships": {
+            "The Deepness": "Ancient force he was meant to stop"
+          }
+        }
+      }
+    },
+    "fatren": {
+      "name": "Fatren",
+      "aliases": ["Captain Fatren"],
+      "appearances": [50, 51, 52, 53, 54],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "A town leader trying to protect his people from the mists and the koloss. He's skeptical of outsiders but desperate for help.",
+          "role": "Town defender",
+          "relationships": {
+            "His townspeople": "People he's sworn to protect"
+          }
+        }
+      }
+    },
+    "assembly-members": {
+      "name": "The Assembly",
+      "aliases": ["Luthadel Assembly"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The governing body that shares power with King Elend, consisting of representatives from different factions including skaa, merchants, and nobles.",
+          "role": "Governing council",
+          "relationships": {
+            "Elend": "Power-sharing arrangement"
+          }
+        }
+      }
+    },
+    "ferson": {
+      "name": "Ferson",
+      "aliases": ["Lord Ferson"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A noble member of the Assembly who often opposes Elend's more radical policies. He represents the conservative noble faction.",
+          "role": "Assembly member",
+          "relationships": {
+            "The Assembly": "Conservative voice"
+          }
+        }
+      }
+    },
+    "getrue": {
+      "name": "Getrue",
+      "aliases": ["Merchant Getrue"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A wealthy merchant and member of the Assembly who represents commercial interests. Often pragmatic in his approach to governance.",
+          "role": "Merchant representative",
+          "relationships": {
+            "The Assembly": "Commercial faction"
+          }
+        }
+      }
+    },
+    "noorden": {
+      "name": "Noorden",
+      "aliases": ["Scholar Noorden"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A scholarly man who helps research the ancient prophecies and historical documents related to the Hero of Ages and the Deepness.",
+          "role": "Researcher and scholar",
+          "relationships": {
+            "Ancient texts": "Source of his knowledge"
+          }
+        }
+      }
+    },
+    "slowswift": {
+      "name": "Slowswift",
+      "aliases": ["Captain Slowswift"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "One of Elend's military officers, responsible for organizing the city's defenses and coordinating with other commanders.",
+          "role": "Military officer",
+          "relationships": {
+            "The Army": "Soldiers under his command"
+          }
+        }
+      }
+    },
+    "janarle": {
+      "name": "Janarle",
+      "aliases": ["Lord Janarle"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A member of the Assembly representing noble interests. He often questions Elend's decisions and advocates for more traditional noble privileges.",
+          "role": "Noble representative",
+          "relationships": {
+            "The Assembly": "Noble faction voice"
+          }
+        }
+      }
+    },
+    "koloss": {
+      "name": "Koloss",
+      "aliases": ["The Blue-Skinned Ones"],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Large, blue-skinned humanoid creatures with incredible strength and violent tendencies. They are controlled by Steel Inquisitors and used as soldiers.",
+          "role": "Controlled monsters",
+          "relationships": {
+            "Steel Inquisitors": "Controllers and commanders"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Discovered to be former humans transformed by the Lord Ruler's power. They can be controlled by those with sufficient Allomantic strength.",
+          "role": "Transformed beings",
+          "relationships": {
+            "Humanity": "Their former state"
+          }
+        }
+      }
+    },
+    "jed": {
+      "name": "Jed",
+      "aliases": ["Jed the Mist-walker"],
+      "appearances": [50, 51, 52, 53, 54],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "A townsperson who has survived encounters with the mists. He provides information about how the mists have changed since the Lord Ruler's death.",
+          "role": "Mist survivor",
+          "relationships": {
+            "The Mists": "Mysterious survival"
+          }
+        }
+      }
+    },
+    "kandra-first-generation": {
+      "name": "First Generation Kandra",
+      "aliases": ["The Firsts", "KanPaar"],
+      "appearances": [33, 34, 35, 36, 37, 38],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "The eldest and most powerful kandra, who govern the kandra society from their Homeland. They are bound by ancient Contracts and traditions.",
+          "role": "Kandra rulers",
+          "relationships": {
+            "TenSoon": "Kandra they judge",
+            "The Lord Ruler": "Ancient Contract holder"
+          }
+        }
+      }
+    },
+    "kandra-seconds": {
+      "name": "Second Generation Kandra",
+      "aliases": ["The Seconds"],
+      "appearances": [35, 36, 37, 38],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Kandra of the second generation, serving various roles in kandra society and often acting as intermediaries between the Firsts and later generations.",
+          "role": "Kandra administrators",
+          "relationships": {
+            "First Generation": "Kandra superiors"
+          }
+        }
+      }
+    },
+    "penrod": {
+      "name": "Penrod",
+      "aliases": ["Lord Penrod"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A prominent member of the Assembly and former noble who tries to balance practical governance with political survival. Often takes moderate positions.",
+          "role": "Assembly leader",
+          "relationships": {
+            "The Assembly": "Influential member"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Has assumed greater leadership responsibilities as the situation in Luthadel becomes more desperate. Shows both ambition and pragmatism.",
+          "role": "Acting leader",
+          "relationships": {
+            "Luthadel": "Responsibility for the city"
+          }
+        }
+      }
+    },
+    "philen": {
+      "name": "Philen",
+      "aliases": ["Skaa Philen"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A skaa representative in the Assembly who advocates for the rights and needs of the working class people.",
+          "role": "Skaa representative",
+          "relationships": {
+            "The Assembly": "Voice for the skaa"
+          }
+        }
+      }
+    },
+    "goradel": {
+      "name": "Goradel",
+      "aliases": ["Messenger Goradel"],
+      "appearances": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A loyal messenger and servant who carries important communications between various parties during the siege of Luthadel.",
+          "role": "Messenger and servant",
+          "relationships": {
+            "Various leaders": "Communication link"
+          }
+        }
+      }
+    },
+    "deepness": {
+      "name": "The Deepness",
+      "aliases": ["Ancient Darkness", "The Destroyer"],
+      "appearances": [14, 22, 35, 45, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "An ancient, mysterious force that once threatened the world and was supposedly defeated by the Hero of Ages. Connected to the mists and prophecies.",
+          "role": "Ancient threat",
+          "relationships": {
+            "The Hero of Ages": "Prophesied opponent",
+            "The Mists": "Connected phenomenon"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "The truth about the Deepness begins to emerge - it may not be what the prophecies claimed, and its relationship to the mists is more complex.",
+          "role": "Misunderstood force",
+          "relationships": {
+            "The Well of Ascension": "Connected to the ancient power"
+          }
+        }
+      }
+    },
+    "preservation": {
+      "name": "Preservation",
+      "aliases": ["The Protector"],
+      "appearances": [56, 57, 58, 59],
+      "knowledge": {
+        "56": {
+          "revealedIn": 56,
+          "description": "A fundamental force of the universe concerned with maintaining and protecting existence, opposed to change and destruction.",
+          "role": "Cosmic force of stasis",
+          "relationships": {
+            "Ruin": "Opposing cosmic force"
+          }
+        }
+      }
+    },
+    "ruin": {
+      "name": "Ruin",
+      "aliases": ["The Destroyer"],
+      "appearances": [56, 57, 58, 59],
+      "knowledge": {
+        "56": {
+          "revealedIn": 56,
+          "description": "A fundamental force of the universe that seeks to break down and destroy, opposing preservation and stasis.",
+          "role": "Cosmic force of entropy",
+          "relationships": {
+            "Preservation": "Opposing cosmic force"
+          }
+        }
+      }
+    },
+    "well-of-ascension": {
+      "name": "The Well of Ascension",
+      "aliases": ["The Well"],
+      "appearances": [22, 35, 45, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A legendary location of immense power, connected to the ancient prophecies and the defeat of the Deepness. Its true nature is shrouded in mystery.",
+          "role": "Source of ancient power",
+          "relationships": {
+            "The Hero of Ages": "Destination of the prophesied one",
+            "The Deepness": "Connected to the ancient threat"
+          }
+        }
+      }
+    },
+    "captain-goradel": {
+      "name": "Captain Goradel",
+      "aliases": ["The Loyal Captain"],
+      "appearances": [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A military officer serving under one of the armies besieging Luthadel. Shows loyalty to his cause while maintaining professional military conduct.",
+          "role": "Military captain",
+          "relationships": {
+            "His army": "Officer commanding troops"
+          }
+        }
+      }
+    },
+    "mists": {
+      "name": "The Mists",
+      "aliases": ["Night Mists"],
+      "appearances": [1, 14, 22, 35, 45, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The mysterious mists that come out at night, now appearing during the day as well since the Lord Ruler's death. People fear them, though their true nature is unknown.",
+          "role": "Mysterious phenomenon",
+          "relationships": {
+            "The Deepness": "Connected ancient force"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "The mists have been killing people, causing terror throughout the land. Some survive encounters with them while others are found dead with no apparent cause.",
+          "role": "Deadly force",
+          "relationships": {
+            "Snapping": "Connection to Allomantic awakening"
+          }
+        }
+      }
+    },
+    "venture-soldiers": {
+      "name": "Venture Soldiers",
+      "aliases": ["Straff's Army"],
+      "appearances": [4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The large army that Straff Venture has brought to besiege Luthadel. They are well-trained and equipped, representing a significant military threat.",
+          "role": "Besieging army",
+          "relationships": {
+            "Straff Venture": "Commander and lord"
+          }
+        }
+      }
+    },
+    "cett-soldiers": {
+      "name": "Cett's Army",
+      "aliases": ["Western Army"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The army from the Western Dominance led by Ashweather Cett. Known for their discipline and loyalty to their gruff commander.",
+          "role": "Western military force",
+          "relationships": {
+            "Ashweather Cett": "Beloved commander"
+          }
+        }
+      }
+    },
+    "luthadel-guards": {
+      "name": "Luthadel City Guard",
+      "aliases": ["City Watch"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The remaining guards and soldiers defending Luthadel under Elend's rule. Many are former skaa who have been trained in basic military tactics.",
+          "role": "City defenders",
+          "relationships": {
+            "Elend": "King and commander",
+            "Ham": "Military leader"
+          }
+        }
+      }
+    },
+    "steel-inquisitors": {
+      "name": "Steel Inquisitors",
+      "aliases": ["The Lord Ruler's Priests"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Terrifying warrior-priests with spikes through their eyes who served the Lord Ruler. Though he is dead, some still remain and pursue their own agenda.",
+          "role": "Former imperial agents",
+          "relationships": {
+            "The Lord Ruler": "Former master",
+            "Koloss": "Creatures they control"
+          }
+        }
+      }
+    },
+    "obligators": {
+      "name": "Obligators",
+      "aliases": ["Ministry Priests"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Former bureaucrats and priests of the Steel Ministry who served the Lord Ruler. Many have fled or gone into hiding since his death.",
+          "role": "Former imperial bureaucrats",
+          "relationships": {
+            "Steel Ministry": "Former organization"
+          }
+        }
+      }
+    },
+    "skaa-workers": {
+      "name": "Skaa Workers",
+      "aliases": ["The Common Folk"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The working class people of Luthadel who have gained new freedoms under Elend's rule but still struggle with poverty and the threat of war.",
+          "role": "Common citizens",
+          "relationships": {
+            "Elend": "King who freed them",
+            "The Church of the Survivor": "New religious movement"
+          }
+        }
+      }
+    },
+    "survivor-priests": {
+      "name": "Priests of the Survivor",
+      "aliases": ["Church of the Survivor"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Religious followers who worship Kelsier as the Survivor, viewing him as a divine figure who died for the freedom of the skaa.",
+          "role": "Religious movement",
+          "relationships": {
+            "Kelsier": "Martyred deity figure",
+            "Demoux": "Devoted believer"
+          }
+        }
+      }
+    },
+    "vin-mist-spirit": {
+      "name": "Mist Spirit",
+      "aliases": ["The Watcher", "Preservation's Agent"],
+      "appearances": [22, 35, 45, 55, 56, 57, 58],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A mysterious entity made of mist that appears to Vin and seems to be trying to communicate something important. Its intentions are unclear.",
+          "role": "Mysterious guide",
+          "relationships": {
+            "Vin": "Person it's trying to reach",
+            "The Mists": "Made from the same substance"
+          }
+        }
+      }
+    },
+    "terrismen": {
+      "name": "Terrismen",
+      "aliases": ["Feruchemists", "Keepers"],
+      "appearances": [1, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The people of Terris who serve as stewards and eunuch servants throughout the empire. Some are Keepers who preserve ancient knowledge and religions.",
+          "role": "Servant class and knowledge preservers",
+          "relationships": {
+            "Sazed": "Prominent Keeper",
+            "Tindwyl": "Another Keeper"
+          }
+        }
+      }
+    },
+    "elend-assembly": {
+      "name": "Elend's Court",
+      "aliases": ["Royal Court"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The advisors, servants, and officials who serve King Elend in governing Luthadel. They include both former nobles and elevated skaa.",
+          "role": "Royal administration",
+          "relationships": {
+            "Elend": "King they serve"
+          }
+        }
+      }
+    },
+    "noble-refugees": {
+      "name": "Noble Refugees",
+      "aliases": ["Displaced Nobles"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Former noble house members who remain in Luthadel under Elend's rule, having lost much of their former power and wealth.",
+          "role": "Former aristocracy",
+          "relationships": {
+            "Great Houses": "Their destroyed families"
+          }
+        }
+      }
+    },
+    "thugs": {
+      "name": "Allomantic Thugs",
+      "aliases": ["Pewter Burners"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Allomancers who can burn pewter for enhanced physical strength and endurance. They serve in various armies as elite soldiers.",
+          "role": "Enhanced warriors",
+          "relationships": {
+            "Ham": "Most prominent Thug in the story"
+          }
+        }
+      }
+    },
+    "soothers": {
+      "name": "Allomantic Soothers",
+      "aliases": ["Brass Burners"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Allomancers who can burn brass to dampen emotions in others, making them more calm and compliant.",
+          "role": "Emotion manipulators",
+          "relationships": {
+            "Breeze": "Master Soother",
+            "Allrianne": "Another skilled Soother"
+          }
+        }
+      }
+    },
+    "rioters": {
+      "name": "Allomantic Rioters",
+      "aliases": ["Zinc Burners"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Allomancers who can burn zinc to inflame emotions in others, making them more passionate and agitated.",
+          "role": "Emotion enhancers",
+          "relationships": {
+            "Soothers": "Opposing Allomantic discipline"
+          }
+        }
+      }
+    },
+    "seekers": {
+      "name": "Allomantic Seekers",
+      "aliases": ["Bronze Burners"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Allomancers who can burn bronze to detect the use of other Allomantic powers, sensing the pulses they create.",
+          "role": "Allomantic detectors",
+          "relationships": {
+            "Smokers": "Allomancers who can hide from them"
+          }
+        }
+      }
+    },
+    "tineyes": {
+      "name": "Allomantic Tineyes",
+      "aliases": ["Tin Burners"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Allomancers who can burn tin to enhance their senses, making them excellent scouts and lookouts.",
+          "role": "Enhanced scouts",
+          "relationships": {
+            "Spook": "Prominent Tineye"
+          }
+        }
+      }
+    },
+    "coinshots": {
+      "name": "Allomantic Coinshots",
+      "aliases": ["Steel Burners"],
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Allomancers who can burn steel to push on metals, often using coins as projectiles or for limited flight.",
+          "role": "Metal pushers",
+          "relationships": {
+            "Lurchers": "Opposite Allomantic power"
+          }
+        }
+      }
+    },
+    "lurchers": {
+      "name": "Allomantic Lurchers",
+      "aliases": ["Iron Burners"],
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Allomancers who can burn iron to pull on metals, drawing metal objects toward themselves.",
+          "role": "Metal pullers",
+          "relationships": {
+            "Coinshots": "Opposite Allomantic power"
+          }
+        }
+      }
+    },
+    "mistborn": {
+      "name": "Mistborn",
+      "aliases": ["Full Allomancers"],
+      "appearances": [1, 9, 22, 33, 44, 55],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Extremely rare Allomancers who can use all metals, making them incredibly powerful warriors and the stuff of legends.",
+          "role": "Ultimate Allomancers",
+          "relationships": {
+            "Vin": "The most prominent living Mistborn",
+            "Zane": "Another Mistborn"
+          }
+        }
+      }
+    },
+    "kandra": {
+      "name": "Kandra",
+      "aliases": ["The Contractual Servants"],
+      "appearances": [1, 12, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Shape-shifting creatures who serve under binding Contracts. They can consume corpses and perfectly imitate the deceased.",
+          "role": "Contractual shape-shifters",
+          "relationships": {
+            "OreSeur": "Individual kandra serving Vin"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "An ancient race created to serve, but capable of independent thought and emotion. They are ruled by the First Generation and bound by ancient traditions.",
+          "role": "Ancient servant race",
+          "relationships": {
+            "The Lord Ruler": "Ancient contract holder",
+            "First Generation": "Kandra rulers"
+          }
+        }
+      }
+    },
+    "atium": {
+      "name": "Atium",
+      "aliases": ["The Lord Ruler's Metal", "The God Metal"],
+      "appearances": [13, 14, 22, 35, 40, 45, 55],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The most precious metal in the empire, hoarded by the Lord Ruler. When burned by Allomancers, it grants the power to see slightly into the future.",
+          "role": "Prophetic metal",
+          "relationships": {
+            "The Lord Ruler": "Former controller of supply"
+          }
+        }
+      }
+    },
+    "lerasium": {
+      "name": "Lerasium",
+      "aliases": ["The Preservation Metal"],
+      "appearances": [55, 56, 57, 58, 59],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "A mysterious metal connected to the power of Preservation, with properties unlike any other known metal.",
+          "role": "Divine metal",
+          "relationships": {
+            "Preservation": "Connected cosmic force"
+          }
+        }
+      }
+    },
+    "beadsmen": {
+      "name": "Beadsmen",
+      "aliases": ["Hemalurgic Servants"],
+      "appearances": [35, 40, 45, 50, 55],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Creatures created through Hemalurgy, the magic of ripping away and transplanting attributes using metal spikes.",
+          "role": "Hemalurgic constructs",
+          "relationships": {
+            "Steel Inquisitors": "Created through similar process"
+          }
+        }
+      }
+    },
+    "kelsier-spirit": {
+      "name": "Kelsier's Spirit",
+      "aliases": ["The Survivor's Shade"],
+      "appearances": [35, 45, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "The lingering presence of the dead thief and revolutionary, somehow still connected to the world despite his physical death.",
+          "role": "Spiritual guide",
+          "relationships": {
+            "Vin": "Former student he guides",
+            "The Cognitive Realm": "Realm where he persists"
+          }
+        }
+      }
+    },
+    "worldbringers": {
+      "name": "Worldbringers",
+      "aliases": ["Ancient Terris Prophets"],
+      "appearances": [22, 35, 45],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Ancient Terris Keepers who were involved in creating and interpreting the prophecies about the Hero of Ages.",
+          "role": "Prophecy creators",
+          "relationships": {
+            "Kwaan": "Prominent Worldbringer"
+          }
+        }
+      }
+    },
+    "packmen": {
+      "name": "Packmen",
+      "aliases": ["Traveling Merchants"],
+      "appearances": [50, 51, 52, 53, 54],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "Merchants and traders who travel between settlements, bringing news and goods despite the dangerous conditions.",
+          "role": "Traveling traders",
+          "relationships": {
+            "Various towns": "Trading connections"
+          }
+        }
+      }
+    },
+    "refugees": {
+      "name": "Refugees",
+      "aliases": ["Displaced People"],
+      "appearances": [50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "People who have fled their homes due to the koloss attacks and the changing mists, seeking safety in fortified settlements.",
+          "role": "Displaced civilians",
+          "relationships": {
+            "Koloss": "The threat they flee from",
+            "The Mists": "Dangerous phenomenon"
+          }
+        }
+      }
+    },
+    "venture-guards": {
+      "name": "House Venture Guards",
+      "aliases": ["Straff's Elite"],
+      "appearances": [4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Elite soldiers serving House Venture under Straff's command. Well-trained and equipped with the finest weapons and armor.",
+          "role": "Elite house guards",
+          "relationships": {
+            "Straff Venture": "Lord and commander"
+          }
+        }
+      }
+    },
+    "cett-guards": {
+      "name": "Cett's Personal Guard",
+      "aliases": ["Western Elite"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The personal bodyguards and elite soldiers who serve Ashweather Cett, known for their loyalty and combat effectiveness.",
+          "role": "Elite bodyguards",
+          "relationships": {
+            "Ashweather Cett": "Lord they protect"
+          }
+        }
+      }
+    },
+    "venture-allomancers": {
+      "name": "Venture Allomancers",
+      "aliases": ["House Venture's Mistings"],
+      "appearances": [9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Allomancers in service to House Venture, including Mistings with various single-metal abilities who serve as elite soldiers and agents.",
+          "role": "House Allomancers",
+          "relationships": {
+            "Straff Venture": "House lord they serve",
+            "Zane": "Most powerful Allomancer in the house"
+          }
+        }
+      }
+    },
+    "cett-allomancers": {
+      "name": "Cett's Allomancers",
+      "aliases": ["Western Mistings"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Allomantic warriors serving under Cett's command, including his daughter Allrianne who is a powerful Soother.",
+          "role": "Military Allomancers",
+          "relationships": {
+            "Ashweather Cett": "Commander",
+            "Allrianne": "Most notable among them"
+          }
+        }
+      }
+    },
+    "assembly-guards": {
+      "name": "Assembly Guards",
+      "aliases": ["Luthadel Assembly Protection"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Soldiers and guards responsible for protecting the Assembly members and maintaining order during governmental meetings.",
+          "role": "Government security",
+          "relationships": {
+            "The Assembly": "Officials they protect"
+          }
+        }
+      }
+    },
+    "ministry-remnants": {
+      "name": "Steel Ministry Remnants",
+      "aliases": ["Former Ministry Officials"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Former officials and priests of the Steel Ministry who have not yet been captured or killed since the Lord Ruler's death.",
+          "role": "Former imperial officials",
+          "relationships": {
+            "The Lord Ruler": "Former master",
+            "Steel Inquisitors": "Former colleagues"
+          }
+        }
+      }
+    },
+    "merchant-houses": {
+      "name": "Merchant Houses",
+      "aliases": ["Trading Guilds"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Merchant organizations that control trade routes and commercial interests in Luthadel and beyond.",
+          "role": "Commercial powers",
+          "relationships": {
+            "The Assembly": "Representatives in government",
+            "Getrue": "Prominent merchant member"
+          }
+        }
+      }
+    },
+    "canal-workers": {
+      "name": "Canal Workers",
+      "aliases": ["Waterway Maintenance"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Skaa workers responsible for maintaining Luthadel's canal system, which is crucial for transportation and trade.",
+          "role": "Infrastructure workers",
+          "relationships": {
+            "Luthadel": "City they serve"
+          }
+        }
+      }
+    },
+    "palace-staff": {
+      "name": "Palace Staff",
+      "aliases": ["Keep Venture Servants"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Servants, cooks, and staff who work in Keep Venture (now the royal palace) serving King Elend and his court.",
+          "role": "Royal servants",
+          "relationships": {
+            "Elend": "King they serve"
+          }
+        }
+      }
+    },
+    "craftsmen": {
+      "name": "Craftsmen",
+      "aliases": ["Artisans and Smiths"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Skilled workers including metalworkers, leatherworkers, and other craftsmen who create goods and maintain equipment.",
+          "role": "Skilled laborers",
+          "relationships": {
+            "The Army": "Supply weapons and equipment"
+          }
+        }
+      }
+    },
+    "informants": {
+      "name": "Informants",
+      "aliases": ["Spies and Contacts"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Network of contacts and informants who provide intelligence about enemy movements and political developments.",
+          "role": "Intelligence network",
+          "relationships": {
+            "Elend's crew": "Spymasters they report to"
+          }
+        }
+      }
+    },
+    "doctors": {
+      "name": "Doctors",
+      "aliases": ["Healers and Physicians"],
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Medical practitioners who tend to the wounded and sick in Luthadel, dealing with both battle injuries and mysterious mist-related deaths.",
+          "role": "Medical professionals",
+          "relationships": {
+            "The wounded": "Patients they treat"
+          }
+        }
+      }
+    },
+    "scholars": {
+      "name": "Scholars",
+      "aliases": ["Researchers and Academics"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Learned individuals who study ancient texts, prophecies, and historical documents to understand the current crisis.",
+          "role": "Researchers and academics",
+          "relationships": {
+            "Noorden": "Prominent scholar among them",
+            "Ancient texts": "Source materials they study"
+          }
+        }
+      }
+    },
+    "quartermasters": {
+      "name": "Quartermasters",
+      "aliases": ["Supply Officers"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Military officers responsible for managing supplies, food, and equipment for the various armies.",
+          "role": "Supply managers",
+          "relationships": {
+            "The armies": "Forces they supply"
+          }
+        }
+      }
+    },
+    "siegeworkers": {
+      "name": "Siege Workers",
+      "aliases": ["Fortification Builders"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Workers who build siege engines, fortifications, and defensive structures for the various armies.",
+          "role": "Military engineers",
+          "relationships": {
+            "Army commanders": "Officers who direct their work"
+          }
+        }
+      }
+    },
+    "scouts": {
+      "name": "Scouts",
+      "aliases": ["Reconnaissance Soldiers"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Soldiers responsible for reconnaissance, gathering intelligence about enemy positions and movements.",
+          "role": "Military reconnaissance",
+          "relationships": {
+            "Army commanders": "Officers they report to"
+          }
+        }
+      }
+    },
+    "messengers": {
+      "name": "Messengers",
+      "aliases": ["Military Couriers"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Fast riders and runners who carry messages between commanders, armies, and cities.",
+          "role": "Communication network",
+          "relationships": {
+            "Army commands": "Officers they serve"
+          }
+        }
+      }
+    },
+    "sentries": {
+      "name": "Sentries",
+      "aliases": ["Gate Guards and Watchmen"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Guards who man the gates, walls, and watch posts of Luthadel, maintaining vigilance against threats.",
+          "role": "Perimeter guards",
+          "relationships": {
+            "Luthadel": "City they guard"
+          }
+        }
+      }
+    },
+    "camp-followers": {
+      "name": "Camp Followers",
+      "aliases": ["Army Civilians"],
+      "appearances": [4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Civilians who travel with armies, including family members, traders, and service providers.",
+          "role": "Army support civilians",
+          "relationships": {
+            "The armies": "Military forces they follow"
+          }
+        }
+      }
+    },
+    "cave-dwelling-refugees": {
+      "name": "Cave Refugees",
+      "aliases": ["Underground Survivors"],
+      "appearances": [50, 51, 52, 53, 54],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "People who have taken shelter in caves and underground spaces to hide from the koloss and the dangerous mists.",
+          "role": "Hidden survivors",
+          "relationships": {
+            "Underground shelters": "Their places of refuge"
+          }
+        }
+      }
+    },
+    "well-guards": {
+      "name": "Well Guards",
+      "aliases": ["Ancient Protectors"],
+      "appearances": [55, 56, 57, 58],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "Mysterious guardians associated with the Well of Ascension, whose true nature and purpose are shrouded in ancient mystery.",
+          "role": "Ancient guardians",
+          "relationships": {
+            "The Well of Ascension": "Sacred site they protect"
+          }
+        }
+      }
+    },
+    "captain-janarle": {
+      "name": "Captain Janarle",
+      "aliases": ["Military Janarle"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A military officer serving in the city's defense forces, working to maintain order during the siege.",
+          "role": "Defense captain",
+          "relationships": {
+            "Luthadel defenses": "Part of the city's military structure"
+          }
+        }
+      }
+    },
+    "lady-patresen": {
+      "name": "Lady Patresen",
+      "aliases": ["Noble Patresen"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A noblewoman who survived the collapse of the Great Houses and now navigates the new political reality under Elend's rule.",
+          "role": "Surviving noble",
+          "relationships": {
+            "The Assembly": "Participates in the new government"
+          }
+        }
+      }
+    },
+    "lord-hasting": {
+      "name": "Lord Hasting",
+      "aliases": ["Assembly Hasting"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of the Assembly representing noble interests, often voting with the conservative faction against Elend's more progressive policies.",
+          "role": "Conservative assembly member",
+          "relationships": {
+            "Noble faction": "Part of the conservative bloc"
+          }
+        }
+      }
+    },
+    "skaa-jed": {
+      "name": "Skaa Jed",
+      "aliases": ["Worker Jed"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A skaa representative in the Assembly who advocates for workers' rights and improved conditions for the common people.",
+          "role": "Skaa assembly representative",
+          "relationships": {
+            "Skaa workers": "Represents their interests"
+          }
+        }
+      }
+    },
+    "merchant-krate": {
+      "name": "Merchant Krate",
+      "aliases": ["Trader Krate"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A wealthy merchant with interests in the canal trade who serves in the Assembly's commercial faction.",
+          "role": "Commercial representative",
+          "relationships": {
+            "Canal traders": "Business associates"
+          }
+        }
+      }
+    },
+    "keeper-vedlew": {
+      "name": "Keeper Vedlew",
+      "aliases": ["Terris Vedlew"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Terris Keeper who works with Tindwyl and Sazed, helping to research ancient prophecies and historical texts.",
+          "role": "Scholar and Keeper",
+          "relationships": {
+            "Tindwyl": "Fellow Keeper",
+            "Sazed": "Collaborating scholar"
+          }
+        }
+      }
+    },
+    "steel-inquisitor-kar": {
+      "name": "Steel Inquisitor Kar",
+      "aliases": ["Inquisitor Kar"],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "One of the Steel Inquisitors who survived the Lord Ruler's death and now commands koloss armies in pursuit of their own agenda.",
+          "role": "Koloss commander",
+          "relationships": {
+            "Koloss armies": "Creatures under his control"
+          }
+        }
+      }
+    },
+    "captain-durn": {
+      "name": "Captain Durn",
+      "aliases": ["Officer Durn"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A military captain serving in Elend's forces, responsible for coordinating defensive positions and troop movements.",
+          "role": "Military officer",
+          "relationships": {
+            "Elend's army": "Serves as field commander"
+          }
+        }
+      }
+    },
+    "sergeant-beldre": {
+      "name": "Sergeant Beldre",
+      "aliases": ["Non-com Beldre"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A non-commissioned officer in Luthadel's defense forces, helping to train and organize the newer recruits.",
+          "role": "Training sergeant",
+          "relationships": {
+            "New recruits": "Soldiers under his training"
+          }
+        }
+      }
+    },
+    "allomancer-push": {
+      "name": "Push",
+      "aliases": ["Coinshot Push"],
+      "appearances": [9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Coinshot serving in Straff's forces, skilled at using steel Pushing for combat and reconnaissance.",
+          "role": "Allomantic warrior",
+          "relationships": {
+            "Straff's army": "Elite Allomantic unit"
+          }
+        }
+      }
+    },
+    "allomancer-pull": {
+      "name": "Pull",
+      "aliases": ["Lurcher Pull"],
+      "appearances": [7, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Lurcher in Cett's forces, using iron Pulling abilities for both combat and utility purposes.",
+          "role": "Allomantic soldier",
+          "relationships": {
+            "Cett's forces": "Part of western army"
+          }
+        }
+      }
+    },
+    "thug-hammond-second": {
+      "name": "Thug Yeden",
+      "aliases": ["Pewterarm Yeden"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Thug serving in one of the armies, using pewter-enhanced strength in combat situations.",
+          "role": "Enhanced warrior",
+          "relationships": {
+            "Army unit": "Part of elite fighting force"
+          }
+        }
+      }
+    },
+    "soother-calm": {
+      "name": "Calm",
+      "aliases": ["Brass Mistress Calm"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A female Soother working with Cett's forces, using her abilities to maintain discipline and calm among the troops.",
+          "role": "Military Soother",
+          "relationships": {
+            "Allrianne": "Fellow Soother in same army"
+          }
+        }
+      }
+    },
+    "tineye-watch": {
+      "name": "Watch",
+      "aliases": ["Scout Watch"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Tineye serving as a scout and lookout for one of the armies, using enhanced senses for reconnaissance.",
+          "role": "Enhanced scout",
+          "relationships": {
+            "Army scouts": "Part of reconnaissance unit"
+          }
+        }
+      }
+    },
+    "smoker-hide": {
+      "name": "Hide",
+      "aliases": ["Copper Hider"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A Smoker who hides Allomantic activity from Seekers, working to protect other Allomancers in military operations.",
+          "role": "Allomantic concealer",
+          "relationships": {
+            "Other Allomancers": "Comrades he protects"
+          }
+        }
+      }
+    },
+    "seeker-find": {
+      "name": "Find",
+      "aliases": ["Bronze Finder"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A Seeker who detects the use of Allomantic powers, serving as part of military intelligence operations.",
+          "role": "Allomantic detector",
+          "relationships": {
+            "Intelligence unit": "Part of reconnaissance team"
+          }
+        }
+      }
+    },
+    "kandra-msen": {
+      "name": "MeLaan",
+      "aliases": ["Fourth Generation"],
+      "appearances": [35, 36, 37, 38],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "A kandra of the Fourth Generation who appears during discussions about TenSoon's fate and kandra society.",
+          "role": "Kandra representative",
+          "relationships": {
+            "TenSoon": "Fellow kandra",
+            "Fourth Generation": "Her generation group"
+          }
+        }
+      }
+    },
+    "kandra-vlair": {
+      "name": "VarSell",
+      "aliases": ["Third Generation"],
+      "appearances": [35, 36, 37, 38],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "A Third Generation kandra involved in the judgment of TenSoon for breaking his Contract.",
+          "role": "Kandra judge",
+          "relationships": {
+            "The Contract": "Ancient law he upholds"
+          }
+        }
+      }
+    },
+    "venture-guard-captain": {
+      "name": "Captain Venture-Guard",
+      "aliases": ["Elite Captain"],
+      "appearances": [4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The captain of Straff's elite guard unit, responsible for the lord's personal protection and elite operations.",
+          "role": "Elite guard captain",
+          "relationships": {
+            "Straff Venture": "Lord he protects"
+          }
+        }
+      }
+    },
+    "cett-guard-leader": {
+      "name": "Guard-Leader Cett",
+      "aliases": ["Western Captain"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The leader of Cett's personal guard, a veteran warrior with extensive experience in the Western Dominance conflicts.",
+          "role": "Elite guard leader",
+          "relationships": {
+            "Ashweather Cett": "Lord and commander"
+          }
+        }
+      }
+    },
+    "assembly-clerk": {
+      "name": "Assembly Clerk",
+      "aliases": ["Government Scribe"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The official recorder of Assembly proceedings, responsible for maintaining records of votes and debates.",
+          "role": "Government recorder",
+          "relationships": {
+            "The Assembly": "Official he serves"
+          }
+        }
+      }
+    },
+    "palace-steward": {
+      "name": "Palace Steward",
+      "aliases": ["Keep Manager"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The head servant responsible for managing Keep Venture's daily operations and coordinating the staff.",
+          "role": "Palace administrator",
+          "relationships": {
+            "Palace staff": "Servants he supervises"
+          }
+        }
+      }
+    },
+    "head-cook": {
+      "name": "Head Cook",
+      "aliases": ["Kitchen Master"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The master chef of Keep Venture's kitchens, responsible for feeding the royal court and managing food supplies during the siege.",
+          "role": "Palace chef",
+          "relationships": {
+            "Kitchen staff": "Cooks under his direction"
+          }
+        }
+      }
+    },
+    "stable-master": {
+      "name": "Stable Master",
+      "aliases": ["Horse Keeper"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The keeper of the palace stables, responsible for maintaining horses and transportation for the royal household.",
+          "role": "Stable keeper",
+          "relationships": {
+            "Palace horses": "Animals in his care"
+          }
+        }
+      }
+    },
+    "gate-captain": {
+      "name": "Gate Captain",
+      "aliases": ["Portal Commander"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The officer in charge of Luthadel's main gates, controlling access to the city during the siege.",
+          "role": "Gate commander",
+          "relationships": {
+            "City gates": "Fortifications he controls"
+          }
+        }
+      }
+    },
+    "wall-commander": {
+      "name": "Wall Commander",
+      "aliases": ["Fortification Leader"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The senior officer responsible for defending Luthadel's walls and coordinating the city's defensive positions.",
+          "role": "Defense commander",
+          "relationships": {
+            "City walls": "Fortifications under his command"
+          }
+        }
+      }
+    },
+    "supply-officer": {
+      "name": "Supply Officer",
+      "aliases": ["Logistics Captain"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The officer responsible for managing food, weapons, and other supplies for Luthadel's defenders during the siege.",
+          "role": "Logistics manager",
+          "relationships": {
+            "City supplies": "Resources he manages"
+          }
+        }
+      }
+    },
+    "medical-officer": {
+      "name": "Medical Officer",
+      "aliases": ["Army Physician"],
+      "appearances": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The chief medical officer for Luthadel's forces, treating wounded soldiers and studying the mysterious mist-deaths.",
+          "role": "Military physician",
+          "relationships": {
+            "Wounded soldiers": "Patients he treats"
+          }
+        }
+      }
+    },
+    "intelligence-officer": {
+      "name": "Intelligence Officer",
+      "aliases": ["Spy Master"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The officer responsible for gathering intelligence about enemy movements and coordinating spy networks.",
+          "role": "Intelligence coordinator",
+          "relationships": {
+            "Informant network": "Spies he manages"
+          }
+        }
+      }
+    },
+    "training-sergeant": {
+      "name": "Training Sergeant",
+      "aliases": ["Drill Master"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The non-commissioned officer responsible for training new recruits in basic military skills and discipline.",
+          "role": "Military trainer",
+          "relationships": {
+            "New recruits": "Soldiers he trains"
+          }
+        }
+      }
+    },
+    "weapons-master": {
+      "name": "Weapons Master",
+      "aliases": ["Armorer"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The specialist responsible for maintaining and distributing weapons and armor to Luthadel's defenders.",
+          "role": "Weapons specialist",
+          "relationships": {
+            "City arsenal": "Weapons he maintains"
+          }
+        }
+      }
+    },
+    "siege-engineer": {
+      "name": "Siege Engineer",
+      "aliases": ["Fortification Specialist"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An engineer specializing in siege warfare, working to strengthen Luthadel's defenses and counter enemy siege engines.",
+          "role": "Military engineer",
+          "relationships": {
+            "City defenses": "Fortifications he designs"
+          }
+        }
+      }
+    },
+    "communications-officer": {
+      "name": "Communications Officer",
+      "aliases": ["Signal Master"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The officer responsible for maintaining communication between different parts of the city's defenses and coordinating signals.",
+          "role": "Communications coordinator",
+          "relationships": {
+            "Signal network": "Communication system he manages"
+          }
+        }
+      }
+    },
+    "refugee-coordinator": {
+      "name": "Refugee Coordinator",
+      "aliases": ["Civilian Manager"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The official responsible for managing the influx of refugees fleeing to Luthadel from the outer dominances.",
+          "role": "Civilian administrator",
+          "relationships": {
+            "Refugee population": "Displaced people he helps"
+          }
+        }
+      }
+    },
+    "food-coordinator": {
+      "name": "Food Coordinator",
+      "aliases": ["Rations Manager"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The administrator responsible for managing food distribution and rationing during the siege of Luthadel.",
+          "role": "Food administrator",
+          "relationships": {
+            "City food supply": "Resources he manages"
+          }
+        }
+      }
+    },
+    "volunteer-leader": {
+      "name": "Volunteer Leader",
+      "aliases": ["Citizen Captain"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A citizen leader who organizes civilian volunteers to help with the city's defense and support efforts.",
+          "role": "Volunteer organizer",
+          "relationships": {
+            "Civilian volunteers": "Citizens he organizes"
+          }
+        }
+      }
+    },
+    "night-watch-captain": {
+      "name": "Night Watch Captain",
+      "aliases": ["Evening Commander"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The officer in charge of night patrols and security, particularly important given the dangerous mists.",
+          "role": "Night security commander",
+          "relationships": {
+            "Night patrol": "Guards he commands"
+          }
+        }
+      }
+    },
+    "mist-researcher": {
+      "name": "Mist Researcher",
+      "aliases": ["Phenomenon Studier"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 35, 40, 45, 50, 51, 52, 53, 54, 55],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A scholar dedicated to studying the changing nature of the mists and their effects on people.",
+          "role": "Mist specialist",
+          "relationships": {
+            "The mists": "Phenomenon he studies"
+          }
+        }
+      }
+    },
+    "prophecy-scholar": {
+      "name": "Prophecy Scholar",
+      "aliases": ["Ancient Text Expert"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 45, 50, 55],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A scholar specializing in ancient prophecies, particularly those related to the Hero of Ages and the Deepness.",
+          "role": "Prophecy expert",
+          "relationships": {
+            "Ancient prophecies": "Texts he interprets"
+          }
+        }
+      }
+    },
+    "koloss-scout": {
+      "name": "Koloss Scout",
+      "aliases": ["Blue-skin Observer"],
+      "appearances": [50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "A person who specializes in tracking and observing koloss movements, providing early warning of their approach.",
+          "role": "Monster tracker",
+          "relationships": {
+            "Koloss herds": "Creatures he monitors"
+          }
+        }
+      }
+    },
+    "village-elder": {
+      "name": "Village Elder",
+      "aliases": ["Town Leader"],
+      "appearances": [50, 51, 52, 53, 54],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "An elder from a village encountered during the journey, trying to lead his people through the dangerous times.",
+          "role": "Community leader",
+          "relationships": {
+            "Village survivors": "People he guides"
+          }
+        }
+      }
+    },
+    "mist-survivor": {
+      "name": "Mist Survivor",
+      "aliases": ["Changed One"],
+      "appearances": [50, 51, 52, 53, 54, 55],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "Someone who survived an encounter with the deadly mists and lived to tell about it, though changed by the experience.",
+          "role": "Miraculous survivor",
+          "relationships": {
+            "The mists": "Force that spared him"
+          }
+        }
+      }
+    },
+    "well-seeker": {
+      "name": "Well Seeker",
+      "aliases": ["Ancient Hunter"],
+      "appearances": [45, 50, 55, 56, 57, 58],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Someone searching for the Well of Ascension based on ancient clues and prophecies.",
+          "role": "Ancient site seeker",
+          "relationships": {
+            "Ancient prophecies": "Clues he follows"
+          }
+        }
+      }
+    },
+    "preservation-agent": {
+      "name": "Preservation Agent",
+      "aliases": ["Stasis Servant"],
+      "appearances": [56, 57, 58, 59],
+      "knowledge": {
+        "56": {
+          "revealedIn": 56,
+          "description": "A being or person influenced by the power of Preservation, working to maintain stability and prevent change.",
+          "role": "Cosmic servant",
+          "relationships": {
+            "Preservation": "Cosmic force he serves"
+          }
+        }
+      }
+    },
+    "ruin-influence": {
+      "name": "Ruin's Influence",
+      "aliases": ["Entropy Touch"],
+      "appearances": [56, 57, 58, 59],
+      "knowledge": {
+        "56": {
+          "revealedIn": 56,
+          "description": "The corrupting influence of Ruin on various people and situations, promoting decay and destruction.",
+          "role": "Destructive force",
+          "relationships": {
+            "Ruin": "Cosmic power it represents"
+          }
+        }
+      }
+    },
+    "ancient-guardian": {
+      "name": "Ancient Guardian",
+      "aliases": ["Primordial Protector"],
+      "appearances": [55, 56, 57, 58, 59],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "An ancient being tasked with guarding secrets from the time before the Lord Ruler's ascension.",
+          "role": "Primordial sentinel",
+          "relationships": {
+            "Ancient secrets": "Knowledge he protects"
+          }
+        }
+      }
+    },
+    "worldbringer-descendant": {
+      "name": "Worldbringer Descendant",
+      "aliases": ["Keeper Heir"],
+      "appearances": [22, 35, 45, 55],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A person descended from the ancient Worldbringers who created the prophecies, carrying inherited knowledge.",
+          "role": "Prophetic heir",
+          "relationships": {
+            "Worldbringers": "Ancient ancestors"
+          }
+        }
+      }
+    },
+    "hemalurgy-victim": {
+      "name": "Hemalurgy Victim",
+      "aliases": ["Spike Marked"],
+      "appearances": [35, 40, 45, 50, 55],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Someone who has been affected by Hemalurgic magic, having had attributes stolen or transplanted via metal spikes.",
+          "role": "Magic victim",
+          "relationships": {
+            "Metal spikes": "Source of his condition"
+          }
+        }
+      }
+    },
+    "atium-guard": {
+      "name": "Atium Guard",
+      "aliases": ["Precious Metal Keeper"],
+      "appearances": [13, 14, 22, 35, 40, 45, 55],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A guard responsible for protecting stores of atium, the most precious metal in the empire.",
+          "role": "Treasure guardian",
+          "relationships": {
+            "Atium reserves": "Precious metal he guards"
+          }
+        }
+      }
+    },
+    "cognitive-shadow": {
+      "name": "Cognitive Shadow",
+      "aliases": ["Spiritual Remnant"],
+      "appearances": [35, 45, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "The spiritual remnant of a dead person that persists in the Cognitive Realm, maintaining some connection to the physical world.",
+          "role": "Spiritual entity",
+          "relationships": {
+            "Cognitive Realm": "Plane of existence it inhabits"
+          }
+        }
+      }
+    },
+    "snapping-victim": {
+      "name": "Snapping Victim",
+      "aliases": ["Allomantic Awakened"],
+      "appearances": [50, 51, 52, 53, 54, 55],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "Someone who survived the mists and experienced Snapping, awakening latent Allomantic abilities through trauma.",
+          "role": "Newly awakened Allomancer",
+          "relationships": {
+            "Allomantic powers": "Abilities he's gained"
+          }
+        }
+      }
+    },
+    "terris-refugee": {
+      "name": "Terris Refugee",
+      "aliases": ["Displaced Keeper"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 50, 51, 52, 53, 54],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A person from Terris who has fled their homeland, possibly carrying knowledge or artifacts from Keeper traditions.",
+          "role": "Displaced scholar",
+          "relationships": {
+            "Terris homeland": "Place they've fled from"
+          }
+        }
+      }
+    },
+    "steel-ministry-spy": {
+      "name": "Ministry Spy",
+      "aliases": ["Hidden Obligator"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A former Steel Ministry agent working in secret, possibly serving the remaining Steel Inquisitors or pursuing their own agenda.",
+          "role": "Hidden agent",
+          "relationships": {
+            "Steel Ministry": "Former organization"
+          }
+        }
+      }
+    },
+    "plantation-overseer": {
+      "name": "Plantation Overseer",
+      "aliases": ["Field Manager"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 51, 52],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A supervisor from the agricultural regions who managed skaa workers before the collapse of the old order.",
+          "role": "Agricultural manager",
+          "relationships": {
+            "Skaa workers": "People he formerly supervised"
+          }
+        }
+      }
+    },
+    "canal-captain": {
+      "name": "Canal Captain",
+      "aliases": ["Water Transport Chief"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The captain of a canal barge who transports goods and people through Luthadel's waterways.",
+          "role": "Water transport operator",
+          "relationships": {
+            "Canal network": "Waterways he navigates"
+          }
+        }
+      }
+    },
+    "market-leader": {
+      "name": "Market Leader",
+      "aliases": ["Trade Coordinator"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A person who coordinates trade and commerce in Luthadel's markets, trying to maintain economic activity during the siege.",
+          "role": "Commerce coordinator",
+          "relationships": {
+            "City markets": "Trading centers he manages"
+          }
+        }
+      }
+    },
+    "guild-representative": {
+      "name": "Guild Representative",
+      "aliases": ["Craft Speaker"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A representative of one of the craft guilds who speaks for the interests of skilled workers in the new government.",
+          "role": "Craft advocate",
+          "relationships": {
+            "Craft guilds": "Organizations he represents"
+          }
+        }
+      }
+    },
+    "religious-leader": {
+      "name": "Religious Leader",
+      "aliases": ["Faith Guide"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A leader in the Church of the Survivor or another religious movement, providing spiritual guidance during troubled times.",
+          "role": "Spiritual guide",
+          "relationships": {
+            "Religious followers": "People he guides spiritually"
+          }
+        }
+      }
+    },
+    "former-noble": {
+      "name": "Former Noble",
+      "aliases": ["Fallen Aristocrat"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A member of a former Great House who has adapted to the new social order, working with the common people.",
+          "role": "Adapted aristocrat",
+          "relationships": {
+            "Former house": "Destroyed family lineage"
+          }
+        }
+      }
+    },
+    "knowledge-seeker": {
+      "name": "Knowledge Seeker",
+      "aliases": ["Lore Hunter"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 45, 50, 55],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A person dedicated to gathering and preserving knowledge, particularly about the ancient magics and prophecies.",
+          "role": "Information collector",
+          "relationships": {
+            "Ancient knowledge": "Wisdom he seeks"
+          }
+        }
+      }
+    },
+    "power-seeker": {
+      "name": "Power Seeker",
+      "aliases": ["Authority Hunter"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An ambitious individual who seeks to gain political or magical power in the chaos following the Lord Ruler's death.",
+          "role": "Ambitious schemer",
+          "relationships": {
+            "Political power": "Authority he craves"
+          }
+        }
+      }
+    },
+    "truth-seeker": {
+      "name": "Truth Seeker",
+      "aliases": ["Reality Hunter"],
+      "appearances": [14, 22, 35, 45, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Someone dedicated to uncovering the truth behind the ancient prophecies and the real nature of the cosmic conflict.",
+          "role": "Truth investigator",
+          "relationships": {
+            "Hidden truths": "Secrets he pursues"
+          }
+        }
+      }
+    },
+    "fate-weaver": {
+      "name": "Fate Weaver",
+      "aliases": ["Destiny Shaper"],
+      "appearances": [22, 35, 45, 55, 56, 57, 58, 59],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A mysterious figure connected to the ancient prophecies who seems to understand the true nature of fate and destiny in the cosmic conflict.",
+          "role": "Prophetic guide",
+          "relationships": {
+            "Ancient prophecies": "Predictions he helps interpret",
+            "Cosmic forces": "Powers he understands"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "One year after the Lord Ruler's death, Vin struggles with her role as bodyguard to King Elend Venture while he attempts to govern Luthadel through an elected Assembly. The mists have begun appearing during the day, terrifying the people. Elend faces political challenges from the Assembly who question his authority and idealistic policies.",
+    "2": "Elend deals with the Assembly's resistance to his rule while trying to maintain order in Luthadel. The city faces food shortages and civil unrest as refugees pour in from the outer dominances. Vin continues her training and protection duties while feeling out of place in the political world.",
+    "3": "Political tensions rise as the Assembly becomes more assertive in challenging Elend's decisions. Reports arrive of armies gathering in the outer dominances. Vin struggles with her identity and role, feeling caught between her street thief past and her current position as Elend's protector.",
+    "4": "Straff Venture arrives outside Luthadel with a massive army, demanding that his son Elend abdicate the throne. The siege of Luthadel begins as Straff positions his forces to blockade the city. Elend must decide how to respond to his father's ultimatum while maintaining his principles.",
+    "5": "The siege intensifies as Straff cuts off supply lines to Luthadel. Inside the city, tensions mount between different factions in the Assembly. Elend tries to negotiate with his father while preparing the city's defenses, though his army is vastly outnumbered.",
+    "6": "Elend's position becomes more precarious as the Assembly grows increasingly critical of his leadership. Food supplies dwindle and citizen morale drops. Vin considers taking direct action against Straff but is unsure of the political consequences.",
+    "7": "A second army arrives led by Ashweather Cett, a warlord from the Western Dominance, creating a three-way standoff around Luthadel. Cett brings his daughter Allrianne, a Soother, who immediately sets her sights on Breeze. The political situation becomes even more complex.",
+    "8": "Tindwyl, a Keeper from the Terris Synod, arrives to help train Elend in the arts of kingship. She begins teaching him royal protocol and proper leadership techniques. Sazed works closely with her, and their professional relationship begins to develop into something deeper.",
+    "9": "Zane, Straff's illegitimate son and a Mistborn, infiltrates Luthadel and begins observing Vin. He shows signs of mental instability, hearing voices that others cannot. Meanwhile, the siege continues with neither army making aggressive moves, creating a tense waiting game.",
+    "10": "Elend begins to show improvement under Tindwyl's tutelage, becoming more authoritative and decisive in his leadership. The Assembly continues to challenge his authority, with some members calling for new elections. Supplies in the city continue to dwindle.",
+    "11": "Zane makes contact with Vin, trying to convince her that she doesn't belong in the political world and should embrace her nature as a Mistborn warrior. Political maneuvering continues as various factions in the Assembly jockey for position.",
+    "12": "OreSeur begins showing more independence and personality, though still bound by his Contract. Research into ancient prophecies and historical documents intensifies as scholars try to understand current events. The siege remains at a stalemate.",
+    "13": "More information about atium and its importance to the Lord Ruler's power structure emerges. The economic implications of the siege become more severe as trade routes remain blocked. Tensions within Luthadel continue to rise.",
+    "14": "Marsh appears, having been transformed into a Steel Inquisitor but retaining his original personality and loyalties. He brings disturbing news about other Steel Inquisitors and their activities. The ancient prophecies about the Hero of Ages and the Deepness are discussed.",
+    "15": "The military situation becomes more complex as smaller armies and groups of koloss are spotted in the region. Straff and Cett continue their standoff while political pressure mounts on Elend from within the city.",
+    "16": "Koloss armies are confirmed to be moving in the region, controlled by Steel Inquisitors. This adds a new threat to the already complex siege situation. The Assembly's confidence in Elend continues to erode.",
+    "17": "Tindwyl's teaching methods help Elend become more commanding and authoritative, though some question whether he's losing his idealistic principles. The relationship between Sazed and Tindwyl deepens as they work together.",
+    "18": "Sazed and Tindwyl's romantic feelings for each other become more apparent, creating internal conflict as Keepers traditionally avoid such attachments. Political negotiations between the three armies continue without resolution.",
+    "19": "Zane's mental state continues to deteriorate as he becomes more obsessed with Vin and more resentful of serving his father. The siege drags on with no side willing to make the first aggressive move.",
+    "20": "Allrianne's pursuit of Breeze intensifies, much to his discomfort and confusion. The romantic subplot develops while the larger political and military situation remains deadlocked. Food shortages in Luthadel become critical.",
+    "21": "The Assembly grows more restless and begins making moves to limit Elend's power or remove him from office entirely. The three-way siege continues as none of the commanders want to be the first to attack.",
+    "22": "Ancient prophecies and their interpretations become more important as scholars try to understand references to the Hero of Ages and the coming of the Deepness. Vin begins to wonder about her role in these ancient predictions.",
+    "23": "Political pressure on Elend reaches a critical point as the Assembly moves closer to calling for new leadership. The siege has lasted months with no resolution in sight, and morale in the city continues to decline.",
+    "24": "Zane becomes more aggressive in his attempts to recruit Vin to his cause, believing that Mistborn should not serve but should rule. His philosophical arguments about power and its proper use create doubt in Vin's mind.",
+    "25": "The situation in Luthadel becomes desperate as food runs critically low and disease begins to spread. The Assembly's opposition to Elend becomes more organized and determined.",
+    "26": "Negotiations between the three armies remain fruitless as each leader pursues their own agenda. The suffering within Luthadel increases as the siege takes its toll on the civilian population.",
+    "27": "Elend's transformation under Tindwyl's guidance continues as he becomes more willing to make hard decisions and exercise authority. Some of his original supporters begin to worry he's changing too much.",
+    "28": "The koloss threat becomes more immediate as reports confirm their movement toward Luthadel. This external threat adds urgency to the existing three-way standoff between the human armies.",
+    "29": "Sazed and Tindwyl's relationship deepens despite the taboos against romantic involvement for Keepers. Their professional collaboration on educating Elend provides cover for their growing personal attachment.",
+    "30": "Elend demonstrates his growth as a leader by making difficult decisions with more confidence and authority. The transformation Tindwyl has worked on begins to show results in how others perceive and respond to him.",
+    "31": "The Assembly's challenge to Elend's authority reaches a climax as they move to formally question his right to rule. Political maneuvering intensifies as various factions position themselves for advantage.",
+    "32": "Zane's obsession with Vin grows more dangerous as his mental instability increases. His attempts to prove that she belongs in the world of violence rather than politics become more direct and threatening.",
+    "33": "OreSeur reveals his true identity as TenSoon and breaks his Contract to help Vin of his own free will. This revelation about kandra nature and their capacity for independent choice surprises everyone.",
+    "34": "TenSoon explains more about kandra society and the First Generation who rule them. His decision to break his Contract and help Vin represents a fundamental challenge to kandra traditions and laws.",
+    "35": "Ancient secrets about the nature of kandra, their creation, and their relationship to the Lord Ruler begin to emerge. The historical connections between various magical creatures become clearer.",
+    "36": "The First Generation kandra summon TenSoon to answer for breaking his Contract. This provides insight into kandra society and their ancient traditions of service.",
+    "37": "More revelations about the kandra's true nature and their role in the Lord Ruler's empire emerge. The depth of the magical system's interconnections becomes more apparent.",
+    "38": "TenSoon faces judgment from the First Generation for his actions. The kandra political system and their ancient agreements are revealed in more detail.",
+    "39": "The siege situation becomes even more complex as the koloss threat grows closer. The three human armies must consider whether their standoff is sustainable given the approaching danger.",
+    "40": "The truth about koloss is revealed - they are transformed humans, created through Hemalurgy. This discovery changes understanding of the Lord Ruler's empire and his magical creations.",
+    "41": "With the koloss threat imminent, the political situation in and around Luthadel reaches a breaking point. Decisions can no longer be delayed as action becomes necessary.",
+    "42": "The Assembly makes its final move against Elend's authority, forcing a political crisis at the worst possible time. With enemies approaching, Luthadel faces both internal and external threats.",
+    "43": "Political and military crises converge as various factions must choose sides. The long-standing siege situation finally breaks apart as events force all parties into action.",
+    "44": "Tindwyl dies during the climactic battle, devastating Sazed and revealing the cost of the conflict. Her death represents the loss of knowledge and tradition as violence overwhelms scholarship.",
+    "45": "The battle for Luthadel concludes with significant losses on all sides. Sazed grieves for Tindwyl while the survivors must deal with the aftermath of the siege and the larger implications of recent revelations.",
+    "46": "Vin and her companions leave Luthadel to search for answers about the ancient prophecies and the Well of Ascension. Their journey takes them into the wider world as they seek to understand the cosmic forces at play.",
+    "47": "The group travels through a world changed by the Lord Ruler's death, where the mists come during the day and koloss roam freely. They encounter refugees and survivors struggling to adapt to the new reality.",
+    "48": "Investigations into ancient texts and prophecies continue as they search for the location of the Well of Ascension. The true scope of the ancient conflict between cosmic forces begins to emerge.",
+    "49": "Zane's final confrontation with Vin reveals the full extent of his madness and his philosophical differences about power and its use. His death ends one threat but leaves larger questions unanswered.",
+    "50": "The party encounters Fatren's village, where people struggle to survive against both koloss attacks and the dangerous mists. The widespread suffering caused by recent changes becomes apparent.",
+    "51": "Vin helps defend the village against koloss, demonstrating her growing power and confidence. The experience shows her the real-world consequences of the magical and political conflicts.",
+    "52": "More encounters with survivors and refugees reveal the scope of the crisis affecting the entire empire. The breakdown of the Lord Ruler's order has left chaos and suffering in its wake.",
+    "53": "The search for the Well of Ascension continues as ancient clues are followed and interpreted. The relationship between the Well, the prophecies, and current events becomes clearer.",
+    "54": "Encounters with more survivors show how different communities are adapting to the new reality. Some have found ways to survive while others have fallen to koloss or other threats.",
+    "55": "The group finally locates the Well of Ascension in its hidden location. The ancient chamber contains secrets about the cosmic forces that have shaped the world's history.",
+    "56": "At the Well of Ascension, Vin learns the truth about Preservation and Ruin, the cosmic forces that have been manipulating events throughout history. The true nature of the ancient conflict is revealed.",
+    "57": "Vin faces the choice that was prophesied - whether to take the power at the Well of Ascension or to release it. The consequences of this decision will affect not just her but the entire world.",
+    "58": "The choice is made and its immediate consequences begin to unfold. The release of the power from the Well of Ascension sets in motion events that will reshape the cosmic balance.",
+    "59": "The aftermath of Vin's decision at the Well of Ascension reveals that the prophecies were not what they seemed. Ruin has been released, setting up the final conflict that will determine the fate of the world."
+  }
+}
