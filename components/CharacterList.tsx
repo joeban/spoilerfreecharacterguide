@@ -17,7 +17,7 @@ export default function CharacterList({ inThisChapter, previouslySeen }: Charact
             <span>In This Chapter</span>
             <span className="h-px bg-amber-600/50 dark:bg-amber-400/50 flex-1 max-w-[100px]"></span>
           </h2>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
             {inThisChapter.map((character) => (
               <CharacterCard key={character.id} character={character} />
             ))}
@@ -33,7 +33,7 @@ export default function CharacterList({ inThisChapter, previouslySeen }: Charact
             <span>Previously Seen</span>
             <span className="h-px bg-amber-600/50 dark:bg-amber-400/50 flex-1 max-w-[100px]"></span>
           </h2>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
             {previouslySeen.map((character) => (
               <CharacterCard key={character.id} character={character} />
             ))}

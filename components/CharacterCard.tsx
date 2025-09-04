@@ -79,16 +79,24 @@ export default function CharacterCard({ character }: CharacterCardProps) {
               {character.name}
             </h3>
             {/* Always reserve space for aliases - either show them or empty space */}
-            <div className="h-5 mt-1">
-              {character.aliases && character.aliases.length > 0 && !isExpanded && (
-                <p className="text-xs sm:text-sm text-parchment-secondary italic truncate">
-                  {truncateAliases(character.aliases)}
-                </p>
-              )}
-              {character.aliases && character.aliases.length > 0 && isExpanded && (
-                <p className="text-sm text-parchment-secondary italic">
-                  Also known as: {character.aliases.join(', ')}
-                </p>
+            {character.aliases && character.aliases.length > 0 && (
+              <div className="mt-0.5">
+                {!isExpanded ? (
+                  <p className="text-xs sm:text-sm text-parchment-secondary italic truncate">
+                    {truncateAliases(character.aliases)}
+                  </p>
+                ) : (
+                  <p className="text-sm text-parchment-secondary italic">
+                    Also known as: {character.aliases.join(', ')}
+                  </p>
+                )}
+              </div>
+            )}
+            {/* First seen info moved here - reduced spacing */}
+            <div className="text-xs text-parchment-secondary mt-0.5">
+              <span className="font-medium">First seen: Chapter {character.firstAppearance}</span>
+              {character.lastUpdate > character.firstAppearance && (
+                <span className="ml-3 font-medium">Updated: Chapter {character.lastUpdate}</span>
               )}
             </div>
           </div>
@@ -100,25 +108,10 @@ export default function CharacterCard({ character }: CharacterCardProps) {
         </div>
         
         {/* Description - abbreviated or full with consistent height */}
-        <div className={`mb-3 ${!isExpanded ? 'h-12 sm:h-12' : ''}`}>
-          <p className="text-sm sm:text-base text-parchment-primary text-readable leading-relaxed">
+        <div className={`mb-3 ${!isExpanded ? 'min-h-[3rem]' : ''}`}>
+          <p className="text-sm sm:text-base text-parchment-primary text-readable leading-snug">
             {isExpanded ? character.description : truncateDescription(character.description)}
           </p>
-        </div>
-        
-        {/* Expand/Collapse indicator */}
-        <div className="flex items-center justify-center mb-3">
-          <div className="flex items-center gap-1 text-xs sm:text-sm font-medium text-amber-700 select-none">
-            <span>{isExpanded ? 'Click to show less' : 'Click to show more'}</span>
-            <svg 
-              className={`w-4 h-4 transform transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`} 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </div>
         </div>
         
         {/* Expanded content */}
@@ -142,31 +135,59 @@ export default function CharacterCard({ character }: CharacterCardProps) {
             )}
             
             {/* Footer with chapter info - Enhanced with appearances */}
-            <div className="border-t border-stone-300 pt-3 text-xs text-parchment-secondary">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-1">
-                <span className="font-medium">First seen: Chapter {character.firstAppearance}</span>
-                {character.lastUpdate > character.firstAppearance && (
-                  <span className="font-medium">Updated: Chapter {character.lastUpdate}</span>
-                )}
+            {character.allAppearances && character.allAppearances.length > 0 && (
+              <div className="border-t border-stone-300 pt-3 text-xs text-parchment-secondary">
+                <span className="text-stone-600">
+                  Appears in chapters: {formatAppearances(character.allAppearances)}
+                </span>
               </div>
-              {character.allAppearances && character.allAppearances.length > 0 && (
-                <div className="mt-2">
-                  <span className="text-stone-600">
-                    Appears in chapters: {formatAppearances(character.allAppearances)}
-                  </span>
-                </div>
-              )}
+            )}
+            
+            {/* Collapse indicator for expanded state */}
+            <div className="flex items-center justify-center pt-2">
+              <button 
+                type="button"
+                className="flex items-center gap-1 text-xs sm:text-sm font-medium text-amber-700 select-none whitespace-nowrap hover:text-amber-600 transition-colors"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsExpanded(false);
+                }}
+              >
+                <span>Click to show less</span>
+                <svg 
+                  className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0 transform rotate-180 transition-transform duration-200" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
             </div>
           </div>
         )}
         
         {/* Compact footer for collapsed state */}
         {!isExpanded && (
-          <div className="text-xs text-parchment-secondary">
-            <span className="font-medium">First seen: Chapter {character.firstAppearance}</span>
-            {character.lastUpdate > character.firstAppearance && (
-              <span className="ml-3 font-medium">Updated: Chapter {character.lastUpdate}</span>
-            )}
+          <div className="flex items-center justify-center">
+            <button 
+              type="button"
+              className="flex items-center gap-1 text-xs sm:text-sm font-medium text-amber-700 select-none whitespace-nowrap hover:text-amber-600 transition-colors"
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsExpanded(!isExpanded);
+              }}
+            >
+              <span>Click to show more</span>
+              <svg 
+                className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0 transform transition-transform duration-200" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
           </div>
         )}
       </div>
