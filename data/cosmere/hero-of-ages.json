@@ -1,0 +1,3307 @@
+{
+  "meta": {
+    "title": "The Hero of Ages",
+    "author": "Brandon Sanderson",
+    "chapters": 82,
+    "schemaVersion": "2.0",
+    "asin": "0765316889"
+  },
+  "characters": {
+    "vin": {
+      "name": "Vin",
+      "aliases": ["Lady Vin", "The Hero of Ages", "Preservation's Vessel"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A powerful Mistborn and Empress of the New Empire. She's struggling with her role as ruler while grappling with the prophecies about the Hero of Ages and the approaching end of the world.",
+          "role": "Empress and Mistborn",
+          "relationships": {
+            "Elend Venture": "Husband and co-ruler",
+            "OreSeur": "Former kandra companion, now gone"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Learning to balance her responsibilities as Empress with her growing understanding of her destiny. The mists have become dangerous, and she's one of the few who can venture into them safely.",
+          "role": "Mist walker and leader",
+          "relationships": {
+            "The mists": "Strange connection allows her to walk safely within them"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Has discovered her deep connection to Preservation and is beginning to understand the cosmic forces at play. Her power continues to grow as the end approaches.",
+          "role": "Preservation's champion",
+          "relationships": {
+            "Preservation": "The force she's becoming connected to",
+            "Ruin": "The enemy she must face"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Has fully accepted her role as Preservation's vessel, understanding that she must make the ultimate sacrifice to save the world from Ruin's destruction.",
+          "role": "Preservation incarnate",
+          "relationships": {
+            "Preservation": "The power she has taken up",
+            "The world": "Everything she will sacrifice herself to save"
+          }
+        }
+      }
+    },
+    "elend-venture": {
+      "name": "Elend Venture",
+      "aliases": ["Emperor Elend", "The Philosopher Emperor"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Emperor of the New Empire, ruling alongside his wife Vin. He's become a capable leader, though he struggles with the impossible task of keeping his people alive as the world dies around them.",
+          "role": "Emperor of the New Empire",
+          "relationships": {
+            "Vin": "Wife and co-ruler",
+            "The people": "Citizens he's sworn to protect"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Has gained Allomantic powers by ingesting the Lerasium bead, becoming a powerful Mistborn. This has given him new abilities to protect his people and support Vin.",
+          "role": "Mistborn Emperor",
+          "relationships": {
+            "Lerasium": "Source of his newfound powers"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Growing in both political skill and Allomantic power. He's learned to balance idealism with pragmatism, making the hard choices necessary for survival.",
+          "role": "Experienced ruler and warrior",
+          "relationships": {
+            "His army": "Forces he leads in battle"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Has become a formidable Mistborn and military leader, commanding respect through both strength and wisdom. He's preparing for the final confrontation with Ruin.",
+          "role": "Warrior-philosopher emperor",
+          "relationships": {
+            "Ruin": "The cosmic force threatening all existence"
+          }
+        }
+      }
+    },
+    "sazed": {
+      "name": "Sazed",
+      "aliases": ["Chief Ambassador", "The Announcer", "Harmony"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Keeper of Terris has lost his faith after studying hundreds of religions and finding contradictions in all of them. He struggles with doubt while serving as Elend's chief ambassador.",
+          "role": "Keeper and diplomat",
+          "relationships": {
+            "Tindwyl": "Lost love whose death shattered his faith",
+            "The religions": "Faiths he once preserved but now doubts"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Wrestling with his role as the Hero of Ages mentioned in the prophecies, though he doesn't believe he's worthy. His crisis of faith deepens as he questions everything he once held sacred.",
+          "role": "Reluctant prophesied figure",
+          "relationships": {
+            "The prophecies": "Ancient texts that may name him as savior"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Beginning to understand the true nature of the prophecies and his role in the cosmic battle between Preservation and Ruin. His scholarly mind is uncovering the deeper mysteries.",
+          "role": "Scholar of cosmic forces",
+          "relationships": {
+            "Preservation": "Force he's beginning to understand",
+            "Ruin": "Enemy whose influence he's recognizing"
+          }
+        },
+        "82": {
+          "revealedIn": 82,
+          "description": "Has taken up both Preservation and Ruin's power, becoming Harmony - a god who balances opposing forces. He's found his faith renewed in becoming the deity the world needs.",
+          "role": "God of Harmony",
+          "relationships": {
+            "Preservation and Ruin": "Powers he has combined and mastered",
+            "The world": "Domain he now watches over"
+          }
+        }
+      }
+    },
+    "tensoon": {
+      "name": "TenSoon",
+      "aliases": ["OreSeur's replacement", "The Contract-breaker"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A kandra who has taken OreSeur's place and is serving Vin under contract. He inhabits the bones of her former kandra companion while maintaining the deception.",
+          "role": "Replacement kandra",
+          "relationships": {
+            "Vin": "Master under contract",
+            "OreSeur": "The kandra he replaced"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Beginning to develop genuine loyalty and affection for Vin beyond the requirements of his Contract. He's torn between kandra law and his growing independence.",
+          "role": "Conflicted servant",
+          "relationships": {
+            "The First Contract": "Ancient kandra law he's bound by",
+            "Vin": "Master he's growing to care for"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Has broken his Contract to help Vin, facing punishment from the kandra Homeland. His actions represent a revolution in kandra thinking about free will and choice.",
+          "role": "Revolutionary kandra",
+          "relationships": {
+            "The Homeland": "Kandra society that branded him criminal",
+            "Free will": "Concept he's fighting for"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Has embraced his role as a bridge between kandra and human understanding. He's become a symbol of change and growth for both species.",
+          "role": "Cultural ambassador",
+          "relationships": {
+            "Kandra society": "People he's trying to reform",
+            "Humanity": "Species he's learning to understand"
+          }
+        }
+      }
+    },
+    "spook": {
+      "name": "Spook",
+      "aliases": ["Lestibournes", "The Survivor", "Lord Spook"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The young Tineye has grown into an important member of Elend's crew. Still speaks in his unique Eastern street slang, but has gained confidence and skill over the years.",
+          "role": "Scout and spy",
+          "relationships": {
+            "Elend's crew": "Trusted team member",
+            "His sister": "Family back in the Eastern Dominance"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Has been burning tin constantly for months, pushing his Allomantic abilities far beyond normal limits. This enhanced sensitivity comes at a cost to his health and sanity.",
+          "role": "Enhanced Tineye",
+          "relationships": {
+            "Tin": "Metal he's burning continuously",
+            "His senses": "Abilities pushed to superhuman levels"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Leading the rebellion in Urteau against the tyrant Quellion. He's become a capable leader, though he's guided by mysterious voices and visions.",
+          "role": "Rebel leader",
+          "relationships": {
+            "Quellion": "The Citizen he's fighting against",
+            "Urteau rebels": "People he's leading to freedom"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Has discovered he's been influenced by Ruin's power, but he's learning to resist its corruption. His experiences have made him wiser and more mature.",
+          "role": "Survivor of corruption",
+          "relationships": {
+            "Ruin": "Force that tried to use him",
+            "His own will": "Strength that allowed him to resist"
+          }
+        }
+      }
+    },
+    "marsh": {
+      "name": "Marsh",
+      "aliases": ["The Steel Inquisitor", "Death"],
+      "appearances": [8, 12, 18, 22, 25, 28, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 78, 80],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Kelsier's brother has become a Steel Inquisitor, though he seems to retain some of his original personality. He appears to be working against the other Inquisitors in some way.",
+          "role": "Rogue Steel Inquisitor",
+          "relationships": {
+            "Kelsier": "Dead brother he still remembers",
+            "Other Inquisitors": "Fellow creatures he seems to oppose"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Struggling against Ruin's control while trying to help his former friends. His humanity battles with the monstrous nature of what he's become.",
+          "role": "Conflicted monster",
+          "relationships": {
+            "Ruin": "Force trying to control him",
+            "His friends": "People he's trying to protect"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Has managed to maintain more independence than other Inquisitors, using his position to gather information and occasionally aid the heroes despite his corruption.",
+          "role": "Double agent",
+          "relationships": {
+            "Ruin's influence": "Corruption he fights against",
+            "The resistance": "Cause he secretly supports"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "In the final battle, he makes the choice to fight against Ruin despite the cost to himself, proving that even the most corrupted can find redemption.",
+          "role": "Redeemed guardian",
+          "relationships": {
+            "Redemption": "Path he finally chooses",
+            "Sacrifice": "Price he pays for choosing right"
+          }
+        }
+      }
+    },
+    "breeze": {
+      "name": "Breeze",
+      "aliases": ["Lord Breeze"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The refined Soother continues to serve as one of Elend's most trusted advisors. His skills in emotional Allomancy and politics make him invaluable to the empire.",
+          "role": "Political advisor and Soother",
+          "relationships": {
+            "Elend": "Emperor he serves loyally",
+            "Allrianne": "Young noblewoman he's grown fond of"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "His relationship with Allrianne has deepened, though he's careful not to use his Allomantic powers on her. He's become more genuine and less manipulative.",
+          "role": "Romantic partner and advisor",
+          "relationships": {
+            "Allrianne": "Love interest he treats with respect",
+            "His powers": "Abilities he restrains around those he cares for"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Has proven his loyalty time and again, becoming not just an ally but a true friend to the crew. His sophisticated manner masks deep caring for his companions.",
+          "role": "Trusted friend and counselor",
+          "relationships": {
+            "The crew": "Found family he'd do anything for",
+            "Nobility": "Class he once belonged to but has transcended"
+          }
+        }
+      }
+    },
+    "ham": {
+      "name": "Ham",
+      "aliases": ["Hammond"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The philosophical Thug serves as one of Elend's military commanders. He combines his combat expertise with deep thinking about the nature of conflict and morality.",
+          "role": "Military commander and philosopher",
+          "relationships": {
+            "Elend": "Emperor he serves as general",
+            "His family": "Wife and children he protects"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Leading troops in the field while grappling with the moral implications of warfare. His philosophical nature makes him question every violent action.",
+          "role": "Conflicted warrior",
+          "relationships": {
+            "His soldiers": "Men he leads into battle",
+            "Philosophy": "Questions that torment his conscience"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Has found ways to balance his philosophical nature with the practical needs of leadership. He's become an effective general without losing his moral center.",
+          "role": "Ethical commander",
+          "relationships": {
+            "Justice": "Ideal he fights to preserve",
+            "His conscience": "Inner voice that guides his decisions"
+          }
+        }
+      }
+    },
+    "clubs": {
+      "name": "Clubs",
+      "aliases": ["General Clubs"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The gruff Smoker continues to serve as one of Elend's generals despite his advancing age. His tactical mind and ability to hide Allomantic signatures remain valuable assets.",
+          "role": "Military general and Smoker",
+          "relationships": {
+            "Elend": "Young emperor he serves",
+            "His nephew": "Family member in the military"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Providing steady military leadership while dealing with increasingly desperate situations. His experience and calm demeanor help keep morale up among the troops.",
+          "role": "Veteran commander",
+          "relationships": {
+            "The army": "Soldiers who respect his experience",
+            "Strategy": "Military planning he excels at"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "His tactical expertise becomes crucial as they face increasingly complex military challenges. He's adapted to the changing nature of warfare in this dying world.",
+          "role": "Master tactician",
+          "relationships": {
+            "Victory": "Goal he pursues with grim determination",
+            "The crew": "Old friends he's fought beside for years"
+          }
+        }
+      }
+    },
+    "allrianne": {
+      "name": "Allrianne",
+      "aliases": ["Lady Allrianne"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The young noblewoman has become a valuable member of Elend's court. Her Rioting abilities and noble connections make her useful for diplomatic missions.",
+          "role": "Court Rioter and diplomat",
+          "relationships": {
+            "Breeze": "Older man she's developed feelings for",
+            "Cett": "Father she left behind"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Her relationship with Breeze has matured, and she's proven herself capable of more than just noble flirtation. She shows genuine care for the people around her.",
+          "role": "Mature ally and Rioter",
+          "relationships": {
+            "Breeze": "Partner she loves despite age difference",
+            "The crew": "Friends who've accepted her fully"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Has grown into a confident woman who uses her abilities and position to help others. She's shed her earlier superficiality for genuine compassion.",
+          "role": "Compassionate leader",
+          "relationships": {
+            "The people": "Citizens she cares about protecting",
+            "Her abilities": "Powers she uses responsibly"
+          }
+        }
+      }
+    },
+    "demoux": {
+      "name": "Demoux",
+      "aliases": ["Captain Demoux", "General Demoux"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The former thief has risen to become one of Elend's most trusted military officers. His dedication to the Church of the Survivor reflects his transformation from criminal to believer.",
+          "role": "Military officer and believer",
+          "relationships": {
+            "Kelsier": "The Survivor he worships",
+            "His soldiers": "Men he leads with conviction"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Leading troops with both tactical skill and religious fervor. His faith in the Survivor gives him and his men strength in desperate times.",
+          "role": "Faithful commander",
+          "relationships": {
+            "The Church": "Religious organization he's devoted to",
+            "Hope": "What his faith provides to others"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Has become a symbol of how people can change and grow. His journey from street thief to general inspires those who serve under him.",
+          "role": "Inspirational leader",
+          "relationships": {
+            "Transformation": "Personal growth he represents",
+            "The future": "Better world he fights to create"
+          }
+        }
+      }
+    },
+    "fatren": {
+      "name": "Fatren",
+      "aliases": ["Fats"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The leader of Vetitan, a small town trying to survive the ash falls and food shortages. He's suspicious of outsiders but desperate enough to accept help.",
+          "role": "Town leader",
+          "relationships": {
+            "Vetitan": "Town he's trying to keep alive",
+            "His people": "Citizens depending on his leadership"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Beginning to trust Vin and Elend after seeing their genuine desire to help. His skepticism is being replaced by cautious hope.",
+          "role": "Cautious ally",
+          "relationships": {
+            "Elend": "Emperor who's offered aid",
+            "Survival": "Goal that drives all his decisions"
+          }
+        }
+      }
+    },
+    "quellion": {
+      "name": "Quellion",
+      "aliases": ["The Citizen"],
+      "appearances": [20, 22, 25, 28, 30, 32, 35, 38, 40, 42, 45, 48, 50, 52, 55, 58],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "The ruler of Urteau who has established a brutal regime targeting anyone with noble blood or connections. He believes he's creating equality through violence and oppression.",
+          "role": "Tyrannical ruler",
+          "relationships": {
+            "The nobles": "Class he's systematically destroying",
+            "His followers": "Citizens he's convinced of his cause"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "His reign of terror has created as much suffering as the old noble system. His quest for equality has become an excuse for murder and chaos.",
+          "role": "False revolutionary",
+          "relationships": {
+            "Violence": "Tool he uses to enforce his vision",
+            "Equality": "Ideal he's corrupted into tyranny"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Facing rebellion from Spook and others who see through his facade. His support is crumbling as people realize his system is just another form of oppression.",
+          "role": "Failing dictator",
+          "relationships": {
+            "Spook": "Young rebel leading the resistance",
+            "His regime": "System that's falling apart"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "His tyrannical rule comes to an end as the people of Urteau reject his violent vision of equality in favor of true justice and freedom.",
+          "role": "Deposed tyrant",
+          "relationships": {
+            "Justice": "Concept he never understood",
+            "The people": "Citizens who finally saw through his lies"
+          }
+        }
+      }
+    },
+    "yomen": {
+      "name": "Yomen",
+      "aliases": ["Lord Yomen", "The Obligator King"],
+      "appearances": [60, 62, 65, 68, 70, 72, 75, 78],
+      "knowledge": {
+        "60": {
+          "revealedIn": 60,
+          "description": "The former obligator rules Fadrex City with an iron fist, maintaining order through strict adherence to the old ways. He controls the atium cache hidden in his city.",
+          "role": "Obligator ruler",
+          "relationships": {
+            "The Steel Ministry": "Religious order he once served",
+            "Fadrex City": "Domain he controls absolutely"
+          }
+        },
+        "68": {
+          "revealedIn": 68,
+          "description": "Revealed to be a Mistborn, having gained his powers through unknown means. His religious devotion combined with Allomantic ability makes him a formidable opponent.",
+          "role": "Mistborn obligator",
+          "relationships": {
+            "The Lord Ruler": "God he still worships",
+            "Atium": "Resource he guards jealously"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "His faith is tested as the world ends around him. He must choose between his rigid beliefs and the practical need to help save what remains of civilization.",
+          "role": "Faith-tested ruler",
+          "relationships": {
+            "Belief": "Religion that defined his life",
+            "Reality": "Truth that challenges everything he thought he knew"
+          }
+        }
+      }
+    },
+    "preservation": {
+      "name": "Preservation",
+      "aliases": ["Fuzz", "The Voice"],
+      "appearances": [15, 25, 35, 45, 55, 65, 70, 75, 78, 80],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A mysterious voice that speaks to certain individuals, particularly Vin. Its nature and purpose remain unclear, but it seems to oppose the force called Ruin.",
+          "role": "Unknown cosmic entity",
+          "relationships": {
+            "Vin": "Chosen champion it speaks to",
+            "Ruin": "Opposing force it fights against"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Revealed to be one of the two great forces that shaped the world. Preservation seeks to maintain and protect, while Ruin seeks to destroy and change.",
+          "role": "Cosmic force of stasis",
+          "relationships": {
+            "The world": "Reality it seeks to preserve",
+            "Ruin": "Equal but opposite power"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Its power has been diminished by its long battle with Ruin. It needs a human vessel to continue fighting against entropy and destruction.",
+          "role": "Weakening divine force",
+          "relationships": {
+            "A vessel": "Human it needs to carry its power",
+            "Time": "Enemy that weakens its hold"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Vin takes up its power, becoming Preservation incarnate. Through her, the force gains the strength needed for the final battle against Ruin.",
+          "role": "Power taken up by Vin",
+          "relationships": {
+            "Vin": "Mortal who becomes its vessel",
+            "Victory": "Goal achieved through sacrifice"
+          }
+        }
+      }
+    },
+    "ruin": {
+      "name": "Ruin",
+      "aliases": ["The Other Voice", "Entropy"],
+      "appearances": [20, 30, 40, 50, 60, 65, 70, 75, 78, 80, 82],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A malevolent force that influences people's thoughts and actions, pushing them toward destruction and chaos. It can speak through metal and corrupted beings.",
+          "role": "Force of destruction",
+          "relationships": {
+            "Metal": "Medium through which it communicates",
+            "Corruption": "Tool it uses to influence minds"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Revealed as the equal and opposite force to Preservation. While Preservation seeks to maintain, Ruin seeks to break down and change everything.",
+          "role": "Cosmic destroyer",
+          "relationships": {
+            "Preservation": "Opposing force it fights",
+            "Change": "Principle it represents"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "Has been manipulating events for centuries, working toward the day it can break free and reshape the world according to its nature.",
+          "role": "Ancient manipulator",
+          "relationships": {
+            "The prophecies": "Texts it altered to serve its purpose",
+            "Freedom": "Goal it's worked toward for millennia"
+          }
+        },
+        "78": {
+          "revealedIn": 78,
+          "description": "Nearly achieves total victory before being stopped by the combined sacrifice of Vin and Sazed. Its defeat allows for a new balance to be established.",
+          "role": "Defeated cosmic force",
+          "relationships": {
+            "Defeat": "Fate it meets through heroic sacrifice",
+            "Balance": "New state that replaces its dominion"
+          }
+        }
+      }
+    },
+    "first-generation": {
+      "name": "The First Generation",
+      "aliases": ["The Firsts"],
+      "appearances": [30, 35, 40, 45, 50],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "The eldest and most powerful kandra, created directly by the Lord Ruler. They govern kandra society from the Homeland and enforce the ancient Contracts.",
+          "role": "Kandra elders and rulers",
+          "relationships": {
+            "The Lord Ruler": "Creator who made them personally",
+            "Kandra society": "People they govern"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Ancient beings with memories stretching back centuries. They hold the deepest secrets of kandra nature and the true history of their people.",
+          "role": "Keepers of ancient knowledge",
+          "relationships": {
+            "History": "Secrets they guard jealously",
+            "The Contracts": "System they created and maintain"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Facing a crisis as their rigid system is challenged by younger kandra who want freedom. They must adapt or risk losing control entirely.",
+          "role": "Challenged authorities",
+          "relationships": {
+            "Change": "Force that threatens their control",
+            "Tradition": "Old ways they fight to preserve"
+          }
+        }
+      }
+    },
+    "second-generation": {
+      "name": "The Second Generation",
+      "aliases": ["The Seconds"],
+      "appearances": [32, 38, 42, 48, 52],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Kandra created in the centuries after the First Generation. They serve as administrators and enforcers of kandra law, bridging the gap between the Firsts and younger generations.",
+          "role": "Kandra administrators",
+          "relationships": {
+            "First Generation": "Elders they serve and respect",
+            "Younger kandra": "Generations they supervise"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Struggling with questions about the rightness of their system as they see the changes TenSoon has wrought. Some begin to question centuries of tradition.",
+          "role": "Questioning middle management",
+          "relationships": {
+            "Doubt": "Emotion they're learning to feel",
+            "Order": "System they've always maintained"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Beginning to see the value in TenSoon's revolution, though they're cautious about abandoning the stability their system has provided.",
+          "role": "Cautious reformers",
+          "relationships": {
+            "Reform": "Change they're slowly accepting",
+            "Stability": "Goal they still value"
+          }
+        }
+      }
+    },
+    "kandra-homeland": {
+      "name": "The Kandra Homeland",
+      "aliases": ["The Trust"],
+      "appearances": [28, 30, 35, 40, 45, 50],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "The underground domain where kandra live when not serving Contracts. It's a place of ancient traditions and rigid social structures.",
+          "role": "Kandra civilization center",
+          "relationships": {
+            "The Contracts": "System that governs all life here",
+            "Tradition": "Force that shapes every aspect of society"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "A society in crisis as young kandra begin to question the old ways. The arrival of TenSoon as a Contract-breaker has shattered centuries of certainty.",
+          "role": "Changing society",
+          "relationships": {
+            "TenSoon": "Revolutionary who's changed everything",
+            "The old ways": "Traditions now under scrutiny"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Slowly adapting to new realities as the rigid caste system begins to crumble. Kandra are learning to think for themselves for the first time.",
+          "role": "Society in transition",
+          "relationships": {
+            "Free will": "Concept they're just discovering",
+            "The future": "Uncertain path ahead"
+          }
+        }
+      }
+    },
+    "kwaan": {
+      "name": "KwaaÑ",
+      "aliases": ["The Fallen Worldbringer"],
+      "appearances": [45, 50, 55],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "An ancient Keeper who first discovered the Hero of Ages prophecy. His research and translations helped create the religion that would guide humanity for centuries.",
+          "role": "Ancient scholar and prophet",
+          "relationships": {
+            "The prophecies": "Ancient texts he helped translate",
+            "Alendi": "Hero he first proclaimed"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Realized too late that his translations had been influenced by Ruin, leading him to proclaim the wrong Hero of Ages. His guilt over this mistake haunted him.",
+          "role": "Deceived scholar",
+          "relationships": {
+            "Ruin": "Force that corrupted his work",
+            "Truth": "Reality he discovered too late"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Tried to prevent the disaster he had set in motion, but his efforts came too late. His story serves as a warning about the dangers of absolute faith.",
+          "role": "Tragic warner",
+          "relationships": {
+            "Regret": "Emotion that defined his later years",
+            "Warning": "Message he tried to leave for future generations"
+          }
+        }
+      }
+    },
+    "alendi": {
+      "name": "Alendi",
+      "aliases": ["The False Hero"],
+      "appearances": [48, 52, 55, 58],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "The ancient hero who was believed to be the Hero of Ages. He traveled to the Well of Ascension believing he was destined to save the world.",
+          "role": "Misguided ancient hero",
+          "relationships": {
+            "The prophecies": "Texts that seemed to describe him",
+            "The Well": "Destination he sought"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Was actually being manipulated by Ruin, who wanted him to reach the Well and release the destructive force. His heroic intentions were used against him.",
+          "role": "Manipulated champion",
+          "relationships": {
+            "Ruin": "Force that deceived him",
+            "Good intentions": "Motivation that was exploited"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "His failure to recognize the truth led to the Lord Ruler's rise and centuries of oppression. His story shows how good people can be used for evil ends.",
+          "role": "Cautionary figure",
+          "relationships": {
+            "The Lord Ruler": "Person who stopped his mistake",
+            "History": "Legacy of unintended consequences"
+          }
+        }
+      }
+    },
+    "rashek": {
+      "name": "Rashek",
+      "aliases": ["The Lord Ruler"],
+      "appearances": [50, 55, 60],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "The Terris packman who killed Alendi and took his place at the Well of Ascension. His actions, though murderous, prevented Ruin from being released a thousand years early.",
+          "role": "Reluctant savior",
+          "relationships": {
+            "Alendi": "Hero he murdered to save the world",
+            "The Well": "Power he took to protect civilization"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Became immortal and ruled for a thousand years, preparing the world for the eventual battle against Ruin. His tyranny was the price of humanity's survival.",
+          "role": "Tyrannical protector",
+          "relationships": {
+            "Immortality": "Curse he bore to guard the world",
+            "Preparation": "Goal that drove his every action"
+          }
+        },
+        "60": {
+          "revealedIn": 60,
+          "description": "His death was part of his plan, as he knew others would need to face Ruin when it finally escaped. Even his defeat was calculated to serve the greater good.",
+          "role": "Strategic sacrifice",
+          "relationships": {
+            "The plan": "Design he crafted over centuries",
+            "The future": "Time when others would finish his work"
+          }
+        }
+      }
+    },
+    "koloss": {
+      "name": "Koloss",
+      "aliases": ["Blue monsters", "The Changed"],
+      "appearances": [5, 8, 12, 15, 18, 22, 25, 28, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Massive blue-skinned creatures that serve as living weapons. They seem mindless and savage, driven only by the desire to fight and kill.",
+          "role": "Living weapons",
+          "relationships": {
+            "Violence": "Only motivation they seem to understand",
+            "Control": "External force needed to direct them"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Can be controlled through emotional Allomancy, making them valuable but dangerous allies. Their savage nature makes them difficult to manage safely.",
+          "role": "Controllable monsters",
+          "relationships": {
+            "Emotional Allomancy": "Force that can command them",
+            "Destruction": "Trail they leave wherever they go"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Revealed to be humans who have been transformed through hemalurgic spikes. This horrifying truth changes everything about how they're perceived.",
+          "role": "Transformed humans",
+          "relationships": {
+            "Hemalurgy": "Process that created them",
+            "Humanity": "Nature they've lost but might reclaim"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "Some koloss begin to show signs of intelligence and emotion when freed from direct control, suggesting their humanity isn't entirely gone.",
+          "role": "Potentially redeemable beings",
+          "relationships": {
+            "Freedom": "State that allows their humanity to resurface",
+            "Hope": "Possibility of reclaiming what they were"
+          }
+        }
+      }
+    },
+    "steel-inquisitors": {
+      "name": "Steel Inquisitors",
+      "aliases": ["The Blind Ones", "Death's Servants"],
+      "appearances": [8, 12, 18, 22, 25, 28, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 78],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The terrifying agents of the Steel Ministry have survived the Lord Ruler's death and continue to hunt his enemies. They seem more dangerous and independent than before.",
+          "role": "Rogue agents of terror",
+          "relationships": {
+            "The Steel Ministry": "Dead organization they once served",
+            "Terror": "Effect they have on all who see them"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Revealed to be under Ruin's control, serving as its agents in the world. Their loyalty is no longer to any human organization but to a cosmic force of destruction.",
+          "role": "Servants of Ruin",
+          "relationships": {
+            "Ruin": "Master they now serve absolutely",
+            "Destruction": "Goal they work toward"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Their numbers are growing as Ruin creates more of them through hemalurgic spikes. They represent the growing influence of entropy in the world.",
+          "role": "Multiplying agents of chaos",
+          "relationships": {
+            "Hemalurgy": "Process that creates more of them",
+            "Entropy": "Force they help spread"
+          }
+        },
+        "70": {
+          "revealedIn": 70,
+          "description": "In the final days, they become Ruin's primary weapons against the forces of preservation, fighting with inhuman strength and determination.",
+          "role": "Final soldiers of entropy",
+          "relationships": {
+            "The final battle": "Conflict they're bred for",
+            "Inhuman nature": "What they've become in service to Ruin"
+          }
+        }
+      }
+    },
+    "atium": {
+      "name": "Atium",
+      "aliases": ["The Eleventh Metal", "Ruin's Body"],
+      "appearances": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The most precious metal in the world, granting the power to see slightly into the future. It's incredibly rare and valuable, worth more than gold.",
+          "role": "Precious Allomantic metal",
+          "relationships": {
+            "The future": "Time it allows users to glimpse",
+            "Power": "Incredible advantage it provides in combat"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Hidden caches of atium are scattered throughout the land, placed by the Lord Ruler as part of some greater plan. Control of these caches means power.",
+          "role": "Strategic resource",
+          "relationships": {
+            "The Lord Ruler": "Ruler who hid the caches",
+            "Strategy": "Grand plan it's part of"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "Revealed to be Ruin's physical body in the world. The Lord Ruler hid it to prevent Ruin from accessing its full power.",
+          "role": "Ruin's physical form",
+          "relationships": {
+            "Ruin": "Cosmic force it embodies",
+            "The Lord Ruler": "Person who imprisoned it"
+          }
+        },
+        "70": {
+          "revealedIn": 70,
+          "description": "Its true nature becomes crucial to the final battle, as controlling or destroying it could affect the balance between Preservation and Ruin.",
+          "role": "Key to cosmic balance",
+          "relationships": {
+            "The final battle": "Conflict it could determine",
+            "Balance": "Cosmic equilibrium it affects"
+          }
+        }
+      }
+    },
+    "lerasium": {
+      "name": "Lerasium",
+      "aliases": ["Preservation's Metal"],
+      "appearances": [8, 25, 40, 55],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A mysterious metal that grants Allomantic powers to those who ingest it. Elend gained his Mistborn abilities by consuming a bead of this rare substance.",
+          "role": "Power-granting metal",
+          "relationships": {
+            "Elend": "Person it transformed into a Mistborn",
+            "Allomantic power": "Abilities it can grant"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Extremely rare and precious, representing Preservation's power in physical form. Only tiny amounts exist in the world.",
+          "role": "Preservation's physical essence",
+          "relationships": {
+            "Preservation": "Cosmic force it represents",
+            "Rarity": "Quality that makes it precious beyond measure"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "The counterpart to atium, representing the opposing force to Ruin's physical presence in the world. Together, they embody the cosmic balance.",
+          "role": "Cosmic counterbalance",
+          "relationships": {
+            "Atium": "Opposing metal it balances",
+            "Cosmic forces": "Greater powers it's connected to"
+          }
+        }
+      }
+    },
+    "harmony": {
+      "name": "Harmony",
+      "aliases": ["The New God", "Balance"],
+      "appearances": [82],
+      "knowledge": {
+        "82": {
+          "revealedIn": 82,
+          "description": "The force created when Sazed took up both Preservation and Ruin's power, balancing opposing forces into something new. This represents hope for a better future.",
+          "role": "Balanced cosmic force",
+          "relationships": {
+            "Sazed": "Human who became this divine balance",
+            "The future": "New age this force will guide"
+          }
+        }
+      }
+    },
+    "luthadel": {
+      "name": "Luthadel",
+      "aliases": ["The Imperial Capital"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The capital city of the New Empire, struggling to survive as ash falls destroy crops and the mists kill people. The city's population is slowly starving and dying.",
+          "role": "Dying imperial capital",
+          "relationships": {
+            "The New Empire": "Government it serves as capital for",
+            "Survival": "Daily struggle of its people"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Becoming increasingly difficult to defend and supply as resources run low. The city is slowly emptying as people flee to places with better chances of survival.",
+          "role": "Abandoned stronghold",
+          "relationships": {
+            "Refugees": "People fleeing its dying streets",
+            "Hope": "Quality increasingly absent from its ruins"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "Nearly deserted now, with only the most desperate or loyal remaining. It serves more as a symbol of past glory than a functioning city.",
+          "role": "Symbol of fallen empire",
+          "relationships": {
+            "The past": "Glory days it represents",
+            "Emptiness": "Current state of its streets"
+          }
+        }
+      }
+    },
+    "urteau": {
+      "name": "Urteau",
+      "aliases": ["The Tyrant's City"],
+      "appearances": [20, 22, 25, 28, 30, 32, 35, 38, 40, 42, 45, 48, 50, 52, 55, 58],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A city under the brutal rule of Quellion, where anyone with noble blood or connections faces execution. The streets run with blood in the name of equality.",
+          "role": "City of terror",
+          "relationships": {
+            "Quellion": "Tyrant who rules it with violence",
+            "Fear": "Emotion that governs daily life"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "The people are beginning to see through Quellion's rhetoric as his reign of terror continues. Underground resistance is growing stronger.",
+          "role": "City in rebellion",
+          "relationships": {
+            "Resistance": "Growing movement against tyranny",
+            "Spook": "Young rebel leading the fight"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Finally freed from Quellion's tyranny, the city begins the slow process of healing and rebuilding. The people have learned the difference between justice and vengeance.",
+          "role": "City finding freedom",
+          "relationships": {
+            "Healing": "Process it must undergo",
+            "Justice": "True ideal it's learning to embrace"
+          }
+        }
+      }
+    },
+    "fadrex-city": {
+      "name": "Fadrex City",
+      "aliases": ["The Last Stronghold"],
+      "appearances": [60, 62, 65, 68, 70, 72, 75, 78, 80],
+      "knowledge": {
+        "60": {
+          "revealedIn": 60,
+          "description": "A city ruled by the former obligator Yomen, who maintains order through strict adherence to the old ways. It's one of the few places still functioning as the world dies.",
+          "role": "Surviving city-state",
+          "relationships": {
+            "Yomen": "Former obligator who rules it",
+            "Order": "System that keeps it functioning"
+          }
+        },
+        "68": {
+          "revealedIn": 68,
+          "description": "Hidden within the city is one of the atium caches, making it a crucial location in the battle between Preservation and Ruin. Its fate could determine the world's.",
+          "role": "Keeper of crucial resources",
+          "relationships": {
+            "Atium": "Precious resource hidden within",
+            "The final battle": "Conflict it's central to"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "Becomes a battleground in the final confrontation between the forces of preservation and destruction. Its survival represents hope for civilization's future.",
+          "role": "Final battlefield",
+          "relationships": {
+            "Hope": "What its survival represents",
+            "The future": "Civilization it might preserve"
+          }
+        }
+      }
+    },
+    "the-trust": {
+      "name": "The Trust",
+      "aliases": ["Underground Cities"],
+      "appearances": [35, 40, 45, 50, 55],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Hidden underground settlements built by the Lord Ruler as refuges for humanity. These cities are designed to survive even if the surface world dies completely.",
+          "role": "Survival shelters",
+          "relationships": {
+            "The Lord Ruler": "Ruler who built them as backup plan",
+            "Humanity": "Species they're designed to preserve"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Stocked with supplies and knowledge needed to rebuild civilization. They represent the Lord Ruler's final gift to humanity - the chance to start over.",
+          "role": "Civilization preservers",
+          "relationships": {
+            "Knowledge": "Wisdom they contain for future generations",
+            "Rebirth": "New beginning they make possible"
+          }
+        },
+        "55": {
+          "revealedIn": 55,
+          "description": "As the surface world dies, these underground refuges become humanity's last hope for survival. They're the ultimate backup plan for the species.",
+          "role": "Last refuge",
+          "relationships": {
+            "Hope": "Final chance they represent",
+            "The future": "Tomorrow they might make possible"
+          }
+        }
+      }
+    },
+    "human": {
+      "name": "Human",
+      "aliases": ["The Dog"],
+      "appearances": [12, 15, 18, 22, 25, 28, 30],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "TenSoon's companion during his time serving Vin, a wolfhound whose bones he inhabits. The dog's loyalty and simple nature provide comfort.",
+          "role": "Loyal animal companion",
+          "relationships": {
+            "TenSoon": "Kandra who uses his bones",
+            "Vin": "Master who cared for him"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Though dead, his memory continues to influence TenSoon's behavior and relationship with Vin. His simple devotion serves as a model for true loyalty.",
+          "role": "Memory and example",
+          "relationships": {
+            "Loyalty": "Quality he embodied perfectly",
+            "Memory": "Way he continues to influence others"
+          }
+        }
+      }
+    },
+    "beldre": {
+      "name": "Beldre",
+      "aliases": ["The Citizen's Sister"],
+      "appearances": [25, 28, 30, 32, 35, 38, 40, 42, 45, 48, 50, 52, 55],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Quellion's sister, who disagrees with his brutal methods but still cares for him as family. She represents the humanity that still exists beneath the tyrant's facade.",
+          "role": "Voice of conscience",
+          "relationships": {
+            "Quellion": "Brother whose methods she questions",
+            "Spook": "Young rebel she's drawn to"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Caught between loyalty to her brother and recognition of his crimes, she struggles with conflicted emotions. Her relationship with Spook complicates everything.",
+          "role": "Conflicted family member",
+          "relationships": {
+            "Family": "Blood ties that bind her to a tyrant",
+            "Justice": "Ideal that calls her away from loyalty"
+          }
+        },
+        "50": {
+          "revealedIn": 50,
+          "description": "Finally chooses to stand against her brother's tyranny, helping Spook bring justice to Urteau. Her choice represents the triumph of right over blood.",
+          "role": "Converted ally",
+          "relationships": {
+            "Choice": "Decision that defined her character",
+            "Justice": "Cause she finally embraced"
+          }
+        }
+      }
+    },
+    "goradel": {
+      "name": "Goradel",
+      "aliases": ["The Messenger"],
+      "appearances": [8, 12, 15, 18, 22, 25, 28],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A loyal messenger and servant who works for Elend's empire. He's reliable and trustworthy, often carrying important communications between cities.",
+          "role": "Imperial messenger",
+          "relationships": {
+            "Elend": "Emperor he serves faithfully",
+            "The empire": "Government whose messages he carries"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Takes on increasingly dangerous missions as the empire's situation grows more desperate. His loyalty never wavers despite the growing risks.",
+          "role": "Brave courier",
+          "relationships": {
+            "Danger": "Risk he accepts to serve his duty",
+            "Loyalty": "Quality that drives all his actions"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "His dedication and courage in the face of impossible odds make him a symbol of the common people's heroism. He proves that nobility comes from actions, not birth.",
+          "role": "Common hero",
+          "relationships": {
+            "Heroism": "Quality he displays despite humble birth",
+            "Service": "Ideal he embodies perfectly"
+          }
+        }
+      }
+    },
+    "captain-goradel": {
+      "name": "Captain Goradel",
+      "aliases": ["The Promoted"],
+      "appearances": [30, 35, 38, 40, 42, 45],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Promoted from messenger to captain in recognition of his loyalty and competence. He leads by example, inspiring others through his dedication.",
+          "role": "Promoted officer",
+          "relationships": {
+            "His men": "Soldiers inspired by his example",
+            "Promotion": "Recognition he earned through service"
+          }
+        },
+        "40": {
+          "revealedIn": 40,
+          "description": "Proves that leadership comes from character rather than noble blood. His men follow him because they respect him, not because they're forced to.",
+          "role": "Natural leader",
+          "relationships": {
+            "Respect": "What his leadership is built on",
+            "Character": "Foundation of his authority"
+          }
+        }
+      }
+    },
+    "slowswift": {
+      "name": "Slowswift",
+      "aliases": ["The Messenger Kandra"],
+      "appearances": [25, 30, 35],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "A kandra serving under contract as a messenger and spy. His unique abilities make him invaluable for gathering intelligence and carrying sensitive communications.",
+          "role": "Kandra spy and messenger",
+          "relationships": {
+            "His contract": "Binding that directs his service",
+            "Intelligence": "Information he gathers for his masters"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Like other kandra, he's beginning to question the rigid contract system as he sees TenSoon's example of independence and choice.",
+          "role": "Questioning servant",
+          "relationships": {
+            "TenSoon": "Revolutionary whose example affects him",
+            "Freedom": "Concept he's learning to consider"
+          }
+        }
+      }
+    },
+    "melaan": {
+      "name": "MeLaan",
+      "aliases": ["The Young Kandra"],
+      "appearances": [32, 38, 42, 48, 52],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "A relatively young kandra who serves in the Homeland. She's more curious and open-minded than her elders, willing to question traditional ways.",
+          "role": "Curious young kandra",
+          "relationships": {
+            "The elders": "Generations who came before her",
+            "Questions": "Doubts she's not afraid to voice"
+          }
+        },
+        "42": {
+          "revealedIn": 42,
+          "description": "Becomes an advocate for change within kandra society, inspired by TenSoon's courage to break free from the old system.",
+          "role": "Advocate for reform",
+          "relationships": {
+            "Change": "Future she wants to help create",
+            "TenSoon": "Hero whose example she follows"
+          }
+        },
+        "52": {
+          "revealedIn": 52,
+          "description": "Helps bridge the gap between traditional kandra thinking and the new ideas about freedom and choice that are spreading through their society.",
+          "role": "Bridge between old and new",
+          "relationships": {
+            "Tradition": "Past she respects but wants to improve",
+            "Progress": "Future she helps create"
+          }
+        }
+      }
+    },
+    "kelsier": {
+      "name": "Kelsier",
+      "aliases": ["The Survivor", "Lord of the Mists"],
+      "appearances": [15, 25, 35, 55, 75],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Though dead, the Survivor's influence continues through his religion and the inspiration he provided. His followers still draw strength from his memory and teachings.",
+          "role": "Martyred inspiration",
+          "relationships": {
+            "His followers": "People who keep his memory alive",
+            "The Church": "Religion built around his sacrifice"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "His presence seems to linger in the world, appearing to help his friends in their darkest moments. Death may not have been the end for the Survivor.",
+          "role": "Lingering spirit",
+          "relationships": {
+            "Death": "Boundary he may have transcended",
+            "Hope": "What his appearances bring to others"
+          }
+        },
+        "75": {
+          "revealedIn": 75,
+          "description": "His final interventions help turn the tide in the battle between Preservation and Ruin, proving that even death cannot stop those who fight for what's right.",
+          "role": "Spiritual guardian",
+          "relationships": {
+            "The final battle": "Conflict he helps win from beyond death",
+            "Legacy": "Influence that outlasts physical existence"
+          }
+        }
+      }
+    },
+    "wellen": {
+      "name": "Wellen",
+      "aliases": ["The Scribe"],
+      "appearances": [8, 12, 15, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A scholarly member of Elend's administration who helps manage the empire's records and communications. His organizational skills are crucial to keeping things running.",
+          "role": "Imperial administrator",
+          "relationships": {
+            "Records": "Information he maintains for the empire",
+            "Order": "System he helps preserve"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Works tirelessly to maintain some semblance of normal government function as the world crumbles around them. His dedication to duty never wavers.",
+          "role": "Dedicated civil servant",
+          "relationships": {
+            "Duty": "Obligation he fulfills despite impossible circumstances",
+            "Civilization": "Order he fights to preserve"
+          }
+        }
+      }
+    },
+    "noorden": {
+      "name": "Noorden",
+      "aliases": ["The Keeper Researcher"],
+      "appearances": [10, 15, 20, 25, 30],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Keeper who works with Sazed to research the prophecies and understand the approaching end times. His scholarly approach complements Sazed's broader knowledge.",
+          "role": "Research assistant",
+          "relationships": {
+            "Sazed": "Fellow Keeper he works with",
+            "The prophecies": "Ancient texts they study together"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Continues his research even as the world dies around them, believing that knowledge might yet provide the key to salvation.",
+          "role": "Determined scholar",
+          "relationships": {
+            "Knowledge": "Tool he believes can save everyone",
+            "Hope": "What his research represents"
+          }
+        },
+        "30": {
+          "revealedIn": 30,
+          "description": "His meticulous research helps uncover crucial information about the true nature of the forces at work in the world.",
+          "role": "Key researcher",
+          "relationships": {
+            "Discovery": "Breakthroughs his work makes possible",
+            "Truth": "Reality his research helps reveal"
+          }
+        }
+      }
+    },
+    "the-mists": {
+      "name": "The Mists",
+      "aliases": ["Death in the Night"],
+      "appearances": [1, 5, 8, 12, 15, 18, 22, 25, 28, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The nightly phenomenon that once protected people now kills those it touches. Only Allomancers and a few rare individuals can survive contact with the deadly mists.",
+          "role": "Deadly atmospheric force",
+          "relationships": {
+            "Death": "Fate it brings to most who touch it",
+            "Allomancers": "People who can survive its touch"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "The mists are staying longer each day and growing more dangerous. They seem to be actively hunting people rather than simply being a natural phenomenon.",
+          "role": "Hunting predator",
+          "relationships": {
+            "Malevolence": "Intelligence that seems to guide it",
+            "Fear": "Emotion it creates in all living things"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Connected to the cosmic forces at war in the world. The mists are part of Preservation's power, though they've been corrupted by Ruin's influence.",
+          "role": "Corrupted divine force",
+          "relationships": {
+            "Preservation": "Original source of its power",
+            "Ruin": "Force that has corrupted its purpose"
+          }
+        },
+        "65": {
+          "revealedIn": 65,
+          "description": "As the final battle approaches, the mists become a battleground between opposing cosmic forces, their behavior reflecting the struggle between preservation and destruction.",
+          "role": "Cosmic battlefield",
+          "relationships": {
+            "The final battle": "Conflict they're part of",
+            "Balance": "Equilibrium they help determine"
+          }
+        }
+      }
+    },
+    "dockson": {
+      "name": "Dockson",
+      "aliases": ["Dox"],
+      "appearances": [15, 25],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Kelsier's former right-hand man, now remembered as a martyr who died defending Luthadel. His memory continues to inspire those who knew him.",
+          "role": "Martyred organizer",
+          "relationships": {
+            "Kelsier": "Leader he served faithfully",
+            "The crew": "Friends who remember his sacrifice"
+          }
+        }
+      }
+    },
+    "vin-s-father": {
+      "name": "Vin's Father",
+      "aliases": [],
+      "appearances": [35],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "A thief who abandoned Vin as a child. His legacy of abandonment shaped her early distrust of others.",
+          "role": "Absent parent",
+          "relationships": {
+            "Vin": "Daughter he abandoned",
+            "The streets": "Life he chose over family"
+          }
+        }
+      }
+    },
+    "reen": {
+      "name": "Reen",
+      "aliases": [],
+      "appearances": [35, 45],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Vin's older half-brother who taught her to trust no one before abandoning her. His harsh lessons helped her survive but left emotional scars.",
+          "role": "Abandoned brother and teacher",
+          "relationships": {
+            "Vin": "Sister he taught and then left",
+            "Distrust": "Lesson he ingrained in her"
+          }
+        }
+      }
+    },
+    "camon": {
+      "name": "Camon",
+      "aliases": [],
+      "appearances": [25],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Vin's former thieving crew leader, remembered as a brutal man who exploited her abilities. His death freed her to join Kelsier's crew.",
+          "role": "Former exploitative leader",
+          "relationships": {
+            "Vin": "Girl he exploited for her Luck",
+            "Kelsier": "Thief who killed him"
+          }
+        }
+      }
+    },
+    "straff-venture": {
+      "name": "Straff Venture",
+      "aliases": [],
+      "appearances": [15, 28, 40],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Elend's deceased father, remembered as a ruthless nobleman who valued power over family. His legacy continues to influence political situations.",
+          "role": "Dead patriarch",
+          "relationships": {
+            "Elend": "Son who rejected his values",
+            "House Venture": "Noble house he once led"
+          }
+        }
+      }
+    },
+    "lord-ruler": {
+      "name": "The Lord Ruler",
+      "aliases": ["Rashek", "The Sliver of Infinity"],
+      "appearances": [25, 35, 45, 55, 60, 65, 70],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "The immortal emperor who ruled for a thousand years before his death. His legacy and the systems he created continue to influence the dying world.",
+          "role": "Deceased immortal ruler",
+          "relationships": {
+            "The empire": "Domain he ruled for centuries",
+            "Kelsier": "Thief who killed him"
+          }
+        },
+        "45": {
+          "revealedIn": 45,
+          "description": "Revealed to have been preparing for the current crisis throughout his reign. His apparent tyranny was actually a desperate attempt to preserve humanity.",
+          "role": "Misunderstood savior",
+          "relationships": {
+            "Preparation": "Millennium-long effort to save the world",
+            "Sacrifice": "Personal cost of his guardianship"
+          }
+        }
+      }
+    },
+    "tindwyl": {
+      "name": "Tindwyl",
+      "aliases": [],
+      "appearances": [12, 25, 35],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Keeper who taught Elend royal protocol and leadership. Her death during the Siege of Luthadel devastated Sazed and contributed to his loss of faith.",
+          "role": "Deceased teacher and love",
+          "relationships": {
+            "Sazed": "Keeper who loved her deeply",
+            "Elend": "Student she helped transform into a king"
+          }
+        }
+      }
+    },
+    "venture-soldiers": {
+      "name": "Venture Soldiers",
+      "aliases": [],
+      "appearances": [8, 12, 15, 18, 22, 25],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The military forces that serve House Venture and now form part of Elend's imperial army. They're disciplined but face increasingly impossible odds.",
+          "role": "Military force",
+          "relationships": {
+            "House Venture": "Noble house they originally served",
+            "Elend": "Emperor they now follow"
+          }
+        }
+      }
+    },
+    "penrod": {
+      "name": "Penrod",
+      "aliases": ["Lord Penrod"],
+      "appearances": [8, 12, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A nobleman who briefly ruled Luthadel during the siege. He's remembered as someone who made difficult choices in impossible circumstances.",
+          "role": "Former interim ruler",
+          "relationships": {
+            "Luthadel": "City he briefly ruled",
+            "The Assembly": "Political body he worked with"
+          }
+        }
+      }
+    },
+    "cett": {
+      "name": "Cett",
+      "aliases": ["Lord Cett"],
+      "appearances": [15, 25, 35],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The crippled warlord who once besieged Luthadel, now remembered as an ally who fought in the final battles. His pragmatism made him valuable despite his rough nature.",
+          "role": "Former warlord ally",
+          "relationships": {
+            "Allrianne": "Daughter who left him to join Elend",
+            "His kingdom": "Western Dominance he once ruled"
+          }
+        }
+      }
+    },
+    "church-of-the-survivor": {
+      "name": "Church of the Survivor",
+      "aliases": ["The Survivors"],
+      "appearances": [8, 12, 15, 20, 25, 30, 35],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The religious movement that worships Kelsier as the Survivor of Hathsin. Its followers draw strength from his example of rebellion against oppression.",
+          "role": "Religious organization",
+          "relationships": {
+            "Kelsier": "Martyred god they worship",
+            "Hope": "What their faith provides in dark times"
+          }
+        }
+      }
+    },
+    "steel-ministry": {
+      "name": "Steel Ministry",
+      "aliases": ["The Ministry"],
+      "appearances": [8, 15, 22, 30, 40, 50, 60],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The Lord Ruler's former religious organization, now disbanded but its legacy lives on through surviving obligators and Steel Inquisitors.",
+          "role": "Defunct religious authority",
+          "relationships": {
+            "The Lord Ruler": "God they served for centuries",
+            "Steel Inquisitors": "Surviving enforcers of their doctrine"
+          }
+        }
+      }
+    },
+    "assembly": {
+      "name": "The Assembly",
+      "aliases": [],
+      "appearances": [5, 8, 12, 15],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The noble council that shared power with Elend in the early days of his reign. Most of its members are now dead or have fled the dying capital.",
+          "role": "Former governing body",
+          "relationships": {
+            "Elend": "King they once shared power with",
+            "Luthadel": "City they helped govern"
+          }
+        }
+      }
+    },
+    "kelsier-s-ghost": {
+      "name": "Kelsier's Ghost",
+      "aliases": ["The Survivor's Spirit"],
+      "appearances": [35, 55, 65, 75],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "The lingering spirit of the Survivor, appearing to help his friends in their darkest moments. His presence suggests that death is not the end for those with strong enough will.",
+          "role": "Protective spirit",
+          "relationships": {
+            "Death": "Boundary he has somehow transcended",
+            "His friends": "People he continues to watch over"
+          }
+        }
+      }
+    },
+    "citizen-s-guards": {
+      "name": "The Citizen's Guards",
+      "aliases": [],
+      "appearances": [22, 25, 28, 30, 35, 40, 45, 50],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Quellion's brutal enforcers who carry out his reign of terror in Urteau. They've been convinced that murder is the path to equality.",
+          "role": "Tyrannical enforcers",
+          "relationships": {
+            "Quellion": "Tyrant they serve without question",
+            "Terror": "Tool they use to control the population"
+          }
+        }
+      }
+    },
+    "urteau-rebels": {
+      "name": "Urteau Rebels",
+      "aliases": ["The Resistance"],
+      "appearances": [25, 30, 35, 40, 45, 50],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Underground fighters working to overthrow Quellion's reign of terror. They risk everything to restore justice and freedom to their city.",
+          "role": "Freedom fighters",
+          "relationships": {
+            "Spook": "Young leader who inspires them",
+            "Liberty": "Goal they fight and die for"
+          }
+        }
+      }
+    },
+    "vetitan-people": {
+      "name": "People of Vetitan",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The struggling inhabitants of a small town trying to survive the ashfalls and food shortages. They represent the common people facing the end of the world.",
+          "role": "Desperate survivors",
+          "relationships": {
+            "Fatren": "Leader they depend on for survival",
+            "Survival": "Daily struggle that defines their existence"
+          }
+        }
+      }
+    },
+    "lord-venture-guards": {
+      "name": "Lord Venture's Guards",
+      "aliases": [],
+      "appearances": [8, 12, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Elite soldiers who once served Straff Venture and now serve his son Elend. Their loyalty has transferred to the new emperor despite their original master's death.",
+          "role": "Elite military unit",
+          "relationships": {
+            "Straff Venture": "Former master they served",
+            "Elend": "New lord they've sworn to protect"
+          }
+        }
+      }
+    },
+    "hoid": {
+      "name": "Hoid",
+      "aliases": ["The Storyteller"],
+      "appearances": [15, 45, 65],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A mysterious storyteller who appears at crucial moments. His knowledge seems to span far beyond what any normal person should know.",
+          "role": "Enigmatic messenger",
+          "relationships": {
+            "Stories": "Tales he tells that contain hidden truths",
+            "Mystery": "Aura that surrounds everything about him"
+          }
+        }
+      }
+    },
+    "mist-wraiths": {
+      "name": "Mist Wraiths",
+      "aliases": [],
+      "appearances": [25, 35, 45],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Mysterious entities that appear in the mists, possibly the spirits of those killed by the deadly phenomenon. They seem to watch but rarely interact.",
+          "role": "Mysterious observers",
+          "relationships": {
+            "The mists": "Deadly force they're connected to",
+            "The dead": "Souls they might represent"
+          }
+        }
+      }
+    },
+    "ash-covered-trees": {
+      "name": "Ash-Covered Trees",
+      "aliases": ["The Dying Forest"],
+      "appearances": [5, 8, 12, 15, 20],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The vegetation of the world, slowly dying under the constant ashfall. They represent the planet's struggle against extinction.",
+          "role": "Dying ecosystem",
+          "relationships": {
+            "The ashfalls": "Force that's killing them",
+            "Life": "What they represent in a dying world"
+          }
+        }
+      }
+    },
+    "the-deepness": {
+      "name": "The Deepness",
+      "aliases": ["Ancient Terror"],
+      "appearances": [35, 45, 55],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "The ancient force that threatened the world a thousand years ago, now revealed to be connected to the current crisis. It may not have been what people thought it was.",
+          "role": "Misunderstood ancient threat",
+          "relationships": {
+            "The prophecies": "Ancient texts that described it",
+            "Ruin": "True force it may have been connected to"
+          }
+        }
+      }
+    },
+    "well-of-ascension": {
+      "name": "The Well of Ascension",
+      "aliases": ["The Source"],
+      "appearances": [45, 55, 65],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "The legendary source of power that was the focus of ancient prophecies. Its true nature and purpose are finally being understood.",
+          "role": "Cosmic power source",
+          "relationships": {
+            "Preservation": "Force it was connected to",
+            "The prophecies": "Ancient predictions about its importance"
+          }
+        }
+      }
+    },
+    "hemalurgic-spikes": {
+      "name": "Hemalurgic Spikes",
+      "aliases": ["Soul Piercers"],
+      "appearances": [30, 40, 50, 60, 70],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Metal spikes that can steal and transfer Allomantic and Feruchemical abilities. They're the dark secret behind the creation of kandra, koloss, and Steel Inquisitors.",
+          "role": "Power-stealing artifacts",
+          "relationships": {
+            "Ruin": "Force that created this art",
+            "Corruption": "Effect they have on those who use them"
+          }
+        }
+      }
+    },
+    "kandra-contracts": {
+      "name": "Kandra Contracts",
+      "aliases": ["The Binding Law"],
+      "appearances": [28, 32, 38, 42, 48],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "The ancient system that binds kandra to serve humans. This legal and mystical framework has governed their society for centuries.",
+          "role": "Binding legal system",
+          "relationships": {
+            "Kandra society": "People it governs absolutely",
+            "Service": "Obligation it enforces"
+          }
+        }
+      }
+    },
+    "the-steel-alphabet": {
+      "name": "The Steel Alphabet",
+      "aliases": [],
+      "appearances": [30, 40, 50],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "The writing system used by Steel Inquisitors and the Steel Ministry. Its harsh, angular letters reflect the brutal nature of those who used it.",
+          "role": "Religious script",
+          "relationships": {
+            "Steel Inquisitors": "Beings who wrote in these letters",
+            "The Ministry": "Organization that created it"
+          }
+        }
+      }
+    },
+    "terrismen": {
+      "name": "Terrismen",
+      "aliases": ["The Eunuch Servants"],
+      "appearances": [8, 15, 22, 30],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The castrated servants who once served the nobility, many of whom were secret Keepers. Their oppression hid their role as preservers of knowledge.",
+          "role": "Oppressed knowledge keepers",
+          "relationships": {
+            "The nobility": "Class that enslaved them",
+            "Knowledge": "Wisdom they secretly preserved"
+          }
+        }
+      }
+    },
+    "the-pits-of-hathsin": {
+      "name": "The Pits of Hathsin",
+      "aliases": ["The Prison"],
+      "appearances": [25, 35, 45],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "The deadly prison where Kelsier and other rebels were sent to mine atium. Its destruction marked the beginning of the rebellion against the Lord Ruler.",
+          "role": "Former prison and mine",
+          "relationships": {
+            "Kelsier": "Survivor who escaped its depths",
+            "Atium": "Precious metal mined from its caverns"
+          }
+        }
+      }
+    },
+    "kredik-shaw": {
+      "name": "Kredik Shaw",
+      "aliases": ["The Hill of a Thousand Spires"],
+      "appearances": [15, 25, 35],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The Lord Ruler's former palace, now standing empty as a monument to fallen power. Its spires still dominate Luthadel's skyline.",
+          "role": "Abandoned palace",
+          "relationships": {
+            "The Lord Ruler": "Immortal emperor who built it",
+            "Luthadel": "Capital it once dominated"
+          }
+        }
+      }
+    },
+    "the-sixteen-metals": {
+      "name": "The Sixteen Metals",
+      "aliases": ["Allomantic Metals"],
+      "appearances": [8, 15, 25, 35, 45, 55],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The metals that grant Allomantic powers to those who can burn them. Each metal provides different abilities, from enhanced senses to emotional manipulation.",
+          "role": "Sources of magical power",
+          "relationships": {
+            "Allomancers": "People who can burn them for power",
+            "The Cosmere": "Greater magical system they're part of"
+          }
+        }
+      }
+    },
+    "coppercloud": {
+      "name": "Coppercloud",
+      "aliases": ["The Smoker"],
+      "appearances": [20, 25, 30],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A Smoker working in Urteau who helps hide Allomantic activity from detection. Their abilities become crucial in the underground rebellion.",
+          "role": "Underground Smoker",
+          "relationships": {
+            "The rebellion": "Cause they support with their abilities",
+            "Concealment": "Power they provide to hide others"
+          }
+        }
+      }
+    },
+    "captain-reddi": {
+      "name": "Captain Reddi",
+      "aliases": [],
+      "appearances": [12, 15, 18],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A military officer serving in Elend's army. His competence and loyalty make him valuable during the empire's difficult times.",
+          "role": "Imperial officer",
+          "relationships": {
+            "Elend's army": "Military force he serves",
+            "Duty": "Obligation that drives him"
+          }
+        }
+      }
+    },
+    "the-deepness-mist": {
+      "name": "The Deepness Mist",
+      "aliases": [],
+      "appearances": [45, 55, 65],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "A manifestation of the ancient threat that once endangered the world. Its true nature is more complex than the legends suggest.",
+          "role": "Ancient manifestation",
+          "relationships": {
+            "The legends": "Stories that may have misunderstood its nature",
+            "The past": "Ancient time when it last appeared"
+          }
+        }
+      }
+    },
+    "skaa-rebels": {
+      "name": "Skaa Rebels",
+      "aliases": ["The Underground"],
+      "appearances": [8, 12, 15, 22, 25],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Remnants of the rebellion that Kelsier inspired, still fighting for freedom and justice. They carry on his legacy in small acts of resistance.",
+          "role": "Continuing revolutionaries",
+          "relationships": {
+            "Kelsier": "Martyr who inspired their cause",
+            "Freedom": "Goal they still fight for"
+          }
+        }
+      }
+    },
+    "obligator-priests": {
+      "name": "Obligator Priests",
+      "aliases": ["The Tattooed Ones"],
+      "appearances": [15, 25, 60, 65],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Former religious officials of the Steel Ministry, now scattered and powerless. Some still cling to their old beliefs despite their god's death.",
+          "role": "Displaced clergy",
+          "relationships": {
+            "The Lord Ruler": "Dead god they once served",
+            "Faith": "Belief system now without foundation"
+          }
+        }
+      }
+    },
+    "noble-houses": {
+      "name": "The Great Houses",
+      "aliases": ["Nobility"],
+      "appearances": [8, 12, 15, 20, 25],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The former aristocratic families, most now dead or fled. Their political system collapsed with the Lord Ruler's death.",
+          "role": "Fallen aristocracy",
+          "relationships": {
+            "The Final Empire": "Government they once dominated",
+            "Power": "Influence they've lost"
+          }
+        }
+      }
+    },
+    "keeper-conclave": {
+      "name": "The Keeper Conclave",
+      "aliases": ["Terris Keepers"],
+      "appearances": [12, 20, 30, 40],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The surviving Keepers working to preserve knowledge and restore their people's heritage. They struggle with questions of faith and purpose.",
+          "role": "Knowledge preservers",
+          "relationships": {
+            "Ancient wisdom": "Knowledge they're sworn to protect",
+            "Doubt": "Crisis affecting many of their number"
+          }
+        }
+      }
+    },
+    "worldbringers": {
+      "name": "The Worldbringers",
+      "aliases": ["Ancient Prophets"],
+      "appearances": [45, 50, 55],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Ancient Keepers who first interpreted the prophecies about the Hero of Ages. Their translations shaped religious thought for centuries.",
+          "role": "Ancient interpreters",
+          "relationships": {
+            "The prophecies": "Ancient texts they translated",
+            "History": "Legacy their work created"
+          }
+        }
+      }
+    },
+    "mist-spirits": {
+      "name": "Mist Spirits",
+      "aliases": [],
+      "appearances": [25, 35, 45, 65],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Ghostly forms that appear in the mists, possibly representations of Preservation's consciousness. They seem to watch and occasionally guide.",
+          "role": "Mysterious guides",
+          "relationships": {
+            "Preservation": "Force they may represent",
+            "Guidance": "Help they sometimes provide"
+          }
+        }
+      }
+    },
+    "the-ashmounts": {
+      "name": "The Ashmounts",
+      "aliases": ["The Burning Peaks"],
+      "appearances": [5, 15, 25, 35, 45],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The volcanic peaks that constantly spew ash into the sky, slowly killing the world. They were created by the Lord Ruler as part of his plan.",
+          "role": "World-killing volcanoes",
+          "relationships": {
+            "The Lord Ruler": "Immortal who created them",
+            "Ash": "Deadly substance they constantly produce"
+          }
+        }
+      }
+    },
+    "atium-miners": {
+      "name": "Atium Miners",
+      "aliases": ["The Geode Workers"],
+      "appearances": [25, 30, 35],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Workers who once extracted the precious metal from dangerous mines. Most died in the brutal conditions, but their labor fueled the empire.",
+          "role": "Exploited workers",
+          "relationships": {
+            "Atium": "Precious metal they died to extract",
+            "Suffering": "Price they paid for the empire's wealth"
+          }
+        }
+      }
+    },
+    "kandra-seconds": {
+      "name": "Second Generation Kandra",
+      "aliases": ["The Seconds"],
+      "appearances": [32, 38, 42, 48, 52],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Kandra created centuries after the Firsts, serving as administrators and supervisors. They bridge the gap between ancient authority and younger generations.",
+          "role": "Middle management",
+          "relationships": {
+            "First Generation": "Elders they serve and respect",
+            "Younger kandra": "Generations they supervise and guide"
+          }
+        }
+      }
+    },
+    "kandra-thirds": {
+      "name": "Third Generation Kandra",
+      "aliases": ["The Thirds"],
+      "appearances": [32, 38, 42, 48],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "More recent kandra who often serve Contracts directly. They're closer in age to TenSoon and more susceptible to questioning traditional ways.",
+          "role": "Contract servants",
+          "relationships": {
+            "Contracts": "System they're bound by but increasingly question",
+            "TenSoon": "Revolutionary whose example affects them"
+          }
+        }
+      }
+    },
+    "kandra-fourths": {
+      "name": "Fourth Generation Kandra",
+      "aliases": ["The Fourths"],
+      "appearances": [32, 38, 42],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "The youngest generation of kandra, most open to change and new ideas. They're the most likely to embrace TenSoon's revolution.",
+          "role": "Young revolutionaries",
+          "relationships": {
+            "Change": "Future they're eager to embrace",
+            "Tradition": "Old ways they're most willing to abandon"
+          }
+        }
+      }
+    },
+    "kandrakeeper": {
+      "name": "KandraKeeper",
+      "aliases": [],
+      "appearances": [32, 38, 42],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "A kandra responsible for maintaining records and traditions. They struggle with preserving the old ways while acknowledging needed changes.",
+          "role": "Record keeper and traditionalist",
+          "relationships": {
+            "Tradition": "Old ways they're sworn to preserve",
+            "Change": "New reality they must accommodate"
+          }
+        }
+      }
+    },
+    "venture-scribes": {
+      "name": "Venture Scribes",
+      "aliases": [],
+      "appearances": [8, 12, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Administrative workers who help maintain the empire's bureaucracy. Their dedication to record-keeping helps preserve some semblance of order.",
+          "role": "Administrative workers",
+          "relationships": {
+            "Order": "System they work to maintain",
+            "Knowledge": "Information they preserve and organize"
+          }
+        }
+      }
+    },
+    "imperial-messengers": {
+      "name": "Imperial Messengers",
+      "aliases": [],
+      "appearances": [8, 12, 15, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Couriers who carry communications across the dying empire. Their dangerous job becomes increasingly vital as normal communication breaks down.",
+          "role": "Communication network",
+          "relationships": {
+            "The empire": "Domain they help hold together",
+            "Danger": "Risk they face with every mission"
+          }
+        }
+      }
+    },
+    "tin-soldiers": {
+      "name": "Tin Soldiers",
+      "aliases": ["Enhanced Scouts"],
+      "appearances": [15, 20, 25, 30],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Soldiers with Tin Allomantic abilities who serve as scouts and sentries. Their enhanced senses make them valuable for military reconnaissance.",
+          "role": "Enhanced scouts",
+          "relationships": {
+            "Tin": "Metal that grants them superhuman senses",
+            "Intelligence": "Information they gather for their commanders"
+          }
+        }
+      }
+    },
+    "pewter-warriors": {
+      "name": "Pewter Warriors",
+      "aliases": ["The Strong"],
+      "appearances": [15, 20, 25, 30, 35],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Soldiers enhanced by burning pewter for increased strength and endurance. They form the backbone of many military units.",
+          "role": "Enhanced infantry",
+          "relationships": {
+            "Pewter": "Metal that grants them superhuman strength",
+            "Battle": "Combat they're bred for"
+          }
+        }
+      }
+    },
+    "brass-rioters": {
+      "name": "Brass Rioters",
+      "aliases": ["Emotion Manipulators"],
+      "appearances": [18, 22, 25, 28],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Allomancers who can inflame emotions, used for military morale and crowd control. Their abilities make them valuable for both war and politics.",
+          "role": "Emotional manipulators",
+          "relationships": {
+            "Brass": "Metal that grants them power over emotions",
+            "Control": "Influence they wield over others' feelings"
+          }
+        }
+      }
+    },
+    "zinc-soothers": {
+      "name": "Zinc Soothers",
+      "aliases": ["Emotion Dampeners"],
+      "appearances": [18, 22, 25, 28],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Allomancers who can dampen emotions, used to calm mobs and reduce panic. They're essential for maintaining order in crisis situations.",
+          "role": "Emotional stabilizers",
+          "relationships": {
+            "Zinc": "Metal that grants them calming influence",
+            "Peace": "Tranquility they can impose on others"
+          }
+        }
+      }
+    },
+    "copper-smokers": {
+      "name": "Copper Smokers",
+      "aliases": ["The Hidden"],
+      "appearances": [20, 25, 28, 30],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Allomancers who can hide other Allomantic activity from detection. They're crucial for covert operations and protecting other Allomancers.",
+          "role": "Concealment specialists",
+          "relationships": {
+            "Copper": "Metal that grants them hiding abilities",
+            "Secrecy": "Protection they provide to others"
+          }
+        }
+      }
+    },
+    "bronze-seekers": {
+      "name": "Bronze Seekers",
+      "aliases": ["Allomantic Hunters"],
+      "appearances": [20, 25, 28, 30, 35],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Allomancers who can detect other Allomantic activity. They're used for hunting rogue Allomancers and maintaining security.",
+          "role": "Allomantic detectors",
+          "relationships": {
+            "Bronze": "Metal that grants them detection abilities",
+            "Discovery": "Power they have to find hidden Allomancers"
+          }
+        }
+      }
+    },
+    "iron-pullers": {
+      "name": "Iron Pullers",
+      "aliases": ["Metal Manipulators"],
+      "appearances": [22, 28, 32, 35],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Allomancers who can Pull on iron and steel, granting them limited versions of Mistborn abilities. They're valuable for combat and transportation.",
+          "role": "Limited metal manipulators",
+          "relationships": {
+            "Iron": "Metal they can Pull toward themselves",
+            "Mobility": "Movement advantages their power provides"
+          }
+        }
+      }
+    },
+    "steel-pushers": {
+      "name": "Steel Pushers",
+      "aliases": ["Coinshots"],
+      "appearances": [22, 28, 32, 35],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Allomancers who can Push on iron and steel, using coins and metal objects as weapons or for transportation. They're common among Allomantic soldiers.",
+          "role": "Metal projectile specialists",
+          "relationships": {
+            "Steel": "Metal they can Push away from themselves",
+            "Coins": "Weapons they turn into deadly projectiles"
+          }
+        }
+      }
+    },
+    "the-ash": {
+      "name": "The Ash",
+      "aliases": ["Death from Above"],
+      "appearances": [1, 5, 8, 12, 15, 18, 22, 25, 28, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The constant rainfall of ash that's killing all plant life and slowly burying the world. It falls heavier each day, making survival increasingly difficult.",
+          "role": "World-killing precipitation",
+          "relationships": {
+            "Plant life": "Vegetation it's systematically destroying",
+            "Survival": "Daily struggle it makes harder"
+          }
+        }
+      }
+    },
+    "the-red-sun": {
+      "name": "The Red Sun",
+      "aliases": ["The Dying Light"],
+      "appearances": [5, 15, 25, 35, 45, 55, 65, 75],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The sun has turned red and dim, providing little warmth to the freezing world. Its changed nature reflects the cosmic forces at war.",
+          "role": "Failing stellar body",
+          "relationships": {
+            "Warmth": "Life-giving heat it no longer provides",
+            "The world": "Planet it's failing to sustain"
+          }
+        }
+      }
+    },
+    "cache-guardians": {
+      "name": "Cache Guardians",
+      "aliases": ["Atium Protectors"],
+      "appearances": [60, 65, 68, 70, 75],
+      "knowledge": {
+        "60": {
+          "revealedIn": 60,
+          "description": "Soldiers and officials tasked with protecting the hidden atium stockpiles. They're often the only ones who know the location of these crucial resources.",
+          "role": "Treasure guardians",
+          "relationships": {
+            "Atium caches": "Precious resources they protect",
+            "Secrecy": "Concealment they maintain about the locations"
+          }
+        }
+      }
+    },
+    "ruin-s-whispers": {
+      "name": "Ruin's Whispers",
+      "aliases": ["The Corrupting Voice"],
+      "appearances": [30, 40, 50, 60, 70, 75],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "The mental influences and voices that Ruin uses to manipulate people. They appear as helpful guidance but lead toward destruction.",
+          "role": "Corrupting influence",
+          "relationships": {
+            "Ruin": "Cosmic force that sends them",
+            "Corruption": "Effect they have on vulnerable minds"
+          }
+        }
+      }
+    },
+    "preservation-s-plan": {
+      "name": "Preservation's Plan",
+      "aliases": ["The Greater Design"],
+      "appearances": [55, 65, 75, 80],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "The cosmic strategy designed to defeat Ruin while preserving as much life as possible. It requires tremendous sacrifice but offers hope for the future.",
+          "role": "Cosmic strategy",
+          "relationships": {
+            "Preservation": "Force that designed it",
+            "Hope": "What it offers despite the cost"
+          }
+        }
+      }
+    },
+    "kandra-fifths": {
+      "name": "Fifth Generation Kandra",
+      "aliases": ["The Newest"],
+      "appearances": [32, 38],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "The most recently created kandra, still learning their place in society. They represent the future of their species.",
+          "role": "Newest generation",
+          "relationships": {
+            "Learning": "Process they're still undergoing",
+            "The future": "What they represent for kandra society"
+          }
+        }
+      }
+    },
+    "yomen-s-guards": {
+      "name": "Yomen's Guards",
+      "aliases": ["Fadrex Soldiers"],
+      "appearances": [60, 65, 68, 70, 75],
+      "knowledge": {
+        "60": {
+          "revealedIn": 60,
+          "description": "Elite soldiers serving the former obligator who rules Fadrex City. Their discipline and religious devotion make them formidable defenders.",
+          "role": "Religious military force",
+          "relationships": {
+            "Yomen": "Former obligator they serve absolutely",
+            "Faith": "Religious conviction that drives them"
+          }
+        }
+      }
+    },
+    "fadrex-citizens": {
+      "name": "Citizens of Fadrex",
+      "aliases": ["The Last City"],
+      "appearances": [60, 62, 65, 68, 70, 75],
+      "knowledge": {
+        "60": {
+          "revealedIn": 60,
+          "description": "The inhabitants of one of the few remaining functioning cities. They live under strict religious rule but enjoy relative safety and order.",
+          "role": "Surviving urban population",
+          "relationships": {
+            "Yomen": "Ruler who maintains order in their city",
+            "Order": "System that keeps them alive"
+          }
+        }
+      }
+    },
+    "the-first-contract": {
+      "name": "The First Contract",
+      "aliases": ["The Original Agreement"],
+      "appearances": [30, 35, 40, 45],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "The ancient agreement that binds all kandra to serve humans. It represents both their obligation and their protection under law.",
+          "role": "Foundational legal document",
+          "relationships": {
+            "Kandra society": "People it governs completely",
+            "Service": "Obligation it establishes"
+          }
+        }
+      }
+    },
+    "the-father": {
+      "name": "The Father",
+      "aliases": ["First Kandra"],
+      "appearances": [40, 45, 50],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "The original kandra, created directly by the Lord Ruler. He serves as the ultimate authority in kandra society and the keeper of their deepest secrets.",
+          "role": "Progenitor and ultimate authority",
+          "relationships": {
+            "The Lord Ruler": "Creator who made him personally",
+            "All kandra": "Children he considers himself father to"
+          }
+        }
+      }
+    },
+    "venture-merchants": {
+      "name": "Venture Merchants",
+      "aliases": ["House Traders"],
+      "appearances": [8, 12, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Business associates of House Venture who help maintain trade and commerce. Their economic expertise becomes crucial for resource management.",
+          "role": "Commercial specialists",
+          "relationships": {
+            "Trade": "Commerce they work to maintain",
+            "Resources": "Materials they help acquire and distribute"
+          }
+        }
+      }
+    },
+    "luthadel-guards": {
+      "name": "Luthadel City Guards",
+      "aliases": ["The Watch"],
+      "appearances": [8, 12, 15, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The remaining city guard trying to maintain order in the dying capital. Their job becomes increasingly difficult as the city empties.",
+          "role": "Urban peacekeepers",
+          "relationships": {
+            "Luthadel": "City they're sworn to protect",
+            "Order": "Peace they struggle to maintain"
+          }
+        }
+      }
+    },
+    "the-mist-snappings": {
+      "name": "Mist Snappings",
+      "aliases": ["The Chosen"],
+      "appearances": [15, 25, 35, 45],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "People who gain Allomantic powers after surviving exposure to the deadly mists. They represent a new generation of Allomancers created by the crisis.",
+          "role": "Newly awakened Allomancers",
+          "relationships": {
+            "The mists": "Deadly force that awakened their powers",
+            "Survival": "What they achieved to gain their abilities"
+          }
+        }
+      }
+    },
+    "storage-keepers": {
+      "name": "Storage Keepers",
+      "aliases": ["The Hoarders"],
+      "appearances": [35, 40, 45, 50],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Individuals and groups responsible for maintaining the underground storage facilities. They guard the supplies meant to help humanity survive.",
+          "role": "Resource guardians",
+          "relationships": {
+            "The storage sites": "Underground facilities they maintain",
+            "Survival": "Future they're helping to preserve"
+          }
+        }
+      }
+    },
+    "vin-s-mist-spirit": {
+      "name": "Vin's Mist Spirit",
+      "aliases": ["The Guide"],
+      "appearances": [35, 45, 65, 75],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "A manifestation of Preservation that appears specifically to Vin, helping guide her toward her destiny. It represents the cosmic force's attempt to communicate.",
+          "role": "Divine messenger",
+          "relationships": {
+            "Preservation": "Cosmic force it represents",
+            "Vin": "Chosen one it guides"
+          }
+        }
+      }
+    },
+    "koloss-herders": {
+      "name": "Koloss Herders",
+      "aliases": ["Beast Masters"],
+      "appearances": [25, 30, 35, 40, 45, 50],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Individuals with the ability to control koloss through emotional Allomancy. They risk their lives to direct these dangerous creatures.",
+          "role": "Monster controllers",
+          "relationships": {
+            "Koloss": "Savage creatures they attempt to control",
+            "Danger": "Constant risk they face in their work"
+          }
+        }
+      }
+    },
+    "inquisitor-acolytes": {
+      "name": "Inquisitor Acolytes",
+      "aliases": ["The Devoted"],
+      "appearances": [30, 40, 50, 60],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Servants and followers of the Steel Inquisitors, helping them in their dark work. They're gradually being corrupted by Ruin's influence.",
+          "role": "Corrupted servants",
+          "relationships": {
+            "Steel Inquisitors": "Masters they serve without question",
+            "Corruption": "Influence gradually claiming their souls"
+          }
+        }
+      }
+    },
+    "the-canton-heads": {
+      "name": "Canton Heads",
+      "aliases": ["Former Ministry Leaders"],
+      "appearances": [25, 35, 45],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Former leaders of the Steel Ministry's various departments, now scattered and powerless. Some try to maintain their old authority in small communities.",
+          "role": "Displaced religious leaders",
+          "relationships": {
+            "The Steel Ministry": "Dead organization they once led",
+            "Authority": "Power they've lost but still crave"
+          }
+        }
+      }
+    },
+    "ash-farmers": {
+      "name": "Ash Farmers",
+      "aliases": ["The Desperate Growers"],
+      "appearances": [8, 12, 15, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Agricultural workers attempting the impossible task of growing crops in ash-covered soil. Their work becomes increasingly futile as conditions worsen.",
+          "role": "Struggling agriculturalists",
+          "relationships": {
+            "The ash": "Substance killing everything they try to grow",
+            "Starvation": "Fate they fight desperately to prevent"
+          }
+        }
+      }
+    },
+    "cave-dwellers": {
+      "name": "Cave Dwellers",
+      "aliases": ["Underground Survivors"],
+      "appearances": [35, 40, 45, 50],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Groups of people who have retreated to caves and underground spaces to escape the deadly surface conditions. They represent humanity's instinct for survival.",
+          "role": "Underground refugees",
+          "relationships": {
+            "The surface": "Deadly world they've fled",
+            "Survival": "Goal that drives their every action"
+          }
+        }
+      }
+    },
+    "the-well-guardian": {
+      "name": "The Well Guardian",
+      "aliases": ["Ancient Protector"],
+      "appearances": [55, 65],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "A mysterious entity connected to the Well of Ascension, tasked with protecting or testing those who approach the cosmic power source.",
+          "role": "Mystical guardian",
+          "relationships": {
+            "The Well": "Sacred site it protects",
+            "Worthiness": "Quality it tests in visitors"
+          }
+        }
+      }
+    },
+    "metal-scavengers": {
+      "name": "Metal Scavengers",
+      "aliases": ["The Collectors"],
+      "appearances": [20, 25, 30, 35],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "People who search ruins and abandoned areas for useful metals, especially those needed by Allomancers. Their work has become increasingly dangerous but valuable.",
+          "role": "Resource gatherers",
+          "relationships": {
+            "Metals": "Valuable materials they risk their lives to find",
+            "Allomancers": "People who desperately need their finds"
+          }
+        }
+      }
+    },
+    "the-returned": {
+      "name": "The Returned",
+      "aliases": ["Those Who Came Back"],
+      "appearances": [45, 55, 65],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Individuals who have somehow returned from apparent death, possibly influenced by the cosmic forces at war. They carry important knowledge about what lies beyond.",
+          "role": "Mysterious survivors",
+          "relationships": {
+            "Death": "Boundary they've somehow crossed",
+            "Knowledge": "Secrets they've brought back from beyond"
+          }
+        }
+      }
+    },
+    "ruin-s-spies": {
+      "name": "Ruin's Spies",
+      "aliases": ["The Influenced"],
+      "appearances": [40, 50, 60, 70],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Humans who have been subtly influenced by Ruin to act as agents and informants. They often don't realize they're being manipulated.",
+          "role": "Unwitting agents",
+          "relationships": {
+            "Ruin": "Cosmic force controlling them",
+            "Manipulation": "Control they don't recognize"
+          }
+        }
+      }
+    },
+    "preservation-s-chosen": {
+      "name": "Preservation's Chosen",
+      "aliases": ["The Blessed"],
+      "appearances": [45, 55, 65, 75],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Individuals selected by Preservation to carry out specific tasks in the cosmic struggle. They often receive visions and guidance from the divine force.",
+          "role": "Divine agents",
+          "relationships": {
+            "Preservation": "Cosmic force that chose them",
+            "Purpose": "Sacred mission they're meant to fulfill"
+          }
+        }
+      }
+    },
+    "the-ash-prophets": {
+      "name": "Ash Prophets",
+      "aliases": ["Doomsday Preachers"],
+      "appearances": [25, 30, 35, 40],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Religious figures who preach about the end of the world, claiming the ashfalls are divine punishment. They gather followers among the desperate and afraid.",
+          "role": "Apocalyptic preachers",
+          "relationships": {
+            "The end times": "Prophecy they proclaim",
+            "Fear": "Emotion they exploit in their followers"
+          }
+        }
+      }
+    },
+    "the-mist-sickness": {
+      "name": "Mist Sickness",
+      "aliases": ["The Snapping Plague"],
+      "appearances": [15, 25, 35, 45],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The condition that affects people exposed to the mists, either killing them or awakening Allomantic powers. It represents Preservation's desperate attempt to create more Allomancers.",
+          "role": "Transformative affliction",
+          "relationships": {
+            "The mists": "Deadly force that causes it",
+            "Allomancy": "Power it can awaken in survivors"
+          }
+        }
+      }
+    },
+    "house-venture-s-legacy": {
+      "name": "House Venture's Legacy",
+      "aliases": ["The Venture Inheritance"],
+      "appearances": [8, 15, 25, 35],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The accumulated resources, knowledge, and connections that Elend inherited from his father's house. These assets prove crucial for maintaining the empire.",
+          "role": "Inherited foundation",
+          "relationships": {
+            "Straff Venture": "Father who built this legacy",
+            "Elend": "Son who uses it for better purposes"
+          }
+        }
+      }
+    },
+    "the-binding-magic": {
+      "name": "The Binding Magic",
+      "aliases": ["Hemalurgic Force"],
+      "appearances": [40, 50, 60, 70],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "The dark magical art that creates kandra, koloss, and Steel Inquisitors by stealing and transferring spiritual essence. It's Ruin's method of corruption.",
+          "role": "Corrupting magical system",
+          "relationships": {
+            "Ruin": "Cosmic force that created this art",
+            "Corruption": "Effect it has on all who use it"
+          }
+        }
+      }
+    },
+    "the-final-empire-s-ghost": {
+      "name": "The Final Empire's Ghost",
+      "aliases": ["Dead Civilization"],
+      "appearances": [8, 15, 25, 35, 45],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The lingering influence and infrastructure of the Lord Ruler's thousand-year empire. Its systems and preparations continue to affect the dying world.",
+          "role": "Deceased civilization's influence",
+          "relationships": {
+            "The Lord Ruler": "Emperor who built this system",
+            "The present": "Crisis his preparations were meant to address"
+          }
+        }
+      }
+    },
+    "the-hero-s-burden": {
+      "name": "The Hero's Burden",
+      "aliases": ["Destiny's Weight"],
+      "appearances": [35, 45, 55, 65, 75],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "The psychological and spiritual weight carried by those chosen to save the world. It represents the cost of heroism and the price of power.",
+          "role": "Metaphysical responsibility",
+          "relationships": {
+            "Heroes": "Individuals forced to bear impossible responsibility",
+            "Sacrifice": "Price that heroism always demands"
+          }
+        }
+      }
+    },
+    "beldre-s-friends": {
+      "name": "Beldre's Friends",
+      "aliases": ["The Inner Circle"],
+      "appearances": [28, 32, 38, 42],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Young people in Urteau who associate with Quellion's sister. They're caught between loyalty to her and horror at her brother's actions.",
+          "role": "Conflicted associates",
+          "relationships": {
+            "Beldre": "Friend they support despite family complications",
+            "Moral conflict": "Struggle between friendship and justice"
+          }
+        }
+      }
+    },
+    "spook-s-informants": {
+      "name": "Spook's Informants",
+      "aliases": ["The Underground Network"],
+      "appearances": [25, 30, 35, 40, 45],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Citizens who secretly gather information for the rebellion against Quellion. They risk execution if discovered but continue to support the cause.",
+          "role": "Secret intelligence network",
+          "relationships": {
+            "Spook": "Young leader they feed information to",
+            "Freedom": "Cause they risk their lives for"
+          }
+        }
+      }
+    },
+    "the-church-members": {
+      "name": "Church of the Survivor Members",
+      "aliases": ["Kelsier's Followers"],
+      "appearances": [8, 12, 15, 22, 28, 35],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Devoted followers who worship Kelsier as the Survivor. Their faith gives them strength and purpose even as the world dies around them.",
+          "role": "Religious community",
+          "relationships": {
+            "Kelsier": "Martyred god they worship",
+            "Hope": "What their faith provides in dark times"
+          }
+        }
+      }
+    },
+    "the-lord-ruler-s-plans": {
+      "name": "The Lord Ruler's Plans",
+      "aliases": ["The Thousand-Year Strategy"],
+      "appearances": [45, 50, 55, 60, 65],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "The complex, long-term preparations made by the immortal emperor to help humanity survive Ruin's return. Every detail was calculated over centuries.",
+          "role": "Millennium-spanning contingency plan",
+          "relationships": {
+            "The Lord Ruler": "Immortal mind that conceived them",
+            "Humanity's survival": "Goal they were designed to achieve"
+          }
+        }
+      }
+    },
+    "the-sixteen-prophecies": {
+      "name": "The Sixteen Prophecies",
+      "aliases": ["The Corrupted Texts"],
+      "appearances": [45, 50, 55, 60],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Ancient predictions about the Hero of Ages that were subtly altered by Ruin to serve its purposes. They guided religious thought for generations.",
+          "role": "Manipulated religious texts",
+          "relationships": {
+            "Ruin": "Force that corrupted their meaning",
+            "False hope": "What they provided instead of true guidance"
+          }
+        }
+      }
+    },
+    "the-worldbringer-council": {
+      "name": "The Worldbringer Council",
+      "aliases": ["Ancient Keepers"],
+      "appearances": [50, 55],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "The group of ancient Keepers who first established the prophecies and their interpretations. Their work shaped centuries of religious belief.",
+          "role": "Founding religious scholars",
+          "relationships": {
+            "Ancient knowledge": "Wisdom they tried to preserve",
+            "Misinterpretation": "Error that corrupted their legacy"
+          }
+        }
+      }
+    },
+    "the-kandra-homeland-traditions": {
+      "name": "Kandra Homeland Traditions",
+      "aliases": ["The Old Ways"],
+      "appearances": [32, 38, 42, 48, 52],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "The ancient customs and beliefs that have governed kandra society for centuries. They're being challenged by new ideas about freedom and choice.",
+          "role": "Cultural foundation under threat",
+          "relationships": {
+            "Kandra society": "People these traditions have shaped",
+            "Change": "Force threatening their continued existence"
+          }
+        }
+      }
+    },
+    "the-contract-holders": {
+      "name": "Contract Holders",
+      "aliases": ["Kandra Masters"],
+      "appearances": [28, 32, 38, 42],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Humans who have purchased kandra Contracts and legally own their service. The relationship is complex, involving both ownership and mutual dependence.",
+          "role": "Legal masters of bound servants",
+          "relationships": {
+            "Kandra": "Beings they legally own but depend on",
+            "The Contract system": "Legal framework that binds both parties"
+          }
+        }
+      }
+    },
+    "ash-covered-ruins": {
+      "name": "Ash-Covered Ruins",
+      "aliases": ["Dead Cities"],
+      "appearances": [15, 25, 35, 45],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "The remains of settlements that have been abandoned and buried under ash. They serve as grim reminders of what awaits all civilization.",
+          "role": "Monuments to civilization's decline",
+          "relationships": {
+            "The past": "Better times they represent",
+            "The future": "Fate awaiting all other cities"
+          }
+        }
+      }
+    },
+    "the-survivor-s-legacy": {
+      "name": "The Survivor's Legacy",
+      "aliases": ["Kelsier's Influence"],
+      "appearances": [8, 15, 25, 35, 45, 55, 65, 75],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The lasting impact of Kelsier's life and sacrifice on the world. His influence continues to inspire hope and rebellion even after his death.",
+          "role": "Enduring inspirational force",
+          "relationships": {
+            "Kelsier": "Man whose actions created this legacy",
+            "Hope": "What his memory continues to provide"
+          }
+        }
+      }
+    },
+    "the-final-battle-s-participants": {
+      "name": "The Final Battle's Participants",
+      "aliases": ["Warriors of the End"],
+      "appearances": [75, 78, 80, 82],
+      "knowledge": {
+        "75": {
+          "revealedIn": 75,
+          "description": "All those who take part in the ultimate confrontation between Preservation and Ruin. They represent the best of humanity fighting for survival.",
+          "role": "Ultimate warriors and heroes",
+          "relationships": {
+            "The final battle": "Cosmic conflict they participate in",
+            "Heroism": "Quality they display in the face of extinction"
+          }
+        }
+      }
+    },
+    "the-new-world-s-hope": {
+      "name": "The New World's Hope",
+      "aliases": ["Tomorrow's Promise"],
+      "appearances": [80, 82],
+      "knowledge": {
+        "80": {
+          "revealedIn": 80,
+          "description": "The possibility of rebirth and renewal that emerges from the ashes of the old world. It represents what can be built from sacrifice and love.",
+          "role": "Future potential",
+          "relationships": {
+            "Sacrifice": "Price paid to achieve this hope",
+            "The future": "Better tomorrow it represents"
+          }
+        }
+      }
+    },
+    "venture-household-staff": {
+      "name": "Venture Household Staff",
+      "aliases": ["The Servants"],
+      "appearances": [8, 12, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The domestic workers who maintain Keep Venture and serve the imperial household. Their loyalty persists despite the changing times.",
+          "role": "Domestic support staff",
+          "relationships": {
+            "House Venture": "Noble family they serve",
+            "Loyalty": "Devotion that outlasts political changes"
+          }
+        }
+      }
+    },
+    "the-philosophy-of-balance": {
+      "name": "The Philosophy of Balance",
+      "aliases": ["Harmony's Wisdom"],
+      "appearances": [82],
+      "knowledge": {
+        "82": {
+          "revealedIn": 82,
+          "description": "The understanding that emerges from combining Preservation and Ruin into something greater. It represents the wisdom needed to guide the new world.",
+          "role": "Guiding principle for the future",
+          "relationships": {
+            "Harmony": "Force that embodies this philosophy",
+            "Balance": "Principle it represents"
+          }
+        }
+      }
+    },
+    "spook-s-crew": {
+      "name": "Spook's Crew",
+      "aliases": ["The Young Rebels"],
+      "appearances": [25, 30, 35, 40, 45, 50],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Young people in Urteau who join Spook's rebellion against Quellion. They represent the next generation of freedom fighters.",
+          "role": "Youth resistance movement",
+          "relationships": {
+            "Spook": "Young leader who inspires them",
+            "Justice": "Cause they're willing to die for"
+          }
+        }
+      }
+    },
+    "the-mist-wraiths-purpose": {
+      "name": "The Mist Wraiths' Purpose",
+      "aliases": ["Spectral Mission"],
+      "appearances": [35, 45, 65],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "The mysterious agenda of the ghostly figures that appear in the mists. They seem to be trying to communicate something important about the cosmic conflict.",
+          "role": "Unknown spectral agenda",
+          "relationships": {
+            "The mist wraiths": "Beings carrying out this purpose",
+            "Communication": "Message they're trying to convey"
+          }
+        }
+      }
+    },
+    "the-steel-inquisitor-creation-process": {
+      "name": "Steel Inquisitor Creation Process",
+      "aliases": ["The Dark Transformation"],
+      "appearances": [40, 50, 60, 70],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "The horrific hemalurgic procedure that transforms humans into Steel Inquisitors. It involves stealing spiritual essence and binding it with metal spikes.",
+          "role": "Corrupting transformation ritual",
+          "relationships": {
+            "Hemalurgy": "Dark magic that enables the process",
+            "Horror": "Reality of what the transformation involves"
+          }
+        }
+      }
+    },
+    "the-koloss-creation-tragedy": {
+      "name": "The Koloss Creation Tragedy",
+      "aliases": ["The Human Cost"],
+      "appearances": [50, 60, 70],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "The horrifying truth that koloss were once human, transformed through hemalurgic spikes into savage monsters. It represents the ultimate dehumanization.",
+          "role": "Tragic revelation of lost humanity",
+          "relationships": {
+            "Humanity": "What was stolen from these creatures",
+            "Redemption": "Possibility that some trace of their nature remains"
+          }
+        }
+      }
+    },
+    "the-kandra-true-forms": {
+      "name": "Kandra True Forms",
+      "aliases": ["The Unbound Shapes"],
+      "appearances": [45, 52, 58],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "The natural, inhuman forms that kandra take when not wearing bones or serving Contracts. They represent their true nature before human influence.",
+          "role": "Original species identity",
+          "relationships": {
+            "Freedom": "State these forms represent",
+            "Nature": "What kandra truly are beneath human expectations"
+          }
+        }
+      }
+    },
+    "the-cosmere-connection": {
+      "name": "The Cosmere Connection",
+      "aliases": ["Universal Links"],
+      "appearances": [65, 75, 82],
+      "knowledge": {
+        "65": {
+          "revealedIn": 65,
+          "description": "The broader magical universe that contains this world and its conflicts. The struggle between Preservation and Ruin has implications beyond just one planet.",
+          "role": "Universal context",
+          "relationships": {
+            "The greater universe": "Larger reality this conflict is part of",
+            "Other worlds": "Places that might be affected by the outcome"
+          }
+        }
+      }
+    },
+    "the-shard-holders": {
+      "name": "The Shard Holders",
+      "aliases": ["Cosmic Powers' Vessels"],
+      "appearances": [75, 80, 82],
+      "knowledge": {
+        "75": {
+          "revealedIn": 75,
+          "description": "Beings who take up cosmic powers like Preservation and Ruin. They become vessels for forces greater than any individual consciousness.",
+          "role": "Divine vessels",
+          "relationships": {
+            "Cosmic powers": "Forces they contain and direct",
+            "Mortality": "Human nature they must transcend or sacrifice"
+          }
+        }
+      }
+    },
+    "the-eternal-struggle": {
+      "name": "The Eternal Struggle",
+      "aliases": ["Cosmic Balance"],
+      "appearances": [55, 65, 75, 82],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "The ongoing conflict between forces of preservation and change that shapes all existence. This battle predates humanity and will continue beyond it.",
+          "role": "Universal principle",
+          "relationships": {
+            "All existence": "Reality shaped by this conflict",
+            "Balance": "Goal that can emerge from opposing forces"
+          }
+        }
+      }
+    },
+    "the-transcendent-sacrifice": {
+      "name": "The Transcendent Sacrifice",
+      "aliases": ["Ultimate Love"],
+      "appearances": [75, 78, 80],
+      "knowledge": {
+        "75": {
+          "revealedIn": 75,
+          "description": "The act of giving up everything for others, as demonstrated by Vin and others in the final battle. It represents the highest form of human love and heroism.",
+          "role": "Ultimate heroic act",
+          "relationships": {
+            "Love": "Emotion that makes such sacrifice possible",
+            "Heroism": "Quality it represents in its purest form"
+          }
+        }
+      }
+    },
+    "the-hope-reborn": {
+      "name": "The Hope Reborn",
+      "aliases": ["Phoenix Rising"],
+      "appearances": [82],
+      "knowledge": {
+        "82": {
+          "revealedIn": 82,
+          "description": "The renewal that emerges from destruction, as the world is remade through sacrifice and divine intervention. It proves that endings can become beginnings.",
+          "role": "Cyclical renewal",
+          "relationships": {
+            "Destruction": "End that enables new beginning",
+            "Creation": "Birth that emerges from death"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Vin and Elend struggle to maintain their empire as ash falls destroy crops and the mists kill people who venture out at night. They discover the small town of Vetitan barely surviving, and despite initial suspicion from the townspeople, they provide aid and supplies.",
+    "2": "The couple continues helping Vetitan while grappling with larger questions about the end of the world. Ancient prophecies speak of a Hero of Ages who will save or destroy everything, and both wonder if Vin might be this prophesied figure.",
+    "3": "Vin practices her Allomantic abilities while Elend studies ancient texts and prophecies. They learn more about the Deepness and the Hero of Ages, trying to understand their role in the world's approaching end. Meanwhile, Fatren begins to trust them more.",
+    "4": "The group establishes a more permanent arrangement to help Vetitan survive. Vin demonstrates her unique ability to survive in the deadly mists, while Elend takes on leadership responsibilities for the struggling community.",
+    "5": "TenSoon, a kandra, arrives to serve Vin under contract, taking the place of OreSeur. He inhabits the bones of a wolfhound while secretly maintaining his own identity and agenda, setting up conflicts to come.",
+    "6": "Sazed continues his crisis of faith, studying hundreds of religions and finding flaws in all of them. His loss of belief affects his ability to help others, even as his scholarly knowledge becomes more crucial to understanding the prophecies.",
+    "7": "The group travels between settlements, trying to establish a functioning empire in a dying world. They encounter more evidence of the world's decay and the growing power of whatever force is causing the destruction.",
+    "8": "Elend gains Allomantic powers by consuming a bead of lerasium, transforming him into a Mistborn. This change gives him new abilities but also new responsibilities as he learns to balance his idealism with the harsh realities of leadership. Meanwhile, a Steel Inquisitor appears.",
+    "9": "The Steel Inquisitor is revealed to be Marsh, Kelsier's brother, though he seems to be fighting against his own nature and the control of whatever force commands the Inquisitors.",
+    "10": "The group learns more about atium and its crucial role in the unfolding events. They begin to understand that the metal is more than just a valuable resource—it's connected to the cosmic forces at war in their world.",
+    "11": "Vin's relationship with TenSoon develops as she begins to trust her new kandra companion. However, she remains unaware of his true identity and the deception he's maintaining about OreSeur's fate.",
+    "12": "Sazed's research into the prophecies reveals disturbing inconsistencies and contradictions. His growing doubt about his faith conflicts with his role as a scholar and advisor to Vin and Elend.",
+    "13": "The empire faces increasing challenges as more settlements struggle to survive. The mists grow more dangerous and unpredictable, staying longer each day and actively hunting people.",
+    "14": "Political tensions rise as different factions compete for control of resources and territory. Elend must balance his idealistic principles with the pragmatic needs of leadership in desperate times.",
+    "15": "Vin discovers she can walk safely in the deadly mists, unlike most people who die from exposure. This unique ability marks her as special and possibly connected to the ancient prophecies about the Hero of Ages.",
+    "16": "The group investigates reports of strange phenomena and growing dangers across the empire. They encounter evidence that the very nature of the world is changing in fundamental ways.",
+    "17": "TenSoon begins to show more personality and independence, though he remains bound by his Contract with Vin. His growing attachment to her conflicts with his duties and loyalty to the kandra Homeland.",
+    "18": "Marsh appears again, struggling against the control of Ruin while trying to help his former friends. His dual nature as both ally and potential threat creates tension and uncertainty.",
+    "19": "The political situation deteriorates further as resources become scarcer. Different groups compete desperately for survival, making cooperation and unity increasingly difficult to maintain.",
+    "20": "News arrives of Quellion's brutal reign in Urteau, where he's executing anyone with noble connections in the name of equality. The group realizes they must intervene to prevent a massacre, and Spook volunteers for this dangerous mission.",
+    "21": "Preparations are made for the mission to Urteau while the group grapples with increasingly desperate circumstances. The world continues to die around them as ash falls grow heavier and the mists become more dangerous.",
+    "22": "Spook arrives in Urteau and begins working to undermine Quellion's reign of terror. He discovers the depth of the Citizen's brutality and begins planning a rebellion, though mysterious voices guide him in concerning ways.",
+    "23": "The situation in Luthadel continues to deteriorate as the capital becomes increasingly difficult to defend and supply. More people flee the city, leaving behind only the most desperate or loyal citizens.",
+    "24": "Vin and Elend face difficult decisions about which settlements to help and which to abandon. Their resources are limited, and they can't save everyone, forcing them to make heartbreaking choices.",
+    "25": "Spook's rebellion in Urteau gains momentum, but his prolonged tin-burning has pushed his senses and sanity to dangerous limits. He meets Beldre, Quellion's sister, complicating his mission with personal feelings.",
+    "26": "The group discovers more about the atium caches hidden throughout the land by the Lord Ruler. These stockpiles of the precious metal appear to be part of some greater plan for humanity's survival.",
+    "27": "TenSoon's internal conflict deepens as his loyalty to Vin grows beyond the requirements of his Contract. He begins to question kandra law and the rigid system that has governed his people for centuries.",
+    "28": "TenSoon makes the revolutionary decision to break his Contract in order to help Vin, setting him on a path that will challenge the entire kandra social order. Meanwhile, Spook faces increasingly dangerous opposition in Urteau.",
+    "29": "The consequences of TenSoon's decision begin to unfold as he faces the possibility of punishment from the kandra Homeland. His choice represents a new kind of thinking about free will and loyalty among his people.",
+    "30": "Political and military pressures continue to mount as the empire struggles to maintain control. The group must make strategic decisions about where to focus their limited resources and attention.",
+    "31": "Sazed's crisis of faith deepens as he continues to find contradictions in every religion he studies. His loss of belief affects his ability to function and help others, even as his knowledge becomes more crucial.",
+    "32": "The kandra Homeland reacts to TenSoon's rebellion, with different generations taking various positions on his actions. Some see him as a dangerous revolutionary, while others begin to question their own rigid system.",
+    "33": "Intelligence gathering reveals more about the true scope of the threats facing the world. The group begins to understand that their local struggles are part of a much larger cosmic conflict.",
+    "34": "Resource management becomes increasingly critical as the empire tries to support multiple settlements with dwindling supplies. Difficult choices must be made about prioritizing aid and military support.",
+    "35": "Major revelations emerge about the true nature of Preservation and Ruin, the cosmic forces at war in the world. The group begins to understand that they're caught up in a conflict that has been building for centuries. Spook's mysterious voices are revealed to be supernatural in origin.",
+    "36": "The political situation becomes more complex as different factions pursue their own agendas for survival. Trust becomes a rare commodity as desperation drives people to increasingly extreme measures.",
+    "37": "Military challenges intensify as the empire faces threats from multiple directions. Strategic planning becomes crucial as resources and manpower are stretched to their limits.",
+    "38": "TenSoon faces judgment from the kandra Homeland for breaking his Contract. His trial becomes a catalyst for broader discussions about freedom, duty, and the right of individuals to choose their own path.",
+    "39": "The group discovers more evidence of the Lord Ruler's long-term planning and preparation for the current crisis. His apparent tyranny may have been part of a larger plan to preserve humanity.",
+    "40": "Spook's mission in Urteau reaches a critical point as he confronts both external enemies and internal corruption. His enhanced senses and mysterious guidance lead him into increasingly dangerous territory. The true nature of Ruin's influence becomes clearer.",
+    "41": "Coordination between different parts of the empire becomes increasingly difficult as communication breaks down and local leaders face immediate survival crises that prevent broader cooperation.",
+    "42": "TenSoon's influence spreads through kandra society as other kandra begin to question their traditional ways. The rigid caste system that has governed them for centuries starts to show cracks.",
+    "43": "The group faces increasingly difficult moral and strategic decisions as the world continues to die around them. Every choice carries the weight of lives that might be saved or lost.",
+    "44": "Intelligence about enemy movements and plans becomes crucial for survival. The group must balance the need for information with the dangers of reconnaissance in an increasingly hostile world.",
+    "45": "Major revelations about the ancient past emerge, including the true story of Alendi, Rashek, and the origins of the current conflict. The group begins to understand the cyclical nature of the struggle they're facing. TenSoon's revolution continues to spread.",
+    "46": "Strategic planning reaches a new level of complexity as the group tries to coordinate responses to multiple simultaneous crises. Resources must be allocated carefully to maximize their impact.",
+    "47": "The human cost of the ongoing crisis becomes increasingly apparent as more settlements fall and more people die. The weight of responsibility grows heavier on the leaders trying to save what they can.",
+    "48": "Leadership challenges intensify as different groups pursue conflicting strategies for survival. Unity becomes increasingly difficult to maintain in the face of desperate circumstances.",
+    "49": "The group uncovers more evidence of the Lord Ruler's preparations and begins to understand his true legacy. His reign of tyranny may have been the price of humanity's future survival.",
+    "50": "Major breakthroughs in understanding the cosmic conflict emerge as the true nature of the atium caches and their purpose is revealed. The group begins to see how all the pieces fit together. Spook completes his mission in Urteau, overcoming Quellion's tyranny.",
+    "51": "The pace of events accelerates as multiple crisis points converge. The group must make rapid decisions with incomplete information while the stakes continue to rise.",
+    "52": "Political reconciliation becomes necessary as former enemies must work together for mutual survival. Old grudges and conflicts become luxuries that no one can afford in the face of extinction.",
+    "53": "Military coordination improves as different forces learn to work together effectively. The lessons of previous battles help inform new strategies for survival and resistance.",
+    "54": "The group discovers more about the underground storage sites and preservation efforts that were put in place for humanity's survival. These revelations change their understanding of what's possible.",
+    "55": "Critical revelations about the true nature of the Hero of Ages prophecies emerge. The group realizes that much of what they believed about the ancient predictions was wrong, and the real truth is far more complex and dangerous.",
+    "56": "The final phases of preparation begin as the group realizes the ultimate confrontation is approaching. Every decision now carries the weight of the world's fate.",
+    "57": "Coordination between all remaining forces becomes crucial as the final battle approaches. Old allies and new partners must work together despite their differences and mutual suspicions.",
+    "58": "The last preparations are made as everyone realizes that the time for half-measures and compromise has ended. The final confrontation will determine whether the world survives or falls to entropy.",
+    "59": "The journey to the final confrontation begins as all remaining forces mobilize for what may be the last battle. Everyone understands that failure means not just death, but the end of everything.",
+    "60": "The group arrives at Fadrex City, where Yomen controls one of the crucial atium caches. The former obligator's rule and his hoarding of the precious metal make him both an obstacle and a necessary ally in the final battle against Ruin.",
+    "61": "Negotiations with Yomen prove difficult as his religious devotion and suspicion of outsiders conflict with the desperate need for cooperation. The group must find a way to work with him or overcome his resistance.",
+    "62": "The siege of Fadrex City begins as multiple forces converge on the location. The atium cache within the city becomes the focal point of a complex military and political conflict.",
+    "63": "Urban warfare erupts in Fadrex City as different factions fight for control of the atium. The battle becomes a microcosm of the larger conflict between preservation and destruction.",
+    "64": "The true complexity of the situation in Fadrex City emerges as hidden agendas and secret alliances are revealed. What seemed like a straightforward mission becomes a multi-layered conflict.",
+    "65": "Vin's growing connection to Preservation becomes more apparent as her powers increase and her understanding of the cosmic conflict deepens. She begins to realize the price that saving the world might require.",
+    "66": "The battle for Fadrex City reaches new levels of intensity as Steel Inquisitors and other supernatural forces join the conflict. The ordinary rules of warfare no longer apply.",
+    "67": "Strategic breakthroughs emerge as the group finds new ways to fight their supernatural enemies. Innovation and adaptation become crucial for survival against increasingly powerful foes.",
+    "68": "Yomen is revealed to be a Mistborn, having gained his powers through unknown means. His religious fervor combined with Allomantic abilities makes him a formidable and unpredictable opponent in the struggle for the atium cache.",
+    "69": "The political situation in Fadrex City becomes even more complex as various factions pursue their own agendas. Trust becomes impossible when everyone has secrets and conflicting loyalties.",
+    "70": "The final confrontation in Fadrex City approaches as all the various forces prepare for a decisive battle. The outcome will determine not just control of the atium, but the fate of the entire world.",
+    "71": "Vin's transformation accelerates as she takes on more of Preservation's power. Her growing divine nature changes her relationships and her understanding of what must be done to save the world.",
+    "72": "The last obstacles to the final battle are cleared away as remaining political and military complications are resolved. Everyone understands that the ultimate test is about to begin.",
+    "73": "Final preparations are completed as all forces move into position for the climactic confrontation. The world holds its breath as the battle between preservation and destruction approaches.",
+    "74": "The ultimate battle begins as cosmic forces clash through their human agents. The conflict transcends ordinary warfare as the very nature of reality becomes the battleground.",
+    "75": "Vin fully accepts her role as Preservation's vessel, understanding that she must sacrifice herself to save the world from Ruin's destruction. Her decision represents the ultimate act of love and preservation, choosing the world's survival over her own life.",
+    "76": "The battle between Preservation and Ruin reaches its climax as Vin and the cosmic forces of destruction clash. The fate of all existence hangs in the balance as powers beyond mortal comprehension wage war.",
+    "77": "The consequences of the cosmic battle ripple through the world as the conflict between opposing forces reaches its resolution. Those who survive witness the transformation of everything they thought they understood.",
+    "78": "Marsh faces his final choice between the corruption that has claimed him and the humanity he still retains. His decision proves that even the most far-gone can find redemption when it matters most, as he fights against Ruin in the ultimate battle.",
+    "79": "The world transforms as the battle between cosmic forces concludes. Survivors witness the birth of something new from the ashes of the old world, though the cost has been almost unbearable.",
+    "80": "The immediate aftermath of the cosmic conflict reveals both the price paid and the hope that remains. Those who survive must come to terms with loss while embracing the possibility of a new beginning.",
+    "81": "The world begins to heal and change as new forces shape reality. Survivors start to understand what they've gained and lost in the cosmic struggle, and what their future might hold.",
+    "82": "Sazed takes up both Preservation and Ruin's power, becoming Harmony—a force that balances opposing principles. His transformation represents hope for a better future as he guides the world toward healing and growth, creating a new age of balance and possibility."
+  }
+}
