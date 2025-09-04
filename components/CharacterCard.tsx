@@ -74,22 +74,22 @@ export default function CharacterCard({ character }: CharacterCardProps) {
       >
         {/* Header section - always visible with consistent height */}
         <div className="mb-4">
-          <h3 className="text-lg sm:text-xl font-heading font-bold text-parchment-primary leading-tight mb-1.5">
+          <h3 className="text-xl sm:text-2xl font-heading font-bold text-parchment-primary leading-tight mb-1.5">
             {character.name}
           </h3>
           {/* Role info - styled like aliases */}
-          <p className="text-xs sm:text-sm text-parchment-secondary italic">
+          <p className="text-sm sm:text-base text-parchment-secondary italic">
             {character.role}
           </p>
           {/* Always reserve space for aliases - either show them or empty space */}
           {character.aliases && character.aliases.length > 0 && (
             <div>
               {!isExpanded ? (
-                <p className="text-xs sm:text-sm text-parchment-secondary italic truncate">
+                <p className="text-sm sm:text-base text-parchment-secondary italic truncate">
                   {truncateAliases(character.aliases)}
                 </p>
               ) : (
-                <p className="text-sm text-parchment-secondary italic">
+                <p className="text-sm sm:text-base text-parchment-secondary italic">
                   Also known as: {character.aliases.join(', ')}
                 </p>
               )}
@@ -98,8 +98,8 @@ export default function CharacterCard({ character }: CharacterCardProps) {
         </div>
         
         {/* Description - abbreviated or full with consistent height */}
-        <div className={`mb-2 ${!isExpanded ? 'min-h-[3rem]' : ''}`}>
-          <p className="text-sm sm:text-base text-parchment-primary text-readable leading-snug">
+        <div className={`mb-2 ${!isExpanded ? 'min-h-[3.5rem]' : ''}`}>
+          <p className="text-base sm:text-lg text-parchment-primary text-readable leading-relaxed">
             {isExpanded ? character.description : truncateDescription(character.description)}
           </p>
         </div>
@@ -108,7 +108,7 @@ export default function CharacterCard({ character }: CharacterCardProps) {
         {isExpanded && (
           <div className="space-y-4 transition-all duration-200 ease-in-out">
             {/* First seen info - now only in expanded view */}
-            <div className="text-xs text-parchment-secondary border-t border-stone-300 pt-3">
+            <div className="text-sm text-parchment-secondary border-t border-stone-300 pt-3">
               <span className="font-medium">First seen: Chapter {character.firstAppearance}</span>
               {character.lastUpdate > character.firstAppearance && (
                 <span className="ml-3 font-medium">Updated: Chapter {character.lastUpdate}</span>
@@ -118,8 +118,8 @@ export default function CharacterCard({ character }: CharacterCardProps) {
             {/* Relationships section with improved formatting */}
             {character.relationships && Object.keys(character.relationships).length > 0 && (
               <div className="border-t border-stone-300 pt-4">
-                <h4 className="text-sm font-heading font-semibold mb-2 text-parchment-primary">Relationships:</h4>
-                <div className="text-sm space-y-1.5">
+                <h4 className="text-base font-heading font-semibold mb-2 text-parchment-primary">Relationships:</h4>
+                <div className="text-base space-y-1.5">
                   {Object.entries(character.relationships).map(([person, relation]) => (
                     <div key={person} className="flex items-start">
                       <span className="text-stone-500 mr-2">•</span>
@@ -134,7 +134,7 @@ export default function CharacterCard({ character }: CharacterCardProps) {
             
             {/* Footer with chapter info - Enhanced with appearances */}
             {character.allAppearances && character.allAppearances.length > 0 && (
-              <div className="border-t border-stone-300 pt-3 text-xs text-parchment-secondary">
+              <div className="border-t border-stone-300 pt-3 text-sm text-parchment-secondary">
                 <span className="text-stone-600">
                   Appears in chapters: {formatAppearances(character.allAppearances)}
                 </span>
@@ -145,7 +145,7 @@ export default function CharacterCard({ character }: CharacterCardProps) {
             <div className="flex items-center justify-center pt-2">
               <button 
                 type="button"
-                className="flex items-center gap-1 text-xs sm:text-sm font-medium text-amber-700 select-none whitespace-nowrap hover:text-amber-600 transition-colors"
+                className="flex items-center gap-1 text-sm sm:text-base font-medium text-amber-700 select-none whitespace-nowrap hover:text-amber-600 transition-colors"
                 onClick={(e) => {
                   e.stopPropagation();
                   setIsExpanded(false);
@@ -170,7 +170,7 @@ export default function CharacterCard({ character }: CharacterCardProps) {
           <div className="flex items-center justify-center">
             <button 
               type="button"
-              className="flex items-center gap-1 text-xs sm:text-sm font-medium text-amber-700 select-none whitespace-nowrap hover:text-amber-600 transition-colors"
+              className="flex items-center gap-1 text-sm sm:text-base font-medium text-amber-700 select-none whitespace-nowrap hover:text-amber-600 transition-colors"
               onClick={(e) => {
                 e.stopPropagation();
                 setIsExpanded(!isExpanded);
