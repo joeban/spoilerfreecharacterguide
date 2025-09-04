@@ -113,11 +113,11 @@
       "knowledge": {
         "2": {
           "revealedIn": 2,
-          "description": "A princess turned bandit, born under the Curse of the Black Sun. Prophesied to bring calamity, she was hunted by the wizard Stregobor. Dies in Blaviken.",
+          "description": "A princess turned bandit, born under the Curse of the Black Sun. Prophesied to bring calamity, she was hunted by the wizard Stregobor. Leader of a band of outlaws.",
           "role": "Cursed princess and bandit leader",
           "relationships": {
             "Stregobor": "Hunted by",
-            "Geralt": "Killed by",
+            "Geralt": "Confronts",
             "Her band": "Leader of"
           }
         }
@@ -210,11 +210,11 @@
       "knowledge": {
         "4": {
           "revealedIn": 4,
-          "description": "A bruxa (a type of vampire) who genuinely loves Nivellen despite his curse. Her death at Geralt's hands breaks Nivellen's curse.",
+          "description": "A bruxa (a type of vampire) who genuinely loves Nivellen despite his curse. Has a complex relationship with the cursed nobleman.",
           "role": "Bruxa (vampire)",
           "relationships": {
             "Nivellen": "Loves",
-            "Geralt": "Killed by"
+            "Geralt": "Confronts"
           }
         }
       }
@@ -436,11 +436,11 @@
       "knowledge": {
         "2": {
           "revealedIn": 2,
-          "description": "A crossbow-wielding member of Renfri's band. Killed by Geralt during the Blaviken massacre.",
+          "description": "A crossbow-wielding member of Renfri's band. Participates in the Blaviken confrontation.",
           "role": "Bandit archer",
           "relationships": {
             "Renfri": "Member of band",
-            "Geralt": "Killed by"
+            "Geralt": "Confronts"
           }
         }
       }
@@ -452,11 +452,11 @@
       "knowledge": {
         "2": {
           "revealedIn": 2,
-          "description": "Another member of Renfri's criminal band who dies in the Blaviken confrontation.",
+          "description": "Another member of Renfri's criminal band involved in the Blaviken confrontation.",
           "role": "Bandit",
           "relationships": {
             "Renfri": "Loyal follower",
-            "Geralt": "Killed by"
+            "Geralt": "Confronts"
           }
         }
       }
@@ -920,7 +920,7 @@
           "description": "A girl from Creyden who was also born under the Curse of the Black Sun and hunted by Stregobor.",
           "role": "Cursed victim",
           "relationships": {
-            "Stregobor": "Killed by",
+            "Stregobor": "Victim of",
             "Renfri": "Fellow Black Sun victim"
           }
         }
@@ -1000,7 +1000,7 @@
           "description": "A witcher mentioned as having attempted to deal with the striga before Geralt. Failed and was killed.",
           "role": "Dead witcher",
           "relationships": {
-            "Princess Adda (striga)": "Killed by",
+            "Princess Adda (striga)": "Failed to cure",
             "Geralt": "Predecessor in striga contract"
           }
         }
