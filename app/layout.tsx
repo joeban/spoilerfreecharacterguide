@@ -147,16 +147,12 @@ export default function RootLayout({
                            border: '1px solid #1a1511'
                          }} />
                     
-                    {/* Logo-style title with medieval flourishes */}
+                    {/* Logo-style title */}
                     <div className="text-center relative">
                       <div className="relative inline-block">
-                        {/* Ornamental brackets around the title */}
-                        <div className="absolute -left-8 top-1/2 -translate-y-1/2 text-amber-600/70 text-2xl font-display">⟬</div>
-                        <div className="absolute -right-8 top-1/2 -translate-y-1/2 text-amber-600/70 text-2xl font-display">⟭</div>
-                        
                         <h1 className="font-display tavern-sign-text">
-                          <span className="block text-4xl md:text-5xl lg:text-6xl font-black" style={{ letterSpacing: '0.01em', marginBottom: '0.25rem' }}>SPOILER-FREE</span>
-                          <span className="block text-2xl md:text-3xl lg:text-4xl font-bold tracking-wider">CHARACTER GUIDE</span>
+                          <span className="block text-5xl md:text-6xl lg:text-7xl font-black" style={{ letterSpacing: '0.01em', marginBottom: '0.35rem' }}>SPOILER-FREE</span>
+                          <span className="block text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider">CHARACTER GUIDE</span>
                         </h1>
                       </div>
                     </div>
