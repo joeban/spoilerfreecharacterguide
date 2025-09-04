@@ -1550,6 +1550,1467 @@
           }
         }
       }
+    },
+    "military-instructor": {
+      "name": "Military Instructor",
+      "aliases": ["Drill Sergeant"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Stern military instructor at Westover Hall who maintains discipline among the cadets.",
+          "role": "Military academy instructor",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Students": "Military cadets"
+          }
+        }
+      }
+    },
+    "cadet-thompson": {
+      "name": "Cadet Thompson",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A military cadet at Westover Hall attending the school dance.",
+          "role": "Military school student",
+          "relationships": {
+            "School": "Westover Hall",
+            "Status": "Military cadet"
+          }
+        }
+      }
+    },
+    "cadet-rodriguez": {
+      "name": "Cadet Rodriguez",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A military cadet at Westover Hall present at the school dance.",
+          "role": "Military school student",
+          "relationships": {
+            "School": "Westover Hall",
+            "Status": "Military cadet"
+          }
+        }
+      }
+    },
+    "dance-chaperone-1": {
+      "name": "Mrs. Henderson",
+      "aliases": ["Dance Chaperone"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Teacher at Westover Hall serving as chaperone for the school dance.",
+          "role": "Teacher and dance chaperone",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Event": "School dance"
+          }
+        }
+      }
+    },
+    "dance-chaperone-2": {
+      "name": "Mr. Williams",
+      "aliases": ["Math Teacher"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mathematics teacher at Westover Hall helping supervise the school dance.",
+          "role": "Math teacher and chaperone",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Subject": "Mathematics"
+          }
+        }
+      }
+    },
+    "kitchen-staff": {
+      "name": "Kitchen Staff",
+      "aliases": ["Cafeteria Workers"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Food service workers at Westover Hall who prepared refreshments for the dance.",
+          "role": "School food service staff",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Event": "School dance"
+          }
+        }
+      }
+    },
+    "maintenance-worker": {
+      "name": "Maintenance Worker",
+      "aliases": ["Janitor Joe"],
+      "appearances": [1, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "School maintenance worker who keeps Westover Hall clean and secure.",
+          "role": "School maintenance staff",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Responsibility": "Building maintenance"
+          }
+        }
+      }
+    },
+    "cadet-johnson": {
+      "name": "Cadet Johnson",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the military cadets at Westover Hall participating in the dance.",
+          "role": "Military academy student",
+          "relationships": {
+            "School": "Westover Hall",
+            "Rank": "Cadet"
+          }
+        }
+      }
+    },
+    "cadet-smith": {
+      "name": "Cadet Smith",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Military cadet at Westover Hall who attended the school dance.",
+          "role": "Student cadet",
+          "relationships": {
+            "School": "Westover Hall",
+            "Training": "Military discipline"
+          }
+        }
+      }
+    },
+    "headmaster": {
+      "name": "Headmaster Davidson",
+      "aliases": ["The Headmaster"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The headmaster of Westover Hall military academy, responsible for school administration.",
+          "role": "School headmaster",
+          "relationships": {
+            "School": "Westover Hall",
+            "Authority over": "Dr. Thorn"
+          }
+        }
+      }
+    },
+    "history-teacher": {
+      "name": "Professor Mitchell",
+      "aliases": ["History Professor"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "History teacher at Westover Hall who teaches about military history and strategy.",
+          "role": "History instructor",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Subject": "Military history"
+          }
+        }
+      }
+    },
+    "librarian": {
+      "name": "Ms. Patterson",
+      "aliases": ["School Librarian"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "School librarian at Westover Hall who manages the academy's library resources.",
+          "role": "School librarian",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Responsibility": "Library management"
+          }
+        }
+      }
+    },
+    "nurse": {
+      "name": "Nurse Collins",
+      "aliases": ["School Nurse"],
+      "appearances": [1, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Medical nurse at Westover Hall who tends to student injuries and health needs.",
+          "role": "School medical staff",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Patients": "Students and staff"
+          }
+        }
+      }
+    },
+    "cadet-martinez": {
+      "name": "Cadet Martinez",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Military cadet at Westover Hall who witnessed the strange events at the dance.",
+          "role": "Student witness",
+          "relationships": {
+            "School": "Westover Hall",
+            "Witnessed": "Supernatural events"
+          }
+        }
+      }
+    },
+    "cadet-brooks": {
+      "name": "Cadet Brooks",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the younger cadets at Westover Hall attending his first school dance.",
+          "role": "Junior cadet",
+          "relationships": {
+            "School": "Westover Hall",
+            "Status": "New student"
+          }
+        }
+      }
+    },
+    "dorm-supervisor": {
+      "name": "Sergeant Murphy",
+      "aliases": ["Dorm Supervisor"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Former military officer who supervises the dormitories at Westover Hall.",
+          "role": "Dormitory supervisor",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Supervised": "Student dormitories"
+          }
+        }
+      }
+    },
+    "secretary": {
+      "name": "Mrs. Foster",
+      "aliases": ["School Secretary"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Administrative secretary at Westover Hall who handles school correspondence and records.",
+          "role": "Administrative assistant",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Reports to": "Headmaster Davidson"
+          }
+        }
+      }
+    },
+    "groundskeeper": {
+      "name": "Old Pete",
+      "aliases": ["Groundskeeper Pete"],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Elderly groundskeeper at Westover Hall who maintains the school's outdoor areas.",
+          "role": "School groundskeeper",
+          "relationships": {
+            "Workplace": "Westover Hall",
+            "Responsibility": "Grounds maintenance"
+          }
+        }
+      }
+    },
+    "hunter-atlanta": {
+      "name": "Atlanta",
+      "aliases": ["Swift Hunter"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "One of Artemis's hunters who arrives with Zoë to fight Dr. Thorn. Known for her incredible speed.",
+          "role": "Swift huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Sisters": "Hunters of Artemis"
+          }
+        }
+      }
+    },
+    "hunter-daphne": {
+      "name": "Daphne",
+      "aliases": ["Tree Sister"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Hunter of Artemis skilled with a bow, part of Zoë's rescue team at Westover Hall.",
+          "role": "Archer huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Sisters": "Hunters of Artemis"
+          }
+        }
+      }
+    },
+    "hunter-naomi": {
+      "name": "Naomi",
+      "aliases": ["Night Hunter"],
+      "appearances": [3, 4, 5, 20],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Young hunter of Artemis who specializes in night combat and stealth operations.",
+          "role": "Stealth huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "New sister": "Bianca di Angelo"
+          }
+        }
+      }
+    },
+    "hunter-chloe": {
+      "name": "Chloe",
+      "aliases": ["Young Hunter"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "One of the younger hunters of Artemis who helps train new recruits like Bianca.",
+          "role": "Hunter trainer",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Trainee": "Bianca di Angelo"
+          }
+        }
+      }
+    },
+    "hunter-mary": {
+      "name": "Mary",
+      "aliases": ["Ancient Hunter"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "One of the oldest hunters of Artemis, second only to Zoë in experience and wisdom.",
+          "role": "Elder huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Sisters": "Hunters of Artemis"
+          }
+        }
+      }
+    },
+    "hunter-kate": {
+      "name": "Kate",
+      "aliases": ["Wild Hunter"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Hunter of Artemis known for her fierce temperament and skill with wild animals.",
+          "role": "Beast tamer huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Companions": "Wild animals"
+          }
+        }
+      }
+    },
+    "hunter-sarah": {
+      "name": "Sarah",
+      "aliases": ["Silver Arrow"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Skilled archer among the hunters who specializes in silver arrows blessed by Artemis.",
+          "role": "Master archer",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Weapon specialty": "Silver arrows"
+          }
+        }
+      }
+    },
+    "hunter-elena": {
+      "name": "Elena",
+      "aliases": ["Moon Daughter"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Hunter of Artemis who joined during a full moon ceremony centuries ago.",
+          "role": "Moon ceremony huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Ceremony": "Full moon joining"
+          }
+        }
+      }
+    },
+    "hunter-diana": {
+      "name": "Diana",
+      "aliases": ["Roman Hunter"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Hunter who joined Artemis during the Roman era, bringing knowledge of Roman hunting techniques.",
+          "role": "Roman-era huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Origin": "Roman Empire"
+          }
+        }
+      }
+    },
+    "hunter-artemisia": {
+      "name": "Artemisia",
+      "aliases": ["Greek Hunter"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Ancient Greek hunter who has served Artemis since classical times.",
+          "role": "Ancient Greek huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Era": "Classical Greece"
+          }
+        }
+      }
+    },
+    "hunter-julia": {
+      "name": "Julia",
+      "aliases": ["Modern Hunter"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "One of the more recently recruited hunters, joined within the last century.",
+          "role": "Modern era huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "New sister": "Thalia Grace"
+          }
+        }
+      }
+    },
+    "hunter-luna": {
+      "name": "Luna",
+      "aliases": ["Moonlight Hunter"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Hunter of Artemis who specializes in moonlight combat and lunar magic.",
+          "role": "Lunar magic huntress",
+          "relationships": {
+            "Leader": "Artemis",
+            "Power source": "Moon magic",
+            "Sisters": "Hunters of Artemis"
+          }
+        }
+      }
+    },
+    "hunter-amber": {
+      "name": "Amber",
+      "aliases": ["Forest Hunter"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Hunter specializing in forest warfare and woodland tracking.",
+          "role": "Forest specialist",
+          "relationships": {
+            "Leader": "Artemis",
+            "Lieutenant": "Zoë Nightshade",
+            "Environment": "Forests and woodlands"
+          }
+        }
+      }
+    },
+    "clarisse-la-rue": {
+      "name": "Clarisse La Rue",
+      "aliases": ["Daughter of Ares"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Daughter of Ares and head counselor of the Ares cabin at Camp Half-Blood.",
+          "role": "Ares cabin leader",
+          "relationships": {
+            "Father": "Ares",
+            "Rival": "Percy Jackson",
+            "Camp": "Camp Half-Blood"
+          }
+        }
+      }
+    },
+    "connor-stoll": {
+      "name": "Connor Stoll",
+      "aliases": ["Hermes Prankster"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Hermes and one of the Stoll brothers known for their pranks and thievery.",
+          "role": "Hermes cabin prankster",
+          "relationships": {
+            "Father": "Hermes",
+            "Brother": "Travis Stoll",
+            "Cabin": "Hermes cabin"
+          }
+        }
+      }
+    },
+    "travis-stoll": {
+      "name": "Travis Stoll",
+      "aliases": ["Head Prankster"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Hermes and head counselor of the Hermes cabin, known for leading pranks.",
+          "role": "Hermes cabin leader",
+          "relationships": {
+            "Father": "Hermes",
+            "Brother": "Connor Stoll",
+            "Cabin": "Hermes cabin"
+          }
+        }
+      }
+    },
+    "lee-fletcher": {
+      "name": "Lee Fletcher",
+      "aliases": ["Apollo's Archer"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Apollo and head counselor of the Apollo cabin, skilled archer and healer.",
+          "role": "Apollo cabin leader",
+          "relationships": {
+            "Father": "Apollo",
+            "Cabin": "Apollo cabin",
+            "Skill": "Archery and healing"
+          }
+        }
+      }
+    },
+    "beckendorf": {
+      "name": "Charles Beckendorf",
+      "aliases": ["Beckendorf"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Hephaestus and head counselor of the Hephaestus cabin, expert metalworker.",
+          "role": "Hephaestus cabin leader",
+          "relationships": {
+            "Father": "Hephaestus",
+            "Cabin": "Hephaestus cabin",
+            "Specialty": "Metalworking"
+          }
+        }
+      }
+    },
+    "katie-gardner": {
+      "name": "Katie Gardner",
+      "aliases": ["Plant Girl"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Daughter of Demeter and head counselor of the Demeter cabin, expert with plants.",
+          "role": "Demeter cabin leader",
+          "relationships": {
+            "Mother": "Demeter",
+            "Cabin": "Demeter cabin",
+            "Specialty": "Plant magic"
+          }
+        }
+      }
+    },
+    "silena-beauregard": {
+      "name": "Silena Beauregard",
+      "aliases": ["Beauty Queen"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Daughter of Aphrodite and head counselor of the Aphrodite cabin.",
+          "role": "Aphrodite cabin leader",
+          "relationships": {
+            "Mother": "Aphrodite",
+            "Boyfriend": "Charles Beckendorf",
+            "Cabin": "Aphrodite cabin"
+          }
+        }
+      }
+    },
+    "malcolm-pace": {
+      "name": "Malcolm Pace",
+      "aliases": ["Athena Strategist"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Athena and temporary head counselor while Annabeth is missing.",
+          "role": "Temporary Athena cabin leader",
+          "relationships": {
+            "Mother": "Athena",
+            "Half-sister": "Annabeth Chase",
+            "Cabin": "Athena cabin"
+          }
+        }
+      }
+    },
+    "castor": {
+      "name": "Castor",
+      "aliases": ["Dionysus Twin"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Dionysus and twin brother of Pollux, head counselor of Dionysus cabin.",
+          "role": "Dionysus cabin leader",
+          "relationships": {
+            "Father": "Dionysus",
+            "Twin brother": "Pollux",
+            "Cabin": "Dionysus cabin"
+          }
+        }
+      }
+    },
+    "pollux": {
+      "name": "Pollux",
+      "aliases": ["Wine Twin"],
+      "appearances": [4, 5, 20],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Dionysus and twin brother of Castor, skilled with vine magic.",
+          "role": "Dionysus cabin member",
+          "relationships": {
+            "Father": "Dionysus",
+            "Twin brother": "Castor",
+            "Specialty": "Vine magic"
+          }
+        }
+      }
+    },
+    "new-camper-alex": {
+      "name": "Alex Thompson",
+      "aliases": ["New Kid"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Recently arrived half-blood who hasn't been claimed by a godly parent yet.",
+          "role": "Unclaimed new camper",
+          "relationships": {
+            "Cabin": "Hermes cabin",
+            "Status": "Unclaimed",
+            "Arrival": "Recent"
+          }
+        }
+      }
+    },
+    "new-camper-maria": {
+      "name": "Maria Santos",
+      "aliases": ["Scared Newbie"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Frightened new arrival at Camp Half-Blood who witnessed monster attacks.",
+          "role": "Traumatized new camper",
+          "relationships": {
+            "Protector": "Grover Underwood",
+            "Cabin": "Hermes cabin",
+            "Status": "New arrival"
+          }
+        }
+      }
+    },
+    "new-camper-david": {
+      "name": "David Kim",
+      "aliases": ["Tech Kid"],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "New camper who arrived with electronic gadgets that keep malfunctioning.",
+          "role": "Technology-confused camper",
+          "relationships": {
+            "Problem": "Electronics malfunction",
+            "Cabin": "Hermes cabin",
+            "Helper": "Beckendorf"
+          }
+        }
+      }
+    },
+    "cabin-9-camper": {
+      "name": "Jake Mason",
+      "aliases": ["Junior Mechanic"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Hephaestus working under Beckendorf in the forges.",
+          "role": "Hephaestus cabin member",
+          "relationships": {
+            "Father": "Hephaestus",
+            "Mentor": "Charles Beckendorf",
+            "Workplace": "Camp forges"
+          }
+        }
+      }
+    },
+    "cabin-7-camper": {
+      "name": "Michael Yew",
+      "aliases": ["Tiny Archer"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Small son of Apollo with exceptional archery skills despite his size.",
+          "role": "Apollo cabin archer",
+          "relationships": {
+            "Father": "Apollo",
+            "Head counselor": "Lee Fletcher",
+            "Specialty": "Precise archery"
+          }
+        }
+      }
+    },
+    "cabin-6-camper": {
+      "name": "Brent",
+      "aliases": ["Strategy Junior"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Athena studying under Malcolm while Annabeth is missing.",
+          "role": "Athena cabin strategist",
+          "relationships": {
+            "Mother": "Athena",
+            "Half-brother": "Malcolm Pace",
+            "Missing sister": "Annabeth Chase"
+          }
+        }
+      }
+    },
+    "cabin-10-camper": {
+      "name": "Drew Tanaka",
+      "aliases": ["Mean Girl"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Daughter of Aphrodite with a mean streak and powerful charmspeak abilities.",
+          "role": "Aphrodite cabin member",
+          "relationships": {
+            "Mother": "Aphrodite",
+            "Head counselor": "Silena Beauregard",
+            "Power": "Charmspeak"
+          }
+        }
+      }
+    },
+    "cabin-4-camper": {
+      "name": "Miranda Gardiner",
+      "aliases": ["Plant Helper"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Daughter of Demeter who helps Katie with the strawberry fields.",
+          "role": "Demeter cabin member",
+          "relationships": {
+            "Mother": "Demeter",
+            "Head counselor": "Katie Gardner",
+            "Work area": "Strawberry fields"
+          }
+        }
+      }
+    },
+    "museum-guard-1": {
+      "name": "Security Guard Johnson",
+      "aliases": ["Museum Security"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Security guard at the Natural History Museum in Washington D.C. who patrols the exhibits.",
+          "role": "Museum security officer",
+          "relationships": {
+            "Workplace": "Natural History Museum",
+            "City": "Washington D.C.",
+            "Affected by": "The Mist"
+          }
+        }
+      }
+    },
+    "museum-guard-2": {
+      "name": "Officer Martinez",
+      "aliases": ["Night Guard"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Night security guard at the museum who investigates strange noises and disturbances.",
+          "role": "Night security guard",
+          "relationships": {
+            "Workplace": "Natural History Museum",
+            "Partner": "Security Guard Johnson",
+            "Duty": "Night patrol"
+          }
+        }
+      }
+    },
+    "museum-curator": {
+      "name": "Dr. Rebecca Stone",
+      "aliases": ["Curator"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Museum curator specializing in ancient Greek and Roman artifacts.",
+          "role": "Museum curator",
+          "relationships": {
+            "Workplace": "Natural History Museum",
+            "Specialty": "Ancient artifacts",
+            "Knowledge": "Greek mythology"
+          }
+        }
+      }
+    },
+    "tour-guide": {
+      "name": "Jennifer Walsh",
+      "aliases": ["Museum Guide"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Enthusiastic museum tour guide who leads school groups through exhibits.",
+          "role": "Museum tour guide",
+          "relationships": {
+            "Workplace": "Natural History Museum",
+            "Groups": "School field trips",
+            "Specialty": "Educational tours"
+          }
+        }
+      }
+    },
+    "museum-visitor-1": {
+      "name": "Tourist Family Father",
+      "aliases": ["Dad with Camera"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Tourist father visiting the museum with his family, taking photos of exhibits.",
+          "role": "Museum visitor",
+          "relationships": {
+            "Family": "Wife and children",
+            "Activity": "Sightseeing",
+            "Location": "Washington D.C."
+          }
+        }
+      }
+    },
+    "museum-visitor-2": {
+      "name": "Tourist Family Mother",
+      "aliases": ["Mom with Map"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Tourist mother trying to navigate the museum with a map and brochure.",
+          "role": "Museum visitor",
+          "relationships": {
+            "Family": "Husband and children",
+            "Activity": "Navigation and planning",
+            "Tool": "Museum map"
+          }
+        }
+      }
+    },
+    "school-teacher": {
+      "name": "Ms. Rodriguez",
+      "aliases": ["Field Trip Teacher"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Elementary school teacher leading a field trip to the museum.",
+          "role": "Field trip supervisor",
+          "relationships": {
+            "Students": "Elementary class",
+            "Activity": "Educational field trip",
+            "Responsibility": "Student supervision"
+          }
+        }
+      }
+    },
+    "student-group": {
+      "name": "Elementary Students",
+      "aliases": ["Field Trip Kids"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Group of elementary school children on a museum field trip, excited about dinosaurs.",
+          "role": "Museum visitors",
+          "relationships": {
+            "Teacher": "Ms. Rodriguez",
+            "Interest": "Dinosaur exhibits",
+            "Activity": "Learning tour"
+          }
+        }
+      }
+    },
+    "maintenance-man": {
+      "name": "Carl",
+      "aliases": ["Museum Janitor"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Museum maintenance worker who cleans exhibits and handles minor repairs.",
+          "role": "Museum maintenance",
+          "relationships": {
+            "Workplace": "Natural History Museum",
+            "Shift": "Day maintenance",
+            "Duties": "Cleaning and repairs"
+          }
+        }
+      }
+    },
+    "cloudcroft-sheriff": {
+      "name": "Sheriff Williams",
+      "aliases": ["Local Sheriff"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Local sheriff in Cloudcroft, New Mexico who investigates strange reports.",
+          "role": "Law enforcement officer",
+          "relationships": {
+            "Location": "Cloudcroft, New Mexico",
+            "Responsibility": "Local law enforcement",
+            "Affected by": "The Mist"
+          }
+        }
+      }
+    },
+    "diner-waitress": {
+      "name": "Betty",
+      "aliases": ["Diner Betty"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Friendly waitress at a local diner in Cloudcroft who serves travelers.",
+          "role": "Diner waitress",
+          "relationships": {
+            "Workplace": "Local diner",
+            "Location": "Cloudcroft, New Mexico",
+            "Customers": "Travelers and locals"
+          }
+        }
+      }
+    },
+    "gas-station-owner": {
+      "name": "Joe Martinez",
+      "aliases": ["Gas Station Joe"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Owner of the local gas station in Cloudcroft who notices unusual travelers.",
+          "role": "Gas station owner",
+          "relationships": {
+            "Business": "Local gas station",
+            "Location": "Cloudcroft, New Mexico",
+            "Customers": "Quest group"
+          }
+        }
+      }
+    },
+    "motel-clerk": {
+      "name": "Nancy Thompson",
+      "aliases": ["Motel Lady"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Clerk at a roadside motel who checks in weary travelers.",
+          "role": "Motel desk clerk",
+          "relationships": {
+            "Workplace": "Roadside motel",
+            "Location": "Cloudcroft area",
+            "Service": "Lodging check-in"
+          }
+        }
+      }
+    },
+    "local-rancher": {
+      "name": "Bill Rodriguez",
+      "aliases": ["Cattle Rancher"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Local cattle rancher who reports strange animal behavior to authorities.",
+          "role": "Cattle rancher",
+          "relationships": {
+            "Location": "New Mexico ranch",
+            "Livestock": "Cattle herd",
+            "Reports to": "Sheriff Williams"
+          }
+        }
+      }
+    },
+    "store-owner": {
+      "name": "Maria Gonzalez",
+      "aliases": ["Store Lady"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Owner of a small general store who sells supplies to travelers.",
+          "role": "General store owner",
+          "relationships": {
+            "Business": "General store",
+            "Location": "Cloudcroft, New Mexico",
+            "Customers": "Local residents and travelers"
+          }
+        }
+      }
+    },
+    "mechanic": {
+      "name": "Tommy",
+      "aliases": ["Car Mechanic"],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Local mechanic who fixes vehicles and reports seeing strange things.",
+          "role": "Auto mechanic",
+          "relationships": {
+            "Shop": "Auto repair garage",
+            "Location": "New Mexico",
+            "Witnessed": "Unusual vehicles"
+          }
+        }
+      }
+    },
+    "truck-driver": {
+      "name": "Big Jim",
+      "aliases": ["Trucker Jim"],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Long-haul truck driver who gives Percy and Nico a ride.",
+          "role": "Truck driver",
+          "relationships": {
+            "Passengers": "Percy Jackson",
+            "Passengers": "Nico di Angelo",
+            "Route": "Cross-country trucking"
+          }
+        }
+      }
+    },
+    "old-timer": {
+      "name": "Old Pete",
+      "aliases": ["Town Elder"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Elderly local resident who sits on his porch and watches the town.",
+          "role": "Town elder",
+          "relationships": {
+            "Home": "Cloudcroft, New Mexico",
+            "Activity": "Town watching",
+            "Status": "Long-time resident"
+          }
+        }
+      }
+    },
+    "dam-engineer": {
+      "name": "Engineer Thompson",
+      "aliases": ["Dam Engineer"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Engineer working at Hoover Dam who monitors structural integrity.",
+          "role": "Dam structural engineer",
+          "relationships": {
+            "Workplace": "Hoover Dam",
+            "Responsibility": "Dam safety",
+            "Affected by": "The Mist"
+          }
+        }
+      }
+    },
+    "dam-security": {
+      "name": "Security Chief Davis",
+      "aliases": ["Dam Security"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Head of security at Hoover Dam responsible for visitor safety.",
+          "role": "Dam security chief",
+          "relationships": {
+            "Workplace": "Hoover Dam",
+            "Responsibility": "Security operations",
+            "Staff": "Security guards"
+          }
+        }
+      }
+    },
+    "dam-maintenance": {
+      "name": "Maintenance Supervisor Rodriguez",
+      "aliases": ["Dam Maintenance"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Supervisor of maintenance operations at Hoover Dam.",
+          "role": "Maintenance supervisor",
+          "relationships": {
+            "Workplace": "Hoover Dam",
+            "Team": "Maintenance workers",
+            "Duties": "Dam upkeep"
+          }
+        }
+      }
+    },
+    "tourist-elderly-man": {
+      "name": "George Patterson",
+      "aliases": ["Retired Tourist"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Elderly retired man visiting Hoover Dam with his wife on vacation.",
+          "role": "Tourist visitor",
+          "relationships": {
+            "Wife": "Dorothy Patterson",
+            "Activity": "Sightseeing",
+            "Location": "Hoover Dam"
+          }
+        }
+      }
+    },
+    "tourist-elderly-woman": {
+      "name": "Dorothy Patterson",
+      "aliases": ["Tourist Wife"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Elderly woman touring Hoover Dam with her husband, taking photos.",
+          "role": "Tourist visitor",
+          "relationships": {
+            "Husband": "George Patterson",
+            "Activity": "Photography",
+            "Location": "Hoover Dam"
+          }
+        }
+      }
+    },
+    "student-group-leader": {
+      "name": "Professor Williams",
+      "aliases": ["College Professor"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "College engineering professor leading a student group on a dam tour.",
+          "role": "Educational trip leader",
+          "relationships": {
+            "Students": "Engineering class",
+            "Subject": "Civil engineering",
+            "Location": "Hoover Dam"
+          }
+        }
+      }
+    },
+    "college-students": {
+      "name": "Engineering Students",
+      "aliases": ["College Group"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Group of college engineering students studying dam construction.",
+          "role": "Student visitors",
+          "relationships": {
+            "Professor": "Professor Williams",
+            "Field of study": "Engineering",
+            "Purpose": "Educational tour"
+          }
+        }
+      }
+    },
+    "dam-worker-1": {
+      "name": "Mike Sullivan",
+      "aliases": ["Power Plant Worker"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Worker in the Hoover Dam power plant monitoring electrical generation.",
+          "role": "Power plant operator",
+          "relationships": {
+            "Workplace": "Dam power plant",
+            "Responsibility": "Electrical systems",
+            "Shift": "Day operator"
+          }
+        }
+      }
+    },
+    "dam-worker-2": {
+      "name": "Carlos Martinez",
+      "aliases": ["Turbine Operator"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Operator who monitors the dam's turbines and water flow systems.",
+          "role": "Turbine operator",
+          "relationships": {
+            "Workplace": "Dam turbine room",
+            "Equipment": "Turbine systems",
+            "Partner": "Mike Sullivan"
+          }
+        }
+      }
+    },
+    "gift-shop-clerk": {
+      "name": "Sarah Kim",
+      "aliases": ["Shop Clerk"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Clerk working at the Hoover Dam visitor center gift shop.",
+          "role": "Gift shop employee",
+          "relationships": {
+            "Workplace": "Dam visitor center",
+            "Customers": "Tourists",
+            "Sales": "Souvenirs"
+          }
+        }
+      }
+    },
+    "parking-attendant": {
+      "name": "Bob Johnson",
+      "aliases": ["Parking Guy"],
+      "appearances": [12],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Parking lot attendant who directs tourist vehicles at Hoover Dam.",
+          "role": "Parking attendant",
+          "relationships": {
+            "Workplace": "Dam parking area",
+            "Visitors": "Tourists and workers",
+            "Duties": "Traffic direction"
+          }
+        }
+      }
+    },
+    "sf-police-officer": {
+      "name": "Officer Chen",
+      "aliases": ["SFPD Officer"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "San Francisco police officer who responds to reports of unusual activity.",
+          "role": "Police officer",
+          "relationships": {
+            "Department": "SFPD",
+            "Location": "San Francisco",
+            "Affected by": "The Mist"
+          }
+        }
+      }
+    },
+    "sf-firefighter": {
+      "name": "Captain Rodriguez",
+      "aliases": ["Fire Captain"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "San Francisco fire captain responding to emergency calls during the battle.",
+          "role": "Fire department captain",
+          "relationships": {
+            "Department": "SFFD",
+            "Location": "San Francisco",
+            "Emergency": "Strange fires"
+          }
+        }
+      }
+    },
+    "sf-taxi-driver": {
+      "name": "Ahmed Hassan",
+      "aliases": ["Cab Driver"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Taxi driver who witnesses strange events but sees them through the Mist.",
+          "role": "Taxi driver",
+          "relationships": {
+            "City": "San Francisco",
+            "Witnessed": "Battle aftermath",
+            "Affected by": "The Mist"
+          }
+        }
+      }
+    },
+    "sf-news-reporter": {
+      "name": "Jessica Martinez",
+      "aliases": ["TV Reporter"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Local news reporter covering the strange incidents in San Francisco.",
+          "role": "News reporter",
+          "relationships": {
+            "Station": "Local TV news",
+            "Story": "Unexplained events",
+            "Location": "San Francisco"
+          }
+        }
+      }
+    },
+    "sf-pedestrian-1": {
+      "name": "Coffee Shop Customer",
+      "aliases": ["Morning Commuter"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Regular customer at a San Francisco coffee shop who witnesses unusual activity.",
+          "role": "Civilian witness",
+          "relationships": {
+            "Location": "Coffee shop",
+            "Activity": "Morning routine",
+            "City": "San Francisco"
+          }
+        }
+      }
+    },
+    "sf-shop-owner": {
+      "name": "Mrs. Wong",
+      "aliases": ["Store Owner"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Owner of a small shop in San Francisco who sees helicopters and strange activity.",
+          "role": "Shop owner",
+          "relationships": {
+            "Business": "Small retail shop",
+            "Location": "San Francisco",
+            "Witnessed": "Military helicopters"
+          }
+        }
+      }
+    },
+    "sf-construction-worker": {
+      "name": "Tony Russo",
+      "aliases": ["Construction Guy"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Construction worker who sees military helicopters and reports it to his crew.",
+          "role": "Construction worker",
+          "relationships": {
+            "Worksite": "Building construction",
+            "Crew": "Construction team",
+            "Location": "San Francisco"
+          }
+        }
+      }
+    },
+    "sf-businessman": {
+      "name": "Richard Thompson",
+      "aliases": ["Suit Guy"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Businessman commuting to work who stops to watch the unusual military activity.",
+          "role": "Office worker",
+          "relationships": {
+            "Activity": "Morning commute",
+            "Location": "San Francisco",
+            "Witnessed": "Military operations"
+          }
+        }
+      }
+    },
+    "sf-student": {
+      "name": "Lisa Park",
+      "aliases": ["College Student"],
+      "appearances": [17],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "University student who takes photos of the helicopters and strange events.",
+          "role": "College student",
+          "relationships": {
+            "School": "Local university",
+            "Activity": "Photography",
+            "Location": "San Francisco"
+          }
+        }
+      }
     }
   },
   "recaps": {
