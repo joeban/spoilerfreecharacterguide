@@ -1,0 +1,2499 @@
+{
+  "meta": {
+    "title": "The Colour of Magic",
+    "author": "Terry Pratchett",
+    "chapters": 8,
+    "schemaVersion": "2.0",
+    "asin": "0062225677"
+  },
+  "characters": {
+    "rincewind": {
+      "name": "Rincewind",
+      "aliases": ["The Wizzard"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A failed student at Unseen University, wearing a pointy hat with 'WIZZARD' written on it. Known for his cowardice and lack of magical ability.",
+          "role": "Failed wizard",
+          "relationships": {
+            "Unseen University": "Former student of",
+            "Trymon": "Fellow wizard (wary of)"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Becomes reluctant guide to Twoflower. Claims to know his way around Ankh-Morpork despite frequent mistakes. Has one spell lodged in his head.",
+          "role": "Tourist guide",
+          "relationships": {
+            "Twoflower": "Reluctant guide to",
+            "The Luggage": "Terrified of"
+          }
+        }
+      }
+    },
+    "twoflower": {
+      "name": "Twoflower",
+      "aliases": ["Tourist"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Disc's first tourist, from the Agatean Empire. Carries an iconograph and has unusual spectacles. Innocent and enthusiastic about everything.",
+          "role": "Tourist",
+          "relationships": {
+            "Rincewind": "Guided by",
+            "The Luggage": "Owner of"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Carries enormous amounts of gold, making him valuable but dangerous to be around. His innocent questions often lead to trouble.",
+          "role": "Wealthy tourist",
+          "relationships": {
+            "Rincewind": "Travels with",
+            "Bravd": "Rescued by",
+            "The Weasel": "Rescued by"
+          }
+        }
+      }
+    },
+    "the-luggage": {
+      "name": "The Luggage",
+      "aliases": ["Sapient Pearwood Chest"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A large chest made of sapient pearwood, following Twoflower around on hundreds of little legs. Contains Twoflower's belongings.",
+          "role": "Magical luggage",
+          "relationships": {
+            "Twoflower": "Belongs to",
+            "Rincewind": "Distrusted by"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Demonstrates fierce loyalty to Twoflower and aggressive tendencies toward threats. Has rows of teeth inside when opened.",
+          "role": "Protective companion",
+          "relationships": {
+            "Twoflower": "Fiercely loyal to",
+            "Criminals": "Devours"
+          }
+        }
+      }
+    },
+    "death": {
+      "name": "Death",
+      "aliases": ["The Reaper Man", "Mort"],
+      "appearances": [1, 4, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An anthropomorphic personification who appears as a seven-foot skeleton in a black robe. Speaks in CAPITAL LETTERS and carries a scythe.",
+          "role": "Anthropomorphic personification",
+          "relationships": {}
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Appears during moments of danger and death. Has a dry sense of humor and speaks directly without euphemism.",
+          "role": "Death incarnate",
+          "relationships": {
+            "Fate": "Cosmic opposite"
+          }
+        }
+      }
+    },
+    "trymon": {
+      "name": "Trymon",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An ambitious wizard at Unseen University. Shows interest in Rincewind's departure and the spell in his head.",
+          "role": "University wizard",
+          "relationships": {
+            "Unseen University": "Member of",
+            "Rincewind": "Colleague of"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Reveals ambitious plans involving the Great Spells. Seeks power and magical knowledge above all else.",
+          "role": "Ambitious wizard",
+          "relationships": {
+            "Great Spells": "Seeks to control",
+            "Unseen University": "Rising member"
+          }
+        }
+      }
+    },
+    "bravd": {
+      "name": "Bravd",
+      "aliases": ["The Hublander"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A barbarian hero from the Hublands, wearing furs and carrying various weapons. Teams up with The Weasel for heroic adventures.",
+          "role": "Barbarian hero",
+          "relationships": {
+            "The Weasel": "Adventure partner",
+            "Twoflower": "Rescuer of",
+            "Rincewind": "Reluctant ally"
+          }
+        }
+      }
+    },
+    "the-weasel": {
+      "name": "The Weasel",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A small, wiry thief and Bravd's partner in adventure. Quick with locks and traps, contrasting with Bravd's brute force approach.",
+          "role": "Thief and scout",
+          "relationships": {
+            "Bravd": "Adventure partner",
+            "Twoflower": "Rescuer of",
+            "Rincewind": "Reluctant ally"
+          }
+        }
+      }
+    },
+    "broadman": {
+      "name": "Broadman",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Proprietor of the Broken Drum tavern in Ankh-Morpork. A practical businessman who knows his clientele well.",
+          "role": "Tavern keeper",
+          "relationships": {
+            "Broken Drum": "Owner of",
+            "Customers": "Serves"
+          }
+        }
+      }
+    },
+    "zlorf-flannelfoot": {
+      "name": "Zlorf Flannelfoot",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Leader of the Thieves' Guild in Ankh-Morpork. Organizes the theft of Twoflower's luggage in a professional manner.",
+          "role": "Head of Thieves' Guild",
+          "relationships": {
+            "Thieves' Guild": "Leader of",
+            "Ymor": "Guild member",
+            "Twoflower": "Target of"
+          }
+        }
+      }
+    },
+    "ymor": {
+      "name": "Ymor",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A member of the Thieves' Guild, working under Zlorf Flannelfoot. Participates in guild operations with professional competence.",
+          "role": "Professional thief",
+          "relationships": {
+            "Zlorf Flannelfoot": "Works under",
+            "Thieves' Guild": "Member of"
+          }
+        }
+      }
+    },
+    "withel": {
+      "name": "Withel",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another member of the Thieves' Guild involved in the attempt to steal from Twoflower.",
+          "role": "Guild thief",
+          "relationships": {
+            "Thieves' Guild": "Member of",
+            "Zlorf Flannelfoot": "Works under"
+          }
+        }
+      }
+    },
+    "stren-withel": {
+      "name": "Stren Withel",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A thief working with the guild in their operations against tourists and wealthy marks.",
+          "role": "Guild operative",
+          "relationships": {
+            "Thieves' Guild": "Member of"
+          }
+        }
+      }
+    },
+    "rerpf": {
+      "name": "Rerpf",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A patron of the Broken Drum tavern, representative of Ankh-Morpork's colorful underworld inhabitants.",
+          "role": "Tavern regular",
+          "relationships": {
+            "Broken Drum": "Patron of"
+          }
+        }
+      }
+    },
+    "gammon": {
+      "name": "Gammon",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another regular at the Broken Drum, part of the tavern's rough clientele.",
+          "role": "Tavern patron",
+          "relationships": {
+            "Broken Drum": "Regular at"
+          }
+        }
+      }
+    },
+    "the-patrician": {
+      "name": "The Patrician",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The ruler of Ankh-Morpork, mentioned as the ultimate authority in the city. Controls the various guilds and maintains order.",
+          "role": "City ruler",
+          "relationships": {
+            "Ankh-Morpork": "Ruler of",
+            "Guilds": "Oversees"
+          }
+        }
+      }
+    },
+    "galder-weatherwax": {
+      "name": "Galder Weatherwax",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The Archchancellor of Unseen University, elderly and powerful. Concerned about the missing Great Spells and magical disturbances.",
+          "role": "Archchancellor",
+          "relationships": {
+            "Unseen University": "Head of",
+            "Great Spells": "Guardian of",
+            "Trymon": "Subordinate"
+          }
+        }
+      }
+    },
+    "spelter": {
+      "name": "Spelter",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard at Unseen University, involved in the magical hierarchy and politics of the institution.",
+          "role": "University wizard",
+          "relationships": {
+            "Unseen University": "Faculty member",
+            "Galder Weatherwax": "Serves under"
+          }
+        }
+      }
+    },
+    "jiglad-wert": {
+      "name": "Jiglad Wert",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard at the University, participating in the magical discussions and concerns about the Great Spells.",
+          "role": "Faculty wizard",
+          "relationships": {
+            "Unseen University": "Member of"
+          }
+        }
+      }
+    },
+    "ksandra": {
+      "name": "Ksandra",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dragonrider of Wyrmberg, skilled in the art of dragon summoning and flight. One of the inhabitants of the magical realm.",
+          "role": "Dragonrider",
+          "relationships": {
+            "Wyrmberg": "Resident of",
+            "Dragons": "Rider of"
+          }
+        }
+      }
+    },
+    "liessa": {
+      "name": "Liessa",
+      "aliases": ["Liessa Wyrmberg"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A powerful dragonrider and apparent leader among the Wyrmberg inhabitants. Commands respect and authority over the magical realm.",
+          "role": "Dragonrider leader",
+          "relationships": {
+            "Wyrmberg": "Leader of",
+            "Dragonriders": "Commands",
+            "Kring": "Ally of"
+          }
+        }
+      }
+    },
+    "kring": {
+      "name": "Kring",
+      "aliases": ["The Sword"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A sentient magical sword that can communicate with its wielder. Provides commentary and advice during combat.",
+          "role": "Talking sword",
+          "relationships": {
+            "Hrun": "Wielded by",
+            "Liessa": "Allies with wielder"
+          }
+        }
+      }
+    },
+    "hrun": {
+      "name": "Hrun",
+      "aliases": ["Hrun the Barbarian"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A legendary barbarian hero who arrives at Wyrmberg. Large, muscular, and skilled in combat, though not particularly intelligent.",
+          "role": "Barbarian hero",
+          "relationships": {
+            "Kring": "Wields",
+            "Liessa": "Encounters",
+            "Wyrmberg": "Visitor to"
+          }
+        }
+      }
+    },
+    "greicha": {
+      "name": "Greicha",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "One of the dragonriders at Wyrmberg, participating in the magical community's activities and dragon-based transportation.",
+          "role": "Dragonrider",
+          "relationships": {
+            "Wyrmberg": "Resident of",
+            "Liessa": "Fellow rider"
+          }
+        }
+      }
+    },
+    "liartes": {
+      "name": "Liartes",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another dragonrider of Wyrmberg, skilled in the magical arts required to summon and control dragons.",
+          "role": "Dragon summoner",
+          "relationships": {
+            "Wyrmberg": "Member of",
+            "Dragons": "Controls"
+          }
+        }
+      }
+    },
+    "lio!rt": {
+      "name": "Lio!rt",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dragonrider at Wyrmberg, part of the magical community that exists in the inverted mountain.",
+          "role": "Dragonrider",
+          "relationships": {
+            "Wyrmberg": "Inhabitant of"
+          }
+        }
+      }
+    },
+    "skipper-dahan": {
+      "name": "Skipper Dahan",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Captain of a ship that Rincewind and Twoflower encounter during their travels. An experienced mariner.",
+          "role": "Ship captain",
+          "relationships": {
+            "Ship crew": "Commands",
+            "Rincewind": "Transports",
+            "Twoflower": "Transports"
+          }
+        }
+      }
+    },
+    "marchesa": {
+      "name": "Marchesa",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A member of the ship's crew or passengers encountered during the sea voyage portion of the adventure.",
+          "role": "Ship associate",
+          "relationships": {
+            "Ship": "Travels on"
+          }
+        }
+      }
+    },
+    "captain-dreadful": {
+      "name": "Captain Dreadful",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A pirate captain encountered during sea travels. Commands a crew of pirates and engages in typical piratical activities.",
+          "role": "Pirate captain",
+          "relationships": {
+            "Pirate crew": "Leads",
+            "Merchant ships": "Attacks"
+          }
+        }
+      }
+    },
+    "rincewind-the-wizard": {
+      "name": "Rincewind the Wizard",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A legendary figure mentioned in pirate tales, possibly an exaggerated version of the real Rincewind or a different person entirely.",
+          "role": "Legendary figure",
+          "relationships": {
+            "Pirate lore": "Subject of"
+          }
+        }
+      }
+    },
+    "dactylos": {
+      "name": "Dactylos",
+      "aliases": ["The Greatest Inventor"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A legendary inventor held captive on Krull. Created many mechanical marvels and is forced to work for the Krullian rulers.",
+          "role": "Captive inventor",
+          "relationships": {
+            "Krull": "Prisoner of",
+            "Rulers of Krull": "Serves unwillingly"
+          }
+        }
+      }
+    },
+    "goldeneyes-silverhand-dactylos": {
+      "name": "Goldeneyes Silverhand Dactylos",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The full name and title of the great inventor Dactylos, emphasizing his legendary status and skill.",
+          "role": "Master inventor",
+          "relationships": {
+            "Mechanical devices": "Creator of"
+          }
+        }
+      }
+    },
+    "hydrophobes": {
+      "name": "The Hydrophobes",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The ruling class of Krull, who have an intense fear of water. They govern the island nation and control its magical research.",
+          "role": "Ruling class",
+          "relationships": {
+            "Krull": "Rulers of",
+            "Water": "Fear of",
+            "Dactylos": "Employ"
+          }
+        }
+      }
+    },
+    "tethis": {
+      "name": "Tethis",
+      "aliases": ["The Sea Troll"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A sea troll who has become stranded on Krull. Made of water and sea-matter, he suffers from being away from the ocean.",
+          "role": "Exiled sea troll",
+          "relationships": {
+            "Ocean": "Originally from",
+            "Krull": "Stranded on",
+            "Rincewind": "Befriends"
+          }
+        }
+      }
+    },
+    "garhartra": {
+      "name": "Garhartra",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "One of the Krullian leaders, involved in the magical research and control of the island's destiny.",
+          "role": "Krullian ruler",
+          "relationships": {
+            "Krull": "Leader of",
+            "Hydrophobes": "Member of"
+          }
+        }
+      }
+    },
+    "lembitus": {
+      "name": "Lembitus",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Another of the Krullian ruling council, participating in their magical experiments and governance.",
+          "role": "Council member",
+          "relationships": {
+            "Krull": "Rules",
+            "Hydrophobes": "Part of"
+          }
+        }
+      }
+    },
+    "fate": {
+      "name": "Fate",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An anthropomorphic personification who represents destiny and predetermined outcomes. Plays cosmic games with The Lady.",
+          "role": "Cosmic force",
+          "relationships": {
+            "The Lady Who Must Not Be Named": "Opponent of",
+            "Destiny": "Personification of"
+          }
+        }
+      }
+    },
+    "the-lady": {
+      "name": "The Lady Who Must Not Be Named",
+      "aliases": ["The Lady", "Lady Luck"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An anthropomorphic personification representing chance and luck. Engages in cosmic gambling games with Fate over mortal affairs.",
+          "role": "Personification of luck",
+          "relationships": {
+            "Fate": "Cosmic opponent",
+            "Chance": "Embodies"
+          }
+        }
+      }
+    },
+    "bel-shamharoth": {
+      "name": "Bel-Shamharoth",
+      "aliases": ["The Sender of Eight", "Sothoth", "Hrun"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An ancient and terrible entity associated with the number eight. Even mentioning its name or the number eight is considered dangerous.",
+          "role": "Ancient horror",
+          "relationships": {
+            "Number Eight": "Associated with",
+            "Ancient magic": "Source of fear"
+          }
+        }
+      }
+    },
+    "offler": {
+      "name": "Offler",
+      "aliases": ["The Crocodile God"],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A deity worshipped in various parts of the Disc, often depicted as a crocodile. Has temples and followers in different cities.",
+          "role": "Deity",
+          "relationships": {
+            "Worshippers": "Receives prayers from",
+            "Temples": "Venerated in"
+          }
+        }
+      }
+    },
+    "blind-io": {
+      "name": "Blind Io",
+      "aliases": ["Chief of the Gods"],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The chief deity among the gods of the Disc. Despite being called blind, he has multiple eyes that float around him.",
+          "role": "Chief deity",
+          "relationships": {
+            "Other gods": "Rules over",
+            "Cori Celesti": "Resides at"
+          }
+        }
+      }
+    },
+    "the-librarian": {
+      "name": "The Librarian",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The keeper of the magical library at Unseen University. Guards the books and maintains order in the repository of magical knowledge.",
+          "role": "University librarian",
+          "relationships": {
+            "Unseen University": "Employee of",
+            "Magical books": "Guardian of"
+          }
+        }
+      }
+    },
+    "scrofula": {
+      "name": "Scrofula",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A resident of Ankh-Morpork's underworld, representative of the city's criminal element and rough inhabitants.",
+          "role": "Criminal",
+          "relationships": {
+            "Ankh-Morpork": "Resident of",
+            "Underworld": "Part of"
+          }
+        }
+      }
+    },
+    "the-weasel-ymor": {
+      "name": "The Weasel (Ymor's associate)",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A thief working with Ymor and the guild, skilled in stealth and quick escapes.",
+          "role": "Guild thief",
+          "relationships": {
+            "Ymor": "Associates with",
+            "Thieves' Guild": "Member of"
+          }
+        }
+      }
+    },
+    "stren": {
+      "name": "Stren",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A member of the criminal underworld in Ankh-Morpork, involved in various illegal activities.",
+          "role": "Criminal",
+          "relationships": {
+            "Thieves' Guild": "Associates with"
+          }
+        }
+      }
+    },
+    "beryl": {
+      "name": "Beryl",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A tavern wench or barmaid working in one of Ankh-Morpork's drinking establishments.",
+          "role": "Barmaid",
+          "relationships": {
+            "Tavern": "Works at",
+            "Customers": "Serves"
+          }
+        }
+      }
+    },
+    "the-imp": {
+      "name": "The Imp",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A small demon or magical creature that operates inside Twoflower's iconograph, painting pictures when the device is used.",
+          "role": "Iconograph operator",
+          "relationships": {
+            "Twoflower": "Serves",
+            "Iconograph": "Operates"
+          }
+        }
+      }
+    },
+    "herrena": {
+      "name": "Herrena",
+      "aliases": ["Herrena the Henna-Haired Harridan"],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A fierce warrior woman who encounters the heroes during their adventures. Known for her combat skills and distinctive hair.",
+          "role": "Warrior woman",
+          "relationships": {
+            "Heroes": "Encounters",
+            "Combat": "Skilled in"
+          }
+        }
+      }
+    },
+    "gorphal": {
+      "name": "Gorphal",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A minor character encountered during the adventures in the temple area, possibly a guard or temple servant.",
+          "role": "Temple associate",
+          "relationships": {
+            "Temple": "Connected to"
+          }
+        }
+      }
+    },
+    "weems": {
+      "name": "Weems",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An individual encountered during the temple adventure, involved in the events surrounding Bel-Shamharoth.",
+          "role": "Adventure participant",
+          "relationships": {
+            "Temple events": "Involved in"
+          }
+        }
+      }
+    },
+    "ganmack": {
+      "name": "Ganmack",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A character present during the temple sequence, possibly a fellow adventurer or temple guardian.",
+          "role": "Temple guardian",
+          "relationships": {
+            "Temple": "Protects"
+          }
+        }
+      }
+    },
+    "the-octavo": {
+      "name": "The Octavo",
+      "aliases": ["Book of Eight Spells"],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The most powerful magical book in Unseen University's library, containing eight Great Spells. One spell is missing, lodged in Rincewind's head.",
+          "role": "Magical grimoire",
+          "relationships": {
+            "Great Spells": "Contains",
+            "Rincewind": "One spell trapped in",
+            "Unseen University": "Kept at"
+          }
+        }
+      }
+    },
+    "luggage-demons": {
+      "name": "Luggage Demons",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Malevolent entities that seem to emerge from or be associated with The Luggage during violent encounters.",
+          "role": "Demonic entities",
+          "relationships": {
+            "The Luggage": "Associated with",
+            "Violence": "Emerge during"
+          }
+        }
+      }
+    },
+    "temple-priests": {
+      "name": "Temple Priests",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Religious figures maintaining the ancient temple where Bel-Shamharoth is feared and the number eight is forbidden.",
+          "role": "Religious guardians",
+          "relationships": {
+            "Temple": "Maintain",
+            "Bel-Shamharoth": "Fear",
+            "Eight": "Forbid mention of"
+          }
+        }
+      }
+    },
+    "merchant-captain": {
+      "name": "Merchant Captain",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Captain of a trading vessel encountered during sea travel, representing the commercial maritime traffic of the Disc.",
+          "role": "Trade ship captain",
+          "relationships": {
+            "Trading vessel": "Commands",
+            "Merchant crew": "Leads"
+          }
+        }
+      }
+    },
+    "first-mate-larson": {
+      "name": "First Mate Larson",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Second in command of a ship encountered during the sea voyage, experienced in maritime operations.",
+          "role": "Ship's first mate",
+          "relationships": {
+            "Ship captain": "Second to",
+            "Crew": "Supervises"
+          }
+        }
+      }
+    },
+    "bosun-trawler": {
+      "name": "Bosun Trawler",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A ship's bosun responsible for the crew and deck operations during sea travel.",
+          "role": "Ship's bosun",
+          "relationships": {
+            "Ship crew": "Manages",
+            "Deck operations": "Oversees"
+          }
+        }
+      }
+    },
+    "sea-serpent": {
+      "name": "Sea Serpent",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A massive sea creature encountered during ocean travel, representing the dangerous maritime life of the Disc's oceans.",
+          "role": "Sea monster",
+          "relationships": {
+            "Ocean": "Inhabits",
+            "Ships": "Threatens"
+          }
+        }
+      }
+    },
+    "kraken": {
+      "name": "Kraken",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A legendary sea monster of enormous size, feared by sailors and capable of destroying entire ships.",
+          "role": "Legendary sea beast",
+          "relationships": {
+            "Sailors": "Feared by",
+            "Deep ocean": "Lives in"
+          }
+        }
+      }
+    },
+    "ship-rats": {
+      "name": "Ship Rats",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Common vermin aboard ships, but these may have unusual intelligence or abilities given the magical nature of Disc travel.",
+          "role": "Ship vermin",
+          "relationships": {
+            "Ships": "Infest",
+            "Food supplies": "Threaten"
+          }
+        }
+      }
+    },
+    "dragon-king": {
+      "name": "Dragon King",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The ruler of the dragons at Wyrmberg, commanding the magical creatures that the dragonriders summon.",
+          "role": "Dragon monarch",
+          "relationships": {
+            "Dragons": "Rules over",
+            "Wyrmberg": "Associated with",
+            "Dragonriders": "Serves"
+          }
+        }
+      }
+    },
+    "ninereeds": {
+      "name": "Ninereeds",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dragon at Wyrmberg, one of the magical creatures that can be summoned and ridden by the inhabitants.",
+          "role": "Summoned dragon",
+          "relationships": {
+            "Wyrmberg": "Serves",
+            "Dragonriders": "Carries"
+          }
+        }
+      }
+    },
+    "laolith": {
+      "name": "Laolith",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another dragon at Wyrmberg, part of the magical ecosystem of summoned creatures.",
+          "role": "Dragon",
+          "relationships": {
+            "Wyrmberg": "Bound to",
+            "Magic": "Sustained by"
+          }
+        }
+      }
+    },
+    "bronze-psuedodragon": {
+      "name": "Bronze Pseudodragon",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A smaller dragon-like creature, possibly a lesser form of the dragons found at Wyrmberg.",
+          "role": "Lesser dragon",
+          "relationships": {
+            "True dragons": "Related to",
+            "Wyrmberg": "Inhabits"
+          }
+        }
+      }
+    },
+    "wyrmberg-guards": {
+      "name": "Wyrmberg Guards",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Warriors who protect Wyrmberg and serve its rulers, trained in both conventional combat and magical arts.",
+          "role": "Magical guards",
+          "relationships": {
+            "Wyrmberg": "Protect",
+            "Liessa": "Serve",
+            "Magic": "Use in combat"
+          }
+        }
+      }
+    },
+    "dragon-handler": {
+      "name": "Dragon Handler",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A specialist at Wyrmberg responsible for the care and management of the summoned dragons.",
+          "role": "Dragon caretaker",
+          "relationships": {
+            "Dragons": "Cares for",
+            "Wyrmberg": "Employee of"
+          }
+        }
+      }
+    },
+    "stable-master": {
+      "name": "Stable Master",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The keeper of Wyrmberg's dragon stables, managing the facilities where dragons rest between summonings.",
+          "role": "Stable keeper",
+          "relationships": {
+            "Dragon stables": "Manages",
+            "Dragons": "Houses"
+          }
+        }
+      }
+    },
+    "imagination-dragons": {
+      "name": "Imagination Dragons",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Dragons that exist through the power of imagination at Wyrmberg, becoming real through belief and magical force.",
+          "role": "Imagined creatures",
+          "relationships": {
+            "Imagination": "Powered by",
+            "Wyrmberg": "Exist at",
+            "Belief": "Sustained by"
+          }
+        }
+      }
+    },
+    "astrologers": {
+      "name": "Court Astrologers",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Krullian scholars who study the stars and predict cosmic events, advising the Hydrophobes on magical matters.",
+          "role": "Court scholars",
+          "relationships": {
+            "Krull": "Serve",
+            "Stars": "Study",
+            "Hydrophobes": "Advise"
+          }
+        }
+      }
+    },
+    "lens-grinders": {
+      "name": "Lens Grinders",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Craftsmen on Krull who create the magical lenses used in the island's great telescope and optical devices.",
+          "role": "Magical craftsmen",
+          "relationships": {
+            "Krull": "Work for",
+            "Great telescope": "Create lenses for",
+            "Dactylos": "May work with"
+          }
+        }
+      }
+    },
+    "telescope-operators": {
+      "name": "Telescope Operators",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Technicians who operate Krull's great telescope, observing the cosmos and particularly the approach of Great A'Tuin.",
+          "role": "Technical operators",
+          "relationships": {
+            "Great telescope": "Operate",
+            "Krull": "Work for",
+            "Great A'Tuin": "Observe"
+          }
+        }
+      }
+    },
+    "bronze-sentinels": {
+      "name": "Bronze Sentinels",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Mechanical guards created by Dactylos, protecting important areas of Krull with automated vigilance.",
+          "role": "Mechanical guards",
+          "relationships": {
+            "Dactylos": "Created by",
+            "Krull": "Guard",
+            "Magic": "Powered by"
+          }
+        }
+      }
+    },
+    "krull-soldiers": {
+      "name": "Krull Soldiers",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The military force of Krull, trained to serve the Hydrophobes and maintain order on the island.",
+          "role": "Island military",
+          "relationships": {
+            "Hydrophobes": "Serve",
+            "Krull": "Defend",
+            "Prisoners": "Guard"
+          }
+        }
+      }
+    },
+    "great-atuin": {
+      "name": "Great A'Tuin",
+      "aliases": ["The World Turtle"],
+      "appearances": [1, 7, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The enormous turtle upon whose back the Discworld rests, swimming through space with four giant elephants supporting the world.",
+          "role": "World carrier",
+          "relationships": {
+            "Four Elephants": "Carries on back",
+            "Discworld": "Supports",
+            "Space": "Swims through"
+          }
+        }
+      }
+    },
+    "berilia": {
+      "name": "Berilia",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the four giant elephants that stand on Great A'Tuin's shell and support the Discworld.",
+          "role": "World-supporting elephant",
+          "relationships": {
+            "Great A'Tuin": "Stands on",
+            "Discworld": "Supports",
+            "Other elephants": "Companion to"
+          }
+        }
+      }
+    },
+    "tubul": {
+      "name": "Tubul",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another of the four elephants supporting the Discworld, part of the cosmic structure of the world.",
+          "role": "World-supporting elephant",
+          "relationships": {
+            "Great A'Tuin": "Stands on",
+            "Discworld": "Supports"
+          }
+        }
+      }
+    },
+    "great-tphon": {
+      "name": "Great T'Phon",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The third of the four elephants that bear the weight of the Discworld on their backs.",
+          "role": "World-supporting elephant",
+          "relationships": {
+            "Great A'Tuin": "Stands on",
+            "Discworld": "Supports"
+          }
+        }
+      }
+    },
+    "jerakeen": {
+      "name": "Jerakeen",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The fourth elephant supporting the Discworld, completing the cosmic foundation of the world.",
+          "role": "World-supporting elephant",
+          "relationships": {
+            "Great A'Tuin": "Stands on",
+            "Discworld": "Supports"
+          }
+        }
+      }
+    },
+    "ankh-river": {
+      "name": "River Ankh",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The polluted river that flows through Ankh-Morpork, so thick with filth that it barely qualifies as water.",
+          "role": "City river",
+          "relationships": {
+            "Ankh-Morpork": "Flows through",
+            "Pollution": "Contains heavily"
+          }
+        }
+      }
+    },
+    "morpork-guilds": {
+      "name": "Morpork Guilds",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The organized professional associations that control various trades and activities in Ankh-Morpork.",
+          "role": "Trade organizations",
+          "relationships": {
+            "Ankh-Morpork": "Operate in",
+            "The Patrician": "Answer to",
+            "Trade activities": "Control"
+          }
+        }
+      }
+    },
+    "seamstresses-guild": {
+      "name": "Seamstresses' Guild",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the guilds in Ankh-Morpork, though their actual activities may not be limited to sewing.",
+          "role": "Professional guild",
+          "relationships": {
+            "Ankh-Morpork": "Based in",
+            "Guild system": "Part of"
+          }
+        }
+      }
+    },
+    "alchemists-guild": {
+      "name": "Alchemists' Guild",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The guild of magical researchers and potion makers, known for their explosive experiments.",
+          "role": "Magical guild",
+          "relationships": {
+            "Ankh-Morpork": "Located in",
+            "Magic": "Practices",
+            "Explosions": "Frequently causes"
+          }
+        }
+      }
+    },
+    "assassins-guild": {
+      "name": "Assassins' Guild",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The professional organization of assassins in Ankh-Morpork, operating with official recognition.",
+          "role": "Professional killers",
+          "relationships": {
+            "Ankh-Morpork": "Licensed in",
+            "Murder": "Professionalize",
+            "Guild system": "Part of"
+          }
+        }
+      }
+    },
+    "merchants-guild": {
+      "name": "Merchants' Guild",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The organization representing traders and merchants in the city's commercial activities.",
+          "role": "Trade association",
+          "relationships": {
+            "Commerce": "Oversees",
+            "Ankh-Morpork": "Based in"
+          }
+        }
+      }
+    },
+    "watch-guards": {
+      "name": "City Watch",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The official law enforcement of Ankh-Morpork, though their effectiveness is questionable.",
+          "role": "City guards",
+          "relationships": {
+            "Ankh-Morpork": "Patrol",
+            "The Patrician": "Serve",
+            "Crime": "Attempt to prevent"
+          }
+        }
+      }
+    },
+    "beggars-guild": {
+      "name": "Beggars' Guild",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The organized association of professional beggars, making even poverty a regulated profession.",
+          "role": "Beggar organization",
+          "relationships": {
+            "Street begging": "Controls",
+            "Ankh-Morpork": "Operates in"
+          }
+        }
+      }
+    },
+    "street-musicians": {
+      "name": "Street Musicians",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Performers who play music on the streets of Ankh-Morpork for coins, part of the city's colorful atmosphere.",
+          "role": "Street performers",
+          "relationships": {
+            "Ankh-Morpork": "Perform in",
+            "Citizens": "Entertain"
+          }
+        }
+      }
+    },
+    "fortune-tellers": {
+      "name": "Fortune Tellers",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Mystics and charlatans who claim to predict the future for paying customers in the city.",
+          "role": "Mystic performers",
+          "relationships": {
+            "Customers": "Read fortunes for",
+            "Magic": "Claim to use"
+          }
+        }
+      }
+    },
+    "tavern-brawlers": {
+      "name": "Tavern Brawlers",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Regular troublemakers in Ankh-Morpork's drinking establishments, always ready for a fight.",
+          "role": "Troublemakers",
+          "relationships": {
+            "Taverns": "Frequent",
+            "Fights": "Start"
+          }
+        }
+      }
+    },
+    "dock-workers": {
+      "name": "Dock Workers",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Laborers who work at Ankh-Morpork's river docks, handling cargo and ships despite the river's condition.",
+          "role": "Manual laborers",
+          "relationships": {
+            "River Ankh": "Work near",
+            "Ships": "Load and unload",
+            "Commerce": "Support"
+          }
+        }
+      }
+    },
+    "fish-sellers": {
+      "name": "Fish Sellers",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Merchants who sell fish caught from the River Ankh, though the quality is questionable given the water's condition.",
+          "role": "Fish merchants",
+          "relationships": {
+            "River Ankh": "Source fish from",
+            "Customers": "Sell to"
+          }
+        }
+      }
+    },
+    "night-soil-men": {
+      "name": "Night Soil Men",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Workers who handle waste disposal in Ankh-Morpork, dealing with the city's sanitation in the dark hours.",
+          "role": "Sanitation workers",
+          "relationships": {
+            "Ankh-Morpork": "Clean",
+            "Night work": "Perform"
+          }
+        }
+      }
+    },
+    "ratcatchers": {
+      "name": "Ratcatchers",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Pest control specialists in Ankh-Morpork, dealing with the city's significant rodent population.",
+          "role": "Pest controllers",
+          "relationships": {
+            "Rats": "Hunt",
+            "City residents": "Protect from pests"
+          }
+        }
+      }
+    },
+    "gargoyles": {
+      "name": "Gargoyles",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Stone creatures that decorate buildings at Unseen University, possibly animated by the magical atmosphere.",
+          "role": "Architectural guardians",
+          "relationships": {
+            "Unseen University": "Decorate",
+            "Magic": "Possibly animated by"
+          }
+        }
+      }
+    },
+    "university-porters": {
+      "name": "University Porters",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Staff members at Unseen University responsible for maintaining order and security at the institution.",
+          "role": "University staff",
+          "relationships": {
+            "Unseen University": "Work for",
+            "Students": "Supervise",
+            "Faculty": "Assist"
+          }
+        }
+      }
+    },
+    "kitchen-staff": {
+      "name": "Kitchen Staff",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Cooks and food preparers at Unseen University, dealing with the challenge of feeding wizards safely.",
+          "role": "University cooks",
+          "relationships": {
+            "Unseen University": "Feed",
+            "Wizards": "Cook for"
+          }
+        }
+      }
+    },
+    "university-cleaners": {
+      "name": "University Cleaners",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Maintenance staff who clean Unseen University, dealing with magical residue and strange occurrences.",
+          "role": "Maintenance workers",
+          "relationships": {
+            "Unseen University": "Maintain",
+            "Magic": "Clean up after"
+          }
+        }
+      }
+    },
+    "university-students": {
+      "name": "University Students",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Apprentice wizards studying at Unseen University, learning magic and trying not to get themselves killed.",
+          "role": "Student wizards",
+          "relationships": {
+            "Unseen University": "Study at",
+            "Faculty": "Learn from",
+            "Magic": "Practice"
+          }
+        }
+      }
+    },
+    "university-ghosts": {
+      "name": "University Ghosts",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Spectral former inhabitants of Unseen University who continue to haunt the halls and rooms.",
+          "role": "University spirits",
+          "relationships": {
+            "Unseen University": "Haunt",
+            "Living occupants": "Coexist with"
+          }
+        }
+      }
+    },
+    "magical-creatures": {
+      "name": "Magical Creatures",
+      "aliases": [],
+      "appearances": [1, 3, 5, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various supernatural beings that inhabit or visit Unseen University, attracted by the magical energies.",
+          "role": "Magical inhabitants",
+          "relationships": {
+            "Magic": "Drawn to",
+            "Unseen University": "Inhabit"
+          }
+        }
+      }
+    },
+    "ancient-books": {
+      "name": "Ancient Books",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Sentient magical tomes in the University library, some of which are dangerous and chained for safety.",
+          "role": "Living books",
+          "relationships": {
+            "Library": "Housed in",
+            "The Librarian": "Guarded by",
+            "Magic": "Contain dangerous"
+          }
+        }
+      }
+    },
+    "disc-philosophers": {
+      "name": "Disc Philosophers",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Thinkers and scholars across the Disc who ponder the nature of reality, magic, and the cosmos.",
+          "role": "Cosmic thinkers",
+          "relationships": {
+            "Knowledge": "Seek",
+            "Reality": "Question",
+            "Magic": "Study"
+          }
+        }
+      }
+    },
+    "cosmic-forces": {
+      "name": "Cosmic Forces",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The fundamental powers that govern the Discworld universe, including magic, destiny, and chance.",
+          "role": "Universal powers",
+          "relationships": {
+            "Discworld": "Govern",
+            "Magic": "Include",
+            "Reality": "Shape"
+          }
+        }
+      }
+    },
+    "maid-of-broken-drum": {
+      "name": "Maid of Broken Drum",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A serving wench at the Broken Drum tavern, part of the establishment's rough but functional staff.",
+          "role": "Tavern servant",
+          "relationships": {
+            "Broken Drum": "Works at",
+            "Broadman": "Employed by"
+          }
+        }
+      }
+    },
+    "drunk-wizard": {
+      "name": "Drunk Wizard",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An intoxicated magic practitioner frequenting Ankh-Morpork's taverns, representative of failed magical careers.",
+          "role": "Failed wizard",
+          "relationships": {
+            "Taverns": "Frequents",
+            "Magic": "Practices poorly"
+          }
+        }
+      }
+    },
+    "city-beggars": {
+      "name": "City Beggars",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Professional mendicants operating under guild regulations in Ankh-Morpork's streets.",
+          "role": "Professional beggars",
+          "relationships": {
+            "Beggars' Guild": "Members of",
+            "Streets": "Occupy"
+          }
+        }
+      }
+    },
+    "street-vendors": {
+      "name": "Street Vendors",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Merchants selling various goods from stalls and carts throughout Ankh-Morpork.",
+          "role": "Street merchants",
+          "relationships": {
+            "Goods": "Sell",
+            "Customers": "Serve"
+          }
+        }
+      }
+    },
+    "pickpockets": {
+      "name": "Pickpockets",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Small-time thieves who work the crowds in Ankh-Morpork, often children or desperate individuals.",
+          "role": "Street thieves",
+          "relationships": {
+            "Crowds": "Work",
+            "Thieves' Guild": "May aspire to join"
+          }
+        }
+      }
+    },
+    "temple-acolytes": {
+      "name": "Temple Acolytes",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Young religious students serving in the ancient temple, learning the forbidden knowledge of Bel-Shamharoth.",
+          "role": "Religious students",
+          "relationships": {
+            "Temple priests": "Learn from",
+            "Forbidden knowledge": "Study"
+          }
+        }
+      }
+    },
+    "temple-guardians": {
+      "name": "Temple Guardians",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Warrior-priests protecting the temple from intruders and maintaining the sacred prohibitions.",
+          "role": "Sacred warriors",
+          "relationships": {
+            "Temple": "Protect",
+            "Intruders": "Repel"
+          }
+        }
+      }
+    },
+    "temple-scribes": {
+      "name": "Temple Scribes",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Religious scholars who maintain the temple's records while carefully avoiding dangerous knowledge.",
+          "role": "Religious scribes",
+          "relationships": {
+            "Temple records": "Maintain",
+            "Dangerous knowledge": "Avoid"
+          }
+        }
+      }
+    },
+    "ancient-statues": {
+      "name": "Ancient Statues",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Stone figures in the temple that may once have been living beings, transformed by ancient magic.",
+          "role": "Petrified beings",
+          "relationships": {
+            "Temple": "Decorate",
+            "Ancient magic": "Victims of"
+          }
+        }
+      }
+    },
+    "ship-cook": {
+      "name": "Ship Cook",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The galley chef responsible for feeding the crew during sea voyages, working with limited supplies.",
+          "role": "Ship's cook",
+          "relationships": {
+            "Ship crew": "Feeds",
+            "Galley": "Works in"
+          }
+        }
+      }
+    },
+    "cabin-boy": {
+      "name": "Cabin Boy",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young sailor learning the maritime trade while performing menial tasks aboard ship.",
+          "role": "Junior sailor",
+          "relationships": {
+            "Ship officers": "Serves",
+            "Maritime trade": "Learning"
+          }
+        }
+      }
+    },
+    "navigator": {
+      "name": "Ship Navigator",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The crew member responsible for plotting course and position during sea travel on the Disc's oceans.",
+          "role": "Navigation specialist",
+          "relationships": {
+            "Ship": "Guides",
+            "Stars": "Navigates by"
+          }
+        }
+      }
+    },
+    "lookout": {
+      "name": "Ship Lookout",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Sailor stationed in the crow's nest to watch for dangers, other ships, and land during voyages.",
+          "role": "Ship's watchman",
+          "relationships": {
+            "Crow's nest": "Stationed in",
+            "Dangers": "Watches for"
+          }
+        }
+      }
+    },
+    "quartermaster": {
+      "name": "Ship Quartermaster",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Officer responsible for ship's supplies, stores, and distribution of provisions to the crew.",
+          "role": "Supply officer",
+          "relationships": {
+            "Ship supplies": "Manages",
+            "Crew": "Distributes provisions to"
+          }
+        }
+      }
+    },
+    "ship-carpenter": {
+      "name": "Ship Carpenter",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Craftsman aboard ship responsible for repairs and maintenance of the vessel's wooden structure.",
+          "role": "Ship's craftsman",
+          "relationships": {
+            "Ship": "Maintains",
+            "Wood repairs": "Performs"
+          }
+        }
+      }
+    },
+    "powder-monkey": {
+      "name": "Powder Monkey",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Young crew member responsible for carrying gunpowder to cannons during naval battles.",
+          "role": "Ammunition carrier",
+          "relationships": {
+            "Cannons": "Supplies",
+            "Gunpowder": "Carries"
+          }
+        }
+      }
+    },
+    "pirate-bosun": {
+      "name": "Pirate Bosun",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Senior pirate responsible for supervising the crew and maintaining discipline aboard the pirate vessel.",
+          "role": "Pirate officer",
+          "relationships": {
+            "Pirate crew": "Supervises",
+            "Captain Dreadful": "Serves under"
+          }
+        }
+      }
+    },
+    "pirate-navigator": {
+      "name": "Pirate Navigator",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Skilled sailor who charts courses for pirate raids and knows the location of treasure islands.",
+          "role": "Pirate guide",
+          "relationships": {
+            "Pirate ship": "Navigates",
+            "Treasure locations": "Knows"
+          }
+        }
+      }
+    },
+    "pirate-gunner": {
+      "name": "Pirate Gunner",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Weapons specialist among the pirates, responsible for operating cannons during ship battles.",
+          "role": "Artillery specialist",
+          "relationships": {
+            "Ship cannons": "Operates",
+            "Naval combat": "Engages in"
+          }
+        }
+      }
+    },
+    "sea-birds": {
+      "name": "Sea Birds",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Various avian species that follow ships and inhabit the Disc's oceans, some with unusual intelligence.",
+          "role": "Ocean wildlife",
+          "relationships": {
+            "Ships": "Follow",
+            "Ocean": "Inhabit"
+          }
+        }
+      }
+    },
+    "ocean-spirits": {
+      "name": "Ocean Spirits",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Mystical entities dwelling in the Disc's seas, influencing weather and tides through magical means.",
+          "role": "Maritime spirits",
+          "relationships": {
+            "Ocean": "Inhabit",
+            "Weather": "Influence"
+          }
+        }
+      }
+    },
+    "wind-spirits": {
+      "name": "Wind Spirits",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Elemental beings that control the winds and air currents affecting sea travel.",
+          "role": "Air elementals",
+          "relationships": {
+            "Winds": "Control",
+            "Ships": "Affect travel of"
+          }
+        }
+      }
+    },
+    "storm-giants": {
+      "name": "Storm Giants",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Enormous beings associated with severe weather at sea, capable of creating dangerous storms.",
+          "role": "Weather giants",
+          "relationships": {
+            "Storms": "Create",
+            "Ships": "Endanger"
+          }
+        }
+      }
+    },
+    "dragon-eggs": {
+      "name": "Dragon Eggs",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Unhatched dragons at Wyrmberg, existing in potential until imagination brings them into reality.",
+          "role": "Potential dragons",
+          "relationships": {
+            "Dragons": "Become",
+            "Imagination": "Require for hatching"
+          }
+        }
+      }
+    },
+    "dragon-keeper": {
+      "name": "Dragon Keeper",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Wyrmberg resident responsible for tending to dragons between their periods of existence.",
+          "role": "Dragon caretaker",
+          "relationships": {
+            "Dragons": "Tends to",
+            "Wyrmberg": "Serves"
+          }
+        }
+      }
+    },
+    "wyrmberg-servants": {
+      "name": "Wyrmberg Servants",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Domestic staff at Wyrmberg who maintain the inverted mountain realm and serve its inhabitants.",
+          "role": "Domestic servants",
+          "relationships": {
+            "Wyrmberg": "Maintain",
+            "Dragonriders": "Serve"
+          }
+        }
+      }
+    },
+    "wyrmberg-cooks": {
+      "name": "Wyrmberg Cooks",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Kitchen staff at Wyrmberg preparing meals for the dragonriders and their guests.",
+          "role": "Kitchen staff",
+          "relationships": {
+            "Wyrmberg": "Work at",
+            "Dragonriders": "Feed"
+          }
+        }
+      }
+    },
+    "imagination-creatures": {
+      "name": "Imagination Creatures",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Various beings at Wyrmberg that exist through the power of belief and imagination rather than conventional reality.",
+          "role": "Imagined beings",
+          "relationships": {
+            "Imagination": "Sustained by",
+            "Wyrmberg": "Inhabit"
+          }
+        }
+      }
+    },
+    "dream-horses": {
+      "name": "Dream Horses",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Ethereal mounts that exist at Wyrmberg, possibly alternatives to dragons for transportation.",
+          "role": "Dream mounts",
+          "relationships": {
+            "Wyrmberg": "Inhabit",
+            "Dreams": "Emerge from"
+          }
+        }
+      }
+    },
+    "crystal-formations": {
+      "name": "Crystal Formations",
+      "aliases": [],
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Magical crystalline structures found in Wyrmberg and Krull, possibly focusing or storing magical energy.",
+          "role": "Magical crystals",
+          "relationships": {
+            "Magic": "Focus",
+            "Wyrmberg": "Found in"
+          }
+        }
+      }
+    },
+    "wyrmberg-librarian": {
+      "name": "Wyrmberg Librarian",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Keeper of Wyrmberg's collection of books and scrolls about dragon lore and magical theory.",
+          "role": "Keeper of lore",
+          "relationships": {
+            "Dragon lore": "Maintains",
+            "Wyrmberg": "Serves"
+          }
+        }
+      }
+    },
+    "ancient-dragons": {
+      "name": "Ancient Dragons",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Legendary dragons from Wyrmberg's past, existing now only in memory and magical potential.",
+          "role": "Legendary creatures",
+          "relationships": {
+            "Wyrmberg history": "Part of",
+            "Memory": "Preserved in"
+          }
+        }
+      }
+    },
+    "krull-architects": {
+      "name": "Krull Architects",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Designers and builders who created Krull's unique structures, including the great telescope.",
+          "role": "Master builders",
+          "relationships": {
+            "Great telescope": "Designed",
+            "Krull": "Built structures of"
+          }
+        }
+      }
+    },
+    "krull-guards": {
+      "name": "Krull Guards",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Elite warriors protecting Krull's rulers and enforcing their will throughout the island.",
+          "role": "Elite soldiers",
+          "relationships": {
+            "Hydrophobes": "Protect",
+            "Krull": "Patrol"
+          }
+        }
+      }
+    },
+    "krull-scholars": {
+      "name": "Krull Scholars",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Learned individuals studying magic, astronomy, and the nature of the Disc under Krull's rulers.",
+          "role": "Court scholars",
+          "relationships": {
+            "Knowledge": "Pursue",
+            "Hydrophobes": "Advise"
+          }
+        }
+      }
+    },
+    "krull-servants": {
+      "name": "Krull Servants",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Domestic staff serving the Hydrophobes and maintaining the palace and facilities of Krull.",
+          "role": "Palace servants",
+          "relationships": {
+            "Hydrophobes": "Serve",
+            "Palace": "Maintain"
+          }
+        }
+      }
+    },
+    "krull-craftsmen": {
+      "name": "Krull Craftsmen",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Skilled artisans creating the intricate devices and mechanisms used in Krull's magical research.",
+          "role": "Master craftsmen",
+          "relationships": {
+            "Magical devices": "Create",
+            "Dactylos": "May work with"
+          }
+        }
+      }
+    },
+    "edge-of-world": {
+      "name": "Edge of the World",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The rim of the Discworld where Krull is located, from which the Circumfence hangs into space.",
+          "role": "World boundary",
+          "relationships": {
+            "Discworld": "Boundary of",
+            "Circumfence": "Support for"
+          }
+        }
+      }
+    },
+    "circumfence": {
+      "name": "Circumfence",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The great barrier hanging from the edge of the world, designed to catch things that fall off the Disc.",
+          "role": "World barrier",
+          "relationships": {
+            "Edge of World": "Hangs from",
+            "Falling objects": "Catches"
+          }
+        }
+      }
+    },
+    "space-debris": {
+      "name": "Space Debris",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Various objects and substances floating in the space around the Discworld and Great A'Tuin.",
+          "role": "Cosmic matter",
+          "relationships": {
+            "Space": "Floats in",
+            "Great A'Tuin": "Surrounds"
+          }
+        }
+      }
+    },
+    "stellar-formations": {
+      "name": "Stellar Formations",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Star patterns and celestial bodies visible from the Disc, some of which may be magical in nature.",
+          "role": "Celestial bodies",
+          "relationships": {
+            "Night sky": "Illuminate",
+            "Magic": "May be influenced by"
+          }
+        }
+      }
+    },
+    "university-bureaucrats": {
+      "name": "University Bureaucrats",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Administrative officials at Unseen University who handle the paperwork and regulations of magical education.",
+          "role": "Academic administrators",
+          "relationships": {
+            "Unseen University": "Administer",
+            "Magical education": "Regulate"
+          }
+        }
+      }
+    },
+    "spell-components": {
+      "name": "Spell Components",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various magical materials and substances required for spell casting, stored throughout Unseen University.",
+          "role": "Magical materials",
+          "relationships": {
+            "Magic": "Required for",
+            "Wizards": "Used by"
+          }
+        }
+      }
+    },
+    "magical-apparatus": {
+      "name": "Magical Apparatus",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Various devices and tools used by wizards for magical research and spell casting at the University.",
+          "role": "Magical tools",
+          "relationships": {
+            "Wizards": "Used by",
+            "Magic": "Channel"
+          }
+        }
+      }
+    },
+    "university-traditions": {
+      "name": "University Traditions",
+      "aliases": [],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Ancient customs and practices maintained at Unseen University, governing magical education and hierarchy.",
+          "role": "Academic customs",
+          "relationships": {
+            "Unseen University": "Govern",
+            "Wizards": "Guide behavior of"
+          }
+        }
+      }
+    },
+    "magical-accidents": {
+      "name": "Magical Accidents",
+      "aliases": [],
+      "appearances": [1, 2, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Unintended magical occurrences that happen frequently around Unseen University and wherever magic is practiced.",
+          "role": "Magical mishaps",
+          "relationships": {
+            "Magic": "Result from",
+            "Wizards": "Caused by"
+          }
+        }
+      }
+    },
+    "discworld-sun": {
+      "name": "Discworld Sun",
+      "aliases": [],
+      "appearances": [1, 4, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Disc's sun, which orbits around the world rather than the other way around, providing daylight and heat.",
+          "role": "Celestial body",
+          "relationships": {
+            "Discworld": "Orbits around",
+            "Day": "Creates"
+          }
+        }
+      }
+    },
+    "rincewinds-spell": {
+      "name": "Rincewind's Spell",
+      "aliases": ["The Lodged Spell"],
+      "appearances": [1, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the eight Great Spells from the Octavo that has somehow become lodged in Rincewind's head, preventing him from learning other magic.",
+          "role": "Great Spell",
+          "relationships": {
+            "Rincewind": "Lodged in head of",
+            "The Octavo": "Originally from",
+            "Great Spells": "One of eight"
+          }
+        }
+      }
+    },
+    "temple-cats": {
+      "name": "Temple Cats",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Feline inhabitants of the ancient temple, possibly sacred animals or just ordinary cats that have made the temple their home.",
+          "role": "Temple animals",
+          "relationships": {
+            "Temple": "Inhabit",
+            "Temple priests": "Coexist with"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Rincewind, a failed wizard at Unseen University, is introduced along with the magical world of Ankh-Morpork. The Octavo, containing eight Great Spells, is missing one spell that has somehow lodged itself in Rincewind's head.",
+    "2": "Twoflower, the Disc's first tourist, arrives in Ankh-Morpork with his magical Luggage and vast wealth. He hires Rincewind as a guide, leading to encounters with the city's criminal underworld including the Thieves' Guild.",
+    "3": "The heroes encounter Bravd and The Weasel at an ancient temple where the forbidden number eight and the dreaded Bel-Shamharoth are central concerns. Herrena and other adventurers join the dangerous temple exploration.",
+    "4": "Sea travel brings encounters with pirates, sea monsters, and various maritime dangers. The magical nature of the Disc's oceans reveals itself through fantastic creatures and supernatural storms.",
+    "5": "The group reaches Wyrmberg, an inverted mountain where dragonriders like Liessa and Ksandra live. Here, dragons exist through imagination and magical force, and Hrun the Barbarian appears with his talking sword Kring.",
+    "6": "Adventures continue at Wyrmberg as the magical nature of the realm reveals itself. The imagination-powered dragons and the complex politics of the dragonriders create new challenges and alliances.",
+    "7": "The journey leads to Krull, ruled by the water-fearing Hydrophobes. Here, the great inventor Dactylos is held prisoner, and Tethis the sea troll suffers in exile from his oceanic home.",
+    "8": "The cosmic game between Fate and The Lady Who Must Not Be Named reaches its climax as the Great Spells' importance becomes clear. The story's magical elements converge as reality itself hangs in the balance."
+  }
+}
