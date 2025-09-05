@@ -571,12 +571,12 @@ After completing and pushing any series or book data:
   - 🟢 Fourth Wing: 150 characters, all recaps, v2.0
   - 🟢 Iron Flame: 177 characters, all recaps, v2.0 - FIXED SPOILERS
 
-- ✅ **Wheel of Time** (5 books complete) - 500+ total characters
-  - 🟢 Eye of the World: 100+ characters, all recaps, v2.0 ✅ SPOILER-FREE
+- ✅ **Wheel of Time** (5 books complete) - 770 total characters
+  - 🟢 Eye of the World: 199 characters, all recaps, v2.0 ✅ SPOILER-FREE
   - 🟢 Great Hunt: 201 characters, all recaps, v2.0
   - 🟢 Dragon Reborn: 143 characters, all recaps, v2.0
-  - 🟢 Shadow Rising: 100+ characters, all recaps, v2.0 ✅ FIXED
-  - 🟠 Fires of Heaven: 39 characters, all recaps, v2.0
+  - 🟢 Shadow Rising: 111 characters, all recaps, v2.0 ✅ FIXED
+  - 🟢 Fires of Heaven: 116 characters, all recaps, v2.0
 
 - ✅ **Stormlight Archive** (4 books) - 581 total characters
   - 🟢 Way of Kings: 202 characters, all recaps, v2.0
@@ -584,13 +584,13 @@ After completing and pushing any series or book data:
   - 🟢 Oathbringer: 144 characters, all recaps, v2.0
   - 🟢 Rhythm of War: 153 characters, all recaps, v2.0
 
-- ✅ **Chronicles of Narnia** (7 books) - 404 total characters
-  - 🟠 Lion, Witch, Wardrobe: 49 characters, all recaps, v2.0 ⚠️
+- ✅ **Chronicles of Narnia** (7 books) - 494 total characters
+  - 🟢 Lion, Witch, Wardrobe: 102 characters, all recaps, v2.0
   - 🟡 Prince Caspian: 65 characters, all recaps, v2.0
   - 🟡 Voyage of Dawn Treader: 51 characters, all recaps, v2.0
   - 🟡 Silver Chair: 56 characters, all recaps, v2.0
   - 🟡 Horse and His Boy: 66 characters, all recaps, v2.0
-  - 🟠 Magician's Nephew: 37 characters, all recaps, v2.0 ⚠️
+  - 🟡 Magician's Nephew: 74 characters, all recaps, v2.0
   - 🟡 Last Battle: 80 characters, all recaps, v2.0
 
 ### Partially Complete Series
@@ -676,12 +676,18 @@ None currently - all configured series have complete book coverage!
 ### Not Started
 None - all configured series now have data!
 
-### Books Needing Character Expansion
-Books that could benefit from more comprehensive coverage:
-1. **Mistborn Era 2**: Alloy of Law only has 30 characters (needs 100+)
-2. **Wheel of Time**: Fires of Heaven only has 39 characters
-3. **Narnia**: Lion/Witch/Wardrobe (49) and Magician's Nephew (37) are low
-4. **Some Witcher books** could use expansion to match other fantasy series
+### Books With Genuinely Low Character Counts
+These books actually have fewer than 100 characters:
+1. **Mistborn - Alloy of Law**: 30 characters (lowest in database)
+2. **Mistborn - Final Empire**: 63 characters (low for first book)
+3. **Mistborn - Lost Metal**: 76 characters
+4. **Mistborn - Bands of Mourning**: 87 characters
+5. **Narnia - Voyage of Dawn Treader**: 51 characters
+6. **Narnia - Silver Chair**: 56 characters
+7. **Narnia - Prince Caspian**: 65 characters
+8. **Narnia - Horse and His Boy**: 66 characters
+9. **Narnia - Magician's Nephew**: 74 characters
+10. **Narnia - Last Battle**: 80 characters
 
 ### Next Priority for NEW Series (Based on Traffic Strategy)
 1. ~~**Throne of Glass**~~ ✅ COMPLETE - Sarah J. Maas series, massive fanbase
