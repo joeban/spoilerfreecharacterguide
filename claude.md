@@ -647,10 +647,10 @@ None currently - all configured series have complete book coverage!
   - 🟡 The Dark Secret: 81 characters, all recaps, v2.0
   - 🟡 The Brightest Night: 81 characters, all recaps, v2.0
 
-- ✅ **Foundation** (5 books) - FINAL MVP SERIES! 🎉
+- ✅ **Foundation** (5 books) - 281 total characters
   - 🟡 Foundation: 57 characters, all recaps, v2.0
   - 🟠 Foundation and Empire: 32 characters, all recaps, v2.0
-  - 🟠 Second Foundation: 31 characters, all recaps, v2.0
+  - 🟢 Second Foundation: 133 characters, all recaps, v2.0
   - 🟠 Foundation's Edge: 32 characters, all recaps, v2.0
   - 🟠 Foundation and Earth: 27 characters, all recaps, v2.0
 
@@ -735,8 +735,8 @@ For each book, we:
 - **Total Series Configured**: 20 series
 - **Series with Complete Data**: 19 series (Discworld not started yet)
 - **Total Books with Data**: 93 books
-- **Total Characters**: 11,200+ unique characters across all series
-- **Recent Expansions**: Hunger Games (+82 chars), Percy Jackson (+456 chars), Fourth Wing (+165 chars)
+- **Total Characters**: 11,300+ unique characters across all series
+- **Recent Expansions**: Second Foundation (+102 chars), Hunger Games (+82 chars), Percy Jackson (+456 chars), Fourth Wing (+165 chars)
 - **Data Coverage Breakdown**:
   - 🟢 12 series with 500+ characters (comprehensive)
   - 🟡 6 series with 200-500 characters (standard)
