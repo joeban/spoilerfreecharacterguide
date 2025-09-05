@@ -1921,6 +1921,742 @@
           }
         }
       }
+    },
+    "trantor-sector-chief": {
+      "name": "Trantor Sector Chief",
+      "aliases": ["Administrative Chief"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Administrative chief overseeing a sector of Trantor's bureaucracy.",
+          "role": "Sector administrator",
+          "relationships": {
+            "administers": "Trantor sector",
+            "serves": "Imperial bureaucracy"
+          }
+        }
+      }
+    },
+    "trantor-citizen-clerk": {
+      "name": "Trantor Citizen Clerk",
+      "aliases": ["Records Clerk"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A clerk working in the vast bureaucracy of Trantor, processing records and documentation.",
+          "role": "Administrative clerk",
+          "relationships": {
+            "works for": "Imperial administration",
+            "processes": "official records"
+          }
+        }
+      }
+    },
+    "trantor-taxi-pilot": {
+      "name": "Trantor Taxi Pilot",
+      "aliases": ["Air-Taxi Operator"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Pilot operating air-taxis in Trantor's atmospheric transport system.",
+          "role": "Transport operator",
+          "relationships": {
+            "transports": "citizens around Trantor",
+            "operates": "air-taxi service"
+          }
+        }
+      }
+    },
+    "trantor-university-dean": {
+      "name": "Trantor University Dean",
+      "aliases": ["Academic Dean"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Dean at one of Trantor's universities, concerned about Seldon's controversial theories.",
+          "role": "University administrator",
+          "relationships": {
+            "administers": "university affairs",
+            "concerned about": "Seldon's research"
+          }
+        }
+      }
+    },
+    "imperial-psychologist": {
+      "name": "Imperial Psychologist",
+      "aliases": ["Court Psychologist"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A psychologist serving the Imperial court, skeptical of psychohistory's validity.",
+          "role": "Court psychological advisor",
+          "relationships": {
+            "serves": "Imperial court",
+            "skeptical of": "psychohistory"
+          }
+        }
+      }
+    },
+    "commission-stenographer": {
+      "name": "Commission Stenographer",
+      "aliases": ["Court Reporter"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Stenographer recording the proceedings of Seldon's trial before the Imperial Commission.",
+          "role": "Court recorder",
+          "relationships": {
+            "records": "trial proceedings",
+            "serves": "Imperial Commission"
+          }
+        }
+      }
+    },
+    "imperial-archivist": {
+      "name": "Imperial Archivist",
+      "aliases": ["Historical Records Keeper"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Keeper of historical records in the Imperial archives, consulted during Seldon's research.",
+          "role": "Historical archivist",
+          "relationships": {
+            "maintains": "historical records",
+            "consulted by": "researchers"
+          }
+        }
+      }
+    },
+    "terminus-colonist-leader": {
+      "name": "Terminus Colonist Leader",
+      "aliases": ["Settlement Organizer"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Leader helping organize the settlement of Terminus by Foundation colonists.",
+          "role": "Settlement coordinator",
+          "relationships": {
+            "organizes": "colony settlement",
+            "assists": "Foundation colonists"
+          }
+        }
+      }
+    },
+    "terminus-supply-officer": {
+      "name": "Terminus Supply Officer",
+      "aliases": ["Logistics Coordinator"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Officer responsible for managing supplies and logistics for the new Terminus colony.",
+          "role": "Supply coordinator",
+          "relationships": {
+            "manages": "colony supplies",
+            "coordinates": "resource distribution"
+          }
+        }
+      }
+    },
+    "terminus-medical-officer": {
+      "name": "Terminus Medical Officer",
+      "aliases": ["Colony Doctor"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Medical officer providing healthcare services to the Terminus colonists.",
+          "role": "Colony physician",
+          "relationships": {
+            "treats": "colonists",
+            "maintains": "colony health"
+          }
+        }
+      }
+    },
+    "encyclopedia-librarian": {
+      "name": "Encyclopedia Librarian",
+      "aliases": ["Chief Librarian"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Chief librarian organizing the vast collection of knowledge for the Encyclopedia Galactica project.",
+          "role": "Head librarian",
+          "relationships": {
+            "organizes": "Encyclopedia materials",
+            "serves": "Board of Trustees"
+          }
+        }
+      }
+    },
+    "encyclopedia-indexer": {
+      "name": "Encyclopedia Indexer",
+      "aliases": ["Data Cataloguer"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Specialist responsible for indexing and cataloguing information for the Encyclopedia.",
+          "role": "Information cataloger",
+          "relationships": {
+            "catalogs": "Encyclopedia entries",
+            "works under": "Encyclopedia staff"
+          }
+        }
+      }
+    },
+    "foundation-communications-tech": {
+      "name": "Foundation Communications Tech",
+      "aliases": ["Radio Operator"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Technical specialist operating Foundation's communication equipment and monitoring external signals.",
+          "role": "Communications technician",
+          "relationships": {
+            "operates": "communication equipment",
+            "monitors": "external signals"
+          }
+        }
+      }
+    },
+    "terminus-power-engineer": {
+      "name": "Terminus Power Engineer",
+      "aliases": ["Energy Systems Specialist"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Engineer maintaining Terminus's power systems and infrastructure.",
+          "role": "Power systems engineer",
+          "relationships": {
+            "maintains": "power systems",
+            "supports": "Foundation infrastructure"
+          }
+        }
+      }
+    },
+    "foundation-quartermaster": {
+      "name": "Foundation Quartermaster",
+      "aliases": ["Supply Manager"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Officer managing Foundation supplies and equipment distribution.",
+          "role": "Supply administrator",
+          "relationships": {
+            "manages": "Foundation supplies",
+            "distributes": "equipment and materials"
+          }
+        }
+      }
+    },
+    "anacreon-court-scribe": {
+      "name": "Anacreon Court Scribe",
+      "aliases": ["Royal Secretary"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Scribe recording official court proceedings and royal decrees in Anacreon.",
+          "role": "Court recorder",
+          "relationships": {
+            "records": "court proceedings",
+            "serves": "Anacreonian court"
+          }
+        }
+      }
+    },
+    "anacreon-royal-guard": {
+      "name": "Anacreon Royal Guard",
+      "aliases": ["Palace Guard"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Elite guards protecting the Anacreonian royal family and palace.",
+          "role": "Elite security",
+          "relationships": {
+            "protects": "royal family",
+            "secures": "palace"
+          }
+        }
+      }
+    },
+    "anacreon-power-priest": {
+      "name": "Anacreon Power Priest",
+      "aliases": ["Nuclear Priest"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Priest specifically trained to maintain nuclear power equipment under the Foundation religion.",
+          "role": "Technical priest",
+          "relationships": {
+            "maintains": "nuclear equipment",
+            "follows": "Foundation religion"
+          }
+        }
+      }
+    },
+    "anacreon-general-staff": {
+      "name": "Anacreon General Staff",
+      "aliases": ["Military Staff Officers"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Staff officers serving under the Anacreonian military command.",
+          "role": "Military staff",
+          "relationships": {
+            "serves": "military command",
+            "plans": "military operations"
+          }
+        }
+      }
+    },
+    "anacreon-city-mayor": {
+      "name": "Anacreon City Mayor",
+      "aliases": ["Local Administrator"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Mayor of one of Anacreon's major cities, dealing with Foundation religious influence.",
+          "role": "City administrator",
+          "relationships": {
+            "administers": "local city",
+            "deals with": "Foundation influence"
+          }
+        }
+      }
+    },
+    "foundation-missionary-priest": {
+      "name": "Foundation Missionary Priest",
+      "aliases": ["Traveling Priest"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Missionary priests spreading Foundation religion to remote areas of the Four Kingdoms.",
+          "role": "Traveling missionary",
+          "relationships": {
+            "spreads": "Foundation religion",
+            "travels to": "remote areas"
+          }
+        }
+      }
+    },
+    "four-kingdoms-merchant": {
+      "name": "Four Kingdoms Merchant",
+      "aliases": ["Local Trader"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Local merchants in the Four Kingdoms who trade in Foundation goods and technology.",
+          "role": "Local merchant",
+          "relationships": {
+            "trades in": "Foundation goods",
+            "operates in": "Four Kingdoms"
+          }
+        }
+      }
+    },
+    "smyrno-trade-representative": {
+      "name": "Smyrno Trade Representative",
+      "aliases": ["Commercial Delegate"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Representative managing trade relations between Smyrno and the Foundation.",
+          "role": "Trade delegate",
+          "relationships": {
+            "represents": "Smyrno trade interests",
+            "negotiates with": "Foundation"
+          }
+        }
+      }
+    },
+    "konom-military-attache": {
+      "name": "Konom Military Attache",
+      "aliases": ["Defense Coordinator"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Military representative from Konom coordinating the Four Kingdoms alliance.",
+          "role": "Military coordinator",
+          "relationships": {
+            "coordinates": "military alliance",
+            "represents": "Konom military"
+          }
+        }
+      }
+    },
+    "daribow-intelligence-officer": {
+      "name": "Daribow Intelligence Officer",
+      "aliases": ["Spy Coordinator"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Intelligence officer from Daribow gathering information about Foundation capabilities.",
+          "role": "Intelligence operative",
+          "relationships": {
+            "gathers": "Foundation intelligence",
+            "serves": "Four Kingdoms alliance"
+          }
+        }
+      }
+    },
+    "foundation-civil-engineer": {
+      "name": "Foundation Civil Engineer",
+      "aliases": ["Infrastructure Specialist"],
+      "appearances": [5, 6, 7, 8, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Engineer working on Foundation infrastructure and construction projects.",
+          "role": "Civil engineer",
+          "relationships": {
+            "builds": "Foundation infrastructure",
+            "maintains": "construction projects"
+          }
+        }
+      }
+    },
+    "terminus-weather-monitor": {
+      "name": "Terminus Weather Monitor",
+      "aliases": ["Meteorologist"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Scientist monitoring Terminus weather patterns and atmospheric conditions.",
+          "role": "Weather specialist",
+          "relationships": {
+            "monitors": "weather patterns",
+            "studies": "atmospheric conditions"
+          }
+        }
+      }
+    },
+    "foundation-food-supervisor": {
+      "name": "Foundation Food Supervisor",
+      "aliases": ["Agricultural Coordinator"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Supervisor managing food production and distribution on Terminus.",
+          "role": "Food coordinator",
+          "relationships": {
+            "manages": "food production",
+            "coordinates": "food distribution"
+          }
+        }
+      }
+    },
+    "trader-guild-secretary": {
+      "name": "Trader Guild Secretary",
+      "aliases": ["Guild Administrator"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Administrative secretary managing the independent trader guild's affairs.",
+          "role": "Guild administrator",
+          "relationships": {
+            "manages": "guild affairs",
+            "coordinates": "trader activities"
+          }
+        }
+      }
+    },
+    "askone-religious-guard": {
+      "name": "Askone Religious Guard",
+      "aliases": ["Temple Guardian"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Guards protecting Askonian religious sites and enforcing religious laws.",
+          "role": "Religious security",
+          "relationships": {
+            "protects": "religious sites",
+            "enforces": "religious laws"
+          }
+        }
+      }
+    },
+    "askone-trade-inspector": {
+      "name": "Askone Trade Inspector",
+      "aliases": ["Commercial Inspector"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Inspector examining Foundation goods for compliance with Askonian religious restrictions.",
+          "role": "Trade inspector",
+          "relationships": {
+            "inspects": "Foundation goods",
+            "enforces": "trade regulations"
+          }
+        }
+      }
+    },
+    "foundation-trade-lawyer": {
+      "name": "Foundation Trade Lawyer",
+      "aliases": ["Commercial Attorney"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Legal specialist handling trade disputes and commercial law for Foundation merchants.",
+          "role": "Commercial lawyer",
+          "relationships": {
+            "handles": "trade disputes",
+            "represents": "Foundation merchants"
+          }
+        }
+      }
+    },
+    "independent-trader-captain": {
+      "name": "Independent Trader Captain",
+      "aliases": ["Free Ship Captain"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Captain of an independent trading vessel competing with Foundation monopoly.",
+          "role": "Ship captain",
+          "relationships": {
+            "commands": "trading vessel",
+            "competes with": "Foundation"
+          }
+        }
+      }
+    },
+    "foundation-economic-advisor": {
+      "name": "Foundation Economic Advisor",
+      "aliases": ["Financial Counselor"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Advisor analyzing economic trends and trade policy for Foundation leadership.",
+          "role": "Economic analyst",
+          "relationships": {
+            "advises": "Foundation leadership",
+            "analyzes": "economic trends"
+          }
+        }
+      }
+    },
+    "actionist-rally-organizer": {
+      "name": "Actionist Rally Organizer",
+      "aliases": ["Political Organizer"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Organizer arranging political rallies and demonstrations for the Actionist party.",
+          "role": "Political organizer",
+          "relationships": {
+            "organizes": "political rallies",
+            "supports": "Actionist party"
+          }
+        }
+      }
+    },
+    "foundation-press-secretary": {
+      "name": "Foundation Press Secretary",
+      "aliases": ["Information Officer"],
+      "appearances": [13, 14, 15, 16],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Officer managing public information and press relations for Foundation government.",
+          "role": "Press officer",
+          "relationships": {
+            "manages": "public information",
+            "represents": "government position"
+          }
+        }
+      }
+    },
+    "korell-palace-guard": {
+      "name": "Korell Palace Guard",
+      "aliases": ["Royal Security"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Elite guards protecting the Korellian Commdor and palace complex.",
+          "role": "Palace security",
+          "relationships": {
+            "protects": "Commdor Pherl",
+            "secures": "palace complex"
+          }
+        }
+      }
+    },
+    "korell-customs-official": {
+      "name": "Korell Customs Official",
+      "aliases": ["Border Inspector"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Official managing customs inspections and trade regulations at Korellian ports.",
+          "role": "Customs inspector",
+          "relationships": {
+            "inspects": "trade goods",
+            "enforces": "customs regulations"
+          }
+        }
+      }
+    },
+    "korell-weapons-engineer": {
+      "name": "Korell Weapons Engineer",
+      "aliases": ["Military Technician"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Engineer working on Korell's nuclear weapons program with Imperial assistance.",
+          "role": "Weapons specialist",
+          "relationships": {
+            "develops": "nuclear weapons",
+            "works with": "Imperial advisors"
+          }
+        }
+      }
+    },
+    "foundation-treasury-secretary": {
+      "name": "Foundation Treasury Secretary",
+      "aliases": ["Financial Secretary"],
+      "appearances": [16, 17, 18, 19],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Secretary managing Foundation's financial affairs and treasury operations.",
+          "role": "Financial administrator",
+          "relationships": {
+            "manages": "Foundation treasury",
+            "oversees": "financial operations"
+          }
+        }
+      }
+    },
+    "korell-propaganda-minister": {
+      "name": "Korell Propaganda Minister",
+      "aliases": ["Information Minister"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Minister managing Korellian propaganda and public information during the conflict.",
+          "role": "Propaganda director",
+          "relationships": {
+            "manages": "public information",
+            "coordinates": "anti-Foundation propaganda"
+          }
+        }
+      }
+    },
+    "foundation-shipyard-foreman": {
+      "name": "Foundation Shipyard Foreman",
+      "aliases": ["Naval Construction Chief"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Foreman overseeing Foundation shipyard operations and naval vessel construction.",
+          "role": "Shipyard supervisor",
+          "relationships": {
+            "oversees": "ship construction",
+            "manages": "shipyard workers"
+          }
+        }
+      }
+    },
+    "korell-fleet-communications": {
+      "name": "Korell Fleet Communications",
+      "aliases": ["Naval Radio Officer"],
+      "appearances": [17, 18, 19],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Communications officer coordinating messages between Korellian naval vessels.",
+          "role": "Naval communications",
+          "relationships": {
+            "coordinates": "fleet communications",
+            "manages": "naval radio network"
+          }
+        }
+      }
+    },
+    "foundation-war-correspondent": {
+      "name": "Foundation War Correspondent",
+      "aliases": ["Military Reporter"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Journalist reporting on the Korellian crisis and military developments.",
+          "role": "War reporter",
+          "relationships": {
+            "reports on": "military conflict",
+            "informs": "Foundation public"
+          }
+        }
+      }
+    },
+    "korell-refugee-coordinator": {
+      "name": "Korell Refugee Coordinator",
+      "aliases": ["Displacement Officer"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Officer managing civilian displacement and refugee situations during the economic crisis.",
+          "role": "Refugee administrator",
+          "relationships": {
+            "manages": "civilian refugees",
+            "coordinates": "displacement relief"
+          }
+        }
+      }
+    },
+    "foundation-victory-celebration-organizer": {
+      "name": "Foundation Victory Celebration Organizer",
+      "aliases": ["Celebration Coordinator"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Organizer planning victory celebrations following the successful resolution of the Korellian crisis.",
+          "role": "Event coordinator",
+          "relationships": {
+            "organizes": "victory celebrations",
+            "coordinates": "public events"
+          }
+        }
+      }
     }
   },
   "recaps": {
