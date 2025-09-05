@@ -1,0 +1,2602 @@
+{
+  "meta": {
+    "title": "Sourcery",
+    "author": "Terry Pratchett",
+    "chapters": 23,
+    "schemaVersion": "2.0",
+    "asin": "0062225723"
+  },
+  "characters": {
+    "rincewind": {
+      "name": "Rincewind",
+      "aliases": ["Rincewind the Wizzard"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A wizard of Unseen University known for his cowardice and tendency to run away from danger. Wears a battered pointed hat with 'WIZZARD' written on it.",
+          "role": "Reluctant wizard",
+          "relationships": {
+            "employed by": "Unseen University",
+            "accompanied by": "The Luggage"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Possesses The Spell, one of the eight Great Spells, lodged in his mind. This makes him immune to certain magical effects but prevents him from learning other magic.",
+          "role": "Bearer of The Spell",
+          "relationships": {
+            "employed by": "Unseen University",
+            "accompanied by": "The Luggage",
+            "protected by": "The Spell"
+          }
+        }
+      }
+    },
+    "coin": {
+      "name": "Coin",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young boy with incredible magical power who arrives at Unseen University. Has golden hair and carries a staff.",
+          "role": "Powerful young wizard",
+          "relationships": {
+            "carries": "A magical staff"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Revealed to be a sourcerer - an eighth son of an eighth son of an eighth son. His power far exceeds that of normal wizards.",
+          "role": "The Sourcerer",
+          "relationships": {
+            "carries": "A magical staff",
+            "commands": "Wizards of Unseen University"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "The staff he carries contains the spirit of his father, Ipslore the Red, who guides and controls much of his actions.",
+          "role": "The Sourcerer",
+          "relationships": {
+            "son of": "Ipslore the Red",
+            "controlled by": "Ipslore's staff",
+            "commands": "Wizards worldwide"
+          }
+        }
+      }
+    },
+    "conina": {
+      "name": "Conina",
+      "aliases": ["Conina the Barbarian"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A beautiful woman with incredible fighting skills. Despite her appearance, she is deadly with weapons and has barbarian instincts.",
+          "role": "Barbarian hero",
+          "relationships": {
+            "travels with": "Rincewind",
+            "daughter of": "Cohen the Barbarian"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Daughter of Cohen the Barbarian. She inherited his fighting abilities but wishes she could be more feminine and domestic.",
+          "role": "Reluctant barbarian",
+          "relationships": {
+            "travels with": "Rincewind",
+            "daughter of": "Cohen the Barbarian",
+            "accompanied by": "Nijel"
+          }
+        }
+      }
+    },
+    "nijel": {
+      "name": "Nijel",
+      "aliases": ["Nijel the Destroyer", "Nijel the Destroyer of Scorpions"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young man who wants to be a barbarian hero but is hopelessly inept at it. Carries a book on how to be a barbarian.",
+          "role": "Aspiring barbarian",
+          "relationships": {
+            "travels with": "Conina",
+            "admires": "Conina"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "His only heroic deed so far was destroying a nest of wasps, earning him the title 'Destroyer of Scorpions' through exaggeration.",
+          "role": "Self-proclaimed destroyer",
+          "relationships": {
+            "travels with": "Conina",
+            "admires": "Conina",
+            "son of": "A hairdresser"
+          }
+        }
+      }
+    },
+    "luggage": {
+      "name": "The Luggage",
+      "aliases": ["Luggage"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A chest made from sapient pearwood that follows Rincewind everywhere. It has hundreds of little legs and can be quite violent when protecting its owner.",
+          "role": "Magical chest",
+          "relationships": {
+            "follows": "Rincewind",
+            "protects": "Rincewind"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Contains an extradimensional space inside and has a tendency to eat people who threaten Rincewind. Shows emotional attachment despite being luggage.",
+          "role": "Protective magical chest",
+          "relationships": {
+            "follows": "Rincewind",
+            "protects": "Rincewind"
+          }
+        }
+      }
+    },
+    "ipslore": {
+      "name": "Ipslore the Red",
+      "aliases": ["Ipslore"],
+      "appearances": [1, 8, 20, 21, 22, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A dead wizard whose spirit inhabits a staff. He was once a powerful wizard who was cast out from the order.",
+          "role": "Dead wizard",
+          "relationships": {
+            "inhabits": "A magical staff"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Father of Coin the Sourcerer. He bound his spirit to a staff to guide his son and achieve revenge against the wizarding establishment.",
+          "role": "Vengeful dead wizard",
+          "relationships": {
+            "father of": "Coin",
+            "inhabits": "Coin's staff",
+            "controls": "Coin"
+          }
+        }
+      }
+    },
+    "virrid-wayzygoose": {
+      "name": "Virrid Wayzygoose",
+      "aliases": ["Virrid", "Wayzygoose"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Bursar of Unseen University. A nervous wizard who keeps track of the university's finances and administration.",
+          "role": "University Bursar",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "librarian": {
+      "name": "The Librarian",
+      "aliases": ["Librarian"],
+      "appearances": [2, 3, 4, 5, 20, 21, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Librarian of Unseen University, who was transformed into an orangutan by a magical accident. He prefers his current form and communicates mainly in 'ook'.",
+          "role": "University Librarian",
+          "relationships": {
+            "works at": "Unseen University",
+            "guardian of": "L-Space"
+          }
+        }
+      }
+    },
+    "creosote": {
+      "name": "Creosote",
+      "aliases": ["The Seriph", "Seriph Creosote"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The Seriph of Al Khali, a ruler obsessed with poetry and beautiful things. He lives in luxury in his palace surrounded by fountains and gardens.",
+          "role": "Ruler of Al Khali",
+          "relationships": {
+            "rules": "Al Khali",
+            "served by": "Palace guards and servants"
+          }
+        }
+      }
+    },
+    "abrim": {
+      "name": "Abrim",
+      "aliases": ["Grand Vizier"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The Grand Vizier of Al Khali, a scheming man who serves the Seriph but has his own ambitions for power.",
+          "role": "Grand Vizier",
+          "relationships": {
+            "serves": "Creosote",
+            "advisor to": "Creosote"
+          }
+        }
+      }
+    },
+    "patrician": {
+      "name": "The Patrician",
+      "aliases": ["Lord Vetinari", "Patrician"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "The ruler of Ankh-Morpork, known for his cunning and ability to maintain order through careful manipulation and political skill.",
+          "role": "Ruler of Ankh-Morpork",
+          "relationships": {
+            "rules": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "death": {
+      "name": "Death",
+      "aliases": ["DEATH"],
+      "appearances": [21, 22, 23],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The anthropomorphic personification of Death. A tall, thin figure in a black robe who speaks in capital letters and takes a professional interest in mortality.",
+          "role": "Anthropomorphic personification",
+          "relationships": {
+            "member of": "The Four Horsemen"
+          }
+        }
+      }
+    },
+    "war": {
+      "name": "War",
+      "aliases": ["WAR"],
+      "appearances": [21, 22, 23],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "One of the Four Horsemen of the Apocalypse. Appears as a large, aggressive figure eager for conflict and battle.",
+          "role": "Horseman of the Apocalypse",
+          "relationships": {
+            "member of": "The Four Horsemen"
+          }
+        }
+      }
+    },
+    "famine": {
+      "name": "Famine",
+      "aliases": ["FAMINE"],
+      "appearances": [21, 22, 23],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "One of the Four Horsemen of the Apocalypse. Obsessed with dieting and healthy eating, despite representing hunger and starvation.",
+          "role": "Horseman of the Apocalypse",
+          "relationships": {
+            "member of": "The Four Horsemen"
+          }
+        }
+      }
+    },
+    "pestilence": {
+      "name": "Pestilence",
+      "aliases": ["PESTILENCE"],
+      "appearances": [21, 22, 23],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "One of the Four Horsemen of the Apocalypse. Represents disease and plague, often appearing sickly and covered in boils.",
+          "role": "Horseman of the Apocalypse",
+          "relationships": {
+            "member of": "The Four Horsemen"
+          }
+        }
+      }
+    },
+    "spelter": {
+      "name": "Spelter",
+      "aliases": ["Dean Spelter"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Dean at Unseen University, one of the senior wizards who helps run the institution. Known for his administrative duties.",
+          "role": "University Dean",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "carding": {
+      "name": "Carding",
+      "aliases": ["Dean Carding"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another Dean at Unseen University, part of the senior faculty. Often involved in university politics and magical research.",
+          "role": "University Dean",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "billias": {
+      "name": "Billias",
+      "aliases": ["Doctor Billias"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A senior wizard at Unseen University with the title of Doctor. Part of the university's academic hierarchy.",
+          "role": "University Doctor",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "jiglad-wert": {
+      "name": "Jiglad Wert",
+      "aliases": ["Wert"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A wizard at Unseen University, part of the faculty who witnesses the arrival of the Sourcerer.",
+          "role": "University wizard",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "gravie-derment": {
+      "name": "Gravie Derment",
+      "aliases": ["Derment"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another wizard of Unseen University, present during the important events surrounding the Sourcerer's arrival.",
+          "role": "University wizard",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "al-yat": {
+      "name": "Al Yat",
+      "aliases": [],
+      "appearances": [9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A guard in Al Khali, one of the palace guards who serves the Seriph and maintains order in the city.",
+          "role": "Palace guard",
+          "relationships": {
+            "serves": "Creosote",
+            "guards": "Al Khali palace"
+          }
+        }
+      }
+    },
+    "hakardly": {
+      "name": "Hakardly",
+      "aliases": ["Wizard Hakardly"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A wizard who becomes involved in the magical conflicts that arise from the Sourcerer's influence on the wizarding world.",
+          "role": "Wizard",
+          "relationships": {
+            "affected by": "The Sourcerer's magic"
+          }
+        }
+      }
+    },
+    "skarmer-billias": {
+      "name": "Skarmer Billias",
+      "aliases": ["Skarmer"],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A wizard involved in the growing magical war as wizards begin fighting each other under the influence of sourcery.",
+          "role": "Wizard",
+          "relationships": {
+            "influenced by": "Sourcery"
+          }
+        }
+      }
+    },
+    "larry-the-fox": {
+      "name": "Larry the Fox",
+      "aliases": ["Larry"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A thief in Ankh-Morpork, one of the criminal element that operates in the city's underworld.",
+          "role": "Thief",
+          "relationships": {
+            "operates in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "conquer": {
+      "name": "Conquer",
+      "aliases": ["Wizard Conquer"],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard who participates in the magical warfare that breaks out as sourcery influences wizards to seek power and domination.",
+          "role": "Wizard",
+          "relationships": {
+            "participant in": "The wizard wars"
+          }
+        }
+      }
+    },
+    "windle-poons": {
+      "name": "Windle Poons",
+      "aliases": ["Poons"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An extremely elderly wizard at Unseen University, so old that he's practically deaf and blind but still serves as faculty.",
+          "role": "Ancient wizard",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "merchant-of-klatch": {
+      "name": "Merchant of Klatch",
+      "aliases": ["Klatchian Merchant"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A trader from the continent of Klatch who deals in exotic goods and travels between various countries and cities.",
+          "role": "Foreign merchant",
+          "relationships": {
+            "trades in": "Exotic goods"
+          }
+        }
+      }
+    },
+    "tower-guard": {
+      "name": "Tower Guard",
+      "aliases": ["Guard"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A guard stationed at the Tower of Art in Unseen University, responsible for security in one of the most important magical buildings.",
+          "role": "University guard",
+          "relationships": {
+            "guards": "Tower of Art",
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "bursar": {
+      "name": "The Bursar",
+      "aliases": ["Bursar"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The financial administrator of Unseen University, responsible for managing the institution's money and resources.",
+          "role": "University administrator",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "dean": {
+      "name": "The Dean",
+      "aliases": ["Dean"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A senior academic position at Unseen University, one of the wizards who helps govern the institution.",
+          "role": "University Dean",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "chair-of-indefinite-studies": {
+      "name": "Chair of Indefinite Studies",
+      "aliases": ["Indefinite Studies"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professor at Unseen University who holds the academic position dealing with vague and uncertain magical phenomena.",
+          "role": "University Professor",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "lecturer-in-recent-runes": {
+      "name": "Lecturer in Recent Runes",
+      "aliases": ["Recent Runes"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An academic at Unseen University specializing in the study of modern runic magic and writing systems.",
+          "role": "University Lecturer",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "professor-of-cruel-and-unusual-geography": {
+      "name": "Professor of Cruel and Unusual Geography",
+      "aliases": ["Geography Professor"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professor at Unseen University who studies the more dangerous and bizarre geographical features of the Disc.",
+          "role": "University Professor",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "archchancellor-cutangle": {
+      "name": "Archchancellor Cutangle",
+      "aliases": ["Cutangle"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The former head of Unseen University, displaced when the Sourcerer takes control of the institution.",
+          "role": "Former Archchancellor",
+          "relationships": {
+            "former head of": "Unseen University"
+          }
+        }
+      }
+    },
+    "palace-guard-captain": {
+      "name": "Palace Guard Captain",
+      "aliases": ["Captain"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The leader of the palace guards in Al Khali, responsible for the security of the Seriph and the palace grounds.",
+          "role": "Guard Captain",
+          "relationships": {
+            "serves": "Creosote",
+            "commands": "Palace guards"
+          }
+        }
+      }
+    },
+    "fountain-guard": {
+      "name": "Fountain Guard",
+      "aliases": ["Guard"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A guard stationed near the fountains in the Seriph's palace, part of the security detail for the royal residence.",
+          "role": "Palace guard",
+          "relationships": {
+            "serves": "Creosote",
+            "stationed at": "Palace fountains"
+          }
+        }
+      }
+    },
+    "kitchen-servant": {
+      "name": "Kitchen Servant",
+      "aliases": ["Servant"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A worker in the palace kitchens of Al Khali, responsible for preparing food for the Seriph and his court.",
+          "role": "Palace servant",
+          "relationships": {
+            "serves": "Creosote",
+            "works in": "Palace kitchens"
+          }
+        }
+      }
+    },
+    "garden-slave": {
+      "name": "Garden Slave",
+      "aliases": ["Slave"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A worker responsible for maintaining the elaborate gardens of the Seriph's palace in Al Khali.",
+          "role": "Palace worker",
+          "relationships": {
+            "serves": "Creosote",
+            "tends": "Palace gardens"
+          }
+        }
+      }
+    },
+    "scribe": {
+      "name": "Palace Scribe",
+      "aliases": ["Scribe"],
+      "appearances": [9, 10, 11, 12, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A literate servant who records the Seriph's words and handles correspondence for the palace administration.",
+          "role": "Court scribe",
+          "relationships": {
+            "serves": "Creosote",
+            "records": "Palace business"
+          }
+        }
+      }
+    },
+    "eunuch": {
+      "name": "Palace Eunuch",
+      "aliases": ["Eunuch"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A castrated servant who serves in the palace, traditionally used as a trusted guardian of the royal household.",
+          "role": "Palace guardian",
+          "relationships": {
+            "serves": "Creosote",
+            "guardian of": "Palace secrets"
+          }
+        }
+      }
+    },
+    "dancing-girl": {
+      "name": "Dancing Girl",
+      "aliases": ["Dancer"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An entertainer in the Seriph's palace who performs dances for the court's amusement and pleasure.",
+          "role": "Palace entertainer",
+          "relationships": {
+            "entertains": "Creosote",
+            "performs at": "Palace court"
+          }
+        }
+      }
+    },
+    "poet": {
+      "name": "Court Poet",
+      "aliases": ["Poet"],
+      "appearances": [9, 10, 11, 12, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A poet who serves at the Seriph's court, composing verses to entertain the poetry-loving ruler of Al Khali.",
+          "role": "Court poet",
+          "relationships": {
+            "serves": "Creosote",
+            "composes for": "Creosote"
+          }
+        }
+      }
+    },
+    "wine-bearer": {
+      "name": "Wine Bearer",
+      "aliases": ["Bearer"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A servant responsible for serving wine and other beverages to the Seriph and his guests during court functions.",
+          "role": "Palace servant",
+          "relationships": {
+            "serves": "Creosote",
+            "provides": "Wine and refreshments"
+          }
+        }
+      }
+    },
+    "carpet-merchant": {
+      "name": "Carpet Merchant",
+      "aliases": ["Merchant"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A trader in Al Khali who sells carpets and rugs, including some with magical properties for transportation.",
+          "role": "Merchant",
+          "relationships": {
+            "trades in": "Carpets",
+            "operates in": "Al Khali"
+          }
+        }
+      }
+    },
+    "bazaar-vendor": {
+      "name": "Bazaar Vendor",
+      "aliases": ["Vendor"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A seller of goods in the bustling marketplace of Al Khali, dealing with various customers and exotic merchandise.",
+          "role": "Market vendor",
+          "relationships": {
+            "operates in": "Al Khali bazaar"
+          }
+        }
+      }
+    },
+    "snake-charmer": {
+      "name": "Snake Charmer",
+      "aliases": ["Charmer"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A street performer in Al Khali who uses music to control snakes, entertaining crowds in the marketplace.",
+          "role": "Street performer",
+          "relationships": {
+            "performs in": "Al Khali",
+            "controls": "Snakes"
+          }
+        }
+      }
+    },
+    "beggar": {
+      "name": "Street Beggar",
+      "aliases": ["Beggar"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A poor person who asks for charity on the streets of Al Khali, part of the city's diverse population.",
+          "role": "Street beggar",
+          "relationships": {
+            "lives in": "Al Khali streets"
+          }
+        }
+      }
+    },
+    "camel-driver": {
+      "name": "Camel Driver",
+      "aliases": ["Driver"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A person who manages and guides camels, used for transportation and trade in the desert regions around Al Khali.",
+          "role": "Animal handler",
+          "relationships": {
+            "works with": "Camels",
+            "operates in": "Desert regions"
+          }
+        }
+      }
+    },
+    "water-seller": {
+      "name": "Water Seller",
+      "aliases": ["Seller"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A vendor who sells water to thirsty customers in the hot climate of Al Khali, providing an essential service.",
+          "role": "Water vendor",
+          "relationships": {
+            "operates in": "Al Khali",
+            "provides": "Water"
+          }
+        }
+      }
+    },
+    "lamp-merchant": {
+      "name": "Lamp Merchant",
+      "aliases": ["Merchant"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A trader who sells lamps and lighting equipment, including some that may have magical properties or contain genies.",
+          "role": "Lamp seller",
+          "relationships": {
+            "trades in": "Lamps",
+            "operates in": "Al Khali bazaar"
+          }
+        }
+      }
+    },
+    "spice-merchant": {
+      "name": "Spice Merchant",
+      "aliases": ["Merchant"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A seller of exotic spices and seasonings from various parts of the Disc, providing flavoring for food and potions.",
+          "role": "Spice trader",
+          "relationships": {
+            "trades in": "Spices",
+            "operates in": "Al Khali market"
+          }
+        }
+      }
+    },
+    "date-seller": {
+      "name": "Date Seller",
+      "aliases": ["Seller"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A vendor who sells dates and other dried fruits, providing nutrition for travelers and locals in Al Khali.",
+          "role": "Fruit vendor",
+          "relationships": {
+            "trades in": "Dates",
+            "operates in": "Al Khali"
+          }
+        }
+      }
+    },
+    "silk-merchant": {
+      "name": "Silk Merchant",
+      "aliases": ["Merchant"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A trader in fine silk fabrics and clothing, dealing in luxury goods for the wealthy customers of Al Khali.",
+          "role": "Fabric merchant",
+          "relationships": {
+            "trades in": "Silk",
+            "operates in": "Al Khali bazaar"
+          }
+        }
+      }
+    },
+    "jewel-merchant": {
+      "name": "Jewel Merchant",
+      "aliases": ["Merchant"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A seller of precious stones and jewelry, offering valuable ornaments and possibly magical gems to customers.",
+          "role": "Jewelry trader",
+          "relationships": {
+            "trades in": "Jewels",
+            "operates in": "Al Khali market"
+          }
+        }
+      }
+    },
+    "perfume-seller": {
+      "name": "Perfume Seller",
+      "aliases": ["Seller"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A vendor who sells scented oils and perfumes, providing fragrances for personal use and religious ceremonies.",
+          "role": "Perfume vendor",
+          "relationships": {
+            "trades in": "Perfumes",
+            "operates in": "Al Khali"
+          }
+        }
+      }
+    },
+    "fortune-teller": {
+      "name": "Fortune Teller",
+      "aliases": ["Teller"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A person who claims to predict the future for customers, using various methods of divination in the Al Khali marketplace.",
+          "role": "Diviner",
+          "relationships": {
+            "operates in": "Al Khali bazaar",
+            "provides": "Predictions"
+          }
+        }
+      }
+    },
+    "hookah-attendant": {
+      "name": "Hookah Attendant",
+      "aliases": ["Attendant"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A servant who prepares and maintains the water pipes used for smoking in the palace and establishments of Al Khali.",
+          "role": "Smoking attendant",
+          "relationships": {
+            "serves": "Palace guests",
+            "maintains": "Hookahs"
+          }
+        }
+      }
+    },
+    "ice-giant": {
+      "name": "Ice Giant",
+      "aliases": ["Giant"],
+      "appearances": [15, 16, 17, 18],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "One of the massive frost-covered creatures that emerges as magic runs wild. These giants are made of ice and snow.",
+          "role": "Magical creature",
+          "relationships": {
+            "created by": "Wild magic"
+          }
+        }
+      }
+    },
+    "fire-elemental": {
+      "name": "Fire Elemental",
+      "aliases": ["Elemental"],
+      "appearances": [15, 16, 17, 18],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A creature of pure flame that manifests when magic becomes uncontrolled, representing the elemental force of fire.",
+          "role": "Elemental being",
+          "relationships": {
+            "manifested by": "Wild magic"
+          }
+        }
+      }
+    },
+    "water-spirit": {
+      "name": "Water Spirit",
+      "aliases": ["Spirit"],
+      "appearances": [15, 16, 17, 18],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A supernatural entity made of water that appears as magic becomes chaotic and uncontrolled throughout the world.",
+          "role": "Water being",
+          "relationships": {
+            "summoned by": "Chaotic magic"
+          }
+        }
+      }
+    },
+    "earth-spirit": {
+      "name": "Earth Spirit",
+      "aliases": ["Spirit"],
+      "appearances": [15, 16, 17, 18],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A creature of stone and soil that emerges from the ground as magical forces spiral out of control.",
+          "role": "Earth being",
+          "relationships": {
+            "risen from": "Disturbed earth"
+          }
+        }
+      }
+    },
+    "air-spirit": {
+      "name": "Air Spirit",
+      "aliases": ["Spirit"],
+      "appearances": [15, 16, 17, 18],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "An invisible force that manifests as wind and storm when magic becomes too powerful and unstable.",
+          "role": "Air being",
+          "relationships": {
+            "formed from": "Wild winds"
+          }
+        }
+      }
+    },
+    "demon": {
+      "name": "Lesser Demon",
+      "aliases": ["Demon"],
+      "appearances": [16, 17, 18],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A minor supernatural entity from the dungeon dimensions that is summoned by the excessive magical activity.",
+          "role": "Supernatural being",
+          "relationships": {
+            "summoned from": "Dungeon dimensions"
+          }
+        }
+      }
+    },
+    "palace-cook": {
+      "name": "Palace Cook",
+      "aliases": ["Cook"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The head cook in the Seriph's palace kitchen, responsible for preparing elaborate meals for the court.",
+          "role": "Palace cook",
+          "relationships": {
+            "serves": "Creosote",
+            "works in": "Palace kitchens"
+          }
+        }
+      }
+    },
+    "stable-boy": {
+      "name": "Stable Boy",
+      "aliases": ["Boy"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A young worker who cares for the horses and other animals kept in the palace stables of Al Khali.",
+          "role": "Stable worker",
+          "relationships": {
+            "works at": "Palace stables",
+            "cares for": "Palace animals"
+          }
+        }
+      }
+    },
+    "carpet-weaver": {
+      "name": "Carpet Weaver",
+      "aliases": ["Weaver"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A craftsperson who creates the intricate carpets for which Al Khali is famous, including some with flight capabilities.",
+          "role": "Artisan",
+          "relationships": {
+            "creates": "Carpets",
+            "works in": "Al Khali"
+          }
+        }
+      }
+    },
+    "tavern-keeper": {
+      "name": "Tavern Keeper",
+      "aliases": ["Keeper"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The owner and operator of a drinking establishment where travelers can find food, drink, and sometimes lodging.",
+          "role": "Tavern owner",
+          "relationships": {
+            "serves": "Travelers",
+            "operates": "A tavern"
+          }
+        }
+      }
+    },
+    "barmaid": {
+      "name": "Barmaid",
+      "aliases": ["Maid"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A woman who works in a tavern, serving drinks and food to customers and handling the daily operations.",
+          "role": "Tavern worker",
+          "relationships": {
+            "works at": "Tavern",
+            "serves": "Customers"
+          }
+        }
+      }
+    },
+    "drunk": {
+      "name": "Tavern Drunk",
+      "aliases": ["Drunk"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A regular customer at the tavern who has consumed too much alcohol and provides comic relief with slurred observations.",
+          "role": "Tavern patron",
+          "relationships": {
+            "frequents": "Tavern"
+          }
+        }
+      }
+    },
+    "thieves-guild-member": {
+      "name": "Thieves Guild Member",
+      "aliases": ["Thief"],
+      "appearances": [6, 7, 8, 19, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A member of the organized criminal organization in Ankh-Morpork that regulates thievery and related illegal activities.",
+          "role": "Guild thief",
+          "relationships": {
+            "member of": "Thieves Guild",
+            "operates in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "assassins-guild-member": {
+      "name": "Assassins Guild Member",
+      "aliases": ["Assassin"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A member of the guild of professional killers in Ankh-Morpork, trained in the art of elegant and expensive murder.",
+          "role": "Guild assassin",
+          "relationships": {
+            "member of": "Assassins Guild",
+            "operates in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "city-guard": {
+      "name": "City Guard",
+      "aliases": ["Guard"],
+      "appearances": [6, 7, 8, 19, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A member of Ankh-Morpork's city watch, responsible for maintaining order and enforcing the law in the city.",
+          "role": "City watchman",
+          "relationships": {
+            "serves": "Ankh-Morpork",
+            "enforces": "City law"
+          }
+        }
+      }
+    },
+    "merchant": {
+      "name": "City Merchant",
+      "aliases": ["Merchant"],
+      "appearances": [6, 7, 8, 19, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A trader who conducts business in Ankh-Morpork, dealing in various goods and services for profit.",
+          "role": "Trader",
+          "relationships": {
+            "operates in": "Ankh-Morpork",
+            "trades in": "Various goods"
+          }
+        }
+      }
+    },
+    "street-sweeper": {
+      "name": "Street Sweeper",
+      "aliases": ["Sweeper"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A city worker responsible for cleaning the streets of Ankh-Morpork, dealing with the constant mess and debris.",
+          "role": "City worker",
+          "relationships": {
+            "employed by": "Ankh-Morpork",
+            "cleans": "City streets"
+          }
+        }
+      }
+    },
+    "baker": {
+      "name": "City Baker",
+      "aliases": ["Baker"],
+      "appearances": [6, 7, 8, 19, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A person who bakes bread and other baked goods for sale to the citizens of Ankh-Morpork.",
+          "role": "Baker",
+          "relationships": {
+            "operates in": "Ankh-Morpork",
+            "provides": "Baked goods"
+          }
+        }
+      }
+    },
+    "fishmonger": {
+      "name": "Fishmonger",
+      "aliases": ["Fish seller"],
+      "appearances": [6, 7, 8, 19, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A vendor who sells fish and seafood in the markets of Ankh-Morpork, dealing with the river's aquatic offerings.",
+          "role": "Fish vendor",
+          "relationships": {
+            "operates in": "Ankh-Morpork market",
+            "sells": "Fish"
+          }
+        }
+      }
+    },
+    "blacksmith": {
+      "name": "City Blacksmith",
+      "aliases": ["Smith"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A metalworker who forges tools, weapons, and other metal items for the citizens and visitors of the city.",
+          "role": "Metalworker",
+          "relationships": {
+            "operates in": "Ankh-Morpork",
+            "creates": "Metal goods"
+          }
+        }
+      }
+    },
+    "seamstress": {
+      "name": "Seamstress",
+      "aliases": ["Tailor"],
+      "appearances": [6, 7, 8, 19, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A person who sews and repairs clothing, though in Ankh-Morpork the term sometimes has alternative meanings.",
+          "role": "Clothing maker",
+          "relationships": {
+            "operates in": "Ankh-Morpork",
+            "creates": "Clothing"
+          }
+        }
+      }
+    },
+    "beggar-king": {
+      "name": "Beggar King",
+      "aliases": ["King"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "The leader of the organized beggars in Ankh-Morpork, who runs begging as a regulated business enterprise.",
+          "role": "Beggar leader",
+          "relationships": {
+            "leads": "Beggars Guild",
+            "operates in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "rat-catcher": {
+      "name": "Rat Catcher",
+      "aliases": ["Catcher"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A person who makes a living catching and disposing of rats and other vermin in the city of Ankh-Morpork.",
+          "role": "Pest controller",
+          "relationships": {
+            "operates in": "Ankh-Morpork",
+            "catches": "Rats"
+          }
+        }
+      }
+    },
+    "night-soil-man": {
+      "name": "Night Soil Man",
+      "aliases": ["Soil man"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A person who collects human waste from the city's privies during the night hours, performing an essential but unpleasant job.",
+          "role": "Waste collector",
+          "relationships": {
+            "serves": "Ankh-Morpork",
+            "collects": "Waste"
+          }
+        }
+      }
+    },
+    "lamplighter": {
+      "name": "Lamplighter",
+      "aliases": ["Lighter"],
+      "appearances": [19, 20],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A city worker responsible for lighting and maintaining the oil lamps that provide illumination on Ankh-Morpork's streets.",
+          "role": "City worker",
+          "relationships": {
+            "employed by": "Ankh-Morpork",
+            "maintains": "Street lamps"
+          }
+        }
+      }
+    },
+    "river-pilot": {
+      "name": "River Pilot",
+      "aliases": ["Pilot"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A person who guides boats and ships along the Ankh River, knowing the dangerous currents and obstacles.",
+          "role": "River guide",
+          "relationships": {
+            "works on": "Ankh River",
+            "guides": "River traffic"
+          }
+        }
+      }
+    },
+    "dock-worker": {
+      "name": "Dock Worker",
+      "aliases": ["Worker"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A laborer who works at the docks and wharves of Ankh-Morpork, loading and unloading cargo from boats.",
+          "role": "Harbor worker",
+          "relationships": {
+            "works at": "Ankh-Morpork docks",
+            "handles": "Cargo"
+          }
+        }
+      }
+    },
+    "customs-officer": {
+      "name": "Customs Officer",
+      "aliases": ["Officer"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A government official who inspects goods and collects taxes on items entering or leaving Ankh-Morpork.",
+          "role": "Tax collector",
+          "relationships": {
+            "employed by": "Ankh-Morpork",
+            "inspects": "Trade goods"
+          }
+        }
+      }
+    },
+    "ship-captain": {
+      "name": "Ship Captain",
+      "aliases": ["Captain"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The commander of a merchant vessel that travels the rivers and seas, bringing goods to and from Ankh-Morpork.",
+          "role": "Ship commander",
+          "relationships": {
+            "commands": "Merchant vessel",
+            "trades with": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "sailor": {
+      "name": "Sailor",
+      "aliases": ["Seaman"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A crew member on a merchant or fishing vessel, skilled in the ways of boats and water travel.",
+          "role": "Ship crew",
+          "relationships": {
+            "serves on": "Merchant ships",
+            "works with": "Ship captains"
+          }
+        }
+      }
+    },
+    "fisherman": {
+      "name": "Fisherman",
+      "aliases": ["Fisher"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A person who catches fish from the Ankh River for food and sale, despite the river's questionable water quality.",
+          "role": "Fish catcher",
+          "relationships": {
+            "works on": "Ankh River",
+            "catches": "River fish"
+          }
+        }
+      }
+    },
+    "cohen": {
+      "name": "Cohen the Barbarian",
+      "aliases": ["Cohen"],
+      "appearances": [7, 18, 19],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A legendary barbarian hero and Conina's father. Despite his advanced age, he remains one of the most feared warriors on the Disc.",
+          "role": "Legendary barbarian",
+          "relationships": {
+            "father of": "Conina"
+          }
+        }
+      }
+    },
+    "wizard-of-klatch": {
+      "name": "Wizard of Klatch",
+      "aliases": ["Klatchian Wizard"],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard from the continent of Klatch who becomes involved in the magical warfare as sourcery spreads across the world.",
+          "role": "Foreign wizard",
+          "relationships": {
+            "from": "Klatch",
+            "participant in": "Wizard wars"
+          }
+        }
+      }
+    },
+    "wizard-of-tsort": {
+      "name": "Wizard of Tsort",
+      "aliases": ["Tsortean Wizard"],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard from the ancient city of Tsort who joins in the magical conflicts that erupt due to the Sourcerer's influence.",
+          "role": "City wizard",
+          "relationships": {
+            "from": "Tsort",
+            "participant in": "Wizard wars"
+          }
+        }
+      }
+    },
+    "wizard-of-ephebe": {
+      "name": "Wizard of Ephebe",
+      "aliases": ["Ephebian Wizard"],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard from the philosophical city-state of Ephebe who becomes involved in the worldwide magical conflict.",
+          "role": "Philosopher wizard",
+          "relationships": {
+            "from": "Ephebe",
+            "participant in": "Wizard wars"
+          }
+        }
+      }
+    },
+    "palace-musician": {
+      "name": "Palace Musician",
+      "aliases": ["Musician"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An entertainer who plays musical instruments for the court of the Seriph, providing ambiance for palace functions.",
+          "role": "Court musician",
+          "relationships": {
+            "entertains": "Creosote",
+            "performs at": "Palace court"
+          }
+        }
+      }
+    },
+    "genie": {
+      "name": "Genie",
+      "aliases": ["Djinn"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A magical being traditionally bound to serve whoever possesses its lamp, capable of granting wishes with supernatural power.",
+          "role": "Magical servant",
+          "relationships": {
+            "bound to": "Lamp owner",
+            "grants": "Wishes"
+          }
+        }
+      }
+    },
+    "carpet": {
+      "name": "Flying Carpet",
+      "aliases": ["Magic Carpet"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A enchanted carpet capable of flight, used as transportation by the heroes during their adventures. Has its own personality.",
+          "role": "Flying transport",
+          "relationships": {
+            "carries": "The heroes",
+            "enchanted with": "Flight magic"
+          }
+        }
+      }
+    },
+    "trymon": {
+      "name": "Trymon",
+      "aliases": ["Vice-Chancellor Trymon"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An ambitious wizard at Unseen University who seeks to advance his position and gain more power within the institution.",
+          "role": "Vice-Chancellor",
+          "relationships": {
+            "works at": "Unseen University",
+            "rival of": "Other senior wizards"
+          }
+        }
+      }
+    },
+    "wuffles": {
+      "name": "Wuffles",
+      "aliases": ["Senior Wrangler Wuffles"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A senior wizard at Unseen University who holds the position of Senior Wrangler in the academic hierarchy.",
+          "role": "Senior Wrangler",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "horace-worblehat": {
+      "name": "Horace Worblehat",
+      "aliases": ["Worblehat"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A wizard at Unseen University who serves as part of the faculty during the sourcerer crisis.",
+          "role": "University wizard",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "rectorette": {
+      "name": "The Rectorette",
+      "aliases": ["Rectorette"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A senior position at Unseen University, part of the administrative structure of the magical institution.",
+          "role": "University administrator",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "mustrum-ridcully": {
+      "name": "Mustrum Ridcully",
+      "aliases": ["Ridcully"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A wizard at Unseen University known for his practical approach to magic and his loud, boisterous personality.",
+          "role": "University wizard",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "stibbons": {
+      "name": "Ponder Stibbons",
+      "aliases": ["Stibbons"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young wizard at Unseen University who is more interested in the practical applications of magic than most of his colleagues.",
+          "role": "Student wizard",
+          "relationships": {
+            "studies at": "Unseen University"
+          }
+        }
+      }
+    },
+    "hex": {
+      "name": "Hex",
+      "aliases": ["The Thinking Engine"],
+      "appearances": [20, 21, 22, 23],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A magical computing device at Unseen University that can perform complex calculations and magical research.",
+          "role": "Magical computer",
+          "relationships": {
+            "located at": "Unseen University",
+            "operated by": "Ponder Stibbons"
+          }
+        }
+      }
+    },
+    "history-monk": {
+      "name": "History Monk",
+      "aliases": ["Monk"],
+      "appearances": [21, 22, 23],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "A member of the order of monks who manipulate time and history to maintain the proper flow of events.",
+          "role": "Time guardian",
+          "relationships": {
+            "member of": "History Monks",
+            "manipulates": "Time"
+          }
+        }
+      }
+    },
+    "fate": {
+      "name": "Fate",
+      "aliases": ["FATE"],
+      "appearances": [21, 22, 23],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The anthropomorphic personification of Fate, who represents destiny and predetermined outcomes in the universe.",
+          "role": "Anthropomorphic personification",
+          "relationships": {
+            "opposes": "The Lady Who Must Not Be Named"
+          }
+        }
+      }
+    },
+    "the-lady": {
+      "name": "The Lady Who Must Not Be Named",
+      "aliases": ["The Lady", "Luck"],
+      "appearances": [21, 22, 23],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The anthropomorphic personification of Luck and chance, who represents random events and unexpected outcomes.",
+          "role": "Anthropomorphic personification",
+          "relationships": {
+            "opposes": "Fate"
+          }
+        }
+      }
+    },
+    "time": {
+      "name": "Time",
+      "aliases": ["TIME"],
+      "appearances": [21, 22, 23],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "The anthropomorphic personification of Time itself, responsible for the flow of temporal events across the universe.",
+          "role": "Anthropomorphic personification",
+          "relationships": {
+            "controls": "Temporal flow"
+          }
+        }
+      }
+    },
+    "old-wizard": {
+      "name": "Old Wizard",
+      "aliases": ["Ancient Wizard"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly wizard at Unseen University who has seen many changes in the institution over the years.",
+          "role": "Elderly wizard",
+          "relationships": {
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "young-wizard": {
+      "name": "Young Wizard",
+      "aliases": ["Student"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A recently enrolled wizard at Unseen University, still learning the basics of magic and university life.",
+          "role": "Student wizard",
+          "relationships": {
+            "studies at": "Unseen University"
+          }
+        }
+      }
+    },
+    "porter": {
+      "name": "University Porter",
+      "aliases": ["Porter"],
+      "appearances": [2, 3, 4, 5, 20, 21, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The gatekeeper of Unseen University who controls access to the institution and knows all the university gossip.",
+          "role": "University gatekeeper",
+          "relationships": {
+            "guards": "University entrance",
+            "works at": "Unseen University"
+          }
+        }
+      }
+    },
+    "janitor": {
+      "name": "University Janitor",
+      "aliases": ["Janitor"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A maintenance worker at Unseen University responsible for cleaning and basic repairs around the magical institution.",
+          "role": "University maintenance",
+          "relationships": {
+            "works at": "Unseen University",
+            "maintains": "University buildings"
+          }
+        }
+      }
+    },
+    "cook": {
+      "name": "University Cook",
+      "aliases": ["Cook"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The head cook of Unseen University's kitchen, responsible for feeding the wizards and staff of the institution.",
+          "role": "University cook",
+          "relationships": {
+            "works at": "Unseen University",
+            "feeds": "University community"
+          }
+        }
+      }
+    },
+    "kitchen-hand": {
+      "name": "Kitchen Hand",
+      "aliases": ["Scullery worker"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A low-level worker in the university kitchen who helps prepare meals and clean dishes for the academic community.",
+          "role": "Kitchen worker",
+          "relationships": {
+            "works at": "Unseen University",
+            "assists": "University cook"
+          }
+        }
+      }
+    },
+    "gardener": {
+      "name": "University Gardener",
+      "aliases": ["Groundskeeper"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The person responsible for maintaining the grounds and gardens of Unseen University, including some magical plants.",
+          "role": "Groundskeeper",
+          "relationships": {
+            "works at": "Unseen University",
+            "tends": "University grounds"
+          }
+        }
+      }
+    },
+    "raven": {
+      "name": "Tower Raven",
+      "aliases": ["Raven"],
+      "appearances": [4, 5, 20, 21, 22, 23],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An intelligent bird that lives in the Tower of Art, able to speak and observe the magical activities of the university.",
+          "role": "Magical bird",
+          "relationships": {
+            "lives at": "Tower of Art",
+            "observes": "University activities"
+          }
+        }
+      }
+    },
+    "gargoyle": {
+      "name": "University Gargoyle",
+      "aliases": ["Stone Guardian"],
+      "appearances": [2, 3, 4, 5, 20, 21, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A stone creature that serves as a guardian and observer at Unseen University, able to come to life when needed.",
+          "role": "Stone guardian",
+          "relationships": {
+            "protects": "Unseen University",
+            "watches over": "University grounds"
+          }
+        }
+      }
+    },
+    "ghost": {
+      "name": "University Ghost",
+      "aliases": ["Spectral Resident"],
+      "appearances": [2, 3, 4, 5, 20, 21, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The spirit of a former wizard who died in the university and continues to haunt its halls, offering occasional advice.",
+          "role": "University spirit",
+          "relationships": {
+            "haunts": "Unseen University",
+            "former": "University wizard"
+          }
+        }
+      }
+    },
+    "bathroom-monster": {
+      "name": "Bathroom Monster",
+      "aliases": ["Thing in the Drains"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A mysterious creature that lives in the plumbing of Unseen University, occasionally emerging from drains and toilets.",
+          "role": "Drain dweller",
+          "relationships": {
+            "lives in": "University plumbing"
+          }
+        }
+      }
+    },
+    "thinking-brain": {
+      "name": "Preserved Brain",
+      "aliases": ["Brain in a Jar"],
+      "appearances": [20, 21, 22, 23],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "The preserved brain of a former wizard, kept alive in a jar to provide advice and knowledge to the university.",
+          "role": "Preserved advisor",
+          "relationships": {
+            "advises": "University wizards",
+            "former": "University wizard"
+          }
+        }
+      }
+    },
+    "tower-spirit": {
+      "name": "Tower Spirit",
+      "aliases": ["Art Spirit"],
+      "appearances": [4, 5, 20, 21, 22, 23],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The supernatural entity that inhabits the Tower of Art, the tallest structure at Unseen University.",
+          "role": "Tower guardian",
+          "relationships": {
+            "inhabits": "Tower of Art",
+            "protects": "University's highest point"
+          }
+        }
+      }
+    },
+    "library-spider": {
+      "name": "Library Spider",
+      "aliases": ["Book Spider"],
+      "appearances": [2, 3, 4, 5, 20, 21, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A large spider that lives in the Library of L-Space, helping to maintain the books and occasionally eating overdue borrowers.",
+          "role": "Library guardian",
+          "relationships": {
+            "lives in": "L-Space Library",
+            "assists": "The Librarian"
+          }
+        }
+      }
+    },
+    "book-worm": {
+      "name": "Bookworm",
+      "aliases": ["Literary Parasite"],
+      "appearances": [2, 3, 4, 5, 20, 21, 22, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Literal worms that eat books, particularly problematic in a magical library where they can gain knowledge from consumed texts.",
+          "role": "Library pest",
+          "relationships": {
+            "infests": "L-Space Library",
+            "eats": "Books"
+          }
+        }
+      }
+    },
+    "mad-scientist": {
+      "name": "Mad Alchemist",
+      "aliases": ["Laboratory Researcher"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An eccentric researcher at Unseen University who conducts dangerous experiments in the basement laboratories.",
+          "role": "University researcher",
+          "relationships": {
+            "works at": "Unseen University",
+            "experiments in": "University laboratories"
+          }
+        }
+      }
+    },
+    "assistant-researcher": {
+      "name": "Research Assistant",
+      "aliases": ["Laboratory Helper"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A brave or foolish person who helps the mad alchemist with dangerous experiments, often suffering minor explosions.",
+          "role": "Laboratory assistant",
+          "relationships": {
+            "assists": "Mad Alchemist",
+            "works at": "University laboratories"
+          }
+        }
+      }
+    },
+    "harem-guard-1": {
+      "name": "First Harem Guard",
+      "aliases": ["Guard Captain"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A eunuch guard who protects the Seriph's harem, skilled in combat and completely loyal to his master.",
+          "role": "Harem protector",
+          "relationships": {
+            "serves": "Creosote",
+            "protects": "Palace harem"
+          }
+        }
+      }
+    },
+    "harem-guard-2": {
+      "name": "Second Harem Guard",
+      "aliases": ["Silent Guard"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Another eunuch guard of the harem, known for his complete silence and deadly efficiency with a scimitar.",
+          "role": "Harem guardian",
+          "relationships": {
+            "serves": "Creosote",
+            "guards": "Palace women"
+          }
+        }
+      }
+    },
+    "concubine-1": {
+      "name": "First Concubine",
+      "aliases": ["Favorite"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The Seriph's favorite concubine, known for her beauty and intelligence, often consulted on palace matters.",
+          "role": "Palace concubine",
+          "relationships": {
+            "serves": "Creosote",
+            "advises": "Creosote"
+          }
+        }
+      }
+    },
+    "concubine-2": {
+      "name": "Second Concubine",
+      "aliases": ["The Dancer"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A skilled dancer among the Seriph's concubines, famous for her graceful movements and exotic performances.",
+          "role": "Palace entertainer",
+          "relationships": {
+            "serves": "Creosote",
+            "entertains": "Palace court"
+          }
+        }
+      }
+    },
+    "concubine-3": {
+      "name": "Third Concubine",
+      "aliases": ["The Singer"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A concubine with a beautiful voice who sings for the Seriph and his guests during palace entertainments.",
+          "role": "Palace musician",
+          "relationships": {
+            "serves": "Creosote",
+            "performs for": "Palace guests"
+          }
+        }
+      }
+    },
+    "treasurer": {
+      "name": "Palace Treasurer",
+      "aliases": ["Gold Counter"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The financial administrator of the Seriph's palace, responsible for managing the vast wealth and treasures.",
+          "role": "Financial manager",
+          "relationships": {
+            "serves": "Creosote",
+            "manages": "Palace treasury"
+          }
+        }
+      }
+    },
+    "tax-collector": {
+      "name": "Tax Collector",
+      "aliases": ["Revenue Gatherer"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An official who collects taxes and tribute from the citizens of Al Khali for the Seriph's treasury.",
+          "role": "Government collector",
+          "relationships": {
+            "serves": "Creosote",
+            "collects from": "Al Khali citizens"
+          }
+        }
+      }
+    },
+    "judge": {
+      "name": "Palace Judge",
+      "aliases": ["Court Justice"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A legal official who administers justice in the Seriph's name, deciding criminal cases and civil disputes.",
+          "role": "Legal administrator",
+          "relationships": {
+            "serves": "Creosote",
+            "administers": "Palace justice"
+          }
+        }
+      }
+    },
+    "executioner": {
+      "name": "Royal Executioner",
+      "aliases": ["Headsman"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The official responsible for carrying out death sentences passed by the palace court, skilled with various implements.",
+          "role": "Court executioner",
+          "relationships": {
+            "serves": "Creosote",
+            "executes": "Palace justice"
+          }
+        }
+      }
+    },
+    "torturer": {
+      "name": "Palace Torturer",
+      "aliases": ["Pain Master"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An expert in extracting information and confessions through various painful methods in the palace dungeons.",
+          "role": "Information extractor",
+          "relationships": {
+            "serves": "Creosote",
+            "works in": "Palace dungeons"
+          }
+        }
+      }
+    },
+    "dungeon-guard": {
+      "name": "Dungeon Guard",
+      "aliases": ["Jailer"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A guard who watches over prisoners in the palace dungeons, ensuring they don't escape their confinement.",
+          "role": "Prison guard",
+          "relationships": {
+            "serves": "Creosote",
+            "guards": "Palace prisoners"
+          }
+        }
+      }
+    },
+    "prisoner": {
+      "name": "Palace Prisoner",
+      "aliases": ["Captive"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An unfortunate individual locked in the palace dungeons, awaiting judgment or serving a sentence.",
+          "role": "Captive",
+          "relationships": {
+            "imprisoned by": "Creosote",
+            "guarded by": "Dungeon guards"
+          }
+        }
+      }
+    },
+    "camel": {
+      "name": "Palace Camel",
+      "aliases": ["Desert Ship"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "One of the camels kept at the palace for transportation across the desert, known for its stubborn temperament.",
+          "role": "Transport animal",
+          "relationships": {
+            "owned by": "Creosote",
+            "cared for by": "Stable workers"
+          }
+        }
+      }
+    },
+    "horse": {
+      "name": "Palace Horse",
+      "aliases": ["Royal Steed"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A fine horse kept in the palace stables, used for royal processions and important journeys.",
+          "role": "Royal mount",
+          "relationships": {
+            "owned by": "Creosote",
+            "tended by": "Stable hands"
+          }
+        }
+      }
+    },
+    "elephant": {
+      "name": "Royal Elephant",
+      "aliases": ["Great Beast"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A magnificent elephant kept as a symbol of the Seriph's power and wealth, used in ceremonial processions.",
+          "role": "Ceremonial animal",
+          "relationships": {
+            "owned by": "Creosote",
+            "symbol of": "Royal power"
+          }
+        }
+      }
+    },
+    "monkey": {
+      "name": "Palace Monkey",
+      "aliases": ["Court Jester"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A clever monkey that entertains the court with its antics and occasionally serves as an unofficial messenger.",
+          "role": "Court entertainer",
+          "relationships": {
+            "entertains": "Creosote",
+            "amuses": "Palace court"
+          }
+        }
+      }
+    },
+    "parrot": {
+      "name": "Talking Parrot",
+      "aliases": ["Wise Bird"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An intelligent parrot that can speak multiple languages and sometimes repeats overheard palace secrets.",
+          "role": "Palace bird",
+          "relationships": {
+            "entertains": "Creosote",
+            "knows": "Palace secrets"
+          }
+        }
+      }
+    },
+    "peacock": {
+      "name": "Royal Peacock",
+      "aliases": ["Pride Bird"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A beautiful peacock that struts through the palace gardens, admired for its magnificent plumage.",
+          "role": "Ornamental bird",
+          "relationships": {
+            "decorates": "Palace gardens",
+            "owned by": "Creosote"
+          }
+        }
+      }
+    },
+    "snake": {
+      "name": "Sacred Snake",
+      "aliases": ["Temple Serpent"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A large snake kept in the palace temple, considered sacred and fed offerings by the court.",
+          "role": "Sacred animal",
+          "relationships": {
+            "worshipped by": "Palace court",
+            "lives in": "Palace temple"
+          }
+        }
+      }
+    },
+    "priest": {
+      "name": "Palace Priest",
+      "aliases": ["Holy Man"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A religious official who conducts ceremonies and rituals in the palace temple, advising on spiritual matters.",
+          "role": "Religious advisor",
+          "relationships": {
+            "serves": "Creosote",
+            "conducts": "Palace ceremonies"
+          }
+        }
+      }
+    },
+    "acolyte": {
+      "name": "Temple Acolyte",
+      "aliases": ["Student Priest"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A young person learning the religious duties and ceremonies under the guidance of the palace priest.",
+          "role": "Religious student",
+          "relationships": {
+            "studies under": "Palace priest",
+            "serves at": "Palace temple"
+          }
+        }
+      }
+    },
+    "astrologer": {
+      "name": "Court Astrologer",
+      "aliases": ["Star Reader"],
+      "appearances": [9, 10, 11, 12, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A learned person who reads the stars and provides predictions and advice based on celestial movements.",
+          "role": "Celestial advisor",
+          "relationships": {
+            "advises": "Creosote",
+            "reads": "Stars and omens"
+          }
+        }
+      }
+    },
+    "doctor": {
+      "name": "Palace Doctor",
+      "aliases": ["Court Physician"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The medical professional who tends to the health of the Seriph and his court, knowledgeable in herbs and healing.",
+          "role": "Court physician",
+          "relationships": {
+            "treats": "Creosote",
+            "cares for": "Palace court"
+          }
+        }
+      }
+    },
+    "apothecary": {
+      "name": "Palace Apothecary",
+      "aliases": ["Medicine Maker"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A person who prepares medicines, potions, and remedies for the palace doctor and court.",
+          "role": "Medicine preparer",
+          "relationships": {
+            "assists": "Palace doctor",
+            "prepares": "Medicines"
+          }
+        }
+      }
+    },
+    "guard-captain-al-khali": {
+      "name": "Al Khali Guard Captain",
+      "aliases": ["City Captain"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The leader of the city guard in Al Khali, responsible for maintaining order in the streets and markets.",
+          "role": "City guard leader",
+          "relationships": {
+            "commands": "City guards",
+            "serves": "Creosote"
+          }
+        }
+      }
+    },
+    "city-guard-al-khali": {
+      "name": "Al Khali City Guard",
+      "aliases": ["Street Guard"],
+      "appearances": [9, 10, 11, 12, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A member of the city watch in Al Khali, patrolling the streets and keeping peace in the bustling city.",
+          "role": "City watchman",
+          "relationships": {
+            "serves": "Al Khali Guard Captain",
+            "patrols": "City streets"
+          }
+        }
+      }
+    },
+    "market-inspector": {
+      "name": "Market Inspector",
+      "aliases": ["Trade Official"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An official who inspects goods in the Al Khali marketplace, ensuring quality and collecting fees from merchants.",
+          "role": "Trade regulator",
+          "relationships": {
+            "regulates": "Market trade",
+            "collects from": "Merchants"
+          }
+        }
+      }
+    },
+    "weight-keeper": {
+      "name": "Weight Keeper",
+      "aliases": ["Measure Master"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An official responsible for maintaining standard weights and measures in the Al Khali marketplace.",
+          "role": "Standards keeper",
+          "relationships": {
+            "maintains": "Trading standards",
+            "works in": "Al Khali market"
+          }
+        }
+      }
+    },
+    "money-changer": {
+      "name": "Money Changer",
+      "aliases": ["Currency Exchanger"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A financial professional who exchanges foreign currencies for travelers and merchants visiting Al Khali.",
+          "role": "Currency trader",
+          "relationships": {
+            "serves": "Travelers",
+            "operates in": "Al Khali market"
+          }
+        }
+      }
+    },
+    "caravan-master": {
+      "name": "Caravan Master",
+      "aliases": ["Trade Leader"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The leader of a merchant caravan that travels between cities, organizing trade expeditions and protecting goods.",
+          "role": "Caravan leader",
+          "relationships": {
+            "leads": "Merchant caravans",
+            "trades with": "Al Khali"
+          }
+        }
+      }
+    },
+    "caravan-guard": {
+      "name": "Caravan Guard",
+      "aliases": ["Trade Protector"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A warrior hired to protect merchant caravans from bandits and other dangers during their journeys.",
+          "role": "Caravan protector",
+          "relationships": {
+            "protects": "Merchant caravans",
+            "employed by": "Caravan masters"
+          }
+        }
+      }
+    },
+    "bandit": {
+      "name": "Desert Bandit",
+      "aliases": ["Caravan Raider"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A criminal who attacks and robs merchant caravans traveling through the desert regions around Al Khali.",
+          "role": "Desert criminal",
+          "relationships": {
+            "attacks": "Merchant caravans",
+            "operates in": "Desert regions"
+          }
+        }
+      }
+    },
+    "nomad": {
+      "name": "Desert Nomad",
+      "aliases": ["Wanderer"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A member of a wandering tribe that travels through the desert, living a traditional lifestyle.",
+          "role": "Tribal wanderer",
+          "relationships": {
+            "member of": "Desert tribe",
+            "travels through": "Desert regions"
+          }
+        }
+      }
+    },
+    "tribal-chief": {
+      "name": "Tribal Chief",
+      "aliases": ["Desert Leader"],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The leader of a nomadic desert tribe, respected for wisdom and skill in surviving the harsh desert environment.",
+          "role": "Tribal leader",
+          "relationships": {
+            "leads": "Desert nomads",
+            "rules": "Tribal territory"
+          }
+        }
+      }
+    },
+    "djinn": {
+      "name": "Greater Djinn",
+      "aliases": ["Powerful Genie"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A powerful supernatural being from the elemental plane of fire, far more potent than ordinary genies.",
+          "role": "Elemental lord",
+          "relationships": {
+            "commands": "Lesser genies",
+            "from": "Elemental fire plane"
+          }
+        }
+      }
+    },
+    "ifrit": {
+      "name": "Ifrit",
+      "aliases": ["Fire Demon"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A malevolent fire spirit with incredible power, more dangerous and less controllable than djinn.",
+          "role": "Fire spirit",
+          "relationships": {
+            "enemy of": "Humans",
+            "made of": "Elemental fire"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Ipslore the Red, a dying wizard, binds his spirit to a staff to ensure his son becomes the most powerful wizard ever. The staff and his newborn son disappear into the night.",
+    "2": "At Unseen University, the wizards go about their daily routines when a young boy with a staff arrives claiming to be a sourcerer. The wizards are skeptical but intrigued by his apparent power.",
+    "3": "The boy demonstrates incredible magical abilities that far exceed normal wizardry, proving he is indeed a sourcerer. The wizards begin to realize the implications of having such power in their midst.",
+    "4": "Rincewind tries to escape the university as the sourcerer's influence grows, but finds himself trapped. The Luggage becomes increasingly agitated by the magical disturbances.",
+    "5": "The sourcerer, revealed to be named Coin, begins transforming Unseen University according to his father's wishes. Wizards worldwide start feeling the effects of sourcery returning to the world.",
+    "6": "Rincewind escapes the university and encounters Conina, a beautiful woman with deadly fighting skills. They meet in a tavern where Conina reveals she's seeking adventure despite her fearsome abilities.",
+    "7": "Conina explains she's the daughter of Cohen the Barbarian and has inherited his fighting instincts. They meet Nijel, an incompetent would-be barbarian hero who immediately falls for Conina.",
+    "8": "The trio learns about the growing magical war as wizards across the Disc begin fighting each other. Conina reluctantly leads their group while Nijel tries to prove his heroic worth.",
+    "9": "The heroes arrive in Al Khali, where they encounter the Seriph Creosote and his luxurious palace. The Seriph is obsessed with poetry while his Grand Vizier Abrim schemes in the background.",
+    "10": "In Al Khali, magical disturbances begin affecting the city as the worldwide wizard war intensifies. The heroes witness the growing chaos caused by sourcery's return.",
+    "11": "The group encounters various magical phenomena, including genies and flying carpets, as Al Khali becomes caught up in the magical upheaval spreading across the world.",
+    "12": "The magical chaos in Al Khali worsens as wizards battle and reality becomes increasingly unstable. The Seriph's palace begins experiencing supernatural disturbances.",
+    "13": "Strange creatures and magical anomalies appear throughout Al Khali as the sourcerer's influence spreads. The heroes realize they must take action to stop the growing magical catastrophe.",
+    "14": "The magical war reaches its peak as wizards battle across multiple cities and countries. Reality begins breaking down under the strain of uncontrolled sourcery.",
+    "15": "Ice Giants and other magical creatures emerge as the fabric of reality weakens. The world faces destruction as sourcery overwhelms the natural order of magic.",
+    "16": "Elemental creatures and demons begin manifesting as the boundaries between dimensions weaken. The heroes witness the apocalyptic consequences of unchecked magical power.",
+    "17": "The magical catastrophe reaches critical levels with reality itself beginning to unravel. Strange creatures from other dimensions start appearing across the world.",
+    "18": "The world teeters on the brink of magical destruction as sourcery threatens to tear apart the very fabric of existence. The heroes realize drastic action is needed.",
+    "19": "The heroes return to Ankh-Morpork to find the city affected by the magical chaos. The Patrician observes the unfolding crisis with his typical calculating demeanor.",
+    "20": "At Unseen University, the final confrontation approaches as the sourcerer's power threatens to destroy everything. The Librarian and other university figures prepare for the climax.",
+    "21": "The Four Horsemen of the Apocalypse appear as reality nears complete collapse. Death, War, Famine, and Pestilence witness the potential end of the world.",
+    "22": "In the climactic battle, the true nature of the sourcerer's power and his father's influence becomes fully apparent. The fate of magic itself hangs in the balance.",
+    "23": "The crisis reaches its resolution as the sourcerer must choose between his father's vengeful plans and saving the world. The future of magic and reality depends on his decision."
+  }
+}
