@@ -1357,6 +1357,1446 @@
           }
         }
       }
+    },
+    "nurse-garcia": {
+      "name": "Nurse Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [33, 37, 41, 45, 49],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Earth medical worker providing emergency care during the disaster response.",
+          "role": "Emergency Nurse",
+          "relationships": {
+            "Service": "Emergency medical",
+            "Location": "Earth disaster zones"
+          }
+        }
+      }
+    },
+    "firefighter-brown": {
+      "name": "Firefighter Brown",
+      "aliases": ["Brown"],
+      "appearances": [33, 37, 41, 45],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Earth emergency responder working to rescue people from the devastation.",
+          "role": "Emergency Responder",
+          "relationships": {
+            "Service": "Fire and rescue",
+            "Mission": "Disaster rescue"
+          }
+        }
+      }
+    },
+    "corporal-hayes": {
+      "name": "Corporal Hayes",
+      "aliases": ["Hayes"],
+      "appearances": [33, 37, 41, 45, 49],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Earth military personnel involved in disaster response and evacuation efforts.",
+          "role": "Military Responder",
+          "relationships": {
+            "Service": "Earth military",
+            "Mission": "Evacuation operations"
+          }
+        }
+      }
+    },
+    "volunteer-kim": {
+      "name": "Volunteer Kim",
+      "aliases": ["V. Kim"],
+      "appearances": [37, 41, 45, 49],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Civilian volunteer helping with relief efforts in the aftermath of Earth's crisis.",
+          "role": "Relief Volunteer",
+          "relationships": {
+            "Service": "Disaster relief",
+            "Focus": "Survivor assistance"
+          }
+        }
+      }
+    },
+    "engineer-santos": {
+      "name": "Engineer Santos",
+      "aliases": ["Santos"],
+      "appearances": [33, 37, 41, 45, 49],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Infrastructure engineer working to restore critical systems after the disaster.",
+          "role": "Infrastructure Engineer",
+          "relationships": {
+            "Work": "System restoration",
+            "Priority": "Critical infrastructure"
+          }
+        }
+      }
+    },
+    "shelter-director-wang": {
+      "name": "Shelter Director Wang",
+      "aliases": ["Wang"],
+      "appearances": [37, 41, 45, 49, 53],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Administrator running emergency shelters for Earth disaster survivors.",
+          "role": "Shelter Director",
+          "relationships": {
+            "Responsibility": "Emergency shelters",
+            "Mission": "Survivor care"
+          }
+        }
+      }
+    },
+    "counselor-okafor": {
+      "name": "Counselor Okafor",
+      "aliases": ["Okafor"],
+      "appearances": [41, 45, 49, 53],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "Mental health counselor providing psychological support to Earth disaster survivors.",
+          "role": "Crisis Counselor",
+          "relationships": {
+            "Service": "Mental health support",
+            "Focus": "Trauma recovery"
+          }
+        }
+      }
+    },
+    "supply-officer-martinez": {
+      "name": "Supply Officer Martinez",
+      "aliases": ["S. Martinez"],
+      "appearances": [37, 41, 45, 49],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Logistics officer managing supply distribution to Earth disaster zones.",
+          "role": "Supply Coordinator",
+          "relationships": {
+            "Service": "Supply distribution",
+            "Territory": "Disaster zones"
+          }
+        }
+      }
+    },
+    "refugee-coordinator-thomson": {
+      "name": "Refugee Coordinator Thomson",
+      "aliases": ["Thomson"],
+      "appearances": [41, 45, 49, 53],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "Aid worker coordinating refugee resettlement from Earth to other locations.",
+          "role": "Refugee Coordinator",
+          "relationships": {
+            "Mission": "Refugee resettlement",
+            "Challenge": "Mass displacement"
+          }
+        }
+      }
+    },
+    "search-team-leader-jones": {
+      "name": "Search Team Leader Jones",
+      "aliases": ["Jones"],
+      "appearances": [33, 37, 41, 45],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Leader of search and rescue teams looking for survivors in the Earth disaster zones.",
+          "role": "Search and Rescue Leader",
+          "relationships": {
+            "Team": "Search and rescue",
+            "Mission": "Survivor location"
+          }
+        }
+      }
+    },
+    "communications-officer-patel": {
+      "name": "Communications Officer Patel",
+      "aliases": ["C. Patel"],
+      "appearances": [33, 37, 41, 45, 49],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Earth military communications officer trying to coordinate response efforts.",
+          "role": "Communications Officer",
+          "relationships": {
+            "Service": "Military communications",
+            "Challenge": "System coordination"
+          }
+        }
+      }
+    },
+    "transport-captain-lee": {
+      "name": "Transport Captain Lee",
+      "aliases": ["T. Lee"],
+      "appearances": [37, 41, 45, 49],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Ship captain organizing evacuations from Earth to safer locations in the system.",
+          "role": "Evacuation Captain",
+          "relationships": {
+            "Mission": "Earth evacuation",
+            "Service": "Civilian transport"
+          }
+        }
+      }
+    },
+    "medical-chief-williams": {
+      "name": "Medical Chief Williams",
+      "aliases": ["Chief Williams"],
+      "appearances": [37, 41, 45, 49, 53],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Chief medical officer coordinating all medical response efforts to Earth's crisis.",
+          "role": "Chief Medical Officer",
+          "relationships": {
+            "Department": "Emergency medical services",
+            "Responsibility": "Medical coordination"
+          }
+        }
+      }
+    },
+    "relief-worker-chen": {
+      "name": "Relief Worker Chen",
+      "aliases": ["R. Chen"],
+      "appearances": [41, 45, 49, 53],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "International aid worker providing humanitarian assistance to Earth disaster victims.",
+          "role": "Humanitarian Worker",
+          "relationships": {
+            "Organization": "International aid",
+            "Focus": "Humanitarian assistance"
+          }
+        }
+      }
+    },
+    "food-service-director-clark": {
+      "name": "Food Service Director Clark",
+      "aliases": ["Clark"],
+      "appearances": [41, 45, 49, 53],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "Administrator managing food distribution to Earth disaster survivors and refugees.",
+          "role": "Food Service Director",
+          "relationships": {
+            "Service": "Emergency food distribution",
+            "Challenge": "Supply logistics"
+          }
+        }
+      }
+    },
+    "security-chief-rodriguez": {
+      "name": "Security Chief Rodriguez",
+      "aliases": ["R. Rodriguez"],
+      "appearances": [41, 45, 49, 53],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "Security officer maintaining order in Earth refugee camps and disaster zones.",
+          "role": "Refugee Security Chief",
+          "relationships": {
+            "Responsibility": "Camp security",
+            "Challenge": "Maintaining order"
+          }
+        }
+      }
+    },
+    "housing-coordinator-taylor": {
+      "name": "Housing Coordinator Taylor",
+      "aliases": ["Taylor"],
+      "appearances": [45, 49, 53],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Administrator managing temporary housing for Earth refugees and displaced persons.",
+          "role": "Housing Coordinator",
+          "relationships": {
+            "Service": "Refugee housing",
+            "Focus": "Temporary accommodation"
+          }
+        }
+      }
+    },
+    "utility-engineer-davis": {
+      "name": "Utility Engineer Davis",
+      "aliases": ["U. Davis"],
+      "appearances": [37, 41, 45, 49],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Earth infrastructure engineer working to restore power, water, and communications.",
+          "role": "Utility Engineer",
+          "relationships": {
+            "Work": "Utility restoration",
+            "Priority": "Essential services"
+          }
+        }
+      }
+    },
+    "cleanup-supervisor-miller": {
+      "name": "Cleanup Supervisor Miller",
+      "aliases": ["C. Miller"],
+      "appearances": [37, 41, 45, 49, 53],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Supervisor managing the massive cleanup operations in Earth's devastated areas.",
+          "role": "Cleanup Supervisor",
+          "relationships": {
+            "Work": "Disaster cleanup",
+            "Scope": "Large-scale operations"
+          }
+        }
+      }
+    },
+    "environmental-specialist-green": {
+      "name": "Environmental Specialist Green",
+      "aliases": ["Green"],
+      "appearances": [41, 45, 49, 53],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "Environmental scientist assessing the long-term impact of the disaster on Earth's ecosystem.",
+          "role": "Environmental Specialist",
+          "relationships": {
+            "Work": "Environmental assessment",
+            "Focus": "Ecosystem impact"
+          }
+        }
+      }
+    },
+    "luna-administrator-nakamura": {
+      "name": "Luna Administrator Nakamura",
+      "aliases": ["Nakamura"],
+      "appearances": [15, 27, 39, 51, 55],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Senior administrator on Luna coordinating with Earth during the emerging crisis.",
+          "role": "Luna Administrator",
+          "relationships": {
+            "Station": "Luna",
+            "Responsibility": "Earth-Luna coordination"
+          }
+        }
+      }
+    },
+    "luna-security-chief-anders": {
+      "name": "Luna Security Chief Anders",
+      "aliases": ["Anders"],
+      "appearances": [15, 27, 39, 51],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Luna security chief managing increased security measures during the system crisis.",
+          "role": "Luna Security Chief",
+          "relationships": {
+            "Station": "Luna",
+            "Focus": "Enhanced security"
+          }
+        }
+      }
+    },
+    "luna-port-controller-singh": {
+      "name": "Luna Port Controller Singh",
+      "aliases": ["L. Singh"],
+      "appearances": [15, 27, 39, 51, 55],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Luna spaceport controller managing increased traffic as the crisis develops.",
+          "role": "Port Controller",
+          "relationships": {
+            "Station": "Luna",
+            "Challenge": "Increased traffic"
+          }
+        }
+      }
+    },
+    "luna-medical-director-fischer": {
+      "name": "Luna Medical Director Fischer",
+      "aliases": ["Fischer"],
+      "appearances": [27, 39, 51, 55],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Luna medical director preparing facilities to receive Earth refugees and casualties.",
+          "role": "Medical Director",
+          "relationships": {
+            "Station": "Luna",
+            "Preparation": "Earth refugee care"
+          }
+        }
+      }
+    },
+    "luna-engineer-cooper": {
+      "name": "Luna Engineer Cooper",
+      "aliases": ["Cooper"],
+      "appearances": [15, 27, 39, 51],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Luna infrastructure engineer maintaining critical systems during the crisis period.",
+          "role": "Infrastructure Engineer",
+          "relationships": {
+            "Station": "Luna",
+            "Focus": "Critical systems"
+          }
+        }
+      }
+    },
+    "luna-communications-morgan": {
+      "name": "Luna Communications Morgan",
+      "aliases": ["Morgan"],
+      "appearances": [15, 27, 39, 51, 55],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Luna communications officer maintaining contact with Earth during the developing crisis.",
+          "role": "Communications Officer",
+          "relationships": {
+            "Station": "Luna",
+            "Link": "Earth communications"
+          }
+        }
+      }
+    },
+    "luna-supply-chief-patel": {
+      "name": "Luna Supply Chief Patel",
+      "aliases": ["L.S. Patel"],
+      "appearances": [27, 39, 51, 55],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Luna supply chief managing emergency stockpiles and refugee supplies.",
+          "role": "Supply Chief",
+          "relationships": {
+            "Station": "Luna",
+            "Focus": "Emergency supplies"
+          }
+        }
+      }
+    },
+    "luna-transport-coordinator-wu": {
+      "name": "Luna Transport Coordinator Wu",
+      "aliases": ["Wu"],
+      "appearances": [39, 51, 55],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Luna transport coordinator managing evacuee shuttles from Earth.",
+          "role": "Transport Coordinator",
+          "relationships": {
+            "Station": "Luna",
+            "Mission": "Evacuee transport"
+          }
+        }
+      }
+    },
+    "luna-customs-officer-hall": {
+      "name": "Luna Customs Officer Hall",
+      "aliases": ["Hall"],
+      "appearances": [15, 27, 39, 51],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Luna customs officer dealing with increased security screening during the crisis.",
+          "role": "Customs Officer",
+          "relationships": {
+            "Station": "Luna",
+            "Duty": "Enhanced screening"
+          }
+        }
+      }
+    },
+    "luna-refugee-coordinator-kim": {
+      "name": "Luna Refugee Coordinator Kim",
+      "aliases": ["L.R. Kim"],
+      "appearances": [39, 51, 55],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Luna administrator managing the influx of Earth refugees and their accommodation.",
+          "role": "Refugee Coordinator",
+          "relationships": {
+            "Station": "Luna",
+            "Responsibility": "Refugee accommodation"
+          }
+        }
+      }
+    },
+    "tycho-engineer-rodriguez": {
+      "name": "Tycho Engineer Rodriguez",
+      "aliases": ["T. Rodriguez"],
+      "appearances": [11, 23, 35, 47, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho Station engineer working on critical infrastructure under Fred Johnson.",
+          "role": "Station Engineer",
+          "relationships": {
+            "Station": "Tycho",
+            "Superior": "Fred Johnson"
+          }
+        }
+      }
+    },
+    "tycho-security-thompson": {
+      "name": "Tycho Security Thompson",
+      "aliases": ["Thompson"],
+      "appearances": [11, 23, 35, 47, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho security officer maintaining station security during the OPA crisis.",
+          "role": "Security Officer",
+          "relationships": {
+            "Station": "Tycho",
+            "Challenge": "OPA tensions"
+          }
+        }
+      }
+    },
+    "tycho-communications-davis": {
+      "name": "Tycho Communications Davis",
+      "aliases": ["T.C. Davis"],
+      "appearances": [11, 23, 35, 47, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho communications officer managing sensitive OPA communications.",
+          "role": "Communications Officer",
+          "relationships": {
+            "Station": "Tycho",
+            "Responsibility": "OPA communications"
+          }
+        }
+      }
+    },
+    "tycho-medical-chen": {
+      "name": "Tycho Medical Chen",
+      "aliases": ["T.M. Chen"],
+      "appearances": [11, 23, 35, 47],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho medical officer preparing for potential casualties from the brewing conflict.",
+          "role": "Medical Officer",
+          "relationships": {
+            "Station": "Tycho",
+            "Preparation": "Conflict casualties"
+          }
+        }
+      }
+    },
+    "tycho-supply-martinez": {
+      "name": "Tycho Supply Martinez",
+      "aliases": ["T.S. Martinez"],
+      "appearances": [11, 23, 35, 47, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho supply officer managing station resources during the OPA political crisis.",
+          "role": "Supply Officer",
+          "relationships": {
+            "Station": "Tycho",
+            "Challenge": "Resource allocation"
+          }
+        }
+      }
+    },
+    "tycho-dockworker-johnson": {
+      "name": "Tycho Dockworker Johnson",
+      "aliases": ["T.D. Johnson"],
+      "appearances": [11, 23, 35, 47],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho dock worker handling increased ship traffic during the crisis.",
+          "role": "Dock Worker",
+          "relationships": {
+            "Station": "Tycho",
+            "Work": "Ship handling"
+          }
+        }
+      }
+    },
+    "tycho-technician-williams": {
+      "name": "Tycho Technician Williams",
+      "aliases": ["T.T. Williams"],
+      "appearances": [11, 23, 35, 47, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho maintenance technician keeping station systems operational.",
+          "role": "Maintenance Technician",
+          "relationships": {
+            "Station": "Tycho",
+            "Focus": "System maintenance"
+          }
+        }
+      }
+    },
+    "tycho-administrator-brown": {
+      "name": "Tycho Administrator Brown",
+      "aliases": ["T.A. Brown"],
+      "appearances": [11, 23, 35, 47, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho administrative officer managing station operations under Fred Johnson.",
+          "role": "Station Administrator",
+          "relationships": {
+            "Station": "Tycho",
+            "Superior": "Fred Johnson"
+          }
+        }
+      }
+    },
+    "tycho-pilot-garcia": {
+      "name": "Tycho Pilot Garcia",
+      "aliases": ["T.P. Garcia"],
+      "appearances": [23, 35, 47, 55],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Tycho pilot flying missions for the moderate OPA faction.",
+          "role": "Station Pilot",
+          "relationships": {
+            "Station": "Tycho",
+            "Mission": "OPA operations"
+          }
+        }
+      }
+    },
+    "tycho-coordinator-lee": {
+      "name": "Tycho Coordinator Lee",
+      "aliases": ["T.C. Lee"],
+      "appearances": [23, 35, 47, 55],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Tycho operations coordinator managing station activities during the crisis.",
+          "role": "Operations Coordinator",
+          "relationships": {
+            "Station": "Tycho",
+            "Responsibility": "Station operations"
+          }
+        }
+      }
+    },
+    "tycho-analyst-park": {
+      "name": "Tycho Analyst Park",
+      "aliases": ["T.A. Park"],
+      "appearances": [23, 35, 47, 55],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Intelligence analyst at Tycho Station tracking Free Navy activities.",
+          "role": "Intelligence Analyst",
+          "relationships": {
+            "Station": "Tycho",
+            "Target": "Free Navy intelligence"
+          }
+        }
+      }
+    },
+    "tycho-security-supervisor-clark": {
+      "name": "Tycho Security Supervisor Clark",
+      "aliases": ["S.S. Clark"],
+      "appearances": [11, 23, 35, 47, 55],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Senior security supervisor at Tycho Station managing increased security measures.",
+          "role": "Security Supervisor",
+          "relationships": {
+            "Station": "Tycho",
+            "Focus": "Enhanced security"
+          }
+        }
+      }
+    },
+    "tycho-quartermaster-white": {
+      "name": "Tycho Quartermaster White",
+      "aliases": ["White"],
+      "appearances": [11, 23, 35, 47],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Tycho quartermaster managing weapons and equipment for the moderate OPA.",
+          "role": "Quartermaster",
+          "relationships": {
+            "Station": "Tycho",
+            "Responsibility": "Equipment management"
+          }
+        }
+      }
+    },
+    "tycho-navigator-taylor": {
+      "name": "Tycho Navigator Taylor",
+      "aliases": ["T.N. Taylor"],
+      "appearances": [23, 35, 47, 55],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Navigation specialist at Tycho Station planning routes for OPA ships.",
+          "role": "Navigation Specialist",
+          "relationships": {
+            "Station": "Tycho",
+            "Work": "Ship navigation"
+          }
+        }
+      }
+    },
+    "free-navy-gunner-santos": {
+      "name": "Free Navy Gunner Santos",
+      "aliases": ["Santos"],
+      "appearances": [22, 26, 30, 34, 38, 42],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy weapons specialist participating in Marco's terrorist operations.",
+          "role": "Weapons Specialist",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Role": "Weapons operations"
+          }
+        }
+      }
+    },
+    "free-navy-pilot-morales": {
+      "name": "Free Navy Pilot Morales",
+      "aliases": ["Morales"],
+      "appearances": [22, 26, 30, 34, 38, 42, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy pilot flying attack missions against inner planet targets.",
+          "role": "Attack Pilot",
+          "relationships": {
+            "Commander": "Marco Inaros",
+            "Mission": "Attack operations"
+          }
+        }
+      }
+    },
+    "free-navy-engineer-hoffman": {
+      "name": "Free Navy Engineer Hoffman",
+      "aliases": ["Hoffman"],
+      "appearances": [22, 26, 30, 34, 38, 42],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy engineer maintaining ships and weapons for the terrorist operations.",
+          "role": "Ship Engineer",
+          "relationships": {
+            "Organization": "Free Navy",
+            "Work": "Ship maintenance"
+          }
+        }
+      }
+    },
+    "free-navy-communications-torres": {
+      "name": "Free Navy Communications Torres",
+      "aliases": ["F.N. Torres"],
+      "appearances": [22, 26, 30, 34, 38, 42, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy communications officer coordinating attacks across the system.",
+          "role": "Communications Officer",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Mission": "Attack coordination"
+          }
+        }
+      }
+    },
+    "free-navy-medic-chen": {
+      "name": "Free Navy Medic Chen",
+      "aliases": ["F.N. Chen"],
+      "appearances": [22, 30, 34, 38, 42],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy medical officer providing care for terrorist operatives.",
+          "role": "Ship Medic",
+          "relationships": {
+            "Organization": "Free Navy",
+            "Service": "Medical care"
+          }
+        }
+      }
+    },
+    "free-navy-security-diaz": {
+      "name": "Free Navy Security Diaz",
+      "aliases": ["Diaz"],
+      "appearances": [30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Free Navy security officer guarding prisoners and maintaining order.",
+          "role": "Security Officer",
+          "relationships": {
+            "Organization": "Free Navy",
+            "Duty": "Internal security"
+          }
+        }
+      }
+    },
+    "free-navy-supply-garcia": {
+      "name": "Free Navy Supply Garcia",
+      "aliases": ["F.N. Garcia"],
+      "appearances": [22, 26, 30, 34, 38, 42],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy supply officer managing resources for the terrorist operations.",
+          "role": "Supply Officer",
+          "relationships": {
+            "Organization": "Free Navy",
+            "Work": "Resource management"
+          }
+        }
+      }
+    },
+    "free-navy-navigator-smith": {
+      "name": "Free Navy Navigator Smith",
+      "aliases": ["Smith"],
+      "appearances": [22, 26, 30, 34, 38, 42, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy navigation specialist plotting courses for terrorist attacks.",
+          "role": "Navigation Specialist",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Mission": "Attack navigation"
+          }
+        }
+      }
+    },
+    "free-navy-technician-rodriguez": {
+      "name": "Free Navy Technician Rodriguez",
+      "aliases": ["F.N. Rodriguez"],
+      "appearances": [22, 26, 30, 34, 38, 42],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy technician maintaining communications and surveillance equipment.",
+          "role": "Systems Technician",
+          "relationships": {
+            "Organization": "Free Navy",
+            "Focus": "Equipment maintenance"
+          }
+        }
+      }
+    },
+    "free-navy-quartermaster-johnson": {
+      "name": "Free Navy Quartermaster Johnson",
+      "aliases": ["F.N. Johnson"],
+      "appearances": [22, 26, 30, 34, 38, 42, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy quartermaster managing weapons and supplies for terrorist operations.",
+          "role": "Quartermaster",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Responsibility": "Weapons and supplies"
+          }
+        }
+      }
+    },
+    "free-navy-recruiter-williams": {
+      "name": "Free Navy Recruiter Williams",
+      "aliases": ["F.N. Williams"],
+      "appearances": [26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Free Navy operative recruiting new members to Marco's terrorist cause.",
+          "role": "Recruiter",
+          "relationships": {
+            "Organization": "Free Navy",
+            "Mission": "Recruitment operations"
+          }
+        }
+      }
+    },
+    "free-navy-propaganda-davis": {
+      "name": "Free Navy Propaganda Davis",
+      "aliases": ["P. Davis"],
+      "appearances": [26, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Free Navy propaganda officer spreading Marco's message throughout the Belt.",
+          "role": "Propaganda Officer",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Mission": "Ideological warfare"
+          }
+        }
+      }
+    },
+    "free-navy-intelligence-brown": {
+      "name": "Free Navy Intelligence Brown",
+      "aliases": ["I. Brown"],
+      "appearances": [22, 26, 30, 34, 38, 42, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Free Navy intelligence officer gathering information on inner planet defenses.",
+          "role": "Intelligence Officer",
+          "relationships": {
+            "Commander": "Marco Inaros",
+            "Target": "Inner planet intelligence"
+          }
+        }
+      }
+    },
+    "free-navy-coordinator-martinez": {
+      "name": "Free Navy Coordinator Martinez",
+      "aliases": ["F.N. Martinez"],
+      "appearances": [26, 30, 34, 38, 42, 46, 50],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Free Navy operations coordinator managing terrorist cells across the system.",
+          "role": "Operations Coordinator",
+          "relationships": {
+            "Leader": "Marco Inaros",
+            "Scope": "System-wide operations"
+          }
+        }
+      }
+    },
+    "baltimore-contact-jimmy": {
+      "name": "Baltimore Contact Jimmy",
+      "aliases": ["Jimmy"],
+      "appearances": [17, 21, 25, 29, 33, 37, 41],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Baltimore underworld contact who knows Amos from his criminal past.",
+          "role": "Criminal Contact",
+          "relationships": {
+            "History": "Amos Burton",
+            "Territory": "Baltimore streets"
+          }
+        }
+      }
+    },
+    "baltimore-dealer-carlos": {
+      "name": "Baltimore Dealer Carlos",
+      "aliases": ["Carlos"],
+      "appearances": [17, 21, 25, 29, 37, 41],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Baltimore drug dealer working in Erich's territory during the crisis.",
+          "role": "Drug Dealer",
+          "relationships": {
+            "Boss": "Erich",
+            "Territory": "Baltimore drug trade"
+          }
+        }
+      }
+    },
+    "baltimore-enforcer-tommy": {
+      "name": "Baltimore Enforcer Tommy",
+      "aliases": ["Tommy"],
+      "appearances": [17, 21, 25, 29, 37, 41, 45],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Baltimore criminal enforcer working for Erich's organization.",
+          "role": "Criminal Enforcer",
+          "relationships": {
+            "Leader": "Erich",
+            "Function": "Intimidation and violence"
+          }
+        }
+      }
+    },
+    "baltimore-bookkeeper-maria": {
+      "name": "Baltimore Bookkeeper Maria",
+      "aliases": ["Maria"],
+      "appearances": [17, 21, 25, 29, 37],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Baltimore crime family bookkeeper managing financial records for Erich's operation.",
+          "role": "Criminal Accountant",
+          "relationships": {
+            "Organization": "Erich's crime family",
+            "Work": "Financial management"
+          }
+        }
+      }
+    },
+    "baltimore-fence-eddie": {
+      "name": "Baltimore Fence Eddie",
+      "aliases": ["Eddie"],
+      "appearances": [17, 21, 25, 29, 37, 41],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Baltimore fence who deals in stolen goods for the criminal underworld.",
+          "role": "Criminal Fence",
+          "relationships": {
+            "Network": "Baltimore criminals",
+            "Trade": "Stolen goods"
+          }
+        }
+      }
+    },
+    "baltimore-lieutenant-frank": {
+      "name": "Baltimore Lieutenant Frank",
+      "aliases": ["Frank"],
+      "appearances": [21, 25, 29, 37, 41, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Baltimore crime lieutenant managing street operations under Erich's command.",
+          "role": "Criminal Lieutenant",
+          "relationships": {
+            "Boss": "Erich",
+            "Territory": "Street operations"
+          }
+        }
+      }
+    },
+    "baltimore-informant-danny": {
+      "name": "Baltimore Informant Danny",
+      "aliases": ["Danny"],
+      "appearances": [17, 21, 25, 29, 33],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Baltimore street informant who provides intelligence to Erich's organization.",
+          "role": "Street Informant",
+          "relationships": {
+            "Handler": "Erich",
+            "Work": "Intelligence gathering"
+          }
+        }
+      }
+    },
+    "baltimore-courier-lisa": {
+      "name": "Baltimore Courier Lisa",
+      "aliases": ["Lisa"],
+      "appearances": [21, 25, 29, 37, 41],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Baltimore courier who transports messages and packages for the crime family.",
+          "role": "Criminal Courier",
+          "relationships": {
+            "Organization": "Baltimore syndicate",
+            "Service": "Transport services"
+          }
+        }
+      }
+    },
+    "baltimore-mechanic-pete": {
+      "name": "Baltimore Mechanic Pete",
+      "aliases": ["Pete"],
+      "appearances": [17, 21, 25, 29, 37, 41, 45],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Baltimore mechanic who maintains vehicles for Erich's criminal operations.",
+          "role": "Criminal Mechanic",
+          "relationships": {
+            "Boss": "Erich",
+            "Service": "Vehicle maintenance"
+          }
+        }
+      }
+    },
+    "baltimore-guard-mike": {
+      "name": "Baltimore Guard Mike",
+      "aliases": ["Mike"],
+      "appearances": [25, 29, 33, 37, 41, 45, 49],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Baltimore security guard protecting Erich's operation and territory.",
+          "role": "Security Guard",
+          "relationships": {
+            "Leader": "Erich",
+            "Duty": "Territory protection"
+          }
+        }
+      }
+    },
+    "baltimore-survivor-nancy": {
+      "name": "Baltimore Survivor Nancy",
+      "aliases": ["Nancy"],
+      "appearances": [33, 37, 41, 45, 49],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Baltimore civilian who survives the disaster and helps others in the aftermath.",
+          "role": "Disaster Survivor",
+          "relationships": {
+            "Location": "Baltimore",
+            "Mission": "Helping other survivors"
+          }
+        }
+      }
+    },
+    "baltimore-shopkeeper-joe": {
+      "name": "Baltimore Shopkeeper Joe",
+      "aliases": ["Joe"],
+      "appearances": [17, 25, 29, 33, 37],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Baltimore store owner who pays protection money to Erich's organization.",
+          "role": "Small Business Owner",
+          "relationships": {
+            "Protector": "Erich's organization",
+            "Business": "Local shop"
+          }
+        }
+      }
+    },
+    "un-navy-captain-anderson": {
+      "name": "UN Navy Captain Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [19, 31, 43, 55],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "UN Navy captain coordinating Earth's naval response to the emerging terrorist threat.",
+          "role": "Naval Captain",
+          "relationships": {
+            "Service": "UN Navy",
+            "Mission": "Threat response"
+          }
+        }
+      }
+    },
+    "un-navy-commander-wright": {
+      "name": "UN Navy Commander Wright",
+      "aliases": ["Wright"],
+      "appearances": [19, 31, 43, 55],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "UN Navy commander managing fleet operations during the system crisis.",
+          "role": "Fleet Commander",
+          "relationships": {
+            "Service": "UN Navy",
+            "Responsibility": "Fleet operations"
+          }
+        }
+      }
+    },
+    "un-navy-lieutenant-parker": {
+      "name": "UN Navy Lieutenant Parker",
+      "aliases": ["Parker"],
+      "appearances": [19, 31, 43, 55],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "UN Navy lieutenant serving in the fleet during the Free Navy crisis.",
+          "role": "Naval Lieutenant",
+          "relationships": {
+            "Service": "UN Navy",
+            "Status": "Active duty"
+          }
+        }
+      }
+    },
+    "un-navy-intelligence-cooper": {
+      "name": "UN Navy Intelligence Cooper",
+      "aliases": ["Cooper"],
+      "appearances": [19, 31, 43, 55],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "UN Navy intelligence officer analyzing the Free Navy terrorist threat.",
+          "role": "Naval Intelligence",
+          "relationships": {
+            "Service": "UN Navy Intelligence",
+            "Target": "Free Navy analysis"
+          }
+        }
+      }
+    },
+    "un-navy-communications-taylor": {
+      "name": "UN Navy Communications Taylor",
+      "aliases": ["Comms Taylor"],
+      "appearances": [19, 31, 43, 55],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "UN Navy communications officer maintaining fleet coordination.",
+          "role": "Communications Officer",
+          "relationships": {
+            "Service": "UN Navy",
+            "Function": "Fleet communications"
+          }
+        }
+      }
+    },
+    "un-navy-engineer-murphy": {
+      "name": "UN Navy Engineer Murphy",
+      "aliases": ["Murphy"],
+      "appearances": [19, 31, 43, 55],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "UN Navy engineer maintaining ship systems during the crisis period.",
+          "role": "Naval Engineer",
+          "relationships": {
+            "Service": "UN Navy",
+            "Work": "Ship maintenance"
+          }
+        }
+      }
+    },
+    "un-navy-medical-chen": {
+      "name": "UN Navy Medical Chen",
+      "aliases": ["Doc Chen"],
+      "appearances": [31, 43, 55],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "UN Navy medical officer preparing for potential casualties from the conflict.",
+          "role": "Naval Medical Officer",
+          "relationships": {
+            "Service": "UN Navy Medical",
+            "Preparation": "Combat casualties"
+          }
+        }
+      }
+    },
+    "un-navy-security-jones": {
+      "name": "UN Navy Security Jones",
+      "aliases": ["Security Jones"],
+      "appearances": [19, 31, 43, 55],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "UN Navy security officer managing ship security during heightened alert.",
+          "role": "Security Officer",
+          "relationships": {
+            "Service": "UN Navy",
+            "Duty": "Ship security"
+          }
+        }
+      }
+    },
+    "un-navy-logistics-garcia": {
+      "name": "UN Navy Logistics Garcia",
+      "aliases": ["Logistics Garcia"],
+      "appearances": [19, 31, 43, 55],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "UN Navy logistics officer managing supply chains for the fleet.",
+          "role": "Logistics Officer",
+          "relationships": {
+            "Service": "UN Navy",
+            "Responsibility": "Supply management"
+          }
+        }
+      }
+    },
+    "un-navy-pilot-davis": {
+      "name": "UN Navy Pilot Davis",
+      "aliases": ["Pilot Davis"],
+      "appearances": [31, 43, 55],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "UN Navy pilot flying reconnaissance and combat missions against Free Navy forces.",
+          "role": "Navy Pilot",
+          "relationships": {
+            "Service": "UN Navy",
+            "Mission": "Combat operations"
+          }
+        }
+      }
+    },
+    "mcrn-captain-thompson": {
+      "name": "MCRN Captain Thompson",
+      "aliases": ["Thompson"],
+      "appearances": [16, 24, 32, 40, 48, 52],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Martian Navy captain investigating military corruption within MCRN ranks.",
+          "role": "MCRN Captain",
+          "relationships": {
+            "Service": "Martian Navy",
+            "Mission": "Corruption investigation"
+          }
+        }
+      }
+    },
+    "mcrn-commander-white": {
+      "name": "MCRN Commander White",
+      "aliases": ["White"],
+      "appearances": [16, 24, 32, 40, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "MCRN commander working to expose the conspiracy within the Martian military.",
+          "role": "MCRN Commander",
+          "relationships": {
+            "Service": "Martian Navy",
+            "Goal": "Exposing conspiracy"
+          }
+        }
+      }
+    },
+    "mcrn-lieutenant-brown": {
+      "name": "MCRN Lieutenant Brown",
+      "aliases": ["Lt. Brown"],
+      "appearances": [16, 24, 32, 40, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "MCRN lieutenant assisting in the investigation of stolen military technology.",
+          "role": "MCRN Lieutenant",
+          "relationships": {
+            "Service": "Martian Navy",
+            "Assignment": "Technology theft investigation"
+          }
+        }
+      }
+    },
+    "mcrn-engineer-wilson": {
+      "name": "MCRN Engineer Wilson",
+      "aliases": ["Wilson"],
+      "appearances": [16, 24, 32, 40, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "MCRN engineer analyzing stolen technology and missing ship systems.",
+          "role": "MCRN Engineer",
+          "relationships": {
+            "Service": "Martian Navy",
+            "Work": "Technology analysis"
+          }
+        }
+      }
+    },
+    "mcrn-intelligence-clark": {
+      "name": "MCRN Intelligence Clark",
+      "aliases": ["Intel Clark"],
+      "appearances": [16, 24, 32, 40, 48, 52],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "MCRN intelligence officer tracking the conspiracy within Martian military ranks.",
+          "role": "Intelligence Officer",
+          "relationships": {
+            "Service": "MCRN Intelligence",
+            "Target": "Internal conspiracy"
+          }
+        }
+      }
+    },
+    "mcrn-security-martinez": {
+      "name": "MCRN Security Martinez",
+      "aliases": ["Security Martinez"],
+      "appearances": [16, 24, 32, 40, 48],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "MCRN security officer investigating breaches in military security protocols.",
+          "role": "Security Officer",
+          "relationships": {
+            "Service": "MCRN Security",
+            "Investigation": "Security breaches"
+          }
+        }
+      }
+    },
+    "mcrn-communications-lee": {
+      "name": "MCRN Communications Lee",
+      "aliases": ["Comms Lee"],
+      "appearances": [16, 24, 32, 40, 48, 52],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "MCRN communications officer monitoring transmissions related to the conspiracy.",
+          "role": "Communications Officer",
+          "relationships": {
+            "Service": "MCRN Communications",
+            "Focus": "Conspiracy monitoring"
+          }
+        }
+      }
+    },
+    "mcrn-pilot-johnson": {
+      "name": "MCRN Pilot Johnson",
+      "aliases": ["Pilot Johnson"],
+      "appearances": [24, 32, 40, 48, 52],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "MCRN pilot flying reconnaissance missions to investigate missing fleet assets.",
+          "role": "Navy Pilot",
+          "relationships": {
+            "Service": "MCRN",
+            "Mission": "Fleet reconnaissance"
+          }
+        }
+      }
+    },
+    "mcrn-medical-rodriguez": {
+      "name": "MCRN Medical Rodriguez",
+      "aliases": ["Doc Rodriguez"],
+      "appearances": [24, 32, 40, 48],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "MCRN medical officer providing care for personnel involved in the investigation.",
+          "role": "Medical Officer",
+          "relationships": {
+            "Service": "MCRN Medical",
+            "Patients": "Investigation personnel"
+          }
+        }
+      }
+    },
+    "mcrn-analyst-kim": {
+      "name": "MCRN Analyst Kim",
+      "aliases": ["Analyst Kim"],
+      "appearances": [24, 32, 40, 48, 52],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "MCRN intelligence analyst examining patterns in the military conspiracy.",
+          "role": "Intelligence Analyst",
+          "relationships": {
+            "Service": "MCRN Intelligence",
+            "Work": "Conspiracy analysis"
+          }
+        }
+      }
     }
   },
   "recaps": {
