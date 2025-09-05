@@ -404,21 +404,6 @@
         }
       }
     },
-    "laconian-force-member-1": {
-      "name": "Admiral Trejo",
-      "aliases": ["Trejo"],
-      "appearances": [11, 23, 35, 47],
-      "knowledge": {
-        "11": {
-          "revealedIn": 11,
-          "description": "Former Laconian admiral working to maintain some form of order as the empire collapses and the ring systems face extinction.",
-          "role": "Order Maintainer",
-          "relationships": {
-            "Mission": "Preventing collapse"
-          }
-        }
-      }
-    },
     "laconian-force-member-2": {
       "name": "Commander Singh",
       "aliases": ["Singh"],
@@ -1082,6 +1067,1542 @@
           "relationships": {
             "Stakes": "Civilization survival",
             "Role": "Final events"
+          }
+        }
+      }
+    },
+    "station-personnel-1": {
+      "name": "Station Commander Blake",
+      "aliases": ["Blake"],
+      "appearances": [5, 17, 29, 41],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Station commander managing operations as ring space infrastructure begins failing.",
+          "role": "Station Commander",
+          "relationships": {
+            "Responsibility": "Station operations",
+            "Challenge": "Infrastructure failure"
+          }
+        }
+      }
+    },
+    "station-personnel-2": {
+      "name": "Operations Chief Rivera",
+      "aliases": ["Rivera"],
+      "appearances": [5, 17, 29],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Operations chief coordinating station activities during the growing crisis.",
+          "role": "Operations Chief",
+          "relationships": {
+            "Station": "Ring space station",
+            "Focus": "Crisis coordination"
+          }
+        }
+      }
+    },
+    "laconian-remnant-1": {
+      "name": "Captain Vega",
+      "aliases": ["Vega"],
+      "appearances": [9, 21, 33, 45],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Laconian military captain dealing with the collapse of imperial authority during the final crisis.",
+          "role": "Remnant Captain",
+          "relationships": {
+            "Loyalty": "Former empire",
+            "Reality": "Authority collapse"
+          }
+        }
+      }
+    },
+    "laconian-remnant-2": {
+      "name": "Lieutenant Colonel Park",
+      "aliases": ["Park"],
+      "appearances": [9, 21, 33],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Laconian officer attempting to maintain military structure as the empire disintegrates.",
+          "role": "Remnant Officer",
+          "relationships": {
+            "Mission": "Military structure",
+            "Challenge": "Empire dissolution"
+          }
+        }
+      }
+    },
+    "refugee-coordinator-1": {
+      "name": "Refugee Manager Okafor",
+      "aliases": ["Okafor"],
+      "appearances": [12, 24, 36, 48, 53],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Coordinator managing refugee camps and evacuation centers as populations flee failing ring systems.",
+          "role": "Refugee Manager",
+          "relationships": {
+            "Refugees": "System evacuees",
+            "Challenge": "Mass displacement"
+          }
+        }
+      }
+    },
+    "refugee-coordinator-2": {
+      "name": "Camp Director Singh",
+      "aliases": ["Singh"],
+      "appearances": [12, 24, 36, 48],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Director of emergency refugee camps housing those displaced by the ring system failures.",
+          "role": "Camp Director",
+          "relationships": {
+            "Facility": "Emergency camps",
+            "Population": "Displaced persons"
+          }
+        }
+      }
+    },
+    "navigation-officer-1": {
+      "name": "Nav Officer Turner",
+      "aliases": ["Turner"],
+      "appearances": [7, 19, 31, 43, 52],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Navigation officer attempting to plot safe courses through increasingly unstable ring space.",
+          "role": "Crisis Navigator",
+          "relationships": {
+            "Challenge": "Ring space instability",
+            "Mission": "Safe passage"
+          }
+        }
+      }
+    },
+    "navigation-officer-2": {
+      "name": "Helmsman Costa",
+      "aliases": ["Costa"],
+      "appearances": [7, 19, 31, 43],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ship's helmsman navigating through the dangerous and unpredictable ring space conditions.",
+          "role": "Ship Helmsman",
+          "relationships": {
+            "Skill": "Ring space navigation",
+            "Risk": "Unpredictable conditions"
+          }
+        }
+      }
+    },
+    "sensor-operator-1": {
+      "name": "Sensor Tech Morrison",
+      "aliases": ["Morrison"],
+      "appearances": [10, 22, 34, 46, 51],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Sensor technician monitoring the strange readings and anomalies appearing throughout ring space.",
+          "role": "Sensor Technician",
+          "relationships": {
+            "Equipment": "Ring space sensors",
+            "Data": "Anomaly readings"
+          }
+        }
+      }
+    },
+    "sensor-operator-2": {
+      "name": "Scanner Specialist Lee",
+      "aliases": ["Lee"],
+      "appearances": [10, 22, 34, 46],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Specialist operating deep space scanners to track the expanding crisis across multiple systems.",
+          "role": "Scanner Specialist",
+          "relationships": {
+            "Scope": "Multi-system scanning",
+            "Focus": "Crisis tracking"
+          }
+        }
+      }
+    },
+    "alien-interface-1": {
+      "name": "Interface Entity Gamma",
+      "aliases": ["Gamma"],
+      "appearances": [26, 38, 50],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Entity or consciousness serving as an interface between human awareness and ancient alien systems.",
+          "role": "Interface Entity",
+          "relationships": {
+            "Function": "Human-alien bridge",
+            "Nature": "Consciousness interface"
+          }
+        }
+      }
+    },
+    "alien-interface-2": {
+      "name": "Bridge Consciousness Delta",
+      "aliases": ["Delta"],
+      "appearances": [26, 38],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Consciousness that helps facilitate communication between human and ancient alien defense systems.",
+          "role": "Bridge Consciousness",
+          "relationships": {
+            "Purpose": "Communication facilitation",
+            "Connection": "Alien defenses"
+          }
+        }
+      }
+    },
+    "data-analyst-1": {
+      "name": "Data Analyst Reyes",
+      "aliases": ["Reyes"],
+      "appearances": [15, 27, 39, 51],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Data analyst processing the massive amounts of information about the ring space crisis.",
+          "role": "Crisis Data Analyst",
+          "relationships": {
+            "Data": "Crisis information",
+            "Goal": "Pattern recognition"
+          }
+        }
+      }
+    },
+    "data-analyst-2": {
+      "name": "Information Specialist Cooper",
+      "aliases": ["Cooper"],
+      "appearances": [15, 27, 39],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Information specialist analyzing patterns in the ancient alien response to human expansion.",
+          "role": "Information Specialist",
+          "relationships": {
+            "Analysis": "Alien response patterns",
+            "Context": "Human expansion"
+          }
+        }
+      }
+    },
+    "ship-captain-1": {
+      "name": "Captain Nakamura",
+      "aliases": ["Nakamura"],
+      "appearances": [11, 23, 35, 47, 53],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Ship captain transporting evacuees from endangered ring systems to safer locations.",
+          "role": "Evacuation Captain",
+          "relationships": {
+            "Mission": "Civilian evacuation",
+            "Route": "Ring system to safety"
+          }
+        }
+      }
+    },
+    "ship-captain-2": {
+      "name": "Transport Captain Ellis",
+      "aliases": ["Ellis"],
+      "appearances": [11, 23, 35, 47],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Captain of a transport ship carrying critical supplies and personnel during the crisis.",
+          "role": "Transport Captain",
+          "relationships": {
+            "Cargo": "Critical supplies",
+            "Mission": "Crisis support"
+          }
+        }
+      }
+    },
+    "power-systems-1": {
+      "name": "Power Engineer Walsh",
+      "aliases": ["Walsh"],
+      "appearances": [13, 25, 37, 49],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Power systems engineer maintaining critical infrastructure as systems begin failing.",
+          "role": "Power Engineer",
+          "relationships": {
+            "Responsibility": "Critical infrastructure",
+            "Challenge": "System failures"
+          }
+        }
+      }
+    },
+    "power-systems-2": {
+      "name": "Energy Specialist Kumar",
+      "aliases": ["Kumar"],
+      "appearances": [13, 25, 37],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Energy systems specialist working to maintain power during the infrastructure collapse.",
+          "role": "Energy Specialist",
+          "relationships": {
+            "Focus": "Power maintenance",
+            "Crisis": "Infrastructure collapse"
+          }
+        }
+      }
+    },
+    "construction-crew-1": {
+      "name": "Construction Chief Barnes",
+      "aliases": ["Barnes"],
+      "appearances": [14, 26, 38, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Construction chief building emergency shelters and evacuation facilities.",
+          "role": "Emergency Construction",
+          "relationships": {
+            "Projects": "Emergency facilities",
+            "Urgency": "Crisis timeline"
+          }
+        }
+      }
+    },
+    "construction-crew-2": {
+      "name": "Builder Foreman Ross",
+      "aliases": ["Ross"],
+      "appearances": [14, 26, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Construction foreman organizing rapid construction of survival infrastructure.",
+          "role": "Construction Foreman",
+          "relationships": {
+            "Mission": "Survival infrastructure",
+            "Method": "Rapid construction"
+          }
+        }
+      }
+    },
+    "agricultural-specialist-1": {
+      "name": "Agriculture Chief Patel",
+      "aliases": ["Patel"],
+      "appearances": [16, 28, 40, 52],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Agricultural specialist working to maintain food production during the evacuation crisis.",
+          "role": "Crisis Agriculture",
+          "relationships": {
+            "Challenge": "Food security",
+            "Context": "Mass evacuation"
+          }
+        }
+      }
+    },
+    "agricultural-specialist-2": {
+      "name": "Food Production Manager Scott",
+      "aliases": ["Scott"],
+      "appearances": [16, 28, 40],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Manager coordinating food production and distribution for refugee populations.",
+          "role": "Food Production Manager",
+          "relationships": {
+            "Distribution": "Refugee populations",
+            "Coordination": "Food systems"
+          }
+        }
+      }
+    },
+    "water-systems-1": {
+      "name": "Water Engineer Chen",
+      "aliases": ["Chen"],
+      "appearances": [18, 30, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Water systems engineer maintaining water supplies for evacuation centers and refugee camps.",
+          "role": "Water Engineer",
+          "relationships": {
+            "Systems": "Water supply",
+            "Beneficiaries": "Evacuees and refugees"
+          }
+        }
+      }
+    },
+    "water-systems-2": {
+      "name": "Hydro Technician Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [18, 30, 42, 53],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Hydro technician ensuring water purification and distribution systems remain functional.",
+          "role": "Hydro Technician",
+          "relationships": {
+            "Function": "Water purification",
+            "Priority": "System functionality"
+          }
+        }
+      }
+    },
+    "atmospheric-specialist-1": {
+      "name": "Atmosphere Tech Bennett",
+      "aliases": ["Bennett"],
+      "appearances": [20, 32, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Atmospheric specialist monitoring air quality and life support systems during the crisis.",
+          "role": "Atmosphere Specialist",
+          "relationships": {
+            "Monitoring": "Air quality",
+            "Systems": "Life support"
+          }
+        }
+      }
+    },
+    "atmospheric-specialist-2": {
+      "name": "Life Support Engineer Gray",
+      "aliases": ["Gray"],
+      "appearances": [20, 32, 44, 51],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Life support engineer maintaining breathable environments in evacuation facilities.",
+          "role": "Life Support Engineer",
+          "relationships": {
+            "Environment": "Breathable atmosphere",
+            "Location": "Evacuation facilities"
+          }
+        }
+      }
+    },
+    "psychological-support-1": {
+      "name": "Counselor Wright",
+      "aliases": ["Wright"],
+      "appearances": [21, 33, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Psychological counselor providing mental health support to those traumatized by the crisis.",
+          "role": "Crisis Counselor",
+          "relationships": {
+            "Patients": "Crisis trauma victims",
+            "Service": "Mental health support"
+          }
+        }
+      }
+    },
+    "psychological-support-2": {
+      "name": "Therapist Morgan",
+      "aliases": ["Morgan"],
+      "appearances": [21, 33, 45, 53],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Therapist helping people cope with the psychological impact of civilization's potential end.",
+          "role": "Crisis Therapist",
+          "relationships": {
+            "Focus": "Existential trauma",
+            "Context": "Civilization threat"
+          }
+        }
+      }
+    },
+    "education-coordinator-1": {
+      "name": "Teacher Collins",
+      "aliases": ["Collins"],
+      "appearances": [22, 34, 46],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Teacher working to continue education for children in refugee camps and evacuation centers.",
+          "role": "Crisis Educator",
+          "relationships": {
+            "Students": "Refugee children",
+            "Mission": "Education continuity"
+          }
+        }
+      }
+    },
+    "education-coordinator-2": {
+      "name": "School Coordinator Hughes",
+      "aliases": ["Hughes"],
+      "appearances": [22, 34, 46, 52],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "School coordinator organizing educational activities for displaced young people.",
+          "role": "Education Coordinator",
+          "relationships": {
+            "Population": "Displaced youth",
+            "Activity": "Educational programs"
+          }
+        }
+      }
+    },
+    "cultural-preservationist-1": {
+      "name": "Archivist Stone",
+      "aliases": ["Stone"],
+      "appearances": [24, 36, 48],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Archivist working to preserve human cultural heritage as civilization faces potential extinction.",
+          "role": "Cultural Archivist",
+          "relationships": {
+            "Mission": "Heritage preservation",
+            "Threat": "Cultural extinction"
+          }
+        }
+      }
+    },
+    "cultural-preservationist-2": {
+      "name": "Heritage Keeper Bell",
+      "aliases": ["Bell"],
+      "appearances": [24, 36, 48, 51],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Heritage keeper documenting human history and culture for potential future survivors.",
+          "role": "Heritage Keeper",
+          "relationships": {
+            "Documentation": "Human history",
+            "Audience": "Future survivors"
+          }
+        }
+      }
+    },
+    "financial-coordinator-1": {
+      "name": "Resource Manager Clark",
+      "aliases": ["Clark"],
+      "appearances": [25, 37, 49],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Resource manager coordinating the allocation of remaining assets for survival efforts.",
+          "role": "Resource Manager",
+          "relationships": {
+            "Assets": "Remaining resources",
+            "Purpose": "Survival allocation"
+          }
+        }
+      }
+    },
+    "financial-coordinator-2": {
+      "name": "Economy Specialist Reed",
+      "aliases": ["Reed"],
+      "appearances": [25, 37, 49, 53],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Economic specialist managing the transition from normal economy to crisis survival mode.",
+          "role": "Crisis Economist",
+          "relationships": {
+            "Transition": "Economy to survival",
+            "Mode": "Crisis management"
+          }
+        }
+      }
+    },
+    "environmental-monitor-1": {
+      "name": "Environment Specialist Ward",
+      "aliases": ["Ward"],
+      "appearances": [27, 39, 51],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Environmental specialist monitoring ecological collapse as ring systems become uninhabitable.",
+          "role": "Environmental Monitor",
+          "relationships": {
+            "Monitoring": "Ecological collapse",
+            "Scale": "System-wide"
+          }
+        }
+      }
+    },
+    "environmental-monitor-2": {
+      "name": "Ecology Tracker Fisher",
+      "aliases": ["Fisher"],
+      "appearances": [27, 39, 51, 53],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Ecology tracker documenting environmental changes caused by ancient alien defense activation.",
+          "role": "Ecology Tracker",
+          "relationships": {
+            "Documentation": "Environmental changes",
+            "Cause": "Alien defense systems"
+          }
+        }
+      }
+    },
+    "maintenance-worker-1": {
+      "name": "Maintenance Chief Rogers",
+      "aliases": ["Rogers"],
+      "appearances": [28, 40, 52],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Maintenance chief keeping critical systems operational during the infrastructure breakdown.",
+          "role": "Maintenance Chief",
+          "relationships": {
+            "Systems": "Critical infrastructure",
+            "Challenge": "Infrastructure breakdown"
+          }
+        }
+      }
+    },
+    "maintenance-worker-2": {
+      "name": "Repair Technician Brooks",
+      "aliases": ["Brooks"],
+      "appearances": [28, 40, 52, 53],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Repair technician working around the clock to fix failing systems during the crisis.",
+          "role": "Repair Technician",
+          "relationships": {
+            "Focus": "System repairs",
+            "Schedule": "Around the clock"
+          }
+        }
+      }
+    },
+    "habitat-designer-1": {
+      "name": "Habitat Engineer Price",
+      "aliases": ["Price"],
+      "appearances": [29, 41, 53],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Habitat engineer designing emergency living spaces for the massive refugee population.",
+          "role": "Habitat Designer",
+          "relationships": {
+            "Design": "Emergency housing",
+            "Population": "Mass refugees"
+          }
+        }
+      }
+    },
+    "habitat-designer-2": {
+      "name": "Living Space Planner West",
+      "aliases": ["West"],
+      "appearances": [29, 41],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Planner creating sustainable living arrangements for long-term evacuation scenarios.",
+          "role": "Space Planner",
+          "relationships": {
+            "Planning": "Sustainable living",
+            "Timeline": "Long-term evacuation"
+          }
+        }
+      }
+    },
+    "alien-artifact-1": {
+      "name": "Artifact Guardian Epsilon",
+      "aliases": ["Epsilon"],
+      "appearances": [35, 47, 50],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Ancient alien construct or guardian protecting critical alien technology and knowledge.",
+          "role": "Artifact Guardian",
+          "relationships": {
+            "Protection": "Alien technology",
+            "Nature": "Ancient construct"
+          }
+        }
+      }
+    },
+    "alien-artifact-2": {
+      "name": "Construct Guardian Zeta",
+      "aliases": ["Zeta"],
+      "appearances": [35, 47],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Another ancient guardian entity associated with ring builder technology and defenses.",
+          "role": "Construct Guardian",
+          "relationships": {
+            "Association": "Ring builder tech",
+            "Function": "Defense systems"
+          }
+        }
+      }
+    },
+    "child-survivor-1": {
+      "name": "Young Survivor Maya",
+      "aliases": ["Maya"],
+      "appearances": [31, 43, 51, 53],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Young person representing the next generation surviving the crisis and adapting to new realities.",
+          "role": "Child Survivor",
+          "relationships": {
+            "Generation": "Next generation",
+            "Adaptation": "New realities"
+          }
+        }
+      }
+    },
+    "child-survivor-2": {
+      "name": "Youth Survivor Alex",
+      "aliases": ["Alex"],
+      "appearances": [31, 43, 51],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Young survivor learning to live in the post-crisis world being shaped by the ancient alien response.",
+          "role": "Youth Survivor",
+          "relationships": {
+            "Learning": "Post-crisis adaptation",
+            "World": "Alien-influenced reality"
+          }
+        }
+      }
+    },
+    "elderly-advisor-1": {
+      "name": "Elder Advisor Chen",
+      "aliases": ["Elder Chen"],
+      "appearances": [33, 45, 52],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Elderly advisor providing wisdom and guidance during humanity's final crisis.",
+          "role": "Elder Advisor",
+          "relationships": {
+            "Contribution": "Wisdom and guidance",
+            "Context": "Final crisis"
+          }
+        }
+      }
+    },
+    "elderly-advisor-2": {
+      "name": "Senior Counselor Davis",
+      "aliases": ["Davis"],
+      "appearances": [33, 45, 52, 53],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Senior counselor helping make the difficult decisions required for species survival.",
+          "role": "Senior Counselor",
+          "relationships": {
+            "Decisions": "Species survival choices",
+            "Role": "Decision guidance"
+          }
+        }
+      }
+    },
+    "final-witness-1": {
+      "name": "Chronicle Keeper Thames",
+      "aliases": ["Thames"],
+      "appearances": [48, 51, 53],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Person documenting the final events of the crisis for future understanding.",
+          "role": "Chronicle Keeper",
+          "relationships": {
+            "Documentation": "Final events",
+            "Purpose": "Future understanding"
+          }
+        }
+      }
+    },
+    "final-witness-2": {
+      "name": "Record Keeper Lane",
+      "aliases": ["Lane"],
+      "appearances": [48, 51, 53],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Record keeper preserving the story of humanity's response to its ultimate challenge.",
+          "role": "Record Keeper",
+          "relationships": {
+            "Preservation": "Human response story",
+            "Challenge": "Ultimate survival test"
+          }
+        }
+      }
+    },
+    "post-crisis-survivor-1": {
+      "name": "New World Citizen Park",
+      "aliases": ["Park"],
+      "appearances": [52, 53],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "Person living in the new reality established after the resolution of the ancient alien crisis.",
+          "role": "New World Citizen",
+          "relationships": {
+            "Reality": "Post-crisis world",
+            "Status": "Adapted survivor"
+          }
+        }
+      }
+    },
+    "post-crisis-survivor-2": {
+      "name": "Future Resident Shaw",
+      "aliases": ["Shaw"],
+      "appearances": [52, 53],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "Resident of the future world shaped by humanity's survival of the ring builder crisis.",
+          "role": "Future Resident",
+          "relationships": {
+            "World": "Survival-shaped future",
+            "History": "Ring builder crisis"
+          }
+        }
+      }
+    },
+    "fleet-commander-1": {
+      "name": "Fleet Commander Stone",
+      "aliases": ["Stone"],
+      "appearances": [6, 18, 30, 42],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Fleet commander coordinating naval evacuation operations across multiple ring systems.",
+          "role": "Fleet Commander",
+          "relationships": {
+            "Command": "Evacuation fleet",
+            "Scope": "Multi-system operations"
+          }
+        }
+      }
+    },
+    "fleet-commander-2": {
+      "name": "Admiral Torres",
+      "aliases": ["Torres"],
+      "appearances": [6, 18, 30],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Admiral managing the complex logistics of mass evacuation across ring space.",
+          "role": "Evacuation Admiral",
+          "relationships": {
+            "Logistics": "Mass evacuation",
+            "Theater": "Ring space"
+          }
+        }
+      }
+    },
+    "diplomatic-envoy-1": {
+      "name": "Envoy Ambassador Kim",
+      "aliases": ["Kim"],
+      "appearances": [8, 20, 32, 44],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Diplomatic envoy attempting to coordinate inter-system cooperation during the crisis.",
+          "role": "Crisis Diplomat",
+          "relationships": {
+            "Mission": "Inter-system cooperation",
+            "Challenge": "Crisis coordination"
+          }
+        }
+      }
+    },
+    "diplomatic-envoy-2": {
+      "name": "Negotiator Butler",
+      "aliases": ["Butler"],
+      "appearances": [8, 20, 32],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Negotiator working to establish agreements between factions for mutual survival.",
+          "role": "Survival Negotiator",
+          "relationships": {
+            "Goal": "Mutual survival pacts",
+            "Parties": "Multiple factions"
+          }
+        }
+      }
+    },
+    "intelligence-analyst-1": {
+      "name": "Intel Analyst Harper",
+      "aliases": ["Harper"],
+      "appearances": [9, 21, 33, 45, 53],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Intelligence analyst gathering information about the true nature of the ancient alien threat.",
+          "role": "Threat Analyst",
+          "relationships": {
+            "Intelligence": "Alien threat nature",
+            "Source": "Multiple channels"
+          }
+        }
+      }
+    },
+    "intelligence-analyst-2": {
+      "name": "Info Specialist Cross",
+      "aliases": ["Cross"],
+      "appearances": [9, 21, 33, 45],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Information specialist analyzing patterns in alien response to human activities.",
+          "role": "Pattern Analyst",
+          "relationships": {
+            "Analysis": "Alien response patterns",
+            "Context": "Human activities"
+          }
+        }
+      }
+    },
+    "manufacturing-worker-1": {
+      "name": "Factory Chief Morrison",
+      "aliases": ["Morrison"],
+      "appearances": [11, 23, 35, 47],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Manufacturing chief converting production to emergency supplies and evacuation equipment.",
+          "role": "Emergency Manufacturing",
+          "relationships": {
+            "Production": "Emergency supplies",
+            "Conversion": "Crisis adaptation"
+          }
+        }
+      }
+    },
+    "manufacturing-worker-2": {
+      "name": "Production Manager Webb",
+      "aliases": ["Webb"],
+      "appearances": [11, 23, 35],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Production manager organizing rapid manufacturing of survival equipment.",
+          "role": "Survival Production",
+          "relationships": {
+            "Equipment": "Survival gear",
+            "Method": "Rapid manufacturing"
+          }
+        }
+      }
+    },
+    "mining-operator-1": {
+      "name": "Mining Chief Stewart",
+      "aliases": ["Stewart"],
+      "appearances": [12, 24, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Mining chief extracting critical materials needed for evacuation and survival infrastructure.",
+          "role": "Crisis Mining",
+          "relationships": {
+            "Materials": "Critical resources",
+            "Purpose": "Survival infrastructure"
+          }
+        }
+      }
+    },
+    "mining-operator-2": {
+      "name": "Resource Extractor Evans",
+      "aliases": ["Evans"],
+      "appearances": [12, 24, 36, 48],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Resource extractor working dangerous operations to secure materials for survival efforts.",
+          "role": "Resource Extractor",
+          "relationships": {
+            "Risk": "Dangerous extraction",
+            "Goal": "Survival materials"
+          }
+        }
+      }
+    },
+    "trade-coordinator-1": {
+      "name": "Trade Manager Phillips",
+      "aliases": ["Phillips"],
+      "appearances": [14, 26, 38, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Trade manager facilitating exchange of critical resources between evacuation groups.",
+          "role": "Resource Exchange",
+          "relationships": {
+            "Exchange": "Critical resources",
+            "Groups": "Evacuation communities"
+          }
+        }
+      }
+    },
+    "trade-coordinator-2": {
+      "name": "Exchange Specialist Murray",
+      "aliases": ["Murray"],
+      "appearances": [14, 26, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Exchange specialist managing barter systems in the post-economy crisis environment.",
+          "role": "Barter Specialist",
+          "relationships": {
+            "System": "Post-economy barter",
+            "Environment": "Crisis economy"
+          }
+        }
+      }
+    },
+    "waste-management-1": {
+      "name": "Sanitation Chief Roberts",
+      "aliases": ["Roberts"],
+      "appearances": [15, 27, 39, 51],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Sanitation chief maintaining hygiene and waste systems in overcrowded evacuation centers.",
+          "role": "Crisis Sanitation",
+          "relationships": {
+            "Challenge": "Overcrowded centers",
+            "Systems": "Hygiene and waste"
+          }
+        }
+      }
+    },
+    "waste-management-2": {
+      "name": "Cleanup Coordinator Bailey",
+      "aliases": ["Bailey"],
+      "appearances": [15, 27, 39],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Cleanup coordinator managing waste disposal and environmental health during mass evacuation.",
+          "role": "Environmental Health",
+          "relationships": {
+            "Focus": "Waste and health",
+            "Scale": "Mass evacuation"
+          }
+        }
+      }
+    },
+    "transportation-hub-1": {
+      "name": "Hub Manager Coleman",
+      "aliases": ["Coleman"],
+      "appearances": [17, 29, 41, 53],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Transportation hub manager coordinating the flow of evacuees through transit points.",
+          "role": "Hub Manager",
+          "relationships": {
+            "Flow": "Evacuee transit",
+            "Coordination": "Hub operations"
+          }
+        }
+      }
+    },
+    "transportation-hub-2": {
+      "name": "Transit Director Powell",
+      "aliases": ["Powell"],
+      "appearances": [17, 29, 41],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Transit director managing passenger and cargo flow through transportation networks.",
+          "role": "Transit Director",
+          "relationships": {
+            "Management": "Passenger and cargo",
+            "Network": "Transport systems"
+          }
+        }
+      }
+    },
+    "information-network-1": {
+      "name": "Network Admin Russell",
+      "aliases": ["Russell"],
+      "appearances": [19, 31, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Network administrator maintaining communication systems during infrastructure collapse.",
+          "role": "Network Administrator",
+          "relationships": {
+            "Systems": "Communication networks",
+            "Challenge": "Infrastructure failure"
+          }
+        }
+      }
+    },
+    "information-network-2": {
+      "name": "Data Manager Griffin",
+      "aliases": ["Griffin"],
+      "appearances": [19, 31, 43, 52],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Data manager preserving critical information systems for post-crisis reconstruction.",
+          "role": "Data Manager",
+          "relationships": {
+            "Preservation": "Critical information",
+            "Purpose": "Post-crisis use"
+          }
+        }
+      }
+    },
+    "security-network-1": {
+      "name": "Security Chief Hunter",
+      "aliases": ["Hunter"],
+      "appearances": [1, 13, 25, 37, 49],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Security chief maintaining order and protection during the escalating crisis.",
+          "role": "Crisis Security",
+          "relationships": {
+            "Mission": "Order and protection",
+            "Context": "Escalating crisis"
+          }
+        }
+      }
+    },
+    "security-network-2": {
+      "name": "Protection Coordinator Pierce",
+      "aliases": ["Pierce"],
+      "appearances": [1, 13, 25, 37],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Protection coordinator organizing security for evacuation routes and refugee centers.",
+          "role": "Protection Coordinator",
+          "relationships": {
+            "Security": "Evacuation routes",
+            "Protection": "Refugee centers"
+          }
+        }
+      }
+    },
+    "emergency-response-1": {
+      "name": "Emergency Chief Watson",
+      "aliases": ["Watson"],
+      "appearances": [3, 15, 27, 39, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Emergency response chief coordinating rapid response to crisis situations across multiple systems.",
+          "role": "Emergency Chief",
+          "relationships": {
+            "Response": "Multi-system crisis",
+            "Coordination": "Rapid deployment"
+          }
+        }
+      }
+    },
+    "emergency-response-2": {
+      "name": "Crisis Manager Kelly",
+      "aliases": ["Kelly"],
+      "appearances": [3, 15, 27, 39],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Crisis manager organizing immediate response to emergency situations during the evacuation.",
+          "role": "Crisis Manager",
+          "relationships": {
+            "Response": "Immediate emergency",
+            "Context": "Evacuation operations"
+          }
+        }
+      }
+    },
+    "alien-contact-specialist-1": {
+      "name": "Contact Specialist Reed",
+      "aliases": ["Reed"],
+      "appearances": [26, 38, 50, 53],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Specialist attempting to establish communication with ancient alien defense systems.",
+          "role": "Contact Specialist",
+          "relationships": {
+            "Goal": "Alien communication",
+            "Target": "Ancient defenses"
+          }
+        }
+      }
+    },
+    "alien-contact-specialist-2": {
+      "name": "Interface Expert Ward",
+      "aliases": ["Ward"],
+      "appearances": [26, 38, 50],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Expert in alien interface technology working to bridge human and alien consciousness.",
+          "role": "Interface Expert",
+          "relationships": {
+            "Technology": "Alien interfaces",
+            "Bridge": "Human-alien consciousness"
+          }
+        }
+      }
+    },
+    "final-protocol-1": {
+      "name": "Protocol Manager Adams",
+      "aliases": ["Adams"],
+      "appearances": [42, 46, 50, 53],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Manager implementing final emergency protocols as humanity faces its ultimate test.",
+          "role": "Final Protocol Manager",
+          "relationships": {
+            "Protocols": "Ultimate emergency",
+            "Context": "Species survival test"
+          }
+        }
+      }
+    },
+    "final-protocol-2": {
+      "name": "Ultimate Coordinator Lewis",
+      "aliases": ["Lewis"],
+      "appearances": [42, 46, 50],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Coordinator managing the final steps of humanity's response to the ancient alien crisis.",
+          "role": "Ultimate Coordinator",
+          "relationships": {
+            "Management": "Final response steps",
+            "Crisis": "Ancient alien threat"
+          }
+        }
+      }
+    },
+    "legacy-keeper-1": {
+      "name": "Legacy Keeper Morgan",
+      "aliases": ["Morgan"],
+      "appearances": [44, 48, 51, 53],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Keeper working to preserve human legacy and knowledge for whatever future awaits.",
+          "role": "Legacy Keeper",
+          "relationships": {
+            "Preservation": "Human legacy",
+            "Future": "Unknown outcome"
+          }
+        }
+      }
+    },
+    "legacy-keeper-2": {
+      "name": "Memory Keeper Torres",
+      "aliases": ["Torres"],
+      "appearances": [44, 48, 51],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Memory keeper documenting the final chapter of human expansion into ring space.",
+          "role": "Memory Keeper",
+          "relationships": {
+            "Documentation": "Final chapter",
+            "Subject": "Human expansion"
+          }
+        }
+      }
+    },
+    "transformation-witness-1": {
+      "name": "Transformation Observer Hill",
+      "aliases": ["Hill"],
+      "appearances": [47, 50, 52, 53],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Observer witnessing the fundamental transformation of human civilization.",
+          "role": "Transformation Observer",
+          "relationships": {
+            "Observation": "Civilization change",
+            "Scale": "Fundamental transformation"
+          }
+        }
+      }
+    },
+    "transformation-witness-2": {
+      "name": "Change Witness Carter",
+      "aliases": ["Carter"],
+      "appearances": [47, 50, 52],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Witness to the epochal changes reshaping humanity's place in the cosmos.",
+          "role": "Change Witness",
+          "relationships": {
+            "Change": "Epochal transformation",
+            "Scope": "Cosmic placement"
+          }
+        }
+      }
+    },
+    "new-reality-architect-1": {
+      "name": "Reality Architect Santos",
+      "aliases": ["Santos"],
+      "appearances": [49, 52, 53],
+      "knowledge": {
+        "49": {
+          "revealedIn": 49,
+          "description": "Architect helping to design humanity's new existence within the constraints imposed by ancient alien judgment.",
+          "role": "Reality Architect",
+          "relationships": {
+            "Design": "New human existence",
+            "Constraints": "Alien judgment"
+          }
+        }
+      }
+    },
+    "new-reality-architect-2": {
+      "name": "Future Designer Mitchell",
+      "aliases": ["Mitchell"],
+      "appearances": [49, 52],
+      "knowledge": {
+        "49": {
+          "revealedIn": 49,
+          "description": "Designer working to create frameworks for human survival in the post-crisis universe.",
+          "role": "Future Designer",
+          "relationships": {
+            "Framework": "Human survival",
+            "Universe": "Post-crisis reality"
+          }
+        }
+      }
+    },
+    "orbital-station-1": {
+      "name": "Station Chief Brooks",
+      "aliases": ["Brooks"],
+      "appearances": [4, 16, 28, 40],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Orbital station chief managing evacuation staging areas in space-based facilities.",
+          "role": "Station Chief",
+          "relationships": {
+            "Facility": "Orbital evacuation staging",
+            "Management": "Space-based operations"
+          }
+        }
+      }
+    },
+    "orbital-station-2": {
+      "name": "Space Platform Director King",
+      "aliases": ["King"],
+      "appearances": [4, 16, 28],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Director of space platform operations supporting the mass evacuation effort.",
+          "role": "Platform Director",
+          "relationships": {
+            "Platform": "Space evacuation hub",
+            "Support": "Mass evacuation"
+          }
+        }
+      }
+    },
+    "interplanetary-courier-1": {
+      "name": "Courier Captain Young",
+      "aliases": ["Young"],
+      "appearances": [6, 18, 30, 42],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Courier captain transporting critical communications between distant evacuation sites.",
+          "role": "Courier Captain",
+          "relationships": {
+            "Transport": "Critical communications",
+            "Route": "Distant sites"
+          }
+        }
+      }
+    },
+    "interplanetary-courier-2": {
+      "name": "Message Runner Clarke",
+      "aliases": ["Clarke"],
+      "appearances": [6, 18, 30],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Message runner maintaining communication links across fragmenting ring space.",
+          "role": "Message Runner",
+          "relationships": {
+            "Links": "Communication networks",
+            "Challenge": "Fragmenting space"
+          }
+        }
+      }
+    },
+    "resource-allocator-1": {
+      "name": "Resource Chief Wood",
+      "aliases": ["Wood"],
+      "appearances": [10, 22, 34, 46],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Resource allocation chief distributing limited supplies among competing survival priorities.",
+          "role": "Resource Allocator",
+          "relationships": {
+            "Distribution": "Limited supplies",
+            "Challenge": "Competing priorities"
+          }
+        }
+      }
+    },
+    "resource-allocator-2": {
+      "name": "Supply Distributor Black",
+      "aliases": ["Black"],
+      "appearances": [10, 22, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Supply distributor managing the complex logistics of resource sharing during crisis.",
+          "role": "Supply Distributor",
+          "relationships": {
+            "Logistics": "Resource sharing",
+            "Complexity": "Crisis management"
+          }
+        }
+      }
+    },
+    "evacuation-planner-1": {
+      "name": "Evacuation Director White",
+      "aliases": ["White"],
+      "appearances": [7, 19, 31, 43, 53],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Evacuation director planning and coordinating the largest population movement in human history.",
+          "role": "Evacuation Director",
+          "relationships": {
+            "Scale": "Largest in human history",
+            "Coordination": "Population movement"
+          }
+        }
+      }
+    },
+    "evacuation-planner-2": {
+      "name": "Movement Coordinator Green",
+      "aliases": ["Green"],
+      "appearances": [7, 19, 31, 43],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Movement coordinator organizing the systematic relocation of entire planetary populations.",
+          "role": "Movement Coordinator",
+          "relationships": {
+            "Organization": "Systematic relocation",
+            "Scale": "Planetary populations"
+          }
+        }
+      }
+    },
+    "survival-instructor-1": {
+      "name": "Survival Expert Hall",
+      "aliases": ["Hall"],
+      "appearances": [14, 26, 38, 50],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Survival expert teaching essential skills to those facing an uncertain future.",
+          "role": "Survival Instructor",
+          "relationships": {
+            "Teaching": "Essential survival skills",
+            "Students": "Uncertain future survivors"
+          }
+        }
+      }
+    },
+    "survival-instructor-2": {
+      "name": "Skills Trainer Allen",
+      "aliases": ["Allen"],
+      "appearances": [14, 26, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Skills trainer preparing people for life in whatever world emerges from the crisis.",
+          "role": "Skills Trainer",
+          "relationships": {
+            "Preparation": "Post-crisis life",
+            "Goal": "Adaptive survival"
+          }
+        }
+      }
+    },
+    "final-witness-elder-1": {
+      "name": "Elder Witness Scott",
+      "aliases": ["Elder Scott"],
+      "appearances": [51, 52, 53],
+      "knowledge": {
+        "51": {
+          "revealedIn": 51,
+          "description": "Elder witness who has seen humanity's entire journey from ring gate discovery to final transformation.",
+          "role": "Elder Witness",
+          "relationships": {
+            "Journey": "Ring gates to transformation",
+            "Perspective": "Complete human story"
+          }
+        }
+      }
+    },
+    "final-witness-elder-2": {
+      "name": "Ancient Observer Wright",
+      "aliases": ["Wright"],
+      "appearances": [51, 52],
+      "knowledge": {
+        "51": {
+          "revealedIn": 51,
+          "description": "Ancient observer who remembers the early days of human expansion and witnesses its conclusion.",
+          "role": "Ancient Observer",
+          "relationships": {
+            "Memory": "Early expansion days",
+            "Witness": "Expansion conclusion"
+          }
+        }
+      }
+    },
+    "bridge-entity-final-1": {
+      "name": "Final Bridge Entity Eta",
+      "aliases": ["Eta"],
+      "appearances": [50, 52, 53],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "Final bridge entity facilitating the ultimate communication between human and alien consciousness.",
+          "role": "Final Bridge Entity",
+          "relationships": {
+            "Communication": "Ultimate human-alien contact",
+            "Role": "Final facilitation"
+          }
+        }
+      }
+    },
+    "bridge-entity-final-2": {
+      "name": "Ultimate Mediator Theta",
+      "aliases": ["Theta"],
+      "appearances": [50, 52],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "Ultimate mediator helping establish the final parameters for human existence in the new reality.",
+          "role": "Ultimate Mediator",
+          "relationships": {
+            "Establishment": "Existence parameters",
+            "Reality": "Post-crisis universe"
           }
         }
       }
