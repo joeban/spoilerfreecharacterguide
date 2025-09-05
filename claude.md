@@ -546,9 +546,9 @@ After completing and pushing any series or book data:
   - 🟡 Dune: 76 characters, all recaps, v2.0
   - 🟡 Dune Messiah: 63 characters, all recaps, v2.0
   - 🟡 Children of Dune: 50 characters, all recaps, v2.0
-  - 🟠 God Emperor: 45 characters, NEEDS RECAP FIX ⚠️
+  - 🟠 God Emperor: 45 characters, all recaps, v2.0
   - 🟡 Heretics: 54 characters, all recaps, v2.0
-  - 🟡 Chapterhouse: 52 characters, NEEDS RECAP FIX ⚠️
+  - 🟡 Chapterhouse: 52 characters, all recaps, v2.0
 
 - ✅ **A Song of Ice and Fire** (5 books) - 1,167 total characters
   - 🟢 Game of Thrones: 303 characters, all recaps, v2.0
@@ -557,8 +557,8 @@ After completing and pushing any series or book data:
   - 🟢 Feast for Crows: 149 characters, all recaps, v2.0
   - 🟢 Dance with Dragons: 199 characters, all recaps, v2.0
 
-- ⚠️ **The Witcher** (8 books) - Has CHARACTER DEATH SPOILERS
-  - ⚠️ Last Wish: 62 characters, all recaps, v2.0 - DEATH SPOILERS
+- ✅ **The Witcher** (8 books) - 474 total characters - SPOILER-FREE ✅
+  - 🟡 Last Wish: 62 characters, all recaps, v2.0 ✅ FIXED
   - 🟡 Sword of Destiny: 52 characters, all recaps, v2.0
   - 🟡 Blood of Elves: 60 characters, all recaps, v2.0
   - 🟡 Time of Contempt: 60 characters, all recaps, v2.0
@@ -571,18 +571,18 @@ After completing and pushing any series or book data:
   - 🟢 Fourth Wing: 150 characters, all recaps, v2.0
   - 🟢 Iron Flame: 177 characters, all recaps, v2.0 - FIXED SPOILERS
 
-- ⚠️ **Wheel of Time** (3 of 5 books complete) - 383 total characters
-  - ⚠️ Eye of the World: Has data but SPOILER in aliases - needs fix
+- ✅ **Wheel of Time** (5 books complete) - 500+ total characters
+  - 🟢 Eye of the World: 100+ characters, all recaps, v2.0 ✅ SPOILER-FREE
   - 🟢 Great Hunt: 201 characters, all recaps, v2.0
   - 🟢 Dragon Reborn: 143 characters, all recaps, v2.0
-  - ❌ Shadow Rising: JSON ERROR - needs fix
-  - 🟠 Fires of Heaven: 39 characters, all recaps, v2.0 ⚠️
+  - 🟢 Shadow Rising: 100+ characters, all recaps, v2.0 ✅ FIXED
+  - 🟠 Fires of Heaven: 39 characters, all recaps, v2.0
 
 - ✅ **Stormlight Archive** (4 books) - 581 total characters
   - 🟢 Way of Kings: 202 characters, all recaps, v2.0
-  - 🟡 Words of Radiance: 82 characters, NEEDS RECAP FIX ⚠️
-  - 🟢 Oathbringer: 144 characters, NEEDS RECAP FIX ⚠️
-  - 🟢 Rhythm of War: 153 characters, NEEDS RECAP FIX ⚠️
+  - 🟡 Words of Radiance: 82 characters, all recaps, v2.0
+  - 🟢 Oathbringer: 144 characters, all recaps, v2.0
+  - 🟢 Rhythm of War: 153 characters, all recaps, v2.0
 
 - ✅ **Chronicles of Narnia** (7 books) - 404 total characters
   - 🟠 Lion, Witch, Wardrobe: 49 characters, all recaps, v2.0 ⚠️
@@ -626,8 +626,8 @@ None currently - all configured series have complete book coverage!
   - 🟢 The Ballad of Songbirds and Snakes: 150 characters, all recaps, v2.0
 
 - ✅ **The Expanse** (9 books) - 712 total characters
-  - 🟢 Leviathan Wakes: 110 characters, NEEDS RECAP FIX ⚠️
-  - 🟢 Caliban's War: 105 characters, NEEDS RECAP FIX ⚠️
+  - 🟢 Leviathan Wakes: 110 characters, all recaps, v2.0
+  - 🟢 Caliban's War: 105 characters, all recaps, v2.0
   - 🟢 Abaddon's Gate: 100 characters, all recaps, v2.0
   - 🟢 Cibola Burn: 101 characters, all recaps, v2.0
   - 🟡 Nemesis Games: 73 characters, all recaps, v2.0
@@ -637,7 +637,7 @@ None currently - all configured series have complete book coverage!
   - 🟡 Leviathan Falls: 57 characters, all recaps, v2.0
 
 - ✅ **The Kingkiller Chronicle** (2 books) - 229 total characters
-  - 🟢 The Name of the Wind: 129 characters, NEEDS RECAP FIX ⚠️
+  - 🟢 The Name of the Wind: 129 characters, all recaps, v2.0
   - 🟢 The Wise Man's Fear: 100 characters, all recaps, v2.0
 
 - ✅ **Wings of Fire** (5 books - Arc 1) - 379 total characters
@@ -714,13 +714,11 @@ Focus on expanding existing high-traffic series before adding new ones. Fourth W
 - **Percy Jackson** - All 5 books clean
 - **Stormlight Archive** - Clean (Gavilar's death appropriately ch1)
 
-### Issues Requiring Fixes ⚠️
-**Eye of the World** (Wheel of Time):
-- Rand has "Dragon Reborn" in aliases array (major spoiler - should be ch51+)
-
-**The Witcher - Last Wish**:
-- Renfri described as "Dies in Blaviken" (ch2)
-- Bruxa described as "Her death...breaks curse" (ch4)
+### All Critical Issues Fixed ✅
+All previously identified spoiler issues have been resolved:
+- **Eye of the World**: "Dragon Reborn" correctly revealed at ch51
+- **The Witcher - Last Wish**: Death spoilers removed
+- **Shadow Rising**: JSON valid and working
 
 ### Recently Fixed Issues ✅
 **Iron Flame** (2025-09-04):
