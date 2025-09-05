@@ -571,12 +571,13 @@ After completing and pushing any series or book data:
   - 🟢 Fourth Wing: 150 characters, all recaps, v2.0
   - 🟢 Iron Flame: 177 characters, all recaps, v2.0 - FIXED SPOILERS
 
-- ✅ **Wheel of Time** (5 books complete) - 770 total characters
-  - 🟢 Eye of the World: 199 characters, all recaps, v2.0 ✅ SPOILER-FREE
+- ⚠️ **Wheel of Time** (5 of 14 books) - 770 total characters - INCOMPLETE SERIES
+  - 🟢 Eye of the World: 199 characters, all recaps, v2.0
   - 🟢 Great Hunt: 201 characters, all recaps, v2.0
   - 🟢 Dragon Reborn: 143 characters, all recaps, v2.0
-  - 🟢 Shadow Rising: 111 characters, all recaps, v2.0 ✅ FIXED
+  - 🟢 Shadow Rising: 111 characters, all recaps, v2.0
   - 🟢 Fires of Heaven: 116 characters, all recaps, v2.0
+  - ❌ Missing: Books 6-14 (Lord of Chaos through A Memory of Light)
 
 - ✅ **Stormlight Archive** (4 books) - 581 total characters
   - 🟢 Way of Kings: 202 characters, all recaps, v2.0
@@ -594,7 +595,8 @@ After completing and pushing any series or book data:
   - 🟡 Last Battle: 80 characters, all recaps, v2.0
 
 ### Partially Complete Series
-None currently - all configured series have complete book coverage!
+- **Wheel of Time**: Only 5 of 14 books complete (missing books 6-14)
+- **Heroes of Olympus**: 0 of 5 books (Percy Jackson sequel series not started)
 
 - ✅ **Shadow and Bone/Grishaverse** (5 books)
   - 🟡 Shadow and Bone: 85 characters, all recaps, v2.0
@@ -625,22 +627,22 @@ None currently - all configured series have complete book coverage!
   - 🟢 Mockingjay: 150 characters, all recaps, v2.0
   - 🟢 The Ballad of Songbirds and Snakes: 150 characters, all recaps, v2.0
 
-- ✅ **The Expanse** (9 books) - 712 total characters
+- ✅ **The Expanse** (9 books) - 1,190 total characters
   - 🟢 Leviathan Wakes: 110 characters, all recaps, v2.0
   - 🟢 Caliban's War: 105 characters, all recaps, v2.0
   - 🟢 Abaddon's Gate: 100 characters, all recaps, v2.0
   - 🟢 Cibola Burn: 101 characters, all recaps, v2.0
-  - 🟡 Nemesis Games: 73 characters, all recaps, v2.0
-  - 🟡 Babylon's Ashes: 55 characters, all recaps, v2.0
-  - 🟡 Persepolis Rising: 57 characters, all recaps, v2.0
-  - 🟡 Tiamat's Wrath: 54 characters, all recaps, v2.0
-  - 🟡 Leviathan Falls: 57 characters, all recaps, v2.0
+  - 🟢 Nemesis Games: 163 characters, all recaps, v2.0
+  - 🟢 Babylon's Ashes: 151 characters, all recaps, v2.0
+  - 🟢 Persepolis Rising: 150 characters, all recaps, v2.0
+  - 🟢 Tiamat's Wrath: 158 characters, all recaps, v2.0
+  - 🟢 Leviathan Falls: 152 characters, all recaps, v2.0
 
 - ✅ **The Kingkiller Chronicle** (2 books) - 229 total characters
   - 🟢 The Name of the Wind: 129 characters, all recaps, v2.0
   - 🟢 The Wise Man's Fear: 100 characters, all recaps, v2.0
 
-- ✅ **Wings of Fire** (5 books - Arc 1) - 379 total characters
+- ✅ **Wings of Fire** (5 books - Arc 1) - 764 total characters
   - 🟡 The Dragonet Prophecy: 79 characters, all recaps, v2.0
   - 🟡 The Lost Heir: 71 characters, all recaps, v2.0
   - 🟡 The Hidden Kingdom: 67 characters, all recaps, v2.0
@@ -654,11 +656,11 @@ None currently - all configured series have complete book coverage!
   - 🟢 Foundation's Edge: 131 characters, all recaps, v2.0
   - 🟢 Foundation and Earth: 158 characters, all recaps, v2.0
 
-- ✅ **Cosmere/Mistborn** (7 books) - 661 total characters
+- ✅ **Cosmere/Mistborn** (7 books) - 764 total characters
   - 🟡 The Final Empire: 63 characters, all recaps, v2.0
   - 🟢 The Well of Ascension: 150 characters, all recaps, v2.0
   - 🟢 The Hero of Ages: 151 characters, all recaps, v2.0
-  - 🟠 The Alloy of Law: 30 characters, all recaps, v2.0
+  - 🟢 The Alloy of Law: 133 characters, all recaps, v2.0 ✅ EXPANDED
   - 🟢 Shadows of Self: 104 characters, all recaps, v2.0
   - 🟡 The Bands of Mourning: 87 characters, all recaps, v2.0
   - 🟡 The Lost Metal: 76 characters, all recaps, v2.0
@@ -678,7 +680,7 @@ None - all configured series now have data!
 
 ### Books With Genuinely Low Character Counts
 These books actually have fewer than 100 characters:
-1. **Mistborn - Alloy of Law**: 30 characters (lowest in database)
+1. ~~**Mistborn - Alloy of Law**~~: Now 133 characters ✅ EXPANDED
 2. **Mistborn - Final Empire**: 63 characters (low for first book)
 3. **Mistborn - Lost Metal**: 76 characters
 4. **Mistborn - Bands of Mourning**: 87 characters
@@ -747,9 +749,9 @@ For each book, we:
 ## Project Statistics (as of 2025-09-04)
 - **Total Series Configured**: 20 series
 - **Series with Complete Data**: 20 series (all configured series)
-- **Total Books with Data**: 101 books
-- **Total Characters**: 13,000+ unique characters across all series
-- **Recent Expansions**: Foundation series corrected (+452 chars), LOTR Fellowship corrected (+65 chars)
+- **Total Books with Data**: 104 books (excluding backup files)
+- **Total Characters**: 15,250+ unique characters across all series
+- **Recent Expansions**: Mistborn Alloy of Law (30→133), Expanse series corrected totals
 - **Data Coverage Breakdown**:
   - 🟢 13 series with 500+ characters (comprehensive)
   - 🟡 6 series with 200-500 characters (standard)
