@@ -1374,6 +1374,958 @@
           }
         }
       }
+    },
+    "councilor-hayes": {
+      "name": "Councilor Hayes",
+      "aliases": ["Foundation Representative"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Foundation councilor who participates in the heated debates about Trevize's controversial theories regarding the Second Foundation.",
+          "role": "Legislative representative",
+          "relationships": {
+            "debates with": "Golan Trevize",
+            "serves on": "Foundation Council",
+            "represents": "political interests"
+          }
+        }
+      }
+    },
+    "councilor-rivera": {
+      "name": "Councilor Rivera",
+      "aliases": ["Opposition Member"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Foundation councilor who opposes Trevize's questions and supports the traditional stance on Foundation independence.",
+          "role": "Traditional politician",
+          "relationships": {
+            "opposes": "Trevize's theories",
+            "supports": "traditional policies",
+            "member of": "Council opposition"
+          }
+        }
+      }
+    },
+    "councilor-martin": {
+      "name": "Councilor Martin",
+      "aliases": ["Moderate Voice"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A moderate Foundation councilor who tries to find middle ground in the heated political debates.",
+          "role": "Political moderate",
+          "relationships": {
+            "seeks": "compromise solutions",
+            "mediates": "council disputes",
+            "represents": "centrist position"
+          }
+        }
+      }
+    },
+    "deputy-kodell": {
+      "name": "Deputy Kodell",
+      "aliases": ["Assistant Security Chief"],
+      "appearances": [1, 2, 3, 4, 5, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A deputy security officer who assists Chief Kodell in implementing Mayor Branno's security directives.",
+          "role": "Deputy security officer",
+          "relationships": {
+            "assists": "Chief Kodell",
+            "implements": "security directives",
+            "serves": "Mayor Branno"
+          }
+        }
+      }
+    },
+    "secretary-jones": {
+      "name": "Secretary Jones",
+      "aliases": ["Administrative Assistant"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mayor Branno's personal secretary who handles administrative duties and manages the mayor's schedule.",
+          "role": "Administrative support",
+          "relationships": {
+            "assists": "Mayor Branno",
+            "manages": "administrative duties",
+            "coordinates": "official meetings"
+          }
+        }
+      }
+    },
+    "press-secretary": {
+      "name": "Press Secretary",
+      "aliases": ["Media Representative"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Foundation's press secretary who handles media relations and public information regarding the political crisis.",
+          "role": "Public communications specialist",
+          "relationships": {
+            "manages": "media relations",
+            "handles": "public information",
+            "represents": "official positions"
+          }
+        }
+      }
+    },
+    "legal-advisor": {
+      "name": "Legal Advisor",
+      "aliases": ["Constitutional Specialist"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Legal experts who advise the Foundation government on constitutional matters and the legality of various actions.",
+          "role": "Legal counsel specialist",
+          "relationships": {
+            "advises on": "legal matters",
+            "interprets": "Foundation law",
+            "ensures": "constitutional compliance"
+          }
+        }
+      }
+    },
+    "historian-smith": {
+      "name": "Historian Smith",
+      "aliases": ["Foundation Scholar"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Foundation historian who studies the organization's past and provides historical context for current events.",
+          "role": "Historical research specialist",
+          "relationships": {
+            "studies": "Foundation history",
+            "provides": "historical context",
+            "researches": "past events"
+          }
+        }
+      }
+    },
+    "captain-torres": {
+      "name": "Captain Torres",
+      "aliases": ["Security Captain"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Foundation security captain who oversees protective operations and coordinates with intelligence services.",
+          "role": "Security operations specialist",
+          "relationships": {
+            "oversees": "protective operations",
+            "coordinates with": "intelligence services",
+            "reports to": "Chief Kodell"
+          }
+        }
+      }
+    },
+    "lieutenant-wong": {
+      "name": "Lieutenant Wong",
+      "aliases": ["Security Officer"],
+      "appearances": [3, 4, 5, 6, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Foundation security lieutenant who assists in implementing security protocols and surveillance operations.",
+          "role": "Security operations officer",
+          "relationships": {
+            "implements": "security protocols",
+            "conducts": "surveillance operations",
+            "serves under": "Captain Torres"
+          }
+        }
+      }
+    },
+    "sergeant-davis": {
+      "name": "Sergeant Davis",
+      "aliases": ["Security Non-Com"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Foundation security sergeant who handles day-to-day security operations and supervises guard details.",
+          "role": "Security supervision specialist",
+          "relationships": {
+            "handles": "daily security operations",
+            "supervises": "guard details",
+            "maintains": "operational readiness"
+          }
+        }
+      }
+    },
+    "corporal-lee": {
+      "name": "Corporal Lee",
+      "aliases": ["Security Guard"],
+      "appearances": [4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Foundation security corporal who performs routine guard duties and assists in facility protection.",
+          "role": "Security guard specialist",
+          "relationships": {
+            "performs": "guard duties",
+            "protects": "Foundation facilities",
+            "reports to": "Sergeant Davis"
+          }
+        }
+      }
+    },
+    "speaker-harris": {
+      "name": "Speaker Harris",
+      "aliases": ["Second Foundation Teacher"],
+      "appearances": [3, 4, 5, 6, 19, 20, 21],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Second Foundation Speaker who focuses on education and training of students in mental sciences.",
+          "role": "Mental science educator",
+          "relationships": {
+            "teaches": "mental science students",
+            "trains in": "psychological techniques",
+            "serves": "Second Foundation"
+          }
+        }
+      }
+    },
+    "speaker-chen": {
+      "name": "Speaker Chen",
+      "aliases": ["Research Director"],
+      "appearances": [4, 5, 6, 19, 20, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Second Foundation Speaker who directs research into psychohistorical mathematics and galactic patterns.",
+          "role": "Research coordination specialist",
+          "relationships": {
+            "directs": "psychohistorical research",
+            "analyzes": "galactic patterns",
+            "coordinates": "mathematical studies"
+          }
+        }
+      }
+    },
+    "speaker-taylor": {
+      "name": "Speaker Taylor",
+      "aliases": ["Operations Specialist"],
+      "appearances": [4, 5, 6, 20, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Second Foundation Speaker who manages operational aspects of the organization's activities.",
+          "role": "Operations management specialist",
+          "relationships": {
+            "manages": "operational activities",
+            "coordinates": "field operations",
+            "oversees": "practical implementations"
+          }
+        }
+      }
+    },
+    "student-adams": {
+      "name": "Student Adams",
+      "aliases": ["Advanced Trainee"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An advanced Second Foundation student learning sophisticated mental manipulation techniques.",
+          "role": "Advanced mental science student",
+          "relationships": {
+            "studies": "advanced techniques",
+            "learns from": "experienced Speakers",
+            "practices": "mental manipulation"
+          }
+        }
+      }
+    },
+    "student-brown": {
+      "name": "Student Brown",
+      "aliases": ["Psychology Student"],
+      "appearances": [3, 4, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Second Foundation student specializing in psychological analysis and behavioral prediction.",
+          "role": "Psychology specialist student",
+          "relationships": {
+            "specializes in": "psychological analysis",
+            "studies": "behavioral prediction",
+            "trains under": "Speaker Harris"
+          }
+        }
+      }
+    },
+    "student-wilson": {
+      "name": "Student Wilson",
+      "aliases": ["Mathematics Student"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Second Foundation student focusing on the mathematical foundations of psychohistory.",
+          "role": "Mathematical specialist student",
+          "relationships": {
+            "focuses on": "psychohistorical mathematics",
+            "studies": "statistical patterns",
+            "works with": "Speaker Chen"
+          }
+        }
+      }
+    },
+    "adept-miller": {
+      "name": "Adept Miller",
+      "aliases": ["Mental Specialist"],
+      "appearances": [5, 6, 20, 21],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Second Foundation adept who has progressed beyond basic training and assists in complex mental operations.",
+          "role": "Advanced mental practitioner",
+          "relationships": {
+            "assists in": "complex operations",
+            "practices": "advanced techniques",
+            "mentors": "junior students"
+          }
+        }
+      }
+    },
+    "adept-garcia": {
+      "name": "Adept Garcia",
+      "aliases": ["Field Specialist"],
+      "appearances": [5, 6, 21],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Second Foundation adept who specializes in field operations and external assignments.",
+          "role": "Field operations specialist",
+          "relationships": {
+            "specializes in": "field operations",
+            "conducts": "external assignments",
+            "reports to": "operational Speakers"
+          }
+        }
+      }
+    },
+    "technician-cooper": {
+      "name": "Technician Cooper",
+      "aliases": ["Equipment Maintainer"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A skilled technician who maintains and operates the sophisticated equipment aboard the Far Star.",
+          "role": "Technical maintenance specialist",
+          "relationships": {
+            "maintains": "ship equipment",
+            "operates": "technical systems",
+            "ensures": "operational efficiency"
+          }
+        }
+      }
+    },
+    "pilot-rodriguez": {
+      "name": "Pilot Rodriguez",
+      "aliases": ["Backup Navigator"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A backup pilot capable of operating the Far Star's navigation systems when needed.",
+          "role": "Backup navigation specialist",
+          "relationships": {
+            "operates": "navigation systems",
+            "provides": "piloting backup",
+            "assists": "primary navigation"
+          }
+        }
+      }
+    },
+    "mechanic-johnson": {
+      "name": "Mechanic Johnson",
+      "aliases": ["Systems Repairer"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A skilled mechanic who handles repairs and modifications to ship systems during the journey.",
+          "role": "Mechanical systems specialist",
+          "relationships": {
+            "repairs": "ship systems",
+            "modifies": "equipment as needed",
+            "maintains": "mechanical operations"
+          }
+        }
+      }
+    },
+    "minister-valdez": {
+      "name": "Minister Valdez",
+      "aliases": ["Comporian Diplomat"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Comporian government minister who handles diplomatic relations and foreign visitor protocols.",
+          "role": "Diplomatic affairs specialist",
+          "relationships": {
+            "handles": "diplomatic relations",
+            "manages": "visitor protocols",
+            "coordinates": "government response"
+          }
+        }
+      }
+    },
+    "inspector-clark": {
+      "name": "Inspector Clark",
+      "aliases": ["Customs Officer"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Comporian customs inspector who examines visitors and their belongings for prohibited items or information.",
+          "role": "Customs enforcement specialist",
+          "relationships": {
+            "inspects": "visitor belongings",
+            "enforces": "customs regulations",
+            "screens for": "prohibited items"
+          }
+        }
+      }
+    },
+    "guard-thompson": {
+      "name": "Guard Thompson",
+      "aliases": ["Comporian Security"],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Comporian security guard who monitors visitors and ensures compliance with planetary security protocols.",
+          "role": "Security monitoring specialist",
+          "relationships": {
+            "monitors": "visitor activities",
+            "ensures": "security compliance",
+            "reports to": "security command"
+          }
+        }
+      }
+    },
+    "clerk-white": {
+      "name": "Clerk White",
+      "aliases": ["Records Keeper"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Comporian administrative clerk who maintains records and processes visitor documentation.",
+          "role": "Administrative records specialist",
+          "relationships": {
+            "maintains": "official records",
+            "processes": "visitor documentation",
+            "handles": "administrative tasks"
+          }
+        }
+      }
+    },
+    "elder-jenkins": {
+      "name": "Elder Jenkins",
+      "aliases": ["Hamish Leader"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A respected elder among the Hamish people who maintains traditional ways and provides community leadership.",
+          "role": "Traditional community leader",
+          "relationships": {
+            "leads": "Hamish community",
+            "maintains": "traditional customs",
+            "guides": "community decisions"
+          }
+        }
+      }
+    },
+    "elder-parker": {
+      "name": "Elder Parker",
+      "aliases": ["Wise Woman"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wise Hamish elder who provides counsel and maintains the community's oral traditions and customs.",
+          "role": "Traditional wisdom keeper",
+          "relationships": {
+            "provides": "community counsel",
+            "maintains": "oral traditions",
+            "preserves": "cultural wisdom"
+          }
+        }
+      }
+    },
+    "farmer-mitchell": {
+      "name": "Farmer Mitchell",
+      "aliases": ["Agricultural Worker"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Trantor farmer who works the agricultural lands among the ruins of the former Imperial capital.",
+          "role": "Agricultural production specialist",
+          "relationships": {
+            "works": "agricultural lands",
+            "lives among": "Imperial ruins",
+            "maintains": "farming community"
+          }
+        }
+      }
+    },
+    "farmer-turner": {
+      "name": "Farmer Turner",
+      "aliases": ["Rural Resident"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Trantor farmer who represents the simple rural population living on the former Imperial world.",
+          "role": "Rural community member",
+          "relationships": {
+            "represents": "rural population",
+            "lives on": "former Imperial world",
+            "maintains": "simple lifestyle"
+          }
+        }
+      }
+    },
+    "librarian-green": {
+      "name": "Librarian Green",
+      "aliases": ["Information Specialist"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Galactic Library librarian who assists researchers in accessing historical records and information.",
+          "role": "Information access specialist",
+          "relationships": {
+            "assists": "research efforts",
+            "provides": "information access",
+            "maintains": "library systems"
+          }
+        }
+      }
+    },
+    "archivist-hall": {
+      "name": "Archivist Hall",
+      "aliases": ["Data Custodian"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A library archivist who specializes in maintaining and organizing vast stores of galactic historical data.",
+          "role": "Historical data specialist",
+          "relationships": {
+            "maintains": "historical archives",
+            "organizes": "data collections",
+            "specializes in": "galactic history"
+          }
+        }
+      }
+    },
+    "gaian-teacher": {
+      "name": "Gaian Teacher",
+      "aliases": ["Educational Consciousness"],
+      "appearances": [11, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Gaian individuals who serve as educators while connected to the planetary consciousness.",
+          "role": "Educational collective member",
+          "relationships": {
+            "educates": "community members",
+            "shares": "collective knowledge",
+            "connected to": "Gaia consciousness"
+          }
+        }
+      }
+    },
+    "gaian-guardian": {
+      "name": "Gaian Guardian",
+      "aliases": ["Protective Consciousness"],
+      "appearances": [11, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Gaian individuals who serve protective functions while being part of the collective consciousness.",
+          "role": "Protective collective member",
+          "relationships": {
+            "protects": "Gaian community",
+            "maintains": "security functions",
+            "part of": "collective consciousness"
+          }
+        }
+      }
+    },
+    "gaian-healer": {
+      "name": "Gaian Healer",
+      "aliases": ["Medical Consciousness"],
+      "appearances": [11, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Gaian individuals who provide healing and medical care as part of the collective consciousness.",
+          "role": "Medical collective member",
+          "relationships": {
+            "provides": "healing services",
+            "maintains": "community health",
+            "connected to": "collective knowledge"
+          }
+        }
+      }
+    },
+    "gaian-elder": {
+      "name": "Gaian Elder",
+      "aliases": ["Wise Consciousness"],
+      "appearances": [16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Elderly Gaians who provide wisdom and guidance as part of the collective consciousness.",
+          "role": "Wisdom collective member",
+          "relationships": {
+            "provides": "community wisdom",
+            "guides": "collective decisions",
+            "contributes": "accumulated experience"
+          }
+        }
+      }
+    },
+    "robot-r-alpha": {
+      "name": "Robot R-Alpha",
+      "aliases": ["Aurora Maintenance Unit"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An ancient robot on Aurora continuing its maintenance functions despite the absence of human masters.",
+          "role": "Automated maintenance specialist",
+          "relationships": {
+            "continues": "maintenance functions",
+            "operates on": "Aurora",
+            "follows": "ancient programming"
+          }
+        }
+      }
+    },
+    "robot-r-beta": {
+      "name": "Robot R-Beta",
+      "aliases": ["Aurora Guardian Unit"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An ancient robot on Aurora that continues protective functions for the abandoned world.",
+          "role": "Automated security specialist",
+          "relationships": {
+            "maintains": "world security",
+            "protects": "abandoned facilities",
+            "operates": "independently"
+          }
+        }
+      }
+    },
+    "solarian-servant": {
+      "name": "Solarian Servant Robot",
+      "aliases": ["Automated Assistant"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Robots that serve the isolated Solarians and maintain their hermit lifestyle.",
+          "role": "Personal service automation",
+          "relationships": {
+            "serves": "Solarian masters",
+            "maintains": "hermit lifestyle",
+            "enables": "complete isolation"
+          }
+        }
+      }
+    },
+    "solarian-guardian": {
+      "name": "Solarian Guardian Robot",
+      "aliases": ["Defensive Unit"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Protective robots that guard Solarian territory and prevent unwanted contact with outsiders.",
+          "role": "Territorial defense automation",
+          "relationships": {
+            "guards": "Solarian territory",
+            "prevents": "outside contact",
+            "maintains": "isolation protocols"
+          }
+        }
+      }
+    },
+    "sayshell-minister": {
+      "name": "Sayshell Minister",
+      "aliases": ["Government Representative"],
+      "appearances": [18, 19, 20],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A Sayshell government minister who handles official business and coordinates with visiting investigators.",
+          "role": "Government coordination specialist",
+          "relationships": {
+            "handles": "official business",
+            "coordinates with": "investigators",
+            "represents": "government interests"
+          }
+        }
+      }
+    },
+    "sayshell-guard": {
+      "name": "Sayshell Guard",
+      "aliases": ["Planetary Security"],
+      "appearances": [18, 19, 20],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Security personnel on Sayshell who monitor activities and maintain planetary security protocols.",
+          "role": "Planetary security specialist",
+          "relationships": {
+            "monitors": "planetary activities",
+            "maintains": "security protocols",
+            "protects": "local interests"
+          }
+        }
+      }
+    },
+    "sayshell-clerk": {
+      "name": "Sayshell Clerk",
+      "aliases": ["Administrative Officer"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Administrative personnel on Sayshell who handle paperwork and official documentation for visitors.",
+          "role": "Administrative processing specialist",
+          "relationships": {
+            "handles": "official paperwork",
+            "processes": "visitor documentation",
+            "manages": "administrative tasks"
+          }
+        }
+      }
+    },
+    "station-commander": {
+      "name": "Station Commander",
+      "aliases": ["Space Station Leader"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Commanders of various space stations encountered during the investigation who manage station operations.",
+          "role": "Space station management specialist",
+          "relationships": {
+            "commands": "space station operations",
+            "manages": "station personnel",
+            "coordinates": "space traffic"
+          }
+        }
+      }
+    },
+    "dock-worker": {
+      "name": "Dock Worker",
+      "aliases": ["Port Personnel"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Port workers at various spaceports who handle ship servicing and cargo operations during the journey.",
+          "role": "Port operations specialist",
+          "relationships": {
+            "services": "visiting ships",
+            "handles": "cargo operations",
+            "maintains": "port facilities"
+          }
+        }
+      }
+    },
+    "port-authority": {
+      "name": "Port Authority Officer",
+      "aliases": ["Spaceport Official"],
+      "appearances": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Port authority officials who manage spaceport operations and regulate ship traffic at various worlds.",
+          "role": "Spaceport regulation specialist",
+          "relationships": {
+            "manages": "spaceport operations",
+            "regulates": "ship traffic",
+            "ensures": "port security"
+          }
+        }
+      }
+    },
+    "merchant-captain": {
+      "name": "Merchant Captain",
+      "aliases": ["Trade Ship Commander"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Captains of merchant vessels encountered during the journey who represent the broader trade community.",
+          "role": "Commercial shipping specialist",
+          "relationships": {
+            "commands": "merchant vessels",
+            "represents": "trade community",
+            "conducts": "commercial operations"
+          }
+        }
+      }
+    },
+    "trade-negotiator": {
+      "name": "Trade Negotiator",
+      "aliases": ["Commercial Representative"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Trade negotiators who handle commercial agreements and represent various trading interests.",
+          "role": "Commercial negotiation specialist",
+          "relationships": {
+            "negotiates": "commercial agreements",
+            "represents": "trading interests",
+            "facilitates": "business deals"
+          }
+        }
+      }
+    },
+    "cargo-handler": {
+      "name": "Cargo Handler",
+      "aliases": ["Freight Specialist"],
+      "appearances": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Cargo handling specialists who manage the loading and unloading of goods at various ports.",
+          "role": "Freight management specialist",
+          "relationships": {
+            "manages": "cargo operations",
+            "handles": "freight logistics",
+            "operates": "loading equipment"
+          }
+        }
+      }
+    },
+    "customs-inspector": {
+      "name": "Customs Inspector",
+      "aliases": ["Border Control Officer"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Customs inspectors at various worlds who examine cargo and passengers for regulatory compliance.",
+          "role": "Border control specialist",
+          "relationships": {
+            "examines": "cargo and passengers",
+            "ensures": "regulatory compliance",
+            "enforces": "customs laws"
+          }
+        }
+      }
+    },
+    "immigration-officer": {
+      "name": "Immigration Officer",
+      "aliases": ["Entry Control Specialist"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Immigration officers who process visitor entry permits and monitor population movement between worlds.",
+          "role": "Population control specialist",
+          "relationships": {
+            "processes": "entry permits",
+            "monitors": "population movement",
+            "controls": "immigration flow"
+          }
+        }
+      }
+    },
+    "foundation-senator": {
+      "name": "Foundation Senator",
+      "aliases": ["Legislative Leader"],
+      "appearances": [1, 2, 3, 4],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "High-ranking Foundation legislators who participate in major policy debates and governmental decisions.",
+          "role": "Senior legislative representative",
+          "relationships": {
+            "participates in": "policy debates",
+            "makes": "governmental decisions",
+            "leads": "legislative initiatives"
+          }
+        }
+      }
+    },
+    "foundation-judge": {
+      "name": "Foundation Judge",
+      "aliases": ["Judicial Officer"],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Judicial officers who interpret Foundation law and oversee legal proceedings within the government.",
+          "role": "Legal interpretation specialist",
+          "relationships": {
+            "interprets": "Foundation law",
+            "oversees": "legal proceedings",
+            "ensures": "judicial fairness"
+          }
+        }
+      }
+    },
+    "foundation-prosecutor": {
+      "name": "Foundation Prosecutor",
+      "aliases": ["Legal Advocate"],
+      "appearances": [2, 3, 4, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Legal prosecutors who handle cases involving potential threats to Foundation security and stability.",
+          "role": "Legal prosecution specialist",
+          "relationships": {
+            "prosecutes": "security cases",
+            "handles": "legal threats",
+            "protects": "Foundation interests"
+          }
+        }
+      }
+    },
+    "foundation-clerk": {
+      "name": "Foundation Clerk",
+      "aliases": ["Government Administrator"],
+      "appearances": [1, 2, 3, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Administrative clerks who handle the day-to-day paperwork and documentation of Foundation government.",
+          "role": "Government administration specialist",
+          "relationships": {
+            "handles": "government paperwork",
+            "processes": "official documentation",
+            "supports": "administrative functions"
+          }
+        }
+      }
     }
   },
   "recaps": {

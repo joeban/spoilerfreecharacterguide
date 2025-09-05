@@ -1330,6 +1330,1417 @@
           }
         }
       }
+    },
+    "comporian-customs-officer": {
+      "name": "Comporian Customs Officer",
+      "aliases": ["Port Authority"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Customs officers who control entry and exit from Comporellon, maintaining strict protocols about visitors and information.",
+          "role": "Port security specialist",
+          "relationships": {
+            "controls": "planetary entry",
+            "enforces": "customs protocols",
+            "monitors": "visitor activities"
+          }
+        }
+      }
+    },
+    "comporian-archivist": {
+      "name": "Comporian Archivist",
+      "aliases": ["Records Keeper"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Archivists who maintain Comporellon's historical records, including sensitive information about Earth and the Spacer worlds.",
+          "role": "Historical records specialist",
+          "relationships": {
+            "maintains": "historical archives",
+            "guards": "sensitive information",
+            "controls": "access to records"
+          }
+        }
+      }
+    },
+    "comporian-citizen": {
+      "name": "Comporian Citizen",
+      "aliases": ["Local Resident"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Citizens of Comporellon who live according to their world's strict social customs and maintain their Auroran heritage.",
+          "role": "Planetary resident",
+          "relationships": {
+            "follows": "social customs",
+            "maintains": "Auroran heritage",
+            "lives on": "Comporellon"
+          }
+        }
+      }
+    },
+    "comporian-technician": {
+      "name": "Comporian Technician",
+      "aliases": ["Systems Operator"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Technical specialists who maintain Comporellon's infrastructure and computer systems, including restricted databases.",
+          "role": "Infrastructure maintenance specialist",
+          "relationships": {
+            "maintains": "planetary infrastructure",
+            "operates": "computer systems",
+            "manages": "technical databases"
+          }
+        }
+      }
+    },
+    "comporian-librarian": {
+      "name": "Comporian Librarian",
+      "aliases": ["Information Specialist"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Librarians who manage Comporellon's information resources and help researchers with approved materials.",
+          "role": "Information management specialist",
+          "relationships": {
+            "manages": "information resources",
+            "assists": "approved research",
+            "controls": "access to materials"
+          }
+        }
+      }
+    },
+    "comporian-merchant": {
+      "name": "Comporian Merchant",
+      "aliases": ["Trade Specialist"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Merchants who conduct trade on Comporellon and interact with off-world visitors within permitted boundaries.",
+          "role": "Commercial trade specialist",
+          "relationships": {
+            "conducts": "planetary trade",
+            "interacts with": "off-world visitors",
+            "operates within": "permitted boundaries"
+          }
+        }
+      }
+    },
+    "comporian-administrator": {
+      "name": "Comporian Administrator",
+      "aliases": ["Civil Servant"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Administrative personnel who handle the day-to-day governance of Comporellon and visitor relations.",
+          "role": "Administrative specialist",
+          "relationships": {
+            "handles": "daily governance",
+            "manages": "visitor relations",
+            "implements": "planetary policies"
+          }
+        }
+      }
+    },
+    "comporian-doctor": {
+      "name": "Comporian Doctor",
+      "aliases": ["Medical Professional"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Medical professionals who provide healthcare services on Comporellon and monitor visitor health status.",
+          "role": "Medical services specialist",
+          "relationships": {
+            "provides": "healthcare services",
+            "monitors": "visitor health",
+            "maintains": "medical standards"
+          }
+        }
+      }
+    },
+    "comporian-educator": {
+      "name": "Comporian Educator",
+      "aliases": ["Academic Instructor"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Educators who teach Comporellon's citizens and maintain their cultural knowledge and traditions.",
+          "role": "Educational specialist",
+          "relationships": {
+            "educates": "planetary citizens",
+            "maintains": "cultural knowledge",
+            "preserves": "traditions"
+          }
+        }
+      }
+    },
+    "comporian-maintenance": {
+      "name": "Comporian Maintenance Worker",
+      "aliases": ["Facility Keeper"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Workers who maintain Comporellon's facilities and infrastructure, ensuring everything functions properly.",
+          "role": "Facility maintenance specialist",
+          "relationships": {
+            "maintains": "planetary facilities",
+            "ensures": "proper function",
+            "supports": "infrastructure"
+          }
+        }
+      }
+    },
+    "auroran-facility-manager": {
+      "name": "Auroran Facility Manager",
+      "aliases": ["Complex Supervisor"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Managers who oversee Aurora's remaining operational facilities and coordinate with robotic systems.",
+          "role": "Facility management specialist",
+          "relationships": {
+            "oversees": "operational facilities",
+            "coordinates with": "robotic systems",
+            "manages": "complex operations"
+          }
+        }
+      }
+    },
+    "auroran-descendant": {
+      "name": "Auroran Descendant",
+      "aliases": ["Spacer Heir"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Direct descendants of the original Auroran Spacers who maintain their ancestral world and its traditions.",
+          "role": "Cultural heritage keeper",
+          "relationships": {
+            "descended from": "original Spacers",
+            "maintains": "ancestral traditions",
+            "preserves": "Spacer culture"
+          }
+        }
+      }
+    },
+    "auroran-robot-tender": {
+      "name": "Auroran Robot Tender",
+      "aliases": ["Mechanical Caretaker"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Specialists who maintain and repair Aurora's ancient robotic population and their systems.",
+          "role": "Robotic maintenance specialist",
+          "relationships": {
+            "maintains": "ancient robots",
+            "repairs": "robotic systems",
+            "specializes in": "mechanical care"
+          }
+        }
+      }
+    },
+    "auroran-historian": {
+      "name": "Auroran Historian",
+      "aliases": ["Spacer Chronicler"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Historians who specialize in Aurora's history and the broader story of Spacer civilization.",
+          "role": "Spacer history specialist",
+          "relationships": {
+            "specializes in": "Aurora's history",
+            "chronicles": "Spacer civilization",
+            "maintains": "historical records"
+          }
+        }
+      }
+    },
+    "auroran-security-chief": {
+      "name": "Auroran Security Chief",
+      "aliases": ["Protection Coordinator"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Security personnel who protect Aurora's facilities and monitor visitors to the Spacer world.",
+          "role": "Security coordination specialist",
+          "relationships": {
+            "protects": "Aurora's facilities",
+            "monitors": "visitor activities",
+            "coordinates": "security measures"
+          }
+        }
+      }
+    },
+    "auroran-medical-technician": {
+      "name": "Auroran Medical Technician",
+      "aliases": ["Health Monitor"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Medical technicians who monitor health conditions on Aurora and maintain Spacer medical traditions.",
+          "role": "Medical monitoring specialist",
+          "relationships": {
+            "monitors": "health conditions",
+            "maintains": "medical traditions",
+            "provides": "health services"
+          }
+        }
+      }
+    },
+    "auroran-data-keeper": {
+      "name": "Auroran Data Keeper",
+      "aliases": ["Information Curator"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Specialists who manage Aurora's vast databases and information systems containing Spacer knowledge.",
+          "role": "Data management specialist",
+          "relationships": {
+            "manages": "databases",
+            "maintains": "information systems",
+            "curates": "Spacer knowledge"
+          }
+        }
+      }
+    },
+    "auroran-environmental-monitor": {
+      "name": "Auroran Environmental Monitor",
+      "aliases": ["Ecosystem Guardian"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Monitors who track Aurora's environmental conditions and maintain the world's ecological balance.",
+          "role": "Environmental monitoring specialist",
+          "relationships": {
+            "monitors": "environmental conditions",
+            "maintains": "ecological balance",
+            "tracks": "planetary health"
+          }
+        }
+      }
+    },
+    "auroran-cultural-advisor": {
+      "name": "Auroran Cultural Advisor",
+      "aliases": ["Tradition Keeper"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Advisors who maintain Aurora's cultural practices and guide interactions with off-world visitors.",
+          "role": "Cultural guidance specialist",
+          "relationships": {
+            "maintains": "cultural practices",
+            "guides": "visitor interactions",
+            "preserves": "Spacer traditions"
+          }
+        }
+      }
+    },
+    "auroran-youth": {
+      "name": "Auroran Youth",
+      "aliases": ["Young Spacer"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Young Aurorans who represent the future of Spacer civilization and its adaptation to changing times.",
+          "role": "Future generation representative",
+          "relationships": {
+            "represents": "civilization's future",
+            "adapts to": "changing times",
+            "learns from": "elder Spacers"
+          }
+        }
+      }
+    },
+    "solarian-maintenance-robot": {
+      "name": "Solarian Maintenance Robot",
+      "aliases": ["Estate Keeper"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Specialized robots that maintain Solarian estates and facilities without requiring direct human interaction.",
+          "role": "Automated maintenance system",
+          "relationships": {
+            "maintains": "Solarian estates",
+            "operates": "without human contact",
+            "serves": "hermaphrodite masters"
+          }
+        }
+      }
+    },
+    "solarian-communication-system": {
+      "name": "Solarian Communication System",
+      "aliases": ["Remote Interface"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Advanced communication systems that allow Solarians to interact without physical proximity.",
+          "role": "Remote interaction facilitator",
+          "relationships": {
+            "facilitates": "remote interaction",
+            "enables": "isolation maintenance",
+            "connects": "separated Solarians"
+          }
+        }
+      }
+    },
+    "solarian-agricultural-robot": {
+      "name": "Solarian Agricultural Robot",
+      "aliases": ["Farm Tender"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Robots specialized in agricultural work, maintaining food production on Solarian estates.",
+          "role": "Agricultural automation system",
+          "relationships": {
+            "maintains": "food production",
+            "works on": "agricultural estates",
+            "supports": "Solarian survival"
+          }
+        }
+      }
+    },
+    "solarian-security-drone": {
+      "name": "Solarian Security Drone",
+      "aliases": ["Perimeter Guardian"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Automated security drones that patrol Solarian territories and prevent unwanted intrusions.",
+          "role": "Automated security system",
+          "relationships": {
+            "patrols": "Solarian territories",
+            "prevents": "unwanted intrusions",
+            "enforces": "isolation protocols"
+          }
+        }
+      }
+    },
+    "solarian-medical-robot": {
+      "name": "Solarian Medical Robot",
+      "aliases": ["Health Monitor"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Medical robots that provide healthcare to Solarians without requiring physical contact.",
+          "role": "Remote medical care system",
+          "relationships": {
+            "provides": "healthcare services",
+            "operates": "without physical contact",
+            "monitors": "Solarian health"
+          }
+        }
+      }
+    },
+    "solarian-transport-system": {
+      "name": "Solarian Transport System",
+      "aliases": ["Automated Conveyance"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Automated transportation systems that move goods and materials without requiring human operators.",
+          "role": "Automated logistics system",
+          "relationships": {
+            "transports": "goods and materials",
+            "operates": "without human contact",
+            "connects": "estate facilities"
+          }
+        }
+      }
+    },
+    "solarian-environmental-controller": {
+      "name": "Solarian Environmental Controller",
+      "aliases": ["Climate Manager"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Systems that control environmental conditions on Solarian estates to maintain optimal living conditions.",
+          "role": "Environmental management system",
+          "relationships": {
+            "controls": "environmental conditions",
+            "maintains": "optimal living conditions",
+            "manages": "estate climate"
+          }
+        }
+      }
+    },
+    "solarian-data-processor": {
+      "name": "Solarian Data Processor",
+      "aliases": ["Information Handler"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Data processing systems that handle information and communications for isolated Solarians.",
+          "role": "Information processing system",
+          "relationships": {
+            "processes": "information and data",
+            "handles": "communications",
+            "serves": "isolated Solarians"
+          }
+        }
+      }
+    },
+    "solarian-construction-robot": {
+      "name": "Solarian Construction Robot",
+      "aliases": ["Builder Unit"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Construction robots that build and modify Solarian structures without human supervision.",
+          "role": "Automated construction system",
+          "relationships": {
+            "builds": "Solarian structures",
+            "modifies": "existing facilities",
+            "operates": "without human supervision"
+          }
+        }
+      }
+    },
+    "melpomenian-archaeologist": {
+      "name": "Melpomenian Archaeologist",
+      "aliases": ["Ancient Sites Explorer"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Archaeologists on Melpomenia who study ancient ruins and artifacts from the early days of human expansion.",
+          "role": "Archaeological research specialist",
+          "relationships": {
+            "studies": "ancient ruins",
+            "explores": "historical sites",
+            "researches": "human expansion history"
+          }
+        }
+      }
+    },
+    "melpomenian-explorer": {
+      "name": "Melpomenian Explorer",
+      "aliases": ["Territory Surveyor"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Explorers who survey Melpomenia's territories and map its geographical features and resources.",
+          "role": "Territorial exploration specialist",
+          "relationships": {
+            "surveys": "planetary territories",
+            "maps": "geographical features",
+            "discovers": "planetary resources"
+          }
+        }
+      }
+    },
+    "melpomenian-researcher": {
+      "name": "Melpomenian Researcher",
+      "aliases": ["Scientific Investigator"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Researchers who investigate Melpomenia's scientific mysteries and its connections to Earth and Spacer worlds.",
+          "role": "Scientific research specialist",
+          "relationships": {
+            "investigates": "scientific mysteries",
+            "studies": "planetary connections",
+            "researches": "Spacer influences"
+          }
+        }
+      }
+    },
+    "melpomenian-guide": {
+      "name": "Melpomenian Guide",
+      "aliases": ["Local Navigator"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Local guides who assist visitors in navigating Melpomenia's terrain and locating sites of interest.",
+          "role": "Navigation assistance specialist",
+          "relationships": {
+            "guides": "off-world visitors",
+            "navigates": "planetary terrain",
+            "locates": "sites of interest"
+          }
+        }
+      }
+    },
+    "melpomenian-conservator": {
+      "name": "Melpomenian Conservator",
+      "aliases": ["Heritage Protector"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Specialists who preserve and protect Melpomenia's historical sites and cultural heritage.",
+          "role": "Heritage conservation specialist",
+          "relationships": {
+            "preserves": "historical sites",
+            "protects": "cultural heritage",
+            "maintains": "site integrity"
+          }
+        }
+      }
+    },
+    "melpomenian-technician": {
+      "name": "Melpomenian Technician",
+      "aliases": ["Equipment Specialist"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Technicians who maintain exploration equipment and support archaeological and research activities.",
+          "role": "Technical support specialist",
+          "relationships": {
+            "maintains": "exploration equipment",
+            "supports": "research activities",
+            "operates": "technical systems"
+          }
+        }
+      }
+    },
+    "melpomenian-cartographer": {
+      "name": "Melpomenian Cartographer",
+      "aliases": ["Map Maker"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Cartographers who create detailed maps of Melpomenia's features and mark important historical locations.",
+          "role": "Mapping specialist",
+          "relationships": {
+            "creates": "detailed planetary maps",
+            "marks": "historical locations",
+            "documents": "geographical features"
+          }
+        }
+      }
+    },
+    "melpomenian-analyst": {
+      "name": "Melpomenian Analyst",
+      "aliases": ["Data Interpreter"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Analysts who interpret data and findings from archaeological and research expeditions.",
+          "role": "Data analysis specialist",
+          "relationships": {
+            "interprets": "research data",
+            "analyzes": "expedition findings",
+            "evaluates": "archaeological evidence"
+          }
+        }
+      }
+    },
+    "melpomenian-coordinator": {
+      "name": "Melpomenian Coordinator",
+      "aliases": ["Project Manager"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Coordinators who manage research projects and organize collaborative efforts with off-world visitors.",
+          "role": "Project coordination specialist",
+          "relationships": {
+            "manages": "research projects",
+            "coordinates": "collaborative efforts",
+            "organizes": "visitor interactions"
+          }
+        }
+      }
+    },
+    "melpomenian-archivist": {
+      "name": "Melpomenian Archivist",
+      "aliases": ["Documentation Keeper"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Archivists who maintain records of discoveries and preserve documentation of Melpomenia's research activities.",
+          "role": "Documentation preservation specialist",
+          "relationships": {
+            "maintains": "discovery records",
+            "preserves": "research documentation",
+            "catalogs": "findings"
+          }
+        }
+      }
+    },
+    "earth-scavenger": {
+      "name": "Earth Scavenger",
+      "aliases": ["Resource Gatherer"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Survivors on Earth who scavenge for resources and materials in the radioactive ruins of the ancient world.",
+          "role": "Resource acquisition specialist",
+          "relationships": {
+            "scavenges": "ancient ruins",
+            "gathers": "survival resources",
+            "navigates": "radioactive zones"
+          }
+        }
+      }
+    },
+    "earth-elder": {
+      "name": "Earth Elder",
+      "aliases": ["Ancient Wisdom Keeper"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Elderly survivors who remember the old stories and maintain knowledge of Earth's pre-disaster civilization.",
+          "role": "Wisdom preservation specialist",
+          "relationships": {
+            "remembers": "ancient stories",
+            "maintains": "pre-disaster knowledge",
+            "guides": "younger survivors"
+          }
+        }
+      }
+    },
+    "earth-healer": {
+      "name": "Earth Healer",
+      "aliases": ["Radiation Medic"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Healers who treat radiation sickness and other ailments affecting Earth's surviving population.",
+          "role": "Medical treatment specialist",
+          "relationships": {
+            "treats": "radiation sickness",
+            "heals": "survivor ailments",
+            "provides": "medical care"
+          }
+        }
+      }
+    },
+    "earth-chronicler": {
+      "name": "Earth Chronicler",
+      "aliases": ["Story Keeper"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Survivors who maintain oral histories and chronicle the experiences of Earth's remaining population.",
+          "role": "Historical documentation specialist",
+          "relationships": {
+            "maintains": "oral histories",
+            "chronicles": "survivor experiences",
+            "preserves": "cultural memory"
+          }
+        }
+      }
+    },
+    "earth-scout": {
+      "name": "Earth Scout",
+      "aliases": ["Territory Explorer"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Scouts who explore Earth's dangerous territories to find resources and monitor radiation levels.",
+          "role": "Exploration and monitoring specialist",
+          "relationships": {
+            "explores": "dangerous territories",
+            "monitors": "radiation levels",
+            "locates": "safe zones"
+          }
+        }
+      }
+    },
+    "earth-engineer": {
+      "name": "Earth Engineer",
+      "aliases": ["Survival Technician"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Engineers who maintain what little technology remains functional on post-disaster Earth.",
+          "role": "Technology maintenance specialist",
+          "relationships": {
+            "maintains": "surviving technology",
+            "repairs": "damaged systems",
+            "improvises": "technical solutions"
+          }
+        }
+      }
+    },
+    "earth-cultivator": {
+      "name": "Earth Cultivator",
+      "aliases": ["Food Producer"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Survivors who attempt to grow food in Earth's contaminated soil and maintain small agricultural plots.",
+          "role": "Food production specialist",
+          "relationships": {
+            "grows": "food in contaminated soil",
+            "maintains": "agricultural plots",
+            "provides": "sustenance"
+          }
+        }
+      }
+    },
+    "earth-sentinel": {
+      "name": "Earth Sentinel",
+      "aliases": ["Warning Guardian"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Guardians who watch for dangerous radiation zones and warn other survivors of hazards.",
+          "role": "Hazard monitoring specialist",
+          "relationships": {
+            "monitors": "radiation hazards",
+            "warns": "other survivors",
+            "guards": "safe areas"
+          }
+        }
+      }
+    },
+    "earth-memory-keeper": {
+      "name": "Earth Memory Keeper",
+      "aliases": ["Legacy Guardian"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Keepers who preserve memories and artifacts from Earth's golden age before the great disaster.",
+          "role": "Cultural preservation specialist",
+          "relationships": {
+            "preserves": "pre-disaster memories",
+            "maintains": "cultural artifacts",
+            "guards": "Earth's legacy"
+          }
+        }
+      }
+    },
+    "earth-wildlife": {
+      "name": "Earth Wildlife",
+      "aliases": ["Mutated Fauna"],
+      "appearances": [19, 20, 21],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "The few remaining animal species on Earth, many mutated by radiation but still part of the planet's ecosystem.",
+          "role": "Surviving ecosystem component",
+          "relationships": {
+            "survives": "radiation exposure",
+            "adapts to": "contaminated environment",
+            "represents": "Earth's biological heritage"
+          }
+        }
+      }
+    },
+    "station-controller": {
+      "name": "Station Controller",
+      "aliases": ["Traffic Coordinator"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Controllers at various space stations who manage ship traffic and coordinate interstellar travel.",
+          "role": "Space traffic management specialist",
+          "relationships": {
+            "manages": "ship traffic",
+            "coordinates": "interstellar travel",
+            "operates": "space stations"
+          }
+        }
+      }
+    },
+    "docking-chief": {
+      "name": "Docking Chief",
+      "aliases": ["Port Master"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Chiefs who oversee docking operations and ensure safe berthing of spacecraft at various ports.",
+          "role": "Docking operations specialist",
+          "relationships": {
+            "oversees": "docking operations",
+            "ensures": "spacecraft safety",
+            "manages": "port facilities"
+          }
+        }
+      }
+    },
+    "cargo-handler": {
+      "name": "Cargo Handler",
+      "aliases": ["Freight Specialist"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Workers who handle cargo loading and unloading at space stations and planetary ports.",
+          "role": "Cargo management specialist",
+          "relationships": {
+            "handles": "cargo operations",
+            "loads and unloads": "spacecraft",
+            "manages": "freight logistics"
+          }
+        }
+      }
+    },
+    "navigation-officer": {
+      "name": "Navigation Officer",
+      "aliases": ["Course Planner"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Officers who plan navigation courses and assist ships in plotting safe routes through space.",
+          "role": "Navigation planning specialist",
+          "relationships": {
+            "plans": "navigation courses",
+            "assists": "ship routing",
+            "ensures": "safe space travel"
+          }
+        }
+      }
+    },
+    "fuel-technician": {
+      "name": "Fuel Technician",
+      "aliases": ["Energy Specialist"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Technicians who handle fuel and energy systems for spacecraft at various ports and stations.",
+          "role": "Energy systems specialist",
+          "relationships": {
+            "handles": "fuel systems",
+            "maintains": "energy supplies",
+            "services": "spacecraft needs"
+          }
+        }
+      }
+    },
+    "maintenance-crew": {
+      "name": "Maintenance Crew",
+      "aliases": ["Repair Team"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Maintenance crews who repair and service spacecraft at stations and ports throughout the journey.",
+          "role": "Spacecraft maintenance specialist",
+          "relationships": {
+            "repairs": "spacecraft systems",
+            "services": "ship components",
+            "maintains": "vessel readiness"
+          }
+        }
+      }
+    },
+    "customs-inspector": {
+      "name": "Customs Inspector",
+      "aliases": ["Border Control"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Inspectors who examine cargo and passengers at planetary borders and space stations.",
+          "role": "Border security specialist",
+          "relationships": {
+            "inspects": "cargo and passengers",
+            "enforces": "border regulations",
+            "monitors": "interplanetary travel"
+          }
+        }
+      }
+    },
+    "communication-relay-operator": {
+      "name": "Communication Relay Operator",
+      "aliases": ["Signal Relay"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Operators who manage communication relays and maintain contact between ships and planetary systems.",
+          "role": "Communication management specialist",
+          "relationships": {
+            "manages": "communication systems",
+            "maintains": "interstellar contact",
+            "operates": "relay networks"
+          }
+        }
+      }
+    },
+    "supply-coordinator": {
+      "name": "Supply Coordinator",
+      "aliases": ["Resource Manager"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Coordinators who manage supply chains and ensure adequate resources for space travel and planetary visits.",
+          "role": "Supply chain management specialist",
+          "relationships": {
+            "manages": "supply chains",
+            "coordinates": "resource allocation",
+            "ensures": "adequate supplies"
+          }
+        }
+      }
+    },
+    "emergency-responder": {
+      "name": "Emergency Responder",
+      "aliases": ["Crisis Handler"],
+      "appearances": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Responders who handle emergency situations and provide crisis support at space facilities and during travel.",
+          "role": "Emergency response specialist",
+          "relationships": {
+            "handles": "emergency situations",
+            "provides": "crisis support",
+            "ensures": "safety protocols"
+          }
+        }
+      }
+    },
+    "ancient-spacer-leader": {
+      "name": "Ancient Spacer Leader",
+      "aliases": ["Historical Figure"],
+      "appearances": [10, 11, 12, 20, 22],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Historical leaders from the Spacer worlds who are remembered for their role in early galactic colonization.",
+          "role": "Historical colonization leader",
+          "relationships": {
+            "led": "early colonization",
+            "established": "Spacer worlds",
+            "influenced": "galactic development"
+          }
+        }
+      }
+    },
+    "moon-base-commander": {
+      "name": "Moon Base Commander",
+      "aliases": ["Lunar Operations Chief"],
+      "appearances": [20, 21, 22],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Historical commanders who operated Earth's Moon bases during the planet's active period.",
+          "role": "Lunar facility commander",
+          "relationships": {
+            "commanded": "Moon bases",
+            "operated": "lunar facilities",
+            "served": "Earth's interests"
+          }
+        }
+      }
+    },
+    "ancient-earth-scientist": {
+      "name": "Ancient Earth Scientist",
+      "aliases": ["Pre-Disaster Researcher"],
+      "appearances": [19, 20, 21, 22],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Scientists from Earth's golden age who contributed to robotics, space travel, and galactic expansion.",
+          "role": "Historical research pioneer",
+          "relationships": {
+            "contributed to": "robotics development",
+            "advanced": "space travel",
+            "enabled": "galactic expansion"
+          }
+        }
+      }
+    },
+    "early-robot-designer": {
+      "name": "Early Robot Designer",
+      "aliases": ["Robotics Pioneer"],
+      "appearances": [20, 22, 23],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Historical figures who designed the first robots and established the foundations of robotic technology.",
+          "role": "Robotics development pioneer",
+          "relationships": {
+            "designed": "first robots",
+            "established": "robotic foundations",
+            "influenced": "technological development"
+          }
+        }
+      }
+    },
+    "settlement-founder": {
+      "name": "Settlement Founder",
+      "aliases": ["Colony Establisher"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Historical founders who established the first settlements on various worlds throughout the galaxy.",
+          "role": "Settlement establishment pioneer",
+          "relationships": {
+            "founded": "early settlements",
+            "established": "colonial communities",
+            "pioneered": "galactic habitation"
+          }
+        }
+      }
+    },
+    "migration-coordinator": {
+      "name": "Migration Coordinator",
+      "aliases": ["Population Movement Manager"],
+      "appearances": [16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Historical coordinators who managed the great migrations from Earth to other worlds.",
+          "role": "Migration management specialist",
+          "relationships": {
+            "coordinated": "population migrations",
+            "managed": "interstellar movement",
+            "organized": "settlement efforts"
+          }
+        }
+      }
+    },
+    "galactic-explorer": {
+      "name": "Galactic Explorer",
+      "aliases": ["Star System Pioneer"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Historical explorers who first mapped star systems and identified habitable worlds.",
+          "role": "Galactic exploration pioneer",
+          "relationships": {
+            "explored": "star systems",
+            "mapped": "galactic regions",
+            "identified": "habitable worlds"
+          }
+        }
+      }
+    },
+    "terraforming-engineer": {
+      "name": "Terraforming Engineer",
+      "aliases": ["World Shaper"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Historical engineers who developed terraforming technology and shaped worlds for human habitation.",
+          "role": "Terraforming technology pioneer",
+          "relationships": {
+            "developed": "terraforming technology",
+            "shaped": "habitable worlds",
+            "enabled": "planetary colonization"
+          }
+        }
+      }
+    },
+    "cultural-ambassador": {
+      "name": "Cultural Ambassador",
+      "aliases": ["Diplomatic Representative"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Historical ambassadors who facilitated cultural exchange between Earth and its daughter worlds.",
+          "role": "Cultural diplomacy specialist",
+          "relationships": {
+            "facilitated": "cultural exchange",
+            "represented": "Earth's interests",
+            "promoted": "interworld cooperation"
+          }
+        }
+      }
+    },
+    "archive-builder": {
+      "name": "Archive Builder",
+      "aliases": ["Knowledge Preserver"],
+      "appearances": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Historical figures who built archives and libraries to preserve human knowledge across the galaxy.",
+          "role": "Knowledge preservation pioneer",
+          "relationships": {
+            "built": "galactic archives",
+            "preserved": "human knowledge",
+            "established": "information networks"
+          }
+        }
+      }
+    },
+    "colonial-teacher": {
+      "name": "Colonial Teacher",
+      "aliases": ["Knowledge Transmitter"],
+      "appearances": [13, 14, 15, 16, 17, 18],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Teachers who educate colonial populations and transmit knowledge across different worlds.",
+          "role": "Educational specialist",
+          "relationships": {
+            "educates": "colonial populations",
+            "transmits": "knowledge systems",
+            "maintains": "cultural continuity"
+          }
+        }
+      }
+    },
+    "planetary-geologist": {
+      "name": "Planetary Geologist",
+      "aliases": ["World Analyst"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Geologists who study planetary formations and mineral resources on various worlds.",
+          "role": "Geological analysis specialist",
+          "relationships": {
+            "studies": "planetary formations",
+            "analyzes": "mineral resources",
+            "maps": "geological features"
+          }
+        }
+      }
+    },
+    "atmospheric-engineer": {
+      "name": "Atmospheric Engineer",
+      "aliases": ["Air Systems Specialist"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Engineers who design and maintain atmospheric systems for colonial worlds and space habitats.",
+          "role": "Atmospheric systems specialist",
+          "relationships": {
+            "designs": "atmospheric systems",
+            "maintains": "air quality",
+            "supports": "colonial habitation"
+          }
+        }
+      }
+    },
+    "energy-coordinator": {
+      "name": "Energy Coordinator",
+      "aliases": ["Power Systems Manager"],
+      "appearances": [14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Coordinators who manage energy production and distribution systems on colonial worlds.",
+          "role": "Energy management specialist",
+          "relationships": {
+            "manages": "energy production",
+            "coordinates": "power distribution",
+            "optimizes": "energy efficiency"
+          }
+        }
+      }
+    },
+    "waste-management-specialist": {
+      "name": "Waste Management Specialist",
+      "aliases": ["Sanitation Coordinator"],
+      "appearances": [15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Specialists who handle waste management and environmental sanitation on various worlds.",
+          "role": "Waste processing specialist",
+          "relationships": {
+            "processes": "waste materials",
+            "maintains": "sanitation systems",
+            "protects": "environmental health"
+          }
+        }
+      }
+    },
+    "water-systems-manager": {
+      "name": "Water Systems Manager",
+      "aliases": ["Hydration Specialist"],
+      "appearances": [15, 16, 17, 18, 19, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Managers who oversee water purification, distribution, and conservation on colonial worlds.",
+          "role": "Water management specialist",
+          "relationships": {
+            "manages": "water systems",
+            "purifies": "water supplies",
+            "conserves": "water resources"
+          }
+        }
+      }
+    },
+    "transportation-coordinator": {
+      "name": "Transportation Coordinator",
+      "aliases": ["Transit Manager"],
+      "appearances": [15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Coordinators who manage transportation systems and mobility solutions on various worlds.",
+          "role": "Transportation management specialist",
+          "relationships": {
+            "coordinates": "transportation systems",
+            "manages": "mobility solutions",
+            "facilitates": "movement efficiency"
+          }
+        }
+      }
+    },
+    "food-production-manager": {
+      "name": "Food Production Manager",
+      "aliases": ["Agricultural Coordinator"],
+      "appearances": [16, 17, 18, 19, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Managers who oversee food production and agricultural systems on colonial worlds.",
+          "role": "Food production specialist",
+          "relationships": {
+            "oversees": "food production",
+            "manages": "agricultural systems",
+            "ensures": "food security"
+          }
+        }
+      }
+    },
+    "habitat-designer": {
+      "name": "Habitat Designer",
+      "aliases": ["Living Space Architect"],
+      "appearances": [16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "Designers who create living spaces and habitats optimized for different planetary conditions.",
+          "role": "Habitat design specialist",
+          "relationships": {
+            "designs": "living habitats",
+            "optimizes": "living conditions",
+            "adapts": "environmental challenges"
+          }
+        }
+      }
+    },
+    "recreation-coordinator": {
+      "name": "Recreation Coordinator",
+      "aliases": ["Leisure Activities Manager"],
+      "appearances": [17, 18, 19, 20, 21],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Coordinators who organize recreational activities and leisure facilities for colonial communities.",
+          "role": "Recreation management specialist",
+          "relationships": {
+            "organizes": "recreational activities",
+            "manages": "leisure facilities",
+            "promotes": "community wellness"
+          }
+        }
+      }
+    },
+    "mental-health-counselor": {
+      "name": "Mental Health Counselor",
+      "aliases": ["Psychological Support Specialist"],
+      "appearances": [17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Counselors who provide mental health support and psychological services to colonial populations.",
+          "role": "Mental health specialist",
+          "relationships": {
+            "provides": "mental health support",
+            "offers": "psychological services",
+            "maintains": "community mental wellness"
+          }
+        }
+      }
+    },
+    "conflict-mediator": {
+      "name": "Conflict Mediator",
+      "aliases": ["Dispute Resolution Specialist"],
+      "appearances": [18, 19, 20, 21, 22],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Mediators who resolve conflicts and disputes within and between colonial communities.",
+          "role": "Conflict resolution specialist",
+          "relationships": {
+            "resolves": "community conflicts",
+            "mediates": "disputes",
+            "maintains": "social harmony"
+          }
+        }
+      }
+    },
+    "integration-specialist": {
+      "name": "Integration Specialist",
+      "aliases": ["Community Unification Expert"],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Specialists who work to integrate diverse populations and prepare communities for the transition to Galaxia.",
+          "role": "Social integration specialist",
+          "relationships": {
+            "integrates": "diverse populations",
+            "prepares": "community transitions",
+            "facilitates": "Galaxia readiness"
+          }
+        }
+      }
+    },
+    "transition-coordinator": {
+      "name": "Transition Coordinator",
+      "aliases": ["Change Management Specialist"],
+      "appearances": [23, 24],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Coordinators who manage the transition from independent worlds to the unified Galaxia consciousness.",
+          "role": "Transition management specialist",
+          "relationships": {
+            "manages": "consciousness transition",
+            "coordinates": "Galaxia integration",
+            "facilitates": "unity achievement"
+          }
+        }
+      }
     }
   },
   "recaps": {
