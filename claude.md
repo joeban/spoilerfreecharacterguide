@@ -536,9 +536,9 @@ After completing and pushing any series or book data:
   - 🟢 Battle of Labyrinth: 157 characters, all recaps, v2.0
   - 🟢 Last Olympian: 151 characters, all recaps, v2.0
 
-- ✅ **Lord of the Rings/Hobbit** (4 books) - 291 total characters
+- ✅ **Lord of the Rings/Hobbit** (4 books) - 356 total characters
   - 🟡 The Hobbit: 64 characters, all recaps, v2.0
-  - 🟠 Fellowship: 38 characters, all recaps, v2.0 ⚠️
+  - 🟢 Fellowship: 103 characters, all recaps, v2.0
   - 🟢 Two Towers: 112 characters, all recaps, v2.0
   - 🟡 Return of King: 77 characters, all recaps, v2.0
 
@@ -647,12 +647,12 @@ None currently - all configured series have complete book coverage!
   - 🟡 The Dark Secret: 81 characters, all recaps, v2.0
   - 🟡 The Brightest Night: 81 characters, all recaps, v2.0
 
-- ✅ **Foundation** (5 books) - 281 total characters
-  - 🟡 Foundation: 57 characters, all recaps, v2.0
-  - 🟠 Foundation and Empire: 32 characters, all recaps, v2.0
+- ✅ **Foundation** (5 books) - 733 total characters
+  - 🟢 Foundation: 160 characters, all recaps, v2.0
+  - 🟢 Foundation and Empire: 151 characters, all recaps, v2.0
   - 🟢 Second Foundation: 133 characters, all recaps, v2.0
-  - 🟠 Foundation's Edge: 32 characters, all recaps, v2.0
-  - 🟠 Foundation and Earth: 27 characters, all recaps, v2.0
+  - 🟢 Foundation's Edge: 131 characters, all recaps, v2.0
+  - 🟢 Foundation and Earth: 158 characters, all recaps, v2.0
 
 - ✅ **Cosmere/Mistborn** (7 books) - 661 total characters
   - 🟡 The Final Empire: 63 characters, all recaps, v2.0
@@ -677,12 +677,11 @@ None currently - all configured series have complete book coverage!
 None - all configured series now have data!
 
 ### Books Needing Character Expansion
-Priority books that need upgrading to Comprehensive (🟢) coverage:
-1. **Harry Potter** series - Books 1-4, 6-7 need 50-200 more characters each for true comprehensive coverage
-2. **A Song of Ice and Fire** (books 2-5) - Need 200+ more characters each to match GoT's coverage
-3. **Percy Jackson** series - Each book needs 50+ additional minor characters
-4. **Lord of the Rings** trilogy - Missing many minor characters from each book
-5. **Wheel of Time** (books 1-5) - Each needs 100+ additional characters
+Books that could benefit from more comprehensive coverage:
+1. **Mistborn Era 2**: Alloy of Law only has 30 characters (needs 100+)
+2. **Wheel of Time**: Fires of Heaven only has 39 characters
+3. **Narnia**: Lion/Witch/Wardrobe (49) and Magician's Nephew (37) are low
+4. **Some Witcher books** could use expansion to match other fantasy series
 
 ### Next Priority for NEW Series (Based on Traffic Strategy)
 1. ~~**Throne of Glass**~~ ✅ COMPLETE - Sarah J. Maas series, massive fanbase
@@ -743,8 +742,8 @@ For each book, we:
 - **Total Series Configured**: 20 series
 - **Series with Complete Data**: 20 series (all configured series)
 - **Total Books with Data**: 101 books
-- **Total Characters**: 12,416+ unique characters across all series
-- **Recent Expansions**: Second Foundation (+102 chars), Hunger Games (+82 chars), Percy Jackson (+456 chars), Fourth Wing (+165 chars)
+- **Total Characters**: 13,000+ unique characters across all series
+- **Recent Expansions**: Foundation series corrected (+452 chars), LOTR Fellowship corrected (+65 chars)
 - **Data Coverage Breakdown**:
   - 🟢 13 series with 500+ characters (comprehensive)
   - 🟡 6 series with 200-500 characters (standard)
