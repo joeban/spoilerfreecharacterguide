@@ -2411,6 +2411,1888 @@
           }
         }
       }
+    },
+    "flare-general": {
+      "name": "Flare",
+      "aliases": [
+        "Blister's General",
+        "Siege Commander"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A cunning general who leads Blister's forces in her bid for the throne, using tactical brilliance to compensate for smaller armies.",
+          "role": "Strategic General",
+          "relationships": {
+            "Blister": "Queen he serves strategically",
+            "Morrowseer": "NightWing ally",
+            "Kindle": "Fellow strategist"
+          }
+        }
+      }
+    },
+    "torch": {
+      "name": "Torch",
+      "aliases": [
+        "Blister's Commander",
+        "Elite Captain"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A fierce commander who executes Blister's orders with ruthless efficiency, commanding respect through fear.",
+          "role": "Elite Military Commander",
+          "relationships": {
+            "Flare": "Senior general",
+            "Blister": "Queen whose will he enforces",
+            "Scorch": "Fellow commander"
+          }
+        }
+      }
+    },
+    "scorch": {
+      "name": "Scorch",
+      "aliases": [
+        "Palace Commander",
+        "Blister's Guard"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The commander responsible for protecting Blister's palace and maintaining security for her court.",
+          "role": "Palace Security Chief",
+          "relationships": {
+            "Torch": "Military colleague",
+            "Blister": "Queen he protects",
+            "Kindle": "Court noble"
+          }
+        }
+      }
+    },
+    "ember": {
+      "name": "Ember",
+      "aliases": [
+        "Blister's Lieutenant",
+        "Court Guard"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A loyal lieutenant who serves in Blister's personal guard, known for unwavering obedience.",
+          "role": "Court Guardian",
+          "relationships": {
+            "Scorch": "Commander he serves",
+            "Blister": "Queen he guards",
+            "Spark": "Fellow guard"
+          }
+        }
+      }
+    },
+    "spark": {
+      "name": "Spark",
+      "aliases": [
+        "Palace Guard",
+        "Loyal Defender"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A dedicated guard who protects Blister's palace complex, maintaining vigilance against threats.",
+          "role": "Palace Defender",
+          "relationships": {
+            "Ember": "Guard partner",
+            "Flame": "Fellow defender",
+            "Blister": "Queen whose palace he protects"
+          }
+        }
+      }
+    },
+    "flame": {
+      "name": "Flame",
+      "aliases": [
+        "Tower Guard",
+        "High Watcher"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A guard who watches from the high towers of Blister's palace, monitoring approaches for enemy forces.",
+          "role": "Tower Sentinel",
+          "relationships": {
+            "Spark": "Palace guard colleague",
+            "Blaze": "Enemy he watches for",
+            "Scorch": "Guard commander"
+          }
+        }
+      }
+    },
+    "sizzle": {
+      "name": "Sizzle",
+      "aliases": [
+        "Palace Servant",
+        "Court Attendant"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A servant who attends to the needs of Blister's court, working quietly and efficiently.",
+          "role": "Court Servant",
+          "relationships": {
+            "Smolder": "Prince she serves",
+            "Blister": "Queen whose court she maintains",
+            "Kindle": "Noble she assists"
+          }
+        }
+      }
+    },
+    "fume": {
+      "name": "Fume",
+      "aliases": [
+        "Palace Chef",
+        "Royal Cook"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "The head chef who prepares elaborate meals for Blister's court and visiting dignitaries.",
+          "role": "Palace Chef",
+          "relationships": {
+            "Sizzle": "Court servant",
+            "Blister": "Queen whose meals he prepares",
+            "Smoke": "Kitchen assistant"
+          }
+        }
+      }
+    },
+    "smoke": {
+      "name": "Smoke",
+      "aliases": [
+        "Kitchen Assistant",
+        "Food Preparer"
+      ],
+      "appearances": [
+        12,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A kitchen worker who helps prepare food for Blister's palace, working under the head chef.",
+          "role": "Kitchen Worker",
+          "relationships": {
+            "Fume": "Chef he assists",
+            "Blister": "Queen whose food he helps prepare",
+            "Sizzle": "Fellow palace worker"
+          }
+        }
+      }
+    },
+    "arctic-wind": {
+      "name": "Arctic",
+      "aliases": [
+        "Blaze's Guard",
+        "Ice Protector"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An IceWing guard assigned to protect Blaze during her stay in the Ice Kingdom.",
+          "role": "Royal Protector",
+          "relationships": {
+            "Blaze": "SandWing princess he protects",
+            "Narwhal": "IceWing general he serves",
+            "Frost": "Fellow guard"
+          }
+        }
+      }
+    },
+    "frost": {
+      "name": "Frost",
+      "aliases": [
+        "Ice Guard",
+        "Fortress Defender"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A dedicated IceWing guard who helps defend the fortress where Blaze is staying.",
+          "role": "Fortress Guardian",
+          "relationships": {
+            "Arctic": "Guard partner",
+            "Blaze": "Guest they protect",
+            "Glacier": "Queen they serve"
+          }
+        }
+      }
+    },
+    "hail": {
+      "name": "Hail",
+      "aliases": [
+        "Storm Guard",
+        "Weather Warrior"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An IceWing warrior specialized in fighting during harsh weather conditions.",
+          "role": "Weather Specialist",
+          "relationships": {
+            "Sleet": "Weather partner",
+            "Tundra": "Commander he serves",
+            "Blaze": "Alliance member"
+          }
+        }
+      }
+    },
+    "sleet": {
+      "name": "Sleet",
+      "aliases": [
+        "Ice Warrior",
+        "Cold Fighter"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A skilled IceWing warrior who fights for the alliance supporting Blaze's claim.",
+          "role": "Alliance Warrior",
+          "relationships": {
+            "Hail": "Fighting partner",
+            "Blizzard": "Fellow warrior",
+            "Narwhal": "General they serve"
+          }
+        }
+      }
+    },
+    "blizzard": {
+      "name": "Blizzard",
+      "aliases": [
+        "Storm Bringer",
+        "Fierce Fighter"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A powerful IceWing known for devastating attacks that overwhelm enemies like a natural storm.",
+          "role": "Elite Combat Specialist",
+          "relationships": {
+            "Sleet": "Warrior ally",
+            "Glacier": "Queen whose cause he fights for",
+            "Whiteout": "Fellow elite fighter"
+          }
+        }
+      }
+    },
+    "whiteout": {
+      "name": "Whiteout",
+      "aliases": [
+        "Silent Fighter",
+        "Ghost Warrior"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        24
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An IceWing warrior known for moving silently and striking without warning.",
+          "role": "Stealth Specialist",
+          "relationships": {
+            "Blizzard": "Elite fighter colleague",
+            "Crystal": "Precision warrior ally",
+            "Tundra": "Commander she respects"
+          }
+        }
+      }
+    },
+    "cactus": {
+      "name": "Cactus",
+      "aliases": [
+        "Den Guard",
+        "Scorpion Defender"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A tough SandWing who guards the entrances to the Scorpion Den, keeping unwanted visitors out.",
+          "role": "Den Guardian",
+          "relationships": {
+            "Prickle": "Fellow den guard",
+            "Thorn": "Outclaw leader",
+            "Barrel": "Guard partner"
+          }
+        }
+      }
+    },
+    "prickle": {
+      "name": "Prickle",
+      "aliases": [
+        "Sharp Guard",
+        "Desert Sentinel"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A vigilant guard who watches the desert approaches to the Scorpion Den.",
+          "role": "Perimeter Guard",
+          "relationships": {
+            "Cactus": "Guard leader",
+            "Barrel": "Den guard colleague",
+            "Spine": "Desert watcher"
+          }
+        }
+      }
+    },
+    "barrel": {
+      "name": "Barrel",
+      "aliases": [
+        "Strong Guard",
+        "Den Enforcer"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A powerful guard who enforces order within the Scorpion Den and deals with troublemakers.",
+          "role": "Den Enforcer",
+          "relationships": {
+            "Cactus": "Senior guard",
+            "Prickle": "Guard partner",
+            "Thorn": "Leader whose den he protects"
+          }
+        }
+      }
+    },
+    "spine": {
+      "name": "Spine",
+      "aliases": [
+        "Lookout",
+        "Horizon Watcher"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A keen-eyed lookout who watches the horizon for approaching threats to the Scorpion Den.",
+          "role": "Horizon Sentinel",
+          "relationships": {
+            "Prickle": "Guard colleague",
+            "Thorn": "Leader he watches for",
+            "Needle": "Fellow watchdragon"
+          }
+        }
+      }
+    },
+    "anvil": {
+      "name": "Anvil",
+      "aliases": [
+        "Den Blacksmith",
+        "Weapon Maker"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The Scorpion Den's blacksmith who forges weapons and tools for the Outclaws.",
+          "role": "Weapons Craftsman",
+          "relationships": {
+            "Hammer": "Apprentice smith",
+            "Copper": "Metal supplier",
+            "Thorn": "Leader whose forces he arms"
+          }
+        }
+      }
+    },
+    "hammer": {
+      "name": "Hammer",
+      "aliases": [
+        "Smith Apprentice",
+        "Tool Maker"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An apprentice blacksmith learning the craft of weapon and tool making under Anvil's guidance.",
+          "role": "Apprentice Craftsman",
+          "relationships": {
+            "Anvil": "Master smith and teacher",
+            "Bronze": "Fellow metalworker",
+            "Six-Claws": "Warrior he makes weapons for"
+          }
+        }
+      }
+    },
+    "chisel": {
+      "name": "Chisel",
+      "aliases": [
+        "Stone Carver",
+        "Den Builder"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A craftsman who carves stone and builds structures within the Scorpion Den complex.",
+          "role": "Stone Mason",
+          "relationships": {
+            "Anvil": "Fellow craftsman",
+            "Thorn": "Leader whose den he helps expand",
+            "Granite": "Guard who protects his work"
+          }
+        }
+      }
+    },
+    "file": {
+      "name": "File",
+      "aliases": [
+        "Tool Sharpener",
+        "Edge Keeper"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A specialist who maintains and sharpens weapons and tools for the Outclaw organization.",
+          "role": "Equipment Maintainer",
+          "relationships": {
+            "Anvil": "Blacksmith he works with",
+            "Chisel": "Fellow craftsman",
+            "Viper": "Warrior whose weapons he sharpens"
+          }
+        }
+      }
+    },
+    "aloe": {
+      "name": "Aloe",
+      "aliases": [
+        "Den Healer",
+        "Medicine Dragon"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The Scorpion Den's healer who treats injuries and illnesses using desert plants and traditional medicine.",
+          "role": "Tribal Healer",
+          "relationships": {
+            "Sage": "Herb gathering assistant",
+            "Mint": "Fellow healer",
+            "Thorn": "Leader she keeps healthy"
+          }
+        }
+      }
+    },
+    "sage": {
+      "name": "Sage",
+      "aliases": [
+        "Herb Gatherer",
+        "Plant Specialist"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A specialist who gathers medicinal plants from the desert for the den's healer.",
+          "role": "Medicine Gatherer",
+          "relationships": {
+            "Aloe": "Healer she supplies",
+            "Mint": "Fellow plant specialist",
+            "Grove": "Scavenger gatherer she's learned from"
+          }
+        }
+      }
+    },
+    "mint": {
+      "name": "Mint",
+      "aliases": [
+        "Young Healer",
+        "Herb Apprentice"
+      ],
+      "appearances": [
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An apprentice healer learning the art of desert medicine from Aloe.",
+          "role": "Healer Apprentice",
+          "relationships": {
+            "Aloe": "Master healer and teacher",
+            "Sage": "Plant gathering mentor",
+            "Qibli": "Young dragon she's helped heal"
+          }
+        }
+      }
+    },
+    "granite-keeper": {
+      "name": "Granite",
+      "aliases": [
+        "Eye Guardian",
+        "Ancient Keeper"
+      ],
+      "appearances": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "An ancient SandWing who has guarded the Eye of Onyx for generations, knowing its true power.",
+          "role": "Relic Guardian",
+          "relationships": {
+            "Sunny": "Dragonet who seeks the Eye",
+            "Thorn": "True queen the Eye chooses",
+            "Obsidian": "Fellow ancient keeper"
+          }
+        }
+      }
+    },
+    "obsidian-keeper": {
+      "name": "Obsidian",
+      "aliases": [
+        "Ancient Guardian",
+        "Relic Protector"
+      ],
+      "appearances": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "An ancient dragon who helps guard the sacred artifacts of the SandWing royal line.",
+          "role": "Sacred Guardian",
+          "relationships": {
+            "Granite": "Fellow keeper",
+            "Eye of Onyx": "Ancient artifact he protects",
+            "Thorn": "Chosen queen he witnesses"
+          }
+        }
+      }
+    },
+    "sandpiper": {
+      "name": "Sandpiper",
+      "aliases": [
+        "Oasis Merchant",
+        "Water Trader"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A merchant who trades water and oasis goods in the desert markets.",
+          "role": "Water Merchant",
+          "relationships": {
+            "Ibis": "Bird trading partner",
+            "Crane": "Fellow water trader",
+            "Thorn": "New queen affecting trade"
+          }
+        }
+      }
+    },
+    "ibis": {
+      "name": "Ibis",
+      "aliases": [
+        "Market Vendor",
+        "Fruit Seller"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A vendor who sells desert fruits and foods in the oasis markets.",
+          "role": "Food Merchant",
+          "relationships": {
+            "Sandpiper": "Water merchant ally",
+            "Crane": "Market colleague",
+            "Date": "Fellow food trader"
+          }
+        }
+      }
+    },
+    "crane": {
+      "name": "Crane",
+      "aliases": [
+        "Cloth Merchant",
+        "Fabric Trader"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A merchant who specializes in cloth and fabrics, important for desert survival gear.",
+          "role": "Textile Trader",
+          "relationships": {
+            "Ibis": "Market partner",
+            "Sandpiper": "Water supplier",
+            "Weaver": "Cloth maker"
+          }
+        }
+      }
+    },
+    "weaver": {
+      "name": "Weaver",
+      "aliases": [
+        "Cloth Maker",
+        "Fabric Crafter"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A craftsman who makes cloth and fabric goods for desert dwellers.",
+          "role": "Textile Craftsman",
+          "relationships": {
+            "Crane": "Cloth merchant partner",
+            "Spinner": "Thread maker",
+            "Thorn": "New queen whose subjects he serves"
+          }
+        }
+      }
+    },
+    "spinner": {
+      "name": "Spinner",
+      "aliases": [
+        "Thread Maker",
+        "Fiber Worker"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A worker who spins threads and fibers for the cloth makers in the oasis communities.",
+          "role": "Thread Specialist",
+          "relationships": {
+            "Weaver": "Cloth maker he supplies",
+            "Crane": "Merchant who sells products",
+            "Cotton": "Fiber gatherer"
+          }
+        }
+      }
+    },
+    "cotton": {
+      "name": "Cotton",
+      "aliases": [
+        "Fiber Gatherer",
+        "Plant Collector"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A gatherer who collects plant fibers for textile production in the oasis settlements.",
+          "role": "Fiber Specialist",
+          "relationships": {
+            "Spinner": "Thread maker she supplies",
+            "Sage": "Fellow plant gatherer",
+            "Palm": "Resource colleague"
+          }
+        }
+      }
+    },
+    "quartz": {
+      "name": "Quartz",
+      "aliases": [
+        "Gem Trader",
+        "Crystal Merchant"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A merchant who trades in gems and crystals found in the deep desert.",
+          "role": "Precious Stones Trader",
+          "relationships": {
+            "Amber": "Fellow gem merchant",
+            "Gold": "Wealth manager contact",
+            "Ruby": "Mining partner"
+          }
+        }
+      }
+    },
+    "amber": {
+      "name": "Amber",
+      "aliases": [
+        "Jewelry Maker",
+        "Precious Crafter"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A skilled craftsman who creates jewelry and ornaments from desert gems.",
+          "role": "Jewelry Craftsman",
+          "relationships": {
+            "Quartz": "Gem supplier",
+            "Ruby": "Fellow crafter",
+            "Thorn": "New queen whose crown she might craft"
+          }
+        }
+      }
+    },
+    "ruby": {
+      "name": "Ruby",
+      "aliases": [
+        "Gem Cutter",
+        "Stone Shaper"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An expert gem cutter who shapes raw stones into beautiful finished pieces.",
+          "role": "Gem Specialist",
+          "relationships": {
+            "Quartz": "Stone supplier",
+            "Amber": "Jewelry making partner",
+            "Emerald": "Fellow gem worker"
+          }
+        }
+      }
+    },
+    "emerald": {
+      "name": "Emerald",
+      "aliases": [
+        "Rare Gem Hunter",
+        "Treasure Seeker"
+      ],
+      "appearances": [
+        12,
+        15,
+        18,
+        20,
+        22,
+        25
+      ],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A treasure hunter who seeks rare gems in dangerous parts of the desert.",
+          "role": "Treasure Hunter",
+          "relationships": {
+            "Ruby": "Gem cutting partner",
+            "Jackal": "Fellow treasure seeker",
+            "Quartz": "Merchant who buys finds"
+          }
+        }
+      }
+    },
+    "jasper": {
+      "name": "Jasper",
+      "aliases": [
+        "Desert Guide",
+        "Route Finder"
+      ],
+      "appearances": [
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "An experienced desert guide who knows the safest routes through the dangerous sands.",
+          "role": "Professional Guide",
+          "relationships": {
+            "Sandstone": "Noble he guides",
+            "Quicksand": "Fellow navigator",
+            "Sunny": "Dragonet he helps reach the finale"
+          }
+        }
+      }
+    },
+    "agate": {
+      "name": "Agate",
+      "aliases": [
+        "Map Maker",
+        "Territory Keeper"
+      ],
+      "appearances": [
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A cartographer who creates maps of the changing desert territories and safe passages.",
+          "role": "Desert Cartographer",
+          "relationships": {
+            "Jasper": "Guide who uses her maps",
+            "Mirage": "Fellow territory expert",
+            "Thorn": "New queen whose lands she maps"
+          }
+        }
+      }
+    },
+    "flint": {
+      "name": "Flint",
+      "aliases": [
+        "Fire Starter",
+        "Camp Keeper"
+      ],
+      "appearances": [
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A practical dragon who specializes in making fires and maintaining camps in the desert.",
+          "role": "Camp Specialist",
+          "relationships": {
+            "Jasper": "Guide he travels with",
+            "Tinder": "Fellow fire keeper",
+            "Sunny": "Dragonet whose camp he maintains"
+          }
+        }
+      }
+    },
+    "tinder": {
+      "name": "Tinder",
+      "aliases": [
+        "Fuel Gatherer",
+        "Fire Keeper"
+      ],
+      "appearances": [
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A specialist who gathers fuel for fires and maintains flame sources during desert travel.",
+          "role": "Fire Maintenance",
+          "relationships": {
+            "Flint": "Fire starting partner",
+            "Coal": "Fuel supplier",
+            "Clay": "Dragonet who needs warmth"
+          }
+        }
+      }
+    },
+    "coal": {
+      "name": "Coal",
+      "aliases": [
+        "Fuel Supplier",
+        "Heat Provider"
+      ],
+      "appearances": [
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A provider of fuel sources who ensures travelers have what they need for warmth and cooking.",
+          "role": "Fuel Specialist",
+          "relationships": {
+            "Tinder": "Fire keeper partner",
+            "Charcoal": "Fellow fuel provider",
+            "Sunny": "Dragonet he helps keep warm"
+          }
+        }
+      }
+    },
+    "charcoal": {
+      "name": "Charcoal",
+      "aliases": [
+        "Burn Specialist",
+        "Heat Master"
+      ],
+      "appearances": [
+        15,
+        18,
+        20,
+        22,
+        25,
+        26
+      ],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "An expert in creating long-burning fuel sources for extended desert journeys.",
+          "role": "Fuel Expert",
+          "relationships": {
+            "Coal": "Fuel partner",
+            "Flint": "Fire starting ally",
+            "Glory": "Queen who appreciates warm fires"
+          }
+        }
+      }
+    },
+    "cedar": {
+      "name": "Cedar",
+      "aliases": [
+        "Oasis Keeper",
+        "Water Guardian"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A guardian who protects one of the precious oases that sustain life in the deep desert.",
+          "role": "Oasis Protector",
+          "relationships": {
+            "Willow": "Fellow oasis keeper",
+            "Brook": "Scavenger water finder",
+            "Sunny": "Dragonet who finds the oasis"
+          }
+        }
+      }
+    },
+    "willow": {
+      "name": "Willow",
+      "aliases": [
+        "Shade Keeper",
+        "Rest Provider"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A keeper who maintains the precious shade trees and resting spots around desert oases.",
+          "role": "Shade Guardian",
+          "relationships": {
+            "Cedar": "Oasis partner",
+            "Palm": "Fellow plant tender",
+            "Starflight": "Dragonet who needs shade for his eyes"
+          }
+        }
+      }
+    },
+    "pine": {
+      "name": "Pine",
+      "aliases": [
+        "Wood Gatherer",
+        "Timber Provider"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A gatherer who finds and provides wood and timber for construction and fuel in the desert.",
+          "role": "Wood Specialist",
+          "relationships": {
+            "Cedar": "Tree keeper",
+            "Oak": "Fellow wood gatherer",
+            "Chisel": "Builder who uses his wood"
+          }
+        }
+      }
+    },
+    "oak": {
+      "name": "Oak",
+      "aliases": [
+        "Strong Wood Provider",
+        "Sturdy Supplier"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A provider of strong, durable wood needed for important construction projects.",
+          "role": "Quality Wood Supplier",
+          "relationships": {
+            "Pine": "Wood gathering partner",
+            "Anvil": "Blacksmith who needs strong wood",
+            "Thorn": "Queen whose palace needs strong timber"
+          }
+        }
+      }
+    },
+    "birch": {
+      "name": "Birch",
+      "aliases": [
+        "Flexible Wood Maker",
+        "Craft Supplier"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A specialist who provides flexible wood perfect for crafts and specialized tools.",
+          "role": "Flexible Wood Expert",
+          "relationships": {
+            "Oak": "Strong wood partner",
+            "Weaver": "Crafter who needs flexible materials",
+            "Sunny": "Dragonet who appreciates fine craftsmanship"
+          }
+        }
+      }
+    },
+    "maple": {
+      "name": "Maple",
+      "aliases": [
+        "Sweet Wood Provider",
+        "Syrup Maker"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A provider who extracts sweet sap and makes useful products from desert trees.",
+          "role": "Sap Specialist",
+          "relationships": {
+            "Birch": "Fellow wood worker",
+            "Honey": "Sweet product ally",
+            "Date": "Food merchant partner"
+          }
+        }
+      }
+    },
+    "honey": {
+      "name": "Honey",
+      "aliases": [
+        "Sweet Gatherer",
+        "Bee Keeper"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A gatherer who collects honey and sweet substances from desert plants and insects.",
+          "role": "Sweetness Provider",
+          "relationships": {
+            "Maple": "Sweet maker partner",
+            "Berry": "Fellow food gatherer",
+            "Sunny": "Sweet dragonet who appreciates treats"
+          }
+        }
+      }
+    },
+    "berry": {
+      "name": "Berry",
+      "aliases": [
+        "Fruit Finder",
+        "Wild Food Gatherer"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A specialist who finds wild fruits and berries growing in hidden spots throughout the desert.",
+          "role": "Wild Food Expert",
+          "relationships": {
+            "Honey": "Sweet gatherer ally",
+            "Sage": "Plant specialist colleague",
+            "Grove": "Scavenger gatherer friend"
+          }
+        }
+      }
+    },
+    "acorn": {
+      "name": "Acorn",
+      "aliases": [
+        "Nut Gatherer",
+        "Protein Provider"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A gatherer who finds nuts and protein-rich foods essential for desert survival.",
+          "role": "Protein Specialist",
+          "relationships": {
+            "Berry": "Food gathering partner",
+            "Seed": "Fellow nutrition provider",
+            "Rose": "Scavenger leader who trades for nuts"
+          }
+        }
+      }
+    },
+    "seed": {
+      "name": "Seed",
+      "aliases": [
+        "Future Planter",
+        "Growth Keeper"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A forward-thinking dragon who collects and plants seeds to ensure future food sources.",
+          "role": "Agricultural Planner",
+          "relationships": {
+            "Acorn": "Food gatherer ally",
+            "Root": "Underground specialist",
+            "Thorn": "Queen whose kingdom needs sustainable food"
+          }
+        }
+      }
+    },
+    "root": {
+      "name": "Root",
+      "aliases": [
+        "Underground Digger",
+        "Deep Finder"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A specialist who digs for roots, tubers, and underground water sources.",
+          "role": "Underground Expert",
+          "relationships": {
+            "Seed": "Planting partner",
+            "Brook": "Water finding ally",
+            "Clay": "Dragonet who appreciates earth skills"
+          }
+        }
+      }
+    },
+    "bark": {
+      "name": "Bark",
+      "aliases": [
+        "Tree Medicine Maker",
+        "Healing Provider"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A healer who creates medicines from tree bark and plant materials found in oases.",
+          "role": "Natural Medicine Specialist",
+          "relationships": {
+            "Aloe": "Fellow healer",
+            "Sage": "Herb gathering partner",
+            "Starflight": "Dragonet who needs healing for his eyes"
+          }
+        }
+      }
+    },
+    "leaf": {
+      "name": "Leaf",
+      "aliases": [
+        "Plant Tender",
+        "Green Keeper"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A caretaker who tends to the precious green plants that provide life in the harsh desert.",
+          "role": "Plant Caretaker",
+          "relationships": {
+            "Bark": "Tree medicine partner",
+            "Fern": "Green plant ally",
+            "Cedar": "Oasis keeper she helps"
+          }
+        }
+      }
+    },
+    "fern": {
+      "name": "Fern",
+      "aliases": [
+        "Shade Plant Keeper",
+        "Cool Spot Tender"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A specialist who maintains the precious shade plants that provide cooling relief in the desert heat.",
+          "role": "Cooling Specialist",
+          "relationships": {
+            "Leaf": "Plant tending partner",
+            "Willow": "Shade keeper ally",
+            "Tsunami": "Dragonet who appreciates cool spots"
+          }
+        }
+      }
+    },
+    "moss": {
+      "name": "Moss",
+      "aliases": [
+        "Water Plant Tender",
+        "Moisture Keeper"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A tender who cares for moss and water plants that indicate healthy water sources.",
+          "role": "Water Plant Specialist",
+          "relationships": {
+            "Fern": "Cool plant partner",
+            "Brook": "Water finder ally",
+            "Cedar": "Oasis protector she helps"
+          }
+        }
+      }
+    },
+    "ivy": {
+      "name": "Ivy",
+      "aliases": [
+        "Climbing Plant Expert",
+        "Wall Tender"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A specialist who maintains climbing plants that provide natural camouflage and cooling for buildings.",
+          "role": "Climbing Plant Expert",
+          "relationships": {
+            "Moss": "Water plant ally",
+            "Vine": "Climbing plant partner",
+            "Chisel": "Builder who uses her plants for cover"
+          }
+        }
+      }
+    },
+    "vine": {
+      "name": "Vine",
+      "aliases": [
+        "Rope Plant Maker",
+        "Binding Provider"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A provider who cultivates strong vines that can be used for ropes, bindings, and construction.",
+          "role": "Binding Specialist",
+          "relationships": {
+            "Ivy": "Climbing plant colleague",
+            "Weaver": "Craftsman who uses vine fibers",
+            "Six-Claws": "Warrior who needs strong rope"
+          }
+        }
+      }
+    },
+    "thorn-plant": {
+      "name": "Thorn",
+      "aliases": [
+        "Defense Plant Keeper",
+        "Protective Tender"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A keeper who maintains thorny plants that provide natural defenses around important locations.",
+          "role": "Defense Plant Specialist",
+          "relationships": {
+            "Vine": "Strong plant partner",
+            "Cactus": "Den guard who uses thorn barriers",
+            "Queen Thorn": "Namesake queen she serves"
+          }
+        }
+      }
+    },
+    "petal": {
+      "name": "Petal",
+      "aliases": [
+        "Flower Tender",
+        "Beauty Keeper"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A tender who maintains the rare flowers that bring beauty and hope to the harsh desert environment.",
+          "role": "Flower Specialist",
+          "relationships": {
+            "Flower": "Scavenger friend she protects",
+            "Rose": "Scavenger leader who appreciates beauty",
+            "Sunny": "Optimistic dragonet who loves flowers"
+          }
+        }
+      }
+    },
+    "blossom": {
+      "name": "Blossom",
+      "aliases": [
+        "Spring Bringer",
+        "Hope Tender"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A hopeful dragon who tends plants that bloom after rare desert rains, bringing joy to all who see them.",
+          "role": "Hope Provider",
+          "relationships": {
+            "Petal": "Flower tending partner",
+            "Sunny": "Fellow optimist and light-bringer",
+            "Thorn": "Queen who brings hope to the kingdom"
+          }
+        }
+      }
+    },
+    "bloom": {
+      "name": "Bloom",
+      "aliases": [
+        "Full Flower Keeper",
+        "Peak Beauty Tender"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A keeper who ensures desert flowers reach their full bloom, representing the kingdom's potential for peace.",
+          "role": "Full Bloom Specialist",
+          "relationships": {
+            "Blossom": "Hope bringing partner",
+            "Petal": "Beauty keeping ally",
+            "Glory": "Queen who appreciates natural beauty"
+          }
+        }
+      }
+    },
+    "nectar": {
+      "name": "Nectar",
+      "aliases": [
+        "Flower Food Gatherer",
+        "Sweet Collector"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A gatherer who collects the sweet nectar from desert flowers, providing energy and medicine.",
+          "role": "Nectar Specialist",
+          "relationships": {
+            "Bloom": "Flower keeper partner",
+            "Honey": "Sweet gatherer ally",
+            "Aloe": "Healer who uses nectar medicines"
+          }
+        }
+      }
+    },
+    "pollen": {
+      "name": "Pollen",
+      "aliases": [
+        "Life Spreader",
+        "Future Sower"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A spreader who helps pollinate desert plants, ensuring new life continues even in harsh conditions.",
+          "role": "Pollination Specialist",
+          "relationships": {
+            "Nectar": "Flower product partner",
+            "Seed": "Future planting ally",
+            "Sunny": "Life-bringing dragonet she admires"
+          }
+        }
+      }
+    },
+    "stem": {
+      "name": "Stem",
+      "aliases": [
+        "Plant Support Keeper",
+        "Strength Provider"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A keeper who ensures desert plants have strong stems to support their growth and survival.",
+          "role": "Plant Support Specialist",
+          "relationships": {
+            "Pollen": "Life spreading partner",
+            "Root": "Underground support ally",
+            "Clay": "Strong dragonet who appreciates support"
+          }
+        }
+      }
+    },
+    "branch": {
+      "name": "Branch",
+      "aliases": [
+        "Tree Arm Tender",
+        "Reach Extender"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A tender who helps tree branches grow strong and reach far, providing maximum shade and support.",
+          "role": "Branch Specialist",
+          "relationships": {
+            "Stem": "Plant support partner",
+            "Willow": "Shade keeper ally",
+            "Starflight": "Dragonet who needs good shade"
+          }
+        }
+      }
+    },
+    "trunk": {
+      "name": "Trunk",
+      "aliases": [
+        "Tree Heart Keeper",
+        "Core Protector"
+      ],
+      "appearances": [
+        16,
+        20,
+        24,
+        26,
+        27,
+        28
+      ],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A protector who ensures tree trunks stay healthy and strong, forming the foundation of oasis life.",
+          "role": "Tree Core Specialist",
+          "relationships": {
+            "Branch": "Tree arm tender",
+            "Root": "Underground foundation ally",
+            "Cedar": "Oasis tree she protects"
+          }
+        }
+      }
     }
   },
   "recaps": {

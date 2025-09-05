@@ -2877,6 +2877,1638 @@
           }
         }
       }
+    },
+    "captain-harrath": {
+      "name": "Captain Harrath",
+      "aliases": ["Spring Guard Captain"],
+      "appearances": [5, 8, 12],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Captain of Spring Court guard, loyal to Tamlin but increasingly concerned about the court's alliance with Hybern.",
+          "role": "Guard captain, Loyal soldier",
+          "relationships": {
+            "Tamlin": "Captain under",
+            "Spring Guard": "Commands"
+          }
+        }
+      }
+    },
+    "sergeant-beron": {
+      "name": "Sergeant Beron",
+      "aliases": ["Spring Court Sergeant"],
+      "appearances": [6, 10, 14],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Experienced Spring Court sergeant who questions the wisdom of allying with Hybern but follows orders.",
+          "role": "Veteran sergeant, Questioning soldier",
+          "relationships": {
+            "Spring Court": "Serves faithfully",
+            "Hybern alliance": "Has doubts about"
+          }
+        }
+      }
+    },
+    "private-kess": {
+      "name": "Private Kess",
+      "aliases": [],
+      "appearances": [7, 11],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Young Spring Court soldier who becomes increasingly uncomfortable with the court's direction under Hybern influence.",
+          "role": "Young soldier, Uncomfortable follower",
+          "relationships": {
+            "Spring Court": "Serves reluctantly",
+            "Fellow soldiers": "Shares concerns with"
+          }
+        }
+      }
+    },
+    "cook-marta": {
+      "name": "Cook Marta",
+      "aliases": ["Spring Court Cook"],
+      "appearances": [3, 9, 15],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Head cook of the Spring Court manor, has served for decades and notices changes in the court's atmosphere.",
+          "role": "Head cook, Long-time servant",
+          "relationships": {
+            "Spring Court": "Has served for decades",
+            "Manor staff": "Leads kitchen staff"
+          }
+        }
+      }
+    },
+    "gardener-finn": {
+      "name": "Gardener Finn",
+      "aliases": [],
+      "appearances": [4, 8, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Spring Court gardener who tends the manor's elaborate gardens, worried about the court's future.",
+          "role": "Master gardener, Loyal servant",
+          "relationships": {
+            "Spring Court": "Devoted to",
+            "Gardens": "Master of"
+          }
+        }
+      }
+    },
+    "stablemaster-thorne": {
+      "name": "Stablemaster Thorne",
+      "aliases": [],
+      "appearances": [6, 12, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Spring Court stablemaster who manages the court's horses and is fiercely protective of the animals.",
+          "role": "Stablemaster, Animal protector",
+          "relationships": {
+            "Horses": "Protects and cares for",
+            "Spring Court": "Serves loyally"
+          }
+        }
+      }
+    },
+    "lady-iris": {
+      "name": "Lady Iris",
+      "aliases": ["Spring Court Noble"],
+      "appearances": [9, 13, 17],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Minor Spring Court noble who begins to question Tamlin's leadership as the court weakens.",
+          "role": "Minor noble, Questioning courtier",
+          "relationships": {
+            "Tamlin": "Questions leadership of",
+            "Spring Court": "Member of nobility"
+          }
+        }
+      }
+    },
+    "lord-cypress": {
+      "name": "Lord Cypress",
+      "aliases": [],
+      "appearances": [10, 14],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Spring Court lord who supports Tamlin but privately worries about the alliance with Hybern.",
+          "role": "Supporting lord, Private worrier",
+          "relationships": {
+            "Tamlin": "Publicly supports",
+            "Hybern alliance": "Privately worries about"
+          }
+        }
+      }
+    },
+    "scribe-moss": {
+      "name": "Scribe Moss",
+      "aliases": [],
+      "appearances": [5, 11],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Spring Court scribe responsible for keeping records, notices irregularities in court activities.",
+          "role": "Record keeper, Observant scribe",
+          "relationships": {
+            "Records": "Maintains carefully",
+            "Court activities": "Observes closely"
+          }
+        }
+      }
+    },
+    "messenger-reed": {
+      "name": "Messenger Reed",
+      "aliases": [],
+      "appearances": [7, 13],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Spring Court messenger who carries communications between Tamlin and Hybern forces.",
+          "role": "Court messenger, Communication carrier",
+          "relationships": {
+            "Tamlin": "Carries messages for",
+            "Hybern forces": "Communicates with"
+          }
+        }
+      }
+    },
+    "healer-willowmist": {
+      "name": "Healer Willowmist",
+      "aliases": ["Spring Court Healer"],
+      "appearances": [8, 14, 19],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Spring Court's primary healer, becomes increasingly busy treating injuries as tensions rise.",
+          "role": "Court healer, Medical expert",
+          "relationships": {
+            "Spring Court": "Primary healer for",
+            "Injured": "Treats with skill"
+          }
+        }
+      }
+    },
+    "guard-bracken": {
+      "name": "Guard Bracken",
+      "aliases": [],
+      "appearances": [9, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Spring Court guard assigned to manor security, loyal but increasingly conflicted.",
+          "role": "Manor guard, Conflicted protector",
+          "relationships": {
+            "Manor": "Protects faithfully",
+            "Loyalty": "Increasingly conflicted about"
+          }
+        }
+      }
+    },
+    "librarian-sage": {
+      "name": "Librarian Sage",
+      "aliases": [],
+      "appearances": [6, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Spring Court librarian who maintains the court's collection of books and ancient knowledge.",
+          "role": "Knowledge keeper, Court librarian",
+          "relationships": {
+            "Ancient knowledge": "Guardian of",
+            "Spring Court": "Scholarly servant of"
+          }
+        }
+      }
+    },
+    "huntsman-oak": {
+      "name": "Huntsman Oak",
+      "aliases": [],
+      "appearances": [10, 16],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Spring Court's master huntsman who manages the court's hunting grounds and wild game.",
+          "role": "Master huntsman, Game keeper",
+          "relationships": {
+            "Hunting grounds": "Manages carefully",
+            "Wild game": "Protects and harvests"
+          }
+        }
+      }
+    },
+    "seamstress-violet": {
+      "name": "Seamstress Violet",
+      "aliases": [],
+      "appearances": [11, 17],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Spring Court seamstress responsible for maintaining court clothing and tapestries.",
+          "role": "Master seamstress, Textile keeper",
+          "relationships": {
+            "Court clothing": "Creates and maintains",
+            "Tapestries": "Preserves and repairs"
+          }
+        }
+      }
+    },
+    "lord-coral": {
+      "name": "Lord Coral",
+      "aliases": ["Summer Court Noble"],
+      "appearances": [25, 35, 45],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "High-ranking Summer Court noble who serves as advisor to Tarquin, wise in matters of trade and diplomacy.",
+          "role": "Court advisor, Trade expert",
+          "relationships": {
+            "Tarquin": "Trusted advisor to",
+            "Summer Court": "High-ranking member of"
+          }
+        }
+      }
+    },
+    "captain-tidecrest": {
+      "name": "Captain Tidecrest",
+      "aliases": ["Summer Guard Captain"],
+      "appearances": [26, 38, 48],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Captain of Summer Court's naval forces, expert in water-based combat and coastal defense.",
+          "role": "Naval captain, Water warrior",
+          "relationships": {
+            "Summer Court": "Protects waters of",
+            "Naval forces": "Commands with skill"
+          }
+        }
+      }
+    },
+    "lady-pearl": {
+      "name": "Lady Pearl",
+      "aliases": [],
+      "appearances": [28, 40, 52],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Summer Court noble known for her beauty and diplomatic skills, often serves as an envoy.",
+          "role": "Court beauty, Skilled diplomat",
+          "relationships": {
+            "Diplomacy": "Master of subtle",
+            "Summer Court": "Represents with grace"
+          }
+        }
+      }
+    },
+    "admiral-reef": {
+      "name": "Admiral Reef",
+      "aliases": ["Summer Fleet Admiral"],
+      "appearances": [30, 42, 55],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Supreme commander of Summer Court's fleet, veteran of many sea battles and coastal wars.",
+          "role": "Fleet admiral, Sea warrior",
+          "relationships": {
+            "Summer fleet": "Supreme commander of",
+            "Sea battles": "Veteran of many"
+          }
+        }
+      }
+    },
+    "healer-marina": {
+      "name": "Healer Marina",
+      "aliases": ["Summer Court Healer"],
+      "appearances": [32, 44, 58],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Master healer of Summer Court specializing in water-based healing magic and treating battle wounds.",
+          "role": "Master healer, Water magic user",
+          "relationships": {
+            "Water magic": "Specializes in healing with",
+            "Battle wounded": "Skilled at treating"
+          }
+        }
+      }
+    },
+    "guard-kelp": {
+      "name": "Guard Kelp",
+      "aliases": [],
+      "appearances": [34, 46],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Summer Court palace guard known for his unwavering loyalty and skill with water-forged weapons.",
+          "role": "Palace guard, Weapon master",
+          "relationships": {
+            "Palace": "Guards with dedication",
+            "Water weapons": "Skilled wielder of"
+          }
+        }
+      }
+    },
+    "scribe-shell": {
+      "name": "Scribe Shell",
+      "aliases": [],
+      "appearances": [36, 50],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Summer Court record keeper who maintains chronicles of the court's history and maritime achievements.",
+          "role": "Court chronicler, Maritime historian",
+          "relationships": {
+            "Court history": "Maintains records of",
+            "Maritime achievements": "Chronicles carefully"
+          }
+        }
+      }
+    },
+    "merchant-wave": {
+      "name": "Merchant Wave",
+      "aliases": ["Summer Trade Master"],
+      "appearances": [38, 54],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Wealthy Summer Court merchant who manages the court's extensive maritime trade networks.",
+          "role": "Trade master, Wealth manager",
+          "relationships": {
+            "Maritime trade": "Manages networks of",
+            "Court wealth": "Helps maintain"
+          }
+        }
+      }
+    },
+    "sailor-drift": {
+      "name": "Sailor Drift",
+      "aliases": [],
+      "appearances": [40, 56],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Experienced Summer Court sailor who serves as navigator and knows every current and tide.",
+          "role": "Master navigator, Current reader",
+          "relationships": {
+            "Ocean currents": "Knows intimately",
+            "Navigation": "Master of maritime"
+          }
+        }
+      }
+    },
+    "cook-salt": {
+      "name": "Cook Salt",
+      "aliases": ["Summer Palace Cook"],
+      "appearances": [42, 58],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Summer Court's head cook, renowned for preparing exquisite seafood dishes and ocean delicacies.",
+          "role": "Master chef, Seafood expert",
+          "relationships": {
+            "Seafood cuisine": "Master of preparing",
+            "Palace feasts": "Creates memorable"
+          }
+        }
+      }
+    },
+    "general-frost": {
+      "name": "General Frost",
+      "aliases": ["Winter Court General"],
+      "appearances": [22, 35, 48, 65],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "High-ranking Winter Court general known for strategic brilliance and ice-based combat techniques.",
+          "role": "Military strategist, Ice warrior",
+          "relationships": {
+            "Winter Court": "Commands armies of",
+            "Ice magic": "Master of combat with"
+          }
+        }
+      }
+    },
+    "lady-snow": {
+      "name": "Lady Snow",
+      "aliases": ["Winter Court Noble"],
+      "appearances": [24, 38, 52],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Elegant Winter Court noblewoman who serves as diplomatic advisor and cultural keeper.",
+          "role": "Court diplomat, Culture keeper",
+          "relationships": {
+            "Winter traditions": "Preserves and maintains",
+            "Diplomatic missions": "Leads with grace"
+          }
+        }
+      }
+    },
+    "captain-blizzard": {
+      "name": "Captain Blizzard",
+      "aliases": ["Winter Guard Captain"],
+      "appearances": [26, 40, 55],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Elite Winter Court captain specializing in avalanche warfare and mountain combat tactics.",
+          "role": "Mountain warrior, Avalanche master",
+          "relationships": {
+            "Mountain warfare": "Expert in tactics of",
+            "Winter guard": "Leads elite unit of"
+          }
+        }
+      }
+    },
+    "sage-ice": {
+      "name": "Sage Ice",
+      "aliases": ["Winter Court Advisor"],
+      "appearances": [28, 42, 58],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Ancient Winter Court advisor known for wisdom in matters of seasonal magic and court politics.",
+          "role": "Ancient advisor, Seasonal expert",
+          "relationships": {
+            "Seasonal magic": "Ancient knowledge of",
+            "Court politics": "Wise counselor in"
+          }
+        }
+      }
+    },
+    "warrior-glacier": {
+      "name": "Warrior Glacier",
+      "aliases": [],
+      "appearances": [30, 45, 62],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Fierce Winter Court warrior known for wielding weapons forged from eternal ice.",
+          "role": "Elite warrior, Ice weapon master",
+          "relationships": {
+            "Eternal ice": "Forges weapons from",
+            "Winter armies": "Elite member of"
+          }
+        }
+      }
+    },
+    "healer-snowfall": {
+      "name": "Healer Snowfall",
+      "aliases": ["Winter Court Healer"],
+      "appearances": [32, 46, 60],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Master healer of Winter Court who uses frost magic to preserve and mend battle injuries.",
+          "role": "Frost healer, Battle medic",
+          "relationships": {
+            "Frost magic": "Healing specialist with",
+            "Battle wounded": "Preserves and mends"
+          }
+        }
+      }
+    },
+    "scout-drift": {
+      "name": "Scout Drift",
+      "aliases": [],
+      "appearances": [34, 48, 64],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Swift Winter Court scout who can move unseen through snow and report on enemy movements.",
+          "role": "Elite scout, Snow tracker",
+          "relationships": {
+            "Snow terrain": "Moves invisibly through",
+            "Enemy movements": "Reports on with precision"
+          }
+        }
+      }
+    },
+    "lord-permafrost": {
+      "name": "Lord Permafrost",
+      "aliases": [],
+      "appearances": [36, 50, 66],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Ancient Winter Court lord who commands the court's most powerful ice magic and arctic beasts.",
+          "role": "Ancient lord, Beast master",
+          "relationships": {
+            "Ice magic": "Commands most powerful",
+            "Arctic beasts": "Master of fierce"
+          }
+        }
+      }
+    },
+    "maiden-crystal": {
+      "name": "Maiden Crystal",
+      "aliases": [],
+      "appearances": [38, 54, 68],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Young Winter Court maiden who tends the court's ice gardens and crystal formations.",
+          "role": "Garden tender, Crystal keeper",
+          "relationships": {
+            "Ice gardens": "Tends with loving care",
+            "Crystal formations": "Maintains magical"
+          }
+        }
+      }
+    },
+    "commander-dawn": {
+      "name": "Commander Dawn",
+      "aliases": ["Dawn Court Commander"],
+      "appearances": [27, 40, 56, 70],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Elite Dawn Court commander who leads the peregryn aerial forces in battle formations.",
+          "role": "Aerial commander, Peregryn leader",
+          "relationships": {
+            "Peregryn forces": "Commands aerial",
+            "Battle formations": "Master of complex"
+          }
+        }
+      }
+    },
+    "healer-sunrise": {
+      "name": "Healer Sunrise",
+      "aliases": ["Dawn Court Master Healer"],
+      "appearances": [29, 43, 58, 72],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Master healer of Dawn Court renowned for light-based healing magic that can mend even fatal wounds.",
+          "role": "Master healer, Light magic expert",
+          "relationships": {
+            "Light magic": "Healing mastery of",
+            "Fatal wounds": "Can mend even"
+          }
+        }
+      }
+    },
+    "captain-feather": {
+      "name": "Captain Feather",
+      "aliases": ["Peregryn Captain"],
+      "appearances": [31, 45, 60, 74],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Elite peregryn captain known for swift aerial strikes and masterful wing combat techniques.",
+          "role": "Peregryn elite, Aerial warrior",
+          "relationships": {
+            "Aerial combat": "Master of swift",
+            "Peregryn warriors": "Leads with skill"
+          }
+        }
+      }
+    },
+    "scholar-morning": {
+      "name": "Scholar Morning",
+      "aliases": ["Dawn Court Scholar"],
+      "appearances": [33, 47, 62],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Dawn Court scholar who studies the relationship between healing magic and natural light cycles.",
+          "role": "Magical scholar, Light researcher",
+          "relationships": {
+            "Healing magic": "Studies principles of",
+            "Light cycles": "Expert on natural"
+          }
+        }
+      }
+    },
+    "warrior-ray": {
+      "name": "Warrior Ray",
+      "aliases": [],
+      "appearances": [35, 49, 64],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Dawn Court warrior who wields weapons forged from condensed sunlight and dawn energy.",
+          "role": "Light warrior, Dawn weapon master",
+          "relationships": {
+            "Sunlight weapons": "Wields masterfully",
+            "Dawn energy": "Channels into combat"
+          }
+        }
+      }
+    },
+    "lady-radiance": {
+      "name": "Lady Radiance",
+      "aliases": ["Dawn Court Noble"],
+      "appearances": [37, 51, 66],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Graceful Dawn Court noblewoman known for her diplomatic skills and radiant healing aura.",
+          "role": "Court diplomat, Healing noble",
+          "relationships": {
+            "Diplomatic relations": "Maintains gracefully",
+            "Healing aura": "Radiates natural"
+          }
+        }
+      }
+    },
+    "guardian-twilight": {
+      "name": "Guardian Twilight",
+      "aliases": [],
+      "appearances": [39, 53, 68],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Dawn Court guardian who protects the sacred spaces where healing magic is strongest.",
+          "role": "Sacred guardian, Healing protector",
+          "relationships": {
+            "Sacred spaces": "Protects with devotion",
+            "Healing magic": "Guards sources of"
+          }
+        }
+      }
+    },
+    "scribe-aurelia": {
+      "name": "Scribe Aurelia",
+      "aliases": ["Dawn Court Chronicler"],
+      "appearances": [41, 55, 70],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "Dawn Court scribe who records healing techniques and maintains the court's medical knowledge.",
+          "role": "Medical chronicler, Knowledge keeper",
+          "relationships": {
+            "Healing techniques": "Records carefully",
+            "Medical knowledge": "Preserves ancient"
+          }
+        }
+      }
+    },
+    "pilot-wind": {
+      "name": "Pilot Wind",
+      "aliases": [],
+      "appearances": [43, 57, 72],
+      "knowledge": {
+        "43": {
+          "revealedIn": 43,
+          "description": "Skilled Dawn Court pilot who navigates the aerial highways and guides peregryn formations.",
+          "role": "Aerial navigator, Flight guide",
+          "relationships": {
+            "Aerial highways": "Expert navigator of",
+            "Peregryn formations": "Guides with precision"
+          }
+        }
+      }
+    },
+    "sage-brilliance": {
+      "name": "Sage Brilliance",
+      "aliases": ["Day Court Scholar"],
+      "appearances": [28, 44, 61, 75],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Ancient Day Court scholar who maintains the court's vast libraries and studies solar magic.",
+          "role": "Ancient scholar, Solar magic expert",
+          "relationships": {
+            "Ancient libraries": "Guardian of vast",
+            "Solar magic": "Foremost expert on"
+          }
+        }
+      }
+    },
+    "librarian-gold": {
+      "name": "Librarian Gold",
+      "aliases": ["Day Court Librarian"],
+      "appearances": [30, 46, 63],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Master librarian of Day Court who organizes knowledge by solar alignment and light patterns.",
+          "role": "Master librarian, Light organizer",
+          "relationships": {
+            "Solar knowledge": "Organizes by alignment",
+            "Light patterns": "Expert in cataloging"
+          }
+        }
+      }
+    },
+    "scholar-noon": {
+      "name": "Scholar Noon",
+      "aliases": [],
+      "appearances": [32, 48, 65],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Day Court scholar specializing in the peak power applications of solar magic and light manipulation.",
+          "role": "Solar specialist, Light manipulator",
+          "relationships": {
+            "Solar magic": "Studies peak applications of",
+            "Light manipulation": "Master techniques of"
+          }
+        }
+      }
+    },
+    "keeper-prism": {
+      "name": "Keeper Prism",
+      "aliases": ["Knowledge Keeper"],
+      "appearances": [34, 50, 67],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Day Court keeper who maintains the magical prisms that focus and store solar energy.",
+          "role": "Prism keeper, Solar storage expert",
+          "relationships": {
+            "Magical prisms": "Maintains and focuses",
+            "Solar energy": "Expert at storing"
+          }
+        }
+      }
+    },
+    "archivist-ray": {
+      "name": "Archivist Ray",
+      "aliases": [],
+      "appearances": [36, 52, 69],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Day Court archivist responsible for preserving ancient texts written in light-script.",
+          "role": "Light-script expert, Text preservationist",
+          "relationships": {
+            "Ancient texts": "Preserves with care",
+            "Light-script": "Master of reading"
+          }
+        }
+      }
+    },
+    "curator-shine": {
+      "name": "Curator Shine",
+      "aliases": ["Day Court Curator"],
+      "appearances": [38, 54, 71],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Day Court curator who manages collections of light-infused artifacts and solar relics.",
+          "role": "Artifact curator, Solar relic keeper",
+          "relationships": {
+            "Light artifacts": "Manages precious",
+            "Solar relics": "Expert curator of"
+          }
+        }
+      }
+    },
+    "researcher-beam": {
+      "name": "Researcher Beam",
+      "aliases": [],
+      "appearances": [40, 56, 73],
+      "knowledge": {
+        "40": {
+          "revealedIn": 40,
+          "description": "Day Court researcher who experiments with new applications of concentrated sunlight magic.",
+          "role": "Magic researcher, Sunlight experimenter",
+          "relationships": {
+            "Sunlight magic": "Experiments with concentrated",
+            "New applications": "Discovers innovative"
+          }
+        }
+      }
+    },
+    "chronicler-blaze": {
+      "name": "Chronicler Blaze",
+      "aliases": [],
+      "appearances": [42, 58, 75],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Day Court chronicler who records the court's achievements in volumes written with golden light.",
+          "role": "Golden chronicler, Achievement recorder",
+          "relationships": {
+            "Court achievements": "Records in golden light",
+            "Historical volumes": "Creates luminous"
+          }
+        }
+      }
+    },
+    "lord-ember": {
+      "name": "Lord Ember",
+      "aliases": ["Autumn Court Noble"],
+      "appearances": [23, 37, 51, 69],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "High-ranking Autumn Court noble known for his cunning political maneuvering and fire magic mastery.",
+          "role": "Political schemer, Fire magic master",
+          "relationships": {
+            "Autumn Court": "High-ranking schemer in",
+            "Fire magic": "Master of destructive"
+          }
+        }
+      }
+    },
+    "captain-flame": {
+      "name": "Captain Flame",
+      "aliases": ["Autumn Guard Captain"],
+      "appearances": [25, 39, 53, 71],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Ruthless Autumn Court captain who leads fire-wielding soldiers with military precision.",
+          "role": "Fire captain, Military leader",
+          "relationships": {
+            "Fire soldiers": "Leads with ruthless precision",
+            "Autumn military": "Captain in elite"
+          }
+        }
+      }
+    },
+    "lady-maple": {
+      "name": "Lady Maple",
+      "aliases": [],
+      "appearances": [27, 41, 55, 73],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Autumn Court noblewoman who serves as diplomatic spy, gathering intelligence through court intrigue.",
+          "role": "Diplomatic spy, Court intriguer",
+          "relationships": {
+            "Court intrigue": "Master of subtle",
+            "Intelligence": "Gathers through diplomacy"
+          }
+        }
+      }
+    },
+    "warrior-oak": {
+      "name": "Warrior Oak",
+      "aliases": ["Autumn Fire Warrior"],
+      "appearances": [29, 43, 57],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Elite Autumn Court warrior who combines fire magic with traditional weapon combat.",
+          "role": "Elite fire warrior, Combat specialist",
+          "relationships": {
+            "Fire magic": "Combines with weapon skills",
+            "Elite warriors": "Member of Autumn's finest"
+          }
+        }
+      }
+    },
+    "sage-crimson": {
+      "name": "Sage Crimson",
+      "aliases": ["Autumn Court Advisor"],
+      "appearances": [31, 45, 59],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Ancient Autumn Court sage who advises on matters of seasonal magic and harvest power.",
+          "role": "Ancient advisor, Seasonal expert",
+          "relationships": {
+            "Seasonal magic": "Ancient knowledge of autumn",
+            "Harvest power": "Expert in channeling"
+          }
+        }
+      }
+    },
+    "guard-bronze": {
+      "name": "Guard Bronze",
+      "aliases": [],
+      "appearances": [33, 47, 61],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Autumn Court palace guard known for his unwavering loyalty to the High Lord despite court politics.",
+          "role": "Loyal guard, Palace protector",
+          "relationships": {
+            "High Lord": "Unwavering loyalty to",
+            "Palace security": "Protects with dedication"
+          }
+        }
+      }
+    },
+    "spy-shadow": {
+      "name": "Spy Shadow",
+      "aliases": ["Autumn Court Spy"],
+      "appearances": [35, 49, 63],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Skilled Autumn Court spy who gathers intelligence on enemy movements and rival court activities.",
+          "role": "Master spy, Intelligence gatherer",
+          "relationships": {
+            "Enemy intelligence": "Gathers with skill",
+            "Rival courts": "Monitors activities of"
+          }
+        }
+      }
+    },
+    "healer-amber": {
+      "name": "Healer Amber",
+      "aliases": ["Autumn Court Healer"],
+      "appearances": [37, 51, 65],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Autumn Court healer who specializes in treating fire-based injuries and magical burns.",
+          "role": "Fire injury specialist, Battle medic",
+          "relationships": {
+            "Fire injuries": "Expert at treating",
+            "Magical burns": "Specializes in healing"
+          }
+        }
+      }
+    },
+    "commander-redwood": {
+      "name": "Commander Redwood",
+      "aliases": ["Hybern Commander"],
+      "appearances": [20, 30, 45, 60, 75],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "High-ranking Hybern commander responsible for coordinating attacks on the allied courts.",
+          "role": "Strategic commander, Attack coordinator",
+          "relationships": {
+            "Hybern forces": "Commands major division of",
+            "Allied courts": "Coordinates attacks against"
+          }
+        }
+      }
+    },
+    "general-iron": {
+      "name": "General Iron",
+      "aliases": ["Hybern General"],
+      "appearances": [25, 35, 50, 65],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Ruthless Hybern general known for brutal tactics and commanding large siege operations.",
+          "role": "Siege commander, Brutal tactician",
+          "relationships": {
+            "Siege operations": "Commands with brutality",
+            "Hybern army": "General in main force"
+          }
+        }
+      }
+    },
+    "captain-skull": {
+      "name": "Captain Skull",
+      "aliases": ["Death Captain"],
+      "appearances": [28, 40, 55, 70],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Feared Hybern captain who leads specialized units trained in psychological warfare.",
+          "role": "Fear specialist, Psychological warrior",
+          "relationships": {
+            "Psychological warfare": "Master of terror tactics",
+            "Specialized units": "Leads fear-based"
+          }
+        }
+      }
+    },
+    "lieutenant-shadow": {
+      "name": "Lieutenant Shadow",
+      "aliases": [],
+      "appearances": [32, 47, 62],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Hybern lieutenant specializing in stealth operations and surprise attacks on enemy positions.",
+          "role": "Stealth specialist, Surprise attacker",
+          "relationships": {
+            "Stealth operations": "Expert in covert",
+            "Surprise attacks": "Leads effective"
+          }
+        }
+      }
+    },
+    "sergeant-bone": {
+      "name": "Sergeant Bone",
+      "aliases": ["Hybern Sergeant"],
+      "appearances": [35, 52, 67],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Battle-hardened Hybern sergeant who trains new recruits in combat and cruelty.",
+          "role": "Combat trainer, Cruelty instructor",
+          "relationships": {
+            "New recruits": "Trains in brutality",
+            "Combat methods": "Expert in harsh"
+          }
+        }
+      }
+    },
+    "spy-venom": {
+      "name": "Spy Venom",
+      "aliases": ["Hybern Infiltrator"],
+      "appearances": [38, 55, 70],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Skilled Hybern spy who infiltrates enemy camps to gather intelligence and spread discord.",
+          "role": "Master infiltrator, Discord sower",
+          "relationships": {
+            "Enemy camps": "Infiltrates successfully",
+            "Discord": "Spreads among enemies"
+          }
+        }
+      }
+    },
+    "scout-raven": {
+      "name": "Scout Raven",
+      "aliases": [],
+      "appearances": [42, 58, 72],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Hybern scout who monitors enemy movements and reports back on troop positions.",
+          "role": "Intelligence scout, Movement tracker",
+          "relationships": {
+            "Enemy movements": "Tracks and reports",
+            "Troop positions": "Expert at identifying"
+          }
+        }
+      }
+    },
+    "torturer-grim": {
+      "name": "Torturer Grim",
+      "aliases": ["Hybern Interrogator"],
+      "appearances": [45, 63, 74],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Hybern torturer responsible for extracting information from captured prisoners.",
+          "role": "Information extractor, Prisoner interrogator",
+          "relationships": {
+            "Captured prisoners": "Interrogates brutally",
+            "Information": "Extracts through torture"
+          }
+        }
+      }
+    },
+    "healer-plague": {
+      "name": "Healer Plague",
+      "aliases": ["Hybern Medic"],
+      "appearances": [48, 65, 76],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Dark healer who serves Hybern forces, skilled in both healing and poison magic.",
+          "role": "Dark medic, Poison specialist",
+          "relationships": {
+            "Hybern forces": "Heals and harms for",
+            "Poison magic": "Expert in deadly"
+          }
+        }
+      }
+    },
+    "warlord-ash": {
+      "name": "Warlord Ash",
+      "aliases": ["Hybern Warlord"],
+      "appearances": [50, 67, 78],
+      "knowledge": {
+        "50": {
+          "revealedIn": 50,
+          "description": "Powerful Hybern warlord who commands regional forces and enforces the King's will.",
+          "role": "Regional commander, King's enforcer",
+          "relationships": {
+            "Regional forces": "Commands with authority",
+            "King of Hybern": "Enforces will of"
+          }
+        }
+      }
+    },
+    "assassin-night": {
+      "name": "Assassin Night",
+      "aliases": [],
+      "appearances": [53, 70, 80],
+      "knowledge": {
+        "53": {
+          "revealedIn": 53,
+          "description": "Elite Hybern assassin trained in silent killing and targeting key enemy leaders.",
+          "role": "Silent killer, Leader hunter",
+          "relationships": {
+            "Enemy leaders": "Targets for elimination",
+            "Silent killing": "Master of deadly arts"
+          }
+        }
+      }
+    },
+    "berserker-rage": {
+      "name": "Berserker Rage",
+      "aliases": ["Hybern Berserker"],
+      "appearances": [55, 72, 81],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "Hybern berserker who enters battle frenzies, causing massive destruction in enemy lines.",
+          "role": "Frenzy warrior, Destruction bringer",
+          "relationships": {
+            "Battle frenzies": "Enters to devastate",
+            "Enemy lines": "Causes massive damage to"
+          }
+        }
+      }
+    },
+    "sorcerer-void": {
+      "name": "Sorcerer Void",
+      "aliases": ["Hybern Mage"],
+      "appearances": [58, 74, 82],
+      "knowledge": {
+        "58": {
+          "revealedIn": 58,
+          "description": "Powerful Hybern sorcerer who wields void magic to tear holes in reality during battles.",
+          "role": "Void magic wielder, Reality tearer",
+          "relationships": {
+            "Void magic": "Wields to tear reality",
+            "Battle magic": "Expert in devastating"
+          }
+        }
+      }
+    },
+    "necromancer-death": {
+      "name": "Necromancer Death",
+      "aliases": ["Hybern Death Mage"],
+      "appearances": [60, 76, 82],
+      "knowledge": {
+        "60": {
+          "revealedIn": 60,
+          "description": "Dark necromancer who raises fallen soldiers to fight again for Hybern's cause.",
+          "role": "Death magic user, Undead raiser",
+          "relationships": {
+            "Fallen soldiers": "Raises to fight again",
+            "Death magic": "Master of dark"
+          }
+        }
+      }
+    },
+    "bombardier-flame": {
+      "name": "Bombardier Flame",
+      "aliases": [],
+      "appearances": [62, 78, 82],
+      "knowledge": {
+        "62": {
+          "revealedIn": 62,
+          "description": "Hybern bombardier who uses explosive magic to breach enemy fortifications.",
+          "role": "Siege specialist, Explosive expert",
+          "relationships": {
+            "Explosive magic": "Uses to breach defenses",
+            "Enemy fortifications": "Expert at destroying"
+          }
+        }
+      }
+    },
+    "guard-captain-steel": {
+      "name": "Guard Captain Steel",
+      "aliases": ["Mortal Queen's Captain"],
+      "appearances": [18, 24, 30, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Captain of the mortal queen's guard, sworn to protect the queen and enforce her alliance with Hybern.",
+          "role": "Queen's protector, Alliance enforcer",
+          "relationships": {
+            "Mortal queen": "Sworn protector of",
+            "Hybern alliance": "Enforces with dedication"
+          }
+        }
+      }
+    },
+    "advisor-serpent": {
+      "name": "Advisor Serpent",
+      "aliases": ["Queen's Counselor"],
+      "appearances": [20, 26, 35, 48],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Cunning advisor to the mortal queen who encourages the alliance with Hybern for power.",
+          "role": "Cunning counselor, Power seeker",
+          "relationships": {
+            "Mortal queen": "Advises and manipulates",
+            "Power": "Seeks through Hybern alliance"
+          }
+        }
+      }
+    },
+    "servant-mouse": {
+      "name": "Servant Mouse",
+      "aliases": [],
+      "appearances": [22, 28, 38],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Timid servant in the mortal queen's palace who overhears important conversations.",
+          "role": "Palace servant, Secret listener",
+          "relationships": {
+            "Palace secrets": "Accidentally overhears",
+            "Queen's household": "Serves faithfully"
+          }
+        }
+      }
+    },
+    "spy-whisper": {
+      "name": "Spy Whisper",
+      "aliases": ["Queen's Eye"],
+      "appearances": [25, 32, 45, 58],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "The mortal queen's personal spy who gathers intelligence on both allies and enemies.",
+          "role": "Royal spy, Intelligence gatherer",
+          "relationships": {
+            "Mortal queen": "Personal spy for",
+            "Intelligence": "Gathers on all sides"
+          }
+        }
+      }
+    },
+    "lieutenant-bronze": {
+      "name": "Lieutenant Bronze",
+      "aliases": [],
+      "appearances": [27, 34, 47],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Military lieutenant who commands the mortal queen's personal guard unit.",
+          "role": "Guard commander, Military leader",
+          "relationships": {
+            "Personal guard": "Commands with authority",
+            "Military tactics": "Expert in defensive"
+          }
+        }
+      }
+    },
+    "healer-herb": {
+      "name": "Healer Herb",
+      "aliases": ["Palace Healer"],
+      "appearances": [29, 37, 50],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Palace healer who treats the mortal queen's household and visiting Hybern officials.",
+          "role": "Palace medic, Diplomatic healer",
+          "relationships": {
+            "Queen's household": "Provides medical care for",
+            "Hybern officials": "Treats visiting"
+          }
+        }
+      }
+    },
+    "scribe-quill": {
+      "name": "Scribe Quill",
+      "aliases": ["Royal Scribe"],
+      "appearances": [31, 39, 52],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Royal scribe who records the queen's correspondence with Hybern and other royal communications.",
+          "role": "Royal recorder, Communication keeper",
+          "relationships": {
+            "Royal correspondence": "Records carefully",
+            "Hybern communications": "Documents secret"
+          }
+        }
+      }
+    },
+    "cook-blade": {
+      "name": "Cook Blade",
+      "aliases": ["Palace Cook"],
+      "appearances": [33, 41, 54],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Head cook of the mortal queen's palace who prepares meals for important diplomatic meetings.",
+          "role": "Palace chef, Diplomatic meal planner",
+          "relationships": {
+            "Palace cuisine": "Master of preparing",
+            "Diplomatic meals": "Creates for important"
+          }
+        }
+      }
+    },
+    "messenger-swift": {
+      "name": "Messenger Swift",
+      "aliases": ["Royal Messenger"],
+      "appearances": [35, 43, 56],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Swift royal messenger who carries urgent communications between the queen and Hybern forces.",
+          "role": "Royal courier, Communication carrier",
+          "relationships": {
+            "Urgent messages": "Carries with speed",
+            "Hybern communications": "Trusted with secret"
+          }
+        }
+      }
+    },
+    "guard-shield": {
+      "name": "Guard Shield",
+      "aliases": [],
+      "appearances": [37, 45, 58],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Palace guard responsible for protecting the queen's private chambers and personal safety.",
+          "role": "Personal protector, Chamber guard",
+          "relationships": {
+            "Queen's safety": "Primary responsibility for",
+            "Private chambers": "Guards with vigilance"
+          }
+        }
+      }
+    },
+    "camp-lord-steel": {
+      "name": "Camp Lord Steel",
+      "aliases": ["Illyrian War Chief"],
+      "appearances": [21, 35, 49, 63, 77],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Powerful Illyrian camp lord who commands one of the largest war bands in the coalition.",
+          "role": "War band leader, Coalition commander",
+          "relationships": {
+            "Illyrian warriors": "Commands large band of",
+            "War coalition": "Major leader in"
+          }
+        }
+      }
+    },
+    "warrior-talon": {
+      "name": "Warrior Talon",
+      "aliases": ["Sky Warrior"],
+      "appearances": [23, 37, 51, 65],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Elite Illyrian warrior known for masterful aerial combat and leadership in battle formations.",
+          "role": "Aerial combat expert, Battle leader",
+          "relationships": {
+            "Aerial combat": "Master of deadly",
+            "Battle formations": "Leads with skill"
+          }
+        }
+      }
+    },
+    "commander-wing": {
+      "name": "Commander Wing",
+      "aliases": ["Flight Commander"],
+      "appearances": [25, 39, 53, 67],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Illyrian flight commander who coordinates aerial attack strategies and wing formations.",
+          "role": "Flight strategist, Wing coordinator",
+          "relationships": {
+            "Aerial strategies": "Coordinates complex",
+            "Wing formations": "Master of effective"
+          }
+        }
+      }
+    },
+    "captain-storm": {
+      "name": "Captain Storm",
+      "aliases": ["Storm Captain"],
+      "appearances": [27, 41, 55, 69],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Fierce Illyrian captain who leads storm trooper units in high-speed aerial assaults.",
+          "role": "Storm trooper leader, Assault specialist",
+          "relationships": {
+            "Storm troopers": "Leads elite unit of",
+            "Aerial assaults": "Expert in high-speed"
+          }
+        }
+      }
+    },
+    "scout-hawk": {
+      "name": "Scout Hawk",
+      "aliases": ["Sky Scout"],
+      "appearances": [29, 43, 57, 71],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Elite Illyrian scout who conducts reconnaissance flights over enemy territory.",
+          "role": "Aerial scout, Reconnaissance expert",
+          "relationships": {
+            "Enemy territory": "Scouts with precision",
+            "Reconnaissance": "Expert in aerial"
+          }
+        }
+      }
+    },
+    "healer-wind": {
+      "name": "Healer Wind",
+      "aliases": ["Camp Healer"],
+      "appearances": [31, 45, 59, 73],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Illyrian healer who treats wounded warriors and maintains the health of the war camps.",
+          "role": "War camp medic, Warrior healer",
+          "relationships": {
+            "Wounded warriors": "Treats with skill",
+            "War camps": "Maintains health of"
+          }
+        }
+      }
+    },
+    "weapon-master-iron": {
+      "name": "Weapon Master Iron",
+      "aliases": ["Arms Master"],
+      "appearances": [33, 47, 61, 75],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Master weaponsmith who forges and maintains the Illyrian warriors' weapons and armor.",
+          "role": "Master smith, Weapon keeper",
+          "relationships": {
+            "Illyrian weapons": "Forges and maintains",
+            "Warrior armor": "Expert craftsman of"
+          }
+        }
+      }
+    },
+    "trainer-blade": {
+      "name": "Trainer Blade",
+      "aliases": ["Combat Instructor"],
+      "appearances": [35, 49, 63, 77],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Veteran Illyrian who trains young warriors in combat techniques and aerial maneuvers.",
+          "role": "Combat trainer, Veteran instructor",
+          "relationships": {
+            "Young warriors": "Trains in combat arts",
+            "Aerial maneuvers": "Expert instructor of"
+          }
+        }
+      }
+    },
+    "baker-crust": {
+      "name": "Baker Crust",
+      "aliases": ["Velaris Baker"],
+      "appearances": [21, 45, 68],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Beloved Velaris baker whose shop provides bread and pastries to the Rainbow district.",
+          "role": "District baker, Community provider",
+          "relationships": {
+            "Rainbow district": "Beloved provider for",
+            "Velaris citizens": "Serves with warmth"
+          }
+        }
+      }
+    },
+    "shopkeeper-silk": {
+      "name": "Shopkeeper Silk",
+      "aliases": ["Fabric Merchant"],
+      "appearances": [23, 47, 70],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Velaris fabric merchant who sells fine silks and clothing to the city's residents.",
+          "role": "Fabric seller, Clothing provider",
+          "relationships": {
+            "Fine fabrics": "Merchant of quality",
+            "City residents": "Serves clothing needs of"
+          }
+        }
+      }
+    },
+    "artist-paint": {
+      "name": "Artist Paint",
+      "aliases": ["Rainbow Artist"],
+      "appearances": [25, 49, 72],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Talented Velaris artist who creates paintings and artwork for the Rainbow district galleries.",
+          "role": "District artist, Gallery creator",
+          "relationships": {
+            "Rainbow galleries": "Creates art for",
+            "Velaris culture": "Contributes beauty to"
+          }
+        }
+      }
+    },
+    "musician-song": {
+      "name": "Musician Song",
+      "aliases": ["Street Performer"],
+      "appearances": [27, 51, 74],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Skilled Velaris musician who performs in the streets and taverns, bringing joy to citizens.",
+          "role": "City entertainer, Joy bringer",
+          "relationships": {
+            "Street performances": "Brings music to",
+            "Tavern crowds": "Entertains with skill"
+          }
+        }
+      }
+    },
+    "healer-gentle": {
+      "name": "Healer Gentle",
+      "aliases": ["City Healer"],
+      "appearances": [29, 53, 76],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Compassionate Velaris healer who tends to the citizens and helps maintain the city's health.",
+          "role": "Community healer, Health maintainer",
+          "relationships": {
+            "City citizens": "Provides healing for",
+            "Community health": "Dedicated to maintaining"
+          }
+        }
+      }
+    },
+    "lord-shadow": {
+      "name": "Lord Shadow",
+      "aliases": ["Hewn City Noble"],
+      "appearances": [24, 48, 72],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "High-ranking noble in the Court of Nightmares who schemes for power within Hewn City.",
+          "role": "Power-hungry noble, Court schemer",
+          "relationships": {
+            "Hewn City": "Schemes for control of",
+            "Court politics": "Master of dark"
+          }
+        }
+      }
+    },
+    "lady-venom": {
+      "name": "Lady Venom",
+      "aliases": ["Nightmare Courtier"],
+      "appearances": [26, 50, 74],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Cruel Court of Nightmares lady known for her poisonous tongue and manipulative schemes.",
+          "role": "Cruel manipulator, Poisonous schemer",
+          "relationships": {
+            "Court intrigue": "Spreads poison through",
+            "Manipulation": "Expert in cruel"
+          }
+        }
+      }
+    },
+    "guard-stone": {
+      "name": "Guard Stone",
+      "aliases": ["Hewn City Guard"],
+      "appearances": [28, 52, 76],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Ruthless guard in the Court of Nightmares who enforces the harsh rules of Hewn City.",
+          "role": "Harsh enforcer, Rule keeper",
+          "relationships": {
+            "Hewn City": "Enforces harsh rules of",
+            "Court order": "Maintains through brutality"
+          }
+        }
+      }
+    },
+    "spy-dagger": {
+      "name": "Spy Dagger",
+      "aliases": ["Court Spy"],
+      "appearances": [30, 54, 78],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Skilled spy within the Court of Nightmares who gathers secrets and sells information.",
+          "role": "Information broker, Secret gatherer",
+          "relationships": {
+            "Court secrets": "Gathers and sells",
+            "Information trade": "Expert in dangerous"
+          }
+        }
+      }
+    },
+    "torturer-pain": {
+      "name": "Torturer Pain",
+      "aliases": ["Nightmare Torturer"],
+      "appearances": [32, 56, 80],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Feared torturer in the Court of Nightmares who extracts confessions through cruel methods.",
+          "role": "Fear inducer, Confession extractor",
+          "relationships": {
+            "Cruel methods": "Expert in using",
+            "Court justice": "Enforces through fear"
+          }
+        }
+      }
     }
   },
   "recaps": {

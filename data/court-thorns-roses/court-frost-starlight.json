@@ -1824,6 +1824,1162 @@
           }
         }
       }
+    },
+    "pastry-chefs": {
+      "name": "Pastry Chefs",
+      "aliases": ["Sweet Makers", "Dessert Artists"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Talented pastry chefs who create elaborate desserts and sweet treats for Winter Solstice celebrations.",
+          "role": "Sweet creators, Dessert artists",
+          "relationships": {
+            "Elaborate desserts": "Create with artistry",
+            "Sweet treats": "Make for celebrations",
+            "Winter Solstice": "Sweeten with confections"
+          }
+        }
+      }
+    },
+    "bread-bakers": {
+      "name": "Bread Bakers",
+      "aliases": ["Loaf Makers", "Daily Bakers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Dedicated bread bakers who work through the night to provide fresh, warm bread for celebration meals.",
+          "role": "Daily providers, Warmth bringers",
+          "relationships": {
+            "Fresh bread": "Bake daily with care",
+            "Celebration meals": "Provide foundation for",
+            "Community": "Nourish with staples"
+          }
+        }
+      }
+    },
+    "kitchen-assistants": {
+      "name": "Kitchen Assistants",
+      "aliases": ["Cooking Helpers", "Prep Workers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Hardworking assistants who help prepare elaborate feasts, working tirelessly behind the scenes.",
+          "role": "Behind-scenes workers, Preparation helpers",
+          "relationships": {
+            "Elaborate feasts": "Help prepare tirelessly",
+            "Kitchen masters": "Assist with devotion",
+            "Celebration success": "Ensure through hard work"
+          }
+        }
+      }
+    },
+    "dishwashers": {
+      "name": "Dishwashers",
+      "aliases": ["Pot Scrubbers", "Kitchen Cleaners"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Humble dishwashers who keep kitchens clean and functioning during the busy celebration season.",
+          "role": "Clean keepers, Function maintainers",
+          "relationships": {
+            "Kitchen cleanliness": "Maintain constantly",
+            "Busy season": "Work through tirelessly",
+            "Kitchen function": "Enable through service"
+          }
+        }
+      }
+    },
+    "wine-servers": {
+      "name": "Wine Servers",
+      "aliases": ["Cup Bearers", "Drink Attendants"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Graceful servers who ensure guests' cups never empty during the Winter Solstice celebrations.",
+          "role": "Graceful servers, Hospitality providers",
+          "relationships": {
+            "Guest cups": "Keep filled constantly",
+            "Winter Solstice": "Serve throughout celebrations",
+            "Hospitality": "Provide with grace"
+          }
+        }
+      }
+    },
+    "table-servers": {
+      "name": "Table Servers",
+      "aliases": ["Meal Attendants", "Food Bearers"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Attentive servers who present dishes with elegance and ensure every guest feels honored.",
+          "role": "Attentive presenters, Honor givers",
+          "relationships": {
+            "Dishes": "Present with elegance",
+            "Every guest": "Make feel honored",
+            "Service": "Provide with attention"
+          }
+        }
+      }
+    },
+    "chamber-maids": {
+      "name": "Chamber Maids",
+      "aliases": ["Room Tenders", "Guest Preparers"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Diligent chamber maids who prepare guest rooms with care and attention to detail.",
+          "role": "Room preparers, Detail attenders",
+          "relationships": {
+            "Guest rooms": "Prepare with care",
+            "Details": "Attend to meticulously",
+            "Guest comfort": "Ensure through service"
+          }
+        }
+      }
+    },
+    "housekeepers": {
+      "name": "Housekeepers",
+      "aliases": ["Home Maintainers", "Cleanliness Keepers"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Dedicated housekeepers who maintain the cleanliness and order of homes and public spaces.",
+          "role": "Order maintainers, Cleanliness providers",
+          "relationships": {
+            "Homes": "Keep clean and orderly",
+            "Public spaces": "Maintain for community",
+            "Daily life": "Support through service"
+          }
+        }
+      }
+    },
+    "laundresses": {
+      "name": "Laundresses",
+      "aliases": ["Clothes Washers", "Fabric Cleaners"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Hardworking laundresses who ensure everyone has clean, beautiful clothes for celebrations.",
+          "role": "Clean providers, Beauty enablers",
+          "relationships": {
+            "Clean clothes": "Provide for all",
+            "Beautiful garments": "Prepare for celebrations",
+            "Pride": "Enable through cleanliness"
+          }
+        }
+      }
+    },
+    "scullery-maids": {
+      "name": "Scullery Maids",
+      "aliases": ["Kitchen Helpers", "Lowest Servants"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Young scullery maids who perform the humblest tasks but take pride in contributing to celebrations.",
+          "role": "Humble contributors, Pride takers",
+          "relationships": {
+            "Humblest tasks": "Perform willingly",
+            "Celebrations": "Contribute to proudly",
+            "Service": "Give with dedication"
+          }
+        }
+      }
+    },
+    "footmen": {
+      "name": "Footmen",
+      "aliases": ["Door Attendants", "Message Runners"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Uniformed footmen who attend doors, carry messages, and assist guests with quiet efficiency.",
+          "role": "Door attendants, Message carriers",
+          "relationships": {
+            "Doors": "Attend with readiness",
+            "Messages": "Carry with discretion",
+            "Guests": "Assist with efficiency"
+          }
+        }
+      }
+    },
+    "stable-hands": {
+      "name": "Stable Hands",
+      "aliases": ["Horse Groomers", "Animal Carers"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Dedicated stable hands who care for visiting dignitaries' horses during celebration season.",
+          "role": "Animal carers, Service providers",
+          "relationships": {
+            "Visiting horses": "Care for devotedly",
+            "Dignitaries": "Serve through animal care",
+            "Celebration season": "Work extra during"
+          }
+        }
+      }
+    },
+    "doorkeepers": {
+      "name": "Doorkeepers",
+      "aliases": ["Entry Guards", "Welcome Givers"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Friendly doorkeepers who welcome guests and ensure smooth entry to celebration venues.",
+          "role": "Welcome givers, Entry facilitators",
+          "relationships": {
+            "Guests": "Welcome warmly",
+            "Celebration venues": "Facilitate entry to",
+            "Smooth entry": "Ensure for all"
+          }
+        }
+      }
+    },
+    "clock-makers": {
+      "name": "Clock Makers",
+      "aliases": ["Time Keepers", "Precision Crafters"],
+      "appearances": [10, 13, 15, 18],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Precise clock makers who ensure celebrations begin and end at the perfect moments.",
+          "role": "Time keepers, Precision providers",
+          "relationships": {
+            "Perfect timing": "Ensure through craft",
+            "Celebrations": "Time accurately",
+            "Precision": "Provide through skill"
+          }
+        }
+      }
+    },
+    "mirror-makers": {
+      "name": "Mirror Makers",
+      "aliases": ["Reflection Crafters", "Glass Artists"],
+      "appearances": [10, 13, 15, 18],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled mirror makers who create beautiful reflecting surfaces that enhance celebration spaces.",
+          "role": "Beauty enhancers, Light multipliers",
+          "relationships": {
+            "Beautiful mirrors": "Craft with skill",
+            "Celebration spaces": "Enhance with reflections",
+            "Light": "Multiply through craft"
+          }
+        }
+      }
+    },
+    "glass-blowers": {
+      "name": "Glass Blowers",
+      "aliases": ["Crystal Shapers", "Fire Artists"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Master glass blowers who create delicate ornaments and vessels for special celebrations.",
+          "role": "Delicate creators, Fire masters",
+          "relationships": {
+            "Delicate ornaments": "Create with breath",
+            "Special vessels": "Shape for celebrations",
+            "Fire": "Master in creation"
+          }
+        }
+      }
+    },
+    "pottery-makers": {
+      "name": "Pottery Makers",
+      "aliases": ["Clay Shapers", "Earth Workers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled pottery makers who craft dishes and decorative items that serve celebration needs.",
+          "role": "Clay artists, Serving enablers",
+          "relationships": {
+            "Beautiful dishes": "Craft from clay",
+            "Decorative items": "Shape for beauty",
+            "Celebration needs": "Serve through craft"
+          }
+        }
+      }
+    },
+    "basket-weavers": {
+      "name": "Basket Weavers",
+      "aliases": ["Wickerworkers", "Storage Makers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Patient basket weavers who create containers and gift baskets for Winter Solstice giving.",
+          "role": "Container creators, Gift enablers",
+          "relationships": {
+            "Beautiful baskets": "Weave with patience",
+            "Gift giving": "Enable through craft",
+            "Storage needs": "Meet with skill"
+          }
+        }
+      }
+    },
+    "carpet-weavers": {
+      "name": "Carpet Weavers",
+      "aliases": ["Rug Makers", "Floor Artists"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Master carpet weavers who create beautiful floor coverings that warm and beautify celebration spaces.",
+          "role": "Floor beautifiers, Warmth providers",
+          "relationships": {
+            "Beautiful carpets": "Weave with mastery",
+            "Celebration spaces": "Warm and beautify",
+            "Comfort": "Provide underfoot"
+          }
+        }
+      }
+    },
+    "embroiderers": {
+      "name": "Embroiderers",
+      "aliases": ["Thread Artists", "Decoration Stitchers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled embroiderers who add beautiful details to clothing and decorations for special occasions.",
+          "role": "Detail artists, Beauty adders",
+          "relationships": {
+            "Beautiful details": "Stitch with precision",
+            "Special occasions": "Beautify for",
+            "Thread art": "Master with skill"
+          }
+        }
+      }
+    },
+    "perfumers": {
+      "name": "Perfumers",
+      "aliases": ["Scent Makers", "Fragrance Creators"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Talented perfumers who create special fragrances that make Winter Solstice celebrations memorable.",
+          "role": "Scent creators, Memory makers",
+          "relationships": {
+            "Special fragrances": "Blend with artistry",
+            "Winter Solstice": "Scent memorably",
+            "Celebrations": "Enhance through smell"
+          }
+        }
+      }
+    },
+    "soap-makers": {
+      "name": "Soap Makers",
+      "aliases": ["Cleanliness Crafters", "Lather Artists"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Practical soap makers who ensure everyone can be clean and fresh for celebration gatherings.",
+          "role": "Cleanliness providers, Freshness enablers",
+          "relationships": {
+            "Clean soaps": "Make with care",
+            "Celebration gatherings": "Prepare people for",
+            "Freshness": "Enable through craft"
+          }
+        }
+      }
+    },
+    "ribbon-makers": {
+      "name": "Ribbon Makers",
+      "aliases": ["Silk Workers", "Decoration Weavers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled ribbon makers who create colorful decorations that brighten Winter Solstice celebrations.",
+          "role": "Color bringers, Decoration creators",
+          "relationships": {
+            "Colorful ribbons": "Weave with skill",
+            "Winter Solstice": "Brighten with color",
+            "Decorations": "Create for beauty"
+          }
+        }
+      }
+    },
+    "button-makers": {
+      "name": "Button Makers",
+      "aliases": ["Fastener Crafters", "Small Detail Workers"],
+      "appearances": [10, 13, 15, 18],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Detail-oriented button makers who craft small but important elements for celebration clothing.",
+          "role": "Detail crafters, Small importance providers",
+          "relationships": {
+            "Important buttons": "Craft with precision",
+            "Celebration clothing": "Complete with details",
+            "Small details": "Make with care"
+          }
+        }
+      }
+    },
+    "leather-workers": {
+      "name": "Leather Workers",
+      "aliases": ["Hide Crafters", "Leather Artisans"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled leather workers who create durable and beautiful leather goods for practical and decorative use.",
+          "role": "Durability providers, Beauty crafters",
+          "relationships": {
+            "Leather goods": "Craft with skill",
+            "Durability": "Provide through craft",
+            "Beauty": "Add to function"
+          }
+        }
+      }
+    },
+    "furriers": {
+      "name": "Furriers",
+      "aliases": ["Fur Workers", "Warmth Providers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Expert furriers who provide warm furs and coats that keep celebrants comfortable during winter festivities.",
+          "role": "Warmth crafters, Comfort providers",
+          "relationships": {
+            "Warm furs": "Prepare expertly",
+            "Winter festivities": "Keep celebrants warm during",
+            "Comfort": "Provide through warmth"
+          }
+        }
+      }
+    },
+    "hat-makers": {
+      "name": "Hat Makers",
+      "aliases": ["Millinery Workers", "Head Coverers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Fashionable hat makers who create beautiful head coverings that complete celebration outfits.",
+          "role": "Fashion completers, Style providers",
+          "relationships": {
+            "Beautiful hats": "Create with style",
+            "Celebration outfits": "Complete perfectly",
+            "Fashion": "Enhance through craft"
+          }
+        }
+      }
+    },
+    "shoe-makers": {
+      "name": "Shoe Makers",
+      "aliases": ["Cobblers", "Footwear Crafters"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled shoe makers who craft comfortable and beautiful footwear for celebration dancing and walking.",
+          "role": "Comfort crafters, Dance enablers",
+          "relationships": {
+            "Beautiful footwear": "Craft with skill",
+            "Celebration dancing": "Enable through comfort",
+            "Walking comfort": "Provide through craft"
+          }
+        }
+      }
+    },
+    "glove-makers": {
+      "name": "Glove Makers",
+      "aliases": ["Hand Coverers", "Warmth Crafters"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Careful glove makers who create hand coverings that keep fingers warm while maintaining elegance.",
+          "role": "Hand warmers, Elegance maintainers",
+          "relationships": {
+            "Warm gloves": "Craft with care",
+            "Finger warmth": "Maintain in cold",
+            "Elegance": "Preserve while warming"
+          }
+        }
+      }
+    },
+    "mask-makers": {
+      "name": "Mask Makers",
+      "aliases": ["Face Artists", "Mystery Creators"],
+      "appearances": [13, 14, 15, 16, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Creative mask makers who craft beautiful face coverings for masquerade elements of celebrations.",
+          "role": "Mystery creators, Beauty crafters",
+          "relationships": {
+            "Beautiful masks": "Craft with creativity",
+            "Masquerade celebrations": "Enable with mystery",
+            "Artistry": "Express through craft"
+          }
+        }
+      }
+    },
+    "banner-makers": {
+      "name": "Banner Makers",
+      "aliases": ["Flag Creators", "Symbol Designers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Artistic banner makers who create colorful displays that announce and celebrate Winter Solstice festivities.",
+          "role": "Display creators, Celebration announcers",
+          "relationships": {
+            "Colorful banners": "Create with artistry",
+            "Winter Solstice": "Announce through displays",
+            "Festivities": "Celebrate visually"
+          }
+        }
+      }
+    },
+    "garland-makers": {
+      "name": "Garland Makers",
+      "aliases": ["Decorative Weavers", "Natural Artists"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Nature-loving garland makers who weave plants and flowers into beautiful decorative displays.",
+          "role": "Natural decorators, Plant artists",
+          "relationships": {
+            "Plant garlands": "Weave with love",
+            "Beautiful displays": "Create from nature",
+            "Decoration": "Make naturally"
+          }
+        }
+      }
+    },
+    "wreath-makers": {
+      "name": "Wreath Makers",
+      "aliases": ["Circle Weavers", "Door Decorators"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled wreath makers who create circular decorations that welcome guests to celebration venues.",
+          "role": "Welcome creators, Circle weavers",
+          "relationships": {
+            "Welcoming wreaths": "Weave with skill",
+            "Celebration venues": "Decorate doorways of",
+            "Guests": "Welcome with beauty"
+          }
+        }
+      }
+    },
+    "ornament-makers": {
+      "name": "Ornament Makers",
+      "aliases": ["Decoration Crafters", "Beauty Creators"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Creative ornament makers who craft small beautiful objects that add sparkle and wonder to celebrations.",
+          "role": "Wonder creators, Sparkle providers",
+          "relationships": {
+            "Beautiful ornaments": "Craft with creativity",
+            "Celebrations": "Add sparkle to",
+            "Wonder": "Create through small beauties"
+          }
+        }
+      }
+    },
+    "celebration-musicians": {
+      "name": "Celebration Musicians",
+      "aliases": ["Festival Players", "Joy Makers"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Talented musicians who perform specifically for Winter Solstice celebrations, bringing joy through music.",
+          "role": "Joy bringers, Celebration performers",
+          "relationships": {
+            "Winter Solstice music": "Perform with skill",
+            "Joy": "Bring through performance",
+            "Celebrations": "Enhance with sound"
+          }
+        }
+      }
+    },
+    "choir-singers": {
+      "name": "Choir Singers",
+      "aliases": ["Voice Artists", "Harmony Creators"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Harmonious choir singers who blend their voices to create beautiful music for celebration gatherings.",
+          "role": "Harmony creators, Voice blenders",
+          "relationships": {
+            "Beautiful harmonies": "Create with voices",
+            "Celebration gatherings": "Enhance with song",
+            "Unity": "Express through blended voices"
+          }
+        }
+      }
+    },
+    "solo-performers": {
+      "name": "Solo Performers",
+      "aliases": ["Individual Artists", "Special Acts"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Talented solo performers who showcase individual artistry and captivate celebration audiences.",
+          "role": "Individual artists, Audience captivators",
+          "relationships": {
+            "Individual artistry": "Showcase with talent",
+            "Celebration audiences": "Captivate with skill",
+            "Performance": "Excel in solo"
+          }
+        }
+      }
+    },
+    "children-entertainers": {
+      "name": "Children's Entertainers",
+      "aliases": ["Young Joy Bringers", "Kid Delighters"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Gentle entertainers who specialize in bringing wonder and laughter to young celebration attendees.",
+          "role": "Wonder bringers, Laughter creators",
+          "relationships": {
+            "Young attendees": "Bring wonder to",
+            "Laughter": "Create through performance",
+            "Children's joy": "Specialize in creating"
+          }
+        }
+      }
+    },
+    "acrobats": {
+      "name": "Acrobats",
+      "aliases": ["Physical Artists", "Agility Performers"],
+      "appearances": [13, 14, 15, 16, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Skilled acrobats who amaze celebration crowds with displays of physical artistry and grace.",
+          "role": "Physical artists, Grace displayers",
+          "relationships": {
+            "Physical artistry": "Display with skill",
+            "Celebration crowds": "Amaze with grace",
+            "Amazement": "Create through agility"
+          }
+        }
+      }
+    },
+    "jugglers": {
+      "name": "Jugglers",
+      "aliases": ["Object Masters", "Skill Demonstrators"],
+      "appearances": [13, 14, 15, 16, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Impressive jugglers who demonstrate skill and coordination while entertaining celebration gatherings.",
+          "role": "Skill demonstrators, Coordination masters",
+          "relationships": {
+            "Juggling skill": "Demonstrate with mastery",
+            "Celebration gatherings": "Entertain with talent",
+            "Coordination": "Show through performance"
+          }
+        }
+      }
+    },
+    "fire-breathers": {
+      "name": "Fire Breathers",
+      "aliases": ["Flame Artists", "Dangerous Performers"],
+      "appearances": [13, 14, 15, 16, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Daring fire breathers who create spectacular flame displays that thrill and amaze celebration audiences.",
+          "role": "Danger masters, Spectacle creators",
+          "relationships": {
+            "Flame displays": "Create spectacularly",
+            "Celebration audiences": "Thrill with danger",
+            "Fire mastery": "Demonstrate safely"
+          }
+        }
+      }
+    },
+    "puppeteers": {
+      "name": "Puppeteers",
+      "aliases": ["Puppet Masters", "Story Animators"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Creative puppeteers who bring stories to life through puppet performances that delight all ages.",
+          "role": "Story animators, Life bringers",
+          "relationships": {
+            "Stories": "Bring to life through puppets",
+            "All ages": "Delight with performances",
+            "Animation": "Master through craft"
+          }
+        }
+      }
+    },
+    "mime-artists": {
+      "name": "Mime Artists",
+      "aliases": ["Silent Performers", "Gesture Masters"],
+      "appearances": [13, 14, 15, 16, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Expressive mime artists who communicate stories and emotions through gesture and movement alone.",
+          "role": "Silent communicators, Gesture artists",
+          "relationships": {
+            "Stories": "Tell through gesture",
+            "Emotions": "Express without words",
+            "Movement": "Master as communication"
+          }
+        }
+      }
+    },
+    "fortune-tellers": {
+      "name": "Fortune Tellers",
+      "aliases": ["Future Seers", "Prophecy Givers"],
+      "appearances": [13, 14, 15, 16, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Mysterious fortune tellers who offer glimpses of possible futures and add mystique to celebrations.",
+          "role": "Mystery providers, Future glimpsers",
+          "relationships": {
+            "Possible futures": "Glimpse for others",
+            "Celebrations": "Add mystique to",
+            "Mystery": "Provide through prophecy"
+          }
+        }
+      }
+    },
+    "face-painters": {
+      "name": "Face Painters",
+      "aliases": ["Skin Artists", "Temporary Decorators"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Artistic face painters who transform celebration attendees with colorful and creative face designs.",
+          "role": "Transformation artists, Color creators",
+          "relationships": {
+            "Face designs": "Create colorfully",
+            "Celebration attendees": "Transform artistically",
+            "Creativity": "Express through paint"
+          }
+        }
+      }
+    },
+    "balloon-artists": {
+      "name": "Balloon Artists",
+      "aliases": ["Air Shapers", "Inflate Creators"],
+      "appearances": [13, 14, 15, 16, 17],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Skillful balloon artists who twist and shape balloons into delightful creations for celebration joy.",
+          "role": "Shape artists, Joy creators",
+          "relationships": {
+            "Balloon creations": "Twist skillfully",
+            "Celebration joy": "Create through art",
+            "Delight": "Shape from air"
+          }
+        }
+      }
+    },
+    "magicians": {
+      "name": "Magicians",
+      "aliases": ["Illusion Masters", "Wonder Workers"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Mysterious magicians who create illusions and wonder that add enchantment to celebration gatherings.",
+          "role": "Wonder creators, Illusion masters",
+          "relationships": {
+            "Illusions": "Create mysteriously",
+            "Wonder": "Work through magic",
+            "Celebration gatherings": "Enchant with mystery"
+          }
+        }
+      }
+    },
+    "candy-makers": {
+      "name": "Candy Makers",
+      "aliases": ["Sweet Crafters", "Sugar Artists"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Sweet candy makers who craft special confections that bring smiles to celebration attendees of all ages.",
+          "role": "Sweet creators, Smile bringers",
+          "relationships": {
+            "Special confections": "Craft with sweetness",
+            "Celebration attendees": "Bring smiles to",
+            "All ages": "Delight with sugar"
+          }
+        }
+      }
+    },
+    "ice-sculptors": {
+      "name": "Ice Sculptors",
+      "aliases": ["Frozen Artists", "Cold Creators"],
+      "appearances": [10, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Masterful ice sculptors who carve beautiful frozen artworks that enhance Winter Solstice celebrations.",
+          "role": "Frozen artists, Beauty carvers",
+          "relationships": {
+            "Frozen artworks": "Carve masterfully",
+            "Winter Solstice": "Enhance with ice",
+            "Beauty": "Create from cold"
+          }
+        }
+      }
+    },
+    "snow-artists": {
+      "name": "Snow Artists",
+      "aliases": ["Winter Sculptors", "Powder Shapers"],
+      "appearances": [10, 13, 14, 15, 16, 17],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Creative snow artists who shape winter precipitation into beautiful sculptures and displays.",
+          "role": "Winter creators, Precipitation shapers",
+          "relationships": {
+            "Snow sculptures": "Shape creatively",
+            "Winter displays": "Create from precipitation",
+            "Beauty": "Find in winter"
+          }
+        }
+      }
+    },
+    "festival-cooks": {
+      "name": "Festival Cooks",
+      "aliases": ["Celebration Chefs", "Feast Preparers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Dedicated festival cooks who prepare special dishes and traditional foods for Winter Solstice feasts.",
+          "role": "Traditional preparers, Special dish makers",
+          "relationships": {
+            "Special dishes": "Prepare with dedication",
+            "Winter Solstice feasts": "Contribute to",
+            "Traditional foods": "Make with knowledge"
+          }
+        }
+      }
+    },
+    "beverage-servers": {
+      "name": "Beverage Servers",
+      "aliases": ["Drink Pourers", "Liquid Attendants"],
+      "appearances": [13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Attentive beverage servers who keep celebration drinks flowing and ensure every guest is refreshed.",
+          "role": "Refreshment providers, Flow maintainers",
+          "relationships": {
+            "Celebration drinks": "Keep flowing smoothly",
+            "Every guest": "Ensure refreshment of",
+            "Service": "Provide with attention"
+          }
+        }
+      }
+    },
+    "fruit-vendors": {
+      "name": "Fruit Vendors",
+      "aliases": ["Fresh Sellers", "Orchard Representatives"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Fresh fruit vendors who provide healthy and delicious options that balance celebration indulgences.",
+          "role": "Health providers, Balance bringers",
+          "relationships": {
+            "Fresh fruit": "Provide with quality",
+            "Celebration indulgences": "Balance healthily",
+            "Options": "Offer delicious"
+          }
+        }
+      }
+    },
+    "nut-sellers": {
+      "name": "Nut Sellers",
+      "aliases": ["Kernel Merchants", "Tree Harvest Sellers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Nut sellers who provide roasted and seasoned nuts that serve as perfect celebration snacks.",
+          "role": "Snack providers, Roasting experts",
+          "relationships": {
+            "Roasted nuts": "Prepare expertly",
+            "Celebration snacks": "Provide perfectly",
+            "Seasoning": "Master for flavor"
+          }
+        }
+      }
+    },
+    "honey-sellers": {
+      "name": "Honey Sellers",
+      "aliases": ["Sweet Merchants", "Bee Product Vendors"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Honey sellers who provide golden sweetness that enhances celebration foods and warm drinks.",
+          "role": "Sweetness providers, Golden enhancers",
+          "relationships": {
+            "Golden honey": "Provide with quality",
+            "Celebration foods": "Enhance with sweetness",
+            "Warm drinks": "Sweeten perfectly"
+          }
+        }
+      }
+    },
+    "herb-gatherers": {
+      "name": "Herb Gatherers",
+      "aliases": ["Plant Collectors", "Natural Healers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Knowledgeable herb gatherers who provide medicinal and culinary plants for celebration preparations.",
+          "role": "Knowledge holders, Plant providers",
+          "relationships": {
+            "Medicinal plants": "Gather with knowledge",
+            "Culinary herbs": "Provide for cooking",
+            "Natural healing": "Support through plants"
+          }
+        }
+      }
+    },
+    "tea-blenders": {
+      "name": "Tea Blenders",
+      "aliases": ["Leaf Artists", "Warm Comfort Makers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled tea blenders who create warming and comforting blends perfect for winter celebration sipping.",
+          "role": "Warmth creators, Comfort blenders",
+          "relationships": {
+            "Warming blends": "Create skillfully",
+            "Winter celebrations": "Provide comfort for",
+            "Sipping pleasure": "Perfect through art"
+          }
+        }
+      }
+    },
+    "coffee-roasters": {
+      "name": "Coffee Roasters",
+      "aliases": ["Bean Masters", "Morning Preparers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Expert coffee roasters who provide energizing beverages that help celebrants stay alert during festivities.",
+          "role": "Energy providers, Bean masters",
+          "relationships": {
+            "Energizing coffee": "Roast expertly",
+            "Celebrants": "Keep alert and energized",
+            "Festivities": "Support through caffeine"
+          }
+        }
+      }
+    },
+    "chocolate-makers": {
+      "name": "Chocolate Makers",
+      "aliases": ["Cocoa Artists", "Sweet Luxury Makers"],
+      "appearances": [10, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Artisan chocolate makers who craft luxury confections that make celebrations feel truly special.",
+          "role": "Luxury creators, Cocoa artists",
+          "relationships": {
+            "Luxury confections": "Craft with artistry",
+            "Celebrations": "Make feel special",
+            "Cocoa mastery": "Practice with skill"
+          }
+        }
+      }
+    },
+    "pickle-makers": {
+      "name": "Pickle Makers",
+      "aliases": ["Preservation Artists", "Fermentation Masters"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled pickle makers who preserve seasonal produce and provide tangy complements to celebration feasts.",
+          "role": "Preservation masters, Tang providers",
+          "relationships": {
+            "Seasonal produce": "Preserve skillfully",
+            "Celebration feasts": "Complement with tang",
+            "Fermentation": "Master for flavor"
+          }
+        }
+      }
+    },
+    "jam-makers": {
+      "name": "Jam Makers",
+      "aliases": ["Preserve Crafters", "Fruit Conservers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Sweet jam makers who preserve summer's bounty in delicious spreads for winter celebration tables.",
+          "role": "Bounty preservers, Sweetness makers",
+          "relationships": {
+            "Summer's bounty": "Preserve in jams",
+            "Winter celebrations": "Sweeten tables for",
+            "Delicious spreads": "Make with care"
+          }
+        }
+      }
+    },
+    "oil-pressers": {
+      "name": "Oil Pressers",
+      "aliases": ["Extract Masters", "Liquid Gold Makers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Skilled oil pressers who extract precious oils that enhance the flavors of celebration cooking.",
+          "role": "Extraction experts, Flavor enhancers",
+          "relationships": {
+            "Precious oils": "Extract with skill",
+            "Celebration cooking": "Enhance flavors of",
+            "Liquid gold": "Create through pressing"
+          }
+        }
+      }
+    },
+    "salt-traders": {
+      "name": "Salt Traders",
+      "aliases": ["White Gold Merchants", "Flavor Foundation Providers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Essential salt traders who provide the foundation seasoning that makes all celebration foods taste better.",
+          "role": "Foundation providers, Taste improvers",
+          "relationships": {
+            "Foundation seasoning": "Provide essentially",
+            "Celebration foods": "Make taste better",
+            "White gold": "Trade with value"
+          }
+        }
+      }
+    },
+    "sugar-refiners": {
+      "name": "Sugar Refiners",
+      "aliases": ["Sweet Crystal Makers", "Confection Enablers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Master sugar refiners who provide the sweet crystals that make desserts and confections possible.",
+          "role": "Crystal makers, Confection enablers",
+          "relationships": {
+            "Sweet crystals": "Refine with mastery",
+            "Desserts": "Make possible through sweetness",
+            "Confections": "Enable creation of"
+          }
+        }
+      }
+    },
+    "grain-millers": {
+      "name": "Grain Millers",
+      "aliases": ["Flour Makers", "Bread Foundation Providers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Essential grain millers who transform wheat into flour, enabling all the baked goods for celebrations.",
+          "role": "Foundation makers, Bread enablers",
+          "relationships": {
+            "Wheat": "Transform into flour",
+            "Baked goods": "Enable creation of",
+            "Celebrations": "Support through flour"
+          }
+        }
+      }
+    },
+    "egg-collectors": {
+      "name": "Egg Collectors",
+      "aliases": ["Fresh Gatherers", "Protein Providers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Reliable egg collectors who gather fresh eggs daily to supply the protein needs of celebration cooking.",
+          "role": "Daily gatherers, Protein suppliers",
+          "relationships": {
+            "Fresh eggs": "Gather daily",
+            "Protein needs": "Supply for cooking",
+            "Celebration cooking": "Support with quality"
+          }
+        }
+      }
+    },
+    "milk-deliverers": {
+      "name": "Milk Deliverers",
+      "aliases": ["Dairy Bringers", "Morning Suppliers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Dependable milk deliverers who bring fresh dairy products that enrich celebration recipes and drinks.",
+          "role": "Dependable suppliers, Dairy providers",
+          "relationships": {
+            "Fresh dairy": "Deliver dependably",
+            "Celebration recipes": "Enrich with dairy",
+            "Morning delivery": "Complete reliably"
+          }
+        }
+      }
+    },
+    "butter-churners": {
+      "name": "Butter Churners",
+      "aliases": ["Cream Transformers", "Golden Fat Makers"],
+      "appearances": [10, 13, 15, 18, 20],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Hardworking butter churners who transform cream into golden butter that enriches celebration baking.",
+          "role": "Cream transformers, Enrichment providers",
+          "relationships": {
+            "Cream": "Transform through churning",
+            "Golden butter": "Create with work",
+            "Celebration baking": "Enrich with fat"
+          }
+        }
+      }
     }
   },
   "recaps": {

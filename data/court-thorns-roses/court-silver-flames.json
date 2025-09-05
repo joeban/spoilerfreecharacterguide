@@ -2197,6 +2197,958 @@
           }
         }
       }
+    },
+    "house-spirit-kitchen": {
+      "name": "House Spirit of Kitchen",
+      "aliases": ["Kitchen Magic", "Cooking Enchantment"],
+      "appearances": [7, 8, 11, 14, 17, 22, 28, 35, 42, 49, 56, 63, 70, 77],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Magical essence that prepares meals and responds to Nesta's needs in the kitchen areas.",
+          "role": "Kitchen magical servant, Meal preparer",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Nesta": "Serves and responds to",
+            "Food preparation": "Manages automatically"
+          }
+        }
+      }
+    },
+    "house-spirit-cleaning": {
+      "name": "House Spirit of Cleaning",
+      "aliases": ["Cleaning Magic", "Tidying Enchantment"],
+      "appearances": [7, 9, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Invisible force that maintains cleanliness and organization throughout the House.",
+          "role": "Cleaning magical servant, Space maintainer",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Living spaces": "Maintains and organizes",
+            "Residents": "Serves silently"
+          }
+        }
+      }
+    },
+    "house-spirit-warmth": {
+      "name": "House Spirit of Warmth",
+      "aliases": ["Hearth Magic", "Comfort Enchantment"],
+      "appearances": [8, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Manages temperature and comfort throughout the House, providing warmth when needed.",
+          "role": "Comfort magical servant, Temperature controller",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Fireplaces": "Controls and maintains",
+            "Comfort": "Provides automatically"
+          }
+        }
+      }
+    },
+    "house-spirit-library": {
+      "name": "House Spirit of Library",
+      "aliases": ["Library Magic", "Book Enchantment"],
+      "appearances": [18, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Magical essence that organizes books and guides readers to needed information.",
+          "role": "Library magical servant, Knowledge organizer",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Books": "Organizes and maintains",
+            "Readers": "Guides and assists"
+          }
+        }
+      }
+    },
+    "house-spirit-music": {
+      "name": "House Spirit of Music",
+      "aliases": ["Musical Magic", "Harmony Enchantment"],
+      "appearances": [12, 17, 23, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Creates ambient music and sounds that match the mood and needs of the House's inhabitants.",
+          "role": "Musical magical servant, Mood enhancer",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Atmosphere": "Creates and enhances",
+            "Emotions": "Responds to and soothes"
+          }
+        }
+      }
+    },
+    "house-spirit-protection": {
+      "name": "House Spirit of Protection",
+      "aliases": ["Guardian Magic", "Safety Enchantment"],
+      "appearances": [7, 13, 19, 25, 31, 37, 43, 49, 55, 61, 67, 73, 79],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Protective magical force that ensures safety and prevents accidents within the House.",
+          "role": "Protective magical servant, Safety guardian",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Residents": "Protects and guards",
+            "Dangers": "Prevents and deflects"
+          }
+        }
+      }
+    },
+    "training-room-spirit": {
+      "name": "Training Room Spirit",
+      "aliases": ["Combat Magic", "Training Enchantment"],
+      "appearances": [9, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Magical essence that maintains training equipment and adjusts difficulty based on user needs.",
+          "role": "Training magical servant, Equipment manager",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Training equipment": "Maintains and adjusts",
+            "Trainees": "Responds to skill level"
+          }
+        }
+      }
+    },
+    "bathing-spirit": {
+      "name": "Bathing Room Spirit",
+      "aliases": ["Bath Magic", "Cleansing Enchantment"],
+      "appearances": [8, 14, 20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Manages the magical bathing facilities, providing perfect temperature and healing properties.",
+          "role": "Bathing magical servant, Healing facilitator",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Healing baths": "Prepares and maintains",
+            "Recovery": "Facilitates and enhances"
+          }
+        }
+      }
+    },
+    "bedroom-spirit": {
+      "name": "Bedroom Spirit",
+      "aliases": ["Sleep Magic", "Rest Enchantment"],
+      "appearances": [7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Ensures perfect sleeping conditions and promotes restful, healing sleep.",
+          "role": "Sleep magical servant, Rest promoter",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Sleep quality": "Enhances and improves",
+            "Healing rest": "Promotes and facilitates"
+          }
+        }
+      }
+    },
+    "balcony-spirit": {
+      "name": "Balcony Spirit",
+      "aliases": ["Wind Magic", "Air Enchantment"],
+      "appearances": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Manages the magical barriers and wind currents around the House's balconies and terraces.",
+          "role": "Balcony magical servant, Wind controller",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Wind currents": "Controls and directs",
+            "Safety barriers": "Maintains invisibly"
+          }
+        }
+      }
+    },
+    "dinner-spirit": {
+      "name": "Dinner Service Spirit",
+      "aliases": ["Dining Magic", "Meal Enchantment"],
+      "appearances": [11, 18, 25, 32, 39, 46, 53, 60, 67, 74, 81],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Manages formal dining experiences and social meal gatherings within the House.",
+          "role": "Dining magical servant, Social facilitator",
+          "relationships": {
+            "House of Wind": "Part of magical system",
+            "Formal dining": "Manages and coordinates",
+            "Social bonds": "Facilitates through meals"
+          }
+        }
+      }
+    },
+    "priestess-merin": {
+      "name": "Priestess Merin",
+      "aliases": ["Merin", "Library Scholar"],
+      "appearances": [18, 25, 31, 38, 45, 52, 59, 66, 73],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Young priestess who assists in the library archives and helps other trauma survivors heal through reading.",
+          "role": "Library priestess, Healing facilitator",
+          "relationships": {
+            "Library": "Serves and maintains",
+            "Other priestesses": "Works alongside",
+            "Healing": "Facilitates through books"
+          }
+        }
+      }
+    },
+    "priestess-senna": {
+      "name": "Priestess Senna",
+      "aliases": ["Senna", "Archive Keeper"],
+      "appearances": [21, 28, 35, 42, 49, 56, 63, 70, 77],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Elderly priestess who maintains the ancient archives and knows the location of rare texts.",
+          "role": "Archive keeper, Ancient knowledge guardian",
+          "relationships": {
+            "Ancient texts": "Guards and maintains",
+            "Library knowledge": "Preserves systematically",
+            "Researchers": "Guides to resources"
+          }
+        }
+      }
+    },
+    "priestess-lynia": {
+      "name": "Priestess Lynia",
+      "aliases": ["Lynia", "Music Therapist"],
+      "appearances": [23, 30, 37, 44, 51, 58, 65, 72, 79],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Priestess who uses music and song as part of healing therapy for traumatized survivors.",
+          "role": "Music therapist, Healing priestess",
+          "relationships": {
+            "Music therapy": "Practices and teaches",
+            "Trauma survivors": "Helps heal",
+            "Healing arts": "Combines with music"
+          }
+        }
+      }
+    },
+    "priestess-kira": {
+      "name": "Priestess Kira",
+      "aliases": ["Kira", "Young Scholar"],
+      "appearances": [26, 33, 40, 47, 54, 61, 68, 75, 82],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Youngest priestess who specializes in organizing new arrivals and helping them adjust to sanctuary life.",
+          "role": "Young scholar, New arrival helper",
+          "relationships": {
+            "New arrivals": "Helps orient and comfort",
+            "Sanctuary life": "Explains and facilitates",
+            "Other priestesses": "Learns from mentors"
+          }
+        }
+      }
+    },
+    "priestess-vera": {
+      "name": "Priestess Vera",
+      "aliases": ["Vera", "History Keeper"],
+      "appearances": [24, 31, 38, 45, 52, 59, 66, 73, 80],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Priestess who specializes in historical research and maintains records of the Night Court's past.",
+          "role": "History keeper, Research specialist",
+          "relationships": {
+            "Historical records": "Maintains and studies",
+            "Night Court history": "Preserves knowledge of",
+            "Research requests": "Fulfills expertly"
+          }
+        }
+      }
+    },
+    "priestess-nina": {
+      "name": "Priestess Nina",
+      "aliases": ["Nina", "Meditation Guide"],
+      "appearances": [27, 34, 41, 48, 55, 62, 69, 76],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Priestess who leads meditation sessions and teaches mindfulness practices for emotional healing.",
+          "role": "Meditation guide, Mindfulness teacher",
+          "relationships": {
+            "Meditation practice": "Teaches and guides",
+            "Emotional healing": "Facilitates through mindfulness",
+            "Inner peace": "Helps others discover"
+          }
+        }
+      }
+    },
+    "priestess-elena": {
+      "name": "Priestess Elena",
+      "aliases": ["Elena", "Art Therapist"],
+      "appearances": [29, 36, 43, 50, 57, 64, 71, 78],
+      "knowledge": {
+        "29": {
+          "revealedIn": 29,
+          "description": "Priestess who uses art and creative expression as tools for processing trauma and emotions.",
+          "role": "Art therapist, Creative healer",
+          "relationships": {
+            "Art therapy": "Practices and teaches",
+            "Creative expression": "Encourages and facilitates",
+            "Emotional processing": "Helps through art"
+          }
+        }
+      }
+    },
+    "priestess-cora": {
+      "name": "Priestess Cora",
+      "aliases": ["Cora", "Night Keeper"],
+      "appearances": [22, 29, 36, 43, 50, 57, 64, 71, 78],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Priestess who maintains night watch duties and provides comfort to those suffering from nightmares.",
+          "role": "Night keeper, Nightmare comforter",
+          "relationships": {
+            "Night watch": "Maintains vigilantly",
+            "Nightmare sufferers": "Comforts and helps",
+            "Safe sleep": "Ensures for all"
+          }
+        }
+      }
+    },
+    "priestess-maya": {
+      "name": "Priestess Maya",
+      "aliases": ["Maya", "Garden Keeper"],
+      "appearances": [25, 32, 39, 46, 53, 60, 67, 74, 81],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Priestess who tends the library gardens and uses plant therapy as part of the healing process.",
+          "role": "Garden keeper, Plant therapist",
+          "relationships": {
+            "Library gardens": "Tends and maintains",
+            "Plant therapy": "Uses for healing",
+            "Nature connection": "Facilitates for others"
+          }
+        }
+      }
+    },
+    "priestess-jane": {
+      "name": "Priestess Jane",
+      "aliases": ["Jane", "Story Keeper"],
+      "appearances": [28, 35, 42, 49, 56, 63, 70, 77],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Priestess who collects and preserves personal stories of healing, creating hope for new arrivals.",
+          "role": "Story keeper, Hope creator",
+          "relationships": {
+            "Healing stories": "Collects and preserves",
+            "New arrivals": "Provides hope to",
+            "Personal narratives": "Values and protects"
+          }
+        }
+      }
+    },
+    "scholar-dorian": {
+      "name": "Scholar Dorian",
+      "aliases": ["Dorian", "Ancient Languages Expert"],
+      "appearances": [33, 40, 47, 54, 61, 68, 75],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Male scholar who translates ancient texts and deciphers old magical knowledge.",
+          "role": "Ancient languages expert, Text translator",
+          "relationships": {
+            "Ancient languages": "Masters and teaches",
+            "Old magic texts": "Translates and interprets",
+            "Knowledge preservation": "Facilitates through translation"
+          }
+        }
+      }
+    },
+    "scholar-marcus": {
+      "name": "Scholar Marcus",
+      "aliases": ["Marcus", "Map Keeper"],
+      "appearances": [31, 38, 45, 52, 59, 66, 73, 80],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Scholar who maintains maps and geographical knowledge, helping with location research.",
+          "role": "Map keeper, Geography expert",
+          "relationships": {
+            "Ancient maps": "Maintains and updates",
+            "Geographic knowledge": "Preserves and shares",
+            "Location research": "Assists with expertise"
+          }
+        }
+      }
+    },
+    "warrior-bren": {
+      "name": "Warrior Bren",
+      "aliases": ["Bren", "Illyrian Scout"],
+      "appearances": [32, 39, 46, 53, 60, 67, 74],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Young Illyrian warrior who struggles with accepting female warriors in traditional camps.",
+          "role": "Young warrior, Tradition questioner",
+          "relationships": {
+            "Traditional views": "Struggles to maintain",
+            "Female warriors": "Learns to accept",
+            "Camp hierarchy": "Navigates carefully"
+          }
+        }
+      }
+    },
+    "warrior-kyrel": {
+      "name": "Warrior Kyrel",
+      "aliases": ["Kyrel", "Camp Lieutenant"],
+      "appearances": [34, 41, 48, 55, 62, 69, 76],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Experienced Illyrian lieutenant who opposes changes to traditional warrior training.",
+          "role": "Camp lieutenant, Tradition defender",
+          "relationships": {
+            "Traditional training": "Defends fiercely",
+            "Camp authority": "Maintains strictly",
+            "Change resistance": "Leads actively"
+          }
+        }
+      }
+    },
+    "warrior-dain": {
+      "name": "Warrior Dain",
+      "aliases": ["Dain", "Windhaven Patrol"],
+      "appearances": [36, 43, 50, 57, 64, 71, 78],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Windhaven patrol warrior who gradually comes to respect female warriors' abilities.",
+          "role": "Patrol warrior, Perspective changer",
+          "relationships": {
+            "Windhaven security": "Maintains vigilantly",
+            "Female warriors": "Learns to respect",
+            "Patrol duties": "Executes professionally"
+          }
+        }
+      }
+    },
+    "warrior-torres": {
+      "name": "Warrior Torres",
+      "aliases": ["Torres", "Training Sergeant"],
+      "appearances": [33, 40, 47, 54, 61, 68, 75, 82],
+      "knowledge": {
+        "33": {
+          "revealedIn": 33,
+          "description": "Tough training sergeant who pushes all warriors to their limits regardless of gender.",
+          "role": "Training sergeant, Equal challenger",
+          "relationships": {
+            "All trainees": "Pushes equally hard",
+            "Combat skills": "Develops expertly",
+            "Merit-based training": "Believes in"
+          }
+        }
+      }
+    },
+    "warrior-finn": {
+      "name": "Warrior Finn",
+      "aliases": ["Finn", "Young Recruit"],
+      "appearances": [35, 42, 49, 56, 63, 70, 77],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Newest recruit who looks up to the Valkyries as role models for strength and courage.",
+          "role": "Young recruit, Valkyrie admirer",
+          "relationships": {
+            "Valkyries": "Admires and respects",
+            "Training": "Approaches with eagerness",
+            "New perspectives": "Embraces openly"
+          }
+        }
+      }
+    },
+    "camp-leader-voss": {
+      "name": "Camp Leader Voss",
+      "aliases": ["Voss", "Traditionalist Leader"],
+      "appearances": [37, 44, 51, 58, 65, 72, 79],
+      "knowledge": {
+        "37": {
+          "revealedIn": 37,
+          "description": "Conservative camp leader who resists changes to Illyrian customs and female warrior training.",
+          "role": "Camp leader, Traditionalist",
+          "relationships": {
+            "Traditional customs": "Preserves rigidly",
+            "Female training": "Opposes strongly",
+            "Camp authority": "Maintains absolutely"
+          }
+        }
+      }
+    },
+    "blacksmith-gareth": {
+      "name": "Blacksmith Gareth",
+      "aliases": ["Gareth", "Weapon Smith"],
+      "appearances": [38, 45, 52, 59, 66, 73, 80],
+      "knowledge": {
+        "38": {
+          "revealedIn": 38,
+          "description": "Skilled blacksmith who forges weapons for all warriors, supporting merit-based equality.",
+          "role": "Blacksmith, Equality supporter",
+          "relationships": {
+            "Weapon crafting": "Masters expertly",
+            "All warriors": "Serves equally",
+            "Merit recognition": "Supports fully"
+          }
+        }
+      }
+    },
+    "healer-mira": {
+      "name": "Healer Mira",
+      "aliases": ["Mira", "Camp Healer"],
+      "appearances": [39, 46, 53, 60, 67, 74, 81],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Camp healer who tends to all warriors' injuries and supports female warriors' right to train.",
+          "role": "Camp healer, Female rights supporter",
+          "relationships": {
+            "Healing arts": "Practices skillfully",
+            "All warriors": "Treats without bias",
+            "Female equality": "Advocates for"
+          }
+        }
+      }
+    },
+    "warrior-drake": {
+      "name": "Warrior Drake",
+      "aliases": ["Drake", "Aerial Scout"],
+      "appearances": [41, 48, 55, 62, 69, 76],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "Excellent aerial scout who recognizes the tactical advantages of having diverse warrior teams.",
+          "role": "Aerial scout, Diversity advocate",
+          "relationships": {
+            "Aerial reconnaissance": "Excels at",
+            "Tactical diversity": "Recognizes value of",
+            "Team effectiveness": "Prioritizes above tradition"
+          }
+        }
+      }
+    },
+    "cook-helena": {
+      "name": "Cook Helena",
+      "aliases": ["Helena", "Camp Cook"],
+      "appearances": [34, 41, 48, 55, 62, 69, 76],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "Camp cook who provides nourishing meals and quiet support to female warriors.",
+          "role": "Camp cook, Quiet supporter",
+          "relationships": {
+            "Meal preparation": "Manages efficiently",
+            "Female warriors": "Supports discretely",
+            "Camp nutrition": "Ensures adequately"
+          }
+        }
+      }
+    },
+    "stable-master-colt": {
+      "name": "Stable Master Colt",
+      "aliases": ["Colt", "Horse Trainer"],
+      "appearances": [36, 43, 50, 57, 64, 71, 78],
+      "knowledge": {
+        "36": {
+          "revealedIn": 36,
+          "description": "Stable master who trains horses and believes ability matters more than gender in riders.",
+          "role": "Stable master, Ability advocate",
+          "relationships": {
+            "Horse training": "Masters completely",
+            "Rider ability": "Judges fairly",
+            "Gender equality": "Supports practically"
+          }
+        }
+      }
+    },
+    "messenger-pike": {
+      "name": "Messenger Pike",
+      "aliases": ["Pike", "Camp Messenger"],
+      "appearances": [42, 49, 56, 63, 70, 77],
+      "knowledge": {
+        "42": {
+          "revealedIn": 42,
+          "description": "Camp messenger who carries news between camps and witnesses changing attitudes toward female warriors.",
+          "role": "Camp messenger, Change witness",
+          "relationships": {
+            "Message delivery": "Handles reliably",
+            "Inter-camp communication": "Facilitates efficiently",
+            "Social changes": "Observes and reports"
+          }
+        }
+      }
+    },
+    "shopkeeper-marge": {
+      "name": "Shopkeeper Marge",
+      "aliases": ["Marge", "Fabric Merchant"],
+      "appearances": [20, 32, 44, 56, 68, 80],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Friendly fabric shop owner in Velaris who provides materials for clothing and supplies.",
+          "role": "Fabric merchant, Community member",
+          "relationships": {
+            "Velaris community": "Serves and supports",
+            "Fabric trade": "Manages professionally",
+            "Local customers": "Knows and helps"
+          }
+        }
+      }
+    },
+    "baker-thomas": {
+      "name": "Baker Thomas",
+      "aliases": ["Thomas", "Bread Maker"],
+      "appearances": [22, 34, 46, 58, 70, 82],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Popular baker whose warm bread and pastries provide comfort to Velaris residents.",
+          "role": "Baker, Comfort provider",
+          "relationships": {
+            "Velaris residents": "Feeds and comforts",
+            "Baking craft": "Masters expertly",
+            "Community warmth": "Contributes daily"
+          }
+        }
+      }
+    },
+    "healer-anne": {
+      "name": "Healer Anne",
+      "aliases": ["Anne", "City Healer"],
+      "appearances": [26, 38, 50, 62, 74],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Experienced healer who runs a clinic in Velaris and treats both fae and mortal ailments.",
+          "role": "City healer, Medical expert",
+          "relationships": {
+            "Velaris citizens": "Treats and heals",
+            "Medical practice": "Maintains expertly",
+            "Health care": "Provides compassionately"
+          }
+        }
+      }
+    },
+    "musician-david": {
+      "name": "Musician David",
+      "aliases": ["David", "Street Performer"],
+      "appearances": [24, 36, 48, 60, 72],
+      "knowledge": {
+        "24": {
+          "revealedIn": 24,
+          "description": "Talented street musician who plays in Velaris squares and brings joy to daily life.",
+          "role": "Street performer, Joy bringer",
+          "relationships": {
+            "Music performance": "Excels at naturally",
+            "Public entertainment": "Provides freely",
+            "City atmosphere": "Enhances beautifully"
+          }
+        }
+      }
+    },
+    "librarian-seth": {
+      "name": "Librarian Seth",
+      "aliases": ["Seth", "Public Librarian"],
+      "appearances": [28, 40, 52, 64, 76],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Public librarian in Velaris who helps citizens access books and knowledge for personal growth.",
+          "role": "Public librarian, Knowledge facilitator",
+          "relationships": {
+            "Public knowledge": "Facilitates access to",
+            "Reading community": "Builds and supports",
+            "Educational growth": "Promotes actively"
+          }
+        }
+      }
+    },
+    "guard-captain-rex": {
+      "name": "Guard Captain Rex",
+      "aliases": ["Rex", "City Guard Captain"],
+      "appearances": [30, 42, 54, 66, 78],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "Dedicated guard captain who maintains peace and order in Velaris with fairness and wisdom.",
+          "role": "Guard captain, Peace keeper",
+          "relationships": {
+            "City security": "Maintains professionally",
+            "Law enforcement": "Handles fairly",
+            "Public safety": "Ensures constantly"
+          }
+        }
+      }
+    },
+    "tavern-keeper-sal": {
+      "name": "Tavern Keeper Sal",
+      "aliases": ["Sal", "Inn Keeper"],
+      "appearances": [25, 37, 49, 61, 73],
+      "knowledge": {
+        "25": {
+          "revealedIn": 25,
+          "description": "Friendly tavern keeper who provides food, drink, and gathering space for Velaris communities.",
+          "role": "Tavern keeper, Community host",
+          "relationships": {
+            "Tavern management": "Handles expertly",
+            "Community gathering": "Facilitates warmly",
+            "Social connections": "Fosters naturally"
+          }
+        }
+      }
+    },
+    "flower-seller-lily": {
+      "name": "Flower Seller Lily",
+      "aliases": ["Lily", "Market Vendor"],
+      "appearances": [27, 39, 51, 63, 75],
+      "knowledge": {
+        "27": {
+          "revealedIn": 27,
+          "description": "Cheerful flower seller who brings beauty and fragrance to Velaris markets and celebrations.",
+          "role": "Flower vendor, Beauty provider",
+          "relationships": {
+            "Market commerce": "Participates actively",
+            "City beautification": "Contributes daily",
+            "Special occasions": "Enhances with flowers"
+          }
+        }
+      }
+    },
+    "bog-kelpie-alpha": {
+      "name": "Bog Kelpie Alpha",
+      "aliases": ["Alpha Kelpie", "Bog Leader"],
+      "appearances": [43, 50, 57, 64],
+      "knowledge": {
+        "43": {
+          "revealedIn": 43,
+          "description": "Leading kelpie creature in the bog who commands other water horses and guards ancient secrets.",
+          "role": "Bog leader, Ancient guardian",
+          "relationships": {
+            "Other kelpies": "Commands and leads",
+            "Bog territory": "Guards fiercely",
+            "Ancient secrets": "Protects zealously"
+          }
+        }
+      }
+    },
+    "bog-kelpie-scout": {
+      "name": "Bog Kelpie Scout",
+      "aliases": ["Scout Kelpie", "Water Sentinel"],
+      "appearances": [44, 51, 58, 65],
+      "knowledge": {
+        "44": {
+          "revealedIn": 44,
+          "description": "Swift kelpie that patrols the bog boundaries and warns of intruders approaching.",
+          "role": "Bog scout, Territory guardian",
+          "relationships": {
+            "Bog perimeter": "Patrols constantly",
+            "Intruder detection": "Specializes in",
+            "Alpha kelpie": "Reports to loyally"
+          }
+        }
+      }
+    },
+    "bog-wraith": {
+      "name": "Bog Wraith",
+      "aliases": ["Misty Spirit", "Bog Guardian"],
+      "appearances": [45, 52, 59, 66],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Ethereal spirit that haunts the bog mists and confuses travelers who enter uninvited.",
+          "role": "Bog spirit, Intruder confuser",
+          "relationships": {
+            "Bog mists": "Controls and inhabits",
+            "Unwanted visitors": "Confuses and misleads",
+            "Bog ecosystem": "Protects mysteriously"
+          }
+        }
+      }
+    },
+    "prison-construct-warden": {
+      "name": "Prison Construct Warden",
+      "aliases": ["Warden Construct", "Prison Guardian"],
+      "appearances": [46, 53, 60, 67],
+      "knowledge": {
+        "46": {
+          "revealedIn": 46,
+          "description": "Magical construct that serves as the primary warden of the prison island, enforcing containment.",
+          "role": "Prison warden, Containment enforcer",
+          "relationships": {
+            "Prison security": "Maintains absolutely",
+            "Magical containment": "Enforces strictly",
+            "Prisoner control": "Manages systematically"
+          }
+        }
+      }
+    },
+    "prison-shade": {
+      "name": "Prison Shade",
+      "aliases": ["Shadow Guard", "Dark Sentinel"],
+      "appearances": [47, 54, 61, 68],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Dark shadow entity that patrols the prison island and prevents escape attempts.",
+          "role": "Shadow guard, Escape preventer",
+          "relationships": {
+            "Prison shadows": "Inhabits and controls",
+            "Escape attempts": "Detects and stops",
+            "Dark magic": "Channels naturally"
+          }
+        }
+      }
+    },
+    "wind-spirit": {
+      "name": "Wind Spirit",
+      "aliases": ["Air Elemental", "Sky Guardian"],
+      "appearances": [48, 55, 62, 69],
+      "knowledge": {
+        "48": {
+          "revealedIn": 48,
+          "description": "Ancient wind spirit that aids or hinders flight depending on the traveler's intentions.",
+          "role": "Wind guardian, Flight influencer",
+          "relationships": {
+            "Wind currents": "Controls and directs",
+            "Flying travelers": "Judges and assists or hinders",
+            "Sky domain": "Guards territorially"
+          }
+        }
+      }
+    },
+    "mountain-echo": {
+      "name": "Mountain Echo",
+      "aliases": ["Stone Voice", "Peak Spirit"],
+      "appearances": [49, 56, 63, 70],
+      "knowledge": {
+        "49": {
+          "revealedIn": 49,
+          "description": "Ancient spirit that dwells in mountain peaks and speaks through echoes and stone voices.",
+          "role": "Mountain spirit, Ancient voice",
+          "relationships": {
+            "Mountain peaks": "Inhabits and speaks through",
+            "Ancient knowledge": "Shares selectively",
+            "Stone magic": "Channels naturally"
+          }
+        }
+      }
+    },
+    "forest-sprite": {
+      "name": "Forest Sprite",
+      "aliases": ["Tree Spirit", "Woods Guardian"],
+      "appearances": [51, 58, 65, 72],
+      "knowledge": {
+        "51": {
+          "revealedIn": 51,
+          "description": "Playful forest sprite that watches over woodland areas and guides lost travelers.",
+          "role": "Forest guardian, Travel guide",
+          "relationships": {
+            "Forest protection": "Maintains lovingly",
+            "Lost travelers": "Guides when worthy",
+            "Nature magic": "Uses instinctively"
+          }
+        }
+      }
+    },
+    "human-ambassador-wright": {
+      "name": "Ambassador Wright",
+      "aliases": ["Wright", "Human Diplomat"],
+      "appearances": [41, 55, 69],
+      "knowledge": {
+        "41": {
+          "revealedIn": 41,
+          "description": "Human ambassador who works to maintain diplomatic relations between human and fae realms.",
+          "role": "Human ambassador, Diplomatic liaison",
+          "relationships": {
+            "Diplomatic relations": "Manages carefully",
+            "Human interests": "Represents faithfully",
+            "Fae courts": "Negotiates with respectfully"
+          }
+        }
+      }
+    },
+    "human-merchant-bradley": {
+      "name": "Merchant Bradley",
+      "aliases": ["Bradley", "Trade Representative"],
+      "appearances": [43, 57, 71],
+      "knowledge": {
+        "43": {
+          "revealedIn": 43,
+          "description": "Successful human merchant who facilitates trade between mortal and fae territories.",
+          "role": "Trade merchant, Commerce facilitator",
+          "relationships": {
+            "Trade routes": "Manages profitably",
+            "Cross-realm commerce": "Facilitates expertly",
+            "Economic relations": "Builds strategically"
+          }
+        }
+      }
+    },
+    "human-scholar-evelyn": {
+      "name": "Scholar Evelyn",
+      "aliases": ["Evelyn", "Human Researcher"],
+      "appearances": [45, 59, 73],
+      "knowledge": {
+        "45": {
+          "revealedIn": 45,
+          "description": "Dedicated human scholar who studies fae magic and culture for mutual understanding.",
+          "role": "Human researcher, Cultural bridge",
+          "relationships": {
+            "Fae culture study": "Pursues passionately",
+            "Cross-cultural understanding": "Promotes actively",
+            "Academic research": "Conducts thoroughly"
+          }
+        }
+      }
+    },
+    "human-healer-james": {
+      "name": "Healer James",
+      "aliases": ["James", "Human Medic"],
+      "appearances": [47, 61, 75],
+      "knowledge": {
+        "47": {
+          "revealedIn": 47,
+          "description": "Skilled human healer who learns from fae healing techniques to better serve both peoples.",
+          "role": "Human healer, Medical learner",
+          "relationships": {
+            "Healing arts": "Practices and learns",
+            "Fae techniques": "Studies respectfully",
+            "Cross-species medicine": "Develops carefully"
+          }
+        }
+      }
+    },
+    "human-guard-captain-stone": {
+      "name": "Captain Stone",
+      "aliases": ["Stone", "Human Guard Captain"],
+      "appearances": [49, 63, 77],
+      "knowledge": {
+        "49": {
+          "revealedIn": 49,
+          "description": "Human guard captain responsible for protecting human dignitaries during fae realm visits.",
+          "role": "Human guard captain, Diplomatic protector",
+          "relationships": {
+            "Human safety": "Ensures absolutely",
+            "Diplomatic security": "Manages professionally",
+            "Fae protocols": "Respects carefully"
+          }
+        }
+      }
     }
   },
   "recaps": {

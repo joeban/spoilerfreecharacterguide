@@ -1315,6 +1315,1431 @@
           }
         }
       }
+    },
+    "acacia": {
+      "name": "Acacia",
+      "aliases": ["RainWing Platform Attendant"],
+      "appearances": [9, 11, 13, 15, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A pale green RainWing who maintains the sun-time platforms where dragons bask. Ensures platforms are clean and properly positioned.",
+          "role": "Platform Keeper",
+          "relationships": {
+            "Jambu": "Fellow platform user",
+            "Glory": "New queen who changes sun-time routines"
+          }
+        }
+      }
+    },
+    "bamboo": {
+      "name": "Bamboo",
+      "aliases": ["RainWing Platform Builder"],
+      "appearances": [8, 12, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A tall brown RainWing who builds and repairs the wooden platforms throughout the village. Skilled at working with jungle materials.",
+          "role": "Platform Constructor",
+          "relationships": {
+            "Acacia": "Platform attendant he builds for",
+            "Glory": "Queen whose village he improves"
+          }
+        }
+      }
+    },
+    "cedar": {
+      "name": "Cedar",
+      "aliases": ["RainWing Sun-time Organizer"],
+      "appearances": [9, 11, 13, 15, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An organized RainWing who schedules sun-time slots and mediates disputes over prime sunbathing spots.",
+          "role": "Sun-time Coordinator",
+          "relationships": {
+            "Acacia": "Platform attendant she coordinates with",
+            "Magnificent": "Vain queen who demands best spots"
+          }
+        }
+      }
+    },
+    "willow": {
+      "name": "Willow",
+      "aliases": ["RainWing Fruit Sorter"],
+      "appearances": [4, 8, 12, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A gentle RainWing who sorts and distributes fruit gathered from the forest. Ensures everyone gets their fair share.",
+          "role": "Food Distributor",
+          "relationships": {
+            "Coconut": "Fruit gatherer she works with",
+            "Glory": "Queen she serves"
+          }
+        }
+      }
+    },
+    "maple": {
+      "name": "Maple",
+      "aliases": ["RainWing Weather Watcher"],
+      "appearances": [7, 9, 12, 18, 22],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A observant RainWing who watches weather patterns and warns the village of storms approaching through the rainforest.",
+          "role": "Weather Observer",
+          "relationships": {
+            "Glory": "Queen she reports weather to",
+            "Cedar": "Sun-time organizer she coordinates with"
+          }
+        }
+      }
+    },
+    "fern": {
+      "name": "Fern",
+      "aliases": ["RainWing Nest Tender"],
+      "appearances": [5, 9, 13, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A nurturing RainWing who tends to dragon eggs and helps care for the youngest dragonets in the village.",
+          "role": "Egg Caretaker",
+          "relationships": {
+            "Tamarin": "Young dragon she helped raise",
+            "Glory": "Queen whose tribe she serves"
+          }
+        }
+      }
+    },
+    "lotus": {
+      "name": "Lotus",
+      "aliases": ["RainWing Sleep Coordinator"],
+      "appearances": [9, 13, 15, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A sleepy RainWing who manages sleeping areas and ensures dragons have comfortable spots to rest throughout the day.",
+          "role": "Rest Area Manager",
+          "relationships": {
+            "Fig": "Fellow sleepy dragon",
+            "Cedar": "Sun-time coordinator she works with"
+          }
+        }
+      }
+    },
+    "orchid-friend": {
+      "name": "Sage",
+      "aliases": ["RainWing Herb Specialist"],
+      "appearances": [4, 8, 12, 18, 22],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A knowledgeable RainWing who specializes in identifying medicinal herbs and plants throughout the rainforest.",
+          "role": "Herbal Expert",
+          "relationships": {
+            "Liana": "Healer she supplies herbs to",
+            "Lychee": "Fellow plant gatherer"
+          }
+        }
+      }
+    },
+    "ivy": {
+      "name": "Ivy",
+      "aliases": ["RainWing Vine Weaver"],
+      "appearances": [5, 8, 12, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A creative RainWing who weaves vines into useful items like baskets, sleeping mats, and decorative hangings.",
+          "role": "Craft Specialist",
+          "relationships": {
+            "Hibiscus": "Fellow artistic dragon",
+            "Glory": "Queen whose village she decorates"
+          }
+        }
+      }
+    },
+    "moss": {
+      "name": "Moss",
+      "aliases": ["RainWing Ground Tender"],
+      "appearances": [9, 12, 18, 22],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A earth-toned RainWing who tends to the forest floor around the village, keeping paths clear and maintaining ground-level areas.",
+          "role": "Ground Keeper",
+          "relationships": {
+            "Bamboo": "Platform builder she coordinates with",
+            "Glory": "Queen whose territory she maintains"
+          }
+        }
+      }
+    },
+    "pepper": {
+      "name": "Pepper",
+      "aliases": ["RainWing Spice Finder"],
+      "appearances": [4, 8, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A keen-nosed RainWing who finds spicy plants and interesting flavors to add variety to the tribe's fruit-based diet.",
+          "role": "Flavor Specialist",
+          "relationships": {
+            "Breadfruit": "Cook she supplies spices to",
+            "Willow": "Food distributor she works with"
+          }
+        }
+      }
+    },
+    "jasmine": {
+      "name": "Jasmine",
+      "aliases": ["RainWing Flower Arranger"],
+      "appearances": [3, 8, 12, 18],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A artistic RainWing who specializes in beautiful flower arrangements that decorate the village and special occasions.",
+          "role": "Floral Artist",
+          "relationships": {
+            "Hibiscus": "Fellow village decorator",
+            "Dragon Fruit": "Fellow festival decorator"
+          }
+        }
+      }
+    },
+    "pine": {
+      "name": "Pine",
+      "aliases": ["RainWing Tool Maker"],
+      "appearances": [8, 12, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A practical RainWing who crafts simple tools from forest materials - cutting implements, carrying pouches, and climbing aids.",
+          "role": "Village Toolmaker",
+          "relationships": {
+            "Bamboo": "Builder he makes tools for",
+            "Glory": "Queen whose guards he equips"
+          }
+        }
+      }
+    },
+    "rose": {
+      "name": "Rose",
+      "aliases": ["RainWing Perfume Maker"],
+      "appearances": [9, 13, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A fragrant RainWing who creates natural perfumes and scented oils from rainforest flowers and plants.",
+          "role": "Scent Specialist",
+          "relationships": {
+            "Magnificent": "Vain queen who loves her perfumes",
+            "Jasmine": "Flower arranger she works with"
+          }
+        }
+      }
+    },
+    "ash": {
+      "name": "Ash",
+      "aliases": ["RainWing Fire Tender"],
+      "appearances": [8, 12, 18, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A careful RainWing who maintains the few fires needed in the village for cooking and warmth during cool nights.",
+          "role": "Fire Keeper",
+          "relationships": {
+            "Breadfruit": "Cook whose fires he tends",
+            "Glory": "Queen whose village he keeps safe"
+          }
+        }
+      }
+    },
+    "orchid-2": {
+      "name": "Buttercup",
+      "aliases": ["RainWing Color Specialist"],
+      "appearances": [9, 13, 15, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A RainWing who helps others practice their color-changing abilities and creates beautiful scale patterns for special occasions.",
+          "role": "Color Instructor",
+          "relationships": {
+            "Glory": "Queen whose camouflage she admires",
+            "Kinkajou": "Young dragon she teaches"
+          }
+        }
+      }
+    },
+    "birch": {
+      "name": "Birch",
+      "aliases": ["RainWing Branch Trimmer"],
+      "appearances": [8, 12, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A tall RainWing who trims branches around the village to maintain clear flight paths and prevent overgrowth.",
+          "role": "Branch Maintainer",
+          "relationships": {
+            "Bamboo": "Platform builder he clears paths for",
+            "Moss": "Ground tender he coordinates with"
+          }
+        }
+      }
+    },
+    "daisy": {
+      "name": "Daisy",
+      "aliases": ["RainWing Song Leader"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A melodic RainWing who leads village singing sessions and teaches traditional RainWing songs to young dragons.",
+          "role": "Music Teacher",
+          "relationships": {
+            "Tamarin": "Young dragon she teaches songs to",
+            "Papaya": "Storyteller she collaborates with"
+          }
+        }
+      }
+    },
+    "poplar": {
+      "name": "Poplar",
+      "aliases": ["RainWing Shade Creator"],
+      "appearances": [9, 12, 18, 22],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A thoughtful RainWing who creates shaded areas for dragons who need relief from intense sun or want cooler resting spots.",
+          "role": "Shade Manager",
+          "relationships": {
+            "Cedar": "Sun-time coordinator she balances",
+            "Lotus": "Rest area manager she works with"
+          }
+        }
+      }
+    },
+    "sunflower": {
+      "name": "Sunflower",
+      "aliases": ["RainWing Light Tracker"],
+      "appearances": [9, 13, 15, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A bright RainWing who tracks the movement of sunlight through the canopy and advises on optimal sunbathing times.",
+          "role": "Light Specialist",
+          "relationships": {
+            "Cedar": "Sun-time coordinator she advises",
+            "Maple": "Weather watcher she collaborates with"
+          }
+        }
+      }
+    },
+    "lavender": {
+      "name": "Lavender",
+      "aliases": ["RainWing Calming Specialist"],
+      "appearances": [12, 18, 22],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A soothing RainWing who helps calm anxious dragons and mediates minor disputes with her peaceful nature.",
+          "role": "Village Mediator",
+          "relationships": {
+            "Glory": "Queen whose stressed subjects she helps",
+            "Rose": "Perfume maker whose scents she uses"
+          }
+        }
+      }
+    },
+    "elm": {
+      "name": "Elm",
+      "aliases": ["RainWing Memory Keeper"],
+      "appearances": [12, 18, 22],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An elderly RainWing who remembers village history and helps Glory understand RainWing traditions and customs.",
+          "role": "Tradition Keeper",
+          "relationships": {
+            "Glory": "Queen she educates about tribal history",
+            "Longan": "Fellow elder"
+          }
+        }
+      }
+    },
+    "cherry": {
+      "name": "Cherry",
+      "aliases": ["RainWing Sweet Finder"],
+      "appearances": [4, 8, 12, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A sweet-toothed RainWing who specializes in finding the ripest, sweetest fruits throughout the rainforest canopy.",
+          "role": "Fruit Quality Expert",
+          "relationships": {
+            "Willow": "Food distributor she supplies",
+            "Coconut": "Fellow fruit gatherer"
+          }
+        }
+      }
+    },
+    "magnolia": {
+      "name": "Magnolia",
+      "aliases": ["RainWing Gentle Guide"],
+      "appearances": [18, 22, 25],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A kind RainWing who helps newly rescued dragons adjust to village life and recover from their traumatic experiences.",
+          "role": "Trauma Helper",
+          "relationships": {
+            "Glory": "Queen whose rescue missions she supports",
+            "Orchid": "Rescued dragon she helps heal"
+          }
+        }
+      }
+    },
+    "peach": {
+      "name": "Peach",
+      "aliases": ["RainWing Soft Speaker"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A gentle-voiced RainWing who speaks softly and helps create peaceful atmospheres during village gatherings.",
+          "role": "Peace Keeper",
+          "relationships": {
+            "Lavender": "Fellow calming influence",
+            "Daisy": "Singer she harmonizes with"
+          }
+        }
+      }
+    },
+    "oak": {
+      "name": "Oak",
+      "aliases": ["RainWing Strength Tester"],
+      "appearances": [12, 18, 22],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A sturdy RainWing who tests platform strength and helps Glory train other RainWings in basic physical skills.",
+          "role": "Strength Trainer",
+          "relationships": {
+            "Glory": "Queen he helps train guards for",
+            "Bamboo": "Builder whose work he tests"
+          }
+        }
+      }
+    },
+    "shadowseeker": {
+      "name": "Shadowseeker",
+      "aliases": ["NightWing Infiltrator"],
+      "appearances": [14, 15, 16, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A stealthy NightWing spy who infiltrates other tribe territories to gather intelligence for Queen Battlewinner's war plans.",
+          "role": "Deep Cover Agent",
+          "relationships": {
+            "Battlewinner": "Queen whose enemies he spies on",
+            "Truthfinder": "Interrogator he reports to"
+          }
+        }
+      }
+    },
+    "whisperwind": {
+      "name": "Whisperwind",
+      "aliases": ["NightWing Message Interceptor"],
+      "appearances": [13, 14, 15, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A NightWing spy who specializes in intercepting communications between other tribes and gathering intelligence from overheard conversations.",
+          "role": "Communication Spy",
+          "relationships": {
+            "Shadowseeker": "Fellow spy",
+            "Secretkeeper": "Information keeper she reports to"
+          }
+        }
+      }
+    },
+    "darkwatcher": {
+      "name": "Darkwatcher",
+      "aliases": ["NightWing Surveillance Expert"],
+      "appearances": [13, 14, 19, 20, 24],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A NightWing who watches enemy movements from hidden positions, tracking patrol routes and defensive weaknesses.",
+          "role": "Surveillance Specialist",
+          "relationships": {
+            "Shadowhunter": "Tracker he coordinates with",
+            "Whisperwind": "Message interceptor he works with"
+          }
+        }
+      }
+    },
+    "silentclaw": {
+      "name": "Silentclaw",
+      "aliases": ["NightWing Silent Killer"],
+      "appearances": [15, 19, 20, 24],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A deadly NightWing assassin who eliminates threats to NightWing operations without leaving traces or witnesses.",
+          "role": "Clean-up Specialist",
+          "relationships": {
+            "Deathbringer": "Fellow assassin",
+            "Venom": "Poison specialist he works with"
+          }
+        }
+      }
+    },
+    "spymaster": {
+      "name": "Spymaster",
+      "aliases": ["NightWing Intelligence Chief"],
+      "appearances": [14, 15, 16, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The NightWing who coordinates all spy operations and manages the network of agents gathering intelligence on other tribes.",
+          "role": "Espionage Commander",
+          "relationships": {
+            "Battlewinner": "Queen he serves with intelligence",
+            "Shadowseeker": "Deep cover agent he commands"
+          }
+        }
+      }
+    },
+    "nightcreeper": {
+      "name": "Nightcreeper",
+      "aliases": ["NightWing Infiltration Specialist"],
+      "appearances": [13, 14, 15, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A NightWing who specializes in sneaking into secure locations and obtaining classified information without being detected.",
+          "role": "Stealth Infiltrator",
+          "relationships": {
+            "Spymaster": "Intelligence chief he reports to",
+            "Darkwatcher": "Surveillance expert he coordinates with"
+          }
+        }
+      }
+    },
+    "shadowdancer": {
+      "name": "Shadowdancer",
+      "aliases": ["NightWing Disguise Expert"],
+      "appearances": [14, 15, 16, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A NightWing spy skilled at disguising herself and blending in with other tribes to gather information undetected.",
+          "role": "Master of Disguise",
+          "relationships": {
+            "Nightcreeper": "Infiltrator she works with",
+            "Whisperwind": "Message interceptor she coordinates with"
+          }
+        }
+      }
+    },
+    "duskwing": {
+      "name": "Duskwing",
+      "aliases": ["NightWing Border Watcher"],
+      "appearances": [13, 14, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A NightWing spy who monitors tribal borders and reports on military movements and defensive preparations.",
+          "role": "Border Intelligence",
+          "relationships": {
+            "Darkwatcher": "Fellow surveillance specialist",
+            "Spymaster": "Chief he reports border activity to"
+          }
+        }
+      }
+    },
+    "voidstrike": {
+      "name": "Voidstrike",
+      "aliases": ["NightWing Sabotage Expert"],
+      "appearances": [15, 16, 19, 20, 24],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A NightWing who specializes in sabotaging enemy operations and disrupting other tribes' military capabilities.",
+          "role": "Sabotage Specialist",
+          "relationships": {
+            "Silentclaw": "Assassin who covers his operations",
+            "Nightcreeper": "Infiltrator who provides access"
+          }
+        }
+      }
+    },
+    "ghostwing": {
+      "name": "Ghostwing",
+      "aliases": ["NightWing Phantom Agent"],
+      "appearances": [14, 15, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A mysterious NightWing spy who appears and disappears without trace, specializing in gathering intelligence on high-value targets.",
+          "role": "Phantom Operative",
+          "relationships": {
+            "Spymaster": "Chief who gives him impossible missions",
+            "Shadowdancer": "Disguise expert he sometimes works with"
+          }
+        }
+      }
+    },
+    "thornspy": {
+      "name": "Thornspy",
+      "aliases": ["NightWing Deep Infiltrator"],
+      "appearances": [13, 15, 19, 20, 24],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A NightWing spy who has spent years infiltrating other tribes' governments and military structures to gather long-term intelligence.",
+          "role": "Long-term Infiltrator",
+          "relationships": {
+            "Spymaster": "Chief who placed him deep undercover",
+            "Battlewinner": "Queen whose long-term plans he serves"
+          }
+        }
+      }
+    },
+    "stealheart": {
+      "name": "Stealheart",
+      "aliases": ["NightWing Recruitment Agent"],
+      "appearances": [14, 15, 16, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A charismatic NightWing who recruits informants and agents from other tribes by exploiting their grievances and ambitions.",
+          "role": "Agent Recruiter",
+          "relationships": {
+            "Spymaster": "Intelligence chief she finds agents for",
+            "Shadowdancer": "Disguise expert who helps her blend in"
+          }
+        }
+      }
+    },
+    "blackmist": {
+      "name": "Blackmist",
+      "aliases": ["NightWing Poison Spy"],
+      "appearances": [15, 16, 19, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A NightWing spy who specializes in using subtle poisons to incapacitate targets or make deaths look like natural causes.",
+          "role": "Poison Intelligence Agent",
+          "relationships": {
+            "Venom": "Fellow poison specialist",
+            "Silentclaw": "Assassin she provides poisons to"
+          }
+        }
+      }
+    },
+    "dreadwhisper": {
+      "name": "Dreadwhisper",
+      "aliases": ["NightWing Psychological Operative"],
+      "appearances": [14, 15, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A NightWing spy who specializes in psychological manipulation, spreading fear and disinformation to destabilize enemy tribes.",
+          "role": "Psychological Warfare",
+          "relationships": {
+            "Stealheart": "Recruiter who finds him targets",
+            "Spymaster": "Chief who directs his campaigns"
+          }
+        }
+      }
+    },
+    "razorwind": {
+      "name": "Razorwind",
+      "aliases": ["NightWing Combat Spy"],
+      "appearances": [15, 19, 20, 24],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A NightWing spy trained in combat who handles dangerous infiltration missions requiring both stealth and fighting skills.",
+          "role": "Combat Intelligence Agent",
+          "relationships": {
+            "Deathbringer": "Fellow combat-trained operative",
+            "Voidstrike": "Saboteur he provides combat support for"
+          }
+        }
+      }
+    },
+    "cryptwing": {
+      "name": "Cryptwing",
+      "aliases": ["NightWing Code Breaker"],
+      "appearances": [14, 15, 16, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A brilliant NightWing who breaks enemy codes and ciphers, providing crucial intelligence by decrypting intercepted communications.",
+          "role": "Cryptography Expert",
+          "relationships": {
+            "Whisperwind": "Message interceptor who brings him codes",
+            "Spymaster": "Chief who uses his decoded intelligence"
+          }
+        }
+      }
+    },
+    "fadedshadow": {
+      "name": "Fadedshadow",
+      "aliases": ["NightWing Memory Eraser"],
+      "appearances": [15, 16, 20],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A NightWing with rare abilities who can manipulate memories, helping cover up spy operations by making targets forget encounters.",
+          "role": "Memory Specialist",
+          "relationships": {
+            "Mindreader": "Mind-reader who helps identify memories to erase",
+            "Ghostwing": "Phantom agent whose activities she covers"
+          }
+        }
+      }
+    },
+    "nightfall": {
+      "name": "Nightfall",
+      "aliases": ["NightWing Deep Cover Master"],
+      "appearances": [13, 14, 15, 19, 20, 24],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "The most skilled NightWing deep cover agent, capable of maintaining false identities for years within enemy territories.",
+          "role": "Master Deep Cover Agent",
+          "relationships": {
+            "Spymaster": "Chief who created her cover identities",
+            "Thornspy": "Fellow long-term infiltrator"
+          }
+        }
+      }
+    },
+    "shadowcaster": {
+      "name": "Shadowcaster",
+      "aliases": ["NightWing Illusion Spy"],
+      "appearances": [14, 15, 16, 19, 20],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A NightWing spy who uses illusion techniques and misdirection to confuse enemies and create false intelligence trails.",
+          "role": "Illusion Specialist",
+          "relationships": {
+            "Shadowdancer": "Disguise expert who shares techniques",
+            "Fadedshadow": "Memory eraser who reinforces his illusions"
+          }
+        }
+      }
+    },
+    "mistwalker": {
+      "name": "Mistwalker",
+      "aliases": ["NightWing Weather Spy"],
+      "appearances": [13, 14, 19, 20],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A NightWing spy who uses weather conditions like fog and storms to enhance stealth operations and avoid detection.",
+          "role": "Weather Operations Specialist",
+          "relationships": {
+            "Duskwing": "Border watcher who coordinates timing",
+            "Nightcreeper": "Infiltrator who benefits from weather cover"
+          }
+        }
+      }
+    },
+    "thorn": {
+      "name": "Thorn",
+      "aliases": ["RainWing Guard Captain"],
+      "appearances": [18, 20, 22, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A strong RainWing who becomes Glory's first guard captain, learning to be alert and combat-ready despite typical RainWing peaceful nature.",
+          "role": "Royal Guard Captain",
+          "relationships": {
+            "Glory": "Queen he protects and serves",
+            "Vine": "Fellow guard he leads",
+            "Mango": "Scout he coordinates with"
+          }
+        }
+      }
+    },
+    "arrow": {
+      "name": "Arrow",
+      "aliases": ["RainWing Border Scout"],
+      "appearances": [18, 20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A fast-flying RainWing scout who patrols the borders of RainWing territory to watch for NightWing infiltrators and other threats.",
+          "role": "Border Patrol Scout",
+          "relationships": {
+            "Glory": "Queen whose borders he protects",
+            "Thorn": "Guard captain he reports to"
+          }
+        }
+      }
+    },
+    "spear": {
+      "name": "Spear",
+      "aliases": ["RainWing Combat Trainer"],
+      "appearances": [20, 22, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A RainWing who learns combat techniques from Glory and helps train other RainWings in basic fighting skills and venom accuracy.",
+          "role": "Combat Instructor",
+          "relationships": {
+            "Glory": "Queen who teaches him combat skills",
+            "Thorn": "Guard captain he assists with training"
+          }
+        }
+      }
+    },
+    "shield": {
+      "name": "Shield",
+      "aliases": ["RainWing Defensive Specialist"],
+      "appearances": [20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A cautious RainWing who focuses on defensive tactics and protecting the village from infiltrators and attacks.",
+          "role": "Defense Coordinator",
+          "relationships": {
+            "Glory": "Queen whose village he defends",
+            "Spear": "Combat trainer he works with"
+          }
+        }
+      }
+    },
+    "dart": {
+      "name": "Dart",
+      "aliases": ["RainWing Messenger Scout"],
+      "appearances": [18, 20, 22, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A quick RainWing who carries urgent messages between Glory's forces and serves as a fast reconnaissance scout.",
+          "role": "Message Courier and Scout",
+          "relationships": {
+            "Glory": "Queen whose messages he carries",
+            "Arrow": "Border scout he coordinates with"
+          }
+        }
+      }
+    },
+    "blade": {
+      "name": "Blade",
+      "aliases": ["RainWing Stealth Guard"],
+      "appearances": [20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A RainWing who learns stealth techniques and uses camouflage abilities for covert protection of important locations.",
+          "role": "Stealth Protector",
+          "relationships": {
+            "Glory": "Queen he secretly protects",
+            "Deathbringer": "NightWing who teaches him stealth"
+          }
+        }
+      }
+    },
+    "bow": {
+      "name": "Bow",
+      "aliases": ["RainWing Lookout"],
+      "appearances": [18, 20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A sharp-eyed RainWing who serves as a lookout from the highest platforms, watching for aerial threats and suspicious activity.",
+          "role": "Aerial Spotter",
+          "relationships": {
+            "Glory": "Queen he watches over",
+            "Rambutan": "Fellow watcher he relieves"
+          }
+        }
+      }
+    },
+    "lance": {
+      "name": "Lance",
+      "aliases": ["RainWing Ground Patrol"],
+      "appearances": [20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A RainWing guard who patrols the forest floor around the village, checking for ground-level threats and escape routes.",
+          "role": "Ground Patrol Guard",
+          "relationships": {
+            "Glory": "Queen whose territory he patrols",
+            "Shield": "Defense coordinator he reports to"
+          }
+        }
+      }
+    },
+    "net": {
+      "name": "Net",
+      "aliases": ["RainWing Trap Specialist"],
+      "appearances": [20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A clever RainWing who sets up non-lethal traps and snares to catch intruders without killing them for interrogation.",
+          "role": "Trap Expert",
+          "relationships": {
+            "Glory": "Queen whose enemies he captures",
+            "Lance": "Ground patroller who finds his traps"
+          }
+        }
+      }
+    },
+    "hawk": {
+      "name": "Hawk",
+      "aliases": ["RainWing Air Scout"],
+      "appearances": [18, 20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A high-flying RainWing scout who monitors the skies above RainWing territory for incoming threats and spy dragons.",
+          "role": "Sky Patrol Scout",
+          "relationships": {
+            "Glory": "Queen whose skies he protects",
+            "Arrow": "Border scout he works with"
+          }
+        }
+      }
+    },
+    "talon": {
+      "name": "Talon",
+      "aliases": ["RainWing Venom Guard"],
+      "appearances": [20, 22, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A RainWing who specializes in venom combat techniques and teaches others how to use their natural weapons effectively.",
+          "role": "Venom Specialist",
+          "relationships": {
+            "Glory": "Queen who demonstrates venom techniques",
+            "Spear": "Combat trainer he teaches venom to"
+          }
+        }
+      }
+    },
+    "claw": {
+      "name": "Claw",
+      "aliases": ["RainWing Close Combat Guard"],
+      "appearances": [20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A sturdy RainWing who learns close-combat techniques for situations where venom and camouflage are not enough.",
+          "role": "Melee Combat Specialist",
+          "relationships": {
+            "Glory": "Queen he protects in close combat",
+            "Talon": "Venom specialist he trains with"
+          }
+        }
+      }
+    },
+    "fang": {
+      "name": "Fang",
+      "aliases": ["RainWing Tracker Guard"],
+      "appearances": [18, 20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A keen-nosed RainWing who learns tracking skills to follow intruders and locate missing dragons in the vast rainforest.",
+          "role": "Tracking Specialist",
+          "relationships": {
+            "Glory": "Queen whose subjects he tracks",
+            "Mangrove": "Dragon he helps search for missing partners"
+          }
+        }
+      }
+    },
+    "wing": {
+      "name": "Wing",
+      "aliases": ["RainWing Flight Coordinator"],
+      "appearances": [20, 22, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A skilled flyer who coordinates aerial movements of RainWing guards and scouts to maximize their effectiveness.",
+          "role": "Flight Operations Coordinator",
+          "relationships": {
+            "Glory": "Queen whose aerial forces he organizes",
+            "Hawk": "Air scout he coordinates flights with"
+          }
+        }
+      }
+    },
+    "storm": {
+      "name": "Storm",
+      "aliases": ["RainWing Quick Response Guard"],
+      "appearances": [20, 22, 24, 25, 26, 27, 28],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A fast-reacting RainWing who leads rapid response teams to handle emergencies and sudden threats to the village.",
+          "role": "Emergency Response Leader",
+          "relationships": {
+            "Glory": "Queen whose crises he responds to",
+            "Thorn": "Guard captain he coordinates with"
+          }
+        }
+      }
+    },
+    "shadow": {
+      "name": "Shadow",
+      "aliases": ["RainWing Camouflage Expert"],
+      "appearances": [20, 22, 24, 25, 26, 27],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A RainWing guard who masters advanced camouflage techniques and teaches other guards how to become nearly invisible.",
+          "role": "Camouflage Instructor",
+          "relationships": {
+            "Glory": "Queen whose camouflage he studies",
+            "Blade": "Stealth guard he trains"
+          }
+        }
+      }
+    },
+    "dewdrop": {
+      "name": "Dewdrop",
+      "aliases": ["Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A very young RainWing dragonet who is just learning to control her color-changing abilities. Bright and curious about Glory's adventures.",
+          "role": "Curious Hatchling",
+          "relationships": {
+            "Kinkajou": "Older young dragon she looks up to",
+            "Fern": "Nest tender who cares for her"
+          }
+        }
+      }
+    },
+    "raindrop": {
+      "name": "Raindrop",
+      "aliases": ["RainWing Hatchling"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A small RainWing hatchling who loves listening to stories and watching the older dragons practice their abilities.",
+          "role": "Story-loving Hatchling",
+          "relationships": {
+            "Papaya": "Storyteller she follows around",
+            "Dewdrop": "Fellow hatchling and friend"
+          }
+        }
+      }
+    },
+    "sparkle": {
+      "name": "Sparkle",
+      "aliases": ["Energetic Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A energetic young RainWing who is fascinated by Glory's combat skills and wants to learn to be a guard when she's older.",
+          "role": "Aspiring Young Guard",
+          "relationships": {
+            "Glory": "Queen she wants to be like",
+            "Thorn": "Guard captain she admires"
+          }
+        }
+      }
+    },
+    "rainbow": {
+      "name": "Rainbow",
+      "aliases": ["Colorful Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A young RainWing who is exceptional at color-changing and loves showing off her bright, rapid color shifts to other dragons.",
+          "role": "Color-changing Prodigy",
+          "relationships": {
+            "Buttercup": "Color instructor who trains her",
+            "Glory": "Queen whose camouflage she studies"
+          }
+        }
+      }
+    },
+    "sprout": {
+      "name": "Sprout",
+      "aliases": ["Tiny RainWing"],
+      "appearances": [9, 13, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "The smallest RainWing dragonet in the village, shy but very observant. Watches everything from safe hiding spots.",
+          "role": "Shy Observer",
+          "relationships": {
+            "Fern": "Caretaker who protects her",
+            "Raindrop": "Fellow small dragonet"
+          }
+        }
+      }
+    },
+    "petal": {
+      "name": "Petal",
+      "aliases": ["Gentle Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A gentle young RainWing who loves flowers and wants to learn healing from the village's herb specialists.",
+          "role": "Future Healer",
+          "relationships": {
+            "Liana": "Healer she wants to learn from",
+            "Sage": "Herb specialist she follows"
+          }
+        }
+      }
+    },
+    "splash": {
+      "name": "Splash",
+      "aliases": ["Playful RainWing Youngster"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A playful young RainWing who loves swimming in jungle pools and exploring water features around the village.",
+          "role": "Water-loving Youth",
+          "relationships": {
+            "Sparkle": "Fellow energetic youngster",
+            "Rainbow": "Friend who shows off colors"
+          }
+        }
+      }
+    },
+    "bubble": {
+      "name": "Bubble",
+      "aliases": ["Happy RainWing Child"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A constantly cheerful young RainWing who brings joy to the village with her laughter and positive attitude.",
+          "role": "Village Joy-bringer",
+          "relationships": {
+            "Daisy": "Singer who teaches her songs",
+            "Peach": "Soft speaker she harmonizes with"
+          }
+        }
+      }
+    },
+    "flutter": {
+      "name": "Flutter",
+      "aliases": ["Quick Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A quick-flying young RainWing who dreams of becoming a scout like the ones Glory is training.",
+          "role": "Aspiring Scout",
+          "relationships": {
+            "Arrow": "Border scout she wants to be like",
+            "Dart": "Messenger she admires"
+          }
+        }
+      }
+    },
+    "shimmer": {
+      "name": "Shimmer",
+      "aliases": ["Artistic Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A creative young RainWing who loves making art and decorations from jungle materials like her artistic role models.",
+          "role": "Young Artist",
+          "relationships": {
+            "Hibiscus": "Village artist she learns from",
+            "Jasmine": "Flower arranger she helps"
+          }
+        }
+      }
+    },
+    "wisp": {
+      "name": "Wisp",
+      "aliases": ["Quiet Young RainWing"],
+      "appearances": [9, 13, 18],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A quiet, thoughtful young RainWing who prefers watching and learning to playing. Often found listening to the elders' stories.",
+          "role": "Thoughtful Observer",
+          "relationships": {
+            "Elm": "Memory keeper she listens to",
+            "Sprout": "Fellow quiet youngster"
+          }
+        }
+      }
+    },
+    "breeze": {
+      "name": "Breeze",
+      "aliases": ["Free-spirited Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A free-spirited young RainWing who loves flying high through the canopy and feeling the wind in her wings.",
+          "role": "High-flying Youth",
+          "relationships": {
+            "Flutter": "Fellow flying enthusiast",
+            "Hawk": "Air scout she admires"
+          }
+        }
+      }
+    },
+    "glow": {
+      "name": "Glow",
+      "aliases": ["Bright Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A bright young RainWing who loves sunbathing and has already mastered finding the best sunny spots in the village.",
+          "role": "Sun-seeking Youth",
+          "relationships": {
+            "Sunflower": "Light tracker she learns from",
+            "Cedar": "Sun-time organizer she bothers for good spots"
+          }
+        }
+      }
+    },
+    "mist": {
+      "name": "Mist",
+      "aliases": ["Mysterious Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A mysterious young RainWing who is naturally good at camouflage and loves hiding and surprising other dragons.",
+          "role": "Natural Hide-and-seeker",
+          "relationships": {
+            "Shadow": "Camouflage expert who notices her talent",
+            "Blade": "Stealth guard she tries to surprise"
+          }
+        }
+      }
+    },
+    "leaf": {
+      "name": "Leaf",
+      "aliases": ["Nature-loving Young RainWing"],
+      "appearances": [9, 13, 18, 21],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A nature-loving young RainWing who knows all the best fruit trees and loves exploring the jungle around the village.",
+          "role": "Young Explorer",
+          "relationships": {
+            "Cherry": "Fruit finder she learns from",
+            "Coconut": "Gatherer she helps sometimes"
+          }
+        }
+      }
+    },
+    "darkclaw": {
+      "name": "Darkclaw",
+      "aliases": ["NightWing Experiment Guard"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A NightWing soldier who guards the laboratory where RainWing prisoners are held and experimented on.",
+          "role": "Laboratory Guardian",
+          "relationships": {
+            "Mastermind": "Scientist he protects",
+            "Eclipse": "Research assistant he works with"
+          }
+        }
+      }
+    },
+    "ironwing": {
+      "name": "Ironwing",
+      "aliases": ["NightWing Prison Guard"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A tough NightWing guard responsible for keeping RainWing prisoners secured and preventing escape attempts.",
+          "role": "Prison Security",
+          "relationships": {
+            "Darkclaw": "Fellow experiment guard",
+            "Nightmare": "Torturer he provides prisoners to"
+          }
+        }
+      }
+    },
+    "sharpfang": {
+      "name": "Sharpfang",
+      "aliases": ["NightWing Experiment Assistant"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A NightWing who assists in the brutal experiments conducted on captured RainWings, handling specimens and equipment.",
+          "role": "Laboratory Assistant",
+          "relationships": {
+            "Mastermind": "Lead scientist he assists",
+            "Eclipse": "Fellow research assistant"
+          }
+        }
+      }
+    },
+    "bloodmoon": {
+      "name": "Bloodmoon",
+      "aliases": ["NightWing Subject Handler"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A cruel NightWing who handles the RainWing test subjects, moving them between cells and experiment chambers.",
+          "role": "Subject Transport Specialist",
+          "relationships": {
+            "Sharpfang": "Laboratory assistant he works with",
+            "Ironwing": "Prison guard he coordinates with"
+          }
+        }
+      }
+    },
+    "grimwing": {
+      "name": "Grimwing",
+      "aliases": ["NightWing Data Recorder"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A meticulous NightWing who records the results of experiments and maintains detailed records of test outcomes.",
+          "role": "Research Data Keeper",
+          "relationships": {
+            "Mastermind": "Scientist whose work he documents",
+            "Inkwell": "Fellow record keeper"
+          }
+        }
+      }
+    },
+    "painbringer": {
+      "name": "Painbringer",
+      "aliases": ["NightWing Torturer Assistant"],
+      "appearances": [22, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A sadistic NightWing who assists in torturing prisoners to break their will before they undergo experiments.",
+          "role": "Torture Assistant",
+          "relationships": {
+            "Nightmare": "Lead torturer he assists",
+            "Bloodmoon": "Subject handler who brings him victims"
+          }
+        }
+      }
+    },
+    "scalebreaker": {
+      "name": "Scalebreaker",
+      "aliases": ["NightWing Specimen Collector"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A NightWing who collects biological samples from RainWing subjects for analysis and further experimentation.",
+          "role": "Sample Collection Specialist",
+          "relationships": {
+            "Mastermind": "Scientist who requires samples",
+            "Grimwing": "Data recorder who documents his collections"
+          }
+        }
+      }
+    },
+    "frostbite": {
+      "name": "Frostbite",
+      "aliases": ["NightWing Equipment Manager"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A NightWing responsible for maintaining and operating the cruel equipment used in RainWing experiments.",
+          "role": "Laboratory Equipment Specialist",
+          "relationships": {
+            "Mastermind": "Scientist whose equipment he maintains",
+            "Scalebreaker": "Specimen collector who uses his tools"
+          }
+        }
+      }
+    },
+    "voidclaw": {
+      "name": "Voidclaw",
+      "aliases": ["NightWing Medical Assistant"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A NightWing with medical knowledge who keeps test subjects alive during experiments to prolong their usefulness.",
+          "role": "Survival Medic",
+          "relationships": {
+            "Mastermind": "Scientist who needs subjects kept alive",
+            "Painbringer": "Torturer whose victims he treats"
+          }
+        }
+      }
+    },
+    "shadowstrike": {
+      "name": "Shadowstrike",
+      "aliases": ["NightWing Facility Guard"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A NightWing guard who patrols the experimental facility to prevent unauthorized access and maintain security.",
+          "role": "Facility Security Officer",
+          "relationships": {
+            "Darkclaw": "Laboratory guard he coordinates with",
+            "Obsidian": "Security captain he reports to"
+          }
+        }
+      }
+    },
+    "bonecrusher": {
+      "name": "Bonecrusher",
+      "aliases": ["NightWing Enforcer"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A brutal NightWing enforcer who ensures compliance among both prisoners and staff through intimidation and violence.",
+          "role": "Facility Enforcer",
+          "relationships": {
+            "Ironwing": "Prison guard he supports",
+            "Shadowstrike": "Security guard he backs up"
+          }
+        }
+      }
+    },
+    "ashfall": {
+      "name": "Ashfall",
+      "aliases": ["NightWing Supply Coordinator"],
+      "appearances": [22, 24, 25, 26],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A NightWing who coordinates supplies needed for the experiments, including food for prisoners and materials for research.",
+          "role": "Laboratory Supply Manager",
+          "relationships": {
+            "Frostbite": "Equipment manager he supplies",
+            "Voidclaw": "Medical assistant he provides supplies to"
+          }
+        }
+      }
     }
   },
   "recaps": {
