@@ -506,6 +506,1539 @@
           }
         }
       }
+    },
+    "vanisher-lieutenant-tarson": {
+      "name": "Lieutenant Tarson",
+      "aliases": ["Tarson", "Vanisher Lieutenant"],
+      "appearances": [8, 11, 13, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A high-ranking member of the Vanisher gang who helps coordinate their operations. Ruthless and efficient.",
+          "role": "Gang lieutenant",
+          "relationships": {
+            "Miles Dagouter": "Second-in-command to"
+          }
+        }
+      }
+    },
+    "vanisher-demolitions-expert": {
+      "name": "Vanisher Demolitions Expert",
+      "aliases": ["Demo", "Explosives Man"],
+      "appearances": [4, 8, 12, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The gang member responsible for breaching train cars and safes during robberies. Skilled with explosives and tools.",
+          "role": "Criminal demolitions expert",
+          "relationships": {
+            "Lieutenant Tarson": "Works under"
+          }
+        }
+      }
+    },
+    "vanisher-marksman": {
+      "name": "Vanisher Marksman",
+      "aliases": ["The Shooter", "Gang Sniper"],
+      "appearances": [8, 11, 15, 17],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A deadly accurate shooter who provides covering fire during Vanisher operations. Cold and professional.",
+          "role": "Gang sniper",
+          "relationships": {
+            "Miles Dagouter": "Elite operative under"
+          }
+        }
+      }
+    },
+    "vanisher-informant": {
+      "name": "Vanisher Informant",
+      "aliases": ["Inside Man", "The Leak"],
+      "appearances": [5, 10, 12, 14],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Someone within Elendel's shipping or railroad industry who provides the Vanishers with information about valuable cargo.",
+          "role": "Criminal informant",
+          "relationships": {
+            "Lieutenant Tarson": "Reports to"
+          }
+        }
+      }
+    },
+    "vanisher-driver": {
+      "name": "Vanisher Driver",
+      "aliases": ["Getaway Driver", "The Wheelman"],
+      "appearances": [4, 8, 11],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The gang member who handles their escape vehicles during robberies. Expert at navigating Elendel's streets quickly.",
+          "role": "Criminal driver",
+          "relationships": {
+            "Lieutenant Tarson": "Coordinates with"
+          }
+        }
+      }
+    },
+    "lord-bastien": {
+      "name": "Lord Bastien",
+      "aliases": ["Bastien", "Head of House Bastien"],
+      "appearances": [2, 3, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A prominent nobleman who attends the same social functions as Wax. Involved in shipping and trade businesses.",
+          "role": "Noble house head",
+          "relationships": {
+            "Lord Harms": "Business associate"
+          }
+        }
+      }
+    },
+    "lady-bastien": {
+      "name": "Lady Bastien",
+      "aliases": ["Mrs. Bastien"],
+      "appearances": [2, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Lord Bastien's wife who is active in noble society. Known for hosting elaborate parties and social gatherings.",
+          "role": "Noble socialite",
+          "relationships": {
+            "Lord Bastien": "Married to"
+          }
+        }
+      }
+    },
+    "lord-winsting": {
+      "name": "Lord Winsting",
+      "aliases": ["Winsting"],
+      "appearances": [3, 6, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly nobleman with interests in the railroad industry. Often discusses business matters at social events.",
+          "role": "Railroad investor",
+          "relationships": {
+            "Merchant Krent": "Business connections with"
+          }
+        }
+      }
+    },
+    "lady-winsting": {
+      "name": "Lady Winsting",
+      "aliases": ["Mrs. Winsting"],
+      "appearances": [3, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Lord Winsting's wife who enjoys gossiping about current events and criminal activities in the city.",
+          "role": "Noble gossip",
+          "relationships": {
+            "Lady Sequence": "Social companion"
+          }
+        }
+      }
+    },
+    "lord-cett": {
+      "name": "Lord Cett",
+      "aliases": ["Cett", "House Cett Head"],
+      "appearances": [2, 6, 16, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A powerful nobleman with military background. Commands respect in both business and political circles.",
+          "role": "Military nobleman",
+          "relationships": {
+            "Waxillium Ladrian": "Respects his military experience"
+          }
+        }
+      }
+    },
+    "constable-williamson": {
+      "name": "Constable Williamson",
+      "aliases": ["Williamson"],
+      "appearances": [3, 5, 8, 11, 15],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A veteran constable who has worked in Elendel for many years. Experienced in dealing with organized crime.",
+          "role": "Senior constable",
+          "relationships": {
+            "Captain Brettin": "Veteran under"
+          }
+        }
+      }
+    },
+    "constable-chambers": {
+      "name": "Constable Chambers",
+      "aliases": ["Chambers"],
+      "appearances": [4, 8, 11, 18],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A younger constable eager to prove himself in the investigation. Takes detailed notes and follows procedures carefully.",
+          "role": "Junior constable",
+          "relationships": {
+            "Constable Williamson": "Learns from"
+          }
+        }
+      }
+    },
+    "constable-parks": {
+      "name": "Constable Parks",
+      "aliases": ["Parks"],
+      "appearances": [5, 11, 15, 18],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A constable who specializes in witness interviews and gathering testimony. Good at getting people to talk.",
+          "role": "Interview specialist",
+          "relationships": {
+            "Captain Brettin": "Reports findings to"
+          }
+        }
+      }
+    },
+    "sergeant-cole": {
+      "name": "Sergeant Cole",
+      "aliases": ["Cole", "Sarge"],
+      "appearances": [8, 11, 15, 18, 19],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A police sergeant who coordinates patrol units and crime scene investigations. Tough and experienced.",
+          "role": "Police sergeant",
+          "relationships": {
+            "Captain Brettin": "Second-in-command to"
+          }
+        }
+      }
+    },
+    "train-passenger-mrs-hendricks": {
+      "name": "Mrs. Hendricks",
+      "aliases": ["Hendricks", "Train Passenger"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A wealthy passenger who was on the train during the Vanisher robbery. Traumatized by the experience but provided key details.",
+          "role": "Robbery victim",
+          "relationships": {}
+        }
+      }
+    },
+    "train-passenger-mr-goldring": {
+      "name": "Mr. Goldring",
+      "aliases": ["Goldring"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A businessman traveling on the robbed train. Lost valuable documents and witnessed the thieves' unusual abilities.",
+          "role": "Robbery witness",
+          "relationships": {
+            "Mrs. Hendricks": "Fellow passenger with"
+          }
+        }
+      }
+    },
+    "train-guard-stevens": {
+      "name": "Guard Stevens",
+      "aliases": ["Stevens", "Train Security"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A security guard employed by the railroad to protect valuable shipments. Was overpowered during the robbery.",
+          "role": "Railroad security",
+          "relationships": {
+            "Train Engineer": "Works to protect"
+          }
+        }
+      }
+    },
+    "house-ladrian-butler": {
+      "name": "Butler Charrs",
+      "aliases": ["Charrs", "Head Butler"],
+      "appearances": [2, 6, 9, 14, 16, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The head butler of House Ladrian who manages the estate's daily operations. Extremely proper and experienced.",
+          "role": "Head butler",
+          "relationships": {
+            "Tillaume": "Supervises",
+            "Waxillium Ladrian": "Serves"
+          }
+        }
+      }
+    },
+    "house-ladrian-cook": {
+      "name": "Cook Mavis",
+      "aliases": ["Mavis", "Kitchen Staff"],
+      "appearances": [2, 9, 14, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The head cook of House Ladrian who prepares meals and manages kitchen operations. Known for excellent traditional dishes.",
+          "role": "Head cook",
+          "relationships": {
+            "Butler Charrs": "Reports to"
+          }
+        }
+      }
+    },
+    "house-ladrian-groundskeeper": {
+      "name": "Groundskeeper Finn",
+      "aliases": ["Finn"],
+      "appearances": [2, 6, 14, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The groundskeeper who maintains the Ladrian estate gardens and grounds. Takes pride in keeping everything immaculate.",
+          "role": "Estate groundskeeper",
+          "relationships": {
+            "House Ladrian Guard": "Works alongside"
+          }
+        }
+      }
+    },
+    "house-ladrian-accountant": {
+      "name": "Accountant Morrison",
+      "aliases": ["Morrison", "House Accountant"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The accountant who manages House Ladrian's financial records and transactions. Concerned about the estate's debts.",
+          "role": "Financial manager",
+          "relationships": {
+            "Banker Druffel": "Works with"
+          }
+        }
+      }
+    },
+    "house-ladrian-maid": {
+      "name": "Maid Penny",
+      "aliases": ["Penny"],
+      "appearances": [2, 6, 9, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A maid who works in House Ladrian, responsible for cleaning and maintaining the interior of the estate.",
+          "role": "House maid",
+          "relationships": {
+            "Cook Mavis": "Works with"
+          }
+        }
+      }
+    },
+    "house-harms-butler": {
+      "name": "Butler Hendricks",
+      "aliases": ["Hendricks", "Harms Butler"],
+      "appearances": [2, 3, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The butler of House Harms who assists with formal dinners and social functions. Professional and discreet.",
+          "role": "House butler",
+          "relationships": {
+            "Lord Harms": "Serves",
+            "House Harms Servant": "Supervises"
+          }
+        }
+      }
+    },
+    "house-harms-maid": {
+      "name": "Maid Elsa",
+      "aliases": ["Elsa"],
+      "appearances": [2, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A maid in House Harms who helps with household duties and serving during social events.",
+          "role": "House maid",
+          "relationships": {
+            "Steris Harms": "Serves"
+          }
+        }
+      }
+    },
+    "professor-ladent": {
+      "name": "Professor Ladent",
+      "aliases": ["Ladent"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A university professor who teaches criminal psychology. Marasi attends his lectures on criminal behavior.",
+          "role": "Psychology professor",
+          "relationships": {
+            "Marasi Colms": "Student of"
+          }
+        }
+      }
+    },
+    "university-student-derek": {
+      "name": "Derek",
+      "aliases": ["Student Derek"],
+      "appearances": [3, 8, 12],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A fellow law student at the university who studies alongside Marasi. Interested in criminal justice.",
+          "role": "Law student",
+          "relationships": {
+            "Marasi Colms": "Fellow student"
+          }
+        }
+      }
+    },
+    "university-student-sara": {
+      "name": "Sara",
+      "aliases": ["Student Sara"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another law student who often studies with Marasi and Derek. Focused on legal theory and procedure.",
+          "role": "Law student",
+          "relationships": {
+            "Derek": "Study partner"
+          }
+        }
+      }
+    },
+    "university-librarian": {
+      "name": "Librarian Wells",
+      "aliases": ["Wells", "Library Staff"],
+      "appearances": [3, 8, 12],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The university librarian who helps students research legal cases and criminal procedures. Very knowledgeable about law books.",
+          "role": "University librarian",
+          "relationships": {
+            "Professor Hanlanaze": "Works with faculty"
+          }
+        }
+      }
+    },
+    "shopkeeper-jenkins": {
+      "name": "Shopkeeper Jenkins",
+      "aliases": ["Jenkins"],
+      "appearances": [5, 7, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A shopkeeper whose store was broken into by criminals connected to the Vanishers. Provided information to investigators.",
+          "role": "Crime victim",
+          "relationships": {
+            "Constable Parks": "Interviewed by"
+          }
+        }
+      }
+    },
+    "shopkeeper-mrs-donnelly": {
+      "name": "Mrs. Donnelly",
+      "aliases": ["Donnelly", "Shop Owner"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An elderly woman who runs a small shop in a rougher part of Elendel. Has observed suspicious activity in her neighborhood.",
+          "role": "Local business owner",
+          "relationships": {
+            "Shopkeeper Jenkins": "Fellow merchant"
+          }
+        }
+      }
+    },
+    "street-informant-pete": {
+      "name": "Pete",
+      "aliases": ["Street Pete", "The Snitch"],
+      "appearances": [7, 12],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A street informant who sells information to whoever pays. Has connections throughout Elendel's criminal underworld.",
+          "role": "Information broker",
+          "relationships": {
+            "Wayne": "Sells information to"
+          }
+        }
+      }
+    },
+    "fence-murphy": {
+      "name": "Murphy",
+      "aliases": ["Fence Murphy", "The Fence"],
+      "appearances": [7, 10, 12],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A fence who buys and sells stolen goods. Has been approached by people trying to sell items taken in Vanisher robberies.",
+          "role": "Criminal fence",
+          "relationships": {
+            "Pete": "Criminal associate"
+          }
+        }
+      }
+    },
+    "dock-supervisor-kane": {
+      "name": "Supervisor Kane",
+      "aliases": ["Kane", "Dock Boss"],
+      "appearances": [5, 8, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dock supervisor who manages cargo operations. Noticed irregularities in shipping manifests that may be connected to the robberies.",
+          "role": "Dock supervisor",
+          "relationships": {
+            "Dock Worker Fabe": "Supervises"
+          }
+        }
+      }
+    },
+    "dock-worker-tom": {
+      "name": "Tom",
+      "aliases": ["Dock Tom"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dock worker who loads and unloads cargo. Has seen suspicious people asking questions about valuable shipments.",
+          "role": "Dock worker",
+          "relationships": {
+            "Dock Worker Fabe": "Works alongside"
+          }
+        }
+      }
+    },
+    "railroad-executive-hayes": {
+      "name": "Executive Hayes",
+      "aliases": ["Hayes", "Railroad Boss"],
+      "appearances": [4, 5, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A railroad company executive who is concerned about the increasing attacks on trains. Cooperates with law enforcement.",
+          "role": "Railroad executive",
+          "relationships": {
+            "Lord Winsting": "Business associate"
+          }
+        }
+      }
+    },
+    "railroad-clerk": {
+      "name": "Clerk Bentham",
+      "aliases": ["Bentham"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A railroad clerk who handles shipping manifests and schedules. Potentially has access to information about valuable cargo.",
+          "role": "Railroad clerk",
+          "relationships": {
+            "Executive Hayes": "Works under"
+          }
+        }
+      }
+    },
+    "roughs-outlaw-cassidy": {
+      "name": "Cassidy",
+      "aliases": ["Outlaw Cassidy"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An outlaw from the Roughs who Wax pursued before returning to Elendel. Part of Wax's past as a lawman.",
+          "role": "Roughs criminal",
+          "relationships": {
+            "Waxillium Ladrian": "Hunted by"
+          }
+        }
+      }
+    },
+    "roughs-deputy-martinez": {
+      "name": "Deputy Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A deputy who worked with Wax in the Roughs before his return to Elendel. Reliable law enforcement officer.",
+          "role": "Roughs deputy",
+          "relationships": {
+            "Waxillium Ladrian": "Former partner"
+          }
+        }
+      }
+    },
+    "roughs-saloon-keeper": {
+      "name": "Saloon Keeper Bill",
+      "aliases": ["Bill", "Barkeep"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The owner of a saloon in the Roughs where Wax and other lawmen would gather. Source of local information.",
+          "role": "Saloon owner",
+          "relationships": {
+            "Deputy Martinez": "Serves drinks to"
+          }
+        }
+      }
+    },
+    "roughs-doctor": {
+      "name": "Doc Patterson",
+      "aliases": ["Doc", "Patterson"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The local doctor in the Roughs who treated wounded lawmen and occasionally criminals. Practical medical practitioner.",
+          "role": "Roughs doctor",
+          "relationships": {
+            "Lessie": "Treated her wounds"
+          }
+        }
+      }
+    },
+    "party-guest-lord-pemberton": {
+      "name": "Lord Pemberton",
+      "aliases": ["Pemberton"],
+      "appearances": [2, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A nobleman who attends social functions and discusses current events. Has interests in various business ventures.",
+          "role": "Noble party guest",
+          "relationships": {
+            "Lord Bastien": "Social acquaintance"
+          }
+        }
+      }
+    },
+    "party-guest-lady-ashweather": {
+      "name": "Lady Ashweather",
+      "aliases": ["Ashweather"],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elegant noblewoman known for her fashion sense and social connections. Active in Elendel's high society.",
+          "role": "Social elite",
+          "relationships": {
+            "Lady Bastien": "Social rival"
+          }
+        }
+      }
+    },
+    "party-guest-lord-venture": {
+      "name": "Lord Venture",
+      "aliases": ["Venture"],
+      "appearances": [3, 6, 16],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A member of the historically powerful House Venture. Still maintains significant influence in Elendel's business community.",
+          "role": "Historic house head",
+          "relationships": {
+            "Lord Cett": "Political ally"
+          }
+        }
+      }
+    },
+    "party-musician": {
+      "name": "Musician Reynolds",
+      "aliases": ["Reynolds", "Band Leader"],
+      "appearances": [2, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professional musician who performs at noble parties and social events. Well-regarded for entertaining high society.",
+          "role": "Party entertainer",
+          "relationships": {}
+        }
+      }
+    },
+    "carriage-driver-james": {
+      "name": "Driver James",
+      "aliases": ["James", "Coachman"],
+      "appearances": [2, 6, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A carriage driver who transports nobles to various social events. Observant and discreet about his passengers.",
+          "role": "Transportation service",
+          "relationships": {
+            "Waxillium Ladrian": "Drives to events"
+          }
+        }
+      }
+    },
+    "newspaper-reporter": {
+      "name": "Reporter Mills",
+      "aliases": ["Mills", "Press"],
+      "appearances": [4, 8, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A newspaper reporter covering the Vanisher crimes for the local paper. Eager to get exclusive information about the investigation.",
+          "role": "Crime reporter",
+          "relationships": {
+            "Captain Brettin": "Seeks information from"
+          }
+        }
+      }
+    },
+    "newspaper-editor": {
+      "name": "Editor Thompson",
+      "aliases": ["Thompson"],
+      "appearances": [8, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The newspaper editor who decides what stories to publish about the Vanisher crimes. Balances public interest with accuracy.",
+          "role": "News editor",
+          "relationships": {
+            "Reporter Mills": "Supervises"
+          }
+        }
+      }
+    },
+    "jeweler-adams": {
+      "name": "Jeweler Adams",
+      "aliases": ["Adams"],
+      "appearances": [5, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A jeweler whose shop was targeted by criminals. Some of his stolen goods later appeared in Vanisher-related crimes.",
+          "role": "Robbery victim",
+          "relationships": {
+            "Fence Murphy": "Stolen goods sold to"
+          }
+        }
+      }
+    },
+    "bank-guard-morris": {
+      "name": "Guard Morris",
+      "aliases": ["Morris", "Bank Security"],
+      "appearances": [9, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A security guard at one of Elendel's banks. Alert for any suspicious activity that might be connected to the Vanishers.",
+          "role": "Bank security",
+          "relationships": {
+            "Banker Druffel": "Protects"
+          }
+        }
+      }
+    },
+    "warehouse-foreman": {
+      "name": "Foreman Cox",
+      "aliases": ["Cox", "Warehouse Boss"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A warehouse foreman who manages storage of valuable goods. Has noticed security issues that may be connected to the thefts.",
+          "role": "Warehouse supervisor",
+          "relationships": {
+            "Supervisor Kane": "Coordinates shipments with"
+          }
+        }
+      }
+    },
+    "factory-worker-brown": {
+      "name": "Brown",
+      "aliases": ["Factory Brown"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A factory worker who produces goods that have been targeted by the Vanishers. Provides information about production schedules.",
+          "role": "Industrial worker",
+          "relationships": {
+            "Foreman Cox": "Works under"
+          }
+        }
+      }
+    },
+    "factory-supervisor": {
+      "name": "Supervisor Grant",
+      "aliases": ["Grant"],
+      "appearances": [5, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A factory supervisor who manages production of valuable goods. Concerned about security and theft prevention.",
+          "role": "Production supervisor",
+          "relationships": {
+            "Brown": "Supervises"
+          }
+        }
+      }
+    },
+    "tavern-patron-miller": {
+      "name": "Miller",
+      "aliases": ["Patron Miller"],
+      "appearances": [7, 12],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A regular patron at rough taverns who overhears criminal conversations. Sometimes provides tips to law enforcement.",
+          "role": "Informant",
+          "relationships": {
+            "Bartender Cox": "Regular customer of"
+          }
+        }
+      }
+    },
+    "tavern-patron-jones": {
+      "name": "Jones",
+      "aliases": ["Drinking Jones"],
+      "appearances": [7, 12],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Another tavern regular who drinks heavily and sometimes lets slip information about criminal activities he's witnessed.",
+          "role": "Unreliable witness",
+          "relationships": {
+            "Miller": "Drinking companion"
+          }
+        }
+      }
+    },
+    "street-vendor": {
+      "name": "Vendor Sarah",
+      "aliases": ["Sarah", "Flower Girl"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A street vendor who sells flowers and small goods. Observes foot traffic and notices unusual people in her area.",
+          "role": "Street observer",
+          "relationships": {
+            "Mrs. Donnelly": "Neighborhood acquaintance"
+          }
+        }
+      }
+    },
+    "chimney-sweep": {
+      "name": "Sweep Johnny",
+      "aliases": ["Johnny"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A chimney sweep who works throughout Elendel. His job gives him access to many buildings and observations of daily routines.",
+          "role": "City worker",
+          "relationships": {}
+        }
+      }
+    },
+    "lamplighter": {
+      "name": "Lamplighter Davis",
+      "aliases": ["Davis"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A city employee responsible for lighting street lamps. Works at night and has observed suspicious nighttime activities.",
+          "role": "City lamplighter",
+          "relationships": {
+            "Sweep Johnny": "Fellow city worker"
+          }
+        }
+      }
+    },
+    "messenger-boy": {
+      "name": "Messenger Tim",
+      "aliases": ["Tim"],
+      "appearances": [4, 8, 11],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young messenger who delivers letters and packages throughout Elendel. Quick and observant about the people he serves.",
+          "role": "City messenger",
+          "relationships": {
+            "Captain Brettin": "Delivers messages for"
+          }
+        }
+      }
+    },
+    "postal-clerk": {
+      "name": "Clerk Wilson",
+      "aliases": ["Wilson"],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A postal clerk who handles mail and packages. Has noticed unusual mailing patterns that might be connected to criminal activity.",
+          "role": "Postal worker",
+          "relationships": {
+            "Messenger Tim": "Works with"
+          }
+        }
+      }
+    },
+    "blacksmith-hendricks": {
+      "name": "Blacksmith Hendricks",
+      "aliases": ["Hendricks", "The Smith"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A blacksmith who creates tools and hardware. Has been asked to make unusual metal items that might be used in criminal activities.",
+          "role": "Metalworker",
+          "relationships": {}
+        }
+      }
+    },
+    "gunsmith-carter": {
+      "name": "Gunsmith Carter",
+      "aliases": ["Carter"],
+      "appearances": [7, 11],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A gunsmith who repairs and sells firearms. Has dealt with customers seeking specific types of weapons and modifications.",
+          "role": "Weapons dealer",
+          "relationships": {
+            "Blacksmith Hendricks": "Fellow craftsman"
+          }
+        }
+      }
+    },
+    "pawn-shop-owner": {
+      "name": "Pawnbroker Ellis",
+      "aliases": ["Ellis"],
+      "appearances": [10, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A pawnbroker who buys and sells used goods. Has been offered suspicious items that may have been stolen in various crimes.",
+          "role": "Secondhand dealer",
+          "relationships": {
+            "Fence Murphy": "Criminal competitor"
+          }
+        }
+      }
+    },
+    "hotel-clerk": {
+      "name": "Hotel Clerk Nash",
+      "aliases": ["Nash"],
+      "appearances": [11, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A hotel clerk who registers guests and handles room assignments. Has seen suspicious people who might be connected to criminal activities.",
+          "role": "Hotel employee",
+          "relationships": {}
+        }
+      }
+    },
+    "cab-driver-reed": {
+      "name": "Cab Driver Reed",
+      "aliases": ["Reed"],
+      "appearances": [8, 11, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A cab driver who transports people around Elendel. Has picked up suspicious passengers and overheard criminal conversations.",
+          "role": "Transportation worker",
+          "relationships": {
+            "Driver James": "Fellow driver"
+          }
+        }
+      }
+    },
+    "set-operative-gamma": {
+      "name": "Agent Gamma",
+      "aliases": ["Gamma", "Set Agent"],
+      "appearances": [18, 19],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A mysterious operative working for the Set organization. Professional and dangerous, with specific orders regarding the Vanisher operation.",
+          "role": "Secret agent",
+          "relationships": {
+            "Mr. Suit": "Takes orders from"
+          }
+        }
+      }
+    },
+    "set-operative-delta": {
+      "name": "Agent Delta",
+      "aliases": ["Delta"],
+      "appearances": [19],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Another Set operative involved in the final confrontation. Skilled in combat and equipped with advanced weapons.",
+          "role": "Elite operative",
+          "relationships": {
+            "Agent Gamma": "Works alongside"
+          }
+        }
+      }
+    },
+    "undertaker": {
+      "name": "Undertaker Graves",
+      "aliases": ["Graves"],
+      "appearances": [14, 19],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The local undertaker who handles burial arrangements. Has noticed an increase in violent deaths connected to criminal activity.",
+          "role": "Funeral director",
+          "relationships": {}
+        }
+      }
+    },
+    "judge-williams": {
+      "name": "Judge Williams",
+      "aliases": ["Williams", "Your Honor"],
+      "appearances": [16, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A city judge who oversees legal proceedings. Concerned about the increase in organized crime and its impact on justice.",
+          "role": "Legal authority",
+          "relationships": {
+            "Captain Brettin": "Coordinates with law enforcement"
+          }
+        }
+      }
+    },
+    "mayor-aide": {
+      "name": "Aide Franklin",
+      "aliases": ["Franklin"],
+      "appearances": [16, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "An aide to Elendel's mayor who handles administrative matters. Concerned about the city's reputation due to criminal activity.",
+          "role": "Government aide",
+          "relationships": {
+            "Judge Williams": "Coordinates city response with"
+          }
+        }
+      }
+    },
+    "church-pastor": {
+      "name": "Pastor Mitchell",
+      "aliases": ["Mitchell", "Pastor"],
+      "appearances": [6, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A religious leader who provides spiritual guidance to the community. Preaches about justice and moral behavior.",
+          "role": "Religious leader",
+          "relationships": {}
+        }
+      }
+    },
+    "vanisher-thug-2": {
+      "name": "Vanisher Bruiser",
+      "aliases": ["Bruiser", "Heavy Muscle"],
+      "appearances": [8, 11, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A large, intimidating gang member who uses brute force during Vanisher operations. Lacks subtlety but effective at violence.",
+          "role": "Gang enforcer",
+          "relationships": {
+            "Lieutenant Tarson": "Takes orders from"
+          }
+        }
+      }
+    },
+    "vanisher-thug-3": {
+      "name": "Vanisher Scout",
+      "aliases": ["Scout", "Eyes"],
+      "appearances": [4, 8, 12, 15],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A gang member who conducts reconnaissance before robberies. Quick and observant, specializes in gathering intelligence.",
+          "role": "Gang scout",
+          "relationships": {
+            "Vanisher Lookout": "Coordinates with"
+          }
+        }
+      }
+    },
+    "constable-murphy": {
+      "name": "Constable Murphy",
+      "aliases": ["Murphy"],
+      "appearances": [8, 11, 15, 18],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A constable who patrols the rougher districts of Elendel. Has experience dealing with organized crime and gang activity.",
+          "role": "District constable",
+          "relationships": {
+            "Sergeant Cole": "Reports to"
+          }
+        }
+      }
+    },
+    "constable-blake": {
+      "name": "Constable Blake",
+      "aliases": ["Blake"],
+      "appearances": [5, 11, 15],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A newer constable who is still learning the job. Eager to help but sometimes makes mistakes in procedure.",
+          "role": "Rookie constable",
+          "relationships": {
+            "Constable Chambers": "Training partner"
+          }
+        }
+      }
+    },
+    "noble-lady-cromwell": {
+      "name": "Lady Cromwell",
+      "aliases": ["Cromwell"],
+      "appearances": [3, 6, 16],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An influential noblewoman who hosts charity events and social gatherings. Well-connected in Elendel's high society.",
+          "role": "Charity organizer",
+          "relationships": {
+            "Lady Sequence": "Social coordinator with"
+          }
+        }
+      }
+    },
+    "noble-lord-hammond": {
+      "name": "Lord Hammond",
+      "aliases": ["Hammond"],
+      "appearances": [2, 3, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A noble with interests in industrial manufacturing. Discusses business matters at social functions and parties.",
+          "role": "Industrial investor",
+          "relationships": {
+            "Lord Bastien": "Business competitor"
+          }
+        }
+      }
+    },
+    "train-brakeman": {
+      "name": "Brakeman Phillips",
+      "aliases": ["Phillips"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A railroad worker responsible for operating train brakes. Was working during the Vanisher robbery and witnessed the attack.",
+          "role": "Railroad crew",
+          "relationships": {
+            "Train Conductor": "Works as crew with"
+          }
+        }
+      }
+    },
+    "train-fireman": {
+      "name": "Fireman Davies",
+      "aliases": ["Davies"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The fireman who maintains the train's boiler and engine. Helped passengers during the robbery and provided testimony.",
+          "role": "Engine crew",
+          "relationships": {
+            "Train Engineer": "Works directly with"
+          }
+        }
+      }
+    },
+    "house-ladrian-secretary": {
+      "name": "Secretary Mills",
+      "aliases": ["Mills", "House Secretary"],
+      "appearances": [2, 9, 14, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A secretary who handles House Ladrian's correspondence and appointments. Organized and efficient with paperwork.",
+          "role": "Administrative assistant",
+          "relationships": {
+            "Accountant Morrison": "Works closely with"
+          }
+        }
+      }
+    },
+    "house-ladrian-stable-master": {
+      "name": "Stable Master Wright",
+      "aliases": ["Wright"],
+      "appearances": [2, 6, 14, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The stable master who cares for House Ladrian's horses and maintains the carriages. Experienced with animals and vehicles.",
+          "role": "Stable keeper",
+          "relationships": {
+            "Driver James": "Maintains vehicles for"
+          }
+        }
+      }
+    },
+    "university-professor-wright": {
+      "name": "Professor Wright",
+      "aliases": ["Wright"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A university professor who teaches legal history. Marasi sometimes attends his lectures on historical legal cases.",
+          "role": "Legal history professor",
+          "relationships": {
+            "Professor Hanlanaze": "Colleague of"
+          }
+        }
+      }
+    },
+    "university-dean": {
+      "name": "Dean Rodriguez",
+      "aliases": ["Dean", "Rodriguez"],
+      "appearances": [8, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The dean of the law school who oversees the academic programs. Concerned about student safety during the crime wave.",
+          "role": "Academic administrator",
+          "relationships": {
+            "Professor Hanlanaze": "Supervises"
+          }
+        }
+      }
+    },
+    "shopkeeper-taylor": {
+      "name": "Shopkeeper Taylor",
+      "aliases": ["Taylor"],
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A shopkeeper who sells general goods and supplies. Has noticed unusual purchasing patterns that might be crime-related.",
+          "role": "General store owner",
+          "relationships": {
+            "Shopkeeper Jenkins": "Merchant associate"
+          }
+        }
+      }
+    },
+    "dock-foreman": {
+      "name": "Foreman Davis",
+      "aliases": ["Davis", "Dock Foreman"],
+      "appearances": [5, 8, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dock foreman who supervises cargo loading operations. Has authority over scheduling and worker assignments.",
+          "role": "Dock supervisor",
+          "relationships": {
+            "Supervisor Kane": "Works alongside"
+          }
+        }
+      }
+    },
+    "railroad-maintenance-worker": {
+      "name": "Worker Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [4, 5, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A railroad maintenance worker who repairs tracks and equipment. Has observed suspicious activity around railroad facilities.",
+          "role": "Railroad maintenance",
+          "relationships": {
+            "Executive Hayes": "Works for company run by"
+          }
+        }
+      }
+    },
+    "roughs-sheriff": {
+      "name": "Sheriff Thompson",
+      "aliases": ["Thompson", "Sheriff"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The sheriff of the Roughs town where Wax worked. Respected lawman who relied on Wax's skills and dedication.",
+          "role": "Roughs sheriff",
+          "relationships": {
+            "Waxillium Ladrian": "Supervised"
+          }
+        }
+      }
+    },
+    "roughs-blacksmith": {
+      "name": "Blacksmith Joe",
+      "aliases": ["Joe", "Roughs Smith"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A blacksmith in the Roughs who made tools and horseshoes for the community. Practical craftsman who knew everyone.",
+          "role": "Village blacksmith",
+          "relationships": {
+            "Doc Patterson": "Community member with"
+          }
+        }
+      }
+    },
+    "roughs-store-keeper": {
+      "name": "Store Keeper Mary",
+      "aliases": ["Mary"],
+      "appearances": [1, 17],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The owner of the general store in the Roughs. Supplied the community with necessities and local gossip.",
+          "role": "General store owner",
+          "relationships": {
+            "Saloon Keeper Bill": "Fellow business owner"
+          }
+        }
+      }
+    },
+    "party-guest-lady-venture": {
+      "name": "Lady Venture",
+      "aliases": ["Mrs. Venture"],
+      "appearances": [3, 6, 16],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The wife of Lord Venture who is active in charitable organizations and social causes. Influential in noble society.",
+          "role": "Noble philanthropist",
+          "relationships": {
+            "Lord Venture": "Married to"
+          }
+        }
+      }
+    },
+    "party-waiter": {
+      "name": "Waiter Stevens",
+      "aliases": ["Stevens"],
+      "appearances": [2, 6, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professional waiter who serves at noble parties and social events. Observant of guests and conversations.",
+          "role": "Event staff",
+          "relationships": {
+            "Musician Reynolds": "Works events with"
+          }
+        }
+      }
+    },
+    "city-clerk": {
+      "name": "City Clerk Barnes",
+      "aliases": ["Barnes"],
+      "appearances": [11, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A city government clerk who handles official paperwork and permits. Has access to business and property records.",
+          "role": "Government clerk",
+          "relationships": {
+            "Aide Franklin": "Works in same department as"
+          }
+        }
+      }
+    },
+    "insurance-investigator": {
+      "name": "Investigator Green",
+      "aliases": ["Green"],
+      "appearances": [10, 12, 15],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "An insurance investigator looking into claims related to the Vanisher robberies. Professional and thorough in his work.",
+          "role": "Private investigator",
+          "relationships": {
+            "Captain Brettin": "Coordinates with"
+          }
+        }
+      }
+    },
+    "telegraph-operator": {
+      "name": "Operator Johnson",
+      "aliases": ["Johnson"],
+      "appearances": [4, 8, 11],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A telegraph operator who sends and receives messages throughout the region. Has noticed unusual message patterns.",
+          "role": "Communications operator",
+          "relationships": {
+            "Clerk Wilson": "Coordinates messages with"
+          }
+        }
+      }
+    },
+    "apothecary": {
+      "name": "Apothecary White",
+      "aliases": ["White"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An apothecary who sells medicines and chemicals. Has been asked for unusual substances that might be used criminally.",
+          "role": "Medicine dealer",
+          "relationships": {
+            "Doc Patterson": "Medical supplier"
+          }
+        }
+      }
+    },
+    "fishmonger": {
+      "name": "Fishmonger Pete",
+      "aliases": ["Fish Pete"],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A fishmonger who works near the docks. Observes daily shipping activities and notices unusual cargo movements.",
+          "role": "Fish seller",
+          "relationships": {
+            "Dock Worker Fabe": "Dock area associate"
+          }
+        }
+      }
+    },
+    "baker": {
+      "name": "Baker Collins",
+      "aliases": ["Collins"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A baker who provides bread and pastries to the community. Popular gathering place for local news and gossip.",
+          "role": "Local baker",
+          "relationships": {
+            "Vendor Sarah": "Neighborhood business owner"
+          }
+        }
+      }
+    },
+    "cobbler": {
+      "name": "Cobbler Martin",
+      "aliases": ["Martin"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A cobbler who repairs shoes and leather goods. Has worked on distinctive boots that might be connected to criminals.",
+          "role": "Shoe repair",
+          "relationships": {
+            "Blacksmith Hendricks": "Fellow craftsman"
+          }
+        }
+      }
+    },
+    "seamstress": {
+      "name": "Seamstress Ruth",
+      "aliases": ["Ruth"],
+      "appearances": [7, 12],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A seamstress who makes and repairs clothing. Has worked on disguises and unusual garments for mysterious customers.",
+          "role": "Clothing maker",
+          "relationships": {
+            "Mrs. Donnelly": "Fellow business woman"
+          }
+        }
+      }
+    },
+    "prison-guard": {
+      "name": "Guard Captain Ross",
+      "aliases": ["Ross", "Prison Captain"],
+      "appearances": [15, 18, 19],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A prison guard captain responsible for maintaining security. Concerned about criminal organizations and their reach.",
+          "role": "Prison security",
+          "relationships": {
+            "Judge Williams": "Works with legal system"
+          }
+        }
+      }
+    },
+    "court-bailiff": {
+      "name": "Bailiff Turner",
+      "aliases": ["Turner"],
+      "appearances": [16, 20],
+      "knowledge": {
+        "16": {
+          "revealedIn": 16,
+          "description": "A court bailiff who maintains order during legal proceedings. Has dealt with criminals connected to organized crime.",
+          "role": "Court security",
+          "relationships": {
+            "Judge Williams": "Serves under"
+          }
+        }
+      }
+    },
+    "factory-owner": {
+      "name": "Factory Owner Clark",
+      "aliases": ["Clark"],
+      "appearances": [5, 10, 16],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The owner of a factory that produces valuable goods. Concerned about security and theft of his products.",
+          "role": "Industrial owner",
+          "relationships": {
+            "Supervisor Grant": "Employs"
+          }
+        }
+      }
+    },
+    "night-watchman": {
+      "name": "Watchman Gray",
+      "aliases": ["Gray"],
+      "appearances": [8, 11, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A night watchman who patrols industrial areas during dark hours. Has observed suspicious nighttime activities.",
+          "role": "Security patrol",
+          "relationships": {
+            "Lamplighter Davis": "Works same night hours as"
+          }
+        }
+      }
+    },
+    "ship-captain": {
+      "name": "Captain Morgan",
+      "aliases": ["Morgan", "Ship Captain"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A ship captain who transports cargo through Elendel's canal system. Has noticed unusual shipping requests and cargo.",
+          "role": "Canal boat captain",
+          "relationships": {
+            "Supervisor Kane": "Delivers cargo to"
+          }
+        }
+      }
     }
   },
   "recaps": {
