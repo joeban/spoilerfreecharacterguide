@@ -1316,6 +1316,992 @@
           }
         }
       }
+    },
+    "captain-borg": {
+      "name": "Captain Borg",
+      "aliases": ["Kalgan Fleet Commander"],
+      "appearances": [3, 4, 5, 11, 12, 13],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A fleet captain commanding Kalgan naval forces during the Mule's reign and later investigations.",
+          "role": "Naval commander",
+          "relationships": {
+            "commands": "Kalgan fleet units",
+            "coordinates": "naval operations",
+            "serves": "planetary defense"
+          }
+        }
+      }
+    },
+    "admiral-rex": {
+      "name": "Admiral Rex",
+      "aliases": ["Kalgan Defense Chief"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The admiral commanding Kalgan's defensive forces during the Foundation investigation period.",
+          "role": "Military defense commander",
+          "relationships": {
+            "commands": "planetary defenses",
+            "coordinates": "military strategy",
+            "defends": "Kalgan system"
+          }
+        }
+      }
+    },
+    "major-fox": {
+      "name": "Major Fox",
+      "aliases": ["Kalgan Intelligence Officer"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A military intelligence officer on Kalgan who monitors Foundation activities and investigations.",
+          "role": "Intelligence operations specialist",
+          "relationships": {
+            "monitors": "Foundation activities",
+            "gathers": "intelligence reports",
+            "serves": "Kalgan security"
+          }
+        }
+      }
+    },
+    "colonel-vance": {
+      "name": "Colonel Vance",
+      "aliases": ["Kalgan Ground Forces"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A ground forces colonel on Kalgan who commands planetary defense troops.",
+          "role": "Ground defense commander",
+          "relationships": {
+            "commands": "ground forces",
+            "defends": "planetary installations",
+            "coordinates": "defensive positions"
+          }
+        }
+      }
+    },
+    "sergeant-cox": {
+      "name": "Sergeant Cox",
+      "aliases": ["Kalgan Squad Leader"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A sergeant leading ground squads in Kalgan's defensive forces.",
+          "role": "Squad commander",
+          "relationships": {
+            "leads": "defensive squads",
+            "trains": "soldiers",
+            "reports to": "Colonel Vance"
+          }
+        }
+      }
+    },
+    "lieutenant-ray": {
+      "name": "Lieutenant Ray",
+      "aliases": ["Kalgan Patrol Officer"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A patrol lieutenant on Kalgan who monitors civilian activities and security.",
+          "role": "Security patrol officer",
+          "relationships": {
+            "patrols": "civilian areas",
+            "monitors": "security threats",
+            "maintains": "public order"
+          }
+        }
+      }
+    },
+    "corporal-lane": {
+      "name": "Corporal Lane",
+      "aliases": ["Kalgan Communications"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A communications corporal handling military transmissions on Kalgan.",
+          "role": "Military communications specialist",
+          "relationships": {
+            "handles": "military communications",
+            "coordinates": "information flow",
+            "maintains": "communication equipment"
+          }
+        }
+      }
+    },
+    "private-gill": {
+      "name": "Private Gill",
+      "aliases": ["Kalgan Soldier"],
+      "appearances": [13, 14],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A regular soldier in Kalgan's military forces during the Foundation investigation.",
+          "role": "Military soldier",
+          "relationships": {
+            "serves in": "Kalgan military",
+            "follows": "military orders",
+            "defends": "planetary security"
+          }
+        }
+      }
+    },
+    "chief-pell": {
+      "name": "Chief Pell",
+      "aliases": ["Kalgan Police Commander"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The police chief on Kalgan who maintains civilian law enforcement and security.",
+          "role": "Law enforcement commander",
+          "relationships": {
+            "commands": "police forces",
+            "maintains": "civilian order",
+            "enforces": "planetary laws"
+          }
+        }
+      }
+    },
+    "inspector-hood": {
+      "name": "Inspector Hood",
+      "aliases": ["Kalgan Detective"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A police inspector on Kalgan who investigates crimes and security incidents.",
+          "role": "Criminal investigation specialist",
+          "relationships": {
+            "investigates": "criminal activities",
+            "analyzes": "security incidents",
+            "reports to": "Chief Pell"
+          }
+        }
+      }
+    },
+    "elder-york": {
+      "name": "Elder York",
+      "aliases": ["Trantor Village Leader"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An elderly village leader on Trantor who represents the farming communities.",
+          "role": "Village community leader",
+          "relationships": {
+            "leads": "village community",
+            "represents": "farmer interests",
+            "coordinates": "community decisions"
+          }
+        }
+      }
+    },
+    "farmer-gill": {
+      "name": "Farmer Gill",
+      "aliases": ["Trantor Crop Specialist"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A crop farmer on Trantor who specializes in agricultural production among the imperial ruins.",
+          "role": "Agricultural specialist",
+          "relationships": {
+            "specializes in": "crop production",
+            "works with": "other farmers",
+            "lives on": "Trantor"
+          }
+        }
+      }
+    },
+    "herder-moss": {
+      "name": "Herder Moss",
+      "aliases": ["Trantor Livestock Manager"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A livestock herder on Trantor who manages animal husbandry for the farming communities.",
+          "role": "Livestock management specialist",
+          "relationships": {
+            "manages": "livestock herds",
+            "provides": "animal products",
+            "serves": "farming community"
+          }
+        }
+      }
+    },
+    "miller-bell": {
+      "name": "Miller Bell",
+      "aliases": ["Trantor Grain Processor"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A miller on Trantor who processes grain and provides food processing services.",
+          "role": "Food processing specialist",
+          "relationships": {
+            "processes": "grain crops",
+            "provides": "food services",
+            "serves": "rural communities"
+          }
+        }
+      }
+    },
+    "smith-cox": {
+      "name": "Smith Cox",
+      "aliases": ["Trantor Metalworker"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A blacksmith and metalworker on Trantor who creates and repairs tools and equipment.",
+          "role": "Metalworking craftsman",
+          "relationships": {
+            "creates": "metal tools",
+            "repairs": "equipment",
+            "serves": "community needs"
+          }
+        }
+      }
+    },
+    "weaver-lynn": {
+      "name": "Weaver Lynn",
+      "aliases": ["Trantor Textile Worker"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A weaver on Trantor who produces textiles and clothing for the rural population.",
+          "role": "Textile production specialist",
+          "relationships": {
+            "produces": "textiles and clothing",
+            "serves": "community clothing needs",
+            "maintains": "traditional crafts"
+          }
+        }
+      }
+    },
+    "baker-ford": {
+      "name": "Baker Ford",
+      "aliases": ["Trantor Food Preparer"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A baker on Trantor who prepares bread and food products for the farming communities.",
+          "role": "Food preparation specialist",
+          "relationships": {
+            "prepares": "bread and food",
+            "serves": "community food needs",
+            "works with": "local ingredients"
+          }
+        }
+      }
+    },
+    "trader-west": {
+      "name": "Trader West",
+      "aliases": ["Trantor Commerce Agent"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A trader on Trantor who facilitates commerce between farming communities and outside markets.",
+          "role": "Commerce facilitation specialist",
+          "relationships": {
+            "facilitates": "local commerce",
+            "connects": "communities to markets",
+            "manages": "trade relationships"
+          }
+        }
+      }
+    },
+    "healer-sage": {
+      "name": "Healer Sage",
+      "aliases": ["Trantor Medical Provider"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A traditional healer on Trantor who provides medical care to the rural communities.",
+          "role": "Traditional medical provider",
+          "relationships": {
+            "provides": "medical care",
+            "serves": "rural health needs",
+            "maintains": "traditional healing methods"
+          }
+        }
+      }
+    },
+    "teacher-stone": {
+      "name": "Teacher Stone",
+      "aliases": ["Trantor Village Educator"],
+      "appearances": [12, 13],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A teacher on Trantor who educates children in the farming communities.",
+          "role": "Rural education specialist",
+          "relationships": {
+            "educates": "village children",
+            "maintains": "educational standards",
+            "preserves": "cultural knowledge"
+          }
+        }
+      }
+    },
+    "speaker-tarn": {
+      "name": "Speaker Tarn",
+      "aliases": ["Memory Specialist"],
+      "appearances": [7, 8, 15, 16],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Second Foundation Speaker who specializes in memory modification and mental reconstruction.",
+          "role": "Memory manipulation specialist",
+          "relationships": {
+            "specializes in": "memory modification",
+            "performs": "mental reconstruction",
+            "serves": "Second Foundation"
+          }
+        }
+      }
+    },
+    "speaker-vex": {
+      "name": "Speaker Vex",
+      "aliases": ["Emotion Control Master"],
+      "appearances": [6, 7, 8, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A Second Foundation Speaker who masters techniques of emotional control and manipulation.",
+          "role": "Emotional manipulation specialist",
+          "relationships": {
+            "masters": "emotional control",
+            "manipulates": "psychological states",
+            "teaches": "mental techniques"
+          }
+        }
+      }
+    },
+    "student-rey": {
+      "name": "Student Rey",
+      "aliases": ["Telepathic Apprentice"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A talented student of the Second Foundation learning telepathic communication techniques.",
+          "role": "Telepathic communication trainee",
+          "relationships": {
+            "learns": "telepathic techniques",
+            "practices": "mental communication",
+            "shows talent in": "psychic abilities"
+          }
+        }
+      }
+    },
+    "student-nash": {
+      "name": "Student Nash",
+      "aliases": ["Probability Analyst Trainee"],
+      "appearances": [7, 8, 16],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Second Foundation student specializing in probability analysis and psychohistorical mathematics.",
+          "role": "Mathematical probability trainee",
+          "relationships": {
+            "specializes in": "probability analysis",
+            "studies": "psychohistorical mathematics",
+            "analyzes": "statistical patterns"
+          }
+        }
+      }
+    },
+    "adept-hill": {
+      "name": "Adept Hill",
+      "aliases": ["Mind Reading Specialist"],
+      "appearances": [6, 7, 8, 15],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A Second Foundation adept who specializes in reading and interpreting thoughts and mental patterns.",
+          "role": "Telepathic reading specialist",
+          "relationships": {
+            "specializes in": "mind reading",
+            "interprets": "mental patterns",
+            "analyzes": "psychological states"
+          }
+        }
+      }
+    },
+    "adept-crane": {
+      "name": "Adept Crane",
+      "aliases": ["Mental Projection Expert"],
+      "appearances": [7, 8, 15, 16],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Second Foundation adept who specializes in projecting thoughts and mental influences across distances.",
+          "role": "Mental projection specialist",
+          "relationships": {
+            "specializes in": "mental projection",
+            "projects": "thoughts and influences",
+            "operates": "across distances"
+          }
+        }
+      }
+    },
+    "librarian-duke": {
+      "name": "Librarian Duke",
+      "aliases": ["Trantor Archive Keeper"],
+      "appearances": [5, 6, 7, 12, 13, 14],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A librarian maintaining archives in the ruins of Trantor's Imperial Library.",
+          "role": "Archive preservation specialist",
+          "relationships": {
+            "maintains": "historical archives",
+            "preserves": "Imperial records",
+            "serves": "research needs"
+          }
+        }
+      }
+    },
+    "archivist-gray": {
+      "name": "Archivist Gray",
+      "aliases": ["Imperial Records Keeper"],
+      "appearances": [5, 6, 7, 12, 13],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An archivist specializing in Imperial historical records and documentation.",
+          "role": "Imperial history specialist",
+          "relationships": {
+            "specializes in": "Imperial records",
+            "maintains": "historical documentation",
+            "preserves": "cultural heritage"
+          }
+        }
+      }
+    },
+    "scholar-bone": {
+      "name": "Scholar Bone",
+      "aliases": ["Historical Researcher"],
+      "appearances": [12, 13, 14, 15],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A scholar on Trantor who researches galactic history and maintains academic traditions.",
+          "role": "Historical research specialist",
+          "relationships": {
+            "researches": "galactic history",
+            "maintains": "academic traditions",
+            "studies": "historical patterns"
+          }
+        }
+      }
+    },
+    "curator-fox": {
+      "name": "Curator Fox",
+      "aliases": ["Museum Director"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A curator managing historical exhibits and artifacts in Trantor's remaining cultural institutions.",
+          "role": "Cultural preservation specialist",
+          "relationships": {
+            "manages": "historical exhibits",
+            "preserves": "cultural artifacts",
+            "maintains": "institutional memory"
+          }
+        }
+      }
+    },
+    "scientist-webb": {
+      "name": "Scientist Webb",
+      "aliases": ["Foundation Researcher"],
+      "appearances": [10, 11, 12, 13, 14],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A Foundation scientist conducting research into mental sciences and psychological phenomena.",
+          "role": "Scientific research specialist",
+          "relationships": {
+            "conducts": "mental science research",
+            "studies": "psychological phenomena",
+            "supports": "investigation efforts"
+          }
+        }
+      }
+    },
+    "researcher-day": {
+      "name": "Researcher Day",
+      "aliases": ["Data Collection Specialist"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A researcher specializing in data collection and analysis for the Second Foundation investigation.",
+          "role": "Data collection specialist",
+          "relationships": {
+            "collects": "investigation data",
+            "analyzes": "research findings",
+            "supports": "scientific analysis"
+          }
+        }
+      }
+    },
+    "laboratory-chief": {
+      "name": "Laboratory Chief Kim",
+      "aliases": ["Research Facility Director"],
+      "appearances": [10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The chief of Foundation research laboratories working on Second Foundation detection methods.",
+          "role": "Research facility management specialist",
+          "relationships": {
+            "directs": "research laboratories",
+            "manages": "scientific programs",
+            "coordinates": "research efforts"
+          }
+        }
+      }
+    },
+    "naval-commander": {
+      "name": "Naval Commander Pike",
+      "aliases": ["Foundation Fleet Officer"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A naval commander leading Foundation fleet operations against the supposed Second Foundation location.",
+          "role": "Naval operations commander",
+          "relationships": {
+            "commands": "Foundation fleet",
+            "leads": "military operations",
+            "coordinates": "naval strategy"
+          }
+        }
+      }
+    },
+    "space-pilot": {
+      "name": "Space Pilot Chen",
+      "aliases": ["Foundation Navigator"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A skilled space pilot providing transportation services for the Foundation investigation team.",
+          "role": "Space transportation specialist",
+          "relationships": {
+            "pilots": "investigation spacecraft",
+            "provides": "transportation services",
+            "navigates": "interstellar routes"
+          }
+        }
+      }
+    },
+    "gunner-stone": {
+      "name": "Gunner Stone",
+      "aliases": ["Weapons Specialist"],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A weapons specialist operating Foundation military equipment during the assault on Kalgan.",
+          "role": "Military weapons specialist",
+          "relationships": {
+            "operates": "military weapons",
+            "maintains": "combat equipment",
+            "supports": "military operations"
+          }
+        }
+      }
+    },
+    "deck-officer": {
+      "name": "Deck Officer Lane",
+      "aliases": ["Ship Operations Manager"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A deck officer managing ship operations and crew coordination during the investigation missions.",
+          "role": "Ship operations specialist",
+          "relationships": {
+            "manages": "ship operations",
+            "coordinates": "crew activities",
+            "maintains": "operational efficiency"
+          }
+        }
+      }
+    },
+    "technician-ward": {
+      "name": "Technician Ward",
+      "aliases": ["Equipment Maintenance Specialist"],
+      "appearances": [11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A technician responsible for maintaining and repairing investigation equipment and machinery.",
+          "role": "Technical maintenance specialist",
+          "relationships": {
+            "maintains": "investigation equipment",
+            "repairs": "technical systems",
+            "ensures": "equipment reliability"
+          }
+        }
+      }
+    },
+    "mechanic-hall": {
+      "name": "Mechanic Hall",
+      "aliases": ["Ship Systems Expert"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A mechanic specializing in spacecraft systems and propulsion maintenance.",
+          "role": "Spacecraft systems specialist",
+          "relationships": {
+            "maintains": "spacecraft systems",
+            "repairs": "propulsion equipment",
+            "ensures": "flight readiness"
+          }
+        }
+      }
+    },
+    "officer-todd": {
+      "name": "Officer Todd",
+      "aliases": ["Government Liaison"],
+      "appearances": [9, 10, 11, 12, 13, 14],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A government officer serving as liaison between Foundation political leadership and the investigation team.",
+          "role": "Government liaison specialist",
+          "relationships": {
+            "serves as": "government liaison",
+            "coordinates": "political communication",
+            "facilitates": "official cooperation"
+          }
+        }
+      }
+    },
+    "clerk-ross": {
+      "name": "Clerk Ross",
+      "aliases": ["Administrative Assistant"],
+      "appearances": [10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "An administrative clerk handling paperwork and bureaucratic tasks for the investigation.",
+          "role": "Administrative support specialist",
+          "relationships": {
+            "handles": "administrative tasks",
+            "processes": "official paperwork",
+            "supports": "bureaucratic operations"
+          }
+        }
+      }
+    },
+    "secretary-gill": {
+      "name": "Secretary Gill",
+      "aliases": ["Executive Assistant"],
+      "appearances": [9, 10, 11, 12, 13],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An executive secretary managing communications and scheduling for Foundation leadership.",
+          "role": "Executive support specialist",
+          "relationships": {
+            "manages": "executive communications",
+            "coordinates": "leadership schedules",
+            "facilitates": "administrative efficiency"
+          }
+        }
+      }
+    },
+    "advisor-nash": {
+      "name": "Advisor Nash",
+      "aliases": ["Policy Consultant"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A policy advisor providing strategic counsel to Foundation leadership during the Second Foundation crisis.",
+          "role": "Strategic policy specialist",
+          "relationships": {
+            "advises": "Foundation leadership",
+            "develops": "strategic policies",
+            "analyzes": "political implications"
+          }
+        }
+      }
+    },
+    "magistrate-cole": {
+      "name": "Magistrate Cole",
+      "aliases": ["Legal Authority"],
+      "appearances": [9, 10, 11, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A legal magistrate handling legal aspects and authorizations for the Second Foundation investigation.",
+          "role": "Legal authority specialist",
+          "relationships": {
+            "handles": "legal matters",
+            "provides": "legal authorization",
+            "ensures": "legal compliance"
+          }
+        }
+      }
+    },
+    "judge-rey": {
+      "name": "Judge Rey",
+      "aliases": ["Judicial Officer"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A judge overseeing legal proceedings related to the captured Second Foundation agents.",
+          "role": "Judicial authority specialist",
+          "relationships": {
+            "oversees": "legal proceedings",
+            "judges": "criminal cases",
+            "ensures": "judicial process"
+          }
+        }
+      }
+    },
+    "bailiff-west": {
+      "name": "Bailiff West",
+      "aliases": ["Court Officer"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A court bailiff maintaining order during legal proceedings against the supposed Second Foundation agents.",
+          "role": "Court security specialist",
+          "relationships": {
+            "maintains": "court security",
+            "ensures": "legal order",
+            "manages": "prisoner custody"
+          }
+        }
+      }
+    },
+    "prisoner-alpha": {
+      "name": "Prisoner Alpha",
+      "aliases": ["Captured Agent"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "One of the fifty individuals captured on Kalgan and believed to be Second Foundation agents.",
+          "role": "Supposed Second Foundation member",
+          "relationships": {
+            "captured on": "Kalgan",
+            "believed to be": "Second Foundation agent",
+            "part of": "deception operation"
+          }
+        }
+      }
+    },
+    "prisoner-beta": {
+      "name": "Prisoner Beta",
+      "aliases": ["Detained Mental Scientist"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Another of the captured individuals from Kalgan, supposedly a mental scientist of the Second Foundation.",
+          "role": "Supposed mental scientist",
+          "relationships": {
+            "captured with": "other agents",
+            "presented as": "mental scientist",
+            "part of": "staged capture"
+          }
+        }
+      }
+    },
+    "warden-hill": {
+      "name": "Warden Hill",
+      "aliases": ["Prison Administrator"],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The warden overseeing the detention facility holding the captured Second Foundation agents.",
+          "role": "Prison administration specialist",
+          "relationships": {
+            "oversees": "detention facility",
+            "manages": "prisoner custody",
+            "ensures": "security measures"
+          }
+        }
+      }
+    },
+    "interrogator-vance": {
+      "name": "Interrogator Vance",
+      "aliases": ["Information Extraction Specialist"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A specialist conducting interrogations of the captured agents to extract information about the Second Foundation.",
+          "role": "Interrogation specialist",
+          "relationships": {
+            "interrogates": "captured agents",
+            "extracts": "information",
+            "analyzes": "mental responses"
+          }
+        }
+      }
+    },
+    "doctor-sage": {
+      "name": "Doctor Sage",
+      "aliases": ["Mental Health Examiner"],
+      "appearances": [14, 15, 16],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A doctor examining the mental states and abilities of the captured Second Foundation agents.",
+          "role": "Mental health examination specialist",
+          "relationships": {
+            "examines": "mental states",
+            "analyzes": "psychological abilities",
+            "studies": "mental science techniques"
+          }
+        }
+      }
+    },
+    "trader-duke": {
+      "name": "Trader Duke",
+      "aliases": ["Independent Merchant"],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "An independent trader providing commercial services and intelligence during the investigation period.",
+          "role": "Independent commerce specialist",
+          "relationships": {
+            "provides": "commercial services",
+            "gathers": "trade intelligence",
+            "facilitates": "economic exchanges"
+          }
+        }
+      }
+    },
+    "merchant-gray": {
+      "name": "Merchant Gray",
+      "aliases": ["Business Operator"],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A merchant operating business enterprises and providing economic services across multiple worlds.",
+          "role": "Business operations specialist",
+          "relationships": {
+            "operates": "business enterprises",
+            "provides": "economic services",
+            "maintains": "commercial networks"
+          }
+        }
+      }
+    },
+    "captain-bone": {
+      "name": "Captain Bone",
+      "aliases": ["Transport Commander"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A transport captain commanding merchant vessels and providing transportation services.",
+          "role": "Transportation command specialist",
+          "relationships": {
+            "commands": "merchant vessels",
+            "provides": "transport services",
+            "coordinates": "shipping operations"
+          }
+        }
+      }
+    },
+    "helmsman-ward": {
+      "name": "Helmsman Ward",
+      "aliases": ["Navigation Operator"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A helmsman operating navigation systems and steering spacecraft during investigation missions.",
+          "role": "Navigation operations specialist",
+          "relationships": {
+            "operates": "navigation systems",
+            "steers": "spacecraft",
+            "ensures": "course accuracy"
+          }
+        }
+      }
+    },
+    "engineer-todd": {
+      "name": "Engineer Todd",
+      "aliases": ["Systems Engineer"],
+      "appearances": [11, 12, 13, 14, 15, 16],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A systems engineer maintaining and optimizing technical systems for investigation operations.",
+          "role": "Systems engineering specialist",
+          "relationships": {
+            "maintains": "technical systems",
+            "optimizes": "system performance",
+            "ensures": "operational reliability"
+          }
+        }
+      }
+    },
+    "cook-ross": {
+      "name": "Cook Ross",
+      "aliases": ["Food Service Manager"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A cook managing food services and nutrition for the investigation team during extended missions.",
+          "role": "Food service specialist",
+          "relationships": {
+            "manages": "food services",
+            "provides": "nutrition",
+            "maintains": "meal quality"
+          }
+        }
+      }
+    },
+    "medic-hall": {
+      "name": "Medic Hall",
+      "aliases": ["Field Medical Officer"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A field medic providing medical support and emergency care for the investigation team.",
+          "role": "Field medical specialist",
+          "relationships": {
+            "provides": "medical support",
+            "handles": "emergency care",
+            "maintains": "team health"
+          }
+        }
+      }
     }
   },
   "recaps": {
