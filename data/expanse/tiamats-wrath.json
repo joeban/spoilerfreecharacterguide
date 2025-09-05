@@ -1162,6 +1162,1822 @@
           }
         }
       }
+    },
+    "imperial-advisor-stone": {
+      "name": "Senior Advisor Stone",
+      "aliases": ["Stone"],
+      "appearances": [7, 15, 23, 31, 39, 47],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "High-ranking Laconian advisor serving in Duarte's inner circle, managing imperial policy decisions.",
+          "role": "Senior Imperial Advisor",
+          "relationships": {
+            "Superior": "Winston Duarte",
+            "Function": "Policy management"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Struggles to interpret Duarte's increasingly alien decision-making process for imperial governance.",
+          "role": "Concerned Policy Advisor",
+          "relationships": {
+            "Challenge": "Alien decision patterns"
+          }
+        }
+      }
+    },
+    "protocol-officer-white": {
+      "name": "Protocol Officer White",
+      "aliases": ["White"],
+      "appearances": [4, 8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Imperial protocol officer managing court ceremonies and diplomatic functions within the Laconian Empire.",
+          "role": "Protocol Officer",
+          "relationships": {
+            "Function": "Court ceremonies",
+            "Responsibility": "Diplomatic protocol"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Adapts traditional imperial protocols to accommodate Duarte's changing nature and priorities.",
+          "role": "Adaptive Protocol Officer",
+          "relationships": {
+            "Challenge": "Changing imperial nature"
+          }
+        }
+      }
+    },
+    "finance-minister-clark": {
+      "name": "Finance Minister Clark",
+      "aliases": ["Minister Clark"],
+      "appearances": [11, 19, 27, 35, 43, 51],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Imperial finance minister managing the vast economic resources of the Laconian Empire across multiple systems.",
+          "role": "Finance Minister",
+          "relationships": {
+            "Authority": "Imperial economics",
+            "Scope": "Multi-system resources"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Deals with resource allocation challenges as the emperor's priorities shift toward alien research.",
+          "role": "Resource Manager",
+          "relationships": {
+            "Challenge": "Shifting priorities"
+          }
+        }
+      }
+    },
+    "information-minister-hall": {
+      "name": "Information Minister Hall",
+      "aliases": ["Minister Hall"],
+      "appearances": [6, 14, 22, 30, 38, 46],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Imperial minister controlling information flow and propaganda distribution throughout the empire.",
+          "role": "Information Minister",
+          "relationships": {
+            "Control": "Information distribution",
+            "Function": "Imperial propaganda"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Struggles with how to present the emperor's transformation to the imperial population.",
+          "role": "Propaganda Manager",
+          "relationships": {
+            "Challenge": "Emperor's transformation"
+          }
+        }
+      }
+    },
+    "imperial-secretary-young": {
+      "name": "Imperial Secretary Young",
+      "aliases": ["Secretary Young"],
+      "appearances": [7, 15, 23, 31, 39],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Senior secretary managing the administrative functions of the imperial government and court.",
+          "role": "Administrative Secretary",
+          "relationships": {
+            "Function": "Government administration",
+            "Authority": "Court management"
+          }
+        }
+      }
+    },
+    "court-historian-green": {
+      "name": "Court Historian Green",
+      "aliases": ["Green"],
+      "appearances": [12, 20, 28, 36, 44, 52],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Imperial court historian responsible for documenting the empire's achievements and Duarte's transformation.",
+          "role": "Court Historian",
+          "relationships": {
+            "Subject": "Imperial documentation",
+            "Focus": "Duarte's changes"
+          }
+        },
+        "28": {
+          "revealedIn": 28,
+          "description": "Faces challenges in documenting Duarte's alien transformation for historical records.",
+          "role": "Documentary Historian",
+          "relationships": {
+            "Challenge": "Alien transformation records"
+          }
+        }
+      }
+    },
+    "diplomatic-attache-baker": {
+      "name": "Diplomatic Attaché Baker",
+      "aliases": ["Baker"],
+      "appearances": [9, 17, 25, 33, 41, 49],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Imperial diplomatic attaché managing relations between Laconia and the various ring world colonies.",
+          "role": "Diplomatic Attaché",
+          "relationships": {
+            "Function": "Colonial relations",
+            "Authority": "Inter-system diplomacy"
+          }
+        },
+        "25": {
+          "revealedIn": 25,
+          "description": "Handles increasingly difficult diplomatic situations as imperial policies become more erratic.",
+          "role": "Crisis Diplomat",
+          "relationships": {
+            "Challenge": "Erratic policies"
+          }
+        }
+      }
+    },
+    "imperial-librarian-adams": {
+      "name": "Imperial Librarian Adams",
+      "aliases": ["Adams"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Keeper of imperial records and archives, managing the vast information resources of the empire.",
+          "role": "Imperial Librarian",
+          "relationships": {
+            "Responsibility": "Imperial archives",
+            "Function": "Information management"
+          }
+        }
+      }
+    },
+    "court-physician-nelson": {
+      "name": "Court Physician Nelson",
+      "aliases": ["Dr. Nelson"],
+      "appearances": [8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Personal physician to the imperial family, monitoring Duarte's health during his alien transformation.",
+          "role": "Court Physician",
+          "relationships": {
+            "Patient": "Winston Duarte",
+            "Secondary": "Teresa Duarte"
+          }
+        },
+        "24": {
+          "revealedIn": 24,
+          "description": "Observes the medical impossibilities of Duarte's alien enhancement with growing concern.",
+          "role": "Concerned Physician",
+          "relationships": {
+            "Observation": "Medical impossibilities"
+          }
+        }
+      }
+    },
+    "imperial-chef-cooper": {
+      "name": "Imperial Chef Cooper",
+      "aliases": ["Cooper"],
+      "appearances": [4, 12, 20, 28, 36, 44],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Head chef managing the imperial kitchens and providing meals for the court and imperial family.",
+          "role": "Imperial Chef",
+          "relationships": {
+            "Service": "Imperial court",
+            "Function": "Food preparation"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Notices Duarte's changing dietary needs and preferences as his transformation progresses.",
+          "role": "Observant Chef",
+          "relationships": {
+            "Observation": "Changing dietary needs"
+          }
+        }
+      }
+    },
+    "imperial-tailor-mitchell": {
+      "name": "Imperial Tailor Mitchell",
+      "aliases": ["Mitchell"],
+      "appearances": [4, 8, 16, 24, 32, 40],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Personal tailor to the imperial family, creating formal wear and ceremonial garments.",
+          "role": "Imperial Tailor",
+          "relationships": {
+            "Clients": "Imperial family",
+            "Specialty": "Ceremonial garments"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Adapts clothing designs to accommodate Duarte's physical changes from alien enhancement.",
+          "role": "Adaptive Tailor",
+          "relationships": {
+            "Challenge": "Physical adaptations"
+          }
+        }
+      }
+    },
+    "imperial-groundskeeper-turner": {
+      "name": "Imperial Groundskeeper Turner",
+      "aliases": ["Turner"],
+      "appearances": [7, 15, 23, 31, 39, 47],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Head groundskeeper maintaining the imperial palace grounds and gardens on Laconia.",
+          "role": "Imperial Groundskeeper",
+          "relationships": {
+            "Responsibility": "Palace grounds",
+            "Location": "Laconia"
+          }
+        }
+      }
+    },
+    "imperial-driver-phillips": {
+      "name": "Imperial Driver Phillips",
+      "aliases": ["Phillips"],
+      "appearances": [4, 8, 16, 24, 32],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Personal driver for the imperial family, operating secure transport vehicles within the capital.",
+          "role": "Imperial Driver",
+          "relationships": {
+            "Service": "Imperial family",
+            "Location": "Imperial capital"
+          }
+        }
+      }
+    },
+    "palace-custodian-evans": {
+      "name": "Palace Custodian Evans",
+      "aliases": ["Evans"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Head custodian responsible for maintaining the cleanliness and organization of the imperial palace.",
+          "role": "Palace Custodian",
+          "relationships": {
+            "Workplace": "Imperial palace",
+            "Function": "Maintenance oversight"
+          }
+        }
+      }
+    },
+    "imperial-scheduler-roberts": {
+      "name": "Imperial Scheduler Roberts",
+      "aliases": ["Roberts"],
+      "appearances": [7, 15, 23, 31, 39, 47],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Personal scheduler managing Duarte's appointments and imperial calendar of events.",
+          "role": "Imperial Scheduler",
+          "relationships": {
+            "Service": "Winston Duarte",
+            "Function": "Calendar management"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Adapts scheduling to accommodate Duarte's increasingly unpredictable behavior patterns.",
+          "role": "Adaptive Scheduler",
+          "relationships": {
+            "Challenge": "Unpredictable behavior"
+          }
+        }
+      }
+    },
+    "palace-communications-director": {
+      "name": "Palace Communications Director Murphy",
+      "aliases": ["Murphy"],
+      "appearances": [6, 14, 22, 30, 38, 46],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Communications director managing information flow between the palace and the broader empire.",
+          "role": "Palace Communications Director",
+          "relationships": {
+            "Function": "Palace-empire communications",
+            "Authority": "Information flow"
+          }
+        }
+      }
+    },
+    "imperial-attorney-walker": {
+      "name": "Imperial Attorney Walker",
+      "aliases": ["Walker"],
+      "appearances": [11, 19, 27, 35, 43],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Legal advisor handling the complex legal framework of governing a multi-system empire.",
+          "role": "Imperial Attorney",
+          "relationships": {
+            "Specialty": "Imperial law",
+            "Scope": "Multi-system governance"
+          }
+        }
+      }
+    },
+    "imperial-archivist-wright": {
+      "name": "Imperial Archivist Wright",
+      "aliases": ["Wright"],
+      "appearances": [14, 22, 30, 38, 46, 52],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Senior archivist maintaining the historical records and documentation of imperial achievements.",
+          "role": "Imperial Archivist",
+          "relationships": {
+            "Function": "Historical records",
+            "Authority": "Imperial documentation"
+          }
+        }
+      }
+    },
+    "imperial-translator-king": {
+      "name": "Imperial Translator King",
+      "aliases": ["King"],
+      "appearances": [9, 17, 25, 33, 41],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Linguistic specialist managing translations and communications between different colonial cultures.",
+          "role": "Imperial Translator",
+          "relationships": {
+            "Function": "Inter-cultural communication",
+            "Scope": "Colonial relations"
+          }
+        }
+      }
+    },
+    "imperial-botanist-hill": {
+      "name": "Imperial Botanist Hill",
+      "aliases": ["Hill"],
+      "appearances": [10, 18, 26, 34, 42, 50],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Scientific botanist studying plant life across ring worlds and their adaptation to alien environments.",
+          "role": "Imperial Botanist",
+          "relationships": {
+            "Research": "Ring world plant life",
+            "Focus": "Environmental adaptation"
+          }
+        }
+      }
+    },
+    "court-musician-scott": {
+      "name": "Court Musician Scott",
+      "aliases": ["Scott"],
+      "appearances": [8, 16, 24, 32, 40, 48],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Official court musician providing entertainment for imperial ceremonies and private functions.",
+          "role": "Court Musician",
+          "relationships": {
+            "Function": "Court entertainment",
+            "Service": "Imperial ceremonies"
+          }
+        }
+      }
+    },
+    "imperial-meteorologist-allen": {
+      "name": "Imperial Meteorologist Allen",
+      "aliases": ["Allen"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Weather specialist monitoring atmospheric conditions across ring world colonies and Laconia.",
+          "role": "Imperial Meteorologist",
+          "relationships": {
+            "Function": "Weather monitoring",
+            "Scope": "Multi-world conditions"
+          }
+        }
+      }
+    },
+    "imperial-astronomer-harris": {
+      "name": "Imperial Astronomer Harris",
+      "aliases": ["Harris"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Court astronomer studying the stellar phenomena and space-time effects around ring gates.",
+          "role": "Imperial Astronomer",
+          "relationships": {
+            "Research": "Ring gate phenomena",
+            "Focus": "Stellar effects"
+          }
+        }
+      }
+    },
+    "palace-engineer-martin": {
+      "name": "Palace Engineer Martin",
+      "aliases": ["Martin"],
+      "appearances": [11, 19, 27, 35, 43, 51],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Chief engineer maintaining the advanced alien-hybrid systems within the imperial palace complex.",
+          "role": "Palace Engineer",
+          "relationships": {
+            "Responsibility": "Palace systems",
+            "Technology": "Alien-hybrid integration"
+          }
+        }
+      }
+    },
+    "fleet-admiral-reynolds": {
+      "name": "Fleet Admiral Reynolds",
+      "aliases": ["Admiral Reynolds"],
+      "appearances": [11, 19, 27, 35, 43, 51],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Senior Laconian naval commander overseeing fleet operations across the empire's vast territory.",
+          "role": "Fleet Admiral",
+          "relationships": {
+            "Authority": "Imperial fleet",
+            "Scope": "Multi-system operations"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Coordinates naval responses to increasing resistance activities while managing fleet morale.",
+          "role": "Strategic Commander",
+          "relationships": {
+            "Challenge": "Resistance coordination"
+          }
+        }
+      }
+    },
+    "battleship-captain-morrison": {
+      "name": "Captain Morrison",
+      "aliases": ["Morrison"],
+      "appearances": [19, 27, 35, 43, 51],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Captain of a Laconian battleship, commanding one of the empire's most advanced warships.",
+          "role": "Battleship Captain",
+          "relationships": {
+            "Command": "Imperial battleship",
+            "Technology": "Advanced warship systems"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Manages ship operations during increasingly complex military operations against resistance forces.",
+          "role": "Combat Commander",
+          "relationships": {
+            "Mission": "Anti-resistance operations"
+          }
+        }
+      }
+    },
+    "destroyer-captain-kelly": {
+      "name": "Captain Kelly",
+      "aliases": ["Kelly"],
+      "appearances": [19, 27, 35, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Destroyer captain leading patrol missions throughout imperial space and ring gate networks.",
+          "role": "Destroyer Captain",
+          "relationships": {
+            "Command": "Imperial destroyer",
+            "Mission": "Space patrol"
+          }
+        }
+      }
+    },
+    "naval-intelligence-officer": {
+      "name": "Intelligence Commander Ross",
+      "aliases": ["Commander Ross"],
+      "appearances": [6, 14, 22, 30, 38, 46],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Naval intelligence officer coordinating information gathering for fleet operations.",
+          "role": "Naval Intelligence",
+          "relationships": {
+            "Function": "Fleet intelligence",
+            "Network": "Multi-system surveillance"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Analyzes resistance patterns and coordinates counter-intelligence operations.",
+          "role": "Counter-Intelligence",
+          "relationships": {
+            "Target": "Resistance analysis"
+          }
+        }
+      }
+    },
+    "fleet-engineer-clarke": {
+      "name": "Fleet Engineer Clarke",
+      "aliases": ["Clarke"],
+      "appearances": [11, 19, 27, 35, 43],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Senior engineering officer responsible for maintaining the alien-hybrid technology in Laconian warships.",
+          "role": "Fleet Engineer",
+          "relationships": {
+            "Responsibility": "Fleet technology",
+            "Specialty": "Alien-hybrid systems"
+          }
+        }
+      }
+    },
+    "communications-officer-wright": {
+      "name": "Communications Officer Wright",
+      "aliases": ["Wright"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Fleet communications officer managing secure communications between ships and imperial command.",
+          "role": "Communications Officer",
+          "relationships": {
+            "Function": "Fleet communications",
+            "Network": "Secure channels"
+          }
+        }
+      }
+    },
+    "tactical-officer-chen": {
+      "name": "Tactical Officer Chen",
+      "aliases": ["Chen"],
+      "appearances": [19, 27, 35, 43, 51],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Tactical operations officer coordinating combat strategies and weapons deployment.",
+          "role": "Tactical Officer",
+          "relationships": {
+            "Function": "Combat coordination",
+            "Specialty": "Weapons systems"
+          }
+        }
+      }
+    },
+    "navigation-officer-garcia": {
+      "name": "Navigation Officer Garcia",
+      "aliases": ["Garcia"],
+      "appearances": [19, 27, 35, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Senior navigation officer managing complex ring gate transits and space-time calculations.",
+          "role": "Navigation Officer",
+          "relationships": {
+            "Specialty": "Ring gate navigation",
+            "Function": "Space-time calculations"
+          }
+        }
+      }
+    },
+    "medical-officer-patel": {
+      "name": "Fleet Medical Officer Patel",
+      "aliases": ["Dr. Patel"],
+      "appearances": [20, 28, 36, 44, 52],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Chief medical officer for the Laconian fleet, providing healthcare to naval personnel.",
+          "role": "Fleet Medical Officer",
+          "relationships": {
+            "Service": "Naval healthcare",
+            "Authority": "Fleet medical operations"
+          }
+        }
+      }
+    },
+    "security-chief-johnson": {
+      "name": "Fleet Security Chief Johnson",
+      "aliases": ["Johnson"],
+      "appearances": [6, 14, 22, 30, 38],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Fleet security chief responsible for maintaining order and investigating threats within the naval forces.",
+          "role": "Fleet Security Chief",
+          "relationships": {
+            "Authority": "Naval security",
+            "Function": "Threat investigation"
+          }
+        }
+      }
+    },
+    "supply-officer-davis": {
+      "name": "Supply Officer Davis",
+      "aliases": ["Davis"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Fleet supply officer managing logistics and resource distribution for naval operations.",
+          "role": "Supply Officer",
+          "relationships": {
+            "Function": "Fleet logistics",
+            "Responsibility": "Resource distribution"
+          }
+        }
+      }
+    },
+    "gunnery-sergeant-martinez": {
+      "name": "Gunnery Sergeant Martinez",
+      "aliases": ["Martinez"],
+      "appearances": [19, 27, 35, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Senior enlisted soldier managing weapons systems and combat training for naval personnel.",
+          "role": "Gunnery Sergeant",
+          "relationships": {
+            "Function": "Weapons training",
+            "Authority": "Combat systems"
+          }
+        }
+      }
+    },
+    "flight-commander-anderson": {
+      "name": "Flight Commander Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [19, 27, 35, 43, 51],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Commander of fighter squadrons and small craft operations attached to the Laconian fleet.",
+          "role": "Flight Commander",
+          "relationships": {
+            "Command": "Fighter squadrons",
+            "Specialty": "Small craft operations"
+          }
+        }
+      }
+    },
+    "sensor-operator-williams": {
+      "name": "Sensor Operator Williams",
+      "aliases": ["Williams"],
+      "appearances": [19, 27, 35, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Technical specialist operating the advanced sensor arrays of Laconian warships.",
+          "role": "Sensor Operator",
+          "relationships": {
+            "Equipment": "Advanced sensors",
+            "Function": "Detection systems"
+          }
+        }
+      }
+    },
+    "quartermaster-brown": {
+      "name": "Quartermaster Brown",
+      "aliases": ["Brown"],
+      "appearances": [12, 20, 28, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Senior enlisted officer managing ship's stores and equipment distribution.",
+          "role": "Quartermaster",
+          "relationships": {
+            "Function": "Equipment management",
+            "Responsibility": "Ship's stores"
+          }
+        }
+      }
+    },
+    "damage-control-chief": {
+      "name": "Damage Control Chief Wilson",
+      "aliases": ["Wilson"],
+      "appearances": [11, 19, 27, 35],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Chief petty officer specializing in emergency repairs and damage control during combat.",
+          "role": "Damage Control Chief",
+          "relationships": {
+            "Specialty": "Emergency repairs",
+            "Function": "Combat damage control"
+          }
+        }
+      }
+    },
+    "pilot-lieutenant-moore": {
+      "name": "Pilot Lieutenant Moore",
+      "aliases": ["Moore"],
+      "appearances": [19, 27, 35, 43],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Fighter pilot operating advanced Laconian combat spacecraft in fleet operations.",
+          "role": "Combat Pilot",
+          "relationships": {
+            "Equipment": "Fighter spacecraft",
+            "Mission": "Fleet operations"
+          }
+        }
+      }
+    },
+    "radar-technician-taylor": {
+      "name": "Radar Technician Taylor",
+      "aliases": ["Taylor"],
+      "appearances": [19, 27, 35],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "Technical specialist maintaining and operating radar and detection systems.",
+          "role": "Radar Technician",
+          "relationships": {
+            "Equipment": "Detection systems",
+            "Function": "Radar operations"
+          }
+        }
+      }
+    },
+    "boarding-party-leader": {
+      "name": "Boarding Leader Thomas",
+      "aliases": ["Thomas"],
+      "appearances": [21, 29, 37, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Marine officer leading boarding parties and close-quarters combat operations.",
+          "role": "Boarding Leader",
+          "relationships": {
+            "Specialty": "Close-quarters combat",
+            "Function": "Boarding operations"
+          }
+        }
+      }
+    },
+    "resistance-coordinator-murphy": {
+      "name": "Resistance Coordinator Murphy",
+      "aliases": ["Murphy"],
+      "appearances": [13, 21, 29, 37, 45, 53],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Senior resistance coordinator managing operations across multiple star systems.",
+          "role": "Senior Coordinator",
+          "relationships": {
+            "Network": "Multi-system resistance",
+            "Authority": "Operations command"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Coordinates complex resistance operations while evading imperial intelligence networks.",
+          "role": "Operations Manager",
+          "relationships": {
+            "Challenge": "Imperial surveillance"
+          }
+        }
+      }
+    },
+    "saboteur-collins": {
+      "name": "Saboteur Collins",
+      "aliases": ["Collins"],
+      "appearances": [13, 21, 29, 37, 45],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Explosives expert specializing in sabotage operations against Laconian infrastructure.",
+          "role": "Explosives Expert",
+          "relationships": {
+            "Specialty": "Infrastructure sabotage",
+            "Target": "Imperial installations"
+          }
+        }
+      }
+    },
+    "intelligence-broker-stewart": {
+      "name": "Intelligence Broker Stewart",
+      "aliases": ["Stewart"],
+      "appearances": [13, 21, 29, 37],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Information broker providing crucial intelligence about imperial activities to resistance cells.",
+          "role": "Intelligence Broker",
+          "relationships": {
+            "Function": "Information gathering",
+            "Network": "Imperial surveillance"
+          }
+        }
+      }
+    },
+    "smuggler-carter": {
+      "name": "Smuggler Carter",
+      "aliases": ["Carter"],
+      "appearances": [17, 25, 33, 41, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Independent smuggler moving resistance supplies and personnel between star systems.",
+          "role": "Supply Smuggler",
+          "relationships": {
+            "Function": "Supply transport",
+            "Route": "Multi-system network"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Adapts smuggling routes to avoid increasing imperial security measures.",
+          "role": "Route Coordinator",
+          "relationships": {
+            "Challenge": "Imperial security"
+          }
+        }
+      }
+    },
+    "communications-expert-reed": {
+      "name": "Communications Expert Reed",
+      "aliases": ["Reed"],
+      "appearances": [13, 21, 29, 37, 45],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Technical expert maintaining secure communications between resistance cells across the empire.",
+          "role": "Communications Expert",
+          "relationships": {
+            "Function": "Secure communications",
+            "Network": "Resistance cells"
+          }
+        }
+      }
+    },
+    "forger-bell": {
+      "name": "Forger Bell",
+      "aliases": ["Bell"],
+      "appearances": [17, 25, 33, 41],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Document forger creating false identities and papers for resistance operatives.",
+          "role": "Document Forger",
+          "relationships": {
+            "Service": "False identities",
+            "Clients": "Resistance operatives"
+          }
+        }
+      }
+    },
+    "weapons-dealer-morgan": {
+      "name": "Weapons Dealer Morgan",
+      "aliases": ["Morgan"],
+      "appearances": [13, 21, 29, 37],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Black market arms dealer supplying weapons and equipment to resistance fighters.",
+          "role": "Weapons Dealer",
+          "relationships": {
+            "Service": "Arms supply",
+            "Network": "Black market"
+          }
+        }
+      }
+    },
+    "reconnaissance-specialist-ward": {
+      "name": "Reconnaissance Specialist Ward",
+      "aliases": ["Ward"],
+      "appearances": [21, 29, 37, 45, 53],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Stealth operative conducting surveillance and reconnaissance of imperial targets.",
+          "role": "Reconnaissance Specialist",
+          "relationships": {
+            "Function": "Target surveillance",
+            "Method": "Stealth operations"
+          }
+        }
+      }
+    },
+    "hacker-torres": {
+      "name": "Hacker Torres",
+      "aliases": ["Torres"],
+      "appearances": [13, 21, 29, 37, 45],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Computer specialist infiltrating imperial networks and stealing classified information.",
+          "role": "Computer Hacker",
+          "relationships": {
+            "Target": "Imperial networks",
+            "Function": "Information theft"
+          }
+        }
+      }
+    },
+    "safe-house-keeper-cox": {
+      "name": "Safe House Keeper Cox",
+      "aliases": ["Cox"],
+      "appearances": [17, 25, 33, 41, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Resistance member maintaining safe houses and hiding places for operatives across the systems.",
+          "role": "Safe House Keeper",
+          "relationships": {
+            "Function": "Operational security",
+            "Service": "Safe houses"
+          }
+        }
+      }
+    },
+    "medical-volunteer-gray": {
+      "name": "Medical Volunteer Gray",
+      "aliases": ["Gray"],
+      "appearances": [21, 29, 37, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Medical professional providing healthcare to wounded resistance fighters.",
+          "role": "Underground Medic",
+          "relationships": {
+            "Service": "Medical care",
+            "Patients": "Resistance fighters"
+          }
+        }
+      }
+    },
+    "transport-pilot-brooks": {
+      "name": "Transport Pilot Brooks",
+      "aliases": ["Brooks"],
+      "appearances": [17, 25, 33, 41, 49],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Pilot specializing in covert transport missions for resistance personnel and supplies.",
+          "role": "Covert Pilot",
+          "relationships": {
+            "Function": "Covert transport",
+            "Equipment": "Modified spacecraft"
+          }
+        }
+      }
+    },
+    "propaganda-writer-hayes": {
+      "name": "Propaganda Writer Hayes",
+      "aliases": ["Hayes"],
+      "appearances": [13, 21, 29, 37],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Writer and propagandist creating anti-imperial content to undermine Laconian authority.",
+          "role": "Propaganda Writer",
+          "relationships": {
+            "Function": "Anti-imperial propaganda",
+            "Target": "Public opinion"
+          }
+        }
+      }
+    },
+    "recruitment-officer-perry": {
+      "name": "Recruitment Officer Perry",
+      "aliases": ["Perry"],
+      "appearances": [21, 29, 37, 45],
+      "knowledge": {
+        "21": {
+          "revealedIn": 21,
+          "description": "Resistance recruiter identifying and bringing new members into the underground network.",
+          "role": "Recruitment Officer",
+          "relationships": {
+            "Function": "Recruitment operations",
+            "Network": "Underground expansion"
+          }
+        }
+      }
+    },
+    "logistics-coordinator-russell": {
+      "name": "Logistics Coordinator Russell",
+      "aliases": ["Russell"],
+      "appearances": [17, 25, 33, 41, 49, 53],
+      "knowledge": {
+        "17": {
+          "revealedIn": 17,
+          "description": "Operations coordinator managing the complex logistics of multi-system resistance activities.",
+          "role": "Logistics Coordinator",
+          "relationships": {
+            "Function": "Operations logistics",
+            "Scope": "Multi-system coordination"
+          }
+        },
+        "33": {
+          "revealedIn": 33,
+          "description": "Adapts logistics networks to cope with increasing imperial crackdowns on resistance activities.",
+          "role": "Adaptive Coordinator",
+          "relationships": {
+            "Challenge": "Imperial crackdowns"
+          }
+        }
+      }
+    },
+    "auberon-mayor-torres": {
+      "name": "Mayor Torres",
+      "aliases": ["Torres"],
+      "appearances": [10, 18, 26, 34, 42, 50],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Mayor of Auberon colony dealing with the aftermath of the neutron star incident and imperial investigation.",
+          "role": "Colonial Mayor",
+          "relationships": {
+            "Colony": "Auberon",
+            "Challenge": "Imperial investigation"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Balances protecting colony residents with complying with increasingly strict imperial oversight.",
+          "role": "Protective Leader",
+          "relationships": {
+            "Priority": "Resident safety"
+          }
+        }
+      }
+    },
+    "auberon-security-chief": {
+      "name": "Security Chief Patterson",
+      "aliases": ["Patterson"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Colony security chief managing local law enforcement and coordinating with imperial investigators.",
+          "role": "Colonial Security",
+          "relationships": {
+            "Authority": "Local security",
+            "Cooperation": "Imperial investigation"
+          }
+        }
+      }
+    },
+    "auberon-doctor-kim": {
+      "name": "Colony Doctor Kim",
+      "aliases": ["Dr. Kim"],
+      "appearances": [10, 18, 26, 34, 42, 50],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Chief medical officer providing healthcare to Auberon colonists during the crisis period.",
+          "role": "Colony Doctor",
+          "relationships": {
+            "Service": "Colonial healthcare",
+            "Location": "Auberon colony"
+          }
+        },
+        "26": {
+          "revealedIn": 26,
+          "description": "Treats colonists affected by the neutron star incident and ongoing imperial investigations.",
+          "role": "Crisis Physician",
+          "relationships": {
+            "Treatment": "Incident-related injuries"
+          }
+        }
+      }
+    },
+    "auberon-teacher-lopez": {
+      "name": "School Teacher Lopez",
+      "aliases": ["Lopez"],
+      "appearances": [10, 18, 26, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Educator teaching colony children while dealing with the disruption caused by imperial investigations.",
+          "role": "School Teacher",
+          "relationships": {
+            "Students": "Colony children",
+            "Challenge": "Educational disruption"
+          }
+        }
+      }
+    },
+    "auberon-farmer-clark": {
+      "name": "Farmer Clark",
+      "aliases": ["Clark"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Agricultural worker managing food production for the Auberon colony.",
+          "role": "Colonial Farmer",
+          "relationships": {
+            "Function": "Food production",
+            "Location": "Auberon farms"
+          }
+        }
+      }
+    },
+    "auberon-mechanic-white": {
+      "name": "Mechanic White",
+      "aliases": ["White"],
+      "appearances": [10, 18, 26, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Maintenance specialist keeping colony equipment and infrastructure operational.",
+          "role": "Colony Mechanic",
+          "relationships": {
+            "Function": "Equipment maintenance",
+            "Responsibility": "Colony infrastructure"
+          }
+        }
+      }
+    },
+    "auberon-shopkeeper-hall": {
+      "name": "Shopkeeper Hall",
+      "aliases": ["Hall"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Local merchant managing supplies and trade for Auberon colony residents.",
+          "role": "Colony Shopkeeper",
+          "relationships": {
+            "Service": "Supplies and trade",
+            "Customers": "Colony residents"
+          }
+        }
+      }
+    },
+    "auberon-librarian-green": {
+      "name": "Colony Librarian Green",
+      "aliases": ["Green"],
+      "appearances": [10, 18, 26, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Information specialist maintaining the colony's records and educational resources.",
+          "role": "Colony Librarian",
+          "relationships": {
+            "Function": "Information management",
+            "Service": "Educational resources"
+          }
+        }
+      }
+    },
+    "auberon-bartender-davis": {
+      "name": "Bartender Davis",
+      "aliases": ["Davis"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Local establishment owner serving as a gathering place for colonists during the crisis.",
+          "role": "Colony Bartender",
+          "relationships": {
+            "Service": "Social gathering place",
+            "Customers": "Local colonists"
+          }
+        }
+      }
+    },
+    "auberon-miner-brown": {
+      "name": "Miner Brown",
+      "aliases": ["Brown"],
+      "appearances": [10, 18, 26, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Industrial worker extracting resources from Auberon's mineral deposits.",
+          "role": "Colony Miner",
+          "relationships": {
+            "Work": "Resource extraction",
+            "Location": "Auberon mines"
+          }
+        }
+      }
+    },
+    "auberon-pilot-wilson": {
+      "name": "Colony Pilot Wilson",
+      "aliases": ["Wilson"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Transport pilot managing cargo and passenger flights between Auberon and other colonies.",
+          "role": "Colony Pilot",
+          "relationships": {
+            "Function": "Inter-colony transport",
+            "Route": "Colony network"
+          }
+        }
+      }
+    },
+    "auberon-historian-taylor": {
+      "name": "Colony Historian Taylor",
+      "aliases": ["Taylor"],
+      "appearances": [10, 18, 26, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Local historian documenting Auberon's colonial development and recent crisis events.",
+          "role": "Colony Historian",
+          "relationships": {
+            "Documentation": "Colonial history",
+            "Focus": "Crisis events"
+          }
+        }
+      }
+    },
+    "auberon-artist-moore": {
+      "name": "Artist Moore",
+      "aliases": ["Moore"],
+      "appearances": [10, 18, 26],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Local artist creating works that reflect the colonial experience and recent traumatic events.",
+          "role": "Colony Artist",
+          "relationships": {
+            "Art": "Colonial experience",
+            "Theme": "Recent events"
+          }
+        }
+      }
+    },
+    "auberon-counselor-martin": {
+      "name": "Counselor Martin",
+      "aliases": ["Martin"],
+      "appearances": [10, 18, 26, 34, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Mental health professional helping colonists cope with trauma from the neutron star incident.",
+          "role": "Colony Counselor",
+          "relationships": {
+            "Service": "Mental health support",
+            "Patients": "Traumatized colonists"
+          }
+        }
+      }
+    },
+    "auberon-youth-leader": {
+      "name": "Youth Leader Anderson",
+      "aliases": ["Anderson"],
+      "appearances": [10, 18, 26, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Community organizer working with young colonists and helping them adapt to post-crisis life.",
+          "role": "Youth Leader",
+          "relationships": {
+            "Work": "Youth programs",
+            "Focus": "Post-crisis adaptation"
+          }
+        }
+      }
+    },
+    "xenobiologist-carter": {
+      "name": "Xenobiologist Carter",
+      "aliases": ["Dr. Carter"],
+      "appearances": [14, 22, 30, 38, 46, 52],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Specialist studying alien biology and the effects of ring builder technology on living systems.",
+          "role": "Xenobiologist",
+          "relationships": {
+            "Research": "Alien biology",
+            "Focus": "Ring builder effects"
+          }
+        }
+      }
+    },
+    "prison-warden-jackson": {
+      "name": "Prison Warden Jackson",
+      "aliases": ["Jackson"],
+      "appearances": [7, 15, 23, 31, 39, 47],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Head of the Laconian prison facility holding high-value political prisoners including Holden.",
+          "role": "Prison Warden",
+          "relationships": {
+            "Facility": "Political prison",
+            "Prisoner": "James Holden"
+          }
+        }
+      }
+    },
+    "transport-captain-rivera": {
+      "name": "Transport Captain Rivera",
+      "aliases": ["Rivera"],
+      "appearances": [12, 20, 28, 36, 44, 52],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Commercial transport captain managing cargo and passenger runs through the ring gate network.",
+          "role": "Transport Captain",
+          "relationships": {
+            "Route": "Ring gate network",
+            "Function": "Commercial transport"
+          }
+        }
+      }
+    },
+    "research-director-vaughn": {
+      "name": "Research Director Vaughn",
+      "aliases": ["Dr. Vaughn"],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Director of Laconian scientific research programs focusing on alien technology integration.",
+          "role": "Research Director",
+          "relationships": {
+            "Program": "Alien technology research",
+            "Authority": "Scientific oversight"
+          }
+        }
+      }
+    },
+    "prison-guard-murphy": {
+      "name": "Prison Guard Murphy",
+      "aliases": ["Murphy"],
+      "appearances": [7, 15, 23, 31, 39],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Security guard working at the facility holding political prisoners for the Laconian Empire.",
+          "role": "Prison Guard",
+          "relationships": {
+            "Workplace": "Political prison",
+            "Authority": "Prisoner security"
+          }
+        }
+      }
+    },
+    "ship-engineer-cooper": {
+      "name": "Ship Engineer Cooper",
+      "aliases": ["Cooper"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Engineering specialist maintaining civilian transport vessels operating in imperial space.",
+          "role": "Ship Engineer",
+          "relationships": {
+            "Function": "Ship maintenance",
+            "Vessels": "Civilian transports"
+          }
+        }
+      }
+    },
+    "medical-researcher-lee": {
+      "name": "Medical Researcher Lee",
+      "aliases": ["Dr. Lee"],
+      "appearances": [20, 28, 36, 44, 52],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Medical scientist studying the biological effects of alien enhancement technology on human subjects.",
+          "role": "Medical Researcher",
+          "relationships": {
+            "Research": "Enhancement effects",
+            "Subjects": "Human test subjects"
+          }
+        }
+      }
+    },
+    "communications-tech-bell": {
+      "name": "Communications Tech Bell",
+      "aliases": ["Bell"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Technical specialist maintaining communication systems across the imperial network.",
+          "role": "Communications Technician",
+          "relationships": {
+            "Function": "Communication systems",
+            "Network": "Imperial communications"
+          }
+        }
+      }
+    },
+    "cargo-supervisor-stone": {
+      "name": "Cargo Supervisor Stone",
+      "aliases": ["Stone"],
+      "appearances": [12, 20, 28, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Logistics specialist managing cargo operations and supply distribution throughout imperial space.",
+          "role": "Cargo Supervisor",
+          "relationships": {
+            "Function": "Cargo management",
+            "Scope": "Imperial logistics"
+          }
+        }
+      }
+    },
+    "physicist-gray": {
+      "name": "Physicist Gray",
+      "aliases": ["Dr. Gray"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Theoretical physicist studying the space-time effects of ring gate technology and alien physics.",
+          "role": "Theoretical Physicist",
+          "relationships": {
+            "Research": "Space-time effects",
+            "Focus": "Alien physics"
+          }
+        }
+      }
+    },
+    "prison-medic-ward": {
+      "name": "Prison Medic Ward",
+      "aliases": ["Dr. Ward"],
+      "appearances": [7, 15, 23, 31, 39],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Medical professional providing healthcare to prisoners in Laconian detention facilities.",
+          "role": "Prison Medic",
+          "relationships": {
+            "Service": "Prisoner healthcare",
+            "Facility": "Laconian prison"
+          }
+        }
+      }
+    },
+    "freight-pilot-cox": {
+      "name": "Freight Pilot Cox",
+      "aliases": ["Cox"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Commercial pilot transporting goods and materials between colonies and imperial facilities.",
+          "role": "Freight Pilot",
+          "relationships": {
+            "Function": "Cargo transport",
+            "Route": "Colonial network"
+          }
+        }
+      }
+    },
+    "lab-assistant-perry": {
+      "name": "Lab Assistant Perry",
+      "aliases": ["Perry"],
+      "appearances": [18, 26, 34, 42],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Research assistant supporting scientific studies of alien technology and enhancement effects.",
+          "role": "Lab Assistant",
+          "relationships": {
+            "Function": "Research support",
+            "Field": "Alien technology"
+          }
+        }
+      }
+    },
+    "security-specialist-hayes": {
+      "name": "Security Specialist Hayes",
+      "aliases": ["Hayes"],
+      "appearances": [6, 14, 22, 30],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Security expert specializing in protecting sensitive imperial research facilities and personnel.",
+          "role": "Security Specialist",
+          "relationships": {
+            "Function": "Research security",
+            "Protection": "Imperial facilities"
+          }
+        }
+      }
+    },
+    "nurse-russell": {
+      "name": "Nurse Russell",
+      "aliases": ["Russell"],
+      "appearances": [20, 28, 36, 44, 52],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Medical professional assisting in the care of patients undergoing alien enhancement procedures.",
+          "role": "Medical Nurse",
+          "relationships": {
+            "Service": "Enhancement care",
+            "Patients": "Test subjects"
+          }
+        }
+      }
+    },
+    "docking-supervisor-brooks": {
+      "name": "Docking Supervisor Brooks",
+      "aliases": ["Brooks"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Port authority managing spacecraft docking and departure operations at imperial facilities.",
+          "role": "Docking Supervisor",
+          "relationships": {
+            "Function": "Port operations",
+            "Authority": "Spacecraft management"
+          }
+        }
+      }
+    },
+    "biochemist-torres": {
+      "name": "Biochemist Torres",
+      "aliases": ["Dr. Torres"],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Chemical specialist studying the molecular basis of alien technology integration with human biology.",
+          "role": "Biochemist",
+          "relationships": {
+            "Research": "Molecular integration",
+            "Focus": "Human-alien biology"
+          }
+        }
+      }
+    },
+    "prison-counselor-morgan": {
+      "name": "Prison Counselor Morgan",
+      "aliases": ["Morgan"],
+      "appearances": [7, 15, 23, 31],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Mental health professional providing psychological support to political prisoners.",
+          "role": "Prison Counselor",
+          "relationships": {
+            "Service": "Prisoner mental health",
+            "Clients": "Political prisoners"
+          }
+        }
+      }
+    },
+    "maintenance-chief-kelly": {
+      "name": "Maintenance Chief Kelly",
+      "aliases": ["Kelly"],
+      "appearances": [11, 19, 27, 35, 43],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Senior maintenance supervisor managing upkeep of critical imperial infrastructure and technology.",
+          "role": "Maintenance Chief",
+          "relationships": {
+            "Responsibility": "Imperial infrastructure",
+            "Technology": "Critical systems"
+          }
+        }
+      }
+    },
+    "paramedic-scott": {
+      "name": "Paramedic Scott",
+      "aliases": ["Scott"],
+      "appearances": [20, 28, 36, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Emergency medical technician providing rapid response medical care across imperial facilities.",
+          "role": "Emergency Paramedic",
+          "relationships": {
+            "Service": "Emergency care",
+            "Coverage": "Imperial facilities"
+          }
+        }
+      }
+    },
+    "shuttle-pilot-allen": {
+      "name": "Shuttle Pilot Allen",
+      "aliases": ["Allen"],
+      "appearances": [12, 20, 28, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Short-range pilot operating shuttle services between stations and planetary surfaces.",
+          "role": "Shuttle Pilot",
+          "relationships": {
+            "Function": "Short-range transport",
+            "Route": "Station-surface runs"
+          }
+        }
+      }
+    },
+    "data-analyst-clark": {
+      "name": "Data Analyst Clark",
+      "aliases": ["Clark"],
+      "appearances": [14, 22, 30, 38, 46],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Information specialist analyzing scientific data and research results for imperial programs.",
+          "role": "Data Analyst",
+          "relationships": {
+            "Function": "Data analysis",
+            "Focus": "Scientific research"
+          }
+        }
+      }
+    },
+    "prison-administrator-white": {
+      "name": "Prison Administrator White",
+      "aliases": ["White"],
+      "appearances": [7, 15, 23, 31, 39],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Administrative official managing the bureaucratic operations of imperial detention facilities.",
+          "role": "Prison Administrator",
+          "relationships": {
+            "Function": "Prison administration",
+            "Authority": "Facility management"
+          }
+        }
+      }
+    },
+    "therapist-green": {
+      "name": "Therapist Green",
+      "aliases": ["Dr. Green"],
+      "appearances": [20, 28, 36, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Mental health specialist treating psychological effects of alien enhancement procedures.",
+          "role": "Enhancement Therapist",
+          "relationships": {
+            "Treatment": "Enhancement psychology",
+            "Patients": "Enhanced subjects"
+          }
+        }
+      }
+    },
+    "cargo-handler-davis": {
+      "name": "Cargo Handler Davis",
+      "aliases": ["Davis"],
+      "appearances": [12, 20, 28, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Logistics worker managing the physical loading and unloading of cargo shipments.",
+          "role": "Cargo Handler",
+          "relationships": {
+            "Function": "Physical cargo handling",
+            "Location": "Transport facilities"
+          }
+        }
+      }
+    },
+    "research-coordinator-hill": {
+      "name": "Research Coordinator Hill",
+      "aliases": ["Hill"],
+      "appearances": [18, 26, 34, 42, 50],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Project coordinator managing multiple scientific research initiatives for the imperial science program.",
+          "role": "Research Coordinator",
+          "relationships": {
+            "Function": "Project management",
+            "Scope": "Imperial science programs"
+          }
+        }
+      }
+    },
+    "prison-cook-turner": {
+      "name": "Prison Cook Turner",
+      "aliases": ["Turner"],
+      "appearances": [7, 15, 23, 31],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Food service worker preparing meals for prisoners and staff at imperial detention facilities.",
+          "role": "Prison Cook",
+          "relationships": {
+            "Service": "Facility food preparation",
+            "Clients": "Prisoners and staff"
+          }
+        }
+      }
+    },
+    "radiologist-martin": {
+      "name": "Radiologist Martin",
+      "aliases": ["Dr. Martin"],
+      "appearances": [20, 28, 36, 44],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "Medical imaging specialist monitoring the physical changes in subjects undergoing alien enhancement.",
+          "role": "Medical Radiologist",
+          "relationships": {
+            "Function": "Medical imaging",
+            "Focus": "Enhancement monitoring"
+          }
+        }
+      }
+    },
+    "transport-navigator-baker": {
+      "name": "Transport Navigator Baker",
+      "aliases": ["Baker"],
+      "appearances": [12, 20, 28, 36, 44],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Navigation specialist calculating routes and ensuring safe passage through ring gate networks.",
+          "role": "Transport Navigator",
+          "relationships": {
+            "Function": "Route calculation",
+            "Network": "Ring gate navigation"
+          }
+        }
+      }
+    },
+    "lab-director-evans": {
+      "name": "Lab Director Evans",
+      "aliases": ["Dr. Evans"],
+      "appearances": [18, 26, 34, 42, 50, 52],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Senior scientist directing laboratory research into alien technology applications and human enhancement.",
+          "role": "Laboratory Director",
+          "relationships": {
+            "Authority": "Lab operations",
+            "Research": "Enhancement technology"
+          }
+        },
+        "34": {
+          "revealedIn": 34,
+          "description": "Oversees increasingly dangerous experiments as the empire pushes the boundaries of alien technology.",
+          "role": "Project Director",
+          "relationships": {
+            "Concern": "Experimental dangers"
+          }
+        }
+      }
+    },
+    "supply-clerk-phillips": {
+      "name": "Supply Clerk Phillips",
+      "aliases": ["Phillips"],
+      "appearances": [12, 20, 28, 36],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Administrative worker managing inventory and distribution of supplies throughout imperial facilities.",
+          "role": "Supply Clerk",
+          "relationships": {
+            "Function": "Inventory management",
+            "Scope": "Imperial supply chain"
+          }
+        }
+      }
     }
   },
   "recaps": {
