@@ -1,0 +1,2546 @@
+{
+  "meta": {
+    "title": "Mort",
+    "author": "Terry Pratchett",
+    "chapters": 13,
+    "schemaVersion": "2.0",
+    "asin": "0062225715"
+  },
+  "characters": {
+    "mort": {
+      "name": "Mort",
+      "aliases": ["Mortimer"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A tall, gangling youth with an Adam's apple and hands that he doesn't know what to do with. The sort of person who takes up two seats and leaves you wondering where the other one went.",
+          "role": "Apprentice to Death",
+          "relationships": {
+            "Apprentice to": "Death",
+            "Son of": "Lezek the farmer"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Beginning to master the use of Death's sword and the supernatural abilities that come with his apprenticeship. Growing more confident in his role.",
+          "role": "Death's apprentice learning the duties",
+          "relationships": {
+            "Apprentice to": "Death",
+            "Attracted to": "Princess Keli",
+            "Fellow resident": "Ysabell"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Becoming more powerful and taking on aspects of Death himself. His actions begin to have serious consequences for reality.",
+          "role": "Apprentice gaining Death's powers",
+          "relationships": {
+            "Apprentice to": "Death",
+            "In love with": "Princess Keli",
+            "Concerned about": "Ysabell"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Has learned the true responsibilities and burdens of Death's role. Matured through his experiences and trials.",
+          "role": "Experienced apprentice",
+          "relationships": {
+            "Apprentice to": "Death",
+            "Married to": "Ysabell",
+            "Protector of": "Princess Keli"
+          }
+        }
+      }
+    },
+    "death": {
+      "name": "Death",
+      "aliases": ["The Grim Reaper", "The Pale Rider", "Azrael"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A seven-foot skeleton in a black robe who rides a pale horse named Binky. Speaks in CAPITAL LETTERS and has a curious fascination with humanity.",
+          "role": "Anthropomorphic personification of Death",
+          "relationships": {
+            "Master to": "Mort",
+            "Adoptive father to": "Ysabell",
+            "Employer of": "Albert"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Becoming increasingly interested in what it means to be human. Taking a vacation from his duties to experience mortal life.",
+          "role": "Death exploring humanity",
+          "relationships": {
+            "Master to": "Mort",
+            "Father figure to": "Ysabell",
+            "Employer of": "Albert"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Working as a short-order cook, trying to understand human emotions and relationships while his apprentice handles his duties.",
+          "role": "Death experiencing mortal work",
+          "relationships": {
+            "Master to": "Mort",
+            "Father to": "Ysabell",
+            "Concerned about": "Reality's stability"
+          }
+        }
+      }
+    },
+    "ysabell": {
+      "name": "Ysabell",
+      "aliases": [],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Death's adopted daughter, a young woman who has lived in Death's domain for years. Sharp-tongued and intelligent.",
+          "role": "Death's adopted daughter",
+          "relationships": {
+            "Adopted daughter of": "Death",
+            "Housemate of": "Albert",
+            "New acquaintance of": "Mort"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Growing fond of Mort despite his awkwardness. Knows more about Death's domain and duties than she initially lets on.",
+          "role": "Knowledgeable resident of Death's domain",
+          "relationships": {
+            "Daughter of": "Death",
+            "Friend of": "Mort",
+            "Companion to": "Albert"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Has proven herself brave and resourceful. Ready to start a new life with Mort as a mortal.",
+          "role": "Mort's wife and partner",
+          "relationships": {
+            "Married to": "Mort",
+            "Daughter of": "Death",
+            "Friend of": "Albert"
+          }
+        }
+      }
+    },
+    "albert": {
+      "name": "Albert",
+      "aliases": ["Alberto Malich"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Death's elderly manservant who cooks and maintains the domain. Has a mysterious past and seems to know more about magic than a servant should.",
+          "role": "Death's manservant",
+          "relationships": {
+            "Servant to": "Death",
+            "Housemate of": "Ysabell",
+            "Mentor to": "Mort"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Revealed to be Alberto Malich, a former Archchancellor of Unseen University who achieved a form of immortality.",
+          "role": "Former Archchancellor, now Death's servant",
+          "relationships": {
+            "Servant to": "Death",
+            "Former colleague of": "Unseen University wizards",
+            "Guardian of": "Ysabell"
+          }
+        }
+      }
+    },
+    "princess-keli": {
+      "name": "Princess Keli",
+      "aliases": ["Kelirehenna"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The young heir to the throne of Sto Lat. Scheduled to die in an assassination attempt but saved by Mort's intervention.",
+          "role": "Princess of Sto Lat",
+          "relationships": {
+            "Daughter of": "The King of Sto Lat",
+            "Protected by": "Mort",
+            "Served by": "Royal guards"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Caught between life and death due to Mort's intervention. Becoming translucent and existing in an altered reality.",
+          "role": "Princess caught between realities",
+          "relationships": {
+            "In love with": "Mort",
+            "Served by": "Cutwell",
+            "Protected by": "Royal guards"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Restored to full life and reality. Ready to take her place as a wise and just ruler.",
+          "role": "Future Queen of Sto Lat",
+          "relationships": {
+            "Friend of": "Mort",
+            "Served by": "Cutwell",
+            "Ruler of": "Sto Lat subjects"
+          }
+        }
+      }
+    },
+    "cutwell": {
+      "name": "Cutwell",
+      "aliases": ["Igneous Cutwell"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young wizard who serves as the court wizard of Sto Lat. Enthusiastic but not particularly powerful in magic.",
+          "role": "Court wizard of Sto Lat",
+          "relationships": {
+            "Serves": "Princess Keli",
+            "Graduate of": "Unseen University",
+            "Ally of": "Mort"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "One of the few people who can still see Princess Keli clearly. Works to help restore the proper reality.",
+          "role": "Wizard helping to fix reality",
+          "relationships": {
+            "Loyal to": "Princess Keli",
+            "Working with": "Mort",
+            "Court wizard of": "Sto Lat"
+          }
+        }
+      }
+    },
+    "binky": {
+      "name": "Binky",
+      "aliases": [],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Death's pale horse, actually a white stallion. Can gallop through the air and across dimensions.",
+          "role": "Death's steed",
+          "relationships": {
+            "Mount of": "Death",
+            "Sometimes ridden by": "Mort"
+          }
+        }
+      }
+    },
+    "lezek": {
+      "name": "Lezek",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mort's father, a farmer who is at his wit's end about what to do with his awkward son.",
+          "role": "Farmer, Mort's father",
+          "relationships": {
+            "Father of": "Mort",
+            "Husband of": "Mort's mother"
+          }
+        }
+      }
+    },
+    "king-olerve": {
+      "name": "King Olerve",
+      "aliases": ["King Olerve the Bastard"],
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The aging King of Sto Lat, Princess Keli's father. A practical ruler concerned about succession.",
+          "role": "King of Sto Lat",
+          "relationships": {
+            "Father of": "Princess Keli",
+            "Ruler of": "Sto Lat",
+            "Employer of": "Royal guards"
+          }
+        }
+      }
+    },
+    "duke-sto-helit": {
+      "name": "Duke Sto Helit",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A scheming nobleman who plots to assassinate Princess Keli. Ambitious and ruthless.",
+          "role": "Treacherous Duke",
+          "relationships": {
+            "Enemy of": "Princess Keli",
+            "Conspirator with": "Assassins",
+            "Subject of": "King Olerve"
+          }
+        }
+      }
+    },
+    "chief-guard": {
+      "name": "Chief Guard",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 8, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The captain of Princess Keli's personal guard. Loyal and competent but mystified by recent events.",
+          "role": "Captain of royal guards",
+          "relationships": {
+            "Protects": "Princess Keli",
+            "Reports to": "King Olerve",
+            "Commands": "Palace guards"
+          }
+        }
+      }
+    },
+    "archchancellor-ymper": {
+      "name": "Archchancellor Ymper Trymon",
+      "aliases": ["Trymon"],
+      "appearances": [6, 8, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The current Archchancellor of Unseen University. Ambitious and concerned about magical disturbances.",
+          "role": "Head of Unseen University",
+          "relationships": {
+            "Leader of": "Unseen University wizards",
+            "Successor to": "Alberto Malich",
+            "Authority over": "Magic users"
+          }
+        }
+      }
+    },
+    "the-librarian": {
+      "name": "The Librarian",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Unseen University's librarian, transformed into an orangutan by magical accident. Highly protective of his books.",
+          "role": "University librarian",
+          "relationships": {
+            "Employee of": "Unseen University",
+            "Guardian of": "Magical books",
+            "Colleague of": "University wizards"
+          }
+        }
+      }
+    },
+    "mort-mother": {
+      "name": "Mort's Mother",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Lezek's wife and Mort's mother. Worried about her son's future prospects.",
+          "role": "Farmer's wife",
+          "relationships": {
+            "Wife of": "Lezek",
+            "Mother of": "Mort"
+          }
+        }
+      }
+    },
+    "first-assassin": {
+      "name": "First Assassin",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A professional killer hired to murder Princess Keli. Skilled but ultimately thwarted by supernatural intervention.",
+          "role": "Hired assassin",
+          "relationships": {
+            "Hired by": "Duke Sto Helit",
+            "Target": "Princess Keli"
+          }
+        }
+      }
+    },
+    "second-assassin": {
+      "name": "Second Assassin",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Partner to the first assassin in the plot against Princess Keli.",
+          "role": "Hired assassin",
+          "relationships": {
+            "Partner of": "First Assassin",
+            "Hired by": "Duke Sto Helit"
+          }
+        }
+      }
+    },
+    "palace-cook": {
+      "name": "Palace Cook",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The head cook at the royal palace of Sto Lat. Concerned about the strange goings-on.",
+          "role": "Royal cook",
+          "relationships": {
+            "Employee of": "Royal household",
+            "Serves": "Royal family"
+          }
+        }
+      }
+    },
+    "palace-steward": {
+      "name": "Palace Steward",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The chief administrator of the royal household. Trying to maintain order amid chaos.",
+          "role": "Palace administrator",
+          "relationships": {
+            "Serves": "King Olerve",
+            "Manages": "Palace staff"
+          }
+        }
+      }
+    },
+    "royal-physician": {
+      "name": "Royal Physician",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The court doctor who is baffled by Princess Keli's condition and the strange events.",
+          "role": "Court physician",
+          "relationships": {
+            "Treats": "Royal family",
+            "Colleague of": "Cutwell"
+          }
+        }
+      }
+    },
+    "tavern-keeper": {
+      "name": "Tavern Keeper",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Owner of the tavern where Death works as a cook. Mystified by his strange new employee.",
+          "role": "Tavern owner",
+          "relationships": {
+            "Employer of": "Death",
+            "Serves": "Tavern patrons"
+          }
+        }
+      }
+    },
+    "sid": {
+      "name": "Sid",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A regular customer at the tavern where Death works. Enjoys the new cook's unusual but excellent food.",
+          "role": "Tavern patron",
+          "relationships": {
+            "Customer of": "Tavern",
+            "Fed by": "Death"
+          }
+        }
+      }
+    },
+    "mrs-cake": {
+      "name": "Mrs. Cake",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A medium and fortune teller who senses the supernatural disturbances caused by Death's activities.",
+          "role": "Medium and clairvoyant",
+          "relationships": {
+            "Neighbor of": "Ankh-Morpork residents",
+            "Client service to": "Fortune seeking customers"
+          }
+        }
+      }
+    },
+    "war": {
+      "name": "War",
+      "aliases": [],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "One of Death's colleagues, the anthropomorphic personification of War. A large, armored figure.",
+          "role": "Anthropomorphic personification",
+          "relationships": {
+            "Colleague of": "Death",
+            "Fellow horseman with": "Famine and Pestilence"
+          }
+        }
+      }
+    },
+    "famine": {
+      "name": "Famine",
+      "aliases": [],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Another of Death's colleagues, representing hunger and want. Appears as a gaunt figure.",
+          "role": "Anthropomorphic personification",
+          "relationships": {
+            "Colleague of": "Death",
+            "Fellow horseman with": "War and Pestilence"
+          }
+        }
+      }
+    },
+    "pestilence": {
+      "name": "Pestilence",
+      "aliases": ["Disease"],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The third of Death's colleagues, embodying plague and disease. Works alongside the other horsemen.",
+          "role": "Anthropomorphic personification",
+          "relationships": {
+            "Colleague of": "Death",
+            "Fellow horseman with": "War and Famine"
+          }
+        }
+      }
+    },
+    "fate": {
+      "name": "Fate",
+      "aliases": [],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A powerful supernatural entity who plays games with mortal lives. Concerned about the disruption to reality.",
+          "role": "Cosmic gamesman",
+          "relationships": {
+            "Opponent of": "The Lady Who Must Not Be Named",
+            "Concerned about": "Death's activities"
+          }
+        }
+      }
+    },
+    "the-lady": {
+      "name": "The Lady Who Must Not Be Named",
+      "aliases": ["Lady Luck"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A mysterious entity who represents chance and fortune. Plays cosmic games with Fate.",
+          "role": "Personification of chance",
+          "relationships": {
+            "Opponent of": "Fate",
+            "Interested in": "Random outcomes"
+          }
+        }
+      }
+    },
+    "abbot": {
+      "name": "The Abbot",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Leader of a monastery who has achieved a form of spiritual enlightenment. Wise and contemplative.",
+          "role": "Monastery leader",
+          "relationships": {
+            "Leader of": "Monks",
+            "Teacher of": "Spiritual wisdom"
+          }
+        }
+      }
+    },
+    "monk-1": {
+      "name": "Brother Fingers",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A monk at the mountain monastery. Part of the spiritual community that provides wisdom.",
+          "role": "Monastery monk",
+          "relationships": {
+            "Serves under": "The Abbot",
+            "Fellow monk with": "Other brothers"
+          }
+        }
+      }
+    },
+    "monk-2": {
+      "name": "Brother Praying Mantis",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Another monk at the monastery, known for his meditative practices.",
+          "role": "Monastery monk",
+          "relationships": {
+            "Serves under": "The Abbot",
+            "Practices with": "Fellow monks"
+          }
+        }
+      }
+    },
+    "monk-3": {
+      "name": "Brother Plasterer",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A practical monk who handles the monastery's construction needs.",
+          "role": "Monastery craftsman monk",
+          "relationships": {
+            "Serves under": "The Abbot",
+            "Works alongside": "Fellow monks"
+          }
+        }
+      }
+    },
+    "history-monk": {
+      "name": "Lu-Tze",
+      "aliases": ["The Sweeper"],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An ancient monk who understands the nature of time and reality. Provides cryptic wisdom.",
+          "role": "Time-aware monk",
+          "relationships": {
+            "Member of": "Monastery",
+            "Understands": "Temporal mechanics"
+          }
+        }
+      }
+    },
+    "guard-1": {
+      "name": "Guard Carrot",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A palace guard loyal to Princess Keli. Honest and straightforward.",
+          "role": "Palace guard",
+          "relationships": {
+            "Protects": "Princess Keli",
+            "Serves under": "Chief Guard"
+          }
+        }
+      }
+    },
+    "guard-2": {
+      "name": "Guard Nobby",
+      "aliases": [],
+      "appearances": [3, 4, 5, 6, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another palace guard, somewhat less reliable than his colleagues.",
+          "role": "Palace guard",
+          "relationships": {
+            "Works with": "Guard Carrot",
+            "Serves": "Royal family"
+          }
+        }
+      }
+    },
+    "stable-master": {
+      "name": "Stable Master",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The man in charge of the royal stables. Knowledgeable about horses and their care.",
+          "role": "Royal stable keeper",
+          "relationships": {
+            "Employee of": "Royal household",
+            "Cares for": "Royal horses"
+          }
+        }
+      }
+    },
+    "herald": {
+      "name": "Royal Herald",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The official announcer for the royal court. Struggles with the changing reality.",
+          "role": "Court announcer",
+          "relationships": {
+            "Serves": "King Olerve",
+            "Announces for": "Royal court"
+          }
+        }
+      }
+    },
+    "captain-ankh": {
+      "name": "Captain Vimes",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Watch captain in Ankh-Morpork who notices the strange disturbances in the city.",
+          "role": "City Watch captain",
+          "relationships": {
+            "Commands": "City Watch",
+            "Protects": "Ankh-Morpork citizens"
+          }
+        }
+      }
+    },
+    "sergeant-colon": {
+      "name": "Sergeant Colon",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A sergeant in the Ankh-Morpork City Watch. Reliable but not the brightest.",
+          "role": "Watch sergeant",
+          "relationships": {
+            "Serves under": "Captain Vimes",
+            "Partner of": "Corporal Nobbs"
+          }
+        }
+      }
+    },
+    "corporal-nobbs": {
+      "name": "Corporal Nobbs",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A member of the City Watch with questionable personal hygiene and ethics.",
+          "role": "Watch corporal",
+          "relationships": {
+            "Partner of": "Sergeant Colon",
+            "Member of": "City Watch"
+          }
+        }
+      }
+    },
+    "wizard-jiglad": {
+      "name": "Jiglad Wert",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A wizard at Unseen University who notices the magical disturbances affecting reality.",
+          "role": "University wizard",
+          "relationships": {
+            "Member of": "Unseen University",
+            "Colleague of": "Other wizards"
+          }
+        }
+      }
+    },
+    "wizard-spelter": {
+      "name": "Spelter",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another wizard at the University, concerned about the growing magical chaos.",
+          "role": "University wizard",
+          "relationships": {
+            "Colleague of": "University wizards",
+            "Reports to": "Archchancellor"
+          }
+        }
+      }
+    },
+    "rincewind": {
+      "name": "Rincewind",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A wizard known for his cowardice and bad luck, mentioned in passing at the University.",
+          "role": "Cowardly wizard",
+          "relationships": {
+            "Former student of": "Unseen University",
+            "Known to": "University faculty"
+          }
+        }
+      }
+    },
+    "twoflower": {
+      "name": "Twoflower",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The Disc's first tourist, mentioned in University records as having caused various adventures.",
+          "role": "Tourist",
+          "relationships": {
+            "Traveling companion of": "Rincewind",
+            "Known by": "University wizards"
+          }
+        }
+      }
+    },
+    "bursar": {
+      "name": "The Bursar",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The University's financial administrator, increasingly unstable due to magical stress.",
+          "role": "University administrator",
+          "relationships": {
+            "Employee of": "Unseen University",
+            "Reports to": "Archchancellor"
+          }
+        }
+      }
+    },
+    "dean": {
+      "name": "The Dean",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A senior faculty member at Unseen University, pompous and self-important.",
+          "role": "University dean",
+          "relationships": {
+            "Senior member of": "University faculty",
+            "Colleague of": "Other senior wizards"
+          }
+        }
+      }
+    },
+    "lecturer": {
+      "name": "Lecturer in Recent Runes",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A faculty member who teaches about magical writing and symbols.",
+          "role": "University lecturer",
+          "relationships": {
+            "Teacher at": "Unseen University",
+            "Colleague of": "University faculty"
+          }
+        }
+      }
+    },
+    "chair-geography": {
+      "name": "Chair of Indefinite Studies",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A professor of vague and uncertain magical subjects.",
+          "role": "University professor",
+          "relationships": {
+            "Faculty member of": "Unseen University",
+            "Colleague of": "Other professors"
+          }
+        }
+      }
+    },
+    "seamstress-guild": {
+      "name": "Mrs. Palm",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Leader of Ankh-Morpork's seamstresses, a respectable businesswoman.",
+          "role": "Guild leader",
+          "relationships": {
+            "Leader of": "Seamstresses Guild",
+            "Businesswoman in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "thieves-guild": {
+      "name": "Mr. Boggis",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A representative of the Thieves Guild, operating within legal parameters.",
+          "role": "Professional thief",
+          "relationships": {
+            "Member of": "Thieves Guild",
+            "Operates in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "assassins-guild": {
+      "name": "Dr. Cruces",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Head of the Assassins Guild, a refined gentleman who practices murder as an art.",
+          "role": "Guild leader",
+          "relationships": {
+            "Leader of": "Assassins Guild",
+            "Employer of": "Professional killers"
+          }
+        }
+      }
+    },
+    "night-watch": {
+      "name": "Night Watchman",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A guard who patrols Ankh-Morpork's streets at night, witnessing strange events.",
+          "role": "City patrol guard",
+          "relationships": {
+            "Member of": "City Watch",
+            "Patrols": "Ankh-Morpork streets"
+          }
+        }
+      }
+    },
+    "merchant": {
+      "name": "Merchant Chriek",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A trader who does business with the royal court of Sto Lat.",
+          "role": "Royal supplier",
+          "relationships": {
+            "Trades with": "Royal court",
+            "Business in": "Sto Lat"
+          }
+        }
+      }
+    },
+    "innkeeper": {
+      "name": "Innkeeper Glod",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Owner of an inn in Sto Lat where travelers stay and gossip spreads.",
+          "role": "Inn proprietor",
+          "relationships": {
+            "Serves": "Travelers and locals",
+            "Business in": "Sto Lat"
+          }
+        }
+      }
+    },
+    "blacksmith": {
+      "name": "Smith Carcer",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The local blacksmith in Sto Lat who provides metalwork for the royal household.",
+          "role": "Royal blacksmith",
+          "relationships": {
+            "Serves": "Royal household",
+            "Craftsman in": "Sto Lat"
+          }
+        }
+      }
+    },
+    "baker": {
+      "name": "Baker Dibbler",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A baker who supplies bread to both royal and common customers.",
+          "role": "Town baker",
+          "relationships": {
+            "Supplies": "Local residents",
+            "Trades in": "Sto Lat"
+          }
+        }
+      }
+    },
+    "farmer": {
+      "name": "Farmer Threepwood",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A local farmer who supplies produce to the royal kitchens.",
+          "role": "Royal supplier",
+          "relationships": {
+            "Supplies": "Royal kitchens",
+            "Farms near": "Sto Lat"
+          }
+        }
+      }
+    },
+    "maid-1": {
+      "name": "Maid Agnes",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A servant in the royal palace who helps care for Princess Keli.",
+          "role": "Royal servant",
+          "relationships": {
+            "Serves": "Princess Keli",
+            "Works in": "Royal palace"
+          }
+        }
+      }
+    },
+    "maid-2": {
+      "name": "Maid Ludmilla",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another palace maid who assists with royal household duties.",
+          "role": "Palace servant",
+          "relationships": {
+            "Co-worker of": "Maid Agnes",
+            "Serves": "Royal household"
+          }
+        }
+      }
+    },
+    "scullery-maid": {
+      "name": "Scullery Maid",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A kitchen servant responsible for cleaning dishes and assisting the cook.",
+          "role": "Kitchen worker",
+          "relationships": {
+            "Assists": "Palace Cook",
+            "Works in": "Royal kitchens"
+          }
+        }
+      }
+    },
+    "groom": {
+      "name": "Groom Pteppic",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A stable worker who cares for the royal horses and maintains equipment.",
+          "role": "Stable worker",
+          "relationships": {
+            "Works under": "Stable Master",
+            "Cares for": "Royal horses"
+          }
+        }
+      }
+    },
+    "gardener": {
+      "name": "Gardener Modo",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The palace gardener who maintains the royal grounds and gardens.",
+          "role": "Palace groundskeeper",
+          "relationships": {
+            "Maintains": "Royal gardens",
+            "Employee of": "Royal household"
+          }
+        }
+      }
+    },
+    "courtier-1": {
+      "name": "Lord Rodley",
+      "aliases": [],
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A nobleman at court who serves as an advisor to the king.",
+          "role": "Royal courtier",
+          "relationships": {
+            "Advisor to": "King Olerve",
+            "Member of": "Royal court"
+          }
+        }
+      }
+    },
+    "courtier-2": {
+      "name": "Lady Sybil",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A noblewoman at court who serves as a companion to the royal family.",
+          "role": "Court lady",
+          "relationships": {
+            "Companion to": "Princess Keli",
+            "Member of": "Royal court"
+          }
+        }
+      }
+    },
+    "priest": {
+      "name": "High Priest Dios",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The chief religious official in Sto Lat who performs ceremonies and provides spiritual guidance.",
+          "role": "Religious leader",
+          "relationships": {
+            "Serves": "Royal family",
+            "Leads": "Local religious community"
+          }
+        }
+      }
+    },
+    "acolyte": {
+      "name": "Acolyte Teppic",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young priest who assists with religious ceremonies and duties.",
+          "role": "Junior priest",
+          "relationships": {
+            "Serves under": "High Priest Dios",
+            "Assists with": "Religious ceremonies"
+          }
+        }
+      }
+    },
+    "town-crier": {
+      "name": "Town Crier",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The official who announces news and proclamations to the citizens of Sto Lat.",
+          "role": "Public announcer",
+          "relationships": {
+            "Serves": "Royal government",
+            "Informs": "Town citizens"
+          }
+        }
+      }
+    },
+    "fishmonger": {
+      "name": "Fishmonger Sally",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A trader who sells fish in the market and hears all the local gossip.",
+          "role": "Market vendor",
+          "relationships": {
+            "Trades in": "Town market",
+            "Gossips with": "Local customers"
+          }
+        }
+      }
+    },
+    "beggar": {
+      "name": "Beggar Foul Ole Ron",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A street person in Ankh-Morpork who witnesses the strange supernatural events.",
+          "role": "Street beggar",
+          "relationships": {
+            "Lives on": "Ankh-Morpork streets",
+            "Witnesses": "Supernatural events"
+          }
+        }
+      }
+    },
+    "student-wizard": {
+      "name": "Student Ponder",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A young wizard studying at Unseen University, eager to learn about magic.",
+          "role": "Magic student",
+          "relationships": {
+            "Studies at": "Unseen University",
+            "Learns from": "University faculty"
+          }
+        }
+      }
+    },
+    "porter": {
+      "name": "University Porter",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The doorkeeper at Unseen University who controls access to the magical institution.",
+          "role": "University gatekeeper",
+          "relationships": {
+            "Employee of": "Unseen University",
+            "Guards": "University entrance"
+          }
+        }
+      }
+    },
+    "death-of-rats": {
+      "name": "Death of Rats",
+      "aliases": [],
+      "appearances": [11, 12, 13],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A small personification of death who handles the demise of rodents and small creatures.",
+          "role": "Minor death personification",
+          "relationships": {
+            "Subordinate to": "Death",
+            "Handles": "Small animal deaths"
+          }
+        }
+      }
+    },
+    "death-of-fleas": {
+      "name": "Death of Fleas",
+      "aliases": [],
+      "appearances": [11],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "An even smaller personification who deals with the deaths of insects.",
+          "role": "Tiny death personification",
+          "relationships": {
+            "Works with": "Death of Rats",
+            "Handles": "Insect deaths"
+          }
+        }
+      }
+    },
+    "gargoyle": {
+      "name": "Cornice-overlooking-Broadway",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A stone gargoyle who comes to life and observes the city from his perch.",
+          "role": "Architectural guardian",
+          "relationships": {
+            "Watches over": "City buildings",
+            "Observes": "Street activities"
+          }
+        }
+      }
+    },
+    "zombie": {
+      "name": "Reg Shoe",
+      "aliases": [],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A zombie who maintains his identity and personality despite being undead.",
+          "role": "Self-aware zombie",
+          "relationships": {
+            "Member of": "Undead community",
+            "Lives in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "vampire": {
+      "name": "Count Notfaroutoe",
+      "aliases": [],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A vampire who exists on the fringes of society, affected by the supernatural disturbances.",
+          "role": "Undead aristocrat",
+          "relationships": {
+            "Predator of": "Living humans",
+            "Affected by": "Reality changes"
+          }
+        }
+      }
+    },
+    "ghost": {
+      "name": "The Phantom",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A spirit who haunts certain locations and is sensitive to changes in the supernatural order.",
+          "role": "Restless spirit",
+          "relationships": {
+            "Haunts": "Old buildings",
+            "Senses": "Supernatural disturbances"
+          }
+        }
+      }
+    },
+    "banshee": {
+      "name": "Mrs. Whitlow",
+      "aliases": [],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A banshee whose wailing announces deaths, confused by the supernatural chaos.",
+          "role": "Death herald",
+          "relationships": {
+            "Announces": "Impending deaths",
+            "Confused by": "Reality distortions"
+          }
+        }
+      }
+    },
+    "troll": {
+      "name": "Detritus",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A troll who works as muscle for various enterprises in Ankh-Morpork.",
+          "role": "Hired enforcer",
+          "relationships": {
+            "Works for": "Various employers",
+            "Lives in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "dwarf": {
+      "name": "Gloin Glodsson",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A dwarf craftsman who works with metals and notices the strange magical disturbances.",
+          "role": "Metalworker",
+          "relationships": {
+            "Craftsman in": "Ankh-Morpork",
+            "Notices": "Magical anomalies"
+          }
+        }
+      }
+    },
+    "gnome": {
+      "name": "Buggy Swires",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A small humanoid who works in specialized trades requiring fine dexterity.",
+          "role": "Precision craftsman",
+          "relationships": {
+            "Works in": "Specialized trades",
+            "Lives among": "City diverse population"
+          }
+        }
+      }
+    },
+    "tavern-patron-1": {
+      "name": "Old Pete",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A regular at the tavern where Death works, enjoys the excellent food.",
+          "role": "Tavern regular",
+          "relationships": {
+            "Customer of": "Tavern",
+            "Fed by": "Death"
+          }
+        }
+      }
+    },
+    "tavern-patron-2": {
+      "name": "Young Jim",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Another tavern customer who notices the strange new cook's abilities.",
+          "role": "Tavern customer",
+          "relationships": {
+            "Drinks with": "Old Pete",
+            "Served by": "Death"
+          }
+        }
+      }
+    },
+    "tavern-patron-3": {
+      "name": "Fat Charlie",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A large customer who is impressed by Death's cooking skills.",
+          "role": "Satisfied customer",
+          "relationships": {
+            "Regular at": "Tavern",
+            "Impressed by": "Death's cooking"
+          }
+        }
+      }
+    },
+    "barmaid": {
+      "name": "Ruby",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The tavern's serving girl who works alongside Death in the kitchen.",
+          "role": "Tavern server",
+          "relationships": {
+            "Co-worker of": "Death",
+            "Employee of": "Tavern Keeper"
+          }
+        }
+      }
+    },
+    "pot-boy": {
+      "name": "Little Sammy",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A young boy who helps wash dishes and clean the tavern.",
+          "role": "Kitchen helper",
+          "relationships": {
+            "Works under": "Death",
+            "Assists": "Ruby"
+          }
+        }
+      }
+    },
+    "street-sweeper": {
+      "name": "Mad Hamish",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An old man who cleans the streets and witnesses supernatural events.",
+          "role": "Street cleaner",
+          "relationships": {
+            "Works in": "Ankh-Morpork streets",
+            "Witnesses": "Strange phenomena"
+          }
+        }
+      }
+    },
+    "fortune-teller": {
+      "name": "Madame Sharn",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A mystic who reads palms and cards, sensitive to supernatural disturbances.",
+          "role": "Mystic reader",
+          "relationships": {
+            "Colleague of": "Mrs. Cake",
+            "Senses": "Supernatural disturbances"
+          }
+        }
+      }
+    },
+    "city-official": {
+      "name": "Clerk Stronginthearm",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A bureaucrat who handles city records and notices discrepancies.",
+          "role": "City administrator",
+          "relationships": {
+            "Works for": "City government",
+            "Notices": "Administrative anomalies"
+          }
+        }
+      }
+    },
+    "shoe-maker": {
+      "name": "Cobbler Ignor",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A craftsman who makes and repairs shoes for city residents.",
+          "role": "Shoe craftsman",
+          "relationships": {
+            "Serves": "City residents",
+            "Craftsman in": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "cloth-merchant": {
+      "name": "Trader Hrolf",
+      "aliases": [],
+      "appearances": [8, 5],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A merchant who deals in fabrics and notices the economic effects of supernatural events.",
+          "role": "Textile trader",
+          "relationships": {
+            "Trades in": "City markets",
+            "Affected by": "Economic disruptions"
+          }
+        }
+      }
+    },
+    "jeweler": {
+      "name": "Goldsmith Ptaclusp",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A skilled craftsman who creates jewelry for wealthy customers.",
+          "role": "Precious metals worker",
+          "relationships": {
+            "Serves": "Wealthy clients",
+            "Trades in": "Precious materials"
+          }
+        }
+      }
+    },
+    "apothecary": {
+      "name": "Herbalist Granny Weatherwax",
+      "aliases": [],
+      "appearances": [9],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A wise woman who deals in herbs and potions, sensitive to magical disturbances.",
+          "role": "Herb dealer and healer",
+          "relationships": {
+            "Treats": "Local ailments",
+            "Senses": "Magical disruptions"
+          }
+        }
+      }
+    },
+    "carpenter": {
+      "name": "Builder Glot",
+      "aliases": [],
+      "appearances": [4, 5, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A craftsman who works with wood and construction.",
+          "role": "Wood craftsman",
+          "relationships": {
+            "Works on": "Building projects",
+            "Supplies": "Construction materials"
+          }
+        }
+      }
+    },
+    "miller": {
+      "name": "Miller Hgreat",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Operates the grain mill that supplies flour to the town.",
+          "role": "Grain processor",
+          "relationships": {
+            "Supplies": "Town bakers",
+            "Works with": "Local farmers"
+          }
+        }
+      }
+    },
+    "butcher": {
+      "name": "Butcher Carrot",
+      "aliases": [],
+      "appearances": [4, 5, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Provides meat to both common folk and the royal household.",
+          "role": "Meat supplier",
+          "relationships": {
+            "Supplies": "Local customers",
+            "Trades with": "Farmers"
+          }
+        }
+      }
+    },
+    "cheese-maker": {
+      "name": "Dairyman Hrun",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Creates various cheeses and dairy products for the local market.",
+          "role": "Dairy producer",
+          "relationships": {
+            "Supplies": "Market vendors",
+            "Works with": "Local cattle"
+          }
+        }
+      }
+    },
+    "brewer": {
+      "name": "Ale-maker Gimlet",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Brews beer and ale for taverns and private customers.",
+          "role": "Beverage producer",
+          "relationships": {
+            "Supplies": "Local taverns",
+            "Customer of": "Grain suppliers"
+          }
+        }
+      }
+    },
+    "candle-maker": {
+      "name": "Chandler Wax",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Produces candles and other lighting supplies for the community.",
+          "role": "Light provider",
+          "relationships": {
+            "Supplies": "Households and businesses",
+            "Trades in": "Wax and wicks"
+          }
+        }
+      }
+    },
+    "weaver": {
+      "name": "Cloth-worker Tiffany",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Creates textiles and clothing from various fibers.",
+          "role": "Textile producer",
+          "relationships": {
+            "Supplies": "Clothing merchants",
+            "Works with": "Sheep herders"
+          }
+        }
+      }
+    },
+    "potter": {
+      "name": "Clay-worker Angua",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Creates pottery and ceramic goods for household use.",
+          "role": "Ceramic craftsman",
+          "relationships": {
+            "Supplies": "Local households",
+            "Works with": "Local clay"
+          }
+        }
+      }
+    },
+    "rope-maker": {
+      "name": "Cord-worker Vimes",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Produces ropes and cords for various uses around town.",
+          "role": "Rope producer",
+          "relationships": {
+            "Supplies": "Ships and buildings",
+            "Customer of": "Fiber suppliers"
+          }
+        }
+      }
+    },
+    "salt-merchant": {
+      "name": "Trader Salzella",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Deals in salt and other preservatives essential for food storage.",
+          "role": "Preservative supplier",
+          "relationships": {
+            "Supplies": "Food preparers",
+            "Trades across": "Long distances"
+          }
+        }
+      }
+    },
+    "spice-trader": {
+      "name": "Exotic-goods Rinso",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Imports and sells rare spices and exotic ingredients.",
+          "role": "Exotic goods trader",
+          "relationships": {
+            "Supplies": "Wealthy customers",
+            "Trades with": "Foreign merchants"
+          }
+        }
+      }
+    },
+    "wine-merchant": {
+      "name": "Vintner Doughnut",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Specializes in fine wines and spirits for discerning customers.",
+          "role": "Wine dealer",
+          "relationships": {
+            "Supplies": "Wealthy households",
+            "Imports from": "Wine regions"
+          }
+        }
+      }
+    },
+    "oil-seller": {
+      "name": "Lamp-oil Granny",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Provides various oils for lamps, cooking, and other household needs.",
+          "role": "Oil supplier",
+          "relationships": {
+            "Supplies": "Households",
+            "Works with": "Oil pressers"
+          }
+        }
+      }
+    },
+    "honey-seller": {
+      "name": "Bee-keeper Magrat",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Maintains beehives and sells honey and beeswax products.",
+          "role": "Apiary keeper",
+          "relationships": {
+            "Supplies": "Sweet goods makers",
+            "Works with": "Local flowers"
+          }
+        }
+      }
+    },
+    "egg-seller": {
+      "name": "Poultry-keeper Nanny",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Raises chickens and other poultry, selling eggs and birds.",
+          "role": "Poultry farmer",
+          "relationships": {
+            "Supplies": "Local markets",
+            "Cares for": "Farm poultry"
+          }
+        }
+      }
+    },
+    "herb-seller": {
+      "name": "Plant-keeper Agnes",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Grows and sells medicinal and culinary herbs.",
+          "role": "Herb grower",
+          "relationships": {
+            "Supplies": "Healers and cooks",
+            "Maintains": "Herb gardens"
+          }
+        }
+      }
+    },
+    "fruit-seller": {
+      "name": "Orchard-keeper Twoflower",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Tends fruit trees and sells seasonal produce.",
+          "role": "Fruit grower",
+          "relationships": {
+            "Supplies": "Market customers",
+            "Maintains": "Fruit orchards"
+          }
+        }
+      }
+    },
+    "vegetable-seller": {
+      "name": "Garden-keeper Hodgesaargh",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grows vegetables and root crops for the local market.",
+          "role": "Vegetable farmer",
+          "relationships": {
+            "Supplies": "Town cooks",
+            "Maintains": "Vegetable plots"
+          }
+        }
+      }
+    },
+    "grain-seller": {
+      "name": "Field-keeper Cohen",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Grows various grains and cereals for processing into flour.",
+          "role": "Grain farmer",
+          "relationships": {
+            "Supplies": "Miller",
+            "Maintains": "Grain fields"
+          }
+        }
+      }
+    },
+    "sheep-herder": {
+      "name": "Wool-keeper Ridcully",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Raises sheep for wool and meat, important to the local economy.",
+          "role": "Sheep farmer",
+          "relationships": {
+            "Supplies": "Wool workers",
+            "Grazes": "Local pastures"
+          }
+        }
+      }
+    },
+    "cattle-herder": {
+      "name": "Beef-keeper Ironfoundersson",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Raises cattle for milk and meat production.",
+          "role": "Cattle farmer",
+          "relationships": {
+            "Supplies": "Dairy and meat",
+            "Maintains": "Cattle herds"
+          }
+        }
+      }
+    },
+    "pig-keeper": {
+      "name": "Pork-farmer Littlebottom",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Raises pigs for meat and uses every part of the animal.",
+          "role": "Pig farmer",
+          "relationships": {
+            "Supplies": "Butchers",
+            "Manages": "Pig pens"
+          }
+        }
+      }
+    },
+    "goat-herder": {
+      "name": "Chevon-keeper Ogg",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Keeps goats for milk, meat, and hide production.",
+          "role": "Goat farmer",
+          "relationships": {
+            "Supplies": "Dairy alternatives",
+            "Herds": "Mountain goats"
+          }
+        }
+      }
+    },
+    "horse-trader": {
+      "name": "Mount-dealer Casanunda",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Buys and sells horses for transportation and farm work.",
+          "role": "Horse merchant",
+          "relationships": {
+            "Supplies": "Transportation needs",
+            "Trades with": "Horse breeders"
+          }
+        }
+      }
+    },
+    "ox-driver": {
+      "name": "Beast-handler Maladict",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Uses oxen for heavy farm work and transportation of goods.",
+          "role": "Draft animal handler",
+          "relationships": {
+            "Works with": "Heavy loads",
+            "Serves": "Farming community"
+          }
+        }
+      }
+    },
+    "donkey-keeper": {
+      "name": "Pack-handler Polly",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Uses donkeys for carrying loads and transportation in rough terrain.",
+          "role": "Pack animal handler",
+          "relationships": {
+            "Serves": "Mountain transport",
+            "Works in": "Difficult terrain"
+          }
+        }
+      }
+    },
+    "messenger": {
+      "name": "Runner Swift",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Carries messages between towns and important locations.",
+          "role": "Communication courier",
+          "relationships": {
+            "Serves": "Information network",
+            "Travels between": "Towns"
+          }
+        }
+      }
+    },
+    "map-maker": {
+      "name": "Chart-drawer Stronginthearm",
+      "aliases": [],
+      "appearances": [6, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Creates maps and charts for travelers and traders.",
+          "role": "Cartographer",
+          "relationships": {
+            "Serves": "Travelers",
+            "Records": "Geographic information"
+          }
+        }
+      }
+    },
+    "scribe": {
+      "name": "Letter-writer Dearhearts",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Writes letters and documents for those who cannot read or write.",
+          "role": "Professional writer",
+          "relationships": {
+            "Serves": "Illiterate customers",
+            "Creates": "Written documents"
+          }
+        }
+      }
+    },
+    "accountant": {
+      "name": "Number-keeper Boggis",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Keeps financial records for businesses and wealthy individuals.",
+          "role": "Financial record keeper",
+          "relationships": {
+            "Serves": "Business owners",
+            "Manages": "Financial accounts"
+          }
+        }
+      }
+    },
+    "money-changer": {
+      "name": "Coin-trader Bunce",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Exchanges currencies and provides banking services.",
+          "role": "Currency exchanger",
+          "relationships": {
+            "Serves": "International traders",
+            "Handles": "Foreign currencies"
+          }
+        }
+      }
+    },
+    "insurance-seller": {
+      "name": "Risk-assessor Bean",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Provides insurance against various risks and disasters.",
+          "role": "Risk management",
+          "relationships": {
+            "Protects": "Business investments",
+            "Assesses": "Potential losses"
+          }
+        }
+      }
+    },
+    "loan-maker": {
+      "name": "Gold-lender Gilt",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Provides loans and financial services to those in need of capital.",
+          "role": "Money lender",
+          "relationships": {
+            "Serves": "Capital seekers",
+            "Charges": "Interest on loans"
+          }
+        }
+      }
+    },
+    "tax-collector": {
+      "name": "Revenue-gatherer Hopkinson",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Collects taxes and fees for the royal government.",
+          "role": "Government tax agent",
+          "relationships": {
+            "Serves": "Royal treasury",
+            "Collects from": "Citizens and businesses"
+          }
+        }
+      }
+    },
+    "customs-officer": {
+      "name": "Border-guard Pessimal",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Controls the flow of goods across borders and collects duties.",
+          "role": "Border control agent",
+          "relationships": {
+            "Serves": "Government customs",
+            "Inspects": "Imported goods"
+          }
+        }
+      }
+    },
+    "judge": {
+      "name": "Justice Snapcase",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Presides over legal proceedings and makes judicial decisions.",
+          "role": "Legal authority",
+          "relationships": {
+            "Serves": "Justice system",
+            "Presides over": "Court cases"
+          }
+        }
+      }
+    },
+    "lawyer": {
+      "name": "Advocate Slant",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Provides legal representation and advice to clients.",
+          "role": "Legal representative",
+          "relationships": {
+            "Serves": "Legal clients",
+            "Practices": "Legal advocacy"
+          }
+        }
+      }
+    },
+    "jailer": {
+      "name": "Prison-keeper Tanty",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Manages prisoners and maintains the local jail facility.",
+          "role": "Prison administrator",
+          "relationships": {
+            "Guards": "Prisoners",
+            "Maintains": "Jail facility"
+          }
+        }
+      }
+    },
+    "executioner": {
+      "name": "Headsman Teatime",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Carries out capital punishment sentences ordered by the court.",
+          "role": "State executioner",
+          "relationships": {
+            "Serves": "Justice system",
+            "Executes": "Death sentences"
+          }
+        }
+      }
+    },
+    "town-watchman": {
+      "name": "Guard Dorfl",
+      "aliases": [],
+      "appearances": [5, 6, 7, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Patrols the town and maintains order among the citizens.",
+          "role": "Local law enforcement",
+          "relationships": {
+            "Maintains": "Public order",
+            "Patrols": "Town streets"
+          }
+        }
+      }
+    },
+    "fire-fighter": {
+      "name": "Flame-suppressor Downey",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Responds to fires and other emergencies in the city.",
+          "role": "Emergency responder",
+          "relationships": {
+            "Protects": "City buildings",
+            "Responds to": "Fire emergencies"
+          }
+        }
+      }
+    },
+    "night-soil-man": {
+      "name": "Waste-collector Thud",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Collects and disposes of human waste and garbage from the city.",
+          "role": "Sanitation worker",
+          "relationships": {
+            "Maintains": "City cleanliness",
+            "Removes": "Waste materials"
+          }
+        }
+      }
+    },
+    "rat-catcher": {
+      "name": "Pest-controller Amazing",
+      "aliases": [],
+      "appearances": [8, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Specializes in eliminating rats and other vermin from buildings.",
+          "role": "Pest control specialist",
+          "relationships": {
+            "Serves": "Building owners",
+            "Battles": "Urban pests"
+          }
+        }
+      }
+    },
+    "chimney-sweep": {
+      "name": "Soot-cleaner Maurice",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Cleans chimneys and flues to prevent fires and improve air flow.",
+          "role": "Chimney maintenance",
+          "relationships": {
+            "Serves": "Homeowners",
+            "Prevents": "Chimney fires"
+          }
+        }
+      }
+    },
+    "lamplighter": {
+      "name": "Flame-tender Daft",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Lights and maintains the street lamps throughout the city.",
+          "role": "Street lighting maintenance",
+          "relationships": {
+            "Maintains": "Street lighting",
+            "Works during": "Evening hours"
+          }
+        }
+      }
+    },
+    "water-carrier": {
+      "name": "Liquid-bearer Wazzer",
+      "aliases": [],
+      "appearances": [4, 5, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Delivers fresh water to homes and businesses without wells.",
+          "role": "Water delivery service",
+          "relationships": {
+            "Serves": "Water customers",
+            "Transports": "Fresh water"
+          }
+        }
+      }
+    },
+    "ice-seller": {
+      "name": "Cold-keeper Shufti",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Harvests and sells ice for food preservation and cooling.",
+          "role": "Ice merchant",
+          "relationships": {
+            "Serves": "Food preservers",
+            "Harvests": "Natural ice"
+          }
+        }
+      }
+    },
+    "funeral-director": {
+      "name": "Death-tender Ixolite",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Handles funeral arrangements and burial services for the deceased.",
+          "role": "Funeral service provider",
+          "relationships": {
+            "Serves": "Grieving families",
+            "Handles": "Burial arrangements"
+          }
+        }
+      }
+    },
+    "gravedigger": {
+      "name": "Pit-digger Zombie",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Digs graves and maintains the cemetery grounds.",
+          "role": "Cemetery worker",
+          "relationships": {
+            "Works with": "Funeral Director",
+            "Maintains": "Cemetery grounds"
+          }
+        }
+      }
+    },
+    "flower-seller": {
+      "name": "Bloom-vendor Rosemary",
+      "aliases": [],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Grows and sells flowers for celebrations and ceremonies.",
+          "role": "Flower grower",
+          "relationships": {
+            "Supplies": "Special occasions",
+            "Grows": "Decorative flowers"
+          }
+        }
+      }
+    },
+    "musician": {
+      "name": "Bard Imp",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A traveling musician who performs in taverns and at celebrations.",
+          "role": "Entertainer",
+          "relationships": {
+            "Performs for": "Tavern patrons",
+            "Travels between": "Towns"
+          }
+        }
+      }
+    },
+    "storyteller": {
+      "name": "Tale-spinner Narrative",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An old man who recounts stories and legends to anyone who will listen.",
+          "role": "Story keeper",
+          "relationships": {
+            "Entertains": "Audiences",
+            "Preserves": "Local legends"
+          }
+        }
+      }
+    },
+    "juggler": {
+      "name": "Ball-tosser Circus",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A skilled performer who juggles and entertains crowds at markets.",
+          "role": "Street performer",
+          "relationships": {
+            "Performs at": "Market gatherings",
+            "Earns from": "Audience tips"
+          }
+        }
+      }
+    },
+    "acrobat": {
+      "name": "Tumbler Flexible",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An agile performer who does flips and tricks for entertainment.",
+          "role": "Physical entertainer",
+          "relationships": {
+            "Partners with": "Other performers",
+            "Attracts": "Crowd attention"
+          }
+        }
+      }
+    },
+    "fire-eater": {
+      "name": "Flame-swallower Hot",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dangerous performer who eats fire and breathes flames for spectacle.",
+          "role": "Dangerous entertainer",
+          "relationships": {
+            "Amazes": "Audiences",
+            "Risks": "Personal safety"
+          }
+        }
+      }
+    },
+    "puppeteer": {
+      "name": "Doll-master String",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A performer who operates marionettes and hand puppets for children.",
+          "role": "Puppet operator",
+          "relationships": {
+            "Entertains": "Children",
+            "Creates": "Puppet shows"
+          }
+        }
+      }
+    },
+    "mime": {
+      "name": "Silent-actor Gesture",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A performer who acts out scenes without speaking, using only movement.",
+          "role": "Silent performer",
+          "relationships": {
+            "Performs for": "City audiences",
+            "Communicates through": "Physical expression"
+          }
+        }
+      }
+    },
+    "fortune-cookie-maker": {
+      "name": "Prophecy-baker Destiny",
+      "aliases": [],
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Creates small cakes with fortunes inside for those seeking guidance.",
+          "role": "Fortune food maker",
+          "relationships": {
+            "Serves": "Seekers of guidance",
+            "Competes with": "Other fortune tellers"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Mort, a gangly farm boy, is apprenticed to Death himself at a hiring fair. Death takes him to his supernatural domain to begin learning the trade of collecting souls.",
+    "2": "Mort meets Death's adopted daughter Ysabell and the mysterious servant Albert. He begins to learn about Death's domain and the responsibilities of being Death's apprentice.",
+    "3": "Death sends Mort on his first solo mission to collect the soul of Princess Keli of Sto Lat, but Mort interferes and prevents her assassination, disrupting the natural order.",
+    "4": "The consequences of Mort's intervention begin to manifest as reality becomes unstable. Princess Keli exists in a liminal state between life and death, noticed by few.",
+    "5": "Death decides to experience mortal life and takes a job as a cook while Mort continues his duties. The reality distortions grow worse as Princess Keli becomes increasingly translucent.",
+    "6": "Cutwell the wizard and others who can still see Princess Keli try to help stabilize her existence. The wizards at Unseen University begin to notice magical disturbances.",
+    "7": "Mort's feelings for Princess Keli complicate matters as he struggles with his growing powers and the mounting consequences of his earlier intervention in her fate.",
+    "8": "Death enjoys his experience as a mortal cook, discovering human emotions and relationships. Meanwhile, the supernatural disturbances affect creatures throughout the city.",
+    "9": "The disruption to reality reaches critical levels. Supernatural beings and undead creatures are affected by the chaos as the natural order continues to unravel.",
+    "10": "Death's fellow personifications - War, Famine, and Pestilence - become concerned about the disruption. The monks at their mountain monastery sense the temporal disturbances.",
+    "11": "Fate and other cosmic entities take notice of the reality crisis. The anthropomorphic personifications meet to discuss the growing threat to the natural order of things.",
+    "12": "The climax approaches as Death must choose between his newfound appreciation for mortality and his cosmic responsibilities. The reality distortions threaten everything.",
+    "13": "Death confronts the consequences of the reality disruption and works to restore the natural order. Mort learns important lessons about duty, love, and the nature of death itself."
+  }
+}

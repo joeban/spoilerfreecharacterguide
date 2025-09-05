@@ -1,0 +1,2146 @@
+{
+  "meta": {
+    "title": "Wyrd Sisters",
+    "author": "Terry Pratchett",
+    "chapters": 12,
+    "schemaVersion": "2.0",
+    "asin": "0062225731"
+  },
+  "characters": {
+    "granny-weatherwax": {
+      "name": "Granny Weatherwax",
+      "aliases": ["Esmerelda Weatherwax", "Esme Weatherwax"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The most formidable witch in Lancre, feared and respected throughout the kingdom. Lives alone in a cottage and practices headology.",
+          "role": "Senior witch of Lancre",
+          "relationships": {
+            "Works with": "Nanny Ogg, Magrat Garlick"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Practices 'headology' - making people believe things will work rather than actual magic. Has strong opinions about proper behavior.",
+          "role": "Senior witch and leader",
+          "relationships": {
+            "Works with": "Nanny Ogg, Magrat Garlick",
+            "Rivals with": "Duke Felmet"
+          }
+        }
+      }
+    },
+    "nanny-ogg": {
+      "name": "Nanny Ogg",
+      "aliases": ["Gytha Ogg"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A cheerful, worldly witch with many children and grandchildren. Lives in a cottage full of cats and enjoys a drink.",
+          "role": "Witch of Lancre",
+          "relationships": {
+            "Works with": "Granny Weatherwax, Magrat Garlick",
+            "Mother of": "Jason Ogg, Shawn Ogg"
+          }
+        }
+      }
+    },
+    "magrat-garlick": {
+      "name": "Magrat Garlick",
+      "aliases": ["Magrat"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The youngest of the three witches, earnest and well-meaning but often confused about proper witching. Believes in crystals and positive thinking.",
+          "role": "Junior witch",
+          "relationships": {
+            "Works with": "Granny Weatherwax, Nanny Ogg"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Gains confidence and skill throughout her adventures. Shows surprising strength when needed.",
+          "role": "Accomplished witch",
+          "relationships": {
+            "Works with": "Granny Weatherwax, Nanny Ogg",
+            "Connected to": "The Fool"
+          }
+        }
+      }
+    },
+    "king-verence": {
+      "name": "King Verence",
+      "aliases": ["Verence I", "The Dead King"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The rightful king of Lancre, murdered by his brother Duke Felmet. Now exists as a ghost, trying to communicate with the living.",
+          "role": "Dead king seeking justice",
+          "relationships": {
+            "Murdered by": "Duke Felmet",
+            "Father of": "The heir"
+          }
+        }
+      }
+    },
+    "duke-felmet": {
+      "name": "Duke Felmet",
+      "aliases": ["Leonal Felmet", "The Usurper"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The brother who murdered King Verence and usurped the throne. Paranoid and guilt-ridden, constantly washing his hands.",
+          "role": "Usurper Duke of Lancre",
+          "relationships": {
+            "Married to": "Lady Felmet",
+            "Murdered": "King Verence"
+          }
+        }
+      }
+    },
+    "lady-felmet": {
+      "name": "Lady Felmet",
+      "aliases": ["The Duchess"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The ambitious wife of Duke Felmet, more ruthless and calculating than her husband. Drives much of the political maneuvering.",
+          "role": "Duchess of Lancre",
+          "relationships": {
+            "Married to": "Duke Felmet"
+          }
+        }
+      }
+    },
+    "the-fool": {
+      "name": "The Fool",
+      "aliases": ["Court Fool"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The court jester, earnest and kind-hearted but not particularly funny. Wears traditional fool's motley and bells.",
+          "role": "Court jester",
+          "relationships": {
+            "Serves": "The royal court"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Reveals noble heritage and proves worthy of greater responsibilities. Shows courage when needed.",
+          "role": "Rightful heir to the throne",
+          "relationships": {
+            "Connected to": "Magrat Garlick",
+            "True identity": "Verence II"
+          }
+        }
+      }
+    },
+    "tomjon": {
+      "name": "Tomjon",
+      "aliases": ["The Actor"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A talented young actor with the traveling theater company. Charismatic and natural on stage.",
+          "role": "Actor with Vitoller's company",
+          "relationships": {
+            "Works with": "Vitoller, Hwel"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Reveals royal blood and natural leadership abilities. Born to be a king but chooses the stage.",
+          "role": "Rightful heir who chooses acting",
+          "relationships": {
+            "Son of": "King Verence",
+            "Raised by": "Vitoller"
+          }
+        }
+      }
+    },
+    "hwel": {
+      "name": "Hwel",
+      "aliases": ["The Dwarf Playwright"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A dwarf playwright with the theater company, constantly writing new plays and struggling with inspiration from mysterious sources.",
+          "role": "Playwright and dramatist",
+          "relationships": {
+            "Works with": "Vitoller, Tomjon"
+          }
+        }
+      }
+    },
+    "vitoller": {
+      "name": "Vitoller",
+      "aliases": ["The Company Leader"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The leader of a traveling theater company. A seasoned actor and manager who raised Tomjon from infancy.",
+          "role": "Theater company leader",
+          "relationships": {
+            "Leads": "The theater company",
+            "Raised": "Tomjon"
+          }
+        }
+      }
+    },
+    "death": {
+      "name": "Death",
+      "aliases": ["The Grim Reaper"],
+      "appearances": [2, 5, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The anthropomorphic personification of death, speaks in capital letters and has a professional interest in mortality.",
+          "role": "Anthropomorphic personification",
+          "relationships": {}
+        }
+      }
+    },
+    "jason-ogg": {
+      "name": "Jason Ogg",
+      "aliases": ["The Blacksmith"],
+      "appearances": [2, 3, 5, 7, 10, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Nanny Ogg's eldest son, the village blacksmith. Large and strong but gentle-natured.",
+          "role": "Village blacksmith",
+          "relationships": {
+            "Son of": "Nanny Ogg"
+          }
+        }
+      }
+    },
+    "shawn-ogg": {
+      "name": "Shawn Ogg",
+      "aliases": ["The Guard"],
+      "appearances": [1, 3, 5, 8, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of Nanny Ogg's sons, serves as a guard at the castle. Earnest but not the brightest.",
+          "role": "Castle guard",
+          "relationships": {
+            "Son of": "Nanny Ogg",
+            "Serves": "The castle"
+          }
+        }
+      }
+    },
+    "sergeant-at-arms": {
+      "name": "Sergeant-at-Arms",
+      "aliases": ["The Sergeant"],
+      "appearances": [1, 3, 4, 8, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A castle guard of higher rank, tries to maintain order and discipline among the other guards.",
+          "role": "Senior castle guard",
+          "relationships": {
+            "Commands": "Castle guards"
+          }
+        }
+      }
+    },
+    "captain-of-guards": {
+      "name": "Captain of Guards",
+      "aliases": ["The Captain"],
+      "appearances": [1, 2, 4, 7, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Leader of the castle's military forces, caught between duty and the political situation.",
+          "role": "Military commander",
+          "relationships": {
+            "Commands": "Castle military forces"
+          }
+        }
+      }
+    },
+    "greebo": {
+      "name": "Greebo",
+      "aliases": ["Nanny's Cat"],
+      "appearances": [1, 2, 4, 6, 8, 10, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Nanny Ogg's enormous grey tomcat, battle-scarred and aggressive. Rules the local cat population with an iron paw.",
+          "role": "Nanny Ogg's familiar",
+          "relationships": {
+            "Belongs to": "Nanny Ogg"
+          }
+        }
+      }
+    },
+    "you-bastard": {
+      "name": "You Bastard",
+      "aliases": ["The Camel"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A highly intelligent camel with the theater company, capable of complex mathematical calculations.",
+          "role": "Theater company's camel",
+          "relationships": {
+            "Travels with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "black-aliss": {
+      "name": "Black Aliss",
+      "aliases": ["The Legendary Witch"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A legendary witch from the past, referenced as an example of what witches used to be like in the old days.",
+          "role": "Legendary historical figure",
+          "relationships": {}
+        }
+      }
+    },
+    "millie-hipwood": {
+      "name": "Millie Hipwood",
+      "aliases": ["The Servant"],
+      "appearances": [2, 4, 6, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A castle servant who works in the kitchens and knows all the castle gossip.",
+          "role": "Castle servant",
+          "relationships": {}
+        }
+      }
+    },
+    "mrs-earwig": {
+      "name": "Mrs. Earwig",
+      "aliases": ["The Would-be Witch"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A woman who fancies herself a witch but lacks the real calling. Organizes meetings and committees.",
+          "role": "Wannabe witch",
+          "relationships": {}
+        }
+      }
+    },
+    "old-goodie-whemper": {
+      "name": "Old Goodie Whemper",
+      "aliases": ["The Former Witch"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A deceased witch whose cottage Magrat now occupies. Known for her herb garden and gentle nature.",
+          "role": "Deceased former witch",
+          "relationships": {
+            "Predecessor to": "Magrat Garlick"
+          }
+        }
+      }
+    },
+    "appleby": {
+      "name": "Appleby",
+      "aliases": ["The Gardener"],
+      "appearances": [2, 5, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The castle gardener who tends the grounds and knows where all the bodies are buried.",
+          "role": "Castle gardener",
+          "relationships": {}
+        }
+      }
+    },
+    "baker-johnson": {
+      "name": "Baker Johnson",
+      "aliases": ["The Village Baker"],
+      "appearances": [3, 7, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The village baker who provides bread and pastries to the community.",
+          "role": "Village baker",
+          "relationships": {}
+        }
+      }
+    },
+    "weaver-thatch": {
+      "name": "Weaver Thatch",
+      "aliases": ["The Weaver"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A village weaver who makes cloth and clothing for the local community.",
+          "role": "Village weaver",
+          "relationships": {}
+        }
+      }
+    },
+    "tinker-joe": {
+      "name": "Tinker Joe",
+      "aliases": ["The Tinker"],
+      "appearances": [4, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A traveling tinker who repairs pots and pans and brings news from other villages.",
+          "role": "Traveling craftsman",
+          "relationships": {}
+        }
+      }
+    },
+    "carter-brown": {
+      "name": "Carter Brown",
+      "aliases": ["The Carter"],
+      "appearances": [3, 6, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A villager who transports goods with his cart between settlements.",
+          "role": "Village carter",
+          "relationships": {}
+        }
+      }
+    },
+    "widow-scramm": {
+      "name": "Widow Scramm",
+      "aliases": ["The Widow"],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly village widow who keeps chickens and knows everyone's business.",
+          "role": "Village gossip",
+          "relationships": {}
+        }
+      }
+    },
+    "young-alison": {
+      "name": "Young Alison",
+      "aliases": ["Alison"],
+      "appearances": [3, 8, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A village girl who helps with various tasks around the community.",
+          "role": "Village helper",
+          "relationships": {}
+        }
+      }
+    },
+    "ned-simnel": {
+      "name": "Ned Simnel",
+      "aliases": ["The Farmer"],
+      "appearances": [4, 7, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A local farmer who grows crops and raises livestock for the village.",
+          "role": "Village farmer",
+          "relationships": {}
+        }
+      }
+    },
+    "mrs-simnel": {
+      "name": "Mrs. Simnel",
+      "aliases": ["Ned's Wife"],
+      "appearances": [4, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Ned Simnel's wife who helps manage the farm and household.",
+          "role": "Farmer's wife",
+          "relationships": {
+            "Married to": "Ned Simnel"
+          }
+        }
+      }
+    },
+    "old-pete": {
+      "name": "Old Pete",
+      "aliases": ["Pete"],
+      "appearances": [3, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly villager who sits outside the tavern and comments on events.",
+          "role": "Village elder",
+          "relationships": {}
+        }
+      }
+    },
+    "young-jim": {
+      "name": "Young Jim",
+      "aliases": ["Jim"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A village youth who runs errands and helps with various tasks.",
+          "role": "Village helper",
+          "relationships": {}
+        }
+      }
+    },
+    "tavern-keeper": {
+      "name": "Tavern Keeper",
+      "aliases": ["The Publican"],
+      "appearances": [3, 6, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Runs the village tavern where people gather to drink and share news.",
+          "role": "Tavern owner",
+          "relationships": {}
+        }
+      }
+    },
+    "serving-wench": {
+      "name": "Serving Wench",
+      "aliases": ["The Barmaid"],
+      "appearances": [3, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Works at the village tavern serving drinks and food to customers.",
+          "role": "Tavern server",
+          "relationships": {
+            "Works for": "Tavern Keeper"
+          }
+        }
+      }
+    },
+    "stable-boy": {
+      "name": "Stable Boy",
+      "aliases": ["The Groom"],
+      "appearances": [1, 4, 8],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Tends to the horses and stables at the castle.",
+          "role": "Castle stable hand",
+          "relationships": {}
+        }
+      }
+    },
+    "cook": {
+      "name": "Cook",
+      "aliases": ["The Castle Cook"],
+      "appearances": [2, 4, 6, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Prepares meals for the castle inhabitants and manages the kitchen staff.",
+          "role": "Head cook",
+          "relationships": {}
+        }
+      }
+    },
+    "scullery-maid": {
+      "name": "Scullery Maid",
+      "aliases": ["Kitchen Helper"],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Works in the castle kitchens cleaning dishes and assisting the cook.",
+          "role": "Kitchen servant",
+          "relationships": {
+            "Works under": "Cook"
+          }
+        }
+      }
+    },
+    "chambermaid": {
+      "name": "Chambermaid",
+      "aliases": ["The Maid"],
+      "appearances": [1, 4, 9],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Cleans the castle chambers and tends to the personal quarters of the nobility.",
+          "role": "Castle maid",
+          "relationships": {}
+        }
+      }
+    },
+    "gatekeeper": {
+      "name": "Gatekeeper",
+      "aliases": ["The Porter"],
+      "appearances": [1, 8, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Controls access to the castle, opening and closing the gates.",
+          "role": "Castle gatekeeper",
+          "relationships": {}
+        }
+      }
+    },
+    "castle-musician": {
+      "name": "Castle Musician",
+      "aliases": ["The Minstrel"],
+      "appearances": [2, 7],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Provides musical entertainment at castle functions and feasts.",
+          "role": "Court musician",
+          "relationships": {}
+        }
+      }
+    },
+    "priest": {
+      "name": "Priest",
+      "aliases": ["The Village Priest"],
+      "appearances": [3, 5, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The local religious leader who conducts services and ceremonies.",
+          "role": "Religious authority",
+          "relationships": {}
+        }
+      }
+    },
+    "lord-paramount": {
+      "name": "Lord Paramount",
+      "aliases": ["The Noble"],
+      "appearances": [4, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A visiting nobleman from neighboring territories with political interests.",
+          "role": "Visiting noble",
+          "relationships": {}
+        }
+      }
+    },
+    "ambassador": {
+      "name": "Ambassador",
+      "aliases": ["The Diplomat"],
+      "appearances": [4, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A diplomatic representative from another kingdom conducting official business.",
+          "role": "Foreign diplomat",
+          "relationships": {}
+        }
+      }
+    },
+    "merchant-prince": {
+      "name": "Merchant Prince",
+      "aliases": ["The Trader"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A wealthy merchant from Ankh-Morpork involved in various trade dealings.",
+          "role": "Wealthy trader",
+          "relationships": {}
+        }
+      }
+    },
+    "daisie-ogg": {
+      "name": "Daisie Ogg",
+      "aliases": ["Nanny's Daughter"],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of Nanny Ogg's many daughters, helps with family matters.",
+          "role": "Family member",
+          "relationships": {
+            "Daughter of": "Nanny Ogg"
+          }
+        }
+      }
+    },
+    "graeme-ogg": {
+      "name": "Graeme Ogg",
+      "aliases": ["Nanny's Son"],
+      "appearances": [3, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another of Nanny Ogg's sons, works various jobs around the village.",
+          "role": "Family member",
+          "relationships": {
+            "Son of": "Nanny Ogg"
+          }
+        }
+      }
+    },
+    "wane-ogg": {
+      "name": "Wane Ogg",
+      "aliases": ["Nanny's Son"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "One of Nanny's sons who assists with various family enterprises.",
+          "role": "Family member",
+          "relationships": {
+            "Son of": "Nanny Ogg"
+          }
+        }
+      }
+    },
+    "reet-ogg": {
+      "name": "Reet Ogg",
+      "aliases": ["Nanny's Son"],
+      "appearances": [5, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another member of the extensive Ogg family clan.",
+          "role": "Family member",
+          "relationships": {
+            "Son of": "Nanny Ogg"
+          }
+        }
+      }
+    },
+    "nev-ogg": {
+      "name": "Nev Ogg",
+      "aliases": ["Nanny's Son"],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Part of Nanny Ogg's large family, helps with various tasks.",
+          "role": "Family member",
+          "relationships": {
+            "Son of": "Nanny Ogg"
+          }
+        }
+      }
+    },
+    "trev-ogg": {
+      "name": "Trev Ogg",
+      "aliases": ["Nanny's Son"],
+      "appearances": [4, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another of Nanny's numerous offspring who lives in the area.",
+          "role": "Family member",
+          "relationships": {
+            "Son of": "Nanny Ogg"
+          }
+        }
+      }
+    },
+    "actor-smith": {
+      "name": "Actor Smith",
+      "aliases": ["The Actor"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A member of Vitoller's theater company who performs in various plays.",
+          "role": "Theater performer",
+          "relationships": {
+            "Works with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "actor-jones": {
+      "name": "Actor Jones",
+      "aliases": ["The Performer"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another performer in the traveling theater troupe.",
+          "role": "Theater performer",
+          "relationships": {
+            "Works with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "actor-brown": {
+      "name": "Actor Brown",
+      "aliases": ["The Player"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A character actor in Vitoller's company specializing in comic roles.",
+          "role": "Comic actor",
+          "relationships": {
+            "Works with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "costume-mistress": {
+      "name": "Costume Mistress",
+      "aliases": ["The Seamstress"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Creates and maintains the costumes for the theater company's productions.",
+          "role": "Costume designer",
+          "relationships": {
+            "Works with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "stage-manager": {
+      "name": "Stage Manager",
+      "aliases": ["The Director"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Manages the technical aspects of the theater productions.",
+          "role": "Production manager",
+          "relationships": {
+            "Works with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "prop-master": {
+      "name": "Prop Master",
+      "aliases": ["The Props Man"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Handles all the props and set pieces for the theater performances.",
+          "role": "Props manager",
+          "relationships": {
+            "Works with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "script-boy": {
+      "name": "Script Boy",
+      "aliases": ["The Prompter"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Assists with scripts and prompts actors during performances.",
+          "role": "Theater assistant",
+          "relationships": {
+            "Works with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "ankh-morpork-citizen-1": {
+      "name": "Ankh-Morpork Citizen",
+      "aliases": ["City Dweller"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A typical resident of the great city of Ankh-Morpork.",
+          "role": "Urban citizen",
+          "relationships": {}
+        }
+      }
+    },
+    "ankh-morpork-guard": {
+      "name": "Ankh-Morpork Guard",
+      "aliases": ["City Guard"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A member of the Ankh-Morpork city watch maintaining order.",
+          "role": "City watchman",
+          "relationships": {}
+        }
+      }
+    },
+    "theater-patron": {
+      "name": "Theater Patron",
+      "aliases": ["Audience Member"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "One of the audience members who attends the theater performances.",
+          "role": "Theater goer",
+          "relationships": {}
+        }
+      }
+    },
+    "wealthy-merchant": {
+      "name": "Wealthy Merchant",
+      "aliases": ["The Trader"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A prosperous merchant who attends cultural events in the city.",
+          "role": "Business owner",
+          "relationships": {}
+        }
+      }
+    },
+    "street-vendor": {
+      "name": "Street Vendor",
+      "aliases": ["The Seller"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Sells goods on the streets of Ankh-Morpork.",
+          "role": "Street trader",
+          "relationships": {}
+        }
+      }
+    },
+    "guild-master": {
+      "name": "Guild Master",
+      "aliases": ["The Leader"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Leads one of Ankh-Morpork's many professional guilds.",
+          "role": "Guild leader",
+          "relationships": {}
+        }
+      }
+    },
+    "city-official": {
+      "name": "City Official",
+      "aliases": ["The Bureaucrat"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Works in the city administration handling official business.",
+          "role": "Government worker",
+          "relationships": {}
+        }
+      }
+    },
+    "inn-keeper": {
+      "name": "Inn Keeper",
+      "aliases": ["The Host"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Runs an inn in Ankh-Morpork providing lodging for travelers.",
+          "role": "Inn proprietor",
+          "relationships": {}
+        }
+      }
+    },
+    "traveling-merchant": {
+      "name": "Traveling Merchant",
+      "aliases": ["The Peddler"],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A merchant who travels between cities selling various goods.",
+          "role": "Itinerant trader",
+          "relationships": {}
+        }
+      }
+    },
+    "horse-trader": {
+      "name": "Horse Trader",
+      "aliases": ["The Horse Dealer"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Deals in buying and selling horses and other livestock.",
+          "role": "Livestock trader",
+          "relationships": {}
+        }
+      }
+    },
+    "young-lord": {
+      "name": "Young Lord",
+      "aliases": ["The Nobleman"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young noble attending court functions and social events.",
+          "role": "Minor nobility",
+          "relationships": {}
+        }
+      }
+    },
+    "court-lady": {
+      "name": "Court Lady",
+      "aliases": ["The Noblewoman"],
+      "appearances": [2, 8, 11],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A lady of the court who attends social functions and ceremonies.",
+          "role": "Court attendant",
+          "relationships": {}
+        }
+      }
+    },
+    "herald": {
+      "name": "Herald",
+      "aliases": ["The Messenger"],
+      "appearances": [1, 9, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Makes official announcements and delivers messages for the court.",
+          "role": "Royal messenger",
+          "relationships": {}
+        }
+      }
+    },
+    "court-scribe": {
+      "name": "Court Scribe",
+      "aliases": ["The Clerk"],
+      "appearances": [2, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Records official court proceedings and maintains documents.",
+          "role": "Court recorder",
+          "relationships": {}
+        }
+      }
+    },
+    "jester-apprentice": {
+      "name": "Jester Apprentice",
+      "aliases": ["Young Fool"],
+      "appearances": [1, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Learning the craft of entertainment under the court fool.",
+          "role": "Apprentice entertainer",
+          "relationships": {
+            "Learns from": "The Fool"
+          }
+        }
+      }
+    },
+    "royal-physician": {
+      "name": "Royal Physician",
+      "aliases": ["The Doctor"],
+      "appearances": [2, 5, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Tends to the medical needs of the royal family and court.",
+          "role": "Court doctor",
+          "relationships": {}
+        }
+      }
+    },
+    "court-wizard": {
+      "name": "Court Wizard",
+      "aliases": ["The Magician"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The official court magician, though not particularly skilled compared to the witches.",
+          "role": "Court magic practitioner",
+          "relationships": {}
+        }
+      }
+    },
+    "tax-collector": {
+      "name": "Tax Collector",
+      "aliases": ["The Revenue Man"],
+      "appearances": [4, 7, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Collects taxes and fees from the villages for the crown.",
+          "role": "Government tax agent",
+          "relationships": {}
+        }
+      }
+    },
+    "village-elder": {
+      "name": "Village Elder",
+      "aliases": ["The Wise Man"],
+      "appearances": [3, 5, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly villager respected for wisdom and experience.",
+          "role": "Community leader",
+          "relationships": {}
+        }
+      }
+    },
+    "goodwife-flutter": {
+      "name": "Goodwife Flutter",
+      "aliases": ["Mrs. Flutter"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A village woman who helps with community events and gatherings.",
+          "role": "Village organizer",
+          "relationships": {}
+        }
+      }
+    },
+    "young-maiden": {
+      "name": "Young Maiden",
+      "aliases": ["The Village Girl"],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young woman from the village involved in various community activities.",
+          "role": "Village resident",
+          "relationships": {}
+        }
+      }
+    },
+    "old-crone": {
+      "name": "Old Crone",
+      "aliases": ["The Wise Woman"],
+      "appearances": [4, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elderly woman with knowledge of old ways and traditions.",
+          "role": "Traditional healer",
+          "relationships": {}
+        }
+      }
+    },
+    "apprentice-carpenter": {
+      "name": "Apprentice Carpenter",
+      "aliases": ["Young Carpenter"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Learning woodworking skills from the master craftsman.",
+          "role": "Carpentry apprentice",
+          "relationships": {}
+        }
+      }
+    },
+    "master-carpenter": {
+      "name": "Master Carpenter",
+      "aliases": ["The Woodworker"],
+      "appearances": [3, 5, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A skilled craftsman who builds and repairs wooden structures.",
+          "role": "Village carpenter",
+          "relationships": {
+            "Teaches": "Apprentice Carpenter"
+          }
+        }
+      }
+    },
+    "miller": {
+      "name": "Miller",
+      "aliases": ["The Grain Miller"],
+      "appearances": [4, 7, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Operates the village mill, grinding grain into flour.",
+          "role": "Village miller",
+          "relationships": {}
+        }
+      }
+    },
+    "millers-daughter": {
+      "name": "Miller's Daughter",
+      "aliases": ["Young Miller"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The miller's daughter who helps with the family business.",
+          "role": "Miller's assistant",
+          "relationships": {
+            "Daughter of": "Miller"
+          }
+        }
+      }
+    },
+    "shepherd": {
+      "name": "Shepherd",
+      "aliases": ["The Sheep Herder"],
+      "appearances": [3, 6, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Tends to flocks of sheep in the hills around Lancre.",
+          "role": "Livestock herder",
+          "relationships": {}
+        }
+      }
+    },
+    "shepherds-boy": {
+      "name": "Shepherd's Boy",
+      "aliases": ["Young Shepherd"],
+      "appearances": [6, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Assists the shepherd with tending the flocks.",
+          "role": "Shepherd's helper",
+          "relationships": {
+            "Works with": "Shepherd"
+          }
+        }
+      }
+    },
+    "woodcutter": {
+      "name": "Woodcutter",
+      "aliases": ["The Logger"],
+      "appearances": [4, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Cuts trees in the forest for timber and firewood.",
+          "role": "Forest worker",
+          "relationships": {}
+        }
+      }
+    },
+    "charcoal-burner": {
+      "name": "Charcoal Burner",
+      "aliases": ["Coal Maker"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Lives in the forest making charcoal from wood.",
+          "role": "Charcoal producer",
+          "relationships": {}
+        }
+      }
+    },
+    "hunter": {
+      "name": "Hunter",
+      "aliases": ["The Tracker"],
+      "appearances": [3, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Hunts game in the forests around Lancre.",
+          "role": "Forest hunter",
+          "relationships": {}
+        }
+      }
+    },
+    "poacher": {
+      "name": "Poacher",
+      "aliases": ["The Illegal Hunter"],
+      "appearances": [4, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Illegally hunts game on royal lands, avoiding the authorities.",
+          "role": "Criminal hunter",
+          "relationships": {}
+        }
+      }
+    },
+    "midwife": {
+      "name": "Midwife",
+      "aliases": ["The Birth Attendant"],
+      "appearances": [2, 5, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Assists with births and provides medical care to women and children.",
+          "role": "Village healer",
+          "relationships": {}
+        }
+      }
+    },
+    "herb-woman": {
+      "name": "Herb Woman",
+      "aliases": ["The Herbalist"],
+      "appearances": [3, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Gathers and sells medicinal herbs from the countryside.",
+          "role": "Herbal medicine provider",
+          "relationships": {}
+        }
+      }
+    },
+    "fortune-teller": {
+      "name": "Fortune Teller",
+      "aliases": ["The Seer"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Claims to predict the future for paying customers.",
+          "role": "Alleged mystic",
+          "relationships": {}
+        }
+      }
+    },
+    "mummer": {
+      "name": "Mummer",
+      "aliases": ["The Masked Performer"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Performs traditional folk plays and entertainment.",
+          "role": "Folk entertainer",
+          "relationships": {}
+        }
+      }
+    },
+    "storyteller": {
+      "name": "Storyteller",
+      "aliases": ["The Tale Spinner"],
+      "appearances": [6, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Travels around telling stories and legends for entertainment.",
+          "role": "Oral tradition keeper",
+          "relationships": {}
+        }
+      }
+    },
+    "ballad-singer": {
+      "name": "Ballad Singer",
+      "aliases": ["The Minstrel"],
+      "appearances": [7, 10],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Sings traditional ballads and news in verse form.",
+          "role": "Musical storyteller",
+          "relationships": {}
+        }
+      }
+    },
+    "morris-dancer": {
+      "name": "Morris Dancer",
+      "aliases": ["The Folk Dancer"],
+      "appearances": [10],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Performs traditional folk dances at festivals and celebrations.",
+          "role": "Traditional dancer",
+          "relationships": {}
+        }
+      }
+    },
+    "cat-1": {
+      "name": "Village Cat",
+      "aliases": ["Local Feline"],
+      "appearances": [2, 4, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the many cats that populate the village and countryside.",
+          "role": "Village animal",
+          "relationships": {
+            "Fears": "Greebo"
+          }
+        }
+      }
+    },
+    "raven": {
+      "name": "Raven",
+      "aliases": ["The Black Bird"],
+      "appearances": [1, 5, 9],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A large black bird that appears at significant moments.",
+          "role": "Ominous bird",
+          "relationships": {}
+        }
+      }
+    },
+    "owl": {
+      "name": "Owl",
+      "aliases": ["Night Bird"],
+      "appearances": [3, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A wise-looking owl that inhabits the forests around Lancre.",
+          "role": "Forest creature",
+          "relationships": {}
+        }
+      }
+    },
+    "bat": {
+      "name": "Bat",
+      "aliases": ["Flying Mammal"],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Small flying creatures that emerge at dusk around the castle.",
+          "role": "Nocturnal animal",
+          "relationships": {}
+        }
+      }
+    },
+    "castle-dog": {
+      "name": "Castle Dog",
+      "aliases": ["Guard Dog"],
+      "appearances": [1, 4, 9],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the dogs that guards the castle grounds.",
+          "role": "Castle guardian",
+          "relationships": {}
+        }
+      }
+    },
+    "farm-pig": {
+      "name": "Farm Pig",
+      "aliases": ["Swine"],
+      "appearances": [4, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Livestock raised on the farms around Lancre.",
+          "role": "Farm animal",
+          "relationships": {}
+        }
+      }
+    },
+    "milk-cow": {
+      "name": "Milk Cow",
+      "aliases": ["Dairy Cattle"],
+      "appearances": [3, 6, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Cows kept for milk production on local farms.",
+          "role": "Farm animal",
+          "relationships": {}
+        }
+      }
+    },
+    "war-horse": {
+      "name": "War Horse",
+      "aliases": ["Battle Steed"],
+      "appearances": [1, 8, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Trained horses used by the castle's military forces.",
+          "role": "Military mount",
+          "relationships": {}
+        }
+      }
+    },
+    "cart-horse": {
+      "name": "Cart Horse",
+      "aliases": ["Draft Horse"],
+      "appearances": [3, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Strong horses used for pulling carts and heavy loads.",
+          "role": "Working animal",
+          "relationships": {}
+        }
+      }
+    },
+    "donkey": {
+      "name": "Donkey",
+      "aliases": ["Ass"],
+      "appearances": [4, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A sturdy pack animal used for carrying goods.",
+          "role": "Pack animal",
+          "relationships": {}
+        }
+      }
+    },
+    "goat": {
+      "name": "Goat",
+      "aliases": ["Billy Goat"],
+      "appearances": [3, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Hardy mountain animals kept for milk and cheese.",
+          "role": "Livestock",
+          "relationships": {}
+        }
+      }
+    },
+    "chicken": {
+      "name": "Chicken",
+      "aliases": ["Hen"],
+      "appearances": [2, 5, 10],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Domestic fowl kept for eggs and meat.",
+          "role": "Farm bird",
+          "relationships": {}
+        }
+      }
+    },
+    "duck": {
+      "name": "Duck",
+      "aliases": ["Waterfowl"],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Water birds found near the streams and ponds.",
+          "role": "Wild bird",
+          "relationships": {}
+        }
+      }
+    },
+    "castle-guard-williams": {
+      "name": "Castle Guard Williams",
+      "aliases": ["Williams", "Guard Williams"],
+      "appearances": [1, 4, 8, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A castle guard who witnessed the night of the murder and struggles with loyalty.",
+          "role": "Castle security",
+          "relationships": {
+            "Serves under": "Captain of Guards"
+          }
+        }
+      }
+    },
+    "castle-guard-roberts": {
+      "name": "Castle Guard Roberts",
+      "aliases": ["Roberts", "Guard Roberts"],
+      "appearances": [1, 3, 7, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another castle guard who patrols the battlements and courtyard.",
+          "role": "Castle security",
+          "relationships": {
+            "Works with": "Castle Guard Williams"
+          }
+        }
+      }
+    },
+    "castle-guard-thompson": {
+      "name": "Castle Guard Thompson",
+      "aliases": ["Thompson", "Guard Thompson"],
+      "appearances": [2, 5, 9, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A veteran guard who remembers the old king and is troubled by recent events.",
+          "role": "Senior guard",
+          "relationships": {
+            "Remembers": "King Verence"
+          }
+        }
+      }
+    },
+    "castle-guard-davies": {
+      "name": "Castle Guard Davies",
+      "aliases": ["Davies", "Young Davies"],
+      "appearances": [3, 6, 10, 12],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A younger guard who is eager to prove himself but uncertain about the political situation.",
+          "role": "Junior guard",
+          "relationships": {}
+        }
+      }
+    },
+    "kitchen-maid-sarah": {
+      "name": "Kitchen Maid Sarah",
+      "aliases": ["Sarah", "Young Sarah"],
+      "appearances": [2, 4, 6, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A hardworking kitchen maid who prepares food and cleans dishes.",
+          "role": "Kitchen worker",
+          "relationships": {
+            "Works under": "Cook"
+          }
+        }
+      }
+    },
+    "kitchen-maid-mary": {
+      "name": "Kitchen Maid Mary",
+      "aliases": ["Mary", "Quiet Mary"],
+      "appearances": [2, 5, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A shy kitchen maid who overhears conversations and knows castle secrets.",
+          "role": "Kitchen worker",
+          "relationships": {
+            "Works with": "Kitchen Maid Sarah"
+          }
+        }
+      }
+    },
+    "village-boy-tom": {
+      "name": "Village Boy Tom",
+      "aliases": ["Young Tom", "Tom the Messenger"],
+      "appearances": [3, 5, 7, 10],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An energetic village boy who runs messages and errands between households.",
+          "role": "Village messenger",
+          "relationships": {}
+        }
+      }
+    },
+    "village-boy-peter": {
+      "name": "Village Boy Peter",
+      "aliases": ["Peter", "Little Peter"],
+      "appearances": [4, 8, 11],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A curious village child who often gets into minor trouble exploring.",
+          "role": "Village child",
+          "relationships": {
+            "Friends with": "Village Boy Tom"
+          }
+        }
+      }
+    },
+    "village-girl-emma": {
+      "name": "Village Girl Emma",
+      "aliases": ["Emma", "Sweet Emma"],
+      "appearances": [3, 6, 9, 12],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A village girl who helps her mother with household chores and tends animals.",
+          "role": "Village child",
+          "relationships": {}
+        }
+      }
+    },
+    "village-girl-anne": {
+      "name": "Village Girl Anne",
+      "aliases": ["Anne", "Little Anne"],
+      "appearances": [5, 8, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A cheerful village girl who picks berries and flowers in the countryside.",
+          "role": "Village child",
+          "relationships": {
+            "Plays with": "Village Girl Emma"
+          }
+        }
+      }
+    },
+    "farmer-jenkins": {
+      "name": "Farmer Jenkins",
+      "aliases": ["Old Jenkins", "Jenkins"],
+      "appearances": [3, 6, 9, 12],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly farmer who grows vegetables and grain for the village market.",
+          "role": "Village farmer",
+          "relationships": {}
+        }
+      }
+    },
+    "farmer-wright": {
+      "name": "Farmer Wright",
+      "aliases": ["Wright", "Goodman Wright"],
+      "appearances": [4, 7, 10],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A prosperous farmer who owns several fields and employs seasonal workers.",
+          "role": "Landowner",
+          "relationships": {}
+        }
+      }
+    },
+    "blacksmiths-apprentice": {
+      "name": "Blacksmith's Apprentice",
+      "aliases": ["Young Smith", "The Apprentice"],
+      "appearances": [2, 5, 7, 10],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Learning the smithing trade under Jason Ogg's guidance.",
+          "role": "Apprentice craftsman",
+          "relationships": {
+            "Learns from": "Jason Ogg"
+          }
+        }
+      }
+    },
+    "village-drunk": {
+      "name": "Village Drunk",
+      "aliases": ["Old Soak", "The Drunkard"],
+      "appearances": [3, 6, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The village's resident alcoholic who spends most days at the tavern.",
+          "role": "Village character",
+          "relationships": {}
+        }
+      }
+    },
+    "witch-hopeful-agnes": {
+      "name": "Agnes Nutter",
+      "aliases": ["Young Agnes", "Would-be Witch"],
+      "appearances": [4, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young woman who hopes to become a witch but lacks natural talent.",
+          "role": "Aspiring witch",
+          "relationships": {
+            "Admires": "The three witches"
+          }
+        }
+      }
+    },
+    "wise-woman-grope": {
+      "name": "Wise Woman Grope",
+      "aliases": ["Goodie Grope", "The Healer"],
+      "appearances": [2, 5, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly woman who provides folk remedies and birthing assistance.",
+          "role": "Traditional healer",
+          "relationships": {}
+        }
+      }
+    },
+    "traveling-peddler": {
+      "name": "Traveling Peddler",
+      "aliases": ["The Salesman", "Wandering Merchant"],
+      "appearances": [4, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A merchant who travels between villages selling small goods and trinkets.",
+          "role": "Itinerant trader",
+          "relationships": {}
+        }
+      }
+    },
+    "castle-librarian": {
+      "name": "Castle Librarian",
+      "aliases": ["The Scholar", "Keeper of Books"],
+      "appearances": [2, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Maintains the castle's small collection of books and documents.",
+          "role": "Castle scholar",
+          "relationships": {}
+        }
+      }
+    },
+    "royal-seamstress": {
+      "name": "Royal Seamstress",
+      "aliases": ["The Needleworker", "Court Seamstress"],
+      "appearances": [1, 5, 9, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Creates and maintains clothing for the royal family and court.",
+          "role": "Court craftsperson",
+          "relationships": {}
+        }
+      }
+    },
+    "castle-chaplain": {
+      "name": "Castle Chaplain",
+      "aliases": ["The Priest", "Father Benedict"],
+      "appearances": [1, 3, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Provides religious services for the castle inhabitants and conducts ceremonies.",
+          "role": "Religious authority",
+          "relationships": {}
+        }
+      }
+    },
+    "master-of-arms": {
+      "name": "Master of Arms",
+      "aliases": ["Weapons Master", "Training Master"],
+      "appearances": [1, 4, 8, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Trains guards in combat and maintains the castle's weaponry.",
+          "role": "Military trainer",
+          "relationships": {
+            "Trains": "Castle guards"
+          }
+        }
+      }
+    },
+    "theater-drummer": {
+      "name": "Theater Drummer",
+      "aliases": ["The Musician", "Beat Keeper"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Provides musical accompaniment for the theater company's performances.",
+          "role": "Theater musician",
+          "relationships": {
+            "Works with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "theater-juggler": {
+      "name": "Theater Juggler",
+      "aliases": ["The Entertainer", "Skill Master"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Performs juggling acts and acrobatics with the theater troupe.",
+          "role": "Physical performer",
+          "relationships": {
+            "Performs with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "theater-singer": {
+      "name": "Theater Singer",
+      "aliases": ["The Vocalist", "Song Master"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Provides vocal performances and song interludes during plays.",
+          "role": "Theater vocalist",
+          "relationships": {
+            "Sings with": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "wagon-driver": {
+      "name": "Wagon Driver",
+      "aliases": ["The Teamster", "Cart Master"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Drives the theater company's wagon and tends to their horses.",
+          "role": "Transportation specialist",
+          "relationships": {
+            "Serves": "Vitoller's company"
+          }
+        }
+      }
+    },
+    "ankh-morpork-noble": {
+      "name": "Ankh-Morpork Noble",
+      "aliases": ["City Lord", "Urban Noble"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A wealthy nobleman from the great city who attends theater performances.",
+          "role": "Urban aristocrat",
+          "relationships": {}
+        }
+      }
+    },
+    "pickpocket": {
+      "name": "Pickpocket",
+      "aliases": ["The Thief", "Light Fingers"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A skilled thief who operates in crowded areas around the theater.",
+          "role": "Urban criminal",
+          "relationships": {}
+        }
+      }
+    },
+    "street-sweeper": {
+      "name": "Street Sweeper",
+      "aliases": ["The Cleaner", "Road Keeper"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Keeps the city streets clean and watches all the daily activities.",
+          "role": "City maintenance",
+          "relationships": {}
+        }
+      }
+    },
+    "beggar": {
+      "name": "Beggar",
+      "aliases": ["The Mendicant", "Street Beggar"],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Asks for charity from theater patrons and city dwellers.",
+          "role": "Urban poor",
+          "relationships": {}
+        }
+      }
+    },
+    "city-watchman": {
+      "name": "City Watchman",
+      "aliases": ["Night Watch", "City Guard"],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Patrols the city streets maintaining order during the night hours.",
+          "role": "Urban law enforcement",
+          "relationships": {}
+        }
+      }
+    },
+    "guild-apprentice": {
+      "name": "Guild Apprentice",
+      "aliases": ["Young Tradesman", "Learning Craftsman"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Learning a trade under one of Ankh-Morpork's established guilds.",
+          "role": "Apprentice",
+          "relationships": {}
+        }
+      }
+    },
+    "market-woman": {
+      "name": "Market Woman",
+      "aliases": ["The Seller", "Market Trader"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Sells produce and goods at the city market.",
+          "role": "Market vendor",
+          "relationships": {}
+        }
+      }
+    },
+    "dock-worker": {
+      "name": "Dock Worker",
+      "aliases": ["Harbor Hand", "Ship Loader"],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Works at the docks loading and unloading ships.",
+          "role": "Harbor laborer",
+          "relationships": {}
+        }
+      }
+    },
+    "tavern-regular": {
+      "name": "Tavern Regular",
+      "aliases": ["The Drinker", "Bar Patron"],
+      "appearances": [3, 6, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Spends most evenings drinking at the village tavern sharing gossip.",
+          "role": "Village socializer",
+          "relationships": {}
+        }
+      }
+    },
+    "traveling-monk": {
+      "name": "Traveling Monk",
+      "aliases": ["Brother Wanderer", "The Pilgrim"],
+      "appearances": [4, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A religious brother who travels between communities offering blessings.",
+          "role": "Wandering cleric",
+          "relationships": {}
+        }
+      }
+    },
+    "herb-collector": {
+      "name": "Herb Collector",
+      "aliases": ["Plant Gatherer", "Forest Walker"],
+      "appearances": [3, 5, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Gathers medicinal and cooking herbs from the forest and fields.",
+          "role": "Natural harvester",
+          "relationships": {}
+        }
+      }
+    },
+    "village-gossip": {
+      "name": "Village Gossip",
+      "aliases": ["The Busybody", "News Spreader"],
+      "appearances": [2, 5, 8, 11],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Knows everyone's business and spreads news throughout the village.",
+          "role": "Information broker",
+          "relationships": {}
+        }
+      }
+    },
+    "royal-taster": {
+      "name": "Royal Taster",
+      "aliases": ["Food Tester", "Poison Checker"],
+      "appearances": [1, 4, 9],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Tests the royal family's food for poison before they eat.",
+          "role": "Royal safety officer",
+          "relationships": {}
+        }
+      }
+    },
+    "castle-falconer": {
+      "name": "Castle Falconer",
+      "aliases": ["Bird Master", "Hawk Keeper"],
+      "appearances": [2, 7, 10],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Trains and cares for the castle's hunting birds.",
+          "role": "Bird specialist",
+          "relationships": {}
+        }
+      }
+    },
+    "royal-messenger": {
+      "name": "Royal Messenger",
+      "aliases": ["Swift Rider", "Royal Courier"],
+      "appearances": [1, 4, 8, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Carries official messages between the castle and other kingdoms.",
+          "role": "Communication specialist",
+          "relationships": {}
+        }
+      }
+    },
+    "court-painter": {
+      "name": "Court Painter",
+      "aliases": ["The Artist", "Portrait Maker"],
+      "appearances": [2, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Creates portraits and decorative artwork for the royal court.",
+          "role": "Court artist",
+          "relationships": {}
+        }
+      }
+    },
+    "dancing-master": {
+      "name": "Dancing Master",
+      "aliases": ["Dance Instructor", "Movement Teacher"],
+      "appearances": [2, 7],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Teaches court dances and provides entertainment at royal functions.",
+          "role": "Court instructor",
+          "relationships": {}
+        }
+      }
+    },
+    "castle-astronomer": {
+      "name": "Castle Astronomer",
+      "aliases": ["Star Reader", "Sky Watcher"],
+      "appearances": [3, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Studies the stars and provides astrological advice to the court.",
+          "role": "Court scholar",
+          "relationships": {}
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Three witches witness the murder of the rightful king and receive his infant son to protect, while the usurping duke takes power.",
+    "2": "The witches discover the difficulty of caring for a royal baby while the new duke struggles with guilt and paranoia over his crime.",
+    "3": "Political tensions rise in Lancre as the duke's rule becomes increasingly unstable and the witches debate their next moves.",
+    "4": "The witches use their unique methods to influence events while the duke's mental state deteriorates under the weight of his actions.",
+    "5": "A theater company arrives in the area, unknowingly carrying someone important to the kingdom's future as supernatural forces gather.",
+    "6": "The witches encounter the traveling players and begin to see how theater might serve their purposes in the greater scheme.",
+    "7": "Plans begin to take shape as the witches realize the potential in both the theater and the people they've been protecting.",
+    "8": "The supernatural and theatrical worlds collide as the witches orchestrate events to restore proper order to the kingdom.",
+    "9": "Dramatic revelations unfold as characters discover their true natures and the witches' long-term plans become clear.",
+    "10": "The climax approaches as all the carefully laid plans come together in a spectacular theatrical and magical confrontation.",
+    "11": "Royal identities are revealed and choices must be made about duty, destiny, and what kind of life each person truly wants.",
+    "12": "The kingdom finds its new equilibrium with rightful rulers in place and the witches having successfully guided fate's hand."
+  }
+}

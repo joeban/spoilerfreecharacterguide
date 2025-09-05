@@ -1,0 +1,1364 @@
+{
+  "meta": {
+    "title": "Pyramids",
+    "author": "Terry Pratchett",
+    "chapters": 11,
+    "schemaVersion": "2.0",
+    "asin": "0062225740"
+  },
+  "characters": {
+    "teppic": {
+      "name": "Teppic",
+      "aliases": ["Pteppic", "Prince Pteppicymon XXVIII"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young man training at the Assassins' Guild in Ankh-Morpork. He appears to be a foreign student with an unusual name.",
+          "role": "Assassin student",
+          "relationships": {
+            "studies under": "Mericet",
+            "fellow student": "Chidder"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Crown Prince of Djelibeybi, called back to inherit the throne after his father's death. He has been educated in Ankh-Morpork.",
+          "role": "Crown Prince of Djelibeybi",
+          "relationships": {
+            "son of": "Teppicymon XXVII",
+            "served by": "Dios"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "New pharaoh struggling with ancient traditions and modern ideas. He wants to modernize his kingdom but faces resistance.",
+          "role": "Pharaoh of Djelibeybi",
+          "relationships": {
+            "advised by": "Dios",
+            "attracted to": "Ptraci"
+          }
+        }
+      }
+    },
+    "ptraci": {
+      "name": "Ptraci",
+      "appearances": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A handmaiden in the palace, described as beautiful and intelligent. She serves in the pharaoh's household.",
+          "role": "Palace handmaiden",
+          "relationships": {}
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "A clever young woman who questions the old ways and traditions. She has her own opinions about how things should be done.",
+          "role": "Palace handmaiden and advisor",
+          "relationships": {
+            "advises": "Teppic"
+          }
+        }
+      }
+    },
+    "dios": {
+      "name": "Dios",
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The High Priest of Djelibeybi, an elderly man who has served the kingdom for many years. He maintains all the ancient traditions.",
+          "role": "High Priest",
+          "relationships": {
+            "serves": "Teppic"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "A traditionalist who believes in maintaining the old ways. He becomes increasingly concerned about the new pharaoh's modern ideas.",
+          "role": "High Priest and royal advisor",
+          "relationships": {
+            "opposes reforms of": "Teppic"
+          }
+        }
+      }
+    },
+    "mericet": {
+      "name": "Mericet",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An instructor at the Assassins' Guild, teaching students the finer points of assassination. He is experienced and demanding.",
+          "role": "Assassins' Guild instructor",
+          "relationships": {
+            "teaches": "Teppic"
+          }
+        }
+      }
+    },
+    "chidder": {
+      "name": "Chidder",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A fellow student at the Assassins' Guild, friendly with Teppic. He seems more naturally suited to the assassin's life.",
+          "role": "Assassin student",
+          "relationships": {
+            "friend of": "Teppic"
+          }
+        }
+      }
+    },
+    "arthur": {
+      "name": "Arthur",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another student at the Assassins' Guild, part of Teppic's peer group during training.",
+          "role": "Assassin student",
+          "relationships": {}
+        }
+      }
+    },
+    "teppicymon-xxvii": {
+      "name": "Teppicymon XXVII",
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The recently deceased pharaoh of Djelibeybi, father of Teppic. His death triggers his son's return from the Assassins' Guild.",
+          "role": "Former Pharaoh of Djelibeybi",
+          "relationships": {
+            "father of": "Teppic"
+          }
+        }
+      }
+    },
+    "you-bastard": {
+      "name": "You Bastard",
+      "appearances": [5, 6, 7, 8, 9, 10, 11],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A highly intelligent camel with mathematical abilities. Despite his name, he is actually quite clever and philosophical.",
+          "role": "Intelligent camel",
+          "relationships": {}
+        }
+      }
+    },
+    "xeno": {
+      "name": "Xeno",
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A philosopher from Ephebe who is known for his paradoxes, particularly involving tortoises and races.",
+          "role": "Ephebrian philosopher",
+          "relationships": {}
+        }
+      }
+    },
+    "ibid": {
+      "name": "Ibid",
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A philosopher from Ephebe, colleague of other philosophical thinkers in the city.",
+          "role": "Ephebrian philosopher",
+          "relationships": {
+            "colleague of": "Xeno"
+          }
+        }
+      }
+    },
+    "koomi": {
+      "name": "Koomi",
+      "appearances": [3, 4, 5, 6, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A priest in Djelibeybi, one of the religious hierarchy serving under Dios.",
+          "role": "Priest",
+          "relationships": {
+            "serves under": "Dios"
+          }
+        }
+      }
+    },
+    "gern": {
+      "name": "Gern",
+      "appearances": [3, 4, 5, 6, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An apprentice embalmer in Djelibeybi, learning the ancient art of mummification.",
+          "role": "Apprentice embalmer",
+          "relationships": {}
+        }
+      }
+    },
+    "hoot-koomi": {
+      "name": "Hoot Koomi",
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A senior priest in the Djelibeybi hierarchy, involved in religious ceremonies and traditions.",
+          "role": "Senior priest",
+          "relationships": {
+            "serves under": "Dios"
+          }
+        }
+      }
+    },
+    "ptaclusp": {
+      "name": "Ptaclusp",
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A pyramid builder and architect, head of the family construction business in Djelibeybi.",
+          "role": "Master pyramid builder",
+          "relationships": {}
+        }
+      }
+    },
+    "ptaclusp-iia": {
+      "name": "Ptaclusp IIa",
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Son of Ptaclusp the pyramid builder, involved in the family construction business.",
+          "role": "Pyramid builder",
+          "relationships": {
+            "son of": "Ptaclusp"
+          }
+        }
+      }
+    },
+    "ptaclusp-iib": {
+      "name": "Ptaclusp IIb",
+      "appearances": [4, 5, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another son of Ptaclusp, also working in pyramid construction with his family.",
+          "role": "Pyramid builder",
+          "relationships": {
+            "son of": "Ptaclusp"
+          }
+        }
+      }
+    },
+    "endos": {
+      "name": "Endos",
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A philosopher from Ephebe, part of the intellectual community there.",
+          "role": "Ephebrian philosopher",
+          "relationships": {}
+        }
+      }
+    },
+    "copolymer": {
+      "name": "Copolymer",
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A philosopher from Ephebe with interests in natural philosophy and mathematics.",
+          "role": "Ephebrian philosopher",
+          "relationships": {}
+        }
+      }
+    },
+    "iesope": {
+      "name": "Iesope",
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An Ephebrian philosopher known for his moral tales and stories.",
+          "role": "Ephebrian philosopher and storyteller",
+          "relationships": {}
+        }
+      }
+    },
+    "pthagonal": {
+      "name": "Pthagonal",
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A mathematician and philosopher from Ephebe, interested in geometric principles.",
+          "role": "Ephebrian mathematician",
+          "relationships": {}
+        }
+      }
+    },
+    "autocue": {
+      "name": "Autocue",
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A palace servant in Djelibeybi, part of the household staff.",
+          "role": "Palace servant",
+          "relationships": {}
+        }
+      }
+    },
+    "the-tortoise": {
+      "name": "The Tortoise",
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A mathematically-minded tortoise involved in Xeno's paradoxes and philosophical discussions.",
+          "role": "Philosophical tortoise",
+          "relationships": {
+            "associated with": "Xeno"
+          }
+        }
+      }
+    },
+    "garlic": {
+      "name": "Garlic",
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A palace servant in Djelibeybi, working in the royal household.",
+          "role": "Palace servant",
+          "relationships": {}
+        }
+      }
+    },
+    "rhubarb": {
+      "name": "Rhubarb",
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another palace servant in Djelibeybi, part of the domestic staff.",
+          "role": "Palace servant",
+          "relationships": {}
+        }
+      }
+    },
+    "cheesewright": {
+      "name": "Cheesewright",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A student at the Assassins' Guild, training alongside Teppic.",
+          "role": "Assassin student",
+          "relationships": {}
+        }
+      }
+    },
+    "fliemoe": {
+      "name": "Fliemoe",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another student at the Assassins' Guild, part of Teppic's class.",
+          "role": "Assassin student",
+          "relationships": {}
+        }
+      }
+    },
+    "the-master": {
+      "name": "The Master",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A senior instructor at the Assassins' Guild, overseeing student training and examinations.",
+          "role": "Guild instructor",
+          "relationships": {}
+        }
+      }
+    },
+    "assassin-examiner": {
+      "name": "Assassin Examiner",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An official who conducts the final examinations for Assassins' Guild students.",
+          "role": "Guild examiner",
+          "relationships": {}
+        }
+      }
+    },
+    "dr-cruces": {
+      "name": "Dr Cruces",
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A senior figure at the Assassins' Guild, involved in guild administration and policy.",
+          "role": "Guild administrator",
+          "relationships": {}
+        }
+      }
+    },
+    "djelibeybi-border-guard": {
+      "name": "Djelibeybi Border Guard",
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A guard stationed at the border of Djelibeybi, checking travelers entering the kingdom.",
+          "role": "Border guard",
+          "relationships": {}
+        }
+      }
+    },
+    "palace-guard-captain": {
+      "name": "Palace Guard Captain",
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The leader of the palace guards in Djelibeybi, responsible for royal security.",
+          "role": "Guard captain",
+          "relationships": {}
+        }
+      }
+    },
+    "embalmer-chief": {
+      "name": "Chief Embalmer",
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The senior embalmer in Djelibeybi, overseeing the mummification processes for the royal family.",
+          "role": "Chief embalmer",
+          "relationships": {
+            "supervises": "Gern"
+          }
+        }
+      }
+    },
+    "servant-girl-1": {
+      "name": "Palace Servant Girl",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young servant working in the Djelibeybi palace, part of the household staff.",
+          "role": "Palace servant",
+          "relationships": {}
+        }
+      }
+    },
+    "old-priest": {
+      "name": "Old Priest",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly priest in the Djelibeybi religious hierarchy, experienced in ancient rituals.",
+          "role": "Senior priest",
+          "relationships": {}
+        }
+      }
+    },
+    "young-priest": {
+      "name": "Young Priest",
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A junior priest in Djelibeybi, learning the traditional ways from his seniors.",
+          "role": "Junior priest",
+          "relationships": {}
+        }
+      }
+    },
+    "market-trader-1": {
+      "name": "Spice Trader",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A merchant in the Djelibeybi marketplace, selling spices and trade goods.",
+          "role": "Merchant",
+          "relationships": {}
+        }
+      }
+    },
+    "market-trader-2": {
+      "name": "Cloth Merchant",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A trader selling fabrics and textiles in the Djelibeybi markets.",
+          "role": "Cloth merchant",
+          "relationships": {}
+        }
+      }
+    },
+    "farmer-1": {
+      "name": "River Farmer",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A farmer working the fertile lands along the river in Djelibeybi.",
+          "role": "Farmer",
+          "relationships": {}
+        }
+      }
+    },
+    "farmer-2": {
+      "name": "Grain Farmer",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A farmer growing crops in the agricultural areas of Djelibeybi.",
+          "role": "Farmer",
+          "relationships": {}
+        }
+      }
+    },
+    "pyramid-worker-1": {
+      "name": "Stone Mason",
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A skilled craftsman working on pyramid construction, shaping stone blocks.",
+          "role": "Stone mason",
+          "relationships": {
+            "works for": "Ptaclusp"
+          }
+        }
+      }
+    },
+    "pyramid-worker-2": {
+      "name": "Block Hauler",
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A laborer involved in moving heavy stone blocks for pyramid construction.",
+          "role": "Construction worker",
+          "relationships": {
+            "works for": "Ptaclusp"
+          }
+        }
+      }
+    },
+    "pyramid-worker-3": {
+      "name": "Measurements Clerk",
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A clerk responsible for ensuring accurate measurements in pyramid construction.",
+          "role": "Construction clerk",
+          "relationships": {
+            "works for": "Ptaclusp"
+          }
+        }
+      }
+    },
+    "royal-cook": {
+      "name": "Royal Cook",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The chief cook in the royal palace, preparing meals for the pharaoh and court.",
+          "role": "Palace cook",
+          "relationships": {}
+        }
+      }
+    },
+    "scribe-1": {
+      "name": "Palace Scribe",
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A literate official in the palace, recording important documents and decrees.",
+          "role": "Royal scribe",
+          "relationships": {}
+        }
+      }
+    },
+    "scribe-2": {
+      "name": "Temple Scribe",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A scribe working in the temple complex, maintaining religious records.",
+          "role": "Temple scribe",
+          "relationships": {}
+        }
+      }
+    },
+    "treasurer": {
+      "name": "Royal Treasurer",
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The official responsible for managing the kingdom's finances and tax collection.",
+          "role": "Royal treasurer",
+          "relationships": {}
+        }
+      }
+    },
+    "tax-collector": {
+      "name": "Tax Collector",
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An official who collects taxes from the citizens of Djelibeybi.",
+          "role": "Tax collector",
+          "relationships": {}
+        }
+      }
+    },
+    "camel-driver": {
+      "name": "Camel Driver",
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A handler of camels, working with the desert animals for transportation.",
+          "role": "Camel handler",
+          "relationships": {}
+        }
+      }
+    },
+    "desert-nomad": {
+      "name": "Desert Nomad",
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A wandering tribesman from the desert regions, skilled in desert survival.",
+          "role": "Nomadic tribesman",
+          "relationships": {}
+        }
+      }
+    },
+    "boat-captain": {
+      "name": "River Boat Captain",
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A sailor commanding a boat on the river, involved in trade and transport.",
+          "role": "Boat captain",
+          "relationships": {}
+        }
+      }
+    },
+    "fisherman": {
+      "name": "River Fisherman",
+      "appearances": [2, 7],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A fisherman working the river waters, catching fish for the local markets.",
+          "role": "Fisherman",
+          "relationships": {}
+        }
+      }
+    },
+    "ephebe-student-1": {
+      "name": "Philosophy Student",
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A young student in Ephebe, learning philosophy from the great thinkers.",
+          "role": "Student philosopher",
+          "relationships": {}
+        }
+      }
+    },
+    "ephebe-student-2": {
+      "name": "Mathematics Student",
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A student studying mathematical principles and geometry in Ephebe.",
+          "role": "Student mathematician",
+          "relationships": {}
+        }
+      }
+    },
+    "ephebe-citizen-1": {
+      "name": "Ephebrian Baker",
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A baker in the city of Ephebe, providing bread for the citizens.",
+          "role": "Baker",
+          "relationships": {}
+        }
+      }
+    },
+    "ephebe-citizen-2": {
+      "name": "Ephebrian Potter",
+      "appearances": [8],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A craftsman making pottery and ceramics in Ephebe.",
+          "role": "Potter",
+          "relationships": {}
+        }
+      }
+    },
+    "ephebe-guard": {
+      "name": "Ephebrian Guard",
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A city guard maintaining order in Ephebe, though the city values philosophical discussion.",
+          "role": "City guard",
+          "relationships": {}
+        }
+      }
+    },
+    "stable-boy": {
+      "name": "Palace Stable Boy",
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young worker caring for horses and other animals in the palace stables.",
+          "role": "Stable hand",
+          "relationships": {}
+        }
+      }
+    },
+    "handmaiden-1": {
+      "name": "Senior Handmaiden",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An experienced servant attending to needs in the royal household.",
+          "role": "Palace handmaiden",
+          "relationships": {}
+        }
+      }
+    },
+    "handmaiden-2": {
+      "name": "Junior Handmaiden",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A younger servant learning her duties in the palace.",
+          "role": "Palace handmaiden",
+          "relationships": {}
+        }
+      }
+    },
+    "architect": {
+      "name": "Royal Architect",
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A designer of buildings and monuments, working on royal construction projects.",
+          "role": "Royal architect",
+          "relationships": {
+            "collaborates with": "Ptaclusp"
+          }
+        }
+      }
+    },
+    "herald": {
+      "name": "Royal Herald",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An official who makes public announcements and proclamations for the pharaoh.",
+          "role": "Royal herald",
+          "relationships": {}
+        }
+      }
+    },
+    "drummer": {
+      "name": "Temple Drummer",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A musician providing rhythmic accompaniment for religious ceremonies.",
+          "role": "Temple musician",
+          "relationships": {}
+        }
+      }
+    },
+    "flautist": {
+      "name": "Temple Flautist",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A musician playing melodies during temple rituals and ceremonies.",
+          "role": "Temple musician",
+          "relationships": {}
+        }
+      }
+    },
+    "incense-bearer": {
+      "name": "Incense Bearer",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A temple assistant responsible for carrying and burning incense during rituals.",
+          "role": "Temple assistant",
+          "relationships": {}
+        }
+      }
+    },
+    "water-carrier": {
+      "name": "Temple Water Carrier",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A servant bringing fresh water for temple ceremonies and daily needs.",
+          "role": "Temple servant",
+          "relationships": {}
+        }
+      }
+    },
+    "bread-maker": {
+      "name": "Temple Baker",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A baker preparing ceremonial breads and offerings for temple rituals.",
+          "role": "Temple baker",
+          "relationships": {}
+        }
+      }
+    },
+    "wine-steward": {
+      "name": "Royal Wine Steward",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An official responsible for managing and serving the royal wine collection.",
+          "role": "Wine steward",
+          "relationships": {}
+        }
+      }
+    },
+    "door-guard-1": {
+      "name": "North Gate Guard",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A guard stationed at one of the palace entrances, checking visitors.",
+          "role": "Palace guard",
+          "relationships": {}
+        }
+      }
+    },
+    "door-guard-2": {
+      "name": "South Gate Guard",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A guard at another palace entrance, working with his fellow guards.",
+          "role": "Palace guard",
+          "relationships": {}
+        }
+      }
+    },
+    "night-watchman": {
+      "name": "Night Watchman",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A guard who patrols the palace grounds during the night hours.",
+          "role": "Night guard",
+          "relationships": {}
+        }
+      }
+    },
+    "torch-bearer": {
+      "name": "Torch Bearer",
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A servant responsible for maintaining torches and lighting throughout the palace.",
+          "role": "Palace servant",
+          "relationships": {}
+        }
+      }
+    },
+    "messenger": {
+      "name": "Royal Messenger",
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A fast runner who carries messages between the palace and other locations.",
+          "role": "Royal messenger",
+          "relationships": {}
+        }
+      }
+    },
+    "camel-2": {
+      "name": "Second Camel",
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another camel in the group, less philosophically inclined than You Bastard.",
+          "role": "Camel",
+          "relationships": {}
+        }
+      }
+    },
+    "camel-3": {
+      "name": "Third Camel",
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A third camel accompanying the group, focused on practical desert matters.",
+          "role": "Camel",
+          "relationships": {}
+        }
+      }
+    },
+    "sphinx": {
+      "name": "The Sphinx",
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An ancient creature encountered in the desert, known for asking riddles.",
+          "role": "Ancient guardian creature",
+          "relationships": {}
+        }
+      }
+    },
+    "djelibeybi-citizen-1": {
+      "name": "Street Vendor",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A citizen selling goods from a street stall in Djelibeybi.",
+          "role": "Street vendor",
+          "relationships": {}
+        }
+      }
+    },
+    "djelibeybi-citizen-2": {
+      "name": "Tavern Keeper",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The owner of a drinking establishment in Djelibeybi.",
+          "role": "Tavern keeper",
+          "relationships": {}
+        }
+      }
+    },
+    "djelibeybi-citizen-3": {
+      "name": "Blacksmith",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A metalworker crafting tools and implements for the citizens.",
+          "role": "Blacksmith",
+          "relationships": {}
+        }
+      }
+    },
+    "djelibeybi-citizen-4": {
+      "name": "Carpet Weaver",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An artisan creating carpets and rugs in traditional patterns.",
+          "role": "Carpet weaver",
+          "relationships": {}
+        }
+      }
+    },
+    "djelibeybi-citizen-5": {
+      "name": "Perfume Seller",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A merchant selling fragrances and scented oils in the market.",
+          "role": "Perfume merchant",
+          "relationships": {}
+        }
+      }
+    },
+    "city-elder": {
+      "name": "City Elder",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A respected older citizen who advises on local matters and traditions.",
+          "role": "City elder",
+          "relationships": {}
+        }
+      }
+    },
+    "young-noble": {
+      "name": "Young Noble",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A member of the minor nobility, part of the court society.",
+          "role": "Minor noble",
+          "relationships": {}
+        }
+      }
+    },
+    "old-woman": {
+      "name": "Old Market Woman",
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly woman selling vegetables and produce in the marketplace.",
+          "role": "Market vendor",
+          "relationships": {}
+        }
+      }
+    },
+    "child-1": {
+      "name": "Palace Child",
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young child living or visiting in the palace, curious about the happenings.",
+          "role": "Child",
+          "relationships": {}
+        }
+      }
+    },
+    "palace-cat": {
+      "name": "Palace Cat",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A cat that roams the palace grounds, hunting mice and observing events.",
+          "role": "Palace cat",
+          "relationships": {}
+        }
+      }
+    },
+    "sacred-bird": {
+      "name": "Sacred Ibis",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A bird considered sacred in Djelibeybi religious traditions.",
+          "role": "Sacred bird",
+          "relationships": {}
+        }
+      }
+    },
+    "river-god": {
+      "name": "River God",
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A deity associated with the river that flows through Djelibeybi.",
+          "role": "River deity",
+          "relationships": {}
+        }
+      }
+    },
+    "sun-god": {
+      "name": "Sun God",
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The primary deity worshipped in Djelibeybi, associated with the sun and pharaoh.",
+          "role": "Solar deity",
+          "relationships": {}
+        }
+      }
+    },
+    "moon-goddess": {
+      "name": "Moon Goddess",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A female deity associated with lunar cycles and night time.",
+          "role": "Lunar deity",
+          "relationships": {}
+        }
+      }
+    },
+    "ancestor-spirit-1": {
+      "name": "First Dynasty Pharaoh",
+      "appearances": [6, 7, 8, 9, 10, 11],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An ancient pharaoh from the early history of Djelibeybi, now existing as a spirit.",
+          "role": "Ancestral pharaoh",
+          "relationships": {}
+        }
+      }
+    },
+    "ancestor-spirit-2": {
+      "name": "Ancient Queen",
+      "appearances": [6, 7, 8, 9, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A royal ancestor from the distant past, appearing among the awakened spirits.",
+          "role": "Ancestral queen",
+          "relationships": {}
+        }
+      }
+    },
+    "ancestor-spirit-3": {
+      "name": "Builder Pharaoh",
+      "appearances": [6, 7, 8, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An ancient pharaoh known for great construction projects, now among the spirits.",
+          "role": "Ancient builder king",
+          "relationships": {}
+        }
+      }
+    },
+    "mummy-1": {
+      "name": "First Royal Mummy",
+      "appearances": [6, 7, 8, 9, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A preserved royal mummy that has begun to move and act.",
+          "role": "Animated mummy",
+          "relationships": {}
+        }
+      }
+    },
+    "mummy-2": {
+      "name": "Second Royal Mummy",
+      "appearances": [6, 7, 8, 9, 10],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another preserved royal mummy showing signs of animation.",
+          "role": "Animated mummy",
+          "relationships": {}
+        }
+      }
+    },
+    "mummy-3": {
+      "name": "Ancient Noble Mummy",
+      "appearances": [6, 7, 8, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A mummified noble from the past, awakening with the others.",
+          "role": "Animated noble mummy",
+          "relationships": {}
+        }
+      }
+    },
+    "foreign-ambassador": {
+      "name": "Tsortian Ambassador",
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A diplomatic representative from the neighboring kingdom of Tsort.",
+          "role": "Foreign ambassador",
+          "relationships": {}
+        }
+      }
+    },
+    "foreign-soldier": {
+      "name": "Tsortian Soldier",
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A warrior from Tsort, part of military or diplomatic missions.",
+          "role": "Foreign soldier",
+          "relationships": {}
+        }
+      }
+    },
+    "storyteller": {
+      "name": "Palace Storyteller",
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An entertainer who recounts tales and legends for the court's amusement.",
+          "role": "Court storyteller",
+          "relationships": {}
+        }
+      }
+    },
+    "court-musician": {
+      "name": "Court Musician",
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A skilled performer providing music for royal entertainment and ceremonies.",
+          "role": "Court musician",
+          "relationships": {}
+        }
+      }
+    },
+    "dancing-girl": {
+      "name": "Palace Dancer",
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A performer trained in traditional dances for court entertainment.",
+          "role": "Court dancer",
+          "relationships": {}
+        }
+      }
+    },
+    "court-fool": {
+      "name": "Court Jester",
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A comedian and entertainer who provides humor for the royal court.",
+          "role": "Court jester",
+          "relationships": {}
+        }
+      }
+    },
+    "master-of-ceremonies": {
+      "name": "Master of Ceremonies",
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An official who organizes and oversees formal court events and rituals.",
+          "role": "Court ceremonial officer",
+          "relationships": {}
+        }
+      }
+    },
+    "royal-physician": {
+      "name": "Royal Physician",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A healer and doctor who tends to the medical needs of the royal family.",
+          "role": "Court physician",
+          "relationships": {}
+        }
+      }
+    },
+    "temple-cat": {
+      "name": "Temple Cat",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A cat that lives in the temple complex, considered to have spiritual significance.",
+          "role": "Sacred temple cat",
+          "relationships": {}
+        }
+      }
+    },
+    "old-soldier": {
+      "name": "Veteran Guard",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An experienced former soldier now serving in palace security.",
+          "role": "Veteran palace guard",
+          "relationships": {}
+        }
+      }
+    },
+    "young-soldier": {
+      "name": "New Guard Recruit",
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A newly enlisted guard learning his duties at the palace.",
+          "role": "Junior palace guard",
+          "relationships": {}
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Teppic takes his final examination at the Assassins' Guild in Ankh-Morpork, demonstrating his skills but struggling with the practical aspects of assassination. He receives word that his father has died and he must return to Djelibeybi to become pharaoh.",
+    "2": "Teppic travels back to Djelibeybi, experiencing culture shock as he returns to his homeland after years of education abroad. He is greeted by the ancient traditions and customs that now feel foreign to him after his time in Ankh-Morpork.",
+    "3": "Teppic begins his duties as pharaoh, meeting with Dios the high priest and learning about the complex religious and political structure of his kingdom. He encounters Ptraci, a handmaiden who challenges his assumptions about palace life.",
+    "4": "The new pharaoh struggles with the weight of tradition and his desire to modernize the kingdom. He faces resistance from Dios and the priest hierarchy while trying to implement changes, and commissions a new pyramid from Ptaclusp the builder.",
+    "5": "Strange events begin occurring as the new pyramid nears completion, and the kingdom experiences unusual phenomena. Teppic flees the palace and encounters You Bastard, an intelligent camel, beginning a journey across the desert.",
+    "6": "The pyramid's completion triggers magical effects that awaken the ancient pharaohs and disturb the fabric of reality around Djelibeybi. The kingdom becomes displaced in time and space, cut off from the normal world.",
+    "7": "Teppic continues his journey, encountering various challenges and meeting other travelers. Meanwhile, the effects of the pyramid's power continue to grow stronger, affecting both the living and the dead in Djelibeybi.",
+    "8": "The journey leads to Ephebe, where Teppic encounters the philosophers including Xeno and his famous paradoxes. The contrasts between Ephebe's intellectual culture and Djelibeybi's ancient traditions become apparent.",
+    "9": "In Ephebe, Teppic learns different ways of thinking about problems and reality. The philosophers discuss mathematics, logic, and the nature of existence while the crisis in Djelibeybi continues to unfold.",
+    "10": "Events reach a climax as the full effects of the pyramid become clear. The ancient pharaohs and the power of the pyramid threaten to destroy the natural order, requiring decisive action to restore balance.",
+    "11": "Teppic must confront the consequences of the pyramid and find a way to resolve the crisis affecting his kingdom. The resolution requires him to reconcile his modern education with his royal responsibilities and the ancient ways of his people."
+  }
+}

@@ -1,0 +1,2544 @@
+{
+  "meta": {
+    "title": "Equal Rites",
+    "author": "Terry Pratchett",
+    "chapters": 15,
+    "schemaVersion": "2.0",
+    "asin": "0062225693"
+  },
+  "characters": {
+    "eskarina-smith": {
+      "name": "Eskarina Smith",
+      "aliases": ["Esk"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young girl from the village of Bad Ass in the Ramtop Mountains. Born in unusual circumstances during a thunderstorm.",
+          "role": "Village child",
+          "relationships": {
+            "Daughter of": "The local smith",
+            "Sister to": "Multiple siblings"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Shows unusual abilities and an inquisitive nature. Granny Weatherwax takes a special interest in her development.",
+          "role": "Young girl with potential",
+          "relationships": {
+            "Tutored by": "Granny Weatherwax",
+            "Daughter of": "The village smith"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Reveals remarkable magical potential that doesn't fit conventional patterns. Her abilities manifest in unexpected ways.",
+          "role": "Apprentice witch with unusual gifts",
+          "relationships": {
+            "Student of": "Granny Weatherwax",
+            "Traveling companion": "Simon"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Demonstrates abilities that challenge traditional boundaries between different types of magic.",
+          "role": "Student at Unseen University",
+          "relationships": {
+            "Protected by": "Granny Weatherwax",
+            "Friend of": "Simon"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Becomes the first person to bridge different magical traditions, proving that talent transcends conventional limitations.",
+          "role": "Groundbreaking magical practitioner",
+          "relationships": {
+            "Ally of": "Granny Weatherwax",
+            "Friend of": "Simon",
+            "Student of": "Both witch and wizard traditions"
+          }
+        }
+      }
+    },
+    "granny-weatherwax": {
+      "name": "Esmerelda Weatherwax",
+      "aliases": ["Granny Weatherwax", "Mistress Weatherwax"],
+      "appearances": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The village witch of Bad Ass, known for her practical approach to magic and her no-nonsense attitude. Commands respect and fear in equal measure.",
+          "role": "Village witch",
+          "relationships": {
+            "Teacher to": "Eskarina Smith",
+            "Rival of": "Other witches"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Possesses incredible magical power but believes strongly in using the right tool for the right job. Has strong opinions about the proper order of things.",
+          "role": "Powerful witch and mentor",
+          "relationships": {
+            "Mentor to": "Esk",
+            "Opponent of": "Wizards generally"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Infiltrates Unseen University to protect Esk, showing her resourcefulness and determination to challenge established traditions.",
+          "role": "Witch operating in wizard territory",
+          "relationships": {
+            "Guardian of": "Esk",
+            "Adversary of": "University authorities"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Proves that wisdom and determination can overcome prejudice and tradition. Earns grudging respect from the wizards.",
+          "role": "Revolutionary witch",
+          "relationships": {
+            "Ally of": "Esk",
+            "Respected by": "Cutangle and other wizards"
+          }
+        }
+      }
+    },
+    "simon": {
+      "name": "Simon",
+      "aliases": [],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A young wizard student at Unseen University. Intellectual and studious, with a particular interest in magical theory.",
+          "role": "Student wizard",
+          "relationships": {
+            "Student at": "Unseen University",
+            "Friend of": "Esk"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Becomes caught up in dangerous magical experiments. His theoretical knowledge sometimes exceeds his practical wisdom.",
+          "role": "Advanced student",
+          "relationships": {
+            "Close friend of": "Esk",
+            "Student of": "Various wizards"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Learns the importance of balancing knowledge with wisdom, and theory with practical application.",
+          "role": "Mature student wizard",
+          "relationships": {
+            "Companion of": "Esk",
+            "Colleague of": "University wizards"
+          }
+        }
+      }
+    },
+    "archchancellor-cutangle": {
+      "name": "Cutangle",
+      "aliases": ["Archchancellor Cutangle", "The Archchancellor"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The Archchancellor of Unseen University, leader of all the wizards. A traditionalist who believes in maintaining the established order.",
+          "role": "Head of Unseen University",
+          "relationships": {
+            "Leader of": "All university wizards",
+            "Authority over": "Students and faculty"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Faces unprecedented challenges to traditional wizard authority and must adapt his thinking to new circumstances.",
+          "role": "University leader under pressure",
+          "relationships": {
+            "Opponent of": "Granny Weatherwax",
+            "Authority over": "Simon and other students"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Learns to accept new ideas and approaches, showing that even the most traditional leaders can evolve.",
+          "role": "Reformed traditionalist",
+          "relationships": {
+            "Grudging ally of": "Granny Weatherwax",
+            "Supporter of": "New magical approaches"
+          }
+        }
+      }
+    },
+    "drum-billet": {
+      "name": "Drum Billet",
+      "aliases": ["The Dying Wizard"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An elderly wizard who arrives in Bad Ass during a thunderstorm, seeking to pass on his staff before dying. Sets events in motion with his final act.",
+          "role": "Dying wizard",
+          "relationships": {
+            "Predecessor to": "His chosen successor",
+            "Visitor to": "Bad Ass village"
+          }
+        }
+      }
+    },
+    "the-smith": {
+      "name": "The Smith",
+      "aliases": ["Esk's father", "Village blacksmith"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The village blacksmith of Bad Ass, a practical man skilled in his trade. Father to several children including Esk.",
+          "role": "Village blacksmith",
+          "relationships": {
+            "Father of": "Eskarina and her siblings",
+            "Husband of": "The smith's wife"
+          }
+        }
+      }
+    },
+    "the-smiths-wife": {
+      "name": "The Smith's Wife",
+      "aliases": ["Esk's mother"],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wife of the village smith and mother to Esk and her siblings. Present during the unusual circumstances of Esk's birth.",
+          "role": "Village mother",
+          "relationships": {
+            "Mother of": "Eskarina and her siblings",
+            "Wife of": "The village smith"
+          }
+        }
+      }
+    },
+    "gulta": {
+      "name": "Gulta",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of Esk's older siblings, son of the village smith. A typical village boy learning the family trade.",
+          "role": "Smith's son",
+          "relationships": {
+            "Brother of": "Eskarina",
+            "Son of": "The village smith"
+          }
+        }
+      }
+    },
+    "cern": {
+      "name": "Cern",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another of Esk's siblings, part of the large smith family in Bad Ass village.",
+          "role": "Village child",
+          "relationships": {
+            "Sibling of": "Eskarina",
+            "Child of": "The village smith"
+          }
+        }
+      }
+    },
+    "ned": {
+      "name": "Ned",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the smith's children, Esk's sibling who lives in the mountain village of Bad Ass.",
+          "role": "Village child",
+          "relationships": {
+            "Sibling of": "Eskarina",
+            "Child of": "The village smith"
+          }
+        }
+      }
+    },
+    "adder": {
+      "name": "Adder",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The youngest of the smith's children, Esk's little brother who is still quite small.",
+          "role": "Young child",
+          "relationships": {
+            "Youngest brother of": "Eskarina",
+            "Son of": "The village smith"
+          }
+        }
+      }
+    },
+    "gammer-beavis": {
+      "name": "Gammer Beavis",
+      "aliases": ["The Village Wise Woman"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The old wise woman of Bad Ass village, skilled in birthing and traditional healing. Present at Esk's unusual birth.",
+          "role": "Village wise woman",
+          "relationships": {
+            "Midwife to": "The smith's family",
+            "Predecessor of": "Granny Weatherwax"
+          }
+        }
+      }
+    },
+    "hilta-goatfounder": {
+      "name": "Hilta Goatfounder",
+      "aliases": ["Nanny Goatfounder"],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly witch who lives in the mountains. One of the local magical practitioners that Granny Weatherwax consults about Esk's situation.",
+          "role": "Mountain witch",
+          "relationships": {
+            "Colleague of": "Granny Weatherwax",
+            "Fellow witch": "Local coven member"
+          }
+        }
+      }
+    },
+    "gammer-nutley": {
+      "name": "Gammer Nutley",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another local witch in the Ramtops region. Part of the informal network of magical practitioners that Granny Weatherwax belongs to.",
+          "role": "Regional witch",
+          "relationships": {
+            "Associate of": "Granny Weatherwax",
+            "Fellow practitioner": "Local magical community"
+          }
+        }
+      }
+    },
+    "treatle": {
+      "name": "Treatle",
+      "aliases": ["Bursar Treatle"],
+      "appearances": [8, 9, 10, 11, 12, 13, 14, 15],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The Bursar of Unseen University, responsible for administrative matters. A nervous wizard who worries about regulations and proper procedures.",
+          "role": "University Bursar",
+          "relationships": {
+            "Reports to": "Archchancellor Cutangle",
+            "Colleague of": "University faculty"
+          }
+        }
+      }
+    },
+    "jiglad-wert": {
+      "name": "Jiglad Wert",
+      "aliases": ["Professor Wert"],
+      "appearances": [8, 9, 10, 11, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A professor at Unseen University, one of the senior faculty members. Specializes in theoretical magic and university politics.",
+          "role": "University Professor",
+          "relationships": {
+            "Faculty member": "Unseen University",
+            "Colleague of": "Other professors"
+          }
+        }
+      }
+    },
+    "jeophal": {
+      "name": "Jeophal",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard at Unseen University, one of the faculty members involved in university governance and magical instruction.",
+          "role": "University wizard",
+          "relationships": {
+            "Faculty of": "Unseen University",
+            "Subordinate to": "Archchancellor"
+          }
+        }
+      }
+    },
+    "billias": {
+      "name": "Billias",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A senior wizard at Unseen University. One of the more conservative faculty members who supports traditional approaches to magic.",
+          "role": "Senior university wizard",
+          "relationships": {
+            "Senior faculty": "Unseen University",
+            "Supporter of": "Traditional wizard practices"
+          }
+        }
+      }
+    },
+    "gravie": {
+      "name": "Gravie",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard instructor at Unseen University who teaches younger students in magical theory and practice.",
+          "role": "University instructor",
+          "relationships": {
+            "Teacher at": "Unseen University",
+            "Instructor of": "Student wizards"
+          }
+        }
+      }
+    },
+    "the-librarian": {
+      "name": "The Librarian",
+      "aliases": ["Ook"],
+      "appearances": [8, 9, 10, 11, 12, 13],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The Librarian of Unseen University's magical library. An unusual figure who manages the dangerous books with special expertise.",
+          "role": "University Librarian",
+          "relationships": {
+            "Guardian of": "L-Space and magical books",
+            "Staff member": "Unseen University"
+          }
+        }
+      }
+    },
+    "amschat": {
+      "name": "Amschat B'hal Zoon",
+      "aliases": ["Zoon patriarch", "Caravan leader"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Leader of a Zoon trading caravan traveling the Circle Sea region. A practical merchant with knowledge of roads and trade routes.",
+          "role": "Caravan leader",
+          "relationships": {
+            "Leader of": "Zoon trading family",
+            "Employer of": "Caravan guards and drivers"
+          }
+        }
+      }
+    },
+    "zoon-the-younger": {
+      "name": "Zoon the Younger",
+      "aliases": ["Young Zoon"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Son of the Zoon patriarch, learning the family trading business. Helps manage the caravan's operations and deals with travelers.",
+          "role": "Caravan assistant",
+          "relationships": {
+            "Son of": "Amschat B'hal Zoon",
+            "Member of": "Zoon trading family"
+          }
+        }
+      }
+    },
+    "zoon-guard-captain": {
+      "name": "Zoon Guard Captain",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Captain of the guards protecting the Zoon caravan during their travels. Experienced in dealing with road dangers and bandits.",
+          "role": "Caravan guard captain",
+          "relationships": {
+            "Employed by": "Zoon trading family",
+            "Commander of": "Caravan guards"
+          }
+        }
+      }
+    },
+    "howondaland-merchant": {
+      "name": "Howondaland Merchant",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A trader from the distant land of Howondaland, traveling with exotic goods and stories from far-off places.",
+          "role": "Foreign merchant",
+          "relationships": {
+            "Traveling with": "Zoon caravan",
+            "Trader from": "Howondaland"
+          }
+        }
+      }
+    },
+    "klatch-spice-dealer": {
+      "name": "Klatch Spice Dealer",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A merchant specializing in spices from Klatch, known for the quality and variety of his wares.",
+          "role": "Spice merchant",
+          "relationships": {
+            "Trader with": "Zoon caravan",
+            "Supplier of": "Klatchian spices"
+          }
+        }
+      }
+    },
+    "agatean-silk-merchant": {
+      "name": "Agatean Silk Merchant",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A trader in fine silks from the Agatean Empire, dealing in luxury goods for wealthy customers.",
+          "role": "Silk merchant",
+          "relationships": {
+            "Associate of": "Zoon traders",
+            "Dealer in": "Agatean luxury goods"
+          }
+        }
+      }
+    },
+    "caravan-cook": {
+      "name": "Caravan Cook",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The cook for the Zoon caravan, responsible for feeding the travelers and maintaining supplies during the journey.",
+          "role": "Caravan cook",
+          "relationships": {
+            "Employee of": "Zoon family",
+            "Provider for": "Caravan travelers"
+          }
+        }
+      }
+    },
+    "caravan-driver": {
+      "name": "Lead Caravan Driver",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The chief driver of the Zoon caravan wagons, experienced in managing the animals and navigating difficult terrain.",
+          "role": "Lead driver",
+          "relationships": {
+            "Works for": "Zoon trading family",
+            "Supervisor of": "Other drivers"
+          }
+        }
+      }
+    },
+    "ankh-morpork-dock-worker": {
+      "name": "Dock Worker",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "One of many workers at the bustling docks of Ankh-Morpork, loading and unloading ships and river barges.",
+          "role": "Harbor laborer",
+          "relationships": {
+            "Works at": "Ankh-Morpork docks",
+            "Member of": "Dock workers' community"
+          }
+        }
+      }
+    },
+    "ankh-morpork-fishmonger": {
+      "name": "Fishmonger",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A fish seller in Ankh-Morpork's markets, dealing with the catch brought in by fishing boats on the River Ankh.",
+          "role": "Fish merchant",
+          "relationships": {
+            "Trader in": "Ankh-Morpork markets",
+            "Customer of": "Local fishermen"
+          }
+        }
+      }
+    },
+    "ankh-morpork-baker": {
+      "name": "Baker",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A bread maker in Ankh-Morpork who supplies fresh bread to locals and visitors to the great city.",
+          "role": "City baker",
+          "relationships": {
+            "Business in": "Ankh-Morpork",
+            "Supplier to": "Local residents"
+          }
+        }
+      }
+    },
+    "ankh-morpork-beggar": {
+      "name": "Professional Beggar",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "One of Ankh-Morpork's many beggars, skilled in the art of soliciting charity from passersby in the city streets.",
+          "role": "City beggar",
+          "relationships": {
+            "Member of": "Ankh-Morpork underclass",
+            "Operates in": "City streets"
+          }
+        }
+      }
+    },
+    "ankh-morpork-thief": {
+      "name": "Street Thief",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A pickpocket and small-time criminal operating in the crowded streets and markets of Ankh-Morpork.",
+          "role": "Petty criminal",
+          "relationships": {
+            "Operates in": "Ankh-Morpork",
+            "Part of": "Criminal underworld"
+          }
+        }
+      }
+    },
+    "tavern-keeper": {
+      "name": "Tavern Keeper",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Owner and operator of a tavern in Ankh-Morpork, serving drinks and meals to locals and travelers.",
+          "role": "Tavern owner",
+          "relationships": {
+            "Serves": "Ankh-Morpork residents and visitors",
+            "Business owner in": "The city"
+          }
+        }
+      }
+    },
+    "barmaid": {
+      "name": "Barmaid",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A serving woman in an Ankh-Morpork tavern, experienced in dealing with rowdy customers and city life.",
+          "role": "Tavern server",
+          "relationships": {
+            "Works for": "Tavern keeper",
+            "Serves": "Tavern customers"
+          }
+        }
+      }
+    },
+    "university-porter": {
+      "name": "University Porter",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The gatekeeper at Unseen University who controls access to the grounds and monitors who enters and leaves.",
+          "role": "University gatekeeper",
+          "relationships": {
+            "Employee of": "Unseen University",
+            "Guardian of": "University gates"
+          }
+        }
+      }
+    },
+    "university-servant": {
+      "name": "University Servant",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "One of the domestic staff at Unseen University, responsible for cleaning, cooking, and maintaining the facilities.",
+          "role": "Domestic staff",
+          "relationships": {
+            "Works for": "Unseen University",
+            "Serves": "Wizards and students"
+          }
+        }
+      }
+    },
+    "university-groundskeeper": {
+      "name": "University Groundskeeper",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Maintains the grounds and gardens of Unseen University, dealing with both ordinary plants and magical specimens.",
+          "role": "Grounds maintenance",
+          "relationships": {
+            "Caretaker of": "University grounds",
+            "Employee of": "Unseen University"
+          }
+        }
+      }
+    },
+    "first-year-student": {
+      "name": "First Year Student",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A young wizard student in his first year at Unseen University, still learning basic magical principles.",
+          "role": "Novice student",
+          "relationships": {
+            "Student at": "Unseen University",
+            "Classmate of": "Other students"
+          }
+        }
+      }
+    },
+    "second-year-student": {
+      "name": "Second Year Student",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A wizard student with a year of experience at the University, beginning to understand more complex magical theories.",
+          "role": "Intermediate student",
+          "relationships": {
+            "Student at": "Unseen University",
+            "Mentor to": "Newer students"
+          }
+        }
+      }
+    },
+    "third-year-student": {
+      "name": "Third Year Student",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "An advanced student wizard who has progressed significantly in his magical education and helps teach younger students.",
+          "role": "Senior student",
+          "relationships": {
+            "Advanced student at": "Unseen University",
+            "Assistant to": "Faculty members"
+          }
+        }
+      }
+    },
+    "the-things-from-the-dungeon-dimensions": {
+      "name": "Things from the Dungeon Dimensions",
+      "aliases": ["The Things", "Dungeon Dwellers"],
+      "appearances": [11, 12, 13, 14],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Dangerous entities from beyond normal reality that are attracted to magical disturbances and seek to enter our world.",
+          "role": "Extradimensional threats",
+          "relationships": {
+            "Enemies of": "Reality itself",
+            "Attracted to": "Magical disruptions"
+          }
+        }
+      }
+    },
+    "reality": {
+      "name": "Reality",
+      "aliases": ["The Real World"],
+      "appearances": [11, 12, 13, 14, 15],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "The fundamental structure of existence itself, which can be damaged or altered by careless or powerful magic.",
+          "role": "The fabric of existence",
+          "relationships": {
+            "Threatened by": "Magical accidents",
+            "Protected by": "Responsible wizards"
+          }
+        }
+      }
+    },
+    "lancre-village-elder": {
+      "name": "Lancre Village Elder",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "One of the senior villagers in the Lancre region, respected for wisdom and experience in mountain life.",
+          "role": "Village leader",
+          "relationships": {
+            "Leader in": "Lancre community",
+            "Neighbor of": "Other mountain folk"
+          }
+        }
+      }
+    },
+    "lancre-farmer": {
+      "name": "Lancre Farmer",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A mountain farmer working the difficult terrain of the Ramtops, growing crops and raising livestock.",
+          "role": "Mountain farmer",
+          "relationships": {
+            "Resident of": "Lancre region",
+            "Neighbor of": "Other mountain dwellers"
+          }
+        }
+      }
+    },
+    "lancre-shepherd": {
+      "name": "Lancre Shepherd",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A shepherd tending flocks in the high pastures of the Ramtop Mountains, knowledgeable about mountain weather and terrain.",
+          "role": "Mountain shepherd",
+          "relationships": {
+            "Works in": "Ramtop Mountains",
+            "Member of": "Mountain community"
+          }
+        }
+      }
+    },
+    "bad-ass-village-drunk": {
+      "name": "Village Drunk",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The local drunkard of Bad Ass village, known for spending time at the tavern and having opinions about everything.",
+          "role": "Village character",
+          "relationships": {
+            "Resident of": "Bad Ass village",
+            "Customer of": "Local tavern"
+          }
+        }
+      }
+    },
+    "bad-ass-tavern-keeper": {
+      "name": "Bad Ass Tavern Keeper",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The proprietor of the tavern in Bad Ass village, serving drinks to locals and the occasional traveler.",
+          "role": "Village tavern owner",
+          "relationships": {
+            "Serves": "Village residents",
+            "Business owner in": "Bad Ass"
+          }
+        }
+      }
+    },
+    "mountain-trader": {
+      "name": "Mountain Trader",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A traveling merchant who trades goods between the mountain villages and larger towns, familiar with dangerous mountain paths.",
+          "role": "Traveling merchant",
+          "relationships": {
+            "Trades with": "Mountain villages",
+            "Traveler on": "Mountain roads"
+          }
+        }
+      }
+    },
+    "river-boat-captain": {
+      "name": "River Boat Captain",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Captain of a boat traveling the rivers between towns, transporting goods and passengers along the waterways.",
+          "role": "River boat captain",
+          "relationships": {
+            "Transports": "Goods and passengers",
+            "Navigator of": "River routes"
+          }
+        }
+      }
+    },
+    "river-boat-crew": {
+      "name": "River Boat Crew",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The crew members of a river boat, experienced in handling the vessel and dealing with river hazards.",
+          "role": "Boat crew",
+          "relationships": {
+            "Works for": "River boat captain",
+            "Operates": "River transport"
+          }
+        }
+      }
+    },
+    "ferryman": {
+      "name": "Ferryman",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Operates a ferry crossing on one of the rivers, helping travelers cross safely for a fee.",
+          "role": "Ferry operator",
+          "relationships": {
+            "Serves": "River travelers",
+            "Operates": "Ferry crossing"
+          }
+        }
+      }
+    },
+    "toll-keeper": {
+      "name": "Toll Keeper",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Guards a bridge or road crossing, collecting tolls from travelers and merchants who pass through.",
+          "role": "Toll collector",
+          "relationships": {
+            "Collects from": "Travelers and traders",
+            "Guards": "Bridge crossing"
+          }
+        }
+      }
+    },
+    "bridge-troll": {
+      "name": "Bridge Troll",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A troll who lives under a bridge, following the traditional troll occupation of challenging travelers who wish to cross.",
+          "role": "Bridge guardian",
+          "relationships": {
+            "Challenges": "Bridge travelers",
+            "Lives under": "Bridge"
+          }
+        }
+      }
+    },
+    "bandit-leader": {
+      "name": "Bandit Leader",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Leader of a group of highway robbers who prey on travelers and merchants along the roads.",
+          "role": "Highway robber",
+          "relationships": {
+            "Leader of": "Bandit gang",
+            "Enemy of": "Honest travelers"
+          }
+        }
+      }
+    },
+    "bandit-follower": {
+      "name": "Bandit Follower",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "One of the bandits in a highway robber gang, following the leader in attacking travelers for their goods.",
+          "role": "Highway robber",
+          "relationships": {
+            "Follows": "Bandit leader",
+            "Member of": "Robber gang"
+          }
+        }
+      }
+    },
+    "fortune-teller": {
+      "name": "Fortune Teller",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A person who claims to see the future and tells fortunes to customers in Ankh-Morpork's markets.",
+          "role": "Street fortune teller",
+          "relationships": {
+            "Works in": "Ankh-Morpork markets",
+            "Serves": "Gullible customers"
+          }
+        }
+      }
+    },
+    "street-sweeper": {
+      "name": "Street Sweeper",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "One of the city workers who cleans the streets of Ankh-Morpork, a necessary but thankless job in the great city.",
+          "role": "City cleaner",
+          "relationships": {
+            "Works for": "City of Ankh-Morpork",
+            "Maintains": "City streets"
+          }
+        }
+      }
+    },
+    "night-watchman": {
+      "name": "Night Watchman",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A guard who patrols the streets of Ankh-Morpork at night, trying to maintain some semblance of order.",
+          "role": "City guard",
+          "relationships": {
+            "Protects": "Ankh-Morpork at night",
+            "Member of": "City watch"
+          }
+        }
+      }
+    },
+    "seamstress": {
+      "name": "Seamstress",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A woman who works in the clothing trade in Ankh-Morpork, skilled in sewing and mending garments.",
+          "role": "Clothing worker",
+          "relationships": {
+            "Works in": "Ankh-Morpork",
+            "Serves": "Clothing customers"
+          }
+        }
+      }
+    },
+    "university-student-advisor": {
+      "name": "Student Advisor",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A senior wizard or administrator who provides guidance to students at Unseen University about their studies and career paths.",
+          "role": "Academic advisor",
+          "relationships": {
+            "Counsels": "University students",
+            "Faculty at": "Unseen University"
+          }
+        }
+      }
+    },
+    "university-janitor": {
+      "name": "University Janitor",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Maintenance staff at Unseen University responsible for repairs, cleaning, and upkeep of the magical buildings.",
+          "role": "Maintenance worker",
+          "relationships": {
+            "Maintains": "University buildings",
+            "Employee of": "Unseen University"
+          }
+        }
+      }
+    },
+    "university-kitchen-staff": {
+      "name": "Kitchen Staff",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Cooks and kitchen workers at Unseen University who prepare meals for the wizards, faculty, and students.",
+          "role": "Kitchen workers",
+          "relationships": {
+            "Feeds": "University community",
+            "Works in": "University kitchens"
+          }
+        }
+      }
+    },
+    "university-gardener": {
+      "name": "University Gardener",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Tends the gardens and green spaces at Unseen University, dealing with both mundane and magical plants.",
+          "role": "University gardener",
+          "relationships": {
+            "Maintains": "University gardens",
+            "Works with": "Magical plants"
+          }
+        }
+      }
+    },
+    "market-stallholder": {
+      "name": "Market Stallholder",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Operates a stall in Ankh-Morpork's markets, selling various goods to locals and visitors to the city.",
+          "role": "Market trader",
+          "relationships": {
+            "Trades in": "Ankh-Morpork markets",
+            "Serves": "City customers"
+          }
+        }
+      }
+    },
+    "city-magistrate": {
+      "name": "City Magistrate",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An official in Ankh-Morpork's government, responsible for legal matters and maintaining civic order.",
+          "role": "City official",
+          "relationships": {
+            "Serves": "Ankh-Morpork government",
+            "Administers": "City justice"
+          }
+        }
+      }
+    },
+    "city-clerk": {
+      "name": "City Clerk",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An administrative worker in Ankh-Morpork's bureaucracy, handling paperwork and official business.",
+          "role": "Government clerk",
+          "relationships": {
+            "Works for": "City administration",
+            "Processes": "Official documents"
+          }
+        }
+      }
+    },
+    "temple-priest": {
+      "name": "Temple Priest",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A religious figure serving at one of Ankh-Morpork's many temples, ministering to the spiritual needs of citizens.",
+          "role": "Religious minister",
+          "relationships": {
+            "Serves": "Temple congregation",
+            "Minister at": "City temple"
+          }
+        }
+      }
+    },
+    "temple-acolyte": {
+      "name": "Temple Acolyte",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young person training in religious service at one of Ankh-Morpork's temples, learning ceremonial duties.",
+          "role": "Religious trainee",
+          "relationships": {
+            "Student of": "Temple priest",
+            "Trainee at": "City temple"
+          }
+        }
+      }
+    },
+    "university-dormitory-supervisor": {
+      "name": "Dormitory Supervisor",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Oversees student housing at Unseen University, ensuring discipline and proper conduct in the dormitories.",
+          "role": "Student housing supervisor",
+          "relationships": {
+            "Supervises": "Student dormitories",
+            "Authority over": "Student residents"
+          }
+        }
+      }
+    },
+    "experimental-magic-professor": {
+      "name": "Professor of Experimental Magic",
+      "aliases": [],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A faculty member at Unseen University who specializes in testing new magical theories and applications.",
+          "role": "Magic researcher",
+          "relationships": {
+            "Faculty at": "Unseen University",
+            "Researcher in": "Experimental magic"
+          }
+        }
+      }
+    },
+    "theoretical-magic-professor": {
+      "name": "Professor of Theoretical Magic",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A university professor who focuses on the theoretical aspects of magic rather than practical applications.",
+          "role": "Magic theorist",
+          "relationships": {
+            "Faculty at": "Unseen University",
+            "Specialist in": "Magical theory"
+          }
+        }
+      }
+    },
+    "practical-magic-instructor": {
+      "name": "Practical Magic Instructor",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A teacher at Unseen University who instructs students in the hands-on application of magical skills.",
+          "role": "Practical magic teacher",
+          "relationships": {
+            "Instructor at": "Unseen University",
+            "Teacher of": "Applied magic"
+          }
+        }
+      }
+    },
+    "ancient-history-professor": {
+      "name": "Professor of Ancient History",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A scholar at Unseen University who specializes in the history of magic and ancient civilizations.",
+          "role": "History professor",
+          "relationships": {
+            "Faculty at": "Unseen University",
+            "Expert in": "Ancient magical history"
+          }
+        }
+      }
+    },
+    "library-assistant": {
+      "name": "Library Assistant",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Helps the Librarian manage Unseen University's vast collection of magical books and manuscripts.",
+          "role": "Library helper",
+          "relationships": {
+            "Assists": "The Librarian",
+            "Works in": "University library"
+          }
+        }
+      }
+    },
+    "tower-guardian": {
+      "name": "Tower Guardian",
+      "aliases": [],
+      "appearances": [12, 13, 14],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A magical construct or entity that protects important areas of Unseen University from unauthorized access.",
+          "role": "Magical guardian",
+          "relationships": {
+            "Protects": "University towers",
+            "Serves": "University security"
+          }
+        }
+      }
+    },
+    "spell-components-merchant": {
+      "name": "Spell Components Merchant",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A specialized trader in Ankh-Morpork who sells ingredients and materials needed for magical spells.",
+          "role": "Magic supplies dealer",
+          "relationships": {
+            "Supplies": "Magical practitioners",
+            "Trades in": "Spell components"
+          }
+        }
+      }
+    },
+    "old-wizard": {
+      "name": "Elderly Retired Wizard",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A former wizard who has retired from active magical practice but still lives near Unseen University.",
+          "role": "Retired academic",
+          "relationships": {
+            "Former member": "Unseen University",
+            "Advisor to": "Current faculty"
+          }
+        }
+      }
+    },
+    "wandering-scholar": {
+      "name": "Wandering Scholar",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A traveling academic who visits Unseen University to share knowledge and learn from the faculty.",
+          "role": "Visiting scholar",
+          "relationships": {
+            "Visitor to": "Unseen University",
+            "Exchange with": "University faculty"
+          }
+        }
+      }
+    },
+    "alchemist": {
+      "name": "City Alchemist",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A practitioner of alchemy working in Ankh-Morpork, creating potions and conducting chemical experiments.",
+          "role": "Alchemical practitioner",
+          "relationships": {
+            "Practices in": "Ankh-Morpork",
+            "Supplies": "Alchemical products"
+          }
+        }
+      }
+    },
+    "herbalist": {
+      "name": "City Herbalist",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A person knowledgeable in herbs and natural remedies, selling healing plants in Ankh-Morpork's markets.",
+          "role": "Herbal medicine dealer",
+          "relationships": {
+            "Sells in": "City markets",
+            "Provides": "Natural remedies"
+          }
+        }
+      }
+    },
+    "scroll-maker": {
+      "name": "Scroll Maker",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A craftsperson who creates scrolls and parchments, some of which are used for magical purposes.",
+          "role": "Document creator",
+          "relationships": {
+            "Supplies": "Magical practitioners",
+            "Crafts": "Scrolls and documents"
+          }
+        }
+      }
+    },
+    "ink-seller": {
+      "name": "Ink Seller",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A merchant specializing in various types of ink, including special inks used for magical writing.",
+          "role": "Ink merchant",
+          "relationships": {
+            "Supplies": "Writers and scribes",
+            "Trades in": "Writing materials"
+          }
+        }
+      }
+    },
+    "university-messenger": {
+      "name": "University Messenger",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Carries messages and documents between different parts of Unseen University and to external locations.",
+          "role": "Message carrier",
+          "relationships": {
+            "Works for": "Unseen University",
+            "Serves": "Faculty and administration"
+          }
+        }
+      }
+    },
+    "university-treasurer": {
+      "name": "University Treasurer",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Manages the financial affairs of Unseen University, overseeing budgets and expenditures.",
+          "role": "Financial administrator",
+          "relationships": {
+            "Manages": "University finances",
+            "Reports to": "Archchancellor"
+          }
+        }
+      }
+    },
+    "university-secretary": {
+      "name": "University Secretary",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Administrative assistant who handles correspondence and scheduling for University officials.",
+          "role": "Administrative assistant",
+          "relationships": {
+            "Assists": "University administration",
+            "Manages": "Official correspondence"
+          }
+        }
+      }
+    },
+    "spell-researcher": {
+      "name": "Spell Researcher",
+      "aliases": [],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A wizard who specializes in developing and analyzing magical spells for the University's research programs.",
+          "role": "Magical researcher",
+          "relationships": {
+            "Researcher at": "Unseen University",
+            "Develops": "New spells and techniques"
+          }
+        }
+      }
+    },
+    "apprentice-librarian": {
+      "name": "Apprentice Librarian",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A student training to assist in managing the magical library at Unseen University.",
+          "role": "Library trainee",
+          "relationships": {
+            "Trainee under": "The Librarian",
+            "Learning": "Library management"
+          }
+        }
+      }
+    },
+    "night-security": {
+      "name": "University Night Security",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Guards who patrol Unseen University during nighttime hours, watching for intruders and magical disturbances.",
+          "role": "Night guard",
+          "relationships": {
+            "Protects": "University at night",
+            "Employed by": "University administration"
+          }
+        }
+      }
+    },
+    "magical-artificer": {
+      "name": "Magical Artificer",
+      "aliases": [],
+      "appearances": [10, 11],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "A craftsperson who creates magical items and enchanted objects for use at the University.",
+          "role": "Magic item creator",
+          "relationships": {
+            "Creates for": "Unseen University",
+            "Specialist in": "Magical crafting"
+          }
+        }
+      }
+    },
+    "philosophy-professor": {
+      "name": "Professor of Philosophy",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A faculty member who teaches philosophical aspects of magic and the theoretical underpinnings of magical practice.",
+          "role": "Philosophy instructor",
+          "relationships": {
+            "Faculty at": "Unseen University",
+            "Teaches": "Magical philosophy"
+          }
+        }
+      }
+    },
+    "mathematics-professor": {
+      "name": "Professor of Mathematics",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Teaches mathematical concepts related to magical calculations and spell formulation.",
+          "role": "Mathematics instructor",
+          "relationships": {
+            "Faculty at": "Unseen University",
+            "Specialist in": "Magical mathematics"
+          }
+        }
+      }
+    },
+    "university-physician": {
+      "name": "University Physician",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A medical practitioner who treats injuries and illnesses at Unseen University, familiar with magical ailments.",
+          "role": "Medical practitioner",
+          "relationships": {
+            "Treats": "University community",
+            "Expert in": "Magical medical conditions"
+          }
+        }
+      }
+    },
+    "graduation-committee-head": {
+      "name": "Graduation Committee Head",
+      "aliases": [],
+      "appearances": [14, 15],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Oversees the graduation ceremonies and academic requirements for students completing their studies.",
+          "role": "Academic administrator",
+          "relationships": {
+            "Oversees": "Student graduations",
+            "Faculty at": "Unseen University"
+          }
+        }
+      }
+    },
+    "university-chronicler": {
+      "name": "University Chronicler",
+      "aliases": [],
+      "appearances": [13, 14, 15],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Records important events and decisions at Unseen University for historical preservation.",
+          "role": "Official recorder",
+          "relationships": {
+            "Records for": "Unseen University",
+            "Maintains": "University history"
+          }
+        }
+      }
+    },
+    "village-blacksmith-apprentice": {
+      "name": "Blacksmith Apprentice",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young person learning the blacksmithing trade under Esk's father in Bad Ass village.",
+          "role": "Apprentice craftsman",
+          "relationships": {
+            "Apprentice to": "The village smith",
+            "Works in": "Bad Ass forge"
+          }
+        }
+      }
+    },
+    "village-midwife": {
+      "name": "Village Midwife",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Assists Gammer Beavis with births in the mountain villages, experienced in traditional healing practices.",
+          "role": "Birth attendant",
+          "relationships": {
+            "Assistant to": "Gammer Beavis",
+            "Serves": "Mountain mothers"
+          }
+        }
+      }
+    },
+    "mountain-goat-herder": {
+      "name": "Mountain Goat Herder",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Tends goats in the high mountain pastures around Bad Ass and neighboring villages.",
+          "role": "Livestock herder",
+          "relationships": {
+            "Works in": "Ramtop Mountains",
+            "Neighbor of": "Village families"
+          }
+        }
+      }
+    },
+    "village-carpenter": {
+      "name": "Village Carpenter",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The local woodworker in Bad Ass village, skilled in furniture making and building repair.",
+          "role": "Village craftsman",
+          "relationships": {
+            "Works in": "Bad Ass village",
+            "Provides": "Wooden goods and repairs"
+          }
+        }
+      }
+    },
+    "village-weaver": {
+      "name": "Village Weaver",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Creates cloth and textiles for the mountain village, working with wool from local sheep.",
+          "role": "Textile maker",
+          "relationships": {
+            "Serves": "Village residents",
+            "Works with": "Local wool"
+          }
+        }
+      }
+    },
+    "village-miller": {
+      "name": "Village Miller",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Operates the mill that grinds grain for Bad Ass village and surrounding farms.",
+          "role": "Grain miller",
+          "relationships": {
+            "Serves": "Local farmers",
+            "Operates": "Village mill"
+          }
+        }
+      }
+    },
+    "village-cheese-maker": {
+      "name": "Village Cheese Maker",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Specializes in making cheese from goat and cow milk in the mountain village.",
+          "role": "Dairy specialist",
+          "relationships": {
+            "Supplier to": "Village residents",
+            "Works with": "Local herders"
+          }
+        }
+      }
+    },
+    "village-hunter": {
+      "name": "Village Hunter",
+      "aliases": [],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Hunts game in the mountains to supplement the village food supply, knowledgeable about mountain wildlife.",
+          "role": "Village hunter",
+          "relationships": {
+            "Provides for": "Village food supply",
+            "Knows": "Mountain terrain"
+          }
+        }
+      }
+    },
+    "village-storyteller": {
+      "name": "Village Storyteller",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Elderly villager who knows the old tales and legends of the Ramtop Mountains.",
+          "role": "Keeper of stories",
+          "relationships": {
+            "Entertains": "Village children",
+            "Preserves": "Mountain folklore"
+          }
+        }
+      }
+    },
+    "traveling-tinker": {
+      "name": "Traveling Tinker",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A wandering craftsman who repairs pots, pans, and metal goods in mountain villages.",
+          "role": "Itinerant repairer",
+          "relationships": {
+            "Travels between": "Mountain villages",
+            "Provides": "Metal repairs"
+          }
+        }
+      }
+    },
+    "mountain-guide": {
+      "name": "Mountain Guide",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Experienced in navigating the dangerous paths of the Ramtop Mountains, helps travelers find safe routes.",
+          "role": "Path guide",
+          "relationships": {
+            "Assists": "Mountain travelers",
+            "Expert in": "Mountain navigation"
+          }
+        }
+      }
+    },
+    "pack-animal-handler": {
+      "name": "Pack Animal Handler",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Manages the mules, donkeys, and oxen that carry goods for the trading caravan.",
+          "role": "Animal handler",
+          "relationships": {
+            "Works for": "Zoon caravan",
+            "Cares for": "Pack animals"
+          }
+        }
+      }
+    },
+    "caravan-guard-sergeant": {
+      "name": "Caravan Guard Sergeant",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Second in command of the caravan guards, assists the captain in organizing security.",
+          "role": "Guard sergeant",
+          "relationships": {
+            "Reports to": "Guard captain",
+            "Commands": "Junior guards"
+          }
+        }
+      }
+    },
+    "caravan-scout": {
+      "name": "Caravan Scout",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Rides ahead of the caravan to check for dangers, bandits, and suitable camping spots.",
+          "role": "Advanced scout",
+          "relationships": {
+            "Works for": "Zoon caravan",
+            "Reports to": "Caravan leaders"
+          }
+        }
+      }
+    },
+    "weapons-merchant": {
+      "name": "Weapons Merchant",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Travels with the caravan selling swords, knives, and other weapons to guards and traders.",
+          "role": "Arms dealer",
+          "relationships": {
+            "Travels with": "Trading caravan",
+            "Supplies": "Weapons and armor"
+          }
+        }
+      }
+    },
+    "jewelry-merchant": {
+      "name": "Jewelry Merchant",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Deals in precious stones, rings, and ornamental jewelry from various lands.",
+          "role": "Jewelry trader",
+          "relationships": {
+            "Associate of": "Other merchants",
+            "Deals in": "Precious goods"
+          }
+        }
+      }
+    },
+    "leather-worker": {
+      "name": "Leather Worker",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Crafts leather goods including bags, belts, and protective gear for caravan members.",
+          "role": "Leather craftsman",
+          "relationships": {
+            "Serves": "Caravan members",
+            "Makes": "Leather goods"
+          }
+        }
+      }
+    },
+    "rope-maker": {
+      "name": "Rope Maker",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Specializes in making strong ropes and cords needed for securing cargo and climbing.",
+          "role": "Rope specialist",
+          "relationships": {
+            "Supplies": "Caravan equipment",
+            "Makes": "Ropes and cordage"
+          }
+        }
+      }
+    },
+    "pottery-merchant": {
+      "name": "Pottery Merchant",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Trades in ceramic pots, bowls, and decorative pottery from various regions.",
+          "role": "Pottery trader",
+          "relationships": {
+            "Travels with": "Merchant caravan",
+            "Deals in": "Ceramic goods"
+          }
+        }
+      }
+    },
+    "glass-blower": {
+      "name": "Glass Blower",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Creates glass bottles, windows, and decorative items, carrying fragile wares carefully packed.",
+          "role": "Glass artisan",
+          "relationships": {
+            "Creates": "Glass products",
+            "Member of": "Artisan community"
+          }
+        }
+      }
+    },
+    "cloth-dyer": {
+      "name": "Cloth Dyer",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Specializes in dyeing fabrics in bright colors using traditional and exotic dyes.",
+          "role": "Fabric dyer",
+          "relationships": {
+            "Works with": "Textile merchants",
+            "Expert in": "Color dyeing"
+          }
+        }
+      }
+    },
+    "carpet-weaver": {
+      "name": "Carpet Weaver",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Creates intricate carpets and rugs, prized for their craftsmanship and beauty.",
+          "role": "Carpet artisan",
+          "relationships": {
+            "Travels with": "Luxury goods traders",
+            "Creates": "Fine carpets"
+          }
+        }
+      }
+    },
+    "perfume-maker": {
+      "name": "Perfume Maker",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Distills fragrances and perfumes from flowers and exotic ingredients for wealthy customers.",
+          "role": "Fragrance artisan",
+          "relationships": {
+            "Creates": "Luxury perfumes",
+            "Serves": "Wealthy clients"
+          }
+        }
+      }
+    },
+    "musical-instrument-maker": {
+      "name": "Musical Instrument Maker",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Crafts flutes, drums, and stringed instruments, often entertaining the caravan in the evenings.",
+          "role": "Instrument craftsman",
+          "relationships": {
+            "Makes": "Musical instruments",
+            "Entertains": "Fellow travelers"
+          }
+        }
+      }
+    },
+    "caravan-veterinarian": {
+      "name": "Caravan Veterinarian",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Treats sick and injured animals in the caravan, knowledgeable about animal diseases and remedies.",
+          "role": "Animal healer",
+          "relationships": {
+            "Cares for": "Caravan animals",
+            "Expert in": "Animal medicine"
+          }
+        }
+      }
+    },
+    "caravan-quartermaster": {
+      "name": "Caravan Quartermaster",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Manages supplies and provisions for the caravan, ensuring everyone has food and necessities.",
+          "role": "Supply manager",
+          "relationships": {
+            "Manages": "Caravan supplies",
+            "Reports to": "Caravan leaders"
+          }
+        }
+      }
+    },
+    "anchor-morpork-tax-collector": {
+      "name": "Tax Collector",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Collects taxes and fees from merchants and residents of Ankh-Morpork for the city government.",
+          "role": "Revenue collector",
+          "relationships": {
+            "Works for": "City government",
+            "Collects from": "Citizens and merchants"
+          }
+        }
+      }
+    },
+    "anchor-morpork-customs-officer": {
+      "name": "Customs Officer",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Inspects goods entering Ankh-Morpork and collects customs duties from traders and merchants.",
+          "role": "Trade inspector",
+          "relationships": {
+            "Inspects": "Imported goods",
+            "Enforces": "Trade regulations"
+          }
+        }
+      }
+    },
+    "anchor-morpork-ship-captain": {
+      "name": "Ship Captain",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Commands a trading vessel that docks at Ankh-Morpork's busy harbor, bringing goods from distant ports.",
+          "role": "Ship commander",
+          "relationships": {
+            "Commands": "Ship and crew",
+            "Trades with": "Harbor merchants"
+          }
+        }
+      }
+    },
+    "anchor-morpork-sailor": {
+      "name": "Sailor",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Crew member on a trading ship, experienced in sailing and handling cargo at the city docks.",
+          "role": "Ship crew",
+          "relationships": {
+            "Serves under": "Ship captain",
+            "Works at": "City harbor"
+          }
+        }
+      }
+    },
+    "anchor-morpork-rope-walker": {
+      "name": "Rope Walker",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A street performer who walks on ropes and performs acrobatic feats to entertain crowds.",
+          "role": "Street entertainer",
+          "relationships": {
+            "Performs for": "Street crowds",
+            "Works in": "City squares"
+          }
+        }
+      }
+    },
+    "anchor-morpork-knife-thrower": {
+      "name": "Knife Thrower",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A performer who demonstrates knife-throwing skills as street entertainment in the city.",
+          "role": "Street performer",
+          "relationships": {
+            "Entertains": "City crowds",
+            "Performs in": "Public spaces"
+          }
+        }
+      }
+    },
+    "anchor-morpork-juggler": {
+      "name": "Juggler",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A street entertainer skilled in juggling multiple objects to amuse passersby and earn coins.",
+          "role": "Street entertainer",
+          "relationships": {
+            "Performs for": "Street audiences",
+            "Member of": "Performer community"
+          }
+        }
+      }
+    },
+    "anchor-morpork-fire-eater": {
+      "name": "Fire Eater",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A dramatic performer who eats fire and breathes flames as a dangerous form of street entertainment.",
+          "role": "Fire performer",
+          "relationships": {
+            "Performs": "Fire acts",
+            "Entertains": "City crowds"
+          }
+        }
+      }
+    },
+    "anchor-morpork-mime": {
+      "name": "Mime Artist",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A silent performer who acts out scenes without words, working the streets for donations.",
+          "role": "Silent entertainer",
+          "relationships": {
+            "Performs for": "Street audiences",
+            "Works in": "City entertainment"
+          }
+        }
+      }
+    },
+    "anchor-morpork-portrait-painter": {
+      "name": "Portrait Painter",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An artist who paints portraits of citizens and visitors for a fee in the city markets.",
+          "role": "Street artist",
+          "relationships": {
+            "Paints": "Customer portraits",
+            "Works in": "City markets"
+          }
+        }
+      }
+    },
+    "anchor-morpork-shoe-maker": {
+      "name": "Shoe Maker",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Crafts and repairs shoes and boots for the citizens of Ankh-Morpork, skilled in leather work.",
+          "role": "Footwear craftsman",
+          "relationships": {
+            "Serves": "City residents",
+            "Makes": "Shoes and boots"
+          }
+        }
+      }
+    },
+    "anchor-morpork-candle-maker": {
+      "name": "Candle Maker",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Produces candles and oil lamps to provide lighting for homes and businesses in the city.",
+          "role": "Light provider",
+          "relationships": {
+            "Supplies": "City lighting needs",
+            "Makes": "Candles and lamps"
+          }
+        }
+      }
+    },
+    "anchor-morpork-soap-maker": {
+      "name": "Soap Maker",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Creates soap and cleaning products for the hygiene needs of Ankh-Morpork's residents.",
+          "role": "Hygiene supplier",
+          "relationships": {
+            "Provides": "Cleaning products",
+            "Serves": "City cleanliness"
+          }
+        }
+      }
+    },
+    "anchor-morpork-wine-merchant": {
+      "name": "Wine Merchant",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Imports and sells wines from various regions, catering to taverns and wealthy customers.",
+          "role": "Wine trader",
+          "relationships": {
+            "Supplies": "Taverns and wealthy clients",
+            "Imports": "Regional wines"
+          }
+        }
+      }
+    },
+    "anchor-morpork-beer-brewer": {
+      "name": "Beer Brewer",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Brews beer and ale in Ankh-Morpork, supplying the numerous taverns and inns throughout the city.",
+          "role": "Beverage maker",
+          "relationships": {
+            "Supplies": "City taverns",
+            "Produces": "Beer and ale"
+          }
+        }
+      }
+    },
+    "anchor-morpork-cheese-monger": {
+      "name": "Cheese Monger",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Sells various types of cheese in Ankh-Morpork's markets, importing from dairy regions.",
+          "role": "Cheese seller",
+          "relationships": {
+            "Trades in": "City markets",
+            "Imports": "Regional cheeses"
+          }
+        }
+      }
+    },
+    "anchor-morpork-grain-merchant": {
+      "name": "Grain Merchant",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Deals in wheat, barley, and other grains, supplying bakers and brewers in the city.",
+          "role": "Grain trader",
+          "relationships": {
+            "Supplies": "Bakers and brewers",
+            "Trades in": "Agricultural products"
+          }
+        }
+      }
+    },
+    "anchor-morpork-fruit-seller": {
+      "name": "Fruit Seller",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Sells fresh and dried fruits in the city markets, bringing produce from farming regions.",
+          "role": "Fruit vendor",
+          "relationships": {
+            "Works in": "City markets",
+            "Supplies": "Fresh produce"
+          }
+        }
+      }
+    },
+    "anchor-morpork-vegetable-seller": {
+      "name": "Vegetable Seller",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Offers fresh vegetables and herbs to city residents, sourced from nearby farms.",
+          "role": "Vegetable vendor",
+          "relationships": {
+            "Sells in": "City markets",
+            "Sources from": "Local farms"
+          }
+        }
+      }
+    },
+    "anchor-morpork-meat-seller": {
+      "name": "Meat Seller",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Butcher who sells fresh meat to city residents, dealing with livestock from rural areas.",
+          "role": "Meat vendor",
+          "relationships": {
+            "Supplies": "City meat needs",
+            "Works with": "Livestock traders"
+          }
+        }
+      }
+    },
+    "university-entrance-examiner": {
+      "name": "Entrance Examiner",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Tests prospective students seeking admission to Unseen University, ensuring they meet academic standards.",
+          "role": "Academic assessor",
+          "relationships": {
+            "Evaluates": "Prospective students",
+            "Works for": "University admissions"
+          }
+        }
+      }
+    },
+    "university-disciplinary-officer": {
+      "name": "Disciplinary Officer",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Enforces rules and regulations at Unseen University, dealing with student misconduct and violations.",
+          "role": "Rule enforcer",
+          "relationships": {
+            "Enforces": "University rules",
+            "Disciplines": "Rule violators"
+          }
+        }
+      }
+    },
+    "university-robe-keeper": {
+      "name": "Robe Keeper",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Maintains and distributes the ceremonial robes worn by faculty and students at formal university functions.",
+          "role": "Ceremonial attendant",
+          "relationships": {
+            "Maintains": "University robes",
+            "Serves": "Faculty and students"
+          }
+        }
+      }
+    },
+    "university-bell-ringer": {
+      "name": "Bell Ringer",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Rings the university bells to mark class times, meals, and important events throughout the day.",
+          "role": "Time keeper",
+          "relationships": {
+            "Maintains": "University schedule",
+            "Operates": "Bell tower"
+          }
+        }
+      }
+    },
+    "university-key-holder": {
+      "name": "Key Holder",
+      "aliases": [],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Manages all the keys for doors, rooms, and locked areas throughout Unseen University.",
+          "role": "Security manager",
+          "relationships": {
+            "Controls access to": "University areas",
+            "Reports to": "University administration"
+          }
+        }
+      }
+    },
+    "university-stable-master": {
+      "name": "Stable Master",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Cares for horses and other animals kept by Unseen University for transportation and research.",
+          "role": "Animal caretaker",
+          "relationships": {
+            "Manages": "University stables",
+            "Cares for": "University animals"
+          }
+        }
+      }
+    },
+    "university-weather-watcher": {
+      "name": "Weather Watcher",
+      "aliases": [],
+      "appearances": [9, 10, 11],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Studies weather patterns and atmospheric conditions as they relate to magical phenomena.",
+          "role": "Weather observer",
+          "relationships": {
+            "Studies": "Weather and magic",
+            "Reports to": "University faculty"
+          }
+        }
+      }
+    },
+    "university-food-taster": {
+      "name": "Food Taster",
+      "aliases": [],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Tests food for safety before it is served to university faculty, important due to magical contamination risks.",
+          "role": "Food safety checker",
+          "relationships": {
+            "Protects": "University dining",
+            "Works with": "Kitchen staff"
+          }
+        }
+      }
+    },
+    "village-herb-gatherer": {
+      "name": "Village Herb Gatherer",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Collects medicinal and culinary herbs from the mountain slopes around Bad Ass village.",
+          "role": "Herb collector",
+          "relationships": {
+            "Supplies": "Village healers and cooks",
+            "Works in": "Mountain wilderness"
+          }
+        }
+      }
+    },
+    "university-night-librarian": {
+      "name": "Night Librarian",
+      "aliases": [],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Works the night shift in the magical library, dealing with books that are more active after dark.",
+          "role": "Nocturnal librarian",
+          "relationships": {
+            "Assistant to": "The Librarian",
+            "Deals with": "Night-active magical books"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "An elderly wizard named Drum Billet arrives at the remote mountain village of Bad Ass during a thunderstorm. He visits the local smith's family, where the smith's wife is in labor, and performs a final magical act before dying, setting mysterious events in motion.",
+    "2": "Young Eskarina Smith begins displaying unusual abilities that worry the villagers. Granny Weatherwax, the village witch, takes notice of the child and decides to investigate the strange circumstances surrounding her birth and development.",
+    "3": "Granny Weatherwax consults with other local witches about Esk's peculiar situation. The witches discuss the unusual nature of the child's gifts and the implications for traditional magical practice in their mountain community.",
+    "4": "Esk's abilities continue to manifest in unexpected ways, challenging conventional understanding of how magic works. Granny Weatherwax decides that the child needs specialized training that goes beyond traditional witch knowledge.",
+    "5": "Granny Weatherwax and Esk set off on a journey, joining a Zoon trading caravan headed toward Ankh-Morpork. During the travels, they encounter various merchants, traders, and the challenges of life on the road.",
+    "6": "The caravan continues its journey toward the great city, with Esk learning about the wider world beyond her mountain village. The travelers face various obstacles and meet people from different lands and cultures.",
+    "7": "The group reaches Ankh-Morpork, the greatest city on the Disc. Esk experiences the overwhelming bustle of urban life, with its crowds, markets, and countless different people pursuing various trades and occupations.",
+    "8": "Granny Weatherwax and Esk arrive at Unseen University, the premier institution of magical learning. They encounter the rigid hierarchy and traditions of the wizards, who have very specific ideas about who can and cannot practice magic.",
+    "9": "Esk begins attending classes at Unseen University as an unusual student. She meets other students, including Simon, and starts learning about formal magical education while challenging traditional assumptions.",
+    "10": "Tensions arise at the University as Esk's presence disrupts established traditions. Her unconventional approach to magic creates conflict with faculty members who believe in maintaining strict boundaries between different types of magical practice.",
+    "11": "Magical experiments at the University go dangerously wrong, creating threats that endanger both the institution and reality itself. The rigid adherence to tradition proves inadequate to handle the emerging crisis.",
+    "12": "The crisis deepens as dangerous forces from beyond normal reality begin to intrude into the world. Both traditional wizard magic and conventional witch wisdom seem insufficient to address the growing threat.",
+    "13": "Granny Weatherwax and the University faculty must work together despite their philosophical differences. The situation requires unprecedented cooperation between different magical traditions to prevent catastrophe.",
+    "14": "The climactic confrontation requires all parties to abandon their preconceptions and work together. Traditional boundaries between different types of magic prove to be artificial limitations rather than natural laws.",
+    "15": "The crisis is resolved through the combination of different magical approaches, proving that talent and wisdom matter more than rigid adherence to tradition. The University must adapt to a new understanding of magical practice and accept changes to their ancient ways."
+  }
+}

@@ -1,0 +1,2747 @@
+{
+  "meta": {
+    "title": "Guards! Guards!",
+    "author": "Terry Pratchett",
+    "chapters": 22,
+    "schemaVersion": "2.0",
+    "asin": "0062225758"
+  },
+  "characters": {
+    "sam-vimes": {
+      "name": "Sam Vimes",
+      "aliases": ["Captain Vimes", "Commander Vimes"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captain of the Night Watch, a cynical and world-weary man who drinks too much and has given up on real police work. He's intelligent but disillusioned with the state of law enforcement in Ankh-Morpork.",
+          "role": "Captain of the Night Watch",
+          "relationships": {
+            "Commands": "Night Watch",
+            "Works for": "Patrician Vetinari"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Shows glimpses of his investigative skills and underlying sense of justice when confronted with real crimes. Still drinks heavily but begins to take his job more seriously.",
+          "role": "Investigating Night Watch Captain",
+          "relationships": {
+            "Commands": "Fred Colon and Nobby Nobbs",
+            "Investigating": "Secret society activities"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Demonstrates real leadership and courage when facing the dragon threat. His natural instincts as a copper begin to resurface despite years of cynicism.",
+          "role": "Active Night Watch Captain",
+          "relationships": {
+            "Works with": "Carrot Ironfoundersson",
+            "Opposes": "The Elucidated Brethren"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Has grown into his role as a proper Watch commander, showing tactical thinking and genuine concern for the city's welfare. His drinking has decreased as his purpose has increased.",
+          "role": "Commander of the Watch",
+          "relationships": {
+            "Respects": "Lady Sybil Ramkin",
+            "Mentors": "Carrot Ironfoundersson"
+          }
+        }
+      }
+    },
+    "carrot-ironfoundersson": {
+      "name": "Carrot Ironfoundersson",
+      "aliases": ["Lance Constable Carrot", "Corporal Carrot"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A six-foot-tall dwarf who was adopted and raised by dwarfs in the mountains. Enthusiastic, naive, and believes completely in law and order. Takes the laws of Ankh-Morpork literally.",
+          "role": "New recruit to Night Watch",
+          "relationships": {
+            "Adopted son of": "Dwarf parents",
+            "Reports to": "Captain Vimes"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Demonstrates remarkable physical strength and an unwavering moral compass. His literal interpretation of laws and regulations often leads to unexpected results.",
+          "role": "Lance Constable learning the ropes",
+          "relationships": {
+            "Fellow officer": "Fred Colon and Nobby Nobbs",
+            "Admires": "Captain Vimes"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Shows natural leadership abilities and an instinct for doing the right thing. His presence begins to inspire others to live up to higher standards.",
+          "role": "Corporal and rising star of the Watch",
+          "relationships": {
+            "Romantic interest": "Angua",
+            "Respected by": "Citizens of Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "fred-colon": {
+      "name": "Fred Colon",
+      "aliases": ["Sergeant Colon"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Sergeant of the Night Watch, a overweight, lazy man who avoids actual police work. More concerned with staying safe and comfortable than enforcing the law.",
+          "role": "Sergeant of the Night Watch",
+          "relationships": {
+            "Partner": "Nobby Nobbs",
+            "Reports to": "Captain Vimes"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Despite his cowardly nature, shows moments of unexpected bravery when the situation becomes truly dire. Still prefers talking to fighting.",
+          "role": "Reluctant Night Watch officer",
+          "relationships": {
+            "Mentors": "Carrot Ironfoundersson",
+            "Old friend": "Nobby Nobbs"
+          }
+        }
+      }
+    },
+    "nobby-nobbs": {
+      "name": "Nobby Nobbs",
+      "aliases": ["Corporal Nobbs", "Nobby"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Corporal of the Night Watch, a small, dirty, and generally disreputable man who carries official paperwork stating that he is human. Known for petty theft and avoiding work.",
+          "role": "Corporal of the Night Watch",
+          "relationships": {
+            "Partner": "Fred Colon",
+            "Reports to": "Captain Vimes"
+          }
+        },
+        "7": {
+          "revealedIn": 7,
+          "description": "Shows unexpected street wisdom and survival instincts. While still dishonest and lazy, proves useful in certain situations requiring low cunning.",
+          "role": "Streetwise Night Watch officer",
+          "relationships": {
+            "Works with": "Carrot Ironfoundersson",
+            "Best friend": "Fred Colon"
+          }
+        }
+      }
+    },
+    "patrician-vetinari": {
+      "name": "Havelock Vetinari",
+      "aliases": ["Lord Vetinari", "The Patrician", "His Lordship"],
+      "appearances": [2, 8, 14, 19, 22],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Patrician of Ankh-Morpork, a thin, calculating man who rules the city through intelligence and manipulation rather than force. Extremely well-informed about everything that happens in his city.",
+          "role": "Ruler of Ankh-Morpork",
+          "relationships": {
+            "Rules over": "Ankh-Morpork",
+            "Employer of": "Night Watch"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Demonstrates his characteristic ability to turn any situation to his advantage. Uses the dragon crisis to strengthen his position and the city's defenses.",
+          "role": "Strategic ruler managing crisis",
+          "relationships": {
+            "Manipulates": "Various factions",
+            "Respects": "Sam Vimes"
+          }
+        }
+      }
+    },
+    "lady-sybil-ramkin": {
+      "name": "Lady Sybil Ramkin",
+      "aliases": ["Sybil", "Lady Ramkin"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A wealthy aristocratic lady who breeds swamp dragons in her mansion. She's large, forthright, and passionate about dragon welfare. Well-connected in high society.",
+          "role": "Dragon breeder and aristocrat",
+          "relationships": {
+            "Breeds": "Swamp dragons",
+            "Member of": "Dragon breeding society"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Shows remarkable courage and practical knowledge when dealing with the great dragon. Her expertise in dragon behavior proves invaluable to the Watch's efforts.",
+          "role": "Dragon expert and ally",
+          "relationships": {
+            "Advisor to": "Night Watch",
+            "Growing attraction to": "Sam Vimes"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Has developed genuine feelings for Captain Vimes, seeing past his rough exterior to his underlying nobility and sense of justice.",
+          "role": "Vimes' romantic interest",
+          "relationships": {
+            "In love with": "Sam Vimes",
+            "Ally of": "Night Watch"
+          }
+        }
+      }
+    },
+    "supreme-grand-master": {
+      "name": "The Supreme Grand Master",
+      "aliases": ["Brother Watchtower", "The Leader"],
+      "appearances": [3, 5, 7, 9, 11, 13, 15, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The mysterious leader of the Elucidated Brethren of the Ebon Night. Wears a hooded robe and speaks of grand plans involving summoning a dragon to control the city.",
+          "role": "Leader of secret society",
+          "relationships": {
+            "Commands": "Elucidated Brethren of the Ebon Night",
+            "Plans to summon": "A great dragon"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Demonstrates knowledge of ancient magic and dragon summoning. His grand plan begins to unfold as the dragon appears in the city.",
+          "role": "Sorcerer orchestrating dragon summoning",
+          "relationships": {
+            "Controls": "The great dragon",
+            "Manipulates": "Brother Fingers and other cultists"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Revealed to be Lupine Wonse, the Patrician's secretary. His plan was to use the dragon to overthrow Vetinari and rule the city himself.",
+          "role": "Revealed traitor and would-be ruler",
+          "relationships": {
+            "Secret identity": "Lupine Wonse",
+            "Betrayed": "Patrician Vetinari"
+          }
+        }
+      }
+    },
+    "lupine-wonse": {
+      "name": "Lupine Wonse",
+      "aliases": ["The Supreme Grand Master's secretary"],
+      "appearances": [2, 8, 14, 18, 19, 20, 21],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Patrician's efficient and loyal secretary. A thin, nervous man who handles much of the day-to-day administration of the city.",
+          "role": "Patrician's secretary",
+          "relationships": {
+            "Secretary to": "Patrician Vetinari",
+            "Works in": "Palace"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Revealed to be the Supreme Grand Master of the Elucidated Brethren. His position gave him access to information and the ability to manipulate events from within the government.",
+          "role": "Revealed traitor",
+          "relationships": {
+            "True identity": "Supreme Grand Master",
+            "Planned to replace": "Patrician Vetinari"
+          }
+        }
+      }
+    },
+    "errol": {
+      "name": "Errol",
+      "aliases": ["The little dragon"],
+      "appearances": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Lady Sybil's smallest and most pathetic swamp dragon. Constantly ill, can barely fly, and his flame is more like a wheeze. Seems to be the runt of all runts.",
+          "role": "Sick swamp dragon",
+          "relationships": {
+            "Owned by": "Lady Sybil Ramkin",
+            "Fellow dragon": "Other swamp dragons"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Shows unexpected intelligence and resourcefulness. Begins to demonstrate abilities that suggest he might be more than just a failed swamp dragon.",
+          "role": "Surprisingly capable dragon",
+          "relationships": {
+            "Befriended by": "Night Watch",
+            "Special bond with": "Carrot Ironfoundersson"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Reveals his true nature as a noble dragon when he transforms to fight the great dragon. His heroic actions save the city from the rampaging beast.",
+          "role": "Noble dragon hero",
+          "relationships": {
+            "Defeats": "The great dragon",
+            "Protects": "Ankh-Morpork"
+          }
+        }
+      }
+    },
+    "great-dragon": {
+      "name": "The Great Dragon",
+      "aliases": ["The summoned dragon", "The terror"],
+      "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A massive dragon summoned by the Elucidated Brethren to terrorize Ankh-Morpork. Ancient, powerful, and initially pleased to be summoned to wreak havoc.",
+          "role": "Magical threat to the city",
+          "relationships": {
+            "Summoned by": "Elucidated Brethren of the Ebon Night",
+            "Terrorizes": "Ankh-Morpork citizens"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Begins to enjoy its role as the city's terror, demanding tribute and establishing itself as a force to be feared and appeased.",
+          "role": "Self-appointed ruler through fear",
+          "relationships": {
+            "Demands tribute from": "Ankh-Morpork",
+            "Opposed by": "Night Watch"
+          }
+        },
+        "20": {
+          "revealedIn": 20,
+          "description": "Defeated in battle by Errol, who proves to be a noble dragon capable of matching the great dragon's power. The threat to the city ends.",
+          "role": "Defeated enemy",
+          "relationships": {
+            "Defeated by": "Errol",
+            "Created by": "Ancient magic"
+          }
+        }
+      }
+    },
+    "brother-fingers": {
+      "name": "Brother Fingers",
+      "aliases": ["Fingers"],
+      "appearances": [3, 5, 7, 9, 11, 13, 15, 17, 19],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A member of the Elucidated Brethren of the Ebon Night. A thin, nervous man who handles the cult's paperwork and organization with typical bureaucratic efficiency.",
+          "role": "Cultist and secretary",
+          "relationships": {
+            "Member of": "Elucidated Brethren of the Ebon Night",
+            "Reports to": "Supreme Grand Master"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Becomes increasingly worried as the dragon summoning actually works. His bureaucratic mind struggles with the reality of their magical success.",
+          "role": "Anxious cultist",
+          "relationships": {
+            "Fears": "The great dragon",
+            "Follows reluctantly": "Supreme Grand Master"
+          }
+        }
+      }
+    },
+    "brother-doorkeeper": {
+      "name": "Brother Doorkeeper",
+      "aliases": ["The Doorkeeper"],
+      "appearances": [3, 5, 7, 9, 11, 13],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A member of the Elucidated Brethren who guards their meeting place. Takes his job seriously despite the generally amateur nature of the organization.",
+          "role": "Cultist guardian",
+          "relationships": {
+            "Member of": "Elucidated Brethren of the Ebon Night",
+            "Guards": "Cult meeting place"
+          }
+        }
+      }
+    },
+    "brother-plasterer": {
+      "name": "Brother Plasterer",
+      "aliases": ["The Plasterer"],
+      "appearances": [3, 5, 7, 9, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A working-class member of the Elucidated Brethren who joined seeking excitement and purpose. Represents the ordinary citizens drawn to the cult.",
+          "role": "Working-class cultist",
+          "relationships": {
+            "Member of": "Elucidated Brethren of the Ebon Night",
+            "Fellow member": "Other Brothers"
+          }
+        }
+      }
+    },
+    "brother-dunnykin": {
+      "name": "Brother Dunnykin",
+      "aliases": ["Dunnykin"],
+      "appearances": [3, 5, 7, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another member of the Elucidated Brethren, notable mainly for his enthusiasm for the cult's mysterious activities and his general lack of understanding about what they're actually doing.",
+          "role": "Enthusiastic but clueless cultist",
+          "relationships": {
+            "Member of": "Elucidated Brethren of the Ebon Night",
+            "Follows": "Supreme Grand Master"
+          }
+        }
+      }
+    },
+    "librarian": {
+      "name": "The Librarian",
+      "aliases": ["Ook"],
+      "appearances": [4, 8, 14, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The Librarian of Unseen University, who was transformed into an orangutan by a magical accident but chose to remain in that form. Extremely protective of his books and the Library.",
+          "role": "Orangutan librarian",
+          "relationships": {
+            "Employed by": "Unseen University",
+            "Guardian of": "L-Space and magical books"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Provides crucial information about dragon summoning from the university's collection of forbidden books. His knowledge proves essential to understanding the threat.",
+          "role": "Expert on forbidden knowledge",
+          "relationships": {
+            "Advisor to": "Night Watch",
+            "Keeper of": "Dangerous magical texts"
+          }
+        }
+      }
+    },
+    "archchancellor": {
+      "name": "The Archchancellor",
+      "aliases": ["Head of Unseen University"],
+      "appearances": [4, 8, 14],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The head of Unseen University, a powerful wizard more concerned with university politics than practical magic. Generally tries to avoid getting involved in city affairs.",
+          "role": "Head of magical university",
+          "relationships": {
+            "Commands": "Unseen University wizards",
+            "Employer of": "The Librarian"
+          }
+        }
+      }
+    },
+    "captain-quirke": {
+      "name": "Captain Quirke",
+      "aliases": ["Quirke"],
+      "appearances": [1, 5, 10, 15, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captain of the Day Watch, which handles the serious police work in Ankh-Morpork. Professional and efficient, he looks down on the Night Watch as ineffective.",
+          "role": "Captain of Day Watch",
+          "relationships": {
+            "Commands": "Day Watch",
+            "Rival of": "Sam Vimes"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Forced to acknowledge the Night Watch's importance when they prove instrumental in dealing with the dragon crisis. His professional pride takes a hit.",
+          "role": "Reluctantly respectful rival",
+          "relationships": {
+            "Competes with": "Night Watch",
+            "Reports to": "Patrician Vetinari"
+          }
+        }
+      }
+    },
+    "sergeant-coates": {
+      "name": "Sergeant Coates",
+      "aliases": ["Coates"],
+      "appearances": [1, 5, 10, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A sergeant in the Day Watch, competent and professional. Represents the stark contrast between the Day Watch and Night Watch standards.",
+          "role": "Day Watch sergeant",
+          "relationships": {
+            "Reports to": "Captain Quirke",
+            "Member of": "Day Watch"
+          }
+        }
+      }
+    },
+    "mr-sleeps": {
+      "name": "Mr. Sleeps",
+      "aliases": ["Sleeps"],
+      "appearances": [2, 6, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A palace servant who works in the Patrician's residence. Knows the building intimately and overhears many conversations that pass through the halls of power.",
+          "role": "Palace servant",
+          "relationships": {
+            "Serves": "Patrician Vetinari",
+            "Works with": "Other palace staff"
+          }
+        }
+      }
+    },
+    "mrs-coates": {
+      "name": "Mrs. Coates",
+      "aliases": ["The Sergeant's wife"],
+      "appearances": [1, 10],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wife of Sergeant Coates of the Day Watch. Represents the families of professional Watch members and their different social status.",
+          "role": "Watch family member",
+          "relationships": {
+            "Married to": "Sergeant Coates",
+            "Part of": "Day Watch community"
+          }
+        }
+      }
+    },
+    "cut-me-own-throat-dibbler": {
+      "name": "Cut-Me-Own-Throat Dibbler",
+      "aliases": ["CMOT Dibbler", "Dibbler"],
+      "appearances": [2, 6, 9, 12, 16, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Ankh-Morpork's most notorious street food vendor, known for selling questionable sausages and other dubious edibles. Always looking for a quick profit from any situation.",
+          "role": "Street food vendor",
+          "relationships": {
+            "Sells to": "Anyone with money",
+            "Competes with": "Other street vendors"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Attempts to capitalize on the dragon crisis by selling 'dragon-proof' merchandise and other supposedly protective items to frightened citizens.",
+          "role": "Crisis profiteer",
+          "relationships": {
+            "Exploits": "Fearful citizens",
+            "Rival of": "Legitimate merchants"
+          }
+        }
+      }
+    },
+    "foul-ole-ron": {
+      "name": "Foul Ole Ron",
+      "aliases": ["Ron", "The Smelly One"],
+      "appearances": [2, 8, 14, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of Ankh-Morpork's most notorious beggars, famous for his incredible stench and his philosophical approach to begging. Claims to follow people home by the smell.",
+          "role": "Professional beggar",
+          "relationships": {
+            "Member of": "Beggars' Guild",
+            "Associates with": "Other street people"
+          }
+        }
+      }
+    },
+    "the-duck-man": {
+      "name": "The Duck Man",
+      "aliases": ["Duck Man"],
+      "appearances": [2, 14, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A street person who insists he doesn't have a duck on his head, despite clearly having a duck on his head. One of Ankh-Morpork's more memorable eccentric street dwellers.",
+          "role": "Eccentric street person",
+          "relationships": {
+            "Companion": "Duck on his head",
+            "Associate of": "Other beggars"
+          }
+        }
+      }
+    },
+    "coffin-henry": {
+      "name": "Coffin Henry",
+      "aliases": ["Henry"],
+      "appearances": [2, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A member of the city's begging community, known for his persistent cough and generally unhealthy appearance. Part of the colorful cast of street people.",
+          "role": "Street beggar",
+          "relationships": {
+            "Member of": "Street community",
+            "Associate of": "Foul Ole Ron"
+          }
+        }
+      }
+    },
+    "arnold-sideways": {
+      "name": "Arnold Sideways",
+      "aliases": ["Sideways", "Arnold"],
+      "appearances": [2, 8, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another of Ankh-Morpork's professional beggars, notable for his sideways gait and his place in the informal hierarchy of the streets.",
+          "role": "Street beggar",
+          "relationships": {
+            "Fellow beggar": "Foul Ole Ron",
+            "Member of": "Street community"
+          }
+        }
+      }
+    },
+    "gaspode": {
+      "name": "Gaspode",
+      "aliases": ["The Wonder Dog"],
+      "appearances": [7, 12, 16, 20],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A talking dog who lives on the streets of Ankh-Morpork. Cynical and streetwise, he provides commentary on human behavior from a dog's perspective.",
+          "role": "Talking street dog",
+          "relationships": {
+            "Observes": "Human behavior",
+            "Lives among": "Street people"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Proves unexpectedly helpful during the dragon crisis, using his keen senses and street knowledge to assist in tracking and understanding the threat.",
+          "role": "Unlikely ally",
+          "relationships": {
+            "Assists": "Night Watch",
+            "Friend of": "Lady Sybil's dragons"
+          }
+        }
+      }
+    },
+    "goodboy-bindle-featherstone": {
+      "name": "Goodboy Bindle Featherstone",
+      "aliases": ["Goodboy"],
+      "appearances": [6, 8, 12, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of Lady Sybil's prize swamp dragons, much healthier and more impressive than poor Errol. Represents the successful breeding line that Lady Sybil is proud of.",
+          "role": "Prize-winning swamp dragon",
+          "relationships": {
+            "Owned by": "Lady Sybil Ramkin",
+            "Fellow dragon": "Errol and others"
+          }
+        }
+      }
+    },
+    "moonpenny": {
+      "name": "Moonpenny",
+      "aliases": ["Another swamp dragon"],
+      "appearances": [6, 8, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another of Lady Sybil's swamp dragons, part of her breeding program. Shows the variety and individual personalities within her dragon collection.",
+          "role": "Swamp dragon",
+          "relationships": {
+            "Owned by": "Lady Sybil Ramkin",
+            "Lives with": "Other swamp dragons"
+          }
+        }
+      }
+    },
+    "dewdrop": {
+      "name": "Dewdrop",
+      "aliases": ["Lady Sybil's dragon"],
+      "appearances": [6, 8, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "One of the swamp dragons in Lady Sybil's collection, each with their own personality and quirks. Part of her passionate breeding program.",
+          "role": "Swamp dragon",
+          "relationships": {
+            "Owned by": "Lady Sybil Ramkin",
+            "Member of": "Dragon breeding program"
+          }
+        }
+      }
+    },
+    "lady-worthington": {
+      "name": "Lady Worthington",
+      "aliases": ["Lady W"],
+      "appearances": [6, 12, 20],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A fellow member of the dragon breeding society and friend of Lady Sybil Ramkin. Represents the upper-class social circle that revolves around dragon breeding.",
+          "role": "Aristocratic dragon breeder",
+          "relationships": {
+            "Friend of": "Lady Sybil Ramkin",
+            "Member of": "Dragon breeding society"
+          }
+        }
+      }
+    },
+    "lord-mountjoy": {
+      "name": "Lord Mountjoy",
+      "aliases": ["Mountjoy"],
+      "appearances": [6, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An aristocrat involved in the dragon breeding community. Part of the social elite that Lady Sybil moves among in her hobby pursuits.",
+          "role": "Aristocratic dragon enthusiast",
+          "relationships": {
+            "Associate of": "Lady Sybil Ramkin",
+            "Member of": "High society"
+          }
+        }
+      }
+    },
+    "mrs-cake": {
+      "name": "Mrs. Cake",
+      "aliases": ["The fortune teller"],
+      "appearances": [4, 9, 14],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A fortune teller and medium who operates in Ankh-Morpork. Claims to have supernatural abilities and knowledge of future events.",
+          "role": "Fortune teller",
+          "relationships": {
+            "Serves": "Superstitious citizens",
+            "Practices": "Divination"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Her predictions about the dragon crisis prove surprisingly accurate, suggesting she may have genuine supernatural abilities or exceptional intuition.",
+          "role": "Prophetic advisor",
+          "relationships": {
+            "Advises": "Anyone who will listen",
+            "Predicts": "Dragon-related events"
+          }
+        }
+      }
+    },
+    "sergeant-stronginthearm": {
+      "name": "Sergeant Stronginthearm",
+      "aliases": ["Stronginthearm"],
+      "appearances": [1, 5, 10],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A sergeant in the Day Watch, representing the professional standards and competence that the Day Watch maintains in contrast to the Night Watch.",
+          "role": "Day Watch sergeant",
+          "relationships": {
+            "Member of": "Day Watch",
+            "Reports to": "Captain Quirke"
+          }
+        }
+      }
+    },
+    "constable-angua": {
+      "name": "Constable Angua",
+      "aliases": ["Angua"],
+      "appearances": [15, 18, 20, 22],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A new recruit to the Night Watch who joins near the end of the dragon crisis. Shows promise as a professional officer and develops a romantic interest in Carrot.",
+          "role": "New Night Watch recruit",
+          "relationships": {
+            "Recruited by": "Sam Vimes",
+            "Attracted to": "Carrot Ironfoundersson"
+          }
+        },
+        "22": {
+          "revealedIn": 22,
+          "description": "Proves herself as a capable Watch officer and establishes herself as part of the new, more professional Night Watch that emerges after the dragon crisis.",
+          "role": "Established Night Watch officer",
+          "relationships": {
+            "Partner of": "Carrot Ironfoundersson",
+            "Member of": "Reformed Night Watch"
+          }
+        }
+      }
+    },
+    "dr-cruces": {
+      "name": "Dr. Cruces",
+      "aliases": ["Head of Assassins"],
+      "appearances": [3, 8, 14],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Head of the Assassins' Guild, a thin and precise man who runs the organization with bureaucratic efficiency. Represents the Guild's approach to organized killing as a business.",
+          "role": "Head of Assassins' Guild",
+          "relationships": {
+            "Commands": "Assassins' Guild",
+            "Competes with": "Other Guilds"
+          }
+        }
+      }
+    },
+    "mr-scrope": {
+      "name": "Mr. Scrope",
+      "aliases": ["Guild treasurer"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Treasurer of one of the city's Guilds, representing the bureaucratic side of Ankh-Morpork's organized crime and professional associations.",
+          "role": "Guild treasurer",
+          "relationships": {
+            "Member of": "Guild system",
+            "Handles": "Guild finances"
+          }
+        }
+      }
+    },
+    "thieves-guild-master": {
+      "name": "Master of Thieves",
+      "aliases": ["Guild Master"],
+      "appearances": [3, 8, 14],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Head of the Thieves' Guild, which regulates and organizes theft in Ankh-Morpork as a legitimate business practice with licenses and quotas.",
+          "role": "Head of Thieves' Guild",
+          "relationships": {
+            "Commands": "Thieves' Guild",
+            "Negotiates with": "Other Guild heads"
+          }
+        }
+      }
+    },
+    "mrs-higgins": {
+      "name": "Mrs. Higgins",
+      "aliases": ["The seamstress"],
+      "appearances": [4, 9, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A seamstress in Ankh-Morpork who represents the working-class citizens trying to make an honest living in the city. Often a victim of the chaos that surrounds major events.",
+          "role": "Working seamstress",
+          "relationships": {
+            "Member of": "Working class",
+            "Customer of": "Local merchants"
+          }
+        }
+      }
+    },
+    "sergeant-detritus": {
+      "name": "Sergeant Detritus",
+      "aliases": ["The troll"],
+      "appearances": [19, 22],
+      "knowledge": {
+        "19": {
+          "revealedIn": 19,
+          "description": "A troll who joins the reformed Night Watch. Represents the new diversity and expanded recruitment that comes with the Watch's improved reputation.",
+          "role": "Troll Night Watch officer",
+          "relationships": {
+            "Member of": "Night Watch",
+            "Reports to": "Sam Vimes"
+          }
+        }
+      }
+    },
+    "mr-sock": {
+      "name": "Mr. Sock",
+      "aliases": ["The haberdasher"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A haberdasher who runs a shop in Ankh-Morpork. Represents the small business owners who form the economic backbone of the city.",
+          "role": "Shop owner",
+          "relationships": {
+            "Serves": "Local customers",
+            "Member of": "Merchants' community"
+          }
+        }
+      }
+    },
+    "brother-plasterer-wife": {
+      "name": "Mrs. Plasterer",
+      "aliases": ["The Plasterer's wife"],
+      "appearances": [5, 11],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Wife of Brother Plasterer from the Elucidated Brethren. Represents the families affected by their loved ones' involvement in the secret society.",
+          "role": "Cultist's wife",
+          "relationships": {
+            "Married to": "Brother Plasterer",
+            "Worried about": "Husband's activities"
+          }
+        }
+      }
+    },
+    "mayor-mackadangdang": {
+      "name": "Mayor Mackadangdang",
+      "aliases": ["The Mayor"],
+      "appearances": [14, 19, 22],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "The ceremonial mayor of Ankh-Morpork, whose role is largely symbolic since the Patrician holds the real power. Represents the old political structures of the city.",
+          "role": "Ceremonial mayor",
+          "relationships": {
+            "Subordinate to": "Patrician Vetinari",
+            "Represents": "City government"
+          }
+        }
+      }
+    },
+    "watchman-carcer": {
+      "name": "Watchman Carcer",
+      "aliases": ["Carcer"],
+      "appearances": [1, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A former member of the Night Watch who represents the kind of corrupt and ineffective officer that gave the Watch its bad reputation.",
+          "role": "Former corrupt watchman",
+          "relationships": {
+            "Former member": "Night Watch",
+            "Example of": "Watch corruption"
+          }
+        }
+      }
+    },
+    "old-vincent": {
+      "name": "Old Vincent",
+      "aliases": ["Vincent"],
+      "appearances": [2, 7, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly citizen of Ankh-Morpork who has seen many changes in the city over the years. Represents the long-term residents who have adapted to the city's chaotic nature.",
+          "role": "Elderly citizen",
+          "relationships": {
+            "Long-time resident": "Ankh-Morpork",
+            "Neighbor to": "Various citizens"
+          }
+        }
+      }
+    },
+    "mrs-twoflower": {
+      "name": "Mrs. Twoflower",
+      "aliases": ["Tourist's wife"],
+      "appearances": [9, 12],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Wife of a tourist visiting Ankh-Morpork during the dragon crisis. Represents the outsiders who occasionally visit the city and are shocked by its conditions.",
+          "role": "Tourist",
+          "relationships": {
+            "Visitor to": "Ankh-Morpork",
+            "Shocked by": "City conditions"
+          }
+        }
+      }
+    },
+    "constable-visit": {
+      "name": "Constable Visit",
+      "aliases": ["Visit-The-Infidel-With-Explanatory-Pamphlets", "Visit"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A new recruit to the reformed Night Watch with an extremely long religious name. Represents the diverse and interesting characters attracted to the improved Watch.",
+          "role": "Religious Night Watch recruit",
+          "relationships": {
+            "Member of": "Reformed Night Watch",
+            "Zealous about": "Religious mission"
+          }
+        }
+      }
+    },
+    "brother-watchtower": {
+      "name": "Brother Watchtower",
+      "aliases": ["Another cultist"],
+      "appearances": [3, 5, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A member of the Elucidated Brethren of the Ebon Night, representing the various working-class men drawn to the cult's promises of power and purpose.",
+          "role": "Cultist member",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Follower of": "Supreme Grand Master"
+          }
+        }
+      }
+    },
+    "brother-numeric": {
+      "name": "Brother Numeric",
+      "aliases": ["The accountant"],
+      "appearances": [3, 5, 7, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The Elucidated Brethren's accountant, who brings his professional skills to the cult's organization. Represents how ordinary professionals can be drawn into extraordinary schemes.",
+          "role": "Cult accountant",
+          "relationships": {
+            "Handles finances": "Elucidated Brethren",
+            "Professional": "Accounting"
+          }
+        }
+      }
+    },
+    "sergeant-cotton": {
+      "name": "Sergeant Cotton",
+      "aliases": ["Cotton"],
+      "appearances": [1, 10, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A sergeant in the Day Watch, representing the professional law enforcement that operates during daylight hours when serious crimes are more likely to be investigated.",
+          "role": "Day Watch sergeant",
+          "relationships": {
+            "Member of": "Day Watch",
+            "Colleague of": "Other Day Watch officers"
+          }
+        }
+      }
+    },
+    "lady-selachii": {
+      "name": "Lady Selachii",
+      "aliases": ["Selachii"],
+      "appearances": [12, 20, 22],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A member of Ankh-Morpork's aristocracy who becomes involved in the politics surrounding the dragon crisis. Represents the noble families' interests in city affairs.",
+          "role": "Aristocrat",
+          "relationships": {
+            "Member of": "Noble family",
+            "Involved in": "City politics"
+          }
+        }
+      }
+    },
+    "lord-vetinari-clerk": {
+      "name": "Palace Clerk",
+      "aliases": ["The clerk"],
+      "appearances": [2, 8, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the clerks working in the Patrician's palace, handling the administrative work of running the city. Represents the bureaucratic machinery that keeps Ankh-Morpork functioning.",
+          "role": "Palace administrator",
+          "relationships": {
+            "Works for": "Patrician Vetinari",
+            "Colleague of": "Lupine Wonse"
+          }
+        }
+      }
+    },
+    "mr-windling": {
+      "name": "Mr. Windling",
+      "aliases": ["The clerk"],
+      "appearances": [4, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A minor clerk in the city administration who represents the many bureaucrats who keep the city's paperwork flowing and its systems operating.",
+          "role": "City clerk",
+          "relationships": {
+            "Employee of": "City government",
+            "Handles": "Administrative duties"
+          }
+        }
+      }
+    },
+    "old-mother-dismay": {
+      "name": "Old Mother Dismay",
+      "aliases": ["Mother Dismay"],
+      "appearances": [7, 12, 18],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An elderly woman who lives in the slums of Ankh-Morpork and has survived many of the city's crises through cunning and stubbornness.",
+          "role": "Elderly survivor",
+          "relationships": {
+            "Resident of": "Ankh-Morpork slums",
+            "Survivor of": "Many city crises"
+          }
+        }
+      }
+    },
+    "captain-tilden": {
+      "name": "Captain Tilden",
+      "aliases": ["Tilden"],
+      "appearances": [14, 19],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A captain in the city's military forces, called upon during the dragon crisis to coordinate the city's defense efforts alongside the Watch.",
+          "role": "Military officer",
+          "relationships": {
+            "Commands": "City guard units",
+            "Coordinates with": "Night Watch"
+          }
+        }
+      }
+    },
+    "brother-pigeon": {
+      "name": "Brother Pigeon",
+      "aliases": ["Pigeon"],
+      "appearances": [3, 5, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another member of the Elucidated Brethren of the Ebon Night, adding to the roster of ordinary citizens who joined the cult seeking meaning and power.",
+          "role": "Cult member",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Follows": "Supreme Grand Master"
+          }
+        }
+      }
+    },
+    "milady-ramkin-aunt": {
+      "name": "Lady Ramkin's Aunt",
+      "aliases": ["The aunt"],
+      "appearances": [6, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A relative of Lady Sybil Ramkin who shares the family's aristocratic background and provides context for Sybil's social position and upbringing.",
+          "role": "Aristocratic relative",
+          "relationships": {
+            "Aunt to": "Lady Sybil Ramkin",
+            "Member of": "Ramkin family"
+          }
+        }
+      }
+    },
+    "watchman-swires": {
+      "name": "Watchman Swires",
+      "aliases": ["Swires"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A new recruit to the reformed Night Watch who joins as part of the expansion following the dragon crisis. Represents the improved quality of recruits the Watch can now attract.",
+          "role": "New Night Watch recruit",
+          "relationships": {
+            "Member of": "Reformed Night Watch",
+            "Trained by": "Existing officers"
+          }
+        }
+      }
+    },
+    "dragon-keeper-jones": {
+      "name": "Dragon Keeper Jones",
+      "aliases": ["Jones"],
+      "appearances": [6, 12, 16],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An assistant who helps Lady Sybil with her dragon breeding program. Knowledgeable about dragon care and handling, though not as expert as Lady Sybil herself.",
+          "role": "Dragon keeper assistant",
+          "relationships": {
+            "Works for": "Lady Sybil Ramkin",
+            "Cares for": "Swamp dragons"
+          }
+        }
+      }
+    },
+    "mrs-palm": {
+      "name": "Mrs. Palm",
+      "aliases": ["Palm"],
+      "appearances": [4, 9, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A prominent member of the Seamstresses' Guild, which despite its name represents a different profession entirely. Well-connected in the city's social network.",
+          "role": "Guild leader",
+          "relationships": {
+            "Head of": "Seamstresses' Guild",
+            "Connected to": "City information network"
+          }
+        }
+      }
+    },
+    "rosie-palm": {
+      "name": "Rosie Palm",
+      "aliases": ["Rosie"],
+      "appearances": [4, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A member of the Seamstresses' Guild who works alongside Mrs. Palm in their particular trade. Part of the Guild's operations in Ankh-Morpork.",
+          "role": "Guild member",
+          "relationships": {
+            "Works with": "Mrs. Palm",
+            "Member of": "Seamstresses' Guild"
+          }
+        }
+      }
+    },
+    "brother-bursar": {
+      "name": "Brother Bursar",
+      "aliases": ["The treasurer"],
+      "appearances": [3, 5, 7, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The Elucidated Brethren's financial officer, responsible for managing the cult's funds and expenses related to their dragon-summoning activities.",
+          "role": "Cult treasurer",
+          "relationships": {
+            "Handles money": "Elucidated Brethren",
+            "Reports to": "Supreme Grand Master"
+          }
+        }
+      }
+    },
+    "mr-cheese": {
+      "name": "Mr. Cheese",
+      "aliases": ["Cheese"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A merchant who sells cheese in Ankh-Morpork's markets. Represents the everyday traders who keep the city's commerce flowing despite the various crises.",
+          "role": "Cheese merchant",
+          "relationships": {
+            "Trades in": "City markets",
+            "Customer base": "Local residents"
+          }
+        }
+      }
+    },
+    "constable-cuddy": {
+      "name": "Constable Cuddy",
+      "aliases": ["Cuddy the dwarf"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A dwarf who joins the reformed Night Watch as part of its expansion and diversification. Represents the new inclusivity of the improved Watch.",
+          "role": "Dwarf Night Watch officer",
+          "relationships": {
+            "Member of": "Reformed Night Watch",
+            "Fellow dwarf": "Carrot Ironfoundersson"
+          }
+        }
+      }
+    },
+    "old-tom": {
+      "name": "Old Tom",
+      "aliases": ["Tom"],
+      "appearances": [2, 7, 12, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly resident of Ankh-Morpork who has witnessed many changes in the city over the decades. Represents the continuity of the city's population through various crises.",
+          "role": "Long-term resident",
+          "relationships": {
+            "Neighbor to": "Other citizens",
+            "Witness to": "City history"
+          }
+        }
+      }
+    },
+    "mrs-whitlow": {
+      "name": "Mrs. Whitlow",
+      "aliases": ["The housekeeper"],
+      "appearances": [4, 8, 14],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The housekeeper at Unseen University who manages the domestic side of the magical institution. Represents the non-magical staff who keep the university running.",
+          "role": "University housekeeper",
+          "relationships": {
+            "Works at": "Unseen University",
+            "Manages": "Domestic staff"
+          }
+        }
+      }
+    },
+    "brother-doorkeeper-wife": {
+      "name": "Mrs. Doorkeeper",
+      "aliases": ["The doorkeeper's wife"],
+      "appearances": [5, 11],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Wife of Brother Doorkeeper from the Elucidated Brethren. Like other cult members' wives, she's affected by her husband's secretive activities.",
+          "role": "Cultist's wife",
+          "relationships": {
+            "Married to": "Brother Doorkeeper",
+            "Concerned about": "Husband's meetings"
+          }
+        }
+      }
+    },
+    "sergeant-stronginthearm-wife": {
+      "name": "Mrs. Stronginthearm",
+      "aliases": ["Sergeant's wife"],
+      "appearances": [1, 10],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wife of Sergeant Stronginthearm of the Day Watch. Represents the families of professional Watch officers and their higher social standing.",
+          "role": "Day Watch family member",
+          "relationships": {
+            "Married to": "Sergeant Stronginthearm",
+            "Part of": "Professional Watch community"
+          }
+        }
+      }
+    },
+    "dragon-breeder-williams": {
+      "name": "Dragon Breeder Williams",
+      "aliases": ["Williams"],
+      "appearances": [6, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another member of the dragon breeding community who participates in the social circle around Lady Sybil Ramkin's hobby.",
+          "role": "Dragon breeder",
+          "relationships": {
+            "Fellow breeder": "Lady Sybil Ramkin",
+            "Member of": "Dragon breeding society"
+          }
+        }
+      }
+    },
+    "brother-mason": {
+      "name": "Brother Mason",
+      "aliases": ["Mason"],
+      "appearances": [3, 5, 7, 9, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A stonemason by trade who joined the Elucidated Brethren seeking excitement beyond his mundane work. Brings practical building skills to the cult's activities.",
+          "role": "Cultist stonemason",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Trade": "Stonemason"
+          }
+        }
+      }
+    },
+    "brother-baker": {
+      "name": "Brother Baker",
+      "aliases": ["The baker"],
+      "appearances": [3, 5, 7, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A baker who runs a shop in Ankh-Morpork and joined the cult hoping for something more meaningful than making bread. Often brings leftover pastries to meetings.",
+          "role": "Cultist baker",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Owns": "Bakery shop"
+          }
+        }
+      }
+    },
+    "brother-carpenter": {
+      "name": "Brother Carpenter",
+      "aliases": ["Carpenter"],
+      "appearances": [3, 5, 7, 9, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A skilled carpenter who helped construct the cult's ritual space and meeting areas. His woodworking expertise proved valuable to the organization.",
+          "role": "Cultist carpenter",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Built": "Cult meeting space"
+          }
+        }
+      }
+    },
+    "brother-tailor": {
+      "name": "Brother Tailor",
+      "aliases": ["The tailor"],
+      "appearances": [3, 5, 7, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A tailor who made the cult's robes and ceremonial garments. Takes pride in the quality of the Brotherhood's mysterious appearance.",
+          "role": "Cultist tailor",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Created": "Cult robes"
+          }
+        }
+      }
+    },
+    "brother-blacksmith": {
+      "name": "Brother Blacksmith",
+      "aliases": ["Smith"],
+      "appearances": [3, 5, 7, 9, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A blacksmith who forged ritual implements and weapons for the cult. His metalworking skills made him valuable to their more practical preparations.",
+          "role": "Cultist blacksmith",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Forged": "Ritual implements"
+          }
+        }
+      }
+    },
+    "brother-candlemaker": {
+      "name": "Brother Candlemaker",
+      "aliases": ["Candlemaker"],
+      "appearances": [3, 5, 7, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A candlemaker who provided the numerous candles needed for the cult's atmospheric meetings and rituals. Enjoys the dramatic lighting effects.",
+          "role": "Cultist candlemaker",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Supplies": "Ritual candles"
+          }
+        }
+      }
+    },
+    "brother-fishmonger": {
+      "name": "Brother Fishmonger",
+      "aliases": ["Fishmonger"],
+      "appearances": [3, 5, 7, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A fishmonger from the docks area who joined the cult seeking adventure beyond selling fish. His knowledge of the harbor district proves useful.",
+          "role": "Cultist fishmonger",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Works at": "Fish market"
+          }
+        }
+      }
+    },
+    "brother-cobbler": {
+      "name": "Brother Cobbler",
+      "aliases": ["Cobbler"],
+      "appearances": [3, 5, 7, 9],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A shoemaker who repairs and makes footwear for the citizens of Ankh-Morpork. Joined the cult hoping to step into a more exciting role.",
+          "role": "Cultist cobbler",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Makes": "Shoes and boots"
+          }
+        }
+      }
+    },
+    "brother-innkeeper": {
+      "name": "Brother Innkeeper",
+      "aliases": ["Innkeeper"],
+      "appearances": [3, 5, 7, 9, 11],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Runs a small tavern in one of Ankh-Morpork's seedier districts. His establishment sometimes serves as a meeting place for cult members.",
+          "role": "Cultist innkeeper",
+          "relationships": {
+            "Member of": "Elucidated Brethren",
+            "Owns": "Tavern"
+          }
+        }
+      }
+    },
+    "mr-hopkinson": {
+      "name": "Mr. Hopkinson",
+      "aliases": ["Hopkinson"],
+      "appearances": [2, 9, 16, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A respectable merchant who runs a dry goods store in Ankh-Morpork. Represents the middle-class shopkeepers who form the backbone of the city's economy.",
+          "role": "Dry goods merchant",
+          "relationships": {
+            "Owns": "Dry goods store",
+            "Customer of": "Wholesale suppliers"
+          }
+        }
+      }
+    },
+    "mrs-hopkinson": {
+      "name": "Mrs. Hopkinson",
+      "aliases": ["Hopkinson's wife"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Wife of the dry goods merchant, active in the local women's social circles and community events around their neighborhood.",
+          "role": "Merchant's wife",
+          "relationships": {
+            "Married to": "Mr. Hopkinson",
+            "Active in": "Community affairs"
+          }
+        }
+      }
+    },
+    "mr-grocer": {
+      "name": "Mr. Grocer",
+      "aliases": ["The grocer"],
+      "appearances": [2, 9, 16, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Runs a grocery shop serving the local neighborhood. Knows all the local gossip and provides essential food supplies to area residents.",
+          "role": "Neighborhood grocer",
+          "relationships": {
+            "Serves": "Local residents",
+            "Source of": "Community news"
+          }
+        }
+      }
+    },
+    "baker-johnson": {
+      "name": "Baker Johnson",
+      "aliases": ["Johnson"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Operates one of the legitimate bakeries in Ankh-Morpork, competing with Brother Baker and other bread sellers. Known for his early morning work schedule.",
+          "role": "Professional baker",
+          "relationships": {
+            "Competes with": "Other bakers",
+            "Supplies": "Local residents"
+          }
+        }
+      }
+    },
+    "fishmonger-smith": {
+      "name": "Fishmonger Smith",
+      "aliases": ["Smith"],
+      "appearances": [2, 12, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Sells fresh and not-so-fresh fish from his stall near the docks. Has to compete with the dubious offerings of Cut-Me-Own-Throat Dibbler.",
+          "role": "Fish vendor",
+          "relationships": {
+            "Works at": "Fish market",
+            "Competes with": "Dibbler"
+          }
+        }
+      }
+    },
+    "butcher-williams": {
+      "name": "Butcher Williams",
+      "aliases": ["Williams the butcher"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Runs a butcher shop selling meat of various qualities and questionable origins. One of the more legitimate food vendors in the city.",
+          "role": "Meat vendor",
+          "relationships": {
+            "Owns": "Butcher shop",
+            "Supplies": "Local restaurants"
+          }
+        }
+      }
+    },
+    "seamstress-jones": {
+      "name": "Seamstress Jones",
+      "aliases": ["Jones"],
+      "appearances": [4, 9, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An actual seamstress who does legitimate sewing and mending work, unlike some members of the Seamstresses' Guild. Struggles with the Guild's reputation.",
+          "role": "Legitimate seamstress",
+          "relationships": {
+            "Works in": "Clothing trade",
+            "Confused with": "Seamstresses' Guild"
+          }
+        }
+      }
+    },
+    "carpenter-brown": {
+      "name": "Carpenter Brown",
+      "aliases": ["Brown"],
+      "appearances": [2, 12, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A skilled carpenter who builds and repairs furniture and structures throughout Ankh-Morpork. Not associated with the cult's Brother Carpenter.",
+          "role": "Professional carpenter",
+          "relationships": {
+            "Builds for": "City residents",
+            "Competes with": "Other carpenters"
+          }
+        }
+      }
+    },
+    "blacksmith-thomas": {
+      "name": "Blacksmith Thomas",
+      "aliases": ["Thomas"],
+      "appearances": [2, 12, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Operates a legitimate blacksmith shop, forging horseshoes, tools, and hardware for the city's residents. His work is honest, unlike some cult activities.",
+          "role": "Professional blacksmith",
+          "relationships": {
+            "Serves": "Local craftsmen",
+            "Makes": "Tools and hardware"
+          }
+        }
+      }
+    },
+    "tavern-keeper-murphy": {
+      "name": "Tavern Keeper Murphy",
+      "aliases": ["Murphy"],
+      "appearances": [2, 7, 12, 18, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Runs one of Ankh-Morpork's more respectable drinking establishments. His tavern serves as a gathering place for local news and gossip.",
+          "role": "Tavern owner",
+          "relationships": {
+            "Serves": "Local drinkers",
+            "Competitor of": "Other taverns"
+          }
+        }
+      }
+    },
+    "barmaid-sally": {
+      "name": "Barmaid Sally",
+      "aliases": ["Sally"],
+      "appearances": [2, 7, 12, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Works as a serving girl in Murphy's tavern. Hears all the local gossip and news from the drinking customers.",
+          "role": "Tavern barmaid",
+          "relationships": {
+            "Works for": "Tavern Keeper Murphy",
+            "Serves": "Tavern customers"
+          }
+        }
+      }
+    },
+    "watchman-jenkins": {
+      "name": "Watchman Jenkins",
+      "aliases": ["Jenkins"],
+      "appearances": [1, 5, 10],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A former member of the Night Watch who left due to the organization's poor reputation and lack of real police work.",
+          "role": "Former Night Watch",
+          "relationships": {
+            "Former colleague": "Sam Vimes",
+            "Left": "Night Watch"
+          }
+        }
+      }
+    },
+    "watchman-carter": {
+      "name": "Watchman Carter",
+      "aliases": ["Carter"],
+      "appearances": [1, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another former Night Watch member who gave up on the organization years ago when it became clear they weren't doing real police work.",
+          "role": "Former Night Watch",
+          "relationships": {
+            "Former colleague": "Fred Colon",
+            "Quit": "Night Watch"
+          }
+        }
+      }
+    },
+    "day-watch-constable-harris": {
+      "name": "Constable Harris",
+      "aliases": ["Harris"],
+      "appearances": [1, 5, 10, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A competent constable in the Day Watch who represents the professional standards that the Day Watch maintains during normal operations.",
+          "role": "Day Watch constable",
+          "relationships": {
+            "Member of": "Day Watch",
+            "Reports to": "Captain Quirke"
+          }
+        }
+      }
+    },
+    "day-watch-constable-miller": {
+      "name": "Constable Miller",
+      "aliases": ["Miller"],
+      "appearances": [1, 10, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another Day Watch constable who handles routine police work competently. Shows the contrast with the Night Watch's low standards.",
+          "role": "Day Watch constable",
+          "relationships": {
+            "Partner of": "Constable Harris",
+            "Member of": "Day Watch"
+          }
+        }
+      }
+    },
+    "sergeant-williams": {
+      "name": "Sergeant Williams",
+      "aliases": ["Williams"],
+      "appearances": [1, 10, 19],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Day Watch sergeant who supervises constables and handles more serious cases. Represents the professional law enforcement hierarchy.",
+          "role": "Day Watch sergeant",
+          "relationships": {
+            "Supervises": "Day Watch constables",
+            "Reports to": "Captain Quirke"
+          }
+        }
+      }
+    },
+    "night-watch-applicant-jones": {
+      "name": "Applicant Jones",
+      "aliases": ["Jones"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "One of several people who applied to join the reformed Night Watch after its improved reputation following the dragon crisis.",
+          "role": "Watch applicant",
+          "relationships": {
+            "Wants to join": "Night Watch",
+            "Attracted by": "Improved reputation"
+          }
+        }
+      }
+    },
+    "night-watch-applicant-davis": {
+      "name": "Applicant Davis",
+      "aliases": ["Davis"],
+      "appearances": [22],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Another applicant drawn to the Night Watch by its newfound respectability and the opportunity to do real police work.",
+          "role": "Watch applicant",
+          "relationships": {
+            "Hopes to join": "Night Watch",
+            "Inspired by": "Recent events"
+          }
+        }
+      }
+    },
+    "thieves-guild-member-fingers": {
+      "name": "Guild Thief Fingers",
+      "aliases": ["Fingers the thief"],
+      "appearances": [3, 8, 14, 18],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A professional thief operating under the Thieves' Guild license system. Practices regulated theft with proper paperwork and quotas.",
+          "role": "Licensed thief",
+          "relationships": {
+            "Member of": "Thieves' Guild",
+            "Licensed to steal": "Designated amounts"
+          }
+        }
+      }
+    },
+    "thieves-guild-member-nimble": {
+      "name": "Guild Thief Nimble",
+      "aliases": ["Nimble"],
+      "appearances": [3, 8, 14],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another licensed thief who operates under Guild regulations. Specializes in pickpocketing and minor burglary within approved limits.",
+          "role": "Professional pickpocket",
+          "relationships": {
+            "Member of": "Thieves' Guild",
+            "Works with": "Other licensed thieves"
+          }
+        }
+      }
+    },
+    "assassins-guild-member-stiletto": {
+      "name": "Guild Assassin Stiletto",
+      "aliases": ["Stiletto"],
+      "appearances": [3, 8, 14],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A professional assassin operating under Guild license. Practices regulated killing with proper contracts and fees according to Guild standards.",
+          "role": "Licensed assassin",
+          "relationships": {
+            "Member of": "Assassins' Guild",
+            "Takes contracts": "Legal assassination"
+          }
+        }
+      }
+    },
+    "assassins-guild-member-blade": {
+      "name": "Guild Assassin Blade",
+      "aliases": ["Blade"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another Guild assassin who handles legitimate killing contracts. Operates with professional standards and proper documentation.",
+          "role": "Professional assassin",
+          "relationships": {
+            "Member of": "Assassins' Guild",
+            "Colleague of": "Other assassins"
+          }
+        }
+      }
+    },
+    "beggar-guild-member-patches": {
+      "name": "Guild Beggar Patches",
+      "aliases": ["Patches"],
+      "appearances": [2, 8, 14, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professional beggar who operates under Guild license. Has assigned street corners and begging quotas as part of the regulated begging trade.",
+          "role": "Licensed beggar",
+          "relationships": {
+            "Member of": "Beggars' Guild",
+            "Works": "Assigned street corners"
+          }
+        }
+      }
+    },
+    "beggar-guild-member-stumpy": {
+      "name": "Guild Beggar Stumpy",
+      "aliases": ["Stumpy"],
+      "appearances": [2, 14, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another professional beggar operating under the Guild system. Specializes in sympathy-generating appearances and practiced hard-luck stories.",
+          "role": "Professional beggar",
+          "relationships": {
+            "Member of": "Beggars' Guild",
+            "Colleague of": "Other guild beggars"
+          }
+        }
+      }
+    },
+    "palace-guard-captain": {
+      "name": "Palace Guard Captain",
+      "aliases": ["Captain of Guards"],
+      "appearances": [2, 8, 14, 19, 22],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Commands the guards who protect the Patrician's palace. A professional soldier responsible for the ruler's personal security.",
+          "role": "Palace security chief",
+          "relationships": {
+            "Protects": "Patrician Vetinari",
+            "Commands": "Palace guards"
+          }
+        }
+      }
+    },
+    "palace-guard-sergeant": {
+      "name": "Palace Guard Sergeant",
+      "aliases": ["Palace sergeant"],
+      "appearances": [2, 8, 14, 19],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A sergeant in the palace guard who assists in protecting the Patrician and maintaining security at the seat of government.",
+          "role": "Palace guard sergeant",
+          "relationships": {
+            "Reports to": "Palace Guard Captain",
+            "Guards": "Palace entrances"
+          }
+        }
+      }
+    },
+    "palace-guard-jones": {
+      "name": "Palace Guard Jones",
+      "aliases": ["Guard Jones"],
+      "appearances": [2, 8, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the individual guards stationed at the palace. Maintains security and follows orders from his superiors in the guard hierarchy.",
+          "role": "Palace guard",
+          "relationships": {
+            "Serves under": "Palace Guard Sergeant",
+            "Protects": "Palace grounds"
+          }
+        }
+      }
+    },
+    "palace-guard-smith": {
+      "name": "Palace Guard Smith",
+      "aliases": ["Guard Smith"],
+      "appearances": [2, 8, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another palace guard responsible for protecting the Patrician and palace staff. Part of the professional military force that serves the government.",
+          "role": "Palace guard",
+          "relationships": {
+            "Fellow guard": "Palace Guard Jones",
+            "Stationed at": "Palace"
+          }
+        }
+      }
+    },
+    "palace-cook": {
+      "name": "Palace Cook",
+      "aliases": ["Cook"],
+      "appearances": [2, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Prepares meals for the Patrician and palace staff. Part of the domestic staff that keeps the seat of government running smoothly.",
+          "role": "Palace kitchen staff",
+          "relationships": {
+            "Cooks for": "Patrician and staff",
+            "Works with": "Kitchen assistants"
+          }
+        }
+      }
+    },
+    "palace-maid": {
+      "name": "Palace Maid",
+      "aliases": ["Maid"],
+      "appearances": [2, 8],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Handles cleaning and domestic duties in the palace. One of the staff members who keep the Patrician's residence properly maintained.",
+          "role": "Palace domestic staff",
+          "relationships": {
+            "Serves": "Palace residents",
+            "Works with": "Other servants"
+          }
+        }
+      }
+    },
+    "palace-doorman": {
+      "name": "Palace Doorman",
+      "aliases": ["Doorman"],
+      "appearances": [2, 8, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Greets visitors and controls access to the palace. First point of contact for anyone seeking an audience with the Patrician.",
+          "role": "Palace entrance staff",
+          "relationships": {
+            "Guards entrance": "Palace",
+            "Reports to": "Palace Guard Captain"
+          }
+        }
+      }
+    },
+    "university-bursar": {
+      "name": "University Bursar",
+      "aliases": ["Bursar"],
+      "appearances": [4, 8, 14],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Handles the financial affairs of Unseen University. Manages budgets, expenses, and the complex economics of running a magical institution.",
+          "role": "University financial officer",
+          "relationships": {
+            "Works at": "Unseen University",
+            "Reports to": "Archchancellor"
+          }
+        }
+      }
+    },
+    "university-dean": {
+      "name": "University Dean",
+      "aliases": ["Dean"],
+      "appearances": [4, 8, 14],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A senior wizard at Unseen University responsible for academic affairs and student discipline. Part of the university's administrative hierarchy.",
+          "role": "University administrator",
+          "relationships": {
+            "Senior position": "Unseen University",
+            "Colleague of": "Other senior wizards"
+          }
+        }
+      }
+    },
+    "university-lecturer": {
+      "name": "University Lecturer",
+      "aliases": ["Lecturer"],
+      "appearances": [4, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Teaches classes at Unseen University and conducts research into various magical phenomena. Part of the academic faculty.",
+          "role": "University faculty",
+          "relationships": {
+            "Teaches at": "Unseen University",
+            "Researches": "Magical subjects"
+          }
+        }
+      }
+    },
+    "university-student": {
+      "name": "University Student",
+      "aliases": ["Student"],
+      "appearances": [4, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Studies magic at Unseen University. Represents the young wizards learning the arcane arts under faculty supervision.",
+          "role": "Magic student",
+          "relationships": {
+            "Studies at": "Unseen University",
+            "Learns from": "University faculty"
+          }
+        }
+      }
+    },
+    "university-porter": {
+      "name": "University Porter",
+      "aliases": ["Porter"],
+      "appearances": [4, 8, 14],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Guards the entrance to Unseen University and controls access to the magical institution. Often the first contact with visitors.",
+          "role": "University gatekeeper",
+          "relationships": {
+            "Guards": "University entrance",
+            "Works for": "Unseen University"
+          }
+        }
+      }
+    },
+    "noble-lord-rust": {
+      "name": "Lord Rust",
+      "aliases": ["Rust"],
+      "appearances": [12, 20, 22],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A member of Ankh-Morpork's old nobility who becomes involved in the political maneuvering during the dragon crisis. Represents traditional aristocratic interests.",
+          "role": "Noble family head",
+          "relationships": {
+            "Member of": "Old aristocracy",
+            "Involved in": "City politics"
+          }
+        }
+      }
+    },
+    "noble-lady-rust": {
+      "name": "Lady Rust",
+      "aliases": ["Lady R"],
+      "appearances": [12, 20],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Wife of Lord Rust and part of the aristocratic social circle. Active in high society events and charitable activities.",
+          "role": "Noble's wife",
+          "relationships": {
+            "Married to": "Lord Rust",
+            "Member of": "High society"
+          }
+        }
+      }
+    },
+    "noble-lord-snapcase": {
+      "name": "Lord Snapcase",
+      "aliases": ["Snapcase"],
+      "appearances": [12, 20],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Another noble family head who has interests in city politics and commerce. Part of the aristocratic establishment that the Patrician must manage.",
+          "role": "Aristocratic politician",
+          "relationships": {
+            "Member of": "Noble families",
+            "Competes with": "Other nobles"
+          }
+        }
+      }
+    },
+    "merchant-guild-head": {
+      "name": "Merchant Guild Head",
+      "aliases": ["Guild Master"],
+      "appearances": [3, 8, 14, 20],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Leads the Merchants' Guild and represents the business interests of Ankh-Morpork's trading community. Influential in city economic policy.",
+          "role": "Trade guild leader",
+          "relationships": {
+            "Leads": "Merchants' Guild",
+            "Represents": "Business interests"
+          }
+        }
+      }
+    },
+    "dockworker-tom": {
+      "name": "Dockworker Tom",
+      "aliases": ["Tom"],
+      "appearances": [2, 12, 16, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Works loading and unloading ships at Ankh-Morpork's busy port. Represents the working-class laborers who keep the city's trade flowing.",
+          "role": "Port worker",
+          "relationships": {
+            "Works at": "City docks",
+            "Colleague of": "Other dockworkers"
+          }
+        }
+      }
+    },
+    "dockworker-bill": {
+      "name": "Dockworker Bill",
+      "aliases": ["Bill"],
+      "appearances": [2, 12, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another dock laborer who handles cargo and maritime trade goods. Part of the rough but essential workforce at the port.",
+          "role": "Dock laborer",
+          "relationships": {
+            "Partner of": "Dockworker Tom",
+            "Works at": "Harbor"
+          }
+        }
+      }
+    },
+    "sailor-jack": {
+      "name": "Sailor Jack",
+      "aliases": ["Jack"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A sailor whose ship docks at Ankh-Morpork's port. Brings news from other cities and represents the maritime connections that fuel trade.",
+          "role": "Merchant sailor",
+          "relationships": {
+            "Sails to": "Various ports",
+            "Brings news": "From other cities"
+          }
+        }
+      }
+    },
+    "ship-captain-hook": {
+      "name": "Captain Hook",
+      "aliases": ["Hook"],
+      "appearances": [2, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Commands a trading vessel that regularly docks at Ankh-Morpork. His ship is part of the maritime commerce that keeps the city prosperous.",
+          "role": "Ship captain",
+          "relationships": {
+            "Commands": "Trading vessel",
+            "Trades with": "Port merchants"
+          }
+        }
+      }
+    },
+    "street-sweeper": {
+      "name": "Street Sweeper",
+      "aliases": ["Sweeper"],
+      "appearances": [2, 12, 18, 22],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Responsible for the thankless task of trying to keep Ankh-Morpork's streets clean. Fights a losing battle against the city's natural filth.",
+          "role": "City cleaner",
+          "relationships": {
+            "Employed by": "City government",
+            "Battles": "Street filth"
+          }
+        }
+      }
+    },
+    "lamplighter": {
+      "name": "Lamplighter",
+      "aliases": ["Light keeper"],
+      "appearances": [2, 7, 12, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Lights and maintains the city's street lamps each evening. His work provides what little illumination exists in Ankh-Morpork's dark streets.",
+          "role": "Street lamp tender",
+          "relationships": {
+            "Maintains": "Street lighting",
+            "Works": "Evening hours"
+          }
+        }
+      }
+    },
+    "night-soil-man": {
+      "name": "Night Soil Man",
+      "aliases": ["Soil man"],
+      "appearances": [2, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Handles one of the city's most necessary but unpleasant jobs - removing human waste. An essential but thankless public service.",
+          "role": "Waste removal",
+          "relationships": {
+            "Serves": "City sanitation",
+            "Works": "Night hours"
+          }
+        }
+      }
+    },
+    "ratcatcher": {
+      "name": "Ratcatcher",
+      "aliases": ["Rat man"],
+      "appearances": [2, 7, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Attempts to control the city's enormous rat population. Fights an endless battle against the rodents that infest every corner of Ankh-Morpork.",
+          "role": "Pest control",
+          "relationships": {
+            "Battles": "City rats",
+            "Employed by": "Desperate citizens"
+          }
+        }
+      }
+    },
+    "chimney-sweep": {
+      "name": "Chimney Sweep",
+      "aliases": ["Sweep"],
+      "appearances": [2, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Cleans chimneys throughout the city, often employing small children for the dangerous work. Represents the harsh working conditions in Ankh-Morpork.",
+          "role": "Chimney cleaner",
+          "relationships": {
+            "Employs": "Small children",
+            "Services": "Houses and shops"
+          }
+        }
+      }
+    },
+    "water-carrier": {
+      "name": "Water Carrier",
+      "aliases": ["Water man"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Delivers water to buildings without their own wells or access to the river. Provides essential service to citizens who can afford clean water.",
+          "role": "Water delivery",
+          "relationships": {
+            "Serves": "Water customers",
+            "Competes with": "River water"
+          }
+        }
+      }
+    },
+    "midwife": {
+      "name": "Midwife",
+      "aliases": ["Birth attendant"],
+      "appearances": [4, 9],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Assists with births throughout the city. Provides essential medical care during childbirth in a place where medical knowledge is limited.",
+          "role": "Birth assistant",
+          "relationships": {
+            "Assists": "Expecting mothers",
+            "Practices": "Folk medicine"
+          }
+        }
+      }
+    },
+    "herb-woman": {
+      "name": "Herb Woman",
+      "aliases": ["Healer"],
+      "appearances": [4, 9, 14],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Sells medicinal herbs and provides folk remedies to those who cannot afford proper medical care. Represents traditional healing practices.",
+          "role": "Folk healer",
+          "relationships": {
+            "Treats": "Poor citizens",
+            "Gathers": "Medicinal plants"
+          }
+        }
+      }
+    },
+    "tooth-drawer": {
+      "name": "Tooth Drawer",
+      "aliases": ["Dental practitioner"],
+      "appearances": [4, 12],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Extracts teeth and provides crude dental care. His methods are painful but sometimes necessary in a city with limited medical options.",
+          "role": "Tooth extractor",
+          "relationships": {
+            "Treats": "Dental problems",
+            "Uses": "Basic tools"
+          }
+        }
+      }
+    },
+    "troll-bouncer": {
+      "name": "Troll Bouncer",
+      "aliases": ["Bouncer"],
+      "appearances": [7, 12, 18],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Works as security at one of Ankh-Morpork's rougher taverns. Uses his natural troll strength to keep order among unruly drinkers.",
+          "role": "Tavern security",
+          "relationships": {
+            "Works at": "Rough tavern",
+            "Intimidates": "Troublemakers"
+          }
+        }
+      }
+    },
+    "dwarf-miner": {
+      "name": "Dwarf Miner",
+      "aliases": ["Miner"],
+      "appearances": [4, 8, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A dwarf who works in the city's underground areas. Represents the dwarfish community living and working in Ankh-Morpork.",
+          "role": "Underground worker",
+          "relationships": {
+            "Fellow dwarf": "Carrot Ironfoundersson",
+            "Works": "Underground tunnels"
+          }
+        }
+      }
+    },
+    "gargoyle": {
+      "name": "Gargoyle",
+      "aliases": ["Stone guardian"],
+      "appearances": [2, 7, 12, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of the stone creatures that perch on buildings throughout the city. Serves as a silent watcher of street activities.",
+          "role": "Building guardian",
+          "relationships": {
+            "Perches on": "City buildings",
+            "Watches": "Street activities"
+          }
+        }
+      }
+    },
+    "zombie": {
+      "name": "Zombie",
+      "aliases": ["Undead citizen"],
+      "appearances": [2, 7, 14],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An undead resident who continues to go about daily business despite being deceased. Part of Ankh-Morpork's diverse supernatural population.",
+          "role": "Undead citizen",
+          "relationships": {
+            "Lives in": "Ankh-Morpork",
+            "Member of": "Undead community"
+          }
+        }
+      }
+    },
+    "vampire": {
+      "name": "Vampire",
+      "aliases": ["Night dweller"],
+      "appearances": [7, 14, 18],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A vampire who lives in the city's darker areas. Represents the supernatural creatures that call Ankh-Morpork home.",
+          "role": "Supernatural resident",
+          "relationships": {
+            "Dwells in": "Dark places",
+            "Feeds on": "City inhabitants"
+          }
+        }
+      }
+    },
+    "werewolf": {
+      "name": "Werewolf",
+      "aliases": ["Shape-changer"],
+      "appearances": [7, 14],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A lycanthrope living among the city's population. Another example of the diverse supernatural community in Ankh-Morpork.",
+          "role": "Shapeshifting resident",
+          "relationships": {
+            "Lives among": "Human population",
+            "Changes during": "Full moon"
+          }
+        }
+      }
+    },
+    "banker-goldstein": {
+      "name": "Banker Goldstein",
+      "aliases": ["Goldstein"],
+      "appearances": [3, 8, 14, 20],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Operates one of Ankh-Morpork's banking houses. Handles financial transactions for the city's merchants and wealthy citizens.",
+          "role": "Financial services",
+          "relationships": {
+            "Serves": "Wealthy clients",
+            "Handles": "Large transactions"
+          }
+        }
+      }
+    },
+    "moneylender": {
+      "name": "Moneylender",
+      "aliases": ["Loan shark"],
+      "appearances": [3, 8, 14],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Provides loans at high interest rates to desperate citizens. Operates on the edge of legality in the city's financial underworld.",
+          "role": "Illegal banking",
+          "relationships": {
+            "Lends to": "Desperate borrowers",
+            "Charges": "High interest"
+          }
+        }
+      }
+    },
+    "pawnbroker": {
+      "name": "Pawnbroker",
+      "aliases": ["Second-hand dealer"],
+      "appearances": [3, 9, 16],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Buys and sells second-hand goods, often from questionable sources. Provides a service for those needing quick cash.",
+          "role": "Second-hand trader",
+          "relationships": {
+            "Deals with": "Desperate sellers",
+            "Handles": "Questionable goods"
+          }
+        }
+      }
+    },
+    "jeweler": {
+      "name": "Jeweler",
+      "aliases": ["Gem merchant"],
+      "appearances": [3, 12, 20],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Crafts and sells jewelry and precious stones to Ankh-Morpork's wealthy citizens. Often deals with nobles and successful merchants.",
+          "role": "Luxury goods seller",
+          "relationships": {
+            "Serves": "Wealthy customers",
+            "Creates": "Fine jewelry"
+          }
+        }
+      }
+    },
+    "watchmaker": {
+      "name": "Watchmaker",
+      "aliases": ["Timekeeper"],
+      "appearances": [4, 9, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Builds and repairs timepieces for the city's residents. His precise work represents the few reliable services in Ankh-Morpork.",
+          "role": "Precision craftsman",
+          "relationships": {
+            "Serves": "Time-conscious citizens",
+            "Repairs": "Mechanical devices"
+          }
+        }
+      }
+    },
+    "scribe": {
+      "name": "Scribe",
+      "aliases": ["Letter writer"],
+      "appearances": [4, 9, 16],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Writes letters and documents for illiterate citizens. Provides an essential service in a city where literacy is not universal.",
+          "role": "Professional writer",
+          "relationships": {
+            "Serves": "Illiterate citizens",
+            "Writes": "Official documents"
+          }
+        }
+      }
+    },
+    "messenger": {
+      "name": "Messenger",
+      "aliases": ["Runner"],
+      "appearances": [2, 8, 14, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Carries messages and packages throughout the city. Part of the communication network that keeps Ankh-Morpork's business running.",
+          "role": "Message carrier",
+          "relationships": {
+            "Serves": "Business community",
+            "Runs between": "Various districts"
+          }
+        }
+      }
+    },
+    "cart-driver": {
+      "name": "Cart Driver",
+      "aliases": ["Teamster"],
+      "appearances": [2, 9, 12, 16, 18],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Drives cargo carts through the city's narrow streets. Provides essential transportation services for goods and occasionally people.",
+          "role": "Cargo transporter",
+          "relationships": {
+            "Transports": "Goods and people",
+            "Works": "City streets"
+          }
+        }
+      }
+    },
+    "stable-keeper": {
+      "name": "Stable Keeper",
+      "aliases": ["Groom"],
+      "appearances": [2, 12, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Manages stables and cares for horses throughout the city. Provides boarding and care services for mounted visitors and residents.",
+          "role": "Horse caretaker",
+          "relationships": {
+            "Cares for": "Horses and donkeys",
+            "Serves": "Mounted travelers"
+          }
+        }
+      }
+    },
+    "pig-keeper": {
+      "name": "Pig Keeper",
+      "aliases": ["Swine herder"],
+      "appearances": [2, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Raises pigs in the city, feeding them on garbage and waste. Part of Ankh-Morpork's primitive waste management system.",
+          "role": "Pig farmer",
+          "relationships": {
+            "Raises": "City pigs",
+            "Feeds them": "Urban waste"
+          }
+        }
+      }
+    },
+    "chicken-seller": {
+      "name": "Chicken Seller",
+      "aliases": ["Poultry vendor"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Sells live and dead chickens from a market stall. Provides one of the more reliable protein sources available to common citizens.",
+          "role": "Poultry vendor",
+          "relationships": {
+            "Sells to": "Market customers",
+            "Competes with": "Other food vendors"
+          }
+        }
+      }
+    },
+    "egg-woman": {
+      "name": "Egg Woman",
+      "aliases": ["Egg seller"],
+      "appearances": [2, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Sells eggs from various birds around the city markets. Her goods vary in freshness and species depending on what she can obtain.",
+          "role": "Egg vendor",
+          "relationships": {
+            "Sells": "Bird eggs",
+            "Works": "City markets"
+          }
+        }
+      }
+    },
+    "milk-maid": {
+      "name": "Milk Maid",
+      "aliases": ["Dairy seller"],
+      "appearances": [2, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Sells milk from urban cows and goats. Her products are of questionable quality but represent one of the few sources of dairy in the city.",
+          "role": "Dairy vendor",
+          "relationships": {
+            "Milks": "Urban livestock",
+            "Sells to": "City residents"
+          }
+        }
+      }
+    },
+    "fruit-seller": {
+      "name": "Fruit Seller",
+      "aliases": ["Produce vendor"],
+      "appearances": [2, 9, 16, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Sells fruits and vegetables in the city markets. Her produce varies from fresh imports to items of dubious origin and condition.",
+          "role": "Produce vendor",
+          "relationships": {
+            "Sells": "Fruits and vegetables",
+            "Competes with": "Other food sellers"
+          }
+        }
+      }
+    },
+    "cloth-merchant": {
+      "name": "Cloth Merchant",
+      "aliases": ["Fabric dealer"],
+      "appearances": [3, 9, 16, 20],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Imports and sells fabrics from various regions. Serves both professional tailors and citizens who do their own sewing.",
+          "role": "Textile trader",
+          "relationships": {
+            "Supplies": "Tailors and seamstresses",
+            "Imports": "Foreign fabrics"
+          }
+        }
+      }
+    },
+    "leather-worker": {
+      "name": "Leather Worker",
+      "aliases": ["Tanner"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Processes animal hides into leather goods. His workshop contributes significantly to the city's distinctive aroma.",
+          "role": "Hide processor",
+          "relationships": {
+            "Processes": "Animal hides",
+            "Supplies": "Leather goods makers"
+          }
+        }
+      }
+    },
+    "rope-maker": {
+      "name": "Rope Maker",
+      "aliases": ["Cordage craftsman"],
+      "appearances": [2, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Manufactures ropes and cords for various uses around the city. His products serve everything from maritime to construction needs.",
+          "role": "Rope manufacturer",
+          "relationships": {
+            "Supplies": "Ships and builders",
+            "Makes": "Various cordage"
+          }
+        }
+      }
+    },
+    "basket-weaver": {
+      "name": "Basket Weaver",
+      "aliases": ["Wicker worker"],
+      "appearances": [2, 9],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Weaves baskets and containers from available plant materials. Her products are essential for carrying goods around the city.",
+          "role": "Container maker",
+          "relationships": {
+            "Supplies": "Market vendors",
+            "Uses": "Plant materials"
+          }
+        }
+      }
+    },
+    "tinker": {
+      "name": "Tinker",
+      "aliases": ["Pot mender"],
+      "appearances": [2, 9, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Repairs pots, pans, and metal household items. Travels through the city offering his services to anyone with broken metalware.",
+          "role": "Metal repair",
+          "relationships": {
+            "Repairs": "Household metals",
+            "Travels": "City neighborhoods"
+          }
+        }
+      }
+    },
+    "fortune-teller-assistant": {
+      "name": "Fortune Teller's Assistant",
+      "aliases": ["Mystic helper"],
+      "appearances": [4, 9, 14],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Assists Mrs. Cake with fortune telling and supernatural consultations. Helps maintain the mystical atmosphere of the operation.",
+          "role": "Mystical assistant",
+          "relationships": {
+            "Assists": "Mrs. Cake",
+            "Helps with": "Fortune telling"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Captain Sam Vimes leads the dysfunctional Night Watch of Ankh-Morpork, consisting of himself, Sergeant Colon, and Corporal Nobbs. The Watch is more concerned with avoiding trouble than preventing crime, while the competent Day Watch handles real police work.",
+    "2": "Life in Ankh-Morpork continues with its usual chaos of street vendors, beggars, and petty criminals. The Patrician Lord Vetinari rules from his palace with his secretary Lupine Wonse, while various citizens go about their daily business in the sprawling, smelly city.",
+    "3": "The Elucidated Brethren of the Ebon Night, a secret society led by the mysterious Supreme Grand Master, meets in secret to plan something involving ancient magic and dragons. The members are mostly ordinary working men seeking purpose and power.",
+    "4": "A young man named Carrot Ironfoundersson arrives in Ankh-Morpork to join the Night Watch. Raised by dwarfs despite being six feet tall, he has an earnest belief in law and order that contrasts sharply with the Watch's cynical approach to policing.",
+    "5": "Carrot begins his training with the Night Watch, approaching his duties with literal-minded enthusiasm that bewilders his colleagues. Meanwhile, the Elucidated Brethren continue their secretive preparations, and Captain Vimes starts to investigate unusual activities in the city.",
+    "6": "Captain Vimes meets Lady Sybil Ramkin, a wealthy aristocrat who breeds swamp dragons as a hobby. Her mansion houses dozens of the small, temperamental creatures, including a particularly sickly dragon named Errol who can barely fly or flame properly.",
+    "7": "The Elucidated Brethren's plans advance as they prepare to summon something powerful. Strange incidents begin occurring around the city, and even Gaspode, a cynical talking dog, senses that something unusual is happening in Ankh-Morpork.",
+    "8": "Captain Vimes's investigation intensifies as he discovers clues about the secret society's activities. Carrot continues to surprise everyone with his earnest approach to police work, while Lady Sybil's knowledge of dragons becomes increasingly relevant to the unfolding mystery.",
+    "9": "The Elucidated Brethren perform their summoning ritual, with Brother Fingers handling the paperwork and the Supreme Grand Master directing the magical ceremony. Strange portents appear throughout the city as their working begins to take effect.",
+    "10": "Signs of magical disturbance become more apparent throughout Ankh-Morpork. The Night Watch finds itself drawn into investigating incidents that seem connected to the secret society's activities, forcing them to take their jobs more seriously than usual.",
+    "11": "A great dragon appears over Ankh-Morpork, summoned by the Elucidated Brethren's ritual. The massive creature begins terrorizing the city, fulfilling the Supreme Grand Master's plan to use fear to gain control over the population and overthrow the Patrician.",
+    "12": "The dragon establishes itself as a threat to the entire city, demanding tribute and terrorizing the population. Lady Sybil's expertise in dragon behavior becomes crucial as the Night Watch tries to understand and counter this supernatural menace.",
+    "13": "The Elucidated Brethren's plan continues as the dragon's reign of terror gives them the crisis they need to seize power. However, controlling a real dragon proves more difficult than they anticipated, and their careful plans begin to unravel.",
+    "14": "Captain Vimes and the Night Watch work with Lady Sybil and other allies to understand the dragon threat and trace its origins back to the secret society. The Patrician and city authorities struggle to maintain order as panic spreads through Ankh-Morpork.",
+    "15": "The investigation reveals more about the Elucidated Brethren's involvement in the dragon summoning. Carrot's natural leadership abilities emerge as he helps coordinate the city's response, while Errol the sickly dragon shows unexpected potential.",
+    "16": "As the crisis deepens, even unlikely allies like Gaspode the dog contribute to efforts to understand and counter the dragon threat. The Night Watch finds itself at the center of events far beyond their usual scope of handling drunks and minor crimes.",
+    "17": "The Supreme Grand Master's identity and ultimate plan become clearer as the dragon continues its rampage. The Elucidated Brethren discover that controlling an ancient magical creature is far more challenging than their leader had promised.",
+    "18": "The truth about the Supreme Grand Master is revealed - he is Lupine Wonse, the Patrician's own secretary, who used his position to orchestrate the entire conspiracy. His plan was to use the dragon crisis to overthrow Vetinari and rule Ankh-Morpork himself.",
+    "19": "With Wonse's treachery exposed, the focus shifts to stopping the dragon that no longer has a master to control it. The creature has become a independent threat that must be dealt with through courage and cleverness rather than magical command.",
+    "20": "The climactic confrontation with the great dragon occurs as Errol, the supposedly weakest of Lady Sybil's swamp dragons, reveals his true nature as a noble dragon capable of challenging the beast. His transformation and heroic battle save the city from destruction.",
+    "21": "The aftermath of the dragon crisis sees the defeat of the great dragon and the collapse of the Elucidated Brethren's conspiracy. Lupine Wonse faces the consequences of his betrayal, while the city begins to recover from the supernatural threat.",
+    "22": "Ankh-Morpork returns to normal, but the Night Watch has been transformed by the crisis. With new recruits like Angua, Cuddy, and Visit joining the force, Captain Vimes leads a more professional and respected organization. The relationship between Vimes and Lady Sybil has also developed into romance."
+  }
+}

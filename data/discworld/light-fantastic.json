@@ -1,0 +1,1682 @@
+{
+  "meta": {
+    "title": "The Light Fantastic",
+    "author": "Terry Pratchett",
+    "chapters": 12,
+    "schemaVersion": "2.0",
+    "asin": "0062225685"
+  },
+  "characters": {
+    "rincewind": {
+      "name": "Rincewind",
+      "aliases": ["The Wizzard", "Spell Bearer"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Carrying one of the Great Spells in his head, preventing him from learning other magic. Falling through space after the events with the tourist.",
+          "role": "Reluctant spell-bearer",
+          "relationships": {
+            "Twoflower": "Falling companion",
+            "Great Spell": "Unwilling host to"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Lands safely and continues his journey. The spell in his head becomes increasingly active as the red star approaches.",
+          "role": "Magical refugee",
+          "relationships": {
+            "Fate": "Pawn of",
+            "The Lady": "Protected by"
+          }
+        },
+        "3": {
+          "revealedIn": 3,
+          "description": "Encounters Cohen the Barbarian and learns more about heroism. Still trying to avoid his destiny with the spell.",
+          "role": "Reluctant adventurer",
+          "relationships": {
+            "Cohen": "Temporary companion of",
+            "Bethan": "Fellow traveler with"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Returns to Unseen University where the spell must be spoken to save the Disc. Finally accepts his role in the cosmic plan.",
+          "role": "The Spell Speaker",
+          "relationships": {
+            "Trymon": "Opponent of",
+            "Other Great Spells": "Speaker for"
+          }
+        }
+      }
+    },
+    "twoflower": {
+      "name": "Twoflower",
+      "aliases": ["Tourist", "The Visitor"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Falling through space with Rincewind, maintains his optimistic tourist attitude even in mortal peril.",
+          "role": "Optimistic tourist",
+          "relationships": {
+            "Rincewind": "Traveling companion",
+            "The Luggage": "Owner of"
+          }
+        },
+        "2": {
+          "revealedIn": 2,
+          "description": "Continues photographing everything with his iconograph, fascinated by the adventure and magical phenomena around them.",
+          "role": "Documenting tourist",
+          "relationships": {
+            "Fate": "Piece in the game of",
+            "The Lady": "Protected by"
+          }
+        }
+      }
+    },
+    "the-luggage": {
+      "name": "The Luggage",
+      "aliases": ["Sapient Pearwood Chest", "The Chest"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Following Twoflower faithfully despite the impossible circumstances of their journey.",
+          "role": "Loyal luggage",
+          "relationships": {
+            "Twoflower": "Devoted to",
+            "Threats": "Eliminates"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Shows increasing intelligence and problem-solving abilities, finding ways to help its owner in difficult situations.",
+          "role": "Problem-solving companion",
+          "relationships": {
+            "Magic": "Immune to certain types",
+            "Enemies": "Devours"
+          }
+        }
+      }
+    },
+    "cohen-the-barbarian": {
+      "name": "Cohen the Barbarian",
+      "aliases": ["Cohen", "The Barbarian", "Old Cohen"],
+      "appearances": [3, 4, 5, 6, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly barbarian hero, still practicing the heroic lifestyle despite his advanced age. Wields a sword and has extensive experience.",
+          "role": "Aging hero",
+          "relationships": {
+            "Bethan": "Rescuer of",
+            "Rincewind": "Temporary ally",
+            "Herrena": "Enemy of"
+          }
+        },
+        "4": {
+          "revealedIn": 4,
+          "description": "Demonstrates that age hasn't diminished his cunning or fighting ability. Shares wisdom about the heroic life with younger companions.",
+          "role": "Veteran warrior",
+          "relationships": {
+            "Bethan": "Growing fond of",
+            "Druid Circle": "Opponent of"
+          }
+        }
+      }
+    },
+    "trymon": {
+      "name": "Trymon",
+      "aliases": ["Assistant Librarian"],
+      "appearances": [8, 9, 10, 11, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard at Unseen University, ambitious and intelligent. Shows interest in the Great Spells and their power.",
+          "role": "Assistant Librarian",
+          "relationships": {
+            "Galder Weatherwax": "Subordinate to",
+            "Great Spells": "Seeker of"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Reveals his true ambitions and begins his attempt to gain control of the Great Spells for himself.",
+          "role": "Power-seeking wizard",
+          "relationships": {
+            "Galder Weatherwax": "Usurper of",
+            "Octavo": "Pursuer of"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Transforms as he gains access to powerful magic, becoming something less than human in his quest for ultimate power.",
+          "role": "Transformed sorcerer",
+          "relationships": {
+            "Things from the Dungeon Dimensions": "Gateway for",
+            "Reality": "Threat to"
+          }
+        }
+      }
+    },
+    "galder-weatherwax": {
+      "name": "Galder Weatherwax",
+      "aliases": ["Supreme Grand Conjurer", "The Archchancellor"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The Archchancellor of Unseen University, a powerful and experienced wizard concerned about the approaching red star.",
+          "role": "University leader",
+          "relationships": {
+            "Trymon": "Mentor to",
+            "Great Spells": "Guardian of",
+            "Other Wizards": "Leader of"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Becomes increasingly worried about the cosmic threat and the need to gather all eight Great Spells together.",
+          "role": "Concerned leader",
+          "relationships": {
+            "Octavo": "Keeper of",
+            "Rincewind": "Searcher for"
+          }
+        }
+      }
+    },
+    "bethan": {
+      "name": "Bethan",
+      "aliases": ["The Sacrifice", "Druid's Daughter"],
+      "appearances": [4, 5, 6, 7, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young woman who was intended as a sacrifice by the druids. Practical and intelligent, adapts quickly to adventure.",
+          "role": "Former sacrifice",
+          "relationships": {
+            "Druids": "Former captive of",
+            "Cohen": "Rescued by"
+          }
+        },
+        "5": {
+          "revealedIn": 5,
+          "description": "Shows remarkable resilience and adaptability. Becomes fond of Cohen despite their age difference.",
+          "role": "Adventuring companion",
+          "relationships": {
+            "Cohen": "Companion to",
+            "Rincewind": "Fellow traveler",
+            "Twoflower": "Friend of"
+          }
+        }
+      }
+    },
+    "death": {
+      "name": "Death",
+      "aliases": ["The Reaper Man", "Mort"],
+      "appearances": [2, 6, 11, 12],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Appears during moments of mortal peril, speaking in CAPITAL LETTERS. Shows interest in the unfolding cosmic events.",
+          "role": "Anthropomorphic personification",
+          "relationships": {
+            "Fate": "Opponent in cosmic games",
+            "The Lady": "Allied with"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Continues to observe the heroes' journey with professional interest, occasionally offering cryptic guidance.",
+          "role": "Cosmic observer",
+          "relationships": {
+            "Binky": "Rider of",
+            "Albert": "Served by"
+          }
+        }
+      }
+    },
+    "fate": {
+      "name": "Fate",
+      "aliases": ["The Player"],
+      "appearances": [2, 6, 11],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An anthropomorphic personification who plays cosmic games with mortal lives as pieces on a board.",
+          "role": "Cosmic game player",
+          "relationships": {
+            "The Lady": "Opponent of",
+            "Death": "Fellow personification"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Continues his cosmic game, using mortals as pieces while competing against The Lady Who Must Not Be Named.",
+          "role": "Divine gamesman",
+          "relationships": {
+            "Rincewind": "Uses as game piece",
+            "Twoflower": "Uses as game piece"
+          }
+        }
+      }
+    },
+    "the-lady": {
+      "name": "The Lady",
+      "aliases": ["The Lady Who Must Not Be Named", "Lady Luck"],
+      "appearances": [2, 6, 11],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An anthropomorphic personification whose name cannot be spoken. Opposes Fate in cosmic games and favors million-to-one chances.",
+          "role": "Luck personification",
+          "relationships": {
+            "Fate": "Eternal opponent",
+            "Underdogs": "Protector of"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Continues to influence events in favor of her chosen pieces, particularly when they face impossible odds.",
+          "role": "Divine protector",
+          "relationships": {
+            "Rincewind": "Protects",
+            "Twoflower": "Protects"
+          }
+        }
+      }
+    },
+    "herrena": {
+      "name": "Herrena",
+      "aliases": ["Henna-Haired Harridan", "The Mercenary"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A professional mercenary and adventurer, leading a group of warriors. Known for her henna-dyed hair and practical approach to violence.",
+          "role": "Mercenary leader",
+          "relationships": {
+            "Gancia": "Commands",
+            "Weems": "Commands",
+            "Cohen": "Rival of"
+          }
+        },
+        "6": {
+          "revealedIn": 6,
+          "description": "Pursues the heroes for the bounty on them, showing considerable skill and determination in tracking and combat.",
+          "role": "Professional hunter",
+          "relationships": {
+            "Rincewind": "Hunter of",
+            "Twoflower": "Hunter of"
+          }
+        }
+      }
+    },
+    "gancia": {
+      "name": "Gancia",
+      "aliases": ["The Henchman"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "One of Herrena's mercenary companions, a skilled fighter who follows her lead in their adventures.",
+          "role": "Mercenary warrior",
+          "relationships": {
+            "Herrena": "Follower of",
+            "Weems": "Comrade of"
+          }
+        }
+      }
+    },
+    "weems": {
+      "name": "Weems",
+      "aliases": ["The Other Henchman"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another of Herrena's mercenary band, reliable and competent in both tracking and fighting.",
+          "role": "Mercenary tracker",
+          "relationships": {
+            "Herrena": "Follower of",
+            "Gancia": "Comrade of"
+          }
+        }
+      }
+    },
+    "the-octavo": {
+      "name": "The Octavo",
+      "aliases": ["Creator's Book", "The Book of Spells"],
+      "appearances": [8, 9, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The most powerful magical book in existence, containing seven of the eight Great Spells. Kept in Unseen University under heavy protection.",
+          "role": "Magical artifact",
+          "relationships": {
+            "Great Spells": "Container of",
+            "Galder Weatherwax": "Guarded by",
+            "Librarian": "Watched by"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Reveals its consciousness and ability to communicate when the cosmic crisis becomes critical.",
+          "role": "Sentient spellbook",
+          "relationships": {
+            "Rincewind": "Chosen speaker",
+            "Reality": "Protector of"
+          }
+        }
+      }
+    },
+    "librarian": {
+      "name": "Librarian",
+      "aliases": ["The Ape", "Ook"],
+      "appearances": [8, 9, 10, 11, 12],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The former human librarian of Unseen University, now permanently transformed into an orangutan but still performing his duties.",
+          "role": "Transformed librarian",
+          "relationships": {
+            "Octavo": "Guardian of",
+            "Magic Books": "Keeper of",
+            "Trymon": "Suspicious of"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Demonstrates fierce loyalty to the university and its magical books, particularly protective of the Octavo.",
+          "role": "Protective keeper",
+          "relationships": {
+            "Galder Weatherwax": "Loyal to",
+            "Magical Knowledge": "Protector of"
+          }
+        }
+      }
+    },
+    "kwartz": {
+      "name": "Kwartz",
+      "aliases": ["The Troll"],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A troll encountered during the heroes' journey, made of living rock with a simple but not unintelligent nature.",
+          "role": "Mountain troll",
+          "relationships": {
+            "Mountains": "Native to",
+            "Travelers": "Occasional threat to"
+          }
+        }
+      }
+    },
+    "star-people": {
+      "name": "Star People",
+      "aliases": ["The Visitors", "Chelonauts"],
+      "appearances": [1, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Mysterious beings from the red star approaching the Disc, with their own agenda regarding the cosmic crisis.",
+          "role": "Alien visitors",
+          "relationships": {
+            "Red Star": "Inhabitants of",
+            "Great A'Tuin": "Interested in"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Reveal more about their nature and purpose as the red star approaches, showing advanced knowledge of cosmic mechanics.",
+          "role": "Cosmic observers",
+          "relationships": {
+            "Disc": "Observers of",
+            "Magic": "Students of"
+          }
+        }
+      }
+    },
+    "things-from-dungeon-dimensions": {
+      "name": "Things from the Dungeon Dimensions",
+      "aliases": ["The Horrors", "Dungeon Dwellers"],
+      "appearances": [11, 12],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Horrible entities from outside reality, seeking to enter the normal world when magical barriers weaken.",
+          "role": "Dimensional horrors",
+          "relationships": {
+            "Trymon": "Use as gateway",
+            "Reality": "Threat to",
+            "Magic": "Weakness in"
+          }
+        }
+      }
+    },
+    "albert": {
+      "name": "Albert",
+      "aliases": ["Death's Servant", "Alberto"],
+      "appearances": [6, 11],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Death's elderly servant, who manages Death's household and prepares his meals despite Death not needing to eat.",
+          "role": "Death's manservant",
+          "relationships": {
+            "Death": "Serves",
+            "Death's Domain": "Caretaker of"
+          }
+        }
+      }
+    },
+    "binky": {
+      "name": "Binky",
+      "aliases": ["Death's Horse"],
+      "appearances": [6, 11, 12],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Death's white horse, able to travel through any medium including air and dimensions at the speed of thought.",
+          "role": "Death's steed",
+          "relationships": {
+            "Death": "Mount of",
+            "Reality": "Transcends"
+          }
+        }
+      }
+    },
+    "druids": {
+      "name": "Druids",
+      "aliases": ["Stone Circle Druids", "The Circle"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A group of druids maintaining ancient stone circles and practicing ritual sacrifice. Worship celestial movements.",
+          "role": "Ancient priests",
+          "relationships": {
+            "Bethan": "Would-be sacrificers of",
+            "Stone Circles": "Maintainers of",
+            "Stars": "Worshippers of"
+          }
+        }
+      }
+    },
+    "chief-druid": {
+      "name": "Chief Druid",
+      "aliases": ["High Priest", "Circle Leader"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The leader of the druid circle, dedicated to ancient practices and convinced of the need for ritual sacrifice.",
+          "role": "Religious leader",
+          "relationships": {
+            "Other Druids": "Leader of",
+            "Ancient Ways": "Keeper of",
+            "Cohen": "Enemy of"
+          }
+        }
+      }
+    },
+    "apprentice-druid": {
+      "name": "Apprentice Druid",
+      "aliases": ["Young Druid"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A younger member of the druid circle, learning the ancient ways but showing some uncertainty about the rituals.",
+          "role": "Religious apprentice",
+          "relationships": {
+            "Chief Druid": "Student of",
+            "Ancient Practices": "Learning"
+          }
+        }
+      }
+    },
+    "ymor": {
+      "name": "Ymor",
+      "aliases": ["Crime Lord"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A powerful crime lord in Ankh-Morpork, mentioned in connection with previous events involving the tourist.",
+          "role": "Criminal leader",
+          "relationships": {
+            "Ankh-Morpork": "Criminal power in",
+            "Underworld": "Leader of"
+          }
+        }
+      }
+    },
+    "bravd": {
+      "name": "Bravd",
+      "aliases": ["The Hublander"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A barbarian warrior mentioned in connection with previous adventures, known for his practical approach to heroism.",
+          "role": "Barbarian hero",
+          "relationships": {
+            "The Weasel": "Partner of",
+            "Twoflower": "Former rescuer of"
+          }
+        }
+      }
+    },
+    "the-weasel": {
+      "name": "The Weasel",
+      "aliases": ["Weasel"],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A thief and adventurer, partner to Bravd the barbarian in previous adventures involving the tourist.",
+          "role": "Professional thief",
+          "relationships": {
+            "Bravd": "Partner of",
+            "Twoflower": "Former rescuer of"
+          }
+        }
+      }
+    },
+    "great-atuin": {
+      "name": "Great A'Tuin",
+      "aliases": ["World Turtle", "The Turtle"],
+      "appearances": [1, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The gigantic turtle that carries the Disc through space, swimming through the cosmos toward an unknown destination.",
+          "role": "World bearer",
+          "relationships": {
+            "Discworld": "Carrier of",
+            "Elephants": "Bearer of",
+            "Red Star": "Swimming toward"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Shows signs of awareness and purpose as the cosmic crisis approaches, suggesting intelligence beyond initial appearances.",
+          "role": "Cosmic entity",
+          "relationships": {
+            "Star People": "Object of interest to",
+            "Fate": "Player in cosmic game"
+          }
+        }
+      }
+    },
+    "berilia": {
+      "name": "Berilia",
+      "aliases": ["The Elephant"],
+      "appearances": [1, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the four elephants that stand on Great A'Tuin's shell and support the Disc, massive and ancient.",
+          "role": "World supporter",
+          "relationships": {
+            "Great A'Tuin": "Stands upon",
+            "Tubul": "Fellow elephant",
+            "Jerakeen": "Fellow elephant",
+            "Great T'Phon": "Fellow elephant"
+          }
+        }
+      }
+    },
+    "tubul": {
+      "name": "Tubul",
+      "aliases": ["The Elephant"],
+      "appearances": [1, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the four elephants supporting the Disc on Great A'Tuin's shell, part of the cosmic structure of the world.",
+          "role": "World supporter",
+          "relationships": {
+            "Great A'Tuin": "Stands upon",
+            "Berilia": "Fellow elephant",
+            "Jerakeen": "Fellow elephant",
+            "Great T'Phon": "Fellow elephant"
+          }
+        }
+      }
+    },
+    "jerakeen": {
+      "name": "Jerakeen",
+      "aliases": ["The Elephant"],
+      "appearances": [1, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the four great elephants that hold up the Disc, standing eternally on the World Turtle's shell.",
+          "role": "World supporter",
+          "relationships": {
+            "Great A'Tuin": "Stands upon",
+            "Berilia": "Fellow elephant",
+            "Tubul": "Fellow elephant",
+            "Great T'Phon": "Fellow elephant"
+          }
+        }
+      }
+    },
+    "great-tphon": {
+      "name": "Great T'Phon",
+      "aliases": ["The Elephant"],
+      "appearances": [1, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The fourth of the elephants supporting the Disc, part of the fundamental structure of the world itself.",
+          "role": "World supporter",
+          "relationships": {
+            "Great A'Tuin": "Stands upon",
+            "Berilia": "Fellow elephant",
+            "Tubul": "Fellow elephant",
+            "Jerakeen": "Fellow elephant"
+          }
+        }
+      }
+    },
+    "jiglad-wosrit": {
+      "name": "Jiglad Wosrit",
+      "aliases": ["Wizard", "University Wizard"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard at Unseen University, one of the faculty members present during the crisis of the red star.",
+          "role": "University wizard",
+          "relationships": {
+            "Unseen University": "Faculty member",
+            "Galder Weatherwax": "Subordinate to"
+          }
+        }
+      }
+    },
+    "spelter": {
+      "name": "Spelter",
+      "aliases": ["University Wizard"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Another wizard at Unseen University, involved in the discussions about the approaching cosmic threat.",
+          "role": "Faculty wizard",
+          "relationships": {
+            "Galder Weatherwax": "Colleague of",
+            "Other Wizards": "Fellow faculty"
+          }
+        }
+      }
+    },
+    "greyhald-spold": {
+      "name": "Greyhald Spold",
+      "aliases": ["University Wizard"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A senior wizard at Unseen University, participating in the urgent meetings about the red star crisis.",
+          "role": "Senior wizard",
+          "relationships": {
+            "Unseen University": "Senior faculty",
+            "Great Spells": "Concerned about"
+          }
+        }
+      }
+    },
+    "rhonal-the-tasty": {
+      "name": "Rhonal the Tasty",
+      "aliases": ["University Wizard"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A wizard at Unseen University with an unusual name, present during the faculty discussions about magical crisis.",
+          "role": "Faculty wizard",
+          "relationships": {
+            "Unseen University": "Faculty member",
+            "Fellow Wizards": "Colleague of"
+          }
+        }
+      }
+    },
+    "janitor": {
+      "name": "Janitor",
+      "aliases": ["University Janitor", "Caretaker"],
+      "appearances": [8, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The maintenance worker at Unseen University, responsible for keeping the magical institution clean and functional.",
+          "role": "University maintenance",
+          "relationships": {
+            "Unseen University": "Caretaker of",
+            "Wizards": "Serves"
+          }
+        }
+      }
+    },
+    "bursar": {
+      "name": "Bursar",
+      "aliases": ["University Bursar", "Treasurer"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The financial administrator of Unseen University, responsible for the institution's monetary affairs.",
+          "role": "University treasurer",
+          "relationships": {
+            "Galder Weatherwax": "Reports to",
+            "University Funds": "Manager of"
+          }
+        }
+      }
+    },
+    "secretary": {
+      "name": "Secretary",
+      "aliases": ["University Secretary"],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Administrative assistant at Unseen University, handling correspondence and scheduling for the faculty.",
+          "role": "Administrative assistant",
+          "relationships": {
+            "Galder Weatherwax": "Assists",
+            "University Business": "Manages"
+          }
+        }
+      }
+    },
+    "first-year-student": {
+      "name": "First Year Student",
+      "aliases": ["New Student", "Apprentice"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A beginning student at Unseen University, still learning basic magical principles and university traditions.",
+          "role": "Magic student",
+          "relationships": {
+            "Unseen University": "Student at",
+            "Senior Wizards": "Taught by"
+          }
+        }
+      }
+    },
+    "second-year-student": {
+      "name": "Second Year Student",
+      "aliases": ["Intermediate Student"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A more experienced student at Unseen University, having survived the dangerous first year of magical education.",
+          "role": "Advanced student",
+          "relationships": {
+            "Unseen University": "Student at",
+            "First Year Students": "Senior to"
+          }
+        }
+      }
+    },
+    "third-year-student": {
+      "name": "Third Year Student",
+      "aliases": ["Senior Student"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A senior student at Unseen University, approaching graduation and advanced magical studies.",
+          "role": "Senior student",
+          "relationships": {
+            "Graduation": "Approaching",
+            "Junior Students": "Mentor to"
+          }
+        }
+      }
+    },
+    "cook": {
+      "name": "Cook",
+      "aliases": ["University Cook", "Kitchen Staff"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The head cook at Unseen University, responsible for feeding the wizards and students despite their unusual dietary requirements.",
+          "role": "University cook",
+          "relationships": {
+            "Kitchen Staff": "Supervisor of",
+            "Wizards": "Feeds"
+          }
+        }
+      }
+    },
+    "kitchen-assistant": {
+      "name": "Kitchen Assistant",
+      "aliases": ["Kitchen Help"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Support staff in the Unseen University kitchen, helping prepare meals for the magical community.",
+          "role": "Kitchen worker",
+          "relationships": {
+            "Cook": "Assists",
+            "University Meals": "Prepares"
+          }
+        }
+      }
+    },
+    "porter": {
+      "name": "Porter",
+      "aliases": ["Doorkeeper", "Gatekeeper"],
+      "appearances": [8, 10, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The gatekeeper of Unseen University, controlling access to the magical institution and its grounds.",
+          "role": "University gatekeeper",
+          "relationships": {
+            "Unseen University": "Guardian of",
+            "Visitors": "Controller of access"
+          }
+        }
+      }
+    },
+    "gardener": {
+      "name": "Gardener",
+      "aliases": ["Groundskeeper"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The person responsible for maintaining the magical gardens and grounds of Unseen University.",
+          "role": "Groundskeeper",
+          "relationships": {
+            "University Grounds": "Maintainer of",
+            "Magical Plants": "Tender of"
+          }
+        }
+      }
+    },
+    "laundry-woman": {
+      "name": "Laundry Woman",
+      "aliases": ["Washerwoman"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Staff member responsible for cleaning the robes and linens of Unseen University, dealing with magical stains.",
+          "role": "University laundress",
+          "relationships": {
+            "Wizard Robes": "Cleaner of",
+            "Magic Stains": "Remover of"
+          }
+        }
+      }
+    },
+    "stable-boy": {
+      "name": "Stable Boy",
+      "aliases": ["Groom"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young worker at a stable encountered during the heroes' travels, responsible for caring for horses and other animals.",
+          "role": "Animal caretaker",
+          "relationships": {
+            "Horses": "Cares for",
+            "Stable Master": "Works under"
+          }
+        }
+      }
+    },
+    "stable-master": {
+      "name": "Stable Master",
+      "aliases": ["Horse Keeper"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The owner or manager of a stable visited by the traveling heroes, experienced with horses and their care.",
+          "role": "Stable owner",
+          "relationships": {
+            "Horses": "Owner of",
+            "Stable Boy": "Employer of",
+            "Travelers": "Serves"
+          }
+        }
+      }
+    },
+    "innkeeper": {
+      "name": "Innkeeper",
+      "aliases": ["Tavern Keeper", "Host"],
+      "appearances": [3, 5, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The proprietor of an inn where the heroes stop during their journey, providing food and lodging to travelers.",
+          "role": "Inn proprietor",
+          "relationships": {
+            "Travelers": "Host to",
+            "Inn Staff": "Employer of"
+          }
+        }
+      }
+    },
+    "barmaid": {
+      "name": "Barmaid",
+      "aliases": ["Serving Girl", "Tavern Maid"],
+      "appearances": [3, 5, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young woman working in the inn, serving drinks and meals to travelers and local patrons.",
+          "role": "Inn servant",
+          "relationships": {
+            "Innkeeper": "Employee of",
+            "Patrons": "Serves"
+          }
+        }
+      }
+    },
+    "blacksmith": {
+      "name": "Blacksmith",
+      "aliases": ["Smith", "Metalworker"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A craftsman working with metal, creating and repairing tools, weapons, and other metal objects for the local community.",
+          "role": "Metal craftsman",
+          "relationships": {
+            "Apprentice": "Teacher to",
+            "Village": "Serves"
+          }
+        }
+      }
+    },
+    "blacksmith-apprentice": {
+      "name": "Blacksmith Apprentice",
+      "aliases": ["Smith's Boy"],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young person learning the trade of metalworking under the blacksmith's guidance.",
+          "role": "Apprentice craftsman",
+          "relationships": {
+            "Blacksmith": "Student of",
+            "Metalworking": "Learning"
+          }
+        }
+      }
+    },
+    "merchant": {
+      "name": "Merchant",
+      "aliases": ["Trader", "Peddler"],
+      "appearances": [3, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A traveling trader encountered on the road, carrying goods to sell in various towns and villages.",
+          "role": "Traveling trader",
+          "relationships": {
+            "Goods": "Seller of",
+            "Trade Routes": "Traveler of"
+          }
+        }
+      }
+    },
+    "merchant-guard": {
+      "name": "Merchant Guard",
+      "aliases": ["Caravan Guard", "Escort"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A hired warrior protecting the merchant and his goods from bandits and other dangers on the road.",
+          "role": "Professional guard",
+          "relationships": {
+            "Merchant": "Protector of",
+            "Bandits": "Defender against"
+          }
+        }
+      }
+    },
+    "farmer": {
+      "name": "Farmer",
+      "aliases": ["Agricultural Worker"],
+      "appearances": [2, 3, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A rural worker tending crops and livestock, living a simple life close to the land.",
+          "role": "Agricultural worker",
+          "relationships": {
+            "Crops": "Grower of",
+            "Livestock": "Keeper of"
+          }
+        }
+      }
+    },
+    "farmers-wife": {
+      "name": "Farmer's Wife",
+      "aliases": ["Farm Woman"],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The spouse of a farmer, sharing in the agricultural work and domestic duties of rural life.",
+          "role": "Farm woman",
+          "relationships": {
+            "Farmer": "Spouse of",
+            "Farm Work": "Participant in"
+          }
+        }
+      }
+    },
+    "shepherd": {
+      "name": "Shepherd",
+      "aliases": ["Herder"],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A person responsible for tending and protecting flocks of sheep in the countryside.",
+          "role": "Animal herder",
+          "relationships": {
+            "Sheep": "Guardian of",
+            "Pastoral Life": "Practitioner of"
+          }
+        }
+      }
+    },
+    "village-elder": {
+      "name": "Village Elder",
+      "aliases": ["Council Member", "Local Leader"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An older, respected member of a rural community, often consulted on important village matters.",
+          "role": "Community leader",
+          "relationships": {
+            "Village": "Leader of",
+            "Villagers": "Advisor to"
+          }
+        }
+      }
+    },
+    "village-woman": {
+      "name": "Village Woman",
+      "aliases": ["Villager"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A local resident of a small rural community, going about her daily life and chores.",
+          "role": "Village resident",
+          "relationships": {
+            "Village": "Resident of",
+            "Community": "Member of"
+          }
+        }
+      }
+    },
+    "village-man": {
+      "name": "Village Man",
+      "aliases": ["Villager"],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A male resident of a rural village, engaged in local work and community activities.",
+          "role": "Village resident",
+          "relationships": {
+            "Village": "Resident of",
+            "Local Work": "Engaged in"
+          }
+        }
+      }
+    },
+    "child": {
+      "name": "Child",
+      "aliases": ["Village Child", "Young One"],
+      "appearances": [2, 4, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young person encountered in the villages visited by the heroes, representing the innocence of rural life.",
+          "role": "Village youth",
+          "relationships": {
+            "Parents": "Child of",
+            "Village": "Young resident of"
+          }
+        }
+      }
+    },
+    "old-woman": {
+      "name": "Old Woman",
+      "aliases": ["Elder Woman", "Crone"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elderly woman in one of the villages, keeper of local wisdom and traditional knowledge.",
+          "role": "Village elder",
+          "relationships": {
+            "Traditional Knowledge": "Keeper of",
+            "Village History": "Rememberer of"
+          }
+        }
+      }
+    },
+    "old-man": {
+      "name": "Old Man",
+      "aliases": ["Elder Man", "Grandfather"],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elderly male villager, often sitting and watching the world go by, full of stories and memories.",
+          "role": "Village elder",
+          "relationships": {
+            "Village Stories": "Teller of",
+            "Past Events": "Witness to"
+          }
+        }
+      }
+    },
+    "priest": {
+      "name": "Priest",
+      "aliases": ["Cleric", "Religious Leader"],
+      "appearances": [4, 6, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A religious leader in one of the communities visited, providing spiritual guidance to local people.",
+          "role": "Religious guide",
+          "relationships": {
+            "Community": "Spiritual leader of",
+            "Faith": "Practitioner of"
+          }
+        }
+      }
+    },
+    "acolyte": {
+      "name": "Acolyte",
+      "aliases": ["Religious Assistant"],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A junior religious figure, assisting the priest in ceremonies and religious duties.",
+          "role": "Religious assistant",
+          "relationships": {
+            "Priest": "Assistant to",
+            "Religious Duties": "Helper in"
+          }
+        }
+      }
+    },
+    "watchman": {
+      "name": "Watchman",
+      "aliases": ["Guard", "Sentry"],
+      "appearances": [5, 8, 10],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A local guard responsible for keeping peace and watching for trouble in his assigned area.",
+          "role": "Local guard",
+          "relationships": {
+            "Community": "Protector of",
+            "Law": "Enforcer of"
+          }
+        }
+      }
+    },
+    "captain-of-guards": {
+      "name": "Captain of Guards",
+      "aliases": ["Guard Captain", "Security Chief"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The leader of the local guard force, responsible for organizing security and defense of the area.",
+          "role": "Security leader",
+          "relationships": {
+            "Guards": "Commander of",
+            "Local Authorities": "Reports to"
+          }
+        }
+      }
+    },
+    "soldier": {
+      "name": "Soldier",
+      "aliases": ["Warrior", "Military Man"],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A professional fighter in service to local authorities, trained in weapons and combat tactics.",
+          "role": "Professional warrior",
+          "relationships": {
+            "Military": "Member of",
+            "Officers": "Serves under"
+          }
+        }
+      }
+    },
+    "sergeant": {
+      "name": "Sergeant",
+      "aliases": ["Military Leader"],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A non-commissioned military officer, leading small groups of soldiers and maintaining discipline.",
+          "role": "Military supervisor",
+          "relationships": {
+            "Soldiers": "Leader of",
+            "Officers": "Reports to"
+          }
+        }
+      }
+    },
+    "bandit-leader": {
+      "name": "Bandit Leader",
+      "aliases": ["Outlaw Chief", "Brigand Captain"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The chief of a group of highway robbers, organizing attacks on travelers and merchants.",
+          "role": "Criminal leader",
+          "relationships": {
+            "Bandits": "Leader of",
+            "Travelers": "Threatener of"
+          }
+        }
+      }
+    },
+    "bandit": {
+      "name": "Bandit",
+      "aliases": ["Highway Robber", "Outlaw"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A member of an outlaw band that preys on travelers, living by robbery and violence.",
+          "role": "Highway robber",
+          "relationships": {
+            "Bandit Leader": "Follower of",
+            "Travelers": "Robber of"
+          }
+        }
+      }
+    },
+    "thief": {
+      "name": "Thief",
+      "aliases": ["Pickpocket", "Cutpurse"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A criminal who steals from others, often using stealth and cunning rather than open violence.",
+          "role": "Professional thief",
+          "relationships": {
+            "Victims": "Stealer from",
+            "Criminal Underworld": "Member of"
+          }
+        }
+      }
+    },
+    "beggar": {
+      "name": "Beggar",
+      "aliases": ["Mendicant", "Street Person"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A poor person who survives by asking for charity from more fortunate individuals.",
+          "role": "Street beggar",
+          "relationships": {
+            "Charity": "Dependent on",
+            "Streets": "Dweller of"
+          }
+        }
+      }
+    },
+    "street-performer": {
+      "name": "Street Performer",
+      "aliases": ["Entertainer", "Busker"],
+      "appearances": [3, 8],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An entertainer who performs in public places for donations, providing music, juggling, or other acts.",
+          "role": "Public entertainer",
+          "relationships": {
+            "Audience": "Entertainer of",
+            "Streets": "Performer on"
+          }
+        }
+      }
+    },
+    "fortune-teller": {
+      "name": "Fortune Teller",
+      "aliases": ["Seer", "Prophet"],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A person who claims to predict the future or reveal hidden knowledge, often for payment.",
+          "role": "Mystic advisor",
+          "relationships": {
+            "Future": "Predictor of",
+            "Clients": "Advisor to"
+          }
+        }
+      }
+    },
+    "astrologer": {
+      "name": "Astrologer",
+      "aliases": ["Star Reader", "Celestial Interpreter"],
+      "appearances": [1, 5, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A scholar who studies the movements and influences of celestial bodies, particularly concerned with the red star.",
+          "role": "Celestial scholar",
+          "relationships": {
+            "Stars": "Student of",
+            "Red Star": "Observer of",
+            "Cosmic Events": "Interpreter of"
+          }
+        },
+        "11": {
+          "revealedIn": 11,
+          "description": "Becomes increasingly important as the red star approaches, their knowledge of celestial mechanics proving crucial.",
+          "role": "Cosmic advisor",
+          "relationships": {
+            "Great A'Tuin": "Observer of",
+            "Star People": "Interpreter for"
+          }
+        }
+      }
+    },
+    "philosopher": {
+      "name": "Philosopher",
+      "aliases": ["Thinker", "Sage"],
+      "appearances": [1, 8, 11],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A learned person who contemplates the nature of reality and existence, particularly relevant during cosmic crises.",
+          "role": "Deep thinker",
+          "relationships": {
+            "Reality": "Contemplator of",
+            "Knowledge": "Seeker of"
+          }
+        }
+      }
+    },
+    "alchemist": {
+      "name": "Alchemist",
+      "aliases": ["Chemical Experimenter", "Researcher"],
+      "appearances": [8, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A practitioner of alchemy, studying the transformation of matter and the nature of magical substances.",
+          "role": "Chemical researcher",
+          "relationships": {
+            "Experiments": "Conductor of",
+            "Magical Elements": "Student of"
+          }
+        }
+      }
+    },
+    "scribe": {
+      "name": "Scribe",
+      "aliases": ["Writer", "Record Keeper"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A person who writes and keeps records, particularly important for documenting the current magical crisis.",
+          "role": "Record keeper",
+          "relationships": {
+            "Written Records": "Keeper of",
+            "Historical Events": "Documenter of"
+          }
+        }
+      }
+    },
+    "messenger": {
+      "name": "Messenger",
+      "aliases": ["Courier", "Herald"],
+      "appearances": [8, 9, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A person responsible for carrying important messages between different locations during the crisis.",
+          "role": "Message carrier",
+          "relationships": {
+            "Important News": "Carrier of",
+            "Authorities": "Serves"
+          }
+        }
+      }
+    },
+    "herald": {
+      "name": "Herald",
+      "aliases": ["Announcer", "Proclaimer"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An official announcer responsible for making public proclamations about important events.",
+          "role": "Public announcer",
+          "relationships": {
+            "Public": "Announcer to",
+            "Official News": "Proclaimer of"
+          }
+        }
+      }
+    },
+    "town-crier": {
+      "name": "Town Crier",
+      "aliases": ["Public Announcer"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A person who walks through settlements calling out news and announcements to the public.",
+          "role": "News announcer",
+          "relationships": {
+            "Public News": "Announcer of",
+            "Town Square": "Voice in"
+          }
+        }
+      }
+    },
+    "scholar": {
+      "name": "Scholar",
+      "aliases": ["Academic", "Learned Person"],
+      "appearances": [8, 11],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An educated person dedicated to learning and research, particularly valuable during the current crisis.",
+          "role": "Academic researcher",
+          "relationships": {
+            "Knowledge": "Seeker of",
+            "Research": "Conductor of"
+          }
+        }
+      }
+    },
+    "great-spell-one": {
+      "name": "Great Spell One",
+      "aliases": ["First Spell"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "One of the eight Great Spells that created the Disc, possessing its own consciousness and will.",
+          "role": "Creative spell",
+          "relationships": {
+            "Other Great Spells": "Sibling to",
+            "Octavo": "Contained in",
+            "Reality": "Creator of"
+          }
+        }
+      }
+    },
+    "great-spell-two": {
+      "name": "Great Spell Two",
+      "aliases": ["Second Spell"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The second of the eight Great Spells, with its own personality and role in cosmic creation.",
+          "role": "Creative spell",
+          "relationships": {
+            "Other Great Spells": "Sibling to",
+            "Octavo": "Contained in"
+          }
+        }
+      }
+    },
+    "great-spell-three": {
+      "name": "Great Spell Three",
+      "aliases": ["Third Spell"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The third Great Spell involved in the creation of the Disc, possessing individual consciousness.",
+          "role": "Creative spell",
+          "relationships": {
+            "Other Great Spells": "Sibling to",
+            "Octavo": "Contained in"
+          }
+        }
+      }
+    },
+    "great-spell-four": {
+      "name": "Great Spell Four",
+      "aliases": ["Fourth Spell"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The fourth of the eight Great Spells that shaped reality, having its own will and purpose.",
+          "role": "Creative spell",
+          "relationships": {
+            "Other Great Spells": "Sibling to",
+            "Octavo": "Contained in"
+          }
+        }
+      }
+    },
+    "great-spell-five": {
+      "name": "Great Spell Five",
+      "aliases": ["Fifth Spell"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The fifth Great Spell, part of the cosmic magic that brought the Disc into existence.",
+          "role": "Creative spell",
+          "relationships": {
+            "Other Great Spells": "Sibling to",
+            "Octavo": "Contained in"
+          }
+        }
+      }
+    },
+    "great-spell-six": {
+      "name": "Great Spell Six",
+      "aliases": ["Sixth Spell"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The sixth of the Great Spells, possessing consciousness and a role in maintaining reality.",
+          "role": "Creative spell",
+          "relationships": {
+            "Other Great Spells": "Sibling to",
+            "Octavo": "Contained in"
+          }
+        }
+      }
+    },
+    "great-spell-seven": {
+      "name": "Great Spell Seven",
+      "aliases": ["Seventh Spell"],
+      "appearances": [10, 11, 12],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "The seventh Great Spell, one of the cosmic forces involved in the creation and maintenance of the Disc.",
+          "role": "Creative spell",
+          "relationships": {
+            "Other Great Spells": "Sibling to",
+            "Octavo": "Contained in"
+          }
+        }
+      }
+    },
+    "great-spell-eight": {
+      "name": "Great Spell Eight",
+      "aliases": ["Eighth Spell", "The Spell in Rincewind's Head"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The eighth Great Spell, lodged in Rincewind's mind and preventing him from learning other magic.",
+          "role": "Cosmic spell",
+          "relationships": {
+            "Rincewind": "Inhabits mind of",
+            "Other Great Spells": "Separated from"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Reveals its purpose and importance as the cosmic crisis reaches its peak, demanding to be reunited with its siblings.",
+          "role": "Reality protector",
+          "relationships": {
+            "Other Great Spells": "Seeks reunion with",
+            "Cosmic Crisis": "Solution to"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "Rincewind and Twoflower fall through space after their encounter with Fate and The Lady, while the red star approaches the Disc. The eighth Great Spell in Rincewind's head becomes increasingly restless as cosmic forces gather.",
+    "2": "The heroes land safely and begin their journey across the Disc. They encounter various dangers while the red star grows brighter in the sky, causing magical disturbances across the land.",
+    "3": "Rincewind and Twoflower meet Cohen the Barbarian, an elderly but still formidable warrior. Together they face bandits and other perils while the cosmic crisis continues to build.",
+    "4": "The group encounters druids preparing for ritual sacrifice and rescues Bethan from becoming their victim. Cohen demonstrates his heroic skills despite his advanced age, while the red star's approach affects magic worldwide.",
+    "5": "Pursued by Herrena and her mercenary band, the heroes continue their journey. The magical disruptions caused by the approaching red star become more severe and widespread.",
+    "6": "Death and other anthropomorphic personifications observe the unfolding crisis. The heroes face various challenges while the fabric of reality itself begins to show strain from the cosmic approach.",
+    "7": "The group encounters trolls and other magical creatures affected by the cosmic disturbances. The red star's influence grows stronger, causing increasing chaos in the magical world.",
+    "8": "At Unseen University, the wizards become aware of the approaching crisis. Galder Weatherwax and his colleagues, including Trymon, discuss the need to gather all eight Great Spells to save the Disc.",
+    "9": "Trymon reveals his ambition to control the Great Spells for himself. The crisis at the university intensifies as the red star's approach threatens the very structure of reality.",
+    "10": "Rincewind arrives at Unseen University where the Octavo reveals its consciousness. The Great Spells demand to be spoken together to prevent cosmic disaster, but Trymon seeks to control them.",
+    "11": "Trymon's attempt to control the Great Spells goes wrong, opening doorways to the Dungeon Dimensions. The Things from outside reality attempt to enter the world as the cosmic crisis reaches its peak.",
+    "12": "The eight Great Spells are finally spoken together, saving the Disc from destruction. The red star reveals its true nature and purpose, and cosmic balance is restored through the heroic actions of the unlikely adventurers."
+  }
+}
