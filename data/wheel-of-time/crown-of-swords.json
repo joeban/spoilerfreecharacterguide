@@ -1,0 +1,1601 @@
+{
+  "meta": {
+    "title": "A Crown of Swords",
+    "author": "Robert Jordan",
+    "chapters": 42,
+    "schemaVersion": "2.0",
+    "asin": "0812550285"
+  },
+  "characters": {
+    "rand-althor": {
+      "name": "Rand al'Thor",
+      "aliases": ["The Dragon Reborn", "Lord Dragon", "Car'a'carn", "He Who Comes With the Dawn"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 18, 19, 20, 21, 32, 33, 34, 35, 36, 37, 40, 41],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Dragon Reborn, attempting to consolidate his rule over Cairhien while planning his next moves against the remaining Forsaken.",
+          "role": "The Dragon Reborn",
+          "relationships": {
+            "Min Farshaw": "Lover and companion",
+            "Aviendha": "First-sister through Elayne, complicated feelings",
+            "Elayne Trakand": "Beloved, bonded through Aviendha",
+            "Mazrim Taim": "Leader of his Asha'man",
+            "Davram Bashere": "Trusted general and advisor"
+          }
+        }
+      }
+    },
+    "mat-cauthon": {
+      "name": "Mat Cauthon",
+      "aliases": ["Matrim Cauthon", "Prince of the Ravens"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 38, 39],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Ta'veren and friend to Rand, reluctantly drawn into adventures while trying to avoid Aes Sedai. In Ebou Dar helping search for the Bowl of the Winds.",
+          "role": "Ta'veren, reluctant hero",
+          "relationships": {
+            "Nynaeve al'Meara": "Reluctant ally, finds her irritating",
+            "Elayne Trakand": "Ally in their mission",
+            "Tylin Quintara": "The Queen of Altara, complicated relationship",
+            "Oliver": "Young ward under his care"
+          }
+        }
+      }
+    },
+    "perrin-aybara": {
+      "name": "Perrin Aybara",
+      "aliases": ["Perrin Goldeneyes", "Young Bull", "Lord Perrin"],
+      "appearances": [8, 26, 27],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Ta'veren with the ability to speak with wolves. Searching for Masema the Prophet on Rand's orders, accompanied by Aes Sedai.",
+          "role": "Ta'veren, Rand's friend",
+          "relationships": {
+            "Faile Bashere": "Wife, left behind for this dangerous mission",
+            "Loial": "Ogier friend and companion",
+            "Aram": "Former Tinker, now his devoted follower"
+          }
+        }
+      }
+    },
+    "egwene-alvere": {
+      "name": "Egwene al'Vere",
+      "aliases": ["Mother", "The Amyrlin Seat"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "The young Amyrlin Seat of the rebel Aes Sedai, working to unite the scattered Sisters and plan their assault on the White Tower.",
+          "role": "Amyrlin Seat of the Rebel Aes Sedai",
+          "relationships": {
+            "Siuan Sanche": "Former Amyrlin, now her advisor and teacher",
+            "Leane Sharif": "Her Keeper of the Chronicles",
+            "Romanda Cassin": "Powerful Yellow Sitter, often opposes her",
+            "Lelaine Akashi": "Powerful Blue Sitter, political rival"
+          }
+        }
+      }
+    },
+    "nynaeve-almeara": {
+      "name": "Nynaeve al'Meara",
+      "aliases": ["Nynaeve Sedai"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 38, 39],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Aes Sedai of the Yellow Ajah with exceptional Healing abilities. In Ebou Dar searching for the Bowl of the Winds with Elayne and Mat.",
+          "role": "Aes Sedai of the Yellow Ajah",
+          "relationships": {
+            "Lan Mandragoran": "Warder and husband",
+            "Elayne Trakand": "Close friend and ally",
+            "Mat Cauthon": "Reluctant ally from the Two Rivers",
+            "Birgitte Silverbow": "Elayne's Warder, grudging respect"
+          }
+        }
+      }
+    },
+    "elayne-trakand": {
+      "name": "Elayne Trakand",
+      "aliases": ["Elayne Sedai"],
+      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 38, 39],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Daughter-Heir of Andor and Aes Sedai of the Green Ajah. Searching for the Bowl of the Winds in Ebou Dar while managing complex political situations.",
+          "role": "Daughter-Heir of Andor, Aes Sedai",
+          "relationships": {
+            "Rand al'Thor": "Beloved, bonded through Aviendha",
+            "Nynaeve al'Meara": "Close friend and ally",
+            "Birgitte Silverbow": "Warder and close friend",
+            "Aviendha": "First-sister, sharing bond with Rand"
+          }
+        }
+      }
+    },
+    "aviendha": {
+      "name": "Aviendha",
+      "aliases": ["Wise One apprentice"],
+      "appearances": [1, 2, 3, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Aiel Wise One apprentice with strong channeling abilities. First-sister to Elayne and connected to Rand through their shared bond.",
+          "role": "Aiel Wise One apprentice",
+          "relationships": {
+            "Rand al'Thor": "Complex relationship, bonded through Elayne",
+            "Elayne Trakand": "First-sister, sharing bond with Rand",
+            "Amys": "Wise One teacher",
+            "Bair": "Wise One teacher"
+          }
+        }
+      }
+    },
+    "min-farshaw": {
+      "name": "Min Farshaw",
+      "aliases": ["Seeker"],
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 18, 19, 20, 21, 32, 33, 34, 35, 36, 37],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Young woman with the ability to see images around people that foretell their futures. Stays close to Rand as his lover and advisor.",
+          "role": "Seer, Rand's companion",
+          "relationships": {
+            "Rand al'Thor": "Lover and constant companion",
+            "Cadsuane Melaidhrin": "Legendary Aes Sedai she encounters"
+          }
+        }
+      }
+    },
+    "cadsuane-melaidhrin": {
+      "name": "Cadsuane Melaidhrin",
+      "aliases": ["Cadsuane Sedai"],
+      "appearances": [18, 19, 20, 35, 36, 37],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "Legendary Aes Sedai of the Green Ajah, oldest living Sister. Known for her strength and her unusual ornaments. Seeks to find and aid the Dragon Reborn.",
+          "role": "Aes Sedai of the Green Ajah",
+          "relationships": {
+            "Rand al'Thor": "Seeks to guide and teach him",
+            "Min Farshaw": "Encounters during her arrival"
+          }
+        }
+      }
+    },
+    "sammael": {
+      "name": "Sammael",
+      "aliases": ["Lord Brend"],
+      "appearances": [32, 33, 34, 40, 41],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "One of the Forsaken, ruling Illian as Lord Brend. Commands significant forces and schemes against Rand al'Thor and the other Forsaken.",
+          "role": "Forsaken, ruler of Illian",
+          "relationships": {
+            "Rand al'Thor": "Sworn enemy, target of his hatred",
+            "Graendal": "Fellow Forsaken, occasional ally"
+          }
+        }
+      }
+    },
+    "graendal": {
+      "name": "Graendal",
+      "aliases": [],
+      "appearances": [1, 34],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the Forsaken, known for her beauty and her collection of pets. Schemes and manipulates from her palace, playing complex games.",
+          "role": "Forsaken",
+          "relationships": {
+            "Sammael": "Fellow Forsaken, occasional ally",
+            "Aran'gar": "Fellow Forsaken"
+          }
+        }
+      }
+    },
+    "moghedien": {
+      "name": "Moghedien",
+      "aliases": ["Spider"],
+      "appearances": [30, 31],
+      "knowledge": {
+        "30": {
+          "revealedIn": 30,
+          "description": "One of the Forsaken, known as the Spider for her preference for hidden schemes and traps. Currently bound and controlled.",
+          "role": "Forsaken, bound servant",
+          "relationships": {
+            "Moridin": "Fellow Forsaken who controls her"
+          }
+        }
+      }
+    },
+    "moridin": {
+      "name": "Moridin",
+      "aliases": [],
+      "appearances": [1, 20, 25, 30],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the most powerful Forsaken, recently returned. Commands other Forsaken and orchestrates complex schemes against the Light.",
+          "role": "Forsaken, Nae'blis",
+          "relationships": {
+            "Moghedien": "Controls her through binding",
+            "Cyndane": "Fellow Forsaken under his command"
+          }
+        }
+      }
+    },
+    "tylin-quintara": {
+      "name": "Tylin Quintara",
+      "aliases": ["Queen of Altara"],
+      "appearances": [12, 13, 14, 15, 16, 17, 28, 29, 38, 39],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Queen of Altara, rules from the Tarasin Palace in Ebou Dar. Known for her strong will and direct manner. Takes an interest in Mat Cauthon.",
+          "role": "Queen of Altara",
+          "relationships": {
+            "Mat Cauthon": "Takes a particular interest in him",
+            "Beslan": "Her son and heir"
+          }
+        }
+      }
+    },
+    "beslan": {
+      "name": "Beslan",
+      "aliases": [],
+      "appearances": [12, 15, 28],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Son of Queen Tylin and heir to the throne of Altara. A skilled swordsman who befriends Mat and enjoys the excitement of their adventures.",
+          "role": "Prince of Altara",
+          "relationships": {
+            "Tylin Quintara": "Mother and Queen",
+            "Mat Cauthon": "Friend and sparring partner"
+          }
+        }
+      }
+    },
+    "reanne-corly": {
+      "name": "Reanne Corly",
+      "aliases": ["Eldest of the Kin"],
+      "appearances": [14, 15, 16, 30, 31],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "Eldest of the Kin, a secret organization of women who failed to become Aes Sedai but can still channel. Maintains the Kin's strict hierarchy and secrecy.",
+          "role": "Eldest of the Kin",
+          "relationships": {
+            "Nynaeve al'Meara": "Initially suspicious, then cooperative",
+            "Elayne Trakand": "Wary but willing to help"
+          }
+        }
+      }
+    },
+    "sumeko-karistovan": {
+      "name": "Sumeko Karistovan",
+      "aliases": [],
+      "appearances": [15, 16, 30, 31],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "One of the Kin, a skilled Healer who works as a midwife in Ebou Dar. Strong in the One Power but bound by the Kin's rules about secrecy.",
+          "role": "Member of the Kin, midwife",
+          "relationships": {
+            "Reanne Corly": "Follows as Eldest",
+            "Nynaeve al'Meara": "Learns Healing techniques from her"
+          }
+        }
+      }
+    },
+    "kirstian-chalwin": {
+      "name": "Kirstian Chalwin",
+      "aliases": [],
+      "appearances": [15, 16, 30],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "One of the Kin, a woman who failed to become Aes Sedai but retained her ability to channel. Follows the Kin's strict rules about hiding their abilities.",
+          "role": "Member of the Kin",
+          "relationships": {
+            "Reanne Corly": "Respects as Eldest",
+            "Garenia Rosoinde": "Fellow Kin member"
+          }
+        }
+      }
+    },
+    "garenia-rosoinde": {
+      "name": "Garenia Rosoinde",
+      "aliases": [],
+      "appearances": [15, 16, 30, 31],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "One of the Kin living in Ebou Dar, bound by their rules of secrecy. Has lived much longer than her apparent age due to channeling.",
+          "role": "Member of the Kin",
+          "relationships": {
+            "Reanne Corly": "Defers to as Eldest",
+            "Kirstian Chalwin": "Fellow Kin member"
+          }
+        }
+      }
+    },
+    "birgitte-silverbow": {
+      "name": "Birgitte Silverbow",
+      "aliases": ["Birgitte"],
+      "appearances": [9, 10, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 38, 39],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Legendary archer ripped from Tel'aran'rhiod into the real world. Now serves as Elayne's Warder and closest companion, adapting to life in the flesh.",
+          "role": "Warder to Elayne",
+          "relationships": {
+            "Elayne Trakand": "Warder and best friend",
+            "Mat Cauthon": "Ally and occasional drinking companion",
+            "Nynaeve al'Meara": "Ally, sometimes prickly relationship"
+          }
+        }
+      }
+    },
+    "thom-merrilin": {
+      "name": "Thom Merrilin",
+      "aliases": ["Thom", "Court-bard"],
+      "appearances": [9, 13, 16, 28, 29, 38],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Court-bard and gleeman with a mysterious past. Accompanies the group in Ebou Dar, providing valuable knowledge and skills while hiding his own agenda.",
+          "role": "Court-bard and gleeman",
+          "relationships": {
+            "Mat Cauthon": "Companion and ally",
+            "Elayne Trakand": "Protector and guide",
+            "Juilin Sandar": "Fellow companion"
+          }
+        }
+      }
+    },
+    "juilin-sandar": {
+      "name": "Juilin Sandar",
+      "aliases": ["Juilin"],
+      "appearances": [9, 13, 16, 28, 29, 38],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Thief-catcher from Tear, skilled at finding people and things. Accompanies the group in Ebou Dar, using his professional skills to aid their search.",
+          "role": "Thief-catcher",
+          "relationships": {
+            "Thom Merrilin": "Companion and fellow professional",
+            "Mat Cauthon": "Ally in their mission",
+            "Amathera": "Former Panarch of Tarabon, complicated relationship"
+          }
+        }
+      }
+    },
+    "oliver": {
+      "name": "Oliver",
+      "aliases": ["Ollie"],
+      "appearances": [9, 10, 13, 16, 28, 29, 38, 39],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Young boy under Mat's care, orphaned and street-smart. Follows Mat around Ebou Dar, getting into mischief and learning city ways.",
+          "role": "Ward of Mat Cauthon",
+          "relationships": {
+            "Mat Cauthon": "Guardian and reluctant father figure",
+            "Tylin Quintara": "The Queen who tolerates his presence"
+          }
+        }
+      }
+    },
+    "lan-mandragoran": {
+      "name": "Lan Mandragoran",
+      "aliases": ["Al'Lan Mandragoran", "Bukama", "Lan"],
+      "appearances": [22, 23, 39],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Warder to Nynaeve and last crowned King of Malkier. A master warrior bound by duty and honor, now married to Nynaeve al'Meara.",
+          "role": "Warder, King of Malkier",
+          "relationships": {
+            "Nynaeve al'Meara": "Aes Sedai and wife",
+            "Moiraine Damodred": "Former Aes Sedai (presumed dead)"
+          }
+        }
+      }
+    },
+    "davram-bashere": {
+      "name": "Davram Bashere",
+      "aliases": ["Marshal-General Bashere"],
+      "appearances": [2, 3, 6, 7, 18, 19, 20],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Marshal-General of Saldaea and one of the Great Captains. Leads the Saldaean cavalry in service to Rand, bringing military expertise and loyalty.",
+          "role": "Marshal-General of Saldaea",
+          "relationships": {
+            "Rand al'Thor": "Loyal general and advisor",
+            "Faile Bashere": "Daughter",
+            "Deira Bashere": "Wife"
+          }
+        }
+      }
+    },
+    "mazrim-taim": {
+      "name": "Mazrim Taim",
+      "aliases": ["M'Hael", "The False Dragon"],
+      "appearances": [3, 4, 5, 19],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Former False Dragon, now leader of the Black Tower and trainer of Asha'man. Serves Rand but maintains his own agenda and authority over male channelers.",
+          "role": "M'Hael of the Black Tower",
+          "relationships": {
+            "Rand al'Thor": "Serves as leader of his Asha'man",
+            "Logain Ablar": "Rival for influence among Asha'man"
+          }
+        }
+      }
+    },
+    "logain-ablar": {
+      "name": "Logain Ablar",
+      "aliases": ["Lord Logain"],
+      "appearances": [4, 5, 19],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Former False Dragon, now an Asha'man serving under Rand. Maintains his dignity and some independence despite his defeat and current position.",
+          "role": "Asha'man",
+          "relationships": {
+            "Rand al'Thor": "Serves reluctantly",
+            "Mazrim Taim": "Rival and fellow former False Dragon"
+          }
+        }
+      }
+    },
+    "siuan-sanche": {
+      "name": "Siuan Sanche",
+      "aliases": ["Siuan Sedai"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Former Amyrlin Seat, now advisor to Egwene. Stilled and Healed, much reduced in strength but retaining her political acumen and determination.",
+          "role": "Advisor to the Amyrlin",
+          "relationships": {
+            "Egwene al'Vere": "Advisor and teacher",
+            "Leane Sharif": "Former Keeper, fellow exile",
+            "Gareth Bryne": "General she is bonded to as Warder"
+          }
+        }
+      }
+    },
+    "leane-sharif": {
+      "name": "Leane Sharif",
+      "aliases": ["Leane Sedai"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Former Keeper of the Chronicles, now Egwene's Keeper among the rebel Aes Sedai. Stilled and Healed, changed in personality but still loyal.",
+          "role": "Keeper of the Chronicles",
+          "relationships": {
+            "Egwene al'Vere": "Serves as Keeper",
+            "Siuan Sanche": "Former Amyrlin, fellow exile"
+          }
+        }
+      }
+    },
+    "gareth-bryne": {
+      "name": "Gareth Bryne",
+      "aliases": ["Lord Captain Commander Bryne"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "One of the Great Captains, formerly Captain-General of Andor. Now leads the rebel army and is bonded as Warder to Siuan Sanche.",
+          "role": "General of rebel army",
+          "relationships": {
+            "Siuan Sanche": "Bonded to as Warder",
+            "Egwene al'Vere": "Serves as her general"
+          }
+        }
+      }
+    },
+    "romanda-cassin": {
+      "name": "Romanda Cassin",
+      "aliases": ["Romanda Sedai"],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Yellow Ajah and Sitter in the rebel Hall. A powerful and ambitious woman who often opposes Egwene's authority.",
+          "role": "Sitter for the Yellow Ajah",
+          "relationships": {
+            "Egwene al'Vere": "Political opponent in the Hall",
+            "Lelaine Akashi": "Rival for influence"
+          }
+        }
+      }
+    },
+    "lelaine-akashi": {
+      "name": "Lelaine Akashi",
+      "aliases": ["Lelaine Sedai"],
+      "appearances": [22, 23, 24, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Blue Ajah and Sitter in the rebel Hall. Ambitious and politically savvy, often challenges Egwene's decisions.",
+          "role": "Sitter for the Blue Ajah",
+          "relationships": {
+            "Egwene al'Vere": "Political rival and occasional ally",
+            "Romanda Cassin": "Fellow Sitter, sometimes opposed"
+          }
+        }
+      }
+    },
+    "sheriam-bayanar": {
+      "name": "Sheriam Bayanar",
+      "aliases": ["Sheriam Sedai"],
+      "appearances": [22, 23, 25],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Blue Ajah and former Mistress of Novices. Now serves among the rebel Aes Sedai, maintaining her role as teacher and guide.",
+          "role": "Aes Sedai of the Blue Ajah",
+          "relationships": {
+            "Egwene al'Vere": "Former teacher, now serves her cause",
+            "Anaiya": "Fellow Blue Sister"
+          }
+        }
+      }
+    },
+    "anaiya": {
+      "name": "Anaiya",
+      "aliases": ["Anaiya Sedai"],
+      "appearances": [22, 23],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Blue Ajah among the rebels. A motherly figure who provides support and wisdom to the younger Sisters.",
+          "role": "Aes Sedai of the Blue Ajah",
+          "relationships": {
+            "Sheriam Bayanar": "Fellow Blue Sister",
+            "Egwene al'Vere": "Supportive of her leadership"
+          }
+        }
+      }
+    },
+    "masema-dagar": {
+      "name": "Masema Dagar",
+      "aliases": ["The Prophet of the Lord Dragon"],
+      "appearances": [8, 26, 27],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Former Shienaran soldier who has become a fanatical prophet, preaching worship of the Dragon Reborn. His followers cause chaos across the land.",
+          "role": "The Prophet of the Lord Dragon",
+          "relationships": {
+            "Rand al'Thor": "Worships as the Dragon Reborn",
+            "Perrin Aybara": "Sent to bring him to Rand"
+          }
+        }
+      }
+    },
+    "loial": {
+      "name": "Loial",
+      "aliases": ["Loial son of Arent son of Halan"],
+      "appearances": [8, 26, 27],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Ogier from Stedding Shangtai, friend to Rand and his companions. Accompanies Perrin on his mission while continuing to write his book about their adventures.",
+          "role": "Ogier, writer",
+          "relationships": {
+            "Perrin Aybara": "Close friend and companion",
+            "Aram": "Fellow traveler with Perrin"
+          }
+        }
+      }
+    },
+    "aram": {
+      "name": "Aram",
+      "aliases": ["The Tinker"],
+      "appearances": [8, 26, 27],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Former Tinker who abandoned the Way of the Leaf to follow Perrin and learn the sword. Devoted to Perrin but struggles with his violent new path.",
+          "role": "Warrior, former Tinker",
+          "relationships": {
+            "Perrin Aybara": "Devoted follower and protector",
+            "Loial": "Traveling companion"
+          }
+        }
+      }
+    },
+    "alliandre-kigarin": {
+      "name": "Alliandre Maritha Kigarin",
+      "aliases": ["Queen Alliandre"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Queen of Ghealdan, struggling to maintain control of her kingdom in the face of the Prophet's influence and various threats to her rule.",
+          "role": "Queen of Ghealdan",
+          "relationships": {
+            "Masema Dagar": "Threatened by his presence in her kingdom",
+            "Perrin Aybara": "Encounters during his mission"
+          }
+        }
+      }
+    },
+    "suroth-sabelle-meldarath": {
+      "name": "Suroth Sabelle Meldarath",
+      "aliases": ["High Lady Suroth"],
+      "appearances": [31, 39],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "High-ranking Seanchan noble who leads the Return forces. Commands sul'dam and damane while pursuing the Seanchan goal of reclaiming their ancient lands.",
+          "role": "High Lady of the Seanchan",
+          "relationships": {
+            "Liandrin": "Controls as damane",
+            "Moghedien": "Encounters the Forsaken"
+          }
+        }
+      }
+    },
+    "liandrin": {
+      "name": "Liandrin",
+      "aliases": [],
+      "appearances": [31, 39],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Former Aes Sedai of the Red Ajah, now a Black Ajah member captured by the Seanchan and collared as damane. Struggles with her new reality.",
+          "role": "Damane (formerly Black Ajah)",
+          "relationships": {
+            "Suroth Sabelle Meldarath": "Controlled by as her property"
+          }
+        }
+      }
+    },
+    "semirhage": {
+      "name": "Semirhage",
+      "aliases": ["Anath Dorje"],
+      "appearances": [31, 39],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "One of the Forsaken, disguised as a Seanchan Truthspeaker. Manipulates the Seanchan forces while pursuing her own agenda.",
+          "role": "Forsaken, disguised Truthspeaker",
+          "relationships": {
+            "Suroth Sabelle Meldarath": "Manipulates through her disguise"
+          }
+        }
+      }
+    },
+    "rand-althor-cairhien-nobles": {
+      "name": "Colavaere Saighan",
+      "aliases": ["Lady Colavaere"],
+      "appearances": [1, 2, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "High Lady of House Saighan in Cairhien, ambitious and scheming. One of the nobles vying for power in the wake of political upheaval.",
+          "role": "Cairhienin noble",
+          "relationships": {
+            "Rand al'Thor": "Subject plotting against his rule",
+            "Meilan": "Rival noble"
+          }
+        }
+      }
+    },
+    "meilan": {
+      "name": "Meilan",
+      "aliases": ["Lord Meilan"],
+      "appearances": [1, 2, 4, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Cairhienin lord playing the Game of Houses. Schemes for position and power while navigating the dangerous politics of Rand's rule.",
+          "role": "Cairhienin noble",
+          "relationships": {
+            "Rand al'Thor": "Reluctant subject",
+            "Colavaere Saighan": "Political rival"
+          }
+        }
+      }
+    },
+    "dobraine-taborwin": {
+      "name": "Dobraine Taborwin",
+      "aliases": ["Lord Dobraine"],
+      "appearances": [2, 4, 18, 19],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Cairhienin lord who serves Rand loyally. One of the few nobles Rand trusts to help govern Cairhien effectively.",
+          "role": "Cairhienin noble, Rand's administrator",
+          "relationships": {
+            "Rand al'Thor": "Loyal administrator",
+            "Colavaere Saighan": "Political opponent"
+          }
+        }
+      }
+    },
+    "annoura-larisen": {
+      "name": "Annoura Larisen",
+      "aliases": ["Annoura Sedai"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Aes Sedai of the Gray Ajah who serves as advisor to Queen Alliandre of Ghealdan. Skilled in negotiations and political matters.",
+          "role": "Aes Sedai advisor",
+          "relationships": {
+            "Alliandre Kigarin": "Serves as advisor",
+            "Perrin Aybara": "Encounters during his mission"
+          }
+        }
+      }
+    },
+    "flinn": {
+      "name": "Damer Flinn",
+      "aliases": ["Flinn"],
+      "appearances": [35, 36, 37],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Former soldier turned Asha'man with exceptional Healing abilities. One of Rand's most trusted channelers despite his humble origins.",
+          "role": "Asha'man",
+          "relationships": {
+            "Rand al'Thor": "Loyal Asha'man and Healer",
+            "Cadsuane Melaidhrin": "Encounters the legendary Aes Sedai"
+          }
+        }
+      }
+    },
+    "narishma": {
+      "name": "Jahar Narishma",
+      "aliases": ["Narishma"],
+      "appearances": [35, 36, 37],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Young Asha'man from Arafel, one of Rand's dedicated followers. Shows promise as both warrior and channeler.",
+          "role": "Asha'man",
+          "relationships": {
+            "Rand al'Thor": "Dedicated follower",
+            "Damer Flinn": "Fellow Asha'man"
+          }
+        }
+      }
+    },
+    "hopwil": {
+      "name": "Eben Hopwil",
+      "aliases": ["Hopwil"],
+      "appearances": [35, 36, 37],
+      "knowledge": {
+        "35": {
+          "revealedIn": 35,
+          "description": "Young Asha'man, one of Rand's dedicated followers. Still learning to control his abilities while serving faithfully.",
+          "role": "Asha'man",
+          "relationships": {
+            "Rand al'Thor": "Loyal follower",
+            "Jahar Narishma": "Fellow young Asha'man"
+          }
+        }
+      }
+    },
+    "padan-fain": {
+      "name": "Padan Fain",
+      "aliases": ["Mordeth", "Ordeith"],
+      "appearances": [32, 33],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Twisted creature carrying both Shadar Logoth's evil and the Dark One's touch. Hunts Rand with obsessive hatred.",
+          "role": "Ancient evil, hunter",
+          "relationships": {
+            "Rand al'Thor": "Obsessed enemy and hunter"
+          }
+        }
+      }
+    },
+    "sevanna": {
+      "name": "Sevanna",
+      "aliases": ["Sevanna of the Jumai Shaido"],
+      "appearances": [1, 40],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wise One of the Shaido Aiel, ambitious and power-hungry. Leads her sept in schemes against other Aiel and the wetlanders.",
+          "role": "Shaido Wise One",
+          "relationships": {
+            "Therava": "Fellow Shaido Wise One",
+            "Rand al'Thor": "Seeks to capture or control"
+          }
+        }
+      }
+    },
+    "therava": {
+      "name": "Therava",
+      "aliases": [],
+      "appearances": [1, 40],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Shaido Wise One, harsh and unforgiving. Works with Sevanna while maintaining her own authority and cruel nature.",
+          "role": "Shaido Wise One",
+          "relationships": {
+            "Sevanna": "Fellow Shaido leader",
+            "Galina Casban": "Captures and torments"
+          }
+        }
+      }
+    },
+    "galina-casban": {
+      "name": "Galina Casban",
+      "aliases": ["Galina Sedai"],
+      "appearances": [1, 40],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Former Aes Sedai of the Red Ajah and Black Ajah member, now captured by the Shaido. Suffers under their harsh treatment.",
+          "role": "Captive, former Aes Sedai",
+          "relationships": {
+            "Therava": "Captured and controlled by",
+            "Sevanna": "Prisoner of the Shaido"
+          }
+        }
+      }
+    },
+    "bael": {
+      "name": "Bael",
+      "aliases": ["Clan Chief Bael"],
+      "appearances": [1, 2, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Clan Chief of the Goshien Aiel, one of Rand's supporters. A strong leader who follows Car'a'carn despite the challenges.",
+          "role": "Aiel Clan Chief",
+          "relationships": {
+            "Rand al'Thor": "Follows as Car'a'carn",
+            "Melaine": "One of his wives"
+          }
+        }
+      }
+    },
+    "melaine": {
+      "name": "Melaine",
+      "aliases": [],
+      "appearances": [1, 2, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wise One of the Jhirad Goshien, married to Bael. Skilled in dreamwalking and the ways of the Wise Ones.",
+          "role": "Aiel Wise One",
+          "relationships": {
+            "Bael": "Husband and Clan Chief",
+            "Aviendha": "Fellow Wise One apprentice's teacher"
+          }
+        }
+      }
+    },
+    "rhuarc": {
+      "name": "Rhuarc",
+      "aliases": ["Clan Chief Rhuarc"],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Clan Chief of the Taardad Aiel, one of Rand's most trusted supporters. Wise and experienced leader.",
+          "role": "Aiel Clan Chief",
+          "relationships": {
+            "Rand al'Thor": "Loyal follower as Car'a'carn",
+            "Amys": "One of his wives"
+          }
+        }
+      }
+    },
+    "amys": {
+      "name": "Amys",
+      "aliases": [],
+      "appearances": [1, 2, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Wise One of the Nine Valleys sept, one of Rhuarc's wives. Powerful dreamwalker and teacher to Aviendha.",
+          "role": "Aiel Wise One",
+          "relationships": {
+            "Rhuarc": "Husband",
+            "Aviendha": "Student and teacher",
+            "Bair": "Fellow Wise One"
+          }
+        }
+      }
+    },
+    "bair": {
+      "name": "Bair",
+      "aliases": [],
+      "appearances": [1, 2, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Ancient Wise One of the Haido Shaarad, cannot channel but is skilled in other Wise One arts. Teacher and guide to younger Wise Ones.",
+          "role": "Aiel Wise One",
+          "relationships": {
+            "Aviendha": "Teacher and guide",
+            "Amys": "Fellow Wise One"
+          }
+        }
+      }
+    },
+    "nalesean-aldiaya": {
+      "name": "Nalesean Aldiaya",
+      "aliases": ["Lord Nalesean"],
+      "appearances": [9, 11, 12, 13, 28],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Young Tairen lord who follows Mat. Enthusiastic warrior who enjoys adventure and battle, loyal to Mat's leadership.",
+          "role": "Tairen noble, Mat's follower",
+          "relationships": {
+            "Mat Cauthon": "Follows as leader",
+            "Talmanes Delovinde": "Fellow Band member"
+          }
+        }
+      }
+    },
+    "talmanes-delovinde": {
+      "name": "Talmanes Delovinde",
+      "aliases": ["Talmanes"],
+      "appearances": [9, 11, 28, 38],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Cairhienin lord and one of Mat's most trusted lieutenants in the Band of the Red Hand. Dry-witted and utterly loyal.",
+          "role": "Cairhienin noble, Band lieutenant",
+          "relationships": {
+            "Mat Cauthon": "Lieutenant and trusted friend",
+            "Nalesean Aldiaya": "Fellow Band officer"
+          }
+        }
+      }
+    },
+    "daerid": {
+      "name": "Daerid",
+      "aliases": [],
+      "appearances": [11, 28, 38],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Officer in the Band of the Red Hand, one of Mat's reliable subordinates. Experienced soldier who helps train and lead the men.",
+          "role": "Band of the Red Hand officer",
+          "relationships": {
+            "Mat Cauthon": "Officer under his command"
+          }
+        }
+      }
+    },
+    "vanin": {
+      "name": "Chel Vanin",
+      "aliases": ["Vanin"],
+      "appearances": [9, 11, 28, 38],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Former poacher and smuggler, now scout for the Band of the Red Hand. Excellent tracker and horseman despite his appearance.",
+          "role": "Scout for the Band",
+          "relationships": {
+            "Mat Cauthon": "Scout and subordinate",
+            "Harnan": "Fellow soldier"
+          }
+        }
+      }
+    },
+    "harnan": {
+      "name": "Harnan",
+      "aliases": [],
+      "appearances": [9, 28, 38],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Soldier in the Band of the Red Hand, one of Mat's reliable men. Experienced fighter and loyal to the Band's cause.",
+          "role": "Band of the Red Hand soldier",
+          "relationships": {
+            "Mat Cauthon": "Serves under his command",
+            "Chel Vanin": "Fellow soldier"
+          }
+        }
+      }
+    },
+    "carridin": {
+      "name": "Jaichim Carridin",
+      "aliases": ["Inquisitor Carridin"],
+      "appearances": [15, 16, 17],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Whitecloak Inquisitor secretly serving as a Darkfriend. Operating in Ebou Dar while managing conflicting loyalties and orders.",
+          "role": "Whitecloak Inquisitor, Darkfriend",
+          "relationships": {
+            "Moridin": "Serves the Shadow through him",
+            "Morgase Trakand": "Former captive"
+          }
+        }
+      }
+    },
+    "morgase-trakand": {
+      "name": "Morgase Trakand",
+      "aliases": ["Maighdin Dorlain"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Former Queen of Andor, now in exile using a false name. Travels with companions while hiding her true identity.",
+          "role": "Former Queen, exile",
+          "relationships": {
+            "Tallanvor": "Her protector and companion",
+            "Elayne Trakand": "Daughter (unaware of her survival)"
+          }
+        }
+      }
+    },
+    "tallanvor": {
+      "name": "Martyn Tallanvor",
+      "aliases": ["Tallanvor"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Former Queen's Guard who follows and protects Morgase in exile. Devoted to her beyond mere duty.",
+          "role": "Former guardsman, protector",
+          "relationships": {
+            "Morgase Trakand": "Protects and loves",
+            "Breane": "Traveling companion"
+          }
+        }
+      }
+    },
+    "breane": {
+      "name": "Breane",
+      "aliases": [],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Companion to Morgase in exile, formerly a lady of Andoran court. Now shares the hardships of life on the road.",
+          "role": "Exile, former courtier",
+          "relationships": {
+            "Morgase Trakand": "Loyal companion in exile",
+            "Tallanvor": "Fellow companion"
+          }
+        }
+      }
+    },
+    "faile-bashere": {
+      "name": "Faile Bashere",
+      "aliases": ["Faile t'Aybara"],
+      "appearances": [],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Perrin's wife and daughter of Davram Bashere. Though not present, her influence on Perrin's actions and decisions remains strong.",
+          "role": "Perrin's wife",
+          "relationships": {
+            "Perrin Aybara": "Husband",
+            "Davram Bashere": "Father"
+          }
+        }
+      }
+    },
+    "neald": {
+      "name": "Fager Neald",
+      "aliases": ["Neald"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Asha'man accompanying Perrin's group, skilled in the One Power. Provides channeling support for their mission.",
+          "role": "Asha'man",
+          "relationships": {
+            "Perrin Aybara": "Serves under his authority",
+            "Grady": "Fellow Asha'man"
+          }
+        }
+      }
+    },
+    "grady": {
+      "name": "Jur Grady",
+      "aliases": ["Grady"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Asha'man with Perrin's group, experienced soldier before learning to channel. Reliable and skilled in both warfare and the Power.",
+          "role": "Asha'man",
+          "relationships": {
+            "Perrin Aybara": "Serves loyally",
+            "Fager Neald": "Fellow Asha'man companion"
+          }
+        }
+      }
+    },
+    "berelain-sur-paendrag": {
+      "name": "Berelain sur Paendrag",
+      "aliases": ["First of Mayene"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "First of Mayene, accompanying Perrin on his mission. Skilled ruler and diplomat seeking to protect her small nation's interests.",
+          "role": "First of Mayene",
+          "relationships": {
+            "Perrin Aybara": "Ally in his mission",
+            "Faile Bashere": "Rival for Perrin's attention (in absence)"
+          }
+        }
+      }
+    },
+    "gallenne": {
+      "name": "Bertain Gallenne",
+      "aliases": ["Lord Captain Gallenne"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Captain of Berelain's Winged Guards, a skilled soldier with an eyepatch. Loyal to Mayene and efficient in his duties.",
+          "role": "Captain of Winged Guards",
+          "relationships": {
+            "Berelain sur Paendrag": "Serves as captain of guards",
+            "Perrin Aybara": "Ally in their mission"
+          }
+        }
+      }
+    },
+    "balwer": {
+      "name": "Sebban Balwer",
+      "aliases": ["Balwer"],
+      "appearances": [26, 27],
+      "knowledge": {
+        "26": {
+          "revealedIn": 26,
+          "description": "Former secretary to Pedron Niall, now serving Perrin. Excellent at gathering information and managing administrative matters.",
+          "role": "Secretary and spy",
+          "relationships": {
+            "Perrin Aybara": "Serves as secretary and advisor",
+            "Pedron Niall": "Former master (deceased)"
+          }
+        }
+      }
+    },
+    "nesta-din-reas": {
+      "name": "Nesta din Reas",
+      "aliases": ["Mistress of the Ships"],
+      "appearances": [13, 14, 30, 31],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Mistress of the Ships to the Atha'an Miere, highest authority among the Sea Folk. Negotiates with Aes Sedai regarding the Bowl of the Winds.",
+          "role": "Mistress of the Ships",
+          "relationships": {
+            "Harine din Togara": "Sea Folk subordinate",
+            "Nynaeve al'Meara": "Negotiates with regarding the Bowl"
+          }
+        }
+      }
+    },
+    "harine-din-togara": {
+      "name": "Harine din Togara",
+      "aliases": [],
+      "appearances": [13, 14, 30, 31],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Sea Folk Windfinder and negotiator, skilled in the One Power. Represents her people's interests in dealings with the Aes Sedai.",
+          "role": "Sea Folk Windfinder",
+          "relationships": {
+            "Nesta din Reas": "Serves under as Mistress of Ships",
+            "Elayne Trakand": "Negotiates with regarding their bargain"
+          }
+        }
+      }
+    },
+    "merilille-ceandevin": {
+      "name": "Merilille Ceandevin",
+      "aliases": ["Merilille Sedai"],
+      "appearances": [9, 10, 13, 14, 15, 16, 30, 31],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Aes Sedai of the Gray Ajah, part of the embassy from the White Tower. Skilled negotiator caught up in the search for the Bowl.",
+          "role": "Aes Sedai of the Gray Ajah",
+          "relationships": {
+            "Elayne Trakand": "Bound to serve through circumstances",
+            "Nynaeve al'Meara": "Reluctant ally"
+          }
+        }
+      }
+    },
+    "adeleas-namelle": {
+      "name": "Adeleas Namelle",
+      "aliases": ["Adeleas Sedai"],
+      "appearances": [9, 13, 15, 30],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Aes Sedai of the Brown Ajah, elderly scholar and sister to Vandene. Part of the group searching for the Bowl of the Winds.",
+          "role": "Aes Sedai of the Brown Ajah",
+          "relationships": {
+            "Vandene Namelle": "Sister",
+            "Elayne Trakand": "Ally in their mission"
+          }
+        }
+      }
+    },
+    "vandene-namelle": {
+      "name": "Vandene Namelle",
+      "aliases": ["Vandene Sedai"],
+      "appearances": [9, 13, 15, 30],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Aes Sedai of the Green Ajah, sister to Adeleas. Part of the group working to find and use the Bowl of the Winds.",
+          "role": "Aes Sedai of the Green Ajah",
+          "relationships": {
+            "Adeleas Namelle": "Sister",
+            "Jaem": "Her Warder"
+          }
+        }
+      }
+    },
+    "jaem": {
+      "name": "Jaem",
+      "aliases": [],
+      "appearances": [9, 13, 15, 30],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Warder to Vandene Namelle, elderly but still capable. Devoted to his Aes Sedai and protective of the group's mission.",
+          "role": "Warder",
+          "relationships": {
+            "Vandene Namelle": "Bonded Aes Sedai",
+            "Adeleas Namelle": "Protects as sister to his Aes Sedai"
+          }
+        }
+      }
+    },
+    "careane-fransi": {
+      "name": "Careane Fransi",
+      "aliases": ["Careane Sedai"],
+      "appearances": [9, 13, 15, 30, 31],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Aes Sedai of the Green Ajah, part of the embassy from the White Tower. Involved in the search for the Bowl of the Winds.",
+          "role": "Aes Sedai of the Green Ajah",
+          "relationships": {
+            "Sareitha Tomares": "Fellow Green Sister",
+            "Elayne Trakand": "Ally in their mission"
+          }
+        }
+      }
+    },
+    "sareitha-tomares": {
+      "name": "Sareitha Tomares",
+      "aliases": ["Sareitha Sedai"],
+      "appearances": [9, 13, 15, 30, 31],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Aes Sedai of the Brown Ajah, part of the group from the White Tower. Scholar and researcher helping with their mission.",
+          "role": "Aes Sedai of the Brown Ajah",
+          "relationships": {
+            "Careane Fransi": "Fellow Sister in the group",
+            "Nynaeve al'Meara": "Ally in their search"
+          }
+        }
+      }
+    },
+    "ispaan": {
+      "name": "Ispan Shefar",
+      "aliases": ["Ispan"],
+      "appearances": [9, 15, 16, 30, 31],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "Aes Sedai captured by the group, revealed to be Black Ajah. Held prisoner while they try to extract information from her.",
+          "role": "Black Ajah prisoner",
+          "relationships": {
+            "Falion Bhoda": "Fellow Black Ajah member",
+            "Nynaeve al'Meara": "Captured by"
+          }
+        }
+      }
+    },
+    "falion-bhoda": {
+      "name": "Falion Bhoda",
+      "aliases": ["Falion"],
+      "appearances": [15, 16, 30, 31],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Aes Sedai of the White Ajah, revealed to be Black Ajah. Working in Ebou Dar on dark missions while evading capture.",
+          "role": "Black Ajah member",
+          "relationships": {
+            "Ispan Shefar": "Fellow Black Ajah Sister",
+            "Moghedien": "Serves the Shadow"
+          }
+        }
+      }
+    },
+    "marillin-gemalphin": {
+      "name": "Marillin Gemalphin",
+      "aliases": ["Marillin"],
+      "appearances": [15, 30, 31],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "Former Aes Sedai, now revealed as Black Ajah. Operating in Ebou Dar as part of dark schemes.",
+          "role": "Black Ajah member",
+          "relationships": {
+            "Falion Bhoda": "Fellow Black Ajah ally"
+          }
+        }
+      }
+    },
+    "cyndane": {
+      "name": "Cyndane",
+      "aliases": [],
+      "appearances": [1, 25, 40],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the Forsaken, recently appeared with a new identity. Serves under Moridin's authority while pursuing her own goals.",
+          "role": "Forsaken",
+          "relationships": {
+            "Moridin": "Serves under his command",
+            "Moghedien": "Fellow Forsaken"
+          }
+        }
+      }
+    },
+    "aran-gar": {
+      "name": "Aran'gar",
+      "aliases": ["Halima Saranov"],
+      "appearances": [23, 24, 25],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "One of the Forsaken in a new body, working among the rebel Aes Sedai as Halima. Manipulates events while appearing to help.",
+          "role": "Forsaken, disguised secretary",
+          "relationships": {
+            "Egwene al'Vere": "Manipulates as her secretary",
+            "Delana Mosalaine": "Controls through Compulsion"
+          }
+        }
+      }
+    },
+    "delana-mosalaine": {
+      "name": "Delana Mosalaine",
+      "aliases": ["Delana Sedai"],
+      "appearances": [22, 23, 24],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Gray Ajah and Sitter in the rebel Hall. Appears to support Egwene but has hidden loyalties.",
+          "role": "Sitter for the Gray Ajah",
+          "relationships": {
+            "Egwene al'Vere": "Appears to support",
+            "Halima Saranov": "Secretary and companion"
+          }
+        }
+      }
+    },
+    "kairen-stang": {
+      "name": "Kairen Stang",
+      "aliases": ["Kairen Sedai"],
+      "appearances": [22, 23],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Blue Ajah among the rebels, skilled in various weaves. Works to support the rebel cause.",
+          "role": "Aes Sedai of the Blue Ajah",
+          "relationships": {
+            "Egwene al'Vere": "Supports her leadership"
+          }
+        }
+      }
+    },
+    "nisao-dachen": {
+      "name": "Nisao Dachen",
+      "aliases": ["Nisao Sedai"],
+      "appearances": [22, 23],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Yellow Ajah among the rebels, skilled Healer. Works to support their cause while practicing her Ajah's goals.",
+          "role": "Aes Sedai of the Yellow Ajah",
+          "relationships": {
+            "Egwene al'Vere": "Ally among the rebels"
+          }
+        }
+      }
+    },
+    "morvrin": {
+      "name": "Morvrin",
+      "aliases": ["Morvrin Sedai"],
+      "appearances": [22, 23],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Brown Ajah among the rebels. Scholar and researcher supporting the rebel cause.",
+          "role": "Aes Sedai of the Brown Ajah",
+          "relationships": {
+            "Egwene al'Vere": "Scholar ally"
+          }
+        }
+      }
+    },
+    "myrelle-berengari": {
+      "name": "Myrelle Berengari",
+      "aliases": ["Myrelle Sedai"],
+      "appearances": [22, 23],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "Aes Sedai of the Green Ajah among the rebels. Known for having multiple Warders and her skills in battle.",
+          "role": "Aes Sedai of the Green Ajah",
+          "relationships": {
+            "Egwene al'Vere": "Green Ajah ally",
+            "Lan Mandragoran": "Holds his bond (secret)"
+          }
+        }
+      }
+    },
+    "halima-saranov": {
+      "name": "Halima Saranov",
+      "aliases": [],
+      "appearances": [23, 24, 25],
+      "knowledge": {
+        "23": {
+          "revealedIn": 23,
+          "description": "Secretary to Delana Mosalaine, provides massages to Egwene for her headaches. Appears helpful but has hidden motives.",
+          "role": "Secretary",
+          "relationships": {
+            "Delana Mosalaine": "Employer",
+            "Egwene al'Vere": "Provides assistance with headaches"
+          }
+        }
+      }
+    },
+    "lord-brend": {
+      "name": "Lord Brend",
+      "aliases": [],
+      "appearances": [32, 33, 40, 41],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "Ruler of Illian, actually the Forsaken Sammael in disguise. Commands the Illian forces while preparing for confrontation.",
+          "role": "Ruler of Illian",
+          "relationships": {
+            "Sammael": "True identity",
+            "Rand al'Thor": "Target of his hatred"
+          }
+        }
+      }
+    },
+    "gregorin-panar": {
+      "name": "Gregorin Panar",
+      "aliases": ["Lord Gregorin"],
+      "appearances": [32, 33, 40, 41],
+      "knowledge": {
+        "32": {
+          "revealedIn": 32,
+          "description": "High-ranking lord of Illian, serves under Lord Brend. Skilled military commander and loyal to his nation.",
+          "role": "Illian lord and general",
+          "relationships": {
+            "Lord Brend": "Serves as subordinate",
+            "Rand al'Thor": "Enemy in the coming conflict"
+          }
+        }
+      }
+    },
+    "demandred": {
+      "name": "Demandred",
+      "aliases": [],
+      "appearances": [1, 20, 40],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the Forsaken, plotting and scheming from the shadows. Maintains his own agenda while serving the Shadow's cause.",
+          "role": "Forsaken",
+          "relationships": {
+            "Moridin": "Fellow Forsaken",
+            "Rand al'Thor": "Ancient enemy and rival"
+          }
+        }
+      }
+    },
+    "mesaana": {
+      "name": "Mesaana",
+      "aliases": [],
+      "appearances": [1, 20],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the Forsaken, works to corrupt and destroy from within. Maintains her own schemes while serving the greater darkness.",
+          "role": "Forsaken",
+          "relationships": {
+            "Demandred": "Fellow Forsaken",
+            "Semirhage": "Sister in darkness"
+          }
+        }
+      }
+    },
+    "asmodean": {
+      "name": "Asmodean",
+      "aliases": [],
+      "appearances": [],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "One of the Forsaken, now dead. His absence is felt as the remaining Forsaken continue their schemes without him.",
+          "role": "Deceased Forsaken",
+          "relationships": {
+            "Rand al'Thor": "Former teacher (deceased)"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "prologue": "Elaida receives disturbing reports while consolidating her power as Amyrlin. The Forsaken gather to discuss their plans and receive new orders from the Dark One through Shaidar Haran.",
+    "1": "Rand deals with political intrigue in Cairhien while Min has viewings about the future. The rebel Aes Sedai continue their preparations while Sevanna plots with the Shaido.",
+    "2": "Rand attempts to bring order to Cairhien while dealing with scheming nobles. Perrin prepares for his mission to find the Prophet Masema in Ghealdan.",
+    "3": "Rand visits the Black Tower and sees Mazrim Taim training the Asha'man. Political tensions rise in Cairhien as various factions vie for position.",
+    "4": "Rand continues managing the complex politics of Cairhien while preparing for his next moves. The Asha'man train and grow in number under Taim's leadership.",
+    "5": "Rand makes plans to deal with Sammael in Illian while trying to keep various factions in line. Tensions build as schemes develop on multiple fronts.",
+    "6": "Rand prepares for action while dealing with the ongoing political situation. Various forces position themselves for the conflicts to come.",
+    "7": "Rand's plans begin to move forward as he prepares to take action. Aviendha and the Wise Ones continue their own preparations and discussions.",
+    "8": "Perrin sets out with his group to find Masema, accompanied by Loial and Aram. They encounter various challenges and political complications along the way.",
+    "9": "Mat finds himself increasingly involved with Queen Tylin in Ebou Dar while helping search for the Bowl of the Winds. The group faces various complications in their mission.",
+    "10": "The search for the Bowl continues in Ebou Dar with Mat, Nynaeve, and Elayne encountering both help and obstacles. Political intrigue complicates their efforts.",
+    "11": "Mat deals with his complicated relationship with Queen Tylin while the search for the Bowl becomes more urgent. The Band of the Red Hand maintains readiness.",
+    "12": "The group in Ebou Dar makes progress in their search while navigating the complex political and social situation in Altara. New allies and enemies emerge.",
+    "13": "Negotiations with the Sea Folk regarding the Bowl of the Winds become complex. The group must balance various competing interests and demands.",
+    "14": "The Kin are discovered and their role in the search becomes clear. Reanne and other members are reluctantly drawn into the larger conflict.",
+    "15": "The search for the Bowl intensifies as various factions converge on Ebou Dar. Black Ajah members are discovered and captured, complicating the situation.",
+    "16": "Progress is made toward finding the Bowl of the Winds. The various groups must work together despite their differences and conflicting goals.",
+    "17": "The location of the Bowl is finally discovered. Preparations begin for what may be a dangerous mission to retrieve this powerful ter'angreal.",
+    "18": "Cadsuane Melaidhrin, a legendary Aes Sedai, arrives to meet Rand. Her presence and reputation immediately change the dynamic around the Dragon Reborn.",
+    "19": "Cadsuane establishes her authority and begins her own agenda regarding Rand. Her interactions with his followers reveal her formidable nature and experience.",
+    "20": "Rand deals with Cadsuane's presence and demands while managing his other responsibilities. The legendary Aes Sedai proves to be unlike anyone he has encountered.",
+    "21": "Political and personal tensions continue to build around Rand as various factions and individuals pursue their own goals and agendas.",
+    "22": "Egwene works to consolidate her authority as Amyrlin among the rebel Aes Sedai. She faces opposition from various Sitters and must navigate complex politics.",
+    "23": "The rebel Aes Sedai continue their preparations while internal politics create challenges for Egwene's leadership. Halima provides assistance with Egwene's headaches.",
+    "24": "Egwene's authority is tested as she works to unite the rebel Aes Sedai. Various factions within the rebels pursue their own agendas.",
+    "25": "The rebel Aes Sedai face continued challenges in their preparations. Egwene must balance various competing interests while maintaining her position.",
+    "26": "Perrin's group encounters Queen Alliandre and learns about the situation with Masema. The Prophet's influence has created chaos and division.",
+    "27": "Perrin meets with Masema and attempts to bring him to Rand. The Prophet's fanatical nature and the situation in Ghealdan prove more complex than expected.",
+    "28": "Mat continues to deal with his situation in Ebou Dar while the search for the Bowl reaches critical stages. Various factions prepare for action.",
+    "29": "The Bowl of the Winds is finally located and the group prepares for the dangerous mission to retrieve it from its hiding place.",
+    "30": "The Bowl of the Winds is successfully retrieved, but using it proves to be complex and dangerous. The various groups must work together despite their differences.",
+    "31": "The Weather working begins with the Bowl of the Winds. The massive channeling draws attention from both allies and enemies across the region.",
+    "32": "Rand begins his assault on Illian, moving against Sammael. The long-awaited confrontation between the Dragon Reborn and the Forsaken approaches.",
+    "33": "The battle for Illian intensifies as Rand's forces engage Sammael's defenses. Both sides deploy their most powerful weapons and strategies.",
+    "34": "Rand and Sammael face each other in direct confrontation. The battle between Dragon Reborn and Forsaken reaches its climactic conclusion.",
+    "35": "In the aftermath of the confrontation with Sammael, Rand deals with his injuries and the consequences of the battle. New challenges emerge.",
+    "36": "Rand recovers from his encounter while dealing with the political aftermath in Illian. His injury from Padan Fain creates ongoing complications.",
+    "37": "The situation in Illian stabilizes as Rand establishes his authority. However, his wound continues to cause problems and concern among his followers.",
+    "38": "Mat and his companions prepare to leave Ebou Dar after the Bowl working. The successful mission has had far-reaching consequences.",
+    "39": "The group escapes from Ebou Dar as Seanchan forces approach the city. The Return has begun and changes everything about the political situation.",
+    "40": "The Seanchan arrival in Ebou Dar marks a major turning point. Various factions must adapt to this new and dangerous threat from across the sea.",
+    "41": "The weather begins to change as a result of the Bowl's working. The various storylines reach resolution as characters deal with the consequences of their actions."
+  }
+}
