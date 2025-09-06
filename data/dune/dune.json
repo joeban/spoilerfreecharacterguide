@@ -149,7 +149,8 @@
         11,
         12,
         13,
-        14
+        14,
+        16
       ],
       "knowledge": {
         "1": {
@@ -176,10 +177,19 @@
         },
         "14": {
           "revealedIn": 14,
-          "description": "Betrayed by Dr. Yueh and captured by Baron Harkonnen. Dies attempting to kill the Baron with a poison gas tooth implanted by Yueh. His death devastates Paul and Jessica.",
-          "role": "Murdered Duke (martyr)",
+          "description": "Betrayed by Dr. Yueh and captured by Baron Harkonnen. His desperate situation becomes clear, devastating Paul and Jessica.",
+          "role": "Captured Duke (in mortal danger)",
           "relationships": {
             "Dr. Wellington Yueh": "Betrayed by",
+            "Baron Vladimir Harkonnen": "Captured by"
+          }
+        },
+        "16": {
+          "revealedIn": 16,
+          "description": "Dies attempting to kill the Baron with a poison gas tooth implanted by Yueh. His sacrifice fails but demonstrates his courage and honor even in death.",
+          "role": "Murdered Duke (martyr)",
+          "relationships": {
+            "Dr. Wellington Yueh": "Final gift from (poison tooth)",
             "Baron Vladimir Harkonnen": "Killed attempting to assassinate"
           }
         }
@@ -263,7 +273,7 @@
         },
         "14": {
           "revealedIn": 14,
-          "description": "Escapes with Paul into the desert after Leto's death. Uses Voice and other Bene Gesserit abilities to survive. Her pregnancy is showing, and she fears for both her children's futures.",
+          "description": "Escapes with Paul into the desert following the Harkonnen attack. Uses Voice and other Bene Gesserit abilities to survive. Her pregnancy is showing, and she fears for both her children's futures.",
           "role": "Fugitive mother protecting her son",
           "relationships": {
             "Paul Atreides": "Mother and fellow fugitive",
