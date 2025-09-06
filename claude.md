@@ -737,6 +737,15 @@ All previously identified spoiler issues have been resolved:
 - **All series**: JSON files valid and working
 
 ### Recently Fixed Issues ✅
+**The Witcher Series** (2025-09-06):
+- Last Wish: Removed death reveals for Adda, Cohen, Gramps
+- Tower of Swallows: Softened Bonhart's "killed" to "defeated"
+- Baptism of Fire: Removed "Though dead" from Calanthe description
+
+**Wheel of Time** (2025-09-06):
+- Great Hunt: Fixed Ingtar darkfriend reveal in ch47 recap
+- Dragon Reborn: Fixed Be'lal identity reveal in ch50 recap
+
 **Iron Flame** (2025-09-04):
 - Removed early venin corruption mentions
 - Fixed "cure" references in supporting characters
