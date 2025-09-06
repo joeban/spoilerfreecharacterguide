@@ -1,0 +1,1667 @@
+{
+  "meta": {
+    "title": "Crossroads of Twilight",
+    "author": "Robert Jordan",
+    "chapters": 30,
+    "schemaVersion": "2.0"
+  },
+  "characters": {
+    "rand-althor": {
+      "name": "Rand al'Thor",
+      "aliases": ["Car'a'carn", "He Who Comes With the Dawn", "Lord Dragon"],
+      "appearances": [1, 2, 5, 8, 11, 12, 18, 21, 23, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Dragon Reborn, dealing with the aftermath of cleansing saidin. His actions have caused reactions across the world.",
+          "role": "Dragon Reborn",
+          "relationships": {
+            "Bonded": "Alanna Mosvani",
+            "Loves": "Elayne, Aviendha, Min"
+          }
+        },
+        "12": {
+          "revealedIn": 12,
+          "description": "Continues to harden himself emotionally. Shows increasing detachment and coldness toward others.",
+          "role": "Hardening leader",
+          "relationships": {
+            "Distance": "Growing cold to advisors",
+            "Struggle": "Controlling his destiny"
+          }
+        }
+      }
+    },
+    "mat-cauthon": {
+      "name": "Mat Cauthon",
+      "aliases": ["Matrim Cauthon", "Prince of the Ravens"],
+      "appearances": [1, 3, 6, 8, 9, 14, 16, 17, 20, 28, 29],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Traveling with the Daughter of the Nine Moons, who he has captured. Trying to escape Seanchan territory.",
+          "role": "Reluctant traveler",
+          "relationships": {
+            "Captive": "Tuon",
+            "Companion": "Thom Merrilin"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Continues his complex relationship with Tuon, finding himself drawn to her despite the circumstances.",
+          "role": "Conflicted captor",
+          "relationships": {
+            "Growing attraction": "Tuon",
+            "Protector": "Of his traveling companions"
+          }
+        }
+      }
+    },
+    "perrin-aybara": {
+      "name": "Perrin Aybara",
+      "aliases": ["Lord Perrin", "Young Bull"],
+      "appearances": [4, 5, 6, 7, 8, 9, 10, 25, 26, 27],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Desperately searching for his wife Faile, who has been captured by the Shaido Aiel.",
+          "role": "Desperate husband",
+          "relationships": {
+            "Missing wife": "Faile",
+            "Ally": "Berelain"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Willing to do anything to rescue Faile, even allying with the Seanchan if necessary.",
+          "role": "Determined rescuer",
+          "relationships": {
+            "Potential alliance": "Seanchan",
+            "Goal": "Rescuing Faile"
+          }
+        }
+      }
+    },
+    "egwene-alvere": {
+      "name": "Egwene al'Vere",
+      "aliases": ["Mother", "Amyrlin Seat"],
+      "appearances": [2, 3, 7, 15, 16, 19, 24, 30],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The rebel Amyrlin, continuing her siege of the White Tower while maintaining her authority.",
+          "role": "Rebel Amyrlin",
+          "relationships": {
+            "Opposition": "Tower Aes Sedai",
+            "Support": "Rebel Hall"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Dealing with political maneuvering within the rebel camp while planning her next moves.",
+          "role": "Political leader",
+          "relationships": {
+            "Advisor": "Siuan Sanche",
+            "Challenge": "Uniting Aes Sedai"
+          }
+        }
+      }
+    },
+    "elayne-trakand": {
+      "name": "Elayne Trakand",
+      "aliases": ["Daughter-Heir", "Lady Elayne"],
+      "appearances": [11, 12, 13, 14, 15, 23, 24, 28, 30],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Struggling to claim the Lion Throne of Andor. Faces opposition from several noble houses.",
+          "role": "Claimant to throne",
+          "relationships": {
+            "Ally": "Birgitte Silverbow",
+            "Opposition": "Rival claimants"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Continues her campaign for the throne while dealing with pregnancy and political intrigue.",
+          "role": "Pregnant ruler",
+          "relationships": {
+            "Father of child": "Rand al'Thor",
+            "Protector": "Birgitte"
+          }
+        }
+      }
+    },
+    "tuon": {
+      "name": "Tuon",
+      "aliases": ["Daughter of the Nine Moons", "High Lady"],
+      "appearances": [1, 3, 6, 8, 9, 14, 16, 17, 20, 28, 29],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The Daughter of the Nine Moons, captured by Mat Cauthon. Heir to the Seanchan Empire.",
+          "role": "Imperial heir",
+          "relationships": {
+            "Captor": "Mat Cauthon",
+            "Birthright": "Seanchan throne"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Shows unexpected sides of her personality while traveling with Mat, revealing intelligence and humor.",
+          "role": "Complex royal",
+          "relationships": {
+            "Developing feelings": "Mat",
+            "Duty": "To the Empire"
+          }
+        }
+      }
+    },
+    "faile-bashere": {
+      "name": "Faile Bashere",
+      "aliases": ["Lady Faile", "Falcon"],
+      "appearances": [4, 7, 10, 21, 22, 26],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Captured by the Shaido Aiel and held as gai'shain. Determined to escape and return to Perrin.",
+          "role": "Captive",
+          "relationships": {
+            "Husband": "Perrin Aybara",
+            "Captors": "Shaido Aiel"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Endures captivity while planning escape. Shows remarkable resilience and cunning.",
+          "role": "Resilient prisoner",
+          "relationships": {
+            "Fellow captive": "Alliandre",
+            "Goal": "Escape to Perrin"
+          }
+        }
+      }
+    },
+    "lan-mandragoran": {
+      "name": "Lan Mandragoran",
+      "aliases": ["Warder", "Last King of Malkier"],
+      "appearances": [2, 5, 8, 12, 15, 18, 23],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Moiraine's Warder, dealing with the bond that was passed to Myrelle after Moiraine's disappearance.",
+          "role": "Bonded Warder",
+          "relationships": {
+            "Bond holder": "Myrelle",
+            "Former Aes Sedai": "Moiraine"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Continues his duties while struggling with the strange nature of his bond transfer.",
+          "role": "Conflicted Warder",
+          "relationships": {
+            "Current bond": "Myrelle",
+            "Destiny": "Unclear future"
+          }
+        }
+      }
+    },
+    "nynaeve-almara": {
+      "name": "Nynaeve al'Meara",
+      "aliases": ["Wisdom", "Aes Sedai"],
+      "appearances": [2, 7, 15, 19, 24, 30],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Aes Sedai with the rebel faction, married to Lan Mandragoran. Strong in the One Power.",
+          "role": "Rebel Aes Sedai",
+          "relationships": {
+            "Husband": "Lan Mandragoran",
+            "Faction": "Rebel Aes Sedai"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Continues to serve Egwene while maintaining her strong-willed personality and healing abilities.",
+          "role": "Healer and advisor",
+          "relationships": {
+            "Service": "Egwene al'Vere",
+            "Specialty": "Healing weaves"
+          }
+        }
+      }
+    },
+    "cadsuane-melaidhrin": {
+      "name": "Cadsuane Melaidhrin",
+      "aliases": ["Cadsuane Sedai"],
+      "appearances": [12, 18, 21, 23, 27],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A legendary Aes Sedai who has taken an interest in Rand. Known for her strength and directness.",
+          "role": "Elder Aes Sedai",
+          "relationships": {
+            "Target": "Rand al'Thor",
+            "Reputation": "Legendary"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Attempts to guide Rand, believing she knows what he needs to succeed at the Last Battle.",
+          "role": "Self-appointed advisor",
+          "relationships": {
+            "Project": "Preparing Rand",
+            "Method": "Tough guidance"
+          }
+        }
+      }
+    },
+    "aviendha": {
+      "name": "Aviendha",
+      "aliases": ["Near-sister"],
+      "appearances": [5, 12, 18, 23],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An Aiel Wise One in training, one of Rand's loves. Struggles with her feelings and duties.",
+          "role": "Wise One apprentice",
+          "relationships": {
+            "Love": "Rand al'Thor",
+            "Sister-wife": "Elayne, Min"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Continues her training while dealing with her complex relationship with Rand.",
+          "role": "Conflicted lover",
+          "relationships": {
+            "Training": "Wise One skills",
+            "Heart": "Belongs to Rand"
+          }
+        }
+      }
+    },
+    "min-farshaw": {
+      "name": "Min Farshaw",
+      "aliases": ["Min"],
+      "appearances": [1, 12, 18, 21, 23, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A seer who can see viewings around people. One of Rand's loves and his closest companion.",
+          "role": "Seer and companion",
+          "relationships": {
+            "Love": "Rand al'Thor",
+            "Ability": "Viewing the Pattern"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Stays close to Rand, providing emotional support while interpreting her viewings.",
+          "role": "Supportive partner",
+          "relationships": {
+            "Devotion": "Rand al'Thor",
+            "Gift": "Prophetic visions"
+          }
+        }
+      }
+    },
+    "thom-merrilin": {
+      "name": "Thom Merrilin",
+      "aliases": ["Gleeman"],
+      "appearances": [1, 3, 6, 8, 9, 16, 17, 20, 28],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A gleeman and former Court Bard traveling with Mat. Skilled in politics and intrigue.",
+          "role": "Gleeman and advisor",
+          "relationships": {
+            "Companion": "Mat Cauthon",
+            "Past": "Court Bard experience"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Helps Mat navigate the complex situation with Tuon while sharing his wisdom and experience.",
+          "role": "Wise counselor",
+          "relationships": {
+            "Advice to": "Mat Cauthon",
+            "Observation": "Growing Mat-Tuon relationship"
+          }
+        }
+      }
+    },
+    "birgitte-silverbow": {
+      "name": "Birgitte Silverbow",
+      "aliases": ["Birgitte Trahelion"],
+      "appearances": [11, 13, 14, 15, 24, 28, 30],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Elayne's Warder, a legendary archer ripped from Tel'aran'rhiod. Helps Elayne in her claim for the throne.",
+          "role": "Warder and archer",
+          "relationships": {
+            "Bonded to": "Elayne Trakand",
+            "Origin": "Hero of the Horn"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Provides protection and counsel to Elayne during her pregnancy and political struggles.",
+          "role": "Protector and friend",
+          "relationships": {
+            "Duty": "Protecting Elayne",
+            "Friendship": "Deep bond with Elayne"
+          }
+        }
+      }
+    },
+    "siuan-sanche": {
+      "name": "Siuan Sanche",
+      "aliases": ["Former Amyrlin"],
+      "appearances": [2, 7, 15, 19, 24, 30],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Former Amyrlin Seat, now serving as advisor to Egwene. Stilled and then Healed with reduced strength.",
+          "role": "Advisor and former Amyrlin",
+          "relationships": {
+            "Service": "Egwene al'Vere",
+            "Past": "Former Amyrlin Seat"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Uses her political experience to help Egwene navigate the complexities of leading the rebel Aes Sedai.",
+          "role": "Political counselor",
+          "relationships": {
+            "Guidance": "Egwene's reign",
+            "Experience": "Former leadership"
+          }
+        }
+      }
+    },
+    "logain-ablar": {
+      "name": "Logain Ablar",
+      "aliases": ["False Dragon"],
+      "appearances": [12, 18, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A former False Dragon, now bonded to Aes Sedai. Shows signs of recovering his ability to channel.",
+          "role": "Bonded channeler",
+          "relationships": {
+            "Status": "Bonded to Aes Sedai",
+            "Past": "False Dragon"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "His strength in saidin appears to be returning, causing concern and hope among the Aes Sedai.",
+          "role": "Recovering channeler",
+          "relationships": {
+            "Power": "Returning strength",
+            "Observers": "Watchful Aes Sedai"
+          }
+        }
+      }
+    },
+    "galina-casban": {
+      "name": "Galina Casban",
+      "aliases": ["Galina Sedai"],
+      "appearances": [4, 21, 22, 26],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An Aes Sedai captured by the Shaido Aiel and forced to serve them as a damane-like figure.",
+          "role": "Captive Aes Sedai",
+          "relationships": {
+            "Captors": "Shaido Aiel",
+            "Status": "Forced servant"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Continues to endure captivity while plotting potential escape or revenge.",
+          "role": "Plotting captive",
+          "relationships": {
+            "Goal": "Escape or revenge",
+            "Humiliation": "Forced service"
+          }
+        }
+      }
+    },
+    "sevanna": {
+      "name": "Sevanna",
+      "aliases": ["Wise One"],
+      "appearances": [4, 7, 21, 22, 26],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Shaido Wise One who leads her people in defiance of other Aiel. Holds many captives including Faile.",
+          "role": "Shaido leader",
+          "relationships": {
+            "People": "Shaido Aiel",
+            "Captives": "Faile and others"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Maintains control over the Shaido while dealing with internal power struggles and external threats.",
+          "role": "Embattled leader",
+          "relationships": {
+            "Authority": "Over Shaido",
+            "Challenges": "Internal and external"
+          }
+        }
+      }
+    },
+    "alliandre": {
+      "name": "Alliandre",
+      "aliases": ["Queen of Ghealdan"],
+      "appearances": [4, 7, 10, 21, 26],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Queen of Ghealdan, captured alongside Faile by the Shaido Aiel. Maintains her dignity in captivity.",
+          "role": "Captive queen",
+          "relationships": {
+            "Fellow captive": "Faile Bashere",
+            "Kingdom": "Ghealdan"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Endures her captivity with courage, forming bonds with other prisoners.",
+          "role": "Courageous prisoner",
+          "relationships": {
+            "Alliance": "With other captives",
+            "Hope": "For rescue"
+          }
+        }
+      }
+    },
+    "berelain": {
+      "name": "Berelain",
+      "aliases": ["First of Mayene"],
+      "appearances": [5, 6, 8, 10, 25, 27],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "First of Mayene, allied with Perrin in his search for Faile. A skilled political leader.",
+          "role": "Ally and ruler",
+          "relationships": {
+            "Alliance": "Perrin Aybara",
+            "Goal": "Helping rescue Faile"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Provides valuable counsel and resources to Perrin's rescue efforts.",
+          "role": "Strategic ally",
+          "relationships": {
+            "Support": "Perrin's mission",
+            "Skill": "Political maneuvering"
+          }
+        }
+      }
+    },
+    "annoura": {
+      "name": "Annoura",
+      "aliases": ["Annoura Sedai"],
+      "appearances": [5, 8, 10, 25],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Berelain's Aes Sedai advisor, providing counsel during the search for Faile.",
+          "role": "Advisor",
+          "relationships": {
+            "Service": "Berelain",
+            "Mission": "Helping Perrin"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Uses her knowledge of the One Power and politics to aid the rescue mission.",
+          "role": "Magical advisor",
+          "relationships": {
+            "Support": "Rescue efforts",
+            "Expertise": "Power and politics"
+          }
+        }
+      }
+    },
+    "masema": {
+      "name": "Masema",
+      "aliases": ["Prophet of the Dragon"],
+      "appearances": [6, 8, 10, 25],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The self-proclaimed Prophet of the Dragon, leading a fanatical following. His methods are extreme.",
+          "role": "Fanatic prophet",
+          "relationships": {
+            "Worship": "Rand al'Thor",
+            "Followers": "Fanatical believers"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Continues his extreme preaching while his followers cause chaos in his name.",
+          "role": "Dangerous zealot",
+          "relationships": {
+            "Devotion": "To the Dragon",
+            "Problem": "Uncontrolled followers"
+          }
+        }
+      }
+    },
+    "alanna-mosvani": {
+      "name": "Alanna Mosvani",
+      "aliases": ["Alanna Sedai"],
+      "appearances": [1, 12, 18, 23],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An Aes Sedai who bonded Rand without his permission. Can sense his location and emotions.",
+          "role": "Unwelcome bond-holder",
+          "relationships": {
+            "Bonded": "Rand al'Thor",
+            "Action": "Forced bonding"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Continues to be affected by her bond with Rand, feeling his emotions and condition.",
+          "role": "Distant observer",
+          "relationships": {
+            "Connection": "Forced bond with Rand",
+            "Experience": "His emotions"
+          }
+        }
+      }
+    },
+    "elaida-do-avriny": {
+      "name": "Elaida do Avriny a'Roihan",
+      "aliases": ["Amyrlin Seat", "Elaida Sedai"],
+      "appearances": [2, 15, 19, 24, 30],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The Tower Amyrlin Seat, ruling from the White Tower while facing rebellion from the Salidar Aes Sedai.",
+          "role": "Tower Amyrlin",
+          "relationships": {
+            "Opposition": "Rebel Aes Sedai",
+            "Authority": "White Tower"
+          }
+        },
+        "19": {
+          "revealedIn": 19,
+          "description": "Maintains her position through force and intimidation while the Tower remains divided.",
+          "role": "Authoritarian leader",
+          "relationships": {
+            "Method": "Fear and control",
+            "Challenge": "Rebel opposition"
+          }
+        }
+      }
+    },
+    "suroth": {
+      "name": "Suroth",
+      "aliases": ["High Lady Suroth"],
+      "appearances": [1, 8, 14, 16, 20, 28],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A high-ranking Seanchan noble involved in the search for the missing Daughter of the Nine Moons.",
+          "role": "Seanchan High Lady",
+          "relationships": {
+            "Duty": "Finding Tuon",
+            "Authority": "Seanchan hierarchy"
+          }
+        },
+        "14": {
+          "revealedIn": 14,
+          "description": "Continues her efforts to locate Tuon while managing Seanchan interests in the region.",
+          "role": "Noble searcher",
+          "relationships": {
+            "Mission": "Locating Tuon",
+            "Responsibility": "Seanchan Empire"
+          }
+        }
+      }
+    },
+    "bashere": {
+      "name": "Davram Bashere",
+      "aliases": ["Lord Bashere", "Marshal-General"],
+      "appearances": [5, 8, 10, 25, 27],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Faile's father and a Marshal-General of Saldaea. Aids Perrin in the search for his daughter.",
+          "role": "Father and general",
+          "relationships": {
+            "Daughter": "Faile Bashere",
+            "Alliance": "With Perrin"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Provides military expertise and emotional support during the rescue efforts.",
+          "role": "Military advisor",
+          "relationships": {
+            "Support": "Perrin's mission",
+            "Expertise": "Military strategy"
+          }
+        }
+      }
+    },
+    "romanda": {
+      "name": "Romanda",
+      "aliases": ["Romanda Sedai"],
+      "appearances": [2, 7, 15, 19, 24],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A prominent Yellow Sister in the rebel Hall, one of Egwene's strongest opponents in the Salidar faction.",
+          "role": "Opposition leader",
+          "relationships": {
+            "Opposition": "Egwene's leadership",
+            "Faction": "Yellow Ajah"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Continues to challenge Egwene's decisions while maintaining her position in the rebel Hall.",
+          "role": "Political opponent",
+          "relationships": {
+            "Conflict": "With Egwene",
+            "Influence": "In Hall of Tower"
+          }
+        }
+      }
+    },
+    "lelaine": {
+      "name": "Lelaine",
+      "aliases": ["Lelaine Sedai"],
+      "appearances": [2, 7, 15, 19, 24],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Blue Sister in the rebel Hall, another of Egwene's main political opponents among the Salidar Aes Sedai.",
+          "role": "Political rival",
+          "relationships": {
+            "Opposition": "Egwene's authority",
+            "Ajah": "Blue Sisters"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Competes with Romanda for influence while both oppose Egwene's independent decisions.",
+          "role": "Ambitious politician",
+          "relationships": {
+            "Rivalry": "With Romanda",
+            "Goal": "Greater influence"
+          }
+        }
+      }
+    },
+    "gawyn": {
+      "name": "Gawyn Trakand",
+      "aliases": ["Prince Gawyn"],
+      "appearances": [11, 13, 15, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Elayne's brother, conflicted about his loyalties between his sister and the White Tower.",
+          "role": "Conflicted prince",
+          "relationships": {
+            "Sister": "Elayne Trakand",
+            "Conflict": "Tower vs family loyalty"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Struggles with his feelings for Egwene and his duty to his family during Elayne's campaign.",
+          "role": "Torn loyalist",
+          "relationships": {
+            "Love": "Egwene al'Vere",
+            "Family duty": "Supporting Elayne"
+          }
+        }
+      }
+    },
+    "morgase": {
+      "name": "Morgase Trakand",
+      "aliases": ["Former Queen"],
+      "appearances": [11, 13, 24],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "Former Queen of Andor, believed dead but actually in hiding. Elayne's mother.",
+          "role": "Hidden former queen",
+          "relationships": {
+            "Daughter": "Elayne Trakand",
+            "Status": "Believed dead"
+          }
+        },
+        "13": {
+          "revealedIn": 13,
+          "description": "Remains in hiding while her daughter fights to reclaim the throne that was once hers.",
+          "role": "Secret observer",
+          "relationships": {
+            "Legacy": "Lion Throne",
+            "Hope": "Daughter's success"
+          }
+        }
+      }
+    },
+    "tam-althor": {
+      "name": "Tam al'Thor",
+      "aliases": ["Rand's father"],
+      "appearances": [12, 27],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Rand's adoptive father, a skilled archer and former soldier. Loves his son despite the changes in him.",
+          "role": "Caring father",
+          "relationships": {
+            "Son": "Rand al'Thor",
+            "Past": "Military experience"
+          }
+        },
+        "27": {
+          "revealedIn": 27,
+          "description": "Continues to care for Rand while struggling to understand the man he has become.",
+          "role": "Concerned parent",
+          "relationships": {
+            "Worry": "For Rand's wellbeing",
+            "Love": "Unconditional paternal"
+          }
+        }
+      }
+    },
+    "dyelin": {
+      "name": "Dyelin",
+      "aliases": ["High Seat Dyelin"],
+      "appearances": [11, 13, 15, 24, 28],
+      "knowledge": {
+        "11": {
+          "revealedIn": 11,
+          "description": "A high seat of Andor who could claim the throne but supports Elayne's rightful claim instead.",
+          "role": "Noble supporter",
+          "relationships": {
+            "Support": "Elayne's claim",
+            "Nobility": "High Seat status"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Provides crucial political and military support during Elayne's campaign for the Lion Throne.",
+          "role": "Key ally",
+          "relationships": {
+            "Loyalty": "To rightful succession",
+            "Aid": "Political and military"
+          }
+        }
+      }
+    },
+    "selucia": {
+      "name": "Selucia",
+      "aliases": ["Voice of the Blood"],
+      "appearances": [1, 3, 6, 8, 9, 14, 16, 17, 20, 28, 29],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Tuon's personal attendant and Voice, captured along with her mistress by Mat Cauthon.",
+          "role": "Loyal attendant",
+          "relationships": {
+            "Service": "Tuon",
+            "Status": "Also captive"
+          }
+        },
+        "9": {
+          "revealedIn": 9,
+          "description": "Maintains her devotion to Tuon while adapting to their captive circumstances.",
+          "role": "Devoted servant",
+          "relationships": {
+            "Loyalty": "Unwavering to Tuon",
+            "Adaptation": "To captivity"
+          }
+        }
+      }
+    },
+    "olver": {
+      "name": "Olver",
+      "aliases": ["Boy"],
+      "appearances": [1, 3, 8, 16, 17, 28],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young boy traveling with Mat's group. Quick-witted and observant despite his age.",
+          "role": "Young companion",
+          "relationships": {
+            "Guardian": "Mat Cauthon",
+            "Group": "Traveling companions"
+          }
+        },
+        "8": {
+          "revealedIn": 8,
+          "description": "Shows remarkable adaptability and courage for his age during their travels.",
+          "role": "Brave child",
+          "relationships": {
+            "Protection": "From Mat's group",
+            "Character": "Courageous spirit"
+          }
+        }
+      }
+    },
+    "neald": {
+      "name": "Neald",
+      "aliases": ["Asha'man"],
+      "appearances": [1, 12, 18, 23, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An Asha'man in service to Rand, skilled in creating gateways and other weaves.",
+          "role": "Male channeler",
+          "relationships": {
+            "Service": "Rand al'Thor",
+            "Organization": "Black Tower"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Continues his duties as an Asha'man while dealing with the changes from saidin's cleansing.",
+          "role": "Dedicated Asha'man",
+          "relationships": {
+            "Duty": "To the Dragon Reborn",
+            "Experience": "Cleansed saidin"
+          }
+        }
+      }
+    },
+    "grady": {
+      "name": "Grady",
+      "aliases": ["Asha'man"],
+      "appearances": [1, 12, 18, 23, 27],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An Asha'man serving with Rand, experienced in both warfare and traveling weaves.",
+          "role": "Veteran channeler",
+          "relationships": {
+            "Service": "Dragon Reborn",
+            "Skill": "Combat and travel"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Provides reliable service while adjusting to the cleansing of saidin and its implications.",
+          "role": "Steadfast Asha'man",
+          "relationships": {
+            "Reliability": "Trusted by Rand",
+            "Adjustment": "To cleansed saidin"
+          }
+        }
+      }
+    },
+    "flinn": {
+      "name": "Flinn",
+      "aliases": ["Asha'man"],
+      "appearances": [12, 18, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An older Asha'man with healing abilities, formerly a soldier before learning to channel.",
+          "role": "Healer channeler",
+          "relationships": {
+            "Specialty": "Healing with saidin",
+            "Background": "Former soldier"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Uses his unique combination of military experience and healing talent in service to Rand.",
+          "role": "Soldier-healer",
+          "relationships": {
+            "Service": "Rand al'Thor",
+            "Dual nature": "Warrior and healer"
+          }
+        }
+      }
+    },
+    "hopwil": {
+      "name": "Hopwil",
+      "aliases": ["Asha'man"],
+      "appearances": [12, 18],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A young Asha'man still learning his abilities, eager to prove himself in service to the Dragon Reborn.",
+          "role": "Novice channeler",
+          "relationships": {
+            "Status": "Learning Asha'man",
+            "Goal": "Proving himself"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Continues his training while serving Rand, growing more confident in his abilities.",
+          "role": "Developing Asha'man",
+          "relationships": {
+            "Growth": "Increasing confidence",
+            "Service": "Dragon Reborn"
+          }
+        }
+      }
+    },
+    "dashiva": {
+      "name": "Dashiva",
+      "aliases": ["Asha'man"],
+      "appearances": [12, 18, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An Asha'man with a nervous disposition, serves among Rand's personal guard of channelers.",
+          "role": "Nervous guard",
+          "relationships": {
+            "Service": "Rand's guard",
+            "Demeanor": "Anxious and twitchy"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Maintains his position despite his nervous manner, showing competence when needed.",
+          "role": "Capable despite nerves",
+          "relationships": {
+            "Position": "Guard duty",
+            "Reality": "More capable than appears"
+          }
+        }
+      }
+    },
+    "alivia": {
+      "name": "Alivia",
+      "aliases": ["Former damane"],
+      "appearances": [12, 18, 21, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A former Seanchan damane, freed and now serving with Rand. Extremely powerful in the One Power.",
+          "role": "Freed channeler",
+          "relationships": {
+            "Past": "Seanchan damane",
+            "Present": "Serving Rand"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Adapts to freedom while using her considerable power in service to the Dragon Reborn.",
+          "role": "Powerful ally",
+          "relationships": {
+            "Adaptation": "Learning freedom",
+            "Strength": "Very strong channeler"
+          }
+        }
+      }
+    },
+    "verin": {
+      "name": "Verin Mathwin",
+      "aliases": ["Verin Sedai"],
+      "appearances": [2, 7, 15, 19],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A Brown Sister among the rebels, known for her scholarly nature and mysterious interests.",
+          "role": "Scholar Aes Sedai",
+          "relationships": {
+            "Ajah": "Brown Sisters",
+            "Nature": "Mysterious scholar"
+          }
+        },
+        "15": {
+          "revealedIn": 15,
+          "description": "Continues her research and observations while serving with the rebel Aes Sedai.",
+          "role": "Observant researcher",
+          "relationships": {
+            "Activity": "Scholarly pursuits",
+            "Loyalty": "Rebel faction"
+          }
+        }
+      }
+    },
+    "kiruna": {
+      "name": "Kiruna",
+      "aliases": ["Kiruna Sedai"],
+      "appearances": [12, 18, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Green Sister who has sworn fealty to Rand, now serving among his Aes Sedai followers.",
+          "role": "Sworn follower",
+          "relationships": {
+            "Oath": "Fealty to Rand",
+            "Ajah": "Green Sisters"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Maintains her oath of fealty while dealing with the implications of serving the Dragon Reborn.",
+          "role": "Loyal servant",
+          "relationships": {
+            "Service": "Dragon Reborn",
+            "Struggle": "Traditional vs sworn loyalty"
+          }
+        }
+      }
+    },
+    "bera": {
+      "name": "Bera",
+      "aliases": ["Bera Sedai"],
+      "appearances": [12, 18, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Green Sister who has also sworn fealty to Rand, working alongside the other sworn Aes Sedai.",
+          "role": "Sworn supporter",
+          "relationships": {
+            "Oath": "Fealty to Rand",
+            "Cooperation": "With other sworn Sisters"
+          }
+        },
+        "23": {
+          "revealedIn": 23,
+          "description": "Continues her service while adapting to the unprecedented situation of Aes Sedai sworn to a man.",
+          "role": "Adapting servant",
+          "relationships": {
+            "Service": "Rand al'Thor",
+            "Adaptation": "New form of loyalty"
+          }
+        }
+      }
+    },
+    "rafela": {
+      "name": "Rafela",
+      "aliases": ["Rafela Sedai"],
+      "appearances": [12, 18],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Another Aes Sedai among those who have sworn fealty to Rand, contributing to his growing circle of supporters.",
+          "role": "Sworn Aes Sedai",
+          "relationships": {
+            "Oath": "To Dragon Reborn",
+            "Group": "Sworn Sisters"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Works with the other sworn Aes Sedai in service to Rand's goals and missions.",
+          "role": "Cooperative servant",
+          "relationships": {
+            "Service": "Rand's missions",
+            "Teamwork": "With fellow sworn Sisters"
+          }
+        }
+      }
+    },
+    "merise": {
+      "name": "Merise",
+      "aliases": ["Merise Sedai"],
+      "appearances": [12, 18, 21, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "An Aes Sedai who has bonded one of the Asha'man, creating an unusual reversal of traditional bonding.",
+          "role": "Asha'man bonder",
+          "relationships": {
+            "Bonded": "An Asha'man",
+            "Innovation": "Reverse bonding"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Navigates the complex dynamics of having a male channeler as her Warder.",
+          "role": "Pioneer in bonding",
+          "relationships": {
+            "Warder": "Male channeler",
+            "Challenge": "New type of bond"
+          }
+        }
+      }
+    },
+    "corele": {
+      "name": "Corele",
+      "aliases": ["Corele Sedai"],
+      "appearances": [12, 21, 23],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Yellow Sister known for her healing abilities, working with Cadsuane's group around Rand.",
+          "role": "Healer",
+          "relationships": {
+            "Specialty": "Healing arts",
+            "Association": "Cadsuane's circle"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Uses her healing expertise while navigating the political complexities around the Dragon Reborn.",
+          "role": "Political healer",
+          "relationships": {
+            "Service": "Healing needs",
+            "Politics": "Around Rand"
+          }
+        }
+      }
+    },
+    "sarene": {
+      "name": "Sarene",
+      "aliases": ["Sarene Sedai"],
+      "appearances": [12, 21],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A White Sister in Cadsuane's circle, bringing logical analysis to their efforts around Rand.",
+          "role": "Logical analyst",
+          "relationships": {
+            "Ajah": "White Sisters",
+            "Group": "Cadsuane's circle"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Applies White Ajah logic to understanding and advising on matters concerning the Dragon Reborn.",
+          "role": "Strategic thinker",
+          "relationships": {
+            "Approach": "Logical analysis",
+            "Focus": "Dragon Reborn matters"
+          }
+        }
+      }
+    },
+    "samitsu": {
+      "name": "Samitsu",
+      "aliases": ["Samitsu Sedai"],
+      "appearances": [12, 21],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "Another Yellow Sister working with Cadsuane, specializing in healing and medical knowledge.",
+          "role": "Medical specialist",
+          "relationships": {
+            "Expertise": "Advanced healing",
+            "Team": "Cadsuane's group"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Provides medical expertise while dealing with the unique challenges of treating the Dragon Reborn.",
+          "role": "Dragon's healer",
+          "relationships": {
+            "Patient": "Rand al'Thor",
+            "Challenge": "Unique medical needs"
+          }
+        }
+      }
+    },
+    "nesune": {
+      "name": "Nesune",
+      "aliases": ["Nesune Sedai"],
+      "appearances": [12, 18],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Brown Sister among those sworn to Rand, bringing scholarly expertise to his service.",
+          "role": "Scholar in service",
+          "relationships": {
+            "Oath": "Sworn to Rand",
+            "Contribution": "Scholarly knowledge"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Uses her Brown Ajah research skills in service to the Dragon Reborn's various needs.",
+          "role": "Research specialist",
+          "relationships": {
+            "Service": "Rand's needs",
+            "Skills": "Research and scholarship"
+          }
+        }
+      }
+    },
+    "erian": {
+      "name": "Erian",
+      "aliases": ["Erian Sedai"],
+      "appearances": [12, 18],
+      "knowledge": {
+        "12": {
+          "revealedIn": 12,
+          "description": "A Green Sister among those sworn to Rand, adapting to her new role in his service.",
+          "role": "Battle-ready servant",
+          "relationships": {
+            "Oath": "To Dragon Reborn",
+            "Readiness": "For battle"
+          }
+        },
+        "18": {
+          "revealedIn": 18,
+          "description": "Maintains her Green Ajah readiness for battle while serving Rand's broader goals.",
+          "role": "Warrior in service",
+          "relationships": {
+            "Service": "Rand's goals",
+            "Nature": "Battle-oriented"
+          }
+        }
+      }
+    },
+    "faeldrin": {
+      "name": "Faeldrin",
+      "aliases": ["Wise One"],
+      "appearances": [4, 21, 22],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Shaido Wise One serving under Sevanna, involved in the management of their captives.",
+          "role": "Shaido Wise One",
+          "relationships": {
+            "Leader": "Sevanna",
+            "Duty": "Managing captives"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Continues to serve Sevanna while dealing with internal Shaido politics and prisoner management.",
+          "role": "Captive overseer",
+          "relationships": {
+            "Authority": "Over prisoners",
+            "Politics": "Internal Shaido conflicts"
+          }
+        }
+      }
+    },
+    "therava": {
+      "name": "Therava",
+      "aliases": ["Wise One"],
+      "appearances": [4, 21, 22, 26],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A powerful Shaido Wise One, one of Sevanna's key supporters and advisors.",
+          "role": "Senior Wise One",
+          "relationships": {
+            "Alliance": "With Sevanna",
+            "Status": "Powerful among Shaido"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Maintains significant influence within the Shaido while supporting Sevanna's leadership.",
+          "role": "Influential advisor",
+          "relationships": {
+            "Support": "Sevanna's rule",
+            "Power": "Major Shaido influence"
+          }
+        }
+      }
+    },
+    "modarra": {
+      "name": "Modarra",
+      "aliases": ["Wise One"],
+      "appearances": [4, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another Shaido Wise One in Sevanna's circle, participating in the management of their territory.",
+          "role": "Supporting Wise One",
+          "relationships": {
+            "Circle": "Sevanna's advisors",
+            "Role": "Territory management"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Continues her duties while navigating the complex politics within the Shaido leadership.",
+          "role": "Political participant",
+          "relationships": {
+            "Navigation": "Shaido politics",
+            "Participation": "Leadership decisions"
+          }
+        }
+      }
+    },
+    "maeric": {
+      "name": "Maeric",
+      "aliases": ["Clan Chief"],
+      "appearances": [4, 21, 26],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Shaido clan chief serving under Sevanna's leadership, leading warriors in their current campaign.",
+          "role": "Shaido chief",
+          "relationships": {
+            "Leader": "Sevanna",
+            "Command": "Shaido warriors"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Continues to lead his warriors while dealing with the challenges facing the Shaido.",
+          "role": "Warrior leader",
+          "relationships": {
+            "Warriors": "Under his command",
+            "Challenges": "Shaido difficulties"
+          }
+        }
+      }
+    },
+    "bendhuin": {
+      "name": "Bendhuin",
+      "aliases": ["Clan Chief"],
+      "appearances": [4, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Another Shaido clan chief, part of the leadership structure under Sevanna.",
+          "role": "Shaido leader",
+          "relationships": {
+            "Position": "Clan chief",
+            "Authority": "Under Sevanna"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Participates in Shaido leadership decisions while managing his own clan's needs.",
+          "role": "Clan manager",
+          "relationships": {
+            "Responsibility": "His clan",
+            "Participation": "Leadership council"
+          }
+        }
+      }
+    },
+    "rolan": {
+      "name": "Rolan",
+      "aliases": ["Shaido warrior"],
+      "appearances": [4, 7, 10, 21, 26],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Shaido warrior who shows interest in the captive Faile, assigned to guard the prisoners.",
+          "role": "Interested guard",
+          "relationships": {
+            "Interest": "Faile Bashere",
+            "Duty": "Guarding captives"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Continues to watch over Faile, developing protective feelings that complicate his role as captor.",
+          "role": "Protective captor",
+          "relationships": {
+            "Protection": "Of Faile",
+            "Conflict": "Duty vs feelings"
+          }
+        }
+      }
+    },
+    "lacile": {
+      "name": "Lacile",
+      "aliases": ["Cairhienin prisoner"],
+      "appearances": [4, 7, 10, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Cairhienin noblewoman captured with Faile, adapting to life as a prisoner among the Shaido.",
+          "role": "Noble prisoner",
+          "relationships": {
+            "Fellow captive": "Faile",
+            "Origin": "Cairhienin nobility"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Forms bonds with other prisoners while maintaining hope for eventual freedom.",
+          "role": "Hopeful captive",
+          "relationships": {
+            "Bonds": "With fellow prisoners",
+            "Hope": "For freedom"
+          }
+        }
+      }
+    },
+    "arrela": {
+      "name": "Arrela",
+      "aliases": ["Tairen prisoner"],
+      "appearances": [4, 7, 10, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Tairen woman among the prisoners, showing strength and resilience in captivity.",
+          "role": "Resilient prisoner",
+          "relationships": {
+            "Group": "Fellow captives",
+            "Origin": "Tairen background"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Continues to support fellow prisoners while adapting to their difficult circumstances.",
+          "role": "Supportive captive",
+          "relationships": {
+            "Support": "Fellow prisoners",
+            "Adaptation": "To captivity"
+          }
+        }
+      }
+    },
+    "bain": {
+      "name": "Bain",
+      "aliases": ["Maiden of the Spear"],
+      "appearances": [4, 7, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Maiden of the Spear among the prisoners, maintaining her warrior dignity despite captivity.",
+          "role": "Captive Maiden",
+          "relationships": {
+            "Sister": "Chiad",
+            "Status": "Prisoner but proud"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Continues to embody Maiden values while enduring the humiliation of captivity.",
+          "role": "Dignified prisoner",
+          "relationships": {
+            "Values": "Maiden honor",
+            "Endurance": "Of humiliation"
+          }
+        }
+      }
+    },
+    "chiad": {
+      "name": "Chiad",
+      "aliases": ["Maiden of the Spear"],
+      "appearances": [4, 7, 21],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Bain's sister-friend, also a Maiden captured by the Shaido. Maintains her fierce spirit.",
+          "role": "Fierce prisoner",
+          "relationships": {
+            "Sister": "Bain",
+            "Nature": "Fiercely independent"
+          }
+        },
+        "21": {
+          "revealedIn": 21,
+          "description": "Supports Bain while both struggle with the constraints of being prisoners.",
+          "role": "Loyal sister-friend",
+          "relationships": {
+            "Support": "For Bain",
+            "Struggle": "Against constraints"
+          }
+        }
+      }
+    },
+    "balwer": {
+      "name": "Balwer",
+      "aliases": ["Secretary"],
+      "appearances": [5, 8, 10, 25],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Perrin's secretary and intelligence gatherer, formerly in service to the Whitecloaks.",
+          "role": "Intelligence officer",
+          "relationships": {
+            "Service": "Perrin Aybara",
+            "Past": "Whitecloak service"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Uses his information-gathering skills to aid in the search for Faile and planning rescue efforts.",
+          "role": "Information specialist",
+          "relationships": {
+            "Mission": "Helping find Faile",
+            "Skills": "Intelligence gathering"
+          }
+        }
+      }
+    },
+    "arganda": {
+      "name": "Arganda",
+      "aliases": ["First Captain"],
+      "appearances": [5, 8, 10, 25],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "First Captain of Ghealdan, loyal to Queen Alliandre. Aids Perrin in the search for their captured queen.",
+          "role": "Loyal captain",
+          "relationships": {
+            "Queen": "Alliandre",
+            "Alliance": "With Perrin"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Provides military expertise and manpower for the rescue mission to save Queen Alliandre.",
+          "role": "Military ally",
+          "relationships": {
+            "Goal": "Rescuing Alliandre",
+            "Contribution": "Military support"
+          }
+        }
+      }
+    },
+    "gallenne": {
+      "name": "Gallenne",
+      "aliases": ["Lord Captain"],
+      "appearances": [5, 8, 10, 25],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Lord Captain of Mayene's Winged Guards, serving under Berelain in the mission to find Faile.",
+          "role": "Professional soldier",
+          "relationships": {
+            "Service": "Berelain",
+            "Unit": "Winged Guards"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Leads his troops effectively while supporting the overall rescue strategy.",
+          "role": "Tactical leader",
+          "relationships": {
+            "Leadership": "Winged Guards",
+            "Support": "Rescue mission"
+          }
+        }
+      }
+    },
+    "tylee": {
+      "name": "Tylee",
+      "aliases": ["Banner-General"],
+      "appearances": [8, 10, 25],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Seanchan Banner-General who becomes involved in negotiations regarding the Shaido situation.",
+          "role": "Seanchan negotiator",
+          "relationships": {
+            "Military rank": "Banner-General",
+            "Involvement": "Shaido negotiations"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Continues diplomatic and military discussions about potential Seanchan involvement in the rescue.",
+          "role": "Military diplomat",
+          "relationships": {
+            "Role": "Seanchan representative",
+            "Topic": "Rescue cooperation"
+          }
+        }
+      }
+    },
+    "mishima": {
+      "name": "Mishima",
+      "aliases": ["Lieutenant-General"],
+      "appearances": [8, 10],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Seanchan Lieutenant-General working with Tylee on matters involving the Shaido threat.",
+          "role": "Seanchan officer",
+          "relationships": {
+            "Colleague": "Tylee",
+            "Concern": "Shaido threat"
+          }
+        },
+        "10": {
+          "revealedIn": 10,
+          "description": "Participates in strategic planning regarding Seanchan response to the Shaido situation.",
+          "role": "Strategic planner",
+          "relationships": {
+            "Planning": "Anti-Shaido strategy",
+            "Authority": "Military command"
+          }
+        }
+      }
+    }
+  },
+  "recaps": {
+    "1": "The world reacts to the cleansing of saidin. Rand deals with the aftermath while various factions process this monumental event. Mat continues his journey with the captured Tuon.",
+    "2": "Egwene maintains her position as the rebel Amyrlin while political maneuvering continues within both Tower factions. The effects of the cleansing ripple across different organizations.",
+    "3": "Mat's relationship with Tuon becomes more complex as they travel together. Political tensions rise among various groups as news of the cleansing spreads.",
+    "4": "Faile and the other prisoners endure their captivity among the Shaido. Sevanna maintains control while internal pressures build within the Shaido leadership.",
+    "5": "Perrin desperately searches for Faile with his allies. Aviendha continues her Wise One training. Rand struggles with the growing distance he feels from others.",
+    "6": "The Prophet Masema's influence continues to cause problems. Mat and Tuon's interactions reveal more of their personalities to each other.",
+    "7": "Political maneuvering intensifies among the rebel Aes Sedai. The prisoners among the Shaido face ongoing challenges while maintaining hope for rescue.",
+    "8": "Negotiations begin regarding potential Seanchan involvement in dealing with the Shaido. Perrin explores all options to rescue his wife.",
+    "9": "Mat finds himself increasingly drawn to Tuon despite their circumstances. The complexity of their situation deepens as they spend more time together.",
+    "10": "Perrin considers desperate measures to rescue Faile. The prisoners continue to endure their captivity while some show growing resilience and adaptation.",
+    "11": "Elayne continues her campaign for the Lion Throne of Andor. Political and military challenges mount as she seeks to secure her rightful inheritance.",
+    "12": "Rand becomes increasingly isolated and cold. Cadsuane attempts to influence him while various Aes Sedai and Asha'man serve in his retinue.",
+    "13": "The succession in Andor becomes more complex as various noble houses position themselves. Elayne faces multiple challenges to her claim.",
+    "14": "The search for Tuon intensifies among the Seanchan while Mat continues to navigate his relationship with her. Suroth faces pressure from multiple directions.",
+    "15": "The rebel Aes Sedai deal with internal politics as Egwene maintains her authority. Elayne's pregnancy adds complications to her royal campaign.",
+    "16": "Mat's group continues their travels while the relationship between Mat and Tuon develops further. Political pressures mount in various locations.",
+    "17": "The complex dynamics within Mat's traveling group continue to evolve. Thom provides counsel while observing the growing connection between Mat and Tuon.",
+    "18": "Rand's emotional distance grows as he hardens himself against feeling. The Asha'man and sworn Aes Sedai around him deal with his changing nature.",
+    "19": "Political maneuvering within the rebel Hall continues as various Sisters pursue their own agendas while nominally supporting Egwene's leadership.",
+    "20": "Mat and Tuon's relationship reaches new levels of complexity as they begin to understand each other better despite their opposing circumstances.",
+    "21": "The Shaido face internal pressures while maintaining control over their prisoners. Sevanna's leadership is tested by various challenges and competing interests.",
+    "22": "The prisoners among the Shaido continue to adapt to their circumstances while maintaining hope. Internal Shaido politics create new tensions and opportunities.",
+    "23": "Rand continues his emotional withdrawal while those around him struggle to understand and influence his increasingly distant behavior.",
+    "24": "Political situations reach critical points in multiple locations. Egwene faces challenges to her authority while Elayne advances her claim to the throne.",
+    "25": "Military preparations intensify as various groups prepare for potential conflicts. Perrin's rescue plans become more detailed and desperate.",
+    "26": "The situation among the Shaido reaches a turning point as various pressures converge. The prisoners face new challenges and potential opportunities.",
+    "27": "Rand's relationships with family and friends become more strained as his emotional distance increases. Those who care about him struggle with his changes.",
+    "28": "The search for the Daughter of the Nine Moons continues while Mat and Tuon's relationship evolves. Political pressures affect multiple parties.",
+    "29": "Mat's group faces new challenges while the relationship between Mat and Tuon becomes even more complex and significant for both their futures.",
+    "30": "Multiple storylines reach critical junctures as political and personal situations come to heads. Various characters face important decisions about their futures."
+  }
+}
