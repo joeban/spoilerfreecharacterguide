@@ -1585,6 +1585,502 @@
           }
         }
       }
+    },
+    "aelfinn-1": {
+      "name": "Aelfinn Questioner",
+      "aliases": ["Snakelike Being"],
+      "appearances": [52, 54, 55, 56],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "One of the snakelike inhabitants of the Tower of Ghenjei who grants answers but at a price.",
+          "role": "Question answerer",
+          "relationships": {
+            "Nature": "Snakelike being",
+            "Function": "Granting answers"
+          }
+        }
+      }
+    },
+    "eelfinn-1": {
+      "name": "Eelfinn Granter",
+      "aliases": ["Foxlike Being"],
+      "appearances": [52, 54, 55, 56],
+      "knowledge": {
+        "52": {
+          "revealedIn": 52,
+          "description": "One of the foxlike inhabitants of the Tower of Ghenjei who grants wishes but extracts a price.",
+          "role": "Wish granter",
+          "relationships": {
+            "Nature": "Foxlike being",
+            "Function": "Granting wishes"
+          }
+        }
+      }
+    },
+    "aelfinn-2": {
+      "name": "Second Aelfinn",
+      "aliases": ["Snake Guardian"],
+      "appearances": [54, 55, 56],
+      "knowledge": {
+        "54": {
+          "revealedIn": 54,
+          "description": "Another of the Aelfinn who guards the twisted passages of the Tower of Ghenjei.",
+          "role": "Tower guardian",
+          "relationships": {
+            "Guard": "Tower passages",
+            "Nature": "Aelfinn being"
+          }
+        }
+      }
+    },
+    "eelfinn-2": {
+      "name": "Second Eelfinn",
+      "aliases": ["Fox Guardian"],
+      "appearances": [54, 55, 56],
+      "knowledge": {
+        "54": {
+          "revealedIn": 54,
+          "description": "Another of the Eelfinn who inhabit the dangerous realm within the Tower of Ghenjei.",
+          "role": "Realm inhabitant",
+          "relationships": {
+            "Inhabit": "Tower realm",
+            "Nature": "Eelfinn being"
+          }
+        }
+      }
+    },
+    "aelfinn-3": {
+      "name": "Third Aelfinn",
+      "aliases": ["Ancient Snake"],
+      "appearances": [55, 56],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "An ancient Aelfinn with deep knowledge of the Tower's secrets and dangers.",
+          "role": "Ancient keeper",
+          "relationships": {
+            "Knowledge": "Tower secrets",
+            "Age": "Ancient being"
+          }
+        }
+      }
+    },
+    "eelfinn-3": {
+      "name": "Third Eelfinn",
+      "aliases": ["Sly Fox"],
+      "appearances": [55, 56],
+      "knowledge": {
+        "55": {
+          "revealedIn": 55,
+          "description": "A particularly cunning Eelfinn who attempts to confuse and trap the rescue party.",
+          "role": "Cunning trapper",
+          "relationships": {
+            "Cunning": "Trap setting",
+            "Target": "Rescue party"
+          }
+        }
+      }
+    },
+    "donalo": {
+      "name": "Donalo Sandomere",
+      "aliases": ["Asha'man"],
+      "appearances": [2, 9, 20, 30, 39, 46, 56],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Asha'man at the Black Tower caught between loyalty to the Tower's mission and concern about corruption.",
+          "role": "Conflicted Asha'man",
+          "relationships": {
+            "Loyalty": "Tower mission",
+            "Concern": "Growing corruption"
+          }
+        }
+      }
+    },
+    "mezar": {
+      "name": "Mezar Kurin",
+      "aliases": ["Asha'man"],
+      "appearances": [2, 9, 20, 30, 39, 46],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Asha'man showing signs of corruption and loyalty to Taim's faction at the Black Tower.",
+          "role": "Corrupted Asha'man",
+          "relationships": {
+            "Loyalty": "Taim's faction",
+            "Signs": "Of corruption"
+          }
+        }
+      }
+    },
+    "dedric": {
+      "name": "Dedric Corlan",
+      "aliases": ["Asha'man"],
+      "appearances": [2, 9, 20, 30, 39],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Asha'man struggling with the dark atmosphere at the Black Tower and questioning his allegiances.",
+          "role": "Questioning Asha'man",
+          "relationships": {
+            "Struggle": "Dark atmosphere",
+            "Question": "Personal allegiances"
+          }
+        }
+      }
+    },
+    "welyn": {
+      "name": "Welyn Kajima",
+      "aliases": ["Asha'man"],
+      "appearances": [2, 9, 20, 30, 39, 46, 56],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Asha'man who supports Logain's efforts to reform the Black Tower and eliminate corruption.",
+          "role": "Reform supporter",
+          "relationships": {
+            "Support": "Logain's reforms",
+            "Goal": "Eliminate corruption"
+          }
+        }
+      }
+    },
+    "canler": {
+      "name": "Canler",
+      "aliases": ["Asha'man"],
+      "appearances": [2, 9, 20, 30, 39, 46],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An experienced Asha'man working with the reformers to restore the Black Tower's original purpose.",
+          "role": "Experienced reformer",
+          "relationships": {
+            "Experience": "In channeling",
+            "Work": "Tower restoration"
+          }
+        }
+      }
+    },
+    "algarin": {
+      "name": "Algarin Pendaloan",
+      "aliases": ["Lord Algarin"],
+      "appearances": [3, 13, 25, 32, 42, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Tear nobleman who supports Rand and provides resources for the Dragon Reborn's mission.",
+          "role": "Supporting nobleman",
+          "relationships": {
+            "Support": "Rand al'Thor",
+            "Provision": "Resources for mission"
+          }
+        }
+      }
+    },
+    "darlin": {
+      "name": "Darlin Sisnera",
+      "aliases": ["King of Tear"],
+      "appearances": [3, 13, 25, 32, 42, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The King of Tear who supports Rand's leadership and prepares his kingdom for the Last Battle.",
+          "role": "Allied king",
+          "relationships": {
+            "Support": "Rand's leadership",
+            "Preparation": "Kingdom for war"
+          }
+        }
+      }
+    },
+    "caraline": {
+      "name": "Caraline Damodred",
+      "aliases": ["Lady Caraline"],
+      "appearances": [3, 13, 25, 32, 42, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Cairhienin noblewoman who has allied with Darlin and supports the alliance against the Shadow.",
+          "role": "Allied noblewoman",
+          "relationships": {
+            "Alliance": "With Darlin",
+            "Support": "Against Shadow"
+          }
+        }
+      }
+    },
+    "dobraine": {
+      "name": "Dobraine Taborwin",
+      "aliases": ["Lord Dobraine"],
+      "appearances": [3, 13, 25, 32, 42, 51],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A loyal Cairhienin lord who serves Rand faithfully and helps coordinate military preparations.",
+          "role": "Loyal coordinator",
+          "relationships": {
+            "Service": "To Rand faithfully",
+            "Coordination": "Military preparations"
+          }
+        }
+      }
+    },
+    "ailil": {
+      "name": "Ailil Riatin",
+      "aliases": ["Lady Ailil"],
+      "appearances": [13, 25, 42, 51],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Cairhienin noblewoman who has come to support Rand's cause despite previous opposition.",
+          "role": "Reformed supporter",
+          "relationships": {
+            "Support": "Rand's cause",
+            "Change": "From opposition"
+          }
+        }
+      }
+    },
+    "anaiyella": {
+      "name": "Anaiyella Narencelona",
+      "aliases": ["Lady Anaiyella"],
+      "appearances": [13, 25, 42, 51],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "A Cairhienin noblewoman working within the alliance structure to support preparations for war.",
+          "role": "Alliance worker",
+          "relationships": {
+            "Work": "Within alliance",
+            "Support": "War preparations"
+          }
+        }
+      }
+    },
+    "child-lathin": {
+      "name": "Lathin",
+      "aliases": ["Child Lathin"],
+      "appearances": [5, 14, 26, 34, 40, 47],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Whitecloak officer serving under Galad's reformed leadership and adapting to new methods.",
+          "role": "Reformed officer",
+          "relationships": {
+            "Service": "Under Galad",
+            "Adaptation": "To new methods"
+          }
+        }
+      }
+    },
+    "child-harnesh": {
+      "name": "Harnesh",
+      "aliases": ["Child Harnesh"],
+      "appearances": [5, 14, 26, 34, 40, 47],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Whitecloak soldier embracing the reformed mission of the Children of the Light.",
+          "role": "Embracing soldier",
+          "relationships": {
+            "Embrace": "Reformed mission",
+            "Service": "Children of Light"
+          }
+        }
+      }
+    },
+    "child-nassad": {
+      "name": "Nassad",
+      "aliases": ["Child Nassad"],
+      "appearances": [5, 14, 26, 34, 40],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Whitecloak who represents the organization's transformation under Galad's righteous leadership.",
+          "role": "Transformation representative",
+          "relationships": {
+            "Represent": "Organization change",
+            "Leadership": "Galad's righteousness"
+          }
+        }
+      }
+    },
+    "lord-captain-golever": {
+      "name": "Golever",
+      "aliases": ["Lord Captain Golever"],
+      "appearances": [5, 14, 26, 34, 40, 47],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Lord Captain of the Whitecloaks supporting Galad's reforms and new direction for the organization.",
+          "role": "Reform-supporting captain",
+          "relationships": {
+            "Support": "Galad's reforms",
+            "Direction": "Organization change"
+          }
+        }
+      }
+    },
+    "lord-captain-brandel": {
+      "name": "Brandel",
+      "aliases": ["Lord Captain Brandel"],
+      "appearances": [5, 14, 26, 34, 40, 47],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A senior Whitecloak officer working to implement Galad's vision of true righteousness.",
+          "role": "Vision implementer",
+          "relationships": {
+            "Implementation": "Galad's vision",
+            "Goal": "True righteousness"
+          }
+        }
+      }
+    },
+    "kaisel": {
+      "name": "Kaisel Noramaga",
+      "aliases": ["Saldaean Noble"],
+      "appearances": [1, 4, 18, 32, 44, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Saldaean noble serving with Bashere's forces and supporting Perrin's coalition.",
+          "role": "Noble supporter",
+          "relationships": {
+            "Service": "Bashere's forces",
+            "Support": "Perrin's coalition"
+          }
+        }
+      }
+    },
+    "havien": {
+      "name": "Havien Nurelle",
+      "aliases": ["Lieutenant Nurelle"],
+      "appearances": [1, 4, 18, 28, 44, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Mayener officer serving under Berelain and providing military expertise to the alliance.",
+          "role": "Expert officer",
+          "relationships": {
+            "Service": "Under Berelain",
+            "Expertise": "Military skills"
+          }
+        }
+      }
+    },
+    "gallenne": {
+      "name": "Bertain Gallenne",
+      "aliases": ["Captain Gallenne"],
+      "appearances": [1, 4, 18, 28, 44, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Captain of Berelain's Winged Guards, leading elite troops in support of the coalition.",
+          "role": "Elite captain",
+          "relationships": {
+            "Command": "Winged Guards",
+            "Support": "Coalition efforts"
+          }
+        }
+      }
+    },
+    "jur": {
+      "name": "Jur Grady",
+      "aliases": ["Dedicated"],
+      "appearances": [1, 4, 10, 18, 24, 28, 35, 40, 44, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Dedicated Asha'man whose loyalty to Perrin demonstrates the potential for reformed male channelers.",
+          "role": "Loyal Dedicated",
+          "relationships": {
+            "Loyalty": "To Perrin",
+            "Demonstration": "Reform potential"
+          }
+        }
+      }
+    },
+    "fager": {
+      "name": "Fager Neald",
+      "aliases": ["Dedicated"],
+      "appearances": [1, 4, 10, 18, 24, 28, 35, 40, 44, 53],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A Dedicated Asha'man working alongside Grady to support Perrin's mission with channeling abilities.",
+          "role": "Supporting Dedicated",
+          "relationships": {
+            "Partnership": "With Grady",
+            "Support": "Perrin's mission"
+          }
+        }
+      }
+    },
+    "damer": {
+      "name": "Damer Flinn",
+      "aliases": ["Asha'man Flinn"],
+      "appearances": [2, 9, 20, 30, 39, 46, 56],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An older Asha'man with Healing abilities who supports reform efforts at the Black Tower.",
+          "role": "Healing reformer",
+          "relationships": {
+            "Ability": "Healing with saidin",
+            "Support": "Reform efforts"
+          }
+        }
+      }
+    },
+    "eben": {
+      "name": "Eben Hopwil",
+      "aliases": ["Soldier"],
+      "appearances": [2, 9, 20, 30, 39],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young Soldier at the Black Tower learning to navigate the dangerous political atmosphere.",
+          "role": "Learning Soldier",
+          "relationships": {
+            "Learning": "Political navigation",
+            "Atmosphere": "Dangerous tensions"
+          }
+        }
+      }
+    },
+    "jahar": {
+      "name": "Jahar Narishma",
+      "aliases": ["Asha'man Narishma"],
+      "appearances": [2, 9, 20, 30, 39, 46, 56],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Asha'man bonded to an Aes Sedai, representing new possibilities for cooperation.",
+          "role": "Bonded bridge",
+          "relationships": {
+            "Bond": "To Aes Sedai",
+            "Representation": "New cooperation"
+          }
+        }
+      }
+    },
+    "karldin": {
+      "name": "Karldin Manfor",
+      "aliases": ["Asha'man Manfor"],
+      "appearances": [2, 9, 20, 30, 39, 46],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An Asha'man caught between conflicting loyalties as the Black Tower faces internal division.",
+          "role": "Conflicted Asha'man",
+          "relationships": {
+            "Conflict": "Loyalties divided",
+            "Division": "Internal Tower strife"
+          }
+        }
+      }
     }
   },
   "recaps": {
