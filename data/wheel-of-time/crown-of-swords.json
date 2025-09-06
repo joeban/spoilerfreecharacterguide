@@ -1552,6 +1552,996 @@
           }
         }
       }
+    },
+    "suroth": {
+      "name": "Suroth Sabelle Meldarath",
+      "aliases": ["High Lady Suroth"],
+      "appearances": [14, 20, 35, 38],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A high-ranking Seanchan noble overseeing their expansion into mainland territories.",
+          "role": "Seanchan High Lady",
+          "relationships": {
+            "Authority": "Seanchan expansion",
+            "Position": "High noble"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Continues coordinating the Seanchan consolidation of conquered territories with typical Seanchan efficiency.",
+          "role": "Territory coordinator",
+          "relationships": {
+            "Mission": "Territory consolidation",
+            "Method": "Seanchan efficiency"
+          }
+        }
+      }
+    },
+    "tuon": {
+      "name": "Tuon Athaem Kore Paendrag",
+      "aliases": ["Daughter of the Nine Moons"],
+      "appearances": [20, 35, 38],
+      "knowledge": {
+        "20": {
+          "revealedIn": 20,
+          "description": "A mysterious high-ranking Seanchan figure mentioned in prophecies and planning.",
+          "role": "Prophetic figure",
+          "relationships": {
+            "Prophecy": "Nine Moons",
+            "Status": "High Seanchan"
+          }
+        }
+      }
+    },
+    "egeanin": {
+      "name": "Egeanin Tamarath",
+      "appearances": [14, 20, 35],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A Seanchan ship captain operating in the areas of Seanchan expansion.",
+          "role": "Ship captain",
+          "relationships": {
+            "Command": "Seanchan vessel",
+            "Operation": "Expansion areas"
+          }
+        }
+      }
+    },
+    "bayle": {
+      "name": "Bayle Domon",
+      "appearances": [14, 20, 35],
+      "knowledge": {
+        "14": {
+          "revealedIn": 14,
+          "description": "A ship captain involved in the complex politics and conflicts of the coastal regions.",
+          "role": "Ship captain",
+          "relationships": {
+            "Involvement": "Coastal politics",
+            "Navigation": "Complex conflicts"
+          }
+        }
+      }
+    },
+    "setalle": {
+      "name": "Setalle Anan",
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "An innkeeper in Ebou Dar with connections to various groups and knowledge of the city's intricate social structure.",
+          "role": "Connected innkeeper",
+          "relationships": {
+            "City": "Ebou Dar",
+            "Knowledge": "Social structure"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Provides assistance and information to various parties while maintaining her position in Ebou Dar society.",
+          "role": "Information provider",
+          "relationships": {
+            "Assistance": "Various parties",
+            "Position": "Ebou Dar society"
+          }
+        }
+      }
+    },
+    "jasfer": {
+      "name": "Jasfer Anan",
+      "appearances": [28, 31, 35],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A member of the Anan family in Ebou Dar, connected to the inn and local community.",
+          "role": "Family member",
+          "relationships": {
+            "Family": "Anan",
+            "Connection": "Inn and community"
+          }
+        }
+      }
+    },
+    "nicola": {
+      "name": "Nicola Treehill",
+      "appearances": [8, 15, 22, 29],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A young woman with a talent for Foretelling, involved with the rebel Aes Sedai camp.",
+          "role": "Foreteller",
+          "relationships": {
+            "Talent": "Foretelling",
+            "Association": "Rebel Aes Sedai"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Continues developing her abilities while navigating the complex politics of the Aes Sedai rebellion.",
+          "role": "Developing talent",
+          "relationships": {
+            "Development": "Growing abilities",
+            "Navigation": "Rebel politics"
+          }
+        }
+      }
+    },
+    "areina": {
+      "name": "Areina Nermasiv",
+      "appearances": [8, 15, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A young woman training with the rebel Aes Sedai, working to develop her channeling abilities.",
+          "role": "Channeling student",
+          "relationships": {
+            "Training": "With rebels",
+            "Development": "Channeling abilities"
+          }
+        }
+      }
+    },
+    "gareth": {
+      "name": "Gareth Bryne",
+      "appearances": [8, 15, 22, 29, 35],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A former Captain-General of Andor now serving as military leader for the rebel Aes Sedai.",
+          "role": "Rebel military leader",
+          "relationships": {
+            "Former": "Andoran Captain-General",
+            "Current": "Rebel commander"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Continues organizing the rebel army while working closely with Egwene and the rebel leadership.",
+          "role": "Army organizer",
+          "relationships": {
+            "Organization": "Rebel army",
+            "Cooperation": "With Egwene"
+          }
+        }
+      }
+    },
+    "siuan": {
+      "name": "Siuan Sanche",
+      "appearances": [8, 15, 22, 29, 35],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "The former Amyrlin Seat, now stilled and working with the rebel Aes Sedai to regain the Tower.",
+          "role": "Former Amyrlin",
+          "relationships": {
+            "Status": "Stilled",
+            "Goal": "Regain Tower"
+          }
+        },
+        "29": {
+          "revealedIn": 29,
+          "description": "Provides counsel and experience to the rebel cause while adapting to her changed circumstances.",
+          "role": "Rebel counselor",
+          "relationships": {
+            "Contribution": "Experience",
+            "Adaptation": "Changed circumstances"
+          }
+        }
+      }
+    },
+    "leane": {
+      "name": "Leane Sharif",
+      "appearances": [8, 15, 22, 29],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "Former Keeper of the Chronicles, now stilled and working alongside Siuan with the rebel Aes Sedai.",
+          "role": "Former Keeper",
+          "relationships": {
+            "Status": "Stilled",
+            "Partnership": "With Siuan"
+          }
+        }
+      }
+    },
+    "myrelle": {
+      "name": "Myrelle Berengari",
+      "appearances": [8, 15, 29, 35],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Green Ajah Aes Sedai among the rebels, known for her ability with Warders.",
+          "role": "Green Sister",
+          "relationships": {
+            "Ajah": "Green",
+            "Specialty": "Warder bonds"
+          }
+        }
+      }
+    },
+    "nisao": {
+      "name": "Nisao Dachen",
+      "appearances": [15, 22, 29],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A Yellow Ajah Aes Sedai working with the rebel faction to heal the division in the Tower.",
+          "role": "Yellow Sister",
+          "relationships": {
+            "Faction": "Rebel",
+            "Goal": "Heal Tower division"
+          }
+        }
+      }
+    },
+    "anaiya": {
+      "name": "Anaiya Carel",
+      "appearances": [8, 15, 22],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Blue Ajah Aes Sedai supporting the rebel cause and working to restore proper leadership to the Tower.",
+          "role": "Blue Sister",
+          "relationships": {
+            "Support": "Rebel cause",
+            "Goal": "Restore Tower"
+          }
+        }
+      }
+    },
+    "morvrin": {
+      "name": "Morvrin Thakanos",
+      "appearances": [8, 15, 29],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A Brown Ajah Aes Sedai contributing her knowledge and research skills to the rebel effort.",
+          "role": "Brown Sister",
+          "relationships": {
+            "Contribution": "Knowledge",
+            "Skills": "Research"
+          }
+        }
+      }
+    },
+    "carlinya": {
+      "name": "Carlinya Sorevin",
+      "appearances": [8, 22, 29],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A White Ajah Aes Sedai applying logical analysis to the rebel strategies and plans.",
+          "role": "White Sister",
+          "relationships": {
+            "Application": "Logical analysis",
+            "Focus": "Rebel strategies"
+          }
+        }
+      }
+    },
+    "beonin": {
+      "name": "Beonin Marinye",
+      "appearances": [15, 22, 29],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A Gray Ajah Aes Sedai working on negotiations and diplomatic solutions for the Tower's reunification.",
+          "role": "Gray Sister",
+          "relationships": {
+            "Work": "Negotiations",
+            "Goal": "Tower reunification"
+          }
+        }
+      }
+    },
+    "malind": {
+      "name": "Malind Nacere",
+      "appearances": [15, 29],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "An Aes Sedai supporting the rebel faction in their efforts to reclaim proper Tower leadership.",
+          "role": "Rebel supporter",
+          "relationships": {
+            "Support": "Rebel faction",
+            "Goal": "Reclaim Tower"
+          }
+        }
+      }
+    },
+    "escaralde": {
+      "name": "Escaralde din Baltar",
+      "appearances": [28, 31, 35],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A noble or merchant in Ebou Dar involved in the city's complex social and political networks.",
+          "role": "Ebou Dar noble",
+          "relationships": {
+            "Involvement": "Social networks",
+            "City": "Ebou Dar"
+          }
+        }
+      }
+    },
+    "tylin": {
+      "name": "Tylin Quintara",
+      "aliases": ["Queen of Altara"],
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "The Queen of Altara ruling from Ebou Dar, navigating the complex politics of her nation and city.",
+          "role": "Queen of Altara",
+          "relationships": {
+            "Rule": "From Ebou Dar",
+            "Navigation": "Complex politics"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Continues managing her kingdom while dealing with various factions and external pressures.",
+          "role": "Managing queen",
+          "relationships": {
+            "Management": "Kingdom",
+            "Dealing": "Various factions"
+          }
+        }
+      }
+    },
+    "beslan": {
+      "name": "Beslan Mitsobar",
+      "appearances": [31, 35, 38],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A young nobleman in Altara, heir to Queen Tylin and learning the complexities of royal duties.",
+          "role": "Royal heir",
+          "relationships": {
+            "Mother": "Queen Tylin",
+            "Learning": "Royal duties"
+          }
+        }
+      }
+    },
+    "merilille": {
+      "name": "Merilille Ceandevin",
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A Gray Ajah Aes Sedai working in Ebou Dar on matters related to Aes Sedai interests.",
+          "role": "Gray Sister",
+          "relationships": {
+            "Location": "Ebou Dar",
+            "Mission": "Aes Sedai interests"
+          }
+        }
+      }
+    },
+    "adeleas": {
+      "name": "Adeleas Namelle",
+      "appearances": [28, 31, 35],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A Brown Ajah Aes Sedai researching in Ebou Dar, contributing her scholarly expertise to various efforts.",
+          "role": "Brown Sister",
+          "relationships": {
+            "Research": "In Ebou Dar",
+            "Expertise": "Scholarly"
+          }
+        }
+      }
+    },
+    "vandene": {
+      "name": "Vandene Namelle",
+      "appearances": [28, 31, 35],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A Green Ajah Aes Sedai, sister to Adeleas, working alongside her in Ebou Dar.",
+          "role": "Green Sister",
+          "relationships": {
+            "Sister": "Adeleas",
+            "Partnership": "In Ebou Dar"
+          }
+        }
+      }
+    },
+    "kirstian": {
+      "name": "Kirstian Chalwin",
+      "appearances": [31, 35, 38],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A member of the Kin in Ebou Dar, part of the organization that helps women who can channel.",
+          "role": "Kin member",
+          "relationships": {
+            "Organization": "The Kin",
+            "Mission": "Help channelers"
+          }
+        }
+      }
+    },
+    "reanne": {
+      "name": "Reanne Corly",
+      "appearances": [31, 35, 38],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A senior member of the Kin in Ebou Dar, helping to organize their activities and provide guidance.",
+          "role": "Senior Kin",
+          "relationships": {
+            "Position": "Senior member",
+            "Activity": "Organization"
+          }
+        }
+      }
+    },
+    "tamra": {
+      "name": "Tamra Ospenya",
+      "appearances": [22, 29],
+      "knowledge": {
+        "22": {
+          "revealedIn": 22,
+          "description": "A former Amyrlin Seat whose decisions and actions continue to influence current events.",
+          "role": "Former Amyrlin",
+          "relationships": {
+            "Legacy": "Continuing influence",
+            "Decisions": "Affecting events"
+          }
+        }
+      }
+    },
+    "gitara": {
+      "name": "Gitara Moroso",
+      "appearances": [15, 22],
+      "knowledge": {
+        "15": {
+          "revealedIn": 15,
+          "description": "A former Keeper known for her Foretelling ability, whose prophecies continue to guide events.",
+          "role": "Former Keeper",
+          "relationships": {
+            "Ability": "Foretelling",
+            "Legacy": "Guiding prophecies"
+          }
+        }
+      }
+    },
+    "cadsuane": {
+      "name": "Cadsuane Melaidhrin",
+      "appearances": [18, 25, 32, 35],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "A legendary Aes Sedai known for her strength, age, and unique approach to dealing with difficult situations.",
+          "role": "Legendary Sister",
+          "relationships": {
+            "Reputation": "Strength and age",
+            "Approach": "Unique methods"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Continues her work with her distinctive methods, maintaining her reputation as one of the most formidable Aes Sedai.",
+          "role": "Formidable Sister",
+          "relationships": {
+            "Methods": "Distinctive",
+            "Reputation": "Most formidable"
+          }
+        }
+      }
+    },
+    "harine": {
+      "name": "Harine din Togara",
+      "appearances": [34, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "A Sea Folk Wavemistress involved in negotiations and Sea Folk politics.",
+          "role": "Wavemistress",
+          "relationships": {
+            "People": "Sea Folk",
+            "Involvement": "Politics"
+          }
+        }
+      }
+    },
+    "tebreille": {
+      "name": "Tebreille din Gelyn",
+      "appearances": [34, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "A Sea Folk woman working with the Wavemistresses in their maritime and political affairs.",
+          "role": "Sea Folk",
+          "relationships": {
+            "Work": "With Wavemistresses",
+            "Affairs": "Maritime and political"
+          }
+        }
+      }
+    },
+    "shalon": {
+      "name": "Shalon din Togara",
+      "appearances": [34, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "A Sea Folk Windfinder contributing her weather-working abilities to Sea Folk operations.",
+          "role": "Windfinder",
+          "relationships": {
+            "Abilities": "Weather-working",
+            "Contribution": "Sea Folk operations"
+          }
+        }
+      }
+    },
+    "nesta": {
+      "name": "Nesta din Reas",
+      "appearances": [34, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "A high-ranking Sea Folk leader involved in their negotiations and maritime governance.",
+          "role": "Sea Folk leader",
+          "relationships": {
+            "Rank": "High",
+            "Involvement": "Negotiations"
+          }
+        }
+      }
+    },
+    "renaile": {
+      "name": "Renaile din Calon",
+      "appearances": [34, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "A Sea Folk Windfinder working with the weather and supporting Sea Folk interests in various negotiations.",
+          "role": "Windfinder",
+          "relationships": {
+            "Work": "Weather control",
+            "Support": "Sea Folk interests"
+          }
+        }
+      }
+    },
+    "coine": {
+      "name": "Coine din Jubai",
+      "appearances": [34, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "A Sea Folk Sailmistress commanding a ship and representing Sea Folk interests in coastal affairs.",
+          "role": "Sailmistress",
+          "relationships": {
+            "Command": "Sea Folk ship",
+            "Representation": "Coastal affairs"
+          }
+        }
+      }
+    },
+    "jorin": {
+      "name": "Jorin din Jubai",
+      "appearances": [34, 38],
+      "knowledge": {
+        "34": {
+          "revealedIn": 34,
+          "description": "A Sea Folk woman serving aboard the ships and contributing to Sea Folk maritime activities.",
+          "role": "Sea Folk crew",
+          "relationships": {
+            "Service": "Aboard ships",
+            "Contribution": "Maritime activities"
+          }
+        }
+      }
+    },
+    "dorindha": {
+      "name": "Dorindha",
+      "appearances": [18, 25, 32],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "An Aiel Wise One providing counsel and maintaining Aiel traditions during these changing times.",
+          "role": "Wise One",
+          "relationships": {
+            "Provision": "Counsel",
+            "Maintenance": "Aiel traditions"
+          }
+        }
+      }
+    },
+    "nadere": {
+      "name": "Nadere",
+      "appearances": [18, 25],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "An Aiel Wise One working with the others to guide the Aiel through the prophecies and changes.",
+          "role": "Wise One",
+          "relationships": {
+            "Guidance": "Through prophecies",
+            "Work": "With other Wise Ones"
+          }
+        }
+      }
+    },
+    "edarra": {
+      "name": "Edarra",
+      "appearances": [18, 25, 32],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "An Aiel Wise One contributing to the leadership and decision-making of the Aiel clans.",
+          "role": "Wise One",
+          "relationships": {
+            "Contribution": "Leadership",
+            "Decision-making": "Aiel clans"
+          }
+        }
+      }
+    },
+    "jolien": {
+      "name": "Jolien",
+      "appearances": [18, 32],
+      "knowledge": {
+        "18": {
+          "revealedIn": 18,
+          "description": "An Aiel Wise One helping to maintain clan unity and traditional wisdom during turbulent times.",
+          "role": "Wise One",
+          "relationships": {
+            "Maintenance": "Clan unity",
+            "Wisdom": "Traditional"
+          }
+        }
+      }
+    },
+    "mangin": {
+      "name": "Mangin",
+      "appearances": [6, 12, 18],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An Aiel warrior serving among Rand's personal guard, demonstrating Aiel honor and fighting skills.",
+          "role": "Aiel guard",
+          "relationships": {
+            "Service": "Rand's guard",
+            "Demonstration": "Aiel honor"
+          }
+        }
+      }
+    },
+    "enaila": {
+      "name": "Enaila",
+      "appearances": [6, 12, 18, 25],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An Aiel Maiden of the Spear protecting Rand while maintaining her warrior traditions and duties.",
+          "role": "Maiden warrior",
+          "relationships": {
+            "Protection": "Of Rand",
+            "Maintenance": "Warrior traditions"
+          }
+        }
+      }
+    },
+    "somara": {
+      "name": "Somara",
+      "appearances": [6, 18, 25],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An Aiel Maiden of the Spear serving as part of Rand's guard while upholding Maiden customs.",
+          "role": "Maiden guard",
+          "relationships": {
+            "Service": "Rand's guard",
+            "Upholding": "Maiden customs"
+          }
+        }
+      }
+    },
+    "lamelle": {
+      "name": "Lamelle Ramosni",
+      "appearances": [31, 35],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A member of the Kin in Ebou Dar, working to help women who can channel while avoiding Aes Sedai notice.",
+          "role": "Kin member",
+          "relationships": {
+            "Mission": "Help channelers",
+            "Avoidance": "Aes Sedai notice"
+          }
+        }
+      }
+    },
+    "famelle": {
+      "name": "Famelle Juarde",
+      "appearances": [31, 35],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "Another member of the Kin in Ebou Dar, contributing to their network of aid and support for channelers.",
+          "role": "Kin member",
+          "relationships": {
+            "Contribution": "Aid network",
+            "Support": "For channelers"
+          }
+        }
+      }
+    },
+    "sumeko": {
+      "name": "Sumeko Karistovan",
+      "appearances": [31, 35, 38],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A skilled member of the Kin in Ebou Dar, known for her healing abilities and organizational skills.",
+          "role": "Skilled Kin",
+          "relationships": {
+            "Skills": "Healing and organization",
+            "Location": "Ebou Dar"
+          }
+        }
+      }
+    },
+    "chilares": {
+      "name": "Chilares Arman",
+      "appearances": [31, 35],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A member of the Kin working in Ebou Dar to maintain their hidden network and provide assistance.",
+          "role": "Kin member",
+          "relationships": {
+            "Work": "Hidden network",
+            "Provision": "Assistance"
+          }
+        }
+      }
+    },
+    "dimana": {
+      "name": "Dimana",
+      "appearances": [31, 35],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A member of the Kin in Ebou Dar, helping to coordinate their activities and maintain secrecy.",
+          "role": "Kin coordinator",
+          "relationships": {
+            "Coordination": "Kin activities",
+            "Maintenance": "Secrecy"
+          }
+        }
+      }
+    },
+    "derys": {
+      "name": "Derys Nirmala",
+      "appearances": [31, 35],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A member of the Kin contributing to their mission of helping women with the ability to channel.",
+          "role": "Kin member",
+          "relationships": {
+            "Mission": "Help channelers",
+            "Organization": "The Kin"
+          }
+        }
+      }
+    },
+    "garenia": {
+      "name": "Garenia Rosoinde",
+      "appearances": [31, 35],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A member of the Kin in Ebou Dar working to support their network while avoiding detection.",
+          "role": "Kin member",
+          "relationships": {
+            "Support": "Kin network",
+            "Avoidance": "Detection"
+          }
+        }
+      }
+    },
+    "alise": {
+      "name": "Alise Tenjile",
+      "appearances": [31, 35, 38],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A leading member of the Kin in Ebou Dar, helping to organize and protect their community of women who can channel.",
+          "role": "Kin leader",
+          "relationships": {
+            "Leadership": "Among Kin",
+            "Protection": "Channeling community"
+          }
+        }
+      }
+    },
+    "berowin": {
+      "name": "Berowin Doraisin",
+      "appearances": [31, 35],
+      "knowledge": {
+        "31": {
+          "revealedIn": 31,
+          "description": "A member of the Kin working with the others to provide aid and maintain their hidden organization.",
+          "role": "Kin member",
+          "relationships": {
+            "Work": "With other Kin",
+            "Maintenance": "Hidden organization"
+          }
+        }
+      }
+    },
+    "nynaeve": {
+      "name": "Nynaeve al'Meara",
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "An Aes Sedai working in Ebou Dar on the mission to find the Bowl of the Winds and help with the weather.",
+          "role": "Mission Aes Sedai",
+          "relationships": {
+            "Mission": "Bowl of Winds",
+            "Goal": "Weather help"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Continues working with the Kin and Sea Folk to locate and use the ter'angreal needed to fix the weather patterns.",
+          "role": "Weather worker",
+          "relationships": {
+            "Cooperation": "Kin and Sea Folk",
+            "Purpose": "Fix weather"
+          }
+        }
+      }
+    },
+    "elayne": {
+      "name": "Elayne Trakand",
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "An Aes Sedai and Daughter-Heir of Andor working in Ebou Dar to find the Bowl of the Winds.",
+          "role": "Heir and Aes Sedai",
+          "relationships": {
+            "Heritage": "Andor",
+            "Mission": "Bowl of Winds"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Continues the crucial mission while dealing with the complex politics and dangers of working with various groups.",
+          "role": "Mission leader",
+          "relationships": {
+            "Leadership": "Mission",
+            "Navigation": "Complex politics"
+          }
+        }
+      }
+    },
+    "aviendha": {
+      "name": "Aviendha",
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "An Aiel Wise One apprentice accompanying the Aes Sedai mission in Ebou Dar and learning to navigate wetlander ways.",
+          "role": "Wise One apprentice",
+          "relationships": {
+            "Learning": "Wetlander ways",
+            "Accompaniment": "Mission"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Provides Aiel perspective and abilities while adapting to the complex situation in Ebou Dar.",
+          "role": "Aiel contributor",
+          "relationships": {
+            "Contribution": "Aiel perspective",
+            "Adaptation": "Ebou Dar situation"
+          }
+        }
+      }
+    },
+    "birgitte": {
+      "name": "Birgitte Silverbow",
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A legendary archer now serving as Elayne's Warder, providing protection and her extensive experience.",
+          "role": "Warder",
+          "relationships": {
+            "Bond": "Elayne",
+            "Provision": "Protection and experience"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Continues her protective duties while adapting her legendary skills to the current dangerous circumstances.",
+          "role": "Protective Warder",
+          "relationships": {
+            "Duties": "Protection",
+            "Adaptation": "Current circumstances"
+          }
+        }
+      }
+    },
+    "mat": {
+      "name": "Mat Cauthon",
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A ta'veren with the foxhead medallion in Ebou Dar, dealing with various complications while trying to help his friends.",
+          "role": "Ta'veren ally",
+          "relationships": {
+            "Protection": "Foxhead medallion",
+            "Goal": "Help friends"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Continues navigating the complex political and social situation in Ebou Dar while supporting the mission.",
+          "role": "Mission supporter",
+          "relationships": {
+            "Navigation": "Complex situation",
+            "Support": "Mission"
+          }
+        }
+      }
+    },
+    "thom": {
+      "name": "Thom Merrilin",
+      "appearances": [28, 31, 35, 38],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "A skilled gleeman and former court bard providing intelligence and support to the mission in Ebou Dar.",
+          "role": "Intelligence provider",
+          "relationships": {
+            "Skills": "Gleeman and bard",
+            "Provision": "Intelligence"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Continues using his extensive knowledge and contacts to aid the group's efforts in the dangerous city.",
+          "role": "Knowledge contributor",
+          "relationships": {
+            "Use": "Knowledge and contacts",
+            "Aid": "Group efforts"
+          }
+        }
+      }
     }
   },
   "recaps": {

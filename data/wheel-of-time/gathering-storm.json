@@ -2950,6 +2950,933 @@
           }
         }
       }
+    },
+    "elaida-arodain": {
+      "name": "Elaida do Avriny a'Roihan",
+      "aliases": ["Elaida Sedai", "The Amyrlin Seat"],
+      "appearances": [2, 6, 12, 16, 24, 26, 33, 39, 41, 45],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The usurper Amyrlin Seat of the White Tower, increasingly paranoid and unstable as her authority is challenged.",
+          "role": "Tower Amyrlin Seat",
+          "relationships": {
+            "Egwene al'Vere": "Rival Amyrlin, imprisoned in Tower",
+            "Silviana Brehon": "Mistress of Novices who serves her"
+          }
+        }
+      }
+    },
+    "silviana-brehon": {
+      "name": "Silviana Brehon",
+      "aliases": ["Silviana Sedai"],
+      "appearances": [2, 12, 16, 39, 45, 49],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Aes Sedai of the Red Ajah serving as Mistress of Novices under Elaida. Responsible for Egwene's punishment and training.",
+          "role": "Mistress of Novices",
+          "relationships": {
+            "Elaida do Avriny a'Roihan": "Serves as Mistress of Novices",
+            "Egwene al'Vere": "Oversees her punishment and education"
+          }
+        }
+      }
+    },
+    "saerin-asnobar": {
+      "name": "Saerin Asnobar",
+      "aliases": ["Saerin Sedai"],
+      "appearances": [39, 41, 45, 49],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Aes Sedai of the Brown Ajah in the White Tower, one of the Sisters who helps defend against the Seanchan attack.",
+          "role": "Brown Sister",
+          "relationships": {
+            "Egwene al'Vere": "Ally during the Tower crisis",
+            "Adelorna Bastine": "Fellow Sister in the defense"
+          }
+        }
+      }
+    },
+    "adelorna-bastine": {
+      "name": "Adelorna Bastine",
+      "aliases": ["Adelorna Sedai"],
+      "appearances": [39, 41, 45],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Aes Sedai of the Green Ajah, Captain-General of the Green Ajah who leads the battle weaves during the Seanchan attack.",
+          "role": "Captain-General of Green Ajah",
+          "relationships": {
+            "Saerin Asnobar": "Fellow defender of the Tower",
+            "Egwene al'Vere": "Recognizes her leadership"
+          }
+        }
+      }
+    },
+    "gawyn-trakand": {
+      "name": "Gawyn Trakand",
+      "aliases": ["Lord Gawyn"],
+      "appearances": [13, 24, 26, 33, 39, 41, 45, 49],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Elayne's brother and leader of the Younglings, conflicted about his loyalties between the Tower and his feelings for Egwene.",
+          "role": "Leader of the Younglings",
+          "relationships": {
+            "Egwene al'Vere": "Bonded as Warder, complicated romance",
+            "Elayne Trakand": "Sister"
+          }
+        }
+      }
+    },
+    "sleete": {
+      "name": "Sleete",
+      "aliases": [],
+      "appearances": [13, 24, 33],
+      "knowledge": {
+        "13": {
+          "revealedIn": 13,
+          "description": "Member of the Younglings under Gawyn's command, skilled swordsman and loyal soldier.",
+          "role": "Youngling officer",
+          "relationships": {
+            "Gawyn Trakand": "Serves under his command"
+          }
+        }
+      }
+    },
+    "naeff": {
+      "name": "Naeff",
+      "aliases": [],
+      "appearances": [5, 13, 17, 22, 23, 29, 31, 35],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Asha'man serving Rand, dedicated soldier who follows orders despite growing concerns about Taim's influence at the Black Tower.",
+          "role": "Asha'man",
+          "relationships": {
+            "Rand al'Thor": "Loyal follower",
+            "Mazrim Taim": "Suspicious of his leadership"
+          }
+        }
+      }
+    },
+    "androl-genhald": {
+      "name": "Androl Genhald",
+      "aliases": ["Androl"],
+      "appearances": [5, 13, 29],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Asha'man with exceptional skill in creating gateways, leads the resistance against Taim's corruption at the Black Tower.",
+          "role": "Asha'man",
+          "relationships": {
+            "Mazrim Taim": "Opposes his Shadow allegiance",
+            "Pevara Tazanovni": "Ally from the Red Ajah"
+          }
+        }
+      }
+    },
+    "pevara-tazanovni": {
+      "name": "Pevara Tazanovni",
+      "aliases": ["Pevara Sedai"],
+      "appearances": [39, 45, 47],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Aes Sedai of the Red Ajah, part of the group hunting Black Ajah members in the White Tower despite her Ajah's reputation.",
+          "role": "Red Ajah Sister",
+          "relationships": {
+            "Androl Genhald": "Works with at Black Tower"
+          }
+        }
+      }
+    },
+    "katerine-alrud": {
+      "name": "Katerine Alrud",
+      "aliases": ["Katerine Sedai"],
+      "appearances": [2, 12, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Aes Sedai of the Red Ajah loyal to Elaida, serves as one of Egwene's captors and interrogators in the Tower.",
+          "role": "Red Ajah Sister",
+          "relationships": {
+            "Elaida do Avriny a'Roihan": "Loyal supporter",
+            "Egwene al'Vere": "Captor and interrogator"
+          }
+        }
+      }
+    },
+    "meidani": {
+      "name": "Meidani",
+      "aliases": ["Meidani Sedai"],
+      "appearances": [2, 12, 16, 45],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Aes Sedai of the Gray Ajah, secretly a spy for the rebel Aes Sedai within the White Tower, working to undermine Elaida.",
+          "role": "Rebel spy",
+          "relationships": {
+            "Egwene al'Vere": "Secret ally within the Tower"
+          }
+        }
+      }
+    },
+    "bennae-nalsad": {
+      "name": "Bennae Nalsad",
+      "aliases": ["Bennae Sedai"],
+      "appearances": [2, 12, 16],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Aes Sedai of the Brown Ajah who serves as one of Egwene's teachers during her captivity, providing lessons in Tower law and history.",
+          "role": "Brown Ajah Sister",
+          "relationships": {
+            "Egwene al'Vere": "Teacher in Tower law"
+          }
+        }
+      }
+    },
+    "shemerin": {
+      "name": "Shemerin",
+      "aliases": [],
+      "appearances": [2, 12, 16, 45],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Former Aes Sedai demoted to Accepted by Elaida's decree. Now serves in reduced circumstances within the Tower.",
+          "role": "Demoted to Accepted",
+          "relationships": {
+            "Elaida do Avriny a'Roihan": "Victim of her arbitrary justice",
+            "Egwene al'Vere": "Fellow victim of Tower politics"
+          }
+        }
+      }
+    },
+    "yukiri": {
+      "name": "Yukiri",
+      "aliases": ["Yukiri Sedai"],
+      "appearances": [39, 45, 49],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Aes Sedai of the Gray Ajah, part of the group investigating the Black Ajah within the Tower.",
+          "role": "Gray Ajah Sister",
+          "relationships": {
+            "Saerin Asnobar": "Fellow investigator of Black Ajah"
+          }
+        }
+      }
+    },
+    "seaine-herimon": {
+      "name": "Seaine Herimon",
+      "aliases": ["Seaine Sedai"],
+      "appearances": [39, 45],
+      "knowledge": {
+        "39": {
+          "revealedIn": 39,
+          "description": "Aes Sedai of the White Ajah involved in the hunt for Black Ajah members within the White Tower.",
+          "role": "White Ajah Sister",
+          "relationships": {
+            "Yukiri": "Fellow Black Ajah hunter"
+          }
+        }
+      }
+    },
+    "bethamin-zeami": {
+      "name": "Bethamin Zeami",
+      "aliases": ["Bethamin"],
+      "appearances": [28, 34, 36, 42],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Former Seanchan sul'dam who discovered she can channel, now traveling with Mat's group and learning to accept her abilities.",
+          "role": "Former sul'dam",
+          "relationships": {
+            "Mat Cauthon": "Traveling companion",
+            "Seta Zarbey": "Fellow former sul'dam"
+          }
+        }
+      }
+    },
+    "seta-zarbey": {
+      "name": "Seta Zarbey",
+      "aliases": ["Seta"],
+      "appearances": [28, 34, 36, 42],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Former Seanchan sul'dam who learned she could channel, now part of Mat's group struggling with this revelation.",
+          "role": "Former sul'dam",
+          "relationships": {
+            "Mat Cauthon": "Traveling with his group",
+            "Bethamin Zeami": "Fellow former sul'dam"
+          }
+        }
+      }
+    },
+    "selucia": {
+      "name": "Selucia",
+      "aliases": ["Voice"],
+      "appearances": [10, 19, 20, 21, 28, 34, 36, 42],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Voice and bodyguard to Tuon, fiercely loyal and protective of the Daughter of the Nine Moons.",
+          "role": "Voice and bodyguard",
+          "relationships": {
+            "Tuon Athaem Kore Paendrag": "Serves as Voice and protector",
+            "Mat Cauthon": "Watches his relationship with Tuon"
+          }
+        }
+      }
+    },
+    "musenge": {
+      "name": "Musenge",
+      "aliases": ["Captain Musenge"],
+      "appearances": [10, 19, 20, 21, 28, 34],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Seanchan captain of Tuon's guard, dedicated soldier responsible for her protection during travels.",
+          "role": "Guard Captain",
+          "relationships": {
+            "Tuon Athaem Kore Paendrag": "Serves as guard captain",
+            "Mat Cauthon": "Wary of his influence on Tuon"
+          }
+        }
+      }
+    },
+    "karede": {
+      "name": "Furyk Karede",
+      "aliases": ["Captain Karede"],
+      "appearances": [10, 19, 20, 21],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Captain of the Deathwatch Guard, elite Seanchan soldier tasked with finding and protecting Tuon.",
+          "role": "Deathwatch Guard Captain",
+          "relationships": {
+            "Tuon Athaem Kore Paendrag": "Sworn to protect and serve",
+            "Seanchan Empire": "Elite guard officer"
+          }
+        }
+      }
+    },
+    "mezar-kurin": {
+      "name": "Mezar Kurin",
+      "aliases": ["Mezar"],
+      "appearances": [5, 13, 17, 29],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Asha'man who becomes one of Taim's supporters, showing signs of the growing corruption in the Black Tower.",
+          "role": "Asha'man",
+          "relationships": {
+            "Mazrim Taim": "Follower and ally",
+            "Welyn Kajima": "Fellow corrupted Asha'man"
+          }
+        }
+      }
+    },
+    "welyn-kajima": {
+      "name": "Welyn Kajima",
+      "aliases": ["Welyn"],
+      "appearances": [5, 13, 17, 29],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Asha'man who falls under Taim's influence, becomes part of the faction turning the Black Tower toward the Shadow.",
+          "role": "Asha'man",
+          "relationships": {
+            "Mazrim Taim": "Corrupted follower",
+            "Mezar Kurin": "Fellow Shadow ally"
+          }
+        }
+      }
+    },
+    "donalo-sandomere": {
+      "name": "Donalo Sandomere",
+      "aliases": ["Donalo"],
+      "appearances": [5, 13, 17, 29],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Asha'man from Tear, struggles with the madness and corruption growing within the Black Tower ranks.",
+          "role": "Asha'man",
+          "relationships": {
+            "Mazrim Taim": "Under his command",
+            "Rand al'Thor": "Sworn to serve"
+          }
+        }
+      }
+    },
+    "canler": {
+      "name": "Canler",
+      "aliases": [],
+      "appearances": [5, 13, 17, 22, 29],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Asha'man at the Black Tower, one of the men training under Taim's increasingly corrupt influence.",
+          "role": "Asha'man",
+          "relationships": {
+            "Mazrim Taim": "Student under his training",
+            "Naeff": "Fellow Asha'man"
+          }
+        }
+      }
+    },
+    "emarin-pendaloan": {
+      "name": "Emarin Pendaloan",
+      "aliases": ["Emarin"],
+      "appearances": [5, 13, 29],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Asha'man of noble birth who maintains his honor despite the growing darkness at the Black Tower.",
+          "role": "Asha'man",
+          "relationships": {
+            "Mazrim Taim": "Distrusts his methods",
+            "Androl Genhald": "Ally among the loyal Asha'man"
+          }
+        }
+      }
+    },
+    "various-tower-servants": {
+      "name": "Various Tower Servants",
+      "aliases": ["Tower Staff"],
+      "appearances": [2, 12, 16, 39, 45],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Servants, cooks, and staff who maintain the White Tower during the political crisis.",
+          "role": "Tower staff",
+          "relationships": {
+            "White Tower": "Serve the institution",
+            "Egwene al'Vere": "Some support her quietly"
+          }
+        }
+      }
+    },
+    "various-band-members": {
+      "name": "Various Band Members",
+      "aliases": ["Band of Red Hand"],
+      "appearances": [28, 34, 36, 42],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Soldiers and officers serving in Mat's Band of the Red Hand during their travels.",
+          "role": "Military unit",
+          "relationships": {
+            "Mat Cauthon": "Serve under his command",
+            "Tuon Athaem Kore Paendrag": "Witness her authority"
+          }
+        }
+      }
+    },
+    "various-aiel-wise-ones": {
+      "name": "Various Aiel Wise Ones",
+      "aliases": ["Wise Ones"],
+      "appearances": [1, 5, 17, 22, 47, 50],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Aiel Wise Ones who continue to guide and advise, concerned about Rand's growing darkness.",
+          "role": "Aiel spiritual leaders",
+          "relationships": {
+            "Rand al'Thor": "Concerned about his spiritual state",
+            "Aiel": "Provide guidance to their people"
+          }
+        }
+      }
+    },
+    "various-cairhienin-nobles": {
+      "name": "Various Cairhienin Nobles",
+      "aliases": ["Cairhienin Court"],
+      "appearances": [1, 5, 17, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Nobles of Cairhien playing the Game of Houses while serving under Rand's rule.",
+          "role": "Cairhienin nobility",
+          "relationships": {
+            "Rand al'Thor": "Serve or scheme under his rule",
+            "Game of Houses": "Engage in political intrigue"
+          }
+        }
+      }
+    },
+    "various-tear-nobles": {
+      "name": "Various Tairen Nobles",
+      "aliases": ["Tairen High Lords"],
+      "appearances": [1, 5, 17, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "High Lords and Ladies of Tear who serve Rand while maintaining their own agendas.",
+          "role": "Tairen nobility",
+          "relationships": {
+            "Rand al'Thor": "Serve under his Dragon authority",
+            "Tear": "Represent their nation's interests"
+          }
+        }
+      }
+    },
+    "hanlon": {
+      "name": "Daved Hanlon",
+      "aliases": ["Doilin Mellar"],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Darkfriend posing as a guard captain in Caemlyn, part of the conspiracy against Elayne.",
+          "role": "Darkfriend infiltrator",
+          "relationships": {
+            "Royal Guards": "Infiltrated their ranks"
+          }
+        }
+      }
+    },
+    "chubain": {
+      "name": "Chubain",
+      "aliases": ["Captain Chubain"],
+      "appearances": [2, 39, 41, 45],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Captain of the Tower Guard serving under Elaida's authority.",
+          "role": "Tower Guard Captain",
+          "relationships": {
+            "Elaida do Avriny a'Roihan": "Serves as guard captain"
+          }
+        }
+      }
+    },
+    "essande": {
+      "name": "Essande",
+      "aliases": [],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Elderly maid serving Queen Elayne in the Royal Palace.",
+          "role": "Royal maid",
+          "relationships": {
+            "Elayne Trakand": "Personal maid and servant"
+          }
+        }
+      }
+    },
+    "melfane": {
+      "name": "Melfane",
+      "aliases": [],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Midwife attending to Elayne during her pregnancy.",
+          "role": "Midwife",
+          "relationships": {
+            "Elayne Trakand": "Provides medical care"
+          }
+        }
+      }
+    },
+    "guybon": {
+      "name": "Guybon",
+      "aliases": ["Captain Guybon"],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Captain of Guards serving Elayne loyally.",
+          "role": "Captain of Guards",
+          "relationships": {
+            "Elayne Trakand": "Loyal captain"
+          }
+        }
+      }
+    },
+    "charlz": {
+      "name": "Charlz Guybon",
+      "aliases": ["Charlz"],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Royal Guard officer serving in Caemlyn.",
+          "role": "Royal Guard",
+          "relationships": {
+            "Guybon": "Related guard officer"
+          }
+        }
+      }
+    },
+    "algarin": {
+      "name": "Algarin Pendaloan",
+      "aliases": ["Algarin"],
+      "appearances": [1, 5, 17, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Tairen lord who provides sanctuary to Rand, brother to Emarin.",
+          "role": "Tairen noble",
+          "relationships": {
+            "Rand al'Thor": "Provides sanctuary",
+            "Emarin Pendaloan": "Brother"
+          }
+        }
+      }
+    },
+    "ellorien": {
+      "name": "Ellorien",
+      "aliases": ["Lady Ellorien"],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Andoran High Seat, powerful noblewoman with her own agenda in the succession.",
+          "role": "Andoran High Seat",
+          "relationships": {
+            "Elayne Trakand": "Complex political relationship"
+          }
+        }
+      }
+    },
+    "luan": {
+      "name": "Luan",
+      "aliases": ["Lord Luan"],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Andoran High Seat, influential noble in the succession crisis.",
+          "role": "Andoran High Seat",
+          "relationships": {
+            "Ellorien": "Fellow High Seat"
+          }
+        }
+      }
+    },
+    "abelle": {
+      "name": "Abelle",
+      "aliases": ["Lord Abelle"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "High-ranking Andoran noble participating in the complex politics of royal succession.",
+          "role": "Andoran noble",
+          "relationships": {
+            "Luan": "Fellow High Seat"
+          }
+        }
+      }
+    },
+    "pelivar": {
+      "name": "Pelivar",
+      "aliases": ["Lord Pelivar"],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Andoran High Seat, one of the powerful nobles involved in succession politics.",
+          "role": "Andoran High Seat",
+          "relationships": {
+            "Abelle": "Fellow noble"
+          }
+        }
+      }
+    },
+    "arathelle": {
+      "name": "Arathelle",
+      "aliases": ["Lady Arathelle"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "High Seat of House Renshar, influential Andoran noblewoman in succession politics.",
+          "role": "Andoran High Seat",
+          "relationships": {
+            "Pelivar": "Fellow High Seat"
+          }
+        }
+      }
+    },
+    "aemlyn": {
+      "name": "Aemlyn",
+      "aliases": ["Lady Aemlyn"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Andoran noblewoman involved in the political maneuvering around Elayne's claim to the throne.",
+          "role": "Andoran noblewoman",
+          "relationships": {
+            "Arathelle": "Fellow noble"
+          }
+        }
+      }
+    },
+    "naean": {
+      "name": "Naean",
+      "aliases": ["Lady Naean"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Andoran High Seat who initially opposed Elayne's claim but becomes involved in complex negotiations.",
+          "role": "Andoran High Seat",
+          "relationships": {
+            "Aemlyn": "Fellow noblewoman"
+          }
+        }
+      }
+    },
+    "elenia": {
+      "name": "Elenia",
+      "aliases": ["Lady Elenia"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Andoran High Seat, one of the claimants to the Lion Throne before Elayne's arrival.",
+          "role": "Former throne claimant",
+          "relationships": {
+            "Naean": "Fellow former claimant"
+          }
+        }
+      }
+    },
+    "jarid": {
+      "name": "Jarid",
+      "aliases": ["Lord Jarid"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Andoran lord married to Elenia, involved in the failed claim to the throne.",
+          "role": "Andoran lord",
+          "relationships": {
+            "Elenia": "Wife and co-conspirator"
+          }
+        }
+      }
+    },
+    "shiaine": {
+      "name": "Shiaine",
+      "aliases": ["Mili Skane"],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Darkfriend operating in Caemlyn, works to undermine Elayne's rule through various schemes.",
+          "role": "Darkfriend agent",
+          "relationships": {
+            "Black Ajah": "Works with Shadow agents"
+          }
+        }
+      }
+    },
+    "falion": {
+      "name": "Falion Bhoda",
+      "aliases": ["Falion"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Black Ajah member operating in Caemlyn, works with other Darkfriends to create chaos.",
+          "role": "Black Ajah",
+          "relationships": {
+            "Shiaine": "Fellow Darkfriend"
+          }
+        }
+      }
+    },
+    "marillin": {
+      "name": "Marillin Gemalphin",
+      "aliases": ["Marillin"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Former Aes Sedai, now Black Ajah member working in Caemlyn to undermine the rightful queen.",
+          "role": "Black Ajah",
+          "relationships": {
+            "Falion Bhoda": "Black Ajah sister"
+          }
+        }
+      }
+    },
+    "chesmal": {
+      "name": "Chesmal Emry",
+      "aliases": ["Chesmal"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Black Ajah member working in Caemlyn with other Darkfriends.",
+          "role": "Black Ajah",
+          "relationships": {
+            "Marillin Gemalphin": "Fellow Black Ajah"
+          }
+        }
+      }
+    },
+    "eldrith": {
+      "name": "Eldrith Jhondar",
+      "aliases": ["Eldrith"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Black Ajah Sister operating with other Darkfriends in their conspiracy.",
+          "role": "Black Ajah",
+          "relationships": {
+            "Chesmal Emry": "Black Ajah sister"
+          }
+        }
+      }
+    },
+    "temaile": {
+      "name": "Temaile Kinderode",
+      "aliases": ["Temaile"],
+      "appearances": [7, 14, 30],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Black Ajah member in the conspiracy against Elayne.",
+          "role": "Black Ajah",
+          "relationships": {
+            "Eldrith Jhondar": "Fellow conspirator"
+          }
+        }
+      }
+    },
+    "byar": {
+      "name": "Byar",
+      "aliases": [],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Whitecloak officer, fanatically devoted to the Children of the Light's cause.",
+          "role": "Whitecloak officer",
+          "relationships": {
+            "Children of Light": "Fanatical devotion"
+          }
+        }
+      }
+    },
+    "bornhald": {
+      "name": "Dain Bornhald",
+      "aliases": ["Lord Captain Bornhald"],
+      "appearances": [7, 14, 30, 38],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "Lord Captain of the Children of the Light, son of Geofram Bornhald, serves with conflicted loyalties.",
+          "role": "Whitecloak Lord Captain",
+          "relationships": {
+            "Byar": "Subordinate officer",
+            "Galad Damodred": "Fellow Lord Captain"
+          }
+        }
+      }
+    },
+    "various-minor-1": {
+      "name": "Various Cairhienin Servants",
+      "aliases": ["Cairhien Staff"],
+      "appearances": [1, 5, 17, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Servants and staff in the Sun Palace serving under Rand's rule.",
+          "role": "Palace staff",
+          "relationships": {
+            "Rand al'Thor": "Serve in his palace"
+          }
+        }
+      }
+    },
+    "various-minor-2": {
+      "name": "Various Tairen Soldiers",
+      "aliases": ["Tairen Military"],
+      "appearances": [1, 5, 17, 22],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Soldiers from Tear serving in Rand's forces.",
+          "role": "Tairen military",
+          "relationships": {
+            "Rand al'Thor": "Serve in his armies"
+          }
+        }
+      }
+    },
+    "various-minor-3": {
+      "name": "Various Tower Servants",
+      "aliases": ["Tower Staff"],
+      "appearances": [2, 12, 16, 39, 45],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Servants, cooks, and staff who maintain the White Tower during the political crisis.",
+          "role": "Tower staff",
+          "relationships": {
+            "White Tower": "Serve the institution"
+          }
+        }
+      }
+    },
+    "various-minor-4": {
+      "name": "Various Band Soldiers",
+      "aliases": ["Band of Red Hand"],
+      "appearances": [28, 34, 36, 42],
+      "knowledge": {
+        "28": {
+          "revealedIn": 28,
+          "description": "Soldiers and officers serving in Mat's Band of the Red Hand.",
+          "role": "Military unit",
+          "relationships": {
+            "Mat Cauthon": "Serve under his command"
+          }
+        }
+      }
+    },
+    "various-minor-5": {
+      "name": "Various Seanchan Sul'dam",
+      "aliases": ["Sul'dam Corps"],
+      "appearances": [10, 19, 20, 21, 28, 39],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Seanchan sul'dam controlling damane throughout the Empire's operations.",
+          "role": "Sul'dam",
+          "relationships": {
+            "Seanchan Empire": "Serve as channeling controllers"
+          }
+        }
+      }
+    },
+    "various-minor-6": {
+      "name": "Various Seanchan Damane",
+      "aliases": ["Controlled Channelers"],
+      "appearances": [10, 19, 20, 21, 28, 39],
+      "knowledge": {
+        "10": {
+          "revealedIn": 10,
+          "description": "Channelers controlled by the Seanchan through the a'dam leash system.",
+          "role": "Damane",
+          "relationships": {
+            "Sul'dam": "Controlled by",
+            "Seanchan Empire": "Property of"
+          }
+        }
+      }
     }
   },
   "recaps": {
