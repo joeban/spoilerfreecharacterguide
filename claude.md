@@ -542,13 +542,13 @@ After completing and pushing any series or book data:
   - 🟢 Two Towers: 112 characters, all recaps, v2.0
   - 🟡 Return of King: 77 characters, all recaps, v2.0
 
-- ✅ **Dune** (6 books) - 413 total characters
-  - 🟡 Dune: 76 characters, all recaps, v2.0
-  - 🟡 Dune Messiah: 63 characters, all recaps, v2.0
-  - 🟡 Children of Dune: 50 characters, all recaps, v2.0
-  - 🟢 God Emperor: 118 characters, all recaps, v2.0
-  - 🟡 Heretics: 54 characters, all recaps, v2.0
-  - 🟡 Chapterhouse: 52 characters, all recaps, v2.0
+- ✅ **Dune** (6 books) - 871 total characters ✅ EXPANDED 2025-09-06
+  - 🟢 Dune: 161 characters, all recaps, v2.0
+  - 🟢 Dune Messiah: 150 characters, all recaps, v2.0
+  - 🟡 Children of Dune: 130 characters, all recaps, v2.0
+  - 🟢 God Emperor: 150 characters, all recaps, v2.0
+  - 🟡 Heretics: 140 characters, all recaps, v2.0
+  - 🟡 Chapterhouse: 140 characters, all recaps, v2.0
 
 - ✅ **A Song of Ice and Fire** (5 books) - 1,167 total characters
   - 🟢 Game of Thrones: 303 characters, all recaps, v2.0
@@ -768,7 +768,7 @@ For each book, we:
 - **Total Series Configured**: 20 series
 - **Series with Complete Data**: 20 series (ALL COMPLETE!)
 - **Total Books with Data**: 114 books (excluding backup files)
-- **Total Characters**: 15,830+ unique characters across all series
+- **Total Characters**: 16,288+ unique characters across all series
 - **Recent Major Completions**: Wheel of Time (14 books), Discworld (8 books), all major expansions
 - **Data Coverage Breakdown**:
   - 🟢 14 series with 500+ characters (comprehensive)
