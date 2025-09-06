@@ -737,6 +737,12 @@ All previously identified spoiler issues have been resolved:
 - **All series**: JSON files valid and working
 
 ### Recently Fixed Issues ✅
+**Dune Series** (2025-09-06):
+- Dune: Fixed Duke Leto death timing (ch14→ch16)
+- Dune Messiah: Fixed Chani death reveals (now only ch32+)
+- Children of Dune: Softened Leto II transformation spoilers
+- God Emperor: Changed early "death" mentions to "reign ends"
+
 **The Witcher Series** (2025-09-06):
 - Last Wish: Removed death reveals for Adda, Cohen, Gramps
 - Tower of Swallows: Softened Bonhart's "killed" to "defeated"
