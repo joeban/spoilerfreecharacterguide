@@ -571,13 +571,21 @@ After completing and pushing any series or book data:
   - 🟢 Fourth Wing: 150 characters, all recaps, v2.0
   - 🟢 Iron Flame: 177 characters, all recaps, v2.0 - FIXED SPOILERS
 
-- ⚠️ **Wheel of Time** (5 of 14 books) - 770 total characters - INCOMPLETE SERIES
+- ✅ **Wheel of Time** (14 books COMPLETE) - 1,365 total characters
   - 🟢 Eye of the World: 199 characters, all recaps, v2.0
   - 🟢 Great Hunt: 201 characters, all recaps, v2.0
   - 🟢 Dragon Reborn: 143 characters, all recaps, v2.0
   - 🟢 Shadow Rising: 111 characters, all recaps, v2.0
   - 🟢 Fires of Heaven: 116 characters, all recaps, v2.0
-  - ❌ Missing: Books 6-14 (Lord of Chaos through A Memory of Light)
+  - 🟡 Lord of Chaos: 87 characters, all recaps, v2.0
+  - 🟡 A Crown of Swords: 96 characters, all recaps, v2.0
+  - 🟢 The Path of Daggers: 119 characters, all recaps, v2.0
+  - 🟡 Winter's Heart: 82 characters, all recaps, v2.0
+  - 🟡 Crossroads of Twilight: 65 characters, all recaps, v2.0
+  - 🟡 Knife of Dreams: 54 characters, all recaps, v2.0
+  - 🟠 The Gathering Storm: 35 characters, all recaps, v2.0
+  - 🟠 Towers of Midnight: 28 characters, all recaps, v2.0
+  - 🟠 A Memory of Light: 29 characters, all recaps, v2.0
 
 - ✅ **Stormlight Archive** (4 books) - 581 total characters
   - 🟢 Way of Kings: 202 characters, all recaps, v2.0
@@ -595,8 +603,8 @@ After completing and pushing any series or book data:
   - 🟡 Last Battle: 80 characters, all recaps, v2.0
 
 ### Partially Complete Series
-- **Wheel of Time**: Only 5 of 14 books complete (missing books 6-14)
 - **Heroes of Olympus**: 0 of 5 books (Percy Jackson sequel series not started)
+- **Trials of Apollo**: 0 of 5 books (Percy Jackson universe continuation)
 
 - ✅ **Shadow and Bone/Grishaverse** (5 books)
   - 🟡 Shadow and Bone: 85 characters, all recaps, v2.0
@@ -749,9 +757,9 @@ For each book, we:
 ## Project Statistics (as of 2025-09-04)
 - **Total Series Configured**: 20 series
 - **Series with Complete Data**: 20 series (all configured series)
-- **Total Books with Data**: 104 books (excluding backup files)
-- **Total Characters**: 15,250+ unique characters across all series
-- **Recent Expansions**: Mistborn Alloy of Law (30→133), Expanse series corrected totals
+- **Total Books with Data**: 113 books (excluding backup files)
+- **Total Characters**: 15,845+ unique characters across all series
+- **Recent Expansions**: Wheel of Time COMPLETE (added books 6-14), Mistborn Alloy of Law (30→133)
 - **Data Coverage Breakdown**:
   - 🟢 13 series with 500+ characters (comprehensive)
   - 🟡 6 series with 200-500 characters (standard)
