@@ -1009,6 +1009,1446 @@
           }
         }
       }
+    },
+    "kaer-morhen-groundskeeper": {
+      "name": "Groundskeeper Thaler",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The keeper of Kaer Morhen's grounds who maintains the ancient fortress and its training areas.",
+          "role": "Fortress groundskeeper",
+          "relationships": {
+            "Kaer Morhen": "Maintains",
+            "Witchers": "Serves"
+          }
+        }
+      }
+    },
+    "kaer-morhen-armorer": {
+      "name": "Master Armorer Keldar",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The fortress armorer who maintains and repairs witcher equipment and weapons.",
+          "role": "Fortress armorer",
+          "relationships": {
+            "Witcher equipment": "Maintains",
+            "Ciri": "Fits equipment for"
+          }
+        }
+      }
+    },
+    "kaer-morhen-librarian": {
+      "name": "Keeper of Tomes Marcus",
+      "aliases": [],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The keeper of Kaer Morhen's ancient library who assists with research into magical and historical texts.",
+          "role": "Fortress librarian",
+          "relationships": {
+            "Ancient texts": "Keeper of",
+            "Triss Merigold": "Assists with research"
+          }
+        }
+      }
+    },
+    "training-dummy-maker": {
+      "name": "Craftsman Wooden",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A craftsman who creates and maintains the training dummies and equipment used at Kaer Morhen.",
+          "role": "Training equipment maker",
+          "relationships": {
+            "Training equipment": "Creates",
+            "Ciri's training": "Supports"
+          }
+        }
+      }
+    },
+    "kaer-morhen-guard-1": {
+      "name": "Sentry Wolf",
+      "aliases": [],
+      "appearances": [1, 2, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A guard who watches the approaches to Kaer Morhen and warns of approaching visitors.",
+          "role": "Fortress sentry",
+          "relationships": {
+            "Kaer Morhen": "Guards approaches to",
+            "Visitors": "Watches for"
+          }
+        }
+      }
+    },
+    "kaer-morhen-guard-2": {
+      "name": "Watchman Stone",
+      "aliases": [],
+      "appearances": [1, 6, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A watchman who patrols the walls and courtyards of the ancient witcher keep.",
+          "role": "Fortress watchman",
+          "relationships": {
+            "Fortress walls": "Patrols",
+            "Security": "Maintains"
+          }
+        }
+      }
+    },
+    "mountain-herbalist": {
+      "name": "Herbalist Mossy",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A local herbalist who gathers medicinal plants in the mountains around Kaer Morhen.",
+          "role": "Mountain herbalist",
+          "relationships": {
+            "Triss Merigold": "Supplies herbs to",
+            "Mountain plants": "Expert on"
+          }
+        }
+      }
+    },
+    "traveling-merchant-1": {
+      "name": "Merchant Packload",
+      "aliases": [],
+      "appearances": [1, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A traveling merchant who occasionally brings supplies to the remote witcher stronghold.",
+          "role": "Supply merchant",
+          "relationships": {
+            "Kaer Morhen": "Supplies",
+            "Mountain routes": "Travels"
+          }
+        }
+      }
+    },
+    "forest-ranger": {
+      "name": "Ranger Tracker",
+      "aliases": [],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A forest ranger who monitors the wild areas around Kaer Morhen for dangerous creatures.",
+          "role": "Forest guardian",
+          "relationships": {
+            "Wild creatures": "Monitors",
+            "Witchers": "Reports to"
+          }
+        }
+      }
+    },
+    "village-blacksmith": {
+      "name": "Smith Ironhand",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The blacksmith of a nearby village who sometimes does work for the witchers.",
+          "role": "Village smith",
+          "relationships": {
+            "Witcher equipment": "Repairs",
+            "Village community": "Serves"
+          }
+        }
+      }
+    },
+    "oxenfurt-academy-dean": {
+      "name": "Dean Philosophicus",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The dean of Oxenfurt Academy who oversees academic affairs and scholarly research.",
+          "role": "Academy dean",
+          "relationships": {
+            "Oxenfurt Academy": "Leads",
+            "Scholars": "Supervises"
+          }
+        }
+      }
+    },
+    "oxenfurt-student-1": {
+      "name": "Student Scholar Quillpen",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A dedicated student at Oxenfurt Academy studying ancient history and magical theory.",
+          "role": "University student",
+          "relationships": {
+            "Academy studies": "Devoted to",
+            "Ancient knowledge": "Researches"
+          }
+        }
+      }
+    },
+    "oxenfurt-student-2": {
+      "name": "Student Scholar Bookworm",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A studious academy member who focuses on linguistic studies and translation.",
+          "role": "Linguistics student",
+          "relationships": {
+            "Ancient languages": "Studies",
+            "Translation work": "Performs"
+          }
+        }
+      }
+    },
+    "oxenfurt-professor-1": {
+      "name": "Professor Lecturn",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A professor specializing in political history and the relationships between kingdoms.",
+          "role": "History professor",
+          "relationships": {
+            "Political knowledge": "Expert in",
+            "Students": "Teaches"
+          }
+        }
+      }
+    },
+    "oxenfurt-professor-2": {
+      "name": "Professor Naturalist",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A professor who studies natural philosophy and the properties of magical creatures.",
+          "role": "Natural philosophy professor",
+          "relationships": {
+            "Natural studies": "Conducts",
+            "Magical creatures": "Studies"
+          }
+        }
+      }
+    },
+    "aretuza-instructor-1": {
+      "name": "Instructor Spellweave",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A magical instructor at Aretuza who teaches advanced spellcasting techniques.",
+          "role": "Magic instructor",
+          "relationships": {
+            "Aretuza Academy": "Teaches at",
+            "Student sorceresses": "Trains"
+          }
+        }
+      }
+    },
+    "aretuza-instructor-2": {
+      "name": "Instructor Mindforge",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An instructor specializing in mental magic and magical theory at Aretuza.",
+          "role": "Mental magic instructor",
+          "relationships": {
+            "Mental disciplines": "Teaches",
+            "Magical theory": "Expert in"
+          }
+        }
+      }
+    },
+    "aretuza-student-advanced": {
+      "name": "Advanced Student Prism",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An advanced student at Aretuza nearing the end of her magical education.",
+          "role": "Senior magic student",
+          "relationships": {
+            "Aretuza": "Advanced student at",
+            "Magical mastery": "Approaching"
+          }
+        }
+      }
+    },
+    "aretuza-groundskeeper": {
+      "name": "Groundskeeper Gardens",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The keeper of Aretuza's magical gardens where rare plants and components are grown.",
+          "role": "Magical groundskeeper",
+          "relationships": {
+            "Magical plants": "Cultivates",
+            "Aretuza": "Maintains grounds of"
+          }
+        }
+      }
+    },
+    "royal-messenger-1": {
+      "name": "Royal Courier Swift",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A royal messenger who carries important communications between kingdoms.",
+          "role": "Royal messenger",
+          "relationships": {
+            "Royal courts": "Serves",
+            "Important messages": "Carries"
+          }
+        }
+      }
+    },
+    "royal-spy-1": {
+      "name": "Spy Network Agent Shadow",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An intelligence agent working for one of the northern kingdoms to gather information.",
+          "role": "Royal spy",
+          "relationships": {
+            "Intelligence networks": "Part of",
+            "Political information": "Gathers"
+          }
+        }
+      }
+    },
+    "rience-accomplice-1": {
+      "name": "Fire Mage Assistant Burn",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A lesser mage who assists Rience in his pursuit of Ciri.",
+          "role": "Assistant mage",
+          "relationships": {
+            "Rience": "Assists",
+            "Ciri": "Hunts for"
+          }
+        }
+      }
+    },
+    "rience-informant": {
+      "name": "Information Broker Whisper",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An informant who provides Rience with intelligence about Ciri's whereabouts.",
+          "role": "Information broker",
+          "relationships": {
+            "Rience": "Provides information to",
+            "Intelligence networks": "Part of"
+          }
+        }
+      }
+    },
+    "temple-melitele-abbess": {
+      "name": "Abbess Merciful",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The abbess of a Temple of Melitele who oversees religious activities and healing.",
+          "role": "Temple abbess",
+          "relationships": {
+            "Temple of Melitele": "Leads",
+            "Nenneke": "Fellow priestess"
+          }
+        }
+      }
+    },
+    "temple-healer-acolyte": {
+      "name": "Healer Acolyte Gentle",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young acolyte learning the healing arts at the Temple of Melitele.",
+          "role": "Healing student",
+          "relationships": {
+            "Temple healers": "Learning from",
+            "Healing arts": "Studying"
+          }
+        }
+      }
+    },
+    "novigrad-merchant-1": {
+      "name": "Merchant Gold-counter",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A wealthy merchant in Novigrad who deals in luxury goods and information.",
+          "role": "Luxury merchant",
+          "relationships": {
+            "Novigrad trade": "Major player in",
+            "Information": "Trades in"
+          }
+        }
+      }
+    },
+    "novigrad-guard-captain": {
+      "name": "Guard Captain Justice",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The captain of Novigrad's city guard who maintains order in the free city.",
+          "role": "City guard captain",
+          "relationships": {
+            "Novigrad": "Protects",
+            "City guard": "Commands"
+          }
+        }
+      }
+    },
+    "novigrad-hierarch": {
+      "name": "Hierarch Eternal",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A high-ranking priest of the Eternal Fire who influences Novigrad's religious policy.",
+          "role": "Religious leader",
+          "relationships": {
+            "Eternal Fire": "High priest of",
+            "Religious policy": "Influences"
+          }
+        }
+      }
+    },
+    "dwarven-craftsman": {
+      "name": "Master Craftsman Hammerfall",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A skilled dwarven craftsman who creates fine weapons and jewelry.",
+          "role": "Dwarven artisan",
+          "relationships": {
+            "Fine crafts": "Creates",
+            "Wealthy clients": "Serves"
+          }
+        }
+      }
+    },
+    "elven-scholar": {
+      "name": "Elven Lorekeeper Ancient",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven scholar who preserves ancient knowledge and elven history.",
+          "role": "Elven historian",
+          "relationships": {
+            "Ancient knowledge": "Preserves",
+            "Elven history": "Keeper of"
+          }
+        }
+      }
+    },
+    "halfling-inn-keeper": {
+      "name": "Innkeeper Comfort",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A halfling who runs a comfortable inn that serves as a meeting place for travelers.",
+          "role": "Halfling innkeeper",
+          "relationships": {
+            "Travelers": "Hosts",
+            "Information exchange": "Facilitates"
+          }
+        }
+      }
+    },
+    "scoia-tael-scout": {
+      "name": "Scoia'tael Scout Robin",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A non-human rebel scout who gathers intelligence for the Scoia'tael resistance.",
+          "role": "Rebel scout",
+          "relationships": {
+            "Scoia'tael": "Scouts for",
+            "Resistance activities": "Supports"
+          }
+        }
+      }
+    },
+    "scoia-tael-fighter": {
+      "name": "Scoia'tael Fighter Arrow",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A non-human fighter who participates in guerrilla warfare against human oppression.",
+          "role": "Rebel fighter",
+          "relationships": {
+            "Non-human resistance": "Fights for",
+            "Human oppression": "Opposes"
+          }
+        }
+      }
+    },
+    "redanian-diplomat": {
+      "name": "Diplomat Smooth-tongue",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Redanian diplomat who negotiates between kingdoms and gathers political intelligence.",
+          "role": "Kingdom diplomat",
+          "relationships": {
+            "Redania": "Represents",
+            "International relations": "Manages"
+          }
+        }
+      }
+    },
+    "temerian-noble": {
+      "name": "Noble Baron Landhold",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Temerian baron who holds lands and influences political decisions in the kingdom.",
+          "role": "Temerian nobleman",
+          "relationships": {
+            "King Foltest": "Vassal of",
+            "Temerian politics": "Influences"
+          }
+        }
+      }
+    },
+    "aedirn-knight": {
+      "name": "Knight Errant Sword-true",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A knight from Aedirn who follows the chivalric code and seeks honor in service.",
+          "role": "Aedirnian knight",
+          "relationships": {
+            "Aedirn": "Serves",
+            "Chivalric ideals": "Follows"
+          }
+        }
+      }
+    },
+    "kaedwen-mage-advisor": {
+      "name": "Court Mage Advisor Spell-wise",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A mage who advises the court of Kaedwen on magical and political matters.",
+          "role": "Royal advisor",
+          "relationships": {
+            "Kaedwen court": "Advises",
+            "Magical affairs": "Expert in"
+          }
+        }
+      }
+    },
+    "lyria-rivia-messenger": {
+      "name": "Kingdom Messenger Fleet-foot",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A messenger from the kingdom of Lyria and Rivia carrying important dispatches.",
+          "role": "Royal courier",
+          "relationships": {
+            "Lyria and Rivia": "Serves",
+            "Royal communications": "Carries"
+          }
+        }
+      }
+    },
+    "kovir-poviss-trader": {
+      "name": "Northern Trader Coin-counter",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A wealthy trader from Kovir and Poviss dealing in northern kingdom commerce.",
+          "role": "International trader",
+          "relationships": {
+            "Northern trade": "Major player in",
+            "Wealthy merchants": "One of"
+          }
+        }
+      }
+    },
+    "mahakam-elder": {
+      "name": "Dwarven Elder Stone-beard",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An elder of Mahakam who represents dwarven interests in political matters.",
+          "role": "Dwarven representative",
+          "relationships": {
+            "Mahakam": "Elder of",
+            "Dwarven interests": "Represents"
+          }
+        }
+      }
+    },
+    "village-healer-1": {
+      "name": "Village Wise Woman Remedy",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A village healer who uses traditional remedies and herbal medicine.",
+          "role": "Village healer",
+          "relationships": {
+            "Village community": "Heals",
+            "Herbal medicine": "Practitioner of"
+          }
+        }
+      }
+    },
+    "village-elder-2": {
+      "name": "Village Elder Memory",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elder who remembers the old times and traditional ways of the mountain communities.",
+          "role": "Community elder",
+          "relationships": {
+            "Village traditions": "Keeper of",
+            "Community wisdom": "Source of"
+          }
+        }
+      }
+    },
+    "mountain-shepherd": {
+      "name": "Shepherd Woolback",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A mountain shepherd who tends flocks in the high pastures near Kaer Morhen.",
+          "role": "Mountain shepherd",
+          "relationships": {
+            "Mountain flocks": "Tends",
+            "High pastures": "Works in"
+          }
+        }
+      }
+    },
+    "forest-hunter": {
+      "name": "Hunter Bowstring",
+      "aliases": [],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A skilled hunter who tracks game in the forests around the witcher stronghold.",
+          "role": "Forest hunter",
+          "relationships": {
+            "Forest game": "Hunts",
+            "Mountain wildlife": "Expert on"
+          }
+        }
+      }
+    },
+    "traveling-tinker": {
+      "name": "Tinker Fix-all",
+      "aliases": [],
+      "appearances": [1, 5],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A traveling tinker who repairs pots, pans, and small items for mountain communities.",
+          "role": "Traveling craftsman",
+          "relationships": {
+            "Mountain communities": "Serves",
+            "Repair work": "Specializes in"
+          }
+        }
+      }
+    },
+    "weather-watcher": {
+      "name": "Weather Seer Cloud-reader",
+      "aliases": [],
+      "appearances": [1, 2, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A person skilled in reading weather patterns crucial for mountain survival.",
+          "role": "Weather predictor",
+          "relationships": {
+            "Mountain weather": "Predicts",
+            "Travel safety": "Advises on"
+          }
+        }
+      }
+    },
+    "young-witcher-candidate": {
+      "name": "Failed Candidate Hopeful",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young person who failed the witcher trials but remains at Kaer Morhen as a helper.",
+          "role": "Failed candidate",
+          "relationships": {
+            "Witcher trials": "Failed",
+            "Kaer Morhen": "Helper at"
+          }
+        }
+      }
+    },
+    "old-servant-1": {
+      "name": "Elder Servant Faithful",
+      "aliases": [],
+      "appearances": [1, 2],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An elderly servant who has worked at Kaer Morhen for many decades.",
+          "role": "Long-term servant",
+          "relationships": {
+            "Kaer Morhen": "Decades of service to",
+            "Witcher history": "Witness to"
+          }
+        }
+      }
+    },
+    "old-servant-2": {
+      "name": "Kitchen Servant Ladle",
+      "aliases": [],
+      "appearances": [1, 2, 3],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A kitchen servant who helps prepare meals and maintain the fortress kitchen.",
+          "role": "Kitchen helper",
+          "relationships": {
+            "Fortress kitchen": "Works in",
+            "Meal preparation": "Assists with"
+          }
+        }
+      }
+    },
+    "magical-construct-1": {
+      "name": "Construct Guardian Stone",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A magical construct that protects important magical locations and artifacts.",
+          "role": "Magical guardian",
+          "relationships": {
+            "Magical locations": "Protects",
+            "Magical artifacts": "Guards"
+          }
+        }
+      }
+    },
+    "magical-construct-2": {
+      "name": "Servant Golem Clay",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A golem servant that performs manual labor for mages and scholars.",
+          "role": "Magical servant",
+          "relationships": {
+            "Magical institutions": "Serves",
+            "Manual labor": "Performs"
+          }
+        }
+      }
+    },
+    "street-informant": {
+      "name": "Street Contact Ears",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A street-level informant who gathers and sells information in urban areas.",
+          "role": "Information gatherer",
+          "relationships": {
+            "Urban intelligence": "Gathers",
+            "Information buyers": "Sells to"
+          }
+        }
+      }
+    },
+    "tavern-keeper": {
+      "name": "Tavern Keeper Ale-master",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A tavern keeper who serves drinks and overhears conversations from many patrons.",
+          "role": "Tavern owner",
+          "relationships": {
+            "Local gossip": "Source of",
+            "Tavern patrons": "Serves"
+          }
+        }
+      }
+    },
+    "dock-worker": {
+      "name": "Docker Strong-back",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A dock worker who loads and unloads ships, witnessing much trade activity.",
+          "role": "Harbor worker",
+          "relationships": {
+            "Harbor activities": "Participates in",
+            "Trade goods": "Handles"
+          }
+        }
+      }
+    },
+    "ship-captain": {
+      "name": "Captain Wave-rider",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A ship captain who transports goods and passengers between coastal cities.",
+          "role": "Ship master",
+          "relationships": {
+            "Maritime trade": "Part of",
+            "Passengers and cargo": "Transports"
+          }
+        }
+      }
+    },
+    "banker-clerk": {
+      "name": "Bank Clerk Coin-counter",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A clerk who works for wealthy banking houses and handles financial transactions.",
+          "role": "Financial clerk",
+          "relationships": {
+            "Banking operations": "Part of",
+            "Financial records": "Maintains"
+          }
+        }
+      }
+    },
+    "guild-apprentice": {
+      "name": "Guild Apprentice Learn-eager",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "An apprentice learning a trade within one of the merchant or craft guilds.",
+          "role": "Trade apprentice",
+          "relationships": {
+            "Guild master": "Learns from",
+            "Trade skills": "Developing"
+          }
+        }
+      }
+    },
+    "night-watchman": {
+      "name": "Night Watch Lantern",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A night watchman who patrols city streets during the dark hours.",
+          "role": "Night security",
+          "relationships": {
+            "City safety": "Maintains",
+            "Night activities": "Monitors"
+          }
+        }
+      }
+    },
+    "temple-pilgrim-2": {
+      "name": "Pilgrim Devout",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A religious pilgrim seeking spiritual guidance and miraculous healing.",
+          "role": "Religious seeker",
+          "relationships": {
+            "Religious shrines": "Visits",
+            "Spiritual guidance": "Seeks"
+          }
+        }
+      }
+    },
+    "fortune-teller": {
+      "name": "Fortune Teller Crystal-gazer",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A person who claims to predict the future through various divination methods.",
+          "role": "Divination practitioner",
+          "relationships": {
+            "Future predictions": "Claims to make",
+            "Curious clients": "Serves"
+          }
+        }
+      }
+    },
+    "street-performer": {
+      "name": "Performer Juggle-master",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A street performer who entertains crowds with juggling, music, or other acts.",
+          "role": "Street entertainer",
+          "relationships": {
+            "Street crowds": "Entertains",
+            "Performance arts": "Practitioner of"
+          }
+        }
+      }
+    },
+    "refugee-child-1": {
+      "name": "Refugee Child Hope",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A child displaced by war and political upheaval who seeks safety.",
+          "role": "War orphan",
+          "relationships": {
+            "War victims": "One of",
+            "Safety": "Seeks"
+          }
+        }
+      }
+    },
+    "refugee-child-2": {
+      "name": "Refugee Child Brave",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another child refugee who has lost family to the conflicts sweeping the land.",
+          "role": "Displaced child",
+          "relationships": {
+            "Lost family": "Mourns",
+            "Other refugees": "Travels with"
+          }
+        }
+      }
+    },
+    "border-patrol-1": {
+      "name": "Border Guard Watch-eye",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A border guard who monitors crossings between kingdoms and watches for threats.",
+          "role": "Border security",
+          "relationships": {
+            "Kingdom borders": "Patrols",
+            "Cross-border threats": "Watches for"
+          }
+        }
+      }
+    },
+    "border-patrol-2": {
+      "name": "Border Scout Trail-finder",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A scout who tracks movement along kingdom borders and reports suspicious activity.",
+          "role": "Border scout",
+          "relationships": {
+            "Border activities": "Monitors",
+            "Suspicious movements": "Tracks"
+          }
+        }
+      }
+    },
+    "war-correspondent": {
+      "name": "News Chronicler Quill-ready",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A person who records and spreads news of political and military developments.",
+          "role": "News chronicler",
+          "relationships": {
+            "Current events": "Records",
+            "Information spread": "Facilitates"
+          }
+        }
+      }
+    },
+    "siege-engineer": {
+      "name": "Engineer Fortress-breaker",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A military engineer who designs and operates siege equipment for warfare.",
+          "role": "Military engineer",
+          "relationships": {
+            "Siege warfare": "Expert in",
+            "Military campaigns": "Supports"
+          }
+        }
+      }
+    },
+    "field-surgeon": {
+      "name": "Surgeon Battle-mender",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A medical practitioner who treats wounded soldiers during military campaigns.",
+          "role": "Military medic",
+          "relationships": {
+            "Wounded soldiers": "Treats",
+            "Medical supplies": "Manages"
+          }
+        }
+      }
+    },
+    "supply-master": {
+      "name": "Quartermaster Provision",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A military quartermaster responsible for organizing and distributing supplies.",
+          "role": "Military logistics",
+          "relationships": {
+            "Military supplies": "Manages",
+            "Army logistics": "Coordinates"
+          }
+        }
+      }
+    },
+    "academy-dean-assistant": {
+      "name": "Dean's Assistant Scroll-keeper",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The administrative assistant to the dean of Oxenfurt Academy.",
+          "role": "Academic administrator",
+          "relationships": {
+            "Dean Philosophicus": "Assists",
+            "Academy administration": "Part of"
+          }
+        }
+      }
+    },
+    "academy-groundskeeper": {
+      "name": "Groundskeeper Hedge-trim",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The groundskeeper who maintains the academy's gardens and buildings.",
+          "role": "Academy maintenance",
+          "relationships": {
+            "Academy grounds": "Maintains",
+            "Students": "Observes"
+          }
+        }
+      }
+    },
+    "academy-cook": {
+      "name": "Academy Cook Spoon-master",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The head cook who prepares meals for academy students and staff.",
+          "role": "Academy chef",
+          "relationships": {
+            "Academy community": "Feeds",
+            "Kitchen staff": "Supervises"
+          }
+        }
+      }
+    },
+    "magical-researcher": {
+      "name": "Researcher Theory-seeker",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A magical researcher investigating theoretical aspects of magical arts.",
+          "role": "Magical theorist",
+          "relationships": {
+            "Magical theory": "Researches",
+            "Academic community": "Part of"
+          }
+        }
+      }
+    },
+    "potion-brewer": {
+      "name": "Alchemist Brew-master",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An alchemist who specializes in brewing potions and magical elixirs.",
+          "role": "Potion maker",
+          "relationships": {
+            "Magical potions": "Brews",
+            "Alchemical ingredients": "Collects"
+          }
+        }
+      }
+    },
+    "herb-gatherer": {
+      "name": "Gatherer Plant-finder",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A person who gathers rare herbs and plants for magical and medicinal use.",
+          "role": "Herb collector",
+          "relationships": {
+            "Magical herbs": "Collects",
+            "Healers": "Supplies"
+          }
+        }
+      }
+    },
+    "crystal-miner": {
+      "name": "Miner Crystal-seeker",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A miner who extracts magical crystals and dimeritium from mountain deposits.",
+          "role": "Crystal miner",
+          "relationships": {
+            "Magical crystals": "Mines",
+            "Dimeritium deposits": "Extracts from"
+          }
+        }
+      }
+    },
+    "monster-tracker": {
+      "name": "Tracker Beast-finder",
+      "aliases": [],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professional tracker who specializes in finding and following monster trails.",
+          "role": "Monster hunter support",
+          "relationships": {
+            "Monster signs": "Reads",
+            "Witchers": "Sometimes works with"
+          }
+        }
+      }
+    },
+    "rune-carver": {
+      "name": "Carver Rune-scribe",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A craftsman who carves magical runes and symbols into various materials.",
+          "role": "Rune craftsman",
+          "relationships": {
+            "Magical runes": "Carves",
+            "Enchanted items": "Creates"
+          }
+        }
+      }
+    },
+    "enchantment-specialist": {
+      "name": "Enchanter Magic-binder",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A mage who specializes in binding magical effects to physical objects.",
+          "role": "Enchantment expert",
+          "relationships": {
+            "Magical items": "Enchants",
+            "Enchantment theory": "Expert in"
+          }
+        }
+      }
+    },
+    "portal-keeper": {
+      "name": "Keeper Gate-warden",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A mage responsible for maintaining and monitoring magical portals.",
+          "role": "Portal guardian",
+          "relationships": {
+            "Magical portals": "Maintains",
+            "Teleportation magic": "Expert in"
+          }
+        }
+      }
+    },
+    "ward-specialist": {
+      "name": "Ward-master Protection",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A mage who specializes in creating protective magical wards and barriers.",
+          "role": "Protection specialist",
+          "relationships": {
+            "Protective wards": "Creates",
+            "Magical security": "Expert in"
+          }
+        }
+      }
+    },
+    "scrying-master": {
+      "name": "Scryer Far-sight",
+      "aliases": [],
+      "appearances": [5, 6, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A mage skilled in scrying magic and distant observation techniques.",
+          "role": "Divination expert",
+          "relationships": {
+            "Scrying magic": "Master of",
+            "Intelligence gathering": "Supports"
+          }
+        }
+      }
+    },
+    "battle-mage-trainee": {
+      "name": "Trainee Combat-caster",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A young mage training in combat applications of magical arts.",
+          "role": "Battle magic student",
+          "relationships": {
+            "Combat magic": "Learning",
+            "Military mages": "Training with"
+          }
+        }
+      }
+    },
+    "healing-mage-apprentice": {
+      "name": "Apprentice Healer Mend-touch",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An apprentice learning the magical arts of healing and restoration.",
+          "role": "Healing student",
+          "relationships": {
+            "Healing magic": "Studies",
+            "Master healers": "Learns from"
+          }
+        }
+      }
+    },
+    "illusion-specialist": {
+      "name": "Illusionist Mind-weaver",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A mage who creates complex illusions and mental manipulations.",
+          "role": "Illusion expert",
+          "relationships": {
+            "Illusion magic": "Master of",
+            "Mental magic": "Practitioner of"
+          }
+        }
+      }
+    },
+    "elemental-summoner": {
+      "name": "Summoner Element-caller",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A mage specializing in summoning and controlling elemental forces.",
+          "role": "Summoning specialist",
+          "relationships": {
+            "Elemental magic": "Commands",
+            "Summoning circles": "Creates"
+          }
+        }
+      }
+    },
+    "transmutation-expert": {
+      "name": "Transmuter Shape-changer",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A mage who specializes in changing the form and properties of matter.",
+          "role": "Transmutation master",
+          "relationships": {
+            "Matter transformation": "Expert in",
+            "Alchemical processes": "Understands"
+          }
+        }
+      }
+    },
+    "time-magic-researcher": {
+      "name": "Researcher Time-student",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A theoretical mage researching the dangerous and poorly understood magic of time.",
+          "role": "Time magic theorist",
+          "relationships": {
+            "Time magic": "Studies",
+            "Temporal theory": "Researches"
+          }
+        }
+      }
+    },
+    "chaos-magic-scholar": {
+      "name": "Scholar Chaos-seeker",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A scholarly mage investigating the fundamental nature of chaos and magical energy.",
+          "role": "Chaos theorist",
+          "relationships": {
+            "Chaos magic": "Studies",
+            "Magical theory": "Advances"
+          }
+        }
+      }
+    },
+    "dimensional-researcher": {
+      "name": "Researcher Void-walker",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A researcher investigating other dimensions and planes of existence.",
+          "role": "Dimensional scholar",
+          "relationships": {
+            "Other dimensions": "Studies",
+            "Planar magic": "Investigates"
+          }
+        }
+      }
     }
   },
   "recaps": {

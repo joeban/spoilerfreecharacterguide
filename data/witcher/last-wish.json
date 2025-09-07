@@ -1037,6 +1037,1415 @@
           }
         }
       }
+    },
+    "temple-guard-captain": {
+      "name": "Temple Guard Captain",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The captain of the temple guards at the Temple of Melitele. Maintains security and watches over pilgrims.",
+          "role": "Guard captain",
+          "relationships": {
+            "Nenneke": "Reports to",
+            "Temple Guards": "Commands"
+          }
+        }
+      }
+    },
+    "temple-novice-mara": {
+      "name": "Mara",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young novice priestess at the Temple of Melitele who assists with healing rituals.",
+          "role": "Novice priestess",
+          "relationships": {
+            "Nenneke": "Student of",
+            "Iola": "Fellow novice"
+          }
+        }
+      }
+    },
+    "temple-novice-lytta": {
+      "name": "Lytta",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "Another novice at the temple who helps prepare medicinal herbs and tinctures.",
+          "role": "Novice healer",
+          "relationships": {
+            "Nenneke": "Trained by",
+            "Geralt": "Tends to"
+          }
+        }
+      }
+    },
+    "pilgrim-lord-ostrit": {
+      "name": "Lord Ostrit (pilgrim)",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A noble who has come to the temple seeking healing for a chronic ailment.",
+          "role": "Noble pilgrim",
+          "relationships": {
+            "Temple": "Patron of",
+            "Nenneke": "Seeks healing from"
+          }
+        }
+      }
+    },
+    "blaviken-baker": {
+      "name": "Blaviken Baker",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The local baker who witnesses the confrontation in Blaviken's market square.",
+          "role": "Town baker",
+          "relationships": {
+            "Caldemeyn": "Fellow townsperson",
+            "Renfri": "Fears"
+          }
+        }
+      }
+    },
+    "blaviken-blacksmith": {
+      "name": "Blaviken Blacksmith",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "The town blacksmith who repairs weapons and tools. Recognizes Geralt's silver sword.",
+          "role": "Blacksmith",
+          "relationships": {
+            "Geralt": "Services sword of",
+            "Blaviken townspeople": "Part of community"
+          }
+        }
+      }
+    },
+    "blaviken-merchant-koen": {
+      "name": "Koen",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A textile merchant in Blaviken who sells fabrics and clothing.",
+          "role": "Textile merchant",
+          "relationships": {
+            "Blaviken market": "Operates in",
+            "Marilka": "Customer of"
+          }
+        }
+      }
+    },
+    "stregobor-apprentice": {
+      "name": "Stregobor's Apprentice",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young mage studying under Stregobor who helps with magical research and experiments.",
+          "role": "Mage apprentice",
+          "relationships": {
+            "Stregobor": "Apprenticed to",
+            "Tower laboratory": "Works in"
+          }
+        }
+      }
+    },
+    "renfri-gang-member-1": {
+      "name": "Nohorn's Brother",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "One of Renfri's gang members who participates in the Blaviken confrontation. Brother to Nohorn.",
+          "role": "Bandit",
+          "relationships": {
+            "Renfri": "Follows",
+            "Nohorn": "Brother to",
+            "Geralt": "Fights against"
+          }
+        }
+      }
+    },
+    "renfri-gang-member-2": {
+      "name": "Streak",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A bandit with distinctive streaked hair in Renfri's gang.",
+          "role": "Bandit",
+          "relationships": {
+            "Renfri": "Loyal to",
+            "Blaviken townspeople": "Threatens"
+          }
+        }
+      }
+    },
+    "renfri-gang-member-3": {
+      "name": "Fen",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A crossbow-wielding member of Renfri's band of outlaws.",
+          "role": "Crossbow bandit",
+          "relationships": {
+            "Renfri": "Serves",
+            "Gang": "Member of"
+          }
+        }
+      }
+    },
+    "temerian-guard-1": {
+      "name": "Ser Willem",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Temerian guard stationed at Vizima's royal castle who escorts visitors.",
+          "role": "Royal guard",
+          "relationships": {
+            "King Foltest": "Serves",
+            "Vizima Castle": "Guards"
+          }
+        }
+      }
+    },
+    "temerian-guard-2": {
+      "name": "Guard Thaler",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A veteran guard who has served at the castle since before the striga curse began.",
+          "role": "Veteran guard",
+          "relationships": {
+            "Velerad": "Reports to",
+            "Princess Adda": "Remembers before curse"
+          }
+        }
+      }
+    },
+    "castle-cook": {
+      "name": "Master Tobias",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The head cook of Vizima Castle who prepares meals for the royal court.",
+          "role": "Master cook",
+          "relationships": {
+            "King Foltest": "Serves meals to",
+            "Castle staff": "Supervises"
+          }
+        }
+      }
+    },
+    "castle-steward": {
+      "name": "Steward Margrave",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The castle steward responsible for managing daily operations and supplies.",
+          "role": "Castle steward",
+          "relationships": {
+            "King Foltest": "Administrative aide to",
+            "Velerad": "Coordinates with"
+          }
+        }
+      }
+    },
+    "striga-survivor": {
+      "name": "Guardsman Beck",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "One of the few guards to survive an encounter with the striga, bearing scars as proof.",
+          "role": "Wounded guard",
+          "relationships": {
+            "Princess Adda (striga)": "Attacked by",
+            "Velerad": "Tells story to"
+          }
+        }
+      }
+    },
+    "court-physician": {
+      "name": "Master Shani's Predecessor",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The court physician who attended Princess Adda before the curse took hold.",
+          "role": "Court physician",
+          "relationships": {
+            "Princess Adda": "Former physician to",
+            "King Foltest": "Medical advisor to"
+          }
+        }
+      }
+    },
+    "elf-archer-1": {
+      "name": "Aenyeweddien",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven archer skilled with bow and arrow, part of Filavandrel's group.",
+          "role": "Elven archer",
+          "relationships": {
+            "Filavandrel": "Follows",
+            "Toruviel": "Fellow warrior"
+          }
+        }
+      }
+    },
+    "elf-scout": {
+      "name": "Morenn",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven scout who watches the borders and reports human movements.",
+          "role": "Elven scout",
+          "relationships": {
+            "Filavandrel": "Reports to",
+            "Edge of the World": "Patrols"
+          }
+        }
+      }
+    },
+    "halfling-trader": {
+      "name": "Dainty Biberveldt's Cousin",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A halfling trader who deals in goods along the edge territories.",
+          "role": "Halfling merchant",
+          "relationships": {
+            "Biberveldt": "Related to",
+            "Border territories": "Trades in"
+          }
+        }
+      }
+    },
+    "sylvan-elder": {
+      "name": "Old Oak",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An ancient sylvan who remembers the old days before human expansion.",
+          "role": "Sylvan elder",
+          "relationships": {
+            "Torque": "Elder to",
+            "Forest spirits": "Speaks for"
+          }
+        }
+      }
+    },
+    "nivellen-servant-1": {
+      "name": "Kneeling Woman",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "One of the enchanted servants in Nivellen's castle who appears as a kneeling figure.",
+          "role": "Enchanted servant",
+          "relationships": {
+            "Nivellen": "Serves",
+            "Vereena": "Fellow inhabitant"
+          }
+        }
+      }
+    },
+    "nivellen-servant-2": {
+      "name": "Invisible Cook",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An invisible servant who prepares meals in Nivellen's enchanted castle.",
+          "role": "Enchanted cook",
+          "relationships": {
+            "Nivellen": "Prepares food for",
+            "Geralt": "Serves during visit"
+          }
+        }
+      }
+    },
+    "cintran-knight-1": {
+      "name": "Sir Rainfarn's Lieutenant",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A knight who serves under Sir Rainfarn in Queen Calanthe's court.",
+          "role": "Knight",
+          "relationships": {
+            "Rainfarn": "Serves under",
+            "Queen Calanthe": "Loyal to"
+          }
+        }
+      }
+    },
+    "cintran-knight-2": {
+      "name": "Sir Windhalm's Squire",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young squire serving Sir Windhalm during the betrothal feast.",
+          "role": "Squire",
+          "relationships": {
+            "Windhalm": "Squire to",
+            "Cintran court": "Serves"
+          }
+        }
+      }
+    },
+    "cintran-bard": {
+      "name": "Bard Toss",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A court bard who performs at Princess Pavetta's betrothal feast.",
+          "role": "Court bard",
+          "relationships": {
+            "Dandelion": "Fellow bard",
+            "Cintran court": "Entertains"
+          }
+        }
+      }
+    },
+    "cintran-servant-1": {
+      "name": "Head Butler Greevey",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The head butler of Cintra's royal castle who oversees the feast preparations.",
+          "role": "Head butler",
+          "relationships": {
+            "Queen Calanthe": "Serves",
+            "Castle staff": "Supervises"
+          }
+        }
+      }
+    },
+    "skellige-warrior-1": {
+      "name": "Jarl Otrygg",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Skellige jarl who accompanies Eist Tuirseach to the betrothal feast.",
+          "role": "Skellige jarl",
+          "relationships": {
+            "Eist Tuirseach": "Accompanies",
+            "Crach an Craite": "Fellow jarl"
+          }
+        }
+      }
+    },
+    "skellige-warrior-2": {
+      "name": "Donar an Hindar",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "Another Skellige warrior attending the feast, known for his battle prowess.",
+          "role": "Skellige warrior",
+          "relationships": {
+            "Hjalmar": "Fights alongside",
+            "Skellige fleet": "Part of"
+          }
+        }
+      }
+    },
+    "djinn-rinde": {
+      "name": "The Djinn",
+      "aliases": ["Last Wish Djinn"],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A powerful djinn trapped in a lamp, capable of granting three wishes to whoever releases it.",
+          "role": "Djinn",
+          "relationships": {
+            "Geralt": "Grants wishes to",
+            "Yennefer": "Bound by wish involving"
+          }
+        }
+      }
+    },
+    "rinde-mayor": {
+      "name": "Mayor Herbolth",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The mayor of Rinde who deals with the magical disturbances caused by the djinn.",
+          "role": "Town mayor",
+          "relationships": {
+            "Rinde townspeople": "Governs",
+            "Geralt": "Seeks help from"
+          }
+        }
+      }
+    },
+    "rinde-fisherman": {
+      "name": "Old Henrik",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A local fisherman who first discovered the djinn's lamp while fishing.",
+          "role": "Fisherman",
+          "relationships": {
+            "The Djinn": "Original finder of",
+            "Rinde": "Lives in"
+          }
+        }
+      }
+    },
+    "rinde-innkeeper": {
+      "name": "Innkeeper Yurga",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The innkeeper who provides lodging to Geralt and witnesses the djinn's effects.",
+          "role": "Innkeeper",
+          "relationships": {
+            "Geralt": "Hosts",
+            "Dandelion": "Tends to injuries of"
+          }
+        }
+      }
+    },
+    "rinde-healer": {
+      "name": "Coenn the Healer",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A local healer who attempts to treat Dandelion's throat injury.",
+          "role": "Village healer",
+          "relationships": {
+            "Dandelion": "Treats",
+            "Yennefer": "Inferior in healing to"
+          }
+        }
+      }
+    },
+    "temple-priest-1": {
+      "name": "Father Willemer",
+      "aliases": [],
+      "appearances": [1, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A senior priest at the Temple of Melitele who performs healing rituals.",
+          "role": "Senior priest",
+          "relationships": {
+            "Nenneke": "Works with",
+            "Temple": "Serves"
+          }
+        }
+      }
+    },
+    "temple-groundskeeper": {
+      "name": "Old Mikael",
+      "aliases": [],
+      "appearances": [1, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The elderly groundskeeper who maintains the temple gardens and grounds.",
+          "role": "Groundskeeper",
+          "relationships": {
+            "Temple": "Maintains",
+            "Nenneke": "Trusted by"
+          }
+        }
+      }
+    },
+    "merchant-from-novigrad": {
+      "name": "Fabio Sachs",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A wealthy merchant from Novigrad who trades in Blaviken and witnesses the market confrontation.",
+          "role": "Novigrad merchant",
+          "relationships": {
+            "Blaviken market": "Trades in",
+            "Caldemeyn": "Business associate of"
+          }
+        }
+      }
+    },
+    "blaviken-child-1": {
+      "name": "Little Anya",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young girl in Blaviken who sees the confrontation between Geralt and Renfri's gang.",
+          "role": "Child witness",
+          "relationships": {
+            "Blaviken townspeople": "Daughter of",
+            "Geralt": "Witnessed by"
+          }
+        }
+      }
+    },
+    "blaviken-child-2": {
+      "name": "Tomek",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young boy who runs to fetch the alderman during the market incident.",
+          "role": "Child messenger",
+          "relationships": {
+            "Caldemeyn": "Runs to fetch",
+            "Blaviken": "Lives in"
+          }
+        }
+      }
+    },
+    "strigawitness-merchant": {
+      "name": "Merchant Vivaldi",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A traveling merchant who spreads tales of the striga across the Northern Kingdoms.",
+          "role": "Traveling merchant",
+          "relationships": {
+            "Princess Adda (striga)": "Tells tales of",
+            "Geralt": "Spreads stories about"
+          }
+        }
+      }
+    },
+    "vizima-citizen-1": {
+      "name": "Butcher Gremist",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The local butcher in Vizima who fears the striga might attack the town.",
+          "role": "Town butcher",
+          "relationships": {
+            "Vizima townspeople": "Part of community",
+            "Princess Adda (striga)": "Fears"
+          }
+        }
+      }
+    },
+    "vizima-citizen-2": {
+      "name": "Seamstress Corrine",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A seamstress who once made clothes for Princess Adda before the curse.",
+          "role": "Seamstress",
+          "relationships": {
+            "Princess Adda": "Former customer",
+            "Vizima": "Lives and works in"
+          }
+        }
+      }
+    },
+    "druid-of-the-edge": {
+      "name": "Ermion",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A druid who lives at the edge of the world and knows the old ways.",
+          "role": "Edge druid",
+          "relationships": {
+            "Filavandrel": "Advisor to",
+            "Old magic": "Practitioner of"
+          }
+        }
+      }
+    },
+    "border-guard-captain": {
+      "name": "Captain Anselm",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "Captain of the border guards who patrols the edge territories.",
+          "role": "Border guard captain",
+          "relationships": {
+            "Edge territories": "Patrols",
+            "Non-humans": "Conflicts with"
+          }
+        }
+      }
+    },
+    "dwarven-smith": {
+      "name": "Mahakam Dain",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A dwarven smith who creates weapons and tools for the edge communities.",
+          "role": "Dwarven smith",
+          "relationships": {
+            "Filavandrel": "Supplies weapons to",
+            "Biberveldt": "Trade partner"
+          }
+        }
+      }
+    },
+    "cintran-guard-1": {
+      "name": "Captain Cahir's Predecessor",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The former captain of Cintra's royal guard who trained many current knights.",
+          "role": "Former guard captain",
+          "relationships": {
+            "Queen Calanthe": "Served",
+            "Cintran knights": "Trained"
+          }
+        }
+      }
+    },
+    "cintran-cook": {
+      "name": "Master Chef Aldara",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The head chef of Cintra's royal kitchen who prepared the betrothal feast.",
+          "role": "Royal chef",
+          "relationships": {
+            "Queen Calanthe": "Cooks for",
+            "Betrothal feast": "Prepared"
+          }
+        }
+      }
+    },
+    "cintran-herald": {
+      "name": "Herald Ostrit",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The royal herald who announces guests and makes proclamations at court.",
+          "role": "Royal herald",
+          "relationships": {
+            "Queen Calanthe": "Serves",
+            "Cintran court": "Announces for"
+          }
+        }
+      }
+    },
+    "guest-noble-1": {
+      "name": "Duke of Maribor",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A noble guest attending Princess Pavetta's betrothal feast.",
+          "role": "Noble guest",
+          "relationships": {
+            "Betrothal feast": "Attends",
+            "Cintran court": "Visiting"
+          }
+        }
+      }
+    },
+    "guest-noble-2": {
+      "name": "Countess of Sodden",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A female noble who witnesses the magical events at the feast.",
+          "role": "Noble guest",
+          "relationships": {
+            "Princess Pavetta": "Witnesses magic of",
+            "Betrothal feast": "Attends"
+          }
+        }
+      }
+    },
+    "rinde-guard-1": {
+      "name": "Sergeant Yarpen",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A town guard in Rinde who tries to maintain order during the djinn incident.",
+          "role": "Town guard",
+          "relationships": {
+            "Mayor Herbolth": "Reports to",
+            "Rinde": "Protects"
+          }
+        }
+      }
+    },
+    "rinde-scholar": {
+      "name": "Master Algernon",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A scholar studying magical phenomena who investigates the djinn.",
+          "role": "Scholar",
+          "relationships": {
+            "The Djinn": "Studies",
+            "Yennefer": "Recognizes power of"
+          }
+        }
+      }
+    },
+    "young-witcher-trainee": {
+      "name": "Lambert (mentioned)",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young witcher trainee mentioned by Geralt as undergoing the trials.",
+          "role": "Witcher trainee",
+          "relationships": {
+            "Kaer Morhen": "Trains at",
+            "Vesemir": "Trained by"
+          }
+        }
+      }
+    },
+    "temple-acolyte-1": {
+      "name": "Brother Felix",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young acolyte at the temple who studies healing arts under Nenneke.",
+          "role": "Temple acolyte",
+          "relationships": {
+            "Nenneke": "Student of",
+            "Temple": "Serves"
+          }
+        }
+      }
+    },
+    "temple-pilgrim-1": {
+      "name": "Widow Marta",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "An elderly widow seeking healing and comfort at the temple.",
+          "role": "Pilgrim",
+          "relationships": {
+            "Temple": "Prays at",
+            "Melitele": "Devout follower of"
+          }
+        }
+      }
+    },
+    "temple-pilgrim-2": {
+      "name": "Young Father Dael",
+      "aliases": [],
+      "appearances": [1, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A young father who brought his sick child to the temple for healing.",
+          "role": "Worried father",
+          "relationships": {
+            "Sick child": "Father of",
+            "Temple healers": "Seeks help from"
+          }
+        }
+      }
+    },
+    "blaviken-guard-1": {
+      "name": "Guard Captain Hamm",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Captain of Blaviken's small town guard who arrives after the confrontation.",
+          "role": "Town guard captain",
+          "relationships": {
+            "Caldemeyn": "Reports to",
+            "Geralt": "Confronts after fight"
+          }
+        }
+      }
+    },
+    "blaviken-guard-2": {
+      "name": "Guardsman Jorik",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A town guard who helps clean up after the market square incident.",
+          "role": "Town guard",
+          "relationships": {
+            "Guard Captain Hamm": "Serves under",
+            "Market square": "Patrols"
+          }
+        }
+      }
+    },
+    "blaviken-priest": {
+      "name": "Father Krepp's Assistant",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A junior priest who assists Father Krepp in local religious duties.",
+          "role": "Assistant priest",
+          "relationships": {
+            "Krepp": "Assistant to",
+            "Blaviken temple": "Serves"
+          }
+        }
+      }
+    },
+    "stregobor-guard": {
+      "name": "Tower Guardian",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A magical guardian that protects Stregobor's tower from intruders.",
+          "role": "Magical guardian",
+          "relationships": {
+            "Stregobor": "Protects",
+            "Tower": "Guards"
+          }
+        }
+      }
+    },
+    "foltest-advisor-1": {
+      "name": "Royal Advisor Kalkstein's Predecessor",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Former royal advisor who counseled King Foltest on magical matters.",
+          "role": "Former royal advisor",
+          "relationships": {
+            "King Foltest": "Former advisor to",
+            "Princess Adda curse": "Consulted about"
+          }
+        }
+      }
+    },
+    "foltest-courtier-1": {
+      "name": "Lord Natalis",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A courtier in King Foltest's court who witnessed the striga's first appearance.",
+          "role": "Court noble",
+          "relationships": {
+            "King Foltest": "Courtier to",
+            "Princess Adda (striga)": "Witnessed transformation"
+          }
+        }
+      }
+    },
+    "foltest-courtier-2": {
+      "name": "Lady Louisa",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A lady of the court who mourned Princess Adda's apparent death.",
+          "role": "Court lady",
+          "relationships": {
+            "Princess Adda": "Mourned",
+            "Temerian court": "Member of"
+          }
+        }
+      }
+    },
+    "castle-armorer": {
+      "name": "Master Smith Havelock",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The castle's master armorer who maintains weapons and armor.",
+          "role": "Castle armorer",
+          "relationships": {
+            "Royal guards": "Equips",
+            "Geralt": "Examines equipment of"
+          }
+        }
+      }
+    },
+    "elven-elder": {
+      "name": "Avallac'h (mentioned)",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An ancient elven sage mentioned by Filavandrel as a keeper of old knowledge.",
+          "role": "Elven sage",
+          "relationships": {
+            "Filavandrel": "Known to",
+            "Ancient elven lore": "Keeper of"
+          }
+        }
+      }
+    },
+    "elven-child": {
+      "name": "Young Yaevinn",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young elf in Filavandrel's group, full of anger toward humans.",
+          "role": "Young elf",
+          "relationships": {
+            "Filavandrel": "Follows",
+            "Humans": "Hates"
+          }
+        }
+      }
+    },
+    "halfling-innkeeper": {
+      "name": "Halfling Rosemary",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A halfling innkeeper who serves travelers at the edge of civilization.",
+          "role": "Halfling innkeeper",
+          "relationships": {
+            "Geralt": "Serves",
+            "Dandelion": "Hosts"
+          }
+        }
+      }
+    },
+    "forest-dweller": {
+      "name": "Hermit Mice",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An old hermit living in the forest who knows the ways of woodland creatures.",
+          "role": "Forest hermit",
+          "relationships": {
+            "Forest creatures": "Lives among",
+            "Torque": "Neighbor to"
+          }
+        }
+      }
+    },
+    "cintran-mage": {
+      "name": "Court Mage Tissaia's Student",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young mage studying under Tissaia who attends the betrothal feast.",
+          "role": "Student mage",
+          "relationships": {
+            "Mousesack": "Colleague of",
+            "Betrothal feast": "Attends"
+          }
+        }
+      }
+    },
+    "cintran-musician-1": {
+      "name": "Lute Player Corvo",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A court musician who plays during the betrothal celebrations.",
+          "role": "Court musician",
+          "relationships": {
+            "Dandelion": "Fellow musician",
+            "Cintran court": "Entertains"
+          }
+        }
+      }
+    },
+    "cintran-musician-2": {
+      "name": "Drummer Adalbert",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A drummer who provides rhythm for the feast entertainment.",
+          "role": "Court drummer",
+          "relationships": {
+            "Court musicians": "Plays with",
+            "Feast": "Performs at"
+          }
+        }
+      }
+    },
+    "skellige-berserker": {
+      "name": "Bjorn the Mad",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Skellige berserker known for his battle fury and loyalty.",
+          "role": "Skellige berserker",
+          "relationships": {
+            "Eist Tuirseach": "Serves",
+            "Skellige warriors": "Fights alongside"
+          }
+        }
+      }
+    },
+    "skellige-skald": {
+      "name": "Skald Eyvind",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A Skellige skald who tells tales of heroes and ancient deeds.",
+          "role": "Skellige skald",
+          "relationships": {
+            "Dandelion": "Fellow storyteller",
+            "Skellige culture": "Preserves"
+          }
+        }
+      }
+    },
+    "urcheon-servant": {
+      "name": "Urcheon's Retainer",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A loyal retainer who serves Urcheon of Erlenwald.",
+          "role": "Knight's retainer",
+          "relationships": {
+            "Urcheon of Erlenwald": "Serves",
+            "Erlenwald": "From"
+          }
+        }
+      }
+    },
+    "rinde-dockworker": {
+      "name": "Docker Finn",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A dockworker who helps load and unload boats at Rinde's small port.",
+          "role": "Dockworker",
+          "relationships": {
+            "Rinde port": "Works at",
+            "Old Henrik": "Fellow worker"
+          }
+        }
+      }
+    },
+    "rinde-merchant": {
+      "name": "Spice Trader Gorth",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A merchant who trades in exotic spices and herbs in Rinde.",
+          "role": "Spice merchant",
+          "relationships": {
+            "Rinde market": "Trades in",
+            "Coenn the Healer": "Supplies herbs to"
+          }
+        }
+      }
+    },
+    "rinde-watchman": {
+      "name": "Night Watchman Pol",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The night watchman who patrols Rinde during the evening hours.",
+          "role": "Night watchman",
+          "relationships": {
+            "Sergeant Yarpen": "Reports to",
+            "Rinde": "Protects at night"
+          }
+        }
+      }
+    },
+    "temple-librarian": {
+      "name": "Brother Scriptis",
+      "aliases": [],
+      "appearances": [1, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The temple librarian who maintains ancient texts and scrolls.",
+          "role": "Temple librarian",
+          "relationships": {
+            "Nenneke": "Provides research for",
+            "Ancient texts": "Keeper of"
+          }
+        }
+      }
+    },
+    "temerian-messenger": {
+      "name": "Royal Courier Aldrich",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A royal messenger who carries communications for King Foltest.",
+          "role": "Royal courier",
+          "relationships": {
+            "King Foltest": "Serves",
+            "Royal communications": "Carries"
+          }
+        }
+      }
+    },
+    "elven-maiden": {
+      "name": "Elven Maiden Aelirenn",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young elven woman who tends to the wounded in Filavandrel's group.",
+          "role": "Elven healer",
+          "relationships": {
+            "Filavandrel": "Tends to warriors of",
+            "Wounded elves": "Heals"
+          }
+        }
+      }
+    },
+    "cintran-page": {
+      "name": "Page Boy Coen",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young page who serves at the Cintran court during the feast.",
+          "role": "Court page",
+          "relationships": {
+            "Cintran nobles": "Serves",
+            "Betrothal feast": "Attends to guests at"
+          }
+        }
+      }
+    },
+    "cintran-scribe": {
+      "name": "Royal Scribe Filippa",
+      "aliases": [],
+      "appearances": [5],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "The royal scribe who records important court proceedings.",
+          "role": "Royal scribe",
+          "relationships": {
+            "Queen Calanthe": "Records for",
+            "Law of Surprise": "Documents"
+          }
+        }
+      }
+    },
+    "rinde-tavern-keeper": {
+      "name": "Tavern Keeper Aldona",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "The keeper of Rinde's main tavern where travelers gather for news.",
+          "role": "Tavern keeper",
+          "relationships": {
+            "Rinde travelers": "Serves",
+            "Local gossip": "Source of"
+          }
+        }
+      }
+    },
+    "djinn-victim": {
+      "name": "Affected Fisherman",
+      "aliases": [],
+      "appearances": [6],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A local fisherman affected by the djinn's magic, speaking in rhymes.",
+          "role": "Enchanted fisherman",
+          "relationships": {
+            "The Djinn": "Cursed by",
+            "Rinde fishermen": "One of"
+          }
+        }
+      }
+    },
+    "wise-woman": {
+      "name": "Wise Woman Triss",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A wise woman who visits the temple seeking guidance about destiny.",
+          "role": "Wise woman",
+          "relationships": {
+            "Nenneke": "Consults with",
+            "Destiny": "Understands"
+          }
+        }
+      }
+    },
+    "young-merchant": {
+      "name": "Merchant's Son Danilo",
+      "aliases": [],
+      "appearances": [7],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young merchant's son learning the trade while visiting the temple.",
+          "role": "Merchant apprentice",
+          "relationships": {
+            "Temple": "Visits for blessing",
+            "Trade routes": "Learning"
+          }
+        }
+      }
+    },
+    "temple-cat": {
+      "name": "Temple Cat Paws",
+      "aliases": [],
+      "appearances": [1, 7],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "The temple's resident cat who wanders the halls and brings comfort to the sick.",
+          "role": "Temple cat",
+          "relationships": {
+            "Temple inhabitants": "Comforts",
+            "Geralt": "Curious about"
+          }
+        }
+      }
+    },
+    "traveling-scholar": {
+      "name": "Scholar Condwiramurs",
+      "aliases": [],
+      "appearances": [1],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A traveling scholar who studies at the temple's library and seeks wisdom.",
+          "role": "Traveling scholar",
+          "relationships": {
+            "Brother Scriptis": "Studies with",
+            "Ancient knowledge": "Seeks"
+          }
+        }
+      }
     }
   },
   "recaps": {
