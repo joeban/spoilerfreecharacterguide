@@ -660,14 +660,14 @@ After completing and pushing any series or book data:
   - 🟢 Foundation's Edge: 131 characters, all recaps, v2.0
   - 🟢 Foundation and Earth: 158 characters, all recaps, v2.0
 
-- ✅ **Cosmere/Mistborn** (7 books) - 764 total characters
-  - 🟡 The Final Empire: 63 characters, all recaps, v2.0
+- ✅ **Cosmere/Mistborn** (7 books) - 1,055 total characters ✅ EXPANDED 2025-09-06
+  - 🟢 The Final Empire: 150 characters, all recaps, v2.0
   - 🟢 The Well of Ascension: 150 characters, all recaps, v2.0
   - 🟢 The Hero of Ages: 151 characters, all recaps, v2.0
-  - 🟢 The Alloy of Law: 133 characters, all recaps, v2.0 ✅ EXPANDED
-  - 🟢 Shadows of Self: 104 characters, all recaps, v2.0
-  - 🟡 The Bands of Mourning: 87 characters, all recaps, v2.0
-  - 🟡 The Lost Metal: 76 characters, all recaps, v2.0
+  - 🟢 The Alloy of Law: 151 characters, all recaps, v2.0
+  - 🟢 Shadows of Self: 152 characters, all recaps, v2.0
+  - 🟢 The Bands of Mourning: 150 characters, all recaps, v2.0
+  - 🟢 The Lost Metal: 151 characters, all recaps, v2.0
 
 - ✅ **Discworld** (8 books) - 1,116 total characters
   - 🟢 The Colour of Magic: 151 characters, all recaps, v2.0
@@ -774,7 +774,7 @@ For each book, we:
 - **Total Series Configured**: 20 series
 - **Series with Complete Data**: 20 series (ALL COMPLETE!)
 - **Total Books with Data**: 114 books (excluding backup files)
-- **Total Characters**: 17,014+ unique characters across all series
+- **Total Characters**: 17,305+ unique characters across all series
 - **Recent Major Completions**: Wheel of Time (14 books), Discworld (8 books), all major expansions
 - **Data Coverage Breakdown**:
   - 🟢 14 series with 500+ characters (comprehensive)
