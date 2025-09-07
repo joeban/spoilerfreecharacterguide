@@ -557,15 +557,15 @@ After completing and pushing any series or book data:
   - 🟢 Feast for Crows: 149 characters, all recaps, v2.0
   - 🟢 Dance with Dragons: 199 characters, all recaps, v2.0
 
-- ✅ **The Witcher** (8 books) - 474 total characters - SPOILER-FREE ✅
-  - 🟡 Last Wish: 62 characters, all recaps, v2.0 ✅ FIXED
-  - 🟡 Sword of Destiny: 52 characters, all recaps, v2.0
-  - 🟡 Blood of Elves: 60 characters, all recaps, v2.0
-  - 🟡 Time of Contempt: 60 characters, all recaps, v2.0
-  - 🟡 Baptism of Fire: 63 characters, all recaps, v2.0 (FIXED)
-  - 🟡 Tower of Swallows: 61 characters, all recaps, v2.0 (FIXED)
-  - 🟡 Lady of the Lake: 61 characters, all recaps, v2.0 (FIXED)
-  - 🟡 Season of Storms: 55 characters, all recaps, v2.0 (FIXED)
+- ✅ **The Witcher** (8 books) - 1,200 total characters ✅ EXPANDED 2025-09-06
+  - 🟢 Last Wish: 150 characters, all recaps, v2.0
+  - 🟢 Sword of Destiny: 150 characters, all recaps, v2.0
+  - 🟢 Blood of Elves: 150 characters, all recaps, v2.0
+  - 🟢 Time of Contempt: 150 characters, all recaps, v2.0
+  - 🟢 Baptism of Fire: 150 characters, all recaps, v2.0
+  - 🟢 Tower of Swallows: 150 characters, all recaps, v2.0
+  - 🟢 Lady of the Lake: 150 characters, all recaps, v2.0
+  - 🟢 Season of Storms: 150 characters, all recaps, v2.0
 
 - ✅ **Fourth Wing** (2 books) - 327 total characters - SPOILER-FREE ✅
   - 🟢 Fourth Wing: 150 characters, all recaps, v2.0
@@ -774,7 +774,7 @@ For each book, we:
 - **Total Series Configured**: 20 series
 - **Series with Complete Data**: 20 series (ALL COMPLETE!)
 - **Total Books with Data**: 114 books (excluding backup files)
-- **Total Characters**: 16,288+ unique characters across all series
+- **Total Characters**: 17,014+ unique characters across all series
 - **Recent Major Completions**: Wheel of Time (14 books), Discworld (8 books), all major expansions
 - **Data Coverage Breakdown**:
   - 🟢 14 series with 500+ characters (comprehensive)
