@@ -1143,7 +1143,1434 @@
           }
         }
       }
+    },
+    "skellen-gang-member-1": {
+      "name": "Gang Member Ralf",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A member of Stefan Skellen's bounty hunting group, skilled in tracking and combat.",
+          "role": "Bounty hunter",
+          "relationships": {
+            "Stefan Skellen": "Member of gang",
+            "Ciri": "Hunts"
+          }
+        }
+      }
+    },
+    "skellen-gang-member-2": {
+      "name": "Gang Member Saber",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "Another member of Skellen's group, specializing in interrogation and intimidation.",
+          "role": "Intimidation specialist",
+          "relationships": {
+            "Stefan Skellen": "Works for",
+            "Gang Member Ralf": "Partner of"
+          }
+        }
+      }
+    },
+    "skellen-gang-member-3": {
+      "name": "Gang Member Pike",
+      "aliases": [],
+      "appearances": [6, 7, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A scout in Skellen's bounty hunting operation, expert at finding and following trails.",
+          "role": "Scout specialist",
+          "relationships": {
+            "Stefan Skellen": "Scouts for",
+            "Tracking operations": "Specializes in"
+          }
+        }
+      }
+    },
+    "vysogota-village-neighbor-1": {
+      "name": "Neighbor Aldwin",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A villager living near Vysogota's swamp dwelling, occasionally trading supplies with the hermit.",
+          "role": "Swamp villager",
+          "relationships": {
+            "Vysogota": "Occasional trader with",
+            "Village community": "Member of"
+          }
+        }
+      }
+    },
+    "vysogota-village-neighbor-2": {
+      "name": "Neighbor Cordelia",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An elderly village woman who knows Vysogota and sometimes brings him news from the outside world.",
+          "role": "Village news-bringer",
+          "relationships": {
+            "Vysogota": "Brings news to",
+            "Village elders": "One of"
+          }
+        }
+      }
+    },
+    "arena-fighter-scorpion": {
+      "name": "Arena Fighter Scorpion",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A deadly arena fighter known for using poisoned weapons against opponents.",
+          "role": "Poison fighter",
+          "relationships": {
+            "Ciri": "Opponent of",
+            "Arena circuit": "Regular fighter in"
+          }
+        }
+      }
+    },
+    "arena-fighter-iron-wolf": {
+      "name": "Arena Fighter Iron Wolf",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A veteran arena fighter with years of experience in brutal combat entertainment.",
+          "role": "Veteran gladiator",
+          "relationships": {
+            "Ciri": "Faces in arena",
+            "Cleaver": "Employed by"
+          }
+        }
+      }
+    },
+    "arena-trainer-marcus": {
+      "name": "Arena Trainer Marcus",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A trainer who prepares fighters for arena combat, including teaching Ciri fighting techniques.",
+          "role": "Combat trainer",
+          "relationships": {
+            "Ciri": "Trains for combat",
+            "Arena fighters": "Prepares for battle"
+          }
+        }
+      }
+    },
+    "arena-medic": {
+      "name": "Arena Medic Stitch",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A medic who tends to wounded fighters after arena matches, keeping them alive for future fights.",
+          "role": "Arena healer",
+          "relationships": {
+            "Arena fighters": "Treats wounds of",
+            "Ciri": "Tends injuries of"
+          }
+        }
+      }
+    },
+    "bounty-hunter-tracker": {
+      "name": "Tracker Bloodhound",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A professional tracker specializing in finding people who don't want to be found.",
+          "role": "Professional tracker",
+          "relationships": {
+            "Bounty hunter network": "Part of",
+            "Stefan Skellen": "Sometimes works with"
+          }
+        }
+      }
+    },
+    "swamp-hermit-1": {
+      "name": "Swamp Hermit Moss",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A hermit living deep in the swamplands, knowledgeable about swamp lore and healing herbs.",
+          "role": "Swamp dweller",
+          "relationships": {
+            "Swamp environment": "Expert on",
+            "Vysogota": "Occasional contact with"
+          }
+        }
+      }
+    },
+    "swamp-guide": {
+      "name": "Swamp Guide Bog",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A guide who knows the dangerous paths through the swamplands and helps travelers navigate safely.",
+          "role": "Swamp navigator",
+          "relationships": {
+            "Swamp paths": "Knows secret",
+            "Lost travelers": "Guides to safety"
+          }
+        }
+      }
+    },
+    "castle-guard-captain": {
+      "name": "Castle Guard Captain Stone",
+      "aliases": [],
+      "appearances": [6, 8, 9],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A guard captain at one of the castles involved in the political machinations surrounding Ciri.",
+          "role": "Castle security",
+          "relationships": {
+            "Castle inhabitants": "Protects",
+            "Political schemes": "Unwittingly involved in"
+          }
+        }
+      }
+    },
+    "castle-servant": {
+      "name": "Castle Servant Martha",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A servant in the castle who overhears conversations and witnesses political plotting.",
+          "role": "Castle servant",
+          "relationships": {
+            "Castle politics": "Witnesses",
+            "Noble schemes": "Overhears"
+          }
+        }
+      }
+    },
+    "healer-herbalist-1": {
+      "name": "Healer Sage",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A skilled healer who specializes in herbal medicine and treats various ailments.",
+          "role": "Herbal healer",
+          "relationships": {
+            "Herbal knowledge": "Expert in",
+            "Injured people": "Treats"
+          }
+        }
+      }
+    },
+    "healer-herbalist-2": {
+      "name": "Herbalist Willow",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An herbalist who gathers medicinal plants and creates healing potions and remedies.",
+          "role": "Plant medicine specialist",
+          "relationships": {
+            "Healer Sage": "Works with",
+            "Medicinal plants": "Specializes in"
+          }
+        }
+      }
+    },
+    "wild-hunt-scout": {
+      "name": "Wild Hunt Scout Shade",
+      "aliases": [],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A Wild Hunt scout who searches for Ciri across different dimensions and worlds.",
+          "role": "Dimensional scout",
+          "relationships": {
+            "Eredin": "Scouts for",
+            "Wild Hunt": "Member of"
+          }
+        }
+      }
+    },
+    "aen-elle-court-member-1": {
+      "name": "Court Member Silvyr",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A member of the Aen Elle court who serves under Auberon Muircetach.",
+          "role": "Elven courtier",
+          "relationships": {
+            "Auberon Muircetach": "Serves",
+            "Aen Elle court": "Member of"
+          }
+        }
+      }
+    },
+    "aen-elle-court-member-2": {
+      "name": "Court Member Liriel",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "An elven court member who observes and reports on political developments.",
+          "role": "Court observer",
+          "relationships": {
+            "Aen Elle politics": "Involved in",
+            "Court Member Silvyr": "Works with"
+          }
+        }
+      }
+    },
+    "lodge-messenger": {
+      "name": "Lodge Messenger Swift",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A messenger who carries communications between Lodge of Sorceresses members.",
+          "role": "Lodge courier",
+          "relationships": {
+            "Lodge of Sorceresses": "Carries messages for",
+            "Sorceress communications": "Facilitates"
+          }
+        }
+      }
+    },
+    "lodge-spy": {
+      "name": "Lodge Spy Shadow",
+      "aliases": [],
+      "appearances": [9, 10],
+      "knowledge": {
+        "9": {
+          "revealedIn": 9,
+          "description": "A spy working for the Lodge of Sorceresses to gather intelligence on their enemies.",
+          "role": "Lodge intelligence",
+          "relationships": {
+            "Lodge of Sorceresses": "Gathers intelligence for",
+            "Enemy activities": "Monitors"
+          }
+        }
+      }
+    },
+    "nilfgaardian-officer": {
+      "name": "Nilfgaardian Officer Voss",
+      "aliases": [],
+      "appearances": [5, 8],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A mid-ranking Nilfgaardian officer involved in the search operations for Ciri.",
+          "role": "Search coordinator",
+          "relationships": {
+            "Vattier de Rideaux": "Reports to",
+            "Search operations": "Coordinates"
+          }
+        }
+      }
+    },
+    "interdimensional-traveler": {
+      "name": "Traveler Echo",
+      "aliases": [],
+      "appearances": [7, 8, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A being Ciri encounters during her interdimensional travels, representing the mysteries of the multiverse.",
+          "role": "Dimensional entity",
+          "relationships": {
+            "Ciri": "Encounters during travels",
+            "Multiverse": "Native of"
+          }
+        }
+      }
+    },
+    "time-guardian": {
+      "name": "Time Guardian Chronos",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A mystical guardian of temporal boundaries that Ciri encounters during her time travels.",
+          "role": "Temporal guardian",
+          "relationships": {
+            "Time streams": "Protects",
+            "Ciri": "Monitors travels of"
+          }
+        }
+      }
+    },
+    "village-elder-swamp": {
+      "name": "Swamp Village Elder Mire",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "The elder of a village near the swamplands where Vysogota lives.",
+          "role": "Village leader",
+          "relationships": {
+            "Swamp village": "Leads",
+            "Neighbor Cordelia": "Community elder with"
+          }
+        }
+      }
+    },
+    "village-wise-woman-swamp": {
+      "name": "Swamp Village Wise Woman Reed",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A wise woman from the swamp village who knows old traditions and folklore.",
+          "role": "Traditional healer",
+          "relationships": {
+            "Village Elder Mire": "Advises",
+            "Old traditions": "Keeper of"
+          }
+        }
+      }
+    },
+    "bandit-leader-swamp": {
+      "name": "Swamp Bandit Leader Murk",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A bandit leader operating in the swamplands, preying on travelers and traders.",
+          "role": "Swamp bandit chief",
+          "relationships": {
+            "Swamp bandits": "Commands",
+            "Swamp travelers": "Preys upon"
+          }
+        }
+      }
+    },
+    "bandit-lieutenant-swamp": {
+      "name": "Bandit Lieutenant Bog",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A lieutenant in the swamp bandit gang, skilled in ambush tactics.",
+          "role": "Bandit officer",
+          "relationships": {
+            "Swamp Bandit Leader Murk": "Serves under",
+            "Ambush tactics": "Specializes in"
+          }
+        }
+      }
+    },
+    "merchant-trader-swamp": {
+      "name": "Swamp Trader Mist",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A brave merchant who trades in the dangerous swamplands despite the risks.",
+          "role": "Swamp merchant",
+          "relationships": {
+            "Dangerous trades": "Engages in",
+            "Swamp communities": "Supplies"
+          }
+        }
+      }
+    },
+    "ferry-operator": {
+      "name": "Ferry Operator Crossing",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An operator who runs a ferry service across dangerous swamp waters.",
+          "role": "Water transport",
+          "relationships": {
+            "Swamp crossings": "Facilitates",
+            "Travelers": "Transports safely"
+          }
+        }
+      }
+    },
+    "fisherman-swamp": {
+      "name": "Swamp Fisherman Net",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A fisherman who works the swamp waters, providing food for local communities.",
+          "role": "Swamp fisherman",
+          "relationships": {
+            "Swamp waters": "Fishes in",
+            "Local communities": "Supplies fish to"
+          }
+        }
+      }
+    },
+    "hunter-swamp": {
+      "name": "Swamp Hunter Track",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A hunter who specializes in tracking game through the treacherous swamplands.",
+          "role": "Swamp hunter",
+          "relationships": {
+            "Swamp game": "Hunts",
+            "Tracking skills": "Expert in"
+          }
+        }
+      }
+    },
+    "refugee-family-leader": {
+      "name": "Refugee Family Leader Hope",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A family leader guiding a group of refugees through dangerous territories.",
+          "role": "Refugee guide",
+          "relationships": {
+            "Refugee families": "Leads",
+            "Safe passage": "Seeks"
+          }
+        }
+      }
+    },
+    "refugee-child-orphan": {
+      "name": "Refugee Orphan Dawn",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A young orphan traveling with refugee groups, representing the innocent victims of conflict.",
+          "role": "War orphan",
+          "relationships": {
+            "Refugee Family Leader Hope": "Protected by",
+            "Refugee groups": "Travels with"
+          }
+        }
+      }
+    },
+    "arena-announcer": {
+      "name": "Arena Announcer Voice",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The announcer who introduces fighters and entertains the crowd during arena matches.",
+          "role": "Arena entertainer",
+          "relationships": {
+            "Arena crowd": "Entertains",
+            "Ciri": "Announces fights of"
+          }
+        }
+      }
+    },
+    "arena-betmaster": {
+      "name": "Arena Betmaster Coin",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The person who manages betting on arena fights, taking wagers from spectators.",
+          "role": "Betting coordinator",
+          "relationships": {
+            "Arena spectators": "Takes bets from",
+            "Cleaver": "Works for"
+          }
+        }
+      }
+    },
+    "arena-guard": {
+      "name": "Arena Guard Iron",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A guard who maintains order in the arena and prevents fighters from escaping.",
+          "role": "Arena security",
+          "relationships": {
+            "Ciri": "Guards and watches",
+            "Arena order": "Maintains"
+          }
+        }
+      }
+    },
+    "information-broker-underground": {
+      "name": "Info Broker Whisper",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An underground information broker who trades in secrets and intelligence.",
+          "role": "Intelligence trader",
+          "relationships": {
+            "Underground networks": "Operates in",
+            "Secrets": "Trades in"
+          }
+        }
+      }
+    },
+    "tavern-keeper-crossroads": {
+      "name": "Crossroads Tavern Keeper Host",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A tavern keeper at a crossroads who serves travelers and gathers news.",
+          "role": "Information hub",
+          "relationships": {
+            "Travelers": "Serves and questions",
+            "News gathering": "Central point for"
+          }
+        }
+      }
+    },
+    "smuggler-captain": {
+      "name": "Smuggler Captain Shade",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A smuggler captain who operates secret transport routes for people and goods.",
+          "role": "Illegal transport",
+          "relationships": {
+            "Secret routes": "Operates",
+            "Contraband": "Transports"
+          }
+        }
+      }
+    },
+    "fortune-teller": {
+      "name": "Fortune Teller Mystic",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A fortune teller who claims to see the future and provides cryptic advice to travelers.",
+          "role": "Mystic advisor",
+          "relationships": {
+            "Future visions": "Claims to see",
+            "Travelers": "Advises"
+          }
+        }
+      }
+    },
+    "street-performer": {
+      "name": "Street Performer Melody",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A street performer who entertains crowds near the arena and gathers information.",
+          "role": "Street entertainer",
+          "relationships": {
+            "Arena crowds": "Entertains",
+            "Street information": "Collects"
+          }
+        }
+      }
+    },
+    "dock-worker": {
+      "name": "Dock Worker Anchor",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A dock worker who loads and unloads ships, witnessing the movement of people and goods.",
+          "role": "Port laborer",
+          "relationships": {
+            "Ship traffic": "Observes",
+            "Port activities": "Involved in"
+          }
+        }
+      }
+    },
+    "ship-captain-merchant": {
+      "name": "Merchant Captain Sail",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A merchant ship captain who transports goods and passengers between ports.",
+          "role": "Merchant sailor",
+          "relationships": {
+            "Trade routes": "Operates",
+            "Dock Worker Anchor": "Works with"
+          }
+        }
+      }
+    },
+    "lighthouse-keeper": {
+      "name": "Lighthouse Keeper Beacon",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A lighthouse keeper who guides ships safely to shore and observes sea traffic.",
+          "role": "Navigation aid",
+          "relationships": {
+            "Ship navigation": "Assists",
+            "Coastal safety": "Maintains"
+          }
+        }
+      }
+    },
+    "sea-captain-pirate": {
+      "name": "Pirate Captain Storm",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A pirate captain who preys on merchant ships and operates outside the law.",
+          "role": "Sea raider",
+          "relationships": {
+            "Merchant ships": "Raids",
+            "Pirate crew": "Commands"
+          }
+        }
+      }
+    },
+    "mountain-guide": {
+      "name": "Mountain Guide Peak",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A guide who knows the dangerous mountain passes and helps travelers navigate them.",
+          "role": "Mountain navigator",
+          "relationships": {
+            "Mountain paths": "Knows secret",
+            "Dangerous terrain": "Expert on"
+          }
+        }
+      }
+    },
+    "cave-hermit": {
+      "name": "Cave Hermit Stone",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A hermit living in mountain caves who occasionally helps lost travelers.",
+          "role": "Mountain recluse",
+          "relationships": {
+            "Mountain caves": "Lives in",
+            "Lost travelers": "Sometimes aids"
+          }
+        }
+      }
+    },
+    "royal-messenger": {
+      "name": "Royal Messenger Swift",
+      "aliases": [],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A royal messenger carrying important dispatches between kingdoms and nobles.",
+          "role": "Official courier",
+          "relationships": {
+            "Royal communications": "Carries",
+            "Kingdom politics": "Involved in"
+          }
+        }
+      }
+    },
+    "court-scribe": {
+      "name": "Court Scribe Quill",
+      "aliases": [],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A court scribe who records important political events and meetings.",
+          "role": "Official recorder",
+          "relationships": {
+            "Court proceedings": "Records",
+            "Political events": "Documents"
+          }
+        }
+      }
+    },
+    "diplomatic-escort": {
+      "name": "Diplomatic Escort Guard",
+      "aliases": [],
+      "appearances": [5, 9],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A guard assigned to protect diplomats and important officials during travel.",
+          "role": "Diplomatic protection",
+          "relationships": {
+            "Diplomats": "Protects",
+            "Official travel": "Secures"
+          }
+        }
+      }
+    },
+    "border-patrol": {
+      "name": "Border Patrol Warden",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A border patrol officer monitoring crossings and tracking suspicious movement.",
+          "role": "Border security",
+          "relationships": {
+            "Border crossings": "Monitors",
+            "Suspicious activity": "Investigates"
+          }
+        }
+      }
+    },
+    "customs-inspector": {
+      "name": "Customs Inspector Check",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An inspector who examines goods and documents at border crossings.",
+          "role": "Trade inspector",
+          "relationships": {
+            "Border Patrol Warden": "Works with",
+            "Trade goods": "Inspects"
+          }
+        }
+      }
+    },
+    "scholar-researcher": {
+      "name": "Research Scholar Mind",
+      "aliases": [],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A scholar researching ancient prophecies and magical phenomena.",
+          "role": "Academic researcher",
+          "relationships": {
+            "Ancient knowledge": "Studies",
+            "Nimue verch Wledyr": "Corresponds with"
+          }
+        }
+      }
+    },
+    "library-keeper": {
+      "name": "Library Keeper Book",
+      "aliases": [],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A keeper of ancient libraries who protects and organizes important texts.",
+          "role": "Knowledge guardian",
+          "relationships": {
+            "Ancient texts": "Protects",
+            "Research Scholar Mind": "Assists research of"
+          }
+        }
+      }
+    },
+    "monastery-monk": {
+      "name": "Monastery Monk Peace",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A monk living in a monastery who provides sanctuary and spiritual guidance.",
+          "role": "Spiritual guide",
+          "relationships": {
+            "Monastery": "Member of",
+            "Sanctuary seekers": "Provides refuge to"
+          }
+        }
+      }
+    },
+    "temple-acolyte": {
+      "name": "Temple Acolyte Faith",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A young acolyte serving in the temple, learning religious duties and rituals.",
+          "role": "Religious student",
+          "relationships": {
+            "Nenneke": "Learns from",
+            "Temple duties": "Performs"
+          }
+        }
+      }
+    },
+    "war-reporter": {
+      "name": "War Reporter Chronicle",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A reporter documenting the ongoing conflicts and their effects on people.",
+          "role": "Conflict chronicler",
+          "relationships": {
+            "War events": "Documents",
+            "Conflict effects": "Reports on"
+          }
+        }
+      }
+    },
+    "survivor-witness": {
+      "name": "Survivor Witness Truth",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A survivor of various conflicts who serves as a witness to important events.",
+          "role": "Historical witness",
+          "relationships": {
+            "War Reporter Chronicle": "Provides testimony to",
+            "Historical events": "Witnessed"
+          }
+        }
+      }
+    },
+    "arena-spectator-noble": {
+      "name": "Noble Spectator Lord Rich",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A wealthy noble who attends arena fights for entertainment and places large bets.",
+          "role": "Wealthy spectator",
+          "relationships": {
+            "Arena entertainment": "Enjoys",
+            "Arena Betmaster Coin": "Places bets with"
+          }
+        }
+      }
+    },
+    "arena-spectator-merchant": {
+      "name": "Merchant Spectator Trade",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A merchant who attends arena fights and conducts business deals in the stands.",
+          "role": "Business spectator",
+          "relationships": {
+            "Arena networking": "Uses for business",
+            "Trade deals": "Negotiates during fights"
+          }
+        }
+      }
+    },
+    "arena-weapon-master": {
+      "name": "Arena Weapon Master Steel",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The master of arms who maintains and supplies weapons for arena fighters.",
+          "role": "Weapons specialist",
+          "relationships": {
+            "Arena fighters": "Supplies weapons to",
+            "Combat equipment": "Maintains"
+          }
+        }
+      }
+    },
+    "underground-contact": {
+      "name": "Underground Contact Web",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A contact in the underground network who facilitates illegal activities and information trading.",
+          "role": "Criminal facilitator",
+          "relationships": {
+            "Info Broker Whisper": "Works with",
+            "Underground networks": "Key contact in"
+          }
+        }
+      }
+    },
+    "safe-house-keeper": {
+      "name": "Safe House Keeper Haven",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A keeper of safe houses who provides temporary shelter to people in hiding.",
+          "role": "Shelter provider",
+          "relationships": {
+            "Underground Contact Web": "Works with",
+            "Fugitives": "Provides shelter to"
+          }
+        }
+      }
+    },
+    "escape-route-guide": {
+      "name": "Escape Guide Route",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A guide who knows secret escape routes and helps people flee dangerous situations.",
+          "role": "Escape specialist",
+          "relationships": {
+            "Secret routes": "Knows",
+            "Safe House Keeper Haven": "Coordinates with"
+          }
+        }
+      }
+    },
+    "forger-documents": {
+      "name": "Document Forger Paper",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A skilled forger who creates false documents and identity papers.",
+          "role": "Identity forger",
+          "relationships": {
+            "False identities": "Creates",
+            "Underground networks": "Serves"
+          }
+        }
+      }
+    },
+    "fence-stolen-goods": {
+      "name": "Fence Goods Deal",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A fence who buys and sells stolen goods, operating in the criminal underworld.",
+          "role": "Stolen goods trader",
+          "relationships": {
+            "Stolen merchandise": "Trades in",
+            "Criminal network": "Part of"
+          }
+        }
+      }
+    },
+    "loan-shark": {
+      "name": "Loan Shark Interest",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A loan shark who lends money at high interest rates and enforces payment through violence.",
+          "role": "Predatory lender",
+          "relationships": {
+            "Desperate borrowers": "Exploits",
+            "Violent collection": "Employs"
+          }
+        }
+      }
+    },
+    "gang-enforcer": {
+      "name": "Gang Enforcer Muscle",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An enforcer who collects debts and intimidates enemies for criminal organizations.",
+          "role": "Criminal muscle",
+          "relationships": {
+            "Loan Shark Interest": "Collects for",
+            "Criminal intimidation": "Specializes in"
+          }
+        }
+      }
+    },
+    "pickpocket-thief": {
+      "name": "Pickpocket Thief Quick",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A skilled pickpocket who steals from arena crowds and busy marketplaces.",
+          "role": "Street thief",
+          "relationships": {
+            "Arena crowds": "Steals from",
+            "Fence Goods Deal": "Sells to"
+          }
+        }
+      }
+    },
+    "street-orphan-leader": {
+      "name": "Street Orphan Leader Scrappy",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A leader among street orphans who organizes them for survival in the city.",
+          "role": "Orphan organizer",
+          "relationships": {
+            "Street orphans": "Leads",
+            "Survival strategies": "Organizes"
+          }
+        }
+      }
+    },
+    "beggar-network-head": {
+      "name": "Beggar Network Head Coins",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The head of a beggar network who organizes information gathering through the city's poorest.",
+          "role": "Beggar coordinator",
+          "relationships": {
+            "Beggar network": "Coordinates",
+            "Street information": "Gathers through beggars"
+          }
+        }
+      }
+    },
+    "waste-collector": {
+      "name": "Waste Collector Refuse",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A waste collector who sees and hears everything while cleaning up after others.",
+          "role": "Invisible observer",
+          "relationships": {
+            "City waste": "Collects",
+            "Overheard information": "Gathers accidentally"
+          }
+        }
+      }
+    },
+    "night-watchman": {
+      "name": "Night Watchman Vigil",
+      "aliases": [],
+      "appearances": [4, 6, 8],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A night watchman who patrols the streets and observes nocturnal activities.",
+          "role": "Night patrol",
+          "relationships": {
+            "Night activities": "Observes",
+            "Street security": "Provides"
+          }
+        }
+      }
+    },
+    "cemetery-caretaker": {
+      "name": "Cemetery Caretaker Grave",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A caretaker of cemeteries who tends to graves and sometimes witnesses secretive meetings.",
+          "role": "Grave tender",
+          "relationships": {
+            "Cemetery grounds": "Maintains",
+            "Secret meetings": "Sometimes witnesses"
+          }
+        }
+      }
+    },
+    "midwife-healer": {
+      "name": "Midwife Healer Birth",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A midwife who helps with births and provides healing services to women and children.",
+          "role": "Birth attendant",
+          "relationships": {
+            "Births": "Assists with",
+            "Women's health": "Cares for"
+          }
+        }
+      }
+    },
+    "village-storyteller": {
+      "name": "Village Storyteller Tale",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A village storyteller who preserves local folklore and entertains with tales.",
+          "role": "Folklore keeper",
+          "relationships": {
+            "Local folklore": "Preserves",
+            "Village entertainment": "Provides"
+          }
+        }
+      }
+    },
+    "market-vendor": {
+      "name": "Market Vendor Stall",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A market vendor who sells goods and overhears conversations from customers.",
+          "role": "Market trader",
+          "relationships": {
+            "Market gossip": "Hears",
+            "Trade goods": "Sells"
+          }
+        }
+      }
+    },
+    "caravan-guard": {
+      "name": "Caravan Guard Shield",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A professional guard hired to protect merchant caravans during travel.",
+          "role": "Caravan protection",
+          "relationships": {
+            "Merchant caravans": "Protects",
+            "Trade routes": "Secures"
+          }
+        }
+      }
+    },
+    "road-bandit": {
+      "name": "Road Bandit Highwayman",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A highway bandit who robs travelers and merchants on the roads.",
+          "role": "Highway robber",
+          "relationships": {
+            "Caravan Guard Shield": "Enemy of",
+            "Road travelers": "Preys upon"
+          }
+        }
+      }
+    },
+    "toll-collector": {
+      "name": "Toll Collector Tax",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An official who collects tolls and taxes from travelers using roads and bridges.",
+          "role": "Revenue collector",
+          "relationships": {
+            "Road tolls": "Collects",
+            "Travel documentation": "Checks"
+          }
+        }
+      }
+    },
+    "bridge-maintenance": {
+      "name": "Bridge Keeper Span",
+      "aliases": [],
+      "appearances": [6, 8],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A keeper who maintains bridges and monitors who crosses them.",
+          "role": "Bridge maintainer",
+          "relationships": {
+            "Bridge crossings": "Monitors",
+            "Toll Collector Tax": "Works with"
+          }
+        }
+      }
+    },
+    "river-pilot": {
+      "name": "River Pilot Current",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A pilot who guides boats through dangerous river passages and rapids.",
+          "role": "River navigation",
+          "relationships": {
+            "River dangers": "Navigates",
+            "Ferry Operator Crossing": "Sometimes works with"
+          }
+        }
+      }
+    },
+    "water-mill-operator": {
+      "name": "Mill Operator Wheel",
+      "aliases": [],
+      "appearances": [7, 8],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "An operator who runs a water mill for grinding grain and processing materials.",
+          "role": "Mill operator",
+          "relationships": {
+            "Grain processing": "Handles",
+            "River power": "Utilizes"
+          }
+        }
+      }
+    },
+    "weather-watcher": {
+      "name": "Weather Watcher Sky",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A person who observes weather patterns and provides forecasts for travelers.",
+          "role": "Weather observer",
+          "relationships": {
+            "Weather patterns": "Studies",
+            "Travel planning": "Assists with"
+          }
+        }
+      }
+    },
+    "star-navigator": {
+      "name": "Star Navigator Celestial",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A navigator who uses stars and celestial bodies to guide travelers and ships.",
+          "role": "Celestial navigator",
+          "relationships": {
+            "Star patterns": "Reads",
+            "Navigation guidance": "Provides"
+          }
+        }
+      }
+    },
+    "map-maker": {
+      "name": "Map Maker Chart",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A cartographer who creates maps and charts of territories and routes.",
+          "role": "Cartographer",
+          "relationships": {
+            "Territory mapping": "Creates",
+            "Star Navigator Celestial": "Collaborates with"
+          }
+        }
+      }
+    },
+    "travel-chronicler": {
+      "name": "Travel Chronicler Journey",
+      "aliases": [],
+      "appearances": [8, 9],
+      "knowledge": {
+        "8": {
+          "revealedIn": 8,
+          "description": "A chronicler who documents travels and discoveries made during journeys.",
+          "role": "Journey recorder",
+          "relationships": {
+            "Travel records": "Maintains",
+            "Map Maker Chart": "Provides information to"
+          }
+        }
+      }
+    },
+    "dimensional-observer": {
+      "name": "Dimensional Observer Void",
+      "aliases": [],
+      "appearances": [7, 9],
+      "knowledge": {
+        "7": {
+          "revealedIn": 7,
+          "description": "A mysterious entity that observes travelers between dimensions, including Ciri's journeys.",
+          "role": "Dimensional watcher",
+          "relationships": {
+            "Interdimensional travel": "Observes",
+            "Ciri": "Watches travels of"
+          }
+        }
+      }
     }
+
+
+
   },
   "recaps": {
     "1": "Ciri has fully embraced life with the Rats criminal gang, taking on the name Falka and participating in their violent activities. Her transformation from innocent princess to hardened criminal is complete.",

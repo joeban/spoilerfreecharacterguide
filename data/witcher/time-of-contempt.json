@@ -1068,7 +1068,1449 @@
           }
         }
       }
+    },
+    "thanedd-banquet-servant-1": {
+      "name": "Servant Galahad",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A senior servant who oversees the banquet preparations for the Council of Mages gathering.",
+          "role": "Head banquet servant",
+          "relationships": {
+            "Thanedd staff": "Supervises",
+            "Mages": "Serves at banquet"
+          }
+        }
+      }
+    },
+    "thanedd-banquet-servant-2": {
+      "name": "Servant Cordelia",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A wine servant who serves the mages during their council meetings and banquet.",
+          "role": "Wine servant",
+          "relationships": {
+            "Galahad": "Works under",
+            "Mages": "Serves wine to"
+          }
+        }
+      }
+    },
+    "aretuza-instructor-1": {
+      "name": "Instructor Sabrina Glevissig",
+      "aliases": [],
+      "appearances": [2, 3, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young instructor at Aretuza who teaches advanced magical theory to students including Ciri.",
+          "role": "Magic instructor",
+          "relationships": {
+            "Ciri": "Instructs",
+            "Tissaia": "Reports to"
+          }
+        }
+      }
+    },
+    "aretuza-instructor-2": {
+      "name": "Instructor Fercart",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elderly instructor specializing in elemental magic at Aretuza academy.",
+          "role": "Elemental magic teacher",
+          "relationships": {
+            "Students": "Teaches elemental magic to",
+            "Aretuza faculty": "Member of"
+          }
+        }
+      }
+    },
+    "aretuza-student-3": {
+      "name": "Student Marilla",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An advanced student at Aretuza who becomes friends with Ciri during her stay.",
+          "role": "Academy student",
+          "relationships": {
+            "Ciri": "Befriends",
+            "Other students": "Studies with"
+          }
+        }
+      }
+    },
+    "aretuza-student-4": {
+      "name": "Student Neneke",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A talented student studying healing magic at Aretuza academy.",
+          "role": "Healing magic student",
+          "relationships": {
+            "Healing arts": "Studies",
+            "Ciri": "Fellow student with"
+          }
+        }
+      }
+    },
+    "kovir-ambassador": {
+      "name": "Ambassador Esterad",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The ambassador from Kovir who observes the Council of Mages proceedings to report back to his kingdom.",
+          "role": "Royal ambassador",
+          "relationships": {
+            "Kingdom of Kovir": "Represents",
+            "Other diplomats": "Negotiates with"
+          }
+        }
+      }
+    },
+    "kovir-aide": {
+      "name": "Aide Tankred",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A diplomatic aide who assists the Kovir ambassador during the Thanedd proceedings.",
+          "role": "Diplomatic aide",
+          "relationships": {
+            "Ambassador Esterad": "Assists",
+            "Kovir delegation": "Member of"
+          }
+        }
+      }
+    },
+    "redanian-intelligence-1": {
+      "name": "Agent Reardon",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Redanian intelligence officer working under Dijkstra to gather information at Thanedd.",
+          "role": "Intelligence officer",
+          "relationships": {
+            "Dijkstra": "Reports to",
+            "Redanian intelligence": "Agent of"
+          }
+        }
+      }
+    },
+    "redanian-intelligence-2": {
+      "name": "Agent Cantarella",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A female Redanian spy who infiltrates the social gatherings at Thanedd Island.",
+          "role": "Female spy",
+          "relationships": {
+            "Dijkstra": "Works for",
+            "Social infiltration": "Specializes in"
+          }
+        }
+      }
+    },
+    "temerian-intelligence": {
+      "name": "Temerian Agent Kimbolt",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Temerian intelligence operative who monitors the proceedings for King Foltest.",
+          "role": "Royal intelligence",
+          "relationships": {
+            "King Foltest": "Serves",
+            "Count Tilly": "Works with"
+          }
+        }
+      }
+    },
+    "magical-researcher-1": {
+      "name": "Researcher Idarran",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A magical researcher studying Elder Blood and ancient magic who attends the Thanedd gathering.",
+          "role": "Elder Blood researcher",
+          "relationships": {
+            "Elder Blood studies": "Researches",
+            "Vilgefortz": "Research colleague"
+          }
+        }
+      }
+    },
+    "magical-researcher-2": {
+      "name": "Researcher Pinety",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A scholar focusing on interdimensional magic theory who presents research at Thanedd.",
+          "role": "Dimensional magic scholar",
+          "relationships": {
+            "Dimensional magic": "Studies",
+            "Other researchers": "Collaborates with"
+          }
+        }
+      }
+    },
+    "ban-ard-representative": {
+      "name": "Master Harlan",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A representative from Ban Ard academy who participates in the educational discussions at Thanedd.",
+          "role": "Academy representative",
+          "relationships": {
+            "Ban Ard academy": "Represents",
+            "Tissaia": "Colleague of"
+          }
+        }
+      }
+    },
+    "thanedd-guard-1": {
+      "name": "Guard Sergeant Marcus",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sergeant in the Thanedd Island guard who helps maintain security during the council.",
+          "role": "Guard sergeant",
+          "relationships": {
+            "Captain Algernon": "Serves under",
+            "Island security": "Maintains"
+          }
+        }
+      }
+    },
+    "thanedd-guard-2": {
+      "name": "Guard Corporal Flynn",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A loyal guard who tries to protect the mages during the coup violence.",
+          "role": "Loyal guard",
+          "relationships": {
+            "Sergeant Marcus": "Serves under",
+            "Mages": "Protects"
+          }
+        }
+      }
+    },
+    "thanedd-guard-3": {
+      "name": "Guard Trooper Gareth",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young guard assigned to patrol the academy grounds during the gathering.",
+          "role": "Patrol guard",
+          "relationships": {
+            "Island security": "Patrols for",
+            "Academy grounds": "Guards"
+          }
+        }
+      }
+    },
+    "kitchen-staff-1": {
+      "name": "Kitchen Master Boreas",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The head of kitchens who supervises meal preparation for the large gathering of mages.",
+          "role": "Kitchen master",
+          "relationships": {
+            "Thanedd Cook": "Works with",
+            "Kitchen staff": "Supervises"
+          }
+        }
+      }
+    },
+    "kitchen-staff-2": {
+      "name": "Baker Meredith",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A skilled baker who prepares special breads and pastries for the mage council banquets.",
+          "role": "Academy baker",
+          "relationships": {
+            "Kitchen Master Boreas": "Works under",
+            "Banquet preparation": "Contributes to"
+          }
+        }
+      }
+    },
+    "stablemaster-thanedd": {
+      "name": "Stablemaster Coen",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The stablemaster who tends to the horses of visiting diplomats and mages at Thanedd.",
+          "role": "Island stablemaster",
+          "relationships": {
+            "Visitor horses": "Cares for",
+            "Transport logistics": "Manages"
+          }
+        }
+      }
+    },
+    "thanedd-healer": {
+      "name": "Healer Marti",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The resident healer at Thanedd Island who tends to injuries during and after the coup.",
+          "role": "Island healer",
+          "relationships": {
+            "Injured survivors": "Treats",
+            "Medical supplies": "Manages"
+          }
+        }
+      }
+    },
+    "scoia-tael-mage": {
+      "name": "Scoia'tael Mage Ida",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven mage fighting with the Scoia'tael during the Thanedd coup.",
+          "role": "Elven battle mage",
+          "relationships": {
+            "Yaevinn": "Supports magically",
+            "Scoia'tael": "Provides magic for"
+          }
+        }
+      }
+    },
+    "scoia-tael-scout-1": {
+      "name": "Scout Iorveth",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An elven scout who helps coordinate the Scoia'tael assault on Thanedd Island.",
+          "role": "Elven scout commander",
+          "relationships": {
+            "Yaevinn": "Provides intelligence to",
+            "Scoia'tael forces": "Scouts for"
+          }
+        }
+      }
+    },
+    "scoia-tael-scout-2": {
+      "name": "Scout Ciaran",
+      "aliases": [],
+      "appearances": [4],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A young elven scout involved in the Thanedd attack, specializing in stealth operations.",
+          "role": "Stealth scout",
+          "relationships": {
+            "Iorveth": "Serves under",
+            "Stealth operations": "Specializes in"
+          }
+        }
+      }
+    },
+    "boat-crew-1": {
+      "name": "Sailor Jobst",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sailor on Captain Whitmore's ship who helps transport people to Thanedd Island.",
+          "role": "Ship sailor",
+          "relationships": {
+            "Captain Whitmore": "Serves under",
+            "Passengers": "Transports"
+          }
+        }
+      }
+    },
+    "boat-crew-2": {
+      "name": "Navigator Aldric",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The ship's navigator who guides vessels safely to and from Thanedd Island.",
+          "role": "Ship navigator",
+          "relationships": {
+            "Captain Whitmore": "Navigation officer for",
+            "Sea routes": "Knows"
+          }
+        }
+      }
+    },
+    "nilfgaardian-spy-1": {
+      "name": "Nilfgaardian Spy Vattier de Rideaux",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A high-ranking Nilfgaardian intelligence officer who infiltrates the Thanedd gathering.",
+          "role": "Imperial spy master",
+          "relationships": {
+            "Emperor Emhyr": "Reports directly to",
+            "Coup plotters": "Coordinates with"
+          }
+        }
+      }
+    },
+    "nilfgaardian-spy-2": {
+      "name": "Agent Morvan",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A Nilfgaardian operative working to extract intelligence during the coup chaos.",
+          "role": "Field operative",
+          "relationships": {
+            "Vattier de Rideaux": "Reports to",
+            "Intelligence gathering": "Specializes in"
+          }
+        }
+      }
+    },
+    "sorcerer-alchemist-1": {
+      "name": "Alchemist Kalkstein",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A sorcerer specializing in alchemy who provides magical components for various experiments.",
+          "role": "Magical alchemist",
+          "relationships": {
+            "Magical research": "Supplies components for",
+            "Other researchers": "Collaborates with"
+          }
+        }
+      }
+    },
+    "sorcerer-alchemist-2": {
+      "name": "Alchemist Xerx",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly alchemist who studies the interaction between magic and mundane materials.",
+          "role": "Research alchemist",
+          "relationships": {
+            "Material studies": "Researches",
+            "Kalkstein": "Colleague of"
+          }
+        }
+      }
+    },
+    "apprentice-mage-1": {
+      "name": "Apprentice Dorregaray",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A promising young apprentice mage who observes the council proceedings as part of his education.",
+          "role": "Apprentice observer",
+          "relationships": {
+            "Master mages": "Studies under",
+            "Council proceedings": "Observes"
+          }
+        }
+      }
+    },
+    "apprentice-mage-2": {
+      "name": "Apprentice Goetia",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A female apprentice studying under one of the senior mages at the Thanedd gathering.",
+          "role": "Female apprentice",
+          "relationships": {
+            "Senior mages": "Apprentice to",
+            "Dorregaray": "Fellow apprentice with"
+          }
+        }
+      }
+    },
+    "thanedd-quartermaster": {
+      "name": "Quartermaster Boreas",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The quartermaster responsible for supplies and logistics during the large gathering.",
+          "role": "Supply coordinator",
+          "relationships": {
+            "Island supplies": "Manages",
+            "Staff coordination": "Oversees"
+          }
+        }
+      }
+    },
+    "thanedd-scribe": {
+      "name": "Scribe Chronicler",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An official scribe who records the proceedings of the Council of Mages.",
+          "role": "Official recorder",
+          "relationships": {
+            "Council proceedings": "Records",
+            "Official documents": "Creates"
+          }
+        }
+      }
+    },
+    "thanedd-page": {
+      "name": "Page Messenger",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young page who carries messages between different factions during the council.",
+          "role": "Message carrier",
+          "relationships": {
+            "Faction leaders": "Carries messages for",
+            "Communication": "Facilitates"
+          }
+        }
+      }
+    },
+    "elderly-scholar": {
+      "name": "Scholar Roderick",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An elderly scholar of magical history who provides historical context to discussions.",
+          "role": "Magical historian",
+          "relationships": {
+            "Magical history": "Studies",
+            "Historical precedent": "Provides"
+          }
+        }
+      }
+    },
+    "young-noble-1": {
+      "name": "Noble Scion Reynard",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young noble from Redania who observes the proceedings as part of his political education.",
+          "role": "Noble observer",
+          "relationships": {
+            "Redanian nobility": "Represents",
+            "Political education": "Receives"
+          }
+        }
+      }
+    },
+    "young-noble-2": {
+      "name": "Noble Lady Vivienne",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young noble lady from Temeria who attends the social aspects of the gathering.",
+          "role": "Noble socialite",
+          "relationships": {
+            "Temerian court": "Represents",
+            "Social gatherings": "Participates in"
+          }
+        }
+      }
+    },
+    "merchant-supplier": {
+      "name": "Merchant Vivaldi",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A halfling merchant who supplies rare materials and components to the mages.",
+          "role": "Material supplier",
+          "relationships": {
+            "Mages": "Supplies materials to",
+            "Rare components": "Trades in"
+          }
+        }
+      }
+    },
+    "pilot-guide": {
+      "name": "Harbor Pilot Sigi",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A local pilot who guides ships safely through the waters around Thanedd Island.",
+          "role": "Harbor guide",
+          "relationships": {
+            "Ship captains": "Guides",
+            "Local waters": "Knows"
+          }
+        }
+      }
+    },
+    "weapons-master": {
+      "name": "Weapons Master Jerome",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The weapons master responsible for training and arming the island guards.",
+          "role": "Combat instructor",
+          "relationships": {
+            "Island guards": "Trains",
+            "Weapons maintenance": "Oversees"
+          }
+        }
+      }
+    },
+    "tower-keeper": {
+      "name": "Tower Keeper Alzur",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The keeper of the highest tower on Thanedd Island, responsible for magical observations.",
+          "role": "Observatory keeper",
+          "relationships": {
+            "Magical observations": "Conducts",
+            "Tower maintenance": "Responsible for"
+          }
+        }
+      }
+    },
+    "door-warden": {
+      "name": "Warden Lockhart",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The warden responsible for controlling access to sensitive areas during the council.",
+          "role": "Access controller",
+          "relationships": {
+            "Secure areas": "Guards access to",
+            "Security protocols": "Enforces"
+          }
+        }
+      }
+    },
+    "messenger-hawk-master": {
+      "name": "Hawk Master Cornelius",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The master of messenger hawks who handles communications between Thanedd and the mainland.",
+          "role": "Communication coordinator",
+          "relationships": {
+            "Message hawks": "Trains and maintains",
+            "Long-distance communication": "Facilitates"
+          }
+        }
+      }
+    },
+    "apothecary-thanedd": {
+      "name": "Apothecary Myrrdin",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The island's apothecary who provides medicinal herbs and potions to residents and visitors.",
+          "role": "Medicinal herbalist",
+          "relationships": {
+            "Healing preparations": "Creates",
+            "Healer Marti": "Supplies"
+          }
+        }
+      }
+    },
+    "night-watch-captain": {
+      "name": "Night Captain Torrhen",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The captain of the night watch who maintains security during evening hours and the coup.",
+          "role": "Night security chief",
+          "relationships": {
+            "Night guards": "Commands",
+            "Captain Algernon": "Coordinates with"
+          }
+        }
+      }
+    },
+    "cartographer-mage": {
+      "name": "Cartographer Thaler",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A mage who specializes in magical cartography and studies dimensional rifts.",
+          "role": "Magical cartographer",
+          "relationships": {
+            "Dimensional studies": "Maps",
+            "Spatial magic": "Researches"
+          }
+        }
+      }
+    },
+    "diplomatic-interpreter": {
+      "name": "Interpreter Yoanna",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A skilled interpreter who translates between different languages during international negotiations.",
+          "role": "Language interpreter",
+          "relationships": {
+            "Foreign delegates": "Translates for",
+            "Diplomatic communications": "Facilitates"
+          }
+        }
+      }
+    },
+    "music-bard-thanedd": {
+      "name": "Court Bard Rience",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A court bard who provides entertainment during the social gatherings at Thanedd.",
+          "role": "Entertainment bard",
+          "relationships": {
+            "Social events": "Performs at",
+            "Cultural entertainment": "Provides"
+          }
+        }
+      }
+    },
+    "ceremonial-guard": {
+      "name": "Ceremonial Guard Captain Stennis",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The captain of ceremonial guards who handles formal protocols during the council.",
+          "role": "Protocol enforcer",
+          "relationships": {
+            "Formal ceremonies": "Oversees",
+            "Protocol adherence": "Ensures"
+          }
+        }
+      }
+    },
+    "fire-keeper": {
+      "name": "Fire Keeper Igni",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The keeper of magical fires throughout Thanedd Island, maintaining warmth and light.",
+          "role": "Magical fire tender",
+          "relationships": {
+            "Magical flames": "Maintains",
+            "Island illumination": "Provides"
+          }
+        }
+      }
+    },
+    "archive-keeper": {
+      "name": "Archive Keeper Benedikt",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The keeper of magical archives who protects ancient documents and scrolls during the chaos.",
+          "role": "Document protector",
+          "relationships": {
+            "Ancient documents": "Protects",
+            "Thanedd Librarian": "Works with"
+          }
+        }
+      }
+    },
+    "foreign-observer-1": {
+      "name": "Zerrikanian Observer Azar",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An observer from Zerrikania who monitors the proceedings to report back to his distant homeland.",
+          "role": "Foreign observer",
+          "relationships": {
+            "Zerrikanian interests": "Represents",
+            "International relations": "Monitors"
+          }
+        }
+      }
+    },
+    "foreign-observer-2": {
+      "name": "Ofieri Delegate Hassan",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A delegate from the distant land of Ofir who observes northern politics.",
+          "role": "Ofieri representative",
+          "relationships": {
+            "Ofiri kingdom": "Represents",
+            "Foreign perspectives": "Provides"
+          }
+        }
+      }
+    },
+    "island-fisherman": {
+      "name": "Fisherman Paulie",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A local fisherman who supplies fresh fish to the island and witnesses the violent events.",
+          "role": "Local fisherman",
+          "relationships": {
+            "Island food supply": "Contributes to",
+            "Local knowledge": "Possesses"
+          }
+        }
+      }
+    },
+    "weather-watcher": {
+      "name": "Weather Mage Nimbus",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A mage who specializes in weather magic and monitors conditions around Thanedd Island.",
+          "role": "Weather specialist",
+          "relationships": {
+            "Weather patterns": "Monitors",
+            "Storm magic": "Practices"
+          }
+        }
+      }
+    },
+    "supply-coordinator": {
+      "name": "Supply Master Grimm",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The master of supplies who coordinates the massive logistical effort for the gathering.",
+          "role": "Logistics coordinator",
+          "relationships": {
+            "Supply chains": "Manages",
+            "Resource allocation": "Oversees"
+          }
+        }
+      }
+    },
+    "guest-coordinator": {
+      "name": "Guest Master Wilhelm",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The coordinator responsible for accommodating the many important guests during the council.",
+          "role": "Hospitality manager",
+          "relationships": {
+            "Guest accommodations": "Arranges",
+            "Visitor services": "Coordinates"
+          }
+        }
+      }
+    },
+    "magical-ward-keeper": {
+      "name": "Ward Keeper Proteus",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A specialist mage responsible for maintaining the protective magical wards around Thanedd.",
+          "role": "Ward specialist",
+          "relationships": {
+            "Protective wards": "Maintains",
+            "Island security": "Enhances magically"
+          }
+        }
+      }
+    },
+    "refugee-helper": {
+      "name": "Helper Marigold",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A compassionate woman who helps survivors and refugees escape from Thanedd during the coup.",
+          "role": "Refugee aide",
+          "relationships": {
+            "Coup survivors": "Assists",
+            "Escape routes": "Knows"
+          }
+        }
+      }
+    },
+    "portal-technician": {
+      "name": "Portal Technician Marcus",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A technical specialist who maintains and operates the magical portals used for transportation.",
+          "role": "Portal operator",
+          "relationships": {
+            "Portal magic": "Operates",
+            "Transportation logistics": "Manages"
+          }
+        }
+      }
+    },
+    "emergency-coordinator": {
+      "name": "Emergency Chief Aldous",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "The coordinator who attempts to manage the emergency response during and after the coup.",
+          "role": "Crisis manager",
+          "relationships": {
+            "Emergency response": "Coordinates",
+            "Survivor evacuation": "Organizes"
+          }
+        }
+      }
+    },
+    "signal-master": {
+      "name": "Signal Master Beacon",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The master of signal fires and communication beacons used for long-distance messaging.",
+          "role": "Communication specialist",
+          "relationships": {
+            "Signal fires": "Operates",
+            "Emergency communications": "Manages"
+          }
+        }
+      }
+    },
+    "aretuza-student-5": {
+      "name": "Student Francesca",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A senior student at Aretuza who helps orient Ciri to the academy's customs and traditions.",
+          "role": "Senior student mentor",
+          "relationships": {
+            "Ciri": "Mentors",
+            "Academy traditions": "Teaches"
+          }
+        }
+      }
+    },
+    "aretuza-student-6": {
+      "name": "Student Lyanna",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A quiet student specializing in divination magic who occasionally interacts with Ciri.",
+          "role": "Divination student",
+          "relationships": {
+            "Divination magic": "Studies",
+            "Ciri": "Classmate of"
+          }
+        }
+      }
+    },
+    "thanedd-chaplain": {
+      "name": "Chaplain Hierophant",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A religious chaplain who provides spiritual guidance to island residents and visitors.",
+          "role": "Spiritual advisor",
+          "relationships": {
+            "Religious services": "Conducts",
+            "Spiritual guidance": "Provides"
+          }
+        }
+      }
+    },
+    "thanedd-engineer": {
+      "name": "Engineer Mechanicus",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A magical engineer who maintains the complex magical and mechanical systems of Thanedd Island.",
+          "role": "Magical engineer",
+          "relationships": {
+            "Island systems": "Maintains",
+            "Magical machinery": "Operates"
+          }
+        }
+      }
+    },
+    "merchant-delegate": {
+      "name": "Merchant Guild Representative Tobias",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A representative of the merchant guilds who observes the political proceedings.",
+          "role": "Guild representative",
+          "relationships": {
+            "Merchant interests": "Represents",
+            "Trade concerns": "Advocates for"
+          }
+        }
+      }
+    },
+    "thanedd-treasurer": {
+      "name": "Treasurer Goldenbag",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The treasurer who manages the finances and payments for the large gathering and its logistics.",
+          "role": "Financial manager",
+          "relationships": {
+            "Event finances": "Manages",
+            "Payment processing": "Handles"
+          }
+        }
+      }
+    },
+    "portal-guard": {
+      "name": "Portal Guard Protector",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A specialized guard who monitors and protects the magical portals during the gathering.",
+          "role": "Portal security",
+          "relationships": {
+            "Portal access": "Controls",
+            "Portal Technician Marcus": "Works with"
+          }
+        }
+      }
+    },
+    "intelligence-analyst": {
+      "name": "Analyst Cipher",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An intelligence analyst who processes information gathered by various spy networks.",
+          "role": "Information analyst",
+          "relationships": {
+            "Intelligence networks": "Analyzes data from",
+            "Strategic assessments": "Provides"
+          }
+        }
+      }
+    },
+    "ceremonial-herald": {
+      "name": "Herald Announcer",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The official herald who makes formal announcements during the council proceedings.",
+          "role": "Official announcer",
+          "relationships": {
+            "Official proclamations": "Announces",
+            "Ceremonial duties": "Performs"
+          }
+        }
+      }
+    },
+    "emergency-healer": {
+      "name": "Emergency Medic Salve",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A specialized healer who responds to the medical crisis during the coup violence.",
+          "role": "Crisis medic",
+          "relationships": {
+            "Coup casualties": "Treats",
+            "Healer Marti": "Assists"
+          }
+        }
+      }
+    },
+    "survivor-witness-1": {
+      "name": "Witness Scholar Bartholomew",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A scholar who survives the coup and becomes an important witness to the events.",
+          "role": "Coup witness",
+          "relationships": {
+            "Coup events": "Witnessed",
+            "Historical record": "Contributes to"
+          }
+        }
+      }
+    },
+    "survivor-witness-2": {
+      "name": "Survivor Noble Casimir",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A minor noble who survives the violence and spreads news of what happened at Thanedd.",
+          "role": "Noble survivor",
+          "relationships": {
+            "Coup survivors": "Fellow survivor with",
+            "News spreading": "Participates in"
+          }
+        }
+      }
+    },
+    "magical-artificer": {
+      "name": "Artificer Gearwright",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A magical artificer who creates and maintains enchanted items for the mages.",
+          "role": "Magical craftsman",
+          "relationships": {
+            "Enchanted items": "Creates",
+            "Magical equipment": "Maintains"
+          }
+        }
+      }
+    },
+    "court-physician": {
+      "name": "Court Physician Medicus",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A physician who provides medical care to the high-ranking attendees of the council.",
+          "role": "Diplomatic physician",
+          "relationships": {
+            "High-ranking officials": "Treats",
+            "Medical protocols": "Follows"
+          }
+        }
+      }
+    },
+    "dance-instructor": {
+      "name": "Dance Master Graceful",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A dance instructor who teaches formal dances for the social events during the gathering.",
+          "role": "Cultural instructor",
+          "relationships": {
+            "Social dancing": "Teaches",
+            "Cultural events": "Organizes"
+          }
+        }
+      }
+    },
+    "wine-master": {
+      "name": "Wine Master Vintage",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The master of wine selection who curates fine wines for the diplomatic banquets.",
+          "role": "Wine specialist",
+          "relationships": {
+            "Wine selection": "Curates",
+            "Banquet service": "Enhances"
+          }
+        }
+      }
+    },
+    "tailoring-master": {
+      "name": "Tailor Master Needlework",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A master tailor who creates formal attire for the important guests and ceremonies.",
+          "role": "Ceremonial tailor",
+          "relationships": {
+            "Formal attire": "Creates",
+            "Ceremonial clothing": "Designs"
+          }
+        }
+      }
+    },
+    "jeweler-court": {
+      "name": "Court Jeweler Brilliant",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A skilled jeweler who provides and maintains precious jewelry for the noble attendees.",
+          "role": "Precious metals craftsman",
+          "relationships": {
+            "Precious jewelry": "Creates",
+            "Noble accessories": "Maintains"
+          }
+        }
+      }
+    },
+    "horse-trainer": {
+      "name": "Horse Trainer Swift",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A horse trainer who works with the stablemaster to care for the many horses during the gathering.",
+          "role": "Equine specialist",
+          "relationships": {
+            "Stablemaster Coen": "Works with",
+            "Visitor horses": "Trains and cares for"
+          }
+        }
+      }
+    },
+    "diplomatic-secretary": {
+      "name": "Secretary Quillpen",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A diplomatic secretary who handles correspondence and documentation for various delegations.",
+          "role": "Administrative secretary",
+          "relationships": {
+            "Diplomatic correspondence": "Manages",
+            "Official documents": "Processes"
+          }
+        }
+      }
+    },
+    "entertainment-coordinator": {
+      "name": "Entertainment Master Joyful",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The coordinator of entertainment activities during the social aspects of the gathering.",
+          "role": "Entertainment organizer",
+          "relationships": {
+            "Social entertainment": "Organizes",
+            "Cultural activities": "Coordinates"
+          }
+        }
+      }
+    },
+    "security-coordinator": {
+      "name": "Security Chief Guardian",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "The chief security coordinator who oversees all aspects of safety during the gathering.",
+          "role": "Security chief",
+          "relationships": {
+            "Overall security": "Coordinates",
+            "Captain Algernon": "Works with"
+          }
+        }
+      }
+    },
+    "magical-theorist": {
+      "name": "Theorist Hypothesis",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A magical theorist who presents new theories about magic at the scholarly sessions.",
+          "role": "Magic theorist",
+          "relationships": {
+            "Magical theory": "Develops",
+            "Scholarly debates": "Participates in"
+          }
+        }
+      }
+    },
+    "evacuation-coordinator": {
+      "name": "Evacuation Chief Exodus",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A coordinator who attempts to organize evacuations during the coup chaos.",
+          "role": "Evacuation specialist",
+          "relationships": {
+            "Evacuation procedures": "Organizes",
+            "Emergency Chief Aldous": "Works with"
+          }
+        }
+      }
+    },
+    "information-courier": {
+      "name": "Courier Fleet",
+      "aliases": [],
+      "appearances": [4, 5, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A fast courier who carries urgent information about the coup to various kingdoms.",
+          "role": "Urgent messenger",
+          "relationships": {
+            "Urgent dispatches": "Carries",
+            "Kingdom communications": "Facilitates"
+          }
+        }
+      }
+    },
+    "refugee-coordinator": {
+      "name": "Refugee Organizer Sanctuary",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A coordinator who helps organize care for refugees fleeing the Thanedd disaster.",
+          "role": "Refugee coordinator",
+          "relationships": {
+            "Coup refugees": "Organizes care for",
+            "Helper Marigold": "Works with"
+          }
+        }
+      }
+    },
+    "intelligence-decoder": {
+      "name": "Decoder Cryptic",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A specialist who decodes intercepted messages and intelligence from the coup aftermath.",
+          "role": "Code breaker",
+          "relationships": {
+            "Coded messages": "Decodes",
+            "Analyst Cipher": "Works with"
+          }
+        }
+      }
     }
+
+    
   },
   "recaps": {
     "1": "Ciri continues her magical education with Yennefer while political tensions escalate. Various factions seek to capture or control her, with Rience continuing his relentless pursuit.",

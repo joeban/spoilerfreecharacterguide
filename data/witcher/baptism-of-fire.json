@@ -1103,7 +1103,1402 @@
           }
         }
       }
+    },
+    "milva-old-gang-leader": {
+      "name": "Bronn the Bowman",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Former leader of Milva's archer gang who knew her before she joined Geralt's company. Provides background on her skills.",
+          "role": "Former gang leader",
+          "relationships": {
+            "Milva": "Former leader of",
+            "Archer gang": "Previously commanded"
+          }
+        }
+      }
+    },
+    "milva-gang-archer-1": {
+      "name": "Fletcher Tom",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A skilled archer who served with Milva in her old gang before she left to join Geralt.",
+          "role": "Former gang archer",
+          "relationships": {
+            "Milva": "Former gang companion",
+            "Bronn the Bowman": "Served under"
+          }
+        }
+      }
+    },
+    "milva-gang-archer-2": {
+      "name": "Crossbow Karel",
+      "aliases": [],
+      "appearances": [2],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A crossbow specialist from Milva's former gang who continues operating in the forest.",
+          "role": "Crossbow specialist",
+          "relationships": {
+            "Milva": "Old gang member with",
+            "Forest operations": "Continues"
+          }
+        }
+      }
+    },
+    "refugee-camp-elder": {
+      "name": "Elder Matthias",
+      "aliases": [],
+      "appearances": [2, 3, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elder who helps organize refugee camps and provides leadership to displaced people during the war.",
+          "role": "Refugee camp leader",
+          "relationships": {
+            "War Refugees": "Provides leadership to",
+            "Maria": "Works with"
+          }
+        }
+      }
+    },
+    "refugee-camp-healer": {
+      "name": "Healer Cordelia",
+      "aliases": [],
+      "appearances": [2, 3, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A healer working in refugee camps to treat the sick and wounded among displaced populations.",
+          "role": "Refugee healer",
+          "relationships": {
+            "War Refugees": "Treats ailments of",
+            "Anna": "Shares medical duties with"
+          }
+        }
+      }
+    },
+    "refugee-camp-cook": {
+      "name": "Camp Cook Bertha",
+      "aliases": [],
+      "appearances": [2, 3],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A cook who prepares meals for refugee camps, making the most of limited supplies to feed displaced families.",
+          "role": "Refugee camp cook",
+          "relationships": {
+            "War Refugees": "Feeds",
+            "Camp organization": "Essential part of"
+          }
+        }
+      }
+    },
+    "nilfgaardian-lieutenant-1": {
+      "name": "Lieutenant Tibor",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A junior Nilfgaardian officer leading a reconnaissance patrol in the conquered territories.",
+          "role": "Nilfgaardian lieutenant",
+          "relationships": {
+            "Colonel Joachim de Wett": "Reports to",
+            "Nilfgaardian patrols": "Leads"
+          }
+        }
+      }
+    },
+    "nilfgaardian-lieutenant-2": {
+      "name": "Lieutenant Rayla",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A female Nilfgaardian officer specializing in intelligence gathering behind enemy lines.",
+          "role": "Intelligence officer",
+          "relationships": {
+            "Scout Captain Voorhis": "Works with",
+            "Intelligence operations": "Conducts"
+          }
+        }
+      }
+    },
+    "nilfgaardian-sergeant": {
+      "name": "Sergeant Morvan",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A veteran Nilfgaardian sergeant with extensive combat experience leading infantry squads.",
+          "role": "Veteran sergeant",
+          "relationships": {
+            "Nilfgaardian infantry": "Leads squads of",
+            "Lieutenant Tibor": "Serves under"
+          }
+        }
+      }
+    },
+    "resistance-fighter-1": {
+      "name": "Resistance Leader Jan",
+      "aliases": ["Forest Jan"],
+      "appearances": [3, 4, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Northern Kingdom partisan leader organizing guerrilla resistance against Nilfgaardian occupation.",
+          "role": "Resistance leader",
+          "relationships": {
+            "Partisan fighters": "Commands",
+            "Northern resistance": "Organizes"
+          }
+        }
+      }
+    },
+    "resistance-fighter-2": {
+      "name": "Partisan Elena",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A female partisan fighter skilled in sabotage operations against Nilfgaardian supply lines.",
+          "role": "Sabotage specialist",
+          "relationships": {
+            "Forest Jan": "Serves under",
+            "Sabotage operations": "Specializes in"
+          }
+        }
+      }
+    },
+    "resistance-fighter-3": {
+      "name": "Partisan Mikhail",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A tough resistance fighter who specializes in ambush tactics against Nilfgaardian patrols.",
+          "role": "Ambush specialist",
+          "relationships": {
+            "Forest Jan": "Allied with",
+            "Guerrilla tactics": "Expert in"
+          }
+        }
+      }
+    },
+    "field-medic-bernard": {
+      "name": "Medic Bernard",
+      "aliases": [],
+      "appearances": [3, 5, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A battlefield medic who treats wounded soldiers from both sides, maintaining medical neutrality.",
+          "role": "Battlefield medic",
+          "relationships": {
+            "War wounded": "Treats impartially",
+            "Field Surgeon Joachim": "Works with"
+          }
+        }
+      }
+    },
+    "field-medic-sara": {
+      "name": "Medic Sara",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A young woman serving as a field medic, learning emergency medicine under harsh wartime conditions.",
+          "role": "Apprentice medic",
+          "relationships": {
+            "Medic Bernard": "Learns from",
+            "Wounded soldiers": "Assists with"
+          }
+        }
+      }
+    },
+    "merchant-caravan-leader": {
+      "name": "Merchant Aldrich",
+      "aliases": [],
+      "appearances": [2, 4, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A merchant caravan leader trying to maintain trade routes despite the dangerous wartime conditions.",
+          "role": "Caravan merchant",
+          "relationships": {
+            "Trade caravans": "Leads",
+            "War-torn territories": "Navigates"
+          }
+        }
+      }
+    },
+    "merchant-guard-captain": {
+      "name": "Guard Captain Roderick",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A professional guard captain hired to protect merchant caravans traveling through dangerous territories.",
+          "role": "Caravan guard captain",
+          "relationships": {
+            "Merchant Aldrich": "Protects caravans of",
+            "Caravan guards": "Commands"
+          }
+        }
+      }
+    },
+    "traveling-priest": {
+      "name": "Priest Hieronymus",
+      "aliases": [],
+      "appearances": [1, 3, 6],
+      "knowledge": {
+        "1": {
+          "revealedIn": 1,
+          "description": "A wandering priest who provides spiritual comfort to refugees and tends to the dying on battlefields.",
+          "role": "Traveling priest",
+          "relationships": {
+            "War refugees": "Provides spiritual comfort to",
+            "Dying soldiers": "Gives last rites to"
+          }
+        }
+      }
+    },
+    "pilgrim-leader": {
+      "name": "Pilgrim Master Godwin",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A leader of pilgrims trying to reach holy sites despite the ongoing war disrupting travel.",
+          "role": "Pilgrim leader",
+          "relationships": {
+            "Religious pilgrims": "Leads group of",
+            "Priest Hieronymus": "Coordinates with"
+          }
+        }
+      }
+    },
+    "tavern-keeper-willem": {
+      "name": "Innkeeper Willem",
+      "aliases": [],
+      "appearances": [2, 4, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An innkeeper who continues operating his tavern despite the war, providing news and shelter to travelers.",
+          "role": "Wartime innkeeper",
+          "relationships": {
+            "Travelers": "Provides shelter to",
+            "Information network": "Part of"
+          }
+        }
+      }
+    },
+    "tavern-barmaid": {
+      "name": "Barmaid Greta",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A tavern barmaid who overhears conversations and passes information to travelers.",
+          "role": "Information gatherer",
+          "relationships": {
+            "Innkeeper Willem": "Works for",
+            "Tavern customers": "Serves and listens to"
+          }
+        }
+      }
+    },
+    "scout-messenger-1": {
+      "name": "Scout Finn",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A fast messenger scout carrying information between various military units during the campaign.",
+          "role": "Military messenger",
+          "relationships": {
+            "Military units": "Carries messages between",
+            "Command structure": "Supports communication in"
+          }
+        }
+      }
+    },
+    "scout-messenger-2": {
+      "name": "Scout Petra",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A female scout specializing in reconnaissance and intelligence gathering for military operations.",
+          "role": "Intelligence scout",
+          "relationships": {
+            "Scout Finn": "Works with",
+            "Military intelligence": "Gathers"
+          }
+        }
+      }
+    },
+    "war-orphan-group-leader": {
+      "name": "Orphan Leader Marcus",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "An older war orphan who takes care of a group of younger children left parentless by the conflict.",
+          "role": "Orphan protector",
+          "relationships": {
+            "War orphans": "Protects group of",
+            "Tim": "Cares for"
+          }
+        }
+      }
+    },
+    "war-orphan-girl": {
+      "name": "Orphan Lily",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A young girl orphaned by the war who travels with other displaced children seeking safety.",
+          "role": "War orphan",
+          "relationships": {
+            "Orphan Leader Marcus": "Protected by",
+            "War orphan group": "Member of"
+          }
+        }
+      }
+    },
+    "blacksmith-refugee": {
+      "name": "Smith Casimir",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A blacksmith among the refugees who tries to maintain his trade while fleeing the war.",
+          "role": "Refugee craftsman",
+          "relationships": {
+            "War Refugees": "Provides metalwork for",
+            "Craft skills": "Maintains during displacement"
+          }
+        }
+      }
+    },
+    "carpenter-refugee": {
+      "name": "Carpenter Oswald",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A carpenter who became a refugee but uses his skills to help build temporary shelters for other displaced people.",
+          "role": "Refugee builder",
+          "relationships": {
+            "War Refugees": "Builds shelters for",
+            "Smith Casimir": "Works with"
+          }
+        }
+      }
+    },
+    "hunter-guide": {
+      "name": "Hunter Bronislav",
+      "aliases": [],
+      "appearances": [2, 3, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An experienced hunter who knows the forest paths and guides refugees to safety.",
+          "role": "Forest guide",
+          "relationships": {
+            "War Refugees": "Guides to safety",
+            "Forest paths": "Knows secret"
+          }
+        }
+      }
+    },
+    "bandit-leader-kozlowski": {
+      "name": "Bandit Leader Kozlowski",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A bandit leader who takes advantage of the war's chaos to prey on refugees and travelers.",
+          "role": "Bandit chief",
+          "relationships": {
+            "Bandit gang": "Commands",
+            "War refugees": "Preys upon"
+          }
+        }
+      }
+    },
+    "bandit-lieutenant": {
+      "name": "Bandit Rolf",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A vicious bandit who serves as lieutenant to Kozlowski, specializing in intimidation and violence.",
+          "role": "Bandit enforcer",
+          "relationships": {
+            "Bandit Leader Kozlowski": "Serves as lieutenant to",
+            "Bandit operations": "Enforces"
+          }
+        }
+      }
+    },
+    "town-guard-captain": {
+      "name": "Town Guard Siegfried",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A town guard captain trying to maintain order in settlements overwhelmed by refugees and military units.",
+          "role": "Town guard captain",
+          "relationships": {
+            "Town guards": "Commands",
+            "Refugee populations": "Tries to manage"
+          }
+        }
+      }
+    },
+    "town-militia-sergeant": {
+      "name": "Militia Sergeant Gunther",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A local militia sergeant helping to defend towns against bandits and enemy raids.",
+          "role": "Militia leader",
+          "relationships": {
+            "Town Guard Siegfried": "Coordinates with",
+            "Local militia": "Commands"
+          }
+        }
+      }
+    },
+    "ferryman-boatman": {
+      "name": "Ferryman Aldous",
+      "aliases": [],
+      "appearances": [3, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A ferryman who continues operating his river crossing despite the dangers, helping refugees escape.",
+          "role": "River ferryman",
+          "relationships": {
+            "War refugees": "Helps cross river",
+            "Captain Cornelius": "Works with"
+          }
+        }
+      }
+    },
+    "village-elder-stefan": {
+      "name": "Village Elder Stefan",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An elder from a village overrun by refugees, trying to maintain some semblance of order and community.",
+          "role": "Village leader",
+          "relationships": {
+            "Village community": "Leads",
+            "Refugee influx": "Manages"
+          }
+        }
+      }
+    },
+    "village-wise-woman": {
+      "name": "Wise Woman Agatha",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A village wise woman who provides herbal healing and traditional knowledge to help refugees and locals.",
+          "role": "Village healer",
+          "relationships": {
+            "Village Elder Stefan": "Advises",
+            "Herbal medicine": "Practices"
+          }
+        }
+      }
+    },
+    "stable-master-gareth": {
+      "name": "Stable Master Gareth",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A stable master who tends to horses for military units and refugees, maintaining crucial transportation.",
+          "role": "Horse caretaker",
+          "relationships": {
+            "Military horses": "Cares for",
+            "Transportation needs": "Supports"
+          }
+        }
+      }
+    },
+    "supply-wagon-driver": {
+      "name": "Wagon Driver Otto",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A supply wagon driver transporting goods and materials for military units and refugee camps.",
+          "role": "Supply transporter",
+          "relationships": {
+            "Military supplies": "Transports",
+            "Stable Master Gareth": "Coordinates with"
+          }
+        }
+      }
+    },
+    "messenger-courier": {
+      "name": "Courier Henrik",
+      "aliases": [],
+      "appearances": [3, 5, 7],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A professional courier carrying messages between military commanders and political leaders.",
+          "role": "Military courier",
+          "relationships": {
+            "Military command": "Carries orders for",
+            "Communication networks": "Part of"
+          }
+        }
+      }
+    },
+    "border-guard-commander": {
+      "name": "Border Commander Aldric",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A border guard commander trying to maintain control over territorial boundaries during the invasion.",
+          "role": "Border defense commander",
+          "relationships": {
+            "Border guards": "Commands",
+            "Territory control": "Maintains"
+          }
+        }
+      }
+    },
+    "customs-officer": {
+      "name": "Customs Officer Bertram",
+      "aliases": [],
+      "appearances": [3],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A customs officer trying to maintain trade regulations despite the chaos of war disrupting normal commerce.",
+          "role": "Trade regulator",
+          "relationships": {
+            "Border Commander Aldric": "Works with",
+            "Trade oversight": "Attempts to maintain"
+          }
+        }
+      }
+    },
+    "intelligence-spy": {
+      "name": "Spy Agent Caspar",
+      "aliases": [],
+      "appearances": [4, 5, 7],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "An intelligence agent working for one of the Northern Kingdoms, gathering information on enemy movements.",
+          "role": "Intelligence operative",
+          "relationships": {
+            "Northern intelligence": "Works for",
+            "Enemy surveillance": "Conducts"
+          }
+        }
+      }
+    },
+    "double-agent": {
+      "name": "Double Agent Miriam",
+      "aliases": [],
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A spy working for multiple sides in the conflict, selling information to whoever pays the most.",
+          "role": "Information broker",
+          "relationships": {
+            "Multiple factions": "Sells intelligence to",
+            "Spy Agent Caspar": "Sometimes works with"
+          }
+        }
+      }
+    },
+    "quartermaster-supply": {
+      "name": "Quartermaster Magnus",
+      "aliases": [],
+      "appearances": [3, 4, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A military quartermaster responsible for managing supplies and logistics for army units in the field.",
+          "role": "Supply coordinator",
+          "relationships": {
+            "Military logistics": "Manages",
+            "Supply chains": "Coordinates"
+          }
+        }
+      }
+    },
+    "camp-follower-1": {
+      "name": "Camp Follower Rosa",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A woman who follows military camps, providing services like cooking, mending, and companionship to soldiers.",
+          "role": "Camp follower",
+          "relationships": {
+            "Military camps": "Provides services to",
+            "Soldiers": "Cares for"
+          }
+        }
+      }
+    },
+    "camp-follower-2": {
+      "name": "Camp Follower Ingrid",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "Another camp follower who specializes in tending to wounded soldiers and maintaining their equipment.",
+          "role": "Military support",
+          "relationships": {
+            "Camp Follower Rosa": "Works alongside",
+            "Wounded soldiers": "Tends to"
+          }
+        }
+      }
+    },
+    "war-profiteer": {
+      "name": "Profiteer Goldwin",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A merchant who profits from the war by selling overpriced goods to desperate refugees and soldiers.",
+          "role": "War profiteer",
+          "relationships": {
+            "War refugees": "Exploits desperation of",
+            "Military units": "Sells overpriced goods to"
+          }
+        }
+      }
+    },
+    "arms-dealer": {
+      "name": "Arms Dealer Viktor",
+      "aliases": [],
+      "appearances": [4, 6],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A weapons dealer who sells arms to various factions, caring little about the politics of the conflict.",
+          "role": "Weapons merchant",
+          "relationships": {
+            "Multiple factions": "Sells weapons to",
+            "Profiteer Goldwin": "Business associate of"
+          }
+        }
+      }
+    },
+    "battlefield-scavenger": {
+      "name": "Scavenger Grimm",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A scavenger who loots battlefields for valuable items, weapons, and armor from the fallen.",
+          "role": "Battlefield scavenger",
+          "relationships": {
+            "Battlefield dead": "Scavenges from",
+            "Arms Dealer Viktor": "Sells findings to"
+          }
+        }
+      }
+    },
+    "grave-digger": {
+      "name": "Grave Digger Mortimer",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A grave digger who handles the massive task of burying war dead, showing the grim reality of conflict.",
+          "role": "War dead burial",
+          "relationships": {
+            "War casualties": "Buries",
+            "Battlefield aftermath": "Deals with"
+          }
+        }
+      }
+    },
+    "refugee-child-1": {
+      "name": "Refugee Child Emma",
+      "aliases": [],
+      "appearances": [2, 3, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A young refugee child who represents the innocent victims of war, traveling with displaced families.",
+          "role": "War victim",
+          "relationships": {
+            "War Refugees": "Travels with",
+            "Orphan Leader Marcus": "Sometimes cared for by"
+          }
+        }
+      }
+    },
+    "refugee-child-2": {
+      "name": "Refugee Child Peter",
+      "aliases": [],
+      "appearances": [2, 3, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "Another young refugee who has lost family in the war and seeks safety with other displaced people.",
+          "role": "Displaced child",
+          "relationships": {
+            "Refugee Child Emma": "Travels with",
+            "War orphan group": "Sometimes joins"
+          }
+        }
+      }
+    },
+    "deserter-soldier": {
+      "name": "Deserter Thomas",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A Northern Kingdom soldier who deserted his unit, unable to continue fighting in the brutal war.",
+          "role": "Military deserter",
+          "relationships": {
+            "Former military unit": "Deserted from",
+            "War refugees": "Hides among"
+          }
+        }
+      }
+    },
+    "army-chaplain": {
+      "name": "Army Chaplain Benedict",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A military chaplain providing spiritual guidance to soldiers and last rites to the dying.",
+          "role": "Military chaplain",
+          "relationships": {
+            "Soldiers": "Provides spiritual guidance to",
+            "Priest Hieronymus": "Coordinates with"
+          }
+        }
+      }
+    },
+    "military-engineer": {
+      "name": "Engineer Construct",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A military engineer responsible for building fortifications, bridges, and siege equipment.",
+          "role": "Military engineer",
+          "relationships": {
+            "Fortifications": "Designs and builds",
+            "Siege warfare": "Supports"
+          }
+        }
+      }
+    },
+    "siege-specialist": {
+      "name": "Siege Master Ballista",
+      "aliases": [],
+      "appearances": [4, 5],
+      "knowledge": {
+        "4": {
+          "revealedIn": 4,
+          "description": "A specialist in siege warfare who operates and maintains siege engines for military operations.",
+          "role": "Siege warfare expert",
+          "relationships": {
+            "Engineer Construct": "Works with",
+            "Siege engines": "Operates"
+          }
+        }
+      }
+    },
+    "war-correspondent": {
+      "name": "Chronicler Quill",
+      "aliases": [],
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A chronicler who documents the events of the war, interviewing survivors and recording the conflict's history.",
+          "role": "War chronicler",
+          "relationships": {
+            "War survivors": "Interviews",
+            "Historical record": "Creates"
+          }
+        }
+      }
+    },
+    "survivor-storyteller": {
+      "name": "Storyteller Saga",
+      "aliases": [],
+      "appearances": [5, 6],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A survivor who tells stories to other refugees, helping maintain morale and preserve cultural memory.",
+          "role": "Cultural storyteller",
+          "relationships": {
+            "War Refugees": "Entertains and comforts",
+            "Cultural memory": "Preserves"
+          }
+        }
+      }
+    },
+    "refugee-musician": {
+      "name": "Musician Harper",
+      "aliases": [],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A musician among the refugees who plays songs to lift spirits and earn small donations.",
+          "role": "Refugee entertainer",
+          "relationships": {
+            "War Refugees": "Entertains",
+            "Storyteller Saga": "Sometimes performs with"
+          }
+        }
+      }
+    },
+    "information-runner": {
+      "name": "Runner Swift",
+      "aliases": [],
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A fast runner who carries information between different groups, serving as a vital communication link.",
+          "role": "Information courier",
+          "relationships": {
+            "Communication networks": "Connects",
+            "Courier Henrik": "Works with"
+          }
+        }
+      }
+    },
+    "local-guide-forest": {
+      "name": "Forest Guide Sylvan",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A local guide with extensive knowledge of forest paths, helping groups navigate safely through dangerous territory.",
+          "role": "Wilderness guide",
+          "relationships": {
+            "Forest navigation": "Expert in",
+            "Hunter Bronislav": "Works with"
+          }
+        }
+      }
+    },
+    "cave-hermit": {
+      "name": "Hermit Solitude",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A hermit living in mountain caves who occasionally helps lost travelers and refugees find their way.",
+          "role": "Mountain hermit",
+          "relationships": {
+            "Lost travelers": "Occasionally aids",
+            "Mountain caves": "Lives in"
+          }
+        }
+      }
+    },
+    "mountain-climber": {
+      "name": "Climber Peak",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "An experienced mountain climber who knows dangerous paths through mountainous regions.",
+          "role": "Mountain guide",
+          "relationships": {
+            "Hermit Solitude": "Sometimes encounters",
+            "Mountain navigation": "Expert in"
+          }
+        }
+      }
+    },
+    "river-trader": {
+      "name": "River Merchant Flow",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A merchant who uses river routes to transport goods, avoiding the dangerous overland routes during the war.",
+          "role": "River commerce",
+          "relationships": {
+            "Captain Cornelius": "Sometimes works with",
+            "River trade routes": "Uses"
+          }
+        }
+      }
+    },
+    "bridge-keeper": {
+      "name": "Bridge Keeper Span",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A bridge keeper who controls access across strategic river crossings, charging tolls and monitoring traffic.",
+          "role": "Crossing controller",
+          "relationships": {
+            "River crossings": "Controls access to",
+            "Ferryman Aldous": "Competes with"
+          }
+        }
+      }
+    },
+    "traveling-scholar": {
+      "name": "Scholar Manuscript",
+      "aliases": [],
+      "appearances": [5, 7],
+      "knowledge": {
+        "5": {
+          "revealedIn": 5,
+          "description": "A traveling scholar documenting the effects of war on different communities and cultures.",
+          "role": "Academic observer",
+          "relationships": {
+            "War documentation": "Studies",
+            "Chronicler Quill": "Collaborates with"
+          }
+        }
+      }
+    },
+    "herbalist-healer": {
+      "name": "Herbalist Remedy",
+      "aliases": [],
+      "appearances": [2, 5, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An herbalist who travels with refugees, providing natural remedies and healing herbs.",
+          "role": "Natural healer",
+          "relationships": {
+            "War Refugees": "Provides herbal remedies to",
+            "Wise Woman Agatha": "Shares knowledge with"
+          }
+        }
+      }
+    },
+    "old-veteran-karl": {
+      "name": "Veteran Karl",
+      "aliases": ["Old Karl"],
+      "appearances": [2, 3, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "An old veteran of previous wars who provides tactical advice to younger soldiers and refugees.",
+          "role": "Military advisor",
+          "relationships": {
+            "Young soldiers": "Advises",
+            "War refugees": "Protects"
+          }
+        }
+      }
+    },
+    "weapon-smith": {
+      "name": "Weapon Smith Forge",
+      "aliases": [],
+      "appearances": [3, 4, 6],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A traveling weapon smith who repairs and creates weapons for soldiers and fighters during the war.",
+          "role": "Combat equipment specialist",
+          "relationships": {
+            "Warriors": "Provides weapons for",
+            "Smith Casimir": "Works with"
+          }
+        }
+      }
+    },
+    "armor-repairer": {
+      "name": "Armor Master Plate",
+      "aliases": [],
+      "appearances": [3, 4],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A specialist in repairing and maintaining armor for soldiers and mercenaries.",
+          "role": "Armor maintenance",
+          "relationships": {
+            "Weapon Smith Forge": "Business partner of",
+            "Military equipment": "Maintains"
+          }
+        }
+      }
+    },
+    "horse-trader": {
+      "name": "Horse Trader Stallion",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A horse trader who sells mounts to military units and wealthy refugees needing transportation.",
+          "role": "Livestock merchant",
+          "relationships": {
+            "Stable Master Gareth": "Supplies horses to",
+            "Military cavalry": "Provides mounts for"
+          }
+        }
+      }
+    },
+    "food-merchant": {
+      "name": "Food Merchant Abundance",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A merchant specializing in food supplies, selling provisions to military units and refugee camps.",
+          "role": "Food supplier",
+          "relationships": {
+            "Refugee camps": "Supplies food to",
+            "Military units": "Provides rations for"
+          }
+        }
+      }
+    },
+    "cloth-merchant": {
+      "name": "Cloth Trader Textile",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A cloth merchant who sells fabric and clothing to refugees and military units needing supplies.",
+          "role": "Textile supplier",
+          "relationships": {
+            "War refugees": "Provides clothing for",
+            "Food Merchant Abundance": "Travels with"
+          }
+        }
+      }
+    },
+    "rope-maker": {
+      "name": "Rope Maker Strand",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A craftsman who makes ropes and cordage for various military and civilian applications.",
+          "role": "Cordage specialist",
+          "relationships": {
+            "Military engineers": "Supplies rope to",
+            "Siege operations": "Provides materials for"
+          }
+        }
+      }
+    },
+    "leather-worker": {
+      "name": "Leather Worker Hide",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A leather worker who creates and repairs leather goods, armor, and equipment for warriors.",
+          "role": "Leather goods craftsman",
+          "relationships": {
+            "Armor Master Plate": "Works with",
+            "Leather equipment": "Creates and repairs"
+          }
+        }
+      }
+    },
+    "candle-maker": {
+      "name": "Candle Maker Wick",
+      "aliases": [],
+      "appearances": [2, 6],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A candle maker who provides light sources for camps, military units, and refugees.",
+          "role": "Light provider",
+          "relationships": {
+            "Refugee camps": "Provides lighting for",
+            "Military units": "Supplies candles to"
+          }
+        }
+      }
+    },
+    "potter-craftsman": {
+      "name": "Potter Clay",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A potter who creates ceramic vessels and containers for storing food and water during the crisis.",
+          "role": "Ceramic craftsman",
+          "relationships": {
+            "Water storage": "Creates containers for",
+            "Refugee camps": "Provides vessels to"
+          }
+        }
+      }
+    },
+    "wagon-builder": {
+      "name": "Wagon Builder Wheel",
+      "aliases": [],
+      "appearances": [3, 5],
+      "knowledge": {
+        "3": {
+          "revealedIn": 3,
+          "description": "A craftsman who builds and repairs wagons essential for transporting goods and people during the war.",
+          "role": "Transportation builder",
+          "relationships": {
+            "Wagon Driver Otto": "Builds and repairs wagons for",
+            "Transport needs": "Addresses"
+          }
+        }
+      }
+    },
+    "boat-builder": {
+      "name": "Boat Builder Hull",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A boat builder who constructs and repairs vessels for river transportation during the conflict.",
+          "role": "Vessel constructor",
+          "relationships": {
+            "Captain Cornelius": "Builds boats for",
+            "River transport": "Supports"
+          }
+        }
+      }
+    },
+    "salt-merchant": {
+      "name": "Salt Trader Preserve",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A merchant who trades in salt, essential for preserving food during long military campaigns and refugee journeys.",
+          "role": "Preservation specialist",
+          "relationships": {
+            "Food preservation": "Enables",
+            "Food Merchant Abundance": "Supplies salt to"
+          }
+        }
+      }
+    },
+    "honey-keeper": {
+      "name": "Beekeeper Sweet",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A beekeeper who maintains hives and provides honey, an important source of nutrition during food shortages.",
+          "role": "Honey producer",
+          "relationships": {
+            "Food shortages": "Helps address",
+            "Herbalist Remedy": "Provides honey for medicines"
+          }
+        }
+      }
+    },
+    "miller-grain": {
+      "name": "Miller Grain",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A miller who processes grain into flour for bread, essential for feeding large groups of refugees and soldiers.",
+          "role": "Grain processor",
+          "relationships": {
+            "Food production": "Essential for",
+            "Camp Cook Bertha": "Supplies flour to"
+          }
+        }
+      }
+    },
+    "baker-refugee": {
+      "name": "Baker Bread",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A baker who continues making bread for refugees and military units despite limited ingredients.",
+          "role": "Bread provider",
+          "relationships": {
+            "Miller Grain": "Gets flour from",
+            "Food distribution": "Essential part of"
+          }
+        }
+      }
+    },
+    "cheese-maker": {
+      "name": "Cheese Maker Curd",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A cheese maker who produces preserved dairy products important for military and refugee nutrition.",
+          "role": "Dairy specialist",
+          "relationships": {
+            "Food preservation": "Contributes to",
+            "Nutritional needs": "Addresses"
+          }
+        }
+      }
+    },
+    "wine-maker": {
+      "name": "Wine Maker Vintage",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A wine maker whose business has been disrupted by war, now selling what remains of his stock to travelers.",
+          "role": "Beverage producer",
+          "relationships": {
+            "Disrupted commerce": "Victim of",
+            "Travelers": "Sells remaining stock to"
+          }
+        }
+      }
+    },
+    "ale-brewer": {
+      "name": "Ale Brewer Hops",
+      "aliases": [],
+      "appearances": [2, 4],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A brewer who continues making ale for taverns and military units, providing both nutrition and morale.",
+          "role": "Beverage brewer",
+          "relationships": {
+            "Innkeeper Willem": "Supplies ale to",
+            "Military morale": "Supports"
+          }
+        }
+      }
+    },
+    "shepherd-displaced": {
+      "name": "Shepherd Flock",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A shepherd who lost his flock to the war but continues helping refugees find safe paths through the countryside.",
+          "role": "Displaced herder",
+          "relationships": {
+            "Lost livelihood": "Victim of war",
+            "Refugee guidance": "Provides"
+          }
+        }
+      }
+    },
+    "refugee-elder-council": {
+      "name": "Council Elder Wisdom",
+      "aliases": [],
+      "appearances": [2, 5],
+      "knowledge": {
+        "2": {
+          "revealedIn": 2,
+          "description": "A wise elder who helps make decisions for refugee groups and mediates disputes among displaced people.",
+          "role": "Refugee mediator",
+          "relationships": {
+            "Elder Matthias": "Works with",
+            "Refugee disputes": "Mediates"
+          }
+        }
+      }
+    },
+    "fisherman-river": {
+      "name": "River Fisherman Net",
+      "aliases": [],
+      "appearances": [6, 7],
+      "knowledge": {
+        "6": {
+          "revealedIn": 6,
+          "description": "A fisherman who continues working the rivers despite the war, providing fresh fish to communities and travelers.",
+          "role": "River food provider",
+          "relationships": {
+            "River communities": "Supplies fish to",
+            "Captain Cornelius": "Sometimes works with"
+          }
+        }
+      }
     }
+
+
+
   },
   "recaps": {
     "1": "Geralt, badly injured from Thanedd, begins his desperate search for Ciri. Despite his condition, he refuses to give up and starts gathering allies and information about her whereabouts.",
