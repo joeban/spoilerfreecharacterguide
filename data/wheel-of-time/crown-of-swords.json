@@ -9,13 +9,39 @@
   "characters": {
     "rand-althor": {
       "name": "Rand al'Thor",
-      "aliases": ["The Dragon Reborn", "Lord Dragon", "Car'a'carn", "He Who Comes With the Dawn"],
-      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 18, 19, 20, 21, 32, 33, 34, 35, 36, 37, 40, 41],
+      "aliases": [
+        "The chosen one",
+        "Lord Dragon",
+        "Car'a'carn",
+        "He Who Comes With the Dawn"
+      ],
+      "appearances": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        18,
+        19,
+        20,
+        21,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        40,
+        41
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "The Dragon Reborn, attempting to consolidate his rule over Cairhien while planning his next moves against the remaining Forsaken.",
-          "role": "The Dragon Reborn",
+          "description": "The chosen one, attempting to consolidate his rule over Cairhien while planning his next moves against the remaining ancient enemy.",
+          "role": "The chosen one",
           "relationships": {
             "Min Farshaw": "Lover and companion",
             "Aviendha": "First-sister through Elayne, complicated feelings",
@@ -28,8 +54,27 @@
     },
     "mat-cauthon": {
       "name": "Mat Cauthon",
-      "aliases": ["Matrim Cauthon", "Prince of the Ravens"],
-      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 38, 39],
+      "aliases": [
+        "Matrim Cauthon",
+        "Prince of the Ravens"
+      ],
+      "appearances": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        28,
+        29,
+        30,
+        31,
+        38,
+        39
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -46,8 +91,16 @@
     },
     "perrin-aybara": {
       "name": "Perrin Aybara",
-      "aliases": ["Perrin Goldeneyes", "Young Bull", "Lord Perrin"],
-      "appearances": [8, 26, 27],
+      "aliases": [
+        "Perrin Goldeneyes",
+        "Young Bull",
+        "Lord Perrin"
+      ],
+      "appearances": [
+        8,
+        26,
+        27
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -63,8 +116,16 @@
     },
     "egwene-alvere": {
       "name": "Egwene al'Vere",
-      "aliases": ["Mother", "The Amyrlin Seat"],
-      "appearances": [22, 23, 24, 25],
+      "aliases": [
+        "Mother",
+        "The Amyrlin Seat"
+      ],
+      "appearances": [
+        22,
+        23,
+        24,
+        25
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -81,8 +142,26 @@
     },
     "nynaeve-almeara": {
       "name": "Nynaeve al'Meara",
-      "aliases": ["Nynaeve Sedai"],
-      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 38, 39],
+      "aliases": [
+        "Nynaeve Sedai"
+      ],
+      "appearances": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        28,
+        29,
+        30,
+        31,
+        38,
+        39
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -99,8 +178,26 @@
     },
     "elayne-trakand": {
       "name": "Elayne Trakand",
-      "aliases": ["Elayne Sedai"],
-      "appearances": [9, 10, 11, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 38, 39],
+      "aliases": [
+        "Elayne Sedai"
+      ],
+      "appearances": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        28,
+        29,
+        30,
+        31,
+        38,
+        39
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -117,26 +214,57 @@
     },
     "aviendha": {
       "name": "Aviendha",
-      "aliases": ["Wise One apprentice"],
-      "appearances": [1, 2, 3, 7],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
-        "1": {
-          "revealedIn": 1,
-          "description": "Aiel Wise One apprentice with strong channeling abilities. First-sister to Elayne and connected to Rand through their shared bond.",
-          "role": "Aiel Wise One apprentice",
+        "28": {
+          "revealedIn": 28,
+          "description": "An Aiel Wise One apprentice accompanying the Aes Sedai mission in Ebou Dar and learning to navigate wetlander ways.",
+          "role": "Wise One apprentice",
           "relationships": {
-            "Rand al'Thor": "Complex relationship, bonded through Elayne",
-            "Elayne Trakand": "First-sister, sharing bond with Rand",
-            "Amys": "Wise One teacher",
-            "Bair": "Wise One teacher"
+            "Learning": "Wetlander ways",
+            "Accompaniment": "Mission"
+          }
+        },
+        "35": {
+          "revealedIn": 35,
+          "description": "Provides Aiel perspective and abilities while adapting to the complex situation in Ebou Dar.",
+          "role": "Aiel contributor",
+          "relationships": {
+            "Contribution": "Aiel perspective",
+            "Adaptation": "Ebou Dar situation"
           }
         }
       }
     },
     "min-farshaw": {
       "name": "Min Farshaw",
-      "aliases": ["Seeker"],
-      "appearances": [1, 2, 3, 4, 5, 6, 7, 18, 19, 20, 21, 32, 33, 34, 35, 36, 37],
+      "aliases": [
+        "Seeker"
+      ],
+      "appearances": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        18,
+        19,
+        20,
+        21,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -151,12 +279,21 @@
     },
     "cadsuane-melaidhrin": {
       "name": "Cadsuane Melaidhrin",
-      "aliases": ["Cadsuane Sedai"],
-      "appearances": [18, 19, 20, 35, 36, 37],
+      "aliases": [
+        "Cadsuane Sedai"
+      ],
+      "appearances": [
+        18,
+        19,
+        20,
+        35,
+        36,
+        37
+      ],
       "knowledge": {
         "18": {
           "revealedIn": 18,
-          "description": "Legendary Aes Sedai of the Green Ajah, oldest living Sister. Known for her strength and her unusual ornaments. Seeks to find and aid the Dragon Reborn.",
+          "description": "Legendary Aes Sedai of the Green Ajah, oldest living Sister. Known for her strength and her unusual ornaments. Seeks to find and aid the chosen one.",
           "role": "Aes Sedai of the Green Ajah",
           "relationships": {
             "Rand al'Thor": "Seeks to guide and teach him",
@@ -167,16 +304,24 @@
     },
     "sammael": {
       "name": "Sammael",
-      "aliases": ["Lord Brend"],
-      "appearances": [32, 33, 34, 40, 41],
+      "aliases": [
+        "Lord Brend"
+      ],
+      "appearances": [
+        32,
+        33,
+        34,
+        40,
+        41
+      ],
       "knowledge": {
         "32": {
           "revealedIn": 32,
-          "description": "One of the Forsaken, ruling Illian as Lord Brend. Commands significant forces and schemes against Rand al'Thor and the other Forsaken.",
-          "role": "Forsaken, ruler of Illian",
+          "description": "One of the ancient enemy, ruling Illian as Lord Brend. Commands significant forces and schemes against Rand al'Thor and the other ancient enemy.",
+          "role": "ancient enemy, ruler of Illian",
           "relationships": {
             "Rand al'Thor": "Sworn enemy, target of his hatred",
-            "Graendal": "Fellow Forsaken, occasional ally"
+            "Graendal": "Fellow ancient enemy, occasional ally"
           }
         }
       }
@@ -184,30 +329,38 @@
     "graendal": {
       "name": "Graendal",
       "aliases": [],
-      "appearances": [1, 34],
+      "appearances": [
+        1,
+        34
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "One of the Forsaken, known for her beauty and her collection of pets. Schemes and manipulates from her palace, playing complex games.",
-          "role": "Forsaken",
+          "description": "One of the ancient enemy, known for her beauty and her collection of pets. Schemes and manipulates from her palace, playing complex games.",
+          "role": "ancient enemy",
           "relationships": {
-            "Sammael": "Fellow Forsaken, occasional ally",
-            "Aran'gar": "Fellow Forsaken"
+            "Sammael": "Fellow ancient enemy, occasional ally",
+            "Aran'gar": "Fellow ancient enemy"
           }
         }
       }
     },
     "moghedien": {
       "name": "Moghedien",
-      "aliases": ["Spider"],
-      "appearances": [30, 31],
+      "aliases": [
+        "Spider"
+      ],
+      "appearances": [
+        30,
+        31
+      ],
       "knowledge": {
         "30": {
           "revealedIn": 30,
-          "description": "One of the Forsaken, known as the Spider for her preference for hidden schemes and traps. Currently bound and controlled.",
-          "role": "Forsaken, bound servant",
+          "description": "One of the ancient enemy, known as the Spider for her preference for hidden schemes and traps. Currently bound and controlled.",
+          "role": "ancient enemy, bound servant",
           "relationships": {
-            "Moridin": "Fellow Forsaken who controls her"
+            "Moridin": "Fellow ancient enemy who controls her"
           }
         }
       }
@@ -215,23 +368,41 @@
     "moridin": {
       "name": "Moridin",
       "aliases": [],
-      "appearances": [1, 20, 25, 30],
+      "appearances": [
+        1,
+        20,
+        25,
+        30
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "One of the most powerful Forsaken, recently returned. Commands other Forsaken and orchestrates complex schemes against the Light.",
-          "role": "Forsaken, Nae'blis",
+          "description": "One of the most powerful ancient enemy, recently returned. Commands other ancient enemy and orchestrates complex schemes against the Light.",
+          "role": "ancient enemy, Nae'blis",
           "relationships": {
             "Moghedien": "Controls her through binding",
-            "Cyndane": "Fellow Forsaken under his command"
+            "Cyndane": "Fellow ancient enemy under his command"
           }
         }
       }
     },
     "tylin-quintara": {
       "name": "Tylin Quintara",
-      "aliases": ["Queen of Altara"],
-      "appearances": [12, 13, 14, 15, 16, 17, 28, 29, 38, 39],
+      "aliases": [
+        "Queen of Altara"
+      ],
+      "appearances": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        28,
+        29,
+        38,
+        39
+      ],
       "knowledge": {
         "12": {
           "revealedIn": 12,
@@ -245,25 +416,36 @@
       }
     },
     "beslan": {
-      "name": "Beslan",
-      "aliases": [],
-      "appearances": [12, 15, 28],
+      "name": "Beslan Mitsobar",
+      "appearances": [
+        31,
+        35,
+        38
+      ],
       "knowledge": {
-        "12": {
-          "revealedIn": 12,
-          "description": "Son of Queen Tylin and heir to the throne of Altara. A skilled swordsman who befriends Mat and enjoys the excitement of their adventures.",
-          "role": "Prince of Altara",
+        "31": {
+          "revealedIn": 31,
+          "description": "A young nobleman in Altara, heir to Queen Tylin and learning the complexities of royal duties.",
+          "role": "Royal heir",
           "relationships": {
-            "Tylin Quintara": "Mother and Queen",
-            "Mat Cauthon": "Friend and sparring partner"
+            "Mother": "Queen Tylin",
+            "Learning": "Royal duties"
           }
         }
       }
     },
     "reanne-corly": {
       "name": "Reanne Corly",
-      "aliases": ["Eldest of the Kin"],
-      "appearances": [14, 15, 16, 30, 31],
+      "aliases": [
+        "Eldest of the Kin"
+      ],
+      "appearances": [
+        14,
+        15,
+        16,
+        30,
+        31
+      ],
       "knowledge": {
         "14": {
           "revealedIn": 14,
@@ -279,7 +461,12 @@
     "sumeko-karistovan": {
       "name": "Sumeko Karistovan",
       "aliases": [],
-      "appearances": [15, 16, 30, 31],
+      "appearances": [
+        15,
+        16,
+        30,
+        31
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -295,7 +482,11 @@
     "kirstian-chalwin": {
       "name": "Kirstian Chalwin",
       "aliases": [],
-      "appearances": [15, 16, 30],
+      "appearances": [
+        15,
+        16,
+        30
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -311,7 +502,12 @@
     "garenia-rosoinde": {
       "name": "Garenia Rosoinde",
       "aliases": [],
-      "appearances": [15, 16, 30, 31],
+      "appearances": [
+        15,
+        16,
+        30,
+        31
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -326,8 +522,25 @@
     },
     "birgitte-silverbow": {
       "name": "Birgitte Silverbow",
-      "aliases": ["Birgitte"],
-      "appearances": [9, 10, 12, 13, 14, 15, 16, 17, 28, 29, 30, 31, 38, 39],
+      "aliases": [
+        "Birgitte"
+      ],
+      "appearances": [
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        28,
+        29,
+        30,
+        31,
+        38,
+        39
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -343,8 +556,18 @@
     },
     "thom-merrilin": {
       "name": "Thom Merrilin",
-      "aliases": ["Thom", "Court-bard"],
-      "appearances": [9, 13, 16, 28, 29, 38],
+      "aliases": [
+        "Thom",
+        "Court-bard"
+      ],
+      "appearances": [
+        9,
+        13,
+        16,
+        28,
+        29,
+        38
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -360,8 +583,17 @@
     },
     "juilin-sandar": {
       "name": "Juilin Sandar",
-      "aliases": ["Juilin"],
-      "appearances": [9, 13, 16, 28, 29, 38],
+      "aliases": [
+        "Juilin"
+      ],
+      "appearances": [
+        9,
+        13,
+        16,
+        28,
+        29,
+        38
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -377,8 +609,19 @@
     },
     "oliver": {
       "name": "Oliver",
-      "aliases": ["Ollie"],
-      "appearances": [9, 10, 13, 16, 28, 29, 38, 39],
+      "aliases": [
+        "Ollie"
+      ],
+      "appearances": [
+        9,
+        10,
+        13,
+        16,
+        28,
+        29,
+        38,
+        39
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -393,8 +636,16 @@
     },
     "lan-mandragoran": {
       "name": "Lan Mandragoran",
-      "aliases": ["Al'Lan Mandragoran", "Bukama", "Lan"],
-      "appearances": [22, 23, 39],
+      "aliases": [
+        "Al'Lan Mandragoran",
+        "Bukama",
+        "Lan"
+      ],
+      "appearances": [
+        22,
+        23,
+        39
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -409,8 +660,18 @@
     },
     "davram-bashere": {
       "name": "Davram Bashere",
-      "aliases": ["Marshal-General Bashere"],
-      "appearances": [2, 3, 6, 7, 18, 19, 20],
+      "aliases": [
+        "Marshal-General Bashere"
+      ],
+      "appearances": [
+        2,
+        3,
+        6,
+        7,
+        18,
+        19,
+        20
+      ],
       "knowledge": {
         "2": {
           "revealedIn": 2,
@@ -426,8 +687,16 @@
     },
     "mazrim-taim": {
       "name": "Mazrim Taim",
-      "aliases": ["M'Hael", "The False Dragon"],
-      "appearances": [3, 4, 5, 19],
+      "aliases": [
+        "M'Hael",
+        "The False Dragon"
+      ],
+      "appearances": [
+        3,
+        4,
+        5,
+        19
+      ],
       "knowledge": {
         "3": {
           "revealedIn": 3,
@@ -442,8 +711,14 @@
     },
     "logain-ablar": {
       "name": "Logain Ablar",
-      "aliases": ["Lord Logain"],
-      "appearances": [4, 5, 19],
+      "aliases": [
+        "Lord Logain"
+      ],
+      "appearances": [
+        4,
+        5,
+        19
+      ],
       "knowledge": {
         "4": {
           "revealedIn": 4,
@@ -458,8 +733,15 @@
     },
     "siuan-sanche": {
       "name": "Siuan Sanche",
-      "aliases": ["Siuan Sedai"],
-      "appearances": [22, 23, 24, 25],
+      "aliases": [
+        "Siuan Sedai"
+      ],
+      "appearances": [
+        22,
+        23,
+        24,
+        25
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -475,8 +757,15 @@
     },
     "leane-sharif": {
       "name": "Leane Sharif",
-      "aliases": ["Leane Sedai"],
-      "appearances": [22, 23, 24, 25],
+      "aliases": [
+        "Leane Sedai"
+      ],
+      "appearances": [
+        22,
+        23,
+        24,
+        25
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -491,8 +780,15 @@
     },
     "gareth-bryne": {
       "name": "Gareth Bryne",
-      "aliases": ["Lord Captain Commander Bryne"],
-      "appearances": [22, 23, 24, 25],
+      "aliases": [
+        "Lord Captain Commander Bryne"
+      ],
+      "appearances": [
+        22,
+        23,
+        24,
+        25
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -507,8 +803,14 @@
     },
     "romanda-cassin": {
       "name": "Romanda Cassin",
-      "aliases": ["Romanda Sedai"],
-      "appearances": [22, 23, 24],
+      "aliases": [
+        "Romanda Sedai"
+      ],
+      "appearances": [
+        22,
+        23,
+        24
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -523,8 +825,15 @@
     },
     "lelaine-akashi": {
       "name": "Lelaine Akashi",
-      "aliases": ["Lelaine Sedai"],
-      "appearances": [22, 23, 24, 25],
+      "aliases": [
+        "Lelaine Sedai"
+      ],
+      "appearances": [
+        22,
+        23,
+        24,
+        25
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -539,8 +848,14 @@
     },
     "sheriam-bayanar": {
       "name": "Sheriam Bayanar",
-      "aliases": ["Sheriam Sedai"],
-      "appearances": [22, 23, 25],
+      "aliases": [
+        "Sheriam Sedai"
+      ],
+      "appearances": [
+        22,
+        23,
+        25
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -554,32 +869,41 @@
       }
     },
     "anaiya": {
-      "name": "Anaiya",
-      "aliases": ["Anaiya Sedai"],
-      "appearances": [22, 23],
+      "name": "Anaiya Carel",
+      "appearances": [
+        8,
+        15,
+        22
+      ],
       "knowledge": {
-        "22": {
-          "revealedIn": 22,
-          "description": "Aes Sedai of the Blue Ajah among the rebels. A motherly figure who provides support and wisdom to the younger Sisters.",
-          "role": "Aes Sedai of the Blue Ajah",
+        "8": {
+          "revealedIn": 8,
+          "description": "A Blue Ajah Aes Sedai supporting the rebel cause and working to restore proper leadership to the Tower.",
+          "role": "Blue Sister",
           "relationships": {
-            "Sheriam Bayanar": "Fellow Blue Sister",
-            "Egwene al'Vere": "Supportive of her leadership"
+            "Support": "Rebel cause",
+            "Goal": "Restore Tower"
           }
         }
       }
     },
     "masema-dagar": {
       "name": "Masema Dagar",
-      "aliases": ["The Prophet of the Lord Dragon"],
-      "appearances": [8, 26, 27],
+      "aliases": [
+        "The Prophet of the Lord Dragon"
+      ],
+      "appearances": [
+        8,
+        26,
+        27
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
-          "description": "Former Shienaran soldier who has become a fanatical prophet, preaching worship of the Dragon Reborn. His followers cause chaos across the land.",
+          "description": "Former Shienaran soldier who has become a fanatical prophet, preaching worship of the chosen one. His followers cause chaos across the land.",
           "role": "The Prophet of the Lord Dragon",
           "relationships": {
-            "Rand al'Thor": "Worships as the Dragon Reborn",
+            "Rand al'Thor": "Worships as the chosen one",
             "Perrin Aybara": "Sent to bring him to Rand"
           }
         }
@@ -587,8 +911,14 @@
     },
     "loial": {
       "name": "Loial",
-      "aliases": ["Loial son of Arent son of Halan"],
-      "appearances": [8, 26, 27],
+      "aliases": [
+        "Loial son of Arent son of Halan"
+      ],
+      "appearances": [
+        8,
+        26,
+        27
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -603,8 +933,14 @@
     },
     "aram": {
       "name": "Aram",
-      "aliases": ["The Tinker"],
-      "appearances": [8, 26, 27],
+      "aliases": [
+        "The Tinker"
+      ],
+      "appearances": [
+        8,
+        26,
+        27
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -619,8 +955,13 @@
     },
     "alliandre-kigarin": {
       "name": "Alliandre Maritha Kigarin",
-      "aliases": ["Queen Alliandre"],
-      "appearances": [26, 27],
+      "aliases": [
+        "Queen Alliandre"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -635,8 +976,13 @@
     },
     "suroth-sabelle-meldarath": {
       "name": "Suroth Sabelle Meldarath",
-      "aliases": ["High Lady Suroth"],
-      "appearances": [31, 39],
+      "aliases": [
+        "High Lady Suroth"
+      ],
+      "appearances": [
+        31,
+        39
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -644,7 +990,7 @@
           "role": "High Lady of the Seanchan",
           "relationships": {
             "Liandrin": "Controls as damane",
-            "Moghedien": "Encounters the Forsaken"
+            "Moghedien": "Encounters the ancient enemy"
           }
         }
       }
@@ -652,7 +998,10 @@
     "liandrin": {
       "name": "Liandrin",
       "aliases": [],
-      "appearances": [31, 39],
+      "appearances": [
+        31,
+        39
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -666,13 +1015,18 @@
     },
     "semirhage": {
       "name": "Semirhage",
-      "aliases": ["Anath Dorje"],
-      "appearances": [31, 39],
+      "aliases": [
+        "Anath Dorje"
+      ],
+      "appearances": [
+        31,
+        39
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
-          "description": "One of the Forsaken, disguised as a Seanchan Truthspeaker. Manipulates the Seanchan forces while pursuing her own agenda.",
-          "role": "Forsaken, disguised Truthspeaker",
+          "description": "One of the ancient enemy, disguised as a Seanchan Truthspeaker. Manipulates the Seanchan forces while pursuing her own agenda.",
+          "role": "ancient enemy, disguised Truthspeaker",
           "relationships": {
             "Suroth Sabelle Meldarath": "Manipulates through her disguise"
           }
@@ -681,8 +1035,15 @@
     },
     "rand-althor-cairhien-nobles": {
       "name": "Colavaere Saighan",
-      "aliases": ["Lady Colavaere"],
-      "appearances": [1, 2, 4, 5],
+      "aliases": [
+        "Lady Colavaere"
+      ],
+      "appearances": [
+        1,
+        2,
+        4,
+        5
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -697,8 +1058,15 @@
     },
     "meilan": {
       "name": "Meilan",
-      "aliases": ["Lord Meilan"],
-      "appearances": [1, 2, 4, 5],
+      "aliases": [
+        "Lord Meilan"
+      ],
+      "appearances": [
+        1,
+        2,
+        4,
+        5
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -713,8 +1081,15 @@
     },
     "dobraine-taborwin": {
       "name": "Dobraine Taborwin",
-      "aliases": ["Lord Dobraine"],
-      "appearances": [2, 4, 18, 19],
+      "aliases": [
+        "Lord Dobraine"
+      ],
+      "appearances": [
+        2,
+        4,
+        18,
+        19
+      ],
       "knowledge": {
         "2": {
           "revealedIn": 2,
@@ -729,8 +1104,13 @@
     },
     "annoura-larisen": {
       "name": "Annoura Larisen",
-      "aliases": ["Annoura Sedai"],
-      "appearances": [26, 27],
+      "aliases": [
+        "Annoura Sedai"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -745,8 +1125,14 @@
     },
     "flinn": {
       "name": "Damer Flinn",
-      "aliases": ["Flinn"],
-      "appearances": [35, 36, 37],
+      "aliases": [
+        "Flinn"
+      ],
+      "appearances": [
+        35,
+        36,
+        37
+      ],
       "knowledge": {
         "35": {
           "revealedIn": 35,
@@ -761,8 +1147,14 @@
     },
     "narishma": {
       "name": "Jahar Narishma",
-      "aliases": ["Narishma"],
-      "appearances": [35, 36, 37],
+      "aliases": [
+        "Narishma"
+      ],
+      "appearances": [
+        35,
+        36,
+        37
+      ],
       "knowledge": {
         "35": {
           "revealedIn": 35,
@@ -777,8 +1169,14 @@
     },
     "hopwil": {
       "name": "Eben Hopwil",
-      "aliases": ["Hopwil"],
-      "appearances": [35, 36, 37],
+      "aliases": [
+        "Hopwil"
+      ],
+      "appearances": [
+        35,
+        36,
+        37
+      ],
       "knowledge": {
         "35": {
           "revealedIn": 35,
@@ -793,8 +1191,14 @@
     },
     "padan-fain": {
       "name": "Padan Fain",
-      "aliases": ["Mordeth", "Ordeith"],
-      "appearances": [32, 33],
+      "aliases": [
+        "Mordeth",
+        "Ordeith"
+      ],
+      "appearances": [
+        32,
+        33
+      ],
       "knowledge": {
         "32": {
           "revealedIn": 32,
@@ -808,8 +1212,13 @@
     },
     "sevanna": {
       "name": "Sevanna",
-      "aliases": ["Sevanna of the Jumai Shaido"],
-      "appearances": [1, 40],
+      "aliases": [
+        "Sevanna of the Jumai Shaido"
+      ],
+      "appearances": [
+        1,
+        40
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -825,7 +1234,10 @@
     "therava": {
       "name": "Therava",
       "aliases": [],
-      "appearances": [1, 40],
+      "appearances": [
+        1,
+        40
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -840,8 +1252,13 @@
     },
     "galina-casban": {
       "name": "Galina Casban",
-      "aliases": ["Galina Sedai"],
-      "appearances": [1, 40],
+      "aliases": [
+        "Galina Sedai"
+      ],
+      "appearances": [
+        1,
+        40
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -856,8 +1273,14 @@
     },
     "bael": {
       "name": "Bael",
-      "aliases": ["Clan Chief Bael"],
-      "appearances": [1, 2, 7],
+      "aliases": [
+        "Clan Chief Bael"
+      ],
+      "appearances": [
+        1,
+        2,
+        7
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -873,7 +1296,11 @@
     "melaine": {
       "name": "Melaine",
       "aliases": [],
-      "appearances": [1, 2, 7],
+      "appearances": [
+        1,
+        2,
+        7
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -888,8 +1315,13 @@
     },
     "rhuarc": {
       "name": "Rhuarc",
-      "aliases": ["Clan Chief Rhuarc"],
-      "appearances": [1, 2],
+      "aliases": [
+        "Clan Chief Rhuarc"
+      ],
+      "appearances": [
+        1,
+        2
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -905,7 +1337,11 @@
     "amys": {
       "name": "Amys",
       "aliases": [],
-      "appearances": [1, 2, 7],
+      "appearances": [
+        1,
+        2,
+        7
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -922,7 +1358,11 @@
     "bair": {
       "name": "Bair",
       "aliases": [],
-      "appearances": [1, 2, 7],
+      "appearances": [
+        1,
+        2,
+        7
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -937,8 +1377,16 @@
     },
     "nalesean-aldiaya": {
       "name": "Nalesean Aldiaya",
-      "aliases": ["Lord Nalesean"],
-      "appearances": [9, 11, 12, 13, 28],
+      "aliases": [
+        "Lord Nalesean"
+      ],
+      "appearances": [
+        9,
+        11,
+        12,
+        13,
+        28
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -953,8 +1401,15 @@
     },
     "talmanes-delovinde": {
       "name": "Talmanes Delovinde",
-      "aliases": ["Talmanes"],
-      "appearances": [9, 11, 28, 38],
+      "aliases": [
+        "Talmanes"
+      ],
+      "appearances": [
+        9,
+        11,
+        28,
+        38
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -970,7 +1425,11 @@
     "daerid": {
       "name": "Daerid",
       "aliases": [],
-      "appearances": [11, 28, 38],
+      "appearances": [
+        11,
+        28,
+        38
+      ],
       "knowledge": {
         "11": {
           "revealedIn": 11,
@@ -984,8 +1443,15 @@
     },
     "vanin": {
       "name": "Chel Vanin",
-      "aliases": ["Vanin"],
-      "appearances": [9, 11, 28, 38],
+      "aliases": [
+        "Vanin"
+      ],
+      "appearances": [
+        9,
+        11,
+        28,
+        38
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1001,7 +1467,11 @@
     "harnan": {
       "name": "Harnan",
       "aliases": [],
-      "appearances": [9, 28, 38],
+      "appearances": [
+        9,
+        28,
+        38
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1016,8 +1486,14 @@
     },
     "carridin": {
       "name": "Jaichim Carridin",
-      "aliases": ["Inquisitor Carridin"],
-      "appearances": [15, 16, 17],
+      "aliases": [
+        "Inquisitor Carridin"
+      ],
+      "appearances": [
+        15,
+        16,
+        17
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -1032,8 +1508,13 @@
     },
     "morgase-trakand": {
       "name": "Morgase Trakand",
-      "aliases": ["Maighdin Dorlain"],
-      "appearances": [26, 27],
+      "aliases": [
+        "Maighdin Dorlain"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -1048,8 +1529,13 @@
     },
     "tallanvor": {
       "name": "Martyn Tallanvor",
-      "aliases": ["Tallanvor"],
-      "appearances": [26, 27],
+      "aliases": [
+        "Tallanvor"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -1065,7 +1551,10 @@
     "breane": {
       "name": "Breane",
       "aliases": [],
-      "appearances": [26, 27],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -1080,8 +1569,12 @@
     },
     "faile-bashere": {
       "name": "Faile Bashere",
-      "aliases": ["Faile t'Aybara"],
-      "appearances": [],
+      "aliases": [
+        "Faile t'Aybara"
+      ],
+      "appearances": [
+        1
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
@@ -1096,8 +1589,13 @@
     },
     "neald": {
       "name": "Fager Neald",
-      "aliases": ["Neald"],
-      "appearances": [26, 27],
+      "aliases": [
+        "Neald"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -1112,8 +1610,13 @@
     },
     "grady": {
       "name": "Jur Grady",
-      "aliases": ["Grady"],
-      "appearances": [26, 27],
+      "aliases": [
+        "Grady"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -1128,8 +1631,13 @@
     },
     "berelain-sur-paendrag": {
       "name": "Berelain sur Paendrag",
-      "aliases": ["First of Mayene"],
-      "appearances": [26, 27],
+      "aliases": [
+        "First of Mayene"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -1144,8 +1652,13 @@
     },
     "gallenne": {
       "name": "Bertain Gallenne",
-      "aliases": ["Lord Captain Gallenne"],
-      "appearances": [26, 27],
+      "aliases": [
+        "Lord Captain Gallenne"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -1160,8 +1673,13 @@
     },
     "balwer": {
       "name": "Sebban Balwer",
-      "aliases": ["Balwer"],
-      "appearances": [26, 27],
+      "aliases": [
+        "Balwer"
+      ],
+      "appearances": [
+        26,
+        27
+      ],
       "knowledge": {
         "26": {
           "revealedIn": 26,
@@ -1176,8 +1694,15 @@
     },
     "nesta-din-reas": {
       "name": "Nesta din Reas",
-      "aliases": ["Mistress of the Ships"],
-      "appearances": [13, 14, 30, 31],
+      "aliases": [
+        "Mistress of the Ships"
+      ],
+      "appearances": [
+        13,
+        14,
+        30,
+        31
+      ],
       "knowledge": {
         "13": {
           "revealedIn": 13,
@@ -1193,7 +1718,12 @@
     "harine-din-togara": {
       "name": "Harine din Togara",
       "aliases": [],
-      "appearances": [13, 14, 30, 31],
+      "appearances": [
+        13,
+        14,
+        30,
+        31
+      ],
       "knowledge": {
         "13": {
           "revealedIn": 13,
@@ -1208,8 +1738,19 @@
     },
     "merilille-ceandevin": {
       "name": "Merilille Ceandevin",
-      "aliases": ["Merilille Sedai"],
-      "appearances": [9, 10, 13, 14, 15, 16, 30, 31],
+      "aliases": [
+        "Merilille Sedai"
+      ],
+      "appearances": [
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        30,
+        31
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1224,8 +1765,15 @@
     },
     "adeleas-namelle": {
       "name": "Adeleas Namelle",
-      "aliases": ["Adeleas Sedai"],
-      "appearances": [9, 13, 15, 30],
+      "aliases": [
+        "Adeleas Sedai"
+      ],
+      "appearances": [
+        9,
+        13,
+        15,
+        30
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1240,8 +1788,15 @@
     },
     "vandene-namelle": {
       "name": "Vandene Namelle",
-      "aliases": ["Vandene Sedai"],
-      "appearances": [9, 13, 15, 30],
+      "aliases": [
+        "Vandene Sedai"
+      ],
+      "appearances": [
+        9,
+        13,
+        15,
+        30
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1257,7 +1812,12 @@
     "jaem": {
       "name": "Jaem",
       "aliases": [],
-      "appearances": [9, 13, 15, 30],
+      "appearances": [
+        9,
+        13,
+        15,
+        30
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1272,8 +1832,16 @@
     },
     "careane-fransi": {
       "name": "Careane Fransi",
-      "aliases": ["Careane Sedai"],
-      "appearances": [9, 13, 15, 30, 31],
+      "aliases": [
+        "Careane Sedai"
+      ],
+      "appearances": [
+        9,
+        13,
+        15,
+        30,
+        31
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1288,8 +1856,16 @@
     },
     "sareitha-tomares": {
       "name": "Sareitha Tomares",
-      "aliases": ["Sareitha Sedai"],
-      "appearances": [9, 13, 15, 30, 31],
+      "aliases": [
+        "Sareitha Sedai"
+      ],
+      "appearances": [
+        9,
+        13,
+        15,
+        30,
+        31
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1304,8 +1880,16 @@
     },
     "ispaan": {
       "name": "Ispan Shefar",
-      "aliases": ["Ispan"],
-      "appearances": [9, 15, 16, 30, 31],
+      "aliases": [
+        "Ispan"
+      ],
+      "appearances": [
+        9,
+        15,
+        16,
+        30,
+        31
+      ],
       "knowledge": {
         "9": {
           "revealedIn": 9,
@@ -1320,8 +1904,15 @@
     },
     "falion-bhoda": {
       "name": "Falion Bhoda",
-      "aliases": ["Falion"],
-      "appearances": [15, 16, 30, 31],
+      "aliases": [
+        "Falion"
+      ],
+      "appearances": [
+        15,
+        16,
+        30,
+        31
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -1336,8 +1927,14 @@
     },
     "marillin-gemalphin": {
       "name": "Marillin Gemalphin",
-      "aliases": ["Marillin"],
-      "appearances": [15, 30, 31],
+      "aliases": [
+        "Marillin"
+      ],
+      "appearances": [
+        15,
+        30,
+        31
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -1352,28 +1949,38 @@
     "cyndane": {
       "name": "Cyndane",
       "aliases": [],
-      "appearances": [1, 25, 40],
+      "appearances": [
+        1,
+        25,
+        40
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "One of the Forsaken, recently appeared with a new identity. Serves under Moridin's authority while pursuing her own goals.",
-          "role": "Forsaken",
+          "description": "One of the ancient enemy, recently appeared with a new identity. Serves under Moridin's authority while pursuing her own goals.",
+          "role": "ancient enemy",
           "relationships": {
             "Moridin": "Serves under his command",
-            "Moghedien": "Fellow Forsaken"
+            "Moghedien": "Fellow ancient enemy"
           }
         }
       }
     },
     "aran-gar": {
       "name": "Aran'gar",
-      "aliases": ["Halima Saranov"],
-      "appearances": [23, 24, 25],
+      "aliases": [
+        "Halima Saranov"
+      ],
+      "appearances": [
+        23,
+        24,
+        25
+      ],
       "knowledge": {
         "23": {
           "revealedIn": 23,
-          "description": "One of the Forsaken in a new body, working among the rebel Aes Sedai as Halima. Manipulates events while appearing to help.",
-          "role": "Forsaken, disguised secretary",
+          "description": "One of the ancient enemy in a new body, working among the rebel Aes Sedai as Halima. Manipulates events while appearing to help.",
+          "role": "ancient enemy, disguised secretary",
           "relationships": {
             "Egwene al'Vere": "Manipulates as her secretary",
             "Delana Mosalaine": "Controls through Compulsion"
@@ -1383,8 +1990,14 @@
     },
     "delana-mosalaine": {
       "name": "Delana Mosalaine",
-      "aliases": ["Delana Sedai"],
-      "appearances": [22, 23, 24],
+      "aliases": [
+        "Delana Sedai"
+      ],
+      "appearances": [
+        22,
+        23,
+        24
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -1399,8 +2012,13 @@
     },
     "kairen-stang": {
       "name": "Kairen Stang",
-      "aliases": ["Kairen Sedai"],
-      "appearances": [22, 23],
+      "aliases": [
+        "Kairen Sedai"
+      ],
+      "appearances": [
+        22,
+        23
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -1414,8 +2032,13 @@
     },
     "nisao-dachen": {
       "name": "Nisao Dachen",
-      "aliases": ["Nisao Sedai"],
-      "appearances": [22, 23],
+      "aliases": [
+        "Nisao Sedai"
+      ],
+      "appearances": [
+        22,
+        23
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -1428,24 +2051,33 @@
       }
     },
     "morvrin": {
-      "name": "Morvrin",
-      "aliases": ["Morvrin Sedai"],
-      "appearances": [22, 23],
+      "name": "Morvrin Thakanos",
+      "appearances": [
+        8,
+        15,
+        29
+      ],
       "knowledge": {
-        "22": {
-          "revealedIn": 22,
-          "description": "Aes Sedai of the Brown Ajah among the rebels. Scholar and researcher supporting the rebel cause.",
-          "role": "Aes Sedai of the Brown Ajah",
+        "8": {
+          "revealedIn": 8,
+          "description": "A Brown Ajah Aes Sedai contributing her knowledge and research skills to the rebel effort.",
+          "role": "Brown Sister",
           "relationships": {
-            "Egwene al'Vere": "Scholar ally"
+            "Contribution": "Knowledge",
+            "Skills": "Research"
           }
         }
       }
     },
     "myrelle-berengari": {
       "name": "Myrelle Berengari",
-      "aliases": ["Myrelle Sedai"],
-      "appearances": [22, 23],
+      "aliases": [
+        "Myrelle Sedai"
+      ],
+      "appearances": [
+        22,
+        23
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -1461,7 +2093,11 @@
     "halima-saranov": {
       "name": "Halima Saranov",
       "aliases": [],
-      "appearances": [23, 24, 25],
+      "appearances": [
+        23,
+        24,
+        25
+      ],
       "knowledge": {
         "23": {
           "revealedIn": 23,
@@ -1477,11 +2113,16 @@
     "lord-brend": {
       "name": "Lord Brend",
       "aliases": [],
-      "appearances": [32, 33, 40, 41],
+      "appearances": [
+        32,
+        33,
+        40,
+        41
+      ],
       "knowledge": {
         "32": {
           "revealedIn": 32,
-          "description": "Ruler of Illian, actually the Forsaken Sammael in disguise. Commands the Illian forces while preparing for confrontation.",
+          "description": "Ruler of Illian, actually the ancient enemy Sammael in disguise. Commands the Illian forces while preparing for confrontation.",
           "role": "Ruler of Illian",
           "relationships": {
             "Sammael": "True identity",
@@ -1492,8 +2133,15 @@
     },
     "gregorin-panar": {
       "name": "Gregorin Panar",
-      "aliases": ["Lord Gregorin"],
-      "appearances": [32, 33, 40, 41],
+      "aliases": [
+        "Lord Gregorin"
+      ],
+      "appearances": [
+        32,
+        33,
+        40,
+        41
+      ],
       "knowledge": {
         "32": {
           "revealedIn": 32,
@@ -1509,14 +2157,18 @@
     "demandred": {
       "name": "Demandred",
       "aliases": [],
-      "appearances": [1, 20, 40],
+      "appearances": [
+        1,
+        20,
+        40
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "One of the Forsaken, plotting and scheming from the shadows. Maintains his own agenda while serving the Shadow's cause.",
-          "role": "Forsaken",
+          "description": "One of the ancient enemy, plotting and scheming from the shadows. Maintains his own agenda while serving the Shadow's cause.",
+          "role": "ancient enemy",
           "relationships": {
-            "Moridin": "Fellow Forsaken",
+            "Moridin": "Fellow ancient enemy",
             "Rand al'Thor": "Ancient enemy and rival"
           }
         }
@@ -1525,14 +2177,17 @@
     "mesaana": {
       "name": "Mesaana",
       "aliases": [],
-      "appearances": [1, 20],
+      "appearances": [
+        1,
+        20
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "One of the Forsaken, works to corrupt and destroy from within. Maintains her own schemes while serving the greater darkness.",
-          "role": "Forsaken",
+          "description": "One of the ancient enemy, works to corrupt and destroy from within. Maintains her own schemes while serving the greater darkness.",
+          "role": "ancient enemy",
           "relationships": {
-            "Demandred": "Fellow Forsaken",
+            "Demandred": "Fellow ancient enemy",
             "Semirhage": "Sister in darkness"
           }
         }
@@ -1541,12 +2196,14 @@
     "asmodean": {
       "name": "Asmodean",
       "aliases": [],
-      "appearances": [],
+      "appearances": [
+        1
+      ],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "One of the Forsaken, now dead. His absence is felt as the remaining Forsaken continue their schemes without him.",
-          "role": "Deceased Forsaken",
+          "description": "One of the ancient enemy, now dead. His absence is felt as the remaining ancient enemy continue their schemes without him.",
+          "role": "Deceased ancient enemy",
           "relationships": {
             "Rand al'Thor": "Former teacher (deceased)"
           }
@@ -1555,8 +2212,15 @@
     },
     "suroth": {
       "name": "Suroth Sabelle Meldarath",
-      "aliases": ["High Lady Suroth"],
-      "appearances": [14, 20, 35, 38],
+      "aliases": [
+        "High Lady Suroth"
+      ],
+      "appearances": [
+        14,
+        20,
+        35,
+        38
+      ],
       "knowledge": {
         "14": {
           "revealedIn": 14,
@@ -1580,8 +2244,14 @@
     },
     "tuon": {
       "name": "Tuon Athaem Kore Paendrag",
-      "aliases": ["Daughter of the Nine Moons"],
-      "appearances": [20, 35, 38],
+      "aliases": [
+        "Daughter of the Nine Moons"
+      ],
+      "appearances": [
+        20,
+        35,
+        38
+      ],
       "knowledge": {
         "20": {
           "revealedIn": 20,
@@ -1596,7 +2266,11 @@
     },
     "egeanin": {
       "name": "Egeanin Tamarath",
-      "appearances": [14, 20, 35],
+      "appearances": [
+        14,
+        20,
+        35
+      ],
       "knowledge": {
         "14": {
           "revealedIn": 14,
@@ -1611,7 +2285,11 @@
     },
     "bayle": {
       "name": "Bayle Domon",
-      "appearances": [14, 20, 35],
+      "appearances": [
+        14,
+        20,
+        35
+      ],
       "knowledge": {
         "14": {
           "revealedIn": 14,
@@ -1626,7 +2304,12 @@
     },
     "setalle": {
       "name": "Setalle Anan",
-      "appearances": [28, 31, 35, 38],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -1650,7 +2333,11 @@
     },
     "jasfer": {
       "name": "Jasfer Anan",
-      "appearances": [28, 31, 35],
+      "appearances": [
+        28,
+        31,
+        35
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -1665,7 +2352,12 @@
     },
     "nicola": {
       "name": "Nicola Treehill",
-      "appearances": [8, 15, 22, 29],
+      "appearances": [
+        8,
+        15,
+        22,
+        29
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -1689,7 +2381,11 @@
     },
     "areina": {
       "name": "Areina Nermasiv",
-      "appearances": [8, 15, 22],
+      "appearances": [
+        8,
+        15,
+        22
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -1704,7 +2400,13 @@
     },
     "gareth": {
       "name": "Gareth Bryne",
-      "appearances": [8, 15, 22, 29, 35],
+      "appearances": [
+        8,
+        15,
+        22,
+        29,
+        35
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -1728,7 +2430,13 @@
     },
     "siuan": {
       "name": "Siuan Sanche",
-      "appearances": [8, 15, 22, 29, 35],
+      "appearances": [
+        8,
+        15,
+        22,
+        29,
+        35
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -1752,7 +2460,12 @@
     },
     "leane": {
       "name": "Leane Sharif",
-      "appearances": [8, 15, 22, 29],
+      "appearances": [
+        8,
+        15,
+        22,
+        29
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -1767,7 +2480,12 @@
     },
     "myrelle": {
       "name": "Myrelle Berengari",
-      "appearances": [8, 15, 29, 35],
+      "appearances": [
+        8,
+        15,
+        29,
+        35
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -1782,7 +2500,11 @@
     },
     "nisao": {
       "name": "Nisao Dachen",
-      "appearances": [15, 22, 29],
+      "appearances": [
+        15,
+        22,
+        29
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -1795,39 +2517,13 @@
         }
       }
     },
-    "anaiya": {
-      "name": "Anaiya Carel",
-      "appearances": [8, 15, 22],
-      "knowledge": {
-        "8": {
-          "revealedIn": 8,
-          "description": "A Blue Ajah Aes Sedai supporting the rebel cause and working to restore proper leadership to the Tower.",
-          "role": "Blue Sister",
-          "relationships": {
-            "Support": "Rebel cause",
-            "Goal": "Restore Tower"
-          }
-        }
-      }
-    },
-    "morvrin": {
-      "name": "Morvrin Thakanos",
-      "appearances": [8, 15, 29],
-      "knowledge": {
-        "8": {
-          "revealedIn": 8,
-          "description": "A Brown Ajah Aes Sedai contributing her knowledge and research skills to the rebel effort.",
-          "role": "Brown Sister",
-          "relationships": {
-            "Contribution": "Knowledge",
-            "Skills": "Research"
-          }
-        }
-      }
-    },
     "carlinya": {
       "name": "Carlinya Sorevin",
-      "appearances": [8, 22, 29],
+      "appearances": [
+        8,
+        22,
+        29
+      ],
       "knowledge": {
         "8": {
           "revealedIn": 8,
@@ -1842,7 +2538,11 @@
     },
     "beonin": {
       "name": "Beonin Marinye",
-      "appearances": [15, 22, 29],
+      "appearances": [
+        15,
+        22,
+        29
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -1857,7 +2557,10 @@
     },
     "malind": {
       "name": "Malind Nacere",
-      "appearances": [15, 29],
+      "appearances": [
+        15,
+        29
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -1872,7 +2575,11 @@
     },
     "escaralde": {
       "name": "Escaralde din Baltar",
-      "appearances": [28, 31, 35],
+      "appearances": [
+        28,
+        31,
+        35
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -1887,8 +2594,15 @@
     },
     "tylin": {
       "name": "Tylin Quintara",
-      "aliases": ["Queen of Altara"],
-      "appearances": [28, 31, 35, 38],
+      "aliases": [
+        "Queen of Altara"
+      ],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -1910,24 +2624,14 @@
         }
       }
     },
-    "beslan": {
-      "name": "Beslan Mitsobar",
-      "appearances": [31, 35, 38],
-      "knowledge": {
-        "31": {
-          "revealedIn": 31,
-          "description": "A young nobleman in Altara, heir to Queen Tylin and learning the complexities of royal duties.",
-          "role": "Royal heir",
-          "relationships": {
-            "Mother": "Queen Tylin",
-            "Learning": "Royal duties"
-          }
-        }
-      }
-    },
     "merilille": {
       "name": "Merilille Ceandevin",
-      "appearances": [28, 31, 35, 38],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -1942,7 +2646,11 @@
     },
     "adeleas": {
       "name": "Adeleas Namelle",
-      "appearances": [28, 31, 35],
+      "appearances": [
+        28,
+        31,
+        35
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -1957,7 +2665,11 @@
     },
     "vandene": {
       "name": "Vandene Namelle",
-      "appearances": [28, 31, 35],
+      "appearances": [
+        28,
+        31,
+        35
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -1972,7 +2684,11 @@
     },
     "kirstian": {
       "name": "Kirstian Chalwin",
-      "appearances": [31, 35, 38],
+      "appearances": [
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -1987,7 +2703,11 @@
     },
     "reanne": {
       "name": "Reanne Corly",
-      "appearances": [31, 35, 38],
+      "appearances": [
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2002,7 +2722,10 @@
     },
     "tamra": {
       "name": "Tamra Ospenya",
-      "appearances": [22, 29],
+      "appearances": [
+        22,
+        29
+      ],
       "knowledge": {
         "22": {
           "revealedIn": 22,
@@ -2017,7 +2740,10 @@
     },
     "gitara": {
       "name": "Gitara Moroso",
-      "appearances": [15, 22],
+      "appearances": [
+        15,
+        22
+      ],
       "knowledge": {
         "15": {
           "revealedIn": 15,
@@ -2032,7 +2758,12 @@
     },
     "cadsuane": {
       "name": "Cadsuane Melaidhrin",
-      "appearances": [18, 25, 32, 35],
+      "appearances": [
+        18,
+        25,
+        32,
+        35
+      ],
       "knowledge": {
         "18": {
           "revealedIn": 18,
@@ -2056,7 +2787,10 @@
     },
     "harine": {
       "name": "Harine din Togara",
-      "appearances": [34, 38],
+      "appearances": [
+        34,
+        38
+      ],
       "knowledge": {
         "34": {
           "revealedIn": 34,
@@ -2071,7 +2805,10 @@
     },
     "tebreille": {
       "name": "Tebreille din Gelyn",
-      "appearances": [34, 38],
+      "appearances": [
+        34,
+        38
+      ],
       "knowledge": {
         "34": {
           "revealedIn": 34,
@@ -2086,7 +2823,10 @@
     },
     "shalon": {
       "name": "Shalon din Togara",
-      "appearances": [34, 38],
+      "appearances": [
+        34,
+        38
+      ],
       "knowledge": {
         "34": {
           "revealedIn": 34,
@@ -2101,7 +2841,10 @@
     },
     "nesta": {
       "name": "Nesta din Reas",
-      "appearances": [34, 38],
+      "appearances": [
+        34,
+        38
+      ],
       "knowledge": {
         "34": {
           "revealedIn": 34,
@@ -2116,7 +2859,10 @@
     },
     "renaile": {
       "name": "Renaile din Calon",
-      "appearances": [34, 38],
+      "appearances": [
+        34,
+        38
+      ],
       "knowledge": {
         "34": {
           "revealedIn": 34,
@@ -2131,7 +2877,10 @@
     },
     "coine": {
       "name": "Coine din Jubai",
-      "appearances": [34, 38],
+      "appearances": [
+        34,
+        38
+      ],
       "knowledge": {
         "34": {
           "revealedIn": 34,
@@ -2146,7 +2895,10 @@
     },
     "jorin": {
       "name": "Jorin din Jubai",
-      "appearances": [34, 38],
+      "appearances": [
+        34,
+        38
+      ],
       "knowledge": {
         "34": {
           "revealedIn": 34,
@@ -2161,7 +2913,11 @@
     },
     "dorindha": {
       "name": "Dorindha",
-      "appearances": [18, 25, 32],
+      "appearances": [
+        18,
+        25,
+        32
+      ],
       "knowledge": {
         "18": {
           "revealedIn": 18,
@@ -2176,7 +2932,10 @@
     },
     "nadere": {
       "name": "Nadere",
-      "appearances": [18, 25],
+      "appearances": [
+        18,
+        25
+      ],
       "knowledge": {
         "18": {
           "revealedIn": 18,
@@ -2191,7 +2950,11 @@
     },
     "edarra": {
       "name": "Edarra",
-      "appearances": [18, 25, 32],
+      "appearances": [
+        18,
+        25,
+        32
+      ],
       "knowledge": {
         "18": {
           "revealedIn": 18,
@@ -2206,7 +2969,10 @@
     },
     "jolien": {
       "name": "Jolien",
-      "appearances": [18, 32],
+      "appearances": [
+        18,
+        32
+      ],
       "knowledge": {
         "18": {
           "revealedIn": 18,
@@ -2221,7 +2987,11 @@
     },
     "mangin": {
       "name": "Mangin",
-      "appearances": [6, 12, 18],
+      "appearances": [
+        6,
+        12,
+        18
+      ],
       "knowledge": {
         "6": {
           "revealedIn": 6,
@@ -2236,7 +3006,12 @@
     },
     "enaila": {
       "name": "Enaila",
-      "appearances": [6, 12, 18, 25],
+      "appearances": [
+        6,
+        12,
+        18,
+        25
+      ],
       "knowledge": {
         "6": {
           "revealedIn": 6,
@@ -2251,7 +3026,11 @@
     },
     "somara": {
       "name": "Somara",
-      "appearances": [6, 18, 25],
+      "appearances": [
+        6,
+        18,
+        25
+      ],
       "knowledge": {
         "6": {
           "revealedIn": 6,
@@ -2266,7 +3045,10 @@
     },
     "lamelle": {
       "name": "Lamelle Ramosni",
-      "appearances": [31, 35],
+      "appearances": [
+        31,
+        35
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2281,7 +3063,10 @@
     },
     "famelle": {
       "name": "Famelle Juarde",
-      "appearances": [31, 35],
+      "appearances": [
+        31,
+        35
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2296,7 +3081,11 @@
     },
     "sumeko": {
       "name": "Sumeko Karistovan",
-      "appearances": [31, 35, 38],
+      "appearances": [
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2311,7 +3100,10 @@
     },
     "chilares": {
       "name": "Chilares Arman",
-      "appearances": [31, 35],
+      "appearances": [
+        31,
+        35
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2326,7 +3118,10 @@
     },
     "dimana": {
       "name": "Dimana",
-      "appearances": [31, 35],
+      "appearances": [
+        31,
+        35
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2341,7 +3136,10 @@
     },
     "derys": {
       "name": "Derys Nirmala",
-      "appearances": [31, 35],
+      "appearances": [
+        31,
+        35
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2356,7 +3154,10 @@
     },
     "garenia": {
       "name": "Garenia Rosoinde",
-      "appearances": [31, 35],
+      "appearances": [
+        31,
+        35
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2371,7 +3172,11 @@
     },
     "alise": {
       "name": "Alise Tenjile",
-      "appearances": [31, 35, 38],
+      "appearances": [
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2386,7 +3191,10 @@
     },
     "berowin": {
       "name": "Berowin Doraisin",
-      "appearances": [31, 35],
+      "appearances": [
+        31,
+        35
+      ],
       "knowledge": {
         "31": {
           "revealedIn": 31,
@@ -2401,7 +3209,12 @@
     },
     "nynaeve": {
       "name": "Nynaeve al'Meara",
-      "appearances": [28, 31, 35, 38],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -2425,7 +3238,12 @@
     },
     "elayne": {
       "name": "Elayne Trakand",
-      "appearances": [28, 31, 35, 38],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -2447,33 +3265,14 @@
         }
       }
     },
-    "aviendha": {
-      "name": "Aviendha",
-      "appearances": [28, 31, 35, 38],
-      "knowledge": {
-        "28": {
-          "revealedIn": 28,
-          "description": "An Aiel Wise One apprentice accompanying the Aes Sedai mission in Ebou Dar and learning to navigate wetlander ways.",
-          "role": "Wise One apprentice",
-          "relationships": {
-            "Learning": "Wetlander ways",
-            "Accompaniment": "Mission"
-          }
-        },
-        "35": {
-          "revealedIn": 35,
-          "description": "Provides Aiel perspective and abilities while adapting to the complex situation in Ebou Dar.",
-          "role": "Aiel contributor",
-          "relationships": {
-            "Contribution": "Aiel perspective",
-            "Adaptation": "Ebou Dar situation"
-          }
-        }
-      }
-    },
     "birgitte": {
       "name": "Birgitte Silverbow",
-      "appearances": [28, 31, 35, 38],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -2497,7 +3296,12 @@
     },
     "mat": {
       "name": "Mat Cauthon",
-      "appearances": [28, 31, 35, 38],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -2521,7 +3325,12 @@
     },
     "thom": {
       "name": "Thom Merrilin",
-      "appearances": [28, 31, 35, 38],
+      "appearances": [
+        28,
+        31,
+        35,
+        38
+      ],
       "knowledge": {
         "28": {
           "revealedIn": 28,
@@ -2545,7 +3354,7 @@
     }
   },
   "recaps": {
-    "prologue": "Elaida receives disturbing reports while consolidating her power as Amyrlin. The Forsaken gather to discuss their plans and receive new orders from the Dark One through Shaidar Haran.",
+    "prologue": "Elaida receives disturbing reports while consolidating her power as Amyrlin. The ancient enemy gather to discuss their plans and receive new orders from the Dark One through Shaidar Haran.",
     "1": "Rand deals with political intrigue in Cairhien while Min has viewings about the future. The rebel Aes Sedai continue their preparations while Sevanna plots with the Shaido.",
     "2": "Rand attempts to bring order to Cairhien while dealing with scheming nobles. Perrin prepares for his mission to find the Prophet Masema in Ghealdan.",
     "3": "Rand visits the Black Tower and sees Mazrim Taim training the Asha'man. Political tensions rise in Cairhien as various factions vie for position.",
@@ -2563,7 +3372,7 @@
     "15": "The search for the Bowl intensifies as various factions converge on Ebou Dar. Black Ajah members are discovered and captured, complicating the situation.",
     "16": "Progress is made toward finding the Bowl of the Winds. The various groups must work together despite their differences and conflicting goals.",
     "17": "The location of the Bowl is finally discovered. Preparations begin for what may be a dangerous mission to retrieve this powerful ter'angreal.",
-    "18": "Cadsuane Melaidhrin, a legendary Aes Sedai, arrives to meet Rand. Her presence and reputation immediately change the dynamic around the Dragon Reborn.",
+    "18": "Cadsuane Melaidhrin, a legendary Aes Sedai, arrives to meet Rand. Her presence and reputation immediately change the dynamic around the chosen one.",
     "19": "Cadsuane establishes her authority and begins her own agenda regarding Rand. Her interactions with his followers reveal her formidable nature and experience.",
     "20": "Rand deals with Cadsuane's presence and demands while managing his other responsibilities. The legendary Aes Sedai proves to be unlike anyone he has encountered.",
     "21": "Political and personal tensions continue to build around Rand as various factions and individuals pursue their own goals and agendas.",
@@ -2577,9 +3386,9 @@
     "29": "The Bowl of the Winds is finally located and the group prepares for the dangerous mission to retrieve it from its hiding place.",
     "30": "The Bowl of the Winds is successfully retrieved, but using it proves to be complex and dangerous. The various groups must work together despite their differences.",
     "31": "The Weather working begins with the Bowl of the Winds. The massive channeling draws attention from both allies and enemies across the region.",
-    "32": "Rand begins his assault on Illian, moving against Sammael. The long-awaited confrontation between the Dragon Reborn and the Forsaken approaches.",
+    "32": "Rand begins his assault on Illian, moving against Sammael. The long-awaited confrontation between the chosen one and the ancient enemy approaches.",
     "33": "The battle for Illian intensifies as Rand's forces engage Sammael's defenses. Both sides deploy their most powerful weapons and strategies.",
-    "34": "Rand and Sammael face each other in direct confrontation. The battle between Dragon Reborn and Forsaken reaches its climactic conclusion.",
+    "34": "Rand and Sammael face each other in direct confrontation. The battle between chosen one and ancient enemy reaches its climactic conclusion.",
     "35": "In the aftermath of the confrontation with Sammael, Rand deals with his injuries and the consequences of the battle. New challenges emerge.",
     "36": "Rand recovers from his encounter while dealing with the political aftermath in Illian. His injury from Padan Fain creates ongoing complications.",
     "37": "The situation in Illian stabilizes as Rand establishes his authority. However, his wound continues to cause problems and concern among his followers.",

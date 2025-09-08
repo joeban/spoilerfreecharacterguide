@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import SeriesBookshelf from '@/components/SeriesBookshelf';
 import Breadcrumb from '@/components/Breadcrumb';
 import StructuredData from '@/components/StructuredData';
+import RelatedSeries from '@/components/RelatedSeries';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -169,6 +170,8 @@ export default async function SeriesPage({
           </div>
         </div>
       </div>
+      
+      <RelatedSeries currentSeries={resolvedParams.series} />
     </div>
     </>
   );

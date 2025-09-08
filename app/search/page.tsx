@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: 'https://spoilerfreecharacterguide.com/search'
   },
   robots: {
-    index: false,
+    index: true,
     follow: true
   }
 };

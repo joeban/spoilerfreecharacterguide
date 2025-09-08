@@ -8,13 +8,13 @@
   "characters": {
     "rand-althor": {
       "name": "Rand al'Thor",
-      "aliases": ["The Dragon Reborn", "He Who Comes With the Dawn", "Car'a'carn"],
+      "aliases": ["The chosen one", "He Who Comes With the Dawn", "Car'a'carn"],
       "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Rules from the Stone of Tear as the Dragon Reborn. Struggles with leadership and the weight of prophecy.",
-          "role": "Dragon Reborn ruler",
+          "description": "Rules from the Stone of Tear as the chosen one. Struggles with leadership and the weight of prophecy.",
+          "role": "chosen one ruler",
           "relationships": {
             "Seat of power": "Stone of Tear",
             "Subjects": "High Lords of Tear",
@@ -307,7 +307,7 @@
       "knowledge": {
         "11": {
           "revealedIn": 11,
-          "description": "Clan chief of the Shaarad Aiel. Another supporter of the Dragon Reborn's claim.",
+          "description": "Clan chief of the Shaarad Aiel. Another supporter of the chosen one's claim.",
           "role": "Allied clan chief",
           "relationships": {
             "Clan": "Shaarad",
@@ -407,10 +407,10 @@
         },
         "26": {
           "revealedIn": 26,
-          "description": "Dies in Rhuidean, unable to complete the test that reveals Aiel history and purpose.",
+          "description": "Faces the test in Rhuidean that reveals Aiel history and purpose. Not all who enter survive.",
           "role": "Failed candidate",
           "relationships": {
-            "Fate": "Death in Rhuidean",
+            "Fate": "Lost in Rhuidean",
             "Failure": "Could not accept Aiel truth"
           }
         }
@@ -679,7 +679,7 @@
       "knowledge": {
         "33": {
           "revealedIn": 33,
-          "description": "Lord Captain of the Whitecloaks attacking the Two Rivers. Seeks vengeance for his father's death.",
+          "description": "Lord Captain of the Whitecloaks attacking the Two Rivers. Seeks vengeance for his father's fate.",
           "role": "Whitecloak leader",
           "relationships": {
             "Father": "Geofram Bornhald (deceased)",
@@ -775,7 +775,7 @@
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "High Lord of Tear who must adapt to serving under the Dragon Reborn's rule.",
+          "description": "High Lord of Tear who must adapt to serving under the chosen one's rule.",
           "role": "Adaptive lord",
           "relationships": {
             "New ruler": "Rand al'Thor",
@@ -807,8 +807,8 @@
       "knowledge": {
         "25": {
           "revealedIn": 25,
-          "description": "One of the Forsaken, master of Tel'aran'rhiod. Operates from shadows and prefers subtle manipulation.",
-          "role": "Spider Forsaken",
+          "description": "One of the ancient enemy, master of Tel'aran'rhiod. Operates from shadows and prefers subtle manipulation.",
+          "role": "Spider ancient enemy",
           "relationships": {
             "Domain": "Tel'aran'rhiod mastery",
             "Method": "Subtle manipulation",
@@ -824,7 +824,7 @@
       "knowledge": {
         "54": {
           "revealedIn": 54,
-          "description": "One of the Forsaken, captured by Rand and forced to teach him to channel. Former Age of Legends musician.",
+          "description": "One of the ancient enemy, captured by Rand and forced to teach him to channel. Former Age of Legends musician.",
           "role": "Captive teacher",
           "relationships": {
             "Captor": "Rand al'Thor",
@@ -841,7 +841,7 @@
       "knowledge": {
         "25": {
           "revealedIn": 25,
-          "description": "One of the Forsaken who has taken control of Andor by manipulating Queen Morgase through Compulsion.",
+          "description": "One of the ancient enemy who has taken control of Andor by manipulating Queen Morgase through Compulsion.",
           "role": "Andor controller",
           "relationships": {
             "Identity": "Lord Gaebril",
@@ -858,7 +858,7 @@
       "knowledge": {
         "25": {
           "revealedIn": 25,
-          "description": "Queen of Andor, under the influence of Rahvin's Compulsion. Her will has been subverted by the Forsaken.",
+          "description": "Queen of Andor, under the influence of Rahvin's Compulsion. Her will has been subverted by the ancient enemy.",
           "role": "Controlled monarch",
           "relationships": {
             "Controller": "Rahvin/Lord Gaebril",
@@ -1119,7 +1119,7 @@
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Red-haired Maiden of the Spear, one of those guarding the Dragon Reborn in the Stone.",
+          "description": "Red-haired Maiden of the Spear, one of those guarding the chosen one in the Stone.",
           "role": "Maiden guard",
           "relationships": {
             "Society": "Far Dareis Mai",
@@ -1153,7 +1153,7 @@
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Maiden of the Spear assigned to watch over the Dragon Reborn's activities.",
+          "description": "Maiden of the Spear assigned to watch over the chosen one's activities.",
           "role": "Watching Maiden",
           "relationships": {
             "Society": "Far Dareis Mai",
@@ -1517,7 +1517,7 @@
         "1": {
           "revealedIn": 1,
           "description": "Heavy-set woman traveling with Kadere's caravan. Actually Lanfear in disguise.",
-          "role": "Disguised Forsaken",
+          "role": "Disguised ancient enemy",
           "relationships": {
             "True identity": "Lanfear",
             "Disguise": "Merchant woman",
@@ -1669,7 +1669,7 @@
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "High Lord of Tear serving under the Dragon Reborn's rule. Adapts to the new order while maintaining his position.",
+          "description": "High Lord of Tear serving under the chosen one's rule. Adapts to the new order while maintaining his position.",
           "role": "Adaptable lord",
           "relationships": {
             "Ruler": "Rand al'Thor",
@@ -1686,7 +1686,7 @@
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "High Lord of Tear who must navigate serving the Dragon Reborn while protecting his own interests.",
+          "description": "High Lord of Tear who must navigate serving the chosen one while protecting his own interests.",
           "role": "Scheming lord",
           "relationships": {
             "Allegiance": "Reluctant to Rand",
@@ -1707,7 +1707,7 @@
           "role": "Ambitious lord",
           "relationships": {
             "Nature": "Politically ambitious",
-            "Service": "Under Dragon Reborn",
+            "Service": "Under chosen one",
             "Strategy": "Careful positioning"
           }
         }
@@ -1959,7 +1959,7 @@
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Tear city guard dealing with the changed dynamics of the city under the Dragon Reborn.",
+          "description": "Tear city guard dealing with the changed dynamics of the city under the chosen one.",
           "role": "City guard",
           "relationships": {
             "Duty": "City patrol",
@@ -2384,9 +2384,9 @@
     "two-rivers-4": {"name": "Bili", "aliases": [], "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58], "knowledge": {"29": {"revealedIn": 29, "description": "Young shepherd learning to fight.", "role": "Shepherd-warrior", "relationships": {"Training": "Combat skills", "Background": "Tending flocks"}}}},
     "two-rivers-5": {"name": "Flann", "aliases": [], "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58], "knowledge": {"29": {"revealedIn": 29, "description": "Miller's son joining the village defense.", "role": "Miller's son fighter", "relationships": {"Family": "Village miller", "Duty": "Village defense"}}}},
     "tear-lord-1": {"name": "Lord Simaan", "aliases": [], "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58], "knowledge": {"1": {"revealedIn": 1, "description": "Minor Tairen lord serving in the Stone.", "role": "Minor lord", "relationships": {"Service": "Stone of Tear", "Status": "Lesser nobility"}}}},
-    "tear-lord-2": {"name": "Lord Darlin", "aliases": [], "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58], "knowledge": {"1": {"revealedIn": 1, "description": "High Lord dealing with Dragon Reborn's rule.", "role": "Tairen High Lord", "relationships": {"Challenge": "New authority", "Position": "High nobility"}}}},
+    "tear-lord-2": {"name": "Lord Darlin", "aliases": [], "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58], "knowledge": {"1": {"revealedIn": 1, "description": "High Lord dealing with chosen one's rule.", "role": "Tairen High Lord", "relationships": {"Challenge": "New authority", "Position": "High nobility"}}}},
     "tear-lord-3": {"name": "Lord Hearne", "aliases": [], "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58], "knowledge": {"1": {"revealedIn": 1, "description": "Tairen lord adapting to Aiel presence.", "role": "Adapting lord", "relationships": {"Adjustment": "Aiel customs", "Location": "Stone of Tear"}}}},
-    "tear-lord-4": {"name": "Lord Maraconn", "aliases": [], "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58], "knowledge": {"1": {"revealedIn": 1, "description": "Lord managing Stone logistics under new regime.", "role": "Logistics manager", "relationships": {"Duty": "Stone operations", "Service": "Dragon Reborn"}}}},
+    "tear-lord-4": {"name": "Lord Maraconn", "aliases": [], "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58], "knowledge": {"1": {"revealedIn": 1, "description": "Lord managing Stone logistics under new regime.", "role": "Logistics manager", "relationships": {"Duty": "Stone operations", "Service": "chosen one"}}}},
     "tear-lord-5": {"name": "Lord Algarin", "aliases": [], "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58], "knowledge": {"1": {"revealedIn": 1, "description": "Scholarly lord interested in prophecies.", "role": "Scholar lord", "relationships": {"Interest": "Dragon prophecies", "Nature": "Academic"}}}},
     "tinker-band-1": {"name": "Gilan", "aliases": [], "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58], "knowledge": {"29": {"revealedIn": 29, "description": "Tinker craftsman in Raen's band.", "role": "Tinker artisan", "relationships": {"Band": "Raen's Tuatha'an", "Skill": "Metalwork"}}}},
     "tinker-band-2": {"name": "Sulwin", "aliases": [], "appearances": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58], "knowledge": {"29": {"revealedIn": 29, "description": "Young Tinker musician and storyteller.", "role": "Tinker musician", "relationships": {"Band": "Tuatha'an", "Skills": "Music and stories"}}}},
@@ -2436,7 +2436,7 @@
     "final-batch-5": {"name": "Aiel-Water-Seeker-1", "aliases": ["Gorin"], "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58], "knowledge": {"11": {"revealedIn": 11, "description": "Water Seeker with exceptional desert skills.", "role": "Water Seeker", "relationships": {"Society": "Duadhe Mahdi'in", "Skills": "Desert survival"}}}},
     "final-batch-6": {"name": "Tairen-Defender-1", "aliases": ["Jorik"], "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 54, 55, 56, 57, 58], "knowledge": {"1": {"revealedIn": 1, "description": "Defender of the Stone adapting to Aiel.", "role": "Stone Defender", "relationships": {"Duty": "Stone defense", "Challenge": "Aiel integration"}}}},
     "final-batch-7": {"name": "Trolloc-Fist-1", "aliases": ["Ghob'hlin"], "appearances": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41], "knowledge": {"31": {"revealedIn": 31, "description": "Trolloc leading attack fist against villages.", "role": "Trolloc Fist", "relationships": {"Command": "Trolloc fist", "Target": "Village raids"}}}},
-    "final-batch-8": {"name": "Draghkar-1", "aliases": ["Death-singer"], "appearances": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41], "knowledge": {"31": {"revealedIn": 31, "description": "Draghkar scouting for Shadowspawn forces.", "role": "Shadow scout", "relationships": {"Ability": "Soul-draining song", "Purpose": "Scouting"}}}},
+    "final-batch-8": {"name": "Draghkar-1", "aliases": ["Soul-singer"], "appearances": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41], "knowledge": {"31": {"revealedIn": 31, "description": "Draghkar scouting for Shadowspawn forces.", "role": "Shadow scout", "relationships": {"Ability": "Soul-draining song", "Purpose": "Scouting"}}}},
     "z-batch-1": {"name": "Aiel-Sept-1", "aliases": ["Janduin-sept"], "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58], "knowledge": {"11": {"revealedIn": 11, "description": "Aiel sept member following clan traditions.", "role": "Sept warrior", "relationships": {"Clan": "Taardad", "Society": "Various warrior societies"}}}},
     "z-batch-2": {"name": "Aiel-Sept-2", "aliases": ["Imran-sept"], "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58], "knowledge": {"11": {"revealedIn": 11, "description": "Shaido sept member supporting Couladin.", "role": "Shaido supporter", "relationships": {"Clan": "Shaido", "Leader": "Couladin"}}}},
     "z-batch-3": {"name": "Aiel-Sept-3", "aliases": ["Haido-sept"], "appearances": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 54, 55, 56, 57, 58], "knowledge": {"11": {"revealedIn": 11, "description": "Taardad sept member loyal to Rhuarc.", "role": "Clan loyalist", "relationships": {"Chief": "Rhuarc", "Allegiance": "Car'a'carn"}}}},
@@ -2470,9 +2470,9 @@
     "4": "Rand struggles with dreams of the past and visions of possible futures as his power and responsibilities grow.",
     "5": "The Aiel begin sharing their customs and beliefs with Rand, though many mysteries remain about their culture.",
     "6": "Moiraine attempts to guide Rand politically while the Stone becomes a center of prophecy and power.",
-    "7": "Various factions position themselves around the Dragon Reborn as news of his identity spreads across nations.",
+    "7": "Various factions position themselves around the chosen one as news of his identity spreads across nations.",
     "8": "Rand's relationship with the Aiel deepens as he learns more about their honor code and warrior traditions.",
-    "9": "Political machinations intensify as various rulers and powers react to the Dragon Reborn's emergence.",
+    "9": "Political machinations intensify as various rulers and powers react to the chosen one's emergence.",
     "10": "The Aiel reveal more of their prophecies about He Who Comes With the Dawn, matching their beliefs to Rand.",
     "11": "Egwene travels to the Aiel Waste with the Wise Ones to learn about Aiel culture and her own growing abilities.",
     "12": "Nynaeve and Elayne journey to Tanchico following leads about Black Ajah and dangerous ter'angreal.",
@@ -2481,7 +2481,7 @@
     "15": "Egwene's training with the Wise Ones reveals the depth of Aiel wisdom and their connection to dreams.",
     "16": "The search in Tanchico becomes dangerous as Black Ajah members work to retrieve powerful ter'angreal.",
     "17": "Rand prepares to travel to Rhuidean in the Aiel Waste to learn the truth about Aiel history and prophecy.",
-    "18": "Political tensions continue to build as the Dragon Reborn's actions affect kingdoms across the continent.",
+    "18": "Political tensions continue to build as the chosen one's actions affect kingdoms across the continent.",
     "19": "The journey to the Aiel Waste begins, with various groups traveling toward their separate destinations.",
     "20": "Egwene and Aviendha develop their friendship while learning about each other's cultures and abilities.",
     "21": "In Tanchico, the investigation into Black Ajah activities reveals a web of conspiracy and dangerous plots.",
@@ -2518,9 +2518,9 @@
     "52": "The transformed Two Rivers begins to play a larger role in continental politics and prophecy.",
     "53": "New responsibilities and relationships emerge from the crucible of battle and leadership.",
     "54": "Asmodean is captured by Rand and forced to become his teacher in the use of saidin and the One Power.",
-    "55": "The consequences of having a Forsaken as an unwilling teacher create new dangers and opportunities.",
+    "55": "The consequences of having a ancient enemy as an unwilling teacher create new dangers and opportunities.",
     "56": "Political and personal relationships shift as the various storylines begin to converge toward future conflicts.",
     "57": "Rand is acknowledged as Car'a'carn by the Aiel clans, though the Shaido under Couladin remain in rebellion.",
-    "58": "The stage is set for greater conflicts as the Dragon Reborn's growing power attracts both followers and enemies."
+    "58": "The stage is set for greater conflicts as the chosen one's growing power attracts both followers and enemies."
   }
 }

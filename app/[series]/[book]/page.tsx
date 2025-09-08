@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import ChapterSelector from '@/components/ChapterSelector';
 import Breadcrumb from '@/components/Breadcrumb';
 import StructuredData from '@/components/StructuredData';
+import RelatedSeries from '@/components/RelatedSeries';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -177,6 +178,8 @@ export default async function BookPage({
           </div>
         </div>
       </div>
+      
+      <RelatedSeries currentSeries={resolvedParams.series} />
     </div>
     </>
   );

@@ -31,8 +31,8 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "The Dragon Reborn, prophesied savior and destroyer. Faced Ba'alzamon at the Eye of the World.",
-          "role": "The Dragon Reborn",
+          "description": "The chosen one, prophesied savior and destroyer. Faced Ba'alzamon at the Eye of the World.",
+          "role": "The chosen one",
           "relationships": {
             "Enemy": "Ba'alzamon",
             "Ally": "The Creator"
@@ -238,7 +238,7 @@
         "9": {
           "revealedIn": 9,
           "description": "A figure of shadow and flame who appears in dreams. Claims to be the Dark One himself.",
-          "role": "Forsaken",
+          "role": "Ancient enemy",
           "relationships": {
             "Enemy": "Rand al'Thor",
             "Master": "The Dark One"
@@ -246,11 +246,11 @@
         },
         "51": {
           "revealedIn": 51,
-          "description": "One of the Forsaken, not the Dark One. Seeks to turn or destroy the Dragon Reborn.",
-          "role": "Forsaken Lord",
+          "description": "Ancient enemy, not the Dark One. Seeks to turn or destroy the chosen one.",
+          "role": "Enemy lord",
           "relationships": {
             "True identity": "Ishamael",
-            "Goal": "Corrupting the Dragon Reborn"
+            "Goal": "Corrupting the chosen one"
           }
         }
       }
@@ -1223,13 +1223,13 @@
     },
     "aginor": {
       "name": "Aginor",
-      "aliases": ["Forsaken"],
+      "aliases": ["Ancient enemy"],
       "appearances": [52, 53],
       "knowledge": {
         "52": {
           "revealedIn": 52,
-          "description": "One of the Forsaken, freed from his prison near the Eye of the World. Creator of Trollocs and other Shadowspawn.",
-          "role": "Forsaken",
+          "description": "Ancient enemy, freed from his prison near the Eye of the World. Creator of Trollocs and other Shadowspawn.",
+          "role": "Ancient enemy",
           "relationships": {
             "Creation": "Trollocs and Shadowspawn",
             "Prison": "Shayol Ghul",
@@ -1240,13 +1240,13 @@
     },
     "balthamel": {
       "name": "Balthamel",
-      "aliases": ["Forsaken"],
+      "aliases": ["Ancient enemy"],
       "appearances": [52, 53],
       "knowledge": {
         "52": {
           "revealedIn": 52,
-          "description": "One of the Forsaken, freed with Aginor. Wears a black mask to hide his decayed face.",
-          "role": "Forsaken",
+          "description": "Ancient enemy, freed with Aginor. Wears a black mask to hide his decayed face.",
+          "role": "Ancient enemy",
           "relationships": {
             "Ally": "Aginor",
             "Enemy": "The Green Man",
@@ -1313,8 +1313,8 @@
       "knowledge": {
         "51": {
           "revealedIn": 51,
-          "description": "The true identity of Ba'alzamon. First and strongest of the Forsaken, never fully sealed.",
-          "role": "First Forsaken",
+          "description": "The true identity of Ba'alzamon. First and strongest of the ancient enemies, never fully sealed.",
+          "role": "First enemy",
           "relationships": {
             "True name": "Ishamael",
             "False identity": "Ba'alzamon",
@@ -2130,11 +2130,11 @@
       "knowledge": {
         "1": {
           "revealedIn": 1,
-          "description": "Lews Therin's beloved wife from the Age of Legends, killed by him in his madness.",
+          "description": "Lews Therin's beloved wife from the Age of Legends. Their tragic story is part of ancient history.",
           "role": "Lews Therin's wife",
           "relationships": {
             "Husband": "Lews Therin Telamon",
-            "Fate": "Killed by mad Lews Therin"
+            "Fate": "Part of ancient tragedy"
           }
         }
       }
@@ -3033,7 +3033,7 @@
           "relationships": {
             "Prison": "Outside the Pattern",
             "Opposition": "The Creator",
-            "Servants": "Forsaken, Darkfriends, Shadowspawn"
+            "Servants": "Ancient enemies, Darkfriends, Shadowspawn"
           }
         }
       }
@@ -3363,7 +3363,7 @@
     "49": "Final preparations are made as the group prepares to enter the Blight, the corrupt wasteland where the Dark One's influence is strongest.",
     "50": "The journey through the Blight reveals a wasteland of corruption and evil. They encounter various dangers on the way to the Eye.",
     "51": "At the Eye of the World, they meet the Green Man, last of the Nym. The pool of untainted saidin represents hope against the corruption.",
-    "52": "Aginor and Balthamel, two of the Forsaken, attack at the Eye. The Green Man sacrifices himself to destroy Balthamel in the battle.",
-    "53": "Rand channels saidin from the Eye and defeats Aginor and Ba'alzamon. The Horn of Valere and a seal from the Dark One's prison are found."
+    "52": "Aginor and Balthamel, two ancient enemies, attack at the Eye. A fierce battle erupts between the forces of Light and Shadow.",
+    "53": "Rand channels saidin from the Eye and confronts the forces of Shadow. The Horn of Valere and a seal from the Dark One's prison are found."
   }
 }

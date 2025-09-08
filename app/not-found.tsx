@@ -1,6 +1,16 @@
 import Link from 'next/link';
 import { getAllSeries } from '@/lib/dataLoader';
 import BookSpine from '@/components/BookSpine';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Page Not Found - Spoiler-Free Character Guide',
+  description: 'The page you are looking for could not be found. Browse our collection of spoiler-free character guides for popular fantasy and sci-fi series.',
+  robots: {
+    index: false,
+    follow: true
+  }
+};
 
 export default async function NotFound() {
   const allSeries = await getAllSeries();
