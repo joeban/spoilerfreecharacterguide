@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Brown background circle -->
+  <rect width="32" height="32" rx="6" fill="#1a1108"/>
+  
+  <!-- Book spine (left side) -->
+  <rect x="6" y="6" width="3" height="20" fill="#8B4513" opacity="0.9"/>
+  
+  <!-- Book cover -->
+  <rect x="9" y="6" width="17" height="20" fill="#D2691E"/>
+  
+  <!-- Book cover gradient/shading -->
+  <rect x="9" y="6" width="17" height="20" fill="url(#bookGradient)" opacity="0.6"/>
+  
+  <!-- Book title lines (decorative) -->
+  <rect x="12" y="10" width="10" height="1.5" fill="#FFD700" opacity="0.8"/>
+  <rect x="12" y="13" width="7" height="1" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- Book bottom (pages) -->
+  <rect x="9" y="24" width="17" height="2" fill="#FFF8DC"/>
+  <rect x="6" y="24" width="3" height="2" fill="#F5DEB3"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -54,6 +54,11 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://spoilerfreecharacterguide.com'
+  },
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/favicon.ico',
+    apple: '/apple-icon.png',
   }
 }
 
