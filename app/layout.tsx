@@ -126,7 +126,7 @@ export default function RootLayout({
           </main>
           
           {/* Footer */}
-          <footer className="relative z-10 mt-auto">
+          <footer className="relative z-20 mt-auto">
             <div className="wooden-shelf h-16 px-8 flex items-center justify-center">
               {/* Footer text */}
               <div className="text-center">
@@ -135,7 +135,7 @@ export default function RootLayout({
                 </p>
                 <p className="text-amber-200/60 text-xs mt-1">
                   Found a mistake? <a href="mailto:spoilerfreecharacterguide@gmail.com" 
-                                     className="text-amber-400 hover:text-amber-300 underline transition-colors">
+                                     className="text-amber-400 hover:text-amber-300 underline transition-colors relative z-30">
                     Let us know
                   </a>
                 </p>
