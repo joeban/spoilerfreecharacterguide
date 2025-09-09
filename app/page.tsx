@@ -15,7 +15,7 @@ const LazyBookshelf = dynamic(() => import('@/components/LazyBookshelf'), {
 });
 
 export const metadata: Metadata = {
-  title: 'Track Book Characters Without Spoilers - Fantasy & Sci-Fi Series',
+  title: 'Spoiler-Free Character Guide - Track Book Characters Without Spoilers',
   description: 'The ultimate spoiler-free character guide for fantasy and sci-fi books. Track characters chapter by chapter in Harry Potter, Percy Jackson, Lord of the Rings, Dune, and more popular series.',
   keywords: ['spoiler-free character guide', 'book character tracker', 'fantasy book guide', 'sci-fi book guide', 'Harry Potter characters', 'Percy Jackson characters', 'LOTR characters', 'no spoilers reading'],
   alternates: {
@@ -25,7 +25,8 @@ export const metadata: Metadata = {
     title: 'Spoiler-Free Character Guide - Track Characters Without Spoilers',
     description: 'The ultimate spoiler-free character guide for fantasy and sci-fi books. Choose your chapter and see only what you need to know.',
     url: 'https://spoilerfreecharacterguide.com',
-    type: 'website'
+    type: 'website',
+    siteName: 'Spoiler-Free Character Guide'
   }
 };
 

@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://spoilerfreecharacterguide.com'),
   title: {
     default: 'Spoiler-Free Character Guide - Track Book Characters Without Spoilers',
-    template: '%s | Spoiler-Free Character Guide'
+    template: '%s | Spoiler-Free Character Guide',
+    absolute: 'Spoiler-Free Character Guide - Track Book Characters Without Spoilers'
   },
   description: 'Track characters in fantasy & sci-fi books without spoilers. Choose your chapter and see only what you need to know. Covers Harry Potter, Percy Jackson, LOTR, Dune & more.',
   keywords: ['spoiler-free', 'character guide', 'book characters', 'fantasy books', 'sci-fi books', 'reading companion', 'no spoilers', 'chapter by chapter'],
