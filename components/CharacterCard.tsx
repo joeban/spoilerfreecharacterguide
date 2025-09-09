@@ -99,7 +99,7 @@ export default function CharacterCard({ character }: CharacterCardProps) {
         
         {/* Description - abbreviated or full with consistent height */}
         <div className={`mb-2 ${!isExpanded ? 'min-h-[3.5rem]' : ''}`}>
-          <p className="text-base sm:text-lg text-parchment-primary text-readable leading-relaxed">
+          <p className="text-sm sm:text-base text-parchment-primary text-readable leading-relaxed">
             {isExpanded ? character.description : truncateDescription(character.description)}
           </p>
         </div>
@@ -118,8 +118,8 @@ export default function CharacterCard({ character }: CharacterCardProps) {
             {/* Relationships section with improved formatting */}
             {character.relationships && Object.keys(character.relationships).length > 0 && (
               <div className="border-t border-stone-300 pt-4">
-                <h4 className="text-base font-heading font-semibold mb-2 text-parchment-primary">Relationships:</h4>
-                <div className="text-base space-y-1.5">
+                <h4 className="text-sm font-heading font-semibold mb-2 text-parchment-primary">Relationships:</h4>
+                <div className="text-sm space-y-1.5">
                   {Object.entries(character.relationships).map(([person, relation]) => (
                     <div key={person} className="flex items-start">
                       <span className="text-stone-500 mr-2">•</span>
